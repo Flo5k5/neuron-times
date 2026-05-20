@@ -1,0 +1,47 @@
+name: Regenerate index
+
+on:
+  push:
+    paths:
+      - 'reports/**'
+      - 'build_index.py'
+    branches: [main]
+  workflow_dispatch: # allow manual trigger from Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  build-index:
+    runs-on: ubuntu-latest
+    # Skip if this push was made by the index bot itself (avoid infinite loop).
+    # We rely on actor check, not commit message interpolation, to avoid
+    # workflow injection risks from untrusted commit message content.
+    if: github.actor != 'github-actions[bot]'
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Regenerate index.html + latest.html
+        run: python build_index.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "Index Bot"
+          git config user.email "bot@neuron-times.com"
+          git add index.html latest.html
+          if git diff --staged --quiet; then
+            echo "[info] no changes to index.html or latest.html"
+          else
+            git commit -m "regenerate index"
+            git push
+            echo "[ok] index.html and latest.html committed and pushed"
+          fi

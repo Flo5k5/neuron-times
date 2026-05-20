@@ -1,0 +1,135 @@
+{
+  "edition": {
+    "title": "La Veille IA",
+    "tagline": "Tous les signaux de l'intelligence artificielle qui méritent d'être imprimés",
+    "vol": "I",
+    "num": "1",
+    "date_long": "Mercredi 20 mai 2026",
+    "date_iso": "2026-05-20",
+    "edition_type": "Édition du matin",
+    "city": "Genève",
+    "motto": "All the AI that's fit to print",
+    "pages_count": 4
+  },
+  "lead": {
+    "kicker": "À la Une · Google I/O 2026",
+    "headline": "Gemini 3.5 Flash bouscule la frontière à vitesse Flash",
+    "subdeck": "Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.",
+    "byline": "De notre correspondant à Mountain View — 20 mai 2026",
+    "paragraphs": [
+      "Le 19 mai, en plein cœur de la conférence Google I/O 2026, DeepMind a dévoilé <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/\">Gemini 3.5 Flash</a>, présenté comme « frontier performance for agents and coding ».",
+      "La <a href=\"https://deepmind.google/models/model-cards/gemini-3-5-flash/\">model card officielle</a> détaille un context window d'un million de tokens et une couverture multimodale complète. Le score de 83,6 % sur MCP Atlas confirme que Google adopte publiquement le protocole MCP créé par Anthropic.",
+      "Le modèle est disponible immédiatement via le Gemini API, Google AI Studio, Antigravity et la Gemini Enterprise Agent Platform."
+    ]
+  },
+  "sidebar": [
+    {"tag":"Majeur","headline":"Anthropic externalise l'exécution agentic","wire":"From the Wires — 19 mai","body":"Les <a href=\"https://claude.com/blog/claude-managed-agents-updates\">Claude Managed Agents</a> introduisent les <em>self-hosted sandboxes</em> et les <em>MCP tunnels</em>. L'exécution part chez Cloudflare, Daytona, Modal ou Vercel.","page":2},
+    {"tag":"Majeur","headline":"GPT-5.5 surgit chez Databricks","wire":"From the Wires — 15 mai","body":"Annoncé sans fanfare dans <a href=\"https://openai.com/index/databricks\">un billet d'OpenAI</a>. État de l'art sur OfficeQA Pro pour les workflows agentic d'entreprise.","page":2},
+    {"tag":"Majeur","headline":"DeepSeek-V4 dévoile son million de tokens","wire":"From the Wires — 24 avril","body":"« A million-token context that agents can actually use » titre <a href=\"https://huggingface.co/blog/deepseekv4\">Hugging Face</a>. Reasoning de classe mondiale.","page":3},
+    {"tag":"Majeur","headline":"Google AI : Plus, Pro, Ultra à 100 dollars","wire":"From the Wires — 19 mai","body":"Refonte complète <a href=\"https://blog.google/products/google-one/\">des offres Google AI</a> : palier Plus, Ultra à 100 $/mois.","page":4}
+  ],
+  "pages": [
+    {
+      "num": 1,
+      "label": "À la Une",
+      "kicker": "Édition spéciale Google I/O 2026",
+      "sections": [
+        {
+          "num": "I", "title": "Modèles & Frontière", "layout": "3-cols",
+          "articles": [
+            {"kicker":"Anthropic","headline":"Stainless rejoint le giron Anthropic","wire":"From the Wires — 18 mai","body":"Le 18 mai, <a href=\"https://www.anthropic.com/news\">Anthropic a annoncé l'acquisition de Stainless</a>, société spécialisée dans la génération automatique de SDK. Le mouvement préfigure une stratégie API-first plus serrée."},
+            {"kicker":"Anthropic · Microsoft","headline":"Claude entre dans Excel, Word et Outlook","wire":"From the Wires — 7 mai","body":"Avec <a href=\"https://claude.com/blog\">la disponibilité dans Microsoft 365</a>, Anthropic place Claude en concurrence frontale avec Copilot dans l'ergonomie native des outils Office."},
+            {"kicker":"Anthropic · AWS","headline":"La Claude Platform débarque sur AWS","wire":"From the Wires — 11 mai","body":"Sans passer par Bedrock, <a href=\"https://claude.com/blog\">Anthropic distribue Claude directement</a> sur AWS Marketplace."},
+            {"kicker":"DeepMind · Omni","headline":"Gemini Omni : « tout depuis tout »","wire":"From the Wires — 17 mai","body":"<a href=\"https://deepmind.google/models/gemini-omni/\">Gemini Omni</a>, modèle multimodal génératif, propose un montage vidéo conversationnel respectueux de la physique."},
+            {"kicker":"DeepMind · Antigravity","headline":"Antigravity 2.0 : la plateforme agentic de Google","wire":"From the Wires — 17 mai","body":"<a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Antigravity 2.0</a> est la réponse directe de Google aux Managed Agents d'Anthropic."},
+            {"kicker":"OpenAI · Dell","headline":"Codex se déploie sur l'infrastructure hybride","wire":"From the Wires — 18 mai","body":"OpenAI scelle <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">un partenariat avec Dell</a> pour distribuer Codex en environnements hybrides et on-premise."},
+            {"kicker":"DeepSeek","headline":"V4 promet un contexte vraiment utilisable","wire":"From the Wires — 24 avril","body":"Le titre <a href=\"https://huggingface.co/blog/deepseekv4\">« a million-token context that agents can actually use »</a> claque sur le blog Hugging Face."},
+            {"kicker":"xAI · Coding","headline":"Grok Build CLI s'invite à la table","wire":"From the Wires — 15 mai","body":"xAI lance <a href=\"https://x.ai/news/grok-build-cli\">Grok Build</a>, agent de codage en ligne de commande. Quatrième CLI d'agent en six semaines."},
+            {"kicker":"NVIDIA","headline":"Nemotron 3 Nano Omni","wire":"From the Wires — 28 avril","body":"<a href=\"https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence\">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte dans une enveloppe nano."}
+          ]
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "label": "Le Cahier Technique",
+      "kicker": "Agents de codage · Sandboxs · Infrastructure",
+      "sections": [
+        {
+          "num": "II", "title": "Agents de Codage", "layout": "3-cols",
+          "articles": [
+            {"kicker":"claude-code v2.1.145","headline":"Anthropic muscle son agent","wire":"Release — 19 mai 21h31","body":"Les <a href=\"https://github.com/anthropics/claude-code/releases\">releases 142 à 145</a> introduisent l'Agent View, la commande <code>/goal</code>, le flag <code>claude agents --json</code>, et passent Opus 4.7 en mode par défaut."},
+            {"kicker":"codex CLI","headline":"Codex sort de l'IDE","wire":"Releases · annonces enterprise","body":"Les annonces <a href=\"https://openai.com/index/work-with-codex-from-anywhere\">« Work from anywhere »</a> et <a href=\"https://openai.com/index/building-codex-windows-sandbox\">Codex Windows sandbox</a> placent OpenAI sur le terrain du computer-use."},
+            {"kicker":"gemini-cli 0.43","headline":"Gemini 3 Flash arrive dans le terminal","wire":"Release — 19 mai","body":"La <a href=\"https://github.com/google-gemini/gemini-cli/releases\">version 0.43</a> intègre Gemini 3 Flash : performance Pro à coût Flash."}
+          ]
+        },
+        {
+          "num": "III", "title": "Sandboxs & Infrastructure", "layout": "3-cols",
+          "articles": [
+            {"kicker":"Cloudflare · Agents Week","headline":"Agents Week 2026 recap","wire":"20 avril","body":"<a href=\"https://blog.cloudflare.com/agents-week-in-review/\">Une semaine d'annonces agentic</a> : AI Platform unifiée, Email Service, Mesh privé, Dynamic Workers sandboxant 100× plus vite."},
+            {"kicker":"Cloudflare · AI Platform","headline":"Inference layer designed for agents","wire":"16 avril","body":"L'<a href=\"https://blog.cloudflare.com/ai-platform/\">AI Platform Cloudflare</a> intègre désormais 14 fournisseurs de modèles avec binding Workers AI natif."},
+            {"kicker":"Cloudflare · Email","headline":"Email Service pour agents en beta publique","wire":"16 avril","body":"<a href=\"https://blog.cloudflare.com/email-for-agents/\">Email natif pour agents</a> : envoyer, recevoir et traiter des emails depuis un agent."},
+            {"kicker":"Cloudflare · Mesh","headline":"Networking privé pour agents","wire":"14 avril","body":"<a href=\"https://blog.cloudflare.com/mesh/\">Cloudflare Mesh</a> : accès scoped aux ressources privées pour agents et Workers."},
+            {"kicker":"Cloudflare · Agent Lee","headline":"Dashboard agent sandboxé","wire":"15 avril","body":"<a href=\"https://blog.cloudflare.com/introducing-agent-lee/\">Agent Lee</a> simplifie la gestion de la stack via prompts conversationnels en TypeScript sandboxé."},
+            {"kicker":"Cloudflare · Dynamic Workers","headline":"Sandboxing AI agents 100× plus vite","wire":"24 mars","body":"<a href=\"https://blog.cloudflare.com/dynamic-workers/\">Dynamic Workers</a> permettent l'exécution sécurisée de code AI-généré 100 fois plus vite que les containers traditionnels."}
+          ]
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "label": "La Recherche",
+      "kicker": "Papers · Embeddings · Inférence · Architectures",
+      "sections": [
+        {
+          "num": "IV", "title": "Le Carnet d'Apple ML Research", "layout": "3-cols",
+          "articles": [
+            {"kicker":"Apple ML · 6 mai","headline":"SpecMD optimise le prefetching d'experts MoE","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/specmd-expert-prefetching\">L'étude SpecMD</a> propose un framework d'évaluation des politiques de cache d'experts MoE, avec implications directes sur les déploiements Apple Silicon."},
+            {"kicker":"Apple ML · 11 mai","headline":"BalCapRL équilibre le RL pour MLLM","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a> adresse les trade-offs de qualité dans le captionnage multimodal via reinforcement learning équilibré."},
+            {"kicker":"Apple ML · 8 mai","headline":"3D Gaussian Head Reconstruction","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a> permet la reconstruction 3D de têtes depuis des configurations multi-caméras."},
+            {"kicker":"Apple ML · 8 mai","headline":"RVPO : Risk-Sensitive Alignment","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> pénalise la variance de récompense pour assurer une performance consistante en alignment multi-objectifs."},
+            {"kicker":"Apple ML · 7 mai","headline":"TC-JEPA : visual representations","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations\">TC-JEPA</a> utilise des captions pour améliorer la prédiction de features masquées."},
+            {"kicker":"Apple ML · 6 mai","headline":"SFI-Bench : spatial-functional intelligence","wire":"Paper publié","body":"<a href=\"https://machinelearning.apple.com/research/spatial\">SFI-Bench</a> évalue les LLMs multimodaux sur le raisonnement spatial via vidéo egocentrée."}
+          ]
+        },
+        {
+          "num": "V", "title": "HuggingFace Blog — Top du mois", "layout": "3-cols",
+          "articles": [
+            {"kicker":"AllenAI · 19 mai","headline":"OlmoEarth v1.1","wire":"Model Release","body":"<a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">AllenAI</a> publie une famille de modèles Earth observation plus efficiente."},
+            {"kicker":"IBM · 14 mai","headline":"Granite Embedding Multilingual R2","wire":"Model Release","body":"<a href=\"https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2\">Granite</a> revendique le meilleur retrieval sub-100M sous Apache 2.0, 32K context multilingue."},
+            {"kicker":"IBM · 18 mai","headline":"Open Agent Leaderboard","wire":"Benchmark","body":"<a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">IBM Research</a> publie un nouveau bench d'évaluation d'agents cross-vendor."},
+            {"kicker":"NVIDIA · 28 avril","headline":"Nemotron 3 Nano Omni multimodal","wire":"Model Release","body":"<a href=\"https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence\">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte dans une enveloppe nano."},
+            {"kicker":"HuggingFace · 14 mai","headline":"Async continuous batching","wire":"Library Update","body":"<a href=\"https://huggingface.co/blog/continuous_async\">L'asynchronicité</a> débloquée dans le batching continu améliore significativement le throughput d'inférence transformer."},
+            {"kicker":"ServiceNow · 6 mai","headline":"vLLM V0 → V1 correctness for RL","wire":"Library Update","body":"<a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">vLLM</a> améliore l'inférence pour les workflows de reinforcement learning."},
+            {"kicker":"NVIDIA · 18 mai","headline":"Cosmos Predict 2.5 LoRA/DoRA","wire":"Tutorial","body":"<a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">Fine-tuning Cosmos Predict 2.5</a> avec LoRA/DoRA pour la robot video generation."},
+            {"kicker":"HuggingFace · 16 avril","headline":"Transformers vers MLX","wire":"Pattern","body":"<a href=\"https://huggingface.co/blog/transformers-to-mlx\">PR pattern automatique</a> qui facilite le portage entre Transformers et MLX, pertinent pour Apple Silicon."},
+            {"kicker":"PaddlePaddle · 18 mai","headline":"PaddleOCR 3.5 + Transformers","wire":"Library Update","body":"<a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">PaddleOCR 3.5</a> avec backend Transformers natif."}
+          ]
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "label": "La Communauté & Édito",
+      "kicker": "Hacker News · Chronique stratégique",
+      "sections": [
+        {
+          "num": "VI", "title": "La Communauté Hacker News", "layout": "2-cols",
+          "articles": [
+            {"kicker":"HN · 20 mai","headline":"Infrawise : MCP server infra context","wire":"Show HN","body":"<a href=\"https://news.ycombinator.com/item?id=48205497\">Infrawise</a> donne à Claude Code un contexte d'infrastructure précis via MCP. Pattern intéressant pour les agents conscients de leur environnement de déploiement."},
+            {"kicker":"HN · 20 mai","headline":"Agent Thread : sessions claude-code publiques","wire":"Show HN","body":"<a href=\"https://news.ycombinator.com/item?id=48204980\">Agent Thread</a> partage des sessions claude-code et codex sous forme de liens publics. La collaboration sur les workflows agentic s'organise."},
+            {"kicker":"HN · 20 mai","headline":"100 000 lignes de Rust avec IA","wire":"Deep dive","body":"<a href=\"https://news.ycombinator.com/item?id=48205415\">Retour d'expérience approfondi</a> sur le passage à l'échelle du développement Rust assisté par IA. Lecture recommandée."},
+            {"kicker":"HN · 20 mai","headline":"Trois générations d'applications IA","wire":"Framework","body":"<a href=\"https://news.ycombinator.com/item?id=48204832\">Cadre conceptuel</a> distinguant conversationnel, délégatif et collaboratif comme étapes d'évolution des apps IA."}
+          ]
+        },
+        {
+          "num": "VII", "title": "Le Chronique Stratégique", "layout": "editorial",
+          "articles": [
+            {"kicker":"Éditorial","headline":"La standardisation MCP arrive plus vite que prévu","wire":"Par la rédaction","body":"Le 19 mai 2026 restera comme une date charnière. Non pas pour Gemini 3.5 Flash, ni pour les Claude Managed Agents pris isolément, mais pour ce que ces annonces révèlent ensemble : <em>le protocole MCP, créé par Anthropic pour ses propres outils, est devenu un standard d'industrie</em>. <a href=\"https://deepmind.google/models/model-cards/gemini-3-5-flash/\">Google le mesure publiquement</a> via MCP Atlas. Anthropic en fait son canal d'exposition enterprise via les <a href=\"https://claude.com/blog/claude-managed-agents-updates\">MCP tunnels</a>. La frontière entre les écosystèmes labos s'efface."},
+            {"kicker":"Suite de l'éditorial","headline":"Quatre laboratoires, une convergence","wire":"","body":"Pour le praticien — celui qui maintient quelques serveurs MCP internes — la conséquence est concrète : les MCP servers développés aujourd'hui sont portables demain vers Gemini Enterprise Agent Platform, Antigravity, ou ce qu'OpenAI sortira sous le nom de Managed Agents. L'investissement dans MCP n'est plus locked-in chez Anthropic. <strong>Les sandbox providers</strong> (Cloudflare, Daytona, Modal, Vercel) deviennent le tissu connectif entre les boucles d'orchestration des labos et les infrastructures des entreprises."}
+          ]
+        }
+      ]
+    }
+  ]
+}
