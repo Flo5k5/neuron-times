@@ -2,41 +2,49 @@
 
 > All the AI that's fit to print
 
-A daily AI watch newspaper, broadsheet old-school style with commutable themes.
+Votre édition quotidienne de la veille IA, condensée dans un journal broadsheet old-school. Publiée tous les matins à 7h CET.
 
-**Live :** [https://neuron-times.com](https://neuron-times.com)
-**Mirror redirect :** `the-ai-loop.com` → `neuron-times.com` (301)
+**→ [https://neuron-times.com](https://neuron-times.com)**
 
-## What is this
+## L'idée
 
-A daily-generated, static HTML report aggregating the most significant signals from the AI ecosystem — frontier models, coding agents, infrastructure, research papers, community signals. Inspired by traditional broadsheet newspapers (NYT, Le Monde, Guardian) with modern interactive enhancements (theme switcher, multi-page navigation, 3D page transitions).
+L'écosystème IA produit plus de signal en une semaine qu'un humain peut absorber en un mois. Twitter, arXiv, Hugging Face, blogs labos, GitHub releases : la veille devient un travail à temps plein.
 
-## Repo structure
+Ce site lit pour vous. Chaque matin, une centaine de sources sont parcourues, classées, et synthétisées en une édition au format broadsheet. Les annonces majeures en Une, les signaux secondaires en sidebar, les analyses techniques en pages intérieures.
 
-```
-neuron-times/
-├── reports/                    Daily reports (YYYY-MM-DD.html + .json + .md)
-├── latest.html                 Mirror of the most recent report (stable URL)
-├── index.html                  Archive index, auto-regenerated on push
-├── CNAME                       Custom domain config for GitHub Pages
-├── build_index.py              Script that regenerates index.html from reports/*.json
-└── .github/workflows/
-    └── regenerate-index.yml    Workflow rebuilding index on push to reports/
-```
+Objectif : 5 minutes de lecture le matin = veille IA à jour pour la journée.
 
-## Themes
+## Ce que vous trouvez chaque jour
 
-Each report HTML embeds 4 commutable themes (top-bar switcher, persisted via localStorage) :
+- **À la Une** : un papier long sur l'annonce du jour (release de modèle, M&A, breakthrough recherche)
+- **From the Wires** : 4 signaux majeurs en bref
+- **Le Cahier Technique** : models, infra, agents
+- **La Recherche** : papers et benchmarks
+- **La Communauté** : ce qui agite Hugging Face, Reddit, X
 
-- **Times Victorien** — Bodoni Moda, monochrome strict ivoire (1850-1900 Times of London style)
-- **Le Monde Classique** — EB Garamond + bleu de Prusse (1960-1980 broadsheet français)
-- **Almanach Sépia** — IM Fell English + Pinyon Script + ornements floraux (1900-1920 journal rural)
-- **Gazette du Soir** — Abril Fatface + bandeau rouge sang (1930-1960 tabloïd dramatique)
+Tout en français, ton journalistique, sources cliquables vers les annonces originales.
 
-## Self-contained
+## 4 thèmes commutables
 
-Each HTML report is fully self-contained : CSS inline, Google Fonts via CDN, JS minimal (theme switcher + page navigation). Works offline once loaded, portable, archivable.
+Un bouton en haut de page bascule entre 4 esthétiques broadsheet historiques :
+
+- **Times Victorien** — 1850-1900 Times of London, monochrome ivoire strict, Bodoni Moda
+- **Le Monde Classique** — 1960-1980 broadsheet français, EB Garamond, bleu de Prusse
+- **Almanach Sépia** — 1900-1920 journal rural, IM Fell English, ornements floraux
+- **Gazette du Soir** — 1930-1960 tabloïd, Abril Fatface, bandeau rouge sang
+
+Préférence persistée dans le navigateur. Effet de flip 3D entre les pages (4 pages naviguables).
+
+## Format
+
+Static HTML servi via GitHub Pages, custom domain, HTTPS Let's Encrypt. Tout est versionné : `reports/YYYY-MM-DD.html` pour chaque édition, `reports/YYYY-MM-DD.json` pour les données structurées (parsing programmatique).
+
+Self-contained : CSS inline, JS minimal (theme switcher + navigation), Google Fonts via CDN. Une édition fait ~60 KB. Fonctionne offline une fois ouverte. Archivable, partageable.
+
+## Archives
+
+Toutes les éditions passées sont indexées sur la [page d'accueil](https://neuron-times.com) et disponibles dans le dossier [`reports/`](./reports/) du repo.
 
 ## License
 
-The reports content is curated from publicly available sources with attribution links. The visual design (HTML template, CSS, themes) is original work.
+Le contenu des éditions est synthétisé depuis des sources publiques avec liens d'attribution. Le design (HTML, CSS, thèmes) est original.
