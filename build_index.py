@@ -17,7 +17,7 @@ Convention : reports/YYYY-MM-DD.json contient au minimum :
 
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
@@ -90,7 +90,7 @@ def render_index(reports):
 
     total = len(reports)
     latest_date = reports[0]["date_long"] if reports else ""
-    build_time = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+    build_time = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     return f"""<!DOCTYPE html>
 <html lang="fr">
