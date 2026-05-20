@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Neuron Times — Jeudi 21 mai 2026</title>
+<meta name="description" content="Mountain View annonce une centaine de nouveautés autour de son écosystème Gemini ; à San Francisco, un modèle d'OpenAI réfute une conjecture vieille de quatre-vingts ans en géométrie discrète.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; }
+.article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+<main class="paper">
+  <header class="masthead">
+    <h1>The Neuron Times</h1>
+    <p class="tagline">All the AI that's fit to print</p>
+    <div class="meta">
+      <span>Vol. I · N° 142</span>
+      <span>Jeudi 21 mai 2026</span>
+      <span>Édition du matin · Genève</span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <p class="kicker">À la Une · Frontière</p>
+    <h2>Google I/O 2026 dévoile Gemini Omni et Antigravity 2.0, OpenAI réplique avec une percée mathématique</h2>
+    <p class="subdeck">Mountain View annonce une centaine de nouveautés autour de son écosystème Gemini ; à San Francisco, un modèle d'OpenAI réfute une conjecture vieille de quatre-vingts ans en géométrie discrète.</p>
+    <p class="byline">De la rédaction — 21 mai 2026</p>
+    <p>La conférence annuelle Google I/O, refermée cette semaine, a vu DeepMind et Google placer leur ligne <em>Gemini</em> au centre du dispositif. Parmi la centaine d'annonces recensées par le blog officiel, deux pièces maîtresses émergent : <a href="https://deepmind.google/blog/introducing-gemini-omni/">Gemini Omni</a>, présenté comme le successeur multimodal de la famille, et <a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Google Antigravity 2.0</a>, nouvelle itération de la plateforme d'agents de développement. Le résumé exhaustif est publié sur <a href="https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/">le blog Google</a>.</p>
+<p>Le même jour, OpenAI a annoncé qu'un de ses modèles a <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture">réfuté une conjecture centrale en géométrie discrète</a>, en résolvant le problème dit des distances unités, ouvert depuis quatre-vingts ans. L'entreprise présente le résultat comme un jalon dans l'usage de modèles de raisonnement pour la recherche mathématique fondamentale, après une série d'expériences déjà documentées dans la communauté.</p>
+<p>En coulisses, l'API d'OpenAI poursuit son nettoyage : depuis le 12 mai, les snapshots <em>dall-e-2</em>, <em>dall-e-3</em> et la Realtime API Beta ont été retirés au profit de <em>gpt-image-2</em> et de la Realtime API en disponibilité générale, indique le <a href="https://platform.openai.com/docs/changelog">changelog officiel</a>. Une journée riche, qui confirme la bascule du secteur vers une compétition à deux étages : produits grand public d'un côté, capacités scientifiques de l'autre.</p>
+  </section>
+
+  <section class="sidebar">
+    <article class="sidebar-item"><span class="tag">Majeur</span><h3>DeepMind ouvre Project Genie aux abonnés Ultra</h3><p class="wire">From the Wires — 17 mai 2026</p><p>Google DeepMind annonce l'élargissement mondial de l'accès à <a href="https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/">Project Genie</a> aux abonnés Google AI Ultra, avec une intégration inédite à Street View pour simuler des lieux réels.</p></article>
+<article class="sidebar-item"><span class="tag">Recherche</span><h3>Co-Scientist contribue à inverser le vieillissement cellulaire</h3><p class="wire">From the Wires — 18 mai 2026</p><p>Des biologistes rapportent dans <a href="https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/">un billet DeepMind</a> avoir utilisé Co-Scientist pour identifier de nouveaux facteurs capables de rajeunir des cellules humaines.</p></article>
+<article class="sidebar-item"><span class="tag">Outils</span><h3>OpenAI étend les MCP privés aux entreprises</h3><p class="wire">From the Wires — 19 mai 2026</p><p>OpenAI a libéré le <a href="https://platform.openai.com/docs/changelog">Secure MCP Tunnel</a>, qui permet à ChatGPT, Codex, Responses API et AgentKit de se connecter à des serveurs MCP privés sans les exposer à l'Internet public.</p></article>
+<article class="sidebar-item"><span class="tag">Communauté</span><h3>Claude Code v2.1.145 muscle ses agents</h3><p class="wire">From the Wires — 20 mai 2026</p><p>Anthropic publie <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.145">Claude Code v2.1.145</a> avec un <code>claude agents --json</code> pour scripter les sessions et de nouveaux attributs OTEL pour les sous-agents.</p></article>
+  </section>
+
+  <section class="page" data-page="1">
+<h2 class="page-label">Page 1 — À la Une</h2>
+<div class="section section-3-cols">
+<h3 class="section-title">I. Modèles & Frontière</h3>
+<article class="article"><p class="kicker"></p><h4>Gemini Omni au cœur d'I/O 2026</h4><p class="wire"></p><div class="body">DeepMind a officialisé <a href="https://deepmind.google/blog/introducing-gemini-omni/">Gemini Omni</a> lors de l'édition 2026 de Google I/O. La firme positionne ce nouveau venu comme un modèle unifié pour le texte, l'image, l'audio et la vidéo, en remplacement progressif des déclinaisons spécialisées.</div></article>
+<article class="article"><p class="kicker"></p><h4>Antigravity 2.0 vise les agents de développement</h4><p class="wire"></p><div class="body">Annoncé en parallèle, <a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Google Antigravity 2.0</a> repositionne la plateforme d'agents code comme un environnement de développement assisté. L'éventail complet des annonces I/O figure dans le <a href="https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/">récapitulatif officiel</a>.</div></article>
+<article class="article"><p class="kicker"></p><h4>OpenAI casse un verrou mathématique vieux de 80 ans</h4><p class="wire"></p><div class="body">Selon <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture">OpenAI</a>, un de ses modèles a résolu le problème des distances unités en géométrie discrète, réfutant une conjecture longtemps tenue pour acquise — un test grandeur nature de la capacité des LLM à produire des contributions mathématiques originales.</div></article>
+</div>
+</section>
+<section class="page" data-page="2">
+<h2 class="page-label">Page 2 — Le Cahier Technique</h2>
+<div class="section section-2-cols">
+<h3 class="section-title">II. Harnais & agents de code</h3>
+<article class="article"><p class="kicker"></p><h4>Claude Code passe en 2.1.145</h4><p class="wire"></p><div class="body">La <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.145">version 2.1.145</a> introduit <code>claude agents --json</code> pour piloter les sessions depuis tmux ou des status bars, ajoute <code>agent_id</code>/<code>parent_agent_id</code> aux spans OTEL <code>claude_code.tool</code>, et corrige un contournement de prompt de permission via assignations de variables Bash. La précédente <a href="https://github.com/anthropics/claude-code/releases/tag/v2.1.144">2.1.144</a> avait étendu <code>/resume</code> aux sessions <code>--bg</code>.</div></article>
+<article class="article"><p class="kicker"></p><h4>Codex CLI publie une 0.132.0 plus structurée</h4><p class="wire"></p><div class="body">OpenAI a livré <a href="https://github.com/openai/codex/releases/tag/rust-v0.132.0">Codex 0.132.0</a> avec une authentification de première classe pour le SDK Python (clé API, flux ChatGPT et device code), des <code>TurnResult</code> enrichis, et un <code>codex exec resume --output-schema</code> qui préserve le contexte de session tout en imposant une sortie JSON. Trois pre-releases <a href="https://github.com/openai/codex/releases/tag/rust-v0.133.0-alpha.3">0.133.0-alpha</a> ont suivi dès le lendemain.</div></article>
+<article class="article"><p class="kicker"></p><h4>Gemini CLI : un preview 0.43 pour rentrer dans le rang</h4><p class="wire"></p><div class="body">Le robot de release de Google a poussé <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1">v0.43.0-preview.1</a>, une cherry-pick de stabilisation, tandis que les nightlies de la branche <a href="https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260518.g5611ff40e">0.44</a> introduisent un flag <code>adk.agentSessionSubagentEnabled</code> pour les sous-agents.</div></article>
+</div>
+<div class="section section-2-cols">
+<h3 class="section-title">III. Moteurs & inférence</h3>
+<article class="article"><p class="kicker"></p><h4>OpenAI API : retraits et nouveaux modèles d'images</h4><p class="wire"></p><div class="body">Le <a href="https://platform.openai.com/docs/changelog">changelog OpenAI</a> entérine la déprécation au 12 mai de <em>dall-e-2</em>, <em>dall-e-3</em> et de la Realtime API Beta. La <a href="https://platform.openai.com/docs/changelog">Responses API</a> gagne un <code>return_token_budget</code> pour des recherches web GPT-5 plus longues, tandis que <em>gpt-image-2</em> devient le modèle d'image recommandé.</div></article>
+<article class="article"><p class="kicker"></p><h4>Codex Plugin : OpenAI s'invite dans son propre IDE</h4><p class="wire"></p><div class="body">OpenAI a publié un <a href="https://platform.openai.com/docs/changelog">plugin Developers pour Codex</a>, censé guider la configuration des API et l'accès à la plateforme depuis l'environnement Codex, en miroir des plugins concurrents pour Claude Code et Gemini CLI.</div></article>
+</div>
+</section>
+<section class="page" data-page="3">
+<h2 class="page-label">Page 3 — La Recherche</h2>
+<div class="section section-2-cols">
+<h3 class="section-title">IV. Science & modèles ouverts</h3>
+<article class="article"><p class="kicker"></p><h4>Mathématiques : un modèle d'OpenAI réfute une conjecture</h4><p class="wire"></p><div class="body">OpenAI rapporte qu'un de ses modèles a apporté une <a href="https://openai.com/index/model-disproves-discrete-geometry-conjecture">réfutation au problème des distances unités</a>, un résultat présenté comme la première contribution d'un LLM à la géométrie discrète. L'équipe insiste sur le caractère vérifiable de la preuve.</div></article>
+<article class="article"><p class="kicker"></p><h4>Co-Scientist : pistes génétiques contre le vieillissement</h4><p class="wire"></p><div class="body">Une équipe utilisant Co-Scientist affirme avoir identifié <a href="https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/">de nouveaux facteurs capables de rajeunir des cellules humaines</a>. Le même billet annonce une étude parallèle sur les <a href="https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/">interrupteurs moléculaires</a> des maladies infectieuses émergentes.</div></article>
+<article class="article"><p class="kicker"></p><h4>OlmoEarth v1.1 affine l'observation de la Terre</h4><p class="wire"></p><div class="body">Allen AI publie <a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">OlmoEarth v1.1</a>, une famille de modèles d'observation de la Terre revendiquant une meilleure efficacité d'entraînement et d'inférence.</div></article>
+<article class="article"><p class="kicker"></p><h4>Ettin : une famille de rerankers ouverts</h4><p class="wire"></p><div class="body">Un consortium académique présente sur Hugging Face <a href="https://huggingface.co/blog/ettin-reranker">l'Ettin Reranker Family</a>, conçue pour la recherche d'information neuronale et publiée avec son protocole d'évaluation.</div></article>
+</div>
+</section>
+<section class="page" data-page="4">
+<h2 class="page-label">Page 4 — La Communauté & Édito</h2>
+<div class="section section-2-cols">
+<h3 class="section-title">V. Écosystème & sciences appliquées</h3>
+<article class="article"><p class="kicker"></p><h4>Singapour scelle un partenariat IA avec DeepMind</h4><p class="wire"></p><div class="body">Google DeepMind et Singapour officialisent un partenariat national pour appliquer l'IA de frontière à la santé, l'éducation et la durabilité, <a href="https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/">selon DeepMind</a>.</div></article>
+<article class="article"><p class="kicker"></p><h4>PaddleOCR 3.5 adopte le backend Transformers</h4><p class="wire"></p><div class="body">Le projet chinois <a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> bascule ses tâches d'OCR et de document parsing sur un backend Transformers, facilitant son intégration dans la chaîne Hugging Face.</div></article>
+<article class="article"><p class="kicker"></p><h4>IBM Research publie un Open Agent Leaderboard</h4><p class="wire"></p><div class="body">IBM Research lance un <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">Open Agent Leaderboard</a> destiné à comparer, sur tâches reproductibles, les harnais d'agents de bout en bout.</div></article>
+</div>
+<div class="section section-1-col">
+<h3 class="section-title">VI. Édito</h3>
+<article class="article"><p class="kicker"></p><h4>Deux conférences, deux récits</h4><p class="wire"></p><div class="body">À 24 heures d'intervalle, Google a déroulé un catalogue produit de cent annonces et OpenAI a revendiqué une percée scientifique vérifiable. Ces deux récits — l'écosystème intégré contre la prouesse de laboratoire — résument la nouvelle ligne de fracture du secteur. Reste à voir lequel convaincra durablement développeurs et chercheurs : la promesse d'un assistant universel ou celle d'un collaborateur capable, par lui-même, de bousculer une conjecture vieille de quatre-vingts ans.</div></article>
+</div>
+</section>
+
+  <footer class="colophon">
+    Édition quotidienne automatique · <a href="https://github.com/Flo5k5/neuron-times">archives</a> · All the AI that's fit to print
+  </footer>
+</main>
+</body>
+</html>
