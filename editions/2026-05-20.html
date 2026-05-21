@@ -1,699 +1,308 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>La Veille IA — 4 thèmes · 4 pages</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Neuron Times — Mercredi 20 mai 2026</title>
+<meta name="description" content="Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;600;800&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Libre+Caslon+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Oswald:wght@400;600;700&family=Pinyon+Script&family=Spectral:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <style>
-  /* ════════════════════════════════════════════════════════════════ */
-  /* RESET & STRUCTURE COMMUNE                                         */
-  /* ════════════════════════════════════════════════════════════════ */
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { font-size: 16px; scroll-behavior: smooth; }
-  body { line-height: 1.45; min-height: 100vh; transition: background-color 0.3s; }
-  a { color: inherit; text-decoration: none; border-bottom: 1px solid currentColor; padding-bottom: 1px; }
-  p { margin-bottom: 0.6rem; text-align: justify; hyphens: auto; }
-  em { font-style: italic; } strong { font-weight: 700; }
-  code { font-family: 'Courier New', monospace; font-size: 0.92em; background: rgba(0,0,0,0.06); padding: 0 4px; border-radius: 2px; }
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; }
+.article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+.lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
+.lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
+.lang-selector a:hover { opacity: 1; }
+.lang-selector a.active { opacity: 1; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.lang-selector .sep { opacity: 0.4; }
 
-  /* SWITCHER BAR (sticky, traverse toutes les pages) */
-  .switcher-bar { position: sticky; top: 0; z-index: 100; background: rgba(20,20,20,0.94); backdrop-filter: blur(8px); color: #f4ecdc; padding: 0.7rem 1.5rem; display: flex; align-items: center; justify-content: center; gap: 0.6rem; flex-wrap: wrap; border-bottom: 3px double #f4ecdc; box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
-  .switcher-bar .label { font-family: 'Cinzel', serif; font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; color: #d5cbb1; margin-right: 0.6rem; }
-  .switcher-bar button { border: 1px solid #999; background: transparent; color: #f4ecdc; padding: 0.4rem 0.9rem; cursor: pointer; transition: all 0.2s; font-size: 0.95rem; line-height: 1.1; }
-  .switcher-bar button:hover { border-color: #fff; background: rgba(255,255,255,0.08); }
-  .switcher-bar button.active { background: #f4ecdc; color: #1a1a1a; border-color: #f4ecdc; box-shadow: 0 0 0 2px rgba(244,236,220,0.3); }
-  .switcher-bar .chip-victorien { font-family: 'Bodoni Moda', serif; font-weight: 900; text-transform: uppercase; letter-spacing: 2px; font-size: 0.85rem; }
-  .switcher-bar .chip-le-monde { font-family: 'Libre Caslon Display', serif; font-weight: 400; letter-spacing: 0.5px; }
-  .switcher-bar .chip-almanach { font-family: 'IM Fell English SC', serif; font-weight: 400; letter-spacing: 1.5px; }
-  .switcher-bar .chip-gazette { font-family: 'Abril Fatface', serif; font-weight: 400; font-size: 1.05rem; letter-spacing: -0.5px; }
+/* Multilingual cascade : show only the lang matching <html lang="..."> */
+html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+html[lang="rm"] [data-i18n][lang]:not([lang="rm"]) { display: none !important; }
 
-  /* ════════════════════════════════════════════════════════════════ */
-  /* SYSTÈME 3D : SÉQUENCE 2 PHASES PROFONDES                          */
-  /* Page sortante (425ms) : recule en profondeur, tilte, sombre,     */
-  /* floute → swap → page entrante (425ms) : émerge de l'opposé        */
-  /* ════════════════════════════════════════════════════════════════ */
-  /* ════════════════════════════════════════════════════════════════ */
-  /* SYSTÈME 3D PAGE-FLIP — vraie "carte" qui tourne en 3D            */
-  /* Stratégie : pendant l'animation, la page sortante devient une   */
-  /* boîte de taille viewport (max-height + overflow hidden + contain) */
-  /* pour que le transform 3D s'applique au wrapper entier comme une   */
-  /* carte, pas au texte qui flotterait à l'intérieur                 */
-  /* ════════════════════════════════════════════════════════════════ */
-  html, body { overflow-x: hidden; }
-  .paper {
-    perspective: 1200px;
-    perspective-origin: 50% 40%;
-    transform-style: preserve-3d;
-    position: relative;
-  }
-  .page {
-    display: none;
-    transform-origin: center center;
-    backface-visibility: hidden;
-  }
-  .page.active { display: block; }
-
-  /* Pendant le flip, la page devient une "carte" atomique de taille viewport */
-  .page.flip-out-next, .page.flip-out-prev,
-  .page.flip-in-next, .page.flip-in-prev {
-    max-height: 100vh;
-    overflow: hidden;
-    contain: layout style paint;
-    transform-style: preserve-3d;
-    will-change: transform, opacity, filter;
-  }
-
-  /* Animation séquencée 2 phases : sortie 450ms puis entrée 450ms */
-  .page.flip-out-next { animation: dive3DOutNext 0.45s cubic-bezier(0.5, 0, 0.5, 1) forwards; }
-  .page.flip-in-next  { animation: dive3DInNext  0.45s cubic-bezier(0.5, 0, 0.5, 1) forwards; }
-  .page.flip-out-prev { animation: dive3DOutPrev 0.45s cubic-bezier(0.5, 0, 0.5, 1) forwards; }
-  .page.flip-in-prev  { animation: dive3DInPrev  0.45s cubic-bezier(0.5, 0, 0.5, 1) forwards; }
-
-  @keyframes dive3DOutNext {
-    0%   { transform: translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg) scale(1);
-           opacity: 1; filter: brightness(1) blur(0); }
-    100% { transform: translate3d(-60vw, -8vh, -800px) rotateY(45deg) rotateX(-10deg) scale(0.65);
-           opacity: 0; filter: brightness(0.3) blur(8px); }
-  }
-  @keyframes dive3DInNext {
-    0%   { transform: translate3d(60vw, -8vh, -800px) rotateY(-45deg) rotateX(-10deg) scale(0.65);
-           opacity: 0; filter: brightness(0.3) blur(8px); }
-    100% { transform: translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg) scale(1);
-           opacity: 1; filter: brightness(1) blur(0); }
-  }
-  @keyframes dive3DOutPrev {
-    0%   { transform: translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg) scale(1);
-           opacity: 1; filter: brightness(1) blur(0); }
-    100% { transform: translate3d(60vw, -8vh, -800px) rotateY(-45deg) rotateX(-10deg) scale(0.65);
-           opacity: 0; filter: brightness(0.3) blur(8px); }
-  }
-  @keyframes dive3DInPrev {
-    0%   { transform: translate3d(-60vw, -8vh, -800px) rotateY(45deg) rotateX(-10deg) scale(0.65);
-           opacity: 0; filter: brightness(0.3) blur(8px); }
-    100% { transform: translate3d(0, 0, 0) rotateY(0deg) rotateX(0deg) scale(1);
-           opacity: 1; filter: brightness(1) blur(0); }
-  }
-
-  /* Désactive les interactions pendant l'animation */
-  .paper.flipping .nav-btn, .paper.flipping .toc li, .paper.flipping .switcher-bar button { pointer-events: none; }
-
-  @media (prefers-reduced-motion: reduce) {
-    .page.flip-out-next, .page.flip-in-next, .page.flip-out-prev, .page.flip-in-prev {
-      animation-duration: 0.01s !important;
-    }
-  }
-
-  /* PAGINATION (footer commun à toutes les pages) */
-  .page-nav { display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 0; margin: 2rem 0 1rem; gap: 1rem; flex-wrap: wrap; }
-  .page-nav .nav-btn { padding: 0.6rem 1.2rem; border: 2px solid currentColor; background: transparent; color: inherit; cursor: pointer; font-family: inherit; font-size: 0.9rem; letter-spacing: 1px; text-transform: uppercase; transition: all 0.2s; min-width: 140px; }
-  .page-nav .nav-btn:hover:not(:disabled) { background: currentColor; }
-  .page-nav .nav-btn:hover:not(:disabled) > * { color: var(--paper-color, #f4ecdc); }
-  .page-nav .nav-btn:disabled { opacity: 0.25; cursor: not-allowed; }
-  .page-nav .page-indicator { font-style: italic; font-size: 0.85rem; letter-spacing: 2px; text-align: center; opacity: 0.7; }
-
-  /* TOC en page 1 — sommaire des pages */
-  .toc { padding: 1rem 0; border-top: 1px solid currentColor; border-bottom: 1px solid currentColor; margin: 2rem 0 1.5rem; }
-  .toc h3 { font-size: 0.85rem; letter-spacing: 4px; text-transform: uppercase; text-align: center; margin-bottom: 0.7rem; font-weight: 700; }
-  .toc ol { list-style: none; counter-reset: toc; display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 0.6rem 1.5rem; padding: 0 1rem; }
-  .toc li { counter-increment: toc; padding: 0.3rem 0; border-bottom: 1px dotted currentColor; cursor: pointer; transition: opacity 0.2s; }
-  .toc li:hover { opacity: 0.7; }
-  .toc li::before { content: counter(toc) ". "; font-weight: 700; margin-right: 0.4rem; }
-  .toc li .label-page { display: block; font-size: 0.78rem; font-style: italic; opacity: 0.7; margin-top: 0.1rem; }
-
-  /* STRUCTURE COMMUNE */
-  /* .paper = container 3D transparent (juste perspective + max-width). Pas de background.
-     C'est la `.page` qui porte le visuel "carte papier" pour que le transform 3D soit
-     visible (sinon seul le texte semble bouger). */
-  .paper { max-width: 1080px; margin: 1.5rem auto; padding: 0; }
-  .page.active { padding: 2.5rem 3.5rem; box-shadow: 0 2px 30px rgba(0,0,0,0.18); }
-  .masthead { text-align: center; padding: 1rem 0; margin-bottom: 1.2rem; }
-  .masthead .title { line-height: 1; margin: 0.3rem 0; }
-  .masthead .tagline { font-style: italic; margin: 0.3rem 0; }
-  .masthead .dateline { display: flex; justify-content: space-between; align-items: center; padding: 0.5rem 0; margin-top: 0.8rem; font-size: 0.78rem; text-transform: uppercase; letter-spacing: 2px; }
-
-  /* Page-header pour pages 2+ (mini-masthead + breadcrumb) */
-  .page-header { text-align: center; padding: 1rem 0; margin-bottom: 1.5rem; border-bottom: 1px solid currentColor; }
-  .page-header .label { font-size: 0.78rem; letter-spacing: 4px; text-transform: uppercase; opacity: 0.6; margin-bottom: 0.4rem; }
-  .page-header .title { font-size: 2.2rem; line-height: 1.1; margin-bottom: 0.4rem; font-weight: 900; }
-  .page-header .kicker { font-style: italic; opacity: 0.7; font-size: 0.95rem; }
-
-  .kicker { font-size: 0.72rem; letter-spacing: 3px; text-transform: uppercase; font-weight: 600; margin-bottom: 0.3rem; }
-  h1.headline { font-weight: 900; line-height: 1.05; margin-bottom: 0.5rem; }
-  h3.headline { font-weight: 700; font-size: 1.2rem; line-height: 1.15; margin-bottom: 0.3rem; }
-  h4.headline { font-weight: 700; font-size: 1.05rem; line-height: 1.15; margin-bottom: 0.3rem; }
-  .subdeck { font-style: italic; font-size: 1.05rem; line-height: 1.3; margin-bottom: 0.7rem; }
-  .byline { font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 0.8rem; }
-  .wire { font-style: italic; font-size: 0.78rem; margin-bottom: 0.4rem; }
-  .topstories { display: grid; grid-template-columns: 2fr 1fr; gap: 2rem; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
-  .topstories .lead { padding-right: 2rem; }
-  .topstories .sidebar .item { margin-bottom: 1rem; padding-bottom: 1rem; }
-  .three-cols { column-count: 3; column-gap: 1.8rem; margin: 1rem 0 1.5rem; }
-  .three-cols .article { break-inside: avoid; margin-bottom: 1.3rem; }
-  .two-cols { column-count: 2; column-gap: 1.8rem; margin: 1rem 0 1.5rem; }
-  .two-cols .article { break-inside: avoid; margin-bottom: 1.3rem; }
-  h2.section-title { text-align: center; padding: 0.5rem 0; margin: 1.8rem 0 1.2rem; }
-  h2.section-title .num { margin-right: 0.5rem; }
-  .tag { display: inline-block; font-size: 0.62rem; letter-spacing: 1.5px; text-transform: uppercase; padding: 1px 6px; margin-right: 6px; vertical-align: middle; font-weight: 700; }
-  .editorial-article { max-width: 720px; margin: 0 auto 1.5rem; }
-  .editorial-article h3 { font-size: 1.6rem; line-height: 1.15; margin-bottom: 0.6rem; }
-  .editorial-article p { font-size: 1.05rem; line-height: 1.55; margin-bottom: 0.8rem; }
-  .ours { margin-top: 2rem; padding-top: 1rem; text-align: center; font-size: 0.75rem; letter-spacing: 1.5px; text-transform: uppercase; }
-  .ours .motto { font-style: italic; font-size: 1rem; text-transform: none; letter-spacing: 0; margin-top: 0.6rem; }
-
-  /* Top banner uniquement visible en mode gazette */
-  .top-banner { display: none; }
-  body.theme-gazette .top-banner { display: flex; background: #7f0000; color: #f6f1e6; padding: 0.5rem 3rem; font-family: 'Oswald', sans-serif; text-transform: uppercase; font-size: 0.78rem; letter-spacing: 3px; justify-content: space-between; align-items: center; }
-  body.theme-gazette .top-banner .urgent { background: #0a0a0a; padding: 0.2rem 0.6rem; font-weight: 700; }
-
-  /* Drop caps via sibling combinator */
-  .lead > p.byline + p::first-letter,
-  .three-cols .article > p.wire + p::first-letter,
-  .two-cols .article > p.wire + p::first-letter,
-  .topstories .sidebar .item > p.wire + p::first-letter,
-  .editorial-article > p.wire + p::first-letter { float: left; line-height: 0.85; font-weight: 900; }
-  .lead > p.byline + p::first-letter, .editorial-article > p.wire + p::first-letter { font-size: 4.5rem; padding: 0.3rem 0.6rem 0 0; }
-  .three-cols .article > p.wire + p::first-letter, .two-cols .article > p.wire + p::first-letter { font-size: 3rem; padding: 0.25rem 0.4rem 0 0; }
-  .topstories .sidebar .item > p.wire + p::first-letter { font-size: 2.4rem; padding: 0.2rem 0.4rem 0 0; }
-
-  /* ════════════════════════════════════════════════════════════════ */
-  /* THEME 1 — TIMES VICTORIEN                                         */
-  /* ════════════════════════════════════════════════════════════════ */
-  body.theme-victorien { background: #ede4cf; color: #0c0c0c; font-family: 'Old Standard TT', serif; --paper-color: #f4ecdc; }
-  body.theme-victorien .paper { background: transparent; }
-  body.theme-victorien .page { background: #f4ecdc; border: 1px solid #b8af96; }
-  body.theme-victorien .masthead { border-top: 8px solid #0c0c0c; border-bottom: 1px solid #0c0c0c; padding: 1.2rem 0 0.8rem; }
-  body.theme-victorien .masthead::after { content: ''; display: block; border-top: 1px solid #0c0c0c; margin-top: 4px; }
-  body.theme-victorien .masthead .title { font-family: 'Bodoni Moda', serif; font-size: 5rem; font-weight: 900; text-transform: uppercase; letter-spacing: -1px; }
-  body.theme-victorien .masthead .tagline { font-size: 0.9rem; color: #4a4a4a; }
-  body.theme-victorien .masthead .dateline { border-top: 2px solid #0c0c0c; border-bottom: 2px solid #0c0c0c; font-weight: 700; }
-  body.theme-victorien .page-header { border-bottom: 4px double #0c0c0c; }
-  body.theme-victorien .page-header .title { font-family: 'Bodoni Moda', serif; text-transform: uppercase; }
-  body.theme-victorien h1.headline, body.theme-victorien h3.headline, body.theme-victorien h4.headline { font-family: 'Bodoni Moda', serif; }
-  body.theme-victorien h1.headline { font-size: 3rem; }
-  body.theme-victorien .topstories { border-bottom: 4px double #0c0c0c; }
-  body.theme-victorien .topstories .lead { border-right: 1px solid #0c0c0c; }
-  body.theme-victorien .topstories .sidebar .item { border-bottom: 1px solid #999; }
-  body.theme-victorien .three-cols, body.theme-victorien .two-cols { column-rule: 1px solid #0c0c0c; }
-  body.theme-victorien h2.section-title { font-family: 'Bodoni Moda', serif; font-weight: 900; text-transform: uppercase; letter-spacing: 5px; font-size: 1.4rem; border-top: 4px double #0c0c0c; border-bottom: 4px double #0c0c0c; }
-  body.theme-victorien h2.section-title .num { font-style: italic; }
-  body.theme-victorien .ours { border-top: 6px solid #0c0c0c; color: #4a4a4a; }
-  body.theme-victorien .ours .motto { font-family: 'Bodoni Moda', serif; color: #0c0c0c; }
-  body.theme-victorien a:hover { background: #0c0c0c; color: #f4ecdc; }
-  body.theme-victorien .lead > p.byline + p::first-letter,
-  body.theme-victorien .three-cols .article > p.wire + p::first-letter,
-  body.theme-victorien .two-cols .article > p.wire + p::first-letter,
-  body.theme-victorien .topstories .sidebar .item > p.wire + p::first-letter,
-  body.theme-victorien .editorial-article > p.wire + p::first-letter { font-family: 'Bodoni Moda', serif; background: #0c0c0c; color: #f4ecdc; padding: 0.4rem 0.5rem; margin: 0.2rem 0.6rem 0 0; line-height: 1; font-size: 2.6rem; }
-  body.theme-victorien .lead > p.byline + p::first-letter, body.theme-victorien .editorial-article > p.wire + p::first-letter { font-size: 3.2rem; }
-  body.theme-victorien .tag { background: #0c0c0c; color: #f4ecdc; }
-  body.theme-victorien .toc { border-top: 4px double #0c0c0c; border-bottom: 4px double #0c0c0c; }
-  body.theme-victorien .toc h3 { font-family: 'Bodoni Moda', serif; }
-  body.theme-victorien .page-nav { border-top: 4px double #0c0c0c; border-bottom: 4px double #0c0c0c; }
-  body.theme-victorien .page-nav .nav-btn { font-family: 'Bodoni Moda', serif; font-weight: 700; }
-
-  /* ════════════════════════════════════════════════════════════════ */
-  /* THEME 2 — LE MONDE CLASSIQUE                                      */
-  /* ════════════════════════════════════════════════════════════════ */
-  body.theme-le-monde { background: #f0ece2; color: #1a1a1a; font-family: 'EB Garamond', serif; --paper-color: #faf9f5; }
-  body.theme-le-monde .paper { background: transparent; }
-  body.theme-le-monde .page { background: #faf9f5; }
-  body.theme-le-monde .masthead { border-top: 6px solid #002147; padding-top: 0.5rem; text-align: left; }
-  body.theme-le-monde .masthead .title { font-family: 'Libre Caslon Display', serif; font-size: 5.2rem; font-weight: 400; letter-spacing: -2px; color: #002147; }
-  body.theme-le-monde .masthead .tagline { color: #565049; font-size: 1rem; padding-bottom: 0.5rem; border-bottom: 3px double #1a1a1a; }
-  body.theme-le-monde .page-header { border-bottom: 3px double #002147; }
-  body.theme-le-monde .page-header .title { font-family: 'EB Garamond', serif; color: #002147; }
-  body.theme-le-monde .page-header .label { color: #002147; }
-  body.theme-le-monde .kicker { color: #002147; font-weight: 700; }
-  body.theme-le-monde h1.headline { font-family: 'EB Garamond', serif; font-weight: 800; font-size: 2.8rem; letter-spacing: -0.5px; }
-  body.theme-le-monde h3.headline, body.theme-le-monde h4.headline { font-family: 'EB Garamond', serif; font-weight: 700; }
-  body.theme-le-monde .topstories { border-bottom: 1px solid #1a1a1a; }
-  body.theme-le-monde .topstories .lead { border-right: 1px solid #1a1a1a; }
-  body.theme-le-monde .topstories .sidebar .item { border-bottom: 1px solid #ccc6b8; }
-  body.theme-le-monde .three-cols, body.theme-le-monde .two-cols { column-rule: 1px solid #ccc6b8; }
-  body.theme-le-monde h2.section-title { font-weight: 700; text-transform: uppercase; letter-spacing: 4px; font-size: 0.95rem; color: #002147; border-top: 1px solid #002147; border-bottom: 1px solid #002147; }
-  body.theme-le-monde .ours { border-top: 3px double #002147; color: #565049; font-style: italic; }
-  body.theme-le-monde .ours .motto { color: #002147; }
-  body.theme-le-monde a { color: #002147; border-bottom: 1px solid #002147; }
-  body.theme-le-monde a:hover { background: #002147; color: #faf9f5; }
-  body.theme-le-monde .lead > p.byline + p::first-letter,
-  body.theme-le-monde .three-cols .article > p.wire + p::first-letter,
-  body.theme-le-monde .two-cols .article > p.wire + p::first-letter,
-  body.theme-le-monde .topstories .sidebar .item > p.wire + p::first-letter,
-  body.theme-le-monde .editorial-article > p.wire + p::first-letter { font-family: 'EB Garamond', serif; color: #002147; font-weight: 800; }
-  body.theme-le-monde .tag { background: #002147; color: #faf9f5; }
-  body.theme-le-monde .toc { border-top: 1px solid #002147; border-bottom: 1px solid #002147; }
-  body.theme-le-monde .toc h3 { color: #002147; }
-  body.theme-le-monde .page-nav { border-top: 1px solid #002147; border-bottom: 1px solid #002147; }
-  body.theme-le-monde .page-nav .nav-btn { color: #002147; border-color: #002147; font-weight: 700; }
-  body.theme-le-monde .page-nav .nav-btn:hover:not(:disabled) { background: #002147; color: #faf9f5; }
-
-  /* ════════════════════════════════════════════════════════════════ */
-  /* THEME 3 — ALMANACH SÉPIA                                          */
-  /* ════════════════════════════════════════════════════════════════ */
-  body.theme-almanach { background: #ebdfbe; color: #2d1d0e; font-family: 'IM Fell English', serif; --paper-color: #f4ebd3; }
-  body.theme-almanach .paper { background: transparent; }
-  body.theme-almanach .page { background: #f4ebd3; border: 1px solid #b39565; background-image: radial-gradient(ellipse at top left, rgba(122,75,30,0.06), transparent 50%), radial-gradient(ellipse at bottom right, rgba(122,75,30,0.08), transparent 50%); }
-  body.theme-almanach .masthead { border-top: 3px solid #5c3a1e; border-bottom: 3px solid #5c3a1e; padding: 0.8rem 0; }
-  body.theme-almanach .masthead::before { content: '✿ ❋ ✿ ❋ ✿'; display: block; text-align: center; color: #7a4b1e; font-size: 1.2rem; letter-spacing: 1rem; margin-bottom: 0.3rem; }
-  body.theme-almanach .masthead .title { font-family: 'IM Fell English SC', serif; font-size: 5rem; font-weight: 400; color: #5c3a1e; letter-spacing: 3px; text-shadow: 1px 1px 0 rgba(92,58,30,0.15); }
-  body.theme-almanach .masthead .tagline { font-family: 'Pinyon Script', cursive; font-size: 1.6rem; color: #7a4b1e; font-style: normal; }
-  body.theme-almanach .masthead .dateline { color: #4a3520; padding: 0.4rem 0; }
-  body.theme-almanach .page-header { border-bottom: 3px solid #5c3a1e; }
-  body.theme-almanach .page-header .label { color: #5c3a1e; }
-  body.theme-almanach .page-header .title { font-family: 'IM Fell English SC', serif; color: #5c3a1e; font-weight: 400; letter-spacing: 2px; }
-  body.theme-almanach .kicker { font-family: 'IM Fell English SC', serif; color: #5c3a1e; letter-spacing: 2px; }
-  body.theme-almanach h1.headline, body.theme-almanach h3.headline, body.theme-almanach h4.headline { font-family: 'IM Fell English SC', serif; font-weight: 400; color: #2d1d0e; letter-spacing: 0.5px; }
-  body.theme-almanach h1.headline { font-size: 2.8rem; line-height: 1.1; }
-  body.theme-almanach .byline { border-bottom: 1px dotted #7a4b1e; padding-bottom: 0.4rem; }
-  body.theme-almanach .wire { color: #7a4b1e; }
-  body.theme-almanach .topstories { border-bottom: 3px solid #5c3a1e; }
-  body.theme-almanach .topstories .lead { border-right: 1px solid #7a4b1e; }
-  body.theme-almanach .topstories .sidebar .item { border-bottom: 1px dotted #7a4b1e; }
-  body.theme-almanach .three-cols, body.theme-almanach .two-cols { column-rule: 1px solid #7a4b1e; }
-  body.theme-almanach h2.section-title { font-family: 'IM Fell English SC', serif; font-weight: 400; letter-spacing: 5px; font-size: 1.4rem; color: #5c3a1e; border-top: 1px solid #5c3a1e; border-bottom: 1px solid #5c3a1e; background: #ebdfbe; }
-  body.theme-almanach h2.section-title::before, body.theme-almanach h2.section-title::after { content: ' ❦ '; color: #7a4b1e; margin: 0 1rem; }
-  body.theme-almanach .ours { border-top: 3px solid #5c3a1e; color: #6b5a44; }
-  body.theme-almanach .ours::before { content: '✿ ❋ ❀ ❋ ✿'; display: block; color: #7a4b1e; font-size: 1.3rem; letter-spacing: 0.8rem; margin-bottom: 0.5rem; }
-  body.theme-almanach .ours .motto { font-family: 'Pinyon Script', cursive; font-size: 1.8rem; color: #5c3a1e; font-style: normal; }
-  body.theme-almanach a { color: #5c3a1e; border-bottom: 1px dotted currentColor; }
-  body.theme-almanach a:hover { color: #7a4b1e; border-bottom: 1px solid currentColor; }
-  body.theme-almanach .lead > p.byline + p::first-letter,
-  body.theme-almanach .three-cols .article > p.wire + p::first-letter,
-  body.theme-almanach .two-cols .article > p.wire + p::first-letter,
-  body.theme-almanach .topstories .sidebar .item > p.wire + p::first-letter,
-  body.theme-almanach .editorial-article > p.wire + p::first-letter { font-family: 'Cinzel Decorative', serif; color: #5c3a1e; text-shadow: 2px 2px 0 rgba(122,75,30,0.18); font-weight: 900; }
-  body.theme-almanach .tag { background: #5c3a1e; color: #f4ebd3; }
-  body.theme-almanach .toc { border-top: 1px solid #5c3a1e; border-bottom: 1px solid #5c3a1e; }
-  body.theme-almanach .toc h3 { font-family: 'IM Fell English SC', serif; color: #5c3a1e; letter-spacing: 3px; }
-  body.theme-almanach .toc h3::before, body.theme-almanach .toc h3::after { content: ' ❦ '; color: #7a4b1e; margin: 0 0.5rem; }
-  body.theme-almanach .page-nav { border-top: 1px solid #5c3a1e; border-bottom: 1px solid #5c3a1e; }
-  body.theme-almanach .page-nav .nav-btn { font-family: 'IM Fell English SC', serif; color: #5c3a1e; border-color: #5c3a1e; }
-  body.theme-almanach .page-nav .nav-btn:hover:not(:disabled) { background: #5c3a1e; color: #f4ebd3; }
-  body.theme-almanach .page-nav .page-indicator { font-family: 'Pinyon Script', cursive; font-size: 1.4rem; color: #5c3a1e; letter-spacing: 0; font-style: normal; opacity: 1; }
-
-  /* ════════════════════════════════════════════════════════════════ */
-  /* THEME 4 — GAZETTE DU SOIR                                         */
-  /* ════════════════════════════════════════════════════════════════ */
-  body.theme-gazette { background: #ede7d8; color: #0a0a0a; font-family: 'Spectral', serif; --paper-color: #f6f1e6; }
-  body.theme-gazette .paper { background: transparent; padding: 0; }
-  body.theme-gazette .page { background: #f6f1e6; }
-  body.theme-gazette .masthead { padding: 1.2rem 0 1rem; border-bottom: 8px solid #0a0a0a; }
-  body.theme-gazette .masthead::after { content: ''; display: block; border-bottom: 1px solid #0a0a0a; margin-top: 4px; }
-  body.theme-gazette .masthead .title { font-family: 'Abril Fatface', serif; font-size: 5.8rem; line-height: 0.9; letter-spacing: -2px; color: #0a0a0a; font-weight: 400; }
-  body.theme-gazette .masthead .tagline { font-family: 'Oswald', sans-serif; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 6px; color: #7f0000; font-style: normal; font-weight: 700; margin-top: 0.3rem; }
-  body.theme-gazette .masthead .dateline { font-family: 'Oswald', sans-serif; font-size: 0.72rem; border-top: 1px solid #0a0a0a; padding: 0.4rem 0; }
-  body.theme-gazette .page-header { border-bottom: 8px solid #0a0a0a; }
-  body.theme-gazette .page-header::after { content: ''; display: block; border-bottom: 1px solid #0a0a0a; margin-top: 4px; }
-  body.theme-gazette .page-header .label { font-family: 'Oswald', sans-serif; color: #7f0000; font-weight: 700; }
-  body.theme-gazette .page-header .title { font-family: 'Abril Fatface', serif; font-weight: 400; }
-  body.theme-gazette .kicker { font-family: 'Oswald', sans-serif; color: #7f0000; font-weight: 700; }
-  body.theme-gazette h1.headline { font-family: 'Abril Fatface', serif; font-weight: 400; font-size: 3.5rem; letter-spacing: -1px; line-height: 1; }
-  body.theme-gazette h3.headline, body.theme-gazette h4.headline { font-family: 'Bodoni Moda', serif; font-weight: 700; }
-  body.theme-gazette .subdeck { padding-bottom: 0.6rem; border-bottom: 1px solid #0a0a0a; }
-  body.theme-gazette .byline { font-family: 'Oswald', sans-serif; color: #4a443a; }
-  body.theme-gazette .wire { font-family: 'Oswald', sans-serif; font-size: 0.7rem; text-transform: uppercase; letter-spacing: 1.5px; color: #b71c1c; font-style: normal; font-weight: 600; }
-  body.theme-gazette .topstories { border-bottom: 8px solid #0a0a0a; }
-  body.theme-gazette .topstories .lead { border-right: 1px solid #0a0a0a; }
-  body.theme-gazette .topstories .sidebar .item { border-bottom: 1px dashed #0a0a0a; }
-  body.theme-gazette .three-cols, body.theme-gazette .two-cols { column-rule: 1px solid #0a0a0a; }
-  body.theme-gazette h2.section-title { font-family: 'Abril Fatface', serif; font-size: 2rem; text-align: left; padding: 0.3rem 0; border-bottom: 4px solid #0a0a0a; }
-  body.theme-gazette h2.section-title::after { content: ''; display: block; border-bottom: 1px solid #0a0a0a; margin-top: 3px; }
-  body.theme-gazette h2.section-title .num { font-family: 'Oswald', sans-serif; background: #7f0000; color: #f6f1e6; padding: 0.1rem 0.6rem; font-size: 1.1rem; vertical-align: middle; font-weight: 700; letter-spacing: 2px; }
-  body.theme-gazette .ours { margin-top: 1.5rem; padding: 1rem 3rem; background: #0a0a0a; color: #f6f1e6; font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 3px; border: none; margin-left: -3.5rem; margin-right: -3.5rem; }
-  body.theme-gazette .ours .motto { font-family: 'Abril Fatface', serif; text-transform: none; letter-spacing: 0; font-size: 1.4rem; color: #b71c1c; }
-  body.theme-gazette a { color: #0a0a0a; border-bottom: 2px solid #b71c1c; font-weight: 500; }
-  body.theme-gazette a:hover { background: #b71c1c; color: #f6f1e6; }
-  body.theme-gazette .lead > p.byline + p::first-letter,
-  body.theme-gazette .three-cols .article > p.wire + p::first-letter,
-  body.theme-gazette .two-cols .article > p.wire + p::first-letter,
-  body.theme-gazette .topstories .sidebar .item > p.wire + p::first-letter,
-  body.theme-gazette .editorial-article > p.wire + p::first-letter { font-family: 'Abril Fatface', serif; color: #7f0000; font-weight: 400; }
-  body.theme-gazette .lead > p.byline + p::first-letter, body.theme-gazette .editorial-article > p.wire + p::first-letter { font-size: 5rem; }
-  body.theme-gazette .tag { background: #b71c1c; color: #f6f1e6; }
-  body.theme-gazette .toc { border-top: 8px solid #0a0a0a; border-bottom: 8px solid #0a0a0a; padding: 1.5rem 0; }
-  body.theme-gazette .toc h3 { font-family: 'Oswald', sans-serif; }
-  body.theme-gazette .page-nav { border-top: 4px solid #0a0a0a; border-bottom: 4px solid #0a0a0a; background: rgba(0,0,0,0.04); padding: 1.5rem; }
-  body.theme-gazette .page-nav .nav-btn { font-family: 'Oswald', sans-serif; background: #0a0a0a; color: #f6f1e6; border-color: #0a0a0a; }
-  body.theme-gazette .page-nav .nav-btn:hover:not(:disabled) { background: #7f0000; border-color: #7f0000; }
-  body.theme-gazette .page-nav .page-indicator { font-family: 'Oswald', sans-serif; color: #7f0000; }
-
-  /* RESPONSIVE */
-  @media (max-width: 720px) {
-    html { font-size: 14px; }
-    .paper { padding: 1.5rem; margin: 0; }
-    .topstories { grid-template-columns: 1fr; }
-    .topstories .lead { border-right: none !important; padding-right: 0; border-bottom: 2px solid currentColor; padding-bottom: 1.5rem; margin-bottom: 1.5rem; }
-    .three-cols { column-count: 1; }
-    .two-cols { column-count: 1; }
-    .switcher-bar { padding: 0.5rem; gap: 0.3rem; }
-    .switcher-bar .label { display: none; }
-    .switcher-bar button { padding: 0.3rem 0.5rem; font-size: 0.78rem; }
-    .page-nav .nav-btn { min-width: auto; padding: 0.5rem 0.8rem; font-size: 0.78rem; }
-    .toc ol { grid-template-columns: 1fr; }
-  }
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+  .masthead .meta { flex-wrap: wrap; gap: 8px; justify-content: center; }
+}
 </style>
 </head>
-<body class="theme-victorien">
+<body>
+<main class="paper">
+  <header class="masthead">
+    <h1>La Veille IA</h1>
+    <p class="tagline"><span data-i18n lang="fr">Tous les signaux de l'intelligence artificielle qui méritent d'être imprimés</span><span data-i18n lang="en">All the signals of artificial intelligence that are fit to print</span><span data-i18n lang="de">Alle Signale der künstlichen Intelligenz, die es wert sind, gedruckt zu werden</span><span data-i18n lang="it">Tutti i segnali dell'intelligenza artificiale che meritano di essere stampati</span><span data-i18n lang="rm">Tuts ils signals da l'intelligenza artificiala che merteschan d'esser stampads</span></p>
+    <div class="meta">
+      <span>N° 140</span>
+      <span><span data-i18n lang="fr">Mercredi 20 mai 2026</span><span data-i18n lang="en">Wednesday, 20 May 2026</span><span data-i18n lang="de">Mittwoch, 20. Mai 2026</span><span data-i18n lang="it">Mercoledì 20 maggio 2026</span><span data-i18n lang="rm">Mesemna, ils 20 da matg 2026</span></span>
+      <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="rm">Ediziun da la damaun</span> · Genève</span>
+      <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="rm">RM</a></nav>
+    </div>
+  </header>
 
-<nav class="switcher-bar">
-  <span class="label">Mise en page</span>
-  <button class="chip-victorien active" data-theme="victorien">Times Victorien</button>
-  <button class="chip-le-monde" data-theme="le-monde">Le Monde</button>
-  <button class="chip-almanach" data-theme="almanach">Almanach Sépia</button>
-  <button class="chip-gazette" data-theme="gazette">Gazette du Soir</button>
-</nav>
+  <section class="lead">
+    <p class="kicker"><span data-i18n lang="fr">À la Une · Google I/O 2026</span><span data-i18n lang="en">Front Page · Google I/O 2026</span><span data-i18n lang="de">Titelseite · Google I/O 2026</span><span data-i18n lang="it">Prima pagina · Google I/O 2026</span><span data-i18n lang="rm">Primera pagina · Google I/O 2026</span></p>
+    <h2><span data-i18n lang="fr">Gemini 3.5 Flash bouscule la frontière à vitesse Flash</span><span data-i18n lang="en">Gemini 3.5 Flash rattles the frontier at Flash speed</span><span data-i18n lang="de">Gemini 3.5 Flash rüttelt mit Flash-Tempo an der Frontier</span><span data-i18n lang="it">Gemini 3.5 Flash scuote la frontiera alla velocità Flash</span><span data-i18n lang="rm">Gemini 3.5 Flash destorba la frontera a vischnanca Flash</span></h2>
+    <p class="subdeck"><span data-i18n lang="fr">Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.</span><span data-i18n lang="en">DeepMind's new model scores 83.6% on MCP Atlas and 78.4% on OSWorld-Verified — four times faster than other frontier models.</span><span data-i18n lang="de">Das neue Modell von DeepMind erreicht 83,6 % auf MCP Atlas und 78,4 % auf OSWorld-Verified — viermal schneller als andere Frontier-Modelle.</span><span data-i18n lang="it">Il nuovo modello di DeepMind raggiunge l'83,6% su MCP Atlas e il 78,4% su OSWorld-Verified — quattro volte più veloce degli altri modelli frontier.</span><span data-i18n lang="rm">Il nov model da DeepMind cuntegna 83,6 % sin MCP Atlas e 78,4 % sin OSWorld-Verified — quatter giadas pli spert che ils auters models frontier.</span></p>
+    <p class="byline"><span data-i18n lang="fr">De notre correspondant à Mountain View — 20 mai 2026</span><span data-i18n lang="en">From our correspondent in Mountain View — 20 May 2026</span><span data-i18n lang="de">Von unserem Korrespondenten in Mountain View — 20. Mai 2026</span><span data-i18n lang="it">Dal nostro corrispondente a Mountain View — 20 maggio 2026</span><span data-i18n lang="rm">Dal noss correspondent a Mountain View — ils 20 da matg 2026</span></p>
+    <p><span data-i18n lang="fr">Le 19 mai, en plein cœur de la conférence Google I/O 2026, DeepMind a dévoilé <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a>, présenté comme « frontier performance for agents and coding ».</span><span data-i18n lang="en">On 19 May, at the heart of the Google I/O 2026 conference, DeepMind unveiled <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a>, billed as offering "frontier performance for agents and coding".</span><span data-i18n lang="de">Am 19. Mai, mitten auf der Konferenz Google I/O 2026, stellte DeepMind <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a> vor — angepriesen als «frontier performance for agents and coding».</span><span data-i18n lang="it">Il 19 maggio, nel pieno della conferenza Google I/O 2026, DeepMind ha presentato <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a>, descritto come capace di offrire «frontier performance for agents and coding».</span><span data-i18n lang="rm">Il 19 da matg, en il center da la conferenza Google I/O 2026, ha DeepMind presentà <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a>, designà sco «frontier performance for agents and coding».</span></p>
+<p><span data-i18n lang="fr">La <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">model card officielle</a> détaille un context window d'un million de tokens et une couverture multimodale complète. Le score de 83,6 % sur MCP Atlas confirme que Google adopte publiquement le protocole MCP créé par Anthropic.</span><span data-i18n lang="en">The <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">official model card</a> details a one-million-token context window and full multimodal coverage. The score of 83.6% on MCP Atlas confirms that Google is publicly adopting the MCP protocol developed by Anthropic.</span><span data-i18n lang="de">Die <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">offizielle Model Card</a> beschreibt ein Kontextfenster von einer Million Tokens und vollständige multimodale Abdeckung. Der Score von 83,6 % auf MCP Atlas bestätigt, dass Google das von Anthropic entwickelte MCP-Protokoll öffentlich übernimmt.</span><span data-i18n lang="it">La <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">model card ufficiale</a> descrive una finestra di contesto di un milione di token e una copertura multimodale completa. Il punteggio dell'83,6% su MCP Atlas conferma che Google adotta pubblicamente il protocollo MCP creato da Anthropic.</span><span data-i18n lang="rm">La <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">model card uffiziala</a> descriva ina fanestra da context d'in milliun da tokens e ina cuvartira multimodala cumpleta. Il resultat da 83,6 % sin MCP Atlas conferma ch'igl è Google che adopta publicamente il protocol MCP creà da Anthropic.</span></p>
+<p><span data-i18n lang="fr">Le modèle est disponible immédiatement via le Gemini API, Google AI Studio, Antigravity et la Gemini Enterprise Agent Platform.</span><span data-i18n lang="en">The model is immediately available via the Gemini API, Google AI Studio, Antigravity and the Gemini Enterprise Agent Platform.</span><span data-i18n lang="de">Das Modell ist sofort über die Gemini API, Google AI Studio, Antigravity und die Gemini Enterprise Agent Platform verfügbar.</span><span data-i18n lang="it">Il modello è disponibile immediatamente tramite la Gemini API, Google AI Studio, Antigravity e la Gemini Enterprise Agent Platform.</span><span data-i18n lang="rm">Il model è disponibel immediatamain via la Gemini API, Google AI Studio, Antigravity e la Gemini Enterprise Agent Platform.</span></p>
+  </section>
 
-<div class="top-banner">
-  <span class="urgent">★ Édition Spéciale</span>
-  <span>Google I/O 2026 · Anthropic Stainless · GPT-5.5 · DeepSeek-V4</span>
-  <span>2,50 € · 4 pages</span>
+  <section class="sidebar">
+    <article class="sidebar-item"><span class="tag" data-i18n lang="fr">Majeur</span><span class="tag" data-i18n lang="en">Major</span><span class="tag" data-i18n lang="de">Wichtig</span><span class="tag" data-i18n lang="it">Principale</span><span class="tag" data-i18n lang="rm">Major</span><h3><span data-i18n lang="fr">Anthropic externalise l'exécution agentic</span><span data-i18n lang="en">Anthropic outsources agentic execution</span><span data-i18n lang="de">Anthropic lagert die agentische Ausführung aus</span><span data-i18n lang="it">Anthropic esternalizza l'esecuzione agentic</span><span data-i18n lang="rm">Anthropic externalisescha l'execuziun agentica</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 19 mai</span><span data-i18n lang="en">From the Wires — 19 May</span><span data-i18n lang="de">From the Wires — 19. Mai</span><span data-i18n lang="it">From the Wires — 19 maggio</span><span data-i18n lang="rm">From the Wires — ils 19 da matg</span></p><p><span data-i18n lang="fr">Les <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> introduisent les <em>self-hosted sandboxes</em> et les <em>MCP tunnels</em>. L'exécution part chez Cloudflare, Daytona, Modal ou Vercel.</span><span data-i18n lang="en">The <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> introduce <em>self-hosted sandboxes</em> and <em>MCP tunnels</em>. Execution is offloaded to Cloudflare, Daytona, Modal or Vercel.</span><span data-i18n lang="de">Die <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> führen <em>self-hosted Sandboxes</em> und <em>MCP-Tunnel</em> ein. Die Ausführung erfolgt bei Cloudflare, Daytona, Modal oder Vercel.</span><span data-i18n lang="it">I <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> introducono le <em>self-hosted sandboxes</em> e i <em>MCP tunnel</em>. L'esecuzione avviene presso Cloudflare, Daytona, Modal o Vercel.</span><span data-i18n lang="rm">Las <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> introduceschan las <em>self-hosted sandboxes</em> ed ils <em>MCP tunnels</em>. L'execuziun va tar Cloudflare, Daytona, Modal u Vercel.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Majeur</span><span class="tag" data-i18n lang="en">Major</span><span class="tag" data-i18n lang="de">Wichtig</span><span class="tag" data-i18n lang="it">Principale</span><span class="tag" data-i18n lang="rm">Major</span><h3><span data-i18n lang="fr">GPT-5.5 surgit chez Databricks</span><span data-i18n lang="en">GPT-5.5 surfaces at Databricks</span><span data-i18n lang="de">GPT-5.5 taucht bei Databricks auf</span><span data-i18n lang="it">GPT-5.5 emerge da Databricks</span><span data-i18n lang="rm">GPT-5.5 surprend tar Databricks</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 15 mai</span><span data-i18n lang="en">From the Wires — 15 May</span><span data-i18n lang="de">From the Wires — 15. Mai</span><span data-i18n lang="it">From the Wires — 15 maggio</span><span data-i18n lang="rm">From the Wires — ils 15 da matg</span></p><p><span data-i18n lang="fr">Annoncé sans fanfare dans <a href="https://openai.com/index/databricks">un billet d'OpenAI</a>. État de l'art sur OfficeQA Pro pour les workflows agentic d'entreprise.</span><span data-i18n lang="en">Announced with little fanfare in <a href="https://openai.com/index/databricks">an OpenAI post</a>. State of the art on OfficeQA Pro for enterprise agentic workflows.</span><span data-i18n lang="de">Ohne grosse Ankündigung in <a href="https://openai.com/index/databricks">einem OpenAI-Beitrag</a> veröffentlicht. Bestwert auf OfficeQA Pro für agentische Unternehmens-Workflows.</span><span data-i18n lang="it">Annunciato senza clamore in <a href="https://openai.com/index/databricks">un post di OpenAI</a>. Stato dell'arte su OfficeQA Pro per i workflow agentic aziendali.</span><span data-i18n lang="rm">Annunzià senza fanfara en <a href="https://openai.com/index/databricks">in artitgel d'OpenAI</a>. Stadi da l'art sin OfficeQA Pro per ils workflows agentics d'interpresa.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Majeur</span><span class="tag" data-i18n lang="en">Major</span><span class="tag" data-i18n lang="de">Wichtig</span><span class="tag" data-i18n lang="it">Principale</span><span class="tag" data-i18n lang="rm">Major</span><h3><span data-i18n lang="fr">DeepSeek-V4 dévoile son million de tokens</span><span data-i18n lang="en">DeepSeek-V4 unveils its million-token context</span><span data-i18n lang="de">DeepSeek-V4 enthüllt seinen Millionen-Token-Kontext</span><span data-i18n lang="it">DeepSeek-V4 svela il suo milione di token</span><span data-i18n lang="rm">DeepSeek-V4 revela ses milliun da tokens</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 24 avril</span><span data-i18n lang="en">From the Wires — 24 April</span><span data-i18n lang="de">From the Wires — 24. April</span><span data-i18n lang="it">From the Wires — 24 aprile</span><span data-i18n lang="rm">From the Wires — ils 24 d'avrigl</span></p><p><span data-i18n lang="fr">« A million-token context that agents can actually use » titre <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>. Reasoning de classe mondiale.</span><span data-i18n lang="en">"A million-token context that agents can actually use" headlines <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>. World-class reasoning.</span><span data-i18n lang="de">«A million-token context that agents can actually use» titelt <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>. Reasoning auf Weltklasseniveau.</span><span data-i18n lang="it">«A million-token context that agents can actually use» titola <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>. Ragionamento di livello mondiale.</span><span data-i18n lang="rm">«A million-token context that agents can actually use» titlescha <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>. Reasoning da class mundiala.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Majeur</span><span class="tag" data-i18n lang="en">Major</span><span class="tag" data-i18n lang="de">Wichtig</span><span class="tag" data-i18n lang="it">Principale</span><span class="tag" data-i18n lang="rm">Major</span><h3><span data-i18n lang="fr">Google AI : Plus, Pro, Ultra à 100 dollars</span><span data-i18n lang="en">Google AI: Plus, Pro, Ultra at $100</span><span data-i18n lang="de">Google AI: Plus, Pro, Ultra für 100 Dollar</span><span data-i18n lang="it">Google AI: Plus, Pro, Ultra a 100 dollari</span><span data-i18n lang="rm">Google AI: Plus, Pro, Ultra a 100 dollars</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 19 mai</span><span data-i18n lang="en">From the Wires — 19 May</span><span data-i18n lang="de">From the Wires — 19. Mai</span><span data-i18n lang="it">From the Wires — 19 maggio</span><span data-i18n lang="rm">From the Wires — ils 19 da matg</span></p><p><span data-i18n lang="fr">Refonte complète <a href="https://blog.google/products/google-one/">des offres Google AI</a> : palier Plus, Ultra à 100 $/mois.</span><span data-i18n lang="en">A complete overhaul of <a href="https://blog.google/products/google-one/">Google AI's subscription tiers</a>: Plus tier, Ultra at $100/month.</span><span data-i18n lang="de">Vollständige Neugestaltung <a href="https://blog.google/products/google-one/">der Google AI-Angebote</a>: Plus-Stufe, Ultra für 100 $/Monat.</span><span data-i18n lang="it">Revisione completa <a href="https://blog.google/products/google-one/">delle offerte Google AI</a>: livello Plus, Ultra a 100 $/mese.</span><span data-i18n lang="rm">Refurma cumpleta <a href="https://blog.google/products/google-one/">dals pluns Google AI</a>: nivel Plus, Ultra a 100 $/mais.</span></p></article>
+  </section>
+
+  <section class="page" data-page="1">
+<h2 class="page-label"><span data-i18n lang="fr">Page 1 — </span><span data-i18n lang="en">Page 1 — </span><span data-i18n lang="de">Seite 1 — </span><span data-i18n lang="it">Pagina 1 — </span><span data-i18n lang="rm">Pagina 1 — </span><span data-i18n lang="fr">À la Une</span><span data-i18n lang="en">Front Page</span><span data-i18n lang="de">Titelseite</span><span data-i18n lang="it">Prima pagina</span><span data-i18n lang="rm">Primera pagina</span></h2>
+<div class="section section-3-cols">
+<h3 class="section-title">I. <span data-i18n lang="fr">Modèles & Frontière</span><span data-i18n lang="en">Models & Frontier</span><span data-i18n lang="de">Modelle & Frontier</span><span data-i18n lang="it">Modelli & Frontier</span><span data-i18n lang="rm">Models & Frontera</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">Anthropic</p><p class="kicker" data-i18n lang="en">Anthropic</p><p class="kicker" data-i18n lang="de">Anthropic</p><p class="kicker" data-i18n lang="it">Anthropic</p><p class="kicker" data-i18n lang="rm">Anthropic</p><h4><span data-i18n lang="fr">Stainless rejoint le giron Anthropic</span><span data-i18n lang="en">Stainless joins the Anthropic fold</span><span data-i18n lang="de">Stainless wechselt zu Anthropic</span><span data-i18n lang="it">Stainless entra nell'orbita di Anthropic</span><span data-i18n lang="rm">Stainless s'integrescha en il circul d'Anthropic</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 18 mai</p><p class="wire" data-i18n lang="en">From the Wires — 18 May</p><p class="wire" data-i18n lang="de">From the Wires — 18. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 18 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 18 da matg</p><div class="body"><span data-i18n lang="fr">Le 18 mai, <a href="https://www.anthropic.com/news">Anthropic a annoncé l'acquisition de Stainless</a>, société spécialisée dans la génération automatique de SDK. Le mouvement préfigure une stratégie API-first plus serrée.</span><span data-i18n lang="en">On 18 May, <a href="https://www.anthropic.com/news">Anthropic announced the acquisition of Stainless</a>, a company specialising in automatic SDK generation. The move foreshadows a tighter API-first strategy.</span><span data-i18n lang="de">Am 18. Mai <a href="https://www.anthropic.com/news">gab Anthropic die Übernahme von Stainless bekannt</a>, einem Unternehmen, das auf die automatische Generierung von SDKs spezialisiert ist. Der Schritt deutet auf eine engere API-first-Strategie hin.</span><span data-i18n lang="it">Il 18 maggio, <a href="https://www.anthropic.com/news">Anthropic ha annunciato l'acquisizione di Stainless</a>, società specializzata nella generazione automatica di SDK. La mossa prefigura una strategia API-first più decisa.</span><span data-i18n lang="rm">Il 18 da matg, <a href="https://www.anthropic.com/news">Anthropic ha annunzià l'acquisiziun da Stainless</a>, societad specializà en la generaziun automatica da SDK. Il pass prefigurischa ina strategia API-first pli stricta.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Anthropic · Microsoft</p><p class="kicker" data-i18n lang="en">Anthropic · Microsoft</p><p class="kicker" data-i18n lang="de">Anthropic · Microsoft</p><p class="kicker" data-i18n lang="it">Anthropic · Microsoft</p><p class="kicker" data-i18n lang="rm">Anthropic · Microsoft</p><h4><span data-i18n lang="fr">Claude entre dans Excel, Word et Outlook</span><span data-i18n lang="en">Claude comes to Excel, Word and Outlook</span><span data-i18n lang="de">Claude hält Einzug in Excel, Word und Outlook</span><span data-i18n lang="it">Claude entra in Excel, Word e Outlook</span><span data-i18n lang="rm">Claude entra en Excel, Word ed Outlook</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 7 mai</p><p class="wire" data-i18n lang="en">From the Wires — 7 May</p><p class="wire" data-i18n lang="de">From the Wires — 7. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 7 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 7 da matg</p><div class="body"><span data-i18n lang="fr">Avec <a href="https://claude.com/blog">la disponibilité dans Microsoft 365</a>, Anthropic place Claude en concurrence frontale avec Copilot dans l'ergonomie native des outils Office.</span><span data-i18n lang="en">With <a href="https://claude.com/blog">availability in Microsoft 365</a>, Anthropic places Claude in direct competition with Copilot within the native Office environment.</span><span data-i18n lang="de">Mit der <a href="https://claude.com/blog">Verfügbarkeit in Microsoft 365</a> stellt Anthropic Claude in direkte Konkurrenz zu Copilot in der nativen Oberfläche der Office-Tools.</span><span data-i18n lang="it">Con <a href="https://claude.com/blog">la disponibilità in Microsoft 365</a>, Anthropic mette Claude in concorrenza diretta con Copilot nell'ergonomia nativa degli strumenti Office.</span><span data-i18n lang="rm">Cun <a href="https://claude.com/blog">la disponibilitad en Microsoft 365</a>, Anthropic metta Claude en concurrenza directa cun Copilot en l'ergonomia nativa dals utensils Office.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Anthropic · AWS</p><p class="kicker" data-i18n lang="en">Anthropic · AWS</p><p class="kicker" data-i18n lang="de">Anthropic · AWS</p><p class="kicker" data-i18n lang="it">Anthropic · AWS</p><p class="kicker" data-i18n lang="rm">Anthropic · AWS</p><h4><span data-i18n lang="fr">La Claude Platform débarque sur AWS</span><span data-i18n lang="en">The Claude Platform lands on AWS</span><span data-i18n lang="de">Die Claude Platform kommt auf AWS</span><span data-i18n lang="it">La Claude Platform approda su AWS</span><span data-i18n lang="rm">La Claude Platform arriva sin AWS</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 11 mai</p><p class="wire" data-i18n lang="en">From the Wires — 11 May</p><p class="wire" data-i18n lang="de">From the Wires — 11. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 11 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 11 da matg</p><div class="body"><span data-i18n lang="fr">Sans passer par Bedrock, <a href="https://claude.com/blog">Anthropic distribue Claude directement</a> sur AWS Marketplace.</span><span data-i18n lang="en">Bypassing Bedrock, <a href="https://claude.com/blog">Anthropic distributes Claude directly</a> on AWS Marketplace.</span><span data-i18n lang="de">Ohne den Umweg über Bedrock <a href="https://claude.com/blog">vertreibt Anthropic Claude direkt</a> über den AWS Marketplace.</span><span data-i18n lang="it">Senza passare per Bedrock, <a href="https://claude.com/blog">Anthropic distribuisce Claude direttamente</a> su AWS Marketplace.</span><span data-i18n lang="rm">Senza ir tras Bedrock, <a href="https://claude.com/blog">Anthropic distribuescha Claude directamain</a> sin AWS Marketplace.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">DeepMind · Omni</p><p class="kicker" data-i18n lang="en">DeepMind · Omni</p><p class="kicker" data-i18n lang="de">DeepMind · Omni</p><p class="kicker" data-i18n lang="it">DeepMind · Omni</p><p class="kicker" data-i18n lang="rm">DeepMind · Omni</p><h4><span data-i18n lang="fr">Gemini Omni : « tout depuis tout »</span><span data-i18n lang="en">Gemini Omni: "everything from everything"</span><span data-i18n lang="de">Gemini Omni: «alles aus allem»</span><span data-i18n lang="it">Gemini Omni: «tutto da tutto»</span><span data-i18n lang="rm">Gemini Omni: «tut da tut»</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 17 mai</p><p class="wire" data-i18n lang="en">From the Wires — 17 May</p><p class="wire" data-i18n lang="de">From the Wires — 17. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 17 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 17 da matg</p><div class="body"><span data-i18n lang="fr"><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, modèle multimodal génératif, propose un montage vidéo conversationnel respectueux de la physique.</span><span data-i18n lang="en"><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, a generative multimodal model, offers physics-aware conversational video editing.</span><span data-i18n lang="de"><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, ein generatives multimodales Modell, bietet physikgetreue, konversationelle Videobearbeitung.</span><span data-i18n lang="it"><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, modello generativo multimodale, propone un montaggio video conversazionale rispettoso della fisica.</span><span data-i18n lang="rm"><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, model generativ multimodal, propona in muntadi video conversaziunal che respetta la fisica.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">DeepMind · Antigravity</p><p class="kicker" data-i18n lang="en">DeepMind · Antigravity</p><p class="kicker" data-i18n lang="de">DeepMind · Antigravity</p><p class="kicker" data-i18n lang="it">DeepMind · Antigravity</p><p class="kicker" data-i18n lang="rm">DeepMind · Antigravity</p><h4><span data-i18n lang="fr">Antigravity 2.0 : la plateforme agentic de Google</span><span data-i18n lang="en">Antigravity 2.0: Google's agentic platform</span><span data-i18n lang="de">Antigravity 2.0: Googles agentische Plattform</span><span data-i18n lang="it">Antigravity 2.0: la piattaforma agentic di Google</span><span data-i18n lang="rm">Antigravity 2.0: la plattafurma agentica da Google</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 17 mai</p><p class="wire" data-i18n lang="en">From the Wires — 17 May</p><p class="wire" data-i18n lang="de">From the Wires — 17. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 17 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 17 da matg</p><div class="body"><span data-i18n lang="fr"><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> est la réponse directe de Google aux Managed Agents d'Anthropic.</span><span data-i18n lang="en"><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> is Google's direct answer to Anthropic's Managed Agents.</span><span data-i18n lang="de"><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> ist Googles direkte Antwort auf die Managed Agents von Anthropic.</span><span data-i18n lang="it"><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> è la risposta diretta di Google ai Managed Agents di Anthropic.</span><span data-i18n lang="rm"><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> è la resposta directa da Google als Managed Agents d'Anthropic.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">OpenAI · Dell</p><p class="kicker" data-i18n lang="en">OpenAI · Dell</p><p class="kicker" data-i18n lang="de">OpenAI · Dell</p><p class="kicker" data-i18n lang="it">OpenAI · Dell</p><p class="kicker" data-i18n lang="rm">OpenAI · Dell</p><h4><span data-i18n lang="fr">Codex se déploie sur l'infrastructure hybride</span><span data-i18n lang="en">Codex rolls out across hybrid infrastructure</span><span data-i18n lang="de">Codex wird auf hybrider Infrastruktur ausgerollt</span><span data-i18n lang="it">Codex si distribuisce sull'infrastruttura ibrida</span><span data-i18n lang="rm">Codex sa deploja sin l'infrastructura ibrida</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 18 mai</p><p class="wire" data-i18n lang="en">From the Wires — 18 May</p><p class="wire" data-i18n lang="de">From the Wires — 18. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 18 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 18 da matg</p><div class="body"><span data-i18n lang="fr">OpenAI scelle <a href="https://openai.com/index/dell-codex-enterprise-partnership">un partenariat avec Dell</a> pour distribuer Codex en environnements hybrides et on-premise.</span><span data-i18n lang="en">OpenAI seals <a href="https://openai.com/index/dell-codex-enterprise-partnership">a partnership with Dell</a> to distribute Codex in hybrid and on-premise environments.</span><span data-i18n lang="de">OpenAI schließt <a href="https://openai.com/index/dell-codex-enterprise-partnership">eine Partnerschaft mit Dell</a>, um Codex in hybriden und On-Premise-Umgebungen zu vertreiben.</span><span data-i18n lang="it">OpenAI stringe <a href="https://openai.com/index/dell-codex-enterprise-partnership">una partnership con Dell</a> per distribuire Codex in ambienti ibridi e on-premise.</span><span data-i18n lang="rm">OpenAI ferma <a href="https://openai.com/index/dell-codex-enterprise-partnership">ina partnarschaft cun Dell</a> per distribuir Codex en ambiants ibrids ed on-premise.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">DeepSeek</p><p class="kicker" data-i18n lang="en">DeepSeek</p><p class="kicker" data-i18n lang="de">DeepSeek</p><p class="kicker" data-i18n lang="it">DeepSeek</p><p class="kicker" data-i18n lang="rm">DeepSeek</p><h4><span data-i18n lang="fr">V4 promet un contexte vraiment utilisable</span><span data-i18n lang="en">V4 promises a truly usable context window</span><span data-i18n lang="de">V4 verspricht einen wirklich nutzbaren Kontext</span><span data-i18n lang="it">V4 promette un contesto davvero utilizzabile</span><span data-i18n lang="rm">V4 prometta in context da veras utilisabel</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 24 avril</p><p class="wire" data-i18n lang="en">From the Wires — 24 April</p><p class="wire" data-i18n lang="de">From the Wires — 24. April</p><p class="wire" data-i18n lang="it">From the Wires — 24 aprile</p><p class="wire" data-i18n lang="rm">From the Wires — ils 24 d'avrigl</p><div class="body"><span data-i18n lang="fr">Le titre <a href="https://huggingface.co/blog/deepseekv4">« a million-token context that agents can actually use »</a> claque sur le blog Hugging Face.</span><span data-i18n lang="en">The headline <a href="https://huggingface.co/blog/deepseekv4">"a million-token context that agents can actually use"</a> resonates across the Hugging Face blog.</span><span data-i18n lang="de">Der Titel <a href="https://huggingface.co/blog/deepseekv4">«a million-token context that agents can actually use»</a> macht auf dem Hugging Face-Blog Eindruck.</span><span data-i18n lang="it">Il titolo <a href="https://huggingface.co/blog/deepseekv4">«a million-token context that agents can actually use»</a> risuona sul blog di Hugging Face.</span><span data-i18n lang="rm">Il titel <a href="https://huggingface.co/blog/deepseekv4">«a million-token context that agents can actually use»</a> fa effect sin il blog da Hugging Face.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">xAI · Coding</p><p class="kicker" data-i18n lang="en">xAI · Coding</p><p class="kicker" data-i18n lang="de">xAI · Coding</p><p class="kicker" data-i18n lang="it">xAI · Coding</p><p class="kicker" data-i18n lang="rm">xAI · Coding</p><h4><span data-i18n lang="fr">Grok Build CLI s'invite à la table</span><span data-i18n lang="en">Grok Build CLI joins the fray</span><span data-i18n lang="de">Grok Build CLI mischt sich ein</span><span data-i18n lang="it">Grok Build CLI si aggiunge alla gara</span><span data-i18n lang="rm">Grok Build CLI s'annida a la tabla</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 15 mai</p><p class="wire" data-i18n lang="en">From the Wires — 15 May</p><p class="wire" data-i18n lang="de">From the Wires — 15. Mai</p><p class="wire" data-i18n lang="it">From the Wires — 15 maggio</p><p class="wire" data-i18n lang="rm">From the Wires — ils 15 da matg</p><div class="body"><span data-i18n lang="fr">xAI lance <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, agent de codage en ligne de commande. Quatrième CLI d'agent en six semaines.</span><span data-i18n lang="en">xAI launches <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, a command-line coding agent. The fourth agent CLI in six weeks.</span><span data-i18n lang="de">xAI launcht <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, einen Coding-Agenten für die Kommandozeile. Die vierte Agent-CLI in sechs Wochen.</span><span data-i18n lang="it">xAI lancia <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, agente di codifica a riga di comando. Il quarto agent CLI in sei settimane.</span><span data-i18n lang="rm">xAI lanza <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, in agent da codificaziun en lingia da comonda. Il quart CLI d'agent en ses emnas.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">NVIDIA</p><p class="kicker" data-i18n lang="en">NVIDIA</p><p class="kicker" data-i18n lang="de">NVIDIA</p><p class="kicker" data-i18n lang="it">NVIDIA</p><p class="kicker" data-i18n lang="rm">NVIDIA</p><h4><span data-i18n lang="fr">Nemotron 3 Nano Omni</span><span data-i18n lang="en">Nemotron 3 Nano Omni</span><span data-i18n lang="de">Nemotron 3 Nano Omni</span><span data-i18n lang="it">Nemotron 3 Nano Omni</span><span data-i18n lang="rm">Nemotron 3 Nano Omni</span></h4><p class="wire" data-i18n lang="fr">From the Wires — 28 avril</p><p class="wire" data-i18n lang="en">From the Wires — 28 April</p><p class="wire" data-i18n lang="de">From the Wires — 28. April</p><p class="wire" data-i18n lang="it">From the Wires — 28 aprile</p><p class="wire" data-i18n lang="rm">From the Wires — ils 28 d'avrigl</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte dans une enveloppe nano.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combines multimodal intelligence and long-context capability in a nano-scale footprint.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> verbindet multimodale Intelligenz und Langkontext in einem Nano-Format.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combina intelligenza multimodale e contesto lungo in un formato nano.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combinescha intelligenza multimodala e long-context en in format nano.</span></div></article>
 </div>
-
-<div class="paper">
-
-  <!-- ═══════════════════════ PAGE 1 — À LA UNE ═══════════════════════ -->
-  <section class="page active" data-page="1">
-
-    <header class="masthead">
-      <h1 class="title">La Veille IA</h1>
-      <p class="tagline">Tous les signaux de l'intelligence artificielle qui méritent d'être imprimés</p>
-      <div class="dateline">
-        <span>N° 140</span>
-        <span>Mercredi 20 mai 2026</span>
-        <span>Édition du matin · Genève · 4 pages</span>
-      </div>
-    </header>
-
-    <section class="topstories">
-      <article class="lead">
-        <div class="kicker">À la Une · Google I/O 2026</div>
-        <h1 class="headline">Gemini 3.5 Flash bouscule la frontière à vitesse Flash</h1>
-        <p class="subdeck">Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.</p>
-        <p class="byline">De notre correspondant à Mountain View — 20 mai 2026</p>
-        <p>Le 19 mai, en plein cœur de la conférence Google I/O 2026, DeepMind a dévoilé <a href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5/">Gemini 3.5 Flash</a>, présenté comme « frontier performance for agents and coding ».</p>
-        <p>La <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">model card officielle</a> détaille un context window d'un million de tokens et une couverture multimodale complète. Le score de 83,6 % sur MCP Atlas confirme que Google adopte publiquement le protocole MCP créé par Anthropic. L'écosystème agentic se standardise en croix.</p>
-        <p>Le modèle est disponible immédiatement via le Gemini API, Google AI Studio, Antigravity et la Gemini Enterprise Agent Platform.</p>
-      </article>
-
-      <aside class="sidebar">
-        <div class="kicker">Et aussi dans cette édition</div>
-        <div class="item">
-          <h4 class="headline"><span class="tag">Majeur</span> Anthropic externalise l'exécution agentic</h4>
-          <p class="wire">From the Wires — 19 mai · Suite p. 2</p>
-          <p>Les <a href="https://claude.com/blog/claude-managed-agents-updates">Claude Managed Agents</a> introduisent les <em>self-hosted sandboxes</em> et les <em>MCP tunnels</em>.</p>
-        </div>
-        <div class="item">
-          <h4 class="headline"><span class="tag">Majeur</span> GPT-5.5 surgit chez Databricks</h4>
-          <p class="wire">From the Wires — 15 mai · Suite p. 2</p>
-          <p>Annoncé sans fanfare dans <a href="https://openai.com/index/databricks">un billet d'OpenAI</a>. État de l'art sur OfficeQA Pro.</p>
-        </div>
-        <div class="item">
-          <h4 class="headline"><span class="tag">Majeur</span> DeepSeek-V4 dévoile son million de tokens</h4>
-          <p class="wire">From the Wires — 24 avril · Suite p. 3</p>
-          <p>« A million-token context that agents can actually use » titre <a href="https://huggingface.co/blog/deepseekv4">Hugging Face</a>.</p>
-        </div>
-        <div class="item">
-          <h4 class="headline"><span class="tag">Majeur</span> Google AI : Plus, Pro, Ultra à 100 dollars</h4>
-          <p class="wire">From the Wires — 19 mai · Suite p. 4</p>
-          <p><a href="https://blog.google/products/google-one/">Refonte complète</a> : palier Plus, Ultra à 100 $/mois.</p>
-        </div>
-      </aside>
-    </section>
-
-    <h2 class="section-title"><span class="num">I.</span>Modèles &amp; Frontière</h2>
-
-    <div class="three-cols">
-      <div class="article"><div class="kicker">Anthropic</div><h3 class="headline">Stainless rejoint le giron Anthropic</h3><p class="wire">From the Wires — 18 mai</p><p>Le 18 mai, <a href="https://www.anthropic.com/news">Anthropic a annoncé l'acquisition de Stainless</a>, société spécialisée dans la génération automatique de SDK. Le mouvement préfigure une stratégie API-first plus serrée.</p></div>
-      <div class="article"><div class="kicker">Anthropic · Microsoft</div><h3 class="headline">Claude entre dans Excel, Word et Outlook</h3><p class="wire">From the Wires — 7 mai</p><p>Avec <a href="https://claude.com/blog">la disponibilité dans Microsoft 365</a>, Anthropic place Claude en concurrence frontale avec Copilot dans l'ergonomie native des outils Office.</p></div>
-      <div class="article"><div class="kicker">Anthropic · AWS</div><h3 class="headline">La Claude Platform débarque sur AWS</h3><p class="wire">From the Wires — 11 mai</p><p>Sans passer par Bedrock, <a href="https://claude.com/blog">Anthropic distribue Claude directement</a> sur AWS Marketplace.</p></div>
-      <div class="article"><div class="kicker">DeepMind · Omni</div><h3 class="headline">Gemini Omni : « tout depuis tout »</h3><p class="wire">From the Wires — 17 mai</p><p><a href="https://deepmind.google/models/gemini-omni/">Gemini Omni</a>, modèle multimodal génératif, propose un montage vidéo conversationnel respectueux de la physique.</p></div>
-      <div class="article"><div class="kicker">DeepMind · Antigravity</div><h3 class="headline">Antigravity 2.0 : la plateforme agentic de Google</h3><p class="wire">From the Wires — 17 mai</p><p><a href="https://deepmind.google/blog/introducing-google-antigravity-2-0/">Antigravity 2.0</a> est la réponse directe de Google aux Managed Agents d'Anthropic.</p></div>
-      <div class="article"><div class="kicker">OpenAI · Dell</div><h3 class="headline">Codex se déploie sur l'infrastructure hybride</h3><p class="wire">From the Wires — 18 mai</p><p>OpenAI scelle <a href="https://openai.com/index/dell-codex-enterprise-partnership">un partenariat avec Dell</a> pour distribuer Codex en environnements hybrides et on-premise.</p></div>
-      <div class="article"><div class="kicker">DeepSeek</div><h3 class="headline">V4 promet un contexte vraiment utilisable</h3><p class="wire">From the Wires — 24 avril</p><p>Le titre <a href="https://huggingface.co/blog/deepseekv4">« a million-token context that agents can actually use »</a> claque sur le blog Hugging Face.</p></div>
-      <div class="article"><div class="kicker">xAI · Coding</div><h3 class="headline">Grok Build CLI s'invite à la table</h3><p class="wire">From the Wires — 15 mai</p><p>xAI lance <a href="https://x.ai/news/grok-build-cli">Grok Build</a>, agent de codage en ligne de commande. Quatrième CLI d'agent en six semaines.</p></div>
-      <div class="article"><div class="kicker">NVIDIA</div><h3 class="headline">Nemotron 3 Nano Omni</h3><p class="wire">From the Wires — 28 avril</p><p><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte dans une enveloppe nano.</p></div>
-    </div>
-
-    <div class="toc">
-      <h3>Sommaire de l'édition</h3>
-      <ol>
-        <li data-goto="1"><strong>À la Une</strong><span class="label-page">Page 1 (vous y êtes) — Google I/O 2026 + Modèles &amp; Frontière</span></li>
-        <li data-goto="2"><strong>Le Cahier Technique</strong><span class="label-page">Page 2 — Agents de codage + Sandbox &amp; Infrastructure</span></li>
-        <li data-goto="3"><strong>La Recherche</strong><span class="label-page">Page 3 — Apple ML papers + HuggingFace blog</span></li>
-        <li data-goto="4"><strong>La Communauté &amp; Édito</strong><span class="label-page">Page 4 — Hacker News + Chronique stratégique</span></li>
-      </ol>
-    </div>
-
-    <nav class="page-nav">
-      <button class="nav-btn" data-nav="prev" disabled>← Page précédente</button>
-      <span class="page-indicator">Page 1 sur 4 — À la Une</span>
-      <button class="nav-btn" data-nav="next">Page suivante →</button>
-    </nav>
-
-  </section>
-
-  <!-- ═══════════════════════ PAGE 2 — LE CAHIER TECHNIQUE ═══════════════════════ -->
-  <section class="page" data-page="2">
-
-    <header class="page-header">
-      <div class="label">Page 2 · Le Cahier Technique</div>
-      <h2 class="title">Agents de codage, sandboxs et infrastructure</h2>
-      <p class="kicker">Suite des annonces de la première page</p>
-    </header>
-
-    <h2 class="section-title"><span class="num">II.</span>Agents de Codage</h2>
-
-    <div class="three-cols">
-      <div class="article"><div class="kicker">claude-code v2.1.145</div><h3 class="headline">Anthropic muscle son agent</h3><p class="wire">Release — 19 mai 21h31</p><p>Les <a href="https://github.com/anthropics/claude-code/releases">releases 142 à 145</a> introduisent l'Agent View, la commande <code>/goal</code>, le flag <code>claude agents --json</code>, et passent Opus 4.7 en mode par défaut.</p></div>
-      <div class="article"><div class="kicker">codex CLI</div><h3 class="headline">Codex sort de l'IDE</h3><p class="wire">Releases · enterprise</p><p>Les annonces <a href="https://openai.com/index/work-with-codex-from-anywhere">« Work from anywhere »</a> et <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows sandbox</a> placent OpenAI sur le terrain du computer-use.</p></div>
-      <div class="article"><div class="kicker">gemini-cli 0.43</div><h3 class="headline">Gemini 3 Flash arrive dans le terminal</h3><p class="wire">Release — 19 mai</p><p>La <a href="https://github.com/google-gemini/gemini-cli/releases">version 0.43</a> intègre Gemini 3 Flash : performance Pro à coût Flash.</p></div>
-    </div>
-
-    <h2 class="section-title"><span class="num">III.</span>Sandboxs &amp; Infrastructure — Cloudflare Agents Week 2026</h2>
-
-    <div class="three-cols">
-      <div class="article"><div class="kicker">Cloudflare · Agents Week</div><h3 class="headline">Une semaine d'annonces agentic</h3><p class="wire">20 avril — Recap</p><p><a href="https://blog.cloudflare.com/agents-week-in-review/">Le résumé complet</a> : AI Platform unifiée, Email Service, Mesh privé, Dynamic Workers sandboxant 100× plus vite.</p></div>
-      <div class="article"><div class="kicker">Cloudflare · AI Platform</div><h3 class="headline">Inference layer designed for agents</h3><p class="wire">16 avril</p><p>L'<a href="https://blog.cloudflare.com/ai-platform/">AI Platform Cloudflare</a> intègre désormais 14 fournisseurs de modèles avec binding Workers AI natif.</p></div>
-      <div class="article"><div class="kicker">Cloudflare · Email</div><h3 class="headline">Email Service pour agents en beta publique</h3><p class="wire">16 avril</p><p><a href="https://blog.cloudflare.com/email-for-agents/">Email natif pour agents</a> : envoyer, recevoir et traiter des emails depuis un agent.</p></div>
-      <div class="article"><div class="kicker">Cloudflare · Mesh</div><h3 class="headline">Networking privé pour agents</h3><p class="wire">14 avril</p><p><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a> : accès scoped aux ressources privées pour agents et Workers.</p></div>
-      <div class="article"><div class="kicker">Cloudflare · Agent Lee</div><h3 class="headline">Dashboard agent sandboxé</h3><p class="wire">15 avril</p><p><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> simplifie la gestion de la stack via prompts conversationnels en TypeScript sandboxé.</p></div>
-      <div class="article"><div class="kicker">Cloudflare · Dynamic Workers</div><h3 class="headline">Sandboxing AI agents 100× plus vite</h3><p class="wire">24 mars</p><p><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> permettent l'exécution sécurisée de code AI-généré 100 fois plus vite que les containers traditionnels.</p></div>
-    </div>
-
-    <nav class="page-nav">
-      <button class="nav-btn" data-nav="prev">← Page précédente</button>
-      <span class="page-indicator">Page 2 sur 4 — Le Cahier Technique</span>
-      <button class="nav-btn" data-nav="next">Page suivante →</button>
-    </nav>
-
-  </section>
-
-  <!-- ═══════════════════════ PAGE 3 — LA RECHERCHE ═══════════════════════ -->
-  <section class="page" data-page="3">
-
-    <header class="page-header">
-      <div class="label">Page 3 · La Recherche</div>
-      <h2 class="title">Papers, embeddings, inférence, architectures</h2>
-      <p class="kicker">Apple ML Research · HuggingFace blog</p>
-    </header>
-
-    <h2 class="section-title"><span class="num">IV.</span>Le Carnet d'Apple ML Research</h2>
-
-    <div class="three-cols">
-      <div class="article"><div class="kicker">Apple ML · 6 mai</div><h3 class="headline">SpecMD optimise le prefetching d'experts MoE</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">L'étude SpecMD</a> propose un framework d'évaluation des politiques de cache d'experts MoE, avec implications directes sur les déploiements Apple Silicon.</p></div>
-      <div class="article"><div class="kicker">Apple ML · 11 mai</div><h3 class="headline">BalCapRL équilibre le RL pour MLLM</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> adresse les trade-offs de qualité dans le captionnage multimodal via reinforcement learning équilibré.</p></div>
-      <div class="article"><div class="kicker">Apple ML · 8 mai</div><h3 class="headline">3D Gaussian Head Reconstruction</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> permet la reconstruction 3D de têtes depuis des configurations multi-caméras.</p></div>
-      <div class="article"><div class="kicker">Apple ML · 8 mai</div><h3 class="headline">RVPO : Risk-Sensitive Alignment</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> pénalise la variance de récompense pour assurer une performance consistante en alignment multi-objectifs.</p></div>
-      <div class="article"><div class="kicker">Apple ML · 7 mai</div><h3 class="headline">TC-JEPA : visual representations</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> utilise des captions pour améliorer la prédiction de features masquées.</p></div>
-      <div class="article"><div class="kicker">Apple ML · 6 mai</div><h3 class="headline">SFI-Bench : spatial-functional intelligence</h3><p class="wire">Paper publié</p><p><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> évalue les LLMs multimodaux sur le raisonnement spatial via vidéo egocentrée.</p></div>
-    </div>
-
-    <h2 class="section-title"><span class="num">V.</span>HuggingFace Blog — Top du mois</h2>
-
-    <div class="three-cols">
-      <div class="article"><div class="kicker">AllenAI · 19 mai</div><h3 class="headline">OlmoEarth v1.1</h3><p class="wire">Model Release</p><p><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> publie une famille de modèles Earth observation plus efficiente.</p></div>
-      <div class="article"><div class="kicker">IBM · 14 mai</div><h3 class="headline">Granite Embedding Multilingual R2</h3><p class="wire">Model Release</p><p><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> revendique le meilleur retrieval sub-100M sous Apache 2.0, 32K context multilingue.</p></div>
-      <div class="article"><div class="kicker">IBM · 18 mai</div><h3 class="headline">Open Agent Leaderboard</h3><p class="wire">Benchmark</p><p><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> publie un nouveau bench d'évaluation d'agents cross-vendor.</p></div>
-      <div class="article"><div class="kicker">NVIDIA · 28 avril</div><h3 class="headline">Nemotron 3 Nano Omni multimodal</h3><p class="wire">Model Release</p><p><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte.</p></div>
-      <div class="article"><div class="kicker">HuggingFace · 14 mai</div><h3 class="headline">Async continuous batching</h3><p class="wire">Library Update</p><p><a href="https://huggingface.co/blog/continuous_async">L'asynchronicité</a> débloquée dans le batching continu améliore le throughput d'inférence transformer.</p></div>
-      <div class="article"><div class="kicker">ServiceNow · 6 mai</div><h3 class="headline">vLLM V0 → V1 correctness for RL</h3><p class="wire">Library Update</p><p><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> améliore l'inférence pour les workflows de reinforcement learning.</p></div>
-      <div class="article"><div class="kicker">NVIDIA · 18 mai</div><h3 class="headline">Cosmos Predict 2.5 LoRA/DoRA</h3><p class="wire">Tutorial</p><p><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-tuning Cosmos Predict 2.5</a> avec LoRA/DoRA pour la robot video generation.</p></div>
-      <div class="article"><div class="kicker">HuggingFace · 16 avril</div><h3 class="headline">Transformers vers MLX</h3><p class="wire">Pattern</p><p><a href="https://huggingface.co/blog/transformers-to-mlx">PR pattern automatique</a> qui facilite le portage entre Transformers et MLX.</p></div>
-      <div class="article"><div class="kicker">PaddlePaddle · 18 mai</div><h3 class="headline">PaddleOCR 3.5 + Transformers</h3><p class="wire">Library Update</p><p><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> avec backend Transformers natif.</p></div>
-    </div>
-
-    <nav class="page-nav">
-      <button class="nav-btn" data-nav="prev">← Page précédente</button>
-      <span class="page-indicator">Page 3 sur 4 — La Recherche</span>
-      <button class="nav-btn" data-nav="next">Page suivante →</button>
-    </nav>
-
-  </section>
-
-  <!-- ═══════════════════════ PAGE 4 — COMMUNAUTÉ & ÉDITO ═══════════════════════ -->
-  <section class="page" data-page="4">
-
-    <header class="page-header">
-      <div class="label">Page 4 · La Communauté &amp; Édito</div>
-      <h2 class="title">Hacker News, chronique stratégique</h2>
-      <p class="kicker">Signaux communauté · Édito de la rédaction</p>
-    </header>
-
-    <h2 class="section-title"><span class="num">VI.</span>La Communauté Hacker News</h2>
-
-    <div class="two-cols">
-      <div class="article"><div class="kicker">HN · 20 mai</div><h3 class="headline">Infrawise : MCP server infra context</h3><p class="wire">Show HN</p><p><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> donne à Claude Code un contexte d'infrastructure précis via MCP. Pattern intéressant pour les agents conscients de leur environnement de déploiement.</p></div>
-      <div class="article"><div class="kicker">HN · 20 mai</div><h3 class="headline">Agent Thread : sessions claude-code publiques</h3><p class="wire">Show HN</p><p><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> partage des sessions claude-code et codex sous forme de liens publics. La collaboration sur les workflows agentic s'organise.</p></div>
-      <div class="article"><div class="kicker">HN · 20 mai</div><h3 class="headline">100 000 lignes de Rust avec IA</h3><p class="wire">Deep dive</p><p><a href="https://news.ycombinator.com/item?id=48205415">Retour d'expérience approfondi</a> sur le passage à l'échelle du développement Rust assisté par IA.</p></div>
-      <div class="article"><div class="kicker">HN · 20 mai</div><h3 class="headline">Trois générations d'applications IA</h3><p class="wire">Framework</p><p><a href="https://news.ycombinator.com/item?id=48204832">Cadre conceptuel</a> distinguant conversationnel, délégatif et collaboratif comme étapes d'évolution des apps IA.</p></div>
-    </div>
-
-    <h2 class="section-title"><span class="num">VII.</span>Le Chronique Stratégique</h2>
-
-    <article class="editorial-article">
-      <div class="kicker">Éditorial de la rédaction</div>
-      <h3 class="headline">La standardisation MCP arrive plus vite que prévu</h3>
-      <p class="wire">Par la rédaction · 20 mai 2026</p>
-      <p>Le 19 mai 2026 restera comme une date charnière. Non pas pour Gemini 3.5 Flash, ni pour les Claude Managed Agents pris isolément, mais pour ce que ces annonces révèlent ensemble : <em>le protocole MCP, créé par Anthropic pour ses propres outils, est devenu un standard d'industrie</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google le mesure publiquement</a> via MCP Atlas. Anthropic en fait son canal d'exposition enterprise via les <a href="https://claude.com/blog/claude-managed-agents-updates">MCP tunnels</a>. La frontière entre les écosystèmes labos s'efface.</p>
-      <p>Pour le praticien — celui qui maintient quelques serveurs MCP internes — la conséquence est concrète : les MCP servers développés aujourd'hui sont portables demain vers Gemini Enterprise Agent Platform, Antigravity, ou ce qu'OpenAI sortira sous le nom de Managed Agents. <strong>L'investissement dans MCP n'est plus locked-in chez Anthropic.</strong></p>
-      <p>Le pattern qui se dessine pour les prochains mois : <strong>les sandbox providers</strong> — Cloudflare, Daytona, Modal, Vercel — deviennent le tissu connectif entre les boucles d'orchestration des labos et les infrastructures des entreprises. Cloudflare a déjà pris une avance d'une saison en publiant son <em>Agents Week</em> dès avril. Les autres suivront.</p>
-      <p>Quatre laboratoires publient en moins de six semaines leurs CLI d'agent : <a href="https://github.com/anthropics/claude-code/releases">claude-code</a>, <a href="https://github.com/openai/codex/releases">codex</a>, <a href="https://github.com/google-gemini/gemini-cli/releases">gemini-cli</a>, <a href="https://x.ai/news/grok-build-cli">grok-build-cli</a>. Quatre implémentations du même concept, signe que le pattern est désormais une catégorie produit à part entière. Le développeur de 2027 aura le choix de son agent comme on choisissait son IDE en 2010.</p>
-    </article>
-
-    <footer class="ours">
-      <div>★ ★ ★</div>
-      <p class="motto">« All the AI that's fit to print »</p>
-    </footer>
-
-    <nav class="page-nav">
-      <button class="nav-btn" data-nav="prev">← Page précédente</button>
-      <span class="page-indicator">Page 4 sur 4 — Fin de l'édition</span>
-      <button class="nav-btn" data-nav="next" disabled>Page suivante →</button>
-    </nav>
-
-  </section>
-
+</section>
+<section class="page" data-page="2">
+<h2 class="page-label"><span data-i18n lang="fr">Page 2 — </span><span data-i18n lang="en">Page 2 — </span><span data-i18n lang="de">Seite 2 — </span><span data-i18n lang="it">Pagina 2 — </span><span data-i18n lang="rm">Pagina 2 — </span><span data-i18n lang="fr">Le Cahier Technique</span><span data-i18n lang="en">The Technical Supplement</span><span data-i18n lang="de">Das Technische Heft</span><span data-i18n lang="it">Il Quaderno Tecnico</span><span data-i18n lang="rm">Il Cader Tecnic</span></h2>
+<div class="section section-3-cols">
+<h3 class="section-title">II. <span data-i18n lang="fr">Agents de Codage</span><span data-i18n lang="en">Coding Agents</span><span data-i18n lang="de">Coding-Agenten</span><span data-i18n lang="it">Agenti di Codifica</span><span data-i18n lang="rm">Agents da Codificaziun</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">claude-code v2.1.145</p><p class="kicker" data-i18n lang="en">claude-code v2.1.145</p><p class="kicker" data-i18n lang="de">claude-code v2.1.145</p><p class="kicker" data-i18n lang="it">claude-code v2.1.145</p><p class="kicker" data-i18n lang="rm">claude-code v2.1.145</p><h4><span data-i18n lang="fr">Anthropic muscle son agent</span><span data-i18n lang="en">Anthropic bolsters its agent</span><span data-i18n lang="de">Anthropic stärkt seinen Agenten</span><span data-i18n lang="it">Anthropic potenzia il suo agente</span><span data-i18n lang="rm">Anthropic fuortscha ses agent</span></h4><p class="wire" data-i18n lang="fr">Release — 19 mai 21h31</p><p class="wire" data-i18n lang="en">Release — 19 May, 21:31</p><p class="wire" data-i18n lang="de">Release — 19. Mai, 21:31 Uhr</p><p class="wire" data-i18n lang="it">Release — 19 maggio, ore 21:31</p><p class="wire" data-i18n lang="rm">Release — ils 19 da matg, 21:31</p><div class="body"><span data-i18n lang="fr">Les <a href="https://github.com/anthropics/claude-code/releases">releases 142 à 145</a> introduisent l'Agent View, la commande <code>/goal</code>, le flag <code>claude agents --json</code>, et passent Opus 4.7 en mode par défaut.</span><span data-i18n lang="en">The <a href="https://github.com/anthropics/claude-code/releases">releases 142 to 145</a> introduce Agent View, the <code>/goal</code> command, the <code>claude agents --json</code> flag, and set Opus 4.7 as the default mode.</span><span data-i18n lang="de">Die <a href="https://github.com/anthropics/claude-code/releases">Releases 142 bis 145</a> führen den Agent View, den Befehl <code>/goal</code>, das Flag <code>claude agents --json</code> ein und setzen Opus 4.7 als Standardmodus.</span><span data-i18n lang="it">Le <a href="https://github.com/anthropics/claude-code/releases">release dalla 142 alla 145</a> introducono l'Agent View, il comando <code>/goal</code>, il flag <code>claude agents --json</code>, e impostano Opus 4.7 come modalità predefinita.</span><span data-i18n lang="rm">Las <a href="https://github.com/anthropics/claude-code/releases">releases 142 fin 145</a> introduceschan l'Agent View, la comonda <code>/goal</code>, il flag <code>claude agents --json</code>, e mettian Opus 4.7 sco modus standard.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">codex CLI</p><p class="kicker" data-i18n lang="en">codex CLI</p><p class="kicker" data-i18n lang="de">codex CLI</p><p class="kicker" data-i18n lang="it">codex CLI</p><p class="kicker" data-i18n lang="rm">codex CLI</p><h4><span data-i18n lang="fr">Codex sort de l'IDE</span><span data-i18n lang="en">Codex steps outside the IDE</span><span data-i18n lang="de">Codex verlässt die IDE</span><span data-i18n lang="it">Codex esce dall'IDE</span><span data-i18n lang="rm">Codex lascha l'IDE</span></h4><p class="wire" data-i18n lang="fr">Releases · annonces enterprise</p><p class="wire" data-i18n lang="en">Releases · enterprise announcements</p><p class="wire" data-i18n lang="de">Releases · Enterprise-Ankündigungen</p><p class="wire" data-i18n lang="it">Release · annunci enterprise</p><p class="wire" data-i18n lang="rm">Releases · annunzis enterprise</p><div class="body"><span data-i18n lang="fr">Les annonces <a href="https://openai.com/index/work-with-codex-from-anywhere">« Work from anywhere »</a> et <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows sandbox</a> placent OpenAI sur le terrain du computer-use.</span><span data-i18n lang="en">The <a href="https://openai.com/index/work-with-codex-from-anywhere">"Work from anywhere"</a> and <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows sandbox</a> announcements place OpenAI on computer-use terrain.</span><span data-i18n lang="de">Die Ankündigungen <a href="https://openai.com/index/work-with-codex-from-anywhere">«Work from anywhere»</a> und <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows Sandbox</a> positionieren OpenAI im Bereich Computer-Use.</span><span data-i18n lang="it">Gli annunci <a href="https://openai.com/index/work-with-codex-from-anywhere">«Work from anywhere»</a> e <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows sandbox</a> posizionano OpenAI nel campo del computer-use.</span><span data-i18n lang="rm">Las annunzias <a href="https://openai.com/index/work-with-codex-from-anywhere">«Work from anywhere»</a> e <a href="https://openai.com/index/building-codex-windows-sandbox">Codex Windows sandbox</a> mettian OpenAI sin il terren dal computer-use.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">gemini-cli 0.43</p><p class="kicker" data-i18n lang="en">gemini-cli 0.43</p><p class="kicker" data-i18n lang="de">gemini-cli 0.43</p><p class="kicker" data-i18n lang="it">gemini-cli 0.43</p><p class="kicker" data-i18n lang="rm">gemini-cli 0.43</p><h4><span data-i18n lang="fr">Gemini 3 Flash arrive dans le terminal</span><span data-i18n lang="en">Gemini 3 Flash arrives in the terminal</span><span data-i18n lang="de">Gemini 3 Flash kommt ins Terminal</span><span data-i18n lang="it">Gemini 3 Flash arriva nel terminale</span><span data-i18n lang="rm">Gemini 3 Flash arriva en il terminal</span></h4><p class="wire" data-i18n lang="fr">Release — 19 mai</p><p class="wire" data-i18n lang="en">Release — 19 May</p><p class="wire" data-i18n lang="de">Release — 19. Mai</p><p class="wire" data-i18n lang="it">Release — 19 maggio</p><p class="wire" data-i18n lang="rm">Release — ils 19 da matg</p><div class="body"><span data-i18n lang="fr">La <a href="https://github.com/google-gemini/gemini-cli/releases">version 0.43</a> intègre Gemini 3 Flash : performance Pro à coût Flash.</span><span data-i18n lang="en">The <a href="https://github.com/google-gemini/gemini-cli/releases">version 0.43</a> integrates Gemini 3 Flash: Pro performance at Flash cost.</span><span data-i18n lang="de">Die <a href="https://github.com/google-gemini/gemini-cli/releases">Version 0.43</a> integriert Gemini 3 Flash: Pro-Leistung zum Flash-Preis.</span><span data-i18n lang="it">La <a href="https://github.com/google-gemini/gemini-cli/releases">versione 0.43</a> integra Gemini 3 Flash: prestazioni Pro a costo Flash.</span><span data-i18n lang="rm">La <a href="https://github.com/google-gemini/gemini-cli/releases">versiun 0.43</a> integrescha Gemini 3 Flash: prestaziun Pro a custs Flash.</span></div></article>
 </div>
+<div class="section section-3-cols">
+<h3 class="section-title">III. <span data-i18n lang="fr">Sandboxs & Infrastructure</span><span data-i18n lang="en">Sandboxes & Infrastructure</span><span data-i18n lang="de">Sandboxes & Infrastruktur</span><span data-i18n lang="it">Sandbox & Infrastruttura</span><span data-i18n lang="rm">Sandboxs & Infrastructura</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · Agents Week</p><p class="kicker" data-i18n lang="en">Cloudflare · Agents Week</p><p class="kicker" data-i18n lang="de">Cloudflare · Agents Week</p><p class="kicker" data-i18n lang="it">Cloudflare · Agents Week</p><p class="kicker" data-i18n lang="rm">Cloudflare · Agents Week</p><h4><span data-i18n lang="fr">Agents Week 2026 recap</span><span data-i18n lang="en">Agents Week 2026 recap</span><span data-i18n lang="de">Agents Week 2026 Rückblick</span><span data-i18n lang="it">Agents Week 2026 recap</span><span data-i18n lang="rm">Recap Agents Week 2026</span></h4><p class="wire" data-i18n lang="fr">20 avril</p><p class="wire" data-i18n lang="en">20 April</p><p class="wire" data-i18n lang="de">20. April</p><p class="wire" data-i18n lang="it">20 aprile</p><p class="wire" data-i18n lang="rm">ils 20 d'avrigl</p><div class="body"><span data-i18n lang="fr"><a href="https://blog.cloudflare.com/agents-week-in-review/">Une semaine d'annonces agentic</a> : AI Platform unifiée, Email Service, Mesh privé, Dynamic Workers sandboxant 100× plus vite.</span><span data-i18n lang="en"><a href="https://blog.cloudflare.com/agents-week-in-review/">A week of agentic announcements</a>: unified AI Platform, Email Service, private Mesh, Dynamic Workers sandboxing 100× faster.</span><span data-i18n lang="de"><a href="https://blog.cloudflare.com/agents-week-in-review/">Eine Woche agentischer Ankündigungen</a>: vereinheitlichte AI Platform, Email Service, privates Mesh, Dynamic Workers mit 100× schnellerem Sandboxing.</span><span data-i18n lang="it"><a href="https://blog.cloudflare.com/agents-week-in-review/">Una settimana di annunci agentic</a>: AI Platform unificata, Email Service, Mesh privato, Dynamic Workers con sandboxing 100× più veloce.</span><span data-i18n lang="rm"><a href="https://blog.cloudflare.com/agents-week-in-review/">Ina emna d'annunzias agenticas</a>: AI Platform unificada, Email Service, Mesh privat, Dynamic Workers che sandboxeschan 100× pli spert.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · AI Platform</p><p class="kicker" data-i18n lang="en">Cloudflare · AI Platform</p><p class="kicker" data-i18n lang="de">Cloudflare · AI Platform</p><p class="kicker" data-i18n lang="it">Cloudflare · AI Platform</p><p class="kicker" data-i18n lang="rm">Cloudflare · AI Platform</p><h4><span data-i18n lang="fr">Inference layer designed for agents</span><span data-i18n lang="en">Inference layer designed for agents</span><span data-i18n lang="de">Inferenzschicht für Agenten konzipiert</span><span data-i18n lang="it">Livello di inferenza progettato per gli agenti</span><span data-i18n lang="rm">Strat d'inferenza concepì per agents</span></h4><p class="wire" data-i18n lang="fr">16 avril</p><p class="wire" data-i18n lang="en">16 April</p><p class="wire" data-i18n lang="de">16. April</p><p class="wire" data-i18n lang="it">16 aprile</p><p class="wire" data-i18n lang="rm">ils 16 d'avrigl</p><div class="body"><span data-i18n lang="fr">L'<a href="https://blog.cloudflare.com/ai-platform/">AI Platform Cloudflare</a> intègre désormais 14 fournisseurs de modèles avec binding Workers AI natif.</span><span data-i18n lang="en">The <a href="https://blog.cloudflare.com/ai-platform/">Cloudflare AI Platform</a> now integrates 14 model providers with native Workers AI binding.</span><span data-i18n lang="de">Die <a href="https://blog.cloudflare.com/ai-platform/">Cloudflare AI Platform</a> integriert nun 14 Modellanbieter mit nativem Workers AI-Binding.</span><span data-i18n lang="it">La <a href="https://blog.cloudflare.com/ai-platform/">Cloudflare AI Platform</a> integra ora 14 fornitori di modelli con binding Workers AI nativo.</span><span data-i18n lang="rm">L'<a href="https://blog.cloudflare.com/ai-platform/">Cloudflare AI Platform</a> integrescha ussa 14 furniders da models cun binding Workers AI nativ.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · Email</p><p class="kicker" data-i18n lang="en">Cloudflare · Email</p><p class="kicker" data-i18n lang="de">Cloudflare · Email</p><p class="kicker" data-i18n lang="it">Cloudflare · Email</p><p class="kicker" data-i18n lang="rm">Cloudflare · Email</p><h4><span data-i18n lang="fr">Email Service pour agents en beta publique</span><span data-i18n lang="en">Email Service for agents enters public beta</span><span data-i18n lang="de">Email Service für Agenten in öffentlicher Beta</span><span data-i18n lang="it">Email Service per agenti in beta pubblica</span><span data-i18n lang="rm">Email Service per agents en beta publica</span></h4><p class="wire" data-i18n lang="fr">16 avril</p><p class="wire" data-i18n lang="en">16 April</p><p class="wire" data-i18n lang="de">16. April</p><p class="wire" data-i18n lang="it">16 aprile</p><p class="wire" data-i18n lang="rm">ils 16 d'avrigl</p><div class="body"><span data-i18n lang="fr"><a href="https://blog.cloudflare.com/email-for-agents/">Email natif pour agents</a> : envoyer, recevoir et traiter des emails depuis un agent.</span><span data-i18n lang="en"><a href="https://blog.cloudflare.com/email-for-agents/">Native email for agents</a>: send, receive and process emails directly from an agent.</span><span data-i18n lang="de"><a href="https://blog.cloudflare.com/email-for-agents/">Natives E-Mail für Agenten</a>: E-Mails direkt von einem Agenten senden, empfangen und verarbeiten.</span><span data-i18n lang="it"><a href="https://blog.cloudflare.com/email-for-agents/">Email nativo per agenti</a>: inviare, ricevere ed elaborare email direttamente da un agente.</span><span data-i18n lang="rm"><a href="https://blog.cloudflare.com/email-for-agents/">Email nativ per agents</a>: trametter, survegner e tractar emails directamain d'in agent.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · Mesh</p><p class="kicker" data-i18n lang="en">Cloudflare · Mesh</p><p class="kicker" data-i18n lang="de">Cloudflare · Mesh</p><p class="kicker" data-i18n lang="it">Cloudflare · Mesh</p><p class="kicker" data-i18n lang="rm">Cloudflare · Mesh</p><h4><span data-i18n lang="fr">Networking privé pour agents</span><span data-i18n lang="en">Private networking for agents</span><span data-i18n lang="de">Privates Networking für Agenten</span><span data-i18n lang="it">Networking privato per agenti</span><span data-i18n lang="rm">Networking privat per agents</span></h4><p class="wire" data-i18n lang="fr">14 avril</p><p class="wire" data-i18n lang="en">14 April</p><p class="wire" data-i18n lang="de">14. April</p><p class="wire" data-i18n lang="it">14 aprile</p><p class="wire" data-i18n lang="rm">ils 14 d'avrigl</p><div class="body"><span data-i18n lang="fr"><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a> : accès scoped aux ressources privées pour agents et Workers.</span><span data-i18n lang="en"><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a>: scoped access to private resources for agents and Workers.</span><span data-i18n lang="de"><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a>: gezielter Zugriff auf private Ressourcen für Agenten und Workers.</span><span data-i18n lang="it"><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a>: accesso limitato alle risorse private per agenti e Workers.</span><span data-i18n lang="rm"><a href="https://blog.cloudflare.com/mesh/">Cloudflare Mesh</a>: access scoped a las ressursas privatas per agents e Workers.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · Agent Lee</p><p class="kicker" data-i18n lang="en">Cloudflare · Agent Lee</p><p class="kicker" data-i18n lang="de">Cloudflare · Agent Lee</p><p class="kicker" data-i18n lang="it">Cloudflare · Agent Lee</p><p class="kicker" data-i18n lang="rm">Cloudflare · Agent Lee</p><h4><span data-i18n lang="fr">Dashboard agent sandboxé</span><span data-i18n lang="en">Sandboxed agent dashboard</span><span data-i18n lang="de">Sandboxed Agent-Dashboard</span><span data-i18n lang="it">Dashboard agent sandboxato</span><span data-i18n lang="rm">Dashboard agent sandboxà</span></h4><p class="wire" data-i18n lang="fr">15 avril</p><p class="wire" data-i18n lang="en">15 April</p><p class="wire" data-i18n lang="de">15. April</p><p class="wire" data-i18n lang="it">15 aprile</p><p class="wire" data-i18n lang="rm">ils 15 d'avrigl</p><div class="body"><span data-i18n lang="fr"><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> simplifie la gestion de la stack via prompts conversationnels en TypeScript sandboxé.</span><span data-i18n lang="en"><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> simplifies stack management through conversational prompts in sandboxed TypeScript.</span><span data-i18n lang="de"><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> vereinfacht das Stack-Management über konversationelle Prompts in sandboxed TypeScript.</span><span data-i18n lang="it"><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> semplifica la gestione dello stack tramite prompt conversazionali in TypeScript sandboxato.</span><span data-i18n lang="rm"><a href="https://blog.cloudflare.com/introducing-agent-lee/">Agent Lee</a> simplifitgescha la gestiun da la stack via prompts conversaziunals en TypeScript sandboxà.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Cloudflare · Dynamic Workers</p><p class="kicker" data-i18n lang="en">Cloudflare · Dynamic Workers</p><p class="kicker" data-i18n lang="de">Cloudflare · Dynamic Workers</p><p class="kicker" data-i18n lang="it">Cloudflare · Dynamic Workers</p><p class="kicker" data-i18n lang="rm">Cloudflare · Dynamic Workers</p><h4><span data-i18n lang="fr">Sandboxing AI agents 100× plus vite</span><span data-i18n lang="en">Sandboxing AI agents 100× faster</span><span data-i18n lang="de">AI-Agenten 100× schneller sandboxen</span><span data-i18n lang="it">Sandboxing degli agenti AI 100× più veloce</span><span data-i18n lang="rm">Sandboxing d'agents AI 100× pli spert</span></h4><p class="wire" data-i18n lang="fr">24 mars</p><p class="wire" data-i18n lang="en">24 March</p><p class="wire" data-i18n lang="de">24. März</p><p class="wire" data-i18n lang="it">24 marzo</p><p class="wire" data-i18n lang="rm">ils 24 da mars</p><div class="body"><span data-i18n lang="fr"><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> permettent l'exécution sécurisée de code AI-généré 100 fois plus vite que les containers traditionnels.</span><span data-i18n lang="en"><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> enable secure execution of AI-generated code 100 times faster than traditional containers.</span><span data-i18n lang="de"><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> ermöglichen die sichere Ausführung von KI-generiertem Code 100-mal schneller als herkömmliche Container.</span><span data-i18n lang="it"><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> consentono l'esecuzione sicura di codice generato dall'AI 100 volte più velocemente dei container tradizionali.</span><span data-i18n lang="rm"><a href="https://blog.cloudflare.com/dynamic-workers/">Dynamic Workers</a> permitteschan l'execuziun segira da code generà da l'AI 100 giadas pli spert che ils containers tradiziunals.</span></div></article>
+</div>
+</section>
+<section class="page" data-page="3">
+<h2 class="page-label"><span data-i18n lang="fr">Page 3 — </span><span data-i18n lang="en">Page 3 — </span><span data-i18n lang="de">Seite 3 — </span><span data-i18n lang="it">Pagina 3 — </span><span data-i18n lang="rm">Pagina 3 — </span><span data-i18n lang="fr">La Recherche</span><span data-i18n lang="en">Research</span><span data-i18n lang="de">Forschung</span><span data-i18n lang="it">La Ricerca</span><span data-i18n lang="rm">La Perscrutaziun</span></h2>
+<div class="section section-3-cols">
+<h3 class="section-title">IV. <span data-i18n lang="fr">Le Carnet d'Apple ML Research</span><span data-i18n lang="en">The Apple ML Research Notebook</span><span data-i18n lang="de">Das Apple ML Research Notizbuch</span><span data-i18n lang="it">Il Taccuino di Apple ML Research</span><span data-i18n lang="rm">Il Carnet d'Apple ML Research</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 6 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 6 May</p><p class="kicker" data-i18n lang="de">Apple ML · 6. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 6 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 6 da matg</p><h4><span data-i18n lang="fr">SpecMD optimise le prefetching d'experts MoE</span><span data-i18n lang="en">SpecMD optimises MoE expert prefetching</span><span data-i18n lang="de">SpecMD optimiert das Prefetching von MoE-Experten</span><span data-i18n lang="it">SpecMD ottimizza il prefetching degli esperti MoE</span><span data-i18n lang="rm">SpecMD optimisescha il prefetching d'experts MoE</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">L'étude SpecMD</a> propose un framework d'évaluation des politiques de cache d'experts MoE, avec implications directes sur les déploiements Apple Silicon.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">The SpecMD study</a> proposes a framework for evaluating MoE expert cache policies, with direct implications for Apple Silicon deployments.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">Die SpecMD-Studie</a> schlägt ein Framework zur Bewertung von MoE-Expert-Cache-Richtlinien vor, mit direkten Auswirkungen auf Apple Silicon-Deployments.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">Lo studio SpecMD</a> propone un framework per la valutazione delle politiche di cache degli esperti MoE, con implicazioni dirette sui deployment Apple Silicon.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/specmd-expert-prefetching">L'etudi SpecMD</a> propona in framework per evaluar las politicas da cache d'experts MoE, cun implicaziuns directas per ils deployments Apple Silicon.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 11 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 11 May</p><p class="kicker" data-i18n lang="de">Apple ML · 11. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 11 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 11 da matg</p><h4><span data-i18n lang="fr">BalCapRL équilibre le RL pour MLLM</span><span data-i18n lang="en">BalCapRL balances RL for MLLMs</span><span data-i18n lang="de">BalCapRL balanciert RL für MLLMs</span><span data-i18n lang="it">BalCapRL bilancia il RL per i MLLM</span><span data-i18n lang="rm">BalCapRL equilibrescha il RL per MLLMs</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> adresse les trade-offs de qualité dans le captionnage multimodal via reinforcement learning équilibré.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> addresses quality trade-offs in multimodal captioning through balanced reinforcement learning.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> adressiert Qualitäts-Trade-offs im multimodalen Captioning durch ausgewogenes Reinforcement Learning.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> affronta i trade-off di qualità nel captioning multimodale tramite reinforcement learning equilibrato.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning">BalCapRL</a> adressescha ils trade-offs da qualitad en il captionnage multimodal via reinforcement learning equilibrà.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 8 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 8 May</p><p class="kicker" data-i18n lang="de">Apple ML · 8. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 8 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 8 da matg</p><h4><span data-i18n lang="fr">3D Gaussian Head Reconstruction</span><span data-i18n lang="en">3D Gaussian Head Reconstruction</span><span data-i18n lang="de">3D-Gaussian-Kopfrekonstruktion</span><span data-i18n lang="it">Ricostruzione 3D Gaussian della testa</span><span data-i18n lang="rm">Reconstrucziun 3D Gaussian da chavezzas</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> permet la reconstruction 3D de têtes depuis des configurations multi-caméras.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> enables 3D head reconstruction from multi-camera configurations.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> ermöglicht die 3D-Rekonstruktion von Köpfen aus Multi-Kamera-Konfigurationen.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> consente la ricostruzione 3D di teste da configurazioni multi-camera.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/gaussian-head-reconstruction">HeadsUp</a> permetta la reconstrucziun 3D da chavezzas da configuraziunas multi-camera.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 8 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 8 May</p><p class="kicker" data-i18n lang="de">Apple ML · 8. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 8 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 8 da matg</p><h4><span data-i18n lang="fr">RVPO : Risk-Sensitive Alignment</span><span data-i18n lang="en">RVPO: Risk-Sensitive Alignment</span><span data-i18n lang="de">RVPO: Risikosensibles Alignment</span><span data-i18n lang="it">RVPO: Alignment sensibile al rischio</span><span data-i18n lang="rm">RVPO: Alignment sensibel al ristg</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> pénalise la variance de récompense pour assurer une performance consistante en alignment multi-objectifs.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> penalises reward variance to ensure consistent performance in multi-objective alignment.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> bestraft die Belohnungsvarianz, um eine konsistente Leistung beim Multi-Objective-Alignment sicherzustellen.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> penalizza la varianza di ricompensa per garantire prestazioni consistenti nell'alignment multi-obiettivo.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment">RVPO</a> penalisescha la varianza da recompensa per garantir ina prestaziun consistenta en l'alignment multi-objectiv.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 7 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 7 May</p><p class="kicker" data-i18n lang="de">Apple ML · 7. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 7 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 7 da matg</p><h4><span data-i18n lang="fr">TC-JEPA : visual representations</span><span data-i18n lang="en">TC-JEPA: visual representations</span><span data-i18n lang="de">TC-JEPA: visuelle Repräsentationen</span><span data-i18n lang="it">TC-JEPA: rappresentazioni visive</span><span data-i18n lang="rm">TC-JEPA: representaziunas visualas</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> utilise des captions pour améliorer la prédiction de features masquées.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> uses captions to improve masked feature prediction.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> nutzt Captions, um die Vorhersage maskierter Features zu verbessern.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> utilizza le caption per migliorare la predizione di feature mascherate.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/text-conditional-jepa-visual-representations">TC-JEPA</a> utilisescha captions per meglierar la predicziun da features mascadas.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Apple ML · 6 mai</p><p class="kicker" data-i18n lang="en">Apple ML · 6 May</p><p class="kicker" data-i18n lang="de">Apple ML · 6. Mai</p><p class="kicker" data-i18n lang="it">Apple ML · 6 maggio</p><p class="kicker" data-i18n lang="rm">Apple ML · ils 6 da matg</p><h4><span data-i18n lang="fr">SFI-Bench : spatial-functional intelligence</span><span data-i18n lang="en">SFI-Bench: spatial-functional intelligence</span><span data-i18n lang="de">SFI-Bench: räumlich-funktionale Intelligenz</span><span data-i18n lang="it">SFI-Bench: intelligenza spaziale-funzionale</span><span data-i18n lang="rm">SFI-Bench: intelligenza spazial-funcziunala</span></h4><p class="wire" data-i18n lang="fr">Paper publié</p><p class="wire" data-i18n lang="en">Paper published</p><p class="wire" data-i18n lang="de">Paper veröffentlicht</p><p class="wire" data-i18n lang="it">Paper pubblicato</p><p class="wire" data-i18n lang="rm">Paper publitgà</p><div class="body"><span data-i18n lang="fr"><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> évalue les LLMs multimodaux sur le raisonnement spatial via vidéo egocentrée.</span><span data-i18n lang="en"><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> evaluates multimodal LLMs on spatial reasoning through egocentric video.</span><span data-i18n lang="de"><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> bewertet multimodale LLMs beim räumlichen Denken anhand egozentrischer Videos.</span><span data-i18n lang="it"><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> valuta i LLM multimodali sul ragionamento spaziale tramite video egocentrico.</span><span data-i18n lang="rm"><a href="https://machinelearning.apple.com/research/spatial">SFI-Bench</a> evalua ils LLMs multimodals sin il rasonament spatial via video egocentrà.</span></div></article>
+</div>
+<div class="section section-3-cols">
+<h3 class="section-title">V. <span data-i18n lang="fr">HuggingFace Blog — Top du mois</span><span data-i18n lang="en">HuggingFace Blog — Top of the Month</span><span data-i18n lang="de">HuggingFace Blog — Top des Monats</span><span data-i18n lang="it">HuggingFace Blog — Il meglio del mese</span><span data-i18n lang="rm">HuggingFace Blog — Top dal mais</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">AllenAI · 19 mai</p><p class="kicker" data-i18n lang="en">AllenAI · 19 May</p><p class="kicker" data-i18n lang="de">AllenAI · 19. Mai</p><p class="kicker" data-i18n lang="it">AllenAI · 19 maggio</p><p class="kicker" data-i18n lang="rm">AllenAI · ils 19 da matg</p><h4><span data-i18n lang="fr">OlmoEarth v1.1</span><span data-i18n lang="en">OlmoEarth v1.1</span><span data-i18n lang="de">OlmoEarth v1.1</span><span data-i18n lang="it">OlmoEarth v1.1</span><span data-i18n lang="rm">OlmoEarth v1.1</span></h4><p class="wire" data-i18n lang="fr">Model Release</p><p class="wire" data-i18n lang="en">Model Release</p><p class="wire" data-i18n lang="de">Model Release</p><p class="wire" data-i18n lang="it">Model Release</p><p class="wire" data-i18n lang="rm">Model Release</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> publie une famille de modèles Earth observation plus efficiente.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> releases a more efficient Earth observation model family.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> veröffentlicht eine effizientere Modellfamilie zur Erdbeobachtung.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> pubblica una famiglia di modelli di Earth observation più efficiente.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/allenai/olmoearth-v1-1">AllenAI</a> publitgescha ina famiglia da models d'observaziun da la Terra pli effizienta.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">IBM · 14 mai</p><p class="kicker" data-i18n lang="en">IBM · 14 May</p><p class="kicker" data-i18n lang="de">IBM · 14. Mai</p><p class="kicker" data-i18n lang="it">IBM · 14 maggio</p><p class="kicker" data-i18n lang="rm">IBM · ils 14 da matg</p><h4><span data-i18n lang="fr">Granite Embedding Multilingual R2</span><span data-i18n lang="en">Granite Embedding Multilingual R2</span><span data-i18n lang="de">Granite Embedding Multilingual R2</span><span data-i18n lang="it">Granite Embedding Multilingual R2</span><span data-i18n lang="rm">Granite Embedding Multilingual R2</span></h4><p class="wire" data-i18n lang="fr">Model Release</p><p class="wire" data-i18n lang="en">Model Release</p><p class="wire" data-i18n lang="de">Model Release</p><p class="wire" data-i18n lang="it">Model Release</p><p class="wire" data-i18n lang="rm">Model Release</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> revendique le meilleur retrieval sub-100M sous Apache 2.0, 32K context multilingue.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> claims best sub-100M retrieval under Apache 2.0, with a 32K multilingual context.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> beansprucht das beste Sub-100M-Retrieval unter Apache 2.0, mit 32K-mehrsprachigem Kontext.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> rivendica il miglior retrieval sub-100M sotto Apache 2.0, con contesto multilingue da 32K.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/ibm-granite/granite-embedding-multilingual-r2">Granite</a> revendisescha il meglier retrieval sub-100M sut Apache 2.0, context multilingue da 32K.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">IBM · 18 mai</p><p class="kicker" data-i18n lang="en">IBM · 18 May</p><p class="kicker" data-i18n lang="de">IBM · 18. Mai</p><p class="kicker" data-i18n lang="it">IBM · 18 maggio</p><p class="kicker" data-i18n lang="rm">IBM · ils 18 da matg</p><h4><span data-i18n lang="fr">Open Agent Leaderboard</span><span data-i18n lang="en">Open Agent Leaderboard</span><span data-i18n lang="de">Open Agent Leaderboard</span><span data-i18n lang="it">Open Agent Leaderboard</span><span data-i18n lang="rm">Open Agent Leaderboard</span></h4><p class="wire" data-i18n lang="fr">Benchmark</p><p class="wire" data-i18n lang="en">Benchmark</p><p class="wire" data-i18n lang="de">Benchmark</p><p class="wire" data-i18n lang="it">Benchmark</p><p class="wire" data-i18n lang="rm">Benchmark</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> publie un nouveau bench d'évaluation d'agents cross-vendor.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> publishes a new cross-vendor agent evaluation benchmark.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> veröffentlicht ein neues herstellerübergreifendes Agentenbewertungs-Benchmark.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> pubblica un nuovo benchmark di valutazione degli agenti cross-vendor.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">IBM Research</a> publitgescha in nov bench d'evaluaziun d'agents cross-vendor.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">NVIDIA · 28 avril</p><p class="kicker" data-i18n lang="en">NVIDIA · 28 April</p><p class="kicker" data-i18n lang="de">NVIDIA · 28. April</p><p class="kicker" data-i18n lang="it">NVIDIA · 28 aprile</p><p class="kicker" data-i18n lang="rm">NVIDIA · ils 28 d'avrigl</p><h4><span data-i18n lang="fr">Nemotron 3 Nano Omni multimodal</span><span data-i18n lang="en">Nemotron 3 Nano Omni multimodal</span><span data-i18n lang="de">Nemotron 3 Nano Omni multimodal</span><span data-i18n lang="it">Nemotron 3 Nano Omni multimodale</span><span data-i18n lang="rm">Nemotron 3 Nano Omni multimodal</span></h4><p class="wire" data-i18n lang="fr">Model Release</p><p class="wire" data-i18n lang="en">Model Release</p><p class="wire" data-i18n lang="de">Model Release</p><p class="wire" data-i18n lang="it">Model Release</p><p class="wire" data-i18n lang="rm">Model Release</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combine intelligence multimodale et long-contexte dans une enveloppe nano.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combines multimodal intelligence and long-context capability in a nano-scale footprint.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> verbindet multimodale Intelligenz und Langkontext in einem Nano-Format.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combina intelligenza multimodale e contesto lungo in un formato nano.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/nvidia/nemotron-3-nano-omni-multimodal-intelligence">Nemotron 3 Nano Omni</a> combinescha intelligenza multimodala e long-context en in format nano.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">HuggingFace · 14 mai</p><p class="kicker" data-i18n lang="en">HuggingFace · 14 May</p><p class="kicker" data-i18n lang="de">HuggingFace · 14. Mai</p><p class="kicker" data-i18n lang="it">HuggingFace · 14 maggio</p><p class="kicker" data-i18n lang="rm">HuggingFace · ils 14 da matg</p><h4><span data-i18n lang="fr">Async continuous batching</span><span data-i18n lang="en">Async continuous batching</span><span data-i18n lang="de">Asynchrones kontinuierliches Batching</span><span data-i18n lang="it">Async continuous batching</span><span data-i18n lang="rm">Async continuous batching</span></h4><p class="wire" data-i18n lang="fr">Library Update</p><p class="wire" data-i18n lang="en">Library Update</p><p class="wire" data-i18n lang="de">Library Update</p><p class="wire" data-i18n lang="it">Library Update</p><p class="wire" data-i18n lang="rm">Library Update</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/continuous_async">L'asynchronicité</a> débloquée dans le batching continu améliore significativement le throughput d'inférence transformer.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/continuous_async">Asynchronicity</a> unlocked in continuous batching significantly improves transformer inference throughput.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/continuous_async">Freigeschaltete Asynchronität</a> beim kontinuierlichen Batching verbessert den Transformer-Inferenz-Durchsatz erheblich.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/continuous_async">L'asincronicità</a> sbloccata nel batching continuo migliora significativamente il throughput di inferenza transformer.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/continuous_async">L'asincronitad</a> sbloccada en il batching continu megliorescha significativamain il throughput d'inferenza transformer.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">ServiceNow · 6 mai</p><p class="kicker" data-i18n lang="en">ServiceNow · 6 May</p><p class="kicker" data-i18n lang="de">ServiceNow · 6. Mai</p><p class="kicker" data-i18n lang="it">ServiceNow · 6 maggio</p><p class="kicker" data-i18n lang="rm">ServiceNow · ils 6 da matg</p><h4><span data-i18n lang="fr">vLLM V0 → V1 correctness for RL</span><span data-i18n lang="en">vLLM V0 → V1 correctness for RL</span><span data-i18n lang="de">vLLM V0 → V1: Korrektheit für RL</span><span data-i18n lang="it">vLLM V0 → V1: correttezza per RL</span><span data-i18n lang="rm">vLLM V0 → V1 correctness per RL</span></h4><p class="wire" data-i18n lang="fr">Library Update</p><p class="wire" data-i18n lang="en">Library Update</p><p class="wire" data-i18n lang="de">Library Update</p><p class="wire" data-i18n lang="it">Library Update</p><p class="wire" data-i18n lang="rm">Library Update</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> améliore l'inférence pour les workflows de reinforcement learning.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> improves inference for reinforcement learning workflows.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> verbessert die Inferenz für Reinforcement-Learning-Workflows.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> migliora l'inferenza per i workflow di reinforcement learning.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections">vLLM</a> megliorescha l'inferenza per ils workflows da reinforcement learning.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">NVIDIA · 18 mai</p><p class="kicker" data-i18n lang="en">NVIDIA · 18 May</p><p class="kicker" data-i18n lang="de">NVIDIA · 18. Mai</p><p class="kicker" data-i18n lang="it">NVIDIA · 18 maggio</p><p class="kicker" data-i18n lang="rm">NVIDIA · ils 18 da matg</p><h4><span data-i18n lang="fr">Cosmos Predict 2.5 LoRA/DoRA</span><span data-i18n lang="en">Cosmos Predict 2.5 LoRA/DoRA</span><span data-i18n lang="de">Cosmos Predict 2.5 LoRA/DoRA</span><span data-i18n lang="it">Cosmos Predict 2.5 LoRA/DoRA</span><span data-i18n lang="rm">Cosmos Predict 2.5 LoRA/DoRA</span></h4><p class="wire" data-i18n lang="fr">Tutorial</p><p class="wire" data-i18n lang="en">Tutorial</p><p class="wire" data-i18n lang="de">Tutorial</p><p class="wire" data-i18n lang="it">Tutorial</p><p class="wire" data-i18n lang="rm">Tutorial</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-tuning Cosmos Predict 2.5</a> avec LoRA/DoRA pour la robot video generation.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-tuning Cosmos Predict 2.5</a> with LoRA/DoRA for robot video generation.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-Tuning von Cosmos Predict 2.5</a> mit LoRA/DoRA für die Roboter-Videogenerierung.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-tuning di Cosmos Predict 2.5</a> con LoRA/DoRA per la robot video generation.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation">Fine-tuning da Cosmos Predict 2.5</a> cun LoRA/DoRA per la generaziun da video da robots.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">HuggingFace · 16 avril</p><p class="kicker" data-i18n lang="en">HuggingFace · 16 April</p><p class="kicker" data-i18n lang="de">HuggingFace · 16. April</p><p class="kicker" data-i18n lang="it">HuggingFace · 16 aprile</p><p class="kicker" data-i18n lang="rm">HuggingFace · ils 16 d'avrigl</p><h4><span data-i18n lang="fr">Transformers vers MLX</span><span data-i18n lang="en">Transformers to MLX</span><span data-i18n lang="de">Transformers nach MLX</span><span data-i18n lang="it">Transformers verso MLX</span><span data-i18n lang="rm">Transformers vers MLX</span></h4><p class="wire" data-i18n lang="fr">Pattern</p><p class="wire" data-i18n lang="en">Pattern</p><p class="wire" data-i18n lang="de">Pattern</p><p class="wire" data-i18n lang="it">Pattern</p><p class="wire" data-i18n lang="rm">Pattern</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/transformers-to-mlx">PR pattern automatique</a> qui facilite le portage entre Transformers et MLX, pertinent pour Apple Silicon.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/transformers-to-mlx">Automatic PR pattern</a> that eases porting between Transformers and MLX, relevant for Apple Silicon.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/transformers-to-mlx">Automatisches PR-Pattern</a>, das das Portieren zwischen Transformers und MLX erleichtert — relevant für Apple Silicon.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/transformers-to-mlx">Pattern PR automatico</a> che facilita il porting tra Transformers e MLX, rilevante per Apple Silicon.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/transformers-to-mlx">Pattern PR automatic</a> che facilitescha il portadi tranter Transformers e MLX, relevant per Apple Silicon.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">PaddlePaddle · 18 mai</p><p class="kicker" data-i18n lang="en">PaddlePaddle · 18 May</p><p class="kicker" data-i18n lang="de">PaddlePaddle · 18. Mai</p><p class="kicker" data-i18n lang="it">PaddlePaddle · 18 maggio</p><p class="kicker" data-i18n lang="rm">PaddlePaddle · ils 18 da matg</p><h4><span data-i18n lang="fr">PaddleOCR 3.5 + Transformers</span><span data-i18n lang="en">PaddleOCR 3.5 + Transformers</span><span data-i18n lang="de">PaddleOCR 3.5 + Transformers</span><span data-i18n lang="it">PaddleOCR 3.5 + Transformers</span><span data-i18n lang="rm">PaddleOCR 3.5 + Transformers</span></h4><p class="wire" data-i18n lang="fr">Library Update</p><p class="wire" data-i18n lang="en">Library Update</p><p class="wire" data-i18n lang="de">Library Update</p><p class="wire" data-i18n lang="it">Library Update</p><p class="wire" data-i18n lang="rm">Library Update</p><div class="body"><span data-i18n lang="fr"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> avec backend Transformers natif.</span><span data-i18n lang="en"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> with native Transformers backend.</span><span data-i18n lang="de"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> mit nativem Transformers-Backend.</span><span data-i18n lang="it"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> con backend Transformers nativo.</span><span data-i18n lang="rm"><a href="https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers">PaddleOCR 3.5</a> cun backend Transformers nativ.</span></div></article>
+</div>
+</section>
+<section class="page" data-page="4">
+<h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="rm">Pagina 4 — </span><span data-i18n lang="fr">La Communauté & Édito</span><span data-i18n lang="en">Community & Editorial</span><span data-i18n lang="de">Community & Leitartikel</span><span data-i18n lang="it">La Comunità & Editoriale</span><span data-i18n lang="rm">La Communautad & Editorial</span></h2>
+<div class="section section-2-cols">
+<h3 class="section-title">VI. <span data-i18n lang="fr">La Communauté Hacker News</span><span data-i18n lang="en">The Hacker News Community</span><span data-i18n lang="de">Die Hacker News Community</span><span data-i18n lang="it">La Comunità Hacker News</span><span data-i18n lang="rm">La Communautad Hacker News</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">HN · 20 mai</p><p class="kicker" data-i18n lang="en">HN · 20 May</p><p class="kicker" data-i18n lang="de">HN · 20. Mai</p><p class="kicker" data-i18n lang="it">HN · 20 maggio</p><p class="kicker" data-i18n lang="rm">HN · ils 20 da matg</p><h4><span data-i18n lang="fr">Infrawise : MCP server infra context</span><span data-i18n lang="en">Infrawise: MCP server infra context</span><span data-i18n lang="de">Infrawise: MCP Server Infra-Kontext</span><span data-i18n lang="it">Infrawise: MCP server infra context</span><span data-i18n lang="rm">Infrawise: MCP server infra context</span></h4><p class="wire" data-i18n lang="fr">Show HN</p><p class="wire" data-i18n lang="en">Show HN</p><p class="wire" data-i18n lang="de">Show HN</p><p class="wire" data-i18n lang="it">Show HN</p><p class="wire" data-i18n lang="rm">Show HN</p><div class="body"><span data-i18n lang="fr"><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> donne à Claude Code un contexte d'infrastructure précis via MCP. Pattern intéressant pour les agents conscients de leur environnement de déploiement.</span><span data-i18n lang="en"><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> gives Claude Code precise infrastructure context via MCP. An interesting pattern for deployment-aware agents.</span><span data-i18n lang="de"><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> gibt Claude Code via MCP präzisen Infrastrukturkontext. Ein interessantes Muster für deployment-bewusste Agenten.</span><span data-i18n lang="it"><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> fornisce a Claude Code un contesto infrastrutturale preciso tramite MCP. Un pattern interessante per gli agenti consapevoli del loro ambiente di deployment.</span><span data-i18n lang="rm"><a href="https://news.ycombinator.com/item?id=48205497">Infrawise</a> dà a Claude Code in context d'infrastructura precis via MCP. Pattern interessant per agents conscients da lur ambient da deploiament.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">HN · 20 mai</p><p class="kicker" data-i18n lang="en">HN · 20 May</p><p class="kicker" data-i18n lang="de">HN · 20. Mai</p><p class="kicker" data-i18n lang="it">HN · 20 maggio</p><p class="kicker" data-i18n lang="rm">HN · ils 20 da matg</p><h4><span data-i18n lang="fr">Agent Thread : sessions claude-code publiques</span><span data-i18n lang="en">Agent Thread: public claude-code sessions</span><span data-i18n lang="de">Agent Thread: öffentliche claude-code-Sessions</span><span data-i18n lang="it">Agent Thread: sessioni claude-code pubbliche</span><span data-i18n lang="rm">Agent Thread: sessiuns claude-code publicas</span></h4><p class="wire" data-i18n lang="fr">Show HN</p><p class="wire" data-i18n lang="en">Show HN</p><p class="wire" data-i18n lang="de">Show HN</p><p class="wire" data-i18n lang="it">Show HN</p><p class="wire" data-i18n lang="rm">Show HN</p><div class="body"><span data-i18n lang="fr"><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> partage des sessions claude-code et codex sous forme de liens publics. La collaboration sur les workflows agentic s'organise.</span><span data-i18n lang="en"><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> shares claude-code and codex sessions as public links. Collaboration on agentic workflows is taking shape.</span><span data-i18n lang="de"><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> teilt claude-code- und Codex-Sessions als öffentliche Links. Die Zusammenarbeit an agentischen Workflows nimmt Gestalt an.</span><span data-i18n lang="it"><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> condivide sessioni claude-code e codex come link pubblici. La collaborazione sui workflow agentic si organizza.</span><span data-i18n lang="rm"><a href="https://news.ycombinator.com/item?id=48204980">Agent Thread</a> partatgescha sessiuns claude-code e codex sco links publics. La collavuraziun sin workflows agentics s'organisescha.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">HN · 20 mai</p><p class="kicker" data-i18n lang="en">HN · 20 May</p><p class="kicker" data-i18n lang="de">HN · 20. Mai</p><p class="kicker" data-i18n lang="it">HN · 20 maggio</p><p class="kicker" data-i18n lang="rm">HN · ils 20 da matg</p><h4><span data-i18n lang="fr">100 000 lignes de Rust avec IA</span><span data-i18n lang="en">100,000 lines of Rust with AI</span><span data-i18n lang="de">100 000 Zeilen Rust mit KI</span><span data-i18n lang="it">100.000 righe di Rust con l'IA</span><span data-i18n lang="rm">100 000 lingias da Rust cun IA</span></h4><p class="wire" data-i18n lang="fr">Deep dive</p><p class="wire" data-i18n lang="en">Deep dive</p><p class="wire" data-i18n lang="de">Deep dive</p><p class="wire" data-i18n lang="it">Deep dive</p><p class="wire" data-i18n lang="rm">Deep dive</p><div class="body"><span data-i18n lang="fr"><a href="https://news.ycombinator.com/item?id=48205415">Retour d'expérience approfondi</a> sur le passage à l'échelle du développement Rust assisté par IA. Lecture recommandée.</span><span data-i18n lang="en"><a href="https://news.ycombinator.com/item?id=48205415">An in-depth account</a> of scaling AI-assisted Rust development. Recommended reading.</span><span data-i18n lang="de"><a href="https://news.ycombinator.com/item?id=48205415">Ein ausführlicher Erfahrungsbericht</a> über die Skalierung KI-gestützter Rust-Entwicklung. Lektüre empfohlen.</span><span data-i18n lang="it"><a href="https://news.ycombinator.com/item?id=48205415">Un resoconto approfondito</a> sul passaggio di scala nello sviluppo Rust assistito dall'IA. Lettura consigliata.</span><span data-i18n lang="rm"><a href="https://news.ycombinator.com/item?id=48205415">In rapport d'experientscha aprofundì</a> sin la scalabilità dal svilup Rust assistì da IA. Lectura recumandada.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">HN · 20 mai</p><p class="kicker" data-i18n lang="en">HN · 20 May</p><p class="kicker" data-i18n lang="de">HN · 20. Mai</p><p class="kicker" data-i18n lang="it">HN · 20 maggio</p><p class="kicker" data-i18n lang="rm">HN · ils 20 da matg</p><h4><span data-i18n lang="fr">Trois générations d'applications IA</span><span data-i18n lang="en">Three generations of AI applications</span><span data-i18n lang="de">Drei Generationen von KI-Anwendungen</span><span data-i18n lang="it">Tre generazioni di applicazioni IA</span><span data-i18n lang="rm">Trais generaziuns d'applicaziuns IA</span></h4><p class="wire" data-i18n lang="fr">Framework</p><p class="wire" data-i18n lang="en">Framework</p><p class="wire" data-i18n lang="de">Framework</p><p class="wire" data-i18n lang="it">Framework</p><p class="wire" data-i18n lang="rm">Framework</p><div class="body"><span data-i18n lang="fr"><a href="https://news.ycombinator.com/item?id=48204832">Cadre conceptuel</a> distinguant conversationnel, délégatif et collaboratif comme étapes d'évolution des apps IA.</span><span data-i18n lang="en"><a href="https://news.ycombinator.com/item?id=48204832">A conceptual framework</a> distinguishing conversational, delegative and collaborative as evolutionary stages of AI applications.</span><span data-i18n lang="de"><a href="https://news.ycombinator.com/item?id=48204832">Ein konzeptioneller Rahmen</a>, der Konversation, Delegation und Kollaboration als Evolutionsstufen von KI-Anwendungen unterscheidet.</span><span data-i18n lang="it"><a href="https://news.ycombinator.com/item?id=48204832">Un quadro concettuale</a> che distingue conversazionale, delegativo e collaborativo come fasi evolutive delle app IA.</span><span data-i18n lang="rm"><a href="https://news.ycombinator.com/item?id=48204832">Cader conceptual</a> che distingua conversaziunal, delegativ e collaborativ sco stadis d'evoluziun da las apps IA.</span></div></article>
+</div>
+<div class="section section-editorial">
+<h3 class="section-title">VII. <span data-i18n lang="fr">Le Chronique Stratégique</span><span data-i18n lang="en">Strategic Analysis</span><span data-i18n lang="de">Strategische Analyse</span><span data-i18n lang="it">La Cronaca Strategica</span><span data-i18n lang="rm">La Chronica Strategica</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">Éditorial</p><p class="kicker" data-i18n lang="en">Editorial</p><p class="kicker" data-i18n lang="de">Leitartikel</p><p class="kicker" data-i18n lang="it">Editoriale</p><p class="kicker" data-i18n lang="rm">Editorial</p><h4><span data-i18n lang="fr">La standardisation MCP arrive plus vite que prévu</span><span data-i18n lang="en">MCP standardisation is arriving faster than expected</span><span data-i18n lang="de">Die MCP-Standardisierung kommt schneller als erwartet</span><span data-i18n lang="it">La standardizzazione MCP arriva più velocemente del previsto</span><span data-i18n lang="rm">La standardisaziun MCP arriva pli spert che previs</span></h4><p class="wire" data-i18n lang="fr">Par la rédaction</p><p class="wire" data-i18n lang="en">From the editors</p><p class="wire" data-i18n lang="de">Von der Redaktion</p><p class="wire" data-i18n lang="it">Dalla redazione</p><p class="wire" data-i18n lang="rm">Da la redacziun</p><div class="body"><span data-i18n lang="fr">Le 19 mai 2026 restera comme une date charnière. Non pas pour Gemini 3.5 Flash, ni pour les Claude Managed Agents pris isolément, mais pour ce que ces annonces révèlent ensemble : <em>le protocole MCP, créé par Anthropic pour ses propres outils, est devenu un standard d'industrie</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google le mesure publiquement</a> via MCP Atlas. Anthropic en fait son canal d'exposition enterprise via les <a href="https://claude.com/blog/claude-managed-agents-updates">MCP tunnels</a>. La frontière entre les écosystèmes labos s'efface.</span><span data-i18n lang="en">19 May 2026 will be remembered as a pivotal date. Not for Gemini 3.5 Flash, nor for Claude Managed Agents taken in isolation, but for what these announcements reveal together: <em>the MCP protocol, created by Anthropic for its own tools, has become an industry standard</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google measures it publicly</a> via MCP Atlas. Anthropic makes it its enterprise exposure channel via <a href="https://claude.com/blog/claude-managed-agents-updates">MCP tunnels</a>. The boundary between lab ecosystems is fading.</span><span data-i18n lang="de">Der 19. Mai 2026 wird als Wendepunkt in Erinnerung bleiben. Nicht wegen Gemini 3.5 Flash oder der Claude Managed Agents für sich genommen, sondern wegen dem, was diese Ankündigungen gemeinsam offenbaren: <em>Das MCP-Protokoll, von Anthropic für eigene Tools entwickelt, ist zum Industriestandard geworden</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google misst es öffentlich</a> via MCP Atlas. Anthropic macht es über die <a href="https://claude.com/blog/claude-managed-agents-updates">MCP-Tunnel</a> zu seinem Enterprise-Kanal. Die Grenze zwischen den Lab-Ökosystemen verschwimmt.</span><span data-i18n lang="it">Il 19 maggio 2026 resterà come una data cerniera. Non per Gemini 3.5 Flash, né per i Claude Managed Agents presi isolatamente, ma per ciò che questi annunci rivelano insieme: <em>il protocollo MCP, creato da Anthropic per i propri strumenti, è diventato uno standard industriale</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google lo misura pubblicamente</a> tramite MCP Atlas. Anthropic ne fa il suo canale di esposizione enterprise tramite i <a href="https://claude.com/blog/claude-managed-agents-updates">MCP tunnel</a>. Il confine tra gli ecosistemi dei laboratori si assottiglia.</span><span data-i18n lang="rm">Il 19 da matg 2026 resterà sco ina data decisiva. Betg per Gemini 3.5 Flash, ni per ils Claude Managed Agents prendids isoladamain, mabain per quai che questas annunzias revelan ensemen: <em>il protocol MCP, creà da Anthropic per ses prüps utensils, è daventà in standard d'industria</em>. <a href="https://deepmind.google/models/model-cards/gemini-3-5-flash/">Google il mesura publicamente</a> via MCP Atlas. Anthropic en fa ses chanal d'exposiziun enterprise via ils <a href="https://claude.com/blog/claude-managed-agents-updates">MCP tunnels</a>. La frontera tranter ils ecosistems dals labs svanischa.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Suite de l'éditorial</p><p class="kicker" data-i18n lang="en">Editorial continued</p><p class="kicker" data-i18n lang="de">Fortsetzung des Leitartikels</p><p class="kicker" data-i18n lang="it">Seguito dell'editoriale</p><p class="kicker" data-i18n lang="rm">Suita da l'editorial</p><h4><span data-i18n lang="fr">Quatre laboratoires, une convergence</span><span data-i18n lang="en">Four laboratories, one convergence</span><span data-i18n lang="de">Vier Labore, eine Konvergenz</span><span data-i18n lang="it">Quattro laboratori, una convergenza</span><span data-i18n lang="rm">Quatter laboratoris, ina convergenza</span></h4><p class="wire" data-i18n lang="fr"></p><p class="wire" data-i18n lang="en"></p><p class="wire" data-i18n lang="de"></p><p class="wire" data-i18n lang="it"></p><p class="wire" data-i18n lang="rm"></p><div class="body"><span data-i18n lang="fr">Pour le praticien — celui qui maintient quelques serveurs MCP internes — la conséquence est concrète : les MCP servers développés aujourd'hui sont portables demain vers Gemini Enterprise Agent Platform, Antigravity, ou ce qu'OpenAI sortira sous le nom de Managed Agents. L'investissement dans MCP n'est plus locked-in chez Anthropic. <strong>Les sandbox providers</strong> (Cloudflare, Daytona, Modal, Vercel) deviennent le tissu connectif entre les boucles d'orchestration des labos et les infrastructures des entreprises.</span><span data-i18n lang="en">For the practitioner — the person maintaining a handful of internal MCP servers — the implication is concrete: MCP servers built today are portable tomorrow to Gemini Enterprise Agent Platform, Antigravity, or whatever OpenAI releases under the Managed Agents banner. Investment in MCP is no longer locked in with Anthropic. <strong>The sandbox providers</strong> (Cloudflare, Daytona, Modal, Vercel) are becoming the connective tissue between lab orchestration loops and enterprise infrastructure.</span><span data-i18n lang="de">Für den Praktiker — denjenigen, der einige interne MCP-Server betreibt — ist die Konsequenz konkret: Die heute entwickelten MCP-Server sind morgen portierbar auf die Gemini Enterprise Agent Platform, Antigravity oder was auch immer OpenAI unter dem Namen Managed Agents herausbringen wird. Die Investition in MCP ist nicht mehr bei Anthropic gebunden. <strong>Die Sandbox-Anbieter</strong> (Cloudflare, Daytona, Modal, Vercel) werden zum Bindegewebe zwischen den Orchestrierungsschleifen der Labore und den Unternehmensinfrastrukturen.</span><span data-i18n lang="it">Per il professionista — colui che gestisce alcuni server MCP interni — la conseguenza è concreta: i server MCP sviluppati oggi sono portabili domani verso la Gemini Enterprise Agent Platform, Antigravity, o ciò che OpenAI rilascerà sotto il nome di Managed Agents. L'investimento in MCP non è più locked-in con Anthropic. <strong>I sandbox provider</strong> (Cloudflare, Daytona, Modal, Vercel) diventano il tessuto connettivo tra i loop di orchestrazione dei laboratori e le infrastrutture aziendali.</span><span data-i18n lang="rm">Per il praticant — quel che mantegna qualche server MCP intern — la consequenza è concreta: ils servers MCP sviluppads oz èn portabels damaun vers la Gemini Enterprise Agent Platform, Antigravity, u quai ch'OpenAI liberà sut il num da Managed Agents. L'investiziun en MCP n'è betg pli locked-in tar Anthropic. <strong>Ils sandbox providers</strong> (Cloudflare, Daytona, Modal, Vercel) daventan il tessì connectiv tranter las bugladas d'orchestraziun dals labs e las infrastructuras da las interpresas.</span></div></article>
+</div>
+</section>
 
+  <footer class="colophon">
+    All the AI that's fit to print
+  </footer>
+</main>
 <script>
-'use strict';
-// SWITCHER THÈME : juste change body.className (CSS-only, pas d'innerHTML)
-const themeButtons = document.querySelectorAll('.switcher-bar button');
-function setTheme(theme) {
-  document.body.className = 'theme-' + theme;
-  themeButtons.forEach(function(b) { b.classList.toggle('active', b.dataset.theme === theme); });
-  try { localStorage.setItem('veille-theme', theme); } catch (e) {}
-}
-themeButtons.forEach(function(btn) {
-  btn.addEventListener('click', function() { setTheme(btn.dataset.theme); });
-});
-try {
-  var savedTheme = localStorage.getItem('veille-theme');
-  if (savedTheme) setTheme(savedTheme);
-} catch (e) {}
+(function() {
+  var SUPPORTED = ['fr', 'en', 'de', 'it', 'rm'];
+  var STORAGE_KEY = 'nt-lang';
 
-// NAVIGATION PAGES avec effet 3D page-flip
-// Séquence : flip-out (450ms) → swap classe active → flip-in (450ms)
-// Total = ~900ms par transition. Désactive interactions pendant l'animation.
-const paperEl = document.querySelector('.paper');
-const pages = document.querySelectorAll('.page');
-const totalPages = pages.length;
-let currentPage = 1;
-let isFlipping = false;
-
-function updateNavButtons(n) {
-  const activePage = document.querySelector('.page[data-page="' + n + '"]');
-  if (!activePage) return;
-  const prevBtn = activePage.querySelector('[data-nav="prev"]');
-  const nextBtn = activePage.querySelector('[data-nav="next"]');
-  if (prevBtn) prevBtn.disabled = (n === 1);
-  if (nextBtn) nextBtn.disabled = (n === totalPages);
-}
-
-function showPage(n, opts) {
-  opts = opts || {};
-  if (n < 1 || n > totalPages || isFlipping) return;
-  if (n === currentPage) return;
-
-  const direction = (n > currentPage) ? 'next' : 'prev';
-  const currentPageEl = document.querySelector('.page.active');
-  const newPageEl = document.querySelector('.page[data-page="' + n + '"]');
-  if (!newPageEl) return;
-
-  // Skip animation pour le chargement initial via hash URL
-  if (opts.instant) {
-    currentPageEl && currentPageEl.classList.remove('active');
-    newPageEl.classList.add('active');
-    currentPage = n;
-    updateNavButtons(n);
-    try { history.replaceState(null, '', '#page-' + n); } catch (e) {}
-    window.scrollTo({ top: 0, behavior: 'instant' });
-    return;
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || 'fr').toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : 'fr';
   }
 
-  isFlipping = true;
-  paperEl.classList.add('flipping');
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].dataset.lang === lang) links[i].classList.add('active');
+      else links[i].classList.remove('active');
+    }
+    try { document.title = document.title.replace(/^(.*?)( — .*)?$/, function(_, p1, p2) {
+      return p1 + (p2 || '');
+    }); } catch (e) {}
+  }
 
-  // Scroll en haut instantanément avant le flip
-  try { window.scrollTo(0, 0); } catch (e) {}
+  // Apply on initial load
+  applyLang(detectLang());
 
-  // PHASE 1 : page courante part en plongée 3D (425ms)
-  // Elle reste en "display: block" via .active + .flip-out-X
-  currentPageEl.classList.add('flip-out-' + direction);
-
-  // PHASE 2 : à la fin du flip-out, swap des classes active et démarre flip-in
-  setTimeout(function() {
-    currentPageEl.classList.remove('active', 'flip-out-' + direction);
-    newPageEl.classList.add('active', 'flip-in-' + direction);
-    try { window.scrollTo(0, 0); } catch (e) {}
-
-    // PHASE 3 : à la fin du flip-in, cleanup et débloquer
-    setTimeout(function() {
-      newPageEl.classList.remove('flip-in-' + direction);
-      paperEl.classList.remove('flipping');
-      isFlipping = false;
-    }, 425);
-  }, 425);
-
-  currentPage = n;
-  updateNavButtons(n);
-  try { history.replaceState(null, '', '#page-' + n); } catch (e) {}
-}
-
-// Click handlers : boutons prev/next dans chaque page
-document.querySelectorAll('.nav-btn').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    if (btn.disabled || isFlipping) return;
-    if (btn.dataset.nav === 'next') showPage(currentPage + 1);
-    else if (btn.dataset.nav === 'prev') showPage(currentPage - 1);
+  // Wire selector clicks
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.dataset.lang;
+    if (SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
   });
-});
-
-// Click handlers : TOC items
-document.querySelectorAll('.toc li').forEach(function(li) {
-  li.addEventListener('click', function() {
-    if (isFlipping) return;
-    const target = parseInt(li.dataset.goto, 10);
-    if (target) showPage(target);
-  });
-});
-
-// Keyboard navigation (← →)
-document.addEventListener('keydown', function(e) {
-  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA' || isFlipping) return;
-  if (e.key === 'ArrowRight') showPage(currentPage + 1);
-  else if (e.key === 'ArrowLeft') showPage(currentPage - 1);
-});
-
-// Restore page from URL hash (#page-2 etc.) — instantané, pas d'animation au chargement
-try {
-  const hash = window.location.hash.match(/^#page-(\d+)$/);
-  if (hash) showPage(parseInt(hash[1], 10), { instant: true });
-} catch (e) {}
+})();
 </script>
-
 </body>
 </html>
