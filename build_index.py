@@ -96,6 +96,11 @@ def ml(field, key_for_static: str = None) -> str:
     Render a multilingual field as N spans with data-i18n + lang attrs.
     - field : either a dict {fr, en, de, it, rm}, or a plain string (assumed FR), or None
     - key_for_static : if provided, look up STATIC[key_for_static] instead (for UI strings)
+
+    IMPORTANT : if the field has only 1 language (mono FR fallback), we render
+    a single span WITHOUT data-i18n attribute so the CSS cascade does NOT hide
+    it when the active language is not FR. The user sees FR content as a
+    graceful fallback rather than an empty page.
     """
     if key_for_static and key_for_static in STATIC:
         trans = STATIC[key_for_static]
@@ -106,16 +111,23 @@ def ml(field, key_for_static: str = None) -> str:
         )
 
     if isinstance(field, dict):
-        return "".join(
-            f'<span data-i18n lang="{lg}">{escape(field[lg]) if field[lg] else ""}</span>'
-            for lg in SUPPORTED_LANGS
-            if lg in field and field[lg] is not None
-        )
+        present_langs = [lg for lg in SUPPORTED_LANGS if lg in field and field[lg] is not None]
+        if len(present_langs) >= 2:
+            # truly multilingual : render data-i18n spans, CSS shows active lang only
+            return "".join(
+                f'<span data-i18n lang="{lg}">{escape(field[lg])}</span>'
+                for lg in present_langs
+            )
+        elif len(present_langs) == 1:
+            # mono dict : render ONE span without data-i18n → visible in any lang
+            return f'<span>{escape(field[present_langs[0]])}</span>'
+        else:
+            return ""
     elif field is None:
         return ""
     else:
-        # Plain string (legacy mono FR) : wrap in FR only
-        return f'<span data-i18n lang="fr">{escape(str(field))}</span>'
+        # Plain string : visible in any lang (no data-i18n)
+        return f'<span>{escape(str(field))}</span>'
 
 
 def load_editions():
