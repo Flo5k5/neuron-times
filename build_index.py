@@ -28,7 +28,7 @@ SUPPORTED_LANGS = ["fr", "en", "de", "it", "rm"]
 # Static UI strings translated across 5 languages
 STATIC = {
     "daily_edition": {
-        "fr": "Daily Edition",
+        "fr": "Édition quotidienne",
         "en": "Daily Edition",
         "de": "Tägliche Ausgabe",
         "it": "Edizione quotidiana",
@@ -330,7 +330,7 @@ def render_index(editions):
   }}
   .masthead .dateline {{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0.5rem 0;
     border-top: 2px solid #0c0c0c;
@@ -342,8 +342,11 @@ def render_index(editions):
     text-transform: uppercase;
     font-weight: 600;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1rem;
   }}
+  .masthead .dateline-item {{ white-space: nowrap; }}
+  .masthead .dateline-sep {{ opacity: 0.5; font-weight: 400; }}
+  .masthead .dateline .lang-selector {{ margin-left: auto; }}
   .archive-intro {{
     font-family: 'Old Standard TT', serif;
     font-style: italic;
@@ -495,9 +498,11 @@ def render_index(editions):
     <h1>The Neuron Times</h1>
     <p class="motto">« All the AI that's fit to print »</p>
     <div class="dateline">
-      <span>{ml(None, key_for_static='daily_edition')}</span>
-      <span>{latest_date_html}</span>
-      <span>{archive_count_html}</span>
+      <span class="dateline-item">{ml(None, key_for_static='daily_edition')}</span>
+      <span class="dateline-sep">·</span>
+      <span class="dateline-item">{latest_date_html}</span>
+      <span class="dateline-sep">·</span>
+      <span class="dateline-item">{archive_count_html}</span>
       {lang_selector}
     </div>
   </header>

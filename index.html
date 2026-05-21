@@ -63,7 +63,7 @@
   }
   .masthead .dateline {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     padding: 0.5rem 0;
     border-top: 2px solid #0c0c0c;
@@ -75,8 +75,11 @@
     text-transform: uppercase;
     font-weight: 600;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 1rem;
   }
+  .masthead .dateline-item { white-space: nowrap; }
+  .masthead .dateline-sep { opacity: 0.5; font-weight: 400; }
+  .masthead .dateline .lang-selector { margin-left: auto; }
   .archive-intro {
     font-family: 'Old Standard TT', serif;
     font-style: italic;
@@ -228,9 +231,11 @@
     <h1>The Neuron Times</h1>
     <p class="motto">« All the AI that's fit to print »</p>
     <div class="dateline">
-      <span><span data-i18n lang="fr">Daily Edition</span><span data-i18n lang="en">Daily Edition</span><span data-i18n lang="de">Tägliche Ausgabe</span><span data-i18n lang="it">Edizione quotidiana</span><span data-i18n lang="rm">Ediziun da mintga di</span></span>
-      <span><span data-i18n lang="fr">Jeudi 21 mai 2026</span></span>
-      <span><span data-i18n lang="fr">2 éditions archivées</span><span data-i18n lang="en">2 archived editions</span><span data-i18n lang="de">2 archivierte Ausgaben</span><span data-i18n lang="it">2 edizioni archiviate</span><span data-i18n lang="rm">2 ediziuns archivadas</span></span>
+      <span class="dateline-item"><span data-i18n lang="fr">Édition quotidienne</span><span data-i18n lang="en">Daily Edition</span><span data-i18n lang="de">Tägliche Ausgabe</span><span data-i18n lang="it">Edizione quotidiana</span><span data-i18n lang="rm">Ediziun da mintga di</span></span>
+      <span class="dateline-sep">·</span>
+      <span class="dateline-item"><span data-i18n lang="fr">Jeudi 21 mai 2026</span></span>
+      <span class="dateline-sep">·</span>
+      <span class="dateline-item"><span data-i18n lang="fr">2 éditions archivées</span><span data-i18n lang="en">2 archived editions</span><span data-i18n lang="de">2 archivierte Ausgaben</span><span data-i18n lang="it">2 edizioni archiviate</span><span data-i18n lang="rm">2 ediziuns archivadas</span></span>
       <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="rm">RM</a></nav>
     </div>
   </header>
