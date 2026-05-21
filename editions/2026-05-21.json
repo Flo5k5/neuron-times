@@ -1,75 +1,326 @@
 {
   "edition": {
-    "title": "The Neuron Times",
-    "tagline": "All the AI that's fit to print",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "rm": "The Neuron Times"
+    },
+    "tagline": {
+      "fr": "Le quotidien de référence de l'intelligence artificielle",
+      "en": "The definitive daily of record for artificial intelligence",
+      "de": "Die massgebliche Tageszeitung für künstliche Intelligenz",
+      "it": "Il quotidiano di riferimento dell'intelligenza artificiale",
+      "rm": "Il cotidie da referenza da l'intelligenza artificiala"
+    },
     "num": 141,
-    "date_long": "Jeudi 21 mai 2026",
+    "date_long": {
+      "fr": "Jeudi 21 mai 2026",
+      "en": "Thursday, 21 May 2026",
+      "de": "Donnerstag, 21. Mai 2026",
+      "it": "Giovedì 21 maggio 2026",
+      "rm": "Gievgia, ils 21 da matg 2026"
+    },
     "date_iso": "2026-05-21",
-    "edition_type": "Édition du matin",
+    "edition_type": {
+      "fr": "Édition du matin",
+      "en": "Morning Edition",
+      "de": "Morgenausgabe",
+      "it": "Edizione del mattino",
+      "rm": "Ediziun da la damaun"
+    },
     "city": "Genève",
     "motto": "All the AI that's fit to print"
   },
   "lead": {
-    "kicker": "À la Une · Frontière",
-    "headline": "Google I/O 2026 dévoile Gemini Omni et Antigravity 2.0, OpenAI réplique avec une percée mathématique",
-    "subdeck": "Mountain View annonce une centaine de nouveautés autour de son écosystème Gemini ; à San Francisco, un modèle d'OpenAI réfute une conjecture vieille de quatre-vingts ans en géométrie discrète.",
-    "byline": "De la rédaction — 21 mai 2026",
+    "kicker": {
+      "fr": "À la Une · Google I/O 2026",
+      "en": "Front Page · Google I/O 2026",
+      "de": "Titelseite · Google I/O 2026",
+      "it": "Prima pagina · Google I/O 2026",
+      "rm": "Pagina davant · Google I/O 2026"
+    },
+    "headline": {
+      "fr": "Google déploie Gemini Omni et Antigravity 2.0 : la conférence I/O redessine la frontière du multimodal",
+      "en": "Google launches Gemini Omni and Antigravity 2.0: I/O conference redraws the boundaries of multimodal AI",
+      "de": "Google stellt Gemini Omni und Antigravity 2.0 vor: Die I/O-Konferenz verschiebt die Grenzen des Multimodalen",
+      "it": "Google lancia Gemini Omni e Antigravity 2.0: la conferenza I/O ridisegna la frontiera del multimodale",
+      "rm": "Google deplega Gemini Omni ed Antigravity 2.0: la conferenza I/O redesgna la fruntiera dal multimodal"
+    },
+    "subdeck": {
+      "fr": "Au cours d'une keynote dense de cent annonces, Mountain View officialise un modèle unifié texte-image-vidéo-audio et une seconde génération de son agent de développement.",
+      "en": "In a keynote packed with a hundred announcements, Mountain View formally unveils a unified text-image-video-audio model and a second generation of its development agent.",
+      "de": "In einer dichten Keynote mit hundert Ankündigungen macht Mountain View ein vereintes Text-Bild-Video-Audio-Modell und eine zweite Generation seines Entwicklungsagenten offiziell.",
+      "it": "Nel corso di una keynote densa di cento annunci, Mountain View ufficializza un modello unificato testo-immagine-video-audio e una seconda generazione del suo agente di sviluppo.",
+      "rm": "En il curs d'ina keynote densa cun tschient annunzs, Mountain View officialisa in model unific text-imagem-video-audio ed ina segunda generaziun da ses agent da svilup."
+    },
+    "byline": {
+      "fr": "De la rédaction — 21 mai 2026",
+      "en": "From the newsroom — 21 May 2026",
+      "de": "Von der Redaktion — 21. Mai 2026",
+      "it": "Dalla redazione — 21 maggio 2026",
+      "rm": "Da la redacziun — ils 21 da matg 2026"
+    },
     "paragraphs": [
-      "La conférence annuelle Google I/O, refermée cette semaine, a vu DeepMind et Google placer leur ligne <em>Gemini</em> au centre du dispositif. Parmi la centaine d'annonces recensées par le blog officiel, deux pièces maîtresses émergent : <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, présenté comme le successeur multimodal de la famille, et <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, nouvelle itération de la plateforme d'agents de développement. Le résumé exhaustif est publié sur <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">le blog Google</a>.",
-      "Le même jour, OpenAI a annoncé qu'un de ses modèles a <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">réfuté une conjecture centrale en géométrie discrète</a>, en résolvant le problème dit des distances unités, ouvert depuis quatre-vingts ans. L'entreprise présente le résultat comme un jalon dans l'usage de modèles de raisonnement pour la recherche mathématique fondamentale, après une série d'expériences déjà documentées dans la communauté.",
-      "En coulisses, l'API d'OpenAI poursuit son nettoyage : depuis le 12 mai, les snapshots <em>dall-e-2</em>, <em>dall-e-3</em> et la Realtime API Beta ont été retirés au profit de <em>gpt-image-2</em> et de la Realtime API en disponibilité générale, indique le <a href=\"https://platform.openai.com/docs/changelog\">changelog officiel</a>. Une journée riche, qui confirme la bascule du secteur vers une compétition à deux étages : produits grand public d'un côté, capacités scientifiques de l'autre."
+      {
+        "fr": "Google a refermé mercredi soir son grand rendez-vous annuel I/O 2026 sur une avalanche de produits dont deux pièces maîtresses retiennent l'attention : <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, présenté comme un modèle de fondation unifié couvrant texte, image, vidéo et audio en entrée et en sortie, et <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, nouvelle itération de son environnement agentique de développement. L'annonce, relayée dans un <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">récapitulatif officiel</a> de cent points, confirme l'orientation prise par DeepMind ces derniers mois : compresser dans un même système ce qui restait jusqu'ici éparpillé entre Gemini, Veo, Lyria et Imagen.",
+        "en": "Google closed its annual I/O 2026 event on Wednesday evening with an avalanche of products, two of which stand out: <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, presented as a unified foundation model covering text, image, video and audio as both input and output, and <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, a new iteration of its agentic development environment. The announcement, consolidated in an <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">official round-up</a> of one hundred items, confirms the direction DeepMind has taken in recent months: consolidating into a single system what was previously scattered across Gemini, Veo, Lyria and Imagen.",
+        "de": "Google hat seinen grossen jährlichen Treffpunkt I/O 2026 am Mittwochabend mit einer Flut von Produkten abgeschlossen, von denen zwei besondere Aufmerksamkeit auf sich ziehen: <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, präsentiert als einheitliches Grundlagenmodell, das Text, Bild, Video und Audio als Ein- und Ausgabe abdeckt, und <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, eine neue Iteration seiner agentischen Entwicklungsumgebung. Die Ankündigung, zusammengefasst in einer <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">offiziellen Übersicht</a> mit hundert Punkten, bestätigt die Ausrichtung, die DeepMind in den vergangenen Monaten eingeschlagen hat: in einem einzigen System zu vereinen, was bislang auf Gemini, Veo, Lyria und Imagen verteilt war.",
+        "it": "Google ha chiuso mercoledì sera il suo grande appuntamento annuale I/O 2026 con una valanga di prodotti, di cui due protagonisti assoluti: <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, presentato come un modello fondazionale unificato che copre testo, immagine, video e audio in ingresso e in uscita, e <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, nuova iterazione del suo ambiente agentivo di sviluppo. L'annuncio, ripreso in un <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">riepilogo ufficiale</a> di cento punti, conferma l'orientamento preso da DeepMind negli ultimi mesi: comprimere in un unico sistema ciò che fino ad ora era disperso tra Gemini, Veo, Lyria e Imagen.",
+        "rm": "Google ha serà mesjamna saira sia gronda incunter annuala I/O 2026 cun ina avalancha da products, da quai duas pezas principals che attraian l'attenziun: <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a>, presentà sco in model da fundaziun unific che cuvra text, maletg, video ed audio en entrada ed en sortida, e <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a>, nova iteraziun da ses ambient agentiv da svilup. L'annunz, rapportà en in <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">recapitulatif uffizial</a> da tschient puncts, conferma l'orientaziun prendida da DeepMind ils davos mais: cumprimer en in medem sistem quai ch'era fin ussa spars tranter Gemini, Veo, Lyria ed Imagen."
+      },
+      {
+        "fr": "Au-delà du modèle, c'est l'écosystème qui se densifie. Universal Cart unifie les paiements à travers les surfaces Google, Project Genie s'enrichit d'une simulation des lieux réels à partir de Street View, et <a href=\"https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/\">Gemini for Science</a> rassemble une collection d'outils destinés aux chercheurs. Le pari est lisible : faire de Gemini moins un produit qu'une couche d'infrastructure horizontale.",
+        "en": "Beyond the model itself, it is the ecosystem that is thickening. Universal Cart unifies payments across Google surfaces, Project Genie gains a real-world location simulation powered by Street View, and <a href=\"https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/\">Gemini for Science</a> brings together a collection of tools for researchers. The strategic bet is clear: to make Gemini less a product than a horizontal infrastructure layer.",
+        "de": "Jenseits des Modells selbst ist es das Ökosystem, das dichter wird. Universal Cart vereinheitlicht die Zahlungsabwicklung über alle Google-Oberflächen, Project Genie erhält eine Simulation realer Orte auf Basis von Street View, und <a href=\"https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/\">Gemini for Science</a> bündelt eine Sammlung von Werkzeugen für Forschende. Die Wette ist klar: Gemini nicht als Produkt zu positionieren, sondern als horizontale Infrastrukturschicht.",
+        "it": "Al di là del modello, è l'ecosistema che si infittisce. Universal Cart unifica i pagamenti su tutte le superfici Google, Project Genie si arricchisce di una simulazione di luoghi reali a partire da Street View, e <a href=\"https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/\">Gemini for Science</a> raccoglie una collezione di strumenti destinati ai ricercatori. La scommessa è leggibile: fare di Gemini non tanto un prodotto quanto uno strato di infrastruttura orizzontale.",
+        "rm": "Pli tard dal model, è l'ecosistem che sa densifitgescha. Universal Cart unifitgescha ils pajaments atras las surfatschas da Google, Project Genie s'enritgescha cun ina simulaziun dals lieus reals a partir da Street View, e <a href=\"https://deepmind.google/blog/gemini-for-science-ai-experiments-and-tools-for-a-new-era-of-discovery/\">Gemini for Science</a> raccolta ina collecziun d'utensils destinads als perscrutaders. La messa è ledsibla: render Gemini manc in product che ina stgala d'infrastructura horizontala."
+      },
+      {
+        "fr": "Sur le terrain agentique, Antigravity 2.0 entre en concurrence frontale avec Codex d'OpenAI et Claude Code d'Anthropic, alors même qu'une <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">alliance OpenAI–Dell</a> annoncée lundi promet de porter Codex dans les environnements on-premise et hybrides. La bataille des harnais de développement, longtemps marginale, devient ainsi un théâtre stratégique central de 2026.",
+        "en": "On the agentic front, Antigravity 2.0 enters into direct competition with OpenAI's Codex and Anthropic's Claude Code, even as an <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">OpenAI–Dell alliance</a> announced on Monday promises to bring Codex to on-premise and hybrid environments. The battle over development harnesses, long a secondary concern, is now emerging as a central strategic arena of 2026.",
+        "de": "Im agentischen Bereich tritt Antigravity 2.0 in direkte Konkurrenz zu OpenAIs Codex und Anthropics Claude Code, während eine am Montag angekündigte <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">OpenAI–Dell-Allianz</a> verspricht, Codex in On-Premise- und Hybridumgebungen zu bringen. Der Kampf um Entwicklungs-Harnesses, lange eine Randerscheinung, avanciert damit zu einem zentralen strategischen Schauplatz des Jahres 2026.",
+        "it": "Sul fronte agentivo, Antigravity 2.0 entra in concorrenza diretta con Codex di OpenAI e Claude Code di Anthropic, proprio mentre un'<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">alleanza OpenAI–Dell</a> annunciata lunedì promette di portare Codex negli ambienti on-premise e ibridi. La battaglia degli harness di sviluppo, a lungo marginale, diventa così un teatro strategico centrale del 2026.",
+        "rm": "Sin il terrain agentiv, Antigravity 2.0 entra en concurrenza frontala cun Codex d'OpenAI e Claude Code d'Anthropic, nua ch'ina <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">allianza OpenAI–Dell</a> annunziada glindesdi prometta da portar Codex en ils ambients on-premise ed hibrids. La battaglia dals harness da svilup, ditg marginala, daventa uschia in teater strategic central da 2026."
+      }
     ]
   },
   "sidebar": [
     {
-      "tag": "Majeur",
-      "headline": "DeepMind ouvre Project Genie aux abonnés Ultra",
-      "wire": "From the Wires — 17 mai 2026",
-      "body": "Google DeepMind annonce l'élargissement mondial de l'accès à <a href=\"https://deepmind.google/blog/simulate-real-world-places-with-project-genie-and-street-view/\">Project Genie</a> aux abonnés Google AI Ultra, avec une intégration inédite à Street View pour simuler des lieux réels."
+      "tag": {
+        "fr": "Majeur",
+        "en": "Breaking",
+        "de": "Wichtig",
+        "it": "Rilevante",
+        "rm": "Impurtant"
+      },
+      "headline": {
+        "fr": "OpenAI revendique une percée mathématique",
+        "en": "OpenAI claims mathematical breakthrough",
+        "de": "OpenAI meldet mathematischen Durchbruch",
+        "it": "OpenAI rivendica una svolta matematica",
+        "rm": "OpenAI revindica ina perruptura matematica"
+      },
+      "wire": {
+        "fr": "From the Wires — 20 mai 2026",
+        "en": "From the Wires — 20 May 2026",
+        "de": "From the Wires — 20. Mai 2026",
+        "it": "From the Wires — 20 maggio 2026",
+        "rm": "From the Wires — ils 20 da matg 2026"
+      },
+      "body": {
+        "fr": "Un modèle d'OpenAI aurait résolu le problème ouvert depuis 80 ans des distances unités, infirmant une conjecture centrale en géométrie discrète, selon <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">une note de recherche publiée</a> par le laboratoire.",
+        "en": "An OpenAI model is reported to have solved the unit distances problem, open for 80 years, disproving a central conjecture in discrete geometry, according to <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">a research note published</a> by the laboratory.",
+        "de": "Ein Modell von OpenAI soll das seit 80 Jahren offene Problem der Einheitsabstände gelöst und damit eine zentrale Vermutung der diskreten Geometrie widerlegt haben, wie aus <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">einer vom Labor veröffentlichten Forschungsnotiz</a> hervorgeht.",
+        "it": "Un modello di OpenAI avrebbe risolto il problema delle distanze unitarie, aperto da 80 anni, confutando una congettura centrale nella geometria discreta, secondo <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">una nota di ricerca pubblicata</a> dal laboratorio.",
+        "rm": "In model d'OpenAI avess resolvì il problem avert dapi 80 onns da las distanzas unitats, infirmond ina cunjunctura centrala en la geometria discreta, tenor <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">ina nota da perscrutaziun publicada</a> dal laboratori."
+      }
     },
     {
-      "tag": "Recherche",
-      "headline": "Co-Scientist contribue à inverser le vieillissement cellulaire",
-      "wire": "From the Wires — 18 mai 2026",
-      "body": "Des biologistes rapportent dans <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">un billet DeepMind</a> avoir utilisé Co-Scientist pour identifier de nouveaux facteurs capables de rajeunir des cellules humaines."
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "rm": "Perscrutaziun"
+      },
+      "headline": {
+        "fr": "Apple publie BalCapRL pour le captioning multimodal",
+        "en": "Apple releases BalCapRL for multimodal captioning",
+        "de": "Apple veröffentlicht BalCapRL für multimodales Captioning",
+        "it": "Apple pubblica BalCapRL per il captioning multimodale",
+        "rm": "Apple publitgescha BalCapRL per il captioning multimodal"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 mai 2026",
+        "en": "From the Wires — 11 May 2026",
+        "de": "From the Wires — 11. Mai 2026",
+        "it": "From the Wires — 11 maggio 2026",
+        "rm": "From the Wires — ils 11 da matg 2026"
+      },
+      "body": {
+        "fr": "Apple ML Research présente <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, un cadre RL équilibré destiné à corriger les biais d'utilité et d'hallucination dans les modèles de description d'images.",
+        "en": "Apple ML Research presents <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, a balanced RL framework designed to correct utility and hallucination biases in image captioning models.",
+        "de": "Apple ML Research präsentiert <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, ein ausgewogenes RL-Framework zur Korrektur von Nutzwert- und Halluzinationsverzerrungen in Bildbeschreibungsmodellen.",
+        "it": "Apple ML Research presenta <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, un framework RL equilibrato destinato a correggere i bias di utilità e di allucinazione nei modelli di descrizione delle immagini.",
+        "rm": "Apple ML Research presenta <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, in cader RL equilibrà destinà a corrigir ils bias d'utilità e d'hallucinaziun en ils models da descripziun d'imagins."
+      }
     },
     {
-      "tag": "Outils",
-      "headline": "OpenAI étend les MCP privés aux entreprises",
-      "wire": "From the Wires — 19 mai 2026",
-      "body": "OpenAI a libéré le <a href=\"https://platform.openai.com/docs/changelog\">Secure MCP Tunnel</a>, qui permet à ChatGPT, Codex, Responses API et AgentKit de se connecter à des serveurs MCP privés sans les exposer à l'Internet public."
+      "tag": {
+        "fr": "Open source",
+        "en": "Open source",
+        "de": "Open Source",
+        "it": "Open source",
+        "rm": "Open source"
+      },
+      "headline": {
+        "fr": "Allen AI fait évoluer OlmoEarth",
+        "en": "Allen AI advances OlmoEarth",
+        "de": "Allen AI entwickelt OlmoEarth weiter",
+        "it": "Allen AI fa evolvere OlmoEarth",
+        "rm": "Allen AI fa evolver OlmoEarth"
+      },
+      "wire": {
+        "fr": "From the Wires — 19 mai 2026",
+        "en": "From the Wires — 19 May 2026",
+        "de": "From the Wires — 19. Mai 2026",
+        "it": "From the Wires — 19 maggio 2026",
+        "rm": "From the Wires — ils 19 da matg 2026"
+      },
+      "body": {
+        "fr": "Allen AI publie <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, une famille de modèles d'observation de la Terre plus efficiente, sur le blog Hugging Face.",
+        "en": "Allen AI publishes <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, a more efficient family of Earth observation models, on the Hugging Face blog.",
+        "de": "Allen AI veröffentlicht <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, eine effizientere Familie von Erdbeobachtungsmodellen, auf dem Hugging Face Blog.",
+        "it": "Allen AI pubblica <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, una famiglia di modelli di osservazione della Terra più efficiente, sul blog di Hugging Face.",
+        "rm": "Allen AI publitgescha <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, ina famiglia da models d'observaziun da la Terra pli effizienta, sin il blog da Hugging Face."
+      }
     },
     {
-      "tag": "Communauté",
-      "headline": "Claude Code v2.1.145 muscle ses agents",
-      "wire": "From the Wires — 20 mai 2026",
-      "body": "Anthropic publie <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">Claude Code v2.1.145</a> avec un <code>claude agents --json</code> pour scripter les sessions et de nouveaux attributs OTEL pour les sous-agents."
+      "tag": {
+        "fr": "Souveraineté",
+        "en": "Sovereignty",
+        "de": "Souveränität",
+        "it": "Sovranità",
+        "rm": "Suveranitad"
+      },
+      "headline": {
+        "fr": "OpenAI signe avec Singapour et Malte",
+        "en": "OpenAI signs agreements with Singapore and Malta",
+        "de": "OpenAI unterzeichnet Abkommen mit Singapur und Malta",
+        "it": "OpenAI firma accordi con Singapore e Malta",
+        "rm": "OpenAI suttascriva cun Singapour e Malta"
+      },
+      "wire": {
+        "fr": "From the Wires — 19 mai 2026",
+        "en": "From the Wires — 19 May 2026",
+        "de": "From the Wires — 19. Mai 2026",
+        "it": "From the Wires — 19 maggio 2026",
+        "rm": "From the Wires — ils 19 da matg 2026"
+      },
+      "body": {
+        "fr": "OpenAI multiplie les accords gouvernementaux avec <a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapour</a> (programme pluriannuel) et <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malte</a> (ChatGPT Plus pour tous les citoyens).",
+        "en": "OpenAI is expanding its government agreements, with <a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapore</a> (multi-year programme) and <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a> (ChatGPT Plus for all citizens).",
+        "de": "OpenAI multipliziert seine Regierungsabkommen mit <a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapur</a> (mehrjähriges Programm) und <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a> (ChatGPT Plus für alle Bürgerinnen und Bürger).",
+        "it": "OpenAI moltiplica gli accordi governativi con <a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapore</a> (programma pluriennale) e <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a> (ChatGPT Plus per tutti i cittadini).",
+        "rm": "OpenAI multiplitgescha ils accordis guvernamentals cun <a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapour</a> (program pluriannual) e <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a> (ChatGPT Plus per tuts ils burgais)."
+      }
     }
   ],
   "pages": [
     {
       "num": 1,
-      "label": "À la Une",
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelseite",
+        "it": "Prima pagina",
+        "rm": "Pagina davant"
+      },
       "sections": [
         {
           "num": "I",
-          "title": "Modèles & Frontière",
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Frontier",
+            "it": "Modelli & Frontiera",
+            "rm": "Models & Fruntiera"
+          },
           "layout": "3-cols",
           "articles": [
             {
-              "headline": "Gemini Omni au cœur d'I/O 2026",
-              "byline": "Bureau de Mountain View — 17 mai 2026",
-              "body": "DeepMind a officialisé <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> lors de l'édition 2026 de Google I/O. La firme positionne ce nouveau venu comme un modèle unifié pour le texte, l'image, l'audio et la vidéo, en remplacement progressif des déclinaisons spécialisées."
+              "headline": {
+                "fr": "Gemini Omni, le pari multimodal unifié de DeepMind",
+                "en": "Gemini Omni, DeepMind's unified multimodal bet",
+                "de": "Gemini Omni: DeepMinds vereintes multimodales Wettangebot",
+                "it": "Gemini Omni, la scommessa multimodale unificata di DeepMind",
+                "rm": "Gemini Omni, la messa multimodala unifica da DeepMind"
+              },
+              "byline": {
+                "fr": "Rédaction — Modèles",
+                "en": "Newsroom — Models",
+                "de": "Redaktion — Modelle",
+                "it": "Redazione — Modelli",
+                "rm": "Redacziun — Models"
+              },
+              "body": {
+                "fr": "DeepMind a officialisé <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> lors de I/O 2026. Le modèle est positionné comme une architecture unique gérant entrées et sorties à travers les modalités texte, image, vidéo et audio. Le laboratoire ne publie pas de benchmarks détaillés dans la note initiale, mais inscrit Omni dans la continuité de la <a href=\"https://deepmind.google/models/\">famille Gemini</a> consolidée sur son hub modèles.",
+                "en": "DeepMind officially unveiled <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> at I/O 2026. The model is positioned as a single architecture managing inputs and outputs across text, image, video and audio modalities. The laboratory does not publish detailed benchmarks in the initial note, but places Omni within the broader <a href=\"https://deepmind.google/models/\">Gemini family</a> consolidated on its model hub.",
+                "de": "DeepMind hat <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> auf der I/O 2026 offiziell vorgestellt. Das Modell ist als einheitliche Architektur positioniert, die Ein- und Ausgaben über die Modalitäten Text, Bild, Video und Audio verwaltet. Das Labor veröffentlicht in der ersten Notiz keine detaillierten Benchmarks, ordnet Omni jedoch in die konsolidierte <a href=\"https://deepmind.google/models/\">Gemini-Familie</a> auf seinem Modell-Hub ein.",
+                "it": "DeepMind ha ufficializzato <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> in occasione di I/O 2026. Il modello è posizionato come un'architettura unica che gestisce ingressi e uscite attraverso le modalità testo, immagine, video e audio. Il laboratorio non pubblica benchmark dettagliati nella nota iniziale, ma inserisce Omni nella continuità della <a href=\"https://deepmind.google/models/\">famiglia Gemini</a> consolidata sul suo hub di modelli.",
+                "rm": "DeepMind ha officialisà <a href=\"https://deepmind.google/blog/introducing-gemini-omni/\">Gemini Omni</a> tar I/O 2026. Il model è posiziunà sco ina arquitectura unica che administra entradas e sortidas atras las modalitads text, maletg, video ed audio. Il laboratori na publitgescha betg benchmarks detagliads en la nota iniziala, ma inscriva Omni en la continuitad da la <a href=\"https://deepmind.google/models/\">famiglia Gemini</a> consolidada sin ses hub da models."
+              }
             },
             {
-              "headline": "Antigravity 2.0 vise les agents de développement",
-              "byline": "Bureau de Mountain View — 17 mai 2026",
-              "body": "Annoncé en parallèle, <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> repositionne la plateforme d'agents code comme un environnement de développement assisté. L'éventail complet des annonces I/O figure dans le <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/\">récapitulatif officiel</a>."
+              "headline": {
+                "fr": "Antigravity 2.0 : DeepMind muscle son agent développeur",
+                "en": "Antigravity 2.0: DeepMind strengthens its developer agent",
+                "de": "Antigravity 2.0: DeepMind stärkt seinen Entwickleragenten",
+                "it": "Antigravity 2.0: DeepMind potenzia il suo agente sviluppatore",
+                "rm": "Antigravity 2.0: DeepMind rafforza ses agent da svilupader"
+              },
+              "byline": {
+                "fr": "Rédaction — Outillage",
+                "en": "Newsroom — Tooling",
+                "de": "Redaktion — Werkzeuge",
+                "it": "Redazione — Strumenti",
+                "rm": "Redacziun — Utensils"
+              },
+              "body": {
+                "fr": "Présenté en parallèle de Gemini Omni, <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> formalise la deuxième génération de l'environnement agentique de développement de Google. Le produit ambitionne de rivaliser avec Codex et Claude Code en intégrant directement Gemini comme moteur de raisonnement et d'exécution.",
+                "en": "Presented alongside Gemini Omni, <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> formalises the second generation of Google's agentic development environment. The product aims to rival Codex and Claude Code by integrating Gemini directly as its reasoning and execution engine.",
+                "de": "Parallel zu Gemini Omni präsentiert, formalisiert <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> die zweite Generation von Googles agentischer Entwicklungsumgebung. Das Produkt strebt an, mit Codex und Claude Code zu konkurrieren, indem es Gemini direkt als Reasoning- und Ausführungsmotor integriert.",
+                "it": "Presentato in parallelo a Gemini Omni, <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> formalizza la seconda generazione dell'ambiente agentivo di sviluppo di Google. Il prodotto ambisce a rivaleggiare con Codex e Claude Code integrando direttamente Gemini come motore di ragionamento ed esecuzione.",
+                "rm": "Presentà en parallel cun Gemini Omni, <a href=\"https://deepmind.google/blog/introducing-google-antigravity-2-0/\">Google Antigravity 2.0</a> formalisescha la segunda generaziun da l'ambient agentiv da svilup da Google. Il product ambiziunescha da rivalisar cun Codex e Claude Code integrond directamain Gemini sco motor da rasonament ed execuziun."
+              }
             },
             {
-              "headline": "OpenAI casse un verrou mathématique vieux de 80 ans",
-              "byline": "Bureau de San Francisco — 20 mai 2026",
-              "body": "Selon <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">OpenAI</a>, un de ses modèles a résolu le problème des distances unités en géométrie discrète, réfutant une conjecture longtemps tenue pour acquise — un test grandeur nature de la capacité des LLM à produire des contributions mathématiques originales."
+              "headline": {
+                "fr": "OpenAI s'allie à Dell pour porter Codex en entreprise",
+                "en": "OpenAI partners with Dell to bring Codex to the enterprise",
+                "de": "OpenAI kooperiert mit Dell, um Codex in Unternehmen zu bringen",
+                "it": "OpenAI si allea con Dell per portare Codex in azienda",
+                "rm": "OpenAI s'allia cun Dell per portar Codex en l'interpresa"
+              },
+              "byline": {
+                "fr": "Rédaction — Industrie",
+                "en": "Newsroom — Industry",
+                "de": "Redaktion — Industrie",
+                "it": "Redazione — Industria",
+                "rm": "Redacziun — Industria"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé un partenariat avec Dell pour <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">déployer Codex en environnements hybrides et on-premise</a>. L'objectif déclaré : permettre aux grandes entreprises d'exécuter l'agent de codage sur leurs propres infrastructures, sans transit obligatoire par le cloud OpenAI.",
+                "en": "OpenAI has announced a partnership with Dell to <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">deploy Codex in hybrid and on-premise environments</a>. The stated goal: to allow large enterprises to run the coding agent on their own infrastructure, without mandatory routing through OpenAI's cloud.",
+                "de": "OpenAI hat eine Partnerschaft mit Dell angekündigt, um <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Codex in hybriden und On-Premise-Umgebungen bereitzustellen</a>. Das erklärte Ziel: Grossunternehmen in die Lage zu versetzen, den Codierungsagenten auf ihrer eigenen Infrastruktur auszuführen, ohne obligatorischen Transit über die OpenAI-Cloud.",
+                "it": "OpenAI ha annunciato una partnership con Dell per <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">distribuire Codex in ambienti ibridi e on-premise</a>. L'obiettivo dichiarato: permettere alle grandi aziende di eseguire l'agente di codifica sulla propria infrastruttura, senza transito obbligatorio attraverso il cloud di OpenAI.",
+                "rm": "OpenAI ha annunzià ina partnarschad cun Dell per <a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">deplogar Codex en ambients hibrids ed on-premise</a>. L'intent declarà: permetter a las grondas interpresas d'exequir l'agent da codaziun sin lur atgna infrastructura, senza transit obligatori tras il cloud da OpenAI."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Ramp détaille son adoption de Codex sur GPT-5.5",
+                "en": "Ramp details its adoption of Codex on GPT-5.5",
+                "de": "Ramp schildert die Einführung von Codex auf GPT-5.5",
+                "it": "Ramp dettaglia l'adozione di Codex su GPT-5.5",
+                "rm": "Ramp detagliescha sia adopziun da Codex sin GPT-5.5"
+              },
+              "byline": {
+                "fr": "Rédaction — Adoption",
+                "en": "Newsroom — Adoption",
+                "de": "Redaktion — Einführung",
+                "it": "Redazione — Adozione",
+                "rm": "Redacziun — Adopziun"
+              },
+              "body": {
+                "fr": "Dans une étude de cas publiée par OpenAI, l'éditeur fintech Ramp décrit comment ses équipes utilisent <a href=\"https://openai.com/index/ramp\">Codex couplé à GPT-5.5</a> pour automatiser la revue de code et raccourcir le cycle de feedback de plusieurs heures à quelques minutes.",
+                "en": "In a case study published by OpenAI, fintech firm Ramp describes how its teams use <a href=\"https://openai.com/index/ramp\">Codex paired with GPT-5.5</a> to automate code review and shorten the feedback cycle from several hours to a matter of minutes.",
+                "de": "In einer von OpenAI veröffentlichten Fallstudie beschreibt das Fintech-Unternehmen Ramp, wie seine Teams <a href=\"https://openai.com/index/ramp\">Codex in Verbindung mit GPT-5.5</a> nutzen, um Code-Reviews zu automatisieren und den Feedback-Zyklus von mehreren Stunden auf wenige Minuten zu verkürzen.",
+                "it": "In un caso di studio pubblicato da OpenAI, l'azienda fintech Ramp descrive come i suoi team utilizzano <a href=\"https://openai.com/index/ramp\">Codex abbinato a GPT-5.5</a> per automatizzare la revisione del codice e ridurre il ciclo di feedback da diverse ore a pochi minuti.",
+                "rm": "En ina etude da cas publicada da OpenAI, l'editor fintech Ramp descriva co sias equipes utiliseschan <a href=\"https://openai.com/index/ramp\">Codex acuplà cun GPT-5.5</a> per automatiseschar la revisiun da code e reducir il cicl da feedback da pliras uras a tschintg minuts."
+              }
             }
           ]
         }
@@ -77,44 +328,116 @@
     },
     {
       "num": 2,
-      "label": "Le Cahier Technique",
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Supplement",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "rm": "Il Chader Tecnic"
+      },
       "sections": [
         {
           "num": "II",
-          "title": "Harnais & agents de code",
-          "layout": "2-cols",
+          "title": {
+            "fr": "Harnais & outillage",
+            "en": "Harnesses & tooling",
+            "de": "Harnesses & Werkzeuge",
+            "it": "Harness e strumenti",
+            "rm": "Harness ed utensils"
+          },
+          "layout": "3-cols",
           "articles": [
             {
-              "headline": "Claude Code passe en 2.1.145",
-              "byline": "Bureau technique — 20 mai 2026",
-              "body": "La <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">version 2.1.145</a> introduit <code>claude agents --json</code> pour piloter les sessions depuis tmux ou des status bars, ajoute <code>agent_id</code>/<code>parent_agent_id</code> aux spans OTEL <code>claude_code.tool</code>, et corrige un contournement de prompt de permission via assignations de variables Bash. La précédente <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.144\">2.1.144</a> avait étendu <code>/resume</code> aux sessions <code>--bg</code>."
+              "headline": {
+                "fr": "Claude Code v2.1.146 affine son mode revue",
+                "en": "Claude Code v2.1.146 refines its review mode",
+                "de": "Claude Code v2.1.146 verfeinert seinen Review-Modus",
+                "it": "Claude Code v2.1.146 affina la modalità revisione",
+                "rm": "Claude Code v2.1.146 affinescha ses modus da revisiun"
+              },
+              "byline": {
+                "fr": "Rédaction — Harnesses",
+                "en": "Newsroom — Harnesses",
+                "de": "Redaktion — Harnesses",
+                "it": "Redazione — Harness",
+                "rm": "Redacziun — Harness"
+              },
+              "body": {
+                "fr": "Anthropic publie <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.146\">Claude Code v2.1.146</a>, qui renomme la commande <code>/simplify</code> en <code>/code-review</code> avec niveau d'effort optionnel, et corrige plusieurs régressions Windows liées à PowerShell installé via winget. La version améliore par ailleurs la résilience de l'auto-updater face aux défaillances réseau transitoires.",
+                "en": "Anthropic releases <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.146\">Claude Code v2.1.146</a>, which renames the <code>/simplify</code> command to <code>/code-review</code> with an optional effort level, and fixes several Windows regressions related to PowerShell installed via winget. The version also improves the resilience of the auto-updater against transient network failures.",
+                "de": "Anthropic veröffentlicht <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.146\">Claude Code v2.1.146</a>, das den Befehl <code>/simplify</code> in <code>/code-review</code> mit optionalem Aufwandsniveau umbenennt und mehrere Windows-Regressionen im Zusammenhang mit über winget installiertem PowerShell behebt. Die Version verbessert zudem die Widerstandsfähigkeit des Auto-Updaters gegenüber vorübergehenden Netzwerkausfällen.",
+                "it": "Anthropic pubblica <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.146\">Claude Code v2.1.146</a>, che rinomina il comando <code>/simplify</code> in <code>/code-review</code> con livello di sforzo opzionale, e corregge diverse regressioni Windows legate a PowerShell installato tramite winget. La versione migliora inoltre la resilienza dell'auto-updater di fronte a guasti di rete transitori.",
+                "rm": "Anthropic publitgescha <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.146\">Claude Code v2.1.146</a>, che renominescha il comand <code>/simplify</code> en <code>/code-review</code> cun nivel d'effort opziunal, e corregischa pliras regressiuns Windows ligadas a PowerShell instalà via winget. La versiun meglierescha ultra da quai la resilienza da l'auto-updater cunter las deficits da rait transituras."
+              }
             },
             {
-              "headline": "Codex CLI publie une 0.132.0 plus structurée",
-              "byline": "Bureau technique — 20 mai 2026",
-              "body": "OpenAI a livré <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a> avec une authentification de première classe pour le SDK Python (clé API, flux ChatGPT et device code), des <code>TurnResult</code> enrichis, et un <code>codex exec resume --output-schema</code> qui préserve le contexte de session tout en imposant une sortie JSON. Trois pre-releases <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.133.0-alpha.3\">0.133.0-alpha</a> ont suivi dès le lendemain."
+              "headline": {
+                "fr": "Claude Code expose ses sessions en JSON",
+                "en": "Claude Code exposes sessions in JSON",
+                "de": "Claude Code gibt Sitzungen als JSON aus",
+                "it": "Claude Code espone le sessioni in JSON",
+                "rm": "Claude Code expona ses sessiuns en JSON"
+              },
+              "byline": {
+                "fr": "Rédaction — Harnesses",
+                "en": "Newsroom — Harnesses",
+                "de": "Redaktion — Harnesses",
+                "it": "Redazione — Harness",
+                "rm": "Redacziun — Harness"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">2.1.145</a> de Claude Code ajoute <code>claude agents --json</code>, qui sérialise les sessions actives pour intégration avec tmux-resurrect, barres de statut et sélecteurs de session. Les spans OTEL gagnent un <code>agent_id</code> et un <code>parent_agent_id</code>, simplifiant le traçage des sous-agents.",
+                "en": "Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">2.1.145</a> of Claude Code adds <code>claude agents --json</code>, which serialises active sessions for integration with tmux-resurrect, status bars and session selectors. OTEL spans gain an <code>agent_id</code> and a <code>parent_agent_id</code>, simplifying sub-agent tracing.",
+                "de": "Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">2.1.145</a> von Claude Code fügt <code>claude agents --json</code> hinzu, das aktive Sitzungen für die Integration mit tmux-resurrect, Statusleisten und Sitzungsselektoren serialisiert. OTEL-Spans erhalten eine <code>agent_id</code> und eine <code>parent_agent_id</code>, was das Tracing von Sub-Agents vereinfacht.",
+                "it": "La versione <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">2.1.145</a> di Claude Code aggiunge <code>claude agents --json</code>, che serializza le sessioni attive per l'integrazione con tmux-resurrect, barre di stato e selettori di sessione. Gli span OTEL guadagnano un <code>agent_id</code> e un <code>parent_agent_id</code>, semplificando il tracciamento dei sotto-agenti.",
+                "rm": "La versiun <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.145\">2.1.145</a> da Claude Code agiundscha <code>claude agents --json</code>, che serialisescha las sessiuns activas per integraziun cun tmux-resurrect, barras da status e selectors da sessiun. Las spans OTEL gudognan in <code>agent_id</code> ed in <code>parent_agent_id</code>, simplifitgond il tracciament dals sub-agents."
+              }
             },
             {
-              "headline": "Gemini CLI : un preview 0.43 pour rentrer dans le rang",
-              "byline": "Bureau technique — 19 mai 2026",
-              "body": "Le robot de release de Google a poussé <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0-preview.1\">v0.43.0-preview.1</a>, une cherry-pick de stabilisation, tandis que les nightlies de la branche <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260518.g5611ff40e\">0.44</a> introduisent un flag <code>adk.agentSessionSubagentEnabled</code> pour les sous-agents."
-            }
-          ]
-        },
-        {
-          "num": "III",
-          "title": "Moteurs & inférence",
-          "layout": "2-cols",
-          "articles": [
-            {
-              "headline": "OpenAI API : retraits et nouveaux modèles d'images",
-              "byline": "Bureau technique — 19 mai 2026",
-              "body": "Le <a href=\"https://platform.openai.com/docs/changelog\">changelog OpenAI</a> entérine la déprécation au 12 mai de <em>dall-e-2</em>, <em>dall-e-3</em> et de la Realtime API Beta. La <a href=\"https://platform.openai.com/docs/changelog\">Responses API</a> gagne un <code>return_token_budget</code> pour des recherches web GPT-5 plus longues, tandis que <em>gpt-image-2</em> devient le modèle d'image recommandé."
+              "headline": {
+                "fr": "Codex CLI : SDK Python et sorties structurées",
+                "en": "Codex CLI: Python SDK and structured outputs",
+                "de": "Codex CLI: Python-SDK und strukturierte Ausgaben",
+                "it": "Codex CLI: SDK Python e output strutturati",
+                "rm": "Codex CLI: SDK Python e sortidas structuradas"
+              },
+              "byline": {
+                "fr": "Rédaction — Harnesses",
+                "en": "Newsroom — Harnesses",
+                "de": "Redaktion — Harnesses",
+                "it": "Redazione — Harness",
+                "rm": "Redacziun — Harness"
+              },
+              "body": {
+                "fr": "OpenAI publie <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a>, qui dote son SDK Python d'une authentification de première classe (clé API, ChatGPT, device-code) et permet à <code>codex exec resume</code> d'accepter <code>--output-schema</code> pour préserver le contexte de session tout en imposant des sorties JSON contraintes. Une série d'alphas 0.133.0 a suivi dans la nuit.",
+                "en": "OpenAI releases <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a>, which equips its Python SDK with first-class authentication (API key, ChatGPT, device-code) and allows <code>codex exec resume</code> to accept <code>--output-schema</code> to preserve session context while enforcing constrained JSON outputs. A series of 0.133.0 alphas followed overnight.",
+                "de": "OpenAI veröffentlicht <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a>, das sein Python-SDK mit erstklassiger Authentifizierung (API-Schlüssel, ChatGPT, Device-Code) ausstattet und es <code>codex exec resume</code> ermöglicht, <code>--output-schema</code> zu akzeptieren, um den Sitzungskontext zu bewahren und gleichzeitig eingeschränkte JSON-Ausgaben zu erzwingen. Eine Reihe von 0.133.0-Alphas folgte über Nacht.",
+                "it": "OpenAI pubblica <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a>, che dota il suo SDK Python di un'autenticazione di prima classe (chiave API, ChatGPT, device-code) e permette a <code>codex exec resume</code> di accettare <code>--output-schema</code> per preservare il contesto di sessione imponendo al contempo output JSON vincolati. Una serie di alpha 0.133.0 ha seguito nella notte.",
+                "rm": "OpenAI publitgescha <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.132.0\">Codex 0.132.0</a>, che equipescha ses SDK Python cun ina autentificaziun da prima classa (clav API, ChatGPT, device-code) e permetta a <code>codex exec resume</code> d'acceptar <code>--output-schema</code> per conservar il context da sessiun imponind al medem temp sortidas JSON contraindas. Ina seria d'alphas 0.133.0 ha suandà durant la notg."
+              }
             },
             {
-              "headline": "Codex Plugin : OpenAI s'invite dans son propre IDE",
-              "byline": "Bureau technique — 7 mai 2026",
-              "body": "OpenAI a publié un <a href=\"https://platform.openai.com/docs/changelog\">plugin Developers pour Codex</a>, censé guider la configuration des API et l'accès à la plateforme depuis l'environnement Codex, en miroir des plugins concurrents pour Claude Code et Gemini CLI."
+              "headline": {
+                "fr": "Gemini CLI : skills agent-tui et tui-tester",
+                "en": "Gemini CLI: agent-tui and tui-tester skills",
+                "de": "Gemini CLI: Skills agent-tui und tui-tester",
+                "it": "Gemini CLI: skill agent-tui e tui-tester",
+                "rm": "Gemini CLI: skills agent-tui e tui-tester"
+              },
+              "byline": {
+                "fr": "Rédaction — Harnesses",
+                "en": "Newsroom — Harnesses",
+                "de": "Redaktion — Harnesses",
+                "it": "Redazione — Harness",
+                "rm": "Redacziun — Harness"
+              },
+              "body": {
+                "fr": "La nightly <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4\">v0.44.0</a> du <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a> introduit deux skills internes — <code>agent-tui</code> et <code>tui-tester</code> — destinés à scripter et tester des interfaces terminal. Plusieurs correctifs concernent la récupération de snapshots entre sessions et la préférence pour <code>pwsh.exe</code> sur Windows.",
+                "en": "The nightly build <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4\">v0.44.0</a> of the <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a> introduces two internal skills — <code>agent-tui</code> and <code>tui-tester</code> — designed to script and test terminal interfaces. Several fixes address snapshot recovery between sessions and a preference for <code>pwsh.exe</code> on Windows.",
+                "de": "Der Nightly-Build <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4\">v0.44.0</a> der <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a> führt zwei interne Skills ein — <code>agent-tui</code> und <code>tui-tester</code> — die zum Scripting und Testen von Terminal-Schnittstellen gedacht sind. Mehrere Korrekturen betreffen die Snapshot-Wiederherstellung zwischen Sitzungen und die Bevorzugung von <code>pwsh.exe</code> unter Windows.",
+                "it": "La nightly <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4\">v0.44.0</a> del <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a> introduce due skill interne — <code>agent-tui</code> e <code>tui-tester</code> — destinate a scriptare e testare interfacce terminale. Diversi fix riguardano il recupero di snapshot tra sessioni e la preferenza per <code>pwsh.exe</code> su Windows.",
+                "rm": "La nightly <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0-nightly.20260521.g57c42a5c4\">v0.44.0</a> dal <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a> introducescha duas skills internas — <code>agent-tui</code> e <code>tui-tester</code> — destinadas a scriptar e testar interfatschas terminal. Plirs correctivs concernan la recuperaziun da snapshots tranter sessiuns e la preferenza per <code>pwsh.exe</code> sin Windows."
+              }
             }
           ]
         }
@@ -122,32 +445,162 @@
     },
     {
       "num": 3,
-      "label": "La Recherche",
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "rm": "La Perscrutaziun"
+      },
       "sections": [
         {
-          "num": "IV",
-          "title": "Science & modèles ouverts",
-          "layout": "2-cols",
+          "num": "III",
+          "title": {
+            "fr": "Papiers & laboratoires",
+            "en": "Papers & laboratories",
+            "de": "Papiere & Labore",
+            "it": "Articoli & laboratori",
+            "rm": "Artitgels & laboratoris"
+          },
+          "layout": "3-cols",
           "articles": [
             {
-              "headline": "Mathématiques : un modèle d'OpenAI réfute une conjecture",
-              "byline": "Bureau recherche — 20 mai 2026",
-              "body": "OpenAI rapporte qu'un de ses modèles a apporté une <a href=\"https://openai.com/index/model-disproves-discrete-geometry-conjecture\">réfutation au problème des distances unités</a>, un résultat présenté comme la première contribution d'un LLM à la géométrie discrète. L'équipe insiste sur le caractère vérifiable de la preuve."
+              "headline": {
+                "fr": "Apple propose HeadsUp pour la reconstruction 3D de têtes",
+                "en": "Apple proposes HeadsUp for 3D head reconstruction",
+                "de": "Apple stellt HeadsUp für die 3D-Rekonstruktion von Köpfen vor",
+                "it": "Apple propone HeadsUp per la ricostruzione 3D delle teste",
+                "rm": "Apple propona HeadsUp per la reconstrucziun 3D da teschas"
+              },
+              "byline": {
+                "fr": "Rédaction — Recherche",
+                "en": "Newsroom — Research",
+                "de": "Redaktion — Forschung",
+                "it": "Redazione — Ricerca",
+                "rm": "Redacziun — Perscrutaziun"
+              },
+              "body": {
+                "fr": "Apple ML Research dévoile <a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a>, méthode feed-forward de reconstruction de têtes 3D en gaussiennes à partir de captures multi-vues. L'architecture encodeur-décodeur permet de découpler le nombre de gaussiennes de la résolution des images d'entrée.",
+                "en": "Apple ML Research unveils <a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a>, a feed-forward method for reconstructing 3D heads as Gaussians from multi-view captures. The encoder-decoder architecture decouples the number of Gaussians from the resolution of the input images.",
+                "de": "Apple ML Research stellt <a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a> vor, eine Feed-Forward-Methode zur 3D-Kopfrekonstruktion als Gaussians aus Multi-View-Aufnahmen. Die Encoder-Decoder-Architektur entkoppelt die Anzahl der Gaussians von der Auflösung der Eingabebilder.",
+                "it": "Apple ML Research svela <a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a>, un metodo feed-forward per la ricostruzione di teste 3D in gaussiane a partire da acquisizioni multi-vista. L'architettura encoder-decoder consente di disaccoppiare il numero di gaussiane dalla risoluzione delle immagini di input.",
+                "rm": "Apple ML Research revela <a href=\"https://machinelearning.apple.com/research/gaussian-head-reconstruction\">HeadsUp</a>, ina metoda feed-forward da reconstrucziun da teschas 3D en gaussianas a partir da capturas multi-vistas. L'arquitectura encoder-decoder permetta da decuplar il dumber da gaussianas da la resoluziun da las imagins d'entrada."
+              }
             },
             {
-              "headline": "Co-Scientist : pistes génétiques contre le vieillissement",
-              "byline": "Bureau recherche — 18 mai 2026",
-              "body": "Une équipe utilisant Co-Scientist affirme avoir identifié <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">de nouveaux facteurs capables de rajeunir des cellules humaines</a>. Le même billet annonce une étude parallèle sur les <a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">interrupteurs moléculaires</a> des maladies infectieuses émergentes."
+              "headline": {
+                "fr": "RVPO : alignement sensible au risque par régularisation de variance",
+                "en": "RVPO: risk-sensitive alignment via variance regularisation",
+                "de": "RVPO: Risikosensitives Alignment durch Varianzregularisierung",
+                "it": "RVPO: allineamento sensibile al rischio tramite regolarizzazione della varianza",
+                "rm": "RVPO: aliniament sensibel al risc tras regularisaziun da varianza"
+              },
+              "byline": {
+                "fr": "Rédaction — Recherche",
+                "en": "Newsroom — Research",
+                "de": "Redaktion — Forschung",
+                "it": "Redazione — Ricerca",
+                "rm": "Redacziun — Perscrutaziun"
+              },
+              "body": {
+                "fr": "Toujours côté Apple, <a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> propose de remplacer l'agrégation par moyenne arithmétique des récompenses RLHF par une pénalisation de la variance inter-objectifs, pour éviter qu'une métrique dominante masque les défaillances critiques sur la sûreté ou le format.",
+                "en": "Also from Apple, <a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> proposes replacing the arithmetic mean aggregation of RLHF rewards with a cross-objective variance penalty, to prevent a dominant metric from masking critical failures in safety or formatting.",
+                "de": "Ebenfalls von Apple: <a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> schlägt vor, die arithmetische Mittelwertaggregation von RLHF-Belohnungen durch eine zielübergreifende Varianzbestrafung zu ersetzen, um zu verhindern, dass eine dominante Metrik kritische Ausfälle in Bezug auf Sicherheit oder Format verschleiert.",
+                "it": "Sempre da Apple, <a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> propone di sostituire l'aggregazione per media aritmetica delle ricompense RLHF con una penalizzazione della varianza inter-obiettivi, per evitare che una metrica dominante mascheri le carenze critiche sulla sicurezza o sul formato.",
+                "rm": "Er dal costat d'Apple, <a href=\"https://machinelearning.apple.com/research/rvpo-risk-sensitive-alignment\">RVPO</a> propona da remplazzar l'aggregaziun tras media aritmetica da las recompensas RLHF cun ina penalisaziun da la varianza inter-targets, per evitar che ina metrica dominanta maschia las deficits criticas sin la segirezza u il format."
+              }
             },
             {
-              "headline": "OlmoEarth v1.1 affine l'observation de la Terre",
-              "byline": "Bureau recherche — 19 mai 2026",
-              "body": "Allen AI publie <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, une famille de modèles d'observation de la Terre revendiquant une meilleure efficacité d'entraînement et d'inférence."
+              "headline": {
+                "fr": "Co-Scientist accélère la recherche sur le vieillissement cellulaire",
+                "en": "Co-Scientist accelerates research into cellular ageing",
+                "de": "Co-Scientist beschleunigt die Forschung zur Zellalterung",
+                "it": "Co-Scientist accelera la ricerca sull'invecchiamento cellulare",
+                "rm": "Co-Scientist accelerescha la perscrutaziun sin l'envegliament cellular"
+              },
+              "byline": {
+                "fr": "Rédaction — Recherche",
+                "en": "Newsroom — Research",
+                "de": "Redaktion — Forschung",
+                "it": "Redazione — Ricerca",
+                "rm": "Redacziun — Perscrutaziun"
+              },
+              "body": {
+                "fr": "DeepMind publie un retour d'expérience où des biologistes utilisent <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">Co-Scientist</a> pour identifier de nouveaux facteurs capables de rajeunir des cellules humaines. Un second cas d'usage porte sur l'<a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">identification de déclencheurs génétiques</a> dans les maladies infectieuses émergentes.",
+                "en": "DeepMind publishes an experience report in which biologists use <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">Co-Scientist</a> to identify new factors capable of rejuvenating human cells. A second use case focuses on the <a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">identification of genetic triggers</a> in emerging infectious diseases.",
+                "de": "DeepMind veröffentlicht einen Erfahrungsbericht, in dem Biologinnen und Biologen <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">Co-Scientist</a> nutzen, um neue Faktoren zu identifizieren, die menschliche Zellen verjüngen können. Ein zweiter Anwendungsfall betrifft die <a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">Identifizierung genetischer Auslöser</a> bei neu auftretenden Infektionskrankheiten.",
+                "it": "DeepMind pubblica un'esperienza in cui biologi utilizzano <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">Co-Scientist</a> per identificare nuovi fattori capaci di ringiovanire cellule umane. Un secondo caso d'uso riguarda l'<a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">identificazione di trigger genetici</a> nelle malattie infettive emergenti.",
+                "rm": "DeepMind publitgescha in rapport d'experientscha nua che biologs utiliseschan <a href=\"https://deepmind.google/blog/fast-tracking-genetic-leads-to-reverse-cellular-aging/\">Co-Scientist</a> per identificar novs facturs ch'èn chapabels da rajovnir cellas umanas. In segund cas d'utilisaziun concerna l'<a href=\"https://deepmind.google/blog/finding-the-molecular-switches-behind-new-infectious-diseases/\">identificaziun da triggers genetics</a> en las malsognas infecziusas emergentas."
+              }
             },
             {
-              "headline": "Ettin : une famille de rerankers ouverts",
-              "byline": "Bureau recherche — 19 mai 2026",
-              "body": "Un consortium académique présente sur Hugging Face <a href=\"https://huggingface.co/blog/ettin-reranker\">l'Ettin Reranker Family</a>, conçue pour la recherche d'information neuronale et publiée avec son protocole d'évaluation."
+              "headline": {
+                "fr": "IBM publie un classement ouvert des agents",
+                "en": "IBM publishes an open agent leaderboard",
+                "de": "IBM veröffentlicht ein offenes Agent-Leaderboard",
+                "it": "IBM pubblica una classifica aperta degli agenti",
+                "rm": "IBM publitgescha in classament avert dals agents"
+              },
+              "byline": {
+                "fr": "Rédaction — Évaluation",
+                "en": "Newsroom — Evaluation",
+                "de": "Redaktion — Evaluation",
+                "it": "Redazione — Valutazione",
+                "rm": "Redacziun — Evaluaziun"
+              },
+              "body": {
+                "fr": "IBM Research lance via Hugging Face <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">l'Open Agent Leaderboard</a>, qui vise à standardiser l'évaluation des agents LLM sur des tâches outillées. Le projet se positionne comme contrepoint communautaire aux benchmarks privés des grands laboratoires.",
+                "en": "IBM Research launches via Hugging Face the <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a>, which aims to standardise the evaluation of LLM agents on tooled tasks. The project positions itself as a community counterpoint to the private benchmarks of major laboratories.",
+                "de": "IBM Research lanciert über Hugging Face das <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a>, das die Bewertung von LLM-Agenten bei werkzeuggestützten Aufgaben standardisieren soll. Das Projekt positioniert sich als gemeinschaftliches Gegengewicht zu den privaten Benchmarks der grossen Labore.",
+                "it": "IBM Research lancia tramite Hugging Face l'<a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a>, che mira a standardizzare la valutazione degli agenti LLM su compiti con strumenti. Il progetto si posiziona come contrappunto comunitario ai benchmark privati dei grandi laboratori.",
+                "rm": "IBM Research lanzescha via Hugging Face l'<a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a>, che mira a standardisar l'evaluaziun dals agents LLM sin incumbensas instrumentadas. Il project sa posiziuna sco cuntrapunct communitari als benchmarks privats dals gronds laboratoris."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Hugging Face documente le batching asynchrone continu",
+                "en": "Hugging Face documents continuous asynchronous batching",
+                "de": "Hugging Face dokumentiert kontinuierliches asynchrones Batching",
+                "it": "Hugging Face documenta il batching asincrono continuo",
+                "rm": "Hugging Face documentescha il batching asincron continual"
+              },
+              "byline": {
+                "fr": "Rédaction — Inférence",
+                "en": "Newsroom — Inference",
+                "de": "Redaktion — Inferenz",
+                "it": "Redazione — Inferenza",
+                "rm": "Redacziun — Inferenza"
+              },
+              "body": {
+                "fr": "Un billet d'ingénierie Hugging Face explore les gains d'<a href=\"https://huggingface.co/blog/continuous_async\">asynchronicité dans le continuous batching</a>, technique aujourd'hui généralisée dans les moteurs d'inférence à fort débit comme vLLM.",
+                "en": "A Hugging Face engineering post explores the performance gains from <a href=\"https://huggingface.co/blog/continuous_async\">asynchrony in continuous batching</a>, a technique now widespread in high-throughput inference engines such as vLLM.",
+                "de": "Ein Hugging Face Engineering-Beitrag untersucht die Leistungsgewinne durch <a href=\"https://huggingface.co/blog/continuous_async\">Asynchronität im kontinuierlichen Batching</a>, einer Technik, die heute in Hochdurchsatz-Inferenz-Engines wie vLLM verbreitet ist.",
+                "it": "Un post di ingegneria di Hugging Face esplora i guadagni di prestazioni dell'<a href=\"https://huggingface.co/blog/continuous_async\">asincronicità nel continuous batching</a>, tecnica oggi generalizzata nei motori di inferenza ad alto throughput come vLLM.",
+                "rm": "In billet d'ingeniaria da Hugging Face explorescha ils profits d'<a href=\"https://huggingface.co/blog/continuous_async\">asincronicità en il continuous batching</a>, tecnica oz generalisada en ils motors d'inferenza cun aut debit sco vLLM."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Ettin : une famille de rerankers ouverts",
+                "en": "Ettin: a family of open rerankers",
+                "de": "Ettin: Eine Familie offener Reranker",
+                "it": "Ettin: una famiglia di reranker aperti",
+                "rm": "Ettin: ina famiglia da rerankers averts"
+              },
+              "byline": {
+                "fr": "Rédaction — Recherche",
+                "en": "Newsroom — Research",
+                "de": "Redaktion — Forschung",
+                "it": "Redazione — Ricerca",
+                "rm": "Redacziun — Perscrutaziun"
+              },
+              "body": {
+                "fr": "Hugging Face introduit <a href=\"https://huggingface.co/blog/ettin-reranker\">la famille Ettin Reranker</a>, ainsi qu'un travail de ServiceNow AI sur <a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">la migration de vLLM V0 à V1</a> et ses implications pour la correction des trajectoires d'entraînement par renforcement.",
+                "en": "Hugging Face introduces <a href=\"https://huggingface.co/blog/ettin-reranker\">the Ettin Reranker family</a>, alongside work from ServiceNow AI on <a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">the migration from vLLM V0 to V1</a> and its implications for correcting reinforcement learning training trajectories.",
+                "de": "Hugging Face stellt <a href=\"https://huggingface.co/blog/ettin-reranker\">die Ettin-Reranker-Familie</a> vor, zusammen mit einer Arbeit von ServiceNow AI über <a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">die Migration von vLLM V0 zu V1</a> und deren Auswirkungen auf die Korrektur von Reinforcement-Learning-Trainingspfaden.",
+                "it": "Hugging Face introduce <a href=\"https://huggingface.co/blog/ettin-reranker\">la famiglia Ettin Reranker</a>, insieme a un lavoro di ServiceNow AI sulla <a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">migrazione da vLLM V0 a V1</a> e le sue implicazioni per la correzione delle traiettorie di addestramento per rinforzo.",
+                "rm": "Hugging Face introducescha <a href=\"https://huggingface.co/blog/ettin-reranker\">la famiglia Ettin Reranker</a>, sco era in lavur da ServiceNow AI sin <a href=\"https://huggingface.co/blog/ServiceNow-AI/correctness-before-corrections\">la migraziun da vLLM V0 a V1</a> e sias implicaziuns per la correcziun da las trajecturias d'instrucziun tras renforcement."
+              }
             }
           ]
         }
@@ -155,43 +608,299 @@
     },
     {
       "num": 4,
-      "label": "La Communauté & Édito",
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "rm": "La Communauté & Editoral"
+      },
       "sections": [
         {
-          "num": "V",
-          "title": "Écosystème & sciences appliquées",
+          "num": "I",
+          "title": {
+            "fr": "Tour des labos",
+            "en": "Lab roundup",
+            "de": "Labor-Rundschau",
+            "it": "Giro dei laboratori",
+            "rm": "Runda dals laboratoris"
+          },
           "layout": "2-cols",
           "articles": [
             {
-              "headline": "Singapour scelle un partenariat IA avec DeepMind",
-              "byline": "Bureau international — 16 mai 2026",
-              "body": "Google DeepMind et Singapour officialisent un partenariat national pour appliquer l'IA de frontière à la santé, l'éducation et la durabilité, <a href=\"https://deepmind.google/blog/strengthening-singapores-ai-future-a-new-national-partnership/\">selon DeepMind</a>."
+              "kicker": {
+                "fr": "Modèle",
+                "en": "Model",
+                "de": "Modell",
+                "it": "Modello",
+                "rm": "Model"
+              },
+              "headline": {
+                "fr": "DeepSeek-V4 en preview sur web, app et API",
+                "en": "DeepSeek-V4 in preview on web, app and API",
+                "de": "DeepSeek-V4 in der Vorschau auf Web, App und API",
+                "it": "DeepSeek-V4 in anteprima su web, app e API",
+                "rm": "DeepSeek-V4 en preview sin web, app ed API"
+              },
+              "wire": {
+                "fr": "DeepSeek — édition du jour",
+                "en": "DeepSeek — today's edition",
+                "de": "DeepSeek — heutige Ausgabe",
+                "it": "DeepSeek — edizione odierna",
+                "rm": "DeepSeek — ediziun d'oz"
+              },
+              "body": {
+                "fr": "Hangzhou met en ligne une version préliminaire de DeepSeek-V4, présentée comme dotée de performances de raisonnement « de classe mondiale » et de capacités d'agent nettement renforcées. Le modèle est déjà accessible sur l'interface web, l'application mobile et via l'API, et un <a href=\"https://huggingface.co/blog/deepseekv4\">billet Hugging Face</a> détaille un contexte d'un million de tokens utilisable par les agents.",
+                "en": "Hangzhou has put online a preliminary version of DeepSeek-V4, presented as featuring \"world-class\" reasoning performance and markedly enhanced agent capabilities. The model is already accessible via the web interface, mobile application and API, and a <a href=\"https://huggingface.co/blog/deepseekv4\">Hugging Face post</a> details a one-million-token context usable by agents.",
+                "de": "Hangzhou stellt eine Vorversion von DeepSeek-V4 online, die als mit «weltklassigen» Reasoning-Fähigkeiten und deutlich verbesserten Agent-Kapazitäten ausgestattet beschrieben wird. Das Modell ist bereits über die Web-Oberfläche, die mobile App und via API zugänglich, und ein <a href=\"https://huggingface.co/blog/deepseekv4\">Hugging Face Beitrag</a> erläutert einen Ein-Millionen-Token-Kontext, der von Agenten genutzt werden kann.",
+                "it": "Hangzhou mette online una versione preliminare di DeepSeek-V4, presentata come dotata di prestazioni di ragionamento «di classe mondiale» e capacità agentive nettamente potenziate. Il modello è già accessibile tramite l'interfaccia web, l'applicazione mobile e via API, e un <a href=\"https://huggingface.co/blog/deepseekv4\">post su Hugging Face</a> dettaglia un contesto di un milione di token utilizzabile dagli agenti.",
+                "rm": "Hangzhou metta en lingia ina versiun preliminara da DeepSeek-V4, presentada sco dotada da prestazions da rasonament «da classa mondiala» e da capacitads d'agent nettamain renforzadas. Il model è gia accessibel sin l'interfatsch web, l'applicaziun mobila e via API, ed in <a href=\"https://huggingface.co/blog/deepseekv4\">billet Hugging Face</a> detagliescha in context d'in milliun da tokens utilisabel dals agents."
+              }
             },
             {
-              "headline": "PaddleOCR 3.5 adopte le backend Transformers",
-              "byline": "Bureau communauté — 18 mai 2026",
-              "body": "Le projet chinois <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">PaddleOCR 3.5</a> bascule ses tâches d'OCR et de document parsing sur un backend Transformers, facilitant son intégration dans la chaîne Hugging Face."
+              "kicker": {
+                "fr": "Modèle ouvert",
+                "en": "Open model",
+                "de": "Offenes Modell",
+                "it": "Modello aperto",
+                "rm": "Model avert"
+              },
+              "headline": {
+                "fr": "OlmoEarth v1.1 affine l'observation de la Terre",
+                "en": "OlmoEarth v1.1 refines Earth observation",
+                "de": "OlmoEarth v1.1 verfeinert die Erdbeobachtung",
+                "it": "OlmoEarth v1.1 affina l'osservazione della Terra",
+                "rm": "OlmoEarth v1.1 affinescha l'observaziun da la Terra"
+              },
+              "wire": {
+                "fr": "Hugging Face × Allen AI — édition du jour",
+                "en": "Hugging Face × Allen AI — today's edition",
+                "de": "Hugging Face × Allen AI — heutige Ausgabe",
+                "it": "Hugging Face × Allen AI — edizione odierna",
+                "rm": "Hugging Face × Allen AI — ediziun d'oz"
+              },
+              "body": {
+                "fr": "Allen AI publie sur le Hub une nouvelle itération de sa famille de modèles d'observation terrestre, présentée comme plus efficiente à paramètres équivalents. Le <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">billet technique</a> détaille les gains sur tâches satellitaires et la disponibilité des poids.",
+                "en": "Allen AI publishes on the Hub a new iteration of its Earth observation model family, presented as more efficient at equivalent parameter counts. The <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">technical post</a> details gains on satellite tasks and the availability of model weights.",
+                "de": "Allen AI veröffentlicht auf dem Hub eine neue Iteration seiner Erdbeobachtungsmodellfamilie, die bei gleicher Parameterzahl als effizienter beschrieben wird. Der <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">technische Beitrag</a> erläutert die Verbesserungen bei Satelliten-Aufgaben und die Verfügbarkeit der Gewichte.",
+                "it": "Allen AI pubblica sull'Hub una nuova iterazione della sua famiglia di modelli di osservazione terrestre, presentata come più efficiente a parità di parametri. Il <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">post tecnico</a> dettaglia i guadagni sui compiti satellitari e la disponibilità dei pesi.",
+                "rm": "Allen AI publitgescha sin il Hub ina nova iteraziun da sia famiglia da models d'observaziun terrestra, presentada sco pli effizienta a parameters equivalents. Il <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">billet tecnic</a> detagliescha ils profits sin incumbensas da sattelit e la disponibilitad dals pais."
+              }
             },
             {
-              "headline": "IBM Research publie un Open Agent Leaderboard",
-              "byline": "Bureau communauté — 18 mai 2026",
-              "body": "IBM Research lance un <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a> destiné à comparer, sur tâches reproductibles, les harnais d'agents de bout en bout."
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "rm": "Robotica"
+              },
+              "headline": {
+                "fr": "Cosmos Predict 2.5 fine-tunable en LoRA pour la vidéo robotique",
+                "en": "Cosmos Predict 2.5 fine-tunable via LoRA for robotic video",
+                "de": "Cosmos Predict 2.5 via LoRA feinabstimmbar für Robotik-Videos",
+                "it": "Cosmos Predict 2.5 fine-tunable tramite LoRA per video robotici",
+                "rm": "Cosmos Predict 2.5 fine-tunable en LoRA per il video robotic"
+              },
+              "wire": {
+                "fr": "NVIDIA — édition du jour",
+                "en": "NVIDIA — today's edition",
+                "de": "NVIDIA — heutige Ausgabe",
+                "it": "NVIDIA — edizione odierna",
+                "rm": "NVIDIA — ediziun d'oz"
+              },
+              "body": {
+                "fr": "NVIDIA documente le fine-tuning de Cosmos Predict 2.5 via LoRA/DoRA pour générer des vidéos d'environnements robotiques, une brique pour entraîner et évaluer des politiques de manipulation. La recette complète est publiée <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">sur le blog Hugging Face</a>.",
+                "en": "NVIDIA documents the fine-tuning of Cosmos Predict 2.5 via LoRA/DoRA to generate videos of robotic environments, a building block for training and evaluating manipulation policies. The full recipe is published <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">on the Hugging Face blog</a>.",
+                "de": "NVIDIA dokumentiert das Fine-Tuning von Cosmos Predict 2.5 via LoRA/DoRA zur Erzeugung von Videos robotischer Umgebungen, ein Baustein zum Trainieren und Evaluieren von Manipulationsrichtlinien. Das vollständige Rezept wird <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">auf dem Hugging Face Blog</a> veröffentlicht.",
+                "it": "NVIDIA documenta il fine-tuning di Cosmos Predict 2.5 tramite LoRA/DoRA per generare video di ambienti robotici, un mattone per addestrare e valutare politiche di manipolazione. La ricetta completa è pubblicata <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">sul blog di Hugging Face</a>.",
+                "rm": "NVIDIA documentescha il fine-tuning da Cosmos Predict 2.5 via LoRA/DoRA per generar videos d'ambients robotics, ina pizza per instruer ed evaluar politicas da manipulaziun. La recepta cumpleta è publicada <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">sin il blog da Hugging Face</a>."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "rm": "Benchmark"
+              },
+              "headline": {
+                "fr": "Lancement de l'Open Agent Leaderboard",
+                "en": "Launch of the Open Agent Leaderboard",
+                "de": "Start des Open Agent Leaderboards",
+                "it": "Lancio dell'Open Agent Leaderboard",
+                "rm": "Lantschar da l'Open Agent Leaderboard"
+              },
+              "wire": {
+                "fr": "IBM Research — édition du jour",
+                "en": "IBM Research — today's edition",
+                "de": "IBM Research — heutige Ausgabe",
+                "it": "IBM Research — edizione odierna",
+                "rm": "IBM Research — ediziun d'oz"
+              },
+              "body": {
+                "fr": "IBM Research dévoile un classement ouvert dédié aux agents LLM, avec environnements vérifiables et protocoles d'évaluation standardisés. L'initiative, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">annoncée sur Hugging Face</a>, vise à comparer les pipelines agentiques au-delà des benchmarks statiques.",
+                "en": "IBM Research unveils an open leaderboard dedicated to LLM agents, featuring verifiable environments and standardised evaluation protocols. The initiative, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">announced on Hugging Face</a>, aims to compare agentic pipelines beyond static benchmarks.",
+                "de": "IBM Research stellt ein offenes Leaderboard vor, das LLM-Agenten gewidmet ist, mit verifizierbaren Umgebungen und standardisierten Bewertungsprotokollen. Die Initiative, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">auf Hugging Face angekündigt</a>, zielt darauf ab, agentische Pipelines jenseits statischer Benchmarks zu vergleichen.",
+                "it": "IBM Research svela una classifica aperta dedicata agli agenti LLM, con ambienti verificabili e protocolli di valutazione standardizzati. L'iniziativa, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">annunciata su Hugging Face</a>, mira a confrontare le pipeline agentive al di là dei benchmark statici.",
+                "rm": "IBM Research revela in classament avert dedicà als agents LLM, cun ambients verificabels e protocols d'evaluaziun standardisads. L'iniziativa, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">annunziada sin Hugging Face</a>, mira a cumparar las pipelines agentivas tras ils benchmarks statics."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "rm": "Perscrutaziun"
+              },
+              "headline": {
+                "fr": "BalCapRL rééquilibre le RL pour les MLLM de captioning",
+                "en": "BalCapRL rebalances RL for captioning MLLMs",
+                "de": "BalCapRL rebalanciert RL für Captioning-MLLMs",
+                "it": "BalCapRL riequilibra il RL per i MLLM di captioning",
+                "rm": "BalCapRL riekvilibrescha il RL per ils MLLM da captioning"
+              },
+              "wire": {
+                "fr": "Apple ML Research — édition du jour",
+                "en": "Apple ML Research — today's edition",
+                "de": "Apple ML Research — heutige Ausgabe",
+                "it": "Apple ML Research — edizione odierna",
+                "rm": "Apple ML Research — ediziun d'oz"
+              },
+              "body": {
+                "fr": "Les équipes d'Apple proposent BalCapRL, un cadre d'apprentissage par renforcement pour le captioning d'images multimodal qui pénalise les compromis induits par les objectifs utilitaires (verbosité, hallucinations). Le <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">papier publié le 11 mai</a> décrit la métrique d'évaluation associée.",
+                "en": "Apple's teams propose BalCapRL, a reinforcement learning framework for multimodal image captioning that penalises trade-offs induced by utility objectives (verbosity, hallucinations). The <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">paper published on 11 May</a> describes the associated evaluation metric.",
+                "de": "Apples Teams schlagen BalCapRL vor, ein Reinforcement-Learning-Framework für multimodales Bild-Captioning, das die durch Nutzwert-Ziele induzierten Kompromisse (Ausschweifigkeit, Halluzinationen) bestraft. Das <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">am 11. Mai veröffentlichte Papier</a> beschreibt die zugehörige Evaluationsmetrik.",
+                "it": "I team di Apple propongono BalCapRL, un framework di apprendimento per rinforzo per il captioning di immagini multimodale che penalizza i compromessi indotti dagli obiettivi utilitari (verbosità, allucinazioni). Il <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">paper pubblicato l'11 maggio</a> descrive la metrica di valutazione associata.",
+                "rm": "Las equipes d'Apple proposeschan BalCapRL, in cader d'emprender tras renforcement per il captioning d'imagins multimodal che penalisescha ils cumpromiss induids dals targets utilitars (verbositad, hallucinaziuns). L'<a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">artitgel publicà ils 11 da matg</a> descriva la metrica d'evaluaziun associada."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Outil",
+                "en": "Tool",
+                "de": "Werkzeug",
+                "it": "Strumento",
+                "rm": "Utensil"
+              },
+              "headline": {
+                "fr": "PaddleOCR 3.5 passe sur backend Transformers",
+                "en": "PaddleOCR 3.5 switches to Transformers backend",
+                "de": "PaddleOCR 3.5 wechselt auf Transformers-Backend",
+                "it": "PaddleOCR 3.5 passa al backend Transformers",
+                "rm": "PaddleOCR 3.5 passa sin backend Transformers"
+              },
+              "wire": {
+                "fr": "PaddlePaddle — édition du jour",
+                "en": "PaddlePaddle — today's edition",
+                "de": "PaddlePaddle — heutige Ausgabe",
+                "it": "PaddlePaddle — edizione odierna",
+                "rm": "PaddlePaddle — ediziun d'oz"
+              },
+              "body": {
+                "fr": "Baidu publie PaddleOCR 3.5 avec un backend Transformers pour l'OCR et le parsing documentaire, facilitant l'intégration dans les pipelines Hugging Face. Le <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">billet de release</a> détaille les modèles disponibles et les performances sur documents structurés.",
+                "en": "Baidu releases PaddleOCR 3.5 with a Transformers backend for OCR and document parsing, easing integration into Hugging Face pipelines. The <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">release post</a> details the available models and performance on structured documents.",
+                "de": "Baidu veröffentlicht PaddleOCR 3.5 mit einem Transformers-Backend für OCR und Dokumentenanalyse, was die Integration in Hugging Face Pipelines erleichtert. Der <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">Release-Beitrag</a> erläutert die verfügbaren Modelle und die Leistung bei strukturierten Dokumenten.",
+                "it": "Baidu pubblica PaddleOCR 3.5 con un backend Transformers per l'OCR e il parsing documentale, facilitando l'integrazione nelle pipeline di Hugging Face. Il <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">post di release</a> dettaglia i modelli disponibili e le prestazioni sui documenti strutturati.",
+                "rm": "Baidu publitgescha PaddleOCR 3.5 cun in backend Transformers per l'OCR e il parsing da documents, facilitond l'integraziun en las pipelines da Hugging Face. Il <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">billet da release</a> detagliescha ils models disponibels e las prestazions sin documents structurads."
+              }
             }
           ]
         },
         {
-          "num": "VI",
-          "title": "Édito",
-          "layout": "1-col",
+          "num": "II",
+          "title": {
+            "fr": "Écosystème & Édito",
+            "en": "Ecosystem & Editorial",
+            "de": "Ökosystem & Leitartikel",
+            "it": "Ecosistema & Editoriale",
+            "rm": "Ecosistem & Editoral"
+          },
+          "layout": "2-cols",
           "articles": [
             {
-              "headline": "Deux conférences, deux récits",
-              "byline": "La Rédaction — 21 mai 2026",
-              "body": "À 24 heures d'intervalle, Google a déroulé un catalogue produit de cent annonces et OpenAI a revendiqué une percée scientifique vérifiable. Ces deux récits — l'écosystème intégré contre la prouesse de laboratoire — résument la nouvelle ligne de fracture du secteur. Reste à voir lequel convaincra durablement développeurs et chercheurs : la promesse d'un assistant universel ou celle d'un collaborateur capable, par lui-même, de bousculer une conjecture vieille de quatre-vingts ans."
+              "headline": {
+                "fr": "MLX Community et mlx-community accélèrent côté Apple Silicon",
+                "en": "MLX Community and mlx-community accelerate on Apple Silicon",
+                "de": "MLX Community und mlx-community beschleunigen auf Apple Silicon",
+                "it": "MLX Community e mlx-community accelerano sul fronte Apple Silicon",
+                "rm": "MLX Community e mlx-community accelereschan dal costat Apple Silicon"
+              },
+              "byline": {
+                "fr": "Rédaction — Communauté",
+                "en": "Newsroom — Community",
+                "de": "Redaktion — Community",
+                "it": "Redazione — Comunità",
+                "rm": "Redacziun — Communauté"
+              },
+              "body": {
+                "fr": "Le hub <a href=\"https://huggingface.co/mlx-community\">mlx-community</a> sur Hugging Face continue de quantifier en quelques heures les modèles fraîchement publiés par <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/mistralai\">Mistral</a> et <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a>, devenant de facto la couche de portage Apple Silicon de l'écosystème open weights. <a href=\"https://huggingface.co/unsloth\">Unsloth</a> joue un rôle équivalent côté quantifications GGUF et BnB.",
+                "en": "The <a href=\"https://huggingface.co/mlx-community\">mlx-community</a> hub on Hugging Face continues to quantise newly published models from <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/mistralai\">Mistral</a> and <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a> within hours, becoming the de facto Apple Silicon porting layer for the open-weights ecosystem. <a href=\"https://huggingface.co/unsloth\">Unsloth</a> plays an equivalent role for GGUF and BnB quantisations.",
+                "de": "Der <a href=\"https://huggingface.co/mlx-community\">mlx-community</a>-Hub auf Hugging Face quantisiert weiterhin innerhalb weniger Stunden die neu veröffentlichten Modelle von <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/mistralai\">Mistral</a> und <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a> und wird damit zur De-facto-Apple-Silicon-Portierungsschicht des Open-Weights-Ökosystems. <a href=\"https://huggingface.co/unsloth\">Unsloth</a> spielt eine gleichwertige Rolle bei GGUF- und BnB-Quantisierungen.",
+                "it": "L'hub <a href=\"https://huggingface.co/mlx-community\">mlx-community</a> su Hugging Face continua a quantizzare in poche ore i modelli appena pubblicati da <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/mistralai\">Mistral</a> e <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a>, diventando di fatto lo strato di porting Apple Silicon dell'ecosistema open weights. <a href=\"https://huggingface.co/unsloth\">Unsloth</a> svolge un ruolo equivalente sul fronte delle quantizzazioni GGUF e BnB.",
+                "rm": "Il hub <a href=\"https://huggingface.co/mlx-community\">mlx-community</a> sin Hugging Face cuntinuescha da quantificar en tschintg uras ils models publicads novamain da <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/mistralai\">Mistral</a> e <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a>, davenind de facto la stgala da portaziun Apple Silicon da l'ecosistem open weights. <a href=\"https://huggingface.co/unsloth\">Unsloth</a> gioga in'incumbensa equivalenta dal costat da las quantificaziuns GGUF e BnB."
+              }
+            },
+            {
+              "headline": {
+                "fr": "LM Studio, llama.cpp, Ollama : la couche locale s'industrialise",
+                "en": "LM Studio, llama.cpp, Ollama: the local layer industrialises",
+                "de": "LM Studio, llama.cpp, Ollama: Die lokale Schicht industrialisiert sich",
+                "it": "LM Studio, llama.cpp, Ollama: lo strato locale si industrializza",
+                "rm": "LM Studio, llama.cpp, Ollama: la stgala locala s'industrialisescha"
+              },
+              "byline": {
+                "fr": "Rédaction — Engines",
+                "en": "Newsroom — Engines",
+                "de": "Redaktion — Engines",
+                "it": "Redazione — Engine",
+                "rm": "Redacziun — Engines"
+              },
+              "body": {
+                "fr": "Le changelog <a href=\"https://lmstudio.ai/changelog\">LM Studio</a>, les releases de <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a> et celles d'<a href=\"https://github.com/ollama/ollama/releases\">Ollama</a> publient à un rythme quasi quotidien. Couplés à <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a>, ils dessinent une pile self-hosted complète, capable de servir les modèles de la liste <a href=\"https://huggingface.co/models?sort=trending\">trending</a> sans dépendance cloud.",
+                "en": "The <a href=\"https://lmstudio.ai/changelog\">LM Studio</a> changelog, the releases of <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a> and those of <a href=\"https://github.com/ollama/ollama/releases\">Ollama</a> are published at a near-daily cadence. Paired with <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a>, they outline a complete self-hosted stack capable of serving models from the <a href=\"https://huggingface.co/models?sort=trending\">trending</a> list without cloud dependency.",
+                "de": "Das <a href=\"https://lmstudio.ai/changelog\">LM Studio</a>-Changelog, die Releases von <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a> und jene von <a href=\"https://github.com/ollama/ollama/releases\">Ollama</a> erscheinen nahezu täglich. Zusammen mit <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a> bilden sie einen vollständigen Self-Hosted-Stack, der die Modelle der <a href=\"https://huggingface.co/models?sort=trending\">Trending-Liste</a> ohne Cloud-Abhängigkeit bereitstellen kann.",
+                "it": "Il changelog di <a href=\"https://lmstudio.ai/changelog\">LM Studio</a>, le release di <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a> e quelle di <a href=\"https://github.com/ollama/ollama/releases\">Ollama</a> vengono pubblicate a un ritmo quasi quotidiano. Abbinati a <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a>, delineano uno stack self-hosted completo, capace di servire i modelli della lista <a href=\"https://huggingface.co/models?sort=trending\">trending</a> senza dipendenze cloud.",
+                "rm": "Il changelog da <a href=\"https://lmstudio.ai/changelog\">LM Studio</a>, las releases da <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a> e quellas d'<a href=\"https://github.com/ollama/ollama/releases\">Ollama</a> publitgeschan ad in ritmo quasi cotidie. Acuplads cun <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a>, els dissegnan ina stiva self-hosted cumpleta, capabla da servar ils models da la glista <a href=\"https://huggingface.co/models?sort=trending\">trending</a> senza dependenza da cloud."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Édito — Ce que I/O 2026 dit du nouveau partage du monde",
+                "en": "Editorial — What I/O 2026 says about the new division of the world",
+                "de": "Leitartikel — Was I/O 2026 über die neue Weltaufteilung aussagt",
+                "it": "Editoriale — Cosa dice I/O 2026 sulla nuova divisione del mondo",
+                "rm": "Editoral — Tge ch'I/O 2026 di da la nova partiziun dal mund"
+              },
+              "byline": {
+                "fr": "La rédaction",
+                "en": "The editors",
+                "de": "Die Redaktion",
+                "it": "La redazione",
+                "rm": "La redacziun"
+              },
+              "body": {
+                "fr": "L'I/O de cette année consacre une bascule : les grands laboratoires ne vendent plus des modèles, ils vendent des couches. Gemini Omni absorbe vidéo, audio et image dans un même point d'entrée ; Antigravity 2.0 enveloppe le développement logiciel ; Universal Cart capte le commerce. Face à cette intégration verticale, OpenAI répond par l'alliance industrielle (<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Dell</a>) et par les accords souverains (<a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapour</a>, <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malte</a>). Anthropic, lui, mise sur la profondeur d'outillage avec Claude Code. Trois stratégies, un même constat : la valeur migre des poids vers la distribution.\n\nDans le même temps, la recherche publique conserve un rythme remarquable. Apple multiplie les contributions méthodologiques (BalCapRL, RVPO, HeadsUp), IBM ouvre un leaderboard agentique, Allen AI livre OlmoEarth v1.1, Hugging Face documente l'inférence continue. Ce contraste mérite d'être souligné : pendant que la couche produit se concentre, la couche savoir reste, elle, distribuée et ouverte.\n\nReste une zone grise : la promesse, jamais vraiment tenue depuis dix-huit mois, d'une transparence sur les capacités réelles des modèles frontaliers. L'annonce d'OpenAI sur la conjecture des distances unités illustre la tension : un résultat mathématique spectaculaire, mais livré sans preuve reproductible publique. À Genève comme à Mountain View, l'enjeu de 2026 ne sera pas seulement de produire des modèles plus puissants — ce sera de prouver ce qu'ils savent vraiment faire.",
+                "en": "This year's I/O consecrates a shift: the major laboratories no longer sell models — they sell layers. Gemini Omni absorbs video, audio and image into a single entry point; Antigravity 2.0 wraps software development; Universal Cart captures commerce. Faced with this vertical integration, OpenAI responds with industrial alliance (<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Dell</a>) and sovereign agreements (<a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapore</a>, <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a>). Anthropic, for its part, bets on tooling depth with Claude Code. Three strategies, one shared observation: value is migrating from weights to distribution.\n\nMeanwhile, public research maintains a remarkable pace. Apple multiplies methodological contributions (BalCapRL, RVPO, HeadsUp), IBM opens an agentic leaderboard, Allen AI delivers OlmoEarth v1.1, Hugging Face documents continuous inference. This contrast deserves emphasis: while the product layer concentrates, the knowledge layer remains distributed and open.\n\nOne grey area persists: the promise — never truly honoured over the past eighteen months — of transparency about the real capabilities of frontier models. OpenAI's announcement on the unit distances conjecture illustrates the tension: a spectacular mathematical result, but delivered without publicly reproducible proof. In Genève as in Mountain View, the challenge of 2026 will not only be to produce more powerful models — it will be to prove what they can actually do.",
+                "de": "Das diesjährige I/O besiegelt einen Wandel: Die grossen Labore verkaufen keine Modelle mehr — sie verkaufen Schichten. Gemini Omni absorbiert Video, Audio und Bild in einem einzigen Einstiegspunkt; Antigravity 2.0 hüllt die Softwareentwicklung ein; Universal Cart erfasst den Handel. Angesichts dieser vertikalen Integration antwortet OpenAI mit industriellen Allianzen (<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Dell</a>) und souveränen Abkommen (<a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapur</a>, <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a>). Anthropic setzt seinerseits auf Werkzeugtiefe mit Claude Code. Drei Strategien, eine gemeinsame Erkenntnis: Der Wert migriert von den Gewichten hin zur Distribution.\n\nUnterdessen hält die öffentliche Forschung ein bemerkenswertes Tempo. Apple multipliziert methodologische Beiträge (BalCapRL, RVPO, HeadsUp), IBM öffnet ein agentisches Leaderboard, Allen AI liefert OlmoEarth v1.1, Hugging Face dokumentiert die kontinuierliche Inferenz. Dieser Kontrast verdient es, unterstrichen zu werden: Während sich die Produktschicht konzentriert, bleibt die Wissensschicht verteilt und offen.\n\nEine Grauzone bleibt bestehen: das Versprechen — das seit achtzehn Monaten nie wirklich eingelöst wurde — der Transparenz über die tatsächlichen Fähigkeiten von Frontier-Modellen. OpenAIs Ankündigung zur Einheitsabstands-Vermutung illustriert die Spannung: ein spektakuläres mathematisches Ergebnis, aber geliefert ohne öffentlich reproduzierbaren Beweis. In Genf wie in Mountain View wird die Herausforderung des Jahres 2026 nicht nur darin bestehen, leistungsfähigere Modelle zu produzieren — sondern zu beweisen, was sie wirklich können.",
+                "it": "L'I/O di quest'anno sancisce una svolta: i grandi laboratori non vendono più modelli — vendono strati. Gemini Omni assorbe video, audio e immagine in un unico punto d'ingresso; Antigravity 2.0 avvolge lo sviluppo software; Universal Cart cattura il commercio. Di fronte a questa integrazione verticale, OpenAI risponde con l'alleanza industriale (<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Dell</a>) e con gli accordi sovrani (<a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapore</a>, <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a>). Anthropic, dal canto suo, punta sulla profondità degli strumenti con Claude Code. Tre strategie, una stessa constatazione: il valore migra dai pesi alla distribuzione.\n\nNel contempo, la ricerca pubblica mantiene un ritmo notevole. Apple moltiplica i contributi metodologici (BalCapRL, RVPO, HeadsUp), IBM apre una classifica agentiva, Allen AI consegna OlmoEarth v1.1, Hugging Face documenta l'inferenza continua. Questo contrasto merita di essere sottolineato: mentre lo strato prodotto si concentra, lo strato conoscenza rimane distribuito e aperto.\n\nRimane una zona grigia: la promessa — mai davvero mantenuta negli ultimi diciotto mesi — di trasparenza sulle reali capacità dei modelli di frontiera. L'annuncio di OpenAI sulla congettura delle distanze unitarie illustra la tensione: un risultato matematico spettacolare, ma consegnato senza prova riproducibile pubblica. A Ginevra come a Mountain View, la sfida del 2026 non sarà solo produrre modelli più potenti — sarà dimostrare ciò che sanno davvero fare.",
+                "rm": "L'I/O da quest'onn consacra ina bascla: ils gronds laboratoris na vendan betg pli models — els vendan stgalas. Gemini Omni absorbischa video, audio e maletg en in medem punct d'entrada; Antigravity 2.0 enveluppa il svilup da software; Universal Cart captescha il commerzi. Davant questa integraziun verticala, OpenAI rispunda cun l'allianza industriala (<a href=\"https://openai.com/index/dell-codex-enterprise-partnership\">Dell</a>) e cun ils accordis suverans (<a href=\"https://openai.com/index/introducing-openai-for-singapore\">Singapour</a>, <a href=\"https://openai.com/index/malta-chatgpt-plus-partnership\">Malta</a>). Anthropic, el, missa sin la profundezza d'utensils cun Claude Code. Trais strategias, ina medema constataziun: la valur migrescha dals pais vers la distribuziun.\n\nAl medem temp, la perscrutaziun publica conserva in ritmo remarcabel. Apple multiplitgescha las contribuziuns metodologicas (BalCapRL, RVPO, HeadsUp), IBM avra in leaderboard agentiv, Allen AI livra OlmoEarth v1.1, Hugging Face documentescha l'inferenza continua. Quest contrast mertescha dad esser suttastrichà: durant che la stgala da product sa concentrescha, la stgala da scienza resta, ella, distribuida ed averta.\n\nResta ina zona grischa: la promessa — betg mai vramaing tegnida dapi diesch-ot mais — d'ina transparenza sin las capacitads reals dals models frontaliers. L'annunz d'OpenAI sin la cunjunctura da las distanzas unitats illustrescha la tensiun: in resultatmatic spectaculos, ma livrà senza prova reproducibla publica. A Genève sco a Mountain View, la sfida da 2026 na serà betg mo da producir models pli puissants — serà da pruvar tge ch'els san vramaing far."
+              }
             }
           ]
         }
       ]
     }
-  ]
+  ],
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "rm"
+  ],
+  "default_lang": "fr"
 }
