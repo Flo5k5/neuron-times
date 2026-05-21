@@ -313,27 +313,13 @@
                 "fr": "Modèle"
               },
               "headline": {
-                "fr": "DeepSeek-V4 en preview sur web, app et API"
+                "fr": "OlmoEarth v1.1 affine l'observation terrestre"
               },
               "wire": {
-                "fr": "DeepSeek — édition du jour"
+                "fr": "Hugging Face — édition du jour"
               },
               "body": {
-                "fr": "Hangzhou met en ligne une version préliminaire de DeepSeek-V4, présentée comme dotée de performances de raisonnement « de classe mondiale » et de capacités d'agent nettement renforcées. Le modèle est déjà accessible sur l'interface web, l'application mobile et via l'API, et un <a href=\"https://huggingface.co/blog/deepseekv4\">billet Hugging Face</a> détaille un contexte d'un million de tokens utilisable par les agents."
-              }
-            },
-            {
-              "kicker": {
-                "fr": "Modèle ouvert"
-              },
-              "headline": {
-                "fr": "OlmoEarth v1.1 affine l'observation de la Terre"
-              },
-              "wire": {
-                "fr": "Hugging Face × Allen AI — édition du jour"
-              },
-              "body": {
-                "fr": "Allen AI publie sur le Hub une nouvelle itération de sa famille de modèles d'observation terrestre, présentée comme plus efficiente à paramètres équivalents. Le <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">billet technique</a> détaille les gains sur tâches satellitaires et la disponibilité des poids."
+                "fr": "Allen AI publie sur le Hub <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-1\">OlmoEarth v1.1</a>, une famille de modèles d'observation de la Terre revendiquée comme plus efficace que la v1, avec des variantes adaptées à différents budgets de calcul pour la cartographie et la surveillance environnementale satellitaire."
               }
             },
             {
@@ -341,13 +327,13 @@
                 "fr": "Robotique"
               },
               "headline": {
-                "fr": "Cosmos Predict 2.5 fine-tunable en LoRA pour la vidéo robotique"
+                "fr": "Cosmos Predict 2.5 ouvre le fine-tuning LoRA"
               },
               "wire": {
                 "fr": "NVIDIA — édition du jour"
               },
               "body": {
-                "fr": "NVIDIA documente le fine-tuning de Cosmos Predict 2.5 via LoRA/DoRA pour générer des vidéos d'environnements robotiques, une brique pour entraîner et évaluer des politiques de manipulation. La recette complète est publiée <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">sur le blog Hugging Face</a>."
+                "fr": "NVIDIA détaille le <a href=\"https://huggingface.co/blog/nvidia/cosmos-fine-tuning-for-robot-video-generation\">fine-tuning de Cosmos Predict 2.5 via LoRA/DoRA</a> pour la génération vidéo robotique, permettant d'adapter le modèle world-model à des contextes embarqués spécifiques sans réentraînement complet."
               }
             },
             {
@@ -355,32 +341,18 @@
                 "fr": "Benchmark"
               },
               "headline": {
-                "fr": "Lancement de l'Open Agent Leaderboard"
+                "fr": "Un classement ouvert pour les agents"
               },
               "wire": {
                 "fr": "IBM Research — édition du jour"
               },
               "body": {
-                "fr": "IBM Research dévoile un classement ouvert dédié aux agents LLM, avec environnements vérifiables et protocoles d'évaluation standardisés. L'initiative, <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">annoncée sur Hugging Face</a>, vise à comparer les pipelines agentiques au-delà des benchmarks statiques."
+                "fr": "IBM Research lance l'<a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">Open Agent Leaderboard</a>, un cadre d'évaluation comparatif pour les frameworks d'agents qui mesure raisonnement, usage d'outils et coût d'exécution sur des tâches reproductibles."
               }
             },
             {
               "kicker": {
-                "fr": "Recherche"
-              },
-              "headline": {
-                "fr": "BalCapRL rééquilibre le RL pour les MLLM de captioning"
-              },
-              "wire": {
-                "fr": "Apple ML Research — édition du jour"
-              },
-              "body": {
-                "fr": "Les équipes d'Apple proposent BalCapRL, un cadre d'apprentissage par renforcement pour le captioning d'images multimodal qui pénalise les compromis induits par les objectifs utilitaires (verbosité, hallucinations). Le <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">papier publié le 11 mai</a> décrit la métrique d'évaluation associée."
-              }
-            },
-            {
-              "kicker": {
-                "fr": "Outil"
+                "fr": "OCR"
               },
               "headline": {
                 "fr": "PaddleOCR 3.5 passe sur backend Transformers"
@@ -389,7 +361,35 @@
                 "fr": "PaddlePaddle — édition du jour"
               },
               "body": {
-                "fr": "Baidu publie PaddleOCR 3.5 avec un backend Transformers pour l'OCR et le parsing documentaire, facilitant l'intégration dans les pipelines Hugging Face. Le <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">billet de release</a> détaille les modèles disponibles et les performances sur documents structurés."
+                "fr": "Baidu publie <a href=\"https://huggingface.co/blog/PaddlePaddle/paddleocr-transformers\">PaddleOCR 3.5</a>, qui s'exécute désormais via le backend Transformers de Hugging Face pour l'OCR et le parsing de documents, simplifiant son intégration dans les pipelines Python existants."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Modèle"
+              },
+              "headline": {
+                "fr": "DeepSeek-V4 en preview, axé agents"
+              },
+              "wire": {
+                "fr": "DeepSeek — édition du jour"
+              },
+              "body": {
+                "fr": "DeepSeek annonce la <a href=\"https://www.deepseek.com/\">preview publique de DeepSeek-V4</a>, mise en avant pour ses capacités de raisonnement et d'agent, accessible via le web, l'application et l'API. Hugging Face documente en parallèle le <a href=\"https://huggingface.co/blog/deepseekv4\">contexte d'un million de tokens</a> revendiqué par le modèle."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Recherche"
+              },
+              "headline": {
+                "fr": "BalCapRL rééquilibre le RL des captions multimodales"
+              },
+              "wire": {
+                "fr": "Apple ML Research — édition du jour"
+              },
+              "body": {
+                "fr": "Apple présente <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">BalCapRL</a>, un cadre d'apprentissage par renforcement pour les MLLM de captioning qui corrige les arbitrages induits par les récompenses utilitaires (hallucinations, longueur excessive) au profit d'une qualité multi-dimensionnelle."
               }
             }
           ]
