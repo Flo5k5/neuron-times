@@ -3,7 +3,7 @@ name: Regenerate index
 on:
   push:
     paths:
-      - 'reports/**'
+      - 'editions/**'
       - 'build_index.py'
     branches: [main]
   workflow_dispatch: # allow manual trigger from Actions tab

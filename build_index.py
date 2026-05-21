@@ -1,46 +1,44 @@
 #!/usr/bin/env python3
 """
-build_index.py — Regénère index.html à partir des reports/*.json
+build_index.py — Regénère index.html à partir des editions/*.json
 
-Lit tous les fichiers reports/*.json (sortie du générateur engine), trie par
+Lit tous les fichiers editions/*.json (sortie du générateur), trie par
 date décroissante, génère une page d'index thématisée Times Victorien (le
 thème par défaut) avec une grille de cards chronologiques.
 
 Idempotent : peut être appelé à chaque push, ne fait rien si rien à changer.
 
-Convention : reports/YYYY-MM-DD.json contient au minimum :
+Convention : editions/YYYY-MM-DD.json contient au minimum :
     {
-      "edition": {"date_long": "Mercredi 20 mai 2026", "date_iso": "2026-05-20", "vol": "I", "num": "1"},
+      "edition": {"date_long": "Jeudi 21 mai 2026", "date_iso": "2026-05-21", "num": 141},
       "lead": {"kicker": "...", "headline": "...", "subdeck": "..."}
     }
 """
 
 import json
 import sys
-from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-REPORTS_DIR = ROOT / "reports"
+EDITIONS_DIR = ROOT / "editions"
 INDEX_PATH = ROOT / "index.html"
 LATEST_PATH = ROOT / "latest.html"
 
 
-def load_reports():
-    """Charge tous les reports/*.json en liste de dicts avec date_iso accessible."""
-    reports = []
-    for json_path in sorted(REPORTS_DIR.glob("*.json")):
+def load_editions():
+    """Charge tous les editions/*.json en liste de dicts."""
+    editions = []
+    for json_path in sorted(EDITIONS_DIR.glob("*.json")):
         try:
             data = json.loads(json_path.read_text(encoding="utf-8"))
             edition = data.get("edition", {})
             date_iso = edition.get("date_iso") or json_path.stem
-            reports.append({
+            editions.append({
                 "date_iso": date_iso,
                 "date_long": edition.get("date_long", date_iso),
-                "vol": edition.get("vol", ""),
                 "num": edition.get("num", ""),
-                "headline": data.get("lead", {}).get("headline", "Rapport veille"),
+                "headline": data.get("lead", {}).get("headline", ""),
                 "kicker": data.get("lead", {}).get("kicker", ""),
                 "subdeck": data.get("lead", {}).get("subdeck", ""),
                 "json_filename": json_path.name,
@@ -50,47 +48,49 @@ def load_reports():
             print(f"[warn] skipping {json_path.name}: {e}", file=sys.stderr)
             continue
     # Tri DESC par date
-    reports.sort(key=lambda r: r["date_iso"], reverse=True)
-    return reports
+    editions.sort(key=lambda r: r["date_iso"], reverse=True)
+    return editions
 
 
-def update_latest(reports):
-    """Copie le report HTML le plus récent vers latest.html."""
-    if not reports:
+def update_latest(editions):
+    """Copie l'édition HTML la plus récente vers latest.html."""
+    if not editions:
         return
-    latest_html = REPORTS_DIR / reports[0]["html_filename"]
+    latest_html = EDITIONS_DIR / editions[0]["html_filename"]
     if latest_html.exists():
         LATEST_PATH.write_text(latest_html.read_text(encoding="utf-8"), encoding="utf-8")
-        print(f"[ok] latest.html updated → {reports[0]['html_filename']}")
+        print(f"[ok] latest.html updated → {editions[0]['html_filename']}")
     else:
         print(f"[warn] {latest_html} not found, latest.html not updated", file=sys.stderr)
 
 
-def render_card(report):
-    """Génère une <article class='card'> pour un report donné."""
+def render_card(edition):
+    """Génère une <article class='card'> pour une édition donnée."""
+    num_span = f'<span class="card-num">N° {escape(str(edition["num"]))}</span>' if edition["num"] else ''
+    kicker_div = f'<div class="card-kicker">{escape(edition["kicker"])}</div>' if edition["kicker"] else ''
+    subdeck_p = f'<p class="card-subdeck">{escape(edition["subdeck"])}</p>' if edition["subdeck"] else ''
     return f"""
     <article class="card">
-      <a href="reports/{escape(report['html_filename'])}" class="card-link">
+      <a href="editions/{escape(edition['html_filename'])}" class="card-link">
         <div class="card-meta">
-          <span class="card-date">{escape(report['date_long'])}</span>
-          {f'<span class="card-vol">Vol. {escape(report["vol"])} · N° {escape(report["num"])}</span>' if report['vol'] else ''}
+          <span class="card-date">{escape(edition['date_long'])}</span>
+          {num_span}
         </div>
-        <div class="card-kicker">{escape(report['kicker'])}</div>
-        <h2 class="card-headline">{escape(report['headline'])}</h2>
-        {f'<p class="card-subdeck">{escape(report["subdeck"])}</p>' if report['subdeck'] else ''}
+        {kicker_div}
+        <h2 class="card-headline">{escape(edition['headline'])}</h2>
+        {subdeck_p}
         <div class="card-cta">Lire l'édition →</div>
       </a>
     </article>"""
 
 
-def render_index(reports):
+def render_index(editions):
     """Génère le HTML complet de index.html (thématisé Times Victorien)."""
-    cards_html = "\n".join(render_card(r) for r in reports) if reports else """
-    <p class="empty">Aucun rapport publié pour le moment. Reviens demain matin.</p>"""
+    cards_html = "\n".join(render_card(e) for e in editions) if editions else """
+    <p class="empty">Aucune édition publiée pour le moment. Revenez demain matin.</p>"""
 
-    total = len(reports)
-    latest_date = reports[0]["date_long"] if reports else ""
-    build_time = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    total = len(editions)
+    latest_date = editions[0]["date_long"] if editions else ""
 
     return f"""<!DOCTYPE html>
 <html lang="fr">
@@ -264,10 +264,6 @@ def render_index(reports):
     padding-top: 1.5rem;
     border-top: 6px solid #0c0c0c;
     text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size: 0.72rem;
-    letter-spacing: 2px;
-    text-transform: uppercase;
     color: #4a4a4a;
   }}
   .ours .motto {{
@@ -275,11 +271,7 @@ def render_index(reports):
     font-style: italic;
     font-size: 1rem;
     color: #0c0c0c;
-    text-transform: none;
-    letter-spacing: 0;
-    margin-top: 0.8rem;
   }}
-  .ours .build-time {{ font-size: 0.6rem; color: #888; margin-top: 0.4rem; }}
   @media (max-width: 720px) {{
     html {{ font-size: 14px; }}
     .paper {{ padding: 1.5rem; margin: 0; }}
@@ -315,9 +307,7 @@ def render_index(reports):
 
   <footer class="ours">
     <div>★ ★ ★</div>
-    <p style="margin-top: 0.8rem;">Édition quotidienne automatique · Hébergé sur GitHub Pages</p>
     <p class="motto">« All the AI that's fit to print »</p>
-    <p class="build-time">Index regenerated {build_time} UTC</p>
   </footer>
 
 </div>
@@ -327,19 +317,19 @@ def render_index(reports):
 
 
 def main():
-    if not REPORTS_DIR.exists():
-        print(f"[err] reports/ directory not found at {REPORTS_DIR}", file=sys.stderr)
+    if not EDITIONS_DIR.exists():
+        print(f"[err] editions/ directory not found at {EDITIONS_DIR}", file=sys.stderr)
         sys.exit(1)
 
-    reports = load_reports()
-    print(f"[info] {len(reports)} reports found")
+    editions = load_editions()
+    print(f"[info] {len(editions)} editions found")
 
     # Génère index.html
-    INDEX_PATH.write_text(render_index(reports), encoding="utf-8")
-    print(f"[ok] index.html generated ({len(reports)} cards, {INDEX_PATH.stat().st_size} bytes)")
+    INDEX_PATH.write_text(render_index(editions), encoding="utf-8")
+    print(f"[ok] index.html generated ({len(editions)} cards, {INDEX_PATH.stat().st_size} bytes)")
 
     # Update latest.html
-    update_latest(reports)
+    update_latest(editions)
 
 
 if __name__ == "__main__":
