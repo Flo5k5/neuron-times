@@ -3,16 +3,14 @@
 build_index.py — Regénère index.html à partir des editions/*.json
 
 Lit tous les fichiers editions/*.json (sortie du générateur), trie par
-date décroissante, génère une page d'index thématisée Times Victorien (le
-thème par défaut) avec une grille de cards chronologiques.
+date décroissante, génère une page d'index thématisée Times Victorien.
+
+Multilingue (fr, en, de, it, rm) : si une édition est multilingual-v1
+(schema), les fields headline/kicker/subdeck sont des dicts {fr,en,...}
+et sont rendus en spans data-i18n. Sinon (mono FR), wrap en FR seul.
+Le sélecteur en haut du masthead bascule la langue côté client via CSS.
 
 Idempotent : peut être appelé à chaque push, ne fait rien si rien à changer.
-
-Convention : editions/YYYY-MM-DD.json contient au minimum :
-    {
-      "edition": {"date_long": "Jeudi 21 mai 2026", "date_iso": "2026-05-21", "num": 141},
-      "lead": {"kicker": "...", "headline": "...", "subdeck": "..."}
-    }
 """
 
 import json
@@ -25,29 +23,125 @@ EDITIONS_DIR = ROOT / "editions"
 INDEX_PATH = ROOT / "index.html"
 LATEST_PATH = ROOT / "latest.html"
 
+SUPPORTED_LANGS = ["fr", "en", "de", "it", "rm"]
+
+# Static UI strings translated across 5 languages
+STATIC = {
+    "daily_edition": {
+        "fr": "Daily Edition",
+        "en": "Daily Edition",
+        "de": "Tägliche Ausgabe",
+        "it": "Edizione quotidiana",
+        "rm": "Ediziun da mintga di",
+    },
+    "archived_count": {
+        # {n} placeholder
+        "fr": "{n} éditions archivées",
+        "en": "{n} archived editions",
+        "de": "{n} archivierte Ausgaben",
+        "it": "{n} edizioni archiviate",
+        "rm": "{n} ediziuns archivadas",
+    },
+    "archived_count_one": {
+        "fr": "1 édition publiée",
+        "en": "1 edition published",
+        "de": "1 Ausgabe veröffentlicht",
+        "it": "1 edizione pubblicata",
+        "rm": "1 ediziun publitgada",
+    },
+    "soon": {
+        "fr": "Bientôt",
+        "en": "Soon",
+        "de": "Bald",
+        "it": "Presto",
+        "rm": "Prest",
+    },
+    "intro": {
+        "fr": "<strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux communauté. Cliquez sur une édition pour la lire en intégralité.",
+        "en": "<strong>The Neuron Times</strong> publishes every morning a synthesis of notable signals from the AI ecosystem — frontier models, coding agents, infrastructure, research, community signals. Click on an edition to read it in full.",
+        "de": "<strong>The Neuron Times</strong> veröffentlicht jeden Morgen eine Synthese bemerkenswerter Signale aus dem KI-Ökosystem — Frontier-Modelle, Coding-Agenten, Infrastruktur, Forschung, Community-Signale. Klicken Sie auf eine Ausgabe, um sie vollständig zu lesen.",
+        "it": "<strong>The Neuron Times</strong> pubblica ogni mattina una sintesi dei segnali notevoli dell'ecosistema AI — modelli di frontiera, agenti di codifica, infrastruttura, ricerca, segnali della comunità. Clicca su un'edizione per leggerla integralmente.",
+        "rm": "<strong>The Neuron Times</strong> publitgescha mintga damaun ina sintesa dals signals notabels da l'ecosistem dad intelligenza artifiziala — models da fruntiera, agents da codaziun, infrastructura, retschertga, signals da la communitad. Cliccai sin in'ediziun per la leger en l'entira.",
+    },
+    "today_edition": {
+        "fr": "Édition du jour",
+        "en": "Today's edition",
+        "de": "Heutige Ausgabe",
+        "it": "Edizione di oggi",
+        "rm": "Ediziun da oz",
+    },
+    "read_edition": {
+        "fr": "Lire l'édition →",
+        "en": "Read edition →",
+        "de": "Ausgabe lesen →",
+        "it": "Leggi l'edizione →",
+        "rm": "Leger l'ediziun →",
+    },
+    "empty": {
+        "fr": "Aucune édition publiée pour le moment. Revenez demain matin.",
+        "en": "No edition published yet. Come back tomorrow morning.",
+        "de": "Noch keine Ausgabe veröffentlicht. Kommen Sie morgen früh wieder.",
+        "it": "Nessuna edizione pubblicata per ora. Torna domani mattina.",
+        "rm": "Anc nagina ediziun publitgada. Returnai damaun damaun.",
+    },
+    "description_template": {
+        # Used in <meta description>, can stay FR for simplicity (search engines)
+        "fr": "Daily AI watch newspaper. {n} éditions publiées. Dernière : {last}.",
+    },
+}
+
+
+def ml(field, key_for_static: str = None) -> str:
+    """
+    Render a multilingual field as N spans with data-i18n + lang attrs.
+    - field : either a dict {fr, en, de, it, rm}, or a plain string (assumed FR), or None
+    - key_for_static : if provided, look up STATIC[key_for_static] instead (for UI strings)
+    """
+    if key_for_static and key_for_static in STATIC:
+        trans = STATIC[key_for_static]
+        return "".join(
+            f'<span data-i18n lang="{lg}">{trans[lg]}</span>'
+            for lg in SUPPORTED_LANGS
+            if lg in trans
+        )
+
+    if isinstance(field, dict):
+        return "".join(
+            f'<span data-i18n lang="{lg}">{escape(field[lg]) if field[lg] else ""}</span>'
+            for lg in SUPPORTED_LANGS
+            if lg in field and field[lg] is not None
+        )
+    elif field is None:
+        return ""
+    else:
+        # Plain string (legacy mono FR) : wrap in FR only
+        return f'<span data-i18n lang="fr">{escape(str(field))}</span>'
+
 
 def load_editions():
-    """Charge tous les editions/*.json en liste de dicts."""
+    """Charge tous les editions/*.json en liste de dicts.
+    Preserve les fields tel quel (dict si multilingual, string si mono).
+    """
     editions = []
     for json_path in sorted(EDITIONS_DIR.glob("*.json")):
         try:
             data = json.loads(json_path.read_text(encoding="utf-8"))
             edition = data.get("edition", {})
             date_iso = edition.get("date_iso") or json_path.stem
+            lead = data.get("lead", {})
             editions.append({
                 "date_iso": date_iso,
-                "date_long": edition.get("date_long", date_iso),
+                "date_long": edition.get("date_long", date_iso),  # may be dict or str
                 "num": edition.get("num", ""),
-                "headline": data.get("lead", {}).get("headline", ""),
-                "kicker": data.get("lead", {}).get("kicker", ""),
-                "subdeck": data.get("lead", {}).get("subdeck", ""),
+                "headline": lead.get("headline", ""),  # may be dict or str
+                "kicker": lead.get("kicker", ""),
+                "subdeck": lead.get("subdeck", ""),
                 "json_filename": json_path.name,
                 "html_filename": json_path.stem + ".html",
             })
         except (json.JSONDecodeError, KeyError) as e:
             print(f"[warn] skipping {json_path.name}: {e}", file=sys.stderr)
             continue
-    # Tri DESC par date
     editions.sort(key=lambda r: r["date_iso"], reverse=True)
     return editions
 
@@ -64,33 +158,112 @@ def update_latest(editions):
         print(f"[warn] {latest_html} not found, latest.html not updated", file=sys.stderr)
 
 
+def t_fr(field) -> str:
+    """Extract FR plain text (for <title> + <meta>)."""
+    if isinstance(field, dict):
+        return field.get("fr") or field.get("en") or next(iter(field.values()), "")
+    return str(field) if field is not None else ""
+
+
 def render_card(edition):
     """Génère une <article class='card'> pour une édition donnée."""
-    num_span = f'<span class="card-num">N° {escape(str(edition["num"]))}</span>' if edition["num"] else ''
-    kicker_div = f'<div class="card-kicker">{escape(edition["kicker"])}</div>' if edition["kicker"] else ''
-    subdeck_p = f'<p class="card-subdeck">{escape(edition["subdeck"])}</p>' if edition["subdeck"] else ''
+    num_span = f'<span class="card-num">N° {escape(str(edition["num"]))}</span>' if edition["num"] else ""
+
+    # kicker can be a dict (multilingual) or string ; render as multilingual spans
+    kicker_div = f'<div class="card-kicker">{ml(edition["kicker"])}</div>' if edition["kicker"] else ""
+    subdeck_p = f'<p class="card-subdeck">{ml(edition["subdeck"])}</p>' if edition["subdeck"] else ""
+
     return f"""
     <article class="card">
       <a href="editions/{escape(edition['html_filename'])}" class="card-link">
         <div class="card-meta">
-          <span class="card-date">{escape(edition['date_long'])}</span>
+          <span class="card-date">{ml(edition['date_long'])}</span>
           {num_span}
         </div>
         {kicker_div}
-        <h2 class="card-headline">{escape(edition['headline'])}</h2>
+        <h2 class="card-headline">{ml(edition['headline'])}</h2>
         {subdeck_p}
-        <div class="card-cta">Lire l'édition →</div>
+        <div class="card-cta">{ml(None, key_for_static='read_edition')}</div>
       </a>
     </article>"""
 
 
 def render_index(editions):
-    """Génère le HTML complet de index.html (thématisé Times Victorien)."""
-    cards_html = "\n".join(render_card(e) for e in editions) if editions else """
-    <p class="empty">Aucune édition publiée pour le moment. Revenez demain matin.</p>"""
+    """Génère le HTML complet de index.html (multilingue, thème Times Victorien)."""
+    cards_html = "\n".join(render_card(e) for e in editions) if editions else f"""
+    <p class="empty">{ml(None, key_for_static='empty')}</p>"""
 
     total = len(editions)
-    latest_date = editions[0]["date_long"] if editions else ""
+    latest_date_field = editions[0]["date_long"] if editions else None
+    latest_date_fr = t_fr(latest_date_field) if latest_date_field else ""
+
+    # Archive count : pluralize per language
+    if total == 1:
+        archive_count_html = ml(None, key_for_static="archived_count_one")
+    else:
+        # We need to substitute {n} inline ; build the spans manually
+        trans = STATIC["archived_count"]
+        archive_count_html = "".join(
+            f'<span data-i18n lang="{lg}">{trans[lg].format(n=total)}</span>'
+            for lg in SUPPORTED_LANGS
+        )
+
+    # Latest date for dateline (multilingual or "Soon" if empty)
+    if latest_date_field:
+        latest_date_html = ml(latest_date_field)
+    else:
+        latest_date_html = ml(None, key_for_static="soon")
+
+    # Intro paragraph + "today's edition" link
+    if latest_date_field:
+        today_link = f'<br><br>{ml(None, key_for_static="today_edition")} : <a href="latest.html">{ml(latest_date_field)}</a>'
+    else:
+        today_link = ""
+
+    # Selector
+    lang_selector = (
+        '<nav class="lang-selector">'
+        '<a href="#" data-lang="fr">FR</a><span class="sep"> · </span>'
+        '<a href="#" data-lang="en">EN</a><span class="sep"> · </span>'
+        '<a href="#" data-lang="de">DE</a><span class="sep"> · </span>'
+        '<a href="#" data-lang="it">IT</a><span class="sep"> · </span>'
+        '<a href="#" data-lang="rm">RM</a>'
+        '</nav>'
+    )
+
+    # JS for lang detection + switch (same logic as edition HTML)
+    lang_js = """
+(function() {
+  var SUPPORTED = ['fr', 'en', 'de', 'it', 'rm'];
+  var STORAGE_KEY = 'nt-lang';
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || 'fr').toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : 'fr';
+  }
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].classList.toggle('active', links[i].dataset.lang === lang);
+    }
+  }
+  applyLang(detectLang());
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.dataset.lang;
+    if (SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+})();
+"""
+
+    description = STATIC["description_template"]["fr"].format(n=total, last=escape(latest_date_fr))
 
     return f"""<!DOCTYPE html>
 <html lang="fr">
@@ -98,7 +271,7 @@ def render_index(editions):
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Neuron Times — Archive</title>
-<meta name="description" content="Daily AI watch newspaper. {total} éditions publiées. Dernière : {escape(latest_date)}.">
+<meta name="description" content="{description}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
@@ -158,6 +331,7 @@ def render_index(editions):
   .masthead .dateline {{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem 0;
     border-top: 2px solid #0c0c0c;
     border-bottom: 2px solid #0c0c0c;
@@ -167,6 +341,8 @@ def render_index(editions):
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
+    flex-wrap: wrap;
+    gap: 8px;
   }}
   .archive-intro {{
     font-family: 'Old Standard TT', serif;
@@ -272,11 +448,42 @@ def render_index(editions):
     font-size: 1rem;
     color: #0c0c0c;
   }}
+  .lang-selector {{
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    margin-left: auto;
+  }}
+  .lang-selector a {{
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 0 3px;
+    opacity: 0.55;
+    transition: opacity 0.15s;
+  }}
+  .lang-selector a:hover {{ opacity: 1; }}
+  .lang-selector a.active {{
+    opacity: 1;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }}
+  .lang-selector .sep {{ opacity: 0.4; }}
+
+  /* Multilingual cascade : show only matching lang */
+  html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) {{ display: none !important; }}
+  html[lang="en"] [data-i18n][lang]:not([lang="en"]) {{ display: none !important; }}
+  html[lang="de"] [data-i18n][lang]:not([lang="de"]) {{ display: none !important; }}
+  html[lang="it"] [data-i18n][lang]:not([lang="it"]) {{ display: none !important; }}
+  html[lang="rm"] [data-i18n][lang]:not([lang="rm"]) {{ display: none !important; }}
+
   @media (max-width: 720px) {{
     html {{ font-size: 14px; }}
     .paper {{ padding: 1.5rem; margin: 0; }}
     .masthead h1 {{ font-size: 2.8rem; }}
     .archive-grid {{ grid-template-columns: 1fr; }}
+    .dateline {{ flex-direction: column; gap: 8px; }}
   }}
 </style>
 </head>
@@ -288,17 +495,16 @@ def render_index(editions):
     <h1>The Neuron Times</h1>
     <p class="motto">« All the AI that's fit to print »</p>
     <div class="dateline">
-      <span>Daily Edition</span>
-      <span>{escape(latest_date) if latest_date else "Bientôt"}</span>
-      <span>{total} éditions archivées</span>
+      <span>{ml(None, key_for_static='daily_edition')}</span>
+      <span>{latest_date_html}</span>
+      <span>{archive_count_html}</span>
+      {lang_selector}
     </div>
   </header>
 
   <p class="archive-intro">
-    <strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème
-    intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux
-    communauté. Cliquez sur une édition pour la lire en intégralité.
-    {f'<br><br>Édition du jour : <a href="latest.html">{escape(latest_date)}</a>' if latest_date else ''}
+    {ml(None, key_for_static='intro')}
+    {today_link}
   </p>
 
   <main class="archive-grid">
@@ -311,6 +517,7 @@ def render_index(editions):
   </footer>
 
 </div>
+<script>{lang_js}</script>
 </body>
 </html>
 """
@@ -324,11 +531,9 @@ def main():
     editions = load_editions()
     print(f"[info] {len(editions)} editions found")
 
-    # Génère index.html
     INDEX_PATH.write_text(render_index(editions), encoding="utf-8")
     print(f"[ok] index.html generated ({len(editions)} cards, {INDEX_PATH.stat().st_size} bytes)")
 
-    # Update latest.html
     update_latest(editions)
 
 

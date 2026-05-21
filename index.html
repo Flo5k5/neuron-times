@@ -64,6 +64,7 @@
   .masthead .dateline {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0.5rem 0;
     border-top: 2px solid #0c0c0c;
     border-bottom: 2px solid #0c0c0c;
@@ -73,6 +74,8 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     font-weight: 600;
+    flex-wrap: wrap;
+    gap: 8px;
   }
   .archive-intro {
     font-family: 'Old Standard TT', serif;
@@ -178,11 +181,42 @@
     font-size: 1rem;
     color: #0c0c0c;
   }
+  .lang-selector {
+    font-family: 'Courier New', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    color: #4a4a4a;
+    margin-left: auto;
+  }
+  .lang-selector a {
+    color: #4a4a4a;
+    text-decoration: none;
+    padding: 0 3px;
+    opacity: 0.55;
+    transition: opacity 0.15s;
+  }
+  .lang-selector a:hover { opacity: 1; }
+  .lang-selector a.active {
+    opacity: 1;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  .lang-selector .sep { opacity: 0.4; }
+
+  /* Multilingual cascade : show only matching lang */
+  html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+  html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+  html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+  html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+  html[lang="rm"] [data-i18n][lang]:not([lang="rm"]) { display: none !important; }
+
   @media (max-width: 720px) {
     html { font-size: 14px; }
     .paper { padding: 1.5rem; margin: 0; }
     .masthead h1 { font-size: 2.8rem; }
     .archive-grid { grid-template-columns: 1fr; }
+    .dateline { flex-direction: column; gap: 8px; }
   }
 </style>
 </head>
@@ -194,17 +228,16 @@
     <h1>The Neuron Times</h1>
     <p class="motto">« All the AI that's fit to print »</p>
     <div class="dateline">
-      <span>Daily Edition</span>
-      <span>Jeudi 21 mai 2026</span>
-      <span>2 éditions archivées</span>
+      <span><span data-i18n lang="fr">Daily Edition</span><span data-i18n lang="en">Daily Edition</span><span data-i18n lang="de">Tägliche Ausgabe</span><span data-i18n lang="it">Edizione quotidiana</span><span data-i18n lang="rm">Ediziun da mintga di</span></span>
+      <span><span data-i18n lang="fr">Jeudi 21 mai 2026</span></span>
+      <span><span data-i18n lang="fr">2 éditions archivées</span><span data-i18n lang="en">2 archived editions</span><span data-i18n lang="de">2 archivierte Ausgaben</span><span data-i18n lang="it">2 edizioni archiviate</span><span data-i18n lang="rm">2 ediziuns archivadas</span></span>
+      <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="rm">RM</a></nav>
     </div>
   </header>
 
   <p class="archive-intro">
-    <strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème
-    intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux
-    communauté. Cliquez sur une édition pour la lire en intégralité.
-    <br><br>Édition du jour : <a href="latest.html">Jeudi 21 mai 2026</a>
+    <span data-i18n lang="fr"><strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux communauté. Cliquez sur une édition pour la lire en intégralité.</span><span data-i18n lang="en"><strong>The Neuron Times</strong> publishes every morning a synthesis of notable signals from the AI ecosystem — frontier models, coding agents, infrastructure, research, community signals. Click on an edition to read it in full.</span><span data-i18n lang="de"><strong>The Neuron Times</strong> veröffentlicht jeden Morgen eine Synthese bemerkenswerter Signale aus dem KI-Ökosystem — Frontier-Modelle, Coding-Agenten, Infrastruktur, Forschung, Community-Signale. Klicken Sie auf eine Ausgabe, um sie vollständig zu lesen.</span><span data-i18n lang="it"><strong>The Neuron Times</strong> pubblica ogni mattina una sintesi dei segnali notevoli dell'ecosistema AI — modelli di frontiera, agenti di codifica, infrastruttura, ricerca, segnali della comunità. Clicca su un'edizione per leggerla integralmente.</span><span data-i18n lang="rm"><strong>The Neuron Times</strong> publitgescha mintga damaun ina sintesa dals signals notabels da l'ecosistem dad intelligenza artifiziala — models da fruntiera, agents da codaziun, infrastructura, retschertga, signals da la communitad. Cliccai sin in'ediziun per la leger en l'entira.</span>
+    <br><br><span data-i18n lang="fr">Édition du jour</span><span data-i18n lang="en">Today's edition</span><span data-i18n lang="de">Heutige Ausgabe</span><span data-i18n lang="it">Edizione di oggi</span><span data-i18n lang="rm">Ediziun da oz</span> : <a href="latest.html"><span data-i18n lang="fr">Jeudi 21 mai 2026</span></a>
   </p>
 
   <main class="archive-grid">
@@ -212,26 +245,26 @@
     <article class="card">
       <a href="editions/2026-05-21.html" class="card-link">
         <div class="card-meta">
-          <span class="card-date">Jeudi 21 mai 2026</span>
+          <span class="card-date"><span data-i18n lang="fr">Jeudi 21 mai 2026</span></span>
           <span class="card-num">N° 141</span>
         </div>
-        <div class="card-kicker">À la Une · Frontière</div>
-        <h2 class="card-headline">Google I/O 2026 dévoile Gemini Omni et Antigravity 2.0, OpenAI réplique avec une percée mathématique</h2>
-        <p class="card-subdeck">Mountain View annonce une centaine de nouveautés autour de son écosystème Gemini ; à San Francisco, un modèle d&#x27;OpenAI réfute une conjecture vieille de quatre-vingts ans en géométrie discrète.</p>
-        <div class="card-cta">Lire l'édition →</div>
+        <div class="card-kicker"><span data-i18n lang="fr">À la Une · Frontière</span></div>
+        <h2 class="card-headline"><span data-i18n lang="fr">Google I/O 2026 dévoile Gemini Omni et Antigravity 2.0, OpenAI réplique avec une percée mathématique</span></h2>
+        <p class="card-subdeck"><span data-i18n lang="fr">Mountain View annonce une centaine de nouveautés autour de son écosystème Gemini ; à San Francisco, un modèle d&#x27;OpenAI réfute une conjecture vieille de quatre-vingts ans en géométrie discrète.</span></p>
+        <div class="card-cta"><span data-i18n lang="fr">Lire l'édition →</span><span data-i18n lang="en">Read edition →</span><span data-i18n lang="de">Ausgabe lesen →</span><span data-i18n lang="it">Leggi l'edizione →</span><span data-i18n lang="rm">Leger l'ediziun →</span></div>
       </a>
     </article>
 
     <article class="card">
       <a href="editions/2026-05-20.html" class="card-link">
         <div class="card-meta">
-          <span class="card-date">Mercredi 20 mai 2026</span>
+          <span class="card-date"><span data-i18n lang="fr">Mercredi 20 mai 2026</span></span>
           <span class="card-num">N° 140</span>
         </div>
-        <div class="card-kicker">À la Une · Google I/O 2026</div>
-        <h2 class="card-headline">Gemini 3.5 Flash bouscule la frontière à vitesse Flash</h2>
-        <p class="card-subdeck">Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.</p>
-        <div class="card-cta">Lire l'édition →</div>
+        <div class="card-kicker"><span data-i18n lang="fr">À la Une · Google I/O 2026</span></div>
+        <h2 class="card-headline"><span data-i18n lang="fr">Gemini 3.5 Flash bouscule la frontière à vitesse Flash</span></h2>
+        <p class="card-subdeck"><span data-i18n lang="fr">Le nouveau modèle de DeepMind atteint 83,6 % sur MCP Atlas et 78,4 % sur OSWorld-Verified — quatre fois plus rapide que les autres modèles frontière.</span></p>
+        <div class="card-cta"><span data-i18n lang="fr">Lire l'édition →</span><span data-i18n lang="en">Read edition →</span><span data-i18n lang="de">Ausgabe lesen →</span><span data-i18n lang="it">Leggi l'edizione →</span><span data-i18n lang="rm">Leger l'ediziun →</span></div>
       </a>
     </article>
   </main>
@@ -242,5 +275,35 @@
   </footer>
 
 </div>
+<script>
+(function() {
+  var SUPPORTED = ['fr', 'en', 'de', 'it', 'rm'];
+  var STORAGE_KEY = 'nt-lang';
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || 'fr').toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : 'fr';
+  }
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      links[i].classList.toggle('active', links[i].dataset.lang === lang);
+    }
+  }
+  applyLang(detectLang());
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.dataset.lang;
+    if (SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+})();
+</script>
 </body>
 </html>
