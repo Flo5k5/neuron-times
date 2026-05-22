@@ -11,33 +11,46 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
+  :root {
+    --paper-bg: #f5efe1;
+    --ink: #1a1410;
+    --rule: #6b4d2a;
+    --accent: #8b1f1f;
+  }
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html { font-size: 16px; }
   body {
     font-family: 'Old Standard TT', 'Times New Roman', serif;
-    background: #ede4cf;
-    color: #0c0c0c;
+    background: #2a2018;
+    color: var(--ink);
     line-height: 1.55;
     min-height: 100vh;
-    background-image: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.03) 100%);
   }
   .paper {
     max-width: 1100px;
     margin: 2rem auto;
     padding: 3rem 3.5rem;
-    background: #f4ecdc;
-    border: 1px solid #b8af96;
-    box-shadow: 0 2px 30px rgba(0,0,0,0.15);
+    background: var(--paper-bg);
+    background-image:
+      radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+      radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+    position: relative;
+  }
+  .lang-selector-topright {
+    position: absolute;
+    top: 16px;
+    right: 3.5rem;
+    z-index: 2;
   }
   .masthead {
     text-align: center;
-    border-top: 8px solid #0c0c0c;
-    border-bottom: 1px solid #0c0c0c;
+    border-top: 3px double var(--rule);
+    border-bottom: 3px double var(--rule);
     padding: 1.2rem 0 0.8rem;
     margin-bottom: 1.5rem;
     position: relative;
   }
-  .masthead::after { content: ''; display: block; border-top: 1px solid #0c0c0c; margin-top: 4px; }
   .masthead .above {
     font-family: 'Cinzel', serif;
     font-size: 0.72rem;
@@ -65,11 +78,11 @@
   }
   .masthead .dateline {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-around;
     align-items: center;
     padding: 0.5rem 0;
-    border-top: 2px solid #0c0c0c;
-    border-bottom: 2px solid #0c0c0c;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
     margin-top: 1rem;
     font-family: 'Cinzel', serif;
     font-size: 0.75rem;
@@ -86,17 +99,19 @@
     font-family: 'Old Standard TT', serif;
     font-style: italic;
     font-size: 1.15rem;
-    color: #2a2a2a;
-    text-align: center;
+    color: #3a2e20;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
     max-width: 720px;
     margin: 1.5rem auto 2rem;
     padding-bottom: 1.5rem;
-    border-bottom: 4px double #0c0c0c;
+    border-bottom: 4px double var(--rule);
     line-height: 1.5;
   }
-  .archive-intro strong { font-weight: 700; color: #0c0c0c; }
-  .archive-intro a { color: #6b0f0f; text-decoration: none; border-bottom: 1px solid currentColor; }
-  .archive-intro a:hover { color: #0c0c0c; }
+  .archive-intro strong { font-weight: 700; color: var(--ink); }
+  .archive-intro a { color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
+  .archive-intro a:hover { color: var(--ink); }
   .weekly-section {
     background: #f4e8c8;
     border: 1px solid #b8af96;
@@ -107,21 +122,21 @@
   .weekly-section::before {
     content: '';
     display: block;
-    border-top: 4px double #6b0f0f;
+    border-top: 4px double #8b1f1f;
     margin-bottom: 1rem;
   }
   .weekly-section-header {
     text-align: center;
     margin-bottom: 1.4rem;
     padding-bottom: 1rem;
-    border-bottom: 1px solid rgba(107, 15, 15, 0.35);
+    border-bottom: 1px solid rgba(139, 31, 31, 0.35);
   }
   .weekly-section-title {
     font-family: 'Cinzel', serif;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #6b0f0f;
+    color: #8b1f1f;
     margin: 0 0 0.6rem;
     font-weight: 600;
   }
@@ -140,13 +155,13 @@
     gap: 1.5rem;
   }
   .card-weekly {
-    border: 2px solid #6b0f0f;
+    border: 2px solid #8b1f1f;
     background: #faf3df;
   }
-  .card-weekly .card-kicker { color: #6b0f0f; }
-  .card-weekly .card-cta { color: #6b0f0f; }
+  .card-weekly .card-kicker { color: #8b1f1f; }
+  .card-weekly .card-cta { color: #8b1f1f; }
   .card-weekly:hover {
-    box-shadow: 0 6px 22px rgba(107, 15, 15, 0.18);
+    box-shadow: 0 6px 22px rgba(139, 31, 31, 0.18);
   }
   .archive-grid {
     display: grid;
@@ -178,17 +193,17 @@
     font-size: 0.65rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6b6b6b;
+    color: var(--rule);
     margin-bottom: 0.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #0c0c0c;
+    border-bottom: 1px solid var(--rule);
   }
   .card-kicker {
     font-family: 'Cinzel', serif;
     font-size: 0.65rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6b0f0f;
+    color: #8b1f1f;
     font-weight: 600;
     margin-bottom: 0.3rem;
   }
@@ -212,7 +227,7 @@
     font-size: 0.72rem;
     letter-spacing: 2px;
     text-transform: uppercase;
-    color: #6b0f0f;
+    color: #8b1f1f;
     font-weight: 600;
     text-align: right;
   }
@@ -276,23 +291,23 @@
     .weekly-section { padding: 1.2rem 1rem 1.4rem; }
     .weekly-section-title { font-size: 1.1rem; letter-spacing: 2px; }
     .dateline { flex-direction: column; gap: 8px; }
+    .lang-selector-topright { top: 10px; right: 1.5rem; }
   }
 </style>
 </head>
 <body>
 <div class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
 
   <header class="masthead">
-    <div class="above">Published at https://neuron-times.com</div>
     <h1>The Neuron Times</h1>
     <p class="motto">« All the AI that's fit to print »</p>
     <div class="dateline">
       <span class="dateline-item"><span data-i18n lang="fr">Édition quotidienne</span><span data-i18n lang="en">Daily Edition</span><span data-i18n lang="de">Tägliche Ausgabe</span><span data-i18n lang="it">Edizione quotidiana</span><span data-i18n lang="lmo">Edizion de tüt i dì</span></span>
       <span class="dateline-sep">·</span>
-      <span class="dateline-item"><span data-i18n lang="fr">22 mai 2026</span><span data-i18n lang="en">Friday, 22 May 2026</span><span data-i18n lang="de">Freitag, 22. Mai 2026</span><span data-i18n lang="it">22 maggio 2026</span><span data-i18n lang="lmo">22 de magg 2026</span></span>
-      <span class="dateline-sep">·</span>
       <span class="dateline-item"><span data-i18n lang="fr">3 éditions archivées</span><span data-i18n lang="en">3 archived editions</span><span data-i18n lang="de">3 archivierte Ausgaben</span><span data-i18n lang="it">3 edizioni archiviate</span><span data-i18n lang="lmo">3 edizion archiviaa</span></span>
-      <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav>
+      <span class="dateline-sep">·</span>
+      <span class="dateline-item"><span data-i18n lang="fr">22 mai 2026</span><span data-i18n lang="en">Friday, 22 May 2026</span><span data-i18n lang="de">Freitag, 22. Mai 2026</span><span data-i18n lang="it">22 maggio 2026</span><span data-i18n lang="lmo">22 de magg 2026</span></span>
     </div>
   </header>
 
