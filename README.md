@@ -18,33 +18,50 @@ Objectif : 5 minutes de lecture le matin = veille IA à jour pour la journée.
 
 - **À la Une** : un papier long sur l'annonce du jour (release de modèle, M&A, breakthrough recherche)
 - **From the Wires** : 4 signaux majeurs en bref
-- **Le Cahier Technique** : models, infra, agents
+- **Modèles & Frontière** : annonces des labos frontière (Anthropic, OpenAI, Google/DeepMind, Meta, Mistral, DeepSeek, xAI)
+- **Le Cahier Technique** : agents, CLI, inference engines, dev tools
 - **La Recherche** : papers et benchmarks
-- **La Communauté** : ce qui agite Hugging Face, Reddit, X
+- **Tour des labos** : signaux des labos non-frontière (Apple ML, HuggingFace, Microsoft Research, Cloudflare AI, Modal, Together, Nous Research, IBM Research, NVIDIA, etc.)
+- **Écosystème & Édito** : signaux community + édito transversal
 
-Tout en français, ton journalistique, sources cliquables vers les annonces originales.
+Ton journalistique, sources cliquables vers les annonces originales.
 
-## 4 thèmes commutables
+## Multilingue — 5 langues
 
-Un bouton en haut de page bascule entre 4 esthétiques broadsheet historiques :
+Chaque édition est publiée simultanément dans **5 langues**, avec un sélecteur dans le masthead :
 
-- **Times Victorien** — 1850-1900 Times of London, monochrome ivoire strict, Bodoni Moda
-- **Le Monde Classique** — 1960-1980 broadsheet français, EB Garamond, bleu de Prusse
-- **Almanach Sépia** — 1900-1920 journal rural, IM Fell English, ornements floraux
-- **Gazette du Soir** — 1930-1960 tabloïd, Abril Fatface, bandeau rouge sang
+- **FR** — français (langue source)
+- **EN** — anglais (international)
+- **DE** — allemand (suisse standard)
+- **IT** — italien (suisse standard)
+- **LMO** — lombard (langue gallo-italique parlée au Tessin suisse et en Lombardie italienne)
 
-Préférence persistée dans le navigateur. Effet de flip 3D entre les pages (4 pages naviguables).
+La langue active est **auto-détectée** au premier load via `navigator.language` du navigateur. L'utilisateur peut la **changer** en cliquant sur un code dans le sélecteur ; la préférence est persistée en `localStorage` pour les visites suivantes. Switch instantané sans rechargement de page (cascade CSS sur `<html lang="...">`).
+
+Tous les fichiers `editions/YYYY-MM-DD.json` ont un schéma `multilingual-v1` avec chaque champ texte exprimé en objet `{fr, en, de, it, lmo}`.
 
 ## Format
 
-Static HTML servi via GitHub Pages, custom domain, HTTPS Let's Encrypt. Tout est versionné : `reports/YYYY-MM-DD.html` pour chaque édition, `reports/YYYY-MM-DD.json` pour les données structurées (parsing programmatique).
+Static HTML servi via GitHub Pages, custom domain, HTTPS Let's Encrypt. Tout est versionné :
 
-Self-contained : CSS inline, JS minimal (theme switcher + navigation), Google Fonts via CDN. Une édition fait ~60 KB. Fonctionne offline une fois ouverte. Archivable, partageable.
+- `editions/YYYY-MM-DD.html` pour chaque édition (HTML self-contained, ~80-150 KB raw, ~30-40 KB gzippé)
+- `editions/YYYY-MM-DD.json` pour les données structurées multilingues (parsing programmatique, RSS futur, etc.)
+- `latest.html` : miroir de la dernière édition (URL stable)
+- `index.html` : archives chronologiques, regénéré par GitHub Actions à chaque push
+
+Self-contained : CSS inline, JS minimal (lang detection + sélecteur + thème), Google Fonts via CDN. Fonctionne offline une fois la page chargée.
 
 ## Archives
 
-Toutes les éditions passées sont indexées sur la [page d'accueil](https://neuron-times.com) et disponibles dans le dossier [`reports/`](./reports/) du repo.
+Toutes les éditions passées sont indexées sur la [page d'accueil](https://neuron-times.com) et disponibles dans le dossier [`editions/`](./editions/) du repo.
+
+## Roadmap (non shipped)
+
+- Thèmes commutables : 4 esthétiques broadsheet historiques (Times Victorien, Le Monde Classique, Almanach Sépia, Gazette du Soir) avec switcher persisté
+- Effet de flip 3D entre les pages (multi-pages navigables)
+- Flux RSS / Atom (`feed.xml`)
+- OG meta tags pour partage LinkedIn / Twitter (image OG dynamique masthead + headline du jour)
 
 ## License
 
-Le contenu des éditions est synthétisé depuis des sources publiques avec liens d'attribution. Le design (HTML, CSS, thèmes) est original.
+Le contenu des éditions est synthétisé depuis des sources publiques avec liens d'attribution. Le design (HTML, CSS) est original.
