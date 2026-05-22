@@ -1,0 +1,442 @@
+{
+  "edition": {
+    "title": {
+      "fr": "The Neuron Times"
+    },
+    "tagline": {
+      "fr": "Panorama quotidien de l’intelligence artificielle"
+    },
+    "num": 142,
+    "date_long": {
+      "fr": "22 mai 2026"
+    },
+    "date_iso": "2026-05-22",
+    "edition_type": {
+      "fr": "Édition du matin"
+    },
+    "city": "Genève",
+    "motto": "All the AI that's fit to print"
+  },
+  "lead": {
+    "kicker": {
+      "fr": "À la Une · Plateformes & agents"
+    },
+    "headline": {
+      "fr": "OpenAI pousse Codex et son écosystème d’agents vers le travail de longue durée"
+    },
+    "subdeck": {
+      "fr": "Entre mode objectif généralisé, accès mobile, verrouillage distant et tunnel MCP d’entreprise, la pile Codex s’étend du poste local au réseau privé."
+    },
+    "byline": {
+      "fr": "De la rédaction — 22 mai 2026"
+    },
+    "paragraphs": [
+      {
+        "fr": "Les annonces du jour dessinent moins un nouveau modèle qu’un changement d’infrastructure. Dans les <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">notes de version de ChatGPT</a>, OpenAI détaille pour Codex un ensemble de fonctions destinées au travail prolongé : Appshots sur macOS pour capter le contexte d’une fenêtre, Goal mode désormais disponible dans l’application, l’extension IDE et la CLI, annotations plus précises dans le navigateur intégré, ainsi qu’un mode d’usage verrouillé permettant à Codex de continuer à opérer à distance sur Mac dans certains cas d’usage."
+      },
+      {
+        "fr": "La même logique apparaît dans le <a href=\"https://github.com/openai/codex/releases.atom\">flux de versions de la CLI Codex</a>, où la version 0.133.0 active par défaut les goals, ajoute un stockage dédié pour suivre la progression entre tours actifs, revoit le comportement de remote-control pour fonctionner davantage comme une commande de premier plan, et étend les profils de permissions avec API de liste, héritage et intégration plus solide sous Windows. L’objectif n’est pas seulement d’ajouter des commandes, mais de fiabiliser un environnement d’exécution agentique."
+      },
+      {
+        "fr": "En arrière-plan, le <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la plateforme OpenAI</a> ajoute une autre pièce clé : Secure MCP Tunnel, destiné aux clients entreprise, afin de relier ChatGPT, Codex, la Responses API et AgentKit à des serveurs MCP privés sans les exposer sur l’internet public. Pris ensemble, ces signaux montrent que la concurrence se déplace vers la continuité de contexte, le contrôle des permissions et l’accès aux outils internes."
+      }
+    ]
+  },
+  "sidebar": [
+    {
+      "tag": {
+        "fr": "Majeur"
+      },
+      "headline": {
+        "fr": "Claude Code corrige en urgence une régression Bash après une vague de correctifs"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 mai 2026"
+      },
+      "body": {
+        "fr": "Le <a href=\"https://github.com/anthropics/claude-code/releases.atom\">flux de versions de Claude Code</a> montre une cadence très rapide : après la v2.1.147, qui introduisait notamment des sessions d’arrière-plan épinglées, la commande /code-review et une longue série de correctifs, la v2.1.148 corrige un bug qui renvoyait un code de sortie 127 sur chaque commande Bash pour certains utilisateurs."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Notable"
+      },
+      "headline": {
+        "fr": "Google maintient la poussée post-I/O autour de Gemini Omni"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 mai 2026"
+      },
+      "body": {
+        "fr": "Le <a href=\"https://blog.google/technology/ai/rss/\">RSS AI de Google</a> renvoie vers « 100 things we announced at I/O 2026 », tandis que le <a href=\"https://deepmind.google/blog/rss.xml\">flux DeepMind</a> met en avant « Introducing Gemini Omni ». Faute de détails techniques complets dans les extraits fournis, le signal exploitable est celui d’une offensive large, toujours structurée autour de Gemini et des annonces d’I/O."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Marché"
+      },
+      "headline": {
+        "fr": "Apple publie plusieurs travaux à la fois sur multimodalité, 3D et alignement"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 mai 2026"
+      },
+      "body": {
+        "fr": "Le <a href=\"https://machinelearning.apple.com/rss.xml\">flux Apple ML Research</a> agrège plusieurs publications récentes : BalCapRL sur le captioning d’images par RL pour MLLM, HeadsUp sur la reconstruction 3D de têtes par gaussiennes, Velox sur les représentations 4D, et RVPO sur un alignement sensible au risque via régularisation de variance."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Communauté"
+      },
+      "headline": {
+        "fr": "Hugging Face reste le baromètre du jour pour les sorties ouvertes"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 mai 2026"
+      },
+      "body": {
+        "fr": "Les pages <a href=\"https://huggingface.co/models?sort=trending\">Trending Models</a> et les organisations <a href=\"https://huggingface.co/mistralai\">Mistral</a>, <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a>, <a href=\"https://huggingface.co/meta-llama\">Meta Llama</a>, <a href=\"https://huggingface.co/google\">Google</a>, <a href=\"https://huggingface.co/nvidia\">NVIDIA</a> et <a href=\"https://huggingface.co/mlx-community\">MLX Community</a> indiquent surtout un marché où la visibilité passe par la distribution, les variantes quantifiées et la compatibilité Apple Silicon."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "num": 1,
+      "label": {
+        "fr": "À la Une"
+      },
+      "sections": [
+        {
+          "num": "I",
+          "title": {
+            "fr": "Modèles & Frontière"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "Google prolonge l’effet I/O avec Gemini Omni comme pièce centrale"
+              },
+              "body": {
+                "fr": "Les sources fournies ne livrent pas de fiche technique détaillée, mais elles convergent sur un même point : après I/O 2026, Google structure sa communication autour de Gemini Omni. Le <a href=\"https://blog.google/technology/ai/rss/\">RSS AI de Google</a> renvoie au récapitulatif « 100 things we announced at I/O 2026 », et le <a href=\"https://deepmind.google/blog/rss.xml\">flux DeepMind</a> pointe explicitement vers « Introducing Gemini Omni ». Le <a href=\"https://deepmind.google/models/\">hub des modèles de DeepMind</a> confirme par ailleurs l’importance stratégique de la famille Gemini dans le portefeuille public du groupe."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Mistral reste visible sur Hugging Face, sans annonce exploitable détaillée dans l’extrait"
+              },
+              "body": {
+                "fr": "La page organisation <a href=\"https://huggingface.co/mistralai\">Mistral sur Hugging Face</a> atteste d’une présence active sur le hub, et la page <a href=\"https://mistral.ai/news\">Latest news de Mistral AI</a> confirme un flux continu de publications produit, recherche et entreprise. Les extraits fournis ne permettent toutefois pas d’isoler une sortie précise datée du jour ; le signal éditorial consiste donc surtout dans la permanence de la distribution publique du laboratoire."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Qwen consolide sa diffusion ouverte entre Hugging Face, site grand public et GitHub"
+              },
+              "body": {
+                "fr": "Le triptyque <a href=\"https://huggingface.co/Qwen\">organisation Hugging Face de Qwen</a>, <a href=\"https://qwen.ai/blog\">blog Qwen</a> et <a href=\"https://github.com/QwenLM\">organisation GitHub QwenLM</a> montre un écosystème très distribué, allant du produit consommateur au code et aux poids publiés. Les éléments fournis ne documentent pas un nouveau modèle précis, mais ils suffisent à signaler que Qwen demeure l’un des pôles ouverts les plus visibles hors blocs occidentaux traditionnels."
+              }
+            },
+            {
+              "headline": {
+                "fr": "DeepSeek maintient une double présence : vitrine corporate et distribution sur le hub"
+              },
+              "body": {
+                "fr": "La page <a href=\"https://www.deepseek.com/\">DeepSeek</a> présente l’entreprise comme centrée sur les modèles de base et rappelle ses lignées DeepSeek-LLM, DeepSeek-Coder et DeepSeek-MoE. En parallèle, l’organisation <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek sur Hugging Face</a> ancre cette stratégie dans la diffusion communautaire. Sans nouvelle annonce détaillée dans les extraits, le signal du jour reste celui d’une présence installée au croisement du corporate, de l’API et de l’open source."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "label": {
+        "fr": "Le Cahier Technique"
+      },
+      "sections": [
+        {
+          "num": "II",
+          "title": {
+            "fr": "Harnais & outillage"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "Codex CLI 0.133.0 active les objectifs par défaut et renforce le contrôle distant"
+              },
+              "body": {
+                "fr": "Dans le <a href=\"https://github.com/openai/codex/releases.atom\">flux de versions officiel</a>, OpenAI active par défaut les goals, leur associe un stockage dédié pour suivre la progression, et revoit la commande remote-control pour la rendre plus proche d’un mode interactif de premier plan. La version ajoute aussi des progrès sur les profils de permissions et leur intégration sous Windows, signe d’une attention portée au déploiement en entreprise autant qu’au confort des développeurs."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Claude Code enchaîne les itérations sur les sessions d’arrière-plan et la revue de code"
+              },
+              "body": {
+                "fr": "Les versions <a href=\"https://github.com/anthropics/claude-code/releases.atom\">2.1.147 et 2.1.148 de Claude Code</a> illustrent une maturation rapide du harnais. La 2.1.147 introduit notamment des background sessions épinglées qui survivent à l’inactivité, un renommage de /simplify en /code-review avec publication possible de commentaires GitHub, ainsi qu’une longue série de correctifs Windows, PowerShell, rendu de diff, hooks et pagination MCP. La 2.1.148 vient corriger une régression Bash sévère."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Gemini CLI publie une préversion 0.44.0 avec changements de registre d’agents"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">flux des releases Gemini CLI</a> annonce une préversion v0.44.0-preview.0. Les notes visibles mentionnent notamment un changement dans l’enregistrement des agents, désormais « first-wins » avec priorité au projet, ainsi qu’un travail de validation de types plus stricte. Le reste de l’extrait reflète surtout un changelog automatisé et une cadence d’itération soutenue."
+              }
+            },
+            {
+              "headline": {
+                "fr": "OpenAI étend aussi l’outillage côté plateforme avec Secure MCP Tunnel"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la plateforme</a> introduit Secure MCP Tunnel pour les clients entreprise. La fonction permet à ChatGPT web, Codex, la Responses API et AgentKit de se connecter à des serveurs MCP privés ou on-premise via un client de tunnel hébergé par le client. C’est une brique discrète mais structurante pour les déploiements où les outils ne peuvent pas être exposés publiquement."
+              }
+            }
+          ]
+        },
+        {
+          "num": "III",
+          "title": {
+            "fr": "Moteurs locaux & exécution"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "LM Studio entretient sa place de carrefour local"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://lmstudio.ai/changelog\">changelog de LM Studio</a> confirme un suivi de versions stable pour le poste local. L’extrait fourni ne détaille pas de nouveauté spécifique, mais la seule présence d’un changelog produit dédié rappelle le rôle central que joue l’application comme interface de bureau pour modèles locaux."
+              }
+            },
+            {
+              "headline": {
+                "fr": "L’écosystème Apple Silicon continue de se densifier"
+              },
+              "body": {
+                "fr": "Les pages de versions de <a href=\"https://github.com/ml-explore/mlx-lm/releases\">mlx-lm</a>, <a href=\"https://github.com/Blaizzy/mlx-vlm/releases\">mlx-vlm</a>, <a href=\"https://github.com/waybarrios/vllm-mlx/releases\">vllm-mlx</a>, <a href=\"https://github.com/jundot/omlx/releases\">oMLX</a> et <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">Rapid-MLX</a>, ainsi que l’organisation <a href=\"https://huggingface.co/mlx-community\">MLX Community</a>, montrent un segment logiciel de plus en plus structuré autour de l’inférence locale sur Mac."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Les piliers de l’inférence locale restent en observation étroite"
+              },
+              "body": {
+                "fr": "Les dépôts de versions de <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp</a>, <a href=\"https://github.com/ollama/ollama/releases\">Ollama</a>, <a href=\"https://github.com/open-webui/open-webui/releases\">Open WebUI</a> et <a href=\"https://github.com/sst/opencode/releases\">OpenCode</a> figurent parmi les outils suivis du jour. Les extraits fournis ne permettent pas d’identifier des changements précis, mais leur inclusion confirme où se concentre aujourd’hui l’infrastructure praticable du self-hosted."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Le champ agentique open source reste très fragmenté"
+              },
+              "body": {
+                "fr": "En plus des grands éditeurs, les pages de releases de <a href=\"https://github.com/cline/cline/releases\">Cline</a>, <a href=\"https://github.com/paul-gauthier/aider/releases\">Aider</a>, <a href=\"https://github.com/block/goose/releases\">Goose</a>, <a href=\"https://github.com/tailcallhq/forgecode/releases\">ForgeCode</a> et <a href=\"https://github.com/NousResearch/hermes-agent/releases\">Hermes Agent</a> indiquent une multiplicité d’approches pour le code assisté. Faute de notes exploitables dans les extraits HTML, le constat utile est moins la nature de chaque nouveauté que l’intensité concurrentielle de cette couche."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "label": {
+        "fr": "La Recherche"
+      },
+      "sections": [
+        {
+          "num": "IV",
+          "title": {
+            "fr": "Papiers & laboratoires"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "Apple propose BalCapRL pour rééquilibrer le captioning d’images par RL"
+              },
+              "body": {
+                "fr": "Selon le <a href=\"https://machinelearning.apple.com/rss.xml\">flux Apple ML Research</a>, BalCapRL s’attaque à un problème classique du captioning par renforcement : optimiser une métrique étroite peut encourager des légendes longues, bruitées ou hallucinées. Apple présente ici un cadre « balanced » pour mieux arbitrer entre utilité, détail et fidélité descriptive."
+              }
+            },
+            {
+              "headline": {
+                "fr": "HeadsUp vise la reconstruction 3D de têtes à grande échelle"
+              },
+              "body": {
+                "fr": "Toujours via le <a href=\"https://machinelearning.apple.com/rss.xml\">RSS d’Apple</a>, le travail « Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures » décrit une méthode feed-forward pour reconstruire des têtes 3D gaussiennes à partir de captures multi-vues. L’accent est mis sur la scalabilité, une représentation UV et la compatibilité avec de nombreuses vues d’entrée haute résolution."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Velox explore des représentations latentes d’objets 4D"
+              },
+              "body": {
+                "fr": "Dans <a href=\"https://machinelearning.apple.com/rss.xml\">Velox</a>, Apple introduit un cadre pour apprendre des représentations d’objets 4D qui cherchent à être à la fois descriptives, compressives et accessibles avec peu d’entrée structurée. Le papier relie point clouds dynamiques, tokens de forme et décodeurs complémentaires pour géométrie et apparence."
+              }
+            },
+            {
+              "headline": {
+                "fr": "RVPO reformule l’alignement comme un problème de risque inter-objectifs"
+              },
+              "body": {
+                "fr": "Le papier <a href=\"https://machinelearning.apple.com/rss.xml\">RVPO: Risk-Sensitive Alignment via Variance Regularization</a> critique les approches RLHF sans critique qui agrègent les récompenses par simple moyenne. La proposition consiste à pénaliser la variance entre récompenses, afin d’éviter qu’un succès fort sur un objectif masque des échecs graves sur d’autres, comme la sûreté ou le format."
+              }
+            },
+            {
+              "headline": {
+                "fr": "DeepMind relie recherche fondamentale et applications scientifiques"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://deepmind.google/blog/rss.xml\">flux DeepMind</a> met en avant « Gemini for Science » ainsi qu’un billet sur l’usage de Co-Scientist pour identifier des pistes génétiques liées au rajeunissement cellulaire. Les extraits restent descriptifs et non techniques, mais ils montrent une stratégie de mise en scène de la recherche au contact direct d’usages biomédicaux."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Nous Research reste présent comme laboratoire, mais sans nouveau détail exploitable"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://nousresearch.com/blog\">blog de Nous Research</a> figure parmi les sources du jour, tout comme les releases de <a href=\"https://github.com/NousResearch/hermes-agent/releases\">Hermes Agent</a>. Les extraits disponibles ne donnent pas d’annonce de recherche clairement datée aujourd’hui ; le signal est surtout celui d’un acteur qui continue à exister à la fois sur le terrain des modèles et sur celui des agents."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "label": {
+        "fr": "La Communauté & Édito"
+      },
+      "sections": [
+        {
+          "num": "I",
+          "title": {
+            "fr": "Tour des labos"
+          },
+          "layout": "2-cols",
+          "articles": [
+            {
+              "kicker": {
+                "fr": "Produit"
+              },
+              "headline": {
+                "fr": "Grok ajoute des Skills persistants multiplateformes"
+              },
+              "wire": {
+                "fr": "xAI — édition du jour"
+              },
+              "body": {
+                "fr": "xAI a lancé des « Skills » pour Grok sur le web, iOS et Android. La fonction permet de créer des expertises persistantes, de générer documents, présentations et feuilles de calcul, et d’automatiser certains workflows, selon <a href=\"https://x.ai/news/grok-skills\">l’annonce officielle</a> publiée le 19 mai."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Produit"
+              },
+              "headline": {
+                "fr": "Grok Build arrive en bêta dans le terminal"
+              },
+              "wire": {
+                "fr": "xAI — édition du jour"
+              },
+              "body": {
+                "fr": "xAI a aussi présenté Grok Build, un agent de code lancé directement depuis le terminal, en bêta anticipée pour les abonnés SuperGrok Heavy. Le produit vise les usages de développement en ligne de commande, d’après <a href=\"https://x.ai/news/grok-build-cli\">la note produit</a> du 15 mai."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Benchmark"
+              },
+              "headline": {
+                "fr": "IBM publie un classement ouvert des agents"
+              },
+              "wire": {
+                "fr": "Hugging Face — édition du jour"
+              },
+              "body": {
+                "fr": "Le blog Hugging Face a relayé le lancement de l’Open Agent Leaderboard par IBM Research, un tableau de bord destiné à comparer les performances d’agents sur des tâches ouvertes. La publication est datée du 18 mai sur <a href=\"https://huggingface.co/blog/ibm-research/open-agent-leaderboard\">le blog officiel</a>."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Modèle"
+              },
+              "headline": {
+                "fr": "Hugging Face présente le reranker Ettin"
+              },
+              "wire": {
+                "fr": "Hugging Face — édition du jour"
+              },
+              "body": {
+                "fr": "Hugging Face a publié le 19 mai un billet consacré à la famille Ettin Reranker, orientée classement de résultats pour la recherche et la récupération d’information. Le lancement est détaillé sur <a href=\"https://huggingface.co/blog/ettin-reranker\">le blog officiel</a>."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Recherche"
+              },
+              "headline": {
+                "fr": "Apple propose BalCapRL pour le captioning"
+              },
+              "wire": {
+                "fr": "Apple ML Research — édition du jour"
+              },
+              "body": {
+                "fr": "Apple a publié le 11 mai BalCapRL, un cadre d’apprentissage par renforcement pour l’image captioning multimodal visant à mieux équilibrer précision, utilité et longueur des descriptions. Le papier est disponible sur <a href=\"https://machinelearning.apple.com/research/balcaprl-mllm-image-captioning\">Apple Machine Learning Research</a>."
+              }
+            }
+          ]
+        },
+        {
+          "num": "II",
+          "title": {
+            "fr": "Écosystème & Édito"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le trending Hugging Face confirme la centralité du hub comme thermomètre quotidien"
+              },
+              "body": {
+                "fr": "La page <a href=\"https://huggingface.co/models?sort=trending\">Trending Models</a> reste l’un des rares points d’observation transversaux entre laboratoires, hobbyistes et réemballeurs. Même sans classement lisible dans l’extrait fourni, son inclusion aux côtés des organisations <a href=\"https://huggingface.co/mistralai\">Mistral</a>, <a href=\"https://huggingface.co/Qwen\">Qwen</a>, <a href=\"https://huggingface.co/deepseek-ai\">DeepSeek</a>, <a href=\"https://huggingface.co/meta-llama\">Meta Llama</a>, <a href=\"https://huggingface.co/google\">Google</a> et <a href=\"https://huggingface.co/nvidia\">NVIDIA</a> rappelle que la hiérarchie des modèles passe désormais autant par la circulation que par l’annonce initiale."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Le versant Apple Silicon gagne en maturité communautaire"
+              },
+              "body": {
+                "fr": "Entre <a href=\"https://huggingface.co/mlx-community\">MLX Community</a>, <a href=\"https://huggingface.co/unsloth\">Unsloth</a> et les dépôts d’outillage MLX suivis aujourd’hui, un sous-écosystème entier se stabilise autour du Mac comme machine locale d’IA. Cela ne signifie pas que la frontière se déplace vers l’ordinateur portable, mais que la diffusion des modèles dépend désormais de chaînes de conversion, de quantification et de packaging presque aussi visibles que les modèles eux-mêmes."
+              }
+            },
+            {
+              "headline": {
+                "fr": "GitHub et les changelogs deviennent l’infrastructure médiatique du secteur"
+              },
+              "body": {
+                "fr": "Une part croissante de l’actualité exploitable du jour provient de flux de releases et de changelogs : <a href=\"https://github.com/openai/codex/releases.atom\">Codex</a>, <a href=\"https://github.com/anthropics/claude-code/releases.atom\">Claude Code</a>, <a href=\"https://github.com/google-gemini/gemini-cli/releases.atom\">Gemini CLI</a>, ou encore <a href=\"https://lmstudio.ai/changelog\">LM Studio</a>. Pour les lecteurs professionnels, cela change la nature même de la veille : suivre l’IA, c’est lire des notes de versions autant que des billets d’annonce."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Édito | L’IA de mai 2026 se joue moins sur un seul modèle que sur la continuité d’exécution"
+              },
+              "body": {
+                "fr": "La journée illustre un basculement discret mais profond. Les grands laboratoires continuent évidemment de promouvoir des familles de modèles — Gemini chez Google, les gammes ouvertes sur Hugging Face chez Mistral, Qwen, DeepSeek ou Meta — mais l’avantage compétitif se déplace vers ce qui entoure le modèle : permissions, sessions longues, accès aux outils internes, reprise après verrouillage, interfaces mobiles, et harnais capables de tenir dans la durée.\n\nAutrement dit, la question n’est plus seulement « quel modèle répond le mieux ? » mais « quel système travaille de manière fiable, sous contrainte, avec mon environnement réel ? ». De ce point de vue, les annonces d’OpenAI sur Codex, les correctifs serrés de Claude Code et la persistance de Gemini CLI racontent la même histoire : l’agent utile est désormais un produit d’exploitation, pas seulement un produit de démonstration.\n\nLe second enseignement vient de l’open source et du local. L’intensité de l’activité autour de Hugging Face, MLX, llama.cpp, Ollama ou Open WebUI suggère que la chaîne de valeur s’étend jusqu’au packaging final. L’écosystème ne manque pas de modèles ; il manque surtout de chemins robustes pour les déployer, les gouverner et les faire durer."
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr"
+  ],
+  "default_lang": "fr"
+}
