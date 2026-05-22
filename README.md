@@ -57,11 +57,6 @@ La langue est auto-détectée au premier passage et mémorisée pour les visites
 
 Toutes les éditions passées restent accessibles depuis [la page d'accueil](https://neuron-times.com). Les éditions hebdomadaires sont mises en avant en haut de l'index, les éditions quotidiennes archivées en dessous.
 
-## Lectures de référence
-
-- [Mustachian Post](https://www.mustachianpost.com/) · [The Poor Swiss](https://thepoorswiss.com/) — pour la culture financière.
-- [Stratechery](https://stratechery.com/) · [The Decoder](https://the-decoder.com/) · [MarkTechPost](https://www.marktechpost.com/) — pour le contexte business et la couverture éditoriale internationale.
-
 ## Mentions
 
 Le contenu éditorial est synthétisé depuis des sources publiques avec attribution explicite via liens cliquables. Le design (HTML, CSS, typographie) est original.
