@@ -23,7 +23,7 @@ EDITIONS_DIR = ROOT / "editions"
 INDEX_PATH = ROOT / "index.html"
 LATEST_PATH = ROOT / "latest.html"
 
-SUPPORTED_LANGS = ["fr", "en", "de", "it", "rm"]
+SUPPORTED_LANGS = ["fr", "en", "de", "it", "lmo"]
 
 # Static UI strings translated across 5 languages
 STATIC = {
@@ -32,7 +32,7 @@ STATIC = {
         "en": "Daily Edition",
         "de": "Tägliche Ausgabe",
         "it": "Edizione quotidiana",
-        "rm": "Ediziun da mintga di",
+        "lmo": "Edizion de tüt i dì",
     },
     "archived_count": {
         # {n} placeholder
@@ -40,49 +40,49 @@ STATIC = {
         "en": "{n} archived editions",
         "de": "{n} archivierte Ausgaben",
         "it": "{n} edizioni archiviate",
-        "rm": "{n} ediziuns archivadas",
+        "lmo": "{n} edizion archiviaa",
     },
     "archived_count_one": {
         "fr": "1 édition publiée",
         "en": "1 edition published",
         "de": "1 Ausgabe veröffentlicht",
         "it": "1 edizione pubblicata",
-        "rm": "1 ediziun publitgada",
+        "lmo": "1 edizion publicaa",
     },
     "soon": {
         "fr": "Bientôt",
         "en": "Soon",
         "de": "Bald",
         "it": "Presto",
-        "rm": "Prest",
+        "lmo": "Prest",
     },
     "intro": {
         "fr": "<strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux communauté. Cliquez sur une édition pour la lire en intégralité.",
         "en": "<strong>The Neuron Times</strong> publishes every morning a synthesis of notable signals from the AI ecosystem — frontier models, coding agents, infrastructure, research, community signals. Click on an edition to read it in full.",
         "de": "<strong>The Neuron Times</strong> veröffentlicht jeden Morgen eine Synthese bemerkenswerter Signale aus dem KI-Ökosystem — Frontier-Modelle, Coding-Agenten, Infrastruktur, Forschung, Community-Signale. Klicken Sie auf eine Ausgabe, um sie vollständig zu lesen.",
         "it": "<strong>The Neuron Times</strong> pubblica ogni mattina una sintesi dei segnali notevoli dell'ecosistema AI — modelli di frontiera, agenti di codifica, infrastruttura, ricerca, segnali della comunità. Clicca su un'edizione per leggerla integralmente.",
-        "rm": "<strong>The Neuron Times</strong> publitgescha mintga damaun ina sintesa dals signals notabels da l'ecosistem dad intelligenza artifiziala — models da fruntiera, agents da codaziun, infrastructura, retschertga, signals da la communitad. Cliccai sin in'ediziun per la leger en l'entira.",
+        "lmo": "<strong>The Neuron Times</strong> el publica tüti i matin ona sintesi di signai notabei de l'ecosistem de l'intelligenza artificiala — modei de frontera, agent de codifica, infrastrutura, ricerca, signai de la comunità. Clicca su on'edizion per legela tüta intrega.",
     },
     "today_edition": {
         "fr": "Édition du jour",
         "en": "Today's edition",
         "de": "Heutige Ausgabe",
         "it": "Edizione di oggi",
-        "rm": "Ediziun da oz",
+        "lmo": "Edizion de incoeu",
     },
     "read_edition": {
         "fr": "Lire l'édition →",
         "en": "Read edition →",
         "de": "Ausgabe lesen →",
         "it": "Leggi l'edizione →",
-        "rm": "Leger l'ediziun →",
+        "lmo": "Legi l'edizion →",
     },
     "empty": {
         "fr": "Aucune édition publiée pour le moment. Revenez demain matin.",
         "en": "No edition published yet. Come back tomorrow morning.",
         "de": "Noch keine Ausgabe veröffentlicht. Kommen Sie morgen früh wieder.",
         "it": "Nessuna edizione pubblicata per ora. Torna domani mattina.",
-        "rm": "Anc nagina ediziun publitgada. Returnai damaun damaun.",
+        "lmo": "Ancamò nessuna edizion publicaa. Torna doman matina.",
     },
     "description_template": {
         # Used in <meta description>, can stay FR for simplicity (search engines)
@@ -239,14 +239,14 @@ def render_index(editions):
         '<a href="#" data-lang="en">EN</a><span class="sep"> · </span>'
         '<a href="#" data-lang="de">DE</a><span class="sep"> · </span>'
         '<a href="#" data-lang="it">IT</a><span class="sep"> · </span>'
-        '<a href="#" data-lang="rm">RM</a>'
+        '<a href="#" data-lang="lmo">LMO</a>'
         '</nav>'
     )
 
     # JS for lang detection + switch (same logic as edition HTML)
     lang_js = """
 (function() {
-  var SUPPORTED = ['fr', 'en', 'de', 'it', 'rm'];
+  var SUPPORTED = ['fr', 'en', 'de', 'it', 'lmo'];
   var STORAGE_KEY = 'nt-lang';
   function detectLang() {
     var pref = null;
@@ -491,7 +491,7 @@ def render_index(editions):
   html[lang="en"] [data-i18n][lang]:not([lang="en"]) {{ display: none !important; }}
   html[lang="de"] [data-i18n][lang]:not([lang="de"]) {{ display: none !important; }}
   html[lang="it"] [data-i18n][lang]:not([lang="it"]) {{ display: none !important; }}
-  html[lang="rm"] [data-i18n][lang]:not([lang="rm"]) {{ display: none !important; }}
+  html[lang="lmo"] [data-i18n][lang]:not([lang="lmo"]) {{ display: none !important; }}
 
   @media (max-width: 720px) {{
     html {{ font-size: 14px; }}
