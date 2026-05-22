@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Neuron Times — 22 mai 2026</title>
 <meta name="description" content="Entre nouvelles fonctions produit, partenariat avec Dell et tunnel MCP sécurisé, OpenAI cherche à faire de Codex un agent de travail continu plutôt qu’un simple assistant de code.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root {
   --paper-bg: #f5efe1;
@@ -34,6 +36,13 @@ body {
     radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
     radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;  /* aligned with .paper padding-right (content edge) */
+  z-index: 2;
 }
 .masthead {
   text-align: center;
@@ -48,6 +57,18 @@ body {
   font-weight: 900;
   letter-spacing: -0.5px;
   font-variant: small-caps;
+}
+/* Brand title is a link to the index, but visually identical to the surrounding h1.
+   No underline, no color change, no hover state — preserves the broadsheet feel.
+   Cursor stays default (text) so it doesn't even look clickable until tested. */
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 .masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
 .masthead .meta {
@@ -125,6 +146,11 @@ body {
 .page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
 .page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
 .section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+/* Sibling sections within a page : add a clear vertical break + double-rule divider.
+   First section of a page keeps the page-label separation only ; subsequent
+   sections get this visual cue so the reader sees where I. ends and II. begins. */
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
 .section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
 .section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
 .section-1-col { columns: 1; }
@@ -132,8 +158,10 @@ body {
 .article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
 .article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
 .article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
-.article .body { font-size: 15px; }
-.article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
 .lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
 .lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
@@ -159,6 +187,7 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 
 @media (max-width: 720px) {
   .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
   .masthead h1 { font-size: 36px; }
   .section-3-cols, .section-2-cols { columns: 1; }
   .sidebar { grid-template-columns: 1fr; }
@@ -168,14 +197,14 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 </head>
 <body>
 <main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
   <header class="masthead">
-    <h1>The Neuron Times</h1>
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
     <p class="tagline"><span data-i18n lang="fr">Le quotidien de l’intelligence artificielle</span><span data-i18n lang="en">The daily newspaper of artificial intelligence</span><span data-i18n lang="de">Die Tageszeitung für künstliche Intelligenz</span><span data-i18n lang="it">Il quotidiano dell’intelligenza artificiale</span><span data-i18n lang="lmo">El quotidian de l'inteligenza artificiale</span></p>
     <div class="meta">
       <span>N° 142</span>
-      <span><span data-i18n lang="fr">22 mai 2026</span><span data-i18n lang="en">Friday, 22 May 2026</span><span data-i18n lang="de">Freitag, 22. Mai 2026</span><span data-i18n lang="it">22 maggio 2026</span><span data-i18n lang="lmo">22 de magg 2026</span></span>
       <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion de la mattina</span> · Genève</span>
-      <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav>
+      <span><span data-i18n lang="fr">22 mai 2026</span><span data-i18n lang="en">Friday, 22 May 2026</span><span data-i18n lang="de">Freitag, 22. Mai 2026</span><span data-i18n lang="it">22 maggio 2026</span><span data-i18n lang="lmo">22 de magg 2026</span></span>
     </div>
   </header>
 
@@ -230,7 +259,7 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 </section>
 <section class="page" data-page="4">
 <h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="lmo">Pagina 4 — </span><span data-i18n lang="fr">La Communauté & Édito</span><span data-i18n lang="en">Community & Editorial</span><span data-i18n lang="de">Die Community & Das Editorial</span><span data-i18n lang="it">La Comunità & Editoriale</span><span data-i18n lang="lmo">La Comunità e Editoriàl</span></h2>
-<div class="section section-2-cols">
+<div class="section section-3-cols">
 <h3 class="section-title">I. <span data-i18n lang="fr">Tour des labos</span><span data-i18n lang="en">Roundup from the labs</span><span data-i18n lang="de">Rundgang durch die Labors</span><span data-i18n lang="it">Giro dei laboratori</span><span data-i18n lang="lmo">Gir di laboratori</span></h3>
 <article class="article"><p class="kicker" data-i18n lang="fr">Modèle</p><p class="kicker" data-i18n lang="en">Model</p><p class="kicker" data-i18n lang="de">Modell</p><p class="kicker" data-i18n lang="it">Modello</p><p class="kicker" data-i18n lang="lmo">Modell</p><h4><span data-i18n lang="fr">DeepSeek-V4 preview arrive sur web et API</span><span data-i18n lang="en">DeepSeek-V4 preview arrives on web and API</span><span data-i18n lang="de">DeepSeek-V4 preview kommt auf Web und API</span><span data-i18n lang="it">DeepSeek-V4 preview arriva su web e API</span><span data-i18n lang="lmo">DeepSeek-V4 preview l'ariva su web e API</span></h4><p class="wire" data-i18n lang="fr">DeepSeek — édition du jour</p><p class="wire" data-i18n lang="en">DeepSeek — today’s edition</p><p class="wire" data-i18n lang="de">DeepSeek — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">DeepSeek — edizione del giorno</p><p class="wire" data-i18n lang="lmo">DeepSeek — edizion del dì</p><div class="body"><span data-i18n lang="fr">DeepSeek met en avant une préversion de DeepSeek-V4, présentée comme disponible dès maintenant sur le web, l’application et l’API, avec une hausse des capacités de raisonnement et d’agent. L’annonce apparaît directement sur la page d’accueil officielle, via un lien vers le billet de lancement sur WeChat : <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">source</a>.</span><span data-i18n lang="en">DeepSeek is highlighting a preview of DeepSeek-V4, presented as available now on the web, the app and the API, with stronger reasoning and agent capabilities. The announcement appears directly on the official homepage, via a link to the launch post on WeChat: <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">source</a>.</span><span data-i18n lang="de">DeepSeek stellt eine Vorabversion von DeepSeek-V4 heraus, die ab sofort im Web, in der App und über die API verfügbar sein soll, mit gesteigerten Fähigkeiten beim Reasoning und als Agent. Die Ankündigung erscheint direkt auf der offiziellen Startseite, über einen Link zum Launch-Beitrag auf WeChat: <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">Quelle</a>.</span><span data-i18n lang="it">DeepSeek mette in evidenza una preversione di DeepSeek-V4, presentata come disponibile già ora sul web, sull’applicazione e sull’API, con un aumento delle capacità di ragionamento e d’agente. L’annuncio compare direttamente sulla homepage ufficiale, tramite un link al post di lancio su WeChat: <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">fonte</a>.</span><span data-i18n lang="lmo">DeepSeek el met in evidenza ona preversion de DeepSeek-V4, presentada come disponibila adess su el web, l'aplicazion e l'API, con ona crescida di capacità de rasonament e d'agent. L'anunzi el compariss direttament in la pagina iniziala ufficiala, via on link al billet de lanci su WeChat : <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">fonte</a>.</span></div></article>
 <article class="article"><p class="kicker" data-i18n lang="fr">Produit</p><p class="kicker" data-i18n lang="en">Product</p><p class="kicker" data-i18n lang="de">Produkt</p><p class="kicker" data-i18n lang="it">Prodotto</p><p class="kicker" data-i18n lang="lmo">Prodott</p><h4><span data-i18n lang="fr">Grok ajoute des Skills sur web et mobile</span><span data-i18n lang="en">Grok adds Skills on web and mobile</span><span data-i18n lang="de">Grok erhält Skills auf Web und Mobilgeräten</span><span data-i18n lang="it">Grok aggiunge gli Skills su web e mobile</span><span data-i18n lang="lmo">Grok el zonta di Skills su web e mobile</span></h4><p class="wire" data-i18n lang="fr">xAI — édition du jour</p><p class="wire" data-i18n lang="en">xAI — today’s edition</p><p class="wire" data-i18n lang="de">xAI — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">xAI — edizione del giorno</p><p class="wire" data-i18n lang="lmo">xAI — edizion del dì</p><div class="body"><span data-i18n lang="fr">xAI a annoncé le 19 mai les “Skills”, des briques persistantes pour Grok destinées à automatiser des workflows et produire documents, présentations ou feuilles de calcul sur le web, iOS et Android. La société positionne aussi cette fonction comme un mécanisme de partage de compétences entre utilisateurs, selon <a href="https://x.ai/news/grok-skills">son billet officiel</a>.</span><span data-i18n lang="en">xAI announced on 19 May “Skills,” persistent building blocks for Grok designed to automate workflows and produce documents, presentations or spreadsheets on the web, iOS and Android. The company is also positioning the feature as a mechanism for sharing expertise among users, according to <a href="https://x.ai/news/grok-skills">its official post</a>.</span><span data-i18n lang="de">xAI hat am 19. Mai die «Skills» angekündigt, persistente Bausteine für Grok, die Workflows automatisieren und Dokumente, Präsentationen oder Tabellen im Web, auf iOS und Android erzeugen sollen. Das Unternehmen positioniert diese Funktion laut <a href="https://x.ai/news/grok-skills">seinem offiziellen Beitrag</a> zugleich als Mechanismus zum Teilen von Fähigkeiten zwischen Nutzern.</span><span data-i18n lang="it">xAI ha annunciato il 19 maggio gli “Skills”, moduli persistenti per Grok destinati ad automatizzare workflow e produrre documenti, presentazioni o fogli di calcolo su web, iOS e Android. La società posiziona inoltre questa funzione come un meccanismo di condivisione delle competenze tra utenti, secondo <a href="https://x.ai/news/grok-skills">il suo post ufficiale</a>.</span><span data-i18n lang="lmo">xAI l'ha anunziaa el 19 de magg i “Skills”, di tassell persistent per Grok destinà a automatizzà workflow e produss document, presentazion o fueuj de calcul su web, iOS e Android. La società la posiziona anca questa funzion come on mecanism de condivision de competenz tra utent, second <a href="https://x.ai/news/grok-skills">el sò billet ufficial</a>.</span></div></article>

@@ -5,9 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>The Neuron Times — 21 mai 2026</title>
 <meta name="description" content="Des mises à jour publiées cette nuit par Claude Code, Codex et Gemini CLI montrent un marché des outils de développement IA en phase d’industrialisation rapide, plus centré sur les sessions, l’automatisation et la fiabilité que sur les effets d’annonce.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <style>
 :root {
   --paper-bg: #f5efe1;
@@ -34,6 +36,13 @@ body {
     radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
     radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
   box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;  /* aligned with .paper padding-right (content edge) */
+  z-index: 2;
 }
 .masthead {
   text-align: center;
@@ -48,6 +57,18 @@ body {
   font-weight: 900;
   letter-spacing: -0.5px;
   font-variant: small-caps;
+}
+/* Brand title is a link to the index, but visually identical to the surrounding h1.
+   No underline, no color change, no hover state — preserves the broadsheet feel.
+   Cursor stays default (text) so it doesn't even look clickable until tested. */
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
 }
 .masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
 .masthead .meta {
@@ -125,6 +146,11 @@ body {
 .page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
 .page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
 .section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+/* Sibling sections within a page : add a clear vertical break + double-rule divider.
+   First section of a page keeps the page-label separation only ; subsequent
+   sections get this visual cue so the reader sees where I. ends and II. begins. */
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
 .section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
 .section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
 .section-1-col { columns: 1; }
@@ -132,8 +158,10 @@ body {
 .article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
 .article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
 .article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
-.article .body { font-size: 15px; }
-.article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
 footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
 .lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
 .lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
@@ -159,6 +187,7 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 
 @media (max-width: 720px) {
   .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
   .masthead h1 { font-size: 36px; }
   .section-3-cols, .section-2-cols { columns: 1; }
   .sidebar { grid-template-columns: 1fr; }
@@ -168,14 +197,14 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 </head>
 <body>
 <main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
   <header class="masthead">
-    <h1>The Neuron Times</h1>
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
     <p class="tagline"><span data-i18n lang="fr">Le quotidien de l'écosystème IA</span><span data-i18n lang="en">The daily newspaper of the AI ecosystem</span><span data-i18n lang="de">Die Tageszeitung des KI-Ökosystems</span><span data-i18n lang="it">Il quotidiano dell’ecosistema IA</span><span data-i18n lang="lmo">El quotidian de l'ecosistema IA</span></p>
     <div class="meta">
       <span>N° 141</span>
-      <span><span data-i18n lang="fr">21 mai 2026</span><span data-i18n lang="en">Thursday, 21 May 2026</span><span data-i18n lang="de">Donnerstag, 21. Mai 2026</span><span data-i18n lang="it">21 maggio 2026</span><span data-i18n lang="lmo">Gioedì, 21 de magg 2026</span></span>
       <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion del mattin</span> · Genève</span>
-      <nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav>
+      <span><span data-i18n lang="fr">21 mai 2026</span><span data-i18n lang="en">Thursday, 21 May 2026</span><span data-i18n lang="de">Donnerstag, 21. Mai 2026</span><span data-i18n lang="it">21 maggio 2026</span><span data-i18n lang="lmo">Gioedì, 21 de magg 2026</span></span>
     </div>
   </header>
 
@@ -235,7 +264,7 @@ html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !
 </section>
 <section class="page" data-page="4">
 <h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="lmo">Pagina 4 — </span><span data-i18n lang="fr">La Communauté & Édito</span><span data-i18n lang="en">Community & Editorial</span><span data-i18n lang="de">Community & Leitartikel</span><span data-i18n lang="it">La Comunità & Editoriale</span><span data-i18n lang="lmo">La Comunità e Editoriàl</span></h2>
-<div class="section section-2-cols">
+<div class="section section-3-cols">
 <h3 class="section-title">I. <span data-i18n lang="fr">Tour des labos</span><span data-i18n lang="en">Round-up of the labs</span><span data-i18n lang="de">Rundgang durch die Labore</span><span data-i18n lang="it">Giro dei laboratori</span><span data-i18n lang="lmo">Giro di laboratori</span></h3>
 <article class="article"><p class="kicker" data-i18n lang="fr">Modèle</p><p class="kicker" data-i18n lang="en">Model</p><p class="kicker" data-i18n lang="de">Modell</p><p class="kicker" data-i18n lang="it">Modello</p><p class="kicker" data-i18n lang="lmo">Modell</p><h4><span data-i18n lang="fr">DeepSeek-V4 preview déployé sur web, app et API</span><span data-i18n lang="en">DeepSeek-V4 preview deployed on web, app and API</span><span data-i18n lang="de">DeepSeek-V4 preview auf Web, App und API ausgerollt</span><span data-i18n lang="it">DeepSeek-V4 preview distribuito su web, app e API</span><span data-i18n lang="lmo">DeepSeek-V4 preview dispiegaa su web, app e API</span></h4><p class="wire" data-i18n lang="fr">DeepSeek — édition du jour</p><p class="wire" data-i18n lang="en">DeepSeek — today’s edition</p><p class="wire" data-i18n lang="de">DeepSeek — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">DeepSeek — edizione del giorno</p><p class="wire" data-i18n lang="lmo">DeepSeek — edizion del dì</p><div class="body"><span data-i18n lang="fr">DeepSeek met en avant une préversion de DeepSeek-V4, présentée comme disponible dès maintenant sur le web, l’application et l’API, avec une hausse revendiquée des capacités de raisonnement et d’agent. L’annonce apparaît directement sur la page d’accueil du labo via un <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">lien WeChat</a> mis en avant aujourd’hui.</span><span data-i18n lang="en">DeepSeek is highlighting a preview of DeepSeek-V4, presented as available now on the web, the app and the API, with claimed gains in reasoning and agent capabilities. The announcement appears directly on the lab’s homepage through a <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">WeChat link</a> featured today.</span><span data-i18n lang="de">DeepSeek hebt eine Vorabversion von DeepSeek-V4 hervor, die ab sofort im Web, in der App und über die API verfügbar sein soll, verbunden mit einem beanspruchten Zuwachs an Reasoning- und Agentenfähigkeiten. Die Ankündigung erscheint direkt auf der Startseite des Labors über einen heute hervorgehobenen <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">WeChat-Link</a>.</span><span data-i18n lang="it">DeepSeek mette in evidenza una preview di DeepSeek-V4, presentata come disponibile fin d’ora sul web, nell’applicazione e tramite API, con un aumento rivendicato delle capacità di ragionamento e agentiche. L’annuncio compare direttamente sulla homepage del laboratorio tramite un <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">link WeChat</a> messo in evidenza oggi.</span><span data-i18n lang="lmo">DeepSeek el mett in evidenza ona preversion de DeepSeek-V4, presentaa come disponibila adess sul web, l’aplicazion e l’API, con ona crescida rivendicada di capacità de rasonament e d’agent. L’anunzi el compariss direttament su la pagina inizial del laboratori via on <a href="https://mp.weixin.qq.com/s/8bxXqS2R8Fx5-1TLDBiEDg">link WeChat</a> mettuu in evidenza incoeu.</span></div></article>
 <article class="article"><p class="kicker" data-i18n lang="fr">Benchmark</p><p class="kicker" data-i18n lang="en">Benchmark</p><p class="kicker" data-i18n lang="de">Benchmark</p><p class="kicker" data-i18n lang="it">Benchmark</p><p class="kicker" data-i18n lang="lmo">Benchmark</p><h4><span data-i18n lang="fr">IBM Research publie un Open Agent Leaderboard</span><span data-i18n lang="en">IBM Research publishes an Open Agent Leaderboard</span><span data-i18n lang="de">IBM Research veröffentlicht ein Open Agent Leaderboard</span><span data-i18n lang="it">IBM Research pubblica un Open Agent Leaderboard</span><span data-i18n lang="lmo">IBM Research el publica on Open Agent Leaderboard</span></h4><p class="wire" data-i18n lang="fr">Hugging Face — édition du jour</p><p class="wire" data-i18n lang="en">Hugging Face — today’s edition</p><p class="wire" data-i18n lang="de">Hugging Face — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">Hugging Face — edizione del giorno</p><p class="wire" data-i18n lang="lmo">Hugging Face — edizion del dì</p><div class="body"><span data-i18n lang="fr">Le blog de Hugging Face relaie une nouvelle entrée consacrée à un classement ouvert pour évaluer les agents, portée par IBM Research. Publié le 18 mai, le billet <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">The Open Agent Leaderboard</a> ajoute un point de comparaison exploitable pour les équipes qui suivent les performances agentiques hors benchmarks fermés.</span><span data-i18n lang="en">The Hugging Face blog relays a new entry devoted to an open ranking for evaluating agents, led by IBM Research. Published on 18 May, the post <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">The Open Agent Leaderboard</a> adds a usable point of comparison for teams tracking agentic performance outside closed benchmarks.</span><span data-i18n lang="de">Der Blog von Hugging Face verweist auf einen neuen Eintrag zu einem offenen Ranking zur Bewertung von Agenten, getragen von IBM Research. Der am 18. Mai veröffentlichte Beitrag <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">The Open Agent Leaderboard</a> fügt einen nutzbaren Vergleichspunkt für Teams hinzu, die agentische Leistungen ausserhalb geschlossener Benchmarks verfolgen.</span><span data-i18n lang="it">Il blog di Hugging Face rilancia una nuova voce dedicata a una classifica aperta per valutare gli agenti, promossa da IBM Research. Pubblicato il 18 maggio, l’articolo <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">The Open Agent Leaderboard</a> aggiunge un punto di confronto utilizzabile per i team che seguono le prestazioni agentiche al di fuori dei benchmark chiusi.</span><span data-i18n lang="lmo">El blog de Hugging Face el rilancia ona nova intrada dedicadaa a ona classifica averta per valutà i agents, portada inanz de IBM Research. Publicaa el 18 de magg, el pezz <a href="https://huggingface.co/blog/ibm-research/open-agent-leaderboard">The Open Agent Leaderboard</a> el gionta on pont de confront sfruttabil per i equip che seguiten i performance agentich fòra di benchmark serraa.</span></div></article>
