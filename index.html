@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Neuron Times — Archive</title>
+<title>The Neuron Times</title>
 <meta name="description" content="Daily AI watch newspaper. 3 éditions publiées. Dernière : 22 mai 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -95,6 +95,57 @@
   .archive-intro strong { font-weight: 700; color: #0c0c0c; }
   .archive-intro a { color: #6b0f0f; text-decoration: none; border-bottom: 1px solid currentColor; }
   .archive-intro a:hover { color: #0c0c0c; }
+  .weekly-section {
+    background: #f4e8c8;
+    border: 1px solid #b8af96;
+    padding: 1.6rem 1.8rem 2rem;
+    margin: 0 0 2rem;
+    position: relative;
+  }
+  .weekly-section::before {
+    content: '';
+    display: block;
+    border-top: 4px double #6b0f0f;
+    margin-bottom: 1rem;
+  }
+  .weekly-section-header {
+    text-align: center;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(107, 15, 15, 0.35);
+  }
+  .weekly-section-title {
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6b0f0f;
+    margin: 0 0 0.6rem;
+    font-weight: 600;
+  }
+  .weekly-section-intro {
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.4;
+  }
+  .weekly-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 1.5rem;
+  }
+  .card-weekly {
+    border: 2px solid #6b0f0f;
+    background: #faf3df;
+  }
+  .card-weekly .card-kicker { color: #6b0f0f; }
+  .card-weekly .card-cta { color: #6b0f0f; }
+  .card-weekly:hover {
+    box-shadow: 0 6px 22px rgba(107, 15, 15, 0.18);
+  }
   .archive-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -219,6 +270,9 @@
     .paper { padding: 1.5rem; margin: 0; }
     .masthead h1 { font-size: 2.8rem; }
     .archive-grid { grid-template-columns: 1fr; }
+    .weekly-grid { grid-template-columns: 1fr; }
+    .weekly-section { padding: 1.2rem 1rem 1.4rem; }
+    .weekly-section-title { font-size: 1.1rem; letter-spacing: 2px; }
     .dateline { flex-direction: column; gap: 8px; }
   }
 </style>
@@ -244,6 +298,8 @@
     <span data-i18n lang="fr"><strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux communauté. Cliquez sur une édition pour la lire en intégralité.</span><span data-i18n lang="en"><strong>The Neuron Times</strong> publishes every morning a synthesis of notable signals from the AI ecosystem — frontier models, coding agents, infrastructure, research, community signals. Click on an edition to read it in full.</span><span data-i18n lang="de"><strong>The Neuron Times</strong> veröffentlicht jeden Morgen eine Synthese bemerkenswerter Signale aus dem KI-Ökosystem — Frontier-Modelle, Coding-Agenten, Infrastruktur, Forschung, Community-Signale. Klicken Sie auf eine Ausgabe, um sie vollständig zu lesen.</span><span data-i18n lang="it"><strong>The Neuron Times</strong> pubblica ogni mattina una sintesi dei segnali notevoli dell'ecosistema AI — modelli di frontiera, agenti di codifica, infrastruttura, ricerca, segnali della comunità. Clicca su un'edizione per leggerla integralmente.</span><span data-i18n lang="lmo"><strong>The Neuron Times</strong> el publica tüti i matin ona sintesi di signai notabei de l'ecosistem de l'intelligenza artificiala — modei de frontera, agent de codifica, infrastrutura, ricerca, signai de la comunità. Clicca su on'edizion per legela tüta intrega.</span>
     <br><br><span data-i18n lang="fr">Édition du jour</span><span data-i18n lang="en">Today's edition</span><span data-i18n lang="de">Heutige Ausgabe</span><span data-i18n lang="it">Edizione di oggi</span><span data-i18n lang="lmo">Edizion de incoeu</span> : <a href="latest.html"><span data-i18n lang="fr">22 mai 2026</span><span data-i18n lang="en">Friday, 22 May 2026</span><span data-i18n lang="de">Freitag, 22. Mai 2026</span><span data-i18n lang="it">22 maggio 2026</span><span data-i18n lang="lmo">22 de magg 2026</span></a>
   </p>
+
+  
 
   <main class="archive-grid">
     
