@@ -2,66 +2,70 @@
 
 > All the AI that's fit to print
 
-Votre édition quotidienne de la veille IA, condensée dans un journal broadsheet old-school. Publiée tous les matins à 7h CET.
+**Le quotidien broadsheet de l'intelligence artificielle.** Chaque matin à 7h, une édition complète qui synthétise ce qui compte vraiment dans l'écosystème IA — modèles frontière, agents de codage, infrastructure d'inférence, recherche, signaux de la communauté.
 
-**→ [https://neuron-times.com](https://neuron-times.com)**
+**→ [neuron-times.com](https://neuron-times.com)** · alias [the-ai-loop.com](https://the-ai-loop.com)
+
+---
 
 ## L'idée
 
-L'écosystème IA produit plus de signal en une semaine qu'un humain peut absorber en un mois. Twitter, arXiv, Hugging Face, blogs labos, GitHub releases : la veille devient un travail à temps plein.
+L'écosystème IA produit plus d'information en une semaine qu'un humain peut absorber en un mois. Twitter, arXiv, Hugging Face, blogs des labos, releases GitHub : suivre la veille devient un travail à temps plein.
 
-Ce site lit pour vous. Chaque matin, une centaine de sources sont parcourues, classées, et synthétisées en une édition au format broadsheet. Les annonces majeures en Une, les signaux secondaires en sidebar, les analyses techniques en pages intérieures.
+The Neuron Times lit pour vous. Plus d'une centaine de sources canoniques sont parcourues chaque matin, hiérarchisées, et condensées dans une édition au format broadsheet inspiré des grands quotidiens du XIXᵉ siècle.
 
-Objectif : 5 minutes de lecture le matin = veille IA à jour pour la journée.
+**5 minutes de lecture au café = veille IA à jour pour la journée.**
 
-## Ce que vous trouvez chaque jour
+## Ce que vous trouvez chaque matin
 
-- **À la Une** : un papier long sur l'annonce du jour (release de modèle, M&A, breakthrough recherche)
-- **From the Wires** : 4 signaux majeurs en bref
-- **Modèles & Frontière** : annonces des labos frontière (Anthropic, OpenAI, Google/DeepMind, Meta, Mistral, DeepSeek, xAI)
-- **Le Cahier Technique** : agents, CLI, inference engines, dev tools
-- **La Recherche** : papers et benchmarks
-- **Tour des labos** : signaux des labos non-frontière (Apple ML, HuggingFace, Microsoft Research, Cloudflare AI, Modal, Together, Nous Research, IBM Research, NVIDIA, etc.)
-- **Écosystème & Édito** : signaux community + édito transversal
+- **À la Une** — l'annonce structurante du jour, traitée comme un long article (release de modèle, breakthrough recherche, opération majeure d'industrie).
+- **From the Wires** — 4 signaux notables en brèves, pour ne rien rater.
+- **Modèles & Frontière** — les annonces des labos de tête : Anthropic, OpenAI, Google DeepMind, Meta, Mistral, DeepSeek, xAI, Alibaba, etc.
+- **Le Cahier Technique** — agents de codage, CLI, moteurs d'inférence, outils dev. Tout ce qui change le quotidien des praticiens.
+- **La Recherche** — les papers du jour et les leaderboards qui bougent.
+- **Tour des Labos** — les outsiders : Apple ML, Hugging Face, Microsoft Research, Cloudflare Workers AI, Nous Research, IBM Research, NVIDIA…
+- **Écosystème & Édito** — signaux communautaires + une analyse transversale en clôture.
 
-Ton journalistique, sources cliquables vers les annonces originales.
+Ton journalistique, sources cliquables vers les annonces originales. Pas de hype, pas de buzzwords.
+
+## Édition hebdomadaire — le récap du lundi
+
+Chaque lundi matin à 6h, une **édition hebdo** récapitule les sept jours écoulés avec un angle différent : arc narratif de la semaine, mise en perspective, édito long en clôture. Idéale pour ceux qui n'ont pas le temps de lire tous les jours mais veulent rester à niveau.
 
 ## Multilingue — 5 langues
 
-Chaque édition est publiée simultanément dans **5 langues**, avec un sélecteur dans le masthead :
+Chaque édition est publiée simultanément dans **cinq langues**, sélectionnables en un clic depuis le coin haut-droit :
 
-- **FR** — français (langue source)
-- **EN** — anglais (international)
-- **DE** — allemand (suisse standard)
-- **IT** — italien (suisse standard)
-- **LMO** — lombard (langue gallo-italique parlée au Tessin suisse et en Lombardie italienne)
+| Code | Langue |
+|---|---|
+| **FR** | Français — langue source |
+| **EN** | Anglais international |
+| **DE** | Allemand (suisse standard) |
+| **IT** | Italien (suisse standard) |
+| **LMO** | Lombard — langue gallo-italique du Tessin et de Lombardie |
 
-La langue active est **auto-détectée** au premier load via `navigator.language` du navigateur. L'utilisateur peut la **changer** en cliquant sur un code dans le sélecteur ; la préférence est persistée en `localStorage` pour les visites suivantes. Switch instantané sans rechargement de page (cascade CSS sur `<html lang="...">`).
+La langue est auto-détectée au premier passage et mémorisée pour les visites suivantes. Switch instantané, sans rechargement.
 
-Tous les fichiers `editions/YYYY-MM-DD.json` ont un schéma `multilingual-v1` avec chaque champ texte exprimé en objet `{fr, en, de, it, lmo}`.
+## Pour qui
 
-## Format
-
-Static HTML servi via GitHub Pages, custom domain, HTTPS Let's Encrypt. Tout est versionné :
-
-- `editions/YYYY-MM-DD.html` pour chaque édition (HTML self-contained, ~80-150 KB raw, ~30-40 KB gzippé)
-- `editions/YYYY-MM-DD.json` pour les données structurées multilingues (parsing programmatique, RSS futur, etc.)
-- `latest.html` : miroir de la dernière édition (URL stable)
-- `index.html` : archives chronologiques, regénéré par GitHub Actions à chaque push
-
-Self-contained : CSS inline, JS minimal (lang detection + sélecteur + thème), Google Fonts via CDN. Fonctionne offline une fois la page chargée.
+- Les **CTO, Tech Leads et ingénieurs IA** qui veulent rester à jour sans y consacrer leur matinée.
+- Les **chercheurs et analystes** qui suivent les leaderboards et les releases en temps quasi-réel.
+- Les **journalistes et investisseurs** qui ont besoin d'une vue d'ensemble structurée du marché.
+- Les **curieux** qui veulent un point d'entrée propre dans l'actualité IA.
 
 ## Archives
 
-Toutes les éditions passées sont indexées sur la [page d'accueil](https://neuron-times.com) et disponibles dans le dossier [`editions/`](./editions/) du repo.
+Toutes les éditions passées restent accessibles depuis [la page d'accueil](https://neuron-times.com). Les éditions hebdomadaires sont mises en avant en haut de l'index, les éditions quotidiennes archivées en dessous.
 
-## Roadmap (non shipped)
+## Lectures de référence
 
-- Thèmes commutables : 4 esthétiques broadsheet historiques (Times Victorien, Le Monde Classique, Almanach Sépia, Gazette du Soir) avec switcher persisté
-- Effet de flip 3D entre les pages (multi-pages navigables)
-- Flux RSS / Atom (`feed.xml`)
-- OG meta tags pour partage LinkedIn / Twitter (image OG dynamique masthead + headline du jour)
+- [Mustachian Post](https://www.mustachianpost.com/) · [The Poor Swiss](https://thepoorswiss.com/) — pour la culture financière.
+- [Stratechery](https://stratechery.com/) · [The Decoder](https://the-decoder.com/) · [MarkTechPost](https://www.marktechpost.com/) — pour le contexte business et la couverture éditoriale internationale.
 
-## License
+## Mentions
 
-Le contenu des éditions est synthétisé depuis des sources publiques avec liens d'attribution. Le design (HTML, CSS) est original.
+Le contenu éditorial est synthétisé depuis des sources publiques avec attribution explicite via liens cliquables. Le design (HTML, CSS, typographie) est original.
+
+---
+
+*« All the AI that's fit to print. »*
