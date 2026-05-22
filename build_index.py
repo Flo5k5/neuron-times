@@ -20,6 +20,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).parent
 EDITIONS_DIR = ROOT / "editions"
+WEEKLY_DIR = ROOT / "weekly"
 INDEX_PATH = ROOT / "index.html"
 LATEST_PATH = ROOT / "latest.html"
 
@@ -88,6 +89,27 @@ STATIC = {
         # Used in <meta description>, can stay FR for simplicity (search engines)
         "fr": "Daily AI watch newspaper. {n} éditions publiées. Dernière : {last}.",
     },
+    "weekly_edition": {
+        "fr": "Édition hebdomadaire",
+        "en": "Weekly Edition",
+        "de": "Wöchentliche Ausgabe",
+        "it": "Edizione settimanale",
+        "lmo": "Edizion de la setemana",
+    },
+    "weekly_section_title": {
+        "fr": "Le récap de la semaine",
+        "en": "This Week's Recap",
+        "de": "Wochenrückblick",
+        "it": "Il riepilogo della settimana",
+        "lmo": "El ripiccol de la setemana",
+    },
+    "weekly_section_intro": {
+        "fr": "Chaque lundi matin, une rétrospective des sept derniers jours pour ne rien rater de ce qui a structuré la semaine en intelligence artificielle.",
+        "en": "Every Monday morning, a retrospective of the past seven days so you don't miss what shaped the week in artificial intelligence.",
+        "de": "Jeden Montagmorgen ein Rückblick auf die letzten sieben Tage, damit Sie nichts verpassen, was die Woche in der künstlichen Intelligenz geprägt hat.",
+        "it": "Ogni lunedì mattina, una retrospettiva degli ultimi sette giorni per non perdere ciò che ha caratterizzato la settimana nell'intelligenza artificiale.",
+        "lmo": "Tüti i lunedì matin, ona retrospetiva di sett dì pasaa per minga perd quel che a strutturaa la setemana de l'intelligenza artificiala.",
+    },
 }
 
 
@@ -130,12 +152,17 @@ def ml(field, key_for_static: str = None) -> str:
         return f'<span>{escape(str(field))}</span>'
 
 
-def load_editions():
-    """Charge tous les editions/*.json en liste de dicts.
-    Preserve les fields tel quel (dict si multilingual, string si mono).
+def _load_from_dir(dir_path, is_weekly: bool):
+    """
+    Load all *.json files from a given directory (editions/ or weekly/).
+    Returns a list of edition dicts enriched with is_weekly + folder fields.
+    Preserves multilingual structure (dict per field when applicable).
     """
     editions = []
-    for json_path in sorted(EDITIONS_DIR.glob("*.json")):
+    if not dir_path.exists():
+        return editions
+    folder_name = "weekly" if is_weekly else "editions"
+    for json_path in sorted(dir_path.glob("*.json")):
         try:
             data = json.loads(json_path.read_text(encoding="utf-8"))
             edition = data.get("edition", {})
@@ -150,6 +177,8 @@ def load_editions():
                 "subdeck": lead.get("subdeck", ""),
                 "json_filename": json_path.name,
                 "html_filename": json_path.stem + ".html",
+                "is_weekly": is_weekly,
+                "folder": folder_name,
             })
         except (json.JSONDecodeError, KeyError) as e:
             print(f"[warn] skipping {json_path.name}: {e}", file=sys.stderr)
@@ -158,14 +187,30 @@ def load_editions():
     return editions
 
 
-def update_latest(editions):
-    """Copie l'édition HTML la plus récente vers latest.html."""
-    if not editions:
+def load_editions():
+    """Charge dailies (editions/) et weeklies (weekly/) séparément.
+
+    Retourne `(dailies, weeklies)` — deux listes triées par date_iso desc.
+    Permet à `render_index()` de placer les weeklies dans une section dédiée
+    et de tenir le compte « éditions archivées » uniquement sur les dailies.
+    """
+    dailies = _load_from_dir(EDITIONS_DIR, is_weekly=False)
+    weeklies = _load_from_dir(WEEKLY_DIR, is_weekly=True)
+    return dailies, weeklies
+
+
+def update_latest(dailies):
+    """Copie l'édition DAILY la plus récente vers latest.html.
+
+    Reçoit `dailies` uniquement (pas les weeklies) — `latest.html` reste
+    le point d'entrée vers la dernière édition quotidienne, jamais l'hebdo.
+    """
+    if not dailies:
         return
-    latest_html = EDITIONS_DIR / editions[0]["html_filename"]
+    latest_html = EDITIONS_DIR / dailies[0]["html_filename"]
     if latest_html.exists():
         LATEST_PATH.write_text(latest_html.read_text(encoding="utf-8"), encoding="utf-8")
-        print(f"[ok] latest.html updated → {editions[0]['html_filename']}")
+        print(f"[ok] latest.html updated → {dailies[0]['html_filename']}")
     else:
         print(f"[warn] {latest_html} not found, latest.html not updated", file=sys.stderr)
 
@@ -185,9 +230,11 @@ def render_card(edition):
     kicker_div = f'<div class="card-kicker">{ml(edition["kicker"])}</div>' if edition["kicker"] else ""
     subdeck_p = f'<p class="card-subdeck">{ml(edition["subdeck"])}</p>' if edition["subdeck"] else ""
 
+    folder = edition.get("folder", "editions")
+    card_class = "card card-weekly" if edition.get("is_weekly") else "card"
     return f"""
-    <article class="card">
-      <a href="editions/{escape(edition['html_filename'])}" class="card-link">
+    <article class="{card_class}">
+      <a href="{folder}/{escape(edition['html_filename'])}" class="card-link">
         <div class="card-meta">
           <span class="card-date">{ml(edition['date_long'])}</span>
           {num_span}
@@ -200,13 +247,40 @@ def render_card(edition):
     </article>"""
 
 
-def render_index(editions):
-    """Génère le HTML complet de index.html (multilingue, thème Times Victorien)."""
-    cards_html = "\n".join(render_card(e) for e in editions) if editions else f"""
+def render_weekly_section(weeklies):
+    """Render a dedicated 'Hebdo' section that sits above the daily grid.
+
+    Returns "" if there are no weeklies (won't add an empty bloc to the page).
+    """
+    if not weeklies:
+        return ""
+    cards_html = "\n".join(render_card(w) for w in weeklies)
+    return f"""
+  <section class="weekly-section">
+    <header class="weekly-section-header">
+      <h2 class="weekly-section-title">{ml(None, key_for_static='weekly_section_title')}</h2>
+      <p class="weekly-section-intro">{ml(None, key_for_static='weekly_section_intro')}</p>
+    </header>
+    <div class="weekly-grid">
+      {cards_html}
+    </div>
+  </section>"""
+
+
+def render_index(dailies, weeklies):
+    """Génère le HTML complet de index.html (multilingue, thème Times Victorien).
+
+    `dailies` alimente la grille principale + le compte « éditions archivées ».
+    `weeklies` alimente une section dédiée splice-ée entre l'archive-intro
+    et la archive-grid (au-dessus des dailies).
+    """
+    cards_html = "\n".join(render_card(e) for e in dailies) if dailies else f"""
     <p class="empty">{ml(None, key_for_static='empty')}</p>"""
 
-    total = len(editions)
-    latest_date_field = editions[0]["date_long"] if editions else None
+    weekly_section_html = render_weekly_section(weeklies)
+
+    total = len(dailies)
+    latest_date_field = dailies[0]["date_long"] if dailies else None
     latest_date_fr = t_fr(latest_date_field) if latest_date_field else ""
 
     # Archive count : pluralize per language
@@ -282,7 +356,7 @@ def render_index(editions):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>The Neuron Times — Archive</title>
+<title>The Neuron Times</title>
 <meta name="description" content="{description}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -374,6 +448,57 @@ def render_index(editions):
   .archive-intro strong {{ font-weight: 700; color: #0c0c0c; }}
   .archive-intro a {{ color: #6b0f0f; text-decoration: none; border-bottom: 1px solid currentColor; }}
   .archive-intro a:hover {{ color: #0c0c0c; }}
+  .weekly-section {{
+    background: #f4e8c8;
+    border: 1px solid #b8af96;
+    padding: 1.6rem 1.8rem 2rem;
+    margin: 0 0 2rem;
+    position: relative;
+  }}
+  .weekly-section::before {{
+    content: '';
+    display: block;
+    border-top: 4px double #6b0f0f;
+    margin-bottom: 1rem;
+  }}
+  .weekly-section-header {{
+    text-align: center;
+    margin-bottom: 1.4rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(107, 15, 15, 0.35);
+  }}
+  .weekly-section-title {{
+    font-family: 'Cinzel', serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #6b0f0f;
+    margin: 0 0 0.6rem;
+    font-weight: 600;
+  }}
+  .weekly-section-intro {{
+    font-family: 'Old Standard TT', serif;
+    font-style: italic;
+    font-size: 0.95rem;
+    color: #4a4a4a;
+    max-width: 640px;
+    margin: 0 auto;
+    line-height: 1.4;
+  }}
+  .weekly-grid {{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 1.5rem;
+  }}
+  .card-weekly {{
+    border: 2px solid #6b0f0f;
+    background: #faf3df;
+  }}
+  .card-weekly .card-kicker {{ color: #6b0f0f; }}
+  .card-weekly .card-cta {{ color: #6b0f0f; }}
+  .card-weekly:hover {{
+    box-shadow: 0 6px 22px rgba(107, 15, 15, 0.18);
+  }}
   .archive-grid {{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -498,6 +623,9 @@ def render_index(editions):
     .paper {{ padding: 1.5rem; margin: 0; }}
     .masthead h1 {{ font-size: 2.8rem; }}
     .archive-grid {{ grid-template-columns: 1fr; }}
+    .weekly-grid {{ grid-template-columns: 1fr; }}
+    .weekly-section {{ padding: 1.2rem 1rem 1.4rem; }}
+    .weekly-section-title {{ font-size: 1.1rem; letter-spacing: 2px; }}
     .dateline {{ flex-direction: column; gap: 8px; }}
   }}
 </style>
@@ -524,6 +652,8 @@ def render_index(editions):
     {today_link}
   </p>
 
+  {weekly_section_html}
+
   <main class="archive-grid">
     {cards_html}
   </main>
@@ -545,13 +675,13 @@ def main():
         print(f"[err] editions/ directory not found at {EDITIONS_DIR}", file=sys.stderr)
         sys.exit(1)
 
-    editions = load_editions()
-    print(f"[info] {len(editions)} editions found")
+    dailies, weeklies = load_editions()
+    print(f"[info] {len(dailies)} daily editions + {len(weeklies)} weekly editions found")
 
-    INDEX_PATH.write_text(render_index(editions), encoding="utf-8")
-    print(f"[ok] index.html generated ({len(editions)} cards, {INDEX_PATH.stat().st_size} bytes)")
+    INDEX_PATH.write_text(render_index(dailies, weeklies), encoding="utf-8")
+    print(f"[ok] index.html generated ({len(dailies)} daily + {len(weeklies)} weekly cards, {INDEX_PATH.stat().st_size} bytes)")
 
-    update_latest(editions)
+    update_latest(dailies)
 
 
 if __name__ == "__main__":
