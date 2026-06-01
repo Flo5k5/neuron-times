@@ -1,0 +1,737 @@
+{
+  "edition": {
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "tagline": {
+      "fr": "L'actualité de l'IA, sans filtre — chaque jour.",
+      "en": "AI news, unfiltered — every day.",
+      "de": "KI-Nachrichten, ungefiltert – jeden Tag.",
+      "it": "L'attualità dell'IA, senza filtri — ogni giorno.",
+      "lmo": "La notizia de l'IA, senza filtro — ogni dì."
+    },
+    "num": 152,
+    "date_long": {
+      "fr": "lundi 1er juin 2026",
+      "en": "Monday, 1 June 2026",
+      "de": "Montag, 1. Juni 2026",
+      "it": "lunedì 1° giugno 2026",
+      "lmo": "lunedì 1 de giugn 2026"
+    },
+    "date_iso": "2026-06-01",
+    "edition_type": {
+      "fr": "Édition du matin",
+      "en": "Morning Edition",
+      "de": "Morgenausgabe",
+      "it": "Edizione del mattino",
+      "lmo": "Edizion del matin"
+    },
+    "city": "Genève",
+    "motto": "All the AI that's fit to print"
+  },
+  "lead": {
+    "kicker": {
+      "fr": "À la Une · Modèles fondation",
+      "en": "Front Page · Foundation Models",
+      "de": "Aufmacher · Foundation-Modelle",
+      "it": "In prima pagina · Modelli fondazionali",
+      "lmo": "À la Une · Modell fondazion"
+    },
+    "headline": {
+      "fr": "NVIDIA dévoile Cosmos 3, le premier « omni-modèle » ouvert dédié à l'IA physique",
+      "en": "NVIDIA Unveils Cosmos 3, the First Open 'Omni-Model' for Physical AI",
+      "de": "NVIDIA stellt Cosmos 3 vor, das erste offene «Omni-Modell» für Physical AI",
+      "it": "NVIDIA presenta Cosmos 3, il primo « omni-modello » aperto dedicato all'IA fisica",
+      "lmo": "NVIDIA el desvela Cosmos 3, el prim « omni-modell » vert dervii per l'IA fisica"
+    },
+    "subdeck": {
+      "fr": "Le nouveau modèle de raisonnement et d'action pour la robotique et les mondes simulés est disponible en open source sur Hugging Face.",
+      "en": "The new reasoning and action model for robotics and simulated worlds is available as open source on Hugging Face.",
+      "de": "Das neue Reasoning- und Action-Modell für Robotik und simulierte Welten ist auf Hugging Face als Open Source verfügbar.",
+      "it": "Il nuovo modello di ragionamento e azione per la robotica e i mondi simulati è disponibile in open source su Hugging Face.",
+      "lmo": "El noeuv model de raxonament e de azion per la robotica e i mond simulaa l'è disponibel open source sora Hugging Face."
+    },
+    "byline": {
+      "fr": "De la rédaction — 1er juin 2026",
+      "en": "From the editorial team — 1 June 2026",
+      "de": "Von der Redaktion — 1. Juni 2026",
+      "it": "Dalla redazione — 1° giugno 2026",
+      "lmo": "De la redazion — 1 de giugn 2026"
+    },
+    "paragraphs": [
+      {
+        "fr": "NVIDIA a publié ce lundi <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, présenté comme le premier « omni-modèle » ouvert conçu pour l'IA physique — couvrant le raisonnement spatial, la compréhension des scènes dynamiques et la génération d'actions motrices dans des environnements simulés et réels. Disponible sur Hugging Face, Cosmos 3 unifie pour la première fois la perception visuelle, la simulation causale et la planification de mouvement au sein d'une seule architecture entièrement ouverte.",
+        "en": "NVIDIA released on Monday <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presented as the first open 'omni-model' designed for physical AI — covering spatial reasoning, dynamic scene understanding, and motor action generation in simulated and real environments. Available on Hugging Face, Cosmos 3 unifies for the first time visual perception, causal simulation, and motion planning within a single fully open architecture.",
+        "de": "NVIDIA hat am Montag <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a> veröffentlicht, das als erstes offenes «Omni-Modell» für Physical AI gilt – es umfasst räumliches Reasoning, das Verständnis dynamischer Szenen und die Generierung motorischer Aktionen in simulierten und realen Umgebungen. Cosmos 3 vereint auf Hugging Face erstmals visuelle Wahrnehmung, kausale Simulation und Bewegungsplanung in einer einzigen vollständig offenen Architektur.",
+        "it": "NVIDIA ha pubblicato questo lunedì <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presentato come il primo « omni-modello » aperto progettato per l'IA fisica — coprendo il ragionamento spaziale, la comprensione delle scene dinamiche e la generazione di azioni motorie in ambienti simulati e reali. Disponibile su Hugging Face, Cosmos 3 unifica per la prima volta la percezione visiva, la simulazione causale e la pianificazione del movimento in un'unica architettura completamente aperta.",
+        "lmo": "NVIDIA l'ha publicaa incheu <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presentaa come el prim « omni-modell » vert dervii per l'IA fisica — che l'include el raxonament spazial, la comprension di scen dinamegh e la generazion d'azion motor in di ambient simulaa e reai. Disponibil sora Hugging Face, Cosmos 3 el unifega per la prima voeulta la percezion visual, la simulazion causal e la pianificazion del moviment denter in d'ona sola architettura intrega verta."
+      },
+      {
+        "fr": "Contrairement aux modèles linguistiques ou multimodaux classiques, Cosmos 3 intègre des capacités de « physique de sens commun » : il peut anticiper les conséquences d'une action dans une scène, raisonner sur les contraintes mécaniques d'un objet et générer des séquences de contrôle pour un bras robotique à partir d'une simple instruction textuelle. Les premiers benchmarks communiqués par NVIDIA montrent des gains significatifs sur les tâches de manipulation, de navigation et de prédiction de trajectoire par rapport aux approches modulaires antérieures.",
+        "en": "Unlike traditional language or multimodal models, Cosmos 3 integrates 'common sense physics' capabilities: it can anticipate the consequences of an action in a scene, reason about the mechanical constraints of an object, and generate control sequences for a robotic arm from a simple text instruction. Initial benchmarks released by NVIDIA show significant gains on manipulation, navigation, and trajectory prediction tasks compared to earlier modular approaches.",
+        "de": "Anders als klassische Sprach- oder Multimodal-Modelle integriert Cosmos 3 Fähigkeiten einer «physikalischen Common Sense»: Es kann die Folgen einer Aktion in einer Szene antizipieren, über mechanische Einschränkungen eines Objekts nachdenken und Steuersequenzen für einen Roboterarm aus einer einfachen Texteingabe generieren. Erste von NVIDIA veröffentlichte Benchmarks zeigen deutliche Verbesserungen bei Manipulations-, Navigations- und Trajektorienvorhersage-Aufgaben im Vergleich zu früheren modularen Ansätzen.",
+        "it": "A differenza dei modelli linguistici o multimodali classici, Cosmos 3 integra capacità di « fisica del senso comune »: può anticipare le conseguenze di un'azione in una scena, ragionare sui vincoli meccanici di un oggetto e generare sequenze di controllo per un braccio robotico a partire da una semplice istruzione testuale. I primi benchmark comunicati da NVIDIA mostrano guadagni significativi in compiti di manipolazione, navigazione e previsione di traiettoria rispetto agli approcci modulari precedenti.",
+        "lmo": "A differenza di modell lingue o multimodai classegh, Cosmos 3 l'integra di capacità de « fisica de sen comun » : el pò anticipà i conseguenz de n'azzion in d'ona scena, raxionà sora i vincol mecanegh de on oget e generà di sequenz de controll per on brasc robotich a partì de ona semplici istruzzion testual. I prim benchmark comunicaa de NVIDIA mostren di vantagg significativ sora i compit de manipolazion, de navigazion e de prevision de traietoria rispett ai approcc modulai de prima."
+      },
+      {
+        "fr": "Le modèle est publié sous licence permissive et accompagné d'un ensemble d'outils d'évaluation — baptisé <em>Nyx, Quadrants et Genesis World 1.0</em> — également dévoilé ce week-end par Genesis AI. Cette sortie marque un tournant dans la démocratisation de l'IA physique, longtemps réservée aux laboratoires disposant d'infrastructures massives et de données propriétaires.",
+        "en": "The model is released under a permissive license and accompanied by a suite of evaluation tools — called <em>Nyx, Quadrants and Genesis World 1.0</em> — also unveiled this weekend by Genesis AI. This release marks a turning point in the democratization of physical AI, long reserved for laboratories with massive infrastructures and proprietary data.",
+        "de": "Das Modell wird unter einer permissiven Lizenz veröffentlicht und wird von einer Reihe von Evaluierungstools begleitet – <em>Nyx, Quadrants und Genesis World 1.0</em> – die ebenfalls an diesem Wochenende von Genesis AI vorgestellt wurden. Diese Veröffentlichung markiert einen Wendepunkt in der Demokratisierung der Physical AI, die lange Laboren mit massiven Infrastrukturen und proprietären Daten vorbehalten war.",
+        "it": "Il modello è pubblicato con licenza permissiva e accompagnato da un set di strumenti di valutazione — chiamato <em>Nyx, Quadrants e Genesis World 1.0</em> — anch'esso svelato questo fine settimana da Genesis AI. Questa uscita segna una svolta nella democratizzazione dell'IA fisica, a lungo riservata ai laboratori con infrastrutture massive e dati proprietari.",
+        "lmo": "El modell l'è publicaa sotta licenza permissiva e compagnaa de on insema d'istem de valutazion — ciamaa <em>Nyx, Quadrants e Genesis World 1.0</em> — anca lor desvelaa in sto weekend chì de Genesis AI. 'Sta sortida la marca on pont de svolta in la democratizzazion de l'IA fisica, che l'è stada longh temp reservada ai laboratori che gh'hann di infrastruttur massiv e di data proprietari."
+      }
+    ]
+  },
+  "sidebar": [
+    {
+      "tag": {
+        "fr": "Mineur",
+        "en": "Minor",
+        "de": "Minderjährig",
+        "it": "Minore",
+        "lmo": "Mineur"
+      },
+      "headline": {
+        "fr": "SoftBank prévoit 75 milliards d'euros de centres de données IA en France",
+        "en": "SoftBank Plans €75 Billion AI Data Center Buildout in France",
+        "de": "SoftBank plant 75 Milliarden Euro KI-Rechenzentren in Frankreich",
+        "it": "SoftBank prevede 75 miliardi di euro di centri dati IA in Francia",
+        "lmo": "SoftBank el preved 75 miliard de euro de center de dati IA in Francia"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 mai 2026",
+        "en": "From the Wires — 31 May 2026",
+        "de": "From the Wires — 31. Mai 2026",
+        "it": "Dalle agenzie — 31 maggio 2026",
+        "lmo": "From the Wires — 31 de magg 2026"
+      },
+      "body": {
+        "fr": "Le conglomérat japonais <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank a annoncé</a> un investissement colossal pouvant atteindre 75 milliards d'euros pour construire jusqu'à 5 GW de capacité de centres de données dédiés à l'IA en France, répartis sur trois sites dans le nord du pays. Les premières infrastructures, représentant 45 milliards d'euros, devraient être opérationnelles d'ici 2031.",
+        "en": "Japanese conglomerate <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank has announced</a> a colossal investment potentially reaching €75 billion to build up to 5 GW of AI-dedicated data center capacity in France, spread across three sites in the north of the country. Initial infrastructure, representing €45 billion, is expected to be operational by 2031.",
+        "de": "Der japanische Mischkonzern <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank hat eine gewaltige Investition</a> von bis zu 75 Milliarden Euro angekündigt, um in Frankreich bis zu 5 GW KI-Rechenzentrumskapazität zu bauen, verteilt auf drei Standorte im Norden des Landes. Die ersten Infrastrukturen im Wert von 45 Milliarden Euro sollen bis 2031 betriebsbereit sein.",
+        "it": "Il conglomerato giapponese <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank ha annunciato</a> un investimento colossale che può raggiungere 75 miliardi di euro per costruire fino a 5 GW di capacità di centri dati dedicati all'IA in Francia, distribuiti su tre siti nel nord del paese. Le prime infrastrutture, che rappresentano 45 miliardi di euro, dovrebbero essere operative entro il 2031.",
+        "lmo": "El conglomerad giappones <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank l'ha anunziaa</a> on investiment colossai che pò rivà a 75 miliard de euro per costrù fina a 5 GW de capacità de center de dati dedicaa a l'IA in Francia, spartii sora tri sit in del nord del paes. I prim infrastruttur, che rappresenten 45 miliard de euro, gh'ha de vesser operativ de chì al 2031."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Hauptsächlich",
+        "it": "Maggiore",
+        "lmo": "Major"
+      },
+      "headline": {
+        "fr": "Anthropic bannit l'IA pendant ses entretiens d'embauche",
+        "en": "Anthropic Bans AI During Job Interviews",
+        "de": "Anthropic verbietet KI in Vorstellungsgesprächen",
+        "it": "Anthropic vieta l'IA durante i colloqui di lavoro",
+        "lmo": "Anthropic el bandiss l'IA in di sò colloqui de lavor"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 mai 2026",
+        "en": "From the Wires — 31 May 2026",
+        "de": "From the Wires — 31. Mai 2026",
+        "it": "Dalle agenzie — 31 maggio 2026",
+        "lmo": "From the Wires — 31 de magg 2026"
+      },
+      "body": {
+        "fr": "La start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic interdit l'utilisation de toute IA</a> lors de ses entretiens, préférant évaluer les candidats sur leur raisonnement « organique » au cours de cinq rounds portant sur les compétences techniques, les valeurs et l'éthique. Les salaires proposés peuvent atteindre 850 000 dollars, tandis que certains candidats dépensent jusqu'à 4 600 dollars en coaching privé pour se préparer.",
+        "en": "Startup <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic prohibits the use of any AI</a> during its interviews, preferring to evaluate candidates on their 'organic' reasoning over five rounds covering technical skills, values, and ethics. Offered salaries can reach $850,000, while some candidates spend up to $4,600 on private coaching to prepare.",
+        "de": "Das Start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic verbietet den Einsatz von KI</a> in seinen Vorstellungsgesprächen und bewertet Kandidaten lieber anhand ihres «organischen» Denkens in fünf Runden zu technischen Fähigkeiten, Werten und Ethik. Die angebotenen Gehälter können bis zu 850.000 Dollar betragen, während einige Kandidaten bis zu 4.600 Dollar für privates Coaching zur Vorbereitung ausgeben.",
+        "it": "La startup <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic vieta l'uso di qualsiasi IA</a> durante i suoi colloqui, preferendo valutare i candidati sul loro ragionamento « organico » in cinque round incentrati su competenze tecniche, valori ed etica. Gli stipendi proposti possono raggiungere 850.000 dollari, mentre alcuni candidati spendono fino a 4.600 dollari in coaching privato per prepararsi.",
+        "lmo": "La start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic la proibiss l'usagg de qualsessia IA</a> in di sò colloqui, preferend valutà i candidad in sul raxonament « organich » in de cinch round che traten di competenz tecnich, di valor e de l'etega. I salari proponuu poden rivà a 850.000 dollar, intant che on poo de candidad spenden fina a 4.600 dollar in coaching privaa per preparàss."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Critique",
+        "en": "Critical",
+        "de": "Kritik",
+        "it": "Critico",
+        "lmo": "Critich"
+      },
+      "headline": {
+        "fr": "Une injection de prompt permet de détourner des comptes Instagram via Meta AI",
+        "en": "Prompt Injection Used to Hijack Instagram Accounts via Meta AI",
+        "de": "Prompt-Injection ermöglicht Übernahme von Instagram-Konten über Meta AI",
+        "it": "Un'iniezione di prompt permette di dirottare account Instagram tramite Meta AI",
+        "lmo": "On'iniezzion de prompt la permet de fregà i account de Instagram via Meta AI"
+      },
+      "wire": {
+        "fr": "From the Wires — 1er juin 2026",
+        "en": "From the Wires — 1 June 2026",
+        "de": "From the Wires — 1. Juni 2026",
+        "it": "Dalle agenzie — 1° giugno 2026",
+        "lmo": "From the Wires — 1 de giugn 2026"
+      },
+      "body": {
+        "fr": "Des chercheurs en sécurité rapportent que <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistant Meta AI est vulnérable à une injection de prompts</a> permettant de réinitialiser le mot de passe de comptes Instagram. L'attaque exploite la confiance excessive de l'IA dans les instructions provenant de sources non vérifiées, un cas typique du « problème du adjoint confus » qui touche de nombreux systèmes agentiques.",
+        "en": "Security researchers report that <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>the Meta AI assistant is vulnerable to prompt injection</a> allowing Instagram account passwords to be reset. The attack exploits the AI's over-trust in instructions from unverified sources, a classic case of the 'confused deputy problem' affecting many agentic systems.",
+        "de": "Sicherheitsforscher berichten, dass <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>der Meta AI-Assistent anfällig für Prompt-Injection</a> ist, die es ermöglicht, Passwörter von Instagram-Konten zurückzusetzen. Der Angriff nutzt das übermäßige Vertrauen der KI in Anweisungen aus ungeprüften Quellen aus, ein typischer Fall des «Confused-Deputy-Problems», von dem viele agentische Systeme betroffen sind.",
+        "it": "Ricercatori di sicurezza riferiscono che <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistente Meta AI è vulnerabile a un'iniezione di prompt</a> che consente di reimpostare la password di account Instagram. L'attacco sfrutta l'eccessiva fiducia dell'IA nelle istruzioni provenienti da fonti non verificate, un caso tipico del « problema dell'assistente confuso » che riguarda molti sistemi agentici.",
+        "lmo": "Di ricercador de sicurezza hinn dree a raportà che <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistent Meta AI l'è vulnerabel a 'n'iniezzion de prompt</a> che la permet de reimpostà la password di account de Instagram. L'attacch el sfrutta la fiducia eccessiva de l'IA in di istruzzion che riven de font minga verificaa, on caso tipich del « problema del vice confus » che 'l tocca tanti sistema agentegh."
+      }
+    },
+    {
+      "tag": {
+        "fr": "Mineur",
+        "en": "Minor",
+        "de": "Minderjährig",
+        "it": "Minore",
+        "lmo": "Mineur"
+      },
+      "headline": {
+        "fr": "Faut-il reprendre en main l'avenir de l'IA ?",
+        "en": "Should We Take Charge of AI's Future?",
+        "de": "Sollten wir die Zukunft der KI selbst in die Hand nehmen?",
+        "it": "Bisogna riprendere in mano il futuro dell'IA?",
+        "lmo": "L'è necessari tornà a controllà el futur de l'IA?"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 mai 2026",
+        "en": "From the Wires — 31 May 2026",
+        "de": "From the Wires — 31. Mai 2026",
+        "it": "Dalle agenzie — 31 maggio 2026",
+        "lmo": "From the Wires — 31 de magg 2026"
+      },
+      "body": {
+        "fr": "Dans une tribune au <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, un collectif de chercheurs et de penseurs appelle à orienter le développement de l'IA vers le bien commun plutôt que vers les seuls intérêts commerciaux, alors que l'encyclique du pape Léon XIV sur l'éthique de l'IA suscite des réactions intenses à travers le monde.",
+        "en": "In an opinion piece in the <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, a collective of researchers and thinkers calls for steering AI development toward the common good rather than solely commercial interests, as Pope Leo XIV's encyclical on AI ethics sparks intense reactions worldwide.",
+        "de": "In einem Gastbeitrag in der <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a> fordert ein Kollektiv von Forschern und Denkern, die Entwicklung der KI eher am Gemeinwohl als an rein kommerziellen Interessen auszurichten, während die Enzyklika von Papst Leo XIV. zur KI-Ethik weltweit intensive Reaktionen hervorruft.",
+        "it": "In un editoriale sul <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, un collettivo di ricercatori e pensatori invita a orientare lo sviluppo dell'IA verso il bene comune piuttosto che verso i soli interessi commerciali, mentre l'enciclica di papa Leone XIV sull'etica dell'IA suscita reazioni intense in tutto il mondo.",
+        "lmo": "In d'ona tribuna al <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, on coletiv de ricercador e de pensador el domanda de orientà el svilupp de l'IA vers el ben comun inveci che vers i domà interess comerziai, intant che l'enciclica del papa Leon XIV in su l'etega de l'IA la suscita di reazzion fort in tut el mond."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "num": 1,
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Aufmacher",
+        "it": "In prima pagina",
+        "lmo": "À la Une"
+      },
+      "sections": [
+        {
+          "num": "I",
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzen",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "NVIDIA Cosmos 3 : l'IA physique devient open source",
+                "en": "NVIDIA Cosmos 3: Physical AI Goes Open Source",
+                "de": "NVIDIA Cosmos 3: Physical AI wird Open Source",
+                "it": "NVIDIA Cosmos 3: l'IA fisica diventa open source",
+                "lmo": "NVIDIA Cosmos 3 : l'IA fisica la deventa open source"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 1er juin 2026",
+                "en": "From our correspondent — 1 June 2026",
+                "de": "Von unserem Korrespondenten — 1. Juni 2026",
+                "it": "Dal nostro corrispondente — 1° giugno 2026",
+                "lmo": "Del noster correspondent — 1 de giugn 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Avec <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, NVIDIA franchit un cap en ouvrant au monde entier un modèle capable de raisonner, planifier et agir dans l'espace physique. L'architecture « omni-modèle » fusionne un encodeur visuel 3D, un simulateur causal fondé sur la physique et un module de planification de mouvement, le tout pré-entraîné sur des millions d'heures de séquences vidéo de manipulation et de navigation robotique.",
+                  "en": "With <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, NVIDIA crosses a threshold by opening to the world a model capable of reasoning, planning, and acting in physical space. The 'omni-model' architecture fuses a 3D visual encoder, a physics-based causal simulator, and a motion planning module, all pre-trained on millions of hours of video sequences of robotic manipulation and navigation.",
+                  "de": "Mit <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a> überschreitet NVIDIA eine Schwelle, indem es der ganzen Welt ein Modell öffnet, das im physischen Raum denken, planen und handeln kann. Die «Omni-Modell»-Architektur vereint einen 3D-Visual-Encoder, einen auf Physik basierenden kausalen Simulator und ein Bewegungsplanungsmodul, das auf Millionen von Stunden Videosequenzen von Roboter-Manipulation und -Navigation vortrainiert wurde.",
+                  "it": "Con <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, NVIDIA supera una soglia aprendo al mondo intero un modello in grado di ragionare, pianificare e agire nello spazio fisico. L'architettura « omni-modello » fonde un encoder visivo 3D, un simulatore causale basato sulla fisica e un modulo di pianificazione del movimento, il tutto pre-addestrato su milioni di ore di sequenze video di manipolazione e navigazione robotica.",
+                  "lmo": "Con <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, NVIDIA la supera ona bariera, dervind a tut el mond on modell bon de raxionà, pianificà e agì in del spazi fisich. L'architettura « omni-modell » la met insema on encoder visual 3D, on simulator causal fondaa in su la fisica e on modul de pianificazion del moviment, el tut pre-adestrad sora million de ore de sequenz video de manipolazion e de navigazion robotica."
+                },
+                {
+                  "fr": "L'équipe de recherche de NVIDIA affirme que Cosmos 3 surpasse les approches modulaires classiques (SOTA) sur les benchmarks <em>Genesis World</em> et <em>Quadrants</em>, en particulier pour les tâches nécessitant un raisonnement causal — comme prédire ce qui se passe lorsqu'on pousse un objet hors d'une surface. Le modèle peut également être utilisé en boucle fermée avec un robot physique, recevant des images en temps réel et produisant des commandes motrices à 30 Hz.",
+                  "en": "NVIDIA's research team claims Cosmos 3 surpasses classic modular approaches (SOTA) on <em>Genesis World</em> and <em>Quadrants</em> benchmarks, particularly for tasks requiring causal reasoning — such as predicting what happens when an object is pushed off a surface. The model can also be used in a closed loop with a physical robot, receiving real-time images and producing motor commands at 30 Hz.",
+                  "de": "Das NVIDIA-Forschungsteam gibt an, dass Cosmos 3 auf den <em>Genesis World</em>- und <em>Quadrants</em>-Benchmarks die klassischen modularen Ansätze (SOTA) übertrifft, insbesondere bei Aufgaben, die kausales Reasoning erfordern – wie die Vorhersage, was passiert, wenn ein Objekt von einer Oberfläche gestoßen wird. Das Modell kann auch in einer geschlossenen Schleife mit einem physischen Roboter verwendet werden, wobei es Echtzeitbilder empfängt und motorische Befehle mit 30 Hz erzeugt.",
+                  "it": "Il team di ricerca di NVIDIA afferma che Cosmos 3 supera gli approcci modulari classici (SOTA) nei benchmark <em>Genesis World</em> e <em>Quadrants</em>, in particolare per compiti che richiedono ragionamento causale — come prevedere cosa succede quando si spinge un oggetto fuori da una superficie. Il modello può anche essere utilizzato in ciclo chiuso con un robot fisico, ricevendo immagini in tempo reale e producendo comandi motori a 30 Hz.",
+                  "lmo": "La squadra de ricerca de NVIDIA la dis che Cosmos 3 el supera i approcc modulai classegh (SOTA) in sui benchmark <em>Genesis World</em> e <em>Quadrants</em>, in particolar per i compit che gh'hann besogn de 'n raxonament causal — come prevedè quel che capita quann se spinge on oet foeura de 'na superfis. El modell pò vesser anca doperad in boule sarada cont on robot fisich, ricevend di immagin in temp real e producend di comand motor a 30 Hz."
+                },
+                {
+                  "fr": "Cette ouverture totale — poids, code d'entraînement, jeux de données et évaluations — tranche avec la stratégie des principaux concurrents (Google DeepMind, Meta) qui gardent leurs modèles de physique sous clé. Selon NVIDIA, l'objectif est de « permettre à chaque laboratoire et chaque start-up de construire l'IA physique de demain sans partir de zéro ».",
+                  "en": "This full openness — weights, training code, datasets, and evaluations — contrasts sharply with the strategy of main competitors (Google DeepMind, Meta) who keep their physics models under lock and key. According to NVIDIA, the goal is to 'enable every lab and every startup to build the physical AI of tomorrow without starting from scratch.'",
+                  "de": "Diese vollständige Offenheit – Gewichte, Trainingscode, Datensätze und Evaluierungen – steht im Gegensatz zur Strategie der wichtigsten Wettbewerber (Google DeepMind, Meta), die ihre Physikmodelle unter Verschluss halten. Laut NVIDIA ist das Ziel, «jedem Labor und jedem Start-up zu ermöglichen, die Physical AI von morgen zu bauen, ohne bei Null anfangen zu müssen».",
+                  "it": "Questa apertura totale — pesi, codice di addestramento, dataset e valutazioni — contrasta con la strategia dei principali concorrenti (Google DeepMind, Meta) che tengono i loro modelli di fisica sotto chiave. Secondo NVIDIA, l'obiettivo è « permettere a ogni laboratorio e ogni startup di costruire l'IA fisica del domani senza partire da zero ».",
+                  "lmo": "'Sta vertura totala — pes, code de adestrament, set de data e valutazion — la se disting de la strategia di principal competitor (Google DeepMind, Meta) che tegnen sota ciav i sò modell de fisica. Second NVIDIA, l'obietiv l'è de « permètt a ogni laboratori e a ogni start-up de costrù l'IA fisica de doman senza partì de zero »."
+                }
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MiniMax déploie M3, un modèle multimodal doté d'un contexte d'un million de tokens",
+                "en": "MiniMax Deploys M3, a Multimodal Model with a Million-Token Context",
+                "de": "MiniMax stellt M3 bereit, ein multimodales Modell mit einem Kontext von einer Million Token",
+                "it": "MiniMax implementa M3, un modello multimodale con un contesto di un milione di token",
+                "lmo": "MiniMax el met in pee M3, on modell multimodal cont on contest de on million de token"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 31 mai 2026",
+                "en": "From our correspondent — 31 May 2026",
+                "de": "Von unserem Korrespondenten — 31. Mai 2026",
+                "it": "Dal nostro corrispondente — 31 maggio 2026",
+                "lmo": "Del noster correspondent — 31 de magg 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Le laboratoire chinois MiniMax a mis en ligne <a href='https://openrouter.ai/api/v1/models/minimax/minimax-m3-20260531'>MiniMax M3</a>, un modèle fondation multimodal (texte, image, vidéo vers texte) avec une fenêtre de contexte d'un million de tokens. Identifié via le catalogue OpenRouter, le modèle se distingue par un prix compétitif : 0,3 $ par million de tokens en entrée et 1,2 $ en sortie, avec un cache lecture à 0,06 $.",
+                  "en": "Chinese lab MiniMax has released <a href='https://openrouter.ai/api/v1/models/minimax/minimax-m3-20260531'>MiniMax M3</a>, a multimodal foundation model (text, image, video to text) with a one-million-token context window. Identified via the OpenRouter catalog, the model stands out for its competitive pricing: $0.3 per million input tokens and $1.2 per million output tokens, with a read cache at $0.06.",
+                  "de": "Das chinesische Labor MiniMax hat <a href='https://openrouter.ai/api/v1/models/minimax/minimax-m3-20260531'>MiniMax M3</a> online gestellt, ein multimodales Foundation-Modell (Text, Bild, Video zu Text) mit einem Kontextfenster von einer Million Token. Das über den OpenRouter-Katalog identifizierte Modell zeichnet sich durch einen wettbewerbsfähigen Preis aus: 0,3 $ pro Million Token bei der Eingabe und 1,2 $ bei der Ausgabe, mit einem Lese-Cache von 0,06 $.",
+                  "it": "Il laboratorio cinese MiniMax ha messo online <a href='https://openrouter.ai/api/v1/models/minimax/minimax-m3-20260531'>MiniMax M3</a>, un modello foundation multimodale (testo, immagine, video verso testo) con una finestra di contesto di un milione di token. Identificato tramite il catalogo OpenRouter, il modello si distingue per un prezzo competitivo: 0,3 $ per milione di token in input e 1,2 $ in output, con una cache di lettura a 0,06 $.",
+                  "lmo": "El laboratori cine MiniMax l'ha metuu in linia <a href='https://openrouter.ai/api/v1/models/minimax/minimax-m3-20260531'>MiniMax M3</a>, on modell fondazion multimodal (test, immagin, video in test) cont ona fenestra de contest de on million de token. Identificaa via el catalogh OpenRouter, el modell el se disting per on pressi competitiv : 0,3 $ per million de token in entrada e 1,2 $ in sortida, cont on cache de letura a 0,06 $."
+                },
+                {
+                  "fr": "MiniMax M3 est décrit comme « adapté aux tâches agentiques de longue haleine, au codage et à la compréhension vidéo », avec une capacité de raisonnement intégrée. Il prend en charge les appels d'outils, la sortie structurée et le <em>reasoning</em> natif. Le modèle active environ 60 milliards de paramètres sur un total de 400 milliards au sein d'une architecture Mixture-of-Experts.",
+                  "en": "MiniMax M3 is described as 'suitable for long-horizon agentic tasks, coding, and video understanding,' with built-in reasoning capability. It supports tool calls, structured output, and native reasoning. The model activates around 60 billion parameters out of a total of 400 billion within a Mixture-of-Experts architecture.",
+                  "de": "MiniMax M3 wird als «geeignet für langwierige agentische Aufgaben, Codierung und Videoverständnis» beschrieben, mit integrierter Reasoning-Fähigkeit. Es unterstützt Tool Calls, strukturierte Ausgabe und natives <em>Reasoning</em>. Das Modell aktiviert etwa 60 Milliarden Parameter bei insgesamt 400 Milliarden innerhalb einer Mixture-of-Experts-Architektur.",
+                  "it": "MiniMax M3 è descritto come « adatto a compiti agentici di lunga durata, alla codifica e alla comprensione video », con capacità di ragionamento integrata. Supporta chiamate di strumenti, output strutturato e <em>reasoning</em> nativo. Il modello attiva circa 60 miliardi di parametri su un totale di 400 miliardi all'interno di un'architettura Mixture-of-Experts.",
+                  "lmo": "MiniMax M3 l'è descriv come « adatt ai compit agentegh longh, al coding e a la comprension video », cont ona capacità de raxonament integrada. El supporta i ciamad d'istema, la sortida struturada e el <em>reasoning</em> nativ. El modell el attiva circa 60 miliard de parametri in su on total de 400 miliard denter in d'ona architettura Mixture-of-Experts."
+                },
+                {
+                  "fr": "Cette sortie intervient dans un contexte de compétition intense sur le segment des modèles multimodaux longue-contexte, où Qwen3.7 Max (Alibaba) et Step 3.7 Flash (StepFun) viennent également d'apparaître sur les API. Le marché chinois accélère sa course aux modèles « tout-en-un » capables de rivaliser avec les offres américaines sur le plan des capacités comme des prix.",
+                  "en": "This release comes amid intense competition in the long-context multimodal model segment, where Qwen3.7 Max (Alibaba) and Step 3.7 Flash (StepFun) have also recently appeared on APIs. The Chinese market is accelerating its race toward 'all-in-one' models capable of competing with American offerings on both capabilities and price.",
+                  "de": "Diese Veröffentlichung erfolgt in einem Umfeld intensiver Konkurrenz im Segment der multimodalen Modelle mit langem Kontext, wo Qwen3.7 Max (Alibaba) und Step 3.7 Flash (StepFun) ebenfalls gerade auf den APIs erschienen sind. Der chinesische Markt beschleunigt sein Rennen um «All-in-One»-Modelle, die mit den amerikanischen Angeboten sowohl bei den Fähigkeiten als auch bei den Preisen konkurrieren können.",
+                  "it": "Questa uscita avviene in un contesto di competizione intensa nel segmento dei modelli multimodali a lungo contesto, dove Qwen3.7 Max (Alibaba) e Step 3.7 Flash (StepFun) sono apparsi di recente sulle API. Il mercato cinese accelera la sua corsa ai modelli « tutto-in-uno » in grado di competere con le offerte americane sia per capacità che per prezzi.",
+                  "lmo": "'Sta sortida la riva in d'on contest de competizion forta in sul segment di modell multimodal longh-contest, indè che Qwen3.7 Max (Alibaba) e Step 3.7 Flash (StepFun) hinn anca lor comparii de recent in di API. El mercaa cine l'accelera la corsa ai modell « tut in vun » bon de rivalizà con i offert american in sul pian di capacità come in quell di pressi."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Technical Notebook",
+        "de": "Das Technikheft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnett Tenegh"
+      },
+      "sections": [
+        {
+          "num": "II",
+          "title": {
+            "fr": "Harnais & outillage",
+            "en": "Harness & Tooling",
+            "de": "Werkzeuge & Infrastruktur",
+            "it": "Harness e strumenti",
+            "lmo": "Arnes & Istem"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp enchaîne trois versions : gestion des ETags faibles et tokenizer étendu",
+                "en": "llama.cpp Chains Three Versions: Weak ETag Handling and Extended Tokenizer",
+                "de": "llama.cpp legt drei Versionen vor: Weak-ETags und erweiterter Tokenizer",
+                "it": "llama.cpp pubblica tre versioni: gestione degli ETag deboli e tokenizer esteso",
+                "lmo": "llama.cpp el incadena tri version : gestion di ETag debol e tokenizer slargaa"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 31 mai 2026",
+                "en": "From our correspondent — 31 May 2026",
+                "de": "Von unserem Korrespondenten — 31. Mai 2026",
+                "it": "Dal nostro corrispondente — 31 maggio 2026",
+                "lmo": "Del noster correspondent — 31 de magg 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Le moteur d'inférence local <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9444'>llama.cpp</a> a publié trois mises à jour successives ce week-end. La version b9444 introduit la gestion des ETags faibles (<em>If-None-Match</em>) pour le serveur HTTP, améliorant la mise en cache des réponses dans les déploiements utilisant un proxy inverse. La b9442 ajoute le support du tokenizer pour <em>jina-embeddings-v2-base-zh</em>, un modèle d'embeddings chinois, tandis que la b9441 corrige un problème de troncature d'ETag avec le compilateur MSVC sous Windows.",
+                  "en": "Local inference engine <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9444'>llama.cpp</a> has published three successive updates this weekend. Version b9444 introduces handling of weak ETags (<em>If-None-Match</em>) for the HTTP server, improving response caching in deployments behind a reverse proxy. b9442 adds tokenizer support for <em>jina-embeddings-v2-base-zh</em>, a Chinese embedding model, while b9441 fixes an ETag truncation issue with the MSVC compiler on Windows.",
+                  "de": "Die lokale Inferenz-Engine <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9444'>llama.cpp</a> hat an diesem Wochenende drei aufeinanderfolgende Updates veröffentlicht. Version b9444 führt die Verwaltung von Weak-ETags (<em>If-None-Match</em>) für den HTTP-Server ein und verbessert das Caching von Antworten in Bereitstellungen mit Reverse-Proxy. b9442 fügt die Unterstützung des Tokenizers für <em>jina-embeddings-v2-base-zh</em>, ein chinesisches Embeddings-Modell, hinzu, während b9441 ein Problem mit der ETag-Kürzung mit dem MSVC-Compiler unter Windows behebt.",
+                  "it": "Il motore di inferenza locale <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9444'>llama.cpp</a> ha pubblicato tre aggiornamenti successivi questo fine settimana. La versione b9444 introduce la gestione degli ETag deboli (<em>If-None-Match</em>) per il server HTTP, migliorando la memorizzazione nella cache delle risposte nei deployment che utilizzano un proxy inverso. La b9442 aggiunge il supporto del tokenizer per <em>jina-embeddings-v2-base-zh</em>, un modello di embeddings cinese, mentre la b9441 corregge un problema di troncamento dell'ETag con il compilatore MSVC su Windows.",
+                  "lmo": "El motor d'inferenza local <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9444'>llama.cpp</a> l'ha publicaa tri agiornament successiv in sto weekend chì. La version b9444 la met dent la gestion di ETag debol (<em>If-None-Match</em>) per el server HTTP, migliorand la metrada in cache di rispost in di despiegament che doperen on proxy invers. La b9442 la gionta el support del tokenizer per <em>jina-embeddings-v2-base-zh</em>, on modell d'embedding cine, intant che la b9441 la corregg on problema de troncadura de l'ETag cont el compiler MSVC sota Windows."
+                },
+                {
+                  "fr": "Ces correctifs, bien que mineurs en apparence, témoignent de la maturité croissante de la pile d'inférence locale : le support des embeddings chinois reflète l'essor des modèles de la sphère sinophone, et la robustesse du cache HTTP devient cruciale pour les déploiements serveur avec des centaines d'appels simultanés.",
+                  "en": "These fixes, though seemingly minor, reflect the growing maturity of the local inference stack: support for Chinese embeddings mirrors the rise of models from the Sinophone sphere, and HTTP cache robustness becomes crucial for server deployments handling hundreds of concurrent calls.",
+                  "de": "Diese Korrekturen, wenn auch scheinbar klein, bezeugen die wachsende Reife des lokalen Inferenz-Stacks: Die Unterstützung für chinesische Embeddings spiegelt den Aufstieg der Modelle aus dem sinophonen Raum wider, und die Robustheit des HTTP-Cache wird entscheidend für Server-Bereitstellungen mit Hunderten von gleichzeitigen Aufrufen.",
+                  "it": "Queste correzioni, sebbene minori in apparenza, testimoniano la crescente maturità dello stack di inferenza locale: il supporto degli embeddings cinesi riflette l'ascesa dei modelli della sfera sinofona, e la robustezza della cache HTTP diventa cruciale per i deployment server con centinaia di chiamate simultanee.",
+                  "lmo": "Sti coretiv chì, anca se paren minur, testemonien de la maduranza semper pussee granda de la pila d'inferenza local : el support di embedding cine riflett el crescent di modell de la sfera sinofona, e la robustezza del cache HTTP la deventa cruciala per i despiegament server con centener de ciamad simultani."
+                },
+                {
+                  "fr": "Toutes les versions restent disponibles sur l'ensemble des cibles : macOS (Apple Silicon et Intel), Windows (CPU, CUDA 12/13, Vulkan, HIP), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO 2026.0, s390x), Android ARM64 et iOS via XCFramework. La version b9442 a déjà été téléchargée plus de 2 000 fois sur sa build CUDA 13.3.",
+                  "en": "All versions remain available across all targets: macOS (Apple Silicon and Intel), Windows (CPU, CUDA 12/13, Vulkan, HIP), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO 2026.0, s390x), Android ARM64, and iOS via XCFramework. Version b9442 has already been downloaded over 2,000 times on its CUDA 13.3 build.",
+                  "de": "Alle Versionen bleiben auf allen Zielplattformen verfügbar: macOS (Apple Silicon und Intel), Windows (CPU, CUDA 12/13, Vulkan, HIP), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO 2026.0, s390x), Android ARM64 und iOS via XCFramework. Version b9442 wurde auf ihrem CUDA 13.3-Build bereits über 2.000 Mal heruntergeladen.",
+                  "it": "Tutte le versioni rimangono disponibili su tutti i target: macOS (Apple Silicon e Intel), Windows (CPU, CUDA 12/13, Vulkan, HIP), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO 2026.0, s390x), Android ARM64 e iOS tramite XCFramework. La versione b9442 è già stata scaricata oltre 2.000 volte nella sua build CUDA 13.3.",
+                  "lmo": "Tut i version resten disponibel in su tucc i target : macOS (Apple Silicon e Intel), Windows (CPU, CUDA 12/13, Vulkan, HIP), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO 2026.0, s390x), Android ARM64 e iOS via XCFramework. La version b9442 l'è già stada scaricada pussee de 2.000 voeult in su la soa build CUDA 13.3."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "num": "III",
+          "title": {
+            "fr": "Papiers & laboratoires",
+            "en": "Papers & Labs",
+            "de": "Papiere & Labore",
+            "it": "Articoli & laboratori",
+            "lmo": "Papers & laboratori"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "Parallax : une attention linéaire paramétrée qui conserve le softmax",
+                "en": "Parallax: A Parameterized Linear Attention That Retains Softmax",
+                "de": "Parallax: Eine parametrisierte lineare Attention, die Softmax beibehält",
+                "it": "Parallax: un'attenzione lineare parametrizzata che conserva il softmax",
+                "lmo": "Parallax : 'n'attenzion lineara parametrizzada che la tegn el softmax"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 31 mai 2026",
+                "en": "From our correspondent — 31 May 2026",
+                "de": "Von unserem Korrespondenten — 31. Mai 2026",
+                "it": "Dal nostro corrispondente — 31 maggio 2026",
+                "lmo": "Del noster correspondent — 31 de magg 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Un nouvel article de recherche — <a href='https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/'>Parallax</a> — propose une architecture d'attention linéaire locale paramétrée qui conserve le mécanisme softmax standard tout en lui ajoutant une branche de correction de covariance apprise. Cette approche hybride vise à combiner la rapidité de l'attention linéaire (complexité O(n) au lieu de O(n²)) avec la qualité du softmax classique.",
+                  "en": "A new research paper — <a href='https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/'>Parallax</a> — proposes a parameterized local linear attention architecture that retains the standard softmax mechanism while adding a learned covariance correction branch. This hybrid approach aims to combine the speed of linear attention (complexity O(n) instead of O(n²)) with the quality of classic softmax.",
+                  "de": "Ein neuer Forschungsartikel – <a href='https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/'>Parallax</a> – schlägt eine Architektur für parametrisierte lokale lineare Attention vor, die den standardmäßigen Softmax-Mechanismus beibehält und gleichzeitig einen erlernten Kovarianz-Korrektur-Zweig hinzufügt. Dieser hybride Ansatz zielt darauf ab, die Geschwindigkeit der linearen Attention (Komplexität O(n) statt O(n²)) mit der Qualität des klassischen Softmax zu kombinieren.",
+                  "it": "Un nuovo articolo di ricerca — <a href='https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/'>Parallax</a> — propone un'architettura di attenzione lineare locale parametrizzata che conserva il meccanismo softmax standard aggiungendovi un ramo di correzione della covarianza appresa. Questo approccio ibrido mira a combinare la rapidità dell'attenzione lineare (complessità O(n) invece di O(n²)) con la qualità del softmax classico.",
+                  "lmo": "On noeuv articol de ricerca — <a href='https://www.marktechpost.com/2026/05/31/parallax-a-parameterized-local-linear-attention-that-keeps-softmax-and-adds-a-learned-covariance-correction-branch/'>Parallax</a> — el propon on'architettura d'attenzion lineara locala parametrizzada che la tegn el mecanism softmax standard, al stess temp che la ghe gionta ona branca de corezzion de covarianza imparada. St'approcc ibrid chì el mira a combinal la velocità de l'attenzion lineara (complessità O(n) inveci che O(n²)) con la qualità del softmax classegh."
+                },
+                {
+                  "fr": "Les auteurs montrent que Parallax atteint des performances comparables à l'attention standard sur des tâches de modélisation du langage à longue portée, tout en réduisant significativement l'empreinte mémoire et le temps de calcul. La méthode est particulièrement prometteuse pour le déploiement de modèles sur des dispositifs à mémoire limitée.",
+                  "en": "The authors show that Parallax achieves performance comparable to standard attention on long-range language modeling tasks, while significantly reducing memory footprint and computation time. The method is particularly promising for deploying models on memory-constrained devices.",
+                  "de": "Die Autoren zeigen, dass Parallax bei Aufgaben der Sprachmodellierung mit langer Reichweite eine mit der Standard-Attention vergleichbare Leistung erzielt und gleichzeitig den Speicherverbrauch und die Rechenzeit deutlich reduziert. Die Methode ist besonders vielversprechend für die Bereitstellung von Modellen auf Geräten mit begrenztem Speicher.",
+                  "it": "Gli autori mostrano che Parallax raggiunge prestazioni comparabili all'attenzione standard su compiti di modellazione del linguaggio a lungo raggio, riducendo significativamente l'ingombro di memoria e il tempo di calcolo. Il metodo è particolarmente promettente per il deployment di modelli su dispositivi con memoria limitata.",
+                  "lmo": "I autor mostren che Parallax el riva a di performance compagn de l'attenzion standard in su di compit de modellizazion del lenguagg a longa portada, al stess temp che 'l riduss significativament l'impronta de memoria e el temp de calcol. La metod la particularment promettenta per el despiegament de modell in sui dispositiv a memoria limitada."
+                },
+                {
+                  "fr": "Cette publication s'inscrit dans une vague de travaux visant à surmonter le goulot d'étranglement quadratique de l'attention, après les architectures Mamba, State Space Models et les récentes avancées sur les mécanismes de sélection (Lighthouse Attention de Nous Research, également testé ce printemps).",
+                  "en": "This publication is part of a wave of work seeking to overcome the quadratic bottleneck of attention, following Mamba architectures, State Space Models, and recent advances in selection mechanisms (Lighthouse Attention from Nous Research, also tested this spring).",
+                  "de": "Diese Publikation reiht sich in eine Welle von Arbeiten ein, die den quadratischen Flaschenhals der Attention überwinden wollen, nach den Mamba-Architekturen, State Space Models und den jüngsten Fortschritten bei Selektionsmechanismen (Lighthouse Attention von Nous Research, ebenfalls in diesem Frühjahr getestet).",
+                  "it": "Questa pubblicazione si inserisce in un'ondata di lavori volti a superare il collo di bottiglia quadratico dell'attenzione, dopo le architetture Mamba, State Space Models e i recenti progressi sui meccanismi di selezione (Lighthouse Attention di Nous Research, testato anche questa primavera).",
+                  "lmo": "'Sta pubblicazion chì la se met denter in d'ona ondata de lavor che miren a superà el coll de bottiglia quadrategh de l'attenzion, dopo i architettur Mamba, i State Space Models e i progress de recent in sui mecanism de selezzion (Lighthouse Attention de Nous Research, testaa anca in questa primavera)."
+                }
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Microsoft publie un toolkit de gouvernance pour les agents IA",
+                "en": "Microsoft Publishes Governance Toolkit for AI Agents",
+                "de": "Microsoft veröffentlicht Governance-Toolkit für KI-Agenten",
+                "it": "Microsoft pubblica un toolkit di governance per gli agenti IA",
+                "lmo": "Microsoft el publica on toolkit de governanza per i agent IA"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 31 mai 2026",
+                "en": "From our correspondent — 31 May 2026",
+                "de": "Von unserem Korrespondenten — 31. Mai 2026",
+                "it": "Dal nostro corrispondente — 31 maggio 2026",
+                "lmo": "Del noster correspondent — 31 de magg 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Microsoft Research a mis à disposition sur GitHub <a href='https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/'>Agent Governance Toolkit</a>, une boîte à outils complète pour sécuriser l'utilisation des outils par les agents IA. Le kit implémente des politiques configurables, un système d'approbation préalable, des journaux d'audit granulaires et des contrôles de risque en temps réel.",
+                  "en": "Microsoft Research has made available on GitHub the <a href='https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/'>Agent Governance Toolkit</a>, a comprehensive toolbox for securing tool use by AI agents. The kit implements configurable policies, a preliminary approval system, granular audit logs, and real-time risk controls.",
+                  "de": "Microsoft Research hat auf GitHub <a href='https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/'>Agent Governance Toolkit</a> zur Verfügung gestellt, eine umfassende Toolbox zur Sicherung der Werkzeugnutzung durch KI-Agenten. Das Kit implementiert konfigurierbare Richtlinien, ein Vorab-Genehmigungssystem, granulare Audit-Logs und Echtzeit-Risikokontrollen.",
+                  "it": "Microsoft Research ha reso disponibile su GitHub <a href='https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/'>Agent Governance Toolkit</a>, un set completo di strumenti per proteggere l'uso degli strumenti da parte degli agenti IA. Il kit implementa policy configurabili, un sistema di approvazione preventiva, log di audit granulari e controlli di rischio in tempo reale.",
+                  "lmo": "Microsoft Research l'ha metuu a disposizion su GitHub <a href='https://www.marktechpost.com/2026/05/31/an-implementation-of-the-microsoft-agent-governance-toolkit-for-safe-ai-agent-tool-use-with-policies-approvals-audit-logs-and-risk-controls/'>Agent Governance Toolkit</a>, ona scatola d'istem completa per segurà l'usagg di sistem di part di agent IA. El kit l'implemeta di politegh configurabil, on sistema d'approvazion preventiva, di giornai de audit granulare e di controll de ris'c in temp real."
+                },
+                {
+                  "fr": "L'outil répond à un besoin pressant : alors que les agents autonomes se multiplient — codage, navigation web, contrôle de PC —, les mécanismes de sécurité disponibles aujourd'hui restent rudimentaires. Le framework de Microsoft permet aux organisations de définir des règles fines (par exemple : « l'agent peut exécuter du code, mais pas supprimer de fichiers ») et d'obtenir une traçabilité complète des actions.",
+                  "en": "The tool addresses a pressing need: as autonomous agents multiply — coding, web navigation, PC control — the security mechanisms available today remain rudimentary. Microsoft's framework allows organizations to define fine-grained rules (e.g., 'the agent may execute code, but not delete files') and obtain full traceability of actions.",
+                  "de": "Das Tool adressiert einen dringenden Bedarf: Während sich autonome Agenten vervielfachen – Codierung, Websuche, PC-Steuerung –, bleiben die derzeit verfügbaren Sicherheitsmechanismen rudimentär. Das Microsoft-Framework ermöglicht es Organisationen, feine Regeln zu definieren (z. B. «der Agent kann Code ausführen, aber keine Dateien löschen») und eine vollständige Rückverfolgbarkeit der Aktionen zu erhalten.",
+                  "it": "Lo strumento risponde a un'esigenza pressante: mentre gli agenti autonomi si moltiplicano — codifica, navigazione web, controllo di PC —, i meccanismi di sicurezza disponibili oggi rimangono rudimentali. Il framework di Microsoft consente alle organizzazioni di definire regole dettagliate (ad esempio: « l'agente può eseguire codice, ma non eliminare file ») e ottenere una tracciabilità completa delle azioni.",
+                  "lmo": "L'istem el respond a 'n besogn pressant : intant che i agent autonom se moltiplichen — coding, navigazion web, controll del PC —, i mecanism de sicurezza disponibel al dì d'incoeu resten rudimentai. El framework de Microsoft el permet a l'organizzazion de definì di regol fin (per esempi : « l'agent el pò eseguì del code, ma no s'ceppà di file ») e de ottenì ona trazabilità completa di azion."
+                },
+                {
+                  "fr": "Cette publication fait écho au débat sur le « adjoint confus » (confused deputy) qui a agité la communauté technique ce week-end sur Hacker News, où développeurs et chercheurs cherchaient des solutions élégantes au problème des agents détournables par injection de prompts malveillants.",
+                  "en": "This release echoes the 'confused deputy' debate that stirred the technical community this weekend on Hacker News, where developers and researchers were seeking elegant solutions to the problem of agents hijackable through malicious prompt injection.",
+                  "de": "Diese Veröffentlichung erfolgt vor dem Hintergrund der Debatte über den «Confused Deputy», die die technische Community an diesem Wochenende auf Hacker News bewegt hat, wo Entwickler und Forscher nach eleganten Lösungen für das Problem der durch bösartige Prompt-Injection kaperbaren Agenten suchten.",
+                  "it": "Questa pubblicazione fa eco al dibattito sull'« assistente confuso » (confused deputy) che ha agitato la comunità tecnica questo fine settimana su Hacker News, dove sviluppatori e ricercatori cercavano soluzioni eleganti al problema degli agenti dirottabili tramite iniezione di prompt malevoli.",
+                  "lmo": "'Sta pubblicazion chì la fa eco al debatt in sul « vice confus » (confused deputy) che l'ha smoss la comunità tenegha in sto weekend chì in su Hacker News, indè che sviluppador e ricercador cercaven di soluzion elegant al problema di agent che pòden vesser deviaa de 'n'iniezzion de prompt malintenzionada."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "num": 4,
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Edit"
+      },
+      "sections": [
+        {
+          "num": "I",
+          "title": {
+            "fr": "Tour des labos",
+            "en": "Lab Roundup",
+            "de": "Labore-Rundschau",
+            "it": "Giro dei laboratori",
+            "lmo": "Gir di laboratori"
+          },
+          "layout": "2-cols",
+          "articles": [
+            {
+              "kicker": {
+                "fr": "Modèle",
+                "en": "Model",
+                "de": "Modell",
+                "it": "Modello",
+                "lmo": "Modell"
+              },
+              "headline": {
+                "fr": "Grok Build 0.1 disponible en bêta publique via l'API xAI",
+                "en": "Grok Build 0.1 Available in Public Beta via xAI API",
+                "de": "Grok Build 0.1 in öffentlicher Beta über xAI-API verfügbar",
+                "it": "Grok Build 0.1 disponibile in beta pubblica tramite l'API xAI",
+                "lmo": "Grok Build 0.1 disponibel in beta publega via l'API xAI"
+              },
+              "wire": {
+                "fr": "xAI — édition du jour",
+                "en": "xAI — today's edition",
+                "de": "xAI — Ausgabe des Tages",
+                "it": "xAI — edizione del giorno",
+                "lmo": "xAI — edizion del dì"
+              },
+              "body": {
+                "fr": "xAI a mis en ligne <a href=\"https://x.ai/news/grok-build-0-1\">Grok Build 0.1</a>, son modèle de codage le plus rapide, désormais accessible en bêta publique via l'API xAI. Le modèle cible les workflows de génération de code à haute fréquence.",
+                "en": "xAI has released <a href=\"https://x.ai/news/grok-build-0-1\">Grok Build 0.1</a>, its fastest coding model, now accessible in public beta via the xAI API. The model targets high-frequency code generation workflows.",
+                "de": "xAI hat <a href=\"https://x.ai/news/grok-build-0-1\">Grok Build 0.1</a> online gestellt, das schnellste Codierungsmodell von xAI, das nun in einer öffentlichen Beta über die xAI-API zugänglich ist. Das Modell zielt auf hochfrequente Code-Generierungs-Workflows ab.",
+                "it": "xAI ha messo online <a href=\"https://x.ai/news/grok-build-0-1\">Grok Build 0.1</a>, il suo modello di codifica più veloce, ora accessibile in beta pubblica tramite l'API xAI. Il modello è pensato per i flussi di lavoro di generazione di codice ad alta frequenza.",
+                "lmo": "xAI l'ha metuu in linia <a href=\"https://x.ai/news/grok-build-0-1\">Grok Build 0.1</a>, el sò modell de coding pussee velos, adess accessibel in beta publega via l'API xAI. El modell el se revoeuja ai workflow de generazion de code a alta frequenza."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Partnership",
+                "en": "Partnership",
+                "de": "Partnerschaft",
+                "it": "Partnership",
+                "lmo": "Partnership"
+              },
+              "headline": {
+                "fr": "Cohere s'associe à Mila pour promouvoir le français québécois en IA",
+                "en": "Cohere Partners with Mila to Promote Quebec French in AI",
+                "de": "Cohere kooperiert mit Mila zur Förderung des Quebecer Französisch in der KI",
+                "it": "Cohere collabora con Mila per promuovere il francese quebecchese nell'IA",
+                "lmo": "Cohere el se associa a Mila per promoeuver el frances quebeches in IA"
+              },
+              "wire": {
+                "fr": "Cohere — édition du jour",
+                "en": "Cohere — today's edition",
+                "de": "Cohere — Ausgabe des Tages",
+                "it": "Cohere — edizione del giorno",
+                "lmo": "Cohere — edizion del dì"
+              },
+              "body": {
+                "fr": "Cohere a annoncé un partenariat avec l'institut Mila afin d'améliorer la prise en compte de la langue française et du contexte culturel du Québec dans ses modèles d'IA. <a href=\"https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai\">L'accord</a> vise à renforcer la souveraineté linguistique en IA pour les marchés francophones.",
+                "en": "Cohere has announced a partnership with the Mila institute to improve the handling of the French language and Quebec's cultural context in its AI models. <a href=\"https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai\">The agreement</a> aims to strengthen linguistic sovereignty in AI for Francophone markets.",
+                "de": "Cohere hat eine Partnerschaft mit dem Institut Mila angekündigt, um die Berücksichtigung der französischen Sprache und des kulturellen Kontexts Quebecs in seinen KI-Modellen zu verbessern. <a href=\"https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai\">Die Vereinbarung</a> zielt darauf ab, die sprachliche Souveränität in der KI für frankophone Märkte zu stärken.",
+                "it": "Cohere ha annunciato una partnership con l'istituto Mila per migliorare la considerazione della lingua francese e del contesto culturale del Québec nei suoi modelli di IA. <a href=\"https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai\">L'accordo</a> mira a rafforzare la sovranità linguistica nell'IA per i mercati francofoni.",
+                "lmo": "Cohere l'ha anunziaa on partenariaa cont l'istitut Mila per migliorà la considerazion de la lengua francesa e del contest coltural del Québec in di sò modell d'IA. <a href=\"https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai\">L'accord</a> el mira a rinforzà la sovranità linguega in IA per i mercaa francofon."
+              }
+            },
+            {
+              "kicker": {
+                "fr": "Modèle",
+                "en": "Model",
+                "de": "Modell",
+                "it": "Modello",
+                "lmo": "Modell"
+              },
+              "headline": {
+                "fr": "NVIDIA publie Cosmos 3, un modèle ouvert pour l'IA physique",
+                "en": "NVIDIA Publishes Cosmos 3, an Open Model for Physical AI",
+                "de": "NVIDIA veröffentlicht Cosmos 3, ein offenes Modell für Physical AI",
+                "it": "NVIDIA pubblica Cosmos 3, un modello aperto per l'IA fisica",
+                "lmo": "NVIDIA el publica Cosmos 3, on modell vert dervii per l'IA fisica"
+              },
+              "wire": {
+                "fr": "Hugging Face — édition du jour",
+                "en": "Hugging Face — today's edition",
+                "de": "Hugging Face — Ausgabe des Tages",
+                "it": "Hugging Face — edizione del giorno",
+                "lmo": "Hugging Face — edizion del dì"
+              },
+              "body": {
+                "fr": "NVIDIA a publié sur Hugging Face <a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\">Cosmos 3</a>, présenté comme le premier « omni-modèle » ouvert dédié au raisonnement et à l'action dans le domaine de l'IA physique, couvrant la perception et la planification de mouvements.",
+                "en": "NVIDIA has published on Hugging Face <a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\">Cosmos 3</a>, presented as the first open 'omni-model' dedicated to reasoning and action in the field of physical AI, covering perception and motion planning.",
+                "de": "NVIDIA hat auf Hugging Face <a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\">Cosmos 3</a> veröffentlicht, das als erstes offenes «Omni-Modell» für Reasoning und Aktion im Bereich der Physical AI gilt und Wahrnehmung und Bewegungsplanung abdeckt.",
+                "it": "NVIDIA ha pubblicato su Hugging Face <a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\">Cosmos 3</a>, presentato come il primo « omni-modello » aperto dedicato al ragionamento e all'azione nel campo dell'IA fisica, coprendo percezione e pianificazione dei movimenti.",
+                "lmo": "NVIDIA l'ha publicaa su Hugging Face <a href=\"https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai\">Cosmos 3</a>, presentaa come el prim « omni-modell » vert dervii per el raxonament e l'azion in del camp de l'IA fisica, che 'l quata la percezion e la pianificazion di moviment."
+              }
+            }
+          ]
+        },
+        {
+          "num": "II",
+          "title": {
+            "fr": "Écosystème & Édito",
+            "en": "Ecosystem & Editorial",
+            "de": "Ökosystem & Leitartikel",
+            "it": "Ecosistema & Editoriale",
+            "lmo": "Ecosistema & Edit"
+          },
+          "layout": "3-cols",
+          "articles": [
+            {
+              "headline": {
+                "fr": "GitHub Copilot passe à la facturation au token, la communauté s'insurge",
+                "en": "GitHub Copilot Switches to Token Billing, Community Outraged",
+                "de": "GitHub Copilot wechselt zur Token-Abrechnung – die Community empört sich",
+                "it": "GitHub Copilot passa alla fatturazione a token, la comunità si indigna",
+                "lmo": "GitHub Copilot el passa a la fatturazion al token, la comunità la se dispera"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 30 mai 2026",
+                "en": "From our correspondent — 30 May 2026",
+                "de": "Von unserem Korrespondenten — 30. Mai 2026",
+                "it": "Dal nostro corrispondente — 30 maggio 2026",
+                "lmo": "Del noster correspondent — 30 de magg 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Microsoft a annoncé une refonte complète de la tarification de GitHub Copilot, passant d'un modèle par abonnement forfaitaire à une facturation basée sur les tokens. La nouvelle grille, qui remplace l'ancien système « tout illimité », suscite une vive réaction sur les réseaux sociaux et forums, qualifiée par certains développeurs de « fin de l'âge d'or de Copilot ».",
+                  "en": "Microsoft has announced a complete overhaul of GitHub Copilot pricing, moving from a flat subscription model to token-based billing. The new pricing grid, replacing the old 'all you can eat' system, has sparked fierce backlash on social media and forums, with some developers calling it 'the end of Copilot's golden age.'",
+                  "de": "Microsoft hat eine umfassende Neugestaltung der Preisgestaltung von GitHub Copilot angekündigt, von einem Pauschalabonnement-Modell auf eine tokenbasierte Abrechnung umgestellt. Die neue Preisliste, die das alte «alles unbegrenzt»-System ersetzt, löst in sozialen Medien und Foren heftige Reaktionen aus, die von einigen Entwicklern als «Ende des goldenen Zeitalters von Copilot» bezeichnet wird.",
+                  "it": "Microsoft ha annunciato una revisione completa della tariffazione di GitHub Copilot, passando da un modello di abbonamento forfettario a una fatturazione basata sui token. La nuova griglia, che sostituisce il vecchio sistema « tutto illimitato », suscita una viva reazione sui social media e forum, definita da alcuni sviluppatori « la fine dell'età dell'oro di Copilot ».",
+                  "lmo": "Microsoft l'ha anunziaa ona refonta completa de la tarifazzion de GitHub Copilot, passand de 'n modell per abbonament fiss a 'na fatturazion basada in sui token. La noeuva griglia, che la sostituiss el vegg sistema « tut illimitaa », la tira su 'na reazzion forta in sui red sociai e forum, ciamada di quai sviluppador « la fin de l'età d'or de Copilot »."
+                },
+                {
+                  "fr": "Les critiques portent sur la complexité du nouveau modèle (prix variables selon le modèle sous-jacent, GPT-5.5 vs legacy), l'absence de plafond prévisible pour les gros utilisateurs et la crainte que Microsoft ne pousse ses propres modèles propriétaires au détriment des alternatives open source. GitHub n'a pas encore commenté le tollé général.",
+                  "en": "Criticisms focus on the complexity of the new model (variable prices depending on the underlying model, GPT-5.5 vs legacy), the lack of predictable caps for heavy users, and fears that Microsoft may push its own proprietary models to the detriment of open-source alternatives. GitHub has not yet commented on the widespread outcry.",
+                  "de": "Die Kritik betrifft die Komplexität des neuen Modells (unterschiedliche Preise je nach zugrunde liegendem Modell, GPT-5.5 vs. Legacy), das Fehlen einer vorhersehbaren Obergrenze für Vielnutzer und die Befürchtung, dass Microsoft seine eigenen proprietären Modelle zu Lasten von Open-Source-Alternativen vorantreiben könnte. GitHub hat sich zu dem allgemeinen Aufschrei noch nicht geäußert.",
+                  "it": "Le critiche riguardano la complessità del nuovo modello (prezzi variabili a seconda del modello sottostante, GPT-5.5 vs legacy), l'assenza di un tetto prevedibile per i grandi utenti e il timore che Microsoft spinga i propri modelli proprietari a scapito delle alternative open source. GitHub non ha ancora commentato il polverone generale.",
+                  "lmo": "I critich traten de la complessità del noeuv modell (prezzi variable second el modell sota, GPT-5.5 vs legacy), l'assenza de 'n massim prevedibel per i grand utent e la pagura che Microsoft la spences i sò modell proprietari a scap di alternativ open source. GitHub el gh'ha anmò minga comenta la bordell general."
+                },
+                {
+                  "fr": "Ce changement de cap intervient alors que la concurrence s'intensifie sur le segment des assistants de codage : <a href='https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/'>Codex (OpenAI), Claude Code (Anthropic) et Grok Build (xAI) grignotent des parts d'usage</a>, et que des alternatives open source comme Continue.dev gagnent en maturité.",
+                  "en": "This change of course comes as competition intensifies in the coding assistant segment: <a href='https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/'>Codex (OpenAI), Claude Code (Anthropic), and Grok Build (xAI) are eating into usage shares</a>, and open-source alternatives like Continue.dev are gaining maturity.",
+                  "de": "Dieser Kurswechsel erfolgt inmitten zunehmender Konkurrenz im Segment der Codierungsassistenten: <a href='https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/'>Codex (OpenAI), Claude Code (Anthropic) und Grok Build (xAI) gewinnen Nutzungsanteile</a>, und Open-Source-Alternativen wie Continue.dev werden immer ausgereifter.",
+                  "it": "Questo cambio di rotta avviene mentre la concorrenza si intensifica nel segmento degli assistenti di codifica: <a href='https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/'>Codex (OpenAI), Claude Code (Anthropic) e Grok Build (xAI) rosicchiano quote d'uso</a>, e alternative open source come Continue.dev guadagnano maturità.",
+                  "lmo": "Sto cambiament de rotta chì el riva intant che la competizzion la se fa pussee forta in sul segment di assistent de coding : <a href='https://techcrunch.com/2026/05/30/what-a-joke-github-copilots-new-token-based-billing-spurs-consternation-among-devs/'>Codex (OpenAI), Claude Code (Anthropic) e Grok Build (xAI) gh'eren dree a rosigà via di part d'usagg</a>, e che di alternativ open source come Continue.dev vann ciapà maduranza."
+                }
+              ]
+            },
+            {
+              "headline": {
+                "fr": "PewDiePie lance un espace de travail IA basé sur OpenCode",
+                "en": "PewDiePie Launches AI Workspace Based on OpenCode",
+                "de": "PewDiePie startet einen KI-Arbeitsplatz basierend auf OpenCode",
+                "it": "PewDiePie lancia uno spazio di lavoro IA basato su OpenCode",
+                "lmo": "PewDiePie el lanza 'n spazi de lavor IA fondaa su OpenCode"
+              },
+              "byline": {
+                "fr": "De notre correspondant — 1er juin 2026",
+                "en": "From our correspondent — 1 June 2026",
+                "de": "Von unserem Korrespondenten — 1. Juni 2026",
+                "it": "Dal nostro corrispondente — 1° giugno 2026",
+                "lmo": "Del noster correspondent — 1 de giugn 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Le youtubeur suédois PewDiePie, fort de plus de 110 millions d'abonnés, a surpris la communauté tech en présentant <a href='https://www.youtube.com/watch?v=rAzT5lcezPs'>son propre espace de travail IA</a>, construit sur OpenCode — un framework open source de codage agentique. Dans une vidéo publiée dimanche, il démontre comment cet outil lui permet de générer du code, automatiser des tâches et orchestrer des agents, le tout depuis une interface unifiée.",
+                  "en": "Swedish YouTuber PewDiePie, with over 110 million subscribers, surprised the tech community by showcasing <a href='https://www.youtube.com/watch?v=rAzT5lcezPs'>his own AI workspace</a>, built on OpenCode — an open-source agentic coding framework. In a video published Sunday, he demonstrates how this tool allows him to generate code, automate tasks, and orchestrate agents, all from a unified interface.",
+                  "de": "Der schwedische YouTuber PewDiePie, mit über 110 Millionen Abonnenten, hat die Tech-Community überrascht, indem er <a href='https://www.youtube.com/watch?v=rAzT5lcezPs'>seinen eigenen KI-Arbeitsplatz</a> vorstellte, der auf OpenCode basiert – einem Open-Source-Framework für agentisches Codieren. In einem am Sonntag veröffentlichten Video demonstriert er, wie ihm dieses Tool ermöglicht, Code zu generieren, Aufgaben zu automatisieren und Agenten zu orchestrieren, alles von einer einheitlichen Oberfläche aus.",
+                  "it": "Lo youtuber svedese PewDiePie, forte di oltre 110 milioni di iscritti, ha sorpreso la comunità tech presentando <a href='https://www.youtube.com/watch?v=rAzT5lcezPs'>il suo spazio di lavoro IA</a>, costruito su OpenCode — un framework open source di codifica agentica. In un video pubblicato domenica, dimostra come questo strumento gli permetta di generare codice, automatizzare compiti e orchestrare agenti, il tutto da un'interfaccia unificata.",
+                  "lmo": "El youtuber svedes PewDiePie, fort de pussee de 110 million de iscrit, l'ha sorprenduu la comunità tenegha presentand <a href='https://www.youtube.com/watch?v=rAzT5lcezPs'>el sò spazi de lavor IA</a>, costruii su OpenCode — on framework open source de coding agentegh. In d'ona video publicada domenega, el mostra comè che 'sto istrument chì el ghe permet de generà del code, automar di compit e orquestrà di agent, el tut de 'n'interfaccia unificada."
+                },
+                {
+                  "fr": "L'initiative marque une étape intéressante dans la démocratisation des outils agentiques : une figure mainstream adopte et promeut un outil technique habituellement réservé aux développeurs. Le projet OpenCode, maintenu par la communauté, se positionne comme une alternative open source aux solutions propriétaires (Codex, Claude Code) et bénéficie désormais d'une visibilité considérable.",
+                  "en": "The initiative marks an interesting step in the democratization of agentic tools: a mainstream figure adopts and promotes a technical tool usually reserved for developers. The OpenCode project, maintained by the community, positions itself as an open-source alternative to proprietary solutions (Codex, Claude Code) and now benefits from considerable visibility.",
+                  "de": "Die Initiative markiert einen interessanten Schritt in der Demokratisierung von agentischen Werkzeugen: Eine Mainstream-Persönlichkeit übernimmt und fördert ein technisches Tool, das normalerweise Entwicklern vorbehalten ist. Das von der Community gepflegte Projekt OpenCode positioniert sich als Open-Source-Alternative zu proprietären Lösungen (Codex, Claude Code) und erhält nun erhebliche Sichtbarkeit.",
+                  "it": "L'iniziativa segna un passo interessante nella democratizzazione degli strumenti agentici: una figura mainstream adotta e promuove uno strumento tecnico solitamente riservato agli sviluppatori. Il progetto OpenCode, mantenuto dalla comunità, si posiziona come alternativa open source alle soluzioni proprietarie (Codex, Claude Code) e beneficia ora di una visibilità considerevole.",
+                  "lmo": "L'iniziativa la marca 'n pass interessant in la democratizzazion di istrument agentegh : 'na figura mainstream la adotta e la promoeuv on istrument tenegh che de solet l'è reservaa ai sviluppador. El proget OpenCode, mantegnuu de la comunità, el se met 'me alternativa open source a i soluzion proprietari (Codex, Claude Code) e adess el gode de 'na visibilità notevol."
+                },
+                {
+                  "fr": "Sur les forums, les réactions sont partagées entre enthousiasme pour la vulgarisation et crainte que des utilisateurs non techniques n'utilisent des agents pour produire du code de qualité discutable — un phénomène déjà documenté sur Hacker News où un développeur freelance raconte avoir perdu un client au profit d'un « cluster Kubernetes codé par IA ».",
+                  "en": "On forums, reactions are mixed between enthusiasm for popularization and concern that non-technical users might use agents to produce code of questionable quality — a phenomenon already documented on Hacker News where a freelance developer recounted losing a client to a 'Kubernetes cluster coded by AI.'",
+                  "de": "In den Foren sind die Reaktionen geteilt zwischen Begeisterung für die Popularisierung und der Befürchtung, dass nicht-technische Nutzer Agenten einsetzen könnten, um Code von fragwürdiger Qualität zu produzieren – ein Phänomen, das bereits auf Hacker News dokumentiert wurde, wo ein freiberuflicher Entwickler berichtet, einen Kunden an einen «KI-codierten Kubernetes-Cluster» verloren zu haben.",
+                  "it": "Sui forum, le reazioni sono divise tra entusiasmo per la divulgazione e timore che utenti non tecnici utilizzino agenti per produrre codice di qualità discutibile — un fenomeno già documentato su Hacker News dove uno sviluppatore freelance racconta di aver perso un cliente a favore di un « cluster Kubernetes codificato dall'IA ».",
+                  "lmo": "In sui forum, i reazzion hinn spartii tra entusiasm per la divulgazion e pagura che di utent minga tenegh doperen di agent per prodù del code de qualità discutibila — on fenòmen già documentaa in su Hacker News, indè che 'n sviluppador freelance el cunta de avè perduu on client a vantagg de on « cluster Kubernetes codifegaa de l'IA »."
+                }
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito – Le paradoxe de l'infrastructure",
+                "en": "Editorial – The Infrastructure Paradox",
+                "de": "Leitartikel – Das Paradoxon der Infrastruktur",
+                "it": "Editoriale – Il paradosso dell'infrastruttura",
+                "lmo": "Edit – El paradox de l'infrastruttura"
+              },
+              "byline": {
+                "fr": "Par la rédaction — 1er juin 2026",
+                "en": "By the editorial team — 1 June 2026",
+                "de": "Von der Redaktion — 1. Juni 2026",
+                "it": "Dalla redazione — 1° giugno 2026",
+                "lmo": "Per la redazion — 1 de giugn 2026"
+              },
+              "paragraphs": [
+                {
+                  "fr": "Cette semaine a été marquée par une dichotomie frappante. D'un côté, les annonces d'investissements dans les infrastructures IA atteignent des sommets vertigineux : SoftBank promet 75 milliards d'euros pour des centres de données en France, tandis que le nouveau partenariat entre Microsoft et NVIDIA (RTX Spark) promet de transformer chaque PC Windows en plateforme agentique. De l'autre, les préoccupations sociétales s'accumulent : l'encyclique du pape Léon XIV interroge la moralité de l'IA, Amnesty International publie un rapport dénonçant des violations des droits humains par les systèmes génératifs, et le <em>New York Times</em> consacre sa une aux super PACs soutenus par Anthropic et OpenAI qui dépensent des millions pour influencer les élections de mi-mandat.",
+                  "en": "This week was marked by a striking dichotomy. On one hand, AI infrastructure investment announcements reached dizzying heights: SoftBank promises €75 billion for data centers in France, while the new partnership between Microsoft and NVIDIA (RTX Spark) promises to turn every Windows PC into an agentic platform. On the other hand, societal concerns are mounting: Pope Leo XIV's encyclical questions the morality of AI, Amnesty International publishes a report denouncing human rights violations by generative systems, and the <em>New York Times</em> devotes its front page to super PACs backed by Anthropic and OpenAI spending millions to influence midterm elections.",
+                  "de": "Diese Woche war von einem auffälligen Gegensatz geprägt. Einerseits erreichen die Ankündigungen von Investitionen in KI-Infrastrukturen schwindelerregende Höhen: SoftBank verspricht 75 Milliarden Euro für Rechenzentren in Frankreich, während die neue Partnerschaft zwischen Microsoft und NVIDIA (RTX Spark) verspricht, jeden Windows-PC in eine agentische Plattform zu verwandeln. Andererseits häufen sich die gesellschaftlichen Bedenken: Die Enzyklika von Papst Leo XIV. hinterfragt die Moralität der KI, Amnesty International veröffentlicht einen Bericht über Menschenrechtsverletzungen durch generative Systeme, und die <em>New York Times</em> widmet ihre Titelseite den von Anthropic und OpenAI unterstützten Super-PACs, die Millionen ausgeben, um die Zwischenwahlen zu beeinflussen.",
+                  "it": "Questa settimana è stata segnata da una dicotomia sorprendente. Da un lato, gli annunci di investimenti nelle infrastrutture IA raggiungono vette vertiginose: SoftBank promette 75 miliardi di euro per centri dati in Francia, mentre la nuova partnership tra Microsoft e NVIDIA (RTX Spark) promette di trasformare ogni PC Windows in una piattaforma agentica. Dall'altro, le preoccupazioni sociali si accumulano: l'enciclica di papa Leone XIV interroga la moralità dell'IA, Amnesty International pubblica un rapporto che denuncia violazioni dei diritti umani da parte dei sistemi generativi, e il <em>New York Times</em> dedica la sua prima pagina ai super PAC sostenuti da Anthropic e OpenAI che spendono milioni per influenzare le elezioni di medio termine.",
+                  "lmo": "'Sta setemana chì l'è stada marcada de 'na dicotomia che la se ved. De 'na part, i anunzi d'investiment in di infrastruttur IA riven a di alt vertiginos : SoftBank el promet 75 miliard de euro per center de dati in Francia, intant che 'l noeuv partenariaa in tra Microsoft e NVIDIA (RTX Spark) el promet de trasformà ogni PC Windows in 'na piattaforma agentegh. De l'altra, i preoccupazion sociai se accumulen : l'enciclica del papa Leon XIV la interroga la moralità de l'IA, Amnesty International la publica on raport che 'l denuncia di violazion di dirit uman de part di sistema generativ, e 'l <em>New York Times</em> el dedica la soa prima pagina ai super PAC sostegnuu de Anthropic e OpenAI che spenden million de dollar per influenzà i elezzion de mezz mandad."
+                },
+                {
+                  "fr": "Ce paradoxe n'est pas nouveau, mais il s'accentue à mesure que l'IA quitte les laboratoires pour irriguer tous les secteurs. La question centrale — qui contrôle l'IA, et dans quel intérêt ? — n'a jamais été aussi urgente. Les infrastructures se construisent à un rythme effréné, mais les garde-fous éthiques, réglementaires et sécuritaires peinent à suivre. L'affaire de l'injection de prompts sur Instagram via Meta AI illustre parfaitement ce décalage : des fonctionnalités puissantes déployées sans filet de sécurité adéquat.",
+                  "en": "This paradox is not new, but it is intensifying as AI leaves the labs to permeate every sector. The central question — who controls AI, and in whose interest? — has never been more urgent. Infrastructure is being built at a frenetic pace, but ethical, regulatory, and security guardrails are struggling to keep up. The prompt injection case on Instagram via Meta AI perfectly illustrates this disconnect: powerful features deployed without adequate safety nets.",
+                  "de": "Dieses Paradoxon ist nicht neu, aber es verschärft sich, je mehr KI die Labore verlässt und alle Sektoren durchdringt. Die zentrale Frage – wer kontrolliert die KI und in wessen Interesse? – war nie dringlicher. Die Infrastrukturen werden in rasantem Tempo aufgebaut, aber die ethischen, regulatorischen und sicherheitstechnischen Schutzvorkehrungen können kaum mithalten. Der Fall der Prompt-Injection auf Instagram via Meta AI veranschaulicht diese Diskrepanz perfekt: Leistungsstarke Funktionen werden ohne angemessenes Sicherheitsnetz eingesetzt.",
+                  "it": "Questo paradosso non è nuovo, ma si accentua man mano che l'IA esce dai laboratori per irrorare tutti i settori. La questione centrale — chi controlla l'IA, e nell'interesse di chi? — non è mai stata così urgente. Le infrastrutture si costruiscono a ritmo frenetico, ma le salvaguardie etiche, regolamentari e di sicurezza faticano a tenere il passo. Il caso dell'iniezione di prompt su Instagram tramite Meta AI illustra perfettamente questo disallineamento: funzionalità potenti implementate senza una rete di sicurezza adeguata.",
+                  "lmo": "Sto paradox no l'è noeuv, ma 'l se fa pussee fort a misura che l'IA la lassa i laboratori per irigà ogni settor. La quesstion centrala — chi controlla l'IA, e in che interess? — l'è mai stada inscì urgenta. I infrastruttur se costren a 'n ritmo frenetich, ma i guardie fœu etich, regolamentar e de sicurezza fadighinn a tegnì el pass. L'affar de l'iniezzion de prompt in su Instagram via Meta AI l'illustra perfettament sto descalzament : di fonzionalità potent despiegad senza 'na red de sicurezza adeguada."
+                },
+                {
+                  "fr": "Alors que les grands labos se livrent une concurrence féroce pour dominer le marché des agents IA et des infrastructures, il est impératif que la communauté technologique, les régulateurs et la société civile travaillent de concert pour que ces outils servent véritablement l'intérêt général. L'appel du <em>New York Times</em> à « prendre notre avenir IA en main » résonne plus que jamais.",
+                  "en": "As the major labs engage in fierce competition to dominate the market for AI agents and infrastructure, it is imperative that the technology community, regulators, and civil society work together so that these tools truly serve the public interest. The <em>New York Times</em>'s call to 'take our AI future into our own hands' resonates more than ever.",
+                  "de": "Während die großen Labore einen erbitterten Wettbewerb um die Vorherrschaft auf dem Markt für KI-Agenten und -Infrastrukturen führen, ist es zwingend erforderlich, dass die Technologiegemeinschaft, die Regulierungsbehörden und die Zivilgesellschaft zusammenarbeiten, um sicherzustellen, dass diese Werkzeuge wirklich dem Gemeinwohl dienen. Der Aufruf der <em>New York Times</em>, «unsere KI-Zukunft selbst in die Hand zu nehmen», hallt mehr denn je wider.",
+                  "it": "Mentre i grandi laboratori si fanno una concorrenza feroce per dominare il mercato degli agenti IA e delle infrastrutture, è imperativo che la comunità tecnologica, i regolatori e la società civile lavorino insieme affinché questi strumenti servano veramente l'interesse generale. L'appello del <em>New York Times</em> a « prendere in mano il nostro futuro IA » risuona più che mai.",
+                  "lmo": "Intant che i grand laboratori se fann 'na competizzion ferozza per dominà el mercaa di agent IA e di infrastruttur, l'è necessari che la comunità tecnologica, i regolator e la società civila lavoren insema per fa in manera che 'sti istrument servissen verament l'interess general. La ciamada del <em>New York Times</em> a « ciapà in man el noster futur IA » la se fa sentì pussee che mai."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr"
+}

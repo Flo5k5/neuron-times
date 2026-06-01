@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Neuron Times — lundi 1er juin 2026</title>
+<meta name="description" content="Le nouveau modèle de raisonnement et d'action pour la robotique et les mondes simulés est disponible en open source sur Hugging Face.">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;  /* aligned with .paper padding-right (content edge) */
+  z-index: 2;
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+/* Brand title is a link to the index, but visually identical to the surrounding h1.
+   No underline, no color change, no hover state — preserves the broadsheet feel.
+   Cursor stays default (text) so it doesn't even look clickable until tested. */
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+/* Sibling sections within a page : add a clear vertical break + double-rule divider.
+   First section of a page keeps the page-label separation only ; subsequent
+   sections get this visual cue so the reader sees where I. ends and II. begins. */
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+.lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
+.lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
+.lang-selector a:hover { opacity: 1; }
+.lang-selector a.active { opacity: 1; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.lang-selector .sep { opacity: 0.4; }
+
+/* Multilingual cascade : show only the lang matching <html lang="..."> */
+html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+html[lang="lmo"] [data-i18n][lang]:not([lang="lmo"]) { display: none !important; }
+
+/* Fallback spans (FR content when translation for active lang missing).
+   Visible by default ; hidden when a sibling translation for the active
+   lang exists. Uses CSS :has() — supported in all modern browsers since 2023. */
+.i18n-fallback { display: inline; }
+html[lang="en"] .i18n-fallback:has(~ [data-i18n][lang="en"]) { display: none !important; }
+html[lang="de"] .i18n-fallback:has(~ [data-i18n][lang="de"]) { display: none !important; }
+html[lang="it"] .i18n-fallback:has(~ [data-i18n][lang="it"]) { display: none !important; }
+html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !important; }
+
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+  .masthead .meta { flex-wrap: wrap; gap: 8px; justify-content: center; }
+}
+</style>
+</head>
+<body>
+<main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
+  <header class="masthead">
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
+    <p class="tagline"><span data-i18n lang="fr">L'actualité de l'IA, sans filtre — chaque jour.</span><span data-i18n lang="en">AI news, unfiltered — every day.</span><span data-i18n lang="de">KI-Nachrichten, ungefiltert – jeden Tag.</span><span data-i18n lang="it">L'attualità dell'IA, senza filtri — ogni giorno.</span><span data-i18n lang="lmo">La notizia de l'IA, senza filtro — ogni dì.</span></p>
+    <div class="meta">
+      <span>N° 152</span>
+      <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion del matin</span> · Genève</span>
+      <span><span data-i18n lang="fr">lundi 1er juin 2026</span><span data-i18n lang="en">Monday, 1 June 2026</span><span data-i18n lang="de">Montag, 1. Juni 2026</span><span data-i18n lang="it">lunedì 1° giugno 2026</span><span data-i18n lang="lmo">lunedì 1 de giugn 2026</span></span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <p class="kicker"><span data-i18n lang="fr">À la Une · Modèles fondation</span><span data-i18n lang="en">Front Page · Foundation Models</span><span data-i18n lang="de">Aufmacher · Foundation-Modelle</span><span data-i18n lang="it">In prima pagina · Modelli fondazionali</span><span data-i18n lang="lmo">À la Une · Modell fondazion</span></p>
+    <h2><span data-i18n lang="fr">NVIDIA dévoile Cosmos 3, le premier « omni-modèle » ouvert dédié à l'IA physique</span><span data-i18n lang="en">NVIDIA Unveils Cosmos 3, the First Open 'Omni-Model' for Physical AI</span><span data-i18n lang="de">NVIDIA stellt Cosmos 3 vor, das erste offene «Omni-Modell» für Physical AI</span><span data-i18n lang="it">NVIDIA presenta Cosmos 3, il primo « omni-modello » aperto dedicato all'IA fisica</span><span data-i18n lang="lmo">NVIDIA el desvela Cosmos 3, el prim « omni-modell » vert dervii per l'IA fisica</span></h2>
+    <p class="subdeck"><span data-i18n lang="fr">Le nouveau modèle de raisonnement et d'action pour la robotique et les mondes simulés est disponible en open source sur Hugging Face.</span><span data-i18n lang="en">The new reasoning and action model for robotics and simulated worlds is available as open source on Hugging Face.</span><span data-i18n lang="de">Das neue Reasoning- und Action-Modell für Robotik und simulierte Welten ist auf Hugging Face als Open Source verfügbar.</span><span data-i18n lang="it">Il nuovo modello di ragionamento e azione per la robotica e i mondi simulati è disponibile in open source su Hugging Face.</span><span data-i18n lang="lmo">El noeuv model de raxonament e de azion per la robotica e i mond simulaa l'è disponibel open source sora Hugging Face.</span></p>
+    <p class="byline"><span data-i18n lang="fr">De la rédaction — 1er juin 2026</span><span data-i18n lang="en">From the editorial team — 1 June 2026</span><span data-i18n lang="de">Von der Redaktion — 1. Juni 2026</span><span data-i18n lang="it">Dalla redazione — 1° giugno 2026</span><span data-i18n lang="lmo">De la redazion — 1 de giugn 2026</span></p>
+    <p><span data-i18n lang="fr">NVIDIA a publié ce lundi <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, présenté comme le premier « omni-modèle » ouvert conçu pour l'IA physique — couvrant le raisonnement spatial, la compréhension des scènes dynamiques et la génération d'actions motrices dans des environnements simulés et réels. Disponible sur Hugging Face, Cosmos 3 unifie pour la première fois la perception visuelle, la simulation causale et la planification de mouvement au sein d'une seule architecture entièrement ouverte.</span><span data-i18n lang="en">NVIDIA released on Monday <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presented as the first open 'omni-model' designed for physical AI — covering spatial reasoning, dynamic scene understanding, and motor action generation in simulated and real environments. Available on Hugging Face, Cosmos 3 unifies for the first time visual perception, causal simulation, and motion planning within a single fully open architecture.</span><span data-i18n lang="de">NVIDIA hat am Montag <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a> veröffentlicht, das als erstes offenes «Omni-Modell» für Physical AI gilt – es umfasst räumliches Reasoning, das Verständnis dynamischer Szenen und die Generierung motorischer Aktionen in simulierten und realen Umgebungen. Cosmos 3 vereint auf Hugging Face erstmals visuelle Wahrnehmung, kausale Simulation und Bewegungsplanung in einer einzigen vollständig offenen Architektur.</span><span data-i18n lang="it">NVIDIA ha pubblicato questo lunedì <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presentato come il primo « omni-modello » aperto progettato per l'IA fisica — coprendo il ragionamento spaziale, la comprensione delle scene dinamiche e la generazione di azioni motorie in ambienti simulati e reali. Disponibile su Hugging Face, Cosmos 3 unifica per la prima volta la percezione visiva, la simulazione causale e la pianificazione del movimento in un'unica architettura completamente aperta.</span><span data-i18n lang="lmo">NVIDIA l'ha publicaa incheu <a href='https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai'>Cosmos 3</a>, presentaa come el prim « omni-modell » vert dervii per l'IA fisica — che l'include el raxonament spazial, la comprension di scen dinamegh e la generazion d'azion motor in di ambient simulaa e reai. Disponibil sora Hugging Face, Cosmos 3 el unifega per la prima voeulta la percezion visual, la simulazion causal e la pianificazion del moviment denter in d'ona sola architettura intrega verta.</span></p>
+<p><span data-i18n lang="fr">Contrairement aux modèles linguistiques ou multimodaux classiques, Cosmos 3 intègre des capacités de « physique de sens commun » : il peut anticiper les conséquences d'une action dans une scène, raisonner sur les contraintes mécaniques d'un objet et générer des séquences de contrôle pour un bras robotique à partir d'une simple instruction textuelle. Les premiers benchmarks communiqués par NVIDIA montrent des gains significatifs sur les tâches de manipulation, de navigation et de prédiction de trajectoire par rapport aux approches modulaires antérieures.</span><span data-i18n lang="en">Unlike traditional language or multimodal models, Cosmos 3 integrates 'common sense physics' capabilities: it can anticipate the consequences of an action in a scene, reason about the mechanical constraints of an object, and generate control sequences for a robotic arm from a simple text instruction. Initial benchmarks released by NVIDIA show significant gains on manipulation, navigation, and trajectory prediction tasks compared to earlier modular approaches.</span><span data-i18n lang="de">Anders als klassische Sprach- oder Multimodal-Modelle integriert Cosmos 3 Fähigkeiten einer «physikalischen Common Sense»: Es kann die Folgen einer Aktion in einer Szene antizipieren, über mechanische Einschränkungen eines Objekts nachdenken und Steuersequenzen für einen Roboterarm aus einer einfachen Texteingabe generieren. Erste von NVIDIA veröffentlichte Benchmarks zeigen deutliche Verbesserungen bei Manipulations-, Navigations- und Trajektorienvorhersage-Aufgaben im Vergleich zu früheren modularen Ansätzen.</span><span data-i18n lang="it">A differenza dei modelli linguistici o multimodali classici, Cosmos 3 integra capacità di « fisica del senso comune »: può anticipare le conseguenze di un'azione in una scena, ragionare sui vincoli meccanici di un oggetto e generare sequenze di controllo per un braccio robotico a partire da una semplice istruzione testuale. I primi benchmark comunicati da NVIDIA mostrano guadagni significativi in compiti di manipolazione, navigazione e previsione di traiettoria rispetto agli approcci modulari precedenti.</span><span data-i18n lang="lmo">A differenza di modell lingue o multimodai classegh, Cosmos 3 l'integra di capacità de « fisica de sen comun » : el pò anticipà i conseguenz de n'azzion in d'ona scena, raxionà sora i vincol mecanegh de on oget e generà di sequenz de controll per on brasc robotich a partì de ona semplici istruzzion testual. I prim benchmark comunicaa de NVIDIA mostren di vantagg significativ sora i compit de manipolazion, de navigazion e de prevision de traietoria rispett ai approcc modulai de prima.</span></p>
+<p><span data-i18n lang="fr">Le modèle est publié sous licence permissive et accompagné d'un ensemble d'outils d'évaluation — baptisé <em>Nyx, Quadrants et Genesis World 1.0</em> — également dévoilé ce week-end par Genesis AI. Cette sortie marque un tournant dans la démocratisation de l'IA physique, longtemps réservée aux laboratoires disposant d'infrastructures massives et de données propriétaires.</span><span data-i18n lang="en">The model is released under a permissive license and accompanied by a suite of evaluation tools — called <em>Nyx, Quadrants and Genesis World 1.0</em> — also unveiled this weekend by Genesis AI. This release marks a turning point in the democratization of physical AI, long reserved for laboratories with massive infrastructures and proprietary data.</span><span data-i18n lang="de">Das Modell wird unter einer permissiven Lizenz veröffentlicht und wird von einer Reihe von Evaluierungstools begleitet – <em>Nyx, Quadrants und Genesis World 1.0</em> – die ebenfalls an diesem Wochenende von Genesis AI vorgestellt wurden. Diese Veröffentlichung markiert einen Wendepunkt in der Demokratisierung der Physical AI, die lange Laboren mit massiven Infrastrukturen und proprietären Daten vorbehalten war.</span><span data-i18n lang="it">Il modello è pubblicato con licenza permissiva e accompagnato da un set di strumenti di valutazione — chiamato <em>Nyx, Quadrants e Genesis World 1.0</em> — anch'esso svelato questo fine settimana da Genesis AI. Questa uscita segna una svolta nella democratizzazione dell'IA fisica, a lungo riservata ai laboratori con infrastrutture massive e dati proprietari.</span><span data-i18n lang="lmo">El modell l'è publicaa sotta licenza permissiva e compagnaa de on insema d'istem de valutazion — ciamaa <em>Nyx, Quadrants e Genesis World 1.0</em> — anca lor desvelaa in sto weekend chì de Genesis AI. 'Sta sortida la marca on pont de svolta in la democratizzazion de l'IA fisica, che l'è stada longh temp reservada ai laboratori che gh'hann di infrastruttur massiv e di data proprietari.</span></p>
+  </section>
+
+  <section class="sidebar">
+    <article class="sidebar-item"><span class="tag" data-i18n lang="fr">Mineur</span><span class="tag" data-i18n lang="en">Minor</span><span class="tag" data-i18n lang="de">Minderjährig</span><span class="tag" data-i18n lang="it">Minore</span><span class="tag" data-i18n lang="lmo">Mineur</span><h3><span data-i18n lang="fr">SoftBank prévoit 75 milliards d'euros de centres de données IA en France</span><span data-i18n lang="en">SoftBank Plans €75 Billion AI Data Center Buildout in France</span><span data-i18n lang="de">SoftBank plant 75 Milliarden Euro KI-Rechenzentren in Frankreich</span><span data-i18n lang="it">SoftBank prevede 75 miliardi di euro di centri dati IA in Francia</span><span data-i18n lang="lmo">SoftBank el preved 75 miliard de euro de center de dati IA in Francia</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 31 mai 2026</span><span data-i18n lang="en">From the Wires — 31 May 2026</span><span data-i18n lang="de">From the Wires — 31. Mai 2026</span><span data-i18n lang="it">Dalle agenzie — 31 maggio 2026</span><span data-i18n lang="lmo">From the Wires — 31 de magg 2026</span></p><p><span data-i18n lang="fr">Le conglomérat japonais <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank a annoncé</a> un investissement colossal pouvant atteindre 75 milliards d'euros pour construire jusqu'à 5 GW de capacité de centres de données dédiés à l'IA en France, répartis sur trois sites dans le nord du pays. Les premières infrastructures, représentant 45 milliards d'euros, devraient être opérationnelles d'ici 2031.</span><span data-i18n lang="en">Japanese conglomerate <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank has announced</a> a colossal investment potentially reaching €75 billion to build up to 5 GW of AI-dedicated data center capacity in France, spread across three sites in the north of the country. Initial infrastructure, representing €45 billion, is expected to be operational by 2031.</span><span data-i18n lang="de">Der japanische Mischkonzern <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank hat eine gewaltige Investition</a> von bis zu 75 Milliarden Euro angekündigt, um in Frankreich bis zu 5 GW KI-Rechenzentrumskapazität zu bauen, verteilt auf drei Standorte im Norden des Landes. Die ersten Infrastrukturen im Wert von 45 Milliarden Euro sollen bis 2031 betriebsbereit sein.</span><span data-i18n lang="it">Il conglomerato giapponese <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank ha annunciato</a> un investimento colossale che può raggiungere 75 miliardi di euro per costruire fino a 5 GW di capacità di centri dati dedicati all'IA in Francia, distribuiti su tre siti nel nord del paese. Le prime infrastrutture, che rappresentano 45 miliardi di euro, dovrebbero essere operative entro il 2031.</span><span data-i18n lang="lmo">El conglomerad giappones <a href='https://the-decoder.com/softbank-plans-75-billion-euro-ai-data-center-buildout-in-france/'>SoftBank l'ha anunziaa</a> on investiment colossai che pò rivà a 75 miliard de euro per costrù fina a 5 GW de capacità de center de dati dedicaa a l'IA in Francia, spartii sora tri sit in del nord del paes. I prim infrastruttur, che rappresenten 45 miliard de euro, gh'ha de vesser operativ de chì al 2031.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Majeur</span><span class="tag" data-i18n lang="en">Major</span><span class="tag" data-i18n lang="de">Hauptsächlich</span><span class="tag" data-i18n lang="it">Maggiore</span><span class="tag" data-i18n lang="lmo">Major</span><h3><span data-i18n lang="fr">Anthropic bannit l'IA pendant ses entretiens d'embauche</span><span data-i18n lang="en">Anthropic Bans AI During Job Interviews</span><span data-i18n lang="de">Anthropic verbietet KI in Vorstellungsgesprächen</span><span data-i18n lang="it">Anthropic vieta l'IA durante i colloqui di lavoro</span><span data-i18n lang="lmo">Anthropic el bandiss l'IA in di sò colloqui de lavor</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 31 mai 2026</span><span data-i18n lang="en">From the Wires — 31 May 2026</span><span data-i18n lang="de">From the Wires — 31. Mai 2026</span><span data-i18n lang="it">Dalle agenzie — 31 maggio 2026</span><span data-i18n lang="lmo">From the Wires — 31 de magg 2026</span></p><p><span data-i18n lang="fr">La start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic interdit l'utilisation de toute IA</a> lors de ses entretiens, préférant évaluer les candidats sur leur raisonnement « organique » au cours de cinq rounds portant sur les compétences techniques, les valeurs et l'éthique. Les salaires proposés peuvent atteindre 850 000 dollars, tandis que certains candidats dépensent jusqu'à 4 600 dollars en coaching privé pour se préparer.</span><span data-i18n lang="en">Startup <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic prohibits the use of any AI</a> during its interviews, preferring to evaluate candidates on their 'organic' reasoning over five rounds covering technical skills, values, and ethics. Offered salaries can reach $850,000, while some candidates spend up to $4,600 on private coaching to prepare.</span><span data-i18n lang="de">Das Start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic verbietet den Einsatz von KI</a> in seinen Vorstellungsgesprächen und bewertet Kandidaten lieber anhand ihres «organischen» Denkens in fünf Runden zu technischen Fähigkeiten, Werten und Ethik. Die angebotenen Gehälter können bis zu 850.000 Dollar betragen, während einige Kandidaten bis zu 4.600 Dollar für privates Coaching zur Vorbereitung ausgeben.</span><span data-i18n lang="it">La startup <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic vieta l'uso di qualsiasi IA</a> durante i suoi colloqui, preferendo valutare i candidati sul loro ragionamento « organico » in cinque round incentrati su competenze tecniche, valori ed etica. Gli stipendi proposti possono raggiungere 850.000 dollari, mentre alcuni candidati spendono fino a 4.600 dollari in coaching privato per prepararsi.</span><span data-i18n lang="lmo">La start-up <a href='https://the-decoder.com/anthropic-bans-ai-tools-during-job-interviews-to-see-how-candidates-actually-think/'>Anthropic la proibiss l'usagg de qualsessia IA</a> in di sò colloqui, preferend valutà i candidad in sul raxonament « organich » in de cinch round che traten di competenz tecnich, di valor e de l'etega. I salari proponuu poden rivà a 850.000 dollar, intant che on poo de candidad spenden fina a 4.600 dollar in coaching privaa per preparàss.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Critique</span><span class="tag" data-i18n lang="en">Critical</span><span class="tag" data-i18n lang="de">Kritik</span><span class="tag" data-i18n lang="it">Critico</span><span class="tag" data-i18n lang="lmo">Critich</span><h3><span data-i18n lang="fr">Une injection de prompt permet de détourner des comptes Instagram via Meta AI</span><span data-i18n lang="en">Prompt Injection Used to Hijack Instagram Accounts via Meta AI</span><span data-i18n lang="de">Prompt-Injection ermöglicht Übernahme von Instagram-Konten über Meta AI</span><span data-i18n lang="it">Un'iniezione di prompt permette di dirottare account Instagram tramite Meta AI</span><span data-i18n lang="lmo">On'iniezzion de prompt la permet de fregà i account de Instagram via Meta AI</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 1er juin 2026</span><span data-i18n lang="en">From the Wires — 1 June 2026</span><span data-i18n lang="de">From the Wires — 1. Juni 2026</span><span data-i18n lang="it">Dalle agenzie — 1° giugno 2026</span><span data-i18n lang="lmo">From the Wires — 1 de giugn 2026</span></p><p><span data-i18n lang="fr">Des chercheurs en sécurité rapportent que <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistant Meta AI est vulnérable à une injection de prompts</a> permettant de réinitialiser le mot de passe de comptes Instagram. L'attaque exploite la confiance excessive de l'IA dans les instructions provenant de sources non vérifiées, un cas typique du « problème du adjoint confus » qui touche de nombreux systèmes agentiques.</span><span data-i18n lang="en">Security researchers report that <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>the Meta AI assistant is vulnerable to prompt injection</a> allowing Instagram account passwords to be reset. The attack exploits the AI's over-trust in instructions from unverified sources, a classic case of the 'confused deputy problem' affecting many agentic systems.</span><span data-i18n lang="de">Sicherheitsforscher berichten, dass <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>der Meta AI-Assistent anfällig für Prompt-Injection</a> ist, die es ermöglicht, Passwörter von Instagram-Konten zurückzusetzen. Der Angriff nutzt das übermäßige Vertrauen der KI in Anweisungen aus ungeprüften Quellen aus, ein typischer Fall des «Confused-Deputy-Problems», von dem viele agentische Systeme betroffen sind.</span><span data-i18n lang="it">Ricercatori di sicurezza riferiscono che <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistente Meta AI è vulnerabile a un'iniezione di prompt</a> che consente di reimpostare la password di account Instagram. L'attacco sfrutta l'eccessiva fiducia dell'IA nelle istruzioni provenienti da fonti non verificate, un caso tipico del « problema dell'assistente confuso » che riguarda molti sistemi agentici.</span><span data-i18n lang="lmo">Di ricercador de sicurezza hinn dree a raportà che <a href='https://www.neowin.net/news/people-are-using-prompt-injection-to-trick-metas-ai-into-handing-over-instagram-accounts/'>l'assistent Meta AI l'è vulnerabel a 'n'iniezzion de prompt</a> che la permet de reimpostà la password di account de Instagram. L'attacch el sfrutta la fiducia eccessiva de l'IA in di istruzzion che riven de font minga verificaa, on caso tipich del « problema del vice confus » che 'l tocca tanti sistema agentegh.</span></p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Mineur</span><span class="tag" data-i18n lang="en">Minor</span><span class="tag" data-i18n lang="de">Minderjährig</span><span class="tag" data-i18n lang="it">Minore</span><span class="tag" data-i18n lang="lmo">Mineur</span><h3><span data-i18n lang="fr">Faut-il reprendre en main l'avenir de l'IA ?</span><span data-i18n lang="en">Should We Take Charge of AI's Future?</span><span data-i18n lang="de">Sollten wir die Zukunft der KI selbst in die Hand nehmen?</span><span data-i18n lang="it">Bisogna riprendere in mano il futuro dell'IA?</span><span data-i18n lang="lmo">L'è necessari tornà a controllà el futur de l'IA?</span></h3><p class="wire"><span data-i18n lang="fr">From the Wires — 31 mai 2026</span><span data-i18n lang="en">From the Wires — 31 May 2026</span><span data-i18n lang="de">From the Wires — 31. Mai 2026</span><span data-i18n lang="it">Dalle agenzie — 31 maggio 2026</span><span data-i18n lang="lmo">From the Wires — 31 de magg 2026</span></p><p><span data-i18n lang="fr">Dans une tribune au <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, un collectif de chercheurs et de penseurs appelle à orienter le développement de l'IA vers le bien commun plutôt que vers les seuls intérêts commerciaux, alors que l'encyclique du pape Léon XIV sur l'éthique de l'IA suscite des réactions intenses à travers le monde.</span><span data-i18n lang="en">In an opinion piece in the <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, a collective of researchers and thinkers calls for steering AI development toward the common good rather than solely commercial interests, as Pope Leo XIV's encyclical on AI ethics sparks intense reactions worldwide.</span><span data-i18n lang="de">In einem Gastbeitrag in der <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a> fordert ein Kollektiv von Forschern und Denkern, die Entwicklung der KI eher am Gemeinwohl als an rein kommerziellen Interessen auszurichten, während die Enzyklika von Papst Leo XIV. zur KI-Ethik weltweit intensive Reaktionen hervorruft.</span><span data-i18n lang="it">In un editoriale sul <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, un collettivo di ricercatori e pensatori invita a orientare lo sviluppo dell'IA verso il bene comune piuttosto che verso i soli interessi commerciali, mentre l'enciclica di papa Leone XIV sull'etica dell'IA suscita reazioni intense in tutto il mondo.</span><span data-i18n lang="lmo">In d'ona tribuna al <a href='https://www.nytimes.com/2026/05/31/opinion/artificial-intelligence-public-good.html'><em>New York Times</em></a>, on coletiv de ricercador e de pensador el domanda de orientà el svilupp de l'IA vers el ben comun inveci che vers i domà interess comerziai, intant che l'enciclica del papa Leon XIV in su l'etega de l'IA la suscita di reazzion fort in tut el mond.</span></p></article>
+  </section>
+
+  <section class="page" data-page="1">
+<h2 class="page-label"><span data-i18n lang="fr">Page 1 — </span><span data-i18n lang="en">Page 1 — </span><span data-i18n lang="de">Seite 1 — </span><span data-i18n lang="it">Pagina 1 — </span><span data-i18n lang="lmo">Pagina 1 — </span><span data-i18n lang="fr">À la Une</span><span data-i18n lang="en">Front Page</span><span data-i18n lang="de">Aufmacher</span><span data-i18n lang="it">In prima pagina</span><span data-i18n lang="lmo">À la Une</span></h2>
+<div class="section section-2-cols">
+<h3 class="section-title">I. <span data-i18n lang="fr">Modèles & Frontière</span><span data-i18n lang="en">Models & Frontier</span><span data-i18n lang="de">Modelle & Grenzen</span><span data-i18n lang="it">Modelli & Frontiera</span><span data-i18n lang="lmo">Modell & Frontiera</span></h3>
+<article class="article"><h4><span data-i18n lang="fr">NVIDIA Cosmos 3 : l'IA physique devient open source</span><span data-i18n lang="en">NVIDIA Cosmos 3: Physical AI Goes Open Source</span><span data-i18n lang="de">NVIDIA Cosmos 3: Physical AI wird Open Source</span><span data-i18n lang="it">NVIDIA Cosmos 3: l'IA fisica diventa open source</span><span data-i18n lang="lmo">NVIDIA Cosmos 3 : l'IA fisica la deventa open source</span></h4><div class="body"><span></span></div></article>
+<article class="article"><h4><span data-i18n lang="fr">MiniMax déploie M3, un modèle multimodal doté d'un contexte d'un million de tokens</span><span data-i18n lang="en">MiniMax Deploys M3, a Multimodal Model with a Million-Token Context</span><span data-i18n lang="de">MiniMax stellt M3 bereit, ein multimodales Modell mit einem Kontext von einer Million Token</span><span data-i18n lang="it">MiniMax implementa M3, un modello multimodale con un contesto di un milione di token</span><span data-i18n lang="lmo">MiniMax el met in pee M3, on modell multimodal cont on contest de on million de token</span></h4><div class="body"><span></span></div></article>
+</div>
+</section>
+<section class="page" data-page="2">
+<h2 class="page-label"><span data-i18n lang="fr">Page 2 — </span><span data-i18n lang="en">Page 2 — </span><span data-i18n lang="de">Seite 2 — </span><span data-i18n lang="it">Pagina 2 — </span><span data-i18n lang="lmo">Pagina 2 — </span><span data-i18n lang="fr">Le Cahier Technique</span><span data-i18n lang="en">Technical Notebook</span><span data-i18n lang="de">Das Technikheft</span><span data-i18n lang="it">Il Quaderno Tecnico</span><span data-i18n lang="lmo">El Carnett Tenegh</span></h2>
+<div class="section section-1-col">
+<h3 class="section-title">II. <span data-i18n lang="fr">Harnais & outillage</span><span data-i18n lang="en">Harness & Tooling</span><span data-i18n lang="de">Werkzeuge & Infrastruktur</span><span data-i18n lang="it">Harness e strumenti</span><span data-i18n lang="lmo">Arnes & Istem</span></h3>
+<article class="article"><h4><span data-i18n lang="fr">llama.cpp enchaîne trois versions : gestion des ETags faibles et tokenizer étendu</span><span data-i18n lang="en">llama.cpp Chains Three Versions: Weak ETag Handling and Extended Tokenizer</span><span data-i18n lang="de">llama.cpp legt drei Versionen vor: Weak-ETags und erweiterter Tokenizer</span><span data-i18n lang="it">llama.cpp pubblica tre versioni: gestione degli ETag deboli e tokenizer esteso</span><span data-i18n lang="lmo">llama.cpp el incadena tri version : gestion di ETag debol e tokenizer slargaa</span></h4><div class="body"><span></span></div></article>
+</div>
+</section>
+<section class="page" data-page="3">
+<h2 class="page-label"><span data-i18n lang="fr">Page 3 — </span><span data-i18n lang="en">Page 3 — </span><span data-i18n lang="de">Seite 3 — </span><span data-i18n lang="it">Pagina 3 — </span><span data-i18n lang="lmo">Pagina 3 — </span><span data-i18n lang="fr">La Recherche</span><span data-i18n lang="en">Research</span><span data-i18n lang="de">Die Forschung</span><span data-i18n lang="it">La Ricerca</span><span data-i18n lang="lmo">La Ricerca</span></h2>
+<div class="section section-2-cols">
+<h3 class="section-title">III. <span data-i18n lang="fr">Papiers & laboratoires</span><span data-i18n lang="en">Papers & Labs</span><span data-i18n lang="de">Papiere & Labore</span><span data-i18n lang="it">Articoli & laboratori</span><span data-i18n lang="lmo">Papers & laboratori</span></h3>
+<article class="article"><h4><span data-i18n lang="fr">Parallax : une attention linéaire paramétrée qui conserve le softmax</span><span data-i18n lang="en">Parallax: A Parameterized Linear Attention That Retains Softmax</span><span data-i18n lang="de">Parallax: Eine parametrisierte lineare Attention, die Softmax beibehält</span><span data-i18n lang="it">Parallax: un'attenzione lineare parametrizzata che conserva il softmax</span><span data-i18n lang="lmo">Parallax : 'n'attenzion lineara parametrizzada che la tegn el softmax</span></h4><div class="body"><span></span></div></article>
+<article class="article"><h4><span data-i18n lang="fr">Microsoft publie un toolkit de gouvernance pour les agents IA</span><span data-i18n lang="en">Microsoft Publishes Governance Toolkit for AI Agents</span><span data-i18n lang="de">Microsoft veröffentlicht Governance-Toolkit für KI-Agenten</span><span data-i18n lang="it">Microsoft pubblica un toolkit di governance per gli agenti IA</span><span data-i18n lang="lmo">Microsoft el publica on toolkit de governanza per i agent IA</span></h4><div class="body"><span></span></div></article>
+</div>
+</section>
+<section class="page" data-page="4">
+<h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="lmo">Pagina 4 — </span><span data-i18n lang="fr">La Communauté & Édito</span><span data-i18n lang="en">Community & Editorial</span><span data-i18n lang="de">Community & Leitartikel</span><span data-i18n lang="it">La Comunità & Editoriale</span><span data-i18n lang="lmo">La Comunità & Edit</span></h2>
+<div class="section section-3-cols">
+<h3 class="section-title">I. <span data-i18n lang="fr">Tour des labos</span><span data-i18n lang="en">Lab Roundup</span><span data-i18n lang="de">Labore-Rundschau</span><span data-i18n lang="it">Giro dei laboratori</span><span data-i18n lang="lmo">Gir di laboratori</span></h3>
+<article class="article"><p class="kicker" data-i18n lang="fr">Modèle</p><p class="kicker" data-i18n lang="en">Model</p><p class="kicker" data-i18n lang="de">Modell</p><p class="kicker" data-i18n lang="it">Modello</p><p class="kicker" data-i18n lang="lmo">Modell</p><h4><span data-i18n lang="fr">Grok Build 0.1 disponible en bêta publique via l'API xAI</span><span data-i18n lang="en">Grok Build 0.1 Available in Public Beta via xAI API</span><span data-i18n lang="de">Grok Build 0.1 in öffentlicher Beta über xAI-API verfügbar</span><span data-i18n lang="it">Grok Build 0.1 disponibile in beta pubblica tramite l'API xAI</span><span data-i18n lang="lmo">Grok Build 0.1 disponibel in beta publega via l'API xAI</span></h4><p class="wire" data-i18n lang="fr">xAI — édition du jour</p><p class="wire" data-i18n lang="en">xAI — today's edition</p><p class="wire" data-i18n lang="de">xAI — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">xAI — edizione del giorno</p><p class="wire" data-i18n lang="lmo">xAI — edizion del dì</p><div class="body"><span data-i18n lang="fr">xAI a mis en ligne <a href="https://x.ai/news/grok-build-0-1">Grok Build 0.1</a>, son modèle de codage le plus rapide, désormais accessible en bêta publique via l'API xAI. Le modèle cible les workflows de génération de code à haute fréquence.</span><span data-i18n lang="en">xAI has released <a href="https://x.ai/news/grok-build-0-1">Grok Build 0.1</a>, its fastest coding model, now accessible in public beta via the xAI API. The model targets high-frequency code generation workflows.</span><span data-i18n lang="de">xAI hat <a href="https://x.ai/news/grok-build-0-1">Grok Build 0.1</a> online gestellt, das schnellste Codierungsmodell von xAI, das nun in einer öffentlichen Beta über die xAI-API zugänglich ist. Das Modell zielt auf hochfrequente Code-Generierungs-Workflows ab.</span><span data-i18n lang="it">xAI ha messo online <a href="https://x.ai/news/grok-build-0-1">Grok Build 0.1</a>, il suo modello di codifica più veloce, ora accessibile in beta pubblica tramite l'API xAI. Il modello è pensato per i flussi di lavoro di generazione di codice ad alta frequenza.</span><span data-i18n lang="lmo">xAI l'ha metuu in linia <a href="https://x.ai/news/grok-build-0-1">Grok Build 0.1</a>, el sò modell de coding pussee velos, adess accessibel in beta publega via l'API xAI. El modell el se revoeuja ai workflow de generazion de code a alta frequenza.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Partnership</p><p class="kicker" data-i18n lang="en">Partnership</p><p class="kicker" data-i18n lang="de">Partnerschaft</p><p class="kicker" data-i18n lang="it">Partnership</p><p class="kicker" data-i18n lang="lmo">Partnership</p><h4><span data-i18n lang="fr">Cohere s'associe à Mila pour promouvoir le français québécois en IA</span><span data-i18n lang="en">Cohere Partners with Mila to Promote Quebec French in AI</span><span data-i18n lang="de">Cohere kooperiert mit Mila zur Förderung des Quebecer Französisch in der KI</span><span data-i18n lang="it">Cohere collabora con Mila per promuovere il francese quebecchese nell'IA</span><span data-i18n lang="lmo">Cohere el se associa a Mila per promoeuver el frances quebeches in IA</span></h4><p class="wire" data-i18n lang="fr">Cohere — édition du jour</p><p class="wire" data-i18n lang="en">Cohere — today's edition</p><p class="wire" data-i18n lang="de">Cohere — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">Cohere — edizione del giorno</p><p class="wire" data-i18n lang="lmo">Cohere — edizion del dì</p><div class="body"><span data-i18n lang="fr">Cohere a annoncé un partenariat avec l'institut Mila afin d'améliorer la prise en compte de la langue française et du contexte culturel du Québec dans ses modèles d'IA. <a href="https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai">L'accord</a> vise à renforcer la souveraineté linguistique en IA pour les marchés francophones.</span><span data-i18n lang="en">Cohere has announced a partnership with the Mila institute to improve the handling of the French language and Quebec's cultural context in its AI models. <a href="https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai">The agreement</a> aims to strengthen linguistic sovereignty in AI for Francophone markets.</span><span data-i18n lang="de">Cohere hat eine Partnerschaft mit dem Institut Mila angekündigt, um die Berücksichtigung der französischen Sprache und des kulturellen Kontexts Quebecs in seinen KI-Modellen zu verbessern. <a href="https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai">Die Vereinbarung</a> zielt darauf ab, die sprachliche Souveränität in der KI für frankophone Märkte zu stärken.</span><span data-i18n lang="it">Cohere ha annunciato una partnership con l'istituto Mila per migliorare la considerazione della lingua francese e del contesto culturale del Québec nei suoi modelli di IA. <a href="https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai">L'accordo</a> mira a rafforzare la sovranità linguistica nell'IA per i mercati francofoni.</span><span data-i18n lang="lmo">Cohere l'ha anunziaa on partenariaa cont l'istitut Mila per migliorà la considerazion de la lengua francesa e del contest coltural del Québec in di sò modell d'IA. <a href="https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai">L'accord</a> el mira a rinforzà la sovranità linguega in IA per i mercaa francofon.</span></div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Modèle</p><p class="kicker" data-i18n lang="en">Model</p><p class="kicker" data-i18n lang="de">Modell</p><p class="kicker" data-i18n lang="it">Modello</p><p class="kicker" data-i18n lang="lmo">Modell</p><h4><span data-i18n lang="fr">NVIDIA publie Cosmos 3, un modèle ouvert pour l'IA physique</span><span data-i18n lang="en">NVIDIA Publishes Cosmos 3, an Open Model for Physical AI</span><span data-i18n lang="de">NVIDIA veröffentlicht Cosmos 3, ein offenes Modell für Physical AI</span><span data-i18n lang="it">NVIDIA pubblica Cosmos 3, un modello aperto per l'IA fisica</span><span data-i18n lang="lmo">NVIDIA el publica Cosmos 3, on modell vert dervii per l'IA fisica</span></h4><p class="wire" data-i18n lang="fr">Hugging Face — édition du jour</p><p class="wire" data-i18n lang="en">Hugging Face — today's edition</p><p class="wire" data-i18n lang="de">Hugging Face — Ausgabe des Tages</p><p class="wire" data-i18n lang="it">Hugging Face — edizione del giorno</p><p class="wire" data-i18n lang="lmo">Hugging Face — edizion del dì</p><div class="body"><span data-i18n lang="fr">NVIDIA a publié sur Hugging Face <a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai">Cosmos 3</a>, présenté comme le premier « omni-modèle » ouvert dédié au raisonnement et à l'action dans le domaine de l'IA physique, couvrant la perception et la planification de mouvements.</span><span data-i18n lang="en">NVIDIA has published on Hugging Face <a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai">Cosmos 3</a>, presented as the first open 'omni-model' dedicated to reasoning and action in the field of physical AI, covering perception and motion planning.</span><span data-i18n lang="de">NVIDIA hat auf Hugging Face <a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai">Cosmos 3</a> veröffentlicht, das als erstes offenes «Omni-Modell» für Reasoning und Aktion im Bereich der Physical AI gilt und Wahrnehmung und Bewegungsplanung abdeckt.</span><span data-i18n lang="it">NVIDIA ha pubblicato su Hugging Face <a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai">Cosmos 3</a>, presentato come il primo « omni-modello » aperto dedicato al ragionamento e all'azione nel campo dell'IA fisica, coprendo percezione e pianificazione dei movimenti.</span><span data-i18n lang="lmo">NVIDIA l'ha publicaa su Hugging Face <a href="https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai">Cosmos 3</a>, presentaa come el prim « omni-modell » vert dervii per el raxonament e l'azion in del camp de l'IA fisica, che 'l quata la percezion e la pianificazion di moviment.</span></div></article>
+</div>
+<div class="section section-3-cols">
+<h3 class="section-title">II. <span data-i18n lang="fr">Écosystème & Édito</span><span data-i18n lang="en">Ecosystem & Editorial</span><span data-i18n lang="de">Ökosystem & Leitartikel</span><span data-i18n lang="it">Ecosistema & Editoriale</span><span data-i18n lang="lmo">Ecosistema & Edit</span></h3>
+<article class="article"><h4><span data-i18n lang="fr">GitHub Copilot passe à la facturation au token, la communauté s'insurge</span><span data-i18n lang="en">GitHub Copilot Switches to Token Billing, Community Outraged</span><span data-i18n lang="de">GitHub Copilot wechselt zur Token-Abrechnung – die Community empört sich</span><span data-i18n lang="it">GitHub Copilot passa alla fatturazione a token, la comunità si indigna</span><span data-i18n lang="lmo">GitHub Copilot el passa a la fatturazion al token, la comunità la se dispera</span></h4><div class="body"><span></span></div></article>
+<article class="article"><h4><span data-i18n lang="fr">PewDiePie lance un espace de travail IA basé sur OpenCode</span><span data-i18n lang="en">PewDiePie Launches AI Workspace Based on OpenCode</span><span data-i18n lang="de">PewDiePie startet einen KI-Arbeitsplatz basierend auf OpenCode</span><span data-i18n lang="it">PewDiePie lancia uno spazio di lavoro IA basato su OpenCode</span><span data-i18n lang="lmo">PewDiePie el lanza 'n spazi de lavor IA fondaa su OpenCode</span></h4><div class="body"><span></span></div></article>
+<article class="article"><h4><span data-i18n lang="fr">Édito – Le paradoxe de l'infrastructure</span><span data-i18n lang="en">Editorial – The Infrastructure Paradox</span><span data-i18n lang="de">Leitartikel – Das Paradoxon der Infrastruktur</span><span data-i18n lang="it">Editoriale – Il paradosso dell'infrastruttura</span><span data-i18n lang="lmo">Edit – El paradox de l'infrastruttura</span></h4><div class="body"><span></span></div></article>
+</div>
+</section>
+
+  <footer class="colophon">
+    All the AI that's fit to print
+  </footer>
+</main>
+<script>
+(function() {
+  var SUPPORTED = ['fr', 'en', 'de', 'it', 'lmo'];
+  var STORAGE_KEY = 'nt-lang';
+
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || 'fr').toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : 'fr';
+  }
+
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].dataset.lang === lang) links[i].classList.add('active');
+      else links[i].classList.remove('active');
+    }
+    try { document.title = document.title.replace(/^(.*?)( — .*)?$/, function(_, p1, p2) {
+      return p1 + (p2 || '');
+    }); } catch (e) {}
+  }
+
+  // Apply on initial load
+  applyLang(detectLang());
+
+  // Wire selector clicks
+  document.addEventListener('click', function(e) {
+    var a = e.target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.dataset.lang;
+    if (SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+})();
+</script>
+</body>
+</html>
