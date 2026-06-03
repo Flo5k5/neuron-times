@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>The Neuron Times</title>
-<meta name="description" content="Daily AI watch newspaper. 14 éditions publiées. Dernière : Mercredi 3 juin 2026.">
+<meta name="description" content="Daily AI watch newspaper. 14 éditions publiées. Dernière : 2026-06-03.">
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -284,7 +284,11 @@
 
   @media (max-width: 720px) {
     html { font-size: 14px; }
-    .paper { padding: 1.5rem; margin: 0; }
+    /* Extra top padding so the absolutely-positioned language selector
+       (top:10px, ~15px tall) clears the masthead double-rule with balanced
+       space above and below — at 1.5rem the masthead started at 21px and the
+       selector (bottom 25px) overlapped it. */
+    .paper { padding: 2.5rem 1.5rem 1.5rem; margin: 0; }
     .masthead h1 { font-size: 2.8rem; }
     .archive-grid { grid-template-columns: 1fr; }
     .weekly-grid { grid-template-columns: 1fr; }
@@ -307,13 +311,13 @@
       <span class="dateline-sep">·</span>
       <span class="dateline-item"><span data-i18n lang="fr">14 éditions archivées</span><span data-i18n lang="en">14 archived editions</span><span data-i18n lang="de">14 archivierte Ausgaben</span><span data-i18n lang="it">14 edizioni archiviate</span><span data-i18n lang="lmo">14 edizion archiviaa</span></span>
       <span class="dateline-sep">·</span>
-      <span class="dateline-item"><span data-i18n lang="fr">Mercredi 3 juin 2026</span><span data-i18n lang="en">Wednesday, 3 June 2026</span><span data-i18n lang="de">Mittwoch, 3. Juni 2026</span><span data-i18n lang="it">Mercoledì 3 giugno 2026</span><span data-i18n lang="lmo">Mercurdì 3 de giugn 2026</span></span>
+      <span class="dateline-item"><span>2026-06-03</span></span>
     </div>
   </header>
 
   <p class="archive-intro">
     <span data-i18n lang="fr"><strong>The Neuron Times</strong> publie chaque matin une synthèse des signaux notables de l'écosystème intelligence artificielle — modèles frontière, agents de codage, infrastructure, recherche, signaux communauté. Cliquez sur une édition pour la lire en intégralité.</span><span data-i18n lang="en"><strong>The Neuron Times</strong> publishes every morning a synthesis of notable signals from the AI ecosystem — frontier models, coding agents, infrastructure, research, community signals. Click on an edition to read it in full.</span><span data-i18n lang="de"><strong>The Neuron Times</strong> veröffentlicht jeden Morgen eine Synthese bemerkenswerter Signale aus dem KI-Ökosystem — Frontier-Modelle, Coding-Agenten, Infrastruktur, Forschung, Community-Signale. Klicken Sie auf eine Ausgabe, um sie vollständig zu lesen.</span><span data-i18n lang="it"><strong>The Neuron Times</strong> pubblica ogni mattina una sintesi dei segnali notevoli dell'ecosistema AI — modelli di frontiera, agenti di codifica, infrastruttura, ricerca, segnali della comunità. Clicca su un'edizione per leggerla integralmente.</span><span data-i18n lang="lmo"><strong>The Neuron Times</strong> el publica tüti i matin ona sintesi di signai notabei de l'ecosistem de l'intelligenza artificiala — modei de frontera, agent de codifica, infrastrutura, ricerca, signai de la comunità. Clicca su on'edizion per legela tüta intrega.</span>
-    <br><br><span data-i18n lang="fr">Édition du jour</span><span data-i18n lang="en">Today's edition</span><span data-i18n lang="de">Heutige Ausgabe</span><span data-i18n lang="it">Edizione di oggi</span><span data-i18n lang="lmo">Edizion de incoeu</span> : <a href="latest.html"><span data-i18n lang="fr">Mercredi 3 juin 2026</span><span data-i18n lang="en">Wednesday, 3 June 2026</span><span data-i18n lang="de">Mittwoch, 3. Juni 2026</span><span data-i18n lang="it">Mercoledì 3 giugno 2026</span><span data-i18n lang="lmo">Mercurdì 3 de giugn 2026</span></a>
+    <br><br><span data-i18n lang="fr">Édition du jour</span><span data-i18n lang="en">Today's edition</span><span data-i18n lang="de">Heutige Ausgabe</span><span data-i18n lang="it">Edizione di oggi</span><span data-i18n lang="lmo">Edizion de incoeu</span> : <a href="latest.html"><span>2026-06-03</span></a>
   </p>
 
   
@@ -357,12 +361,12 @@
     <article class="card">
       <a href="editions/2026-06-03.html" class="card-link">
         <div class="card-meta">
-          <span class="card-date"><span data-i18n lang="fr">Mercredi 3 juin 2026</span><span data-i18n lang="en">Wednesday, 3 June 2026</span><span data-i18n lang="de">Mittwoch, 3. Juni 2026</span><span data-i18n lang="it">Mercoledì 3 giugno 2026</span><span data-i18n lang="lmo">Mercurdì 3 de giugn 2026</span></span>
-          <span class="card-num">N° 154</span>
+          <span class="card-date"><span>2026-06-03</span></span>
+          
         </div>
-        <div class="card-kicker"><span data-i18n lang="fr">À la Une · Productivité augmentée</span><span data-i18n lang="en">Top Story · Augmented Productivity</span><span data-i18n lang="de">Auf der Titelseite · Gesteigerte Produktivität</span><span data-i18n lang="it">In Prima Pagina · Produttività aumentata</span><span data-i18n lang="lmo">In prima pagina · Produttività aumentada</span></div>
-        <h2 class="card-headline"><span data-i18n lang="fr">OpenAI transforme Codex en plateforme universelle pour le travail de bureau</span><span data-i18n lang="en">OpenAI transforms Codex into a universal platform for office work</span><span data-i18n lang="de">OpenAI macht Codex zur universellen Plattform für Büroarbeit</span><span data-i18n lang="it">OpenAI trasforma Codex in una piattaforma universale per il lavoro d&#x27;ufficio</span><span data-i18n lang="lmo">OpenAI transforma Codex in piattaforma universala per el laurà d&#x27;ufizzi</span></h2>
-        <p class="card-subdeck"><span data-i18n lang="fr">L&#x27;entreprise lance six plugins métier et annonce que cinq millions de personnes utilisent l&#x27;outil chaque semaine, dont un cinquième sans être développeur.</span><span data-i18n lang="en">The company launches six industry plugins and announces that five million people use the tool each week, a fifth of whom are not developers.</span><span data-i18n lang="de">Das Unternehmen bringt sechs branchenspezifische Plugins auf den Markt und gibt bekannt, dass fünf Millionen Menschen das Tool jede Woche nutzen, darunter ein Fünftel ohne Entwicklerkenntnisse.</span><span data-i18n lang="it">L&#x27;azienda lancia sei plugin verticali e annuncia che cinque milioni di persone utilizzano lo strumento ogni settimana, di cui un quinto senza essere sviluppatori.</span><span data-i18n lang="lmo">La società lancia ses plugin per mester e la anunzia che cinch milion de personn doperen l&#x27;utensil ogni setemana, e on quindessin de lor senza vess tucc di sviluppador.</span></p>
+        <div class="card-kicker"><span data-i18n lang="fr">Codex pour tous</span><span data-i18n lang="en">Codex for Everyone</span><span data-i18n lang="de">Codex für alle</span><span data-i18n lang="it">Codex per tutti</span><span data-i18n lang="lmo">Codex per tucc</span></div>
+        <h2 class="card-headline"><span data-i18n lang="fr">OpenAI transforme Codex en plateforme universelle pour le travail de bureau</span><span data-i18n lang="en">OpenAI Transforms Codex into a Universal Platform for Office Work</span><span data-i18n lang="de">OpenAI verwandelt Codex in eine universelle Plattform für Büroarbeit</span><span data-i18n lang="it">OpenAI trasforma Codex in una piattaforma universale per il lavoro d&#x27;ufficio</span><span data-i18n lang="lmo">OpenAI la transforma Codex in ona piattaforma universala per el lavorà de ufizzi</span></h2>
+        <p class="card-subdeck"><span data-i18n lang="fr">L&#x27;entreprise lance six plugins métier et une fonction de recherche d&#x27;emploi, tandis que ses modèles arrivent sur AWS.</span><span data-i18n lang="en">The company launches six business plugins and a job search feature, while its models arrive on AWS.</span><span data-i18n lang="de">Das Unternehmen lanciert sechs Business-Plugins und eine Jobsuchfunktion, während seine Modelle auf AWS verfügbar werden.</span><span data-i18n lang="it">L&#x27;azienda lancia sei plugin professionali e una funzione di ricerca lavoro, mentre i suoi modelli arrivano su AWS.</span><span data-i18n lang="lmo">La società la lancia ses plugin de mestee e ona fonzion de ricerca de impiegh, intant che i sò modell riven sora AWS.</span></p>
         <div class="card-cta"><span data-i18n lang="fr">Lire l'édition →</span><span data-i18n lang="en">Read edition →</span><span data-i18n lang="de">Ausgabe lesen →</span><span data-i18n lang="it">Leggi l'edizione →</span><span data-i18n lang="lmo">Legi l'edizion →</span></div>
       </a>
     </article>
