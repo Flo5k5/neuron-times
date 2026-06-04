@@ -1,0 +1,879 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-06-04",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Google DeepMind a dévoilé mercredi <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, un modèle multimodal dense qui se distingue par une architecture dite « sans encodeur » : les données visuelles et audio sont injectées directement dans le backbone du grand modèle de langage, sans passer par des modules de vision ou de codage audio séparés. Cette approche, détaillée dans le <a href='https://developers.googleblog.com/en/'>guide développeur publié par Google</a>, permet au modèle d'atteindre des performances proches de celles de son grand frère Gemma 4 26B tout en consommant moitié moins de ressources.",
+        "en": "Google DeepMind unveiled Wednesday <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, a dense multimodal model distinguished by a so-called 'encoder-free' architecture: visual and audio data are injected directly into the large language model backbone, without passing through separate vision or audio encoding modules. This approach, detailed in the <a href='https://developers.googleblog.com/en/'>developer guide published by Google</a>, allows the model to achieve performance close to that of its larger sibling Gemma 4 26B while consuming half the resources.",
+        "de": "Google DeepMind hat am Mittwoch <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a> vorgestellt, ein dichtes multimodales Modell, das sich durch eine sogenannte «encoderfreie» Architektur auszeichnet: Visuelle und Audiodaten werden direkt in das Backbone des grossen Sprachmodells eingespeist, ohne separate Bild- oder Audio-Codierungsmodule. Dieser Ansatz, der im <a href='https://developers.googleblog.com/en/'>von Google veröffentlichten Entwicklerleitfaden</a> detailliert beschrieben wird, ermöglicht es dem Modell, eine Leistung zu erzielen, die der seines grossen Bruders Gemma 4 26B nahekommt, bei halbem Ressourcenverbrauch.",
+        "it": "Google DeepMind ha svelato mercoledì <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, un modello multimodale denso che si distingue per un'architettura detta « senza encoder »: i dati visivi e audio vengono iniettati direttamente nel backbone del grande modello linguistico, senza passare attraverso moduli di visione o codifica audio separati. Questo approccio, dettagliato nella <a href='https://developers.googleblog.com/en/'>guida per sviluppatori pubblicata da Google</a>, consente al modello di raggiungere prestazioni vicine a quelle del suo fratello maggiore Gemma 4 26B consumando la metà delle risorse.",
+        "lmo": "Google DeepMind l'ha presentaa mercoldì <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, on modèll multimodal dens che 'l se distingua per ona architettura ciamada « senza encoder »: i dati visiv e audio hinn iniettad direttament in del backbone del grand modèll de lengoeu, senza passà per di modul de vision o de codifega audio separaa. 'Sto approcc, dettagliaa in del <a href='https://developers.googleblog.com/en/'>guida desvilupador publicada de Google</a>, el permet al modèll de rivà a di prestazion arent a quei del sò fradell grand Gemma 4 26B, consumand la metà di risorse."
+      },
+      {
+        "fr": "Le modèle, disponible sous licence Apache 2.0, supporte un contexte allant jusqu'à 256 000 tokens et couvre plus de 140 langues. Selon <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>The Decoder</a>, il s'agit du premier modèle multimodal de cette taille capable de fonctionner sur un ordinateur portable grand public avec 16 Go de RAM, ouvrant la voie à des workflows agentiques et à du traitement de données entièrement locaux. Google a également publié des variantes pré-entraînées et instruction-tunées, ainsi que des poids ouverts.",
+        "en": "The model, available under the Apache 2.0 license, supports a context of up to 256,000 tokens and covers more than 140 languages. According to <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>The Decoder</a>, it is the first multimodal model of this size capable of running on a consumer laptop with 16 GB of RAM, paving the way for agentic workflows and fully local data processing. Google has also released pre-trained and instruction-tuned variants, as well as open weights.",
+        "de": "Das unter der Apache-2.0-Lizenz verfügbare Modell unterstützt einen Kontext von bis zu 256'000 Tokens und deckt über 140 Sprachen ab. Laut <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>The Decoder</a> handelt es sich um das erste multimodale Modell dieser Grösse, das auf einem handelsüblichen Laptop mit 16 GB RAM lauffähig ist, und ebnet den Weg für agentische Workflows und vollständig lokale Datenverarbeitung. Google hat zudem vortrainierte und instruktionsgetunte Varianten sowie offene Gewichte veröffentlicht.",
+        "it": "Il modello, disponibile con licenza Apache 2.0, supporta un contesto fino a 256.000 token e copre oltre 140 lingue. Secondo <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>The Decoder</a>, si tratta del primo modello multimodale di queste dimensioni in grado di funzionare su un computer portatile consumer con 16 GB di RAM, aprendo la strada a flussi di lavoro agentici e all'elaborazione dei dati interamente locale. Google ha inoltre pubblicato varianti pre-addestrate e instruction-tuned, oltre a pesi aperti.",
+        "lmo": "El modèll, disponibil sotta licenza Apache 2.0, el supporta on contest fina a 256 000 token e 'l quatta pussee de 140 lengoeu. Segond <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>The Decoder</a>, l'è el prim modèll multimodal de 'sta grandezza bon de fonzionà sora on ordenador portatil de consum cont 16 GB de RAM, dervend la strada a di fluss de lavorà agentigh e a di tratament de dacc completament locai. Google l'ha anca publicaa di variant pre-inalvad e istruzzion-tunad, insema a di pes avert."
+      },
+      {
+        "fr": "La sortie de Gemma 4 12B s'accompagne d'outils concrets pour les développeurs : le framework Google AI Edge Gallery permet d'exécuter le modèle sur macOS avec exécution dynamique de code Python, tandis que LiteRT-LM CLI propose une nouvelle commande <code>serve</code> créant un endpoint local compatible avec les standards de l'industrie. La communauté <a href='https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/'>r/LocalLLaMA</a> a immédiatement salué cette sortie, tandis que des rumeurs évoquent déjà l'arrivée prochaine d'une variante 120B du modèle.",
+        "en": "The release of Gemma 4 12B comes with concrete tools for developers: the Google AI Edge Gallery framework allows the model to run on macOS with dynamic Python code execution, while LiteRT-LM CLI introduces a new <code>serve</code> command creating a local endpoint compatible with industry standards. The <a href='https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/'>r/LocalLLaMA</a> community immediately welcomed this release, while rumors already hint at an upcoming 120B variant of the model.",
+        "de": "Die Veröffentlichung von Gemma 4 12B wird von konkreten Tools für Entwickler begleitet: Das Google AI Edge Gallery Framework ermöglicht die Ausführung des Modells unter macOS mit dynamischer Ausführung von Python-Code, während die LiteRT-LM CLI einen neuen Befehl <code>serve</code> bereitstellt, der einen lokalen, mit Industriestandards kompatiblen Endpunkt erzeugt. Die Community <a href='https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/'>r/LocalLLaMA</a> hat diese Veröffentlichung umgehend begrüsst, während bereits Gerüchte über das baldige Erscheinen einer 120B-Variante des Modells kursieren.",
+        "it": "L'uscita di Gemma 4 12B è accompagnata da strumenti concreti per gli sviluppatori: il framework Google AI Edge Gallery consente di eseguire il modello su macOS con esecuzione dinamica di codice Python, mentre LiteRT-LM CLI propone un nuovo comando <code>serve</code> che crea un endpoint locale compatibile con gli standard del settore. La comunità <a href='https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/'>r/LocalLLaMA</a> ha immediatamente accolto con favore questa uscita, mentre circolano già voci sull'imminente arrivo di una variante 120B del modello.",
+        "lmo": "La sortida de Gemma 4 12B l'è compagnada de strüment concret per i desvilupador: el framework Google AI Edge Gallery el permet de eseguì el modèll sora macOS con esecuzion dinamica de codes Python, intant che LiteRT-LM CLI la propon ona noeuva commanda <code>serve</code> che la crea on endpoint local compatibil cont i standard de l'industria. La comunità <a href='https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/'>r/LocalLLaMA</a> l'ha subet salutad 'sta sortida, intant che di vos ghe disen sgiamò de l'arrivada vesina de ona variant 120B del modèll."
+      }
+    ],
+    "urls": [
+      "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
+      "https://developers.googleblog.com/en/",
+      "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1tvw2ej/introducing_gemma_4_12b_a_unified_encoderfree/"
+    ],
+    "kicker": {
+      "fr": "Modèles ouverts",
+      "en": "Open Models",
+      "de": "Offene Modelle",
+      "it": "Modelli aperti",
+      "lmo": "Modèll Avert"
+    },
+    "headline": {
+      "fr": "Google DeepMind lance Gemma 4 12B, un modèle multimodal qui tourne sur un simple laptop",
+      "en": "Google DeepMind launches Gemma 4 12B, a multimodal model that runs on a simple laptop",
+      "de": "Google DeepMind lanciert Gemma 4 12B, ein multimodales Modell für den einfachen Laptop",
+      "it": "Google DeepMind lancia Gemma 4 12B, un modello multimodale che gira su un semplice laptop",
+      "lmo": "Google DeepMind el lanza Gemma 4 12B, on modèll multimodal che 'l gira sora on laptop sempliz"
+    },
+    "subdeck": {
+      "fr": "Le nouveau modèle open-source traite texte, image et audio sans encodeur dédié et fonctionne sur une machine dotée de 16 Go de RAM.",
+      "en": "The new open-source model processes text, image and audio without a dedicated encoder and runs on a machine with 16 GB of RAM.",
+      "de": "Das neue Open-Source-Modell verarbeitet Text, Bild und Audio ohne dedizierten Encoder und läuft auf einem Rechner mit 16 GB RAM.",
+      "it": "Il nuovo modello open-source elabora testo, immagini e audio senza encoder dedicato e funziona su una macchina con 16 GB di RAM.",
+      "lmo": "El noeuv modèll open-source el trata test, immagin e audio senza encoder dedicad e 'l fonziona sora ona macchina dotada de 16 GB de RAM."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic dévoile le Services Track et le Partner Hub de son réseau Claude",
+        "en": "Anthropic unveils Services Track and Partner Hub for its Claude network",
+        "de": "Anthropic stellt Services Track und Partner Hub seines Claude-Netzwerks vor",
+        "it": "Anthropic svela il Services Track e il Partner Hub del suo network Claude",
+        "lmo": "Anthropic el presenta el Services Track e 'l Partner Hub de la soa red Claude"
+      },
+      "body": {
+        "fr": "Anthropic a annoncé mercredi le lancement du <a href='https://www.anthropic.com/news?subjects=announcements'>Services Track et du Partner Hub</a> au sein du Claude Partner Network, une initiative visant à structurer l'écosystème de partenaires autour de ses modèles. Cette annonce s'inscrit dans une semaine chargée pour la société, qui a également révélé avoir soumis confidentiellement un projet de S-1 à la SEC et levé 65 milliards de dollars en série H, pour une valorisation post-money de 965 milliards de dollars.",
+        "en": "Anthropic announced Wednesday the launch of the <a href='https://www.anthropic.com/news?subjects=announcements'>Services Track and Partner Hub</a> within the Claude Partner Network, an initiative aimed at structuring the partner ecosystem around its models. This announcement comes during a busy week for the company, which also revealed it has confidentially submitted a draft S-1 to the SEC and raised $65 billion in Series H funding, at a post-money valuation of $965 billion.",
+        "de": "Anthropic hat am Mittwoch die Einführung des <a href='https://www.anthropic.com/news?subjects=announcements'>Services Track und des Partner Hub</a> im Rahmen des Claude Partner Network angekündigt, eine Initiative zur Strukturierung des Partner-Ökosystems rund um seine Modelle. Diese Ankündigung erfolgt in einer ereignisreichen Woche für das Unternehmen, das zudem bekannt gab, vertraulich einen S-1-Entwurf bei der SEC eingereicht und 65 Milliarden Dollar in einer Serie-H-Finanzierungsrunde bei einer Post-Money-Bewertung von 965 Milliarden Dollar aufgebracht zu haben.",
+        "it": "Anthropic ha annunciato mercoledì il lancio del <a href='https://www.anthropic.com/news?subjects=announcements'>Services Track e del Partner Hub</a> all'interno del Claude Partner Network, un'iniziativa volta a strutturare l'ecosistema di partner attorno ai suoi modelli. Questo annuncio si inserisce in una settimana intensa per la società, che ha anche rivelato di aver presentato in via confidenziale una bozza di S-1 alla SEC e raccolto 65 miliardi di dollari in serie H, per una valutazione post-money di 965 miliardi di dollari.",
+        "lmo": "Anthropic l'ha anunziaa mercoldì el lanzament del <a href='https://www.anthropic.com/news?subjects=announcements'>Services Track e del Partner Hub</a> denter in del Claude Partner Network, ona iniziativa per strutturà l'ecosistema de partenari intorna ai sò modèll. 'St'anunzi el riva denter in d'ona setemena carica per la società, che l'ha anca revelaa de havé presentaa confidenzialment on progett de S-1 a la SEC e de havé cataa su 65 miliard de dollar in serie H, per ona valorizzazion post-money de 965 miliard de dollar."
+      },
+      "tag": {
+        "fr": "Partenariat",
+        "en": "Partnership",
+        "de": "Partnerschaft",
+        "it": "Partnership",
+        "lmo": "Partenariad"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-06-03",
+        "en": "From the Wires — 2026-06-03",
+        "de": "From the Wires — 03.06.2026",
+        "it": "From the Wires — 2026-06-03",
+        "lmo": "From the Wires — 2026-06-03"
+      },
+      "urls": [
+        "https://www.anthropic.com/news?subjects=announcements"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Ideogram 4.0 publié en open-weight avec résolution 2K native",
+        "en": "Ideogram 4.0 released as open-weight with native 2K resolution",
+        "de": "Ideogram 4.0 als Open-Weight-Modell mit nativer 2K-Auflösung veröffentlicht",
+        "it": "Ideogram 4.0 pubblicato in open-weight con risoluzione 2K nativa",
+        "lmo": "Ideogram 4.0 publicaa in open-weight con risoluzion 2K nativa"
+      },
+      "body": {
+        "fr": "Ideogram a publié la version 4.0 de son modèle texte-image en <a href='https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/'>poids ouverts</a>, avec une résolution native 2K, un contrôle par boîtes englobantes et un rendu de texte amélioré. Sur le classement DesignArena, le modèle se classe premier parmi tous les modèles ouverts ; seuls les systèmes fermés d'OpenAI et Google font mieux. L'utilisation commerciale nécessite une licence payante.",
+        "en": "Ideogram has released version 4.0 of its text-to-image model as <a href='https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/'>open weights</a>, with native 2K resolution, bounding box control and improved text rendering. On the DesignArena leaderboard, the model ranks first among all open models; only the closed systems from OpenAI and Google perform better. Commercial use requires a paid license.",
+        "de": "Ideogram hat Version 4.0 seines Text-zu-Bild-Modells mit <a href='https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/'>offenen Gewichten</a> veröffentlicht, mit nativer 2K-Auflösung, Bounding-Box-Steuerung und verbesserter Textwiedergabe. Im DesignArena-Ranking belegt das Modell den ersten Platz unter allen offenen Modellen; nur die geschlossenen Systeme von OpenAI und Google schneiden besser ab. Die kommerzielle Nutzung erfordert eine kostenpflichtige Lizenz.",
+        "it": "Ideogram ha pubblicato la versione 4.0 del suo modello testo-immagine in <a href='https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/'>pesi aperti</a>, con risoluzione nativa 2K, controllo tramite bounding box e resa del testo migliorata. Nella classifica DesignArena, il modello si classifica primo tra tutti i modelli aperti; solo i sistemi chiusi di OpenAI e Google fanno meglio. L'uso commerciale richiede una licenza a pagamento.",
+        "lmo": "Ideogram l'ha publicaa la version 4.0 del sò modèll test-imagin in <a href='https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/'>pes avert</a>, cont ona risoluzion nativa 2K, on controll per box de limit e on rendiment del test miglioraa. Sora la classifica DesignArena, el modèll el se classifica prim intra tucc i modèll avert; domà i sistema sarad de OpenAI e Google fan mej. L'usagg comercial el gh'ha besogn de ona licenza pagada."
+      },
+      "tag": {
+        "fr": "Génération d'images",
+        "en": "Image Generation",
+        "de": "Bildgenerierung",
+        "it": "Generazione di immagini",
+        "lmo": "Generazion d'Immagin"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-06-03",
+        "en": "From the Wires — 2026-06-03",
+        "de": "From the Wires — 03.06.2026",
+        "it": "From the Wires — 2026-06-03",
+        "lmo": "From the Wires — 2026-06-03"
+      },
+      "urls": [
+        "https://the-decoder.com/ideogram-4-0-drops-as-an-open-weight-model-with-native-2k-resolution-and-improved-text-rendering/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "NVIDIA dévoile Cosmos 3, un modèle fondation pour l'IA physique",
+        "en": "NVIDIA unveils Cosmos 3, a foundation model for physical AI",
+        "de": "NVIDIA enthüllt Cosmos 3, ein Foundation-Modell für physikalische KI",
+        "it": "NVIDIA svela Cosmos 3, un modello foundation per l'IA fisica",
+        "lmo": "NVIDIA el presenta Cosmos 3, on modèll fondazion per l'IA fisica"
+      },
+      "body": {
+        "fr": "NVIDIA a présenté <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, un modèle fondation « omnimodal » qui associe un raisonneur VLM autorégressif à un générateur par diffusion pour l'IA physique. Cette architecture à deux tours (Mixture-of-Transformers) unifie le raisonnement physique, la génération de mondes et la génération d'actions. Le modèle a été présenté sur <a href='https://huggingface.co/papers/2606.02800'>HuggingFace Daily Papers</a> avec 17 votes de la communauté.",
+        "en": "NVIDIA has introduced <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, an 'omnimodal' foundation model that pairs an autoregressive VLM reasoner with a diffusion generator for physical AI. This two-tower Mixture-of-Transformers architecture unifies physical reasoning, world generation and action generation. The model was featured on <a href='https://huggingface.co/papers/2606.02800'>HuggingFace Daily Papers</a> with 17 community votes.",
+        "de": "NVIDIA hat <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a> vorgestellt, ein «omnimodales» Foundation-Modell, das einen autoregressiven VLM-Argumentierer mit einem Diffusionsgenerator für physikalische KI kombiniert. Diese Zwei-Turm-Architektur (Mixture-of-Transformers) vereinheitlicht physikalisches Denken, Welterzeugung und Aktionsgenerierung. Das Modell wurde auf <a href='https://huggingface.co/papers/2606.02800'>HuggingFace Daily Papers</a> mit 17 Community-Stimmen vorgestellt.",
+        "it": "NVIDIA ha presentato <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, un modello foundation « omnimodale » che associa un ragionatore VLM autoregressivo a un generatore per diffusione per l'IA fisica. Questa architettura a due torri (Mixture-of-Transformers) unifica il ragionamento fisico, la generazione di mondi e la generazione di azioni. Il modello è stato presentato su <a href='https://huggingface.co/papers/2606.02800'>HuggingFace Daily Papers</a> con 17 voti della comunità.",
+        "lmo": "NVIDIA l'ha presentaa <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, on modèll fondazion « omnimodal » che 'l gionta on ragionador VLM autoregressiv a on generator per diffusion per l'IA fisica. 'St'architettura a du torr (Mixture-of-Transformers) la unifica el ragionament fisich, la generazion de mond e la generazion d'azion. El modèll l'è staa presentaa sora <a href='https://huggingface.co/papers/2606.02800'>HuggingFace Daily Papers</a> con 17 vot de la comunità."
+      },
+      "tag": {
+        "fr": "Physique",
+        "en": "Physics",
+        "de": "Physik",
+        "it": "Fisica",
+        "lmo": "Fisica"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-06-03",
+        "en": "From the Wires — 2026-06-03",
+        "de": "From the Wires — 03.06.2026",
+        "it": "From the Wires — 2026-06-03",
+        "lmo": "From the Wires — 2026-06-03"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/",
+        "https://huggingface.co/papers/2606.02800"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "xAI intègre Grok comme voix des agents Vapi",
+        "en": "xAI integrates Grok as the voice of Vapi agents",
+        "de": "xAI integriert Grok als Stimme der Vapi-Agenten",
+        "it": "xAI integra Grok come voce degli agenti Vapi",
+        "lmo": "xAI l'integra Grok come vos di agent Vapi"
+      },
+      "body": {
+        "fr": "xAI a annoncé que <a href='https://x.ai/news/grok-vapi'>Grok devient la voix de Vapi</a>, apportant une qualité vocale de pointe à des millions d'agents Vapi. Par ailleurs, la société a dévoilé un aperçu de <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la nouvelle version de son modèle de génération d'images.",
+        "en": "xAI has announced that <a href='https://x.ai/news/grok-vapi'>Grok becomes the voice of Vapi</a>, bringing cutting-edge voice quality to millions of Vapi agents. Additionally, the company unveiled a preview of <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, the new version of its image generation model.",
+        "de": "xAI hat bekannt gegeben, dass <a href='https://x.ai/news/grok-vapi'>Grok zur Stimme von Vapi wird</a> und Millionen von Vapi-Agenten Spitzenqualität in der Sprachausgabe verleiht. Darüber hinaus hat das Unternehmen einen Vorgeschmack auf <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a> gegeben, die neue Version seines Bildgenerierungsmodells.",
+        "it": "xAI ha annunciato che <a href='https://x.ai/news/grok-vapi'>Grok diventa la voce di Vapi</a>, portando una qualità vocale all'avanguardia a milioni di agenti Vapi. Inoltre, la società ha svelato un'anteprima di <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la nuova versione del suo modello di generazione di immagini.",
+        "lmo": "xAI l'ha anunziaa che <a href='https://x.ai/news/grok-vapi'>Grok el deventa la vos de Vapi</a>, portand ona qualità vocala de ponta a milion de agent Vapi. De là, la società l'ha presentaa on'anteprima de <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la noeuva version del sò modèll de generazion d'immagin."
+      },
+      "tag": {
+        "fr": "Voix",
+        "en": "Voice",
+        "de": "Sprache",
+        "it": "Voce",
+        "lmo": "Vos"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-06-03",
+        "en": "From the Wires — 2026-06-03",
+        "de": "From the Wires — 03.06.2026",
+        "it": "From the Wires — 2026-06-03",
+        "lmo": "From the Wires — 2026-06-03"
+      },
+      "urls": [
+        "https://x.ai/news/grok-vapi",
+        "https://x.ai/news/grok-imagine-1-5"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèll & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemma 4 12B : le multimodal open-source à portée de laptop",
+                "en": "Gemma 4 12B: open-source multimodal within laptop reach",
+                "de": "Gemma 4 12B: Multimodale Open-Source-KI für den Laptop",
+                "it": "Gemma 4 12B: il multimodale open-source a portata di laptop",
+                "lmo": "Gemma 4 12B: el multimodal open-source a portada de laptop"
+              },
+              "body": {
+                "fr": "Google DeepMind a publié <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, un modèle dense multimodal qui se passe d'encodeur visuel ou audio dédié. Disponible sous licence Apache 2.0, il supporte 256K tokens de contexte et couvre 140 langues. Le <a href='https://developers.googleblog.com/en/'>guide développeur</a> publié par Google détaille son architecture novatrice et ses capacités agentiques locales.",
+                "en": "Google DeepMind has published <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, a dense multimodal model that does away with a dedicated visual or audio encoder. Available under the Apache 2.0 license, it supports 256K tokens of context and covers 140 languages. The <a href='https://developers.googleblog.com/en/'>developer guide</a> published by Google details its innovative architecture and local agentic capabilities.",
+                "de": "Google DeepMind hat <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a> veröffentlicht, ein dichtes multimodales Modell, das auf einen dedizierten visuellen oder Audio-Encoder verzichtet. Es ist unter der Apache-2.0-Lizenz verfügbar, unterstützt 256K Token Kontext und deckt 140 Sprachen ab. Der <a href='https://developers.googleblog.com/en/'>Entwicklerleitfaden</a> von Google erläutert seine neuartige Architektur und lokale agentische Fähigkeiten.",
+                "it": "Google DeepMind ha pubblicato <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, un modello denso multimodale che fa a meno di un encoder visivo o audio dedicato. Disponibile con licenza Apache 2.0, supporta 256K token di contesto e copre 140 lingue. La <a href='https://developers.googleblog.com/en/'>guida per sviluppatori</a> pubblicata da Google dettaglia la sua architettura innovativa e le sue capacità agentiche locali.",
+                "lmo": "Google DeepMind l'ha publicaa <a href='https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/'>Gemma 4 12B</a>, on modèll dens multimodal che 'l se passa de encoder visiv o audio dedicad. Disponibil sotta licenza Apache 2.0, el supporta 256K token de contest e 'l quatta 140 lengoeu. La <a href='https://developers.googleblog.com/en/'>guida desvilupador</a> publicada de Google la detaglia la soa architettura innovativa e i sò capacità agentigh locai."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/03/google-deepmind-releases-gemma-4-12b-an-encoder-free-multimodal-model-with-native-audio-that-runs-on-a-16-gb-laptop/",
+                "https://developers.googleblog.com/en/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "GPT-Rosalind s'enrichit de capacités avancées en sciences de la vie",
+                "en": "GPT-Rosalind gains advanced life sciences capabilities",
+                "de": "GPT-Rosalind erweitert Fähigkeiten in den Biowissenschaften",
+                "it": "GPT-Rosalind si arricchisce di capacità avanzate nelle scienze della vita",
+                "lmo": "GPT-Rosalind el se ricchiss de capacità avanzad in di scienz de la vita"
+              },
+              "body": {
+                "fr": "OpenAI a dévoilé de nouvelles capacités pour <a href='https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind'>GPT-Rosalind</a>, son modèle dédié aux sciences de la vie. Les améliorations portent sur le raisonnement biologique, l'expertise en chimie médicinale, l'analyse génomique et les flux de travail expérimentaux. Par ailleurs, OpenAI a publié un <a href='https://openai.com/index/frontier-safety-blueprint'>plan pour la gouvernance démocratique de l'IA frontière</a> et un <a href='https://openai.com/index/public-policy-agenda'>agenda de politique publique</a>.",
+                "en": "OpenAI has unveiled new capabilities for <a href='https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind'>GPT-Rosalind</a>, its model dedicated to the life sciences. The improvements cover biological reasoning, medicinal chemistry expertise, genomic analysis and experimental workflows. Separately, OpenAI published a <a href='https://openai.com/index/frontier-safety-blueprint'>blueprint for democratic governance of frontier AI</a> and a <a href='https://openai.com/index/public-policy-agenda'>public policy agenda</a>.",
+                "de": "OpenAI hat neue Fähigkeiten für <a href='https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind'>GPT-Rosalind</a> vorgestellt, sein auf die Biowissenschaften spezialisiertes Modell. Die Verbesserungen betreffen biologisches Denken, medizinisches Chemie-Fachwissen, Genomanalyse und experimentelle Workflows. Zudem hat OpenAI einen <a href='https://openai.com/index/frontier-safety-blueprint'>Plan für die demokratische Governance von Frontier-KI</a> und eine <a href='https://openai.com/index/public-policy-agenda'>öffentliche politische Agenda</a> veröffentlicht.",
+                "it": "OpenAI ha svelato nuove capacità per <a href='https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind'>GPT-Rosalind</a>, il suo modello dedicato alle scienze della vita. I miglioramenti riguardano il ragionamento biologico, l'esperienza in chimica farmaceutica, l'analisi genomica e i flussi di lavoro sperimentali. Inoltre, OpenAI ha pubblicato un <a href='https://openai.com/index/frontier-safety-blueprint'>piano per la governance democratica dell'IA di frontiera</a> e un <a href='https://openai.com/index/public-policy-agenda'>agenda di politica pubblica</a>.",
+                "lmo": "OpenAI l'ha presentaa di noeuv capacità per <a href='https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind'>GPT-Rosalind</a>, el sò modèll dedicad ai scienz de la vita. I migliorament porten sora el ragionament biologich, l'espertiza in chimica medicinala, l'analisi genomica e i fluss de lavorà esperimentai. De là, OpenAI l'ha publicaa on <a href='https://openai.com/index/frontier-safety-blueprint'>pian per la governanza democratica de l'IA frontiera</a> e on <a href='https://openai.com/index/public-policy-agenda'>agenda de politega publica</a>."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-new-capabilities-to-gpt-rosalind",
+                "https://openai.com/index/frontier-safety-blueprint",
+                "https://openai.com/index/public-policy-agenda"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cosmos 3 : un modèle fondation unifié pour l'IA physique",
+                "en": "Cosmos 3: a unified foundation model for physical AI",
+                "de": "Cosmos 3: Ein vereinheitlichtes Foundation-Modell für physikalische KI",
+                "it": "Cosmos 3: un modello foundation unificato per l'IA fisica",
+                "lmo": "Cosmos 3: on modèll fondazion unificaa per l'IA fisica"
+              },
+              "body": {
+                "fr": "NVIDIA a présenté <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, un modèle fondation « omnimodal » qui combine un raisonneur VLM autorégressif avec un générateur par diffusion. Cette architecture Mixture-of-Transformers à deux tours permet d'unifier raisonnement physique, génération de mondes et génération d'actions. Le <a href='https://huggingface.co/papers/2606.02800'>paper</a> a recueilli 17 votes sur HuggingFace Daily Papers.",
+                "en": "NVIDIA has introduced <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, an 'omnimodal' foundation model that combines an autoregressive VLM reasoner with a diffusion generator. This two-tower Mixture-of-Transformers architecture unifies physical reasoning, world generation and action generation. The <a href='https://huggingface.co/papers/2606.02800'>paper</a> garnered 17 votes on HuggingFace Daily Papers.",
+                "de": "NVIDIA hat <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a> vorgestellt, ein «omnimodales» Foundation-Modell, das einen autoregressiven VLM-Argumentierer mit einem Diffusionsgenerator kombiniert. Diese Zwei-Turm-Mixture-of-Transformers-Architektur vereinheitlicht physikalisches Denken, Welterzeugung und Aktionsgenerierung. Das <a href='https://huggingface.co/papers/2606.02800'>Paper</a> erhielt 17 Stimmen auf HuggingFace Daily Papers.",
+                "it": "NVIDIA ha presentato <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, un modello foundation « omnimodale » che combina un ragionatore VLM autoregressivo con un generatore per diffusione. Questa architettura Mixture-of-Transformers a due torri consente di unificare ragionamento fisico, generazione di mondi e generazione di azioni. Il <a href='https://huggingface.co/papers/2606.02800'>paper</a> ha raccolto 17 voti su HuggingFace Daily Papers.",
+                "lmo": "NVIDIA l'ha presentaa <a href='https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/'>Cosmos 3</a>, on modèll fondazion « omnimodal » che 'l combina on ragionador VLM autoregressiv cont on generator per diffusion. 'St'architettura Mixture-of-Transformers a du torr la permet de unificà ragionament fisich, generazion de mond e generazion d'azion. El <a href='https://huggingface.co/papers/2606.02800'>paper</a> l'ha cataa su 17 vot sora HuggingFace Daily Papers."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/03/nvidia-releases-cosmos-3-a-two-tower-mixture-of-transformers-foundation-model-unifying-physical-reasoning-world-generation-and-action-generation/",
+                "https://huggingface.co/papers/2606.02800"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Grok devient la voix des agents Vapi et dévoile Imagine 1.5",
+                "en": "Grok becomes the voice of Vapi agents and unveils Imagine 1.5",
+                "de": "Grok wird zur Stimme der Vapi-Agenten und enthüllt Imagine 1.5",
+                "it": "Grok diventa la voce degli agenti Vapi e svela Imagine 1.5",
+                "lmo": "Grok el deventa la vos di agent Vapi e 'l presenta Imagine 1.5"
+              },
+              "body": {
+                "fr": "xAI a annoncé que <a href='https://x.ai/news/grok-vapi'>Grok devient la voix de Vapi</a>, intégrant la qualité vocale de pointe du modèle dans la plateforme d'agents vocaux. La société a également publié un aperçu de <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la nouvelle version de son générateur d'images.",
+                "en": "xAI has announced that <a href='https://x.ai/news/grok-vapi'>Grok becomes the voice of Vapi</a>, integrating the model's cutting-edge voice quality into the voice agent platform. The company also released a preview of <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, the new version of its image generator.",
+                "de": "xAI hat bekannt gegeben, dass <a href='https://x.ai/news/grok-vapi'>Grok zur Stimme von Vapi wird</a> und die Spitzenqualität der Sprachausgabe des Modells in die Plattform für Sprachagenten integriert. Das Unternehmen hat zudem einen Vorgeschmack auf <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a> veröffentlicht, die neue Version seines Bildgenerators.",
+                "it": "xAI ha annunciato che <a href='https://x.ai/news/grok-vapi'>Grok diventa la voce di Vapi</a>, integrando la qualità vocale all'avanguardia del modello nella piattaforma di agenti vocali. La società ha inoltre pubblicato un'anteprima di <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la nuova versione del suo generatore di immagini.",
+                "lmo": "xAI l'ha anunziaa che <a href='https://x.ai/news/grok-vapi'>Grok el deventa la vos de Vapi</a>, integrand la qualità vocala de ponta del modèll in la piattaforma d'agent vocai. La società l'ha anca publicaa on'anteprima de <a href='https://x.ai/news/grok-imagine-1-5'>Grok Imagine 1.5</a>, la noeuva version del sò generator d'immagin."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "urls": [
+                "https://x.ai/news/grok-vapi",
+                "https://x.ai/news/grok-imagine-1-5"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Geschirre & CLI",
+            "it": "Harnais & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Version 2.1.162 : meilleure visibilité des sessions en attente",
+                "en": "Version 2.1.162: better visibility of pending sessions",
+                "de": "Version 2.1.162: Bessere Sichtbarkeit wartender Sitzungen",
+                "it": "Versione 2.1.162: migliore visibilità delle sessioni in attesa",
+                "lmo": "Version 2.1.162: mej visibilità di session in attesa"
+              },
+              "body": {
+                "fr": "La nouvelle version de <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.162'>Claude Code</a> introduit l'affichage de l'état <code>waitingFor</code> dans le format JSON de <code>claude agents</code>, indiquant ce qui bloque une session en attente (ex. invite de permission). Les outils Grep et Glob sont désormais explicitement listables, et la commande <code>/effort</code> confirme quand le niveau choisi persistera comme défaut.",
+                "en": "The new version of <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.162'>Claude Code</a> introduces the display of the <code>waitingFor</code> state in the JSON format of <code>claude agents</code>, indicating what is blocking a pending session (e.g. permission prompt). Grep and Glob tools are now explicitly listable, and the <code>/effort</code> command confirms when the chosen level will persist as the default.",
+                "de": "Die neue Version von <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.162'>Claude Code</a> führt die Anzeige des <code>waitingFor</code>-Status im JSON-Format von <code>claude agents</code> ein, der angibt, was eine wartende Sitzung blockiert (z. B. Berechtigungsaufforderung). Die Tools Grep und Glob sind nun explizit auflistbar, und der Befehl <code>/effort</code> bestätigt, wenn die gewählte Stufe als Standard bestehen bleibt.",
+                "it": "La nuova versione di <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.162'>Claude Code</a> introduce la visualizzazione dello stato <code>waitingFor</code> nel formato JSON di <code>claude agents</code>, indicando cosa blocca una sessione in attesa (es. richiesta di permesso). Gli strumenti Grep e Glob sono ora esplicitamente elencabili, e il comando <code>/effort</code> conferma quando il livello scelto persisterà come predefinito.",
+                "lmo": "La noeuva version de <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.162'>Claude Code</a> l'introdux l'visualizzazion del stat <code>waitingFor</code> in del format JSON de <code>claude agents</code>, indicand cossa che 'l blocca ona session in attesa (es. invito de permess). I strument Grep e Glob hinn adess esplicitament listabil, e la commanda <code>/effort</code> la conferma quand che 'l nivell scernii el persistirà come defaut."
+              },
+              "kicker": {
+                "fr": "Claude Code",
+                "en": "Claude Code",
+                "de": "Claude Code",
+                "it": "Claude Code",
+                "lmo": "Claude Code"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.162"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI publie Codex 0.137.0 avec contrôles TUI étendus",
+                "en": "OpenAI releases Codex 0.137.0 with extended TUI controls",
+                "de": "OpenAI veröffentlicht Codex 0.137.0 mit erweiterten TUI-Steuerungen",
+                "it": "OpenAI pubblica Codex 0.137.0 con controlli TUI estesi",
+                "lmo": "OpenAI el publica Codex 0.137.0 con controll TUI estes"
+              },
+              "body": {
+                "fr": "OpenAI a déployé <a href='https://github.com/openai/codex/releases/tag/rust-v0.137.0'>Codex 0.137.0</a> avec de nouvelles fonctionnalités : prise en charge des touches F13-F24 dans les contrôles TUI, collage dans les menus de recherche, et un statut compact pour le mode raisonnement. Les flux administrateur affichent désormais les limites de crédit mensuelles et peuvent appliquer des bundles de configuration cloud. Un SDK Python <a href='https://github.com/openai/codex/releases/tag/python-v0.1.0b3'>0.1.0b3</a> a également été publié.",
+                "en": "OpenAI has deployed <a href='https://github.com/openai/codex/releases/tag/rust-v0.137.0'>Codex 0.137.0</a> with new features: support for F13-F24 keys in TUI controls, pasting into search menus, and a compact status for reasoning mode. Admin flows now display monthly credit limits and can apply cloud configuration bundles. A Python SDK <a href='https://github.com/openai/codex/releases/tag/python-v0.1.0b3'>0.1.0b3</a> has also been released.",
+                "de": "OpenAI hat <a href='https://github.com/openai/codex/releases/tag/rust-v0.137.0'>Codex 0.137.0</a> mit neuen Funktionen bereitgestellt: Unterstützung der Tasten F13-F24 in TUI-Steuerungen, Einfügen in Suchmenüs und einen kompakten Status für den Denkmodus. Administrationsabläufe zeigen nun monatliche Kreditlimits an und können Cloud-Konfigurationspakete anwenden. Ein Python-SDK <a href='https://github.com/openai/codex/releases/tag/python-v0.1.0b3'>0.1.0b3</a> wurde ebenfalls veröffentlicht.",
+                "it": "OpenAI ha distribuito <a href='https://github.com/openai/codex/releases/tag/rust-v0.137.0'>Codex 0.137.0</a> con nuove funzionalità: supporto dei tasti F13-F24 nei controlli TUI, incolla nei menu di ricerca e uno stato compatto per la modalità ragionamento. I flussi amministratore mostrano ora i limiti di credito mensili e possono applicare bundle di configurazione cloud. È stato inoltre pubblicato un SDK Python <a href='https://github.com/openai/codex/releases/tag/python-v0.1.0b3'>0.1.0b3</a>.",
+                "lmo": "OpenAI l'ha desplegaa <a href='https://github.com/openai/codex/releases/tag/rust-v0.137.0'>Codex 0.137.0</a> con di noeuv funzionalità: support di taster F13-F24 in di controll TUI, incollada in di menu de ricerca, e on stat compact per la modalità ragionament. I fluss aministrador mostren adess i limit de credit mensil e poden applicà di bundle de configurazion cloud. On SDK Python <a href='https://github.com/openai/codex/releases/tag/python-v0.1.0b3'>0.1.0b3</a> l'è anca staa publicaa."
+              },
+              "kicker": {
+                "fr": "Codex CLI",
+                "en": "Codex CLI",
+                "de": "Codex CLI",
+                "it": "Codex CLI",
+                "lmo": "Codex CLI"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.137.0",
+                "https://github.com/openai/codex/releases/tag/python-v0.1.0b3"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Version 0.46.0 : transition vers Gemini 3.5 Flash en mode automatique",
+                "en": "Version 0.46.0: transition to Gemini 3.5 Flash in auto mode",
+                "de": "Version 0.46.0: Umstellung auf Gemini 3.5 Flash im Automatikmodus",
+                "it": "Versione 0.46.0: transizione a Gemini 3.5 Flash in modalità automatica",
+                "lmo": "Version 0.46.0: transizion vers Gemini 3.5 Flash in modalità automatica"
+              },
+              "body": {
+                "fr": "Google a publié <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0'>Gemini CLI 0.46.0-preview.0</a> qui active le modèle Gemini 3.5 Flash comme modèle par défaut en mode automatique lorsque le flag expérimental est présent. La version corrige également un crash PTY lors du redimensionnement et une boucle de spam lorsque l'éditeur préféré est invalide.",
+                "en": "Google has released <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0'>Gemini CLI 0.46.0-preview.0</a> which enables the Gemini 3.5 Flash model as the default in auto mode when the experimental flag is present. The release also fixes a PTY crash during resizing and a spam loop when the preferred editor is invalid.",
+                "de": "Google hat <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0'>Gemini CLI 0.46.0-preview.0</a> veröffentlicht, das das Modell Gemini 3.5 Flash als Standardmodell im Automatikmodus aktiviert, wenn das experimentelle Flag gesetzt ist. Die Version behebt zudem einen PTY-Absturz bei der Grössenänderung und eine Spam-Schleife, wenn der bevorzugte Editor ungültig ist.",
+                "it": "Google ha pubblicato <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0'>Gemini CLI 0.46.0-preview.0</a> che attiva il modello Gemini 3.5 Flash come modello predefinito in modalità automatica quando il flag sperimentale è presente. La versione corregge inoltre un crash PTY durante il ridimensionamento e un loop di spam quando l'editor preferito non è valido.",
+                "lmo": "Google l'ha publicaa <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0'>Gemini CLI 0.46.0-preview.0</a> che 'l attiva el modèll Gemini 3.5 Flash come modèll defaut in modalità automatica quand che 'l flag esperimental l'è present. La version la corregg anca on crash PTY durant el redimensionament e on loop de spam quand che l'editor preferii l'è invalid."
+              },
+              "kicker": {
+                "fr": "Gemini CLI",
+                "en": "Gemini CLI",
+                "de": "Gemini CLI",
+                "it": "Gemini CLI",
+                "lmo": "Gemini CLI"
+              },
+              "urls": [
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0-preview.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "CLI v3.0.17 corrige un blocage après redémarrage du Hub",
+                "en": "CLI v3.0.17 fixes a hang after Hub restart",
+                "de": "CLI v3.0.17 behebt Blockade nach Neustart des Hub",
+                "it": "CLI v3.0.17 corregge un blocco dopo il riavvio dell'Hub",
+                "lmo": "CLI v3.0.17 el corregg on bloch dopo redemarida del Hub"
+              },
+              "body": {
+                "fr": "La version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.17'>CLI v3.0.17</a> de Cline corrige une régression où l'interface interactive pouvait rester bloquée après l'arrêt et le redémarrage de Cline Hub. Le connecteur Telegram s'enrichit d'un flag <code>--allowed-user-id</code> pour restreindre les utilisateurs autorisés à interagir avec l'agent.",
+                "en": "The <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.17'>CLI v3.0.17</a> release of Cline fixes a regression where the interactive interface could remain stuck after stopping and restarting Cline Hub. The Telegram connector gains a <code>--allowed-user-id</code> flag to restrict which users are authorized to interact with the agent.",
+                "de": "Die Version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.17'>CLI v3.0.17</a> von Cline behebt eine Regression, bei der die interaktive Oberfläche nach dem Stoppen und Neustarten von Cline Hub blockiert bleiben konnte. Der Telegram-Konnektor erhält ein Flag <code>--allowed-user-id</code>, um die Benutzer einzuschränken, die mit dem Agenten interagieren dürfen.",
+                "it": "La versione <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.17'>CLI v3.0.17</a> di Cline corregge una regressione per cui l'interfaccia interattiva poteva rimanere bloccata dopo l'arresto e il riavvio di Cline Hub. Il connettore Telegram si arricchisce di un flag <code>--allowed-user-id</code> per limitare gli utenti autorizzati a interagire con l'agente.",
+                "lmo": "La version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.17'>CLI v3.0.17</a> de Cline la corregg ona regression indove l'interfaccia interattiva la podeva restà blocada dopo l'arester e 'l redemarida de Cline Hub. El connector Telegram el se ricchiss d'on flag <code>--allowed-user-id</code> per restrenge i utent autorizaa a interagì con l'agent."
+              },
+              "kicker": {
+                "fr": "Cline",
+                "en": "Cline",
+                "de": "Cline",
+                "it": "Cline",
+                "lmo": "Cline"
+              },
+              "urls": [
+                "https://github.com/cline/cline/releases/tag/cli-v3.0.17"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs & Inférence",
+            "en": "Engines & Inference",
+            "de": "Engines & Inferenz",
+            "it": "Motori & Inferenza",
+            "lmo": "Motor & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Build b9496 : correctif pour Gemma 4 sur les FPU unifiés",
+                "en": "Build b9496: fix for Gemma 4 on unified FPUs",
+                "de": "Build b9496: Fehlerbehebung für Gemma 4 auf vereinheitlichten FPUs",
+                "it": "Build b9496: correttivo per Gemma 4 su FPU unificati",
+                "lmo": "Build b9496: correttiva per Gemma 4 sora i FPU unificaa"
+              },
+              "body": {
+                "fr": "La version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9496'>b9496</a> de llama.cpp corrige un problème de Floating Point Exception (FPE) unifiée pour Gemma 4. La mise à jour est disponible pour macOS (Apple Silicon et Intel), Linux, Windows, Android et iOS.",
+                "en": "The <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9496'>b9496</a> release of llama.cpp fixes a unified Floating Point Exception (FPE) issue for Gemma 4. The update is available for macOS (Apple Silicon and Intel), Linux, Windows, Android and iOS.",
+                "de": "Die Version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9496'>b9496</a> von llama.cpp behebt ein Problem mit einer vereinheitlichten Floating-Point-Exception (FPE) für Gemma 4. Das Update ist für macOS (Apple Silicon und Intel), Linux, Windows, Android und iOS verfügbar.",
+                "it": "La versione <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9496'>b9496</a> di llama.cpp corregge un problema di Floating Point Exception (FPE) unificata per Gemma 4. L'aggiornamento è disponibile per macOS (Apple Silicon e Intel), Linux, Windows, Android e iOS.",
+                "lmo": "La version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9496'>b9496</a> de llama.cpp la corregg on problema de Floating Point Exception (FPE) unificada per Gemma 4. L'aggiornament l'è disponibil per macOS (Apple Silicon e Intel), Linux, Windows, Android e iOS."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9496"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "v0.30.4 : mise à jour de llama.cpp et correctif Windows",
+                "en": "v0.30.4: llama.cpp update and Windows fix",
+                "de": "v0.30.4: Update von llama.cpp und Windows-Korrektur",
+                "it": "v0.30.4: aggiornamento di llama.cpp e correttivo Windows",
+                "lmo": "v0.30.4: aggiornament de llama.cpp e correttiva Windows"
+              },
+              "body": {
+                "fr": "<a href='https://github.com/ollama/ollama/releases/tag/v0.30.4'>Ollama 0.30.4</a> met à jour le moteur llama.cpp sous-jacent et corrige un problème de nettoyage du processus <code>llama-server</code> lors de l'arrêt sur Windows. Un bug connu affecte Gemma 4 12B avec une exception flottante.",
+                "en": "<a href='https://github.com/ollama/ollama/releases/tag/v0.30.4'>Ollama 0.30.4</a> updates the underlying llama.cpp engine and fixes a cleanup issue with the <code>llama-server</code> process during shutdown on Windows. A known bug affects Gemma 4 12B with a floating point exception.",
+                "de": "<a href='https://github.com/ollama/ollama/releases/tag/v0.30.4'>Ollama 0.30.4</a> aktualisiert die zugrundeliegende llama.cpp-Engine und behebt ein Problem bei der Bereinigung des <code>llama-server</code>-Prozesses beim Herunterfahren unter Windows. Ein bekannter Fehler betrifft Gemma 4 12B mit einer Fliesskomma-Ausnahme.",
+                "it": "<a href='https://github.com/ollama/ollama/releases/tag/v0.30.4'>Ollama 0.30.4</a> aggiorna il motore llama.cpp sottostante e corregge un problema di pulizia del processo <code>llama-server</code> durante l'arresto su Windows. Un bug noto riguarda Gemma 4 12B con un'eccezione floating point.",
+                "lmo": "<a href='https://github.com/ollama/ollama/releases/tag/v0.30.4'>Ollama 0.30.4</a> l'aggiorna el motor llama.cpp sotta-stant e 'l corregg on problema de netezza del process <code>llama-server</code> durant l'arester sora Windows. On bug cognossuu el tocca Gemma 4 12B cont ona eccezion flottanta."
+              },
+              "kicker": {
+                "fr": "Ollama",
+                "en": "Ollama",
+                "de": "Ollama",
+                "it": "Ollama",
+                "lmo": "Ollama"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.30.4"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "v0.6.1 : support de Gemma 4 Unified, MTP et Cohere MoE",
+                "en": "v0.6.1: support for Gemma 4 Unified, MTP and Cohere MoE",
+                "de": "v0.6.1: Unterstützung für Gemma 4 Unified, MTP und Cohere MoE",
+                "it": "v0.6.1: supporto di Gemma 4 Unified, MTP e Cohere MoE",
+                "lmo": "v0.6.1: support de Gemma 4 Unified, MTP e Cohere MoE"
+              },
+              "body": {
+                "fr": "La version <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1'>0.6.1</a> de MLX-VLM ajoute le support de Gemma 4 avec architecture unifiée et Multi-Token Prediction (MTP), le modèle Cohere2 MoE, et NVIDIA LocateAnything-3B. Plusieurs correctifs portent sur la gestion du rollback et le streaming des pensées.",
+                "en": "The <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1'>0.6.1</a> release of MLX-VLM adds support for Gemma 4 with unified architecture and Multi-Token Prediction (MTP), the Cohere2 MoE model, and NVIDIA LocateAnything-3B. Several fixes address rollback handling and thought streaming.",
+                "de": "Die Version <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1'>0.6.1</a> von MLX-VLM fügt Unterstützung für Gemma 4 mit vereinheitlichter Architektur und Multi-Token Prediction (MTP), das Modell Cohere2 MoE und NVIDIA LocateAnything-3B hinzu. Mehrere Korrekturen betreffen das Rollback-Management und das Streaming von Gedanken.",
+                "it": "La versione <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1'>0.6.1</a> di MLX-VLM aggiunge il supporto di Gemma 4 con architettura unificata e Multi-Token Prediction (MTP), il modello Cohere2 MoE e NVIDIA LocateAnything-3B. Diversi correttivi riguardano la gestione del rollback e lo streaming dei pensieri.",
+                "lmo": "La version <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1'>0.6.1</a> de MLX-VLM la gionta el support de Gemma 4 con architettura unificada e Multi-Token Prediction (MTP), el modèll Cohere2 MoE, e NVIDIA LocateAnything-3B. Diversi correttiv porten sora la gestion del rollback e 'l streaming di penser."
+              },
+              "kicker": {
+                "fr": "MLX-VLM",
+                "en": "MLX-VLM",
+                "de": "MLX-VLM",
+                "it": "MLX-VLM",
+                "lmo": "MLX-VLM"
+              },
+              "urls": [
+                "https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "v0.4.1 : stabilité mémoire et cycle de vie du serveur",
+                "en": "v0.4.1: memory stability and server lifecycle",
+                "de": "v0.4.1: Speicherstabilität und Server-Lebenszyklus",
+                "it": "v0.4.1: stabilità della memoria e ciclo di vita del server",
+                "lmo": "v0.4.1: stabilità memoria e ciclo de vita del server"
+              },
+              "body": {
+                "fr": "<a href='https://github.com/jundot/omlx/releases/tag/v0.4.1'>oMLX 0.4.1</a> améliore la gestion de la mémoire préfill, introduit l'éviction des modèles inactifs avant le throttling, et expose des contrôles de cycle de vie du serveur depuis l'application macOS et la CLI avec les commandes <code>omlx start</code>, <code>stop</code> et <code>restart</code>.",
+                "en": "<a href='https://github.com/jundot/omlx/releases/tag/v0.4.1'>oMLX 0.4.1</a> improves prefill memory management, introduces eviction of idle models before throttling, and exposes server lifecycle controls from the macOS app and CLI with the <code>omlx start</code>, <code>stop</code> and <code>restart</code> commands.",
+                "de": "<a href='https://github.com/jundot/omlx/releases/tag/v0.4.1'>oMLX 0.4.1</a> verbessert die Prefill-Speicherverwaltung, führt die Räumung inaktiver Modelle vor dem Throttling ein und stellt Lebenszyklussteuerungen des Servers über die macOS-App und die CLI mit den Befehlen <code>omlx start</code>, <code>stop</code> und <code>restart</code> bereit.",
+                "it": "<a href='https://github.com/jundot/omlx/releases/tag/v0.4.1'>oMLX 0.4.1</a> migliora la gestione della memoria prefill, introduce l'evizione dei modelli inattivi prima del throttling ed espone controlli del ciclo di vita del server dall'applicazione macOS e dalla CLI con i comandi <code>omlx start</code>, <code>stop</code> e <code>restart</code>.",
+                "lmo": "<a href='https://github.com/jundot/omlx/releases/tag/v0.4.1'>oMLX 0.4.1</a> el migliora la gestion de la memoria prefill, l'introdux l'evizion di modèll inattiv prima del throttling, e 'l espon di controll de ciclo de vita del server de l'applicazion macOS e de la CLI con i command <code>omlx start</code>, <code>stop</code> e <code>restart</code>."
+              },
+              "kicker": {
+                "fr": "oMLX",
+                "en": "oMLX",
+                "de": "oMLX",
+                "it": "oMLX",
+                "lmo": "oMLX"
+              },
+              "urls": [
+                "https://github.com/jundot/omlx/releases/tag/v0.4.1"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papers & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Paper & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Optimisation par préférence directe disponible pour GPT-4.1",
+                "en": "Direct Preference Optimization available for GPT-4.1",
+                "de": "Direct Preference Optimization für GPT-4.1 verfügbar",
+                "it": "Ottimizzazione per preferenza diretta disponibile per GPT-4.1",
+                "lmo": "Ottimizzazion per preferenza diretta disponibil per GPT-4.1"
+              },
+              "body": {
+                "fr": "OpenAI a ajouté le support du <a href='https://platform.openai.com/api/docs/guides/direct-preference-optimization'>Direct Preference Optimization (DPO)</a> pour le fine-tuning des modèles <code>gpt-4.1-2025-04-14</code>, <code>gpt-4.1-mini-2025-04-14</code> et <code>gpt-4.1-nano-2025-04-14</code>. Cette technique d'alignement permet d'optimiser les modèles directement à partir de préférences humaines sans passer par un modèle de récompense séparé.",
+                "en": "OpenAI has added support for <a href='https://platform.openai.com/api/docs/guides/direct-preference-optimization'>Direct Preference Optimization (DPO)</a> for fine-tuning the <code>gpt-4.1-2025-04-14</code>, <code>gpt-4.1-mini-2025-04-14</code> and <code>gpt-4.1-nano-2025-04-14</code> models. This alignment technique allows models to be optimized directly from human preferences without going through a separate reward model.",
+                "de": "OpenAI hat die Unterstützung für <a href='https://platform.openai.com/api/docs/guides/direct-preference-optimization'>Direct Preference Optimization (DPO)</a> für das Feintuning der Modelle <code>gpt-4.1-2025-04-14</code>, <code>gpt-4.1-mini-2025-04-14</code> und <code>gpt-4.1-nano-2025-04-14</code> hinzugefügt. Diese Alignment-Technik ermöglicht die direkte Optimierung von Modellen anhand menschlicher Präferenzen ohne ein separates Belohnungsmodell.",
+                "it": "OpenAI ha aggiunto il supporto del <a href='https://platform.openai.com/api/docs/guides/direct-preference-optimization'>Direct Preference Optimization (DPO)</a> per il fine-tuning dei modelli <code>gpt-4.1-2025-04-14</code>, <code>gpt-4.1-mini-2025-04-14</code> e <code>gpt-4.1-nano-2025-04-14</code>. Questa tecnica di allineamento consente di ottimizzare i modelli direttamente a partire da preferenze umane senza passare attraverso un modello di ricompensa separato.",
+                "lmo": "OpenAI l'ha giontaa el support del <a href='https://platform.openai.com/api/docs/guides/direct-preference-optimization'>Direct Preference Optimization (DPO)</a> per el fine-tuning di modèll <code>gpt-4.1-2025-04-14</code>, <code>gpt-4.1-mini-2025-04-14</code> e <code>gpt-4.1-nano-2025-04-14</code>. 'Sta tecnica d'alignament la permet de ottimizzà i modèll direttament di preferenz uman senza passà per on modèll de ricompensa separaa."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://platform.openai.com/api/docs/guides/direct-preference-optimization"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DPO au-delà des chatbots : un tutoriel pour applications spécialisées",
+                "en": "DPO beyond chatbots: a tutorial for specialized applications",
+                "de": "DPO über Chatbots hinaus: Ein Tutorial für spezialisierte Anwendungen",
+                "it": "DPO oltre i chatbot: un tutorial per applicazioni specializzate",
+                "lmo": "DPO oltra i chatbot: on tutorial per applicazion specializad"
+              },
+              "body": {
+                "fr": "Un article publié sur le blog de <a href='https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots'>Hugging Face</a> explore l'application du Direct Preference Optimization au-delà des chatbots conversationnels, détaillant comment cette méthode d'alignement peut être utilisée pour des applications spécialisées comme la génération de code, la synthèse de documents ou les systèmes de recommandation.",
+                "en": "An article published on the <a href='https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots'>Hugging Face</a> blog explores the application of Direct Preference Optimization beyond conversational chatbots, detailing how this alignment method can be used for specialized applications such as code generation, document summarization or recommendation systems.",
+                "de": "Ein auf dem Blog von <a href='https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots'>Hugging Face</a> veröffentlichter Artikel untersucht die Anwendung von Direct Preference Optimization über konversationelle Chatbots hinaus und erläutert, wie diese Alignment-Methode für spezialisierte Anwendungen wie Codegenerierung, Dokumentenzusammenfassung oder Empfehlungssysteme genutzt werden kann.",
+                "it": "Un articolo pubblicato sul blog di <a href='https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots'>Hugging Face</a> esplora l'applicazione del Direct Preference Optimization oltre i chatbot conversazionali, dettagliando come questo metodo di allineamento possa essere utilizzato per applicazioni specializzate come la generazione di codice, la sintesi di documenti o i sistemi di raccomandazione.",
+                "lmo": "On articol publicaa sora el blog de <a href='https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots'>Hugging Face</a> l'esplora l'applicazion del Direct Preference Optimization oltra i chatbot conversazionai, detaliand come 'sto metod d'alignament el pò vess doperad per di applicazion specializad come la generazion de codes, la sintesi de document o i sistema de raccomandazion."
+              },
+              "kicker": {
+                "fr": "Hugging Face",
+                "en": "Hugging Face",
+                "de": "Hugging Face",
+                "it": "Hugging Face",
+                "lmo": "Hugging Face"
+              },
+              "urls": [
+                "https://huggingface.co/blog/Dharma-AI/direct-preference-optimization-beyond-chatbots"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ajout d'outils MCP au robot Reachy Mini",
+                "en": "Adding MCP tools to the Reachy Mini robot",
+                "de": "Hinzufügen von MCP-Tools zum Roboter Reachy Mini",
+                "it": "Aggiunta di strumenti MCP al robot Reachy Mini",
+                "lmo": "Gionta de strument MCP al robot Reachy Mini"
+              },
+              "body": {
+                "fr": "Un tutoriel publié sur <a href='https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini'>Hugging Face</a> détaille l'intégration d'outils MCP (Model Context Protocol) au robot open-source Reachy Mini, permettant aux modèles de langage de contrôler directement les actionneurs et capteurs du robot via des appels d'outils standardisés.",
+                "en": "A tutorial published on <a href='https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini'>Hugging Face</a> details the integration of MCP (Model Context Protocol) tools into the open-source Reachy Mini robot, allowing language models to directly control the robot's actuators and sensors via standardized tool calls.",
+                "de": "Ein auf <a href='https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini'>Hugging Face</a> veröffentlichtes Tutorial beschreibt die Integration von MCP-Tools (Model Context Protocol) in den Open-Source-Roboter Reachy Mini, die es Sprachmodellen ermöglicht, die Aktuatoren und Sensoren des Roboters direkt über standardisierte Tool-Aufrufe zu steuern.",
+                "it": "Un tutorial pubblicato su <a href='https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini'>Hugging Face</a> dettaglia l'integrazione di strumenti MCP (Model Context Protocol) nel robot open-source Reachy Mini, consentendo ai modelli linguistici di controllare direttamente gli attuatori e i sensori del robot tramite chiamate di strumenti standardizzate.",
+                "lmo": "On tutorial publicaa sora <a href='https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini'>Hugging Face</a> el detalia l'integrazion de strument MCP (Model Context Protocol) al robot open-source Reachy Mini, permettend ai modèll de lengoeu de controllà direttament i attuator e sensor del robot via di ciamad de strument standardizad."
+              },
+              "kicker": {
+                "fr": "Hugging Face",
+                "en": "Hugging Face",
+                "de": "Hugging Face",
+                "it": "Hugging Face",
+                "lmo": "Hugging Face"
+              },
+              "urls": [
+                "https://huggingface.co/blog/adding-mcp-tools-to-reachy-mini"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Wasmer utilise Codex et GPT-5.5 pour construire un runtime Node.js edge",
+                "en": "Wasmer uses Codex and GPT-5.5 to build an edge Node.js runtime",
+                "de": "Wasmer nutzt Codex und GPT-5.5 zum Bau einer Node.js-Edge-Laufzeit",
+                "it": "Wasmer utilizza Codex e GPT-5.5 per costruire un runtime Node.js edge",
+                "lmo": "Wasmer el dopera Codex e GPT-5.5 per costruì on runtime Node.js edge"
+              },
+              "body": {
+                "fr": "Wasmer a utilisé <a href='https://openai.com/index/wasmer'>Codex avec GPT-5.5</a> pour construire un runtime Node.js destiné à l'edge, accélérant le développement de 10 à 20 fois et livrant le projet en quelques semaines au lieu de mois. Un cas d'usage concret de l'agentic coding en environnement contraint.",
+                "en": "Wasmer used <a href='https://openai.com/index/wasmer'>Codex with GPT-5.5</a> to build a Node.js runtime for the edge, accelerating development by 10 to 20 times and delivering the project in weeks instead of months. A concrete use case of agentic coding in a constrained environment.",
+                "de": "Wasmer hat <a href='https://openai.com/index/wasmer'>Codex mit GPT-5.5</a> verwendet, um eine Node.js-Laufzeit für den Edge-Bereich zu entwickeln, was die Entwicklung um das 10- bis 20-fache beschleunigte und das Projekt in wenigen Wochen statt Monaten lieferte. Ein konkreter Anwendungsfall für agentisches Programmieren in einer eingeschränkten Umgebung.",
+                "it": "Wasmer ha utilizzato <a href='https://openai.com/index/wasmer'>Codex con GPT-5.5</a> per costruire un runtime Node.js destinato all'edge, accelerando lo sviluppo di 10-20 volte e consegnando il progetto in poche settimane invece che mesi. Un caso d'uso concreto di agentic coding in ambiente vincolato.",
+                "lmo": "Wasmer l'ha doperad <a href='https://openai.com/index/wasmer'>Codex con GPT-5.5</a> per costruì on runtime Node.js destinad a l'edge, accelerand el desvilupp de 10 a 20 volt e consegnand el progett in d'on quaj setimana inveci de mes. On cas d'usagg concret del coding agentich in ambient costrenciud."
+              },
+              "kicker": {
+                "fr": "Wasmer",
+                "en": "Wasmer",
+                "de": "Wasmer",
+                "it": "Wasmer",
+                "lmo": "Wasmer"
+              },
+              "urls": [
+                "https://openai.com/index/wasmer"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnal de la Comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Hermes Desktop : un agent IA open-source multiplateforme",
+                "en": "Hermes Desktop: a cross-platform open-source AI agent",
+                "de": "Hermes Desktop: Ein plattformübergreifender Open-Source-KI-Agent",
+                "it": "Hermes Desktop: un agente IA open-source multipiattaforma",
+                "lmo": "Hermes Desktop: on agent IA open-source multi-piattaforma"
+              },
+              "body": {
+                "fr": "Nous Research a publié <a href='https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/'>Hermes Desktop</a>, une interface graphique native pour Hermes Agent v0.15.2, sous licence MIT. L'application partage le même noyau d'agent, les mêmes compétences et la même mémoire que la version CLI, avec un affichage en streaming des sorties d'outils.",
+                "en": "Nous Research has released <a href='https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/'>Hermes Desktop</a>, a native graphical interface for Hermes Agent v0.15.2, under the MIT license. The application shares the same agent core, skills and memory as the CLI version, with streaming display of tool outputs.",
+                "de": "Nous Research hat <a href='https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/'>Hermes Desktop</a> veröffentlicht, eine native grafische Oberfläche für Hermes Agent v0.15.2, unter der MIT-Lizenz. Die Anwendung teilt denselben Agentenkern, dieselben Fähigkeiten und denselben Speicher wie die CLI-Version, mit einer Streaming-Anzeige der Tool-Ausgaben.",
+                "it": "Nous Research ha pubblicato <a href='https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/'>Hermes Desktop</a>, un'interfaccia grafica nativa per Hermes Agent v0.15.2, con licenza MIT. L'applicazione condivide lo stesso nucleo d'agente, le stesse competenze e la stessa memoria della versione CLI, con una visualizzazione in streaming delle uscite degli strumenti.",
+                "lmo": "Nous Research l'ha publicaa <a href='https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/'>Hermes Desktop</a>, ona interfaccia grafica nativa per Hermes Agent v0.15.2, sotta licenza MIT. L'applicazion la spartiss l'istess nœuv d'agent, i istess competenz e l'istessa memoria de la version CLI, cont ona visualizzazion in streaming di sortid di strument."
+              },
+              "kicker": {
+                "fr": "Nous Research",
+                "en": "Nous Research",
+                "de": "Nous Research",
+                "it": "Nous Research",
+                "lmo": "Nous Research"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/03/nous-research-releases-hermes-desktop-a-native-cross-platform-front-end-for-hermes-agent-v0-15-2-with-streaming-tool-output/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un système hybride décide local ou cloud pour chaque tâche",
+                "en": "A hybrid system decides local or cloud for each task",
+                "de": "Ein hybrides System entscheidet lokal oder in der Cloud für jede Aufgabe",
+                "it": "Un sistema ibrido decide locale o cloud per ogni compito",
+                "lmo": "On sistema ibrid el decid local o cloud per ogni incarich"
+              },
+              "body": {
+                "fr": "Perplexity a annoncé un <a href='https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/'>orchestrateur hybride</a> qui combine des modèles exécutés localement avec des modèles cloud puissants, décidant automatiquement où traiter chaque tâche en fonction de sa complexité et des ressources disponibles.",
+                "en": "Perplexity has announced a <a href='https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/'>hybrid orchestrator</a> that combines locally run models with powerful cloud models, automatically deciding where to process each task based on its complexity and available resources.",
+                "de": "Perplexity hat einen <a href='https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/'>hybriden Orchestrator</a> angekündigt, der lokal ausgeführte Modelle mit leistungsstarken Cloud-Modellen kombiniert und automatisch entscheidet, wo jede Aufgabe basierend auf ihrer Komplexität und den verfügbaren Ressourcen verarbeitet wird.",
+                "it": "Perplexity ha annunciato un <a href='https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/'>orchestratore ibrido</a> che combina modelli eseguiti localmente con modelli cloud potenti, decidendo automaticamente dove elaborare ogni compito in base alla sua complessità e alle risorse disponibili.",
+                "lmo": "Perplexity l'ha anunziaa on <a href='https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/'>orchestrador ibrid</a> che 'l combina di modèll eseguii localment con di modèll cloud potent, decidend automaticament indove tratà ogni incarich in fonzion de la soa complessità e di risorse disponibil."
+              },
+              "kicker": {
+                "fr": "Perplexity",
+                "en": "Perplexity",
+                "de": "Perplexity",
+                "it": "Perplexity",
+                "lmo": "Perplexity"
+              },
+              "urls": [
+                "https://the-decoder.com/perplexity-announces-hybrid-ai-system-that-decides-what-runs-locally-or-in-the-cloud/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Le Royaume-Uni impose à Google un opt-out pour l'IA Search",
+                "en": "UK imposes opt-out for AI Search on Google",
+                "de": "Grossbritannien zwingt Google zu einem Opt-out für die KI-Suche",
+                "it": "Il Regno Unito impone a Google un opt-out per l'IA Search",
+                "lmo": "El Regn Unii l'impon a Google on opt-out per l'IA Search"
+              },
+              "body": {
+                "fr": "L'autorité britannique de la concurrence (CMA) a imposé à Google de <a href='https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/'>fournir un outil permettant aux éditeurs de se retirer</a> des fonctionnalités de recherche générative AI Overviews et AI Mode. L'option sera d'abord testée au Royaume-Uni avant un déploiement mondial.",
+                "en": "The UK competition authority (CMA) has ordered Google to <a href='https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/'>provide a tool allowing publishers to opt out</a> of generative AI search features AI Overviews and AI Mode. The option will first be tested in the UK before a global rollout.",
+                "de": "Die britische Wettbewerbsbehörde (CMA) hat Google dazu verpflichtet, <a href='https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/'>ein Tool bereitzustellen, mit dem Verlage sich von den generativen KI-Funktionen AI Overviews und AI Mode abmelden können</a>. Die Option wird zunächst in Grossbritannien getestet, bevor sie weltweit ausgerollt wird.",
+                "it": "L'autorità britannica della concorrenza (CMA) ha imposto a Google di <a href='https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/'>fornire uno strumento che consenta agli editori di ritirarsi</a> dalle funzionalità di ricerca generativa AI Overviews e AI Mode. L'opzione sarà prima testata nel Regno Unito prima di un'implementazione globale.",
+                "lmo": "L'autorità britannica de la concorrenza (CMA) l'ha imponuu a Google de <a href='https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/'>fornì on strument che 'l permet ai editor de retiràss</a> di funzionalità de ricerca generativa AI Overviews e AI Mode. L'opzion la sarà prima testada al Regn Unii prima d'on despiegament mondial."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/06/03/publishers-will-be-able-to-opt-out-of-ai-search-thanks-to-new-regulation/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'agent IA de Meta pour WhatsApp Business disponible mondialement",
+                "en": "Meta's AI agent for WhatsApp Business available globally",
+                "de": "Metas KI-Agent für WhatsApp Business weltweit verfügbar",
+                "it": "L'agente IA di Meta per WhatsApp Business disponibile globalmente",
+                "lmo": "L'agent IA de Meta per WhatsApp Business disponibil mondialment"
+              },
+              "body": {
+                "fr": "Meta a rendu disponible <a href='https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/'>son agent IA pour WhatsApp Business</a> à l'échelle mondiale. La facturation s'effectue à la consommation de tokens, ouvrant la voie à une adoption massive par les entreprises utilisant la plateforme de messagerie.",
+                "en": "Meta has made <a href='https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/'>its AI agent for WhatsApp Business</a> available globally. Billing is based on token consumption, paving the way for mass adoption by businesses using the messaging platform.",
+                "de": "Meta hat <a href='https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/'>seinen KI-Agenten für WhatsApp Business</a> weltweit verfügbar gemacht. Die Abrechnung erfolgt nach Token-Verbrauch, was den Weg für eine massive Adoption durch Unternehmen ebnet, die die Messaging-Plattform nutzen.",
+                "it": "Meta ha reso disponibile <a href='https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/'>il suo agente IA per WhatsApp Business</a> a livello mondiale. La fatturazione avviene al consumo di token, aprendo la strada a un'adozione massiccia da parte delle aziende che utilizzano la piattaforma di messaggistica.",
+                "lmo": "Meta l'ha renduu disponibil <a href='https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/'>el sò agent IA per WhatsApp Business</a> a scala mondiala. La fatturazion la se fa a la consumazion de token, dervend la strada a ona adozion massiva di impres che doperen la piattaforma de messagg."
+              },
+              "kicker": {
+                "fr": "WhatsApp",
+                "en": "WhatsApp",
+                "de": "WhatsApp",
+                "it": "WhatsApp",
+                "lmo": "WhatsApp"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemma 4 12B : le vrai tournant du multimodal local",
+                "en": "Gemma 4 12B: the real turning point for local multimodal AI",
+                "de": "Gemma 4 12B: Die wahre Wende der lokalen Multimodalität",
+                "it": "Gemma 4 12B: la vera svolta del multimodale locale",
+                "lmo": "Gemma 4 12B: el ver voltant del multimodal local"
+              },
+              "body": {
+                "fr": "Avec la sortie de <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>Gemma 4 12B</a>, Google DeepMind franchit un cap que beaucoup attendaient : un modèle multimodal capable de traiter texte, image et audio sur un simple laptop de 16 Go de RAM. L'architecture sans encodeur n'est pas qu'une prouesse technique — elle redéfinit ce que « local » signifie dans l'IA. Jusqu'ici, le multimodal était l'apanage du cloud, nécessitant des GPU coûteux ou des API distantes. Gemma 4 12B change la donne en rendant ces capacités accessibles à tout développeur équipé d'un ordinateur portable récent. Sous licence Apache 2.0, le modèle ouvre des perspectives immédiates pour les applications agentiques locales, le traitement de données sensibles sans transfert vers le cloud, et l'expérimentation en mobilité réduite. C'est aussi un signal fort pour l'écosystème open-source : la frontière de la recherche ne se joue plus seulement dans les data centers.",
+                "en": "With the release of <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>Gemma 4 12B</a>, Google DeepMind has crossed a threshold many were waiting for: a multimodal model capable of processing text, image and audio on a simple 16 GB RAM laptop. The encoder-free architecture is not just a technical feat — it redefines what 'local' means in AI. Until now, multimodal capabilities were the preserve of the cloud, requiring expensive GPUs or remote APIs. Gemma 4 12B changes the game by making these capabilities accessible to any developer equipped with a recent laptop. Under the Apache 2.0 license, the model opens up immediate prospects for local agentic applications, processing of sensitive data without cloud transfer, and experimentation on the go. It is also a strong signal for the open-source ecosystem: the research frontier is no longer confined to data centers.",
+                "de": "Mit der Veröffentlichung von <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>Gemma 4 12B</a> überschreitet Google DeepMind eine Schwelle, die viele erwartet haben: ein multimodales Modell, das Text, Bild und Audio auf einem einfachen Laptop mit 16 GB RAM verarbeiten kann. Die encoderfreie Architektur ist nicht nur eine technische Meisterleistung – sie definiert neu, was «lokal» in der KI bedeutet. Bislang war Multimodalität die Domäne der Cloud und erforderte teure GPUs oder entfernte APIs. Gemma 4 12B ändert dies, indem es diese Fähigkeiten jedem Entwickler mit einem aktuellen Laptop zugänglich macht. Unter der Apache-2.0-Lizenz eröffnet das Modell unmittelbare Perspektiven für lokale agentische Anwendungen, die Verarbeitung sensibler Daten ohne Cloud-Transfer und das Experimentieren unterwegs. Es ist auch ein starkes Signal für das Open-Source-Ökosystem: Die Forschungsfront verlagert sich nicht länger nur in die Rechenzentren.",
+                "it": "Con l'uscita di <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>Gemma 4 12B</a>, Google DeepMind supera una soglia che molti attendevano: un modello multimodale in grado di elaborare testo, immagini e audio su un semplice laptop con 16 GB di RAM. L'architettura senza encoder non è solo un'impresa tecnica — ridefinisce cosa significhi « locale » nell'IA. Finora, il multimodale era appannaggio del cloud, richiedendo GPU costose o API remote. Gemma 4 12B cambia le cose rendendo queste capacità accessibili a qualsiasi sviluppatore dotato di un computer portatile recente. Con licenza Apache 2.0, il modello apre prospettive immediate per le applicazioni agentiche locali, l'elaborazione di dati sensibili senza trasferimento verso il cloud e la sperimentazione in mobilità ridotta. È anche un segnale forte per l'ecosistema open-source: la frontiera della ricerca non si gioca più solo nei data center.",
+                "lmo": "Con la sortida de <a href='https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/'>Gemma 4 12B</a>, Google DeepMind el traversa on cap che tanti spettaven: on modèll multimodal bon de tratà test, immagin e audio sora on semplic laptop de 16 GB de RAM. L'architettura senza encoder l'è no domà ona prodezza tecnica — la redefiniss cossa che « local » el voeur dì in l'IA. Fin adess, el multimodal l'era l'apanage del cloud, besognand di GPU costos o di API distant. Gemma 4 12B el cambia el gioeugh, rendend 'sti capacità accessibil a tucc i desvilupador fornii d'on ordenador portatil recent. Sotta licenza Apache 2.0, el modèll el derva di prospettiv immediad per i applicazion agentigh locai, el tratament de dacc sensibil senza trasferiment vers el cloud, e l'esperimentazion in mobilità reduta. L'è anca on segnal fort per l'ecosistema open-source: la frontiera de la ricerca la se giuga pu domà in di data center."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://the-decoder.com/google-deepminds-gemma-4-12b-squeezes-multimodal-ai-onto-a-laptop-with-just-16-gb-of-ram/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
