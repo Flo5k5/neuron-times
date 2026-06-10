@@ -1,0 +1,883 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-06-10",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a dévoilé mardi <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 et Claude Mythos 5</a>, sa nouvelle génération de modèles d'intelligence artificielle. Fable 5, premier modèle Mythos-class rendu accessible au public, est décrit par la société comme « notre prochaine génération d'intelligence pour les problèmes les plus difficiles de knowledge work et de codage ». Mythos 5, plus puissant encore, reste verrouillé en interne en raison de ses capacités avancées en cybersécurité offensive et en conception de candidats médicaments.",
+        "en": "Anthropic unveiled Tuesday <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 and Claude Mythos 5</a>, its new generation of artificial intelligence models. Fable 5, the first Mythos-class model made accessible to the public, is described by the company as 'our next generation of intelligence for the hardest problems of knowledge work and coding.' Mythos 5, even more powerful, remains locked internally due to its advanced capabilities in offensive cybersecurity and drug candidate design.",
+        "de": "Anthropic hat am Dienstag <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 und Claude Mythos 5</a> vorgestellt, seine neue Generation von KI-Modellen. Fable 5, das erste öffentlich zugängliche Mythos-Class-Modell, wird vom Unternehmen als «unsere nächste Intelligenzgeneration für die schwierigsten Probleme in Wissensarbeit und Programmierung» beschrieben. Mythos 5, noch leistungsfähiger, bleibt aufgrund seiner fortgeschrittenen Fähigkeiten in der offensiven Cybersicherheit und im Medikamentendesign intern gesperrt.",
+        "it": "Anthropic ha svelato martedì <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 e Claude Mythos 5</a>, la sua nuova generazione di modelli di intelligenza artificiale. Fable 5, primo modello Mythos-class reso accessibile al pubblico, è descritto dall'azienda come «la nostra prossima generazione di intelligenza per i problemi più difficili di knowledge work e codifica». Mythos 5, ancora più potente, resta bloccato internamente a causa delle sue capacità avanzate in cybersicurezza offensiva e progettazione di candidati farmaci.",
+        "lmo": "Anthropic l'ha presenta martedì <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 e Claude Mythos 5</a>, la soa noeuva generazion de modell d'intelligenza artificial. Fable 5, el prim modell Mythos-class renduu accessibil al publegh, l'è descritt de la società come « la nostra prossima generazione d'intelligenza per i problemi più difficili de knowledge work e de codazzion ». Mythos 5, anmò pussee potent, el resta saràa denter in deperlu per via di sò capacità avanzade in cybersicurezza offensiva e in progettazion de candidad medegh."
+      },
+      {
+        "fr": "Selon les premières évaluations, Fable 5 aurait achevé en une seule journée une migration de code pour Stripe qui aurait nécessité deux mois à une équipe humaine. Le modèle est disponible dès aujourd'hui sur la plateforme Claude, via l'API et dans <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code version 2.1.170</a>. Son prix est deux fois supérieur à celui de l'Opus 4.8, le précédent fleuron de la gamme.",
+        "en": "According to initial evaluations, Fable 5 completed in a single day a code migration for Stripe that would have required two months for a human team. The model is available today on the Claude platform, via the API, and in <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code version 2.1.170</a>. Its price is twice that of Opus 4.8, the previous flagship of the lineup.",
+        "de": "Ersten Auswertungen zufolge habe Fable 5 an einem einzigen Tag eine Code-Migration für Stripe abgeschlossen, für die ein menschliches Team zwei Monate gebraucht hätte. Das Modell ist ab sofort auf der Claude-Plattform, über die API und in <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code Version 2.1.170</a> verfügbar. Sein Preis ist doppelt so hoch wie der des Opus 4.8, des bisherigen Flaggschiffs der Produktreihe.",
+        "it": "Secondo le prime valutazioni, Fable 5 avrebbe completato in un solo giorno una migrazione di codice per Stripe che avrebbe richiesto due mesi a un team umano. Il modello è disponibile da oggi sulla piattaforma Claude, tramite l'API e in <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code versione 2.1.170</a>. Il suo prezzo è doppio rispetto a quello dell'Opus 4.8, il precedente fiore all'occhiello della gamma.",
+        "lmo": "Segond i prim valutazion, Fable 5 l'avaria compii in d'on dì soll ona migrazion de codex per Stripe che l'avaria besognà duu mes a ona squadra umana. El modell l'è disponibel del dì d'incoeu sora la piattaforma Claude, via l'API e in <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code version 2.1.170</a>. El sò prezzi l'è duu volt superior a quell de l'Opus 4.8, el precedent fioron de la gamma."
+      },
+      {
+        "fr": "La sortie s'accompagne de garde-fous renforcés : Fable 5 bloque les réponses dans les domaines à haut risque comme la cybersécurité et la biologie, tandis que Mythos 5 reste exclusivement réservé aux équipes de recherche internes d'Anthropic. Le New York Times rapporte que cette stratégie reflète la volonté d'Anthropic de <a href='https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html'>proposer une version « sécurisée » de sa technologie Mythos</a> au grand public.",
+        "en": "The release comes with reinforced guardrails: Fable 5 blocks responses in high-risk domains such as cybersecurity and biology, while Mythos 5 remains exclusively reserved for Anthropic's internal research teams. The New York Times reports that this strategy reflects Anthropic's desire to <a href='https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html'>offer a 'safe' version of its Mythos technology</a> to the general public.",
+        "de": "Die Veröffentlichung geht mit verstärkten Schutzmassnahmen einher: Fable 5 blockiert Antworten in Hochrisikobereichen wie Cybersicherheit und Biologie, während Mythos 5 ausschliesslich den internen Forschungsteams von Anthropic vorbehalten bleibt. Die New York Times berichtet, dass diese Strategie den Willen von Anthropic widerspiegele, <a href='https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html'>eine «sichere» Version seiner Mythos-Technologie</a> der breiten Öffentlichkeit anzubieten.",
+        "it": "L'uscita è accompagnata da guardrail rafforzati: Fable 5 blocca le risposte nei settori ad alto rischio come la cybersicurezza e la biologia, mentre Mythos 5 resta esclusivamente riservato ai team di ricerca interni di Anthropic. Il New York Times riporta che questa strategia riflette la volontà di Anthropic di <a href='https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html'>proporre una versione «sicura» della sua tecnologia Mythos</a> al grande pubblico.",
+        "lmo": "La sortida l'è compagnada de guard-foeu rinforzaa: Fable 5 el blocca i rispost in di domini a volt ris'c 'me la cybersicurezza e la biologia, intant che Mythos 5 el resta esclusivament reservaa ai squad de ricerca intern de Anthropic. El New York Times el rapporta che questa strategia la riflett la volontà de Anthropic de <a href='https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html'>proponn ona version « segura » de la soa tecnologia Mythos</a> al gran publegh."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/news?subjects=announcements",
+      "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
+      "https://www.nytimes.com/2026/06/09/technology/anthropic-ai-claude-fable-mythos.html"
+    ],
+    "kicker": {
+      "fr": "Anthropic",
+      "en": "Anthropic",
+      "de": "Anthropic",
+      "it": "Anthropic",
+      "lmo": "Anthropic"
+    },
+    "headline": {
+      "fr": "Claude Fable 5 et Mythos 5 : Anthropic dévoile sa nouvelle génération de modèles",
+      "en": "Claude Fable 5 and Mythos 5: Anthropic unveils its new generation of models",
+      "de": "Claude Fable 5 und Mythos 5: Anthropic enthüllt seine neue Modellgeneration",
+      "it": "Claude Fable 5 e Mythos 5: Anthropic svela la sua nuova generazione di modelli",
+      "lmo": "Claude Fable 5 e Mythos 5: Anthropic el presenta la soa noeuva generazion de modell"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire américain lance deux modèles Mythos-class, dont un accessible au public, avec des performances inédites en codage et en recherche scientifique.",
+      "en": "The American lab launches two Mythos-class models, including one accessible to the public, with unprecedented performance in coding and scientific research.",
+      "de": "Das US-amerikanische Labor lanciert zwei Mythos-Class-Modelle, darunter eines für die Öffentlichkeit, mit beispiellosen Leistungen beim Programmieren und in der wissenschaftlichen Forschung.",
+      "it": "Il laboratorio americano lancia due modelli Mythos-class, di cui uno accessibile al pubblico, con prestazioni inedite in codifica e ricerca scientifica.",
+      "lmo": "El laboratori american el lanza duu modell Mythos-class, vun accessibil al publegh, con di performance mai viste in codazzion e in ricerca scentifica."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Gemini 3.5 Live Translate traduit en temps réel 70+ langues",
+        "en": "Gemini 3.5 Live Translate translates 70+ languages in real time",
+        "de": "Gemini 3.5 Live Translate übersetzt in Echtzeit über 70 Sprachen",
+        "it": "Gemini 3.5 Live Translate traduce in tempo reale 70+ lingue",
+        "lmo": "Gemini 3.5 Live Translate el tradus in temp real 70+ lengov"
+      },
+      "body": {
+        "fr": "Google a lancé <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, un modèle audio de traduction vocale en continu couvrant plus de 70 langues. Disponible dans Google Meet, Google Translate et via la Gemini Live API, le système génère l'audio traduit à quelques secondes du locuteur original en préservant le ton, le rythme et la hauteur de la voix.",
+        "en": "Google has launched <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, an audio model for continuous speech translation covering more than 70 languages. Available in Google Meet, Google Translate, and via the Gemini Live API, the system generates translated audio within seconds of the original speaker while preserving tone, rhythm, and pitch of the voice.",
+        "de": "Google hat <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a> lanciert, ein Audio-Modell für kontinuierliche Sprachübersetzung, das über 70 Sprachen abdeckt. Verfügbar in Google Meet, Google Translate und über die Gemini Live API, generiert das System die übersetzte Audioausgabe nur Sekunden nach dem ursprünglichen Sprecher, wobei Tonfall, Rhythmus und Stimmlage erhalten bleiben.",
+        "it": "Google ha lanciato <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, un modello audio di traduzione vocale in continuo che copre oltre 70 lingue. Disponibile in Google Meet, Google Translate e tramite la Gemini Live API, il sistema genera l'audio tradotto a pochi secondi dal parlante originale preservando tono, ritmo e altezza della voce.",
+        "lmo": "Google l'ha lanzaa <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, on modell audio de traduzion vocal in continov che 'l quatta pussee de 70 lengov. Disponibel in Google Meet, Google Translate e via la Gemini Live API, el sistema el genera l'audio traducuu a quaj second del locutor original, preservand el ton, el ritm e l'altura de la vos."
+      },
+      "tag": {
+        "fr": "Google",
+        "en": "Google",
+        "de": "Google",
+        "it": "Google",
+        "lmo": "Google"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 juin 2026",
+        "en": "From the Wires — 10 June 2026",
+        "de": "From the Wires — 10. Juni 2026",
+        "it": "From the Wires — 10 giugno 2026",
+        "lmo": "From the Wires — 10 de giugn 2026"
+      },
+      "urls": [
+        "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI lance o3-pro et réduit les prix de la gamme o3",
+        "en": "OpenAI launches o3-pro and cuts prices across the o3 lineup",
+        "de": "OpenAI lanciert o3-pro und senkt die Preise der o3-Reihe",
+        "it": "OpenAI lancia o3-pro e riduce i prezzi della gamma o3",
+        "lmo": "OpenAI el lanza o3-pro e 'l ridus i prezzi de la gamma o3"
+      },
+      "body": {
+        "fr": "OpenAI a mis en ligne <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, une version du modèle de raisonnement o3 utilisant davantage de calcul pour répondre aux problèmes les plus difficiles avec une meilleure cohérence. Parallèlement, les prix de l'ensemble de la gamme o3 ont été réduits pour toutes les requêtes API, y compris le traitement par lots et flex.",
+        "en": "OpenAI has released <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, a version of the o3 reasoning model that uses more compute to answer the hardest problems with greater consistency. At the same time, prices across the entire o3 lineup have been reduced for all API requests, including batch and flex processing.",
+        "de": "OpenAI hat <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a> veröffentlicht, eine Version des Reasoning-Modells o3, die mehr Rechenleistung nutzt, um die schwierigsten Probleme mit grösserer Konsistenz zu beantworten. Gleichzeitig wurden die Preise der gesamten o3-Reihe für alle API-Anfragen gesenkt, einschliesslich Batch- und Flex-Verarbeitung.",
+        "it": "OpenAI ha messo online <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, una versione del modello di ragionamento o3 che utilizza più calcolo per rispondere ai problemi più difficili con maggiore coerenza. Parallelamente, i prezzi dell'intera gamma o3 sono stati ridotti per tutte le richieste API, inclusi il trattamento batch e flex.",
+        "lmo": "OpenAI l'ha mettuu in linia <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, ona version del modell de resonament o3 che la doperà pussee de calcol per respond ai problema pussee difficij con ona miglior coerenza. In del stess temp, i prezzi de tutta la gamma o3 hinn staa ridott per tutt i richiest API, compres el trattament per lott e flex."
+      },
+      "tag": {
+        "fr": "OpenAI",
+        "en": "OpenAI",
+        "de": "OpenAI",
+        "it": "OpenAI",
+        "lmo": "OpenAI"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 juin 2026",
+        "en": "From the Wires — 10 June 2026",
+        "de": "From the Wires — 10. Juni 2026",
+        "it": "From the Wires — 10 giugno 2026",
+        "lmo": "From the Wires — 10 de giugn 2026"
+      },
+      "urls": [
+        "https://platform.openai.com/api/docs/models/o3-pro"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cohere lance North Mini Code, son premier modèle pour développeurs",
+        "en": "Cohere launches North Mini Code, its first model for developers",
+        "de": "Cohere lanciert North Mini Code, sein erstes Modell für Entwickler",
+        "it": "Cohere lancia North Mini Code, il suo primo modello per sviluppatori",
+        "lmo": "Cohere el lanza North Mini Code, el sò prim modell per sviluppador"
+      },
+      "body": {
+        "fr": "Cohere a dévoilé <a href='https://cohere.com/blog/north-mini-code'>North Mini Code</a>, son premier modèle spécifiquement conçu pour les développeurs, disponible sur Hugging Face. Le laboratoire a également présenté Command A+, une version renforcée de son modèle agentique souverain, et Co/plot, un outil de visualisation pour la recherche scientifique.",
+        "en": "Cohere has unveiled <a href='https://cohere.com/blog/north-mini-code'>North Mini Code</a>, its first model specifically designed for developers, available on Hugging Face. The lab also introduced Command A+, an enhanced version of its sovereign agentic model, and Co/plot, a visualization tool for scientific research.",
+        "de": "Cohere hat <a href='https://cohere.com/blog/north-mini-code'>North Mini Code</a> vorgestellt, sein erstes speziell für Entwickler konzipiertes Modell, verfügbar auf Hugging Face. Das Labor präsentierte zudem Command A+, eine verstärkte Version seines souveränen agentischen Modells, und Co/plot, ein Visualisierungswerkzeug für die wissenschaftliche Forschung.",
+        "it": "Cohere ha svelato <a href='https://cohere.com/blog/north-mini-code'>North Mini Code</a>, il suo primo modello specificamente progettato per sviluppatori, disponibile su Hugging Face. Il laboratorio ha inoltre presentato Command A+, una versione potenziata del suo modello agentico sovrano, e Co/plot, uno strumento di visualizzazione per la ricerca scientifica.",
+        "lmo": "Cohere l'ha presenta <a href='https://cohere.com/blog/north-mini-code'>North Mini Code</a>, el sò prim modell specificament progettaa per i sviluppador, disponibel sora Hugging Face. El laboratori l'ha anca presenta Command A+, ona version rinforzada del sò modell agentich sovran, e Co/plot, on strument de visualizzazion per la ricerca scentifica."
+      },
+      "tag": {
+        "fr": "Cohere",
+        "en": "Cohere",
+        "de": "Cohere",
+        "it": "Cohere",
+        "lmo": "Cohere"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 juin 2026",
+        "en": "From the Wires — 10 June 2026",
+        "de": "From the Wires — 10. Juni 2026",
+        "it": "From the Wires — 10 giugno 2026",
+        "lmo": "From the Wires — 10 de giugn 2026"
+      },
+      "urls": [
+        "https://cohere.com/blog/north-mini-code"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Gopuff lance un assistant d'achat IA propulsé par Grok",
+        "en": "Gopuff launches an AI shopping assistant powered by Grok",
+        "de": "Gopuff lanciert einen KI-Einkaufsassistenten, angetrieben von Grok",
+        "it": "Gopuff lancia un assistente acquisti IA alimentato da Grok",
+        "lmo": "Gopuff el lanza on assistent d'acquist IA propulsaa de Grok"
+      },
+      "body": {
+        "fr": "Gopuff et xAI ont lancé <a href='https://x.ai/news/grok-gopuff'>Go</a>, un assistant d'achat intégré à l'application Gopuff, propulsé par les modèles texte, audio et image de Grok. L'assistant permet aux utilisateurs de commander des produits par commande vocale et de suivre leurs livraisons en temps réel.",
+        "en": "Gopuff and xAI have launched <a href='https://x.ai/news/grok-gopuff'>Go</a>, a shopping assistant integrated into the Gopuff app, powered by Grok's text, audio, and image models. The assistant allows users to order products by voice command and track their deliveries in real time.",
+        "de": "Gopuff und xAI haben <a href='https://x.ai/news/grok-gopuff'>Go</a> lanciert, einen in die Gopuff-App integrierten Einkaufsassistenten, der von den Text-, Audio- und Bildmodellen von Grok angetrieben wird. Der Assistent ermöglicht es den Nutzern, Produkte per Sprachbefehl zu bestellen und ihre Lieferungen in Echtzeit zu verfolgen.",
+        "it": "Gopuff e xAI hanno lanciato <a href='https://x.ai/news/grok-gopuff'>Go</a>, un assistente acquisti integrato nell'app Gopuff, alimentato dai modelli testo, audio e immagine di Grok. L'assistente consente agli utenti di ordinare prodotti tramite comando vocale e di seguire le consegne in tempo reale.",
+        "lmo": "Gopuff e xAI hann lanzaa <a href='https://x.ai/news/grok-gopuff'>Go</a>, on assistent d'acquist integraa in l'applicazion Gopuff, propulsaa di modell test, audio e immagin de Grok. L'assistent el permet ai utent de comandà di prodott per comand vocal e de seguità i sò consegn in temp real."
+      },
+      "tag": {
+        "fr": "xAI",
+        "en": "xAI",
+        "de": "xAI",
+        "it": "xAI",
+        "lmo": "xAI"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 juin 2026",
+        "en": "From the Wires — 10 June 2026",
+        "de": "From the Wires — 10. Juni 2026",
+        "it": "From the Wires — 10 giugno 2026",
+        "lmo": "From the Wires — 10 de giugn 2026"
+      },
+      "urls": [
+        "https://x.ai/news/grok-gopuff"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "A la Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Fable 5 et Mythos 5 : la nouvelle frontière d'Anthropic",
+                "en": "Claude Fable 5 and Mythos 5: Anthropic's new frontier",
+                "de": "Claude Fable 5 und Mythos 5: Die neue Grenze von Anthropic",
+                "it": "Claude Fable 5 e Mythos 5: la nuova frontiera di Anthropic",
+                "lmo": "Claude Fable 5 e Mythos 5: la noeuva frontiera d'Anthropic"
+              },
+              "body": {
+                "fr": "Anthropic a présenté <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 et Claude Mythos 5</a>, deux modèles de classe Mythos. Fable 5 est accessible au public dès aujourd'hui sur Claude, l'API et Claude Code. Mythos 5, plus puissant, reste interne. Les deux modèles surpassent significativement l'Opus 4.8 en codage, recherche et tâches agentiques.",
+                "en": "Anthropic has introduced <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 and Claude Mythos 5</a>, two Mythos-class models. Fable 5 is accessible to the public today on Claude, the API, and Claude Code. Mythos 5, more powerful, remains internal. Both models significantly surpass Opus 4.8 in coding, research, and agentic tasks.",
+                "de": "Anthropic hat <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 und Claude Mythos 5</a> vorgestellt, zwei Modelle der Mythos-Klasse. Fable 5 ist ab heute öffentlich zugänglich über Claude, die API und Claude Code. Mythos 5, das leistungsfähigere, bleibt intern. Beide Modelle übertreffen Opus 4.8 deutlich beim Programmieren, in der Forschung und bei agentischen Aufgaben.",
+                "it": "Anthropic ha presentato <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 e Claude Mythos 5</a>, due modelli di classe Mythos. Fable 5 è accessibile al pubblico da oggi su Claude, l'API e Claude Code. Mythos 5, più potente, resta interno. Entrambi i modelli superano significativamente l'Opus 4.8 in codifica, ricerca e compiti agentici.",
+                "lmo": "Anthropic l'ha presenta <a href='https://www.anthropic.com/news?subjects=announcements'>Claude Fable 5 e Claude Mythos 5</a>, duu modell de class Mythos. Fable 5 l'è accessibil al publegh del dì d'incoeu sora Claude, l'API e Claude Code. Mythos 5, pussee potent, el resta intern. I duu modell superen significativament l'Opus 4.8 in codazzion, ricerca e compit agentich."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/news?subjects=announcements"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini 3.5 Live Translate : la traduction vocale en temps réel passe à l'échelle",
+                "en": "Gemini 3.5 Live Translate: real-time speech translation goes mainstream",
+                "de": "Gemini 3.5 Live Translate: Echtzeit-Sprachübersetzung im grossen Massstab",
+                "it": "Gemini 3.5 Live Translate: la traduzione vocale in tempo reale passa alla scala",
+                "lmo": "Gemini 3.5 Live Translate: la traduzion vocal in temp real la passa a scala"
+              },
+              "body": {
+                "fr": "DeepMind a dévoilé <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, un modèle de traduction vocale en continu couvrant plus de 70 langues. Le système est intégré à Google Meet, Google Translate et la Gemini Live API, avec une latence de quelques secondes seulement.",
+                "en": "DeepMind has unveiled <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, a continuous speech translation model covering more than 70 languages. The system is integrated into Google Meet, Google Translate, and the Gemini Live API, with latency of just a few seconds.",
+                "de": "DeepMind hat <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a> vorgestellt, ein Modell für kontinuierliche Sprachübersetzung, das über 70 Sprachen abdeckt. Das System ist in Google Meet, Google Translate und die Gemini Live API integriert, mit einer Latenz von nur wenigen Sekunden.",
+                "it": "DeepMind ha svelato <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, un modello di traduzione vocale in continuo che copre oltre 70 lingue. Il sistema è integrato in Google Meet, Google Translate e la Gemini Live API, con una latenza di pochi secondi.",
+                "lmo": "DeepMind l'ha presenta <a href='https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/'>Gemini 3.5 Live Translate</a>, on modell de traduzion vocal in continov che 'l quatta pussee de 70 lengov. El sistema l'è integraa in Google Meet, Google Translate e la Gemini Live API, con ona latenza de quaj second domà."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI lance o3-pro et casse les prix sur sa gamme raisonnement",
+                "en": "OpenAI launches o3-pro and slashes prices on its reasoning lineup",
+                "de": "OpenAI lanciert o3-pro und senkt die Preise seiner Reasoning-Reihe",
+                "it": "OpenAI lancia o3-pro e taglia i prezzi sulla sua gamma ragionamento",
+                "lmo": "OpenAI el lanza o3-pro e 'l romp i prezzi sora la soa gamma resonament"
+              },
+              "body": {
+                "fr": "OpenAI a publié <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, une version plus intensive en calcul de son modèle de raisonnement o3, destinée aux problèmes les plus complexes. La société a simultanément réduit les tarifs de l'ensemble de la gamme o3, y compris pour les traitements par lots.",
+                "en": "OpenAI has released <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, a more compute-intensive version of its o3 reasoning model, aimed at the most complex problems. The company has simultaneously reduced pricing across the entire o3 lineup, including for batch processing.",
+                "de": "OpenAI hat <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a> veröffentlicht, eine rechenintensivere Version seines Reasoning-Modells o3, die für die komplexesten Probleme gedacht ist. Das Unternehmen hat gleichzeitig die Tarife der gesamten o3-Reihe gesenkt, einschliesslich der Batch-Verarbeitung.",
+                "it": "OpenAI ha pubblicato <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, una versione più intensiva in calcolo del suo modello di ragionamento o3, destinata ai problemi più complessi. L'azienda ha contemporaneamente ridotto le tariffe dell'intera gamma o3, inclusi i trattamenti batch.",
+                "lmo": "OpenAI l'ha publicaa <a href='https://platform.openai.com/api/docs/models/o3-pro'>o3-pro</a>, ona version pussee intensiva in calcol del sò modell de resonament o3, destinada ai problema pussee compless. La società l'ha simultaneament ridott i tariff de tutta la gamma o3, compres per i trattament per lott."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://platform.openai.com/api/docs/models/o3-pro"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Managed Agents : planification et coffres-forts de variables",
+                "en": "Claude Managed Agents: scheduling and variable vaults",
+                "de": "Claude Managed Agents: Planung und Variablen-Tresore",
+                "it": "Claude Managed Agents: pianificazione e caveau di variabili",
+                "lmo": "Claude Managed Agents: pianificazion e coffre-fort de variabil"
+              },
+              "body": {
+                "fr": "Anthropic a enrichi <a href='https://claude.com/blog/whats-new-in-claude-managed-agents'>Claude Managed Agents</a> de deux fonctionnalités majeures : l'exécution programmée des agents et le stockage sécurisé de variables d'environnement dans des coffres-forts (vaults). Ces ajouts visent à industrialiser le déploiement d'agents autonomes en entreprise.",
+                "en": "Anthropic has enhanced <a href='https://claude.com/blog/whats-new-in-claude-managed-agents'>Claude Managed Agents</a> with two major features: scheduled agent execution and secure storage of environment variables in vaults. These additions aim to industrialize the deployment of autonomous agents in the enterprise.",
+                "de": "Anthropic hat <a href='https://claude.com/blog/whats-new-in-claude-managed-agents'>Claude Managed Agents</a> um zwei wichtige Funktionen erweitert: die zeitgesteuerte Ausführung von Agenten und die sichere Speicherung von Umgebungsvariablen in Tresoren (Vaults). Diese Ergänzungen zielen darauf ab, die Bereitstellung autonomer Agenten in Unternehmen zu industrialisieren.",
+                "it": "Anthropic ha arricchito <a href='https://claude.com/blog/whats-new-in-claude-managed-agents'>Claude Managed Agents</a> con due funzionalità principali: l'esecuzione programmata degli agenti e l'archiviazione sicura di variabili d'ambiente in caveau (vaults). Queste aggiunte mirano a industrializzare il dispiegamento di agenti autonomi in azienda.",
+                "lmo": "Anthropic l'ha arichii <a href='https://claude.com/blog/whats-new-in-claude-managed-agents'>Claude Managed Agents</a> de duu funzionalità maggior: l'esecuzion programmada di agent e l'almagazzinament segur de variabil d'ambient in di coffre-fort (vaults). Quest aggiunt miren a industrializzà el despiegament d'agente autonom in impresa."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://claude.com/blog/whats-new-in-claude-managed-agents"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Das Technikheft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "CLI & Harnesses",
+            "en": "CLI & Harnesses",
+            "de": "CLI & Harnesses",
+            "it": "CLI & Harnesses",
+            "lmo": "CLI & Harnesses"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code 2.1.170 intègre Fable 5 et corrige la sauvegarde des sessions",
+                "en": "Claude Code 2.1.170 integrates Fable 5 and fixes session saving",
+                "de": "Claude Code 2.1.170 integriert Fable 5 und behebt Fehler beim Speichern von Sitzungen",
+                "it": "Claude Code 2.1.170 integra Fable 5 e corregge il salvataggio delle sessioni",
+                "lmo": "Claude Code 2.1.170 l'integra Fable 5 e 'l corregg la salvaguardia di session"
+              },
+              "body": {
+                "fr": "La version 2.1.170 de <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code</a> donne accès à Claude Fable 5, le nouveau modèle Mythos-class d'Anthropic. Cette mise à jour corrige également un bug où les sessions lancées depuis le terminal intégré de VS Code n'étaient pas sauvegardées, empêchant la reprise avec --resume.",
+                "en": "Version 2.1.170 of <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code</a> provides access to Claude Fable 5, Anthropic's new Mythos-class model. This update also fixes a bug where sessions launched from VS Code's integrated terminal were not saved, preventing resumption with --resume.",
+                "de": "Version 2.1.170 von <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code</a> gewährt Zugriff auf Claude Fable 5, das neue Mythos-Class-Modell von Anthropic. Dieses Update behebt zudem einen Fehler, bei dem Sitzungen, die über das integrierte Terminal von VS Code gestartet wurden, nicht gespeichert wurden, was die Wiederaufnahme mit --resume verhinderte.",
+                "it": "La versione 2.1.170 di <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code</a> dà accesso a Claude Fable 5, il nuovo modello Mythos-class di Anthropic. Questo aggiornamento corregge anche un bug per cui le sessioni avviate dal terminale integrato di VS Code non venivano salvate, impedendo la ripresa con --resume.",
+                "lmo": "La version 2.1.170 de <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.170'>Claude Code</a> la dà access a Claude Fable 5, el noeuv modell Mythos-class d'Anthropic. Questa misa a punt la corregg anca on bug indove i session lanciad del terminal integraa de VS Code eren minga salvad, impedend la ripresa con --resume."
+              },
+              "kicker": {
+                "fr": "Claude Code",
+                "en": "Claude Code",
+                "de": "Claude Code",
+                "it": "Claude Code",
+                "lmo": "Claude Code"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.170"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex 0.139.0 : recherche web directe et meilleure compatibilité MCP",
+                "en": "Codex 0.139.0: direct web search and better MCP compatibility",
+                "de": "Codex 0.139.0: Direkte Websuche und bessere MCP-Kompatibilität",
+                "it": "Codex 0.139.0: ricerca web diretta e migliore compatibilità MCP",
+                "lmo": "Codex 0.139.0: ricerca web diretta e miglior compatibilità MCP"
+              },
+              "body": {
+                "fr": "La version 0.139.0 de <a href='https://github.com/openai/codex/releases/tag/rust-v0.139.0'>Codex</a> permet désormais aux appels d'outils JavaScript d'effectuer des recherches web autonomes. Les schémas d'entrée des outils et connecteurs préservent désormais les structures oneOf et allOf, améliorant la compatibilité avec les outils MCP riches.",
+                "en": "Version 0.139.0 of <a href='https://github.com/openai/codex/releases/tag/rust-v0.139.0'>Codex</a> now allows JavaScript tool calls to perform autonomous web searches. Input schemas for tools and connectors now preserve oneOf and allOf structures, improving compatibility with rich MCP tools.",
+                "de": "Version 0.139.0 von <a href='https://github.com/openai/codex/releases/tag/rust-v0.139.0'>Codex</a> ermöglicht es JavaScript-Tool-Aufrufen nun, eigenständige Websuchen durchzuführen. Die Eingabeschemata von Tools und Connectoren bewahren jetzt oneOf- und allOf-Strukturen, was die Kompatibilität mit umfangreichen MCP-Tools verbessert.",
+                "it": "La versione 0.139.0 di <a href='https://github.com/openai/codex/releases/tag/rust-v0.139.0'>Codex</a> consente ora alle chiamate di strumenti JavaScript di effettuare ricerche web autonome. Gli schemi di input degli strumenti e connettori preservano ora le strutture oneOf e allOf, migliorando la compatibilità con gli strumenti MCP ricchi.",
+                "lmo": "La version 0.139.0 de <a href='https://github.com/openai/codex/releases/tag/rust-v0.139.0'>Codex</a> la permett adess ai ciamad d'istrument JavaScript de fà di ricerch web autonom. I schema d'entrada di istrument e connettor preserven adess i struttur oneOf e allOf, migliorand la compatibilità con i istrument MCP ricch."
+              },
+              "kicker": {
+                "fr": "OpenAI Codex",
+                "en": "OpenAI Codex",
+                "de": "OpenAI Codex",
+                "it": "OpenAI Codex",
+                "lmo": "OpenAI Codex"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.139.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini CLI 0.46.0 : transition vers Flash GA et résilience PTY",
+                "en": "Gemini CLI 0.46.0: transition to Flash GA and PTY resilience",
+                "de": "Gemini CLI 0.46.0: Übergang zu Flash GA und PTY-Resilienz",
+                "it": "Gemini CLI 0.46.0: transizione verso Flash GA e resilienza PTY",
+                "lmo": "Gemini CLI 0.46.0: transizion vers Flash GA e resilienza PTY"
+              },
+              "body": {
+                "fr": "La version 0.46.0 de <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0'>Gemini CLI</a> durcit la gestion des redimensionnements PTY contre les crashes natifs et ajoute un correctif pour les boucles de spam lorsque l'éditeur préféré est invalide. Le mode automatique bascule désormais vers Gemini 3.5 Flash GA.",
+                "en": "Version 0.46.0 of <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0'>Gemini CLI</a> hardens PTY resize handling against native crashes and adds a fix for spam loops when the preferred editor is invalid. Auto mode now switches to Gemini 3.5 Flash GA.",
+                "de": "Version 0.46.0 von <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0'>Gemini CLI</a> verschärft die Handhabung von PTY-Grössenanpassungen gegen native Abstürze und fügt einen Fix für Spam-Schleifen hinzu, wenn der bevorzugte Editor ungültig ist. Der automatische Modus wechselt nun zu Gemini 3.5 Flash GA.",
+                "it": "La versione 0.46.0 di <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0'>Gemini CLI</a> irrigidisce la gestione dei ridimensionamenti PTY contro i crash nativi e aggiunge una correzione per i loop di spam quando l'editor preferito non è valido. La modalità automatica passa ora a Gemini 3.5 Flash GA.",
+                "lmo": "La version 0.46.0 de <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0'>Gemini CLI</a> la durezza la gestion di redimensionament PTY contra i crash nativ e la gionta on correttiv per i loop de spam quand che l'editor preferii l'è invalid. El mod automatic el passa adess vers Gemini 3.5 Flash GA."
+              },
+              "kicker": {
+                "fr": "Gemini CLI",
+                "en": "Gemini CLI",
+                "de": "Gemini CLI",
+                "it": "Gemini CLI",
+                "lmo": "Gemini CLI"
+              },
+              "urls": [
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cline CLI 3.0.23 : agents configurés comme sous-outils et support Fable 5",
+                "en": "Cline CLI 3.0.23: configured agents as sub-tools and Fable 5 support",
+                "de": "Cline CLI 3.0.23: Konfigurierte Agenten als Sub-Tools und Fable-5-Unterstützung",
+                "it": "Cline CLI 3.0.23: agenti configurati come sotto-strumenti e supporto Fable 5",
+                "lmo": "Cline CLI 3.0.23: agent configuraa 'me soto-istrument e support Fable 5"
+              },
+              "body": {
+                "fr": "La version 3.0.23 de <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.23'>Cline</a> introduit la possibilité d'utiliser des agents configurés comme sous-outils, centralise la gestion OAuth dans le SDK et corrige une erreur causée par le raisonnement désactivé sur Fable 5.",
+                "en": "Version 3.0.23 of <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.23'>Cline</a> introduces the ability to use configured agents as sub-tools, centralizes OAuth management in the SDK, and fixes an error caused by reasoning being disabled on Fable 5.",
+                "de": "Version 3.0.23 von <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.23'>Cline</a> führt die Möglichkeit ein, konfigurierte Agenten als Sub-Tools zu verwenden, zentralisiert die OAuth-Verwaltung im SDK und behebt einen Fehler, der durch deaktiviertes Reasoning auf Fable 5 verursacht wurde.",
+                "it": "La versione 3.0.23 di <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.23'>Cline</a> introduce la possibilità di utilizzare agenti configurati come sotto-strumenti, centralizza la gestione OAuth nell'SDK e corregge un errore causato dal ragionamento disattivato su Fable 5.",
+                "lmo": "La version 3.0.23 de <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.23'>Cline</a> la introdux la possibilità de doperà di agent configuraa 'me soto-istrument, la centralizza la gestion OAuth in del SDK e la corregg on error causa del resonament disattivaa sora Fable 5."
+              },
+              "kicker": {
+                "fr": "Cline",
+                "en": "Cline",
+                "de": "Cline",
+                "it": "Cline",
+                "lmo": "Cline"
+              },
+              "urls": [
+                "https://github.com/cline/cline/releases/tag/cli-v3.0.23"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs & Inférence",
+            "en": "Engines & Inference",
+            "de": "Engines & Inferenz",
+            "it": "Motori & Inferenza",
+            "lmo": "Motor & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9585 corrige l'inférence Granite Speech",
+                "en": "llama.cpp b9585 fixes Granite Speech inference",
+                "de": "llama.cpp b9585 korrigiert Granite-Speech-Inferenz",
+                "it": "llama.cpp b9585 corregge l'inferenza Granite Speech",
+                "lmo": "llama.cpp b9585 el corregg l'inferenza Granite Speech"
+              },
+              "body": {
+                "fr": "La build b9585 de <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9585'>llama.cpp</a> corrige l'inférence du modèle Granite Speech en appliquant l'échelle d'embedding lorsque le deepstack n'est pas utilisé. La version KleidiAI reste désactivée en attendant la résolution d'un problème de compilation.",
+                "en": "Build b9585 of <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9585'>llama.cpp</a> fixes Granite Speech model inference by applying the embedding scale when deepstack is not used. The KleidiAI version remains disabled pending resolution of a compilation issue.",
+                "de": "Build b9585 von <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9585'>llama.cpp</a> korrigiert die Inferenz des Granite-Speech-Modells, indem die Embedding-Skalierung angewendet wird, wenn der Deepstack nicht verwendet wird. Die KleidiAI-Version bleibt deaktiviert, bis ein Kompilierungsproblem behoben ist.",
+                "it": "La build b9585 di <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9585'>llama.cpp</a> corregge l'inferenza del modello Granite Speech applicando la scala di embedding quando il deepstack non viene utilizzato. La versione KleidiAI resta disattivata in attesa della risoluzione di un problema di compilazione.",
+                "lmo": "La build b9585 de <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9585'>llama.cpp</a> la corregg l'inferenza del modell Granite Speech, applicand la scala d'embedding quand che 'l deepstack l'è minga doperàa. La version KleidiAI la resta disattivada in attesa de la risoluzion d'on problema de compilazion."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9585"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "oMLX 0.4.4.dev1 améliore la gestion mémoire et le cache SSD",
+                "en": "oMLX 0.4.4.dev1 improves memory management and SSD cache",
+                "de": "oMLX 0.4.4.dev1 verbessert Speicherverwaltung und SSD-Cache",
+                "it": "oMLX 0.4.4.dev1 migliora la gestione memoria e la cache SSD",
+                "lmo": "oMLX 0.4.4.dev1 el migliora la gestion memoria e 'l cache SSD"
+              },
+              "body": {
+                "fr": "La version de développement 0.4.4.dev1 de <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>oMLX</a> améliore la gestion d'urgence de la mémoire pour les workloads prioritaires, la fiabilité du cache SSD paginé, et ajoute le support natif des modèles d'embedding et de reranker BGE/XLM-R/BERT. Le support audio TTS est également enrichi.",
+                "en": "Development version 0.4.4.dev1 of <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>oMLX</a> improves emergency memory management for priority workloads, the reliability of the paged SSD cache, and adds native support for BGE/XLM-R/BERT embedding and reranker models. TTS audio support has also been enriched.",
+                "de": "Die Entwicklungsversion 0.4.4.dev1 von <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>oMLX</a> verbessert die Notfall-Speicherverwaltung für priorisierte Workloads, die Zuverlässigkeit des paginierten SSD-Caches und fügt native Unterstützung für Embedding- und Reranker-Modelle BGE/XLM-R/BERT hinzu. Auch die Audio-TTS-Unterstützung wurde erweitert.",
+                "it": "La versione di sviluppo 0.4.4.dev1 di <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>oMLX</a> migliora la gestione d'emergenza della memoria per i carichi di lavoro prioritari, l'affidabilità della cache SSD paginata, e aggiunge il supporto nativo dei modelli di embedding e reranker BGE/XLM-R/BERT. Il supporto audio TTS è inoltre arricchito.",
+                "lmo": "La version de sviluppo 0.4.4.dev1 de <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>oMLX</a> la migliora la gestion d'emergenza de la memoria per i workload prioritari, la fiabilità del cache SSD paginaa, e la gionta el support nativ di modell d'embedding e de reranker BGE/XLM-R/BERT. El support audio TTS l'è anca arichii."
+              },
+              "kicker": {
+                "fr": "oMLX",
+                "en": "oMLX",
+                "de": "oMLX",
+                "it": "oMLX",
+                "lmo": "oMLX"
+              },
+              "urls": [
+                "https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.7.0 : mise à jour des tableaux de dimensionnement",
+                "en": "Rapid-MLX 0.7.0: updated sizing tables",
+                "de": "Rapid-MLX 0.7.0: Aktualisierung der Dimensionierungstabellen",
+                "it": "Rapid-MLX 0.7.0: aggiornamento delle tabelle di dimensionamento",
+                "lmo": "Rapid-MLX 0.7.0: misa a punt di tabel de dimensionament"
+              },
+              "body": {
+                "fr": "La version 0.7.0 de <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0'>Rapid-MLX</a> rafraîchit la documentation et les tableaux de dimensionnement par rapport à la version 0.6.83 intégrant l'échantillonneur top-p fusionné.",
+                "en": "Version 0.7.0 of <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0'>Rapid-MLX</a> refreshes the documentation and sizing tables compared to version 0.6.83 which integrated the fused top-p sampler.",
+                "de": "Version 0.7.0 von <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0'>Rapid-MLX</a> aktualisiert die Dokumentation und die Dimensionierungstabellen gegenüber Version 0.6.83, die den fusionierten Top-p-Sampler integriert.",
+                "it": "La versione 0.7.0 di <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0'>Rapid-MLX</a> aggiorna la documentazione e le tabelle di dimensionamento rispetto alla versione 0.6.83 che integra il campionatore top-p fuso.",
+                "lmo": "La version 0.7.0 de <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0'>Rapid-MLX</a> la rinfresca la documentazion e i tabel de dimensionament in rapport a la version 0.6.83 che l'integrava el campionador top-p fusionaa."
+              },
+              "kicker": {
+                "fr": "Rapid-MLX",
+                "en": "Rapid-MLX",
+                "de": "Rapid-MLX",
+                "it": "Rapid-MLX",
+                "lmo": "Rapid-MLX"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.0"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papers & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Papers & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemma 4 12B : un modèle multimodal unifié sans encodeur",
+                "en": "Gemma 4 12B: a unified multimodal model without an encoder",
+                "de": "Gemma 4 12B: Ein einheitliches multimodales Modell ohne Encoder",
+                "it": "Gemma 4 12B: un modello multimodale unificato senza encoder",
+                "lmo": "Gemma 4 12B: on modell multimodal unificaa senza encoder"
+              },
+              "body": {
+                "fr": "DeepMind a publié <a href='https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/'>Gemma 4 12B</a>, un modèle multimodal de 12 milliards de paramètres qui se passe d'encodeur visuel dédié. Cette architecture unifiée traite directement le texte et les images, simplifiant le pipeline d'inférence tout en maintenant des performances compétitives.",
+                "en": "DeepMind has published <a href='https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/'>Gemma 4 12B</a>, a 12-billion-parameter multimodal model that dispenses with a dedicated visual encoder. This unified architecture processes text and images directly, simplifying the inference pipeline while maintaining competitive performance.",
+                "de": "DeepMind hat <a href='https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/'>Gemma 4 12B</a> veröffentlicht, ein multimodales Modell mit 12 Milliarden Parametern, das auf einen dedizierten visuellen Encoder verzichtet. Diese einheitliche Architektur verarbeitet Text und Bilder direkt, vereinfacht die Inferenz-Pipeline und hält gleichzeitig wettbewerbsfähige Leistungen aufrecht.",
+                "it": "DeepMind ha pubblicato <a href='https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/'>Gemma 4 12B</a>, un modello multimodale da 12 miliardi di parametri che fa a meno di un encoder visivo dedicato. Questa architettura unificata elabora direttamente testo e immagini, semplificando la pipeline di inferenza pur mantenendo prestazioni competitive.",
+                "lmo": "DeepMind l'ha publicaa <a href='https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/'>Gemma 4 12B</a>, on modell multimodal de 12 miliard de parametri che 'l se passa d'encoder visual dedicaa. Questa architettura unificada la tratta direttament el test e i immagin, semplificand el pipeline d'inferenza intant che la manten di performance competitiv."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-gemma-4-12b-a-unified-encoder-free-multimodal-model/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Quatre façons dont les chercheurs collaborent avec Co-Scientist",
+                "en": "Four ways researchers collaborate with Co-Scientist",
+                "de": "Vier Arten, wie Forscher mit Co-Scientist zusammenarbeiten",
+                "it": "Quattro modi in cui i ricercatori collaborano con Co-Scientist",
+                "lmo": "Quatter manere indove i ricercador collaboren con Co-Scientist"
+              },
+              "body": {
+                "fr": "Google a partagé <a href='https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/'>quatre cas d'usage</a> de son système Co-Scientist, où des chercheurs utilisent l'IA pour accélérer la résolution de problèmes scientifiques complexes, de la biologie à la science des matériaux.",
+                "en": "Google has shared <a href='https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/'>four use cases</a> of its Co-Scientist system, where researchers use AI to accelerate solving complex scientific problems, from biology to materials science.",
+                "de": "Google hat <a href='https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/'>vier Anwendungsfälle</a> seines Co-Scientist-Systems geteilt, bei denen Forscher KI nutzen, um die Lösung komplexer wissenschaftlicher Probleme zu beschleunigen, von der Biologie bis zur Materialwissenschaft.",
+                "it": "Google ha condiviso <a href='https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/'>quattro casi d'uso</a> del suo sistema Co-Scientist, in cui ricercatori utilizzano l'IA per accelerare la risoluzione di problemi scientifici complessi, dalla biologia alla scienza dei materiali.",
+                "lmo": "Google l'ha spartii <a href='https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/'>quatter cas d'usagg</a> del sò sistema Co-Scientist, indove di ricercador doperen l'IA per accelerà la risoluzion de problema scentifich compless, de la biologia a la scienza di materiaj."
+              },
+              "kicker": {
+                "fr": "Co-Scientist",
+                "en": "Co-Scientist",
+                "de": "Co-Scientist",
+                "it": "Co-Scientist",
+                "lmo": "Co-Scientist"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/technology/research/co-scientist-research-problems/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Benchmark ASR : les agents vocaux face au code-switching bilingue",
+                "en": "ASR benchmark: voice agents face bilingual code-switching",
+                "de": "ASR-Benchmark: Sprachagenten im Umgang mit bilingualem Code-Switching",
+                "it": "Benchmark ASR: gli agenti vocali di fronte al code-switching bilingue",
+                "lmo": "Benchmark ASR: i agent vocal denanz al code-switching bilingov"
+              },
+              "body": {
+                "fr": "Un nouveau benchmark publié sur <a href='https://huggingface.co/blog/ServiceNow-AI/code-switching'>Hugging Face</a> évalue la capacité des systèmes de reconnaissance vocale frontière à gérer le code-switching — l'alternance entre deux langues au sein d'une même phrase. Les résultats montrent des écarts significatifs entre modèles.",
+                "en": "A new benchmark published on <a href='https://huggingface.co/blog/ServiceNow-AI/code-switching'>Hugging Face</a> evaluates the ability of frontier speech recognition systems to handle code-switching — alternating between two languages within the same sentence. Results show significant gaps between models.",
+                "de": "Ein neuer Benchmark, veröffentlicht auf <a href='https://huggingface.co/blog/ServiceNow-AI/code-switching'>Hugging Face</a>, bewertet die Fähigkeit von führenden Spracherkennungssystemen, mit Code-Switching umzugehen – dem Wechsel zwischen zwei Sprachen innerhalb eines Satzes. Die Ergebnisse zeigen erhebliche Unterschiede zwischen den Modellen.",
+                "it": "Un nuovo benchmark pubblicato su <a href='https://huggingface.co/blog/ServiceNow-AI/code-switching'>Hugging Face</a> valuta la capacità dei sistemi di riconoscimento vocale frontiera di gestire il code-switching — l'alternanza tra due lingue all'interno di una stessa frase. I risultati mostrano divari significativi tra i modelli.",
+                "lmo": "On noeuv benchmark publicaa sora <a href='https://huggingface.co/blog/ServiceNow-AI/code-switching'>Hugging Face</a> el valuta la capacità di sistema de riconosciment vocal frontiera a gestì el code-switching — l'alternanza tra duu lengov denter in d'ona midemma fras. I resultad mostren di diferenz significativ tra modell."
+              },
+              "kicker": {
+                "fr": "Hugging Face",
+                "en": "Hugging Face",
+                "de": "Hugging Face",
+                "it": "Hugging Face",
+                "lmo": "Hugging Face"
+              },
+              "urls": [
+                "https://huggingface.co/blog/ServiceNow-AI/code-switching"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un agent construit une galerie 3D en chaînant deux Spaces",
+                "en": "An agent builds a 3D gallery by chaining two Spaces",
+                "de": "Ein Agent erstellt eine 3D-Galerie durch Verkettung zweier Spaces",
+                "it": "Un agente costruisce una galleria 3D concatenando due Spaces",
+                "lmo": "On agent el costruiss ona galeria 3D incatenand duu Spaces"
+              },
+              "body": {
+                "fr": "Un billet technique sur <a href='https://huggingface.co/blog/mishig/spaces-agents-md'>Hugging Face</a> montre comment un agent IA a construit une galerie 3D de Paris en chaînant deux Hugging Face Spaces, illustrant la puissance de l'orchestration inter-Spaces pour des workflows créatifs complexes.",
+                "en": "A technical post on <a href='https://huggingface.co/blog/mishig/spaces-agents-md'>Hugging Face</a> shows how an AI agent built a 3D gallery of Paris by chaining two Hugging Face Spaces, illustrating the power of inter-Spaces orchestration for complex creative workflows.",
+                "de": "Ein technischer Beitrag auf <a href='https://huggingface.co/blog/mishig/spaces-agents-md'>Hugging Face</a> zeigt, wie ein KI-Agent eine 3D-Galerie von Paris erstellte, indem er zwei Hugging Face Spaces miteinander verknüpfte, und veranschaulicht die Leistungsfähigkeit der Inter-Space-Orchestrierung für komplexe kreative Workflows.",
+                "it": "Un post tecnico su <a href='https://huggingface.co/blog/mishig/spaces-agents-md'>Hugging Face</a> mostra come un agente IA ha costruito una galleria 3D di Parigi concatenando due Hugging Face Spaces, illustrando la potenza dell'orchestrazione inter-Spaces per flussi di lavoro creativi complessi.",
+                "lmo": "On post tecnegh sora <a href='https://huggingface.co/blog/mishig/spaces-agents-md'>Hugging Face</a> el mostra comè on agent IA l'ha costruii ona galeria 3D de Paris incatenand duu Hugging Face Spaces, illustrand la potenza de l'orchestrazion inter-Spaces per di workflow creativ compless."
+              },
+              "kicker": {
+                "fr": "Hugging Face",
+                "en": "Hugging Face",
+                "de": "Hugging Face",
+                "it": "Hugging Face",
+                "lmo": "Hugging Face"
+              },
+              "urls": [
+                "https://huggingface.co/blog/mishig/spaces-agents-md"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Études & Industrie",
+            "en": "Studies & Industry",
+            "de": "Studien & Industrie",
+            "it": "Studi & Industria",
+            "lmo": "Studi & Industria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Les agents IA travaillent 26 minutes par session contre 33 secondes pour la recherche",
+                "en": "AI agents work 26 minutes per session vs 33 seconds for search",
+                "de": "KI-Agenten arbeiten 26 Minuten pro Sitzung, verglichen mit 33 Sekunden für die Suche",
+                "it": "Gli agenti IA lavorano 26 minuti per sessione contro 33 secondi per la ricerca",
+                "lmo": "I agent IA lavoren 26 minut per session contra 33 second per la ricerca"
+              },
+              "body": {
+                "fr": "Une étude conjointe de Harvard et Perplexity, relayée par <a href='https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/'>MarkTechPost</a>, compare un agent autonome à un assistant de recherche classique. Les agents accomplissent en moyenne 26 minutes de travail autonome par session, contre 33 secondes pour la recherche traditionnelle, avec un coût par tâche réduit.",
+                "en": "A joint study by Harvard and Perplexity, reported by <a href='https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/'>MarkTechPost</a>, compares an autonomous agent to a classic search assistant. Agents accomplish an average of 26 minutes of autonomous work per session, compared to 33 seconds for traditional search, with a reduced cost per task.",
+                "de": "Eine gemeinsame Studie von Harvard und Perplexity, verbreitet von <a href='https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/'>MarkTechPost</a>, vergleicht einen autonomen Agenten mit einem klassischen Recherche-Assistenten. Die Agenten leisten im Durchschnitt 26 Minuten autonome Arbeit pro Sitzung, verglichen mit 33 Sekunden bei der traditionellen Suche, bei geringeren Kosten pro Aufgabe.",
+                "it": "Uno studio congiunto di Harvard e Perplexity, ripreso da <a href='https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/'>MarkTechPost</a>, confronta un agente autonomo con un assistente di ricerca classico. Gli agenti svolgono in media 26 minuti di lavoro autonomo per sessione, contro 33 secondi per la ricerca tradizionale, con un costo per compito ridotto.",
+                "lmo": "On studi congiunt de Harvard e Perplexity, relazionaa de <a href='https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/'>MarkTechPost</a>, el confronta on agent autonom a on assistent de ricerca classegh. I agent compien in media 26 minut de lavorà autonom per session, contra 33 second per la ricerca tradizional, con on cost per compit ridott."
+              },
+              "kicker": {
+                "fr": "Harvard & Perplexity",
+                "en": "Harvard & Perplexity",
+                "de": "Harvard & Perplexity",
+                "it": "Harvard & Perplexity",
+                "lmo": "Harvard & Perplexity"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/08/a-new-study-from-harvard-and-perplexity-finds-ai-agents-perform-26-minutes-of-autonomous-work-per-session-vs-33-seconds-for-search/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la Communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla Comunità",
+            "lmo": "Segnal de la Comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Fable 5 : entre enthousiasme et craintes d'inégalité",
+                "en": "Fable 5: between enthusiasm and fears of inequality",
+                "de": "Fable 5: Zwischen Begeisterung und Ungleichheitsängsten",
+                "it": "Fable 5: tra entusiasmo e timori di disuguaglianza",
+                "lmo": "Fable 5: tra entusiasmo e pagure de desigualità"
+              },
+              "body": {
+                "fr": "Sur Hacker News, le développeur Simon Willison partage ses <a href='https://simonwillison.net/2026/Jun/9/claude-fable-5/'>premières impressions sur Claude Fable 5</a>, saluant ses capacités tout en s'interrogeant sur la fiabilité : « Si Claude Fable cesse de vous aider, vous ne le saurez jamais », écrit-il dans un second billet. Sur Reddit, un fil de discussion intitulé <a href='https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/'>« Fable 5 ressemble moins à un lancement qu'à un aperçu de l'inégalité de l'IA »</a> recueille 9 points, reflétant les préoccupations sur l'accès à ces modèles de pointe.",
+                "en": "On Hacker News, developer Simon Willison shares his <a href='https://simonwillison.net/2026/Jun/9/claude-fable-5/'>first impressions of Claude Fable 5</a>, praising its capabilities while questioning reliability: 'If Claude Fable stops helping you, you'll never know,' he writes in a second post. On Reddit, a discussion thread titled <a href='https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/'>'Fable 5 feels less like a launch and more like a glimpse of AI inequality'</a> scores 9 points, reflecting concerns about access to these cutting-edge models.",
+                "de": "Auf Hacker News teilt der Entwickler Simon Willison seine <a href='https://simonwillison.net/2026/Jun/9/claude-fable-5/'>ersten Eindrücke von Claude Fable 5</a>, lobt dessen Fähigkeiten, hinterfragt aber gleichzeitig die Zuverlässigkeit: «Wenn Claude Fable aufhört, Ihnen zu helfen, werden Sie es nie erfahren», schreibt er in einem zweiten Beitrag. Auf Reddit sammelt ein Diskussionsfaden mit dem Titel <a href='https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/'>«Fable 5 fühlt sich weniger wie ein Launch an, sondern eher wie ein Vorgeschmack auf KI-Ungleichheit»</a> 9 Punkte und spiegelt die Bedenken hinsichtlich des Zugangs zu diesen Spitzenmodellen wider.",
+                "it": "Su Hacker News, lo sviluppatore Simon Willison condivide le sue <a href='https://simonwillison.net/2026/Jun/9/claude-fable-5/'>prime impressioni su Claude Fable 5</a>, elogiandone le capacità ma interrogandosi sull'affidabilità: «Se Claude Fable smette di aiutarvi, non lo saprete mai», scrive in un secondo post. Su Reddit, un thread intitolato <a href='https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/'>«Fable 5 sembra meno un lancio che un'anteprima della disuguaglianza dell'IA»</a> raccoglie 9 punti, riflettendo le preoccupazioni sull'accesso a questi modelli all'avanguardia.",
+                "lmo": "Sora Hacker News, el sviluppador Simon Willison el spartiss i sò <a href='https://simonwillison.net/2026/Jun/9/claude-fable-5/'>prim impression sora Claude Fable 5</a>, saludand i sò capacità intant che 'l se interroga sora la fiabilità: « Se Claude Fable el smett de vutav, vialter el savarii mai », el scriv lu in d'on segond post. Sora Reddit, on fil de discussion intitola <a href='https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/'>« Fable 5 el someja men a on lanzament che a on'anteprima de la desigualità de l'IA »</a> el cugiss 9 pont, riflettend i preoccupazion sora l'access a quest modell de ponta."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Dibattit"
+              },
+              "urls": [
+                "https://simonwillison.net/2026/Jun/9/claude-fable-5/",
+                "https://old.reddit.com/r/ClaudeAI/comments/1u1fsdi/claude_fable_5_feels_less_like_a_model_launch_and/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'Allemagne juge Google responsable des erreurs de ses AI Overviews",
+                "en": "Germany holds Google liable for errors in its AI Overviews",
+                "de": "Deutschland erklärt Google für Fehler seiner AI Overviews haftbar",
+                "it": "La Germania giudica Google responsabile degli errori dei suoi AI Overviews",
+                "lmo": "La Germania la giudega Google responsabel di error di sò AI Overviews"
+              },
+              "body": {
+                "fr": "Un tribunal régional allemand a rendu un jugement historique déclarant que <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google est directement responsable du contenu de ses AI Overviews</a>. La décision, qui a recueilli 223 points sur Hacker News, établit que les protections limitées de responsabilité des moteurs de recherche ne s'appliquent pas aux résumés générés par IA. Google avait faussement associé deux éditeurs à des activités frauduleuses.",
+                "en": "A German regional court has issued a landmark ruling declaring that <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google is directly responsible for the content of its AI Overviews</a>. The decision, which scored 223 points on Hacker News, establishes that the limited liability protections for search engines do not apply to AI-generated summaries. Google had falsely associated two publishers with fraudulent activities.",
+                "de": "Ein deutsches Landgericht hat ein historisches Urteil gefällt, wonach <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google für den Inhalt seiner AI Overviews direkt verantwortlich ist</a>. Die Entscheidung, die auf Hacker News 223 Punkte erzielte, stellt fest, dass die eingeschränkten Haftungsschutzbestimmungen für Suchmaschinen nicht für KI-generierte Zusammenfassungen gelten. Google hatte zwei Verlage fälschlicherweise mit betrügerischen Aktivitäten in Verbindung gebracht.",
+                "it": "Un tribunale regionale tedesco ha emesso una sentenza storica dichiarando che <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google è direttamente responsabile del contenuto dei suoi AI Overviews</a>. La decisione, che ha raccolto 223 punti su Hacker News, stabilisce che le limitate protezioni di responsabilità dei motori di ricerca non si applicano ai riassunti generati dall'IA. Google aveva falsamente associato due editori ad attività fraudolente.",
+                "lmo": "On tribunal regional todesch l'ha renduu on giudizzi storegh declarand che <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google l'è direttament responsabel del contegnuu di sò AI Overviews</a>. La decision, che l'ha cugiuu 223 pont sora Hacker News, la stabiliss che i protezion limitad de responsabilità di motor de ricerca se applichen minga ai resumì generaa de IA. Google l'aveva falsament associàa duu editor a di attività fraudolent."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mustafa Suleyman : « La superintelligence est proche, mais ne prendra pas votre emploi »",
+                "en": "Mustafa Suleyman: 'Superintelligence is close, but won't take your job'",
+                "de": "Mustafa Suleyman: «Superintelligenz ist nah, wird aber nicht Ihren Job nehmen»",
+                "it": "Mustafa Suleyman: «La superintelligenza è vicina, ma non prenderà il vostro lavoro»",
+                "lmo": "Mustafa Suleyman: « La superintelligenza l'è vesina, ma la ciaparà minga el vost post de lavorà »"
+              },
+              "body": {
+                "fr": "Le PDG de Microsoft AI, Mustafa Suleyman, a déclaré dans une interview à The Verge que <a href='https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation'>la superintelligence est proche</a> tout en revenant sur ses déclarations précédentes concernant l'automatisation des emplois de cols blancs. Il a également critiqué Anthropic pour avoir laissé entendre que Claude pourrait être conscient, qualifiant cette spéculation de « vraiment dangereuse ».",
+                "en": "Microsoft AI CEO Mustafa Suleyman stated in an interview with The Verge that <a href='https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation'>superintelligence is close</a> while walking back his previous statements about automating white-collar jobs. He also criticized Anthropic for suggesting that Claude might be conscious, calling that speculation 'really dangerous.'",
+                "de": "Der CEO von Microsoft AI, Mustafa Suleyman, erklärte in einem Interview mit The Verge, dass <a href='https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation'>die Superintelligenz nahe sei</a>, und relativierte gleichzeitig seine früheren Aussagen zur Automatisierung von Angestelltenjobs. Er kritisierte zudem Anthropic dafür, angedeutet zu haben, dass Claude bewusstseinsfähig sein könnte, und bezeichnete diese Spekulation als «wirklich gefährlich».",
+                "it": "L'amministratore delegato di Microsoft AI, Mustafa Suleyman, ha dichiarato in un'intervista a The Verge che <a href='https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation'>la superintelligenza è vicina</a> tornando sulle sue precedenti dichiarazioni riguardanti l'automazione dei lavori impiegatizi. Ha inoltre criticato Anthropic per aver lasciato intendere che Claude potrebbe essere cosciente, definendo questa speculazione «davvero pericolosa».",
+                "lmo": "El CEO de Microsoft AI, Mustafa Suleyman, l'ha dii in d'on'intervista a The Verge che <a href='https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation'>la superintelligenza l'è vesina</a> intant che 'l torna sora i sò declarazion precedent concernent l'automatizzazion di post de lavorà de col bianch. L'ha anca criticaa Anthropic per avè lassaa intend che Claude el podaria vess coscient, qualifficand questa speculazion de « verament pericolosa »."
+              },
+              "kicker": {
+                "fr": "Microsoft",
+                "en": "Microsoft",
+                "de": "Microsoft",
+                "it": "Microsoft",
+                "lmo": "Microsoft"
+              },
+              "urls": [
+                "https://www.theverge.com/podcast/944138/microsoft-ai-ceo-mustafa-suleyman-superintelligence-agi-openai-automation"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "WWDC 2026 : Siri renaît avec l'aide de Google et Nvidia",
+                "en": "WWDC 2026: Siri reborn with help from Google and Nvidia",
+                "de": "WWDC 2026: Siri wird mit Hilfe von Google und Nvidia neu geboren",
+                "it": "WWDC 2026: Siri rinasce con l'aiuto di Google e Nvidia",
+                "lmo": "WWDC 2026: Siri el renass con l'ajutt de Google e Nvidia"
+              },
+              "body": {
+                "fr": "Apple a dévoilé à la WWDC une version reconstruite de Siri, fonctionnant sur des modèles de fondation développés avec Google et utilisant des GPU Nvidia pour les requêtes complexes. <a href='https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/'>The Decoder</a> note que Siri AI n'est pas disponible en Europe en raison d'un différend réglementaire, tandis que TechCrunch salue une approche « lente mais régulière » qui commence à payer.",
+                "en": "Apple unveiled a rebuilt version of Siri at WWDC, running on foundation models developed with Google and using Nvidia GPUs for complex queries. <a href='https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/'>The Decoder</a> notes that Siri AI is not available in Europe due to a regulatory dispute, while TechCrunch praises a 'slow but steady' approach that is beginning to pay off.",
+                "de": "Apple hat auf der WWDC eine neu aufgebaute Version von Siri vorgestellt, die auf mit Google entwickelten Foundation-Modellen läuft und für komplexe Anfragen Nvidia-GPUs nutzt. <a href='https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/'>The Decoder</a> merkt an, dass Siri AI aufgrund eines regulatorischen Streits nicht in Europa verfügbar ist, während TechCrunch einen «langsamen, aber stetigen» Ansatz lobt, der sich auszahle.",
+                "it": "Apple ha svelato alla WWDC una versione ricostruita di Siri, basata su modelli foundation sviluppati con Google e che utilizza GPU Nvidia per le richieste complesse. <a href='https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/'>The Decoder</a> nota che Siri AI non è disponibile in Europa a causa di una disputa normativa, mentre TechCrunch elogia un approccio «lento ma costante» che inizia a dare i suoi frutti.",
+                "lmo": "Apple l'ha presenta a la WWDC ona version ricostruida de Siri, fonzionant sora di modell de fondazion sviluppaa con Google e doperand di GPU Nvidia per i richiest compless. <a href='https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/'>The Decoder</a> el nota che Siri AI l'è minga disponibel in Europa per via d'on diferenzi regolatori, intant che TechCrunch el saluda on'apros'c « lenta ma regolar » che la comenza a pagà."
+              },
+              "kicker": {
+                "fr": "Apple",
+                "en": "Apple",
+                "de": "Apple",
+                "it": "Apple",
+                "lmo": "Apple"
+              },
+              "urls": [
+                "https://the-decoder.com/apple-intelligence-gets-a-second-go-with-the-help-of-google-and-nvidia/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le pari de la transparence : Fable 5, entre ouverture et prudence",
+                "en": "The transparency gamble: Fable 5, between openness and caution",
+                "de": "Die Wette auf Transparenz: Fable 5 zwischen Offenheit und Vorsicht",
+                "it": "La scommessa della trasparenza: Fable 5, tra apertura e prudenza",
+                "lmo": "El scommett de la trasparenza: Fable 5, tra vertura e prudenza"
+              },
+              "body": {
+                "fr": "Avec le lancement de Claude Fable 5, Anthropic fait un choix éditorial clair : rendre accessible au public un modèle de classe Mythos tout en verrouillant le plus puissant, Mythos 5, en interne. Cette stratégie à deux vitesses — un modèle « sécurisé » pour le grand public, un modèle « dangereux » pour la recherche — soulève une question fondamentale : jusqu'où la transparence peut-elle aller quand les capacités des modèles deviennent potentiellement offensives ? La décision de bloquer les réponses en cybersécurité et biologie sur Fable 5 est louable, mais elle installe un précédent où les laboratoires deviennent les seuls arbitres de ce que le public a le droit d'utiliser. Dans un secteur où la <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>responsabilité légale des contenus générés par IA</a> commence à être encadrée par les tribunaux, la question de la gouvernance des modèles les plus puissants n'a jamais été aussi pressante.",
+                "en": "With the launch of Claude Fable 5, Anthropic makes a clear editorial choice: making a Mythos-class model accessible to the public while locking the more powerful Mythos 5 internally. This two-speed strategy — a 'safe' model for the general public, a 'dangerous' model for research — raises a fundamental question: how far can transparency go when model capabilities become potentially offensive? The decision to block responses in cybersecurity and biology on Fable 5 is commendable, but it sets a precedent where labs become the sole arbiters of what the public is allowed to use. In an industry where <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>legal liability for AI-generated content</a> is beginning to be shaped by the courts, the question of governance for the most powerful models has never been more pressing.",
+                "de": "Mit der Lancierung von Claude Fable 5 trifft Anthropic eine klare redaktionelle Entscheidung: Ein Mythos-Class-Modell der Öffentlichkeit zugänglich zu machen, während das leistungsfähigere, Mythos 5, intern gesperrt bleibt. Diese Zweiklassengesellschaft – ein «sicheres» Modell für die breite Öffentlichkeit, ein «gefährliches» Modell für die Forschung – wirft eine grundlegende Frage auf: Wie weit kann Transparenz gehen, wenn die Fähigkeiten der Modelle potenziell offensiv werden? Die Entscheidung, Antworten in den Bereichen Cybersicherheit und Biologie auf Fable 5 zu blockieren, ist lobenswert, schafft aber einen Präzedenzfall, bei dem die Labore zu den alleinigen Schiedsrichtern darüber werden, was die Öffentlichkeit nutzen darf. In einer Branche, in der die <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>rechtliche Verantwortung für KI-generierte Inhalte</a> von den Gerichten zunehmend geregelt wird, war die Frage der Governance der leistungsfähigsten Modelle noch nie so dringend.",
+                "it": "Con il lancio di Claude Fable 5, Anthropic fa una scelta editoriale chiara: rendere accessibile al pubblico un modello di classe Mythos bloccando al contempo il più potente, Mythos 5, internamente. Questa strategia a due velocità — un modello «sicuro» per il grande pubblico, un modello «pericoloso» per la ricerca — solleva una domanda fondamentale: fino a che punto può spingersi la trasparenza quando le capacità dei modelli diventano potenzialmente offensive? La decisione di bloccare le risposte in cybersicurezza e biologia su Fable 5 è lodevole, ma instaura un precedente in cui i laboratori diventano gli unici arbitri di ciò che il pubblico ha il diritto di utilizzare. In un settore in cui la <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>responsabilità legale dei contenuti generati dall'IA</a> comincia a essere regolamentata dai tribunali, la questione della governance dei modelli più potenti non è mai stata così pressante.",
+                "lmo": "Con el lanzament de Claude Fable 5, Anthropic el fa ona scerna editorial ciara: rend accessibel al publegh on modell de class Mythos intant che 'l sarra el pussee potent, Mythos 5, denter in deperlu. Questa strategia a duu velocità — on modell « segur » per el gran publegh, on modell « pericolos » per la ricerca — la solleva ona question fondamental: fina a indove la trasparenza la pò andà quand che i capacità di modell deventen potenzialment offensiv? La decision de bloccà i rispost in cybersicurezza e biologia sora Fable 5 l'è lodevol, ma la installa on precedent indove i laboratori deventen i soll arbitri de quell che 'l publegh el gh'ha el dirit de doperà. In d'on settor indove la <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>responsabilità legal di contegnuu generaa de IA</a> la comenza a vess inquadrada di tribunal, la question de la governance di modell pussee potent l'è mai stada inscì pressanta."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
