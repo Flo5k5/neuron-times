@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+Sitemap: https://neuron-times.com/sitemap.xml
+
+# AI crawlers: explicitly allowed — we WANT to be read and cited (GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
