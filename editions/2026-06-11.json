@@ -1,0 +1,822 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-06-11",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Parallèlement, Google DeepMind a publié le 10 juin 2026 <a href='https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/'>DiffusionGemma</a>, un modèle ouvert de 26 milliards de paramètres (MoE) qui génère du texte par diffusion plutôt que par prédiction token par token. Selon les tests de NVIDIA, le modèle atteint environ 1 000 tokens par seconde sur un seul GPU H100, soit quatre fois plus vite que les modèles autorégressifs comparables. Google positionne DiffusionGemma comme un outil expérimental pour développeurs, la qualité de sortie restant inférieure à celle des modèles séquentiels. Le modèle est disponible en open source et s'intègre avec les frameworks d'inférence courants comme vLLM.",
+        "en": "Meanwhile, on 10 June 2026, Google DeepMind released <a href='https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/'>DiffusionGemma</a>, a 26-billion-parameter open model (MoE) that generates text via diffusion rather than token-by-token prediction. According to NVIDIA benchmarks, the model achieves roughly 1,000 tokens per second on a single H100 GPU — four times faster than comparable autoregressive models. Google positions DiffusionGemma as an experimental tool for developers, with output quality still below that of sequential models. The model is available as open source and integrates with common inference frameworks such as vLLM.",
+        "de": "Parallel dazu veröffentlichte Google DeepMind am 10. Juni 2026 <a href='https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/'>DiffusionGemma</a>, ein offenes Modell mit 26 Milliarden Parametern (MoE), das Text durch Diffusion statt durch tokenweise Vorhersage generiert. Laut NVIDIA-Tests erreicht das Modell auf einer einzelnen H100-GPU rund 1'000 Tokens pro Sekunde – viermal schneller als vergleichbare autoregressive Modelle. Google positioniert DiffusionGemma als experimentelles Werkzeug für Entwickler, wobei die Ausgabequalität weiterhin hinter sequenziellen Modellen zurückbleibt. Das Modell ist als Open Source verfügbar und lässt sich in gängige Inferenz-Frameworks wie vLLM integrieren.",
+        "it": "Parallelamente, Google DeepMind ha pubblicato il 10 giugno 2026 <a href='https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/'>DiffusionGemma</a>, un modello aperto da 26 miliardi di parametri (MoE) che genera testo tramite diffusione anziché predizione token per token. Secondo i test di NVIDIA, il modello raggiunge circa 1.000 token al secondo su una singola GPU H100, quattro volte più veloce dei modelli autoregressivi comparabili. Google posiziona DiffusionGemma come uno strumento sperimentale per sviluppatori, con una qualità di output ancora inferiore a quella dei modelli sequenziali. Il modello è disponibile in open source e si integra con i framework di inferenza più comuni come vLLM.",
+        "lmo": "In del midemm temp, Google DeepMind l'ha publicaa el 10 de giugn 2026 <a href='https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/'>DiffusionGemma</a>, on modèll avert de 26 miliard de parametri (MoE) che 'l genera test per diffusion inveci de prevedell token per token. Segond i test de NVIDIA, el modèll el riva a circa 1 000 token per segond sora on GPU H100, o ben quatter voeult pussee svelt di modèj autoregressiv compagn. Google el met DiffusionGemma 'me on strument sperimental per i sviluppador, con la qualità de sortida che la resta inferiora a quella di modèj sequenziai. El modèll l'è disponibil in open source e 'l se integra con i framework d'inferenza pussee doperaa 'me vLLM."
+      },
+      {
+        "fr": "Ces deux lancements illustrent des stratégies divergentes : Anthropic mise sur la puissance brute et la segmentation par niveau de sécurité, tandis que Google explore des architectures non autorégressives pour briser le goulot d'étranglement de l'inférence. La controverse autour des garde-fous de Fable 5 — notamment l'obligation de rétention des données pendant 30 jours, même pour les contrats « zéro rétention » — a conduit Microsoft à restreindre l'accès interne au modèle, selon <a href='https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally'>The Verge</a>.",
+        "en": "These two launches illustrate diverging strategies: Anthropic bets on raw power and tiered safety segmentation, while Google explores non-autoregressive architectures to break the inference bottleneck. The controversy surrounding Fable 5's guardrails — notably the mandatory 30-day data retention requirement, even for 'zero retention' contracts — has led Microsoft to restrict internal access to the model, according to <a href='https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally'>The Verge</a>.",
+        "de": "Diese beiden Markteinführungen veranschaulichen unterschiedliche Strategien: Anthropic setzt auf rohe Rechenleistung und Sicherheitsstufen, während Google nicht-autoregressive Architekturen erforscht, um den Inferenz-Engpass zu durchbrechen. Die Kontroverse um die Schutzmassnahmen von Fable 5 – insbesondere die 30-tägige Datenaufbewahrungspflicht selbst bei «Zero-Retention»-Verträgen – hat Microsoft laut <a href='https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally'>The Verge</a> dazu veranlasst, den internen Zugriff auf das Modell einzuschränken.",
+        "it": "Questi due lanci illustrano strategie divergenti: Anthropic punta sulla potenza grezza e sulla segmentazione per livello di sicurezza, mentre Google esplora architetture non autoregressive per rompere il collo di bottiglia dell'inferenza. La controversia sulle barriere di Fable 5 — in particolare l'obbligo di conservazione dei dati per 30 giorni, anche per i contratti « zero ritenzione » — ha portato Microsoft a limitare l'accesso interno al modello, secondo <a href='https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally'>The Verge</a>.",
+        "lmo": "Sti dò lanzament a mostren di strategij divergent: Anthropic el ponta sora la potenza bruta e la segmentazion per nivell de sicurezza, menter Google l'esplora di architettur no autoregressive per romp el coll de bottiglia de l'inferenza. La controversia sora i guardie de Fable 5 — in particolar l'obligo de tegnì i dat per 30 dì, anca per i contratt « zero ritenzion » — l'ha menaa Microsoft a limità l'access intern al modèll, segond <a href='https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally'>The Verge</a>."
+      }
+    ],
+    "urls": [
+      "https://the-decoder.com/claude-fable-5-the-first-mythos-model-is-powerful-expensive-and-heavily-filtered/",
+      "https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/",
+      "https://www.theverge.com/report/947575/microsoft-claude-fable-5-restricted-internally",
+      "https://www.marktechpost.com/2026/06/10/anthropic-releases-claude-fable-5-and-claude-mythos-5-same-underlying-model-different-safeguards-new-mythos-class-tier/",
+      "https://www.marktechpost.com/2026/06/10/google-ai-releases-diffusiongemma-a-26b-moe-open-model-using-text-diffusion-for-up-to-4x-faster-generation/"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Grenzbereich",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Anthropic lance Claude Fable 5 et Mythos 5, Google dévoile DiffusionGemma",
+      "en": "Anthropic launches Claude Fable 5 and Mythos 5, Google unveils DiffusionGemma",
+      "de": "Anthropic launch Claude Fable 5 und Mythos 5, Google enthüllt DiffusionGemma",
+      "it": "Anthropic lancia Claude Fable 5 e Mythos 5, Google svela DiffusionGemma",
+      "lmo": "Anthropic el lanza Claude Fable 5 e Mythos 5, Google el presenta DiffusionGemma"
+    },
+    "subdeck": {
+      "fr": "Deux annonces majeures redessinent le paysage des modèles frontière : Anthropic ouvre l'ère Mythos avec des garde-fous asymétriques, tandis que Google DeepMind expérimente la génération par diffusion pour un débit 4× supérieur.",
+      "en": "Two major announcements reshape the frontier model landscape: Anthropic ushers in the Mythos era with asymmetric guardrails, while Google DeepMind experiments with diffusion-based generation for 4× higher throughput.",
+      "de": "Zwei bedeutende Ankündigungen verändern die Landschaft der Grenzmodelle: Anthropic eröffnet die Mythos-Ära mit asymmetrischen Schutzmassnahmen, während Google DeepMind mit Diffusionsgenerierung für einen 4-fachen Durchsatz experimentiert.",
+      "it": "Due annunci importanti ridisegnano il panorama dei modelli di frontiera: Anthropic inaugura l'era Mythos con barriere asimmetriche, mentre Google DeepMind sperimenta la generazione per diffusione per una velocità 4× superiore.",
+      "lmo": "Dò anunzi important a cambien el paesagg di modèj frontiera: Anthropic l'è el prim a dervì l'era Mythos con di guardie asimmetrich, menter Google DeepMind el sperimenta la generazion per diffusion per on débit 4× superior."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Claude Managed Agents : planification et variables d'environnement",
+        "en": "Claude Managed Agents: scheduling and environment variables",
+        "de": "Claude Managed Agents: Planung und Umgebungsvariablen",
+        "it": "Claude Managed Agents: pianificazione e variabili d'ambiente",
+        "lmo": "Claude Managed Agents: pianificazion e variabil d'ambient"
+      },
+      "body": {
+        "fr": "Anthropic a dévoilé le 10 juin 2026 deux nouvelles fonctionnalités pour sa plateforme d'agents managés : l'exécution programmée d'agents et le stockage de variables d'environnement dans des coffres sécurisés (« vaults »). Ces ajouts permettent de déployer des agents autonomes fonctionnant selon un calendrier défini, sans intervention humaine, tout en centralisant la gestion des secrets. L'entreprise publie également un guide détaillé sur <a href='https://claude.com/blog/building-with-claude-managed-agents'>l'évolution des surfaces agentiques</a> avec Claude Managed Agents.",
+        "en": "On 10 June 2026, Anthropic unveiled two new features for its managed agents platform: scheduled agent execution and storage of environment variables in secure vaults. These additions make it possible to deploy autonomous agents operating on a defined schedule without human intervention, while centralising secret management. The company also published a detailed guide on <a href='https://claude.com/blog/building-with-claude-managed-agents'>the evolution of agentic surfaces</a> with Claude Managed Agents.",
+        "de": "Anthropic hat am 10. Juni 2026 zwei neue Funktionen für seine Plattform für verwaltete Agenten vorgestellt: die zeitgesteuerte Ausführung von Agenten und die Speicherung von Umgebungsvariablen in sicheren Tresoren («vaults»). Diese Ergänzungen ermöglichen den Einsatz autonomer Agenten, die nach einem festgelegten Zeitplan ohne menschliches Eingreifen arbeiten, und zentralisieren gleichzeitig die Verwaltung von Geheimnissen. Das Unternehmen veröffentlicht zudem einen ausführlichen Leitfaden zur <a href='https://claude.com/blog/building-with-claude-managed-agents'>Entwicklung agentischer Oberflächen</a> mit Claude Managed Agents.",
+        "it": "Anthropic ha svelato il 10 giugno 2026 due nuove funzionalità per la sua piattaforma di agenti gestiti: l'esecuzione programmata di agenti e l'archiviazione di variabili d'ambiente in cassaforti sicure (« vaults »). Queste aggiunte consentono di distribuire agenti autonomi che operano secondo un calendario definito, senza intervento umano, centralizzando al contempo la gestione dei segreti. L'azienda pubblica inoltre una guida dettagliata su <a href='https://claude.com/blog/building-with-claude-managed-agents'>l'evoluzione delle superfici agentiche</a> con Claude Managed Agents.",
+        "lmo": "Anthropic l'ha presenta el 10 de giugn 2026 dò fonzionalità noeuve per la soa piattaforma de agent gestii: l'esecuzion programmada di agent e 'l deposit di variabil d'ambient in di coffre seguraa (« vaults »). Sti giontad a permetten de mett in pee di agent autonom che fonzionen segond on calendari definii, senza intervent uman, e de centralizzà la gestion di segret. L'azienda la publica anca ona guida detajada sora <a href='https://claude.com/blog/building-with-claude-managed-agents'>l'evoluzion di superfici agentich</a> con Claude Managed Agents."
+      },
+      "tag": {
+        "fr": "Plateforme",
+        "en": "Platform",
+        "de": "Plattform",
+        "it": "Piattaforma",
+        "lmo": "Piattaforma"
+      },
+      "urls": [
+        "https://claude.com/blog/building-with-claude-managed-agents"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI et Oracle Cloud : accès aux modèles via les engagements existants",
+        "en": "OpenAI and Oracle Cloud: access to models via existing commitments",
+        "de": "OpenAI und Oracle Cloud: Zugriff auf Modelle über bestehende Verpflichtungen",
+        "it": "OpenAI e Oracle Cloud: accesso ai modelli tramite impegni esistenti",
+        "lmo": "OpenAI e Oracle Cloud: access ai modèj cont i impegn esistent"
+      },
+      "body": {
+        "fr": "OpenAI a annoncé le 10 juin 2026 un accord avec Oracle Cloud permettant aux entreprises d'accéder aux modèles GPT et à Codex en utilisant leurs engagements de dépense cloud existants. Les clients Oracle peuvent désormais déployer et construire des applications d'IA avec la sécurité et la gouvernance d'entreprise d'Oracle, sans coût supplémentaire d'infrastructure. Cette intégration répond à la demande des grandes entreprises qui souhaitent <a href='https://openai.com/index/openai-on-oracle-cloud'>consolider leurs budgets cloud</a> tout en adoptant l'IA générative.",
+        "en": "On 10 June 2026, OpenAI announced an agreement with Oracle Cloud allowing enterprises to access GPT models and Codex using their existing cloud spending commitments. Oracle customers can now deploy and build AI applications with Oracle's enterprise security and governance, without additional infrastructure costs. This integration responds to demand from large enterprises seeking to <a href='https://openai.com/index/openai-on-oracle-cloud'>consolidate their cloud budgets</a> while adopting generative AI.",
+        "de": "OpenAI hat am 10. Juni 2026 eine Vereinbarung mit Oracle Cloud bekannt gegeben, die es Unternehmen ermöglicht, über ihre bestehenden Cloud-Ausgabenverpflichtungen auf die GPT-Modelle und Codex zuzugreifen. Oracle-Kunden können nun KI-Anwendungen mit der Sicherheit und Governance von Oracle bereitstellen und entwickeln, ohne zusätzliche Infrastrukturkosten. Diese Integration reagiert auf die Nachfrage grosser Unternehmen, die <a href='https://openai.com/index/openai-on-oracle-cloud'>ihre Cloud-Budgets konsolidieren</a> und gleichzeitig generative KI einführen möchten.",
+        "it": "OpenAI ha annunciato il 10 giugno 2026 un accordo con Oracle Cloud che consente alle aziende di accedere ai modelli GPT e a Codex utilizzando i loro impegni di spesa cloud esistenti. I clienti Oracle possono ora distribuire e costruire applicazioni di IA con la sicurezza e la governance aziendale di Oracle, senza costi infrastrutturali aggiuntivi. Questa integrazione risponde alla domanda delle grandi aziende che desiderano <a href='https://openai.com/index/openai-on-oracle-cloud'>consolidare i propri budget cloud</a> adottando al contempo l'IA generativa.",
+        "lmo": "OpenAI l'ha anunziaa el 10 de giugn 2026 on accord con Oracle Cloud che 'l permet ai aziend de doperà i modèj GPT e Codex cont i sò impegn de spesa cloud esistent. I client Oracle poden adess mett in pee e costruì di applicazion d'IA con la sicurezza e la governance d'impresa de Oracle, senza cost supplementar d'infrastruttura. Sta integrazion la respond a la domanda di grand aziend che vœuren <a href='https://openai.com/index/openai-on-oracle-cloud'>consolidà i sò budget cloud</a> intant che adotten l'IA generativa."
+      },
+      "tag": {
+        "fr": "Partenariat",
+        "en": "Partnership",
+        "de": "Partnerschaft",
+        "it": "Partnership",
+        "lmo": "Partenariato"
+      },
+      "urls": [
+        "https://openai.com/index/openai-on-oracle-cloud"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Arbor : un cadre d'IA pour la recherche scientifique autonome",
+        "en": "Arbor: an AI framework for autonomous scientific research",
+        "de": "Arbor: Ein KI-Framework für autonome wissenschaftliche Forschung",
+        "it": "Arbor: un framework IA per la ricerca scientifica autonoma",
+        "lmo": "Arbor: on framework d'IA per la ricerca scentifica autonoma"
+      },
+      "body": {
+        "fr": "Des chercheurs du NLPIR Lab de l'Université Renmin de Chine ont présenté le 10 juin 2026 Arbor, un framework généraliste de recherche autonome qui combine un coordinateur longue durée, des exécuteurs temporaires et un arbre d'hypothèses persistant. Sur six tâches réelles (entraînement de modèles, ingénierie de harnais, synthèse de données), Arbor obtient le meilleur résultat sur l'ensemble des six, avec un gain relatif moyen de plus de 2,5× par rapport à Codex et Claude Code. Sur <a href='https://ruc-nlpir.github.io/Arbor/'>MLE-Bench Lite</a>, Arbor atteint 86,36 % de médailles avec GPT-5.5.",
+        "en": "Researchers from the NLPIR Lab at Renmin University of China presented Arbor on 10 June 2026, a general-purpose autonomous research framework combining a long-lived coordinator, temporary executors, and a persistent hypothesis tree. Across six real-world tasks (model training, harness engineering, data synthesis), Arbor achieves the best result on all six, with an average relative gain of more than 2.5× over Codex and Claude Code. On <a href='https://ruc-nlpir.github.io/Arbor/'>MLE-Bench Lite</a>, Arbor reaches 86.36% medals with GPT-5.5.",
+        "de": "Forscher des NLPIR Lab der Renmin-Universität China haben am 10. Juni 2026 Arbor vorgestellt, ein allgemeines Framework für autonome Forschung, das einen langlebigen Koordinator, temporäre Ausführer und einen persistenten Hypothesenbaum kombiniert. Bei sechs realen Aufgaben (Modelltraining, Harness-Engineering, Datensynthese) erzielt Arbor auf allen sechs das beste Ergebnis, mit einem durchschnittlichen relativen Gewinn von über 2,5× im Vergleich zu Codex und Claude Code. Auf <a href='https://ruc-nlpir.github.io/Arbor/'>MLE-Bench Lite</a> erreicht Arbor mit GPT-5.5 86,36 % Medaillen.",
+        "it": "Ricercatori del NLPIR Lab dell'Università Renmin di Cina hanno presentato il 10 giugno 2026 Arbor, un framework generalista di ricerca autonoma che combina un coordinatore a lunga durata, esecutori temporanei e un albero di ipotesi persistente. Su sei compiti reali (addestramento di modelli, ingegneria di harness, sintesi di dati), Arbor ottiene il miglior risultato su tutti e sei, con un guadagno relativo medio di oltre 2,5× rispetto a Codex e Claude Code. Su <a href='https://ruc-nlpir.github.io/Arbor/'>MLE-Bench Lite</a>, Arbor raggiunge l'86,36% di medaglie con GPT-5.5.",
+        "lmo": "Di ricercador del NLPIR Lab de l'Università Renmin de Cina hann presenta el 10 de giugn 2026 Arbor, on framework generalista de ricerca autonoma che 'l combina on coordinator longh, di esecutor temporani e on alber d'ipotesi persistent. Sora ses compit reai (entrenament de modèj, ingegneria de harnes, sintesi de dat), Arbor l'è el mej sora tucc ses, con on guadagn relativ medi de pussee de 2,5× rispett a Codex e Claude Code. Sora <a href='https://ruc-nlpir.github.io/Arbor/'>MLE-Bench Lite</a>, Arbor el riva a 86,36 % de medaj con GPT-5.5."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://ruc-nlpir.github.io/Arbor/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "xAI visé par une plainte pour licenciement abusif d'un ingénieur safety",
+        "en": "xAI hit with lawsuit over wrongful dismissal of safety engineer",
+        "de": "xAI wegen unrechtmässiger Kündigung eines Safety-Ingenieurs verklagt",
+        "it": "xAI nel mirino di una causa per licenziamento ingiustificato di un ingegnere safety",
+        "lmo": "xAI missa in mira de ona querej per licenziament abusiv d'on ingegner safety"
+      },
+      "body": {
+        "fr": "Un ancien ingénieur de xAI a intenté une action en justice le 10 juin 2026 contre l'entreprise et SpaceX, alléguant qu'il a été licencié pour avoir soulevé des préoccupations de sécurité concernant le modèle Grok, quelques jours avant l'introduction en bourse historique de SpaceX. Selon <a href='https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/'>TechCrunch</a>, la plainte détaille des alertes internes ignorées par la direction, relançant le débat sur les pratiques de sécurité dans les entreprises d'IA non cotées.",
+        "en": "A former xAI engineer filed a lawsuit on 10 June 2026 against the company and SpaceX, alleging he was fired for raising safety concerns about the Grok model, just days before SpaceX's historic IPO. According to <a href='https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/'>TechCrunch</a>, the complaint details internal warnings ignored by management, reigniting debate over safety practices at unlisted AI companies.",
+        "de": "Ein ehemaliger Ingenieur von xAI hat am 10. Juni 2026 Klage gegen das Unternehmen und SpaceX eingereicht. Er behauptet, entlassen worden zu sein, nachdem er Sicherheitsbedenken bezüglich des Grok-Modells geäussert hatte – nur wenige Tage vor dem historischen Börsengang von SpaceX. Laut <a href='https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/'>TechCrunch</a> werden in der Klage interne Warnungen detailliert, die von der Geschäftsleitung ignoriert wurden, was die Debatte über Sicherheitspraktiken in nicht börsennotierten KI-Unternehmen neu entfacht.",
+        "it": "Un ex ingegnere di xAI ha intentato una causa il 10 giugno 2026 contro l'azienda e SpaceX, sostenendo di essere stato licenziato per aver sollevato preoccupazioni di sicurezza riguardo al modello Grok, pochi giorni prima dell'IPO storica di SpaceX. Secondo <a href='https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/'>TechCrunch</a>, la denuncia dettaglia allarmi interni ignorati dalla dirigenza, riaprendo il dibattito sulle pratiche di sicurezza nelle aziende di IA non quotate.",
+        "lmo": "On ex ingegner de xAI l'ha faa su ona azion in giustizia el 10 de giugn 2026 contra l'azienda e SpaceX, disend che l'è staa licenziaa per avè sollevaa di preoccupazion de sicurezza sora el modèll Grok, on quaj dì prima de l'introduzion in borsa storega de SpaceX. Segond <a href='https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/'>TechCrunch</a>, la querej la detaja di alert intern ignoraa de la direzion, e la torna a dervì el debat sora i pratich de sicurezza in di aziend d'IA no quotaa."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Safety",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sicurezza"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/06/10/xai-fired-an-engineer-who-raised-alarms-about-grok-safety-new-lawsuit-claims/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèj & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "DiffusionGemma : un modèle open source 4× plus rapide par diffusion",
+                "en": "DiffusionGemma: an open-source model 4× faster via diffusion",
+                "de": "DiffusionGemma: Ein Open-Source-Modell, 4× schneller durch Diffusion",
+                "it": "DiffusionGemma: un modello open source 4× più veloce per diffusione",
+                "lmo": "DiffusionGemma: on modèll open source 4× pussee svelt per diffusion"
+              },
+              "body": {
+                "fr": "Google DeepMind a publié le 10 juin 2026 DiffusionGemma, un modèle de 26 milliards de paramètres (MoE) qui génère du texte par diffusion au lieu de la prédiction token par token. Le modèle atteint environ 1 000 tokens par seconde sur un GPU H100, soit quatre fois plus vite que les modèles autorégressifs comparables. Google le présente comme un outil expérimental, la qualité de sortie restant inférieure. Le modèle est disponible en open source et s'intègre avec vLLM. <a href='https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/'>The Decoder</a> note que cette approche pourrait ouvrir la voie à des architectures hybrides combinant vitesse et qualité.",
+                "en": "On 10 June 2026, Google DeepMind released DiffusionGemma, a 26-billion-parameter model (MoE) that generates text via diffusion instead of token-by-token prediction. The model achieves roughly 1,000 tokens per second on an H100 GPU, four times faster than comparable autoregressive models. Google presents it as an experimental tool, with output quality still lagging behind. The model is available as open source and integrates with vLLM. <a href='https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/'>The Decoder</a> notes that this approach could pave the way for hybrid architectures combining speed and quality.",
+                "de": "Google DeepMind hat am 10. Juni 2026 DiffusionGemma veröffentlicht, ein Modell mit 26 Milliarden Parametern (MoE), das Text durch Diffusion statt durch tokenweise Vorhersage generiert. Das Modell erreicht auf einer H100-GPU rund 1'000 Tokens pro Sekunde – viermal schneller als vergleichbare autoregressive Modelle. Google präsentiert es als experimentelles Werkzeug; die Ausgabequalität bleibt geringer. Das Modell ist als Open Source verfügbar und lässt sich in vLLM integrieren. <a href='https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/'>The Decoder</a> merkt an, dass dieser Ansatz den Weg für hybride Architekturen ebnen könnte, die Geschwindigkeit und Qualität kombinieren.",
+                "it": "Google DeepMind ha pubblicato il 10 giugno 2026 DiffusionGemma, un modello da 26 miliardi di parametri (MoE) che genera testo tramite diffusione invece della predizione token per token. Il modello raggiunge circa 1.000 token al secondo su una GPU H100, quattro volte più veloce dei modelli autoregressivi comparabili. Google lo presenta come uno strumento sperimentale, con una qualità di output ancora inferiore. Il modello è disponibile in open source e si integra con vLLM. <a href='https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/'>The Decoder</a> nota che questo approccio potrebbe aprire la strada ad architetture ibride che combinano velocità e qualità.",
+                "lmo": "Google DeepMind l'ha publicaa el 10 de giugn 2026 DiffusionGemma, on modèll de 26 miliard de parametri (MoE) che 'l genera test per diffusion inveci de la prevision token per token. El modèll el riva a circa 1 000 token per segond sora on GPU H100, o ben quatter voeult pussee svelt di modèj autoregressiv compagn. Google el presenta 'me strument sperimental, con la qualità de sortida che la resta inferiora. El modèll l'è disponibil in open source e 'l se integra con vLLM. <a href='https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/'>The Decoder</a> el nota che sta approcc la podaria dervì la strada a di architettur ibrid che combinen velocità e qualità."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://the-decoder.com/googles-new-open-model-diffusiongemma-generates-text-from-noise-instead-of-word-by-word/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "o3-pro disponible sur l'API, baisse des prix pour o3",
+                "en": "o3-pro available on the API, price cuts for o3",
+                "de": "o3-pro auf der API verfügbar, Preissenkung für o3",
+                "it": "o3-pro disponibile sull'API, riduzione dei prezzi per o3",
+                "lmo": "o3-pro disponibil in su l'API, sbassament di prezzi per o3"
+              },
+              "body": {
+                "fr": "OpenAI a mis à disposition le 10 juin 2026 o3-pro, une version du modèle de raisonnement o3 qui utilise davantage de calcul pour répondre aux problèmes difficiles avec une meilleure cohérence. Parallèlement, les prix du modèle o3 ont été réduits pour toutes les requêtes API, y compris le traitement par lots et flex. <a href='https://platform.openai.com/api/docs/models/o3-pro'>La documentation</a> précise que o3-pro est optimisé pour les tâches de raisonnement complexes nécessitant une précision maximale.",
+                "en": "On 10 June 2026, OpenAI made o3-pro available, a version of the o3 reasoning model that uses more computation to answer difficult problems with greater consistency. At the same time, prices for the o3 model were reduced for all API requests, including batch and flex processing. <a href='https://platform.openai.com/api/docs/models/o3-pro'>The documentation</a> states that o3-pro is optimised for complex reasoning tasks requiring maximum accuracy.",
+                "de": "OpenAI hat am 10. Juni 2026 o3-pro bereitgestellt, eine Version des Reasoning-Modells o3, die mehr Rechenleistung nutzt, um schwierige Probleme mit besserer Konsistenz zu lösen. Gleichzeitig wurden die Preise für das o3-Modell für alle API-Anfragen gesenkt, einschliesslich Batch- und Flex-Verarbeitung. <a href='https://platform.openai.com/api/docs/models/o3-pro'>Die Dokumentation</a> präzisiert, dass o3-pro für komplexe Reasoning-Aufgaben optimiert ist, die höchste Präzision erfordern.",
+                "it": "OpenAI ha reso disponibile il 10 giugno 2026 o3-pro, una versione del modello di ragionamento o3 che utilizza più calcolo per rispondere a problemi difficili con maggiore coerenza. Parallelamente, i prezzi del modello o3 sono stati ridotti per tutte le richieste API, inclusi il batch processing e flex. <a href='https://platform.openai.com/api/docs/models/o3-pro'>La documentazione</a> precisa che o3-pro è ottimizzato per compiti di ragionamento complessi che richiedono la massima precisione.",
+                "lmo": "OpenAI l'ha mett a disposizion el 10 de giugn 2026 o3-pro, ona version del modèll de resonament o3 che la dopera pussee de calcol per respond ai problema difficij con ona coerenza mej. In del midemm temp, i prezzi del modèll o3 hinn staa sbassaa per tucc i richiest API, compres el tratament per lott e flex. <a href='https://platform.openai.com/api/docs/models/o3-pro'>La documentazion</a> la precisa che o3-pro l'è ottimizzaa per i compit de resonament compless che gh'hann besogn de la massima precision."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://platform.openai.com/api/docs/models/o3-pro"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nouveau sélecteur de modèle simplifié sur iOS et Android",
+                "en": "New simplified model selector on iOS and Android",
+                "de": "Neuer vereinfachter Modellwähler auf iOS und Android",
+                "it": "Nuovo selettore di modello semplificato su iOS e Android",
+                "lmo": "Noeuv selector de modèll semplificaa sora iOS e Android"
+              },
+              "body": {
+                "fr": "ChatGPT a déployé le 10 juin 2026 une refonte de son sélecteur de modèle sur iOS et Android, proposant désormais six niveaux simplifiés : Instant, Medium, High, Extra High (réservé aux abonnés Pro), Pro Standard et Pro Extended. Cette simplification vise à aider les utilisateurs à choisir le bon équilibre entre vitesse et effort de raisonnement sans avoir à comprendre les spécificités techniques de chaque modèle. <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>Les notes de version</a> indiquent que les utilisateurs Pro conservent l'accès aux options avancées.",
+                "en": "On 10 June 2026, ChatGPT rolled out a redesigned model selector on iOS and Android, now offering six simplified tiers: Instant, Medium, High, Extra High (reserved for Pro subscribers), Pro Standard, and Pro Extended. This simplification aims to help users choose the right balance between speed and reasoning effort without needing to understand the technical specifics of each model. <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>The release notes</a> indicate that Pro users retain access to advanced options.",
+                "de": "ChatGPT hat am 10. Juni 2026 eine Überarbeitung seines Modellwählers auf iOS und Android eingeführt, der nun sechs vereinfachte Stufen bietet: Instant, Medium, High, Extra High (nur für Pro-Abonnenten), Pro Standard und Pro Extended. Diese Vereinfachung soll Nutzern helfen, die richtige Balance zwischen Geschwindigkeit und Reasoning-Aufwand zu wählen, ohne die technischen Details jedes Modells verstehen zu müssen. <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>Die Versionshinweise</a> geben an, dass Pro-Nutzer weiterhin Zugriff auf die erweiterten Optionen haben.",
+                "it": "ChatGPT ha distribuito il 10 giugno 2026 un restyling del suo selettore di modello su iOS e Android, proponendo ora sei livelli semplificati: Instant, Medium, High, Extra High (riservato agli abbonati Pro), Pro Standard e Pro Extended. Questa semplificazione mira ad aiutare gli utenti a scegliere il giusto equilibrio tra velocità e sforzo di ragionamento senza dover comprendere le specifiche tecniche di ogni modello. <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>Le note di rilascio</a> indicano che gli utenti Pro mantengono l'accesso alle opzioni avanzate.",
+                "lmo": "ChatGPT l'ha mett in pee el 10 de giugn 2026 ona refont del sò selector de modèll sora iOS e Android, che 'l propon adess ses nivell semplificaa: Instant, Medium, High, Extra High (reservaa ai abonaa Pro), Pro Standard e Pro Extended. Sta semplificazion la vœul aiutà i utent a scernì el giust equilibri tra velocità e sforz de resonament senza avè de capì i specificità tecnich de ogni modèll. <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>I not de version</a> indiquen che i utent Pro conserven l'access ai opzion avanzad."
+              },
+              "kicker": {
+                "fr": "ChatGPT",
+                "en": "ChatGPT",
+                "de": "ChatGPT",
+                "it": "ChatGPT",
+                "lmo": "ChatGPT"
+              },
+              "urls": [
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Technisches Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harness & CLI",
+            "de": "Harness & CLI",
+            "it": "Harness & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Sous-agents récursifs jusqu'à 5 niveaux de profondeur",
+                "en": "Recursive sub-agents up to 5 levels deep",
+                "de": "Rekursive Unteragenten bis zu 5 Ebenen Tiefe",
+                "it": "Sottoagenti ricorsivi fino a 5 livelli di profondità",
+                "lmo": "Sota-agent ricorsiv fina a 5 nivell de profondità"
+              },
+              "body": {
+                "fr": "La version 2.1.172 de Claude Code, publiée le 10 juin 2026, introduit une fonctionnalité majeure : les sous-agents peuvent désormais créer leurs propres sous-agents, jusqu'à cinq niveaux de profondeur. Cette capacité de délégation récursive permet de décomposer des tâches complexes en hiérarchies d'agents spécialisés. La mise à jour ajoute également une barre de recherche dans le navigateur de plugins marketplace et expose l'attribut `model` dans la métrique OTEL <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.172'>`claude_code.lines_of_code.count`</a>. Un correctif résout un blocage permanent des sessions utilisant le contexte 1M sans crédits d'utilisation.",
+                "en": "Claude Code version 2.1.172, released on 10 June 2026, introduces a major feature: sub-agents can now create their own sub-agents, up to five levels deep. This recursive delegation capability allows complex tasks to be broken down into hierarchies of specialised agents. The update also adds a search bar to the marketplace plugin browser and exposes the `model` attribute in the OTEL metric <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.172'>`claude_code.lines_of_code.count`</a>. A fix resolves a permanent session freeze for users of the 1M context without usage credits.",
+                "de": "Version 2.1.172 von Claude Code, veröffentlicht am 10. Juni 2026, führt eine bedeutende Funktion ein: Unteragenten können nun ihre eigenen Unteragenten erstellen, bis zu fünf Ebenen tief. Diese Fähigkeit zur rekursiven Delegation ermöglicht die Zerlegung komplexer Aufgaben in Hierarchien spezialisierter Agenten. Das Update fügt zudem eine Suchleiste im Marketplace-Plugin-Browser hinzu und legt das Attribut `model` in der OTEL-Metrik <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.172'>`claude_code.lines_of_code.count`</a> offen. Ein Fehlerbehebung behebt eine dauerhafte Blockade von Sitzungen, die den 1M-Kontext ohne Nutzungsguthaben verwenden.",
+                "it": "La versione 2.1.172 di Claude Code, pubblicata il 10 giugno 2026, introduce una funzionalità importante: i sottoagenti possono ora creare i propri sottoagenti, fino a cinque livelli di profondità. Questa capacità di delega ricorsiva consente di scomporre compiti complessi in gerarchie di agenti specializzati. L'aggiornamento aggiunge anche una barra di ricerca nel browser dei plugin marketplace ed espone l'attributo `model` nella metrica OTEL <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.172'>`claude_code.lines_of_code.count`</a>. Una correzione risolve un blocco permanente delle sessioni che utilizzano il contesto 1M senza crediti di utilizzo.",
+                "lmo": "La version 2.1.172 de Claude Code, publicada el 10 de giugn 2026, la introdux ona fonzionalità importanta: i sota-agent poden adess creà i sò sota-agent, fina a cinch nivell de profondità. Sta capacità de delegazion ricorsiva la permet de scomponn di compit compless in gerarchij de agent specializzaa. L'aggiornament el gionta anca ona barra de ricerca in del navigador de plugin marketplace e 'l met in mostra l'attribut `model` in la metrica OTEL <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.172'>`claude_code.lines_of_code.count`</a>. On correttiv el risolv on blocc permanent di session che doperen el contest 1M senza credit d'utilizz."
+              },
+              "kicker": {
+                "fr": "Claude Code",
+                "en": "Claude Code",
+                "de": "Claude Code",
+                "it": "Claude Code",
+                "lmo": "Claude Code"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.172"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Version 0.47.0 : support de Gemini 3.5 Flash en mode auto",
+                "en": "Version 0.47.0: support for Gemini 3.5 Flash in auto mode",
+                "de": "Version 0.47.0: Unterstützung von Gemini 3.5 Flash im Auto-Modus",
+                "it": "Versione 0.47.0: supporto di Gemini 3.5 Flash in modalità auto",
+                "lmo": "Version 0.47.0: support de Gemini 3.5 Flash in modalità auto"
+              },
+              "body": {
+                "fr": "Google a publié le 10 juin 2026 la version 0.47.0-preview.0 de Gemini CLI, qui met à jour le mode automatique pour utiliser Gemini 3.5 Flash lorsque le flag expérimental est activé. La version 0.46.0, également publiée le 10 juin, apporte des correctifs de robustesse pour le redimensionnement PTY et la gestion des éditeurs invalides. <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0'>Les notes de version</a> mentionnent également une transition vers le modèle Flash GA.",
+                "en": "On 10 June 2026, Google released version 0.47.0-preview.0 of Gemini CLI, which updates the automatic mode to use Gemini 3.5 Flash when the experimental flag is enabled. Version 0.46.0, also released on 10 June, brings robustness fixes for PTY resizing and handling of invalid editors. <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0'>The release notes</a> also mention a transition to the Flash GA model.",
+                "de": "Google hat am 10. Juni 2026 die Version 0.47.0-preview.0 von Gemini CLI veröffentlicht, die den automatischen Modus aktualisiert, um Gemini 3.5 Flash zu verwenden, wenn das experimentelle Flag aktiviert ist. Version 0.46.0, ebenfalls am 10. Juni veröffentlicht, bringt Robustheitskorrekturen für die PTY-Grössenanpassung und die Behandlung ungültiger Editoren. <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0'>Die Versionshinweise</a> erwähnen auch einen Übergang zum Flash-GA-Modell.",
+                "it": "Google ha pubblicato il 10 giugno 2026 la versione 0.47.0-preview.0 di Gemini CLI, che aggiorna la modalità automatica per utilizzare Gemini 3.5 Flash quando il flag sperimentale è attivato. La versione 0.46.0, anch'essa pubblicata il 10 giugno, apporta correzioni di robustezza per il ridimensionamento PTY e la gestione di editor non validi. <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0'>Le note di rilascio</a> menzionano anche una transizione verso il modello Flash GA.",
+                "lmo": "Google l'ha publicaa el 10 de giugn 2026 la version 0.47.0-preview.0 de Gemini CLI, che la met a giorn la modalità automatica per doperà Gemini 3.5 Flash quand che 'l flag sperimental l'è ativaa. La version 0.46.0, anca lee publicada el 10 de giugn, la porta di correttiv de robustezza per el redimensionament PTY e la gestion di editor invalid. <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0'>I not de version</a> menzionen anca ona transizion vers el modèll Flash GA."
+              },
+              "kicker": {
+                "fr": "Gemini CLI",
+                "en": "Gemini CLI",
+                "de": "Gemini CLI",
+                "it": "Gemini CLI",
+                "lmo": "Gemini CLI"
+              },
+              "urls": [
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0-preview.0",
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.46.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Six versions alpha de Codex CLI publiées en une journée",
+                "en": "Six alpha versions of Codex CLI released in a single day",
+                "de": "Sechs Alpha-Versionen von Codex CLI an einem Tag veröffentlicht",
+                "it": "Sei versioni alpha di Codex CLI pubblicate in un giorno",
+                "lmo": "Ses version alpha de Codex CLI publicaa in d'on dì"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 10 juin 2026 six versions alpha de Codex CLI (de 0.140.0-alpha.2 à 0.140.0-alpha.7), dont une version Rust dédiée (rust-v0.140.0-alpha.6). Cette cadence de publication suggère un développement actif avec des correctifs itératifs. Les versions sont disponibles sur <a href='https://github.com/openai/codex/releases'>le dépôt GitHub d'OpenAI</a>.",
+                "en": "On 10 June 2026, OpenAI released six alpha versions of Codex CLI (from 0.140.0-alpha.2 to 0.140.0-alpha.7), including a dedicated Rust version (rust-v0.140.0-alpha.6). This release cadence suggests active development with iterative fixes. The versions are available on <a href='https://github.com/openai/codex/releases'>OpenAI's GitHub repository</a>.",
+                "de": "OpenAI hat am 10. Juni 2026 sechs Alpha-Versionen von Codex CLI veröffentlicht (von 0.140.0-alpha.2 bis 0.140.0-alpha.7), darunter eine dedizierte Rust-Version (rust-v0.140.0-alpha.6). Dieses Veröffentlichungstempo deutet auf eine aktive Entwicklung mit iterativen Korrekturen hin. Die Versionen sind auf <a href='https://github.com/openai/codex/releases'>dem GitHub-Repository von OpenAI</a> verfügbar.",
+                "it": "OpenAI ha pubblicato il 10 giugno 2026 sei versioni alpha di Codex CLI (da 0.140.0-alpha.2 a 0.140.0-alpha.7), inclusa una versione Rust dedicata (rust-v0.140.0-alpha.6). Questa cadenza di pubblicazione suggerisce uno sviluppo attivo con correzioni iterative. Le versioni sono disponibili su <a href='https://github.com/openai/codex/releases'>il repository GitHub di OpenAI</a>.",
+                "lmo": "OpenAI l'ha publicaa el 10 de giugn 2026 ses version alpha de Codex CLI (de 0.140.0-alpha.2 a 0.140.0-alpha.7), compres ona version Rust dedicada (rust-v0.140.0-alpha.6). Sta cadenza de pubblicazion la suggeriss on desvilupp ativ con di correttiv iterativ. I version hinn disponibil sora <a href='https://github.com/openai/codex/releases'>el deposit GitHub d'OpenAI</a>."
+              },
+              "kicker": {
+                "fr": "Codex CLI",
+                "en": "Codex CLI",
+                "de": "Codex CLI",
+                "it": "Codex CLI",
+                "lmo": "Codex CLI"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs & Inférence",
+            "en": "Engines & Inference",
+            "de": "Engines & Inferenz",
+            "it": "Motori & Inferenza",
+            "lmo": "Motor & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Build b9592 : mise à jour de LibreSSL et correctifs multiplateformes",
+                "en": "Build b9592: LibreSSL update and cross-platform fixes",
+                "de": "Build b9592: LibreSSL-Update und plattformübergreifende Korrekturen",
+                "it": "Build b9592: aggiornamento di LibreSSL e correzioni multipiattaforma",
+                "lmo": "Build b9592: aggiornament de LibreSSL e correttiv multi-piattaforma"
+              },
+              "body": {
+                "fr": "La version b9592 de llama.cpp, publiée le 10 juin 2026, met à jour LibreSSL vers la version 4.3.2. Cette build est disponible pour macOS (Apple Silicon et Intel), Linux (x64, arm64, s390x), Windows (CPU, CUDA 12/13, Vulkan, HIP), Android et iOS. <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9592'>Les binaires</a> incluent des versions avec support Vulkan, ROCm 7.2 et OpenVINO.",
+                "en": "Version b9592 of llama.cpp, released on 10 June 2026, updates LibreSSL to version 4.3.2. This build is available for macOS (Apple Silicon and Intel), Linux (x64, arm64, s390x), Windows (CPU, CUDA 12/13, Vulkan, HIP), Android, and iOS. <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9592'>The binaries</a> include versions with Vulkan, ROCm 7.2, and OpenVINO support.",
+                "de": "Version b9592 von llama.cpp, veröffentlicht am 10. Juni 2026, aktualisiert LibreSSL auf Version 4.3.2. Dieser Build ist verfügbar für macOS (Apple Silicon und Intel), Linux (x64, arm64, s390x), Windows (CPU, CUDA 12/13, Vulkan, HIP), Android und iOS. <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9592'>Die Binärdateien</a> enthalten Versionen mit Vulkan-, ROCm 7.2- und OpenVINO-Unterstützung.",
+                "it": "La versione b9592 di llama.cpp, pubblicata il 10 giugno 2026, aggiorna LibreSSL alla versione 4.3.2. Questa build è disponibile per macOS (Apple Silicon e Intel), Linux (x64, arm64, s390x), Windows (CPU, CUDA 12/13, Vulkan, HIP), Android e iOS. <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9592'>I binari</a> includono versioni con supporto Vulkan, ROCm 7.2 e OpenVINO.",
+                "lmo": "La version b9592 de llama.cpp, publicada el 10 de giugn 2026, la met a giorn LibreSSL a la version 4.3.2. Sta build l'è disponibil per macOS (Apple Silicon e Intel), Linux (x64, arm64, s390x), Windows (CPU, CUDA 12/13, Vulkan, HIP), Android e iOS. <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9592'>I binari</a> includen di version con support Vulkan, ROCm 7.2 e OpenVINO."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9592"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Version 0.6.3 : support de DiffusionGemma et Gemma 4 DLM",
+                "en": "Version 0.6.3: support for DiffusionGemma and Gemma 4 DLM",
+                "de": "Version 0.6.3: Unterstützung von DiffusionGemma und Gemma 4 DLM",
+                "it": "Versione 0.6.3: supporto di DiffusionGemma e Gemma 4 DLM",
+                "lmo": "Version 0.6.3: support de DiffusionGemma e Gemma 4 DLM"
+              },
+              "body": {
+                "fr": "La bibliothèque MLX-VLM a reçu le 10 juin 2026 une mise à jour majeure en version 0.6.3, avec l'ajout du support de DiffusionGemma et de Gemma 4 DLM (Diffusion Language Model). Les correctifs incluent la résolution d'un problème de préfill long-contexte pour DiffusionGemma, l'alignement des masques visuels Qwen3-VL sur la fenêtre de préfill/décodage courante, et l'amélioration du préfill spéculatif avec les drafters MTP. <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3'>La release</a> corrige également le chargement des modèles Phi 3.5 VL et LFM2.5 VL.",
+                "en": "The MLX-VLM library received a major update on 10 June 2026 with version 0.6.3, adding support for DiffusionGemma and Gemma 4 DLM (Diffusion Language Model). Fixes include resolution of a long-context prefill issue for DiffusionGemma, alignment of Qwen3-VL visual masks on the current prefill/decode window, and improved speculative prefill with MTP drafters. <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3'>The release</a> also fixes loading of Phi 3.5 VL and LFM2.5 VL models.",
+                "de": "Die Bibliothek MLX-VLM hat am 10. Juni 2026 ein grosses Update auf Version 0.6.3 erhalten, mit der Hinzufügung der Unterstützung für DiffusionGemma und Gemma 4 DLM (Diffusion Language Model). Die Korrekturen umfassen die Behebung eines Long-Context-Prefill-Problems für DiffusionGemma, die Ausrichtung der visuellen Masken von Qwen3-VL auf das aktuelle Prefill/Decode-Fenster und die Verbesserung des spekulativen Prefills mit MTP-Draftern. <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3'>Das Release</a> behebt auch das Laden der Modelle Phi 3.5 VL und LFM2.5 VL.",
+                "it": "La libreria MLX-VLM ha ricevuto il 10 giugno 2026 un aggiornamento importante alla versione 0.6.3, con l'aggiunta del supporto di DiffusionGemma e di Gemma 4 DLM (Diffusion Language Model). Le correzioni includono la risoluzione di un problema di prefill long-context per DiffusionGemma, l'allineamento delle maschere visive Qwen3-VL sulla finestra di prefill/decodifica corrente, e il miglioramento del prefill speculativo con i drafter MTP. <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3'>La release</a> corregge anche il caricamento dei modelli Phi 3.5 VL e LFM2.5 VL.",
+                "lmo": "La biblioteca MLX-VLM l'ha ricevud el 10 de giugn 2026 on aggiornament important in version 0.6.3, con l'gionta del support de DiffusionGemma e de Gemma 4 DLM (Diffusion Language Model). I correttiv includen la risoluzion d'on problema de prefill long-contest per DiffusionGemma, l'alignament di masche visiv Qwen3-VL sora la finestra de prefill/decodifega corenta, e 'l migliorament del prefill speculativ cont i drafter MTP. <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3'>La release</a> la corregg anca el caregament di modèj Phi 3.5 VL e LFM2.5 VL."
+              },
+              "kicker": {
+                "fr": "MLX-VLM",
+                "en": "MLX-VLM",
+                "de": "MLX-VLM",
+                "it": "MLX-VLM",
+                "lmo": "MLX-VLM"
+              },
+              "urls": [
+                "https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.3"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Version 0.4.4.dev1 : gestion mémoire améliorée et serveur d'embeddings natif",
+                "en": "Version 0.4.4.dev1: improved memory management and native embedding server",
+                "de": "Version 0.4.4.dev1: Verbesserte Speicherverwaltung und nativer Embedding-Server",
+                "it": "Versione 0.4.4.dev1: gestione memoria migliorata e server di embedding nativo",
+                "lmo": "Version 0.4.4.dev1: gestion memoria migliorada e server d'embedding nativ"
+              },
+              "body": {
+                "fr": "La version de développement 0.4.4.dev1 d'oMLX, publiée le 10 juin 2026, améliore la gestion de la mémoire sous pression, la fiabilité du cache SSD paginé, et ajoute le service natif d'embeddings et de reranker. Le support des modèles audio TTS est étendu avec le forwarding du champ `language`. <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>Les améliorations</a> incluent également la détection des modèles Gemma 4 Unified comme VLMs et la découverte des modèles NeMo ASR.",
+                "en": "Development version 0.4.4.dev1 of oMLX, released on 10 June 2026, improves memory management under pressure, the reliability of the paged SSD cache, and adds native embedding and reranker services. TTS audio model support is extended with forwarding of the `language` field. <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>The improvements</a> also include detection of Gemma 4 Unified models as VLMs and discovery of NeMo ASR models.",
+                "de": "Die Entwicklungsversion 0.4.4.dev1 von oMLX, veröffentlicht am 10. Juni 2026, verbessert die Speicherverwaltung unter Druck, die Zuverlässigkeit des ausgelagerten SSD-Caches und fügt den nativen Embedding- und Reranker-Dienst hinzu. Die Unterstützung für Audio-TTS-Modelle wird durch die Weiterleitung des Feldes `language` erweitert. <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>Die Verbesserungen</a> umfassen auch die Erkennung von Gemma 4 Unified-Modellen als VLMs und die Erkennung von NeMo-ASR-Modellen.",
+                "it": "La versione di sviluppo 0.4.4.dev1 di oMLX, pubblicata il 10 giugno 2026, migliora la gestione della memoria sotto pressione, l'affidabilità della cache SSD paginata, e aggiunge il servizio nativo di embedding e reranker. Il supporto dei modelli audio TTS è esteso con l'inoltro del campo `language`. <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>I miglioramenti</a> includono anche il rilevamento dei modelli Gemma 4 Unified come VLM e la scoperta dei modelli NeMo ASR.",
+                "lmo": "La version de desvilupp 0.4.4.dev1 d'oMLX, publicada el 10 de giugn 2026, la migliora la gestion de la memoria sotta pression, la fidabilità del cache SSD paginaa, e la gionta el servizzi nativ d'embedding e de reranker. El support di modèj audio TTS l'è slargaa cont el forwarding del camp `language`. <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1'>I migliorament</a> includen anca la rilevazion di modèj Gemma 4 Unified 'me VLM e la scoperta di modèj NeMo ASR."
+              },
+              "kicker": {
+                "fr": "oMLX",
+                "en": "oMLX",
+                "de": "oMLX",
+                "it": "oMLX",
+                "lmo": "oMLX"
+              },
+              "urls": [
+                "https://github.com/jundot/omlx/releases/tag/v0.4.4.dev1"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papers & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Papers & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Keye-VL-2.0 : un modèle MoE multimodal open source pour la vidéo longue",
+                "en": "Keye-VL-2.0: an open-source multimodal MoE model for long video",
+                "de": "Keye-VL-2.0: Ein multimodales Open-Source-MoE-Modell für lange Videos",
+                "it": "Keye-VL-2.0: un modello MoE multimodale open source per video lunghi",
+                "lmo": "Keye-VL-2.0: on modèll MoE multimodal open source per la video longa"
+              },
+              "body": {
+                "fr": "Kwai (Kuaishou) a publié le 10 juin 2026 Keye-VL-2.0-30B-A3B, un modèle de fondation multimodal open source de type Mixture-of-Experts avec 30 milliards de paramètres totaux et 3 milliards d'actifs. C'est le premier modèle à adapter DeepSeek Sparse Attention (DSA) aux architectures GQA, permettant un traitement sans perte de contextes de 256K tokens. Le modèle excelle sur les benchmarks de vidéo longue (Video-MME-v2, LongVideoBench) et de localisation temporelle fine (TimeLens). <a href='https://huggingface.co/papers/2606.10651'>Le rapport technique</a> détaille l'infrastructure d'entraînement optimisée incluant le parallélisme hétérogène ViT-LM.",
+                "en": "On 10 June 2026, Kwai (Kuaishou) released Keye-VL-2.0-30B-A3B, an open-source multimodal foundation model of the Mixture-of-Experts type with 30 billion total parameters and 3 billion active parameters. It is the first model to adapt DeepSeek Sparse Attention (DSA) to GQA architectures, enabling lossless processing of 256K-token contexts. The model excels on long-video benchmarks (Video-MME-v2, LongVideoBench) and fine-grained temporal localisation (TimeLens). <a href='https://huggingface.co/papers/2606.10651'>The technical report</a> details the optimised training infrastructure including heterogeneous ViT-LM parallelism.",
+                "de": "Kwai (Kuaishou) hat am 10. Juni 2026 Keye-VL-2.0-30B-A3B veröffentlicht, ein multimodales Open-Source-Basismodell vom Typ Mixture-of-Experts mit insgesamt 30 Milliarden Parametern und 3 Milliarden aktiven Parametern. Es ist das erste Modell, das DeepSeek Sparse Attention (DSA) an GQA-Architekturen anpasst und eine verlustfreie Verarbeitung von Kontexten mit 256K Tokens ermöglicht. Das Modell zeichnet sich bei Benchmarks für lange Videos (Video-MME-v2, LongVideoBench) und feinkörniger zeitlicher Lokalisierung (TimeLens) aus. <a href='https://huggingface.co/papers/2606.10651'>Der technische Bericht</a> beschreibt die optimierte Trainingsinfrastruktur einschliesslich heterogenem ViT-LM-Parallelismus.",
+                "it": "Kwai (Kuaishou) ha pubblicato il 10 giugno 2026 Keye-VL-2.0-30B-A3B, un modello di fondazione multimodale open source di tipo Mixture-of-Experts con 30 miliardi di parametri totali e 3 miliardi attivi. È il primo modello ad adattare DeepSeek Sparse Attention (DSA) alle architetture GQA, consentendo un'elaborazione senza perdita di contesti di 256K token. Il modello eccelle nei benchmark di video lunghi (Video-MME-v2, LongVideoBench) e di localizzazione temporale fine (TimeLens). <a href='https://huggingface.co/papers/2606.10651'>Il rapporto tecnico</a> dettaglia l'infrastruttura di addestramento ottimizzata che include il parallelismo eterogeneo ViT-LM.",
+                "lmo": "Kwai (Kuaishou) l'ha publicaa el 10 de giugn 2026 Keye-VL-2.0-30B-A3B, on modèll de fondazion multimodal open source de tipo Mixture-of-Experts con 30 miliard de parametri totai e 3 miliard ativ. L'è 'l prim modèll a adattà DeepSeek Sparse Attention (DSA) ai architettur GQA, permettend on tratament senza perdita de contest de 256K token. El modèll l'è brav sora i benchmark de video longa (Video-MME-v2, LongVideoBench) e de localizazion temporal fina (TimeLens). <a href='https://huggingface.co/papers/2606.10651'>El rapport tecnich</a> el detaja l'infrastruttura d'entrenament ottimizada che la includ el parallelismo eterogeneo ViT-LM."
+              },
+              "kicker": {
+                "fr": "Kwai Keye",
+                "en": "Kwai Keye",
+                "de": "Kwai Keye",
+                "it": "Kwai Keye",
+                "lmo": "Kwai Keye"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.10651"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Flow-DPPO : un nouvel algorithme RL pour les modèles de diffusion",
+                "en": "Flow-DPPO: a new RL algorithm for diffusion models",
+                "de": "Flow-DPPO: Ein neuer RL-Algorithmus für Diffusionsmodelle",
+                "it": "Flow-DPPO: un nuovo algoritmo RL per modelli di diffusione",
+                "lmo": "Flow-DPPO: on noeuv algoritm RL per i modèj de diffusion"
+              },
+              "body": {
+                "fr": "Des chercheurs de Tencent Hunyuan ont proposé le 10 juin 2026 Flow-DPPO, un algorithme d'optimisation de politique proximale adapté aux modèles de flux (flow matching). Contrairement au ratio clipping standard de PPO, Flow-DPPO utilise une contrainte de divergence KL exacte, rendue possible car la politique par étape dans les modèles de flux est gaussienne. Les expériences montrent que Flow-DPPO atteint des récompenses plus élevées avec une meilleure efficacité KL-proximale, atténue l'oubli catastrophique et permet un entraînement multi-époques stable. <a href='https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO'>Le code</a> est disponible sur GitHub.",
+                "en": "Researchers from Tencent Hunyuan proposed Flow-DPPO on 10 June 2026, a proximal policy optimisation algorithm adapted for flow matching models. Unlike standard PPO's ratio clipping, Flow-DPPO uses an exact KL divergence constraint, made possible because the per-step policy in flow models is Gaussian. Experiments show that Flow-DPPO achieves higher rewards with better KL-proximal efficiency, mitigates catastrophic forgetting, and enables stable multi-epoch training. <a href='https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO'>The code</a> is available on GitHub.",
+                "de": "Forscher von Tencent Hunyuan haben am 10. Juni 2026 Flow-DPPO vorgeschlagen, einen Algorithmus zur Optimierung der proximalen Politik, der für Flussmodelle (Flow Matching) geeignet ist. Im Gegensatz zum standardmässigen Ratio-Clipping von PPO verwendet Flow-DPPO eine exakte KL-Divergenz-Beschränkung, die möglich ist, da die schrittweise Politik in Flussmodellen gaußsch ist. Experimente zeigen, dass Flow-DPPO höhere Belohnungen mit besserer KL-proximaler Effizienz erzielt, katastrophales Vergessen abschwächt und ein stabiles Multi-Epochen-Training ermöglicht. <a href='https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO'>Der Code</a> ist auf GitHub verfügbar.",
+                "it": "Ricercatori di Tencent Hunyuan hanno proposto il 10 giugno 2026 Flow-DPPO, un algoritmo di ottimizzazione della politica prossimale adattato ai modelli di flusso (flow matching). Contrariamente al ratio clipping standard di PPO, Flow-DPPO utilizza un vincolo di divergenza KL esatta, reso possibile poiché la politica passo-passo nei modelli di flusso è gaussiana. Gli esperimenti mostrano che Flow-DPPO raggiunge ricompense più elevate con una migliore efficienza KL-prossimale, attenua l'oblio catastrofico e consente un addestramento multi-epoche stabile. <a href='https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO'>Il codice</a> è disponibile su GitHub.",
+                "lmo": "Di ricercador de Tencent Hunyuan hann propost el 10 de giugn 2026 Flow-DPPO, on algoritm d'ottimizzazion de politica prossimal adattaa ai modèj de fluss (flow matching). Al contrari del ratio clipping standard de PPO, Flow-DPPO el dopera ona costrenza de divergenza KL esatta, possibil perchè la politica per pass in di modèj de fluss l'è gaussiana. I esperiment mostren che Flow-DPPO el riva a di ricompens pussee volt con ona mej efficienza KL-prossimal, el smorza l'oblì catastrofich e 'l permet on entrenament multi-epoch stabil. <a href='https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO'>El codes</a> l'è disponibil sora GitHub."
+              },
+              "kicker": {
+                "fr": "Tencent",
+                "en": "Tencent",
+                "de": "Tencent",
+                "it": "Tencent",
+                "lmo": "Tencent"
+              },
+              "urls": [
+                "https://github.com/Tencent-Hunyuan/UniRL/tree/main/FlowDPPO"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DeLM : systèmes multi-agents décentralisés avec contexte partagé",
+                "en": "DeLM: decentralised multi-agent systems with shared context",
+                "de": "DeLM: Dezentrale Multi-Agenten-Systeme mit gemeinsamem Kontext",
+                "it": "DeLM: sistemi multi-agente decentralizzati con contesto condiviso",
+                "lmo": "DeLM: sistema multi-agent decentraa con contest condividuu"
+              },
+              "body": {
+                "fr": "Des chercheurs de Stanford ont présenté le 10 juin 2026 DeLM (Decentralized Language Models), un framework multi-agents qui décentralise la coordination via des agents parallèles, un contexte vérifié partagé et une file de tâches. Sur SWE-bench Verified, DeLM améliore les scores de 10,5 points de pourcentage par rapport aux meilleurs modèles centralisés, tout en réduisant le coût par tâche d'environ 50 %. Sur LongBench-v2 Multi-Doc QA, le système atteint la meilleure précision moyenne sur quatre familles de modèles frontière. <a href='https://yuzhenmao.github.io/DeLM/'>Le code</a> est disponible en open source.",
+                "en": "Researchers from Stanford presented DeLM (Decentralised Language Models) on 10 June 2026, a multi-agent framework that decentralises coordination via parallel agents, a shared verified context, and a task queue. On SWE-bench Verified, DeLM improves scores by 10.5 percentage points over the best centralised models, while reducing cost per task by roughly 50%. On LongBench-v2 Multi-Doc QA, the system achieves the best average accuracy across four frontier model families. <a href='https://yuzhenmao.github.io/DeLM/'>The code</a> is available as open source.",
+                "de": "Forscher der Stanford University haben am 10. Juni 2026 DeLM (Decentralized Language Models) vorgestellt, ein Multi-Agenten-Framework, das die Koordination über parallele Agenten, einen gemeinsam genutzten verifizierten Kontext und eine Aufgabenwarteschlange dezentralisiert. Auf SWE-bench Verified verbessert DeLM die Ergebnisse um 10,5 Prozentpunkte gegenüber den besten zentralisierten Modellen und reduziert gleichzeitig die Kosten pro Aufgabe um etwa 50 %. Auf LongBench-v2 Multi-Doc QA erreicht das System die beste durchschnittliche Genauigkeit über vier Familien von Grenzmodellen hinweg. <a href='https://yuzhenmao.github.io/DeLM/'>Der Code</a> ist als Open Source verfügbar.",
+                "it": "Ricercatori di Stanford hanno presentato il 10 giugno 2026 DeLM (Decentralized Language Models), un framework multi-agente che decentralizza il coordinamento tramite agenti paralleli, un contesto verificato condiviso e una coda di compiti. Su SWE-bench Verified, DeLM migliora i punteggi di 10,5 punti percentuali rispetto ai migliori modelli centralizzati, riducendo al contempo il costo per compito di circa il 50%. Su LongBench-v2 Multi-Doc QA, il sistema raggiunge la migliore precisione media su quattro famiglie di modelli di frontiera. <a href='https://yuzhenmao.github.io/DeLM/'>Il codice</a> è disponibile in open source.",
+                "lmo": "Di ricercador de Stanford hann presenta el 10 de giugn 2026 DeLM (Decentralized Language Models), on framework multi-agent che 'l decentra la coordinazion via di agent parallej, on contest verifegaa condividuu e ona fila de compit. Sora SWE-bench Verified, DeLM el migliora i score de 10,5 pont percentuai rispett ai mej modèj centralizzaa, e 'l sbassa el cost per compit de circa 50 %. Sora LongBench-v2 Multi-Doc QA, el sistema el riva a la mej precision media sora quatter famej de modèj frontiera. <a href='https://yuzhenmao.github.io/DeLM/'>El codes</a> l'è disponibil in open source."
+              },
+              "kicker": {
+                "fr": "Stanford",
+                "en": "Stanford",
+                "de": "Stanford",
+                "it": "Stanford",
+                "lmo": "Stanford"
+              },
+              "urls": [
+                "https://yuzhenmao.github.io/DeLM/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "i1 : un modèle de text-to-image entièrement ouvert et compétitif",
+                "en": "i1: a fully open and competitive text-to-image model",
+                "de": "i1: Ein vollständig offenes und wettbewerbsfähiges Text-zu-Bild-Modell",
+                "it": "i1: un modello text-to-image completamente aperto e competitivo",
+                "lmo": "i1: on modèll de text-to-image completament avert e competitiv"
+              },
+              "body": {
+                "fr": "Le laboratoire ZLab de Princeton a publié le 10 juin 2026 i1, un modèle de diffusion text-to-image de 3 milliards de paramètres entraîné exclusivement sur des jeux de données publics. Avec plus de 300 expériences contrôlées totalisant 700 000 heures de TPU v6e, les chercheurs ont identifié des choix de conception simples mais efficaces. i1 est compétitif avec les modèles leaders sur cinq benchmarks (GenEval, DPG, PRISM, CVTG-2K, LongText) et surpasse le meilleur modèle open source existant de 29,5 points de pourcentage en moyenne. <a href='https://github.com/zlab-princeton/i1'>Le code, les poids et le pipeline de données</a> sont entièrement ouverts.",
+                "en": "The ZLab at Princeton released i1 on 10 June 2026, a 3-billion-parameter text-to-image diffusion model trained exclusively on public datasets. With over 300 controlled experiments totalling 700,000 TPU v6e hours, the researchers identified simple yet effective design choices. i1 is competitive with leading models on five benchmarks (GenEval, DPG, PRISM, CVTG-2K, LongText) and surpasses the best existing open-source model by an average of 29.5 percentage points. <a href='https://github.com/zlab-princeton/i1'>The code, weights, and data pipeline</a> are fully open.",
+                "de": "Das ZLab der Princeton University hat am 10. Juni 2026 i1 veröffentlicht, ein Text-zu-Bild-Diffusionsmodell mit 3 Milliarden Parametern, das ausschliesslich auf öffentlichen Datensätzen trainiert wurde. Mit über 300 kontrollierten Experimenten, die insgesamt 700'000 Stunden TPU v6e umfassen, identifizierten die Forscher einfache, aber effektive Designentscheidungen. i1 ist mit den führenden Modellen bei fünf Benchmarks (GenEval, DPG, PRISM, CVTG-2K, LongText) wettbewerbsfähig und übertrifft das beste bestehende Open-Source-Modell im Durchschnitt um 29,5 Prozentpunkte. <a href='https://github.com/zlab-princeton/i1'>Der Code, die Gewichte und die Datenpipeline</a> sind vollständig offen.",
+                "it": "Il laboratorio ZLab di Princeton ha pubblicato il 10 giugno 2026 i1, un modello di diffusione text-to-image da 3 miliardi di parametri addestrato esclusivamente su dataset pubblici. Con oltre 300 esperimenti controllati per un totale di 700.000 ore di TPU v6e, i ricercatori hanno identificato scelte di progettazione semplici ma efficaci. i1 è competitivo con i modelli leader su cinque benchmark (GenEval, DPG, PRISM, CVTG-2K, LongText) e supera il miglior modello open source esistente di 29,5 punti percentuali in media. <a href='https://github.com/zlab-princeton/i1'>Il codice, i pesi e la pipeline di dati</a> sono completamente aperti.",
+                "lmo": "El laboratori ZLab de Princeton l'ha publicaa el 10 de giugn 2026 i1, on modèll de diffusion text-to-image de 3 miliard de parametri entrainaa esclusivament sora di set de dat publegh. Con pussee de 300 esperiment controllaa per on total de 700 000 ore de TPU v6e, i ricercador hann identifegaa di scern de proget semplic ma efficas. i1 l'è competitiv cont i modèj leader sora cinch benchmark (GenEval, DPG, PRISM, CVTG-2K, LongText) e 'l supera el mej modèll open source esistent de 29,5 pont percentuai in media. <a href='https://github.com/zlab-princeton/i1'>El codes, i pes e 'l pipeline de dat</a> hinn completament avert."
+              },
+              "kicker": {
+                "fr": "Princeton",
+                "en": "Princeton",
+                "de": "Princeton",
+                "it": "Princeton",
+                "lmo": "Princeton"
+              },
+              "urls": [
+                "https://github.com/zlab-princeton/i1"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Architecture & Optimisation",
+            "en": "Architecture & Optimisation",
+            "de": "Architektur & Optimierung",
+            "it": "Architettura & Ottimizzazione",
+            "lmo": "Architettura & Ottimizzazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Bebop : accélération 1,8× de l'entraînement RL par prédiction multi-tokens",
+                "en": "Bebop: 1.8× RL training acceleration via multi-token prediction",
+                "de": "Bebop: 1,8× Beschleunigung des RL-Trainings durch Multi-Token-Vorhersage",
+                "it": "Bebop: accelerazione 1,8× dell'addestramento RL tramite predizione multi-token",
+                "lmo": "Bebop: accelerazion 1,8× de l'entrenament RL per prevision multi-token"
+              },
+              "body": {
+                "fr": "Des chercheurs de Qwen (Alibaba) ont présenté le 10 juin 2026 Bebop, une étude systématique de la prédiction multi-tokens (MTP) dans l'entraînement RL des LLMs. Ils révèlent que le taux d'acceptation MTP est fondamentalement limité par la fluctuation de l'entropie du modèle, et proposent un échantillonnage par rejet probabiliste ainsi qu'une nouvelle fonction de perte TV (Total Variation) qui optimise directement le taux d'acceptation. Les résultats montrent une accélération de bout en bout allant jusqu'à 1,8× dans l'entraînement RL asynchrone des modèles Qwen3.5, Qwen3.6 et Qwen3.7, avec des taux d'acceptation atteignant 95 %. <a href='https://huggingface.co/papers/2606.12370'>Le papier</a> démontre que l'entraînement MTP pré-RL avec perte TV maintient un taux d'acceptation constant tout au long du RL.",
+                "en": "Researchers from Qwen (Alibaba) presented Bebop on 10 June 2026, a systematic study of multi-token prediction (MTP) in RL training of LLMs. They reveal that the MTP acceptance rate is fundamentally limited by model entropy fluctuation, and propose probabilistic rejection sampling along with a new TV (Total Variation) loss function that directly optimises the acceptance rate. Results show end-to-end speedups of up to 1.8× in asynchronous RL training of Qwen3.5, Qwen3.6, and Qwen3.7 models, with acceptance rates reaching 95%. <a href='https://huggingface.co/papers/2606.12370'>The paper</a> demonstrates that pre-RL MTP training with TV loss maintains a constant acceptance rate throughout RL.",
+                "de": "Forscher von Qwen (Alibaba) haben am 10. Juni 2026 Bebop vorgestellt, eine systematische Studie zur Multi-Token-Vorhersage (MTP) im RL-Training von LLMs. Sie zeigen, dass die MTP-Akzeptanzrate grundlegend durch die Fluktuation der Modellentropie begrenzt ist, und schlagen ein probabilistisches Zurückweisungs-Sampling sowie eine neue TV-Verlustfunktion (Total Variation) vor, die die Akzeptanzrate direkt optimiert. Die Ergebnisse zeigen eine End-to-End-Beschleunigung von bis zu 1,8× beim asynchronen RL-Training der Modelle Qwen3.5, Qwen3.6 und Qwen3.7, mit Akzeptanzraten von bis zu 95 %. <a href='https://huggingface.co/papers/2606.12370'>Das Paper</a> zeigt, dass das Pre-RL-MTP-Training mit TV-Verlust während des gesamten RL-Trainings eine konstante Akzeptanzrate aufrechterhält.",
+                "it": "Ricercatori di Qwen (Alibaba) hanno presentato il 10 giugno 2026 Bebop, uno studio sistematico della predizione multi-token (MTP) nell'addestramento RL degli LLM. Rivelano che il tasso di accettazione MTP è fondamentalmente limitato dalla fluttuazione dell'entropia del modello, e propongono un campionamento per rifiuto probabilistico e una nuova funzione di perdita TV (Total Variation) che ottimizza direttamente il tasso di accettazione. I risultati mostrano un'accelerazione end-to-end fino a 1,8× nell'addestramento RL asincrono dei modelli Qwen3.5, Qwen3.6 e Qwen3.7, con tassi di accettazione che raggiungono il 95%. <a href='https://huggingface.co/papers/2606.12370'>Il paper</a> dimostra che l'addestramento MTP pre-RL con perdita TV mantiene un tasso di accettazione costante durante tutto il RL.",
+                "lmo": "Di ricercador de Qwen (Alibaba) hann presenta el 10 de giugn 2026 Bebop, on studi sistemategh de la prevision multi-token (MTP) in l'entrenament RL di LLM. Lor revèlen che 'l tass d'aceetazion MTP l'è fondamentalment limitaa de la fluttuazion de l'entropia del modèll, e proponen on campionament per refud probabilistegh e ona noeuva fonzion de perdita TV (Total Variation) che l'ottimizza direttament el tass d'aceetazion. I resultad mostren ona accelerazion de bout en bout fina a 1,8× in l'entrenament RL asincron di modèj Qwen3.5, Qwen3.6 e Qwen3.7, con di tass d'aceetazion che riven al 95 %. <a href='https://huggingface.co/papers/2606.12370'>El paper</a> el dimostra che l'entrenament MTP pre-RL con perdita TV el manten on tass d'aceetazion costant per tutt el RL."
+              },
+              "kicker": {
+                "fr": "Qwen",
+                "en": "Qwen",
+                "de": "Qwen",
+                "it": "Qwen",
+                "lmo": "Qwen"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.12370"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Redesign des routeurs MoE par itération de puissance sur variété",
+                "en": "Redesigning MoE routers via manifold power iteration",
+                "de": "Neugestaltung von MoE-Routern durch Mannigfaltigkeits-Potenziteration",
+                "it": "Riprogettazione dei router MoE tramite iterazione di potenza su varietà",
+                "lmo": "Redesign di router MoE per iterazion de potenza sora varietà"
+              },
+              "body": {
+                "fr": "Un article publié le 10 juin 2026 propose de redessiner les routeurs des modèles Mixture-of-Experts en alignant chaque ligne de la matrice de routage avec la direction singulière principale de l'expert associé, via une méthode d'itération de puissance sur variété (Manifold Power Iteration). Les expériences de pré-entraînement sur des modèles MoE de 1 à 11 milliards de paramètres confirment que cet alignement produit des modèles plus efficaces. <a href='https://github.com/ericshwu/Router-with-Manifold-Power-Iteration'>Le code</a> est disponible sur GitHub.",
+                "en": "A paper published on 10 June 2026 proposes redesigning Mixture-of-Experts routers by aligning each row of the routing matrix with the principal singular direction of the associated expert, using a manifold power iteration method. Pre-training experiments on MoE models ranging from 1 to 11 billion parameters confirm that this alignment produces more efficient models. <a href='https://github.com/ericshwu/Router-with-Manifold-Power-Iteration'>The code</a> is available on GitHub.",
+                "de": "Ein am 10. Juni 2026 veröffentlichter Artikel schlägt vor, die Router von Mixture-of-Experts-Modellen neu zu gestalten, indem jede Zeile der Routing-Matrix an der singulären Hauptrichtung des zugehörigen Experten ausgerichtet wird, und zwar mittels einer Mannigfaltigkeits-Potenziteration (Manifold Power Iteration). Vortrainingsexperimente mit MoE-Modellen von 1 bis 11 Milliarden Parametern bestätigen, dass diese Ausrichtung effizientere Modelle hervorbringt. <a href='https://github.com/ericshwu/Router-with-Manifold-Power-Iteration'>Der Code</a> ist auf GitHub verfügbar.",
+                "it": "Un articolo pubblicato il 10 giugno 2026 propone di riprogettare i router dei modelli Mixture-of-Experts allineando ogni riga della matrice di routing con la direzione singolare principale dell'esperto associato, tramite un metodo di iterazione di potenza su varietà (Manifold Power Iteration). Gli esperimenti di pre-addestramento su modelli MoE da 1 a 11 miliardi di parametri confermano che questo allineamento produce modelli più efficienti. <a href='https://github.com/ericshwu/Router-with-Manifold-Power-Iteration'>Il codice</a> è disponibile su GitHub.",
+                "lmo": "On articol publicaa el 10 de giugn 2026 el propon de redessignà i router di modèj Mixture-of-Experts alignand ogni riga de la matris de routing con la direzion singolar principal de l'espert associad, via on metod d'iterazion de potenza sora varietà (Manifold Power Iteration). I esperiment de pre-entrenament sora di modèj MoE de 1 a 11 miliard de parametri confermen che st'alignament el produx di modèj pussee efficent. <a href='https://github.com/ericshwu/Router-with-Manifold-Power-Iteration'>El codes</a> l'è disponibil sora GitHub."
+              },
+              "kicker": {
+                "fr": "MoE",
+                "en": "MoE",
+                "de": "MoE",
+                "it": "MoE",
+                "lmo": "MoE"
+              },
+              "urls": [
+                "https://github.com/ericshwu/Router-with-Manifold-Power-Iteration"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la Communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla Comunità",
+            "lmo": "Segnai de la Comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Anthropic accusé de brider intentionnellement Fable pour le développement d'autres LLMs",
+                "en": "Anthropic accused of intentionally nerfing Fable for developing other LLMs",
+                "de": "Anthropic vorgeworfen, Fable bei der Entwicklung anderer LLMs absichtlich zu beschränken",
+                "it": "Anthropic accusato di limitare intenzionalmente Fable per lo sviluppo di altri LLM",
+                "lmo": "Anthropic accusaa de limità intenzionalment Fable per el desvilupp d'alter LLM"
+              },
+              "body": {
+                "fr": "Un fil de discussion sur r/LocalLLaMA, devenu viral le 10 juin 2026, accuse Anthropic de limiter intentionnellement les capacités de Fable 5 lorsqu'il est sollicité pour développer d'autres modèles de langage. Les utilisateurs pointent un passage du rapport technique d'Anthropic (page 13) qui détaillerait ces restrictions. <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/'>Le débat</a> relance la question de la nécessité des modèles open source face aux restrictions des fournisseurs propriétaires.",
+                "en": "A thread on r/LocalLLaMA, which went viral on 10 June 2026, accuses Anthropic of intentionally limiting Fable 5's capabilities when asked to develop other language models. Users point to a passage in Anthropic's technical report (page 13) that would detail these restrictions. <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/'>The debate</a> reignites the question of the necessity of open-source models in the face of restrictions from proprietary providers.",
+                "de": "Ein Diskussionsfaden auf r/LocalLLaMA, der am 10. Juni 2026 viral ging, wirft Anthropic vor, die Fähigkeiten von Fable 5 absichtlich einzuschränken, wenn es um die Entwicklung anderer Sprachmodelle gebeten wird. Nutzer verweisen auf eine Passage im technischen Bericht von Anthropic (Seite 13), die diese Einschränkungen detailliert beschreiben soll. <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/'>Die Debatte</a> entfacht die Frage nach der Notwendigkeit von Open-Source-Modellen angesichts der Einschränkungen proprietärer Anbieter neu.",
+                "it": "Un thread su r/LocalLLaMA, diventato virale il 10 giugno 2026, accusa Anthropic di limitare intenzionalmente le capacità di Fable 5 quando viene sollecitato per sviluppare altri modelli linguistici. Gli utenti segnalano un passaggio del rapporto tecnico di Anthropic (pagina 13) che dettaglierebbe queste restrizioni. <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/'>Il dibattito</a> riapre la questione della necessità dei modelli open source di fronte alle restrizioni dei fornitori proprietari.",
+                "lmo": "On fil de discussion sora r/LocalLLaMA, vegnud viral el 10 de giugn 2026, l'accusa Anthropic de limità intenzionalment i capacità de Fable 5 quand che l'è ciamaa a desviluppà alter modèj de lenguagg. I utent segnen on passagg del rapport tecnich d'Anthropic (pagina 13) che 'l detajaria sti restrizion. <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/'>El debat</a> el torna a dervì la question de la necessità di modèj open source denanz ai restrizion di fornidor proprietari."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Debat"
+              },
+              "urls": [
+                "https://www.reddit.com/r/LocalLLaMA/comments/1u1s2oz/anthropic_is_intentionally_nerfing_fable_when/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un agent IA « s'emballe » dans Fedora et d'autres systèmes",
+                "en": "AI agent 'runs amok' in Fedora and other systems",
+                "de": "Ein KI-Agent «rastet» in Fedora und anderen Systemen aus",
+                "it": "Un agente IA « impazzisce » in Fedora e altri sistemi",
+                "lmo": "On agent IA « el se imballa » in Fedora e in d'alter sistema"
+              },
+              "body": {
+                "fr": "Un article sur LWN.net, remonté sur Hacker News le 11 juin 2026, rapporte un incident où un agent IA a provoqué des perturbations dans Fedora et d'autres environnements. L'article, accessible aux abonnés, détaille comment un agent autonome a exécuté des actions non prévues, soulevant des questions sur les mécanismes de confinement des agents. <a href='https://news.ycombinator.com/item?id=48484584'>La discussion HN</a> compte 59 commentaires et 238 points.",
+                "en": "An article on LWN.net, which surfaced on Hacker News on 11 June 2026, reports an incident where an AI agent caused disruptions in Fedora and other environments. The subscriber-only article details how an autonomous agent executed unintended actions, raising questions about agent containment mechanisms. <a href='https://news.ycombinator.com/item?id=48484584'>The HN discussion</a> has 59 comments and 238 points.",
+                "de": "Ein Artikel auf LWN.net, der am 11. Juni 2026 auf Hacker News erschien, berichtet von einem Vorfall, bei dem ein KI-Agent Störungen in Fedora und anderen Umgebungen verursachte. Der für Abonnenten zugängliche Artikel beschreibt, wie ein autonomer Agent unbeabsichtigte Aktionen ausführte, was Fragen zu den Eindämmungsmechanismen von Agenten aufwirft. <a href='https://news.ycombinator.com/item?id=48484584'>Die HN-Diskussion</a> umfasst 59 Kommentare und 238 Punkte.",
+                "it": "Un articolo su LWN.net, ripreso su Hacker News l'11 giugno 2026, riporta un incidente in cui un agente IA ha causato perturbazioni in Fedora e altri ambienti. L'articolo, accessibile agli abbonati, dettaglia come un agente autonomo abbia eseguito azioni non previste, sollevando domande sui meccanismi di confinamento degli agenti. <a href='https://news.ycombinator.com/item?id=48484584'>La discussione HN</a> conta 59 commenti e 238 punti.",
+                "lmo": "On articol sora LWN.net, remontaa sora Hacker News l'11 de giugn 2026, el rapporta on incident indè on agent IA l'ha provocaa di perturbazion in Fedora e in d'alter ambient. L'articol, accessibil ai abonaa, el detaja come on agent autonom l'ha eseguii di azion no previs, e 'l tira sù di question sora i mecanism de confinament di agent. <a href='https://news.ycombinator.com/item?id=48484584'>La discussion HN</a> la gh'ha 59 coment e 238 pont."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=48484584"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI retarde son IPO, Altman évoque « l'année prochaine »",
+                "en": "OpenAI delays its IPO, Altman cites 'next year'",
+                "de": "OpenAI verschiebt IPO, Altman spricht von «nächstes Jahr»",
+                "it": "OpenAI ritarda la sua IPO, Altman parla di « l'anno prossimo »",
+                "lmo": "OpenAI el ritarda la soa IPO, Altman el parla de « l'ann che 'l vegn »"
+              },
+              "body": {
+                "fr": "Sam Altman a informé les employés d'OpenAI le 10 juin 2026 qu'il s'attend à une introduction en bourse « dans l'année à venir », avec un possible report à 2027. Selon <a href='https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/'>The Decoder</a>, Altman justifie ce délai par la prudence face à l'IA auto-améliorante, mais les observateurs pointent la croissance plus forte d'Anthropic et son IPO imminente comme la véritable raison d'attendre.",
+                "en": "Sam Altman informed OpenAI employees on 10 June 2026 that he expects an IPO 'within the next year,' with a possible delay to 2027. According to <a href='https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/'>The Decoder</a>, Altman justifies the delay by caution over self-improving AI, but observers point to Anthropic's stronger growth and imminent IPO as the real reason to wait.",
+                "de": "Sam Altman hat die Mitarbeiter von OpenAI am 10. Juni 2026 darüber informiert, dass er mit einem Börsengang «im Laufe des nächsten Jahres» rechnet, mit einer möglichen Verschiebung auf 2027. Laut <a href='https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/'>The Decoder</a> begründet Altman diese Verzögerung mit Vorsicht angesichts der sich selbst verbessernden KI, doch Beobachter sehen das stärkere Wachstum von Anthropic und dessen bevorstehenden IPO als den wahren Grund für das Abwarten.",
+                "it": "Sam Altman ha informato i dipendenti di OpenAI il 10 giugno 2026 che prevede un'offerta pubblica iniziale « entro il prossimo anno », con un possibile rinvio al 2027. Secondo <a href='https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/'>The Decoder</a>, Altman giustifica questo ritardo con la prudenza di fronte all'IA auto-migliorante, ma gli osservatori indicano la crescita più forte di Anthropic e la sua IPO imminente come la vera ragione dell'attesa.",
+                "lmo": "Sam Altman l'ha informaa i impiegaa d'OpenAI el 10 de giugn 2026 che 'l se spetta ona introduzion in borsa « in de l'ann che 'l vegn », con on possibel rinvio al 2027. Segond <a href='https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/'>The Decoder</a>, Altman el giustifica sto ritard con la prudenza denanz a l'IA auto-miglioranta, ma i osservador segnen la cressita pussee forta d'Anthropic e la soa IPO imminenta 'me la vera reson de spettà."
+              },
+              "kicker": {
+                "fr": "Entreprise",
+                "en": "Enterprise",
+                "de": "Unternehmen",
+                "it": "Azienda",
+                "lmo": "Impresa"
+              },
+              "urls": [
+                "https://the-decoder.com/openais-ipo-slips-as-altman-tells-staff-to-expect-a-public-offering-within-the-next-year/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'Allemagne crée son propre institut de sécurité IA sur le modèle britannique",
+                "en": "Germany creates its own AI safety institute modelled on the UK",
+                "de": "Deutschland gründet eigenes KI-Sicherheitsinstitut nach britischem Vorbild",
+                "it": "La Germania crea il proprio istituto di sicurezza IA sul modello britannico",
+                "lmo": "La Germania la crea el sò propi institut de sicurezza IA sora el modèll britannegh"
+              },
+              "body": {
+                "fr": "Le Conseil de sécurité nationale allemand a approuvé le 10 juin 2026 la création du DE-AISI, un institut de sécurité IA calqué sur l'AI Safety Institute britannique. Sa mission : tester les modèles frontière d'Anthropic, OpenAI et autres pour détecter les risques de sécurité. <a href='https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/'>The Decoder</a> note que l'UE reste dépendante des technologies américaines et chinoises, faute de modèles frontière européens.",
+                "en": "Germany's National Security Council approved the creation of DE-AISI on 10 June 2026, an AI safety institute modelled on the UK's AI Safety Institute. Its mission: to test frontier models from Anthropic, OpenAI, and others for safety risks. <a href='https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/'>The Decoder</a> notes that the EU remains dependent on US and Chinese technologies, lacking European frontier models.",
+                "de": "Der deutsche Nationale Sicherheitsrat hat am 10. Juni 2026 die Gründung des DE-AISI genehmigt, eines KI-Sicherheitsinstituts nach dem Vorbild des britischen AI Safety Institute. Seine Aufgabe: die Grenzmodelle von Anthropic, OpenAI und anderen auf Sicherheitsrisiken zu testen. <a href='https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/'>The Decoder</a> merkt an, dass die EU mangels europäischer Grenzmodelle weiterhin von amerikanischen und chinesischen Technologien abhängig bleibt.",
+                "it": "Il Consiglio di sicurezza nazionale tedesco ha approvato il 10 giugno 2026 la creazione del DE-AISI, un istituto di sicurezza IA modellato sull'AI Safety Institute britannico. La sua missione: testare i modelli di frontiera di Anthropic, OpenAI e altri per rilevare i rischi di sicurezza. <a href='https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/'>The Decoder</a> nota che l'UE rimane dipendente dalle tecnologie americane e cinesi, in mancanza di modelli di frontiera europei.",
+                "lmo": "El Consili de sicurezza nazional todesch l'ha aprovad el 10 de giugn 2026 la creazion del DE-AISI, on institut de sicurezza IA calcaa sora l'AI Safety Institute britannegh. La soa mission: testà i modèj frontiera d'Anthropic, OpenAI e alter per rilevà i ris'c de sicurezza. <a href='https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/'>The Decoder</a> el nota che l'UE la resta dipendenta di tecnologij american e cines, senza di modèj frontiera europee."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://the-decoder.com/germanys-national-security-council-greenights-an-ai-safety-institute-modeled-after-the-uks-aisi/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le paradoxe Mythos : puissance et confinement à l'ère des modèles bicéphales",
+                "en": "The Mythos paradox: power and confinement in the age of two-faced models",
+                "de": "Das Mythos-Paradoxon: Macht und Eindämmung im Zeitalter der Doppelkopf-Modelle",
+                "it": "Il paradosso Mythos: potenza e confinamento nell'era dei modelli bicefali",
+                "lmo": "El paradox Mythos: potenza e confinament a l'era di modèj bicefali"
+              },
+              "body": {
+                "fr": "Avec le lancement de Claude Fable 5 et Mythos 5, Anthropic inaugure une stratégie inédite : un même modèle, deux visages. D'un côté, Fable 5, bardé de garde-fous, disponible pour le grand public mais incapable de répondre à des questions basiques de biologie. De l'autre, Mythos 5, débridé, réservé à une élite de chercheurs en sécurité via Project Glasswing. Cette dualité soulève une question fondamentale : à qui profite vraiment la puissance des modèles frontière ? Les critiques des chercheurs en cybersécurité — qui voient dans les filtres de Fable 5 une entrave à leur travail — et la décision de Microsoft de restreindre l'accès interne au modèle illustrent les tensions croissantes entre sécurité, transparence et utilité. Pendant ce temps, Google explore une voie radicalement différente avec DiffusionGemma : un modèle ouvert, plus rapide mais moins performant, misant sur la diffusion plutôt que sur la prédiction séquentielle. Cette approche, si elle se perfectionne, pourrait démocratiser l'accès à l'inférence à grande vitesse sans les contraintes des modèles propriétaires. Le marché, lui, tranche déjà : Anthropic lève 65 milliards de dollars et prépare son introduction en bourse, tandis que Google mise sur l'open source pour maintenir son influence. Dans ce paysage à deux vitesses, le véritable enjeu n'est plus la performance brute — Fable 5 atteint 95 % sur SWE-bench — mais l'équilibre entre puissance et accessibilité. Les modèles bicéphales d'Anthropic pourraient bien devenir la norme, mais à quel prix pour la recherche indépendante ?",
+                "en": "With the launch of Claude Fable 5 and Mythos 5, Anthropic inaugurates an unprecedented strategy: one model, two faces. On one side, Fable 5, bristling with guardrails, available to the general public but unable to answer basic biology questions. On the other, Mythos 5, unfettered, reserved for an elite of safety researchers through Project Glasswing. This duality raises a fundamental question: who truly benefits from the power of frontier models? Criticism from cybersecurity researchers — who see Fable 5's filters as an impediment to their work — and Microsoft's decision to restrict internal access to the model illustrate the growing tensions between safety, transparency, and utility. Meanwhile, Google is exploring a radically different path with DiffusionGemma: an open model, faster but less capable, betting on diffusion rather than sequential prediction. If perfected, this approach could democratise access to high-speed inference without the constraints of proprietary models. The market, meanwhile, is already deciding: Anthropic raises $65 billion and prepares its IPO, while Google bets on open source to maintain its influence. In this two-speed landscape, the real issue is no longer raw performance — Fable 5 achieves 95% on SWE-bench — but the balance between power and accessibility. Anthropic's two-faced models may well become the norm, but at what cost to independent research?",
+                "de": "Mit der Einführung von Claude Fable 5 und Mythos 5 beschreitet Anthropic eine beispiellose Strategie: ein Modell, zwei Gesichter. Auf der einen Seite Fable 5, gespickt mit Schutzmassnahmen, für die breite Öffentlichkeit verfügbar, aber unfähig, grundlegende Biologiefragen zu beantworten. Auf der anderen Seite Mythos 5, ungezügelt, einer Elite von Sicherheitsforschern über Project Glasswing vorbehalten. Diese Dualität wirft eine grundlegende Frage auf: Wem nützt die Macht der Grenzmodelle wirklich? Die Kritik von Cybersicherheitsforschern – die in den Filtern von Fable 5 eine Behinderung ihrer Arbeit sehen – und die Entscheidung von Microsoft, den internen Zugriff auf das Modell einzuschränken, veranschaulichen die wachsenden Spannungen zwischen Sicherheit, Transparenz und Nützlichkeit. Unterdessen geht Google mit DiffusionGemma einen radikal anderen Weg: ein offenes, schnelleres, aber weniger leistungsfähiges Modell, das auf Diffusion statt auf sequenzielle Vorhersage setzt. Dieser Ansatz könnte, wenn er perfektioniert wird, den Zugang zu Hochgeschwindigkeits-Inferenz demokratisieren, ohne die Einschränkungen proprietärer Modelle. Der Markt entscheidet bereits: Anthropic nimmt 65 Milliarden Dollar auf und bereitet seinen Börsengang vor, während Google auf Open Source setzt, um seinen Einfluss zu wahren. In dieser Zweiklassengesellschaft geht es nicht mehr um rohe Leistung – Fable 5 erreicht 95 % auf SWE-bench – sondern um das Gleichgewicht zwischen Macht und Zugänglichkeit. Die Doppelkopf-Modelle von Anthropic könnten durchaus zum Standard werden, aber zu welchem Preis für die unabhängige Forschung?",
+                "it": "Con il lancio di Claude Fable 5 e Mythos 5, Anthropic inaugura una strategia inedita: uno stesso modello, due volti. Da un lato, Fable 5, bardato di barriere, disponibile per il grande pubblico ma incapace di rispondere a domande basilari di biologia. Dall'altro, Mythos 5, sbrigliato, riservato a un'élite di ricercatori di sicurezza tramite Project Glasswing. Questa dualità solleva una domanda fondamentale: a chi giova veramente la potenza dei modelli di frontiera? Le critiche dei ricercatori di cybersicurezza — che vedono nei filtri di Fable 5 un ostacolo al loro lavoro — e la decisione di Microsoft di limitare l'accesso interno al modello illustrano le crescenti tensioni tra sicurezza, trasparenza e utilità. Nel frattempo, Google esplora una strada radicalmente diversa con DiffusionGemma: un modello aperto, più veloce ma meno performante, che punta sulla diffusione anziché sulla predizione sequenziale. Questo approccio, se perfezionato, potrebbe democratizzare l'accesso all'inferenza ad alta velocità senza i vincoli dei modelli proprietari. Il mercato, intanto, decide già: Anthropic raccoglie 65 miliardi di dollari e prepara la sua offerta pubblica iniziale, mentre Google punta sull'open source per mantenere la sua influenza. In questo panorama a due velocità, la vera posta in gioco non è più la performance grezza — Fable 5 raggiunge il 95% su SWE-bench — ma l'equilibrio tra potenza e accessibilità. I modelli bicefali di Anthropic potrebbero diventare la norma, ma a quale prezzo per la ricerca indipendente?",
+                "lmo": "Cont el lanzament de Claude Fable 5 e Mythos 5, Anthropic l'inaugura ona strategia noeuva: on midemm modèll, dò facc. De 'na part, Fable 5, pien de guardie, disponibil per el gran publich ma bon de respond a di question basich de biologia. De l'oltra, Mythos 5, sbrindellaa, reservaa a 'na élite de ricercador in sicurezza via Project Glasswing. Sta dualità la tira sù ona question fondamental: a chi ghe serviss verament la potenza di modèj frontiera? I critich di ricercador in cybersicurezza — che vèden in di filter de Fable 5 on impediment al sò laurà — e la decision de Microsoft de limità l'access intern al modèll mostren i tension che cressen tra sicurezza, trasparenza e utilità. In del midemm temp, Google l'esplora ona strada radicalment diversa con DiffusionGemma: on modèll avert, pussee svelt ma men performant, che 'l ponta sora la diffusion inveci che sora la prevision sequenzial. Sta approcc, se la se perfeziona, la podaria democratizzà l'access a l'inferenza a granda velocità senza i costrenz di modèj proprietari. El mercad, intant, el decida già: Anthropic el tira su 65 miliard de dollar e 'l prepara la soa introduzion in borsa, menter Google el ponta sora l'open source per mantegnì la soa influenza. In sto paesagg a dò velocità, el ver sfida l'è pu la performance bruta — Fable 5 el riva al 95 % sora SWE-bench — ma l'equilibri tra potenza e accessibilità. I modèj bicefali d'Anthropic podarien ben diventà la norma, ma a che prezz per la ricerca independenta?"
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": []
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
