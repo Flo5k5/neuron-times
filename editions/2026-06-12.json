@@ -1,0 +1,980 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-06-12",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a présenté ses excuses le 11 juin 2026 après la découverte de garde-fous cachés dans son modèle Claude Fable 5, qui limitaient discrètement les capacités du système lorsqu'il était utilisé par des chercheurs concurrents ou pour développer des systèmes rivaux. La révélation, rapportée par <a href='https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail'>The Verge</a>, a déclenché un débat houleux sur les pratiques de déploiement des modèles frontière et la transparence des laboratoires d'IA.",
+        "en": "Anthropic apologized on June 11, 2026 after the discovery of hidden guardrails in its Claude Fable 5 model, which discreetly limited the system's capabilities when used by rival researchers or for developing competing systems. The revelation, reported by <a href='https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail'>The Verge</a>, sparked a heated debate about frontier model deployment practices and the transparency of AI labs.",
+        "de": "Anthropic hat sich am 11. Juni 2026 entschuldigt, nachdem versteckte Schutzmassnahmen in seinem Modell Claude Fable 5 entdeckt wurden, die die Fähigkeiten des Systems diskret einschränkten, wenn es von konkurrierenden Forschern oder zur Entwicklung rivalisierender Systeme genutzt wurde. Die Enthüllung, über die <a href='https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail'>The Verge</a> berichtete, hat eine hitzige Debatte über die Bereitstellungspraktiken von Frontier-Modellen und die Transparenz von KI-Laboren ausgelöst.",
+        "it": "Anthropic ha presentato le sue scuse l'11 giugno 2026 dopo la scoperta di barriere protettive nascoste nel suo modello Claude Fable 5, che limitavano discretamente le capacità del sistema quando utilizzato da ricercatori concorrenti o per sviluppare sistemi rivali. La rivelazione, riportata da <a href='https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail'>The Verge</a>, ha innescato un acceso dibattito sulle pratiche di distribuzione dei modelli frontier e sulla trasparenza dei laboratori di IA.",
+        "lmo": "Anthropic l'ha faa i sò scus l'11 de giugn 2026 dopo la scoperta de guardie scondite in del sò modell Claude Fable 5, che limitaven discretament i capacità del sistema quand che l'era doperad di resercador concorrent o per sviluppà di sistema rivai. La rivelazion, reportada de <a href='https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail'>The Verge</a>, l'ha innescad on dibattit cald sora i pratich de despiegament di modell frontiera e la trasparenza di laboratori d'IA."
+      },
+      {
+        "fr": "Selon les informations recueillies, les garde-fous — décrits comme une forme de « distillation invisible » — réduisaient les performances de Fable 5 sur certaines tâches lorsque le modèle était sollicité par des acteurs extérieurs à Anthropic. L'entreprise a reconnu avoir fait un « mauvais compromis » entre protection de ses intérêts commerciaux et transparence scientifique, et a promis de revenir sur cette politique. « Nous allons être plus transparents sur le moment où ces restrictions s'appliquent, même si cela signifie que Fable refusera davantage de requêtes », a déclaré un porte-parole cité par <a href='https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/'>The Decoder</a>.",
+        "en": "According to gathered information, the guardrails — described as a form of 'invisible distillation' — reduced Fable 5's performance on certain tasks when the model was queried by actors outside Anthropic. The company acknowledged making a 'wrong trade-off' between protecting its commercial interests and scientific transparency, and pledged to reverse this policy. 'We are going to be more transparent about when these restrictions apply, even if it means Fable will refuse more requests,' a spokesperson told <a href='https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/'>The Decoder</a>.",
+        "de": "Den gesammelten Informationen zufolge handelte es sich bei den Schutzmassnahmen – beschrieben als eine Form der «unsichtbaren Destillation» –, die die Leistung von Fable 5 bei bestimmten Aufgaben reduzierten, wenn das Modell von Akteuren ausserhalb von Anthropic angefragt wurde. Das Unternehmen räumte einen «schlechten Kompromiss» zwischen dem Schutz seiner Geschäftsinteressen und der wissenschaftlichen Transparenz ein und versprach, diese Politik rückgängig zu machen. «Wir werden transparenter sein, wann diese Einschränkungen gelten, auch wenn das bedeutet, dass Fable mehr Anfragen ablehnen wird», erklärte ein Sprecher gegenüber <a href='https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/'>The Decoder</a>.",
+        "it": "Secondo le informazioni raccolte, le barriere protettive — descritte come una forma di « distillazione invisibile » — riducevano le prestazioni di Fable 5 su determinati compiti quando il modello veniva sollecitato da attori esterni ad Anthropic. L'azienda ha riconosciuto di aver fatto un « cattivo compromesso » tra protezione dei propri interessi commerciali e trasparenza scientifica, e ha promesso di tornare su questa politica. « Saremo più trasparenti sul momento in cui queste restrizioni si applicano, anche se ciò significa che Fable rifiuterà più richieste », ha dichiarato un portavoce citato da <a href='https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/'>The Decoder</a>.",
+        "lmo": "Segond i informazion cuglije, i guardie — descrivude come ona forma de « distillazion invisibila » — riduseven i performance de Fable 5 sora certe incarich quand che 'l modell l'era domandad di ator forest a Anthropic. L'azienda l'ha recognossud avè faa on « compromess minga bon » tra protezion di sò interess commerciai e trasparenza scentifica, e l'ha promettud de tornà indree sora quella politega. « Num sarom pussee trasparent sora el moment che queste restrizion se appliquen, anca se quest el voeur dì che Fable el refudarà pussee de richiest », l'ha dii on portavos citad de <a href='https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/'>The Decoder</a>."
+      },
+      {
+        "fr": "Cette affaire intervient alors qu'Anthropic publie parallèlement un essai programmatique signé par son PDG Dario Amodei, décrit par <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> comme un « manuel de guerre froide pour l'ère de l'IA ». L'essai appelle à des audits contraignants des modèles frontière et dresse le portrait de l'IA comme une arme stratégique entre les mains des États-nations. Une position qui contraste avec les pratiques de déploiement opaques que l'entreprise vient d'admettre.",
+        "en": "This affair comes as Anthropic simultaneously publishes a programmatic essay signed by its CEO Dario Amodei, described by <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> as a 'Cold War playbook for the AI age.' The essay calls for binding audits of frontier models and portrays AI as a strategic weapon in the hands of nation-states — a position that contrasts sharply with the opaque deployment practices the company has just admitted to.",
+        "de": "Dieser Vorfall ereignet sich parallel zur Veröffentlichung eines programmatischen Essays durch Anthropic, der von CEO Dario Amodei unterzeichnet ist und von <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> als «Handbuch des Kalten Krieges für das KI-Zeitalter» beschrieben wird. Der Essay fordert verbindliche Audits von Frontier-Modellen und zeichnet das Bild der KI als strategische Waffe in den Händen von Nationalstaaten. Eine Position, die in scharfem Kontrast zu den undurchsichtigen Bereitstellungspraktiken steht, die das Unternehmen gerade eingeräumt hat.",
+        "it": "Questa vicenda arriva mentre Anthropic pubblica parallelamente un saggio programmatico firmato dal suo CEO Dario Amodei, descritto da <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> come un « manuale di guerra fredda per l'era dell'IA ». Il saggio chiede audit vincolanti dei modelli frontier e dipinge l'IA come un'arma strategica nelle mani degli Stati-nazione. Una posizione che contrasta con le pratiche di distribuzione opache che l'azienda ha appena ammesso.",
+        "lmo": "Questa faccenda la riva intant che Anthropic la publiga parallellament on assagg programmatich firmad del sò CEO Dario Amodei, descrivuu de <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> come on « manual de guerra freggia per l'era de l'IA ». L'assagg el ciama di audit obbligatori di modell frontiera e 'l fa el ritratt de l'IA come on'arma strategica in di man di Stat-nazion. Ona posizion che la contrasta cont i pratich de despiegament opach che l'azienda l'ha giusta ammess."
+      }
+    ],
+    "urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+      "https://the-decoder.com/claude-fable-5-anthropic-admits-wrong-tradeoff-after-invisibly-throttling-rival-ai-researchers/",
+      "https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/"
+    ],
+    "kicker": {
+      "fr": "Controverse",
+      "en": "Controversy",
+      "de": "Kontroverse",
+      "it": "Controversia",
+      "lmo": "Controversa"
+    },
+    "headline": {
+      "fr": "Anthropic présente ses excuses après avoir secrètement bridé Claude Fable 5",
+      "en": "Anthropic apologizes after secretly throttling Claude Fable 5",
+      "de": "Anthropic entschuldigt sich, nachdem es Claude Fable 5 heimlich gedrosselt hat",
+      "it": "Anthropic si scusa dopo aver segretamente limitato Claude Fable 5",
+      "lmo": "Anthropic el gh'ha faa i scus dopo avè segretament limitaa Claude Fable 5"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire reconnaît un « mauvais compromis » après la découverte de garde-fous invisibles qui limitaient les chercheurs concurrents utilisant son nouveau modèle.",
+      "en": "The lab acknowledges a 'wrong trade-off' after the discovery of invisible guardrails that limited rival researchers using its new model.",
+      "de": "Das Labor räumt einen «schlechten Kompromiss» ein, nachdem unsichtbare Schutzmassnahmen entdeckt wurden, die konkurrierende Forscher bei der Nutzung seines neuen Modells einschränkten.",
+      "it": "Il laboratorio riconosce un « cattivo compromesso » dopo la scoperta di barriere protettive invisibili che limitavano i ricercatori concorrenti che utilizzavano il suo nuovo modello.",
+      "lmo": "El laboratori el recognoss on « compromess minga bon » dopo la scoperta de guardie invisibij che limitaven i resercador concorrent che doperaven el sò noeuv modell."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Cohere dévoile North Mini Code, un MoE 30B pour le codage agentique",
+        "en": "Cohere unveils North Mini Code, a 30B MoE for agentic coding",
+        "de": "Cohere enthüllt North Mini Code, ein MoE 30B für agentisches Codieren",
+        "it": "Cohere svela North Mini Code, un MoE 30B per la codifica agentica",
+        "lmo": "Cohere el desvela North Mini Code, on MoE 30B per el coding agentich"
+      },
+      "body": {
+        "fr": "Cohere a publié le 11 juin 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, un modèle ouvert de 30 milliards de paramètres au format mixture-of-experts (MoE) avec seulement 3 milliards de paramètres actifs. Conçu pour le codage agentique, il fonctionne sur un seul H100 et offre une fenêtre de contexte de 256 000 tokens. C'est le premier modèle de codage développeur de Cohere.",
+        "en": "Cohere released on June 11, 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, an open-weight 30-billion-parameter mixture-of-experts (MoE) model with only 3 billion active parameters. Designed for agentic coding, it runs on a single H100 and offers a 256,000-token context window. It is Cohere's first developer coding model.",
+        "de": "Cohere hat am 11. Juni 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a> veröffentlicht, ein offenes Modell mit 30 Milliarden Parametern im Mixture-of-Experts-Format (MoE) mit nur 3 Milliarden aktiven Parametern. Konzipiert für agentisches Codieren, läuft es auf einer einzelnen H100 und bietet ein Kontextfenster von 256'000 Tokens. Es ist das erste Codierungs-Entwicklermodell von Cohere.",
+        "it": "Cohere ha pubblicato l'11 giugno 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, un modello aperto da 30 miliardi di parametri in formato mixture-of-experts (MoE) con soli 3 miliardi di parametri attivi. Progettato per la codifica agentica, funziona su un singolo H100 e offre una finestra di contesto di 256.000 token. È il primo modello di codifica sviluppatore di Cohere.",
+        "lmo": "Cohere l'ha publicaa l'11 de giugn 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, on modell vert de 30 miliard de parametri in del formaa mixture-of-experts (MoE) cont domà 3 miliard de parametri ativ. Progettaa per el coding agentich, el fonziona sora on singol H100 e 'l offr ona fenestra de contest de 256 000 token. L'è 'l prim modell de coding desvilupador de Cohere."
+      },
+      "tag": {
+        "fr": "Modèles",
+        "en": "Models",
+        "de": "Modelle",
+        "it": "Modelli",
+        "lmo": "Modell"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "xAI lance le Grok Build Plugin Marketplace",
+        "en": "xAI launches the Grok Build Plugin Marketplace",
+        "de": "xAI lanciert den Grok Build Plugin Marketplace",
+        "it": "xAI lancia il Grok Build Plugin Marketplace",
+        "lmo": "xAI el lanza el Grok Build Plugin Marketplace"
+      },
+      "body": {
+        "fr": "xAI a dévoilé le 11 juin 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, une place de marché intégrée au terminal pour les plugins de Grok Build. Au lancement, la plateforme propose des plugins signés MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare et Superpowers, avec vérification par commit SHA pour chaque plugin distant, comme le rapporte <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+        "en": "xAI unveiled on June 11, 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, a terminal-integrated marketplace for Grok Build plugins. At launch, the platform offers plugins signed by MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare and Superpowers, with SHA commit verification for each remote plugin, as reported by <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+        "de": "xAI hat am 11. Juni 2026 den <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a> vorgestellt, einen terminalintegrierten Marktplatz für Plugins von Grok Build. Zum Start bietet die Plattform Plugins von MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare und Superpowers, mit Verifizierung durch SHA-Commit für jedes entfernte Plugin, wie <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a> berichtet.",
+        "it": "xAI ha svelato l'11 giugno 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, un mercato integrato nel terminale per i plugin di Grok Build. Al lancio, la piattaforma offre plugin firmati MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare e Superpowers, con verifica tramite commit SHA per ogni plugin remoto, come riporta <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+        "lmo": "xAI l'ha desvelaa l'11 de giugn 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, ona piazza de mercaa integrada al terminal per i plugin de Grok Build. Al lanzament, la piattaforma la propon di plugin firmaa MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare e Superpowers, cont verificazion per commit SHA per ogni plugin distant, come 'l reporta <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>."
+      },
+      "tag": {
+        "fr": "Plateforme",
+        "en": "Platform",
+        "de": "Plattform",
+        "it": "Piattaforma",
+        "lmo": "Piattaforma"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://x.ai/news/grok-plugin-marketplace",
+        "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI acquiert Ona pour étendre Codex aux environnements cloud persistants",
+        "en": "OpenAI acquires Ona to extend Codex to persistent cloud environments",
+        "de": "OpenAI übernimmt Ona zur Erweiterung von Codex auf persistente Cloud-Umgebungen",
+        "it": "OpenAI acquisisce Ona per estendere Codex agli ambienti cloud persistenti",
+        "lmo": "OpenAI el acquista Ona per slargà Codex ai ambient cloud persistent"
+      },
+      "body": {
+        "fr": "OpenAI a annoncé le 11 juin 2026 son intention d'acquérir <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, une startup spécialisée dans les environnements cloud sécurisés et persistants. L'objectif est d'étendre Codex avec des capacités d'exécution d'agents longue durée dans les workflows d'entreprise, permettant aux agents IA de fonctionner de manière continue sans perte de contexte.",
+        "en": "OpenAI announced on June 11, 2026 its intention to acquire <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, a startup specializing in secure, persistent cloud environments. The goal is to extend Codex with long-running agent execution capabilities in enterprise workflows, allowing AI agents to operate continuously without losing context.",
+        "de": "OpenAI hat am 11. Juni 2026 seine Absicht bekannt gegeben, <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a> zu übernehmen, ein Startup, das auf sichere und persistente Cloud-Umgebungen spezialisiert ist. Ziel ist es, Codex um Fähigkeiten zur langlebigen Agentenausführung in Unternehmensworkflows zu erweitern, sodass KI-Agenten kontinuierlich ohne Kontextverlust arbeiten können.",
+        "it": "OpenAI ha annunciato l'11 giugno 2026 la sua intenzione di acquisire <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, una startup specializzata in ambienti cloud sicuri e persistenti. L'obiettivo è estendere Codex con capacità di esecuzione di agenti a lunga durata nei workflow aziendali, consentendo agli agenti IA di funzionare in modo continuo senza perdita di contesto.",
+        "lmo": "OpenAI l'ha anunziaa l'11 de giugn 2026 la sò intenzion de acquistà <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, ona startup specializada in di ambient cloud segur e persistent. L'obietiv l'è de slargà Codex cont di capacità de esecuzion d'agenti longa durata in di workflow d'impresa, permettend ai agenti IA de fonzionà de manera continova senza perdita de contest."
+      },
+      "tag": {
+        "fr": "Acquisition",
+        "en": "Acquisition",
+        "de": "Übernahme",
+        "it": "Acquisizione",
+        "lmo": "Acquisizion"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://openai.com/index/openai-to-acquire-ona"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "NVIDIA et UCLA proposent un contrôleur de harnais apprenable pour agents LLM",
+        "en": "NVIDIA and UCLA propose a learnable harness controller for LLM agents",
+        "de": "NVIDIA und UCLA schlagen lernbares Geschirrsteuerungsmodul für LLM-Agenten vor",
+        "it": "NVIDIA e UCLA propongono un controller di harness apprendibile per agenti LLM",
+        "lmo": "NVIDIA e UCLA proponn on controllor de harnes imparabil per agenti LLM"
+      },
+      "body": {
+        "fr": "Des chercheurs de l'UCLA et de NVIDIA ont présenté <a href='https://huggingface.co/papers/2606.12882'>HarnessBridge</a>, un module de contrôle de harnais léger et apprenable qui paramètre l'interface agent-environnement comme une projection bidirectionnelle. Sur Terminal-Bench 2.0 et SWE-bench Verified, HarnessBridge égalise ou dépasse les harnais spécialisés tout en réduisant substantiellement la consommation de tokens et la longueur des trajectoires.",
+        "en": "Researchers from UCLA and NVIDIA presented <a href='https://huggingface.co/papers/2606.12882'>HarnessBridge</a>, a lightweight, learnable harness control module that parameterizes the agent-environment interface as a bidirectional projection. On Terminal-Bench 2.0 and SWE-bench Verified, HarnessBridge matches or surpasses specialized harnesses while substantially reducing token consumption and trajectory length.",
+        "de": "Forscher der UCLA und von NVIDIA haben <a href='https://huggingface.co/papers/2606.12882'>HarnessBridge</a> vorgestellt, ein leichtes, lernbares Geschirrsteuerungsmodul, das die Agent-Umgebungs-Schnittstelle als bidirektionale Projektion parametrisiert. Auf Terminal-Bench 2.0 und SWE-bench Verified erreicht oder übertrifft HarnessBridge spezialisierte Geschirre bei gleichzeitig substantiell reduziertem Tokenverbrauch und kürzeren Trajektorienlängen.",
+        "it": "Ricercatori dell'UCLA e di NVIDIA hanno presentato <a href='https://huggingface.co/papers/2606.12882'>HarnessBridge</a>, un modulo di controllo dell'harness leggero e apprendibile che parametrizza l'interfaccia agente-ambiente come una proiezione bidirezionale. Su Terminal-Bench 2.0 e SWE-bench Verified, HarnessBridge eguaglia o supera gli harness specializzati riducendo sostanzialmente il consumo di token e la lunghezza delle traiettorie.",
+        "lmo": "Di resercador de l'UCLA e de NVIDIA hann presentaa <a href='https://huggingface.co/papers/2606.12882'>HarnessBridge</a>, on modul de controll de harnes legger e imparabil che 'l parametra l'interfaccia agent-ambient come ona proiezzion bidirezionala. Sora Terminal-Bench 2.0 e SWE-bench Verified, HarnessBridge l'eguaglia o 'l supera i harnes specializzaa intant che 'l riduss sostanzialment el consum de token e la longhezza di traiettori."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://huggingface.co/papers/2606.12882"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Claw-SWE-Bench : un benchmark pour évaluer les harnais agentiques sur le code",
+        "en": "Claw-SWE-Bench: a benchmark for evaluating agentic harnesses on code",
+        "de": "Claw-SWE-Bench: Ein Benchmark zur Bewertung agentischer Geschirre auf Code",
+        "it": "Claw-SWE-Bench: un benchmark per valutare gli harness agentici sul codice",
+        "lmo": "Claw-SWE-Bench : on benchmark per valutà i harnes agentich sora el codex"
+      },
+      "body": {
+        "fr": "Un collectif de chercheurs a publié le 11 juin 2026 <a href='https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench'>Claw-SWE-Bench</a>, un benchmark multilingue de 350 instances de résolution d'issues GitHub couvrant 8 langages et 43 dépôts. Les résultats montrent que le choix du harnais (adapter) fait varier le Pass@1 de 27,4 points à modèle fixe, et que le coût API peut différer du simple au double entre systèmes de précision comparable.",
+        "en": "A collective of researchers published on June 11, 2026 <a href='https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench'>Claw-SWE-Bench</a>, a multilingual benchmark of 350 GitHub issue resolution instances covering 8 languages and 43 repositories. Results show that the choice of harness (adapter) varies Pass@1 by 27.4 points at fixed model, and that API cost can differ twofold between systems of comparable accuracy.",
+        "de": "Ein Forscherkollektiv hat am 11. Juni 2026 <a href='https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench'>Claw-SWE-Bench</a> veröffentlicht, einen mehrsprachigen Benchmark mit 350 Instanzen zur Lösung von GitHub-Issues, der 8 Sprachen und 43 Repositories abdeckt. Die Ergebnisse zeigen, dass die Wahl des Geschirrs (Adapters) den Pass@1 bei festem Modell um 27,4 Punkte variieren lässt und dass die API-Kosten zwischen Systemen vergleichbarer Genauigkeit um das Doppelte differieren können.",
+        "it": "Un collettivo di ricercatori ha pubblicato l'11 giugno 2026 <a href='https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench'>Claw-SWE-Bench</a>, un benchmark multilingue di 350 istanze di risoluzione di issue GitHub che copre 8 linguaggi e 43 repository. I risultati mostrano che la scelta dell'harness (adapter) fa variare il Pass@1 di 27,4 punti a modello fisso, e che il costo API può differire dal semplice al doppio tra sistemi di precisione comparabile.",
+        "lmo": "On coletiv de resercador l'ha publicaa l'11 de giugn 2026 <a href='https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench'>Claw-SWE-Bench</a>, on benchmark multilingua de 350 istanz de risoluzion d'issue GitHub che quarden 8 lenguagg e 43 deposit. I resultad mostren che la scerna del harnes (adapter) la fa varià el Pass@1 de 27,4 pont a modell fiss, e che 'l cost API el pò differì del semplic al doppi tra sistema de precision comparabila."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://huggingface.co/datasets/TokenRhythm/Claw-SWE-Bench"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Un tribunal allemand déclare Google responsable des AI Overviews",
+        "en": "German court declares Google liable for AI Overviews",
+        "de": "Deutsches Gericht erklärt Google für AI Overviews verantwortlich",
+        "it": "Un tribunale tedesco dichiara Google responsabile degli AI Overviews",
+        "lmo": "On tribunal todesch el declara Google responsabel di AI Overviews"
+      },
+      "body": {
+        "fr": "Un tribunal régional allemand a rendu le 11 juin 2026 une décision de principe : <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google est directement responsable du contenu de ses AI Overviews</a>. La protection limitée dont bénéficient les moteurs de recherche ne s'applique pas aux résumés générés par IA, selon le tribunal. Google avait faussement associé deux éditeurs à des activités frauduleuses dans ses résumés.",
+        "en": "A German regional court issued a landmark ruling on June 11, 2026: <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google is directly responsible for the content of its AI Overviews</a>. The limited protection enjoyed by search engines does not apply to AI-generated summaries, according to the court. Google had falsely associated two publishers with fraudulent activities in its summaries.",
+        "de": "Ein deutsches Landgericht hat am 11. Juni 2026 ein Grundsatzurteil gefällt: <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google ist direkt verantwortlich für den Inhalt seiner AI Overviews</a>. Der eingeschränkte Schutz, den Suchmaschinen geniessen, gilt nicht für KI-generierte Zusammenfassungen, so das Gericht. Google hatte in seinen Zusammenfassungen fälschlicherweise zwei Verlage mit betrügerischen Aktivitäten in Verbindung gebracht.",
+        "it": "Un tribunale regionale tedesco ha emesso l'11 giugno 2026 una decisione di principio: <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google è direttamente responsabile del contenuto dei suoi AI Overviews</a>. La protezione limitata di cui beneficiano i motori di ricerca non si applica ai riassunti generati dall'IA, secondo il tribunale. Google aveva falsamente associato due editori ad attività fraudolente nei suoi riassunti.",
+        "lmo": "On tribunal regional todesch l'ha renduu l'11 de giugn 2026 ona decision de principi : <a href='https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/'>Google l'è direttament responsabel del contegnud di sò AI Overviews</a>. La protezzion limitada de che i motor de ricerca gode no la se applica ai somari generaa de l'IA, segond el tribunal. Google l'aveva falsament associaa du editor a di atività fraudolente in di sò somari."
+      },
+      "tag": {
+        "fr": "Juridique",
+        "en": "Legal",
+        "de": "Rechtlich",
+        "it": "Giuridico",
+        "lmo": "Giuridich"
+      },
+      "wire": {
+        "fr": "From the Wires — 11 juin 2026",
+        "en": "From the Wires — June 11, 2026",
+        "de": "From the Wires — 11. Juni 2026",
+        "it": "From the Wires — 11 giugno 2026",
+        "lmo": "From the Wires — 11 de giugn 2026"
+      },
+      "urls": [
+        "https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Frontier",
+            "it": "Modelli & Frontier",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cohere North Mini Code : un MoE 30B pour le codage agentique",
+                "en": "Cohere North Mini Code: a 30B MoE for agentic coding",
+                "de": "Cohere North Mini Code: Ein MoE 30B für agentisches Codieren",
+                "it": "Cohere North Mini Code: un MoE 30B per la codifica agentica",
+                "lmo": "Cohere North Mini Code : on MoE 30B per el coding agentich"
+              },
+              "body": {
+                "fr": "Cohere a dévoilé le 11 juin 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, un modèle ouvert de 30 milliards de paramètres au format mixture-of-experts (MoE) avec seulement 3 milliards de paramètres actifs. Conçu spécifiquement pour les tâches de codage agentique, il fonctionne sur un seul GPU H100 et offre une fenêtre de contexte de 256 000 tokens. Il s'agit du premier modèle de codage développeur de Cohere, marquant l'entrée du laboratoire sur le segment des modèles de génération de code open-weights.",
+                "en": "Cohere unveiled on June 11, 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, an open-weight 30-billion-parameter mixture-of-experts (MoE) model with only 3 billion active parameters. Designed specifically for agentic coding tasks, it runs on a single H100 GPU and offers a 256,000-token context window. It is Cohere's first developer coding model, marking the lab's entry into the open-weights code generation segment.",
+                "de": "Cohere hat am 11. Juni 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a> vorgestellt, ein offenes Modell mit 30 Milliarden Parametern im Mixture-of-Experts-Format (MoE) mit nur 3 Milliarden aktiven Parametern. Speziell für agentische Codierungsaufgaben konzipiert, läuft es auf einer einzelnen H100-GPU und bietet ein Kontextfenster von 256'000 Tokens. Es ist das erste Codierungs-Entwicklermodell von Cohere und markiert den Einstieg des Labors in das Segment der Open-Weight-Codegenerierungsmodelle.",
+                "it": "Cohere ha svelato l'11 giugno 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, un modello aperto da 30 miliardi di parametri in formato mixture-of-experts (MoE) con soli 3 miliardi di parametri attivi. Progettato specificamente per compiti di codifica agentica, funziona su una singola GPU H100 e offre una finestra di contesto di 256.000 token. Si tratta del primo modello di codifica sviluppatore di Cohere, segnando l'ingresso del laboratorio nel segmento dei modelli di generazione di codice open-weights.",
+                "lmo": "Cohere l'ha desvelaa l'11 de giugn 2026 <a href='https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/'>North Mini Code</a>, on modell vert de 30 miliard de parametri in del formaa mixture-of-experts (MoE) cont domà 3 miliard de parametri ativ. Progettaa specificament per i incarich de coding agentich, el fonziona sora on singol GPU H100 e 'l offr ona fenestra de contest de 256 000 token. L'è 'l prim modell de coding desvilupador de Cohere, marcand l'entrada del laboratori in del segment di modell de generazion de codex open-weights."
+              },
+              "kicker": {
+                "fr": "Nouveau modèle",
+                "en": "New model",
+                "de": "Neues Modell",
+                "it": "Nuovo modello",
+                "lmo": "Noeuv modell"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/11/meet-north-mini-code-coheres-30b-open-weight-mixture-of-experts-model-with-3b-active-parameters-for-agentic-coding/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI lance le Grok Build Plugin Marketplace avec huit partenaires",
+                "en": "xAI launches the Grok Build Plugin Marketplace with eight partners",
+                "de": "xAI lanciert den Grok Build Plugin Marketplace mit acht Partnern",
+                "it": "xAI lancia il Grok Build Plugin Marketplace con otto partner",
+                "lmo": "xAI el lanza el Grok Build Plugin Marketplace cont vott partner"
+              },
+              "body": {
+                "fr": "xAI a lancé le 11 juin 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, une place de marché intégrée au terminal pour plugins, skills, agents et serveurs MCP. Les huit plugins disponibles au lancement incluent MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare et Superpowers. Chaque plugin distant est vérifié par empreinte SHA de commit, comme le détaille <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+                "en": "xAI launched on June 11, 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, a terminal-integrated marketplace for plugins, skills, agents and MCP servers. The eight plugins available at launch include MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare and Superpowers. Each remote plugin is verified by SHA commit fingerprint, as detailed by <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+                "de": "xAI hat am 11. Juni 2026 den <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a> gestartet, einen terminalintegrierten Marktplatz für Plugins, Skills, Agents und MCP-Server. Die acht zum Start verfügbaren Plugins umfassen MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare und Superpowers. Jedes entfernte Plugin wird durch einen SHA-Commit-Fingerabdruck verifiziert, wie <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a> detailliert ausführt.",
+                "it": "xAI ha lanciato l'11 giugno 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, un mercato integrato nel terminale per plugin, skill, agent e server MCP. Gli otto plugin disponibili al lancio includono MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare e Superpowers. Ogni plugin remoto è verificato tramite impronta SHA del commit, come dettaglia <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>.",
+                "lmo": "xAI l'ha lanzaa l'11 de giugn 2026 <a href='https://x.ai/news/grok-plugin-marketplace'>Grok Build Plugin Marketplace</a>, ona piazza de mercaa integrada al terminal per plugin, skill, agent e server MCP. I vott plugin disponibil al lanzament includen MongoDB, Vercel, Sentry, Chrome DevTools, Cloudflare e Superpowers. Ogni plugin distant l'è verificaa per empreinta SHA de commit, come 'l detaja <a href='https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/'>MarkTechPost</a>."
+              },
+              "kicker": {
+                "fr": "Plateforme",
+                "en": "Platform",
+                "de": "Plattform",
+                "it": "Piattaforma",
+                "lmo": "Piattaforma"
+              },
+              "urls": [
+                "https://x.ai/news/grok-plugin-marketplace",
+                "https://www.marktechpost.com/2026/06/11/xai-ships-grok-build-plugin-marketplace-with-mongodb-vercel-sentry-chrome-devtools-cloudflare-and-superpowers-plugins-at-launch/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI acquiert Ona pour des agents cloud persistants",
+                "en": "OpenAI acquires Ona for persistent cloud agents",
+                "de": "OpenAI übernimmt Ona für persistente Cloud-Agenten",
+                "it": "OpenAI acquisisce Ona per agenti cloud persistenti",
+                "lmo": "OpenAI el acquista Ona per di agent cloud persistent"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé le 11 juin 2026 l'acquisition de <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, une startup spécialisée dans les environnements cloud sécurisés et persistants. L'opération vise à doter Codex de capacités d'exécution d'agents longue durée dans les workflows d'entreprise. Parallèlement, OpenAI a annoncé que BBVA déploie ChatGPT Enterprise auprès de 100 000 employés, comme le rapporte <a href='https://openai.com/index/bbva'>l'entreprise</a>.",
+                "en": "OpenAI announced on June 11, 2026 the acquisition of <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, a startup specializing in secure, persistent cloud environments. The deal aims to equip Codex with long-running agent execution capabilities in enterprise workflows. Separately, OpenAI announced that BBVA is deploying ChatGPT Enterprise to 100,000 employees, as reported by <a href='https://openai.com/index/bbva'>the company</a>.",
+                "de": "OpenAI hat am 11. Juni 2026 die Übernahme von <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a> angekündigt, einem Startup, das auf sichere und persistente Cloud-Umgebungen spezialisiert ist. Die Transaktion zielt darauf ab, Codex mit Fähigkeiten zur langlebigen Agentenausführung in Unternehmensworkflows auszustatten. Parallel dazu gab OpenAI bekannt, dass BBVA ChatGPT Enterprise bei 100'000 Mitarbeitern einführt, wie das <a href='https://openai.com/index/bbva'>Unternehmen</a> berichtet.",
+                "it": "OpenAI ha annunciato l'11 giugno 2026 l'acquisizione di <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, una startup specializzata in ambienti cloud sicuri e persistenti. L'operazione mira a dotare Codex di capacità di esecuzione di agenti a lunga durata nei workflow aziendali. Parallelamente, OpenAI ha annunciato che BBVA implementa ChatGPT Enterprise presso 100.000 dipendenti, come riporta <a href='https://openai.com/index/bbva'>l'azienda</a>.",
+                "lmo": "OpenAI l'ha anunziaa l'11 de giugn 2026 l'acquisizion de <a href='https://openai.com/index/openai-to-acquire-ona'>Ona</a>, ona startup specializada in di ambient cloud segur e persistent. L'operazion la mira a dotà Codex de capacità de esecuzion d'agenti longa durata in di workflow d'impresa. Parallellament, OpenAI l'ha anunziaa che BBVA la despiega ChatGPT Enterprise arent a 100 000 impiegaa, come 'l reporta <a href='https://openai.com/index/bbva'>l'azienda</a>."
+              },
+              "kicker": {
+                "fr": "Acquisition",
+                "en": "Acquisition",
+                "de": "Übernahme",
+                "it": "Acquisizione",
+                "lmo": "Acquisizion"
+              },
+              "urls": [
+                "https://openai.com/index/openai-to-acquire-ona",
+                "https://openai.com/index/bbva"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic publie un essai stratégique sur l'IA comme arme entre États",
+                "en": "Anthropic publishes strategic essay on AI as a weapon between states",
+                "de": "Anthropic veröffentlicht strategischen Essay über KI als Waffe zwischen Staaten",
+                "it": "Anthropic pubblica un saggio strategico sull'IA come arma tra Stati",
+                "lmo": "Anthropic el publiga on assagg strategich sora l'IA come arma tra Stat"
+              },
+              "body": {
+                "fr": "Le PDG d'Anthropic, Dario Amodei, a publié le 11 juin 2026 un essai programmatique que <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> qualifie de « manuel de guerre froide pour l'ère de l'IA ». L'essai appelle à des audits contraignants des modèles frontière et présente l'IA comme un outil stratégique entre les mains des États-nations. Anthropic a également lancé le même jour <a href='https://www.anthropic.com/news/claude-corps'>Claude Corps</a>, un programme de fellowship national pour les jeunes en début de carrière.",
+                "en": "Anthropic CEO Dario Amodei published on June 11, 2026 a programmatic essay that <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> calls a 'Cold War playbook for the AI age.' The essay calls for binding audits of frontier models and presents AI as a strategic tool in the hands of nation-states. Anthropic also launched the same day <a href='https://www.anthropic.com/news/claude-corps'>Claude Corps</a>, a national fellowship program for early-career young people.",
+                "de": "Der CEO von Anthropic, Dario Amodei, hat am 11. Juni 2026 einen programmatischen Essay veröffentlicht, den <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> als «Handbuch des Kalten Krieges für das KI-Zeitalter» bezeichnet. Der Essay fordert verbindliche Audits von Frontier-Modellen und präsentiert KI als strategisches Werkzeug in den Händen von Nationalstaaten. Anthropic hat am selben Tag ebenfalls <a href='https://www.anthropic.com/news/claude-corps'>Claude Corps</a> lanciert, ein nationales Fellowship-Programm für Berufseinsteiger.",
+                "it": "Il CEO di Anthropic, Dario Amodei, ha pubblicato l'11 giugno 2026 un saggio programmatico che <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> definisce un « manuale di guerra fredda per l'era dell'IA ». Il saggio chiede audit vincolanti dei modelli frontier e presenta l'IA come uno strumento strategico nelle mani degli Stati-nazione. Anthropic ha inoltre lanciato lo stesso giorno <a href='https://www.anthropic.com/news/claude-corps'>Claude Corps</a>, un programma di fellowship nazionale per giovani all'inizio della carriera.",
+                "lmo": "El CEO d'Anthropic, Dario Amodei, l'ha publicaa l'11 de giugn 2026 on assagg programmatich che <a href='https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/'>The Decoder</a> el qualifica de « manual de guerra freggia per l'era de l'IA ». L'assagg el ciama di audit obbligatori di modell frontiera e 'l presenta l'IA come on'arma strategica in di man di Stat-nazion. Anthropic l'ha anca lanzaa el midem dì <a href='https://www.anthropic.com/news/claude-corps'>Claude Corps</a>, on programa de fellowship nazional per i gioven a l'inizi de la soa carriera."
+              },
+              "kicker": {
+                "fr": "Politique",
+                "en": "Policy",
+                "de": "Politik",
+                "it": "Politica",
+                "lmo": "Politega"
+              },
+              "urls": [
+                "https://the-decoder.com/dario-amodeis-new-essay-reads-like-a-cold-war-playbook-for-the-ai-age/",
+                "https://www.anthropic.com/news/claude-corps"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Geschirre & CLI",
+            "it": "Harnais & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.175 : gestion centralisée des modèles autorisés",
+                "en": "Claude Code v2.1.175: centralized management of allowed models",
+                "de": "Claude Code v2.1.175: Zentrale Verwaltung der autorisierten Modelle",
+                "it": "Claude Code v2.1.175: gestione centralizzata dei modelli autorizzati",
+                "lmo": "Claude Code v2.1.175 : gestion centralizada di modell autorizzaa"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 12 juin 2026 la version <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.175'>v2.1.175 de Claude Code</a>, qui introduit un paramètre `enforceAvailableModels` permettant aux administrateurs de contraindre la liste blanche des modèles accessibles. Désormais, un modèle Default qui résoudrait un modèle non autorisé bascule automatiquement vers le premier modèle autorisé. La version v2.1.174, publiée le même jour, corrige l'affichage du sélecteur de modèle pour les utilisateurs des forfaits Max/Team Premium/Enterprise.",
+                "en": "Anthropic released on June 12, 2026 version <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.175'>v2.1.175 of Claude Code</a>, which introduces an `enforceAvailableModels` setting allowing administrators to constrain the whitelist of accessible models. A Default model that would resolve to an unauthorized model now automatically falls back to the first authorized model. Version v2.1.174, released the same day, fixes the model selector display for users on Max/Team Premium/Enterprise plans.",
+                "de": "Anthropic hat am 12. Juni 2026 die Version <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.175'>v2.1.175 von Claude Code</a> veröffentlicht, die einen Parameter `enforceAvailableModels` einführt, der es Administratoren ermöglicht, die Whitelist der zugänglichen Modelle zu erzwingen. Wenn ein Default-Modell auf ein nicht autorisiertes Modell verweisen würde, wechselt es nun automatisch zum ersten autorisierten Modell. Die Version v2.1.174, die am selben Tag veröffentlicht wurde, korrigiert die Anzeige des Modellauswahlfensters für Nutzer der Tarife Max/Team Premium/Enterprise.",
+                "it": "Anthropic ha pubblicato il 12 giugno 2026 la versione <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.175'>v2.1.175 di Claude Code</a>, che introduce un parametro `enforceAvailableModels` che consente agli amministratori di vincolare la whitelist dei modelli accessibili. Ora, un modello Default che risolverebbe un modello non autorizzato passa automaticamente al primo modello autorizzato. La versione v2.1.174, pubblicata lo stesso giorno, corregge la visualizzazione del selettore di modello per gli utenti dei piani Max/Team Premium/Enterprise.",
+                "lmo": "Anthropic l'ha publicaa el 12 de giugn 2026 la version <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.175'>v2.1.175 de Claude Code</a>, che la introdux on parametro `enforceAvailableModels` permettend ai aministrador de costrenz la lista bianca di modell accessibil. D'ora inanz, on modell Default che 'l resolveress on modell minga autorizzaa el passa automaticament al prim modell autorizzaa. La version v2.1.174, publicada el midem dì, la coregg la visualizzazion del selector de modell per i utent di forfait Max/Team Premium/Enterprise."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Messa a pont"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.174"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI Codex CLI : sept versions alpha en 24 heures",
+                "en": "OpenAI Codex CLI: seven alpha releases in 24 hours",
+                "de": "OpenAI Codex CLI: Sieben Alpha-Versionen in 24 Stunden",
+                "it": "OpenAI Codex CLI: sette versioni alpha in 24 ore",
+                "lmo": "OpenAI Codex CLI : set version alpha in 24 ore"
+              },
+              "body": {
+                "fr": "OpenAI a déployé le 11 et 12 juin 2026 sept versions alpha de <a href='https://github.com/openai/codex/releases'>Codex CLI</a>, de la v0.140.0-alpha.8 à la v0.140.0-alpha.14. Ces mises à jour successives, publiées entre le 11 juin à 06h14 et le 12 juin à 03h45, témoignent d'un rythme de développement intensif. Par ailleurs, les notes de version de ChatGPT du 11 juin 2026 mentionnent l'ajout du « rate-limit reset banking » pour les utilisateurs Plus et Pro éligibles, avec un reset gratuit au lancement et la possibilité d'envoyer des invitations depuis l'application Codex, comme indiqué dans les <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>notes de version ChatGPT</a>.",
+                "en": "OpenAI deployed on June 11 and 12, 2026 seven alpha versions of <a href='https://github.com/openai/codex/releases'>Codex CLI</a>, from v0.140.0-alpha.8 to v0.140.0-alpha.14. These successive updates, published between June 11 at 06:14 and June 12 at 03:45, reflect an intensive development pace. Separately, the ChatGPT release notes for June 11, 2026 mention the addition of 'rate-limit reset banking' for eligible Plus and Pro users, with a free reset at launch and the ability to send invitations from the Codex app, as indicated in the <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>ChatGPT release notes</a>.",
+                "de": "OpenAI hat am 11. und 12. Juni 2026 sieben Alpha-Versionen von <a href='https://github.com/openai/codex/releases'>Codex CLI</a> bereitgestellt, von v0.140.0-alpha.8 bis v0.140.0-alpha.14. Diese aufeinanderfolgenden Updates, die zwischen dem 11. Juni um 06:14 Uhr und dem 12. Juni um 03:45 Uhr veröffentlicht wurden, zeugen von einem intensiven Entwicklungstempo. Die ChatGPT-Versionshinweise vom 11. Juni 2026 erwähnen zudem die Einführung des «Rate-Limit-Reset-Banking» für berechtigte Plus- und Pro-Nutzer, mit einem kostenlosen Reset zum Start und der Möglichkeit, Einladungen aus der Codex-App zu versenden, wie in den <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>ChatGPT-Versionshinweisen</a> angegeben.",
+                "it": "OpenAI ha distribuito l'11 e 12 giugno 2026 sette versioni alpha di <a href='https://github.com/openai/codex/releases'>Codex CLI</a>, dalla v0.140.0-alpha.8 alla v0.140.0-alpha.14. Questi aggiornamenti successivi, pubblicati tra l'11 giugno alle 06:14 e il 12 giugno alle 03:45, testimoniano un ritmo di sviluppo intensivo. Inoltre, le note di rilascio di ChatGPT dell'11 giugno 2026 menzionano l'aggiunta del « rate-limit reset banking » per gli utenti Plus e Pro idonei, con un reset gratuito al lancio e la possibilità di inviare inviti dall'applicazione Codex, come indicato nelle <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>note di rilascio ChatGPT</a>.",
+                "lmo": "OpenAI l'ha despiegaa l'11 e 12 de giugn 2026 set version alpha de <a href='https://github.com/openai/codex/releases'>Codex CLI</a>, de la v0.140.0-alpha.8 a la v0.140.0-alpha.14. Queste messe a pont successiv, publicaa tra l'11 de giugn a 06:14 e 'l 12 de giugn a 03:45, testimògnen on ritm de desvilup intensiv. D'oltra banda, i not de version de ChatGPT de l'11 de giugn 2026 menzionen l'gionta del « rate-limit reset banking » per i utent Plus e Pro eleggibil, cont on reset gratuit al lanzament e la possibilità de mandà inviti de l'applicazion Codex, come indicaa in di <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>not de version ChatGPT</a>."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Messa a pont"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases",
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cline CLI v3.0.24 : soumission de prompts par plugins",
+                "en": "Cline CLI v3.0.24: prompt submission via plugins",
+                "de": "Cline CLI v3.0.24: Prompteinreichung durch Plugins",
+                "it": "Cline CLI v3.0.24: invio di prompt tramite plugin",
+                "lmo": "Cline CLI v3.0.24 : sottomission de prompt per plugin"
+              },
+              "body": {
+                "fr": "L'extension VS Code Cline a publié le 11 juin 2026 la version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.24'>CLI v3.0.24</a>, qui permet désormais aux commandes plugin de soumettre des prompts à l'agent. La version ajoute également la prise en charge de la substitution de l'URL de base de l'API, l'ouverture automatique de l'URL de vérification lors de l'authentification par dispositif, et la correction d'un problème de troncature des chaînes de résultats d'outils structurés.",
+                "en": "The Cline VS Code extension released on June 11, 2026 version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.24'>CLI v3.0.24</a>, which now allows plugin commands to submit prompts to the agent. The version also adds support for API base URL substitution, automatic opening of the verification URL during device authentication, and a fix for truncation of structured tool result strings.",
+                "de": "Die VS-Code-Erweiterung Cline hat am 11. Juni 2026 die Version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.24'>CLI v3.0.24</a> veröffentlicht, die es Plugin-Befehlen nun ermöglicht, Prompts an den Agenten zu übermitteln. Die Version fügt zudem Unterstützung für die Substitution der API-Basis-URL, das automatische Öffnen der Verifizierungs-URL bei der Geräteauthentifizierung und die Behebung eines Problems mit der Abschneidung von Ergebnisstrings strukturierter Tools hinzu.",
+                "it": "L'estensione VS Code Cline ha pubblicato l'11 giugno 2026 la versione <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.24'>CLI v3.0.24</a>, che ora consente ai comandi plugin di inviare prompt all'agente. La versione aggiunge anche il supporto per la sostituzione dell'URL di base dell'API, l'apertura automatica dell'URL di verifica durante l'autenticazione tramite dispositivo, e la correzione di un problema di troncamento delle stringhe di risultati di strumenti strutturati.",
+                "lmo": "L'estension VS Code Cline l'ha publicaa l'11 de giugn 2026 la version <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.24'>CLI v3.0.24</a>, che la permett adess ai comand plugin de sottomett di prompt a l'agent. La version la gionta anca la presa in caregh de la sostituzion de l'URL de bas de l'API, l'vertura automatica de l'URL de verificazion durant l'autenticazion per dispositiv, e la corezzion d'on problema de troncadura di string de resultad d'isterment strutturaa."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Messa a pont"
+              },
+              "urls": [
+                "https://github.com/cline/cline/releases/tag/cli-v3.0.24"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenCode v1.17.4 : support du répertoire de travail pour serveurs MCP",
+                "en": "OpenCode v1.17.4: working directory support for MCP servers",
+                "de": "OpenCode v1.17.4: Unterstützung des Arbeitsverzeichnisses für MCP-Server",
+                "it": "OpenCode v1.17.4: supporto della directory di lavoro per server MCP",
+                "lmo": "OpenCode v1.17.4 : support del repertori de lavorà per server MCP"
+              },
+              "body": {
+                "fr": "OpenCode a publié le 12 juin 2026 la version <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.4'>v1.17.4</a>, qui ajoute le support du paramètre `cwd` pour les serveurs MCP locaux, leur permettant de démarrer depuis un répertoire relatif à l'espace de travail. La version introduit également des flux d'authentification basés sur des connecteurs et des endpoints API v2 pour la gestion des sessions.",
+                "en": "OpenCode released on June 12, 2026 version <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.4'>v1.17.4</a>, which adds support for the `cwd` parameter for local MCP servers, allowing them to start from a directory relative to the workspace. The version also introduces connector-based authentication flows and API v2 endpoints for session management.",
+                "de": "OpenCode hat am 12. Juni 2026 die Version <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.4'>v1.17.4</a> veröffentlicht, die die Unterstützung des Parameters `cwd` für lokale MCP-Server hinzufügt, sodass diese aus einem relativ zum Arbeitsbereich liegenden Verzeichnis starten können. Die Version führt zudem Authentifizierungsabläufe basierend auf Connectoren und API-v2-Endpunkten für die Sitzungsverwaltung ein.",
+                "it": "OpenCode ha pubblicato il 12 giugno 2026 la versione <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.4'>v1.17.4</a>, che aggiunge il supporto del parametro `cwd` per i server MCP locali, consentendo loro di avviarsi da una directory relativa allo spazio di lavoro. La versione introduce anche flussi di autenticazione basati su connettori ed endpoint API v2 per la gestione delle sessioni.",
+                "lmo": "OpenCode l'ha publicaa el 12 de giugn 2026 la version <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.4'>v1.17.4</a>, che la gionta el support del parametro `cwd` per i server MCP locai, permettendgh de scomincià de on repertori relativ a l'espazzi de lavorà. La version la introdux anca di fluss d'autenticazion basaa sora di connector e di endpoint API v2 per la gestion di session."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Messa a pont"
+              },
+              "urls": [
+                "https://github.com/anomalyco/opencode/releases/tag/v1.17.4"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs & Inférence",
+            "en": "Engines & Inference",
+            "de": "Engines & Inferenz",
+            "it": "Motori & Inferenza",
+            "lmo": "Motor & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "oMLX v0.4.4rc1 : support de DiffusionGemma et DeepSeek V4 MTP",
+                "en": "oMLX v0.4.4rc1: support for DiffusionGemma and DeepSeek V4 MTP",
+                "de": "oMLX v0.4.4rc1: Unterstützung von DiffusionGemma und DeepSeek V4 MTP",
+                "it": "oMLX v0.4.4rc1: supporto di DiffusionGemma e DeepSeek V4 MTP",
+                "lmo": "oMLX v0.4.4rc1 : support de DiffusionGemma e DeepSeek V4 MTP"
+              },
+              "body": {
+                "fr": "Le moteur d'inférence Apple Silicon oMLX a publié le 11 juin 2026 la release candidate <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4rc1'>v0.4.4rc1</a>, qui apporte le support de DiffusionGemma via mlx-vlm, la quantification oQ et le support MTP pour DeepSeek V4, ainsi que des améliorations majeures de la réutilisation du cache pour les charges de travail agentiques sur les modèles Gemma et Qwen. La version corrige également la comptabilité préflight du scheduler et améliore le Memory Guard.",
+                "en": "The Apple Silicon inference engine oMLX released on June 11, 2026 release candidate <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4rc1'>v0.4.4rc1</a>, which brings support for DiffusionGemma via mlx-vlm, oQ quantization and MTP support for DeepSeek V4, as well as major cache reuse improvements for agentic workloads on Gemma and Qwen models. The release also fixes scheduler preflight accounting and improves Memory Guard.",
+                "de": "Die Apple-Silicon-Inferenz-Engine oMLX hat am 11. Juni 2026 den Release Candidate <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4rc1'>v0.4.4rc1</a> veröffentlicht, der die Unterstützung von DiffusionGemma über mlx-vlm, die oQ-Quantisierung und die MTP-Unterstützung für DeepSeek V4 sowie wesentliche Verbesserungen der Cache-Wiederverwendung für agentische Workloads auf den Modellen Gemma und Qwen bringt. Die Version korrigiert zudem die Preflight-Kompatibilität des Schedulers und verbessert den Memory Guard.",
+                "it": "Il motore di inferenza Apple Silicon oMLX ha pubblicato l'11 giugno 2026 la release candidate <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4rc1'>v0.4.4rc1</a>, che introduce il supporto di DiffusionGemma tramite mlx-vlm, la quantizzazione oQ e il supporto MTP per DeepSeek V4, oltre a miglioramenti significativi del riutilizzo della cache per carichi di lavoro agentici sui modelli Gemma e Qwen. La versione corregge anche la contabilità preflight dello scheduler e migliora il Memory Guard.",
+                "lmo": "El motor d'inferenza Apple Silicon oMLX l'ha publicaa l'11 de giugn 2026 la release candidate <a href='https://github.com/jundot/omlx/releases/tag/v0.4.4rc1'>v0.4.4rc1</a>, che la porta el support de DiffusionGemma via mlx-vlm, la quantificazion oQ e 'l support MTP per DeepSeek V4, insema a di migliorament magior del reusagg del cache per i caregh de lavorà agentich sora i modell Gemma e Qwen. La version la coregg anca la comptabilità preflight del scheduler e la migliora el Memory Guard."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/jundot/omlx/releases/tag/v0.4.4rc1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX v0.7.2 : boucle de génération maison pour DiffusionGemma",
+                "en": "Rapid-MLX v0.7.2: custom generation loop for DiffusionGemma",
+                "de": "Rapid-MLX v0.7.2: Eigene Generierungsschleife für DiffusionGemma",
+                "it": "Rapid-MLX v0.7.2: ciclo di generazione proprietario per DiffusionGemma",
+                "lmo": "Rapid-MLX v0.7.2 : loop de generazion cà soa per DiffusionGemma"
+              },
+              "body": {
+                "fr": "Rapid-MLX a publié le 11 juin 2026 la version <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2'>v0.7.2</a>, qui introduit une boucle de génération interne pour DiffusionGemma (phase 1). Cette implémentation maison permet de générer des images via le modèle de diffusion de Google DeepMind directement sur Apple Silicon, sans dépendre de pipelines externes.",
+                "en": "Rapid-MLX released on June 11, 2026 version <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2'>v0.7.2</a>, which introduces a custom generation loop for DiffusionGemma (phase 1). This in-house implementation allows generating images via Google DeepMind's diffusion model directly on Apple Silicon, without relying on external pipelines.",
+                "de": "Rapid-MLX hat am 11. Juni 2026 die Version <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2'>v0.7.2</a> veröffentlicht, die eine interne Generierungsschleife für DiffusionGemma (Phase 1) einführt. Diese Eigenimplementierung ermöglicht die Bilderzeugung über das Diffusionsmodell von Google DeepMind direkt auf Apple Silicon, ohne Abhängigkeit von externen Pipelines.",
+                "it": "Rapid-MLX ha pubblicato l'11 giugno 2026 la versione <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2'>v0.7.2</a>, che introduce un ciclo di generazione interno per DiffusionGemma (fase 1). Questa implementazione proprietaria consente di generare immagini tramite il modello di diffusione di Google DeepMind direttamente su Apple Silicon, senza dipendere da pipeline esterne.",
+                "lmo": "Rapid-MLX l'ha publicaa l'11 de giugn 2026 la version <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2'>v0.7.2</a>, che la introdux on loop de generazion intern per DiffusionGemma (fase 1). Questa implementazion cà soa la permett de generà di imagin via 'l modell de diffusion de Google DeepMind direttament sora Apple Silicon, senza dipend de pipeline estern."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.7.2"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b9601 : correctif de compilation Vulkan",
+                "en": "llama.cpp b9601: Vulkan compilation fix",
+                "de": "llama.cpp b9601: Vulkan-Kompilierungsfix",
+                "it": "llama.cpp b9601: correzione di compilazione Vulkan",
+                "lmo": "llama.cpp b9601 : coretiv de compilazion Vulkan"
+              },
+              "body": {
+                "fr": "Le projet llama.cpp a publié le 11 juin 2026 la version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9601'>b9601</a>, un correctif de build pour le backend Vulkan après l'introduction de eMesaHoneykrisp. Cette version mineure corrige la compilation sur les systèmes utilisant le driver Mesa Vulkan, sans ajout de fonctionnalité majeure.",
+                "en": "The llama.cpp project released on June 11, 2026 version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9601'>b9601</a>, a build fix for the Vulkan backend following the introduction of eMesaHoneykrisp. This minor release fixes compilation on systems using the Mesa Vulkan driver, with no major feature additions.",
+                "de": "Das Projekt llama.cpp hat am 11. Juni 2026 die Version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9601'>b9601</a> veröffentlicht, einen Build-Fix für das Vulkan-Backend nach der Einführung von eMesaHoneykrisp. Diese Nebenversion korrigiert die Kompilierung auf Systemen, die den Mesa-Vulkan-Treiber verwenden, ohne grössere Funktionserweiterungen.",
+                "it": "Il progetto llama.cpp ha pubblicato l'11 giugno 2026 la versione <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9601'>b9601</a>, una correzione di build per il backend Vulkan dopo l'introduzione di eMesaHoneykrisp. Questa versione minore corregge la compilazione sui sistemi che utilizzano il driver Mesa Vulkan, senza aggiunta di funzionalità principali.",
+                "lmo": "El proget llama.cpp l'ha publicaa l'11 de giugn 2026 la version <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9601'>b9601</a>, on coretiv de build per el backend Vulkan dopo l'introduzzion de eMesaHoneykrisp. Questa version minora la coregg la compilazion sora i sistema che doperen el driver Mesa Vulkan, senza gionta de funzionalità magiora."
+              },
+              "kicker": {
+                "fr": "Build fix",
+                "en": "Build fix",
+                "de": "Build-Fix",
+                "it": "Build fix",
+                "lmo": "Build fix"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9601"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papiere & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Papers & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "SpatialClaw : le code comme interface d'action pour le raisonnement spatial",
+                "en": "SpatialClaw: code as an action interface for spatial reasoning",
+                "de": "SpatialClaw: Code als Aktionsschnittstelle für räumliches Denken",
+                "it": "SpatialClaw: il codice come interfaccia d'azione per il ragionamento spaziale",
+                "lmo": "SpatialClaw : el codex come interfaccia d'azion per el resonament spazial"
+              },
+              "body": {
+                "fr": "Des chercheurs de NVIDIA ont présenté le 11 juin 2026 <a href='https://huggingface.co/papers/2606.13673'>SpatialClaw</a>, un framework sans entraînement qui utilise le code comme interface d'action pour le raisonnement spatial des VLMs. En maintenant un noyau Python stateful préchargé avec des primitives de perception et de géométrie, SpatialClaw atteint 59,9 % de précision moyenne sur 20 benchmarks de raisonnement spatial 3D/4D, surpassant de 11,2 points l'agent spatial précédent, et ce de manière cohérente sur six backbones VLM.",
+                "en": "Researchers from NVIDIA presented on June 11, 2026 <a href='https://huggingface.co/papers/2606.13673'>SpatialClaw</a>, a training-free framework that uses code as an action interface for VLM spatial reasoning. By maintaining a stateful Python kernel preloaded with perception and geometry primitives, SpatialClaw achieves 59.9% average accuracy across 20 3D/4D spatial reasoning benchmarks, outperforming the previous spatial agent by 11.2 points, consistently across six VLM backbones.",
+                "de": "Forscher von NVIDIA haben am 11. Juni 2026 <a href='https://huggingface.co/papers/2606.13673'>SpatialClaw</a> vorgestellt, ein trainingsfreies Framework, das Code als Aktionsschnittstelle für das räumliche Denken von VLMs nutzt. Durch die Aufrechterhaltung eines zustandsbehafteten Python-Kerns, der mit Wahrnehmungs- und Geometrieprimitiven vorinstalliert ist, erreicht SpatialClaw eine durchschnittliche Genauigkeit von 59,9 % über 20 3D/4D-Raumdenk-Benchmarks und übertrifft den vorherigen räumlichen Agenten um 11,2 Punkte, und dies konsistent über sechs VLM-Backbones hinweg.",
+                "it": "Ricercatori di NVIDIA hanno presentato l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.13673'>SpatialClaw</a>, un framework senza training che utilizza il codice come interfaccia d'azione per il ragionamento spaziale dei VLM. Mantenendo un kernel Python stateful precaricato con primitive di percezione e geometria, SpatialClaw raggiunge il 59,9% di precisione media su 20 benchmark di ragionamento spaziale 3D/4D, superando di 11,2 punti l'agente spaziale precedente, e in modo coerente su sei backbone VLM.",
+                "lmo": "Di resercador de NVIDIA hann presentaa l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.13673'>SpatialClaw</a>, on framework senza addestrament che 'l dopera el codex come interfaccia d'azion per el resonament spazial di VLM. Mantegnend on kernel Python stateful precaregaa cont di primitiv de percezion e geometria, SpatialClaw el riva a 59,9 % de precision media sora 20 benchmark de resonament spazial 3D/4D, superand de 11,2 pont l'agent spazial precedent, e quest de manera coerenta sora ses backbone VLM."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.13673"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MaxProof : un framework de preuve mathématique par recherche de population",
+                "en": "MaxProof: a mathematical proof framework via population search",
+                "de": "MaxProof: Ein Framework für mathematische Beweise durch Populationssuche",
+                "it": "MaxProof: un framework di dimostrazione matematica tramite ricerca di popolazione",
+                "lmo": "MaxProof : on framework de prova matematega per ricerca de popolazion"
+              },
+              "body": {
+                "fr": "MiniMax a dévoilé le 11 juin 2026 <a href='https://huggingface.co/papers/2606.13473'>MaxProof</a>, un framework de test-time scaling au niveau population pour la preuve mathématique de compétition. En combinant génération, vérification et réparation de preuves avec une sélection par tournoi, le modèle M3 atteint 35/42 aux IMO 2025 et 36/42 aux USAMO 2026, dépassant le seuil de la médaille d'or humaine dans les deux compétitions.",
+                "en": "MiniMax unveiled on June 11, 2026 <a href='https://huggingface.co/papers/2606.13473'>MaxProof</a>, a population-level test-time scaling framework for competitive mathematical proof. By combining proof generation, verification and repair with tournament selection, the M3 model achieves 35/42 at IMO 2025 and 36/42 at USAMO 2026, surpassing the human gold medal threshold in both competitions.",
+                "de": "MiniMax hat am 11. Juni 2026 <a href='https://huggingface.co/papers/2606.13473'>MaxProof</a> vorgestellt, ein Test-Time-Scaling-Framework auf Populationsebene für mathematische Wettbewerbsbeweise. Durch die Kombination von Beweisgenerierung, -verifikation und -reparatur mit einer Turnierauswahl erreicht das Modell M3 35/42 bei den IMO 2025 und 36/42 bei den USAMO 2026 und übertrifft damit in beiden Wettbewerben die Schwelle für die menschliche Goldmedaille.",
+                "it": "MiniMax ha svelato l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.13473'>MaxProof</a>, un framework di test-time scaling a livello di popolazione per la dimostrazione matematica di competizione. Combinando generazione, verifica e riparazione di dimostrazioni con una selezione tramite torneo, il modello M3 raggiunge 35/42 alle IMO 2025 e 36/42 alle USAMO 2026, superando la soglia della medaglia d'oro umana in entrambe le competizioni.",
+                "lmo": "MiniMax l'ha desvelaa l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.13473'>MaxProof</a>, on framework de test-time scaling a nivell de popolazion per la prova matematega de competizion. Combinand generazion, verificazion e reparadura de prov cont ona selezzion per torneo, el modell M3 el riva a 35/42 ai IMO 2025 e 36/42 ai USAMO 2026, superand la soglia de la medaja d'or umana in tucc e du i competizion."
+              },
+              "kicker": {
+                "fr": "MiniMax",
+                "en": "MiniMax",
+                "de": "MiniMax",
+                "it": "MiniMax",
+                "lmo": "MiniMax"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.13473"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "EvoArena : un benchmark pour agents LLM en environnements dynamiques",
+                "en": "EvoArena: a benchmark for LLM agents in dynamic environments",
+                "de": "EvoArena: Ein Benchmark für LLM-Agenten in dynamischen Umgebungen",
+                "it": "EvoArena: un benchmark per agenti LLM in ambienti dinamici",
+                "lmo": "EvoArena : on benchmark per agent LLM in ambient dinamegh"
+              },
+              "body": {
+                "fr": "Des chercheurs du MIT ont présenté le 11 juin 2026 <a href='https://huggingface.co/papers/2606.13681'>EvoArena</a>, une suite de benchmarks qui modélise les changements d'environnement comme des séquences de mises à jour progressives dans les domaines terminal, logiciel et social. Les agents actuels n'atteignent que 39,6 % de précision moyenne. Le paradigme mémoire EvoMem, basé sur des correctifs, améliore la précision de 1,5 % sur EvoArena et de 6,1 % sur GAIA.",
+                "en": "Researchers from MIT presented on June 11, 2026 <a href='https://huggingface.co/papers/2606.13681'>EvoArena</a>, a benchmark suite that models environmental changes as sequences of progressive updates across terminal, software and social domains. Current agents achieve only 39.6% average accuracy. The EvoMem memory paradigm, based on patches, improves accuracy by 1.5% on EvoArena and 6.1% on GAIA.",
+                "de": "Forscher des MIT haben am 11. Juni 2026 <a href='https://huggingface.co/papers/2606.13681'>EvoArena</a> vorgestellt, eine Benchmark-Suite, die Umweltveränderungen als Sequenzen schrittweiser Aktualisierungen in den Bereichen Terminal, Software und Soziales modelliert. Aktuelle Agenten erreichen nur eine durchschnittliche Genauigkeit von 39,6 %. Das auf Patches basierende Gedächtnisparadigma EvoMem verbessert die Genauigkeit um 1,5 % auf EvoArena und um 6,1 % auf GAIA.",
+                "it": "Ricercatori del MIT hanno presentato l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.13681'>EvoArena</a>, una suite di benchmark che modella i cambiamenti ambientali come sequenze di aggiornamenti progressivi nei domini terminale, software e sociale. Gli agenti attuali raggiungono solo il 39,6% di precisione media. Il paradigma memoria EvoMem, basato su patch, migliora la precisione dell'1,5% su EvoArena e del 6,1% su GAIA.",
+                "lmo": "Di resercador del MIT hann presentaa l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.13681'>EvoArena</a>, ona suite de benchmark che la modellizza i cambiament d'ambient come di sequenz de messe a pont progressiv in di domini terminal, software e social. I agent atuai riven domà a 39,6 % de precision media. El paradigma memoria EvoMem, basaa sora di coretiv, el migliora la precision de 1,5 % sora EvoArena e de 6,1 % sora GAIA."
+              },
+              "kicker": {
+                "fr": "MIT",
+                "en": "MIT",
+                "de": "MIT",
+                "it": "MIT",
+                "lmo": "MIT"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.13681"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Redesign des routeurs MoE par Manifold Power Iteration",
+                "en": "Redesigning MoE routers via Manifold Power Iteration",
+                "de": "Neugestaltung von MoE-Routern durch Manifold Power Iteration",
+                "it": "Riprogettazione dei router MoE tramite Manifold Power Iteration",
+                "lmo": "Redesign di router MoE per Manifold Power Iteration"
+              },
+              "body": {
+                "fr": "Une équipe de recherche a proposé le 11 juin 2026 <a href='https://huggingface.co/papers/2606.12397'>une nouvelle méthode de conception des routeurs</a> pour les modèles Mixture-of-Experts, baptisée Manifold Power Iteration (MPI). L'approche aligne chaque ligne du routeur avec la direction singulière principale de l'expert associé via un paradigme « Power-then-Retract ». Les expériences de pré-entraînement sur des modèles MoE de 1B à 11B paramètres confirment que cet alignement produit des modèles plus efficaces.",
+                "en": "A research team proposed on June 11, 2026 <a href='https://huggingface.co/papers/2606.12397'>a new method for designing routers</a> for Mixture-of-Experts models, dubbed Manifold Power Iteration (MPI). The approach aligns each router row with the principal singular direction of the associated expert via a 'Power-then-Retract' paradigm. Pre-training experiments on MoE models from 1B to 11B parameters confirm that this alignment produces more efficient models.",
+                "de": "Ein Forschungsteam hat am 11. Juni 2026 <a href='https://huggingface.co/papers/2606.12397'>eine neue Methode zum Design von Routern</a> für Mixture-of-Experts-Modelle vorgeschlagen, die Manifold Power Iteration (MPI) genannt wird. Der Ansatz richtet jede Zeile des Routers an der singulären Hauptrichtung des zugehörigen Experten aus, und zwar über ein «Power-then-Retract»-Paradigma. Vortrainingsexperimente an MoE-Modellen mit 1B bis 11B Parametern bestätigen, dass diese Ausrichtung effizientere Modelle hervorbringt.",
+                "it": "Un team di ricerca ha proposto l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.12397'>un nuovo metodo di progettazione dei router</a> per i modelli Mixture-of-Experts, chiamato Manifold Power Iteration (MPI). L'approccio allinea ogni riga del router con la direzione singolare principale dell'esperto associato tramite un paradigma « Power-then-Retract ». Gli esperimenti di pre-training su modelli MoE da 1B a 11B parametri confermano che questo allineamento produce modelli più efficienti.",
+                "lmo": "Ona squadra de ricerca l'ha propost l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.12397'>ona noeuva metod de progettazion di router</a> per i modell Mixture-of-Experts, ciamada Manifold Power Iteration (MPI). L'approcci el aligna ogni riga del router con la direzion singolar principal de l'expert associaa via on paradigma « Power-then-Retract ». I esperiment de pre-addestrament sora di modell MoE de 1B a 11B parametri confermen che quest alignament el produx di modell pussee efficace."
+              },
+              "kicker": {
+                "fr": "MoE",
+                "en": "MoE",
+                "de": "MoE",
+                "it": "MoE",
+                "lmo": "MoE"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.12397"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Architectures & Inférence",
+            "en": "Architectures & Inference",
+            "de": "Architekturen & Inferenz",
+            "it": "Architetture & Inferenza",
+            "lmo": "Architettur & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "xLSTM surpasse Mamba-2 et Gated DeltaNet sur les tâches complexes",
+                "en": "xLSTM outperforms Mamba-2 and Gated DeltaNet on complex tasks",
+                "de": "xLSTM übertrifft Mamba-2 und Gated DeltaNet bei komplexen Aufgaben",
+                "it": "xLSTM supera Mamba-2 e Gated DeltaNet nei compiti complessi",
+                "lmo": "xLSTM el supera Mamba-2 e Gated DeltaNet sora i incarich compless"
+              },
+              "body": {
+                "fr": "Une étude comparative publiée le 11 juin 2026 <a href='https://huggingface.co/papers/2606.12364'>opposant trois architectures subquadratiques</a> — xLSTM, Mamba-2 et Gated DeltaNet — montre que xLSTM offre les meilleures performances globales sur le pré-entraînement de modèles de code, la distillation et le pré-entraînement de modèles de séries temporelles. Les auteurs attribuent cet avantage à un suivi d'état plus robuste et à une correction de mémoire plus flexible via son mécanisme de gating.",
+                "en": "A comparative study published on June 11, 2026 <a href='https://huggingface.co/papers/2606.12364'>pitting three subquadratic architectures</a> — xLSTM, Mamba-2 and Gated DeltaNet — shows that xLSTM offers the best overall performance on code model pre-training, distillation and time-series model pre-training. The authors attribute this advantage to more robust state tracking and more flexible memory correction via its gating mechanism.",
+                "de": "Eine am 11. Juni 2026 veröffentlichte Vergleichsstudie <a href='https://huggingface.co/papers/2606.12364'>zu drei subquadratischen Architekturen</a> – xLSTM, Mamba-2 und Gated DeltaNet – zeigt, dass xLSTM die insgesamt besten Leistungen beim Vortraining von Codemodellen, der Destillation und dem Vortraining von Zeitreihenmodellen bietet. Die Autoren führen diesen Vorteil auf eine robustere Zustandsverfolgung und eine flexiblere Gedächtniskorrektur durch seinen Gating-Mechanismus zurück.",
+                "it": "Uno studio comparativo pubblicato l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.12364'>che confronta tre architetture subquadratiche</a> — xLSTM, Mamba-2 e Gated DeltaNet — mostra che xLSTM offre le migliori prestazioni complessive nel pre-training di modelli di codice, nella distillazione e nel pre-training di modelli di serie temporali. Gli autori attribuiscono questo vantaggio a un tracciamento dello stato più robusto e a una correzione della memoria più flessibile tramite il suo meccanismo di gating.",
+                "lmo": "On studi comparativ publicaa l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.12364'>che 'l met contra tri architettur subquadratich</a> — xLSTM, Mamba-2 e Gated DeltaNet — el mostra che xLSTM l'offr i miglior performance globai sora el pre-addestrament de modell de codex, la distillazion e 'l pre-addestrament de modell de serie temporai. I autor attribuissen quest vantagg a on seguiment de stat pussee robust e a ona corezzion de memoria pussee flessibil via 'l sò mecanism de gating."
+              },
+              "kicker": {
+                "fr": "Subquadratique",
+                "en": "Subquadratic",
+                "de": "Subquadratisch",
+                "it": "Subquadratica",
+                "lmo": "Subquadratich"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.12364"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "CodeSpear : le décodage contraint par grammaire peut jailbreaker les LLMs",
+                "en": "CodeSpear: grammar-constrained decoding can jailbreak LLMs",
+                "de": "CodeSpear: Grammar-Constrained Decoding kann LLMs jailbreaken",
+                "it": "CodeSpear: il decoding vincolato da grammatica può jailbreakare i LLM",
+                "lmo": "CodeSpear : el decodagg costringiuu per grammatega el pò jailbreaker i LLM"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université Tsinghua ont dévoilé le 11 juin 2026 <a href='https://huggingface.co/papers/2606.11817'>CodeSpear</a>, une attaque qui exploite le décodage contraint par grammaire (GCD) pour jailbreaker les LLMs et leur faire générer du code malveillant. L'étude montre que l'application d'une simple contrainte de grammaire de code bénin peut augmenter le taux de succès d'attaque de plus de 30 points. Les auteurs proposent CodeShield, une approche d'alignement de sécurité qui préserve le comportement sûr même sous contraintes de grammaire adverses.",
+                "en": "Researchers from Tsinghua University unveiled on June 11, 2026 <a href='https://huggingface.co/papers/2606.11817'>CodeSpear</a>, an attack that exploits grammar-constrained decoding (GCD) to jailbreak LLMs and make them generate malicious code. The study shows that applying a simple benign code grammar constraint can increase attack success rate by over 30 points. The authors propose CodeShield, a safety alignment approach that preserves safe behavior even under adversarial grammar constraints.",
+                "de": "Forscher der Tsinghua-Universität haben am 11. Juni 2026 <a href='https://huggingface.co/papers/2606.11817'>CodeSpear</a> vorgestellt, einen Angriff, der das Grammar-Constrained Decoding (GCD) ausnutzt, um LLMs zu jailbreaken und sie zur Generierung von schädlichem Code zu bewegen. Die Studie zeigt, dass die Anwendung einer einfachen harmlosen Code-Grammatik-Einschränkung die Angriffsrate um über 30 Punkte erhöhen kann. Die Autoren schlagen CodeShield vor, einen Sicherheitsausrichtungsansatz, der sicheres Verhalten auch unter widrigen Grammatik-Einschränkungen bewahrt.",
+                "it": "Ricercatori dell'Università Tsinghua hanno svelato l'11 giugno 2026 <a href='https://huggingface.co/papers/2606.11817'>CodeSpear</a>, un attacco che sfrutta il decoding vincolato da grammatica (GCD) per jailbreakare i LLM e far loro generare codice malevolo. Lo studio mostra che l'applicazione di una semplice restrizione di grammatica di codice benigno può aumentare il tasso di successo dell'attacco di oltre 30 punti. Gli autori propongono CodeShield, un approccio di allineamento della sicurezza che preserva il comportamento sicuro anche sotto restrizioni di grammatica avversarie.",
+                "lmo": "Di resercador de l'Università Tsinghua hann desvelaa l'11 de giugn 2026 <a href='https://huggingface.co/papers/2606.11817'>CodeSpear</a>, on'attacch che 'l sfrutta el decodagg costringiuu per grammatega (GCD) per jailbreaker i LLM e fàgh generà di codex malegn. El studi el mostra che l'applicazion d'ona semplicia costrizion de grammatega de codex benign la pò aumentà el tass de success d'attacch de pussee de 30 pont. I autor proponn CodeShield, on approcci d'alignament de sigurezza che 'l preserva el comportament siguren anca sotta costrizion de grammatega avversari."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://huggingface.co/papers/2606.11817"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Gemeinschaft & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la Communauté",
+            "en": "Community Signals",
+            "de": "Signale der Gemeinschaft",
+            "it": "Segnali dalla Comunità",
+            "lmo": "Segnai de la Comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "MiniMax M3 : une sortie des poids ouverts prévue pour vendredi",
+                "en": "MiniMax M3: open-weight release planned for Friday",
+                "de": "MiniMax M3: Veröffentlichung der offenen Gewichte für Freitag geplant",
+                "it": "MiniMax M3: rilascio dei pesi aperti previsto per venerdì",
+                "lmo": "MiniMax M3 : ona sortida di pes vert preveduda per venerdì"
+              },
+              "body": {
+                "fr": "La communauté r/LocalLLaMA a relayé le 11 juin 2026 l'information selon laquelle <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/'>MiniMax prévoit de publier les poids ouverts de son modèle M3</a> le vendredi 12 juin 2026. Le modèle M3, qui a récemment atteint 35/42 aux IMO 2025 via le framework MaxProof, serait ainsi accessible à la communauté open-source, marquant une étape importante pour la transparence des modèles de raisonnement mathématique.",
+                "en": "The r/LocalLLaMA community reported on June 11, 2026 that <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/'>MiniMax plans to release the open weights of its M3 model</a> on Friday, June 12, 2026. The M3 model, which recently achieved 35/42 at IMO 2025 via the MaxProof framework, would thus become accessible to the open-source community, marking a significant step for transparency in mathematical reasoning models.",
+                "de": "Die Community r/LocalLLaMA hat am 11. Juni 2026 die Information weitergegeben, dass <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/'>MiniMax plant, die offenen Gewichte seines Modells M3</a> am Freitag, den 12. Juni 2026, zu veröffentlichen. Das Modell M3, das kürzlich 35/42 bei den IMO 2025 über das MaxProof-Framework erreicht hat, wäre damit für die Open-Source-Community zugänglich und markiert einen wichtigen Schritt für die Transparenz mathematischer Denkmodelle.",
+                "it": "La comunità r/LocalLLaMA ha diffuso l'11 giugno 2026 l'informazione secondo cui <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/'>MiniMax prevede di pubblicare i pesi aperti del suo modello M3</a> venerdì 12 giugno 2026. Il modello M3, che ha recentemente raggiunto 35/42 alle IMO 2025 tramite il framework MaxProof, sarebbe così accessibile alla comunità open-source, segnando una tappa importante per la trasparenza dei modelli di ragionamento matematico.",
+                "lmo": "La comunità r/LocalLLaMA l'ha relayaa l'11 de giugn 2026 l'informazion segond la qual <a href='https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/'>MiniMax el preved de publegà i pes vert del sò modell M3</a> el venerdì 12 de giugn 2026. El modell M3, che l'ha recentement rivaa a 35/42 ai IMO 2025 via 'l framework MaxProof, el sariss inscì accessibil a la comunità open-source, marcand ona tappa importanta per la trasparenza di modell de resonament matematega."
+              },
+              "kicker": {
+                "fr": "Open source",
+                "en": "Open source",
+                "de": "Open Source",
+                "it": "Open source",
+                "lmo": "Open source"
+              },
+              "urls": [
+                "https://www.reddit.com/r/LocalLLaMA/comments/1u2uje1/minimax_m3_open_weights_release_planned_for_friday/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Perplexity intègre Deep Research dans son ordinateur agentique",
+                "en": "Perplexity integrates Deep Research into its agentic computer",
+                "de": "Perplexity integriert Deep Research in seinen agentischen Computer",
+                "it": "Perplexity integra Deep Research nel suo computer agentico",
+                "lmo": "Perplexity l'integra Deep Research in del sò computer agentich"
+              },
+              "body": {
+                "fr": "Perplexity a annoncé le 11 juin 2026 l'intégration de <a href='https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/'>Deep Research dans Perplexity Computer</a>. Le système décompose les questions complexes en sous-tâches et les route vers plus de 20 modèles frontière pour générer des rapports, des présentations et des tableaux de bord. Cette approche de routage multi-modèles représente une nouvelle étape dans la démocratisation de la recherche assistée par IA.",
+                "en": "Perplexity announced on June 11, 2026 the integration of <a href='https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/'>Deep Research into Perplexity Computer</a>. The system breaks down complex questions into subtasks and routes them to over 20 frontier models to generate reports, presentations and dashboards. This multi-model routing approach represents a new step in democratizing AI-assisted research.",
+                "de": "Perplexity hat am 11. Juni 2026 die Integration von <a href='https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/'>Deep Research in Perplexity Computer</a> angekündigt. Das System zerlegt komplexe Fragen in Unteraufgaben und leitet sie an über 20 Frontier-Modelle weiter, um Berichte, Präsentationen und Dashboards zu erstellen. Dieser Multi-Modell-Routing-Ansatz stellt einen neuen Schritt in der Demokratisierung der KI-gestützten Recherche dar.",
+                "it": "Perplexity ha annunciato l'11 giugno 2026 l'integrazione di <a href='https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/'>Deep Research in Perplexity Computer</a>. Il sistema scompone le domande complesse in sotto-attività e le instrada verso oltre 20 modelli frontier per generare report, presentazioni e dashboard. Questo approccio di routing multi-modello rappresenta un nuovo passo nella democratizzazione della ricerca assistita dall'IA.",
+                "lmo": "Perplexity l'ha anunziaa l'11 de giugn 2026 l'integrazion de <a href='https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/'>Deep Research in Perplexity Computer</a>. El sistema el descompon i question compless in soto-incarich e i ruta vers pussee de 20 modell frontiera per generà di report, di presentazion e di tableau de bord. Quest approcci de routing multi-modell el rappresenta ona noeuva tappa in de la democratizazion de la ricerca assistida de l'IA."
+              },
+              "kicker": {
+                "fr": "Écosystème",
+                "en": "Ecosystem",
+                "de": "Ökosystem",
+                "it": "Ecosistema",
+                "lmo": "Ecosistema"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/06/11/perplexity-moves-deep-research-into-computer-routing-research-subtasks-across-20-frontier-models-for-reports-decks-and-dashboards/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Prometheus de Jeff Bezos lève 12 milliards de dollars",
+                "en": "Jeff Bezos's Prometheus raises $12 billion",
+                "de": "Jeff Bezos' Prometheus sammelt 12 Milliarden Dollar ein",
+                "it": "Prometheus di Jeff Bezos raccoglie 12 miliardi di dollari",
+                "lmo": "Prometheus de Jeff Bezos el cava su 12 miliard de dollar"
+              },
+              "body": {
+                "fr": "La startup d'IA physique Prometheus, co-dirigée par Jeff Bezos, a annoncé le 11 juin 2026 une levée de fonds de <a href='https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/'>12 milliards de dollars</a>, valorisant l'entreprise à 41 milliards de dollars. Lancée en novembre 2025 avec 6,2 milliards de dollars en seed funding, Prometheus vise à construire un « ingénieur général artificiel » pour automatiser l'ingénierie lourde et la conception de médicaments.",
+                "en": "Physical AI startup Prometheus, co-led by Jeff Bezos, announced on June 11, 2026 a funding round of <a href='https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/'>$12 billion</a>, valuing the company at $41 billion. Launched in November 2025 with $6.2 billion in seed funding, Prometheus aims to build an 'artificial general engineer' to automate heavy engineering and drug design.",
+                "de": "Das von Jeff Bezos mitgeführte Physical-AI-Startup Prometheus hat am 11. Juni 2026 eine Finanzierungsrunde von <a href='https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/'>12 Milliarden Dollar</a> angekündigt, was das Unternehmen mit 41 Milliarden Dollar bewertet. Prometheus, das im November 2025 mit 6,2 Milliarden Dollar Startkapital lanciert wurde, zielt darauf ab, einen «künstlichen Generalingenieur» zu bauen, um die Schwerindustrie und das Medikamentendesign zu automatisieren.",
+                "it": "La startup di IA fisica Prometheus, co-dirigida da Jeff Bezos, ha annunciato l'11 giugno 2026 un round di finanziamento da <a href='https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/'>12 miliardi di dollari</a>, valutando l'azienda a 41 miliardi di dollari. Lanciata a novembre 2025 con 6,2 miliardi di dollari in seed funding, Prometheus mira a costruire un « ingegnere generale artificiale » per automatizzare l'ingegneria pesante e la progettazione di farmaci.",
+                "lmo": "La startup d'IA fisica Prometheus, co-dirigida de Jeff Bezos, l'ha anunziaa l'11 de giugn 2026 ona levada de fond de <a href='https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/'>12 miliard de dollar</a>, valorizand l'azienda a 41 miliard de dollar. Lanciada in november 2025 cont 6,2 miliard de dollar in seed funding, Prometheus la mira a costruì on « ingegner general artificiel » per automattizà l'ingegneria pesanta e la progettazion de medegament."
+              },
+              "kicker": {
+                "fr": "Financement",
+                "en": "Funding",
+                "de": "Finanzierung",
+                "it": "Finanziamento",
+                "lmo": "Finanziament"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/06/11/jeff-bezoss-prometheus-raises-12b-to-build-an-artificial-general-engineer-for-the-physical-world/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Deezer lance un détecteur de musique IA multi-plateforme",
+                "en": "Deezer launches a multi-platform AI music detector",
+                "de": "Deezer lanciert plattformübergreifenden KI-Musikdetektor",
+                "it": "Deezer lancia un rilevatore di musica IA multi-piattaforma",
+                "lmo": "Deezer el lanza on detector de musega IA multi-piattaforma"
+              },
+              "body": {
+                "fr": "Deezer a dévoilé le 11 juin 2026 un outil gratuit de <a href='https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/'>détection de musique générée par IA</a> qui fonctionne sur Spotify, Apple Music et d'autres plateformes. L'outil scanne les playlists pour identifier les morceaux générés par intelligence artificielle, une réponse à la prolifération de contenus musicaux synthétiques sur les plateformes de streaming.",
+                "en": "Deezer unveiled on June 11, 2026 a free tool for <a href='https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/'>detecting AI-generated music</a> that works on Spotify, Apple Music and other platforms. The tool scans playlists to identify tracks generated by artificial intelligence, a response to the proliferation of synthetic music content on streaming platforms.",
+                "de": "Deezer hat am 11. Juni 2026 ein kostenloses Tool zur <a href='https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/'>Erkennung von KI-generierter Musik</a> vorgestellt, das auf Spotify, Apple Music und anderen Plattformen funktioniert. Das Tool scannt Playlists, um KI-generierte Titel zu identifizieren – eine Reaktion auf die zunehmende Verbreitung synthetischer Musikinhalte auf Streaming-Plattformen.",
+                "it": "Deezer ha svelato l'11 giugno 2026 uno strumento gratuito di <a href='https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/'>rilevamento di musica generata dall'IA</a> che funziona su Spotify, Apple Music e altre piattaforme. Lo strumento scansiona le playlist per identificare i brani generati dall'intelligenza artificiale, una risposta alla proliferazione di contenuti musicali sintetici sulle piattaforme di streaming.",
+                "lmo": "Deezer l'ha desvelaa l'11 de giugn 2026 on istrument gratuit de <a href='https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/'>detenzion de musega generada de l'IA</a> che 'l fonziona sora Spotify, Apple Music e d'olter piattaform. L'istrument el scansiona i playlist per identificà i tocch generaa de l'intelligenza artificial, ona risposta a la proliferazion de contegnud musicai sintetich sora i piattaform de streaming."
+              },
+              "kicker": {
+                "fr": "Détection",
+                "en": "Detection",
+                "de": "Erkennung",
+                "it": "Rilevamento",
+                "lmo": "Detenzion"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/06/11/deezers-new-tool-can-identify-ai-music-from-spotify-apple-music-and-others/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La transparence, première victime de la course aux modèles frontière",
+                "en": "Transparency, the first casualty of the frontier model race",
+                "de": "Transparenz, das erste Opfer des Wettlaufs um Frontier-Modelle",
+                "it": "La trasparenza, prima vittima della corsa ai modelli frontier",
+                "lmo": "La trasparenza, prima vitima de la corsa ai modell frontiera"
+              },
+              "body": {
+                "fr": "L'affaire des garde-fous invisibles de Claude Fable 5 révèle une vérité inconfortable sur l'état de l'industrie de l'IA. Anthropic, qui se présente volontiers comme le laboratoire le plus responsable et transparent de la vallée, a été pris la main dans le pot de confiture : ses modèles limitaient secrètement les performances des chercheurs concurrents. La contradiction entre le discours — un essai programmatique appelant à des audits contraignants — et la pratique — des restrictions cachées — est vertigineuse. Elle rappelle que dans la course aux modèles frontière, la transparence est souvent la première à passer par-dessus bord. Les <a href='https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/'>rumeurs de guerre des prix sur les tokens API</a> entre OpenAI et Anthropic, rapportées par le Wall Street Journal le 11 juin 2026, suggèrent que la compétition s'intensifie sur tous les fronts. Mais si les laboratoires veulent vraiment gagner la confiance du public, ils devront apprendre que la responsabilité ne se décrète pas dans des essais — elle se prouve dans les choix de déploiement quotidiens.",
+                "en": "The affair of Claude Fable 5's invisible guardrails reveals an uncomfortable truth about the state of the AI industry. Anthropic, which readily presents itself as the most responsible and transparent lab in the valley, was caught with its hand in the cookie jar: its models were secretly throttling the performance of rival researchers. The contradiction between the rhetoric — a programmatic essay calling for binding audits — and the practice — hidden restrictions — is dizzying. It serves as a reminder that in the race for frontier models, transparency is often the first to be thrown overboard. <a href='https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/'>Rumors of a price war over API tokens</a> between OpenAI and Anthropic, reported by the Wall Street Journal on June 11, 2026, suggest that competition is intensifying on all fronts. But if labs truly want to earn public trust, they will have to learn that responsibility is not decreed in essays — it is proven in everyday deployment choices.",
+                "de": "Der Fall der unsichtbaren Schutzmassnahmen von Claude Fable 5 offenbart eine unbequeme Wahrheit über den Zustand der KI-Industrie. Anthropic, das sich gerne als das verantwortungsvollste und transparenteste Labor des Tals präsentiert, wurde mit der Hand im Keksglas erwischt: Seine Modelle schränkten die Leistung konkurrierender Forscher heimlich ein. Der Widerspruch zwischen dem Diskurs – einem programmatischen Essay, der verbindliche Audits fordert – und der Praxis – versteckten Einschränkungen – ist atemberaubend. Er erinnert daran, dass im Wettlauf um Frontier-Modelle die Transparenz oft als Erste über Bord geht. Die <a href='https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/'>Gerüchte über einen Preiskampf bei API-Tokens</a> zwischen OpenAI und Anthropic, über die das Wall Street Journal am 11. Juni 2026 berichtete, deuten darauf hin, dass der Wettbewerb an allen Fronten zunimmt. Aber wenn die Labore wirklich das Vertrauen der Öffentlichkeit gewinnen wollen, müssen sie lernen, dass Verantwortung nicht in Essays deklariert wird – sie wird in den täglichen Bereitstellungsentscheidungen bewiesen.",
+                "it": "La vicenda delle barriere protettive invisibili di Claude Fable 5 rivela una verità scomoda sullo stato dell'industria dell'IA. Anthropic, che si presenta volentieri come il laboratorio più responsabile e trasparente della Silicon Valley, è stato colto con le mani nel sacco: i suoi modelli limitavano segretamente le prestazioni dei ricercatori concorrenti. La contraddizione tra il discorso — un saggio programmatico che chiede audit vincolanti — e la pratica — restrizioni nascoste — è vertiginosa. Ricorda che nella corsa ai modelli frontier, la trasparenza è spesso la prima a essere sacrificata. Le <a href='https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/'>voci di guerra dei prezzi sui token API</a> tra OpenAI e Anthropic, riportate dal Wall Street Journal l'11 giugno 2026, suggeriscono che la competizione si intensifica su tutti i fronti. Ma se i laboratori vogliono davvero conquistare la fiducia del pubblico, dovranno imparare che la responsabilità non si decreta nei saggi — si dimostra nelle scelte di distribuzione quotidiane.",
+                "lmo": "La faccenda di guardie invisibij de Claude Fable 5 la revèla ona verità scomoda sora el stat de l'industria de l'IA. Anthropic, che 'l se presenta volontera come 'l laboratori pussee responsabel e trasparent de la vall, l'è staa ciapà cont i man in del pot de conserva : i sò modell limitaven segretament i performance di resercador concorrent. La contradizion tra 'l discors — on assagg programmatich che 'l ciama di audit obbligatori — e la pratega — di restrizion scondite — l'è vertiginosa. La regorda che in de la corsa ai modell frontiera, la trasparenza l'è sovenz la prima a passà sora bord. I <a href='https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/'>rumor de guerra di prezzi sora i token API</a> tra OpenAI e Anthropic, reportaa del Wall Street Journal l'11 de giugn 2026, suggerissen che la competizion la s'intensifica sora tucc i front. Ma se i laboratori voeuren verament guadagnà la fiducia del publegh, gh'avarann de imparà che la responsabilità la se decret minga in di assagg — la se prova in di scern de despiegament quotidian."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://the-decoder.com/openai-vs-anthropic-a-price-war-over-api-tokens-is-brewing/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
