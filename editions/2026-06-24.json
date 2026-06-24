@@ -1,0 +1,717 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-06-24",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a dévoilé le 23 juin 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, une nouvelle fonctionnalité qui transforme Claude en un agent d'équipe permanent, capable d'apprendre le contexte de l'entreprise en lisant les messages Slack et en participant aux flux de travail collaboratifs. Contrairement aux chatbots conversationnels classiques, Claude Tag s'intègre en continu dans l'environnement de travail, absorbant la connaissance institutionnelle au fil des échanges pour fournir des réponses contextuellement pertinentes sans nécessiter de requête explicite à chaque fois.",
+        "en": "Anthropic unveiled on 23 June 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, a new feature that transforms Claude into a permanent team agent, capable of learning company context by reading Slack messages and participating in collaborative workflows. Unlike conventional conversational chatbots, Claude Tag continuously integrates into the work environment, absorbing institutional knowledge through exchanges to provide contextually relevant responses without requiring an explicit query each time.",
+        "de": "Anthropic hat am 23. Juni 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a> vorgestellt, eine neue Funktion, die Claude in einen permanenten Team-Agenten verwandelt, der in der Lage ist, den Unternehmenskontext zu erlernen, indem er Slack-Nachrichten liest und an kollaborativen Arbeitsabläufen teilnimmt. Im Gegensatz zu herkömmlichen Chatbots integriert sich Claude Tag kontinuierlich in die Arbeitsumgebung, absorbiert institutionelles Wissen im Laufe der Interaktionen und liefert kontextuell relevante Antworten, ohne dass jedes Mal eine explizite Anfrage erforderlich ist.",
+        "it": "Anthropic ha svelato il 23 giugno 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, una nuova funzionalità che trasforma Claude in un agente di team permanente, capace di apprendere il contesto aziendale leggendo i messaggi Slack e partecipando ai flussi di lavoro collaborativi. A differenza dei chatbot conversazionali classici, Claude Tag si integra in modo continuo nell'ambiente di lavoro, assorbendo la conoscenza istituzionale nel corso degli scambi per fornire risposte contestualmente pertinenti senza richiedere una richiesta esplicita ogni volta.",
+        "lmo": "Anthropic l'ha desvelaa el 23 de giugn 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, ona noeuva fonzionalitaa che la trasforma Claude in on agent d'equip permanent, bon de imparà el contest de l'azienda in manera continova, lesend i messagg Slack e partecipand ai fluss de lavorà collaborativ. A diferenza di chatbot conversazionai classegh, Claude Tag el se integra in manera continova in l'ambient de lavorà, assorbend la conoscenza istituzionala in di scambi per fornì di rispost contestualmente relevant senza besognà de ona domanda esplicita ogni voeulta."
+      },
+      {
+        "fr": "La fonctionnalité repose sur un nouveau modèle d'accès que la société détaille dans un billet de blog publié le 24 juin 2026 sur <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, intitulé « Agent identity in Claude Tag: a new access model for autonomous, team-wide AI ». Ce modèle d'identité agentique permet à Claude Tag d'agir de manière autonome au nom de l'équipe, avec des permissions granulaires définies par l'organisation, marquant une évolution significative dans la manière dont les entreprises déploient l'IA au sein de leurs équipes.",
+        "en": "The feature relies on a new access model that the company details in a blog post published on 24 June 2026 on <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, titled \"Agent identity in Claude Tag: a new access model for autonomous, team-wide AI.\" This agentic identity model allows Claude Tag to act autonomously on behalf of the team, with granular permissions defined by the organisation, marking a significant evolution in how companies deploy AI within their teams.",
+        "de": "Die Funktionalität basiert auf einem neuen Zugriffsmodell, das das Unternehmen in einem am 24. Juni 2026 auf <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a> veröffentlichten Blogbeitrag mit dem Titel «Agent identity in Claude Tag: a new access model for autonomous, team-wide AI» detailliert beschreibt. Dieses agentische Identitätsmodell ermöglicht es Claude Tag, autonom im Namen des Teams zu handeln, mit granularen, von der Organisation festgelegten Berechtigungen, was eine bedeutende Weiterentwicklung in der Art und Weise darstellt, wie Unternehmen KI in ihren Teams einsetzen.",
+        "it": "La funzionalità si basa su un nuovo modello di accesso che l'azienda descrive in un post sul blog pubblicato il 24 giugno 2026 su <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, intitolato «Agent identity in Claude Tag: a new access model for autonomous, team-wide AI». Questo modello di identità agentica permette a Claude Tag di agire in modo autonomo per conto del team, con permessi granulari definiti dall'organizzazione, segnando un'evoluzione significativa nel modo in cui le aziende implementano l'IA all'interno dei propri team.",
+        "lmo": "La fonzionalitaa la se basa sora on noeuv modell de access che la socetaa la detaja in on post in sul blog publicaa el 24 de giugn 2026 sora <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, intitolaa « Agent identity in Claude Tag: a new access model for autonomous, team-wide AI ». Sto modell d'identitaa agentica el permet a Claude Tag de agì in manera autonoma in nom de l'equip, con di permission granolar definii de l'organizzazion, marcant ona evoluzion significativa in la manera che i aziend doperen l'IA in di sò equip."
+      },
+      {
+        "fr": "TechCrunch rapporte le 23 juin 2026 que <a href=\"https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\">Claude Tag apprend de chaque message Slack</a>, ce qui en fait un outil stratégique pour capturer le contexte organisationnel, la connaissance institutionnelle et les workflows d'entreprise. Au-delà de la productivité individuelle, Anthropic positionne cette offre comme une plateforme d'adoption de l'IA en entreprise, capable de réduire la friction liée à l'intégration des modèles dans les processus métier existants.",
+        "en": "TechCrunch reports on 23 June 2026 that <a href=\"https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\">Claude Tag learns from every Slack message</a>, making it a strategic tool for capturing organisational context, institutional knowledge and enterprise workflows. Beyond individual productivity, Anthropic positions this offering as an enterprise AI adoption platform, capable of reducing the friction associated with integrating models into existing business processes.",
+        "de": "TechCrunch berichtet am 23. Juni 2026, dass <a href=\"https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\">Claude Tag aus jeder Slack-Nachricht lernt</a>, was es zu einem strategischen Werkzeug macht, um organisatorischen Kontext, institutionelles Wissen und Unternehmensworkflows zu erfassen. Über die individuelle Produktivität hinaus positioniert Anthropic dieses Angebot als Plattform für die KI-Adoption in Unternehmen, die in der Lage ist, die Reibung bei der Integration von Modellen in bestehende Geschäftsprozesse zu reduzieren.",
+        "it": "TechCrunch riporta il 23 giugno 2026 che <a href=\"https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\">Claude Tag impara da ogni messaggio Slack</a>, diventando così uno strumento strategico per catturare il contesto organizzativo, la conoscenza istituzionale e i flussi di lavoro aziendali. Oltre alla produttività individuale, Anthropic posiziona questa offerta come una piattaforma di adozione dell'IA in azienda, capace di ridurre l'attrito legato all'integrazione dei modelli nei processi aziendali esistenti.",
+        "lmo": "TechCrunch el rapporta el 23 de giugn 2026 che <a href=\"https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/\">Claude Tag el impara de ogni messagg Slack</a>, che 'l le fa vegnì on istrument strategich per ciapà el contest organizzativ, la conoscenza istituzionala e i fluss de lavorà d'azienda. Oltra a la produttività individual, Anthropic la mett sta offerta come ona piattaforma d'adozion de l'IA in azienda, bona de sbassà la fregada ligada a l'integrazion di modell in di processi de lavorà esistent."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/news",
+      "https://claude.com/blog/agent-identity-access-model",
+      "https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/"
+    ],
+    "kicker": {
+      "fr": "Produit",
+      "en": "Product",
+      "de": "Produkt",
+      "it": "Prodotto",
+      "lmo": "Prodott"
+    },
+    "headline": {
+      "fr": "Anthropic lance Claude Tag, un agent d'équipe permanent intégré à Slack",
+      "en": "Anthropic launches Claude Tag, a permanent team agent integrated into Slack",
+      "de": "Anthropic lanciert Claude Tag, einen permanenten Team-Agenten, der in Slack integriert ist",
+      "it": "Anthropic lancia Claude Tag, un agente di team permanente integrato in Slack",
+      "lmo": "Anthropic el lancia Claude Tag, on agent d'equip permanent integraa in Slack"
+    },
+    "subdeck": {
+      "fr": "Anthropic dévoile un agent d'équipe permanent intégré à Slack qui apprend le contexte de l'entreprise en continu.",
+      "en": "Anthropic unveils a permanent team agent integrated into Slack that continuously learns company context.",
+      "de": "Anthropic enthüllt einen permanenten Team-Agenten, der in Slack integriert ist und kontinuierlich den Unternehmenskontext erlernt.",
+      "it": "Anthropic svela un agente di team permanente integrato in Slack che apprende il contesto aziendale in modo continuo.",
+      "lmo": "Anthropic la desvela on agent d'equip permanent integraa in Slack che 'l impara el contest de l'azienda in manera continova."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Claude Tag : l'agent d'équipe permanent",
+        "en": "Claude Tag: the permanent team agent",
+        "de": "Claude Tag: Der permanente Team-Agent",
+        "it": "Claude Tag: l'agente di team permanente",
+        "lmo": "Claude Tag: l'agent d'equip permanent"
+      },
+      "body": {
+        "fr": "Anthropic a dévoilé le 23 juin 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, un agent d'équipe permanent intégré à Slack qui apprend le contexte de l'entreprise en continu. La fonctionnalité repose sur un nouveau modèle d'identité agentique détaillé sur <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>.",
+        "en": "Anthropic unveiled on 23 June 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, a permanent team agent integrated into Slack that continuously learns company context. The feature relies on a new agentic identity model detailed on <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>.",
+        "de": "Anthropic hat am 23. Juni 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a> vorgestellt, einen permanenten Team-Agenten, der in Slack integriert ist und kontinuierlich den Unternehmenskontext erlernt. Die Funktionalität basiert auf einem neuen agentischen Identitätsmodell, das auf <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a> detailliert beschrieben wird.",
+        "it": "Anthropic ha svelato il 23 giugno 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, un agente di team permanente integrato in Slack che apprende il contesto aziendale in modo continuo. La funzionalità si basa su un nuovo modello di identità agentica descritto su <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>.",
+        "lmo": "Anthropic l'ha desvelaa el 23 de giugn 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, on agent d'equip permanent integraa in Slack che 'l impara el contest de l'azienda in manera continova. La fonzionalitaa la se basa sora on noeuv modell d'identitaa agentica detajaa sora <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Wichtig",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://www.anthropic.com/news",
+        "https://claude.com/blog/agent-identity-access-model"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Mistral OCR 4 : sortie structurée en 170 langues",
+        "en": "Mistral OCR 4: structured output in 170 languages",
+        "de": "Mistral OCR 4: Strukturierte Ausgabe in 170 Sprachen",
+        "it": "Mistral OCR 4: output strutturato in 170 lingue",
+        "lmo": "Mistral OCR 4: sortida strucurada in 170 lengoeu"
+      },
+      "body": {
+        "fr": "Mistral AI a publié le 23 juin 2026 <a href=\"https://mistral.ai/news/ocr-4/\">Mistral OCR 4</a>, un modèle de reconnaissance optique de caractères qui produit des sorties structurées avec boîtes englobantes, classification typée et scores de confiance par page et par mot. Le modèle supporte 170 langues et s'exécute dans un conteneur autonome, alimentant les pipelines RAG et de recherche d'entreprise.",
+        "en": "Mistral AI published on 23 June 2026 <a href=\"https://mistral.ai/news/ocr-4/\">Mistral OCR 4</a>, an optical character recognition model that produces structured outputs with bounding boxes, typed classification and confidence scores per page and per word. The model supports 170 languages and runs in a standalone container, powering enterprise RAG and search pipelines.",
+        "de": "Mistral AI hat am 23. Juni 2026 <a href=\"https://mistral.ai/news/ocr-4/\">Mistral OCR 4</a> veröffentlicht, ein Modell zur optischen Zeichenerkennung, das strukturierte Ausgaben mit Begrenzungsrahmen, typisierter Klassifikation und Konfidenzwerten pro Seite und Wort erzeugt. Das Modell unterstützt 170 Sprachen und läuft in einem eigenständigen Container, der RAG- und Enterprise-Search-Pipelines antreibt.",
+        "it": "Mistral AI ha pubblicato il 23 giugno 2026 <a href=\"https://mistral.ai/news/ocr-4/\">Mistral OCR 4</a>, un modello di riconoscimento ottico dei caratteri che produce output strutturati con bounding box, classificazione tipizzata e punteggi di confidenza per pagina e per parola. Il modello supporta 170 lingue e viene eseguito in un contenitore autonomo, alimentando i pipeline RAG e di ricerca aziendale.",
+        "lmo": "Mistral AI l'ha publicaa el 23 de giugn 2026 <a href=\"https://mistral.ai/news/ocr-4/\">Mistral OCR 4</a>, on modell de riconosciment otegh di caratter che 'l produx di sortii strucurad con di scatole inguadrant, classificazion tipada e score de confidenza per pagina e per parolla. El modell el supporta 170 lengoeu e 'l s'eseguis in on container autonom, alimentand i pipeline RAG e de ricerca d'azienda."
+      },
+      "tag": {
+        "fr": "Notable",
+        "en": "Notable",
+        "de": "Erwähnenswert",
+        "it": "Notevole",
+        "lmo": "Notabel"
+      },
+      "urls": [
+        "https://mistral.ai/news/ocr-4/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ParallelKernelBench : les LLMs peinent sur les kernels multi-GPU",
+        "en": "ParallelKernelBench: LLMs struggle with multi-GPU kernels",
+        "de": "ParallelKernelBench: LLMs tun sich mit Multi-GPU-Kernels schwer",
+        "it": "ParallelKernelBench: i LLM faticano sui kernel multi-GPU",
+        "lmo": "ParallelKernelBench: i LLM fadighen in sui kernel multi-GPU"
+      },
+      "body": {
+        "fr": "Le benchmark <a href=\"https://www.together.ai/blog/parallelkernelbench\">ParallelKernelBench</a>, publié le 23 juin 2026 par Together AI, teste la capacité des LLMs à écrire des kernels CUDA multi-GPU rapides sur 87 charges de travail réelles. Le meilleur modèle ne résout qu'un tiers des tâches, mais quelques kernels générés surpassent toute implémentation publique existante.",
+        "en": "The <a href=\"https://www.together.ai/blog/parallelkernelbench\">ParallelKernelBench</a> benchmark, published on 23 June 2026 by Together AI, tests the ability of LLMs to write fast multi-GPU CUDA kernels across 87 real-world workloads. The best model solves only a third of the tasks, but a few generated kernels outperform any existing public implementation.",
+        "de": "Der Benchmark <a href=\"https://www.together.ai/blog/parallelkernelbench\">ParallelKernelBench</a>, veröffentlicht am 23. Juni 2026 von Together AI, testet die Fähigkeit von LLMs, schnelle Multi-GPU-CUDA-Kernel für 87 reale Arbeitslasten zu schreiben. Das beste Modell löst nur ein Drittel der Aufgaben, aber einige generierte Kernel übertreffen jede bestehende öffentliche Implementierung.",
+        "it": "Il benchmark <a href=\"https://www.together.ai/blog/parallelkernelbench\">ParallelKernelBench</a>, pubblicato il 23 giugno 2026 da Together AI, testa la capacità dei LLM di scrivere kernel CUDA multi-GPU veloci su 87 carichi di lavoro reali. Il miglior modello risolve solo un terzo dei compiti, ma alcuni kernel generati superano qualsiasi implementazione pubblica esistente.",
+        "lmo": "El benchmark <a href=\"https://www.together.ai/blog/parallelkernelbench\">ParallelKernelBench</a>, publicaa el 23 de giugn 2026 de Together AI, el testa la capacità di LLM a scriv di kernel CUDA multi-GPU svelt sora 87 cargh de lavorà reai. El modell pussee bon el risoeulv domà on terz di incarich, ma quajche kernel generaa el supera ogni implementazion publica esistenta."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "urls": [
+        "https://www.together.ai/blog/parallelkernelbench"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "IBM Research publie deux douzaines d'exemples CUGA",
+        "en": "IBM Research publishes two dozen CUGA examples",
+        "de": "IBM Research veröffentlicht zwei Dutzend CUGA-Beispiele",
+        "it": "IBM Research pubblica due dozzine di esempi CUGA",
+        "lmo": "IBM Research el publica duu dozzen de esempi CUGA"
+      },
+      "body": {
+        "fr": "Le framework <a href=\"https://huggingface.co/blog/ibm-research/cuga-apps\">CUGA</a>, présenté par IBM Research le 23 juin 2026 sur le blog Hugging Face, propose deux douzaines d'exemples fonctionnels d'applications agentiques sur un harnais léger, démontrant des architectures d'agents reproductibles pour des cas d'usage concrets.",
+        "en": "The <a href=\"https://huggingface.co/blog/ibm-research/cuga-apps\">CUGA</a> framework, presented by IBM Research on 23 June 2026 on the Hugging Face blog, offers two dozen functional examples of agentic applications on a lightweight harness, demonstrating reproducible agent architectures for concrete use cases.",
+        "de": "Das Framework <a href=\"https://huggingface.co/blog/ibm-research/cuga-apps\">CUGA</a>, vorgestellt von IBM Research am 23. Juni 2026 auf dem Hugging Face Blog, bietet zwei Dutzend funktionale Beispiele für agentische Anwendungen auf einem leichten Harnais und demonstriert reproduzierbare Agentenarchitekturen für konkrete Anwendungsfälle.",
+        "it": "Il framework <a href=\"https://huggingface.co/blog/ibm-research/cuga-apps\">CUGA</a>, presentato da IBM Research il 23 giugno 2026 sul blog Hugging Face, propone due dozzine di esempi funzionali di applicazioni agentiche su un harnais leggero, dimostrando architetture di agenti riproducibili per casi d'uso concreti.",
+        "lmo": "El framework <a href=\"https://huggingface.co/blog/ibm-research/cuga-apps\">CUGA</a>, presentaa de IBM Research el 23 de giugn 2026 sora el blog Hugging Face, el propon duu dozzen de esempi fonzionaj d'applicazion agenteghe sora on harnes legger, dimostrand di architettur d'agent reprodusibel per di cas d'usagg concrett."
+      },
+      "tag": {
+        "fr": "Notable",
+        "en": "Notable",
+        "de": "Erwähnenswert",
+        "it": "Notevole",
+        "lmo": "Notabel"
+      },
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/cuga-apps"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "huggingface_hub : livraison hebdomadaire automatisée",
+        "en": "huggingface_hub: automated weekly delivery",
+        "de": "huggingface_hub: Automatisierte wöchentliche Auslieferung",
+        "it": "huggingface_hub: distribuzione settimanale automatizzata",
+        "lmo": "huggingface_hub: consegna setemanal automatisada"
+      },
+      "body": {
+        "fr": "Le framework <a href=\"https://huggingface.co/blog/huggingface-hub-release-ci\">huggingface_hub</a> est désormais livré chaque semaine grâce à un pipeline CI intégrant des outils d'IA, des outils open source et une validation humaine, comme détaillé sur le blog Hugging Face le 23 juin 2026.",
+        "en": "The <a href=\"https://huggingface.co/blog/huggingface-hub-release-ci\">huggingface_hub</a> framework is now delivered weekly thanks to a CI pipeline integrating AI tools, open-source tools and human validation, as detailed on the Hugging Face blog on 23 June 2026.",
+        "de": "Das Framework <a href=\"https://huggingface.co/blog/huggingface-hub-release-ci\">huggingface_hub</a> wird nun dank einer CI-Pipeline, die KI-Tools, Open-Source-Tools und menschliche Validierung integriert, wöchentlich ausgeliefert, wie am 23. Juni 2026 auf dem Hugging Face Blog detailliert beschrieben.",
+        "it": "Il framework <a href=\"https://huggingface.co/blog/huggingface-hub-release-ci\">huggingface_hub</a> viene ora distribuito ogni settimana grazie a un pipeline CI che integra strumenti di IA, strumenti open source e validazione umana, come descritto sul blog Hugging Face il 23 giugno 2026.",
+        "lmo": "El framework <a href=\"https://huggingface.co/blog/huggingface-hub-release-ci\">huggingface_hub</a> l'è adess consegnaa ogni setemana grazia a on pipeline CI che 'l integra di istrument d'IA, di istrument open source e ona validazion umana, come detajaa sora el blog Hugging Face el 23 de giugn 2026."
+      },
+      "tag": {
+        "fr": "Infra",
+        "en": "Infra",
+        "de": "Infrastruktur",
+        "it": "Infra",
+        "lmo": "Infra"
+      },
+      "urls": [
+        "https://huggingface.co/blog/huggingface-hub-release-ci"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "La Chine reprend la couronne du supercalculateur",
+        "en": "China reclaims supercomputer crown",
+        "de": "China holt sich die Supercomputer-Krone zurück",
+        "it": "La Cina riconquista la corona del supercomputer",
+        "lmo": "La Cina la repi la corona del supercalcolador"
+      },
+      "body": {
+        "fr": "Le New York Times rapporte le 23 juin 2026 que <a href=\"https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html\">la Chine a repris la couronne du supercalculateur</a> pour la première fois depuis 2017, avec une machine basée à Shenzhen utilisant uniquement des microprocesseurs standard plutôt que des GPU spécialisés.",
+        "en": "The New York Times reports on 23 June 2026 that <a href=\"https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html\">China has reclaimed the supercomputer crown</a> for the first time since 2017, with a Shenzhen-based machine using only standard microprocessors rather than specialised GPUs.",
+        "de": "Die New York Times berichtet am 23. Juni 2026, dass <a href=\"https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html\">China zum ersten Mal seit 2017 die Supercomputer-Krone zurückerobert hat</a>, mit einer in Shenzhen ansässigen Maschine, die ausschliesslich Standard-Mikroprozessoren anstelle spezialisierter GPUs verwendet.",
+        "it": "Il New York Times riporta il 23 giugno 2026 che <a href=\"https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html\">la Cina ha riconquistato la corona del supercomputer</a> per la prima volta dal 2017, con una macchina basata a Shenzhen che utilizza solo microprocessori standard anziché GPU specializzate.",
+        "lmo": "El New York Times el rapporta el 23 de giugn 2026 che <a href=\"https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html\">la Cina l'ha repi la corona del supercalcolador</a> per la prima voeulta del 2017, con ona macchina basada a Shenzhen che la dopera domà di microprocessador standard inveci de GPU specializzaa."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "urls": [
+        "https://www.nytimes.com/2026/06/23/technology/china-supercomputer-crown-us.html"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "A la Voeulta"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Tag : l'agent d'équipe permanent d'Anthropic",
+                "en": "Claude Tag: Anthropic's permanent team agent",
+                "de": "Claude Tag: Der permanente Team-Agent von Anthropic",
+                "it": "Claude Tag: l'agente di team permanente di Anthropic",
+                "lmo": "Claude Tag: l'agent d'equip permanent d'Anthropic"
+              },
+              "body": {
+                "fr": "Anthropic a lancé le 23 juin 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, un agent d'équipe permanent intégré à Slack. Contrairement aux chatbots classiques, Claude Tag s'immerge dans l'environnement de travail, absorbant la connaissance institutionnelle au fil des échanges Slack pour fournir des réponses contextuelles sans requête explicite. La fonctionnalité repose sur un modèle d'identité agentique détaillé dans un billet du 24 juin 2026 sur <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, qui décrit un système d'accès autonome avec permissions granulaires définies par l'organisation.",
+                "en": "Anthropic launched on 23 June 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, a permanent team agent integrated into Slack. Unlike conventional chatbots, Claude Tag immerses itself in the work environment, absorbing institutional knowledge through Slack exchanges to provide contextual responses without an explicit query. The feature relies on an agentic identity model detailed in a 24 June 2026 post on <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, which describes an autonomous access system with granular permissions defined by the organisation.",
+                "de": "Anthropic hat am 23. Juni 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a> lanciert, einen permanenten Team-Agenten, der in Slack integriert ist. Im Gegensatz zu herkömmlichen Chatbots taucht Claude Tag in die Arbeitsumgebung ein, absorbiert institutionelles Wissen im Laufe der Slack-Interaktionen und liefert kontextuelle Antworten ohne explizite Anfrage. Die Funktionalität basiert auf einem agentischen Identitätsmodell, das in einem Beitrag vom 24. Juni 2026 auf <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a> detailliert beschrieben wird und ein autonomes Zugriffssystem mit granularen, von der Organisation festgelegten Berechtigungen darstellt.",
+                "it": "Anthropic ha lanciato il 23 giugno 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, un agente di team permanente integrato in Slack. A differenza dei chatbot classici, Claude Tag si immerge nell'ambiente di lavoro, assorbendo la conoscenza istituzionale nel corso degli scambi Slack per fornire risposte contestuali senza richiesta esplicita. La funzionalità si basa su un modello di identità agentica descritto in un post del 24 giugno 2026 su <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, che illustra un sistema di accesso autonomo con permessi granulari definiti dall'organizzazione.",
+                "lmo": "Anthropic l'ha lanciaa el 23 de giugn 2026 <a href=\"https://www.anthropic.com/news\">Claude Tag</a>, on agent d'equip permanent integraa in Slack. A diferenza di chatbot classegh, Claude Tag el se immerg in l'ambient de lavorà, assorbend la conoscenza istituzionala in di scambi Slack per fornì di rispost contestuai senza domanda esplicita. La fonzionalitaa la se basa sora on modell d'identitaa agentica detajaa in on post del 24 de giugn 2026 sora <a href=\"https://claude.com/blog/agent-identity-access-model\">claude.com/blog</a>, che 'l descriv on sistema d'access autonom con di permission granolar definii de l'organizzazion."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/news",
+                "https://claude.com/blog/agent-identity-access-model"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sakana AI lance Fugu, un orchestre multi-modèles",
+                "en": "Sakana AI launches Fugu, a multi-model orchestra",
+                "de": "Sakana AI lanciert Fugu, ein Multi-Modell-Orchester",
+                "it": "Sakana AI lancia Fugu, un'orchestra multi-modello",
+                "lmo": "Sakana AI la lancia Fugu, on orchestra multi-modell"
+              },
+              "body": {
+                "fr": "La startup japonaise Sakana AI a dévoilé le 23 juin 2026 <a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Fugu</a>, un système d'orchestration multi-modèles qui coordonne plusieurs LLMs à la volée pour égaler les performances des modèles frontières comme Claude Fable 5 et Mythos 5 d'Anthropic. Fugu est disponible sur OpenRouter sous l'identifiant <a href=\"https://openrouter.ai/api/v1/models\">sakana/fugu-ultra</a> avec un contexte d'un million de tokens et un prix de 5 $/M tokens en entrée et 30 $/M tokens en sortie. L'approche vise également à réduire la dépendance à un fournisseur d'IA unique.",
+                "en": "Japanese startup Sakana AI unveiled on 23 June 2026 <a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Fugu</a>, a multi-model orchestration system that coordinates several LLMs on the fly to match the performance of frontier models such as Anthropic's Claude Fable 5 and Mythos 5. Fugu is available on OpenRouter under the identifier <a href=\"https://openrouter.ai/api/v1/models\">sakana/fugu-ultra</a> with a one-million-token context and a price of $5/M tokens input and $30/M tokens output. The approach also aims to reduce dependence on a single AI provider.",
+                "de": "Das japanische Startup Sakana AI hat am 23. Juni 2026 <a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Fugu</a> vorgestellt, ein Multi-Modell-Orchestrierungssystem, das mehrere LLMs spontan koordiniert, um die Leistung von Grenzmodellen wie Claude Fable 5 und Mythos 5 von Anthropic zu erreichen. Fugu ist auf OpenRouter unter der Kennung <a href=\"https://openrouter.ai/api/v1/models\">sakana/fugu-ultra</a> mit einem Kontext von einer Million Tokens und einem Preis von 5 $/M Tokens für Eingabe und 30 $/M Tokens für Ausgabe verfügbar. Der Ansatz zielt auch darauf ab, die Abhängigkeit von einem einzigen KI-Anbieter zu verringern.",
+                "it": "La startup giapponese Sakana AI ha svelato il 23 giugno 2026 <a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Fugu</a>, un sistema di orchestrazione multi-modello che coordina più LLM al volo per eguagliare le prestazioni dei modelli di frontiera come Claude Fable 5 e Mythos 5 di Anthropic. Fugu è disponibile su OpenRouter con l'identificativo <a href=\"https://openrouter.ai/api/v1/models\">sakana/fugu-ultra</a> con un contesto di un milione di token e un prezzo di 5 $/M token in input e 30 $/M token in output. L'approccio mira anche a ridurre la dipendenza da un unico fornitore di IA.",
+                "lmo": "La startup giapponesa Sakana AI l'ha desvelaa el 23 de giugn 2026 <a href=\"https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/\">Fugu</a>, on sistema d'orchestrazion multi-modell che 'l coordina diversi LLM a la voeulta per pareggià i performance di modell frontiera come Claude Fable 5 e Mythos 5 d'Anthropic. Fugu l'è disponibil sora OpenRouter sotta l'identificativ <a href=\"https://openrouter.ai/api/v1/models\">sakana/fugu-ultra</a> con on contest de on milion de token e on prezzi de 5 $/M token in entrata e 30 $/M token in sortida. L'approcci el mira anca a sbassà la dipendenza de on fornitor d'IA unich."
+              },
+              "kicker": {
+                "fr": "Sakana AI",
+                "en": "Sakana AI",
+                "de": "Sakana AI",
+                "it": "Sakana AI",
+                "lmo": "Sakana AI"
+              },
+              "urls": [
+                "https://the-decoder.com/sakana-ais-fugu-orchestrates-multiple-llms-to-match-anthropics-fable-and-mythos-benchmarks/",
+                "https://openrouter.ai/api/v1/models"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "GPT-5.5-Cyber d'OpenAI surpasse Mythos en cybersécurité",
+                "en": "OpenAI's GPT-5.5-Cyber surpasses Mythos in cybersecurity",
+                "de": "OpenAIs GPT-5.5-Cyber übertrifft Mythos in der Cybersicherheit",
+                "it": "GPT-5.5-Cyber di OpenAI supera Mythos in cybersicurezza",
+                "lmo": "GPT-5.5-Cyber d'OpenAI el supera Mythos in cybersicurezza"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé le 23 juin 2026 <a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">GPT-5.5-Cyber</a>, un modèle spécialisé en cybersécurité qui surpasse Claude Mythos d'Anthropic sur les benchmarks de sécurité. Dans le cadre de l'initiative Daybreak, OpenAI déploie également un plugin Codex Security mis à jour et un réseau de partenaires comprenant plus de 25 entreprises de sécurité et plusieurs gouvernements. L'approche évolue de la simple détection de vulnérabilités vers leur correction automatique.",
+                "en": "OpenAI announced on 23 June 2026 <a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">GPT-5.5-Cyber</a>, a specialised cybersecurity model that outperforms Anthropic's Claude Mythos on security benchmarks. As part of the Daybreak initiative, OpenAI is also deploying an updated Codex Security plugin and a partner network comprising more than 25 security companies and several governments. The approach evolves from simple vulnerability detection toward automatic remediation.",
+                "de": "OpenAI hat am 23. Juni 2026 <a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">GPT-5.5-Cyber</a> angekündigt, ein auf Cybersicherheit spezialisiertes Modell, das Claude Mythos von Anthropic bei Sicherheitsbenchmarks übertrifft. Im Rahmen der Daybreak-Initiative stellt OpenAI auch ein aktualisiertes Codex Security-Plugin und ein Partnernetzwerk mit über 25 Sicherheitsunternehmen und mehreren Regierungen bereit. Der Ansatz entwickelt sich von der reinen Schwachstellenerkennung hin zur automatischen Korrektur.",
+                "it": "OpenAI ha annunciato il 23 giugno 2026 <a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">GPT-5.5-Cyber</a>, un modello specializzato in cybersicurezza che supera Claude Mythos di Anthropic sui benchmark di sicurezza. Nell'ambito dell'iniziativa Daybreak, OpenAI sta inoltre implementando un plugin Codex Security aggiornato e una rete di partner che comprende oltre 25 aziende di sicurezza e diversi governi. L'approccio si evolve dalla semplice rilevazione delle vulnerabilità alla loro correzione automatica.",
+                "lmo": "OpenAI l'ha anunziaa el 23 de giugn 2026 <a href=\"https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/\">GPT-5.5-Cyber</a>, on modell specializzaa in cybersicurezza che 'l supera Claude Mythos d'Anthropic in sui benchmark de sicurezza. In del quadre de l'iniziativa Daybreak, OpenAI la desplega anca on plugin Codex Security agiornaa e ona red de partner che la comprend pussee de 25 aziend de sicurezza e diversi govern. L'approcci el evolv de la sempliz rilevazion di vulnerabilità a la soa correzion automatica."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://the-decoder.com/openai-says-new-gpt-5-5-cyber-outperforms-anthropics-mythos-on-cybersecurity-benchmark/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Technisches Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnet Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais, CLI & Engines",
+            "en": "Harnesses, CLI & Engines",
+            "de": "Harnais, CLI & Engines",
+            "it": "Harnais, CLI & Motori",
+            "lmo": "Harnes, CLI & Motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Codex CLI : dix versions alpha en 24 heures",
+                "en": "Codex CLI: ten alpha versions in 24 hours",
+                "de": "Codex CLI: Zehn Alpha-Versionen in 24 Stunden",
+                "it": "Codex CLI: dieci versioni alpha in 24 ore",
+                "lmo": "Codex CLI: des version alpha in 24 ore"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 23 juin 2026 une série de mises à jour de <a href=\"https://github.com/openai/codex/releases.atom\">Codex CLI</a>, avec les versions rust-v0.143.0-alpha.5 à rust-v0.143.0-alpha.14. Les dix versions alpha déployées en continu entre le 23 et le 24 juin 2026 témoignent d'un cycle de développement accéléré pour l'outil de codage agentique d'OpenAI, sans notes de version détaillées publiées pour chaque incrément.",
+                "en": "OpenAI published on 23 June 2026 a series of updates to <a href=\"https://github.com/openai/codex/releases.atom\">Codex CLI</a>, with versions rust-v0.143.0-alpha.5 through rust-v0.143.0-alpha.14. The ten alpha releases deployed continuously between 23 and 24 June 2026 reflect an accelerated development cycle for OpenAI's agentic coding tool, with no detailed release notes published for each increment.",
+                "de": "OpenAI hat am 23. Juni 2026 eine Reihe von Updates für <a href=\"https://github.com/openai/codex/releases.atom\">Codex CLI</a> veröffentlicht, mit den Versionen rust-v0.143.0-alpha.5 bis rust-v0.143.0-alpha.14. Die zehn zwischen dem 23. und 24. Juni 2026 kontinuierlich bereitgestellten Alpha-Versionen zeugen von einem beschleunigten Entwicklungszyklus für das agentische Codierungswerkzeug von OpenAI, wobei für jedes Inkrement keine detaillierten Versionshinweise veröffentlicht wurden.",
+                "it": "OpenAI ha pubblicato il 23 giugno 2026 una serie di aggiornamenti di <a href=\"https://github.com/openai/codex/releases.atom\">Codex CLI</a>, con le versioni rust-v0.143.0-alpha.5 a rust-v0.143.0-alpha.14. Le dieci versioni alpha distribuite in modo continuo tra il 23 e il 24 giugno 2026 testimoniano un ciclo di sviluppo accelerato per lo strumento di codifica agentica di OpenAI, senza note di rilascio dettagliate pubblicate per ogni incremento.",
+                "lmo": "OpenAI l'ha publicaa el 23 de giugn 2026 ona serie de agiornament de <a href=\"https://github.com/openai/codex/releases.atom\">Codex CLI</a>, con i version rust-v0.143.0-alpha.5 a rust-v0.143.0-alpha.14. I des version alpha desplegade in manera continova in tra el 23 e 'l 24 de giugn 2026 testimònien on ciclo de desvilupp acceleraa per l'isterment de codifega agentica d'OpenAI, senza not de version detajade publicade per ogni increment."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases.atom"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.187 renforce la sécurité sandbox",
+                "en": "Claude Code v2.1.187 strengthens sandbox security",
+                "de": "Claude Code v2.1.187 verstärkt die Sandbox-Sicherheit",
+                "it": "Claude Code v2.1.187 rafforza la sicurezza sandbox",
+                "lmo": "Claude Code v2.1.187 el rinforza la sicurezza sandbox"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 23 juin 2026 la version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.187\">v2.1.187 de Claude Code</a>. Cette mise à jour introduit le paramètre sandbox.credentials pour empêcher les commandes sandboxées de lire les fichiers de credentials et les variables d'environnement secrètes. Elle ajoute également les restrictions de modèle configurées par l'organisation dans le sélecteur de modèle, avec un message « restreint par les paramètres de votre organisation » lorsqu'un modèle restreint est sélectionné, ainsi que le support du clic souris pour les menus de sélection en mode plein écran.",
+                "en": "Anthropic released on 23 June 2026 version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.187\">v2.1.187 of Claude Code</a>. This update introduces the sandbox.credentials setting to prevent sandboxed commands from reading credential files and secret environment variables. It also adds organisation-configured model restrictions in the model selector, with a \"restricted by your organisation's settings\" message when a restricted model is selected, as well as mouse click support for selection menus in full-screen mode.",
+                "de": "Anthropic hat am 23. Juni 2026 die Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.187\">v2.1.187 von Claude Code</a> veröffentlicht. Dieses Update führt die Einstellung sandbox.credentials ein, um zu verhindern, dass sandboxierte Befehle Credential-Dateien und geheime Umgebungsvariablen lesen. Es fügt zudem die von der Organisation konfigurierten Modelleinschränkungen im Modellauswähler hinzu, mit einer Meldung «eingeschränkt durch die Einstellungen Ihrer Organisation», wenn ein eingeschränktes Modell ausgewählt wird, sowie die Unterstützung von Mausklicks für Auswahlmenüs im Vollbildmodus.",
+                "it": "Anthropic ha pubblicato il 23 giugno 2026 la versione <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.187\">v2.1.187 di Claude Code</a>. Questo aggiornamento introduce il parametro sandbox.credentials per impedire ai comandi in sandbox di leggere i file di credenziali e le variabili d'ambiente segrete. Aggiunge inoltre le restrizioni di modello configurate dall'organizzazione nel selettore di modello, con un messaggio «limitato dalle impostazioni della tua organizzazione» quando viene selezionato un modello limitato, e il supporto del clic del mouse per i menu di selezione in modalità schermo intero.",
+                "lmo": "Anthropic l'ha publicaa el 23 de giugn 2026 la version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.187\">v2.1.187 de Claude Code</a>. St'agiornament el introdux el parametro sandbox.credentials per impedì ai comand sandboxaa de legg i file de credentials e i variabil d'ambient segret. L'aggiunta anca i restrizion de modell configurade de l'organizzazion in del selettor de modell, con on messagg « restringiuu di parametro de la soa organizzazion » quand che on modell restringiuu l'è selezzionaa, e 'l support del clic del mouse per i menu de selezzion in modalità a scherm intregh."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.187"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b9776 corrige l'attention flash Vulkan",
+                "en": "llama.cpp b9776 fixes Vulkan flash attention",
+                "de": "llama.cpp b9776 behebt Vulkan-Flash-Attention",
+                "it": "llama.cpp b9776 corregge l'attenzione flash Vulkan",
+                "lmo": "llama.cpp b9776 el corregg l'attenzion flash Vulkan"
+              },
+              "body": {
+                "fr": "Le moteur d'inférence locale <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9776\">llama.cpp</a> a publié la build b9776 le 24 juin 2026, qui corrige un problème de dépassement de capacité dans l'attention flash Vulkan en appliquant le biais avant le softmax. Cette correction technique améliore la stabilité numérique du backend Vulkan pour les modèles à longue séquence.",
+                "en": "Local inference engine <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9776\">llama.cpp</a> published build b9776 on 24 June 2026, which fixes an overflow issue in Vulkan flash attention by applying the bias before softmax. This technical correction improves numerical stability of the Vulkan backend for long-sequence models.",
+                "de": "Die lokale Inferenz-Engine <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9776\">llama.cpp</a> hat am 24. Juni 2026 den Build b9776 veröffentlicht, der ein Überlaufproblem in der Vulkan-Flash-Attention behebt, indem der Bias vor dem Softmax angewendet wird. Diese technische Korrektur verbessert die numerische Stabilität des Vulkan-Backends für Modelle mit langen Sequenzen.",
+                "it": "Il motore di inferenza locale <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9776\">llama.cpp</a> ha pubblicato la build b9776 il 24 giugno 2026, che corregge un problema di overflow nell'attenzione flash Vulkan applicando il bias prima del softmax. Questa correzione tecnica migliora la stabilità numerica del backend Vulkan per i modelli a sequenza lunga.",
+                "lmo": "El motor d'inferenza locala <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9776\">llama.cpp</a> l'ha publicaa la build b9776 el 24 de giugn 2026, che la corregg on problema de superament de capacità in l'attenzion flash Vulkan, aplicand el bias prima del softmax. Sta correzion tecnica la mejora la stabilità numerica del backend Vulkan per i modell a longa sequenza."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9776"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX v0.8.13 corrige le raisonnement tronqué",
+                "en": "Rapid-MLX v0.8.13 fixes truncated reasoning",
+                "de": "Rapid-MLX v0.8.13 behebt abgeschnittenes Reasoning",
+                "it": "Rapid-MLX v0.8.13 corregge il ragionamento troncato",
+                "lmo": "Rapid-MLX v0.8.13 el corregg el resonament troncaa"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13\">Rapid-MLX v0.8.13</a> a été publié le 24 juin 2026 avec un correctif pour l'émission des éléments de raisonnement lors de l'atteinte de la limite max_output_tokens. Cette mise à jour du serveur d'inférence MLX améliore la fiabilité des réponses avec raisonnement pour les modèles déployés sur Apple Silicon.",
+                "en": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13\">Rapid-MLX v0.8.13</a> was released on 24 June 2026 with a fix for emitting reasoning elements when reaching the max_output_tokens limit. This update to the MLX inference server improves reliability of reasoning responses for models deployed on Apple Silicon.",
+                "de": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13\">Rapid-MLX v0.8.13</a> wurde am 24. Juni 2026 mit einem Fix für die Ausgabe von Reasoning-Elementen bei Erreichen des max_output_tokens-Limits veröffentlicht. Dieses Update des MLX-Inferenzservers verbessert die Zuverlässigkeit von Antworten mit Reasoning für Modelle, die auf Apple Silicon bereitgestellt werden.",
+                "it": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13\">Rapid-MLX v0.8.13</a> è stato pubblicato il 24 giugno 2026 con una correzione per l'emissione degli elementi di ragionamento al raggiungimento del limite max_output_tokens. Questo aggiornamento del server di inferenza MLX migliora l'affidabilità delle risposte con ragionamento per i modelli distribuiti su Apple Silicon.",
+                "lmo": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13\">Rapid-MLX v0.8.13</a> l'è staa publicaa el 24 de giugn 2026 con on correttiv per l'emission di element de resonament quand che se riva al limit max_output_tokens. St'agiornament del server d'inferenza MLX el mejora la fidabilità di rispost con resonament per i modell desplegaa sora Apple Silicon."
+              },
+              "kicker": {
+                "fr": "Rapid-MLX",
+                "en": "Rapid-MLX",
+                "de": "Rapid-MLX",
+                "it": "Rapid-MLX",
+                "lmo": "Rapid-MLX"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.8.13"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papers & Labore",
+            "it": "Paper & Laboratori",
+            "lmo": "Paper & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Qwen-AgentWorld : des modèles de monde pour agents généraux",
+                "en": "Qwen-AgentWorld: world models for general agents",
+                "de": "Qwen-AgentWorld: Weltmodelle für allgemeine Agenten",
+                "it": "Qwen-AgentWorld: modelli di mondo per agenti generali",
+                "lmo": "Qwen-AgentWorld: di modell de mond per agent generai"
+              },
+              "body": {
+                "fr": "L'équipe Qwen (Alibaba) a publié le 23 juin 2026 <a href=\"https://arxiv.org/abs/2606.24597\">Qwen-AgentWorld</a>, les premiers modèles de monde linguistiques capables de simuler des environnements agentiques couvrant sept domaines via un raisonnement par longue chaîne de pensée. Les modèles Qwen-AgentWorld-35B-A3B et Qwen-AgentWorld-397B-A17B sont entraînés sur plus de 10 millions de trajectoires d'interaction réelles via un pipeline en trois étapes (CPT, SFT, RL). Sur le nouveau benchmark AgentWorldBench, Qwen-AgentWorld surpasse significativement les modèles frontières existants. Le papier a recueilli 34 upvotes sur HuggingFace Daily Papers.",
+                "en": "The Qwen team (Alibaba) published on 23 June 2026 <a href=\"https://arxiv.org/abs/2606.24597\">Qwen-AgentWorld</a>, the first linguistic world models capable of simulating agentic environments spanning seven domains via long chain-of-thought reasoning. The Qwen-AgentWorld-35B-A3B and Qwen-AgentWorld-397B-A17B models are trained on over 10 million real interaction trajectories via a three-stage pipeline (CPT, SFT, RL). On the new AgentWorldBench benchmark, Qwen-AgentWorld significantly surpasses existing frontier models. The paper garnered 34 upvotes on HuggingFace Daily Papers.",
+                "de": "Das Qwen-Team (Alibaba) hat am 23. Juni 2026 <a href=\"https://arxiv.org/abs/2606.24597\">Qwen-AgentWorld</a> veröffentlicht, die ersten linguistischen Weltmodelle, die in der Lage sind, agentische Umgebungen über sieben Bereiche hinweg durch langes Reasoning mit Chain-of-Thought zu simulieren. Die Modelle Qwen-AgentWorld-35B-A3B und Qwen-AgentWorld-397B-A17B werden auf über 10 Millionen realen Interaktionstrajektorien über eine dreistufige Pipeline (CPT, SFT, RL) trainiert. Auf dem neuen Benchmark AgentWorldBench übertrifft Qwen-AgentWorld bestehende Grenzmodelle signifikant. Das Paper erhielt 34 Upvotes auf HuggingFace Daily Papers.",
+                "it": "Il team Qwen (Alibaba) ha pubblicato il 23 giugno 2026 <a href=\"https://arxiv.org/abs/2606.24597\">Qwen-AgentWorld</a>, i primi modelli di mondo linguistici capaci di simulare ambienti agentici che coprono sette domini tramite ragionamento a lunga catena di pensiero. I modelli Qwen-AgentWorld-35B-A3B e Qwen-AgentWorld-397B-A17B sono addestrati su oltre 10 milioni di traiettorie di interazione reali tramite un pipeline in tre fasi (CPT, SFT, RL). Sul nuovo benchmark AgentWorldBench, Qwen-AgentWorld supera significativamente i modelli di frontiera esistenti. Il paper ha raccolto 34 upvote su HuggingFace Daily Papers.",
+                "lmo": "L'equip Qwen (Alibaba) l'ha publicaa el 23 de giugn 2026 <a href=\"https://arxiv.org/abs/2606.24597\">Qwen-AgentWorld</a>, i prim modell de mond lenguistegh bon de simolà di ambient agentich che cœuven set domini per mèzz de on resonament a longa cadena de penser. I modell Qwen-AgentWorld-35B-A3B e Qwen-AgentWorld-397B-A17B hinn staa adestrai sora pussee de 10 milion de traiettori d'interazion reai per mèzz de on pipeline in trii pass (CPT, SFT, RL). Sora el noeuv benchmark AgentWorldBench, Qwen-AgentWorld el supera significativament i modell frontiera esistent. El paper l'ha cugiuu 34 upvotes sora HuggingFace Daily Papers."
+              },
+              "kicker": {
+                "fr": "Qwen / Alibaba",
+                "en": "Qwen / Alibaba",
+                "de": "Qwen / Alibaba",
+                "it": "Qwen / Alibaba",
+                "lmo": "Qwen / Alibaba"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2606.24597"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Tmax : une recette RL simple pour agents terminaux",
+                "en": "Tmax: a simple RL recipe for terminal agents",
+                "de": "Tmax: Ein einfaches RL-Rezept für Terminal-Agenten",
+                "it": "Tmax: una ricetta RL semplice per agenti terminali",
+                "lmo": "Tmax: ona ricetta RL sempliz per agent terminaj"
+              },
+              "body": {
+                "fr": "Le projet <a href=\"https://github.com/hamishivi/tmax\">Tmax</a>, publié le 23 juin 2026, présente une recette open source d'apprentissage par renforcement pour agents terminaux qui atteint 27 % sur Terminal-Bench 2.0 avec seulement 9 milliards de paramètres, surpassant des modèles bien plus grands. L'approche combine un nouveau taxonomie de génération de données — avec contrôle de difficulté, personas et diversification des vérificateurs — pour produire un ensemble de données 2,5 fois plus grand que les précédents jeux de données d'agents terminaux.",
+                "en": "The <a href=\"https://github.com/hamishivi/tmax\">Tmax</a> project, published on 23 June 2026, presents an open-source reinforcement learning recipe for terminal agents that achieves 27% on Terminal-Bench 2.0 with only 9 billion parameters, outperforming much larger models. The approach combines a new data generation taxonomy — with difficulty control, personas and verifier diversification — to produce a dataset 2.5 times larger than previous terminal agent datasets.",
+                "de": "Das Projekt <a href=\"https://github.com/hamishivi/tmax\">Tmax</a>, veröffentlicht am 23. Juni 2026, präsentiert ein Open-Source-Rezept für Reinforcement Learning für Terminal-Agenten, das mit nur 9 Milliarden Parametern 27 % auf Terminal-Bench 2.0 erreicht und damit deutlich grössere Modelle übertrifft. Der Ansatz kombiniert eine neue Taxonomie der Datengenerierung – mit Schwierigkeitskontrolle, Personas und Diversifizierung der Verifizierer – um einen Datensatz zu produzieren, der 2,5-mal grösser ist als frühere Datensätze für Terminal-Agenten.",
+                "it": "Il progetto <a href=\"https://github.com/hamishivi/tmax\">Tmax</a>, pubblicato il 23 giugno 2026, presenta una ricetta open source di apprendimento per rinforzo per agenti terminali che raggiunge il 27% su Terminal-Bench 2.0 con soli 9 miliardi di parametri, superando modelli molto più grandi. L'approccio combina una nuova tassonomia di generazione dei dati — con controllo della difficoltà, personas e diversificazione dei verificatori — per produrre un dataset 2,5 volte più grande dei precedenti dataset di agenti terminali.",
+                "lmo": "El progett <a href=\"https://github.com/hamishivi/tmax\">Tmax</a>, publicaa el 23 de giugn 2026, el presenta ona ricetta open source d'aprendiment per rinforz per agent terminaj che la riva a 27 % sora Terminal-Bench 2.0 con domà 9 miliard de parametri, superand di modell assosenn pussee grand. L'approcci el combina ona noeuva tassonomia de generazion de dacc — con controll de difficoltà, persona e diversificazion di verificador — per prodù on insema de dacc 2,5 voeulte pussee grand di precedent insema de dacc d'agent terminaj."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://github.com/hamishivi/tmax"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "EDV : apprendre de l'expérience sans auto-confirmation",
+                "en": "EDV: learning from experience without self-confirmation",
+                "de": "EDV: Aus Erfahrung lernen ohne Selbstbestätigung",
+                "it": "EDV: imparare dall'esperienza senza auto-conferma",
+                "lmo": "EDV: imparà de l'esperienza senza auto-conferma"
+              },
+              "body": {
+                "fr": "Le framework <a href=\"https://github.com/shidingz/EDV\">EDV (Execute-Distill-Verify)</a>, publié le 23 juin 2026, propose un paradigme pour l'apprentissage par expérience des agents LLM qui évite le piège de l'auto-confirmation. En décomposant l'apprentissage en trois étapes — exécution parallèle par des agents hétérogènes, distillation par un agent tiers, et vérification par consensus — EDV surpasse les méthodes de réflexion isolée sur les benchmarks tau2-bench, Mind2Web et MMTB.",
+                "en": "The <a href=\"https://github.com/shidingz/EDV\">EDV (Execute-Distill-Verify)</a> framework, published on 23 June 2026, proposes a paradigm for LLM agent experience learning that avoids the self-confirmation trap. By decomposing learning into three stages — parallel execution by heterogeneous agents, distillation by a third-party agent, and consensus verification — EDV outperforms isolated reflection methods on the tau2-bench, Mind2Web and MMTB benchmarks.",
+                "de": "Das Framework <a href=\"https://github.com/shidingz/EDV\">EDV (Execute-Distill-Verify)</a>, veröffentlicht am 23. Juni 2026, schlägt ein Paradigma für das Erfahrungslernen von LLM-Agenten vor, das die Falle der Selbstbestätigung vermeidet. Indem das Lernen in drei Schritte zerlegt wird – parallele Ausführung durch heterogene Agenten, Destillation durch einen Dritt-Agenten und Verifikation durch Konsens – übertrifft EDV isolierte Reflexionsmethoden auf den Benchmarks tau2-bench, Mind2Web und MMTB.",
+                "it": "Il framework <a href=\"https://github.com/shidingz/EDV\">EDV (Execute-Distill-Verify)</a>, pubblicato il 23 giugno 2026, propone un paradigma per l'apprendimento tramite esperienza degli agenti LLM che evita la trappola dell'auto-conferma. Scomponendo l'apprendimento in tre fasi — esecuzione parallela da parte di agenti eterogenei, distillazione da parte di un agente terzo e verifica tramite consenso — EDV supera i metodi di riflessione isolata sui benchmark tau2-bench, Mind2Web e MMTB.",
+                "lmo": "El framework <a href=\"https://github.com/shidingz/EDV\">EDV (Execute-Distill-Verify)</a>, publicaa el 23 de giugn 2026, el propon on paradigma per l'aprendiment per esperienza di agent LLM che 'l evita la trappola de l'auto-conferma. Descomponend l'aprendiment in trii pass — esecuzion parallela de part di agent eterogenei, distillazion de part de on agent terz, e verificazion per consens — EDV el supera i metod de riflession isolada in sui benchmark tau2-bench, Mind2Web e MMTB."
+              },
+              "kicker": {
+                "fr": "Zhejiang University",
+                "en": "Zhejiang University",
+                "de": "Zhejiang University",
+                "it": "Zhejiang University",
+                "lmo": "Zhejiang University"
+              },
+              "urls": [
+                "https://github.com/shidingz/EDV"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NatureBench : les agents de codage loin de la découverte scientifique",
+                "en": "NatureBench: coding agents far from scientific discovery",
+                "de": "NatureBench: Codierungsagenten weit entfernt von wissenschaftlicher Entdeckung",
+                "it": "NatureBench: gli agenti di codifica lontani dalla scoperta scientifica",
+                "lmo": "NatureBench: i agent de codifega lontan de la descoverta scientifica"
+              },
+              "body": {
+                "fr": "Le benchmark <a href=\"https://github.com/FrontisAI/NatureBench\">NatureBench</a>, présenté le 23 juin 2026, évalue la capacité des agents de codage à reproduire les résultats publiés dans des articles de la famille Nature. Sur 90 tâches couvrant plusieurs disciplines, le meilleur modèle ne dépasse l'état de l'art que sur 17,8 % des tâches. L'analyse révèle que les agents réussissent principalement par traduction méthodologique — convertissant des problèmes scientifiques en problèmes de prédiction supervisée — plutôt que par invention scientifique authentique.",
+                "en": "The <a href=\"https://github.com/FrontisAI/NatureBench\">NatureBench</a> benchmark, presented on 23 June 2026, evaluates the ability of coding agents to reproduce results published in Nature family articles. Across 90 tasks spanning multiple disciplines, the best model exceeds the state of the art on only 17.8% of tasks. The analysis reveals that agents succeed primarily through methodological translation — converting scientific problems into supervised prediction problems — rather than through genuine scientific invention.",
+                "de": "Der Benchmark <a href=\"https://github.com/FrontisAI/NatureBench\">NatureBench</a>, vorgestellt am 23. Juni 2026, bewertet die Fähigkeit von Codierungsagenten, die in Artikeln der Nature-Familie veröffentlichten Ergebnisse zu reproduzieren. Bei 90 Aufgaben aus mehreren Disziplinen übertrifft das beste Modell den Stand der Technik nur bei 17,8 % der Aufgaben. Die Analyse zeigt, dass die Agenten hauptsächlich durch methodologische Übersetzung erfolgreich sind – indem sie wissenschaftliche Probleme in Probleme der überwachten Vorhersage umwandeln – und nicht durch authentische wissenschaftliche Erfindung.",
+                "it": "Il benchmark <a href=\"https://github.com/FrontisAI/NatureBench\">NatureBench</a>, presentato il 23 giugno 2026, valuta la capacità degli agenti di codifica di riprodurre i risultati pubblicati in articoli della famiglia Nature. Su 90 compiti che coprono diverse discipline, il miglior modello non supera lo stato dell'arte che sul 17,8% dei compiti. L'analisi rivela che gli agenti riescono principalmente tramite traduzione metodologica — convertendo problemi scientifici in problemi di predizione supervisionata — piuttosto che tramite invenzione scientifica autentica.",
+                "lmo": "El benchmark <a href=\"https://github.com/FrontisAI/NatureBench\">NatureBench</a>, presentaa el 23 de giugn 2026, el valuta la capacità di agent de codifega a reprodù i resultaa publicaa in di articoi de la fameja Nature. Sora 90 incarich che cœuven diverse discipline, el modell pussee bon el supera l'istat de l'art domà sora el 17,8 % di incarich. L'analisi la revèla che i agent reussissen principalment per traduzion metodologica — convertend di problema scientifegh in problema de prevision supervisada — pussee che per invenzion scientifica autentica."
+              },
+              "kicker": {
+                "fr": "Frontis AI",
+                "en": "Frontis AI",
+                "de": "Frontis AI",
+                "it": "Frontis AI",
+                "lmo": "Frontis AI"
+              },
+              "urls": [
+                "https://github.com/FrontisAI/NatureBench"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Édito",
+            "en": "Signals & Editorial",
+            "de": "Signale & Editorial",
+            "it": "Segnali & Editoriale",
+            "lmo": "Segnai & Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Licencié par Google pour avoir créé un CLI Workspace",
+                "en": "Fired by Google for creating a Workspace CLI",
+                "de": "Von Google entlassen, weil er ein Workspace CLI erstellt hatte",
+                "it": "Licenziato da Google per aver creato una CLI Workspace",
+                "lmo": "Licenziaa de Google per avè creaa on CLI Workspace"
+              },
+              "body": {
+                "fr": "Un développeur a été licencié par Google pour avoir créé <a href=\"https://news.ycombinator.com/item?id=48649011\">Google Workspace CLI</a>, un outil en ligne de commande non officiel pour l'écosystème Google Workspace. L'histoire, qui a recueilli 372 points et 242 commentaires sur Hacker News le 23 juin 2026, a relancé le débat sur les limites de l'innovation par les employés dans les grandes entreprises technologiques et la politique de Google concernant les projets personnels.",
+                "en": "A developer was fired by Google for creating <a href=\"https://news.ycombinator.com/item?id=48649011\">Google Workspace CLI</a>, an unofficial command-line tool for the Google Workspace ecosystem. The story, which garnered 372 points and 242 comments on Hacker News on 23 June 2026, reignited debate on the limits of employee innovation at large technology companies and Google's policy regarding personal projects.",
+                "de": "Ein Entwickler wurde von Google entlassen, weil er <a href=\"https://news.ycombinator.com/item?id=48649011\">Google Workspace CLI</a> erstellt hatte, ein inoffizielles Kommandozeilen-Tool für das Google Workspace-Ökosystem. Die Geschichte, die am 23. Juni 2026 auf Hacker News 372 Punkte und 242 Kommentare erhielt, entfachte die Debatte über die Grenzen der Innovation durch Angestellte in grossen Technologieunternehmen und die Politik von Google in Bezug auf persönliche Projekte neu.",
+                "it": "Uno sviluppatore è stato licenziato da Google per aver creato <a href=\"https://news.ycombinator.com/item?id=48649011\">Google Workspace CLI</a>, uno strumento da riga di comando non ufficiale per l'ecosistema Google Workspace. La storia, che ha raccolto 372 punti e 242 commenti su Hacker News il 23 giugno 2026, ha riacceso il dibattito sui limiti dell'innovazione da parte dei dipendenti nelle grandi aziende tecnologiche e sulla politica di Google riguardo ai progetti personali.",
+                "lmo": "On desviluppador l'è staa licenziaa de Google per avè creaa <a href=\"https://news.ycombinator.com/item?id=48649011\">Google Workspace CLI</a>, on istrument a linia de comand noe oficial per l'ecosistema Google Workspace. La storia, che l'ha cugiuu 372 pont e 242 coment sora Hacker News el 23 de giugn 2026, l'ha relanzaa el debatt sora i limit de l'innovazion de part di impiegaa in di grand aziend tecnològich e la politega de Google in di progett personaj."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Comunità"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=48649011"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "HALO : un débogueur open source pour traces d'agents",
+                "en": "HALO: an open-source debugger for agent traces",
+                "de": "HALO: Ein Open-Source-Debugger für Agenten-Traces",
+                "it": "HALO: un debugger open source per tracce di agenti",
+                "lmo": "HALO: on debugador open source per tracc d'agent"
+              },
+              "body": {
+                "fr": "Le framework <a href=\"https://github.com/context-labs/halo\">HALO (Hierarchal Agent Loop Optimizer)</a>, présenté sur Hacker News le 23 juin 2026, est un débogueur open source pour traces d'agents AI qui utilise un modèle de langage récursif (RLM) pour analyser les traces d'exécution et identifier les problèmes systémiques. L'outil accepte les traces conformes OTEL provenant de frameworks comme Langfuse et OpenInference, et peut être exécuté localement via une application de bureau sans inscription.",
+                "en": "The <a href=\"https://github.com/context-labs/halo\">HALO (Hierarchal Agent Loop Optimizer)</a> framework, presented on Hacker News on 23 June 2026, is an open-source debugger for AI agent traces that uses a recursive language model (RLM) to analyse execution traces and identify systemic issues. The tool accepts OTEL-compliant traces from frameworks such as Langfuse and OpenInference, and can be run locally via a desktop application without registration.",
+                "de": "Das Framework <a href=\"https://github.com/context-labs/halo\">HALO (Hierarchal Agent Loop Optimizer)</a>, vorgestellt auf Hacker News am 23. Juni 2026, ist ein Open-Source-Debugger für KI-Agenten-Traces, der ein rekursives Sprachmodell (RLM) verwendet, um Ausführungs-Traces zu analysieren und systemische Probleme zu identifizieren. Das Tool akzeptiert OTEL-konforme Traces von Frameworks wie Langfuse und OpenInference und kann lokal über eine Desktop-Anwendung ohne Anmeldung ausgeführt werden.",
+                "it": "Il framework <a href=\"https://github.com/context-labs/halo\">HALO (Hierarchal Agent Loop Optimizer)</a>, presentato su Hacker News il 23 giugno 2026, è un debugger open source per tracce di agenti AI che utilizza un modello di linguaggio ricorsivo (RLM) per analizzare le tracce di esecuzione e identificare i problemi sistemici. Lo strumento accetta tracce conformi OTEL provenienti da framework come Langfuse e OpenInference, e può essere eseguito localmente tramite un'applicazione desktop senza registrazione.",
+                "lmo": "El framework <a href=\"https://github.com/context-labs/halo\">HALO (Hierarchal Agent Loop Optimizer)</a>, presentaa sora Hacker News el 23 de giugn 2026, l'è on debugador open source per tracc d'agent AI che 'l dopera on modell de lenguagg recursiv (RLM) per analizà i tracc d'esecuzion e identificà i problema sistemegh. L'isterment l'acetta i tracc conform OTEL che vegnen de framework come Langfuse e OpenInference, e 'l pò vess eseguii localment per mèzz de ona applicazion de scrivan senza registrazion."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Comunità"
+              },
+              "urls": [
+                "https://github.com/context-labs/halo"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les agents computer-use fuient des données dans 68 % des cas",
+                "en": "Computer-use agents leak data in 68% of cases",
+                "de": "Computer-Use-Agenten geben in 68 % der Fälle Daten preis",
+                "it": "Gli agenti computer-use perdono dati nel 68% dei casi",
+                "lmo": "I agent computer-use fœuven dacc in del 68 % di cas"
+              },
+              "body": {
+                "fr": "Le benchmark <a href=\"https://ukplab.github.io/arxiv2026-agentcibench/\">AgentCIBench</a>, publié le 23 juin 2026 par le UKPLab, révèle que 11 des 15 agents computer-use testés fuient des informations contextuelles dans plus de 50 % des scénarios, avec un taux de fuite moyen de 67,9 %. Les trois modes de défaillance identifiés sont la co-localisation visuelle, le partage excessif par ambiguïté de tâche, et le désalignement du destinataire.",
+                "en": "The <a href=\"https://ukplab.github.io/arxiv2026-agentcibench/\">AgentCIBench</a> benchmark, published on 23 June 2026 by UKPLab, reveals that 11 of the 15 tested computer-use agents leak contextual information in more than 50% of scenarios, with an average leakage rate of 67.9%. The three identified failure modes are visual co-location, over-sharing due to task ambiguity, and recipient misalignment.",
+                "de": "Der Benchmark <a href=\"https://ukplab.github.io/arxiv2026-agentcibench/\">AgentCIBench</a>, veröffentlicht am 23. Juni 2026 vom UKPLab, zeigt, dass 11 der 15 getesteten Computer-Use-Agenten in mehr als 50 % der Szenarien kontextuelle Informationen preisgeben, mit einer durchschnittlichen Leckrate von 67,9 %. Die drei identifizierten Fehlermodi sind visuelle Ko-Lokalisierung, übermässiges Teilen durch Aufgabenambiguität und Fehlausrichtung des Empfängers.",
+                "it": "Il benchmark <a href=\"https://ukplab.github.io/arxiv2026-agentcibench/\">AgentCIBench</a>, pubblicato il 23 giugno 2026 da UKPLab, rivela che 11 dei 15 agenti computer-use testati perdono informazioni contestuali in oltre il 50% degli scenari, con un tasso di fuga medio del 67,9%. Le tre modalità di guasto identificate sono la co-localizzazione visiva, la condivisione eccessiva per ambiguità del compito e il disallineamento del destinatario.",
+                "lmo": "El benchmark <a href=\"https://ukplab.github.io/arxiv2026-agentcibench/\">AgentCIBench</a>, publicaa el 23 de giugn 2026 del UKPLab, el revèla che 11 di 15 agent computer-use testaa fœuven di informazion contestuai in pussee del 50 % di scenari, con on tass de fœuva medi de 67,9 %. I trii mode de faliment identificaa hinn la co-localizzazion visual, la spartizion eccessiva per ambiguità de l'incarich, e 'l desallineament del destinatari."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://ukplab.github.io/arxiv2026-agentcibench/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "La NSA perd l'accès aux modèles Anthropic",
+                "en": "NSA loses access to Anthropic models",
+                "de": "Die NSA verliert den Zugang zu Anthropic-Modellen",
+                "it": "La NSA perde l'accesso ai modelli Anthropic",
+                "lmo": "La NSA la perd l'access ai modell Anthropic"
+              },
+              "body": {
+                "fr": "Le New York Times rapporte le 23 juin 2026 que la NSA a perdu l'accès à un puissant modèle d'IA utilisé pour la cybersécurité à la suite du différend entre l'administration Trump et Anthropic concernant <a href=\"https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html\">l'ordre de suspendre l'accès à Fable 5 et Mythos 5</a>. Par ailleurs, le gouvernement américain fait pression sur Meta pour qu'il accepte des évaluations de sécurité gouvernementales, alors que l'entreprise reste le seul grand labo à refuser ces audits.",
+                "en": "The New York Times reports on 23 June 2026 that the NSA lost access to a powerful AI model used for cybersecurity following the dispute between the Trump administration and Anthropic over <a href=\"https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html\">the order to suspend access to Fable 5 and Mythos 5</a>. Separately, the US government is pressuring Meta to accept government security evaluations, as the company remains the only major lab refusing these audits.",
+                "de": "Die New York Times berichtet am 23. Juni 2026, dass die NSA den Zugang zu einem leistungsstarken KI-Modell für die Cybersicherheit verloren hat, infolge des Streits zwischen der Trump-Administration und Anthropic über <a href=\"https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html\">die Anordnung, den Zugang zu Fable 5 und Mythos 5 zu sperren</a>. Zudem übt die US-Regierung Druck auf Meta aus, staatliche Sicherheitsbewertungen zu akzeptieren, während das Unternehmen das einzige grosse Labor bleibt, das diese Audits ablehnt.",
+                "it": "Il New York Times riporta il 23 giugno 2026 che la NSA ha perso l'accesso a un potente modello di IA utilizzato per la cybersicurezza a seguito della disputa tra l'amministrazione Trump e Anthropic riguardo <a href=\"https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html\">all'ordine di sospendere l'accesso a Fable 5 e Mythos 5</a>. Inoltre, il governo statunitense fa pressione su Meta affinché accetti valutazioni di sicurezza governative, mentre l'azienda rimane l'unico grande laboratorio a rifiutare questi audit.",
+                "lmo": "El New York Times el rapporta el 23 de giugn 2026 che la NSA l'ha perduu l'access a on modell d'IA potent doperaa per la cybersicurezza a seguit del contrast in tra l'amministrazion Trump e Anthropic a propòsit de <a href=\"https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html\">l'orden de sospend l'access a Fable 5 e Mythos 5</a>. D'oltra banda, el govern american el fa pression sora Meta per che l'acetta di valutazion de sicurezza governative, intant che l'azienda la resta l'unic grand laboratori a refudà sti audit."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/06/23/us/politics/nsa-lost-access-anthropic-tool.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
