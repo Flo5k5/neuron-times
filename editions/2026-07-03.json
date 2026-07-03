@@ -1,0 +1,694 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-03",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a publié le 2 juillet 2026 des informations complémentaires sur les mécanismes de cyber-sécurité déployés dans son modèle Fable 5, accompagnées d'une proposition de cadre industriel pour évaluer la sévérité des attaques par jailbreak. L'entreprise a développé ce référentiel en collaboration avec Amazon, Microsoft, Google et d'autres partenaires du programme Glasswing, visant à standardiser la manière dont l'industrie qualifie les failles de sécurité des grands modèles de langage.",
+        "en": "Anthropic published on Thursday, 2 July 2026 additional details on the cybersecurity mechanisms deployed in its Fable 5 model, along with a proposed industry framework for assessing the severity of jailbreak attacks. The company developed this reference framework in collaboration with Amazon, Microsoft, Google and other partners in the Glasswing program, aiming to standardise how the industry qualifies security vulnerabilities in large language models.",
+        "de": "Anthropic hat am 2. Juli 2026 ergänzende Informationen zu den Cybersicherheitsmechanismen seines Modells Fable 5 veröffentlicht, begleitet von einem Vorschlag für einen industriellen Rahmen zur Bewertung der Schwere von Jailbreak-Angriffen. Das Unternehmen entwickelte dieses Referenzsystem in Zusammenarbeit mit Amazon, Microsoft, Google und anderen Partnern des Glasswing-Programms, um zu standardisieren, wie die Branche Sicherheitslücken grosser Sprachmodelle einstuft.",
+        "it": "Anthropic ha pubblicato il 2 luglio 2026 informazioni complementari sui meccanismi di cybersicurezza implementati nel suo modello Fable 5, accompagnate da una proposta di quadro industriale per valutare la gravità degli attacchi di jailbreak. L'azienda ha sviluppato questo riferimento in collaborazione con Amazon, Microsoft, Google e altri partner del programma Glasswing, con l'obiettivo di standardizzare il modo in cui l'industria qualifica le vulnerabilità di sicurezza dei grandi modelli linguistici.",
+        "lmo": "Anthropic l'ha publicaa el 2 de luj 2026 di informazion complementar in sui mecanism de cyber-sigurezza doperaa in del sò modell Fable 5, insema a ona proposta de quadre industrial per valutà la severità di atacch de jailbreak. L'azienda l'ha sviluppaa quest referenzial in collaborazion con Amazon, Microsoft, Google e alter partner del programa Glasswing, cont el fin de standardizzà la manera che l'industria la dopera per qualificà i falle de sigurezza di grand modell de lengoeu."
+      },
+      {
+        "fr": "Le cadre proposé introduit une échelle de sévérité permettant de classer les tentatives de contournement des garde-fous, depuis les incitations simples jusqu'aux attaques multi-tours sophistiquées. Anthropic affirme que cette taxonomie commune est devenue indispensable alors que les modèles frontière comme Fable 5 sont déployés dans des environnements de plus en plus critiques, où une évaluation précise des risques de jailbreak conditionne les décisions de déploiement chez les clients enterprise.",
+        "en": "The proposed framework introduces a severity scale for classifying guardrail bypass attempts, ranging from simple prompting to sophisticated multi-turn attacks. Anthropic says this common taxonomy has become essential as frontier models like Fable 5 are deployed in increasingly critical environments, where accurate jailbreak risk assessment conditions deployment decisions for enterprise clients.",
+        "de": "Der vorgeschlagene Rahmen führt eine Schweregradskala ein, die es erlaubt, Umgehungsversuche von Schutzmassnahmen zu klassifizieren – von einfachen Aufforderungen bis hin zu ausgeklügelten Multi-Turn-Angriffen. Anthropic betont, dass diese gemeinsame Taxonomie unverzichtbar geworden sei, da Grenzmodelle wie Fable 5 in zunehmend kritischen Umgebungen eingesetzt werden, wo eine präzise Bewertung von Jailbreak-Risiken die Einsatzentscheidungen bei Unternehmenskunden bestimmt.",
+        "it": "Il quadro proposto introduce una scala di gravità che consente di classificare i tentativi di elusione delle barriere protettive, dagli incentivi semplici fino agli attacchi multi-turno sofisticati. Anthropic afferma che questa tassonomia comune è diventata indispensabile mentre i modelli di frontiera come Fable 5 vengono implementati in ambienti sempre più critici, dove una valutazione precisa dei rischi di jailbreak condiziona le decisioni di deployment presso i clienti enterprise.",
+        "lmo": "El quadre propost el introdux ona scala de severità che la permet de classificà i tentativ de sconfiggiment di guardie, di incitament sempliz fina ai atacch multi-torn sofisticaa. Anthropic l'afferma che questa tassonomia comuna l'è deventada indispensabela adess che i modell frontiera compagn de Fable 5 hinn doperaa in di ambient semper pussee critich, indove ona valutazion precisa di ris'c de jailbreak la condiziona i decision de despiegament in di client enterprise."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/news"
+    ],
+    "kicker": {
+      "fr": "Sécurité des modèles",
+      "en": "Model Safety",
+      "de": "Modellsicherheit",
+      "it": "Sicurezza dei modelli",
+      "lmo": "Sigurezza di modell"
+    },
+    "headline": {
+      "fr": "Anthropic détaille les cyber-sécurités de Fable 5 et propose un cadre de notation des jailbreaks",
+      "en": "Anthropic details Fable 5 cybersecurity measures and proposes jailbreak rating framework",
+      "de": "Anthropic erläutert die Cybersicherheit von Fable 5 und schlägt ein Bewertungssystem für Jailbreaks vor",
+      "it": "Anthropic dettaglia le cybersicurezze di Fable 5 e propone un quadro di valutazione dei jailbreak",
+      "lmo": "Anthropic el gh'ha daa i detali in sui cyber-sigurezze de Fable 5 e 'l propon on quadre de notazion per i jailbreak"
+    },
+    "subdeck": {
+      "fr": "L'éditeur de Claude dévoile une taxonomie partagée avec Amazon, Microsoft et Google pour évaluer la gravité des attaques par jailbreak, alors que Fable 5 est redéployé mondialement.",
+      "en": "The publisher of Claude unveils a shared taxonomy developed with Amazon, Microsoft and Google to assess the severity of jailbreak attacks, as Fable 5 is redeployed worldwide.",
+      "de": "Der Herausgeber von Claude stellt eine mit Amazon, Microsoft und Google geteilte Taxonomie zur Bewertung der Schwere von Jailbreak-Angriffen vor, während Fable 5 weltweit neu ausgerollt wird.",
+      "it": "L'editore di Claude svela una tassonomia condivisa con Amazon, Microsoft e Google per valutare la gravità degli attacchi di jailbreak, mentre Fable 5 viene ridistribuito a livello mondiale.",
+      "lmo": "L'editor de Claude el gh'ha traa foeura ona tassonomia spartida con Amazon, Microsoft e Google per valutà la gravità di atacch de jailbreak, intant che Fable 5 l'è staa redespiegaa in del mond intregh."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Fable 5 : Anthropic détaille son cadre de sécurité et son échelle de sévérité",
+        "en": "Fable 5: Anthropic details its security framework and severity scale",
+        "de": "Fable 5: Anthropic erläutert Sicherheitsrahmen und Schweregradskala",
+        "it": "Fable 5: Anthropic dettaglia il suo quadro di sicurezza e la sua scala di gravità",
+        "lmo": "Fable 5: Anthropic el detalia el sò quadre de sigurezza e la soa scala de severità"
+      },
+      "body": {
+        "fr": "Anthropic a publié le 2 juillet 2026 des détails supplémentaires sur les cyber-sécurités de Fable 5 et un cadre de notation des jailbreaks développé avec Amazon, Microsoft et Google. Le modèle a été redéployé mondialement le 1er juillet. Plus d'informations sur <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+        "en": "Anthropic published on Thursday, 2 July 2026 additional details on Fable 5's cybersecurity measures and a jailbreak rating framework developed with Amazon, Microsoft and Google. The model was redeployed worldwide on 1 July. More information at <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+        "de": "Anthropic hat am 2. Juli 2026 zusätzliche Details zu den Cybersicherheitsmassnahmen von Fable 5 und einen mit Amazon, Microsoft und Google entwickelten Bewertungsrahmen für Jailbreaks veröffentlicht. Das Modell wurde am 1. Juli weltweit neu ausgerollt. Weitere Informationen auf <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+        "it": "Anthropic ha pubblicato il 2 luglio 2026 dettagli aggiuntivi sulle cybersicurezze di Fable 5 e un quadro di valutazione dei jailbreak sviluppato con Amazon, Microsoft e Google. Il modello è stato ridistribuito a livello mondiale il 1° luglio. Maggiori informazioni su <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+        "lmo": "Anthropic l'ha publicaa el 2 de luj 2026 di detali supplementar in su la sigurezza de Fable 5 e on quadre de notazion di jailbreak sviluppaa con Amazon, Microsoft e Google. El modell l'è staa redespiegaa in del mond intregh el 1 de luj. Pussee informazion in su <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Wichtig",
+        "it": "Importante",
+        "lmo": "Magior"
+      },
+      "urls": [
+        "https://www.anthropic.com/news"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Apple montre les limites de l'auto-organisation des agents",
+        "en": "Apple shows the limits of agent self-organisation",
+        "de": "Apple zeigt Grenzen der Selbstorganisation von Agenten auf",
+        "it": "Apple mostra i limiti dell'auto-organizzazione degli agenti",
+        "lmo": "Apple la mostra i limit de l'auto-organizazion di agent"
+      },
+      "body": {
+        "fr": "Apple ML Research a publié le 2 juillet 2026 une étude sur les équipes multi-agents, montrant que les systèmes d'agents LLM qui interagissent librement plutôt que selon des workflows fixes peinent à coordonner efficacement leurs actions. L'article <a href=\"https://machinelearning.apple.com/research/multi-agent-teams-experts\">« Multi-Agent Teams Hold Experts Back »</a> remet en question l'hypothèse selon laquelle l'auto-organisation suffit à la coordination.",
+        "en": "Apple ML Research published on Thursday, 2 July 2026 a study on multi-agent teams, showing that LLM agent systems that interact freely rather than following fixed workflows struggle to coordinate their actions effectively. The paper <a href=\"https://machinelearning.apple.com/research/multi-agent-teams-experts\">'Multi-Agent Teams Hold Experts Back'</a> challenges the assumption that self-organisation is sufficient for coordination.",
+        "de": "Apple ML Research hat am 2. Juli 2026 eine Studie über Multi-Agenten-Teams veröffentlicht, die zeigt, dass LLM-Agentensysteme, die frei statt nach festen Workflows interagieren, Schwierigkeiten haben, ihre Aktionen effektiv zu koordinieren. Der Artikel <a href=\"https://machinelearning.apple.com/research/multi-agent-teams-experts\">«Multi-Agent Teams Hold Experts Back»</a> stellt die Annahme in Frage, dass Selbstorganisation für die Koordination ausreicht.",
+        "it": "Apple ML Research ha pubblicato il 2 luglio 2026 uno studio sui team multi-agente, mostrando che i sistemi di agenti LLM che interagiscono liberamente anziché secondo flussi di lavoro fissi faticano a coordinare efficacemente le proprie azioni. L'articolo <a href=\"https://machinelearning.apple.com/research/multi-agent-teams-experts\">«Multi-Agent Teams Hold Experts Back»</a> mette in discussione l'ipotesi secondo cui l'auto-organizzazione sia sufficiente per il coordinamento.",
+        "lmo": "Apple ML Research l'ha publicaa el 2 de luj 2026 on studi in sui squad multi-agent, mostrand che i sistema d'agent LLM che interagissen liberament pussee che segond di workflow fiss fadighen a coordinà in manera efficace i sò azion. L'articol <a href=\"https://machinelearning.apple.com/research/multi-agent-teams-experts\">« Multi-Agent Teams Hold Experts Back »</a> el met in question l'ipotesi che l'auto-organizazion la sia assee per la coordinazion."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://machinelearning.apple.com/research/multi-agent-teams-experts"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Microsoft injecte 2,5 milliards dans une société de déploiement IA",
+        "en": "Microsoft injects $2.5 billion into AI deployment company",
+        "de": "Microsoft investiert 2,5 Milliarden in KI-Deployment-Gesellschaft",
+        "it": "Microsoft investe 2,5 miliardi in una società di deployment IA",
+        "lmo": "Microsoft la mett 2,5 miliard in ona società de despiegament IA"
+      },
+      "body": {
+        "fr": "Microsoft a annoncé le 2 juillet 2026 le lancement de « Frontier Company », une nouvelle unité dotée de 2,5 milliards de dollars qui déploiera 6 000 ingénieurs IA directement chez les clients enterprise. L'objectif est d'intégrer l'IA dans les processus métier avec un ROI mesurable, en se positionnant comme une alternative neutre aux offres d'OpenAI et d'Anthropic. Détails sur <a href=\"https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/\">The Decoder</a>.",
+        "en": "Microsoft announced on Thursday, 2 July 2026 the launch of 'Frontier Company', a new unit backed by $2.5 billion that will deploy 6,000 AI engineers directly inside enterprise clients. The goal is to integrate AI into business processes with measurable ROI, positioning itself as a neutral alternative to OpenAI and Anthropic offerings. Details on <a href=\"https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/\">The Decoder</a>.",
+        "de": "Microsoft hat am 2. Juli 2026 den Start von «Frontier Company» angekündigt, einer neuen Einheit mit 2,5 Milliarden Dollar, die 6'000 KI-Ingenieure direkt bei Unternehmenskunden einsetzen wird. Ziel ist es, KI mit messbarem ROI in Geschäftsprozesse zu integrieren und sich als neutrale Alternative zu den Angeboten von OpenAI und Anthropic zu positionieren. Details auf <a href=\"https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/\">The Decoder</a>.",
+        "it": "Microsoft ha annunciato il 2 luglio 2026 il lancio di «Frontier Company», una nuova unità dotata di 2,5 miliardi di dollari che implementerà 6.000 ingegneri IA direttamente presso i clienti enterprise. L'obiettivo è integrare l'IA nei processi aziendali con un ROI misurabile, posizionandosi come un'alternativa neutrale alle offerte di OpenAI e Anthropic. Dettagli su <a href=\"https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/\">The Decoder</a>.",
+        "lmo": "Microsoft l'ha anunziaa el 2 de luj 2026 el lanzament de « Frontier Company », ona noeuva unità dotada de 2,5 miliard de dòllar che la despiegarà 6 000 ingegner IA direttament in di client enterprise. L'obietiv l'è de integrà l'IA in di process de lavorà cont on ROI misurabel, in del pones come alternativa neutra ai offert d'OpenAI e d'Anthropic. Detali in su <a href=\"https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/\">The Decoder</a>."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "urls": [
+        "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI propose 5 % de son capital à un fonds souverain américain",
+        "en": "OpenAI proposes 5% of its equity to a US sovereign wealth fund",
+        "de": "OpenAI bietet 5 % seines Kapitals einem US-Staatsfonds an",
+        "it": "OpenAI propone il 5% del proprio capitale a un fondo sovrano americano",
+        "lmo": "OpenAI la propon el 5% del sò capital a on fondo sovran american"
+      },
+      "body": {
+        "fr": "OpenAI a proposé de donner 5 % de son capital à un fonds souverain américain, selon des informations rapportées le 2 juillet 2026 par plusieurs médias dont TechCrunch et The Verge. Sam Altman aurait avancé que donner au public un intérêt financier dans l'entreprise serait le meilleur moyen de partager les bénéfices du boom de l'IA. L'offre viserait à apaiser les tensions avec l'administration Trump. Lire sur <a href=\"https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/\">TechCrunch</a>.",
+        "en": "OpenAI has proposed donating 5% of its equity to a US sovereign wealth fund, according to reports on Thursday, 2 July 2026 by multiple outlets including TechCrunch and The Verge. Sam Altman reportedly argued that giving the public a financial stake in the company would be the best way to share the benefits of the AI boom. The offer is said to aim at easing tensions with the Trump administration. Read on <a href=\"https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/\">TechCrunch</a>.",
+        "de": "OpenAI hat vorgeschlagen, 5 % seines Kapitals an einen US-Staatsfonds zu geben, wie am 2. Juli 2026 von mehreren Medien, darunter TechCrunch und The Verge, berichtet wurde. Sam Altman soll argumentiert haben, dass die Gewährung eines finanziellen Interesses an der Öffentlichkeit der beste Weg sei, die Vorteile des KI-Booms zu teilen. Das Angebot ziele darauf ab, die Spannungen mit der Trump-Administration zu entschärfen. Lesen Sie auf <a href=\"https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/\">TechCrunch</a>.",
+        "it": "OpenAI ha proposto di cedere il 5% del proprio capitale a un fondo sovrano americano, secondo informazioni riportate il 2 luglio 2026 da diversi media tra cui TechCrunch e The Verge. Sam Altman avrebbe sostenuto che dare al pubblico un interesse finanziario nell'azienda sarebbe il modo migliore per condividere i benefici del boom dell'IA. L'offerta mirerebbe a placare le tensioni con l'amministrazione Trump. Leggi su <a href=\"https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/\">TechCrunch</a>.",
+        "lmo": "OpenAI l'ha propost de dà el 5% del sò capital a on fondo sovran american, segond di informazion riportade el 2 de luj 2026 de diverse media compagn de TechCrunch e The Verge. Sam Altman l'avaria sostegnuu che dà al publich on interess finanziari in l'azienda el sariss el mej mezz de spartì i benefizzi del boom de l'IA. L'offerta la mirariss a calmà i tension con l'aministrazion Trump. Lesg in su <a href=\"https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/\">TechCrunch</a>."
+      },
+      "tag": {
+        "fr": "Politique",
+        "en": "Policy",
+        "de": "Politik",
+        "it": "Politica",
+        "lmo": "Politica"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Anthropic",
+            "en": "Anthropic",
+            "de": "Anthropic",
+            "it": "Anthropic",
+            "lmo": "Anthropic"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Enterprise renforce les outils de gestion des dépenses",
+                "en": "Claude Enterprise strengthens spend management tools",
+                "de": "Claude Enterprise verstärkt Ausgabenverwaltungstools",
+                "it": "Claude Enterprise potenzia gli strumenti di gestione delle spese",
+                "lmo": "Claude Enterprise el rinforza i istrument de gestion di spess"
+              },
+              "body": {
+                "fr": "Anthropic a annoncé le 2 juillet 2026 de nouvelles fonctionnalités de contrôle des dépenses pour les administrateurs de Claude Enterprise. Les équipes IT peuvent désormais définir des plafonds budgétaires par utilisateur, visualiser la consommation en temps réel via un tableau de bord consolidé, et recevoir des alertes automatisées lorsque les seuils sont approchés. Ces outils répondent à une demande croissante des grandes entreprises qui déploient Claude à grande échelle et cherchent à maîtriser les coûts d'inférence. Plus de détails sont disponibles sur le <a href=\"https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend\">blog de Claude Enterprise</a>.",
+                "en": "Anthropic announced on Thursday, 2 July 2026 new spend control features for Claude Enterprise administrators. IT teams can now set per-user budget caps, view real-time consumption via a consolidated dashboard, and receive automated alerts when thresholds are approached. These tools respond to growing demand from large enterprises deploying Claude at scale who seek to manage inference costs. More details are available on the <a href=\"https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend\">Claude Enterprise blog</a>.",
+                "de": "Anthropic hat am 2. Juli 2026 neue Kostenkontrollfunktionen für Administratoren von Claude Enterprise angekündigt. IT-Teams können nun Budgetobergrenzen pro Benutzer festlegen, den Echtzeitverbrauch über ein konsolidiertes Dashboard einsehen und automatisierte Warnungen erhalten, wenn Schwellenwerte erreicht werden. Diese Werkzeuge reagieren auf die wachsende Nachfrage grosser Unternehmen, die Claude in grossem Massstab einsetzen und die Inferenzkosten kontrollieren möchten. Weitere Details sind auf dem <a href=\"https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend\">Blog von Claude Enterprise</a> verfügbar.",
+                "it": "Anthropic ha annunciato il 2 luglio 2026 nuove funzionalità di controllo delle spese per gli amministratori di Claude Enterprise. I team IT possono ora definire limiti di budget per utente, visualizzare i consumi in tempo reale tramite una dashboard consolidata e ricevere avvisi automatici quando le soglie vengono raggiunte. Questi strumenti rispondono a una crescente domanda delle grandi aziende che implementano Claude su larga scala e cercano di tenere sotto controllo i costi di inferenza. Maggiori dettagli sono disponibili sul <a href=\"https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend\">blog di Claude Enterprise</a>.",
+                "lmo": "Anthropic l'ha anunziaa el 2 de luj 2026 di noeuv fonzionalità de controll di spess per i ministrador de Claude Enterprise. I squad IT poden adess definì di limit de bilanz per utent, visualizzà la consumazion in temp real a travers on tabell de bord consolidaa, e ricev di alert automatisaa quand che i soglia hinn vesin. Questi istrument responden a ona domanda semper pussee granda di grand aziend che despieghen Claude in su larga scala e cerchen de tegnì sotta i cost d'inferenza. Pussee detali hinn disponibil in sul <a href=\"https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend\">blog de Claude Enterprise</a>."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Industrie",
+            "en": "Industry",
+            "de": "Industrie",
+            "it": "Industria",
+            "lmo": "Industria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Anthropic explore la fabrication d'une puce IA avec Samsung",
+                "en": "Anthropic explores building an AI chip with Samsung",
+                "de": "Anthropic erkundet Fertigung eines KI-Chips mit Samsung",
+                "it": "Anthropic esplora la produzione di un chip IA con Samsung",
+                "lmo": "Anthropic l'esplora la fabricazion d'ona puce IA con Samsung"
+              },
+              "body": {
+                "fr": "Selon des informations rapportées par TechCrunch le 2 juillet 2026, Anthropic est en pourparlers avec Samsung Electronics pour la fabrication d'une puce IA sur mesure. Le projet, encore à un stade précoce, aurait déjà conduit l'entreprise à recruter des ingénieurs spécialisés en conception de circuits. Cette initiative fait suite à l'annonce par OpenAI de sa propre puce « Jalapeño » développée en partenariat avec Broadcom, et illustre la tendance des grands laboratoires d'IA à internaliser la conception de <a href=\"https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/\">silicon</a> pour réduire leur dépendance aux fournisseurs traditionnels.",
+                "en": "According to reports by TechCrunch on Thursday, 2 July 2026, Anthropic is in talks with Samsung Electronics to manufacture a custom AI chip. The project, still at an early stage, has already led the company to recruit engineers specialised in circuit design. This initiative follows OpenAI's announcement of its own 'Jalapeño' chip developed in partnership with Broadcom, and illustrates the trend among major AI labs to internalise <a href=\"https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/\">silicon</a> design to reduce dependence on traditional suppliers.",
+                "de": "Laut Informationen von TechCrunch vom 2. Juli 2026 führt Anthropic Gespräche mit Samsung Electronics über die Herstellung eines massgeschneiderten KI-Chips. Das Projekt, das sich noch in einem frühen Stadium befindet, habe das Unternehmen bereits dazu veranlasst, spezialisierte Schaltungsdesign-Ingenieure einzustellen. Diese Initiative folgt auf die Ankündigung von OpenAIs eigenem Chip «Jalapeño», der in Partnerschaft mit Broadcom entwickelt wird, und verdeutlicht den Trend grosser KI-Labore, das Design von <a href=\"https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/\">Silizium</a> zu internalisieren, um ihre Abhängigkeit von traditionellen Anbietern zu verringern.",
+                "it": "Secondo informazioni riportate da TechCrunch il 2 luglio 2026, Anthropic è in trattative con Samsung Electronics per la produzione di un chip IA su misura. Il progetto, ancora in fase preliminare, avrebbe già portato l'azienda a reclutare ingegneri specializzati nella progettazione di circuiti. Questa iniziativa fa seguito all'annuncio da parte di OpenAI del proprio chip «Jalapeño» sviluppato in partnership con Broadcom, e illustra la tendenza dei grandi laboratori di IA a internalizzare la progettazione di <a href=\"https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/\">silicio</a> per ridurre la dipendenza dai fornitori tradizionali.",
+                "lmo": "Segond informazion riportaa de TechCrunch el 2 de luj 2026, Anthropic l'è in trattativ con Samsung Electronics per la fabricazion d'ona puce IA su misura. El proget, anmò a on stadi inizial, l'ha giamò menaa l'azienda a recrutà di ingegner specializzaa in progetazion de circuit. Questa iniziativa la ven dopo l'anunzi de OpenAI de la soa puce « Jalapeño » sviluppada in partenariad con Broadcom, e l'illustra la tendenza di grand laboratori d'IA a internalizzà la progetazion de <a href=\"https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/\">silicon</a> per ridù la soa dipendenza di fornitor tradizionai."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Technical Notebook",
+        "de": "Das Technikheft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnet Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "CLI et Harnesses",
+            "en": "CLI and Harnesses",
+            "de": "CLI und Harnesses",
+            "it": "CLI e Harnesses",
+            "lmo": "CLI e Harnesses"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code : Anthropic réduit son prompt système de 80 %",
+                "en": "Claude Code: Anthropic cuts system prompt by 80%",
+                "de": "Claude Code: Anthropic reduziert System-Prompt um 80 %",
+                "it": "Claude Code: Anthropic riduce il suo prompt di sistema dell'80%",
+                "lmo": "Claude Code: Anthropic la ridus del 80% el sò prompt sistema"
+              },
+              "body": {
+                "fr": "Anthropic a réduit de 80 % le prompt système de Claude Code, passant d'environ 1 500 à 300 tokens, selon une déclaration du staff Tariq Shihipar rapportée le 2 juillet 2026 par The Decoder. La raison invoquée est que les modèles Fable 5 « veulent un prompt système plus petit » et que des instructions trop détaillées peuvent brider leurs capacités. Anthropic indique désormais guider le comportement de l'agent par le contexte plutôt que par des règles strictes, les nouveaux modèles étant « plus imaginatifs » que ce que les anciens prompts leur demandaient d'être. Les détails sont disponibles sur <a href=\"https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/\">The Decoder</a>.",
+                "en": "Anthropic has reduced Claude Code's system prompt by 80%, from approximately 1,500 to 300 tokens, according to a statement by staff member Tariq Shihipar reported on Thursday, 2 July 2026 by The Decoder. The reason given is that Fable 5 models 'want a smaller system prompt' and that overly detailed instructions can constrain their capabilities. Anthropic now says it guides agent behaviour through context rather than strict rules, as the new models are 'more imaginative' than what the old prompts asked them to be. Details are available on <a href=\"https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/\">The Decoder</a>.",
+                "de": "Anthropic hat das System-Prompt von Claude Code um 80 % reduziert, von etwa 1'500 auf 300 Tokens, wie aus einer Aussage des Mitarbeiters Tariq Shihipar hervorgeht, die am 2. Juli 2026 von The Decoder berichtet wurde. Der Grund dafür ist, dass die Fable-5-Modelle «einen kleineren System-Prompt wollen» und zu detaillierte Anweisungen ihre Fähigkeiten einschränken können. Anthropic gibt an, das Verhalten des Agenten nun eher durch den Kontext als durch strenge Regeln zu steuern, da die neuen Modelle «einfallsreicher» seien, als die alten Prompts sie zu sein baten. Details sind auf <a href=\"https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/\">The Decoder</a> verfügbar.",
+                "it": "Anthropic ha ridotto dell'80% il prompt di sistema di Claude Code, passando da circa 1.500 a 300 token, secondo una dichiarazione del membro dello staff Tariq Shihipar riportata il 2 luglio 2026 da The Decoder. La ragione addotta è che i modelli Fable 5 «vogliono un prompt di sistema più piccolo» e che istruzioni troppo dettagliate possono limitare le loro capacità. Anthropic indica ora di guidare il comportamento dell'agente attraverso il contesto piuttosto che con regole rigide, poiché i nuovi modelli sono «più immaginativi» di quanto i vecchi prompt chiedessero loro di essere. I dettagli sono disponibili su <a href=\"https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/\">The Decoder</a>.",
+                "lmo": "Anthropic l'ha ridot del 80% el prompt sistema de Claude Code, passand de circa 1 500 a 300 token, segond ona declarazion del staff Tariq Shihipar riportada el 2 de luj 2026 de The Decoder. La reson invocada l'è che i modell Fable 5 « vœun on prompt sistema pussee piscin » e che di istruzion tròpp detalliaa poden brìdà i so capacità. Anthropic l'indica adess de guidà el comportament de l'agent per el contest pussee che per di regol strecc, i modell noeuv essend « pussee imaginativ » de quell che i vegg prompt ghe domandaven de vess. I detali hinn disponibil in su <a href=\"https://the-decoder.com/anthropic-says-it-cut-80-percent-of-claude-codes-system-prompt-because-fable-5-models-want-a-smaller-system-prompt/\">The Decoder</a>."
+              },
+              "kicker": {
+                "fr": "CLI",
+                "en": "CLI",
+                "de": "CLI",
+                "it": "CLI",
+                "lmo": "CLI"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "1-col"
+        },
+        {
+          "title": {
+            "fr": "Engines d'inférence",
+            "en": "Inference Engines",
+            "de": "Inferenz-Engines",
+            "it": "Motori di inferenza",
+            "lmo": "Engine d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9860 expose les noms de quantification en API publique",
+                "en": "llama.cpp b9860 exposes quantisation names in public API",
+                "de": "llama.cpp b9860 macht Quantisierungsnamen in öffentlicher API verfügbar",
+                "it": "llama.cpp b9860 espone i nomi di quantizzazione in API pubblica",
+                "lmo": "llama.cpp b9860 el esposa i nom de quantificazion in API publica"
+              },
+              "body": {
+                "fr": "La version b9860 de llama.cpp, publiée le 2 juillet 2026, introduit une nouvelle API publique `llama_ftype_name()` qui expose le nom du type de fichier de quantification du modèle (par exemple « Q8_0 » ou « Q4_K - Medium »). Le pointeur retourné reste valide pendant toute la durée de vie du modèle. Cette fonction est désormais sans allocation mémoire et thread-safe. La release est disponible sur le <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9860\">dépôt GitHub de llama.cpp</a>.",
+                "en": "Version b9860 of llama.cpp, released on Thursday, 2 July 2026, introduces a new public API `llama_ftype_name()` that exposes the model's quantisation file type name (e.g. 'Q8_0' or 'Q4_K - Medium'). The returned pointer remains valid for the entire lifetime of the model. This function is now allocation-free and thread-safe. The release is available on the <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9860\">llama.cpp GitHub repository</a>.",
+                "de": "Die Version b9860 von llama.cpp, veröffentlicht am 2. Juli 2026, führt eine neue öffentliche API `llama_ftype_name()` ein, die den Namen des Quantisierungsdateityps des Modells (z. B. «Q8_0» oder «Q4_K - Medium») bereitstellt. Der zurückgegebene Zeiger bleibt während der gesamten Lebensdauer des Modells gültig. Diese Funktion ist nun speicherallokationsfrei und threadsicher. Das Release ist auf dem <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9860\">GitHub-Repository von llama.cpp</a> verfügbar.",
+                "it": "La versione b9860 di llama.cpp, pubblicata il 2 luglio 2026, introduce una nuova API pubblica `llama_ftype_name()` che espone il nome del tipo di file di quantizzazione del modello (ad esempio «Q8_0» o «Q4_K - Medium»). Il puntatore restituito rimane valido per tutta la durata del modello. Questa funzione è ora senza allocazione di memoria e thread-safe. La release è disponibile sul <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9860\">repository GitHub di llama.cpp</a>.",
+                "lmo": "La version b9860 de llama.cpp, publicada el 2 de luj 2026, la introdux ona noeuva API publica `llama_ftype_name()` che la esposa el nom del tipo de file de quantificazion del modell (per esempi « Q8_0 » o « Q4_K - Medium »). El pointer returnaa el resta valid per tutta la durata de vita del modell. Questa fonzion l'è adess senza allocazion de memoria e thread-safe. La release l'è disponibila in sul <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9860\">deposit GitHub de llama.cpp</a>."
+              },
+              "kicker": {
+                "fr": "Engine",
+                "en": "Engine",
+                "de": "Engine",
+                "it": "Engine",
+                "lmo": "Engine"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.9.11 ajoute le support du drafter Gemma 4",
+                "en": "Rapid-MLX 0.9.11 adds Gemma 4 drafter support",
+                "de": "Rapid-MLX 0.9.11 fügt Unterstützung für Gemma-4-Drafter hinzu",
+                "it": "Rapid-MLX 0.9.11 aggiunge il supporto del drafter Gemma 4",
+                "lmo": "Rapid-MLX 0.9.11 el gionta el support del drafter Gemma 4"
+              },
+              "body": {
+                "fr": "Rapid-MLX v0.9.11, publiée le 3 juillet 2026, intègre le drafter d'assistance Gemma 4 directement depuis la version officielle de Google. Cette fonctionnalité de Multi-Token Prediction (MTP) permet d'accélérer l'inférence sur Apple Silicon en utilisant un petit modèle auxiliaire qui prédit plusieurs tokens à la fois. La mise à jour est disponible via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` ou `pip install -U rapid-mlx==0.9.11`. Plus d'informations sur le <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11\">dépôt Rapid-MLX</a>.",
+                "en": "Rapid-MLX v0.9.11, released on Friday, 3 July 2026, integrates the Gemma 4 assistant drafter directly from Google's official release. This Multi-Token Prediction (MTP) feature accelerates inference on Apple Silicon by using a small auxiliary model that predicts multiple tokens at once. The update is available via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` or `pip install -U rapid-mlx==0.9.11`. More information on the <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11\">Rapid-MLX repository</a>.",
+                "de": "Rapid-MLX v0.9.11, veröffentlicht am 3. Juli 2026, integriert den Assistenz-Drafter Gemma 4 direkt aus der offiziellen Version von Google. Diese Multi-Token-Prediction-Funktion (MTP) beschleunigt die Inferenz auf Apple Silicon, indem ein kleines Hilfsmodell verwendet wird, das mehrere Tokens gleichzeitig vorhersagt. Das Update ist über `brew upgrade raullenchai/rapid-mlx/rapid-mlx` oder `pip install -U rapid-mlx==0.9.11` verfügbar. Weitere Informationen auf dem <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11\">Rapid-MLX-Repository</a>.",
+                "it": "Rapid-MLX v0.9.11, pubblicata il 3 luglio 2026, integra il drafter di assistenza Gemma 4 direttamente dalla versione ufficiale di Google. Questa funzionalità di Multi-Token Prediction (MTP) consente di accelerare l'inferenza su Apple Silicon utilizzando un piccolo modello ausiliario che predice più token contemporaneamente. L'aggiornamento è disponibile tramite `brew upgrade raullenchai/rapid-mlx/rapid-mlx` o `pip install -U rapid-mlx==0.9.11`. Maggiori informazioni sul <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11\">repository Rapid-MLX</a>.",
+                "lmo": "Rapid-MLX v0.9.11, publicada el 3 de luj 2026, l'integra el drafter d'assistenza Gemma 4 direttament de la version offizial de Google. Questa fonzionalità de Multi-Token Prediction (MTP) la permet de accelerà l'inferenza in su Apple Silicon doperand on piscin modell ausiliari che 'l prediss pussee token a la voeulta. L'aggiornament l'è disponibil via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` o `pip install -U rapid-mlx==0.9.11`. Pussee informazion in sul <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11\">deposit Rapid-MLX</a>."
+              },
+              "kicker": {
+                "fr": "Engine",
+                "en": "Engine",
+                "de": "Engine",
+                "it": "Engine",
+                "lmo": "Engine"
+              },
+              "wire": {
+                "fr": "From the Wires — 3 juillet 2026",
+                "en": "From the Wires — 3 July 2026",
+                "de": "From the Wires — 3. Juli 2026",
+                "it": "From the Wires — 3 luglio 2026",
+                "lmo": "From the Wires — 3 de luj 2026"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Architectures et modèles",
+            "en": "Architectures and Models",
+            "de": "Architekturen und Modelle",
+            "it": "Architetture e modelli",
+            "lmo": "Architettur e modell"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ByteDance Seed dévoile Seed2.0, un modèle pour la complexité du monde réel",
+                "en": "ByteDance Seed unveils Seed2.0, a model for real-world complexity",
+                "de": "ByteDance Seed enthüllt Seed2.0, ein Modell für die Komplexität der realen Welt",
+                "it": "ByteDance Seed svela Seed2.0, un modello per la complessità del mondo reale",
+                "lmo": "ByteDance Seed el gh'ha traa foeura Seed2.0, on modell per la complessità del mond real"
+              },
+              "body": {
+                "fr": "ByteDance Seed a publié le 2 juillet 2026 la carte modèle de Seed2.0, une série de modèles conçus pour résoudre des tâches complexes du monde réel. Seed2.0 cible deux défis persistants : la connaissance de longue traîne et le suivi complexe d'instructions. Le modèle card documente des améliorations substantielles en raisonnement, compréhension visuelle et capacités de recherche. Seed2.0 commence à montrer une capacité à gérer des tâches réelles complexes, selon l'équipe ByteDance. Le document complet est disponible sur <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "en": "ByteDance Seed published on Thursday, 2 July 2026 the model card for Seed2.0, a series of models designed to solve complex real-world tasks. Seed2.0 targets two persistent challenges: long-tail knowledge and complex instruction following. The model card documents substantial improvements in reasoning, visual understanding and search capabilities. Seed2.0 is beginning to show an ability to handle complex real-world tasks, according to the ByteDance team. The full document is available on <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "de": "ByteDance Seed hat am 2. Juli 2026 die Modellkarte von Seed2.0 veröffentlicht, einer Modellserie zur Lösung komplexer realer Aufgaben. Seed2.0 zielt auf zwei anhaltende Herausforderungen ab: Long-Tail-Wissen und komplexe Instruktionsverfolgung. Die Modellkarte dokumentiert substanzielle Verbesserungen bei Reasoning, visuellem Verständnis und Suchfähigkeiten. Seed2.0 beginne, die Fähigkeit zur Bewältigung komplexer realer Aufgaben zu zeigen, so das ByteDance-Team. Das vollständige Dokument ist auf <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a> verfügbar.",
+                "it": "ByteDance Seed ha pubblicato il 2 luglio 2026 la scheda modello di Seed2.0, una serie di modelli progettati per risolvere compiti complessi del mondo reale. Seed2.0 affronta due sfide persistenti: la conoscenza di coda lunga e il follow-up complesso di istruzioni. La scheda modello documenta miglioramenti sostanziali nel ragionamento, nella comprensione visiva e nelle capacità di ricerca. Seed2.0 inizia a mostrare una capacità di gestire compiti reali complessi, secondo il team ByteDance. Il documento completo è disponibile su <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "lmo": "ByteDance Seed l'ha publicaa el 2 de luj 2026 la carta modell de Seed2.0, ona serie de modell progetaa per risolv di compit compless del mond real. Seed2.0 el toeu du sfid persistent: la conoscenza de longa cova e 'l seguiment compless di istruzion. La model card la documenta di migliorament sostanziai in resonament, comprension visual e capacità de ricerca. Seed2.0 el scomincia a mostrà ona capacità de gestì di compit reai compless, segond la squad ByteDance. El document intregh l'è disponibil in su <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Modèles frontière",
+                "en": "Frontier Models",
+                "de": "Grenzmodelle",
+                "it": "Modelli di frontiera",
+                "lmo": "Modell frontiera"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Séparer prédiction et état dans les Transformers améliore l'efficacité",
+                "en": "Separating prediction and state in Transformers improves efficiency",
+                "de": "Trennung von Vorhersage und Zustand in Transformatoren verbessert Effizienz",
+                "it": "Separare predizione e stato nei Transformer migliora l'efficienza",
+                "lmo": "Separà predizion e stat in di Transformers el mejora l'efficienza"
+              },
+              "body": {
+                "fr": "Des chercheurs de Cornell proposent l'hypothèse de séparation état-prédiction dans un article publié le 2 juillet 2026 : les Transformers utilisent le même flux de calcul pour prédire le token suivant et stocker l'état utile pour les prédictions futures. En concevant une variante qui utilise deux flux de calcul séparés, les auteurs obtiennent une meilleure efficacité en données et en calcul, avec une amélioration de 2 à 3 points de pourcentage en moyenne sur les tâches aval. L'étude complète est accessible sur <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "en": "Researchers at Cornell propose the state-prediction separation hypothesis in a paper published on Thursday, 2 July 2026: Transformers use the same computational stream to predict the next token and store state useful for future predictions. By designing a variant that uses two separate computational streams, the authors achieve better data and compute efficiency, with an average improvement of 2 to 3 percentage points on downstream tasks. The full study is accessible on <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "de": "Forscher von Cornell schlagen in einem am 2. Juli 2026 veröffentlichten Artikel die State-Prediction-Separation-Hypothese vor: Transformer nutzen denselben Berechnungsfluss, um das nächste Token vorherzusagen und den für zukünftige Vorhersagen nützlichen Zustand zu speichern. Durch das Entwerfen einer Variante mit zwei getrennten Berechnungsflüssen erzielen die Autoren eine bessere Daten- und Recheneffizienz mit einer durchschnittlichen Verbesserung von 2 bis 3 Prozentpunkten bei nachgelagerten Aufgaben. Die vollständige Studie ist auf <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a> zugänglich.",
+                "it": "Ricercatori della Cornell propongono l'ipotesi di separazione stato-predizione in un articolo pubblicato il 2 luglio 2026: i Transformer utilizzano lo stesso flusso di calcolo per predire il token successivo e memorizzare lo stato utile per le predizioni future. Progettando una variante che utilizza due flussi di calcolo separati, gli autori ottengono una migliore efficienza in dati e calcolo, con un miglioramento dal 2 al 3 percentuale in media sui compiti downstream. Lo studio completo è accessibile su <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "lmo": "Di ricercator de Cornell proponen l'ipotesi de separazion stat-predizion in d'on articol publicaa el 2 de luj 2026: i Transformers doperen l'istess fluss de calcol per predì el token successiv e per memorizzà el stat util per i predizion futur. In del progettà ona variant che la dopera du fluss de calcol separaa, i autor ottennen ona mej efficienza in dacc e in calcol, cont on migliorament de 2 a 3 pont percentual in media in sui compit aval. L'istudi intregh l'è accessibil in su <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architettura"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Inférence et optimisation",
+            "en": "Inference and Optimisation",
+            "de": "Inferenz und Optimierung",
+            "it": "Inferenza e ottimizzazione",
+            "lmo": "Inferenza e ottimizzazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ELDR optimise le routage des experts pour l'inférence MoE désagrégée",
+                "en": "ELDR optimises expert routing for disaggregated MoE inference",
+                "de": "ELDR optimiert Experten-Routing für disaggregierte MoE-Inferenz",
+                "it": "ELDR ottimizza il routing degli esperti per l'inferenza MoE disaggregata",
+                "lmo": "ELDR l'ottimizza el routing di expert per l'inferenza MoE disaggregada"
+              },
+              "body": {
+                "fr": "Un article publié le 2 juillet 2026 par des chercheurs de Microsoft Research et plusieurs universités présente ELDR, un routeur de décodage pour l'inférence de modèles Mixture-of-Experts (MoE) en architecture préfill-decode (PD) désagrégée. ELDR construit une signature d'experts à partir des activations du préfill pour prédire quels experts seront activés pendant la génération. Implémenté dans vLLM et évalué sur des déploiements allant jusqu'à 40 GPU, ELDR réduit le temps par token (TPOT) médian de 5,9 à 13,9 % par rapport aux meilleurs algorithmes d'équilibrage de charge. Les détails sont sur <a href=\"https://arxiv.org/abs/2607.00466\">arXiv</a>.",
+                "en": "A paper published on Thursday, 2 July 2026 by researchers from Microsoft Research and several universities presents ELDR, a decoding router for Mixture-of-Experts (MoE) inference in disaggregated prefill-decode (PD) architecture. ELDR builds an expert signature from prefill activations to predict which experts will be activated during generation. Implemented in vLLM and evaluated on deployments of up to 40 GPUs, ELDR reduces median time-per-output-token (TPOT) by 5.9% to 13.9% compared to the best load-balancing algorithms. Details are on <a href=\"https://arxiv.org/abs/2607.00466\">arXiv</a>.",
+                "de": "Ein am 2. Juli 2026 von Forschern von Microsoft Research und mehreren Universitäten veröffentlichter Artikel stellt ELDR vor, einen Decoding-Router für die Inferenz von Mixture-of-Experts-Modellen (MoE) in einer disaggregierten Prefill-Decode-Architektur (PD). ELDR erstellt eine Expertensignatur aus den Prefill-Aktivierungen, um vorherzusagen, welche Experten während der Generierung aktiviert werden. Implementiert in vLLM und evaluiert auf Deployments mit bis zu 40 GPUs, reduziert ELDR die mediane Time-per-Token (TPOT) um 5,9 bis 13,9 % im Vergleich zu den besten Lastausgleichsalgorithmen. Details sind auf <a href=\"https://arxiv.org/abs/2607.00466\">arXiv</a>.",
+                "it": "Un articolo pubblicato il 2 luglio 2026 da ricercatori di Microsoft Research e diverse università presenta ELDR, un router di decodifica per l'inferenza di modelli Mixture-of-Experts (MoE) in architettura prefill-decode (PD) disaggregata. ELDR costruisce una firma degli esperti a partire dalle attivazioni del prefill per predire quali esperti verranno attivati durante la generazione. Implementato in vLLM e valutato su deployment fino a 40 GPU, ELDR riduce il tempo per token (TPOT) mediano dal 5,9 al 13,9% rispetto ai migliori algoritmi di bilanciamento del carico. I dettagli sono su <a href=\"https://arxiv.org/abs/2607.00466\">arXiv</a>.",
+                "lmo": "On articol publicaa el 2 de luj 2026 di ricercator de Microsoft Research e diverse università el presenta ELDR, on router de decodifega per l'inferenza de modell Mixture-of-Experts (MoE) in architettura prefill-decode (PD) disaggregada. ELDR el costruiss ona signadura d'expert a partì di attivazion del prefill per predì quai expert saran attivaa durant la generazion. Implementaa in vLLM e valutaa in su despiegament fina a 40 GPU, ELDR el ridus el temp per token (TPOT) median del 5,9 al 13,9% rispett ai mej algoritm de equilibri de caregh. I detali hinn in su <a href=\"https://arxiv.org/abs/2607.00466\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Program-as-Weights : compiler des fonctions floues en artefacts neuronaux compacts",
+                "en": "Program-as-Weights: compiling fuzzy functions into compact neural artefacts",
+                "de": "Program-as-Weights: Kompilieren unscharfer Funktionen zu kompakten neuronalen Artefakten",
+                "it": "Program-as-Weights: compilare funzioni fuzzy in artefatti neurali compatti",
+                "lmo": "Program-as-Weights: compilà di fonzion fioeu in artefatt neuronal compatt"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de Waterloo présentent Program-as-Weights (PAW), un paradigme de programmation pour fonctions floues. Un compilateur de 4B de paramètres, entraîné sur le dataset FuzzyBench (10 millions d'exemples), émet des adaptateurs paramétriques pour un interpréteur léger et figé de 0,6B. Un interpréteur Qwen3 de 0,6B exécutant des programmes PAW égalise les performances d'un Qwen3-32B en prompting direct, tout en utilisant environ un cinquantième de la mémoire d'inférence et en tournant à 30 tokens/s sur un MacBook M3. L'article est disponible sur <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "en": "Researchers at the University of Waterloo present Program-as-Weights (PAW), a programming paradigm for fuzzy functions. A 4B-parameter compiler, trained on the FuzzyBench dataset (10 million examples), emits parametric adapters for a lightweight, frozen 0.6B interpreter. A Qwen3 0.6B interpreter running PAW programs matches the performance of a Qwen3-32B on direct prompting, while using roughly one-fiftieth of the inference memory and running at 30 tokens/s on an M3 MacBook. The paper is available on <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "de": "Forscher der University of Waterloo stellen Program-as-Weights (PAW) vor, ein Programmierparadigma für unscharfe Funktionen. Ein Compiler mit 4B Parametern, trainiert auf dem FuzzyBench-Datensatz (10 Millionen Beispiele), gibt parametrische Adapter für einen leichten, fixierten Interpreter mit 0,6B aus. Ein Qwen3-Interpreter mit 0,6B, der PAW-Programme ausführt, erreicht die Leistung eines Qwen3-32B mit direktem Prompting, benötigt dabei etwa ein Fünfzigstel des Inferenzspeichers und läuft mit 30 Tokens/s auf einem MacBook M3. Der Artikel ist auf <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a> verfügbar.",
+                "it": "Ricercatori dell'Università di Waterloo presentano Program-as-Weights (PAW), un paradigma di programmazione per funzioni fuzzy. Un compilatore da 4B di parametri, addestrato sul dataset FuzzyBench (10 milioni di esempi), emette adattatori parametrici per un interprete leggero e fisso da 0,6B. Un interprete Qwen3 da 0,6B che esegue programmi PAW eguaglia le prestazioni di un Qwen3-32B in prompting diretto, utilizzando circa un cinquantesimo della memoria di inferenza e funzionando a 30 token/s su un MacBook M3. L'articolo è disponibile su <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "lmo": "Di ricercator de l'Università de Waterloo presenten Program-as-Weights (PAW), on paradigma de programmazion per fonzion fioeu. On compilator de 4B de parametri, trainingaa in sul dataset FuzzyBench (10 milion d'esempi), el met foeura di adattator parametric per on interpretator legger e fissa de 0,6B. On interpretator Qwen3 de 0,6B che 'l eseguiss programa PAW el pareggia i performance d'on Qwen3-32B in prompting diret, intant che 'l dopera circa on cinquantesim de la memoria d'inferenza e 'l gira a 30 token/s in su on MacBook M3. L'articol l'è disponibil in su <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Nouveau paradigme",
+                "en": "New Paradigm",
+                "de": "Neues Paradigma",
+                "it": "Nuovo paradigma",
+                "lmo": "Noeuv paradigma"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Zuckerberg admet en interne que les agents IA déçoivent",
+                "en": "Zuckerberg admits internally that AI agents are disappointing",
+                "de": "Zuckerberg räumt intern ein, dass KI-Agenten enttäuschen",
+                "it": "Zuckerberg ammette internamente che gli agenti IA deludono",
+                "lmo": "Zuckerberg l'ammett in interna che i agent IA despiasen"
+              },
+              "body": {
+                "fr": "Mark Zuckerberg a déclaré lors d'une réunion interne le 2 juillet 2026 que les agents IA n'avaient pas progressé aussi rapidement qu'il l'espérait, selon TechCrunch. Le CEO de Meta aurait indiqué que les efforts de développement en IA ne progressent pas au rythme anticipé, sans fournir de détails supplémentaires sur les domaines spécifiques de déception. Cette déclaration intervient alors que Meta a lancé Pocket, une application de jeux générés par IA, et que l'entreprise continue d'investir massivement dans l'open source avec <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/\">Gemma 4</a>.",
+                "en": "Mark Zuckerberg said during an internal meeting on Thursday, 2 July 2026 that AI agents had not progressed as quickly as he had hoped, according to TechCrunch. The Meta CEO reportedly indicated that AI development efforts are not progressing at the anticipated pace, without providing further details on specific areas of disappointment. The statement comes as Meta launched Pocket, an AI-generated games app, and the company continues to invest heavily in open source with <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/\">Gemma 4</a>.",
+                "de": "Mark Zuckerberg hat laut TechCrunch am 2. Juli 2026 in einer internen Besprechung erklärt, dass KI-Agenten nicht so schnell vorangeschritten seien, wie er gehofft habe. Der Meta-CEO habe angedeutet, dass die KI-Entwicklungsbemühungen nicht im erwarteten Tempo vorankämen, ohne weitere Details zu den spezifischen Bereichen der Enttäuschung zu nennen. Diese Aussage erfolgt, während Meta Pocket gestartet hat, eine App für KI-generierte Spiele, und das Unternehmen weiterhin massiv in Open Source investiert, unter anderem mit <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/\">Gemma 4</a>.",
+                "it": "Mark Zuckerberg ha dichiarato durante una riunione interna il 2 luglio 2026 che gli agenti IA non hanno progredito così rapidamente come sperava, secondo TechCrunch. Il CEO di Meta avrebbe indicato che gli sforzi di sviluppo in IA non progrediscono al ritmo previsto, senza fornire ulteriori dettagli sui settori specifici di delusione. Questa dichiarazione arriva mentre Meta ha lanciato Pocket, un'applicazione di giochi generati dall'IA, e l'azienda continua a investire massicciamente nell'open source con <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/\">Gemma 4</a>.",
+                "lmo": "Mark Zuckerberg l'ha dii durant ona reunión interna el 2 de luj 2026 che i agent IA hinn minga progressaa tant 'me 'l sperava, segond TechCrunch. El CEO de Meta l'avaria indicaa che i sforz de desvilupp in IA progressen minga al ritm anticipaa, senza fornì di detali supplementar in sui domini specifegh de delusion. Questa declarazion la riva intant che Meta l'ha lanzaa Pocket, ona applicazion de sgioeugh generaa de IA, e che l'azienda la continua a investì massivament in l'open source con <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/\">Gemma 4</a>."
+              },
+              "kicker": {
+                "fr": "Meta",
+                "en": "Meta",
+                "de": "Meta",
+                "it": "Meta",
+                "lmo": "Meta"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Un chercheur Nvidia compare les modèles fermés à AOL et enterre l'AGI",
+                "en": "Nvidia researcher compares closed models to AOL and dismisses AGI",
+                "de": "Nvidia-Forscher vergleicht geschlossene Modelle mit AOL und beerdigt AGI",
+                "it": "Un ricercatore Nvidia paragona i modelli chiusi ad AOL e seppellisce l'AGI",
+                "lmo": "On ricercator Nvidia 'l paragona i modell saràa a AOL e 'l sottera l'AGI"
+              },
+              "body": {
+                "fr": "Un chercheur de Nvidia, considéré comme l'un des « pères de l'IA », a déclaré ne pas croire en l'AGI et a comparé les modèles fermés d'OpenAI et d'Anthropic à AOL et Prodigy, les services internet fermés des années 1990. Selon lui, l'avenir est à chaque entreprise disposant d'un modèle open source personnalisé. Cette prise de position, rapportée sur r/LocalLLaMA le 2 juillet 2026, intervient alors que Palantir a signé un accord pour acheter des puces Nvidia et exécuter des modèles locaux pour ses clients enterprise, son CEO fustigeant les <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/\">modèles fermés</a>.",
+                "en": "A Nvidia researcher, considered one of the 'fathers of AI', said he does not believe in AGI and compared the closed models of OpenAI and Anthropic to AOL and Prodigy, the walled-garden internet services of the 1990s. In his view, the future lies with every company having a custom open-source model. This position, reported on r/LocalLLaMA on Thursday, 2 July 2026, comes as Palantir signed an agreement to buy Nvidia chips and run local models for its enterprise clients, with its CEO denouncing <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/\">closed models</a>.",
+                "de": "Ein Nvidia-Forscher, der als einer der «Väter der KI» gilt, hat erklärt, nicht an AGI zu glauben, und verglich die geschlossenen Modelle von OpenAI und Anthropic mit AOL und Prodigy, den geschlossenen Internetdiensten der 1990er Jahre. Seiner Ansicht nach gehört die Zukunft jedem Unternehmen, das über ein massgeschneidertes Open-Source-Modell verfügt. Diese auf r/LocalLLaMA am 2. Juli 2026 berichtete Positionierung erfolgt, während Palantir einen Vertrag zum Kauf von Nvidia-Chips und zur Ausführung lokaler Modelle für seine Unternehmenskunden unterzeichnet hat, wobei sein CEO die <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/\">geschlossenen Modelle</a> geisselt.",
+                "it": "Un ricercatore di Nvidia, considerato uno dei «padri dell'IA», ha dichiarato di non credere nell'AGI e ha paragonato i modelli chiusi di OpenAI e Anthropic ad AOL e Prodigy, i servizi internet chiusi degli anni '90. Secondo lui, il futuro è di ogni azienda che dispone di un modello open source personalizzato. Questa presa di posizione, riportata su r/LocalLLaMA il 2 luglio 2026, arriva mentre Palantir ha firmato un accordo per acquistare chip Nvidia ed eseguire modelli locali per i propri clienti enterprise, con il suo CEO che critica i <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/\">modelli chiusi</a>.",
+                "lmo": "On ricercator de Nvidia, consideraa vun di « pader de l'IA », l'ha dii de cred no in l'AGI e l'ha paragonaa i modell saràa de OpenAI e Anthropic a AOL e Prodigy, i servizzi internet saràa di agn 1990. Segond lu, el futur l'è a ogni azienda che la gh'ha on modell open source personalizzaa. Questa presa de posizion, riportada in su r/LocalLLaMA el 2 de luj 2026, la riva intant che Palantir l'ha firmaa on accord per comprà di puce Nvidia e eseguì di modell locai per i sò client enterprise, el sò CEO fustigand i <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ult0f4/its_officially_over_one_of_the_fathers_of_ai_at/\">modell saràa</a>."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Dibat"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Les agents IA accomplissent désormais 16 % des missions freelances",
+                "en": "AI agents now complete 16% of freelance tasks",
+                "de": "KI-Agenten erledigen nun 16 % der Freelance-Aufträge",
+                "it": "Gli agenti IA svolgono ora il 16% delle missioni freelance",
+                "lmo": "I agent IA compissen adess el 16% di mission freelance"
+              },
+              "body": {
+                "fr": "Un nouvel indice, le Remote Labor Index, mesure la proportion de missions freelances que les agents IA accomplissent à un niveau professionnel. Selon The Decoder, le taux est passé de 2,5 % à 16 % en huit mois, soit plus d'un quadruplement. L'étude a analysé des missions rémunérées sur des plateformes de freelancing, couvrant des domaines variés allant du développement web à la rédaction. Les résultats suggèrent une accélération de l'automatisation des tâches cognitives, avec des implications directes pour le <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/\">marché du travail</a>.",
+                "en": "A new index, the Remote Labor Index, measures the proportion of freelance tasks that AI agents complete at a professional level. According to The Decoder, the rate has risen from 2.5% to 16% in eight months, more than quadrupling. The study analysed paid tasks on freelancing platforms, covering domains ranging from web development to writing. The results suggest an acceleration in the automation of cognitive tasks, with direct implications for the <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/\">labour market</a>.",
+                "de": "Ein neuer Index, der Remote Labor Index, misst den Anteil der Freelance-Aufträge, die KI-Agenten auf professionellem Niveau erledigen. Laut The Decoder ist die Rate in acht Monaten von 2,5 % auf 16 % gestiegen, mehr als eine Vervierfachung. Die Studie analysierte bezahlte Aufträge auf Freelance-Plattformen in verschiedenen Bereichen von der Webentwicklung bis zum Texten. Die Ergebnisse deuten auf eine Beschleunigung der Automatisierung kognitiver Aufgaben hin, mit direkten Auswirkungen auf den <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/\">Arbeitsmarkt</a>.",
+                "it": "Un nuovo indice, il Remote Labor Index, misura la proporzione di missioni freelance che gli agenti IA svolgono a livello professionale. Secondo The Decoder, il tasso è passato dal 2,5% al 16% in otto mesi, più che quadruplicato. Lo studio ha analizzato missioni retribuite su piattaforme di freelancing, coprendo settori vari dallo sviluppo web alla scrittura. I risultati suggeriscono un'accelerazione dell'automazione dei compiti cognitivi, con implicazioni dirette per il <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/\">mercato del lavoro</a>.",
+                "lmo": "On noeuv indes, el Remote Labor Index, el misura la proporzion de mission freelance che i agent IA compissen a on nivell professional. Segond The Decoder, el tass l'è passaa del 2,5% al 16% in vot mes, o ben pussee d'on quadruplicament. L'istudi l'ha analizzaa di mission remunerada in su di piattaform de freelancing, quatrend di domini variaa che van del desvilupp web a la redazion. I resultad suggerissen ona accelerazion de l'automatizazion di compit cognitiv, con di implicazion diret per el <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago/\">marcaa del laurà</a>."
+              },
+              "kicker": {
+                "fr": "Économie",
+                "en": "Economy",
+                "de": "Wirtschaft",
+                "it": "Economia",
+                "lmo": "Economia"
+              },
+              "wire": {
+                "fr": "From the Wires — 2 juillet 2026",
+                "en": "From the Wires — 2 July 2026",
+                "de": "From the Wires — 2. Juli 2026",
+                "it": "From the Wires — 2 luglio 2026",
+                "lmo": "From the Wires — 2 de luj 2026"
+              }
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Éditorial",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito : La semaine Anthropic",
+                "en": "Editorial: The Anthropic Week",
+                "de": "Leitartikel: Die Anthropic-Woche",
+                "it": "Editoriale: La settimana Anthropic",
+                "lmo": "Editorial: La setemana Anthropic"
+              },
+              "body": {
+                "fr": "L'édition du 3 juillet 2026 du Neuron Times est marquée par une actualité dominée par Anthropic, qui cumule quatre annonces majeures en deux jours : le cadre de sécurité de Fable 5, les contrôles de dépenses Claude Enterprise, la réduction du prompt système de Claude Code, et les discussions avec Samsung pour une puce sur mesure. Cette concentration éditoriale reflète l'intensité de la stratégie de déploiement d'Anthropic, qui cherche à verrouiller à la fois la confiance des entreprises (sécurité, contrôles financiers) et son indépendance technologique (silicon). Pendant ce temps, les autres grands labors sont remarquablement silencieux : OpenAI, Google DeepMind, Meta et Mistral n'ont publié aucune annonce majeure dans la fenêtre J/J-1. Le signal le plus fort de la recherche académique vient de ByteDance Seed avec Seed2.0, et de l'Université de Waterloo avec le paradigme Program-as-Weights, qui pourrait redéfinir la manière dont nous concevons l'inférence locale. La communauté, elle, s'interroge : entre le scepticisme de Nvidia sur l'AGI et la déception avouée de Zuckerberg sur les agents, le récit d'un progrès linéaire et inexorable est-il en train de se fissurer ?",
+                "en": "The Friday, 3 July 2026 edition of The Neuron Times is dominated by Anthropic, which has accumulated four major announcements in two days: the Fable 5 security framework, Claude Enterprise spend controls, the Claude Code system prompt reduction, and discussions with Samsung for a custom chip. This editorial concentration reflects the intensity of Anthropic's deployment strategy, which seeks to lock in both enterprise trust (security, financial controls) and technological independence (silicon). Meanwhile, the other major labs are notably quiet: OpenAI, Google DeepMind, Meta and Mistral have published no major announcements in the J/J-1 window. The strongest signal from academic research comes from ByteDance Seed with Seed2.0, and from the University of Waterloo with the Program-as-Weights paradigm, which could redefine how we think about local inference. The community, meanwhile, is questioning: between Nvidia's scepticism about AGI and Zuckerberg's admitted disappointment with agents, is the narrative of linear, inexorable progress beginning to crack?",
+                "de": "Die Ausgabe vom 3. Juli 2026 des Neuron Times ist geprägt von einer von Anthropic dominierten Nachrichtenlage, die innerhalb von zwei Tagen vier grosse Ankündigungen kumuliert: den Sicherheitsrahmen von Fable 5, die Ausgabenkontrollen von Claude Enterprise, die Reduzierung des System-Prompts von Claude Code und die Gespräche mit Samsung über einen massgeschneiderten Chip. Diese redaktionelle Konzentration spiegelt die Intensität der Deployment-Strategie von Anthropic wider, die sowohl das Vertrauen der Unternehmen (Sicherheit, Finanzkontrollen) als auch die technologische Unabhängigkeit (Silizium) sichern will. In der Zwischenzeit sind die anderen grossen Labore bemerkenswert still: OpenAI, Google DeepMind, Meta und Mistral haben im Zeitfenster J/J-1 keine grossen Ankündigungen veröffentlicht. Das stärkste Signal aus der akademischen Forschung kommt von ByteDance Seed mit Seed2.0 und von der University of Waterloo mit dem Program-as-Weights-Paradigma, das die Art und Weise, wie wir lokale Inferenz konzipieren, neu definieren könnte. Die Community hingegen fragt sich: Zwischen der Skepsis von Nvidia gegenüber AGI und der eingestandenen Enttäuschung von Zuckerberg über die Agenten – beginnt die Erzählung eines linearen und unaufhaltsamen Fortschritts zu bröckeln?",
+                "it": "L'edizione del 3 luglio 2026 del Neuron Times è caratterizzata da un'attualità dominata da Anthropic, che accumula quattro annunci importanti in due giorni: il quadro di sicurezza di Fable 5, i controlli di spesa di Claude Enterprise, la riduzione del prompt di sistema di Claude Code e le discussioni con Samsung per un chip su misura. Questa concentrazione editoriale riflette l'intensità della strategia di deployment di Anthropic, che cerca di blindare sia la fiducia delle aziende (sicurezza, controlli finanziari) sia la propria indipendenza tecnologica (silicio). Nel frattempo, gli altri grandi laboratori sono notevolmente silenziosi: OpenAI, Google DeepMind, Meta e Mistral non hanno pubblicato alcun annuncio importante nella finestra G/G-1. Il segnale più forte dalla ricerca accademica arriva da ByteDance Seed con Seed2.0, e dall'Università di Waterloo con il paradigma Program-as-Weights, che potrebbe ridefinire il modo in cui concepiamo l'inferenza locale. La comunità, invece, si interroga: tra lo scetticismo di Nvidia sull'AGI e la delusione confessata di Zuckerberg sugli agenti, la narrazione di un progresso lineare e inesorabile si sta forse incrinando?",
+                "lmo": "L'edizion del 3 de luj 2026 del Neuron Times l'è marcada d'ona atualità dominada de Anthropic, che la cumula quater anunzi magior in du dì: el quadre de sigurezza de Fable 5, i controll di spess de Claude Enterprise, la redutzion del prompt sistema de Claude Code, e i discussion con Samsung per ona puce su misura. Questa concentrazion editoriala la reflett l'intensità de la strategia de despiegament d'Anthropic, che la cerca de bloccà sia la fiducia di aziend (sigurezza, controll finanziari) sia la soa indipendenza tecnologica (silicon). Intant, i alter grand laboratori hinn notevolament silenzios: OpenAI, Google DeepMind, Meta e Mistral hinn minga publicaa nissun anunzi magior in la finestra J/J-1. El segnal pussee fort de la ricerca academica el ven de ByteDance Seed con Seed2.0, e de l'Università de Waterloo cont el paradigma Program-as-Weights, che 'l podaria redifinì la manera che num concepom l'inferenza locala. La comunità, lee, la se domanda: tra el scetticism de Nvidia in su l'AGI e la delusion confessada de Zuckerberg in sui agent, el raccont d'on progress linear e inesorabil l'è 'dree a crepàss?"
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              }
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
