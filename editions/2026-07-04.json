@@ -1,0 +1,664 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-04",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Mistral AI a publié le 3 juillet 2026 <a href=\"https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/\">Leanstral 1.5</a>, un agent de code spécialisé dans la preuve formelle en Lean 4, distribué sous licence Apache-2.0. Le modèle, une architecture mixture-of-experts de 119 milliards de paramètres dont 6,5 milliards activés par token, sature le benchmark miniF2F et résout 587 des 672 problèmes du célèbre concours PutnamBench, établissant un nouveau standard pour la démonstration automatique de théorèmes.",
+        "en": "On 3 July 2026, Mistral AI released <a href=\"https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/\">Leanstral 1.5</a>, a code agent specialised in formal proof in Lean 4, distributed under the Apache-2.0 licence. The model, a mixture-of-experts architecture with 119 billion parameters of which 6.5 billion are activated per token, saturates the miniF2F benchmark and solves 587 of the 672 problems in the renowned PutnamBench competition, setting a new standard for automated theorem proving.",
+        "de": "Mistral AI hat am 3. Juli 2026 <a href=\"https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/\">Leanstral 1.5</a> veröffentlicht, einen auf formale Beweisführung in Lean 4 spezialisierten Code-Agenten, der unter der Apache-2.0-Lizenz vertrieben wird. Das Modell, eine Mixture-of-Experts-Architektur mit 119 Milliarden Parametern, von denen 6,5 Milliarden pro Token aktiviert werden, sättigt den miniF2F-Benchmark und löst 587 der 672 Aufgaben des renommierten PutnamBench-Wettbewerbs, womit es einen neuen Standard für automatische Theorembeweise setzt.",
+        "it": "Mistral AI ha pubblicato il 3 luglio 2026 <a href=\"https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/\">Leanstral 1.5</a>, un agente di codice specializzato nella dimostrazione formale in Lean 4, distribuito con licenza Apache-2.0. Il modello, un'architettura mixture-of-experts da 119 miliardi di parametri di cui 6,5 miliardi attivati per token, satura il benchmark miniF2F e risolve 587 dei 672 problemi del celebre concorso PutnamBench, stabilendo un nuovo standard per la dimostrazione automatica di teoremi.",
+        "lmo": "Mistral AI l'ha publicaa el 3 de luj 2026 <a href=\"https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/\">Leanstral 1.5</a>, on agent de còdes specializzaa in la preuva formal in Lean 4, distribuii sota licenza Apache-2.0. El modèl, ona architettura mixture-of-experts de 119 miliard de paràmetri, di quai 6,5 miliard ativà per token, el sata el benchmark miniF2F e 'l risoeulv 587 di 672 problema del famos concors PutnamBench, stabilend on noeuv standard per la dimostrazion automatega di teoremi."
+      },
+      {
+        "fr": "Le modèle a été accueilli avec enthousiasme sur Hacker News le 3 juillet, où l'annonce a recueilli 138 points et 35 commentaires, les développeurs saluant la capacité de Leanstral 1.5 à trouver des bugs réels dans des codebases existantes. Mistral AI a également publié des études de cas montrant l'agent identifiant des vulnérabilités dans des bibliothèques Lean de production, une démonstration concrète de l'utilité des modèles de preuve formelle au-delà des compétitions mathématiques.",
+        "en": "The model was greeted with enthusiasm on Hacker News on 3 July, where the announcement garnered 138 points and 35 comments, with developers praising Leanstral 1.5's ability to find real bugs in existing codebases. Mistral AI also published case studies showing the agent identifying vulnerabilities in production Lean libraries, a concrete demonstration of the utility of formal proof models beyond mathematical competitions.",
+        "de": "Das Modell wurde am 3. Juli auf Hacker News begeistert aufgenommen, wo die Ankündigung 138 Punkte und 35 Kommentare erhielt. Entwickler lobten die Fähigkeit von Leanstral 1.5, echte Fehler in bestehenden Codebasen zu finden. Mistral AI veröffentlichte zudem Fallstudien, die zeigen, wie der Agent Schwachstellen in produktiven Lean-Bibliotheken identifiziert – ein konkreter Beleg für den Nutzen formaler Beweismodelle über mathematische Wettbewerbe hinaus.",
+        "it": "Il modello è stato accolto con entusiasmo su Hacker News il 3 luglio, dove l'annuncio ha raccolto 138 punti e 35 commenti, con gli sviluppatori che hanno elogiato la capacità di Leanstral 1.5 di trovare bug reali in codebase esistenti. Mistral AI ha inoltre pubblicato casi studio che mostrano l'agente nell'identificare vulnerabilità in librerie Lean di produzione, una dimostrazione concreta dell'utilità dei modelli di dimostrazione formale al di là delle competizioni matematiche.",
+        "lmo": "El modèl l'è staa accoglii con entusiasmo in su Hacker News el 3 de luj, indè che l'anunzi l'ha cuglii 138 pont e 35 comentari, e i desvilupador hinn saluda la capacità del Leanstral 1.5 de trovà di bug reai in di codebase esistent. Mistral AI l'ha anca publicaa di studi de cas che mostren l'aghent identificà di vulnerabilità in di bibliotech Lean de produzion, ona dimostrazion concreta de l'utilità di modèj de preuva formal oltra i competizion matematiche."
+      },
+      {
+        "fr": "Leanstral 1.5 s'inscrit dans la stratégie de Mistral AI de démocratiser les outils de vérification formelle. Le modèle est disponible en téléchargement libre et peut être exécuté localement, contrairement aux solutions propriétaires de ses concurrents. Cette ouverture pourrait accélérer l'adoption de Lean 4 dans l'industrie du logiciel, où la vérification formelle reste encore marginale malgré son potentiel pour éliminer des classes entières de bugs.",
+        "en": "Leanstral 1.5 is part of Mistral AI's strategy to democratise formal verification tools. The model is available for free download and can be run locally, unlike the proprietary solutions of its competitors. This openness could accelerate the adoption of Lean 4 in the software industry, where formal verification remains marginal despite its potential to eliminate entire classes of bugs.",
+        "de": "Leanstral 1.5 ist Teil der Strategie von Mistral AI, Werkzeuge für formale Verifikation zu demokratisieren. Das Modell kann frei heruntergeladen und lokal ausgeführt werden, im Gegensatz zu den proprietären Lösungen der Konkurrenz. Diese Offenheit könnte die Einführung von Lean 4 in der Softwareindustrie beschleunigen, wo formale Verifikation trotz ihres Potenzials, ganze Fehlerklassen zu eliminieren, noch immer eine Nischenrolle spielt.",
+        "it": "Leanstral 1.5 si inserisce nella strategia di Mistral AI di democratizzare gli strumenti di verifica formale. Il modello è disponibile per il download gratuito e può essere eseguito localmente, a differenza delle soluzioni proprietarie dei suoi concorrenti. Questa apertura potrebbe accelerare l'adozione di Lean 4 nell'industria del software, dove la verifica formale rimane ancora marginale nonostante il suo potenziale per eliminare intere classi di bug.",
+        "lmo": "Leanstral 1.5 el se mett denter in la strategia de Mistral AI de democratizà i istrument de verificazion formal. El modèl l'è disponibil in scaricament liber e 'l pò vess eseguii localment, al contrari di soluzion proprietari di sò concorrent. Questa vertura la podarìa accelerà l'adozion del Lean 4 in l'industria del software, indè che la verificazion formal la resta anmò marginala malgraa el sò potenzial per eliminà di classi intregh de bug."
+      }
+    ],
+    "urls": [
+      "https://www.marktechpost.com/2026/07/03/mistral-ai-releases-leanstral-1-5-an-apache-2-0-lean-4-code-agent-model-solving-587-of-672-putnambench-problems/",
+      "https://news.ycombinator.com/item?id=48780801",
+      "https://mistral.ai/news/leanstral-1-5/"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Grenzbereich",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Mistral dévoile Leanstral 1.5, un agent de code Lean 4 qui résout 587 problèmes sur 672 au benchmark Putnam",
+      "en": "Mistral unveils Leanstral 1.5, a Lean 4 code agent that solves 587 of 672 problems on the Putnam benchmark",
+      "de": "Mistral stellt Leanstral 1.5 vor, einen Lean-4-Code-Agenten, der 587 von 672 Putnam-Benchmark-Aufgaben löst",
+      "it": "Mistral svela Leanstral 1.5, un agente di codice Lean 4 che risolve 587 problemi su 672 nel benchmark Putnam",
+      "lmo": "Mistral el gh'ha presentaa Leanstral 1.5, on agent de còdes Lean 4 che 'l risoeulv 587 problema sora 672 al benchmark Putnam"
+    },
+    "subdeck": {
+      "fr": "Le modèle mixture-of-experts de 119B paramètres (6,5B actifs) sature le benchmark miniF2F et démontre des capacités de détection de bugs dans des codebases réelles.",
+      "en": "The 119B-parameter mixture-of-experts model (6.5B active) saturates the miniF2F benchmark and demonstrates bug-detection capabilities in real-world codebases.",
+      "de": "Das Mixture-of-Experts-Modell mit 119B Parametern (6,5B aktiv) sättigt den miniF2F-Benchmark und demonstriert Fähigkeiten zur Fehlererkennung in realen Codebasen.",
+      "it": "Il modello mixture-of-experts da 119B parametri (6,5B attivi) satura il benchmark miniF2F e dimostra capacità di rilevamento di bug in codebase reali.",
+      "lmo": "El modèl mixture-of-experts de 119B paràmetri (6,5B ativ) el sata el benchmark miniF2F e 'l dimostra di capacità de detezion de bug in di codebase reai."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic lance Claude Science, un workbench IA pour la recherche",
+        "en": "Anthropic launches Claude Science, an AI workbench for research",
+        "de": "Anthropic lanciert Claude Science, eine KI-Workbench für die Forschung",
+        "it": "Anthropic lancia Claude Science, un workbench IA per la ricerca",
+        "lmo": "Anthropic el lanza Claude Science, on workbench IA per la ricerca"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development\">Anthropic a annoncé Claude Science</a>, un « workbench IA pour scientifiques » qui rassemble outils et jeux de données fragmentés en un seul environnement, et génère des figures et des visuels. L'annonce a été faite lors de l'événement « The Briefing: AI for Science » plus tôt cette semaine.",
+        "en": "On 3 July 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development\">Anthropic announced Claude Science</a>, an \"AI workbench for scientists\" that brings together fragmented tools and datasets in a single environment, and generates figures and visuals. The announcement was made at the \"The Briefing: AI for Science\" event earlier this week.",
+        "de": "Am 3. Juli 2026 <a href=\"https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development\">kündigte Anthropic Claude Science an</a>, einen «KI-Workbench für Wissenschaftler», der fragmentierte Werkzeuge und Datensätze in einer einzigen Umgebung vereint und Abbildungen sowie Visualisierungen generiert. Die Ankündigung erfolgte im Rahmen der Veranstaltung «The Briefing: AI for Science» früher in dieser Woche.",
+        "it": "Il 3 luglio 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development\">Anthropic ha annunciato Claude Science</a>, un « workbench IA per scienziati » che riunisce strumenti e dataset frammentati in un unico ambiente e genera figure e visuali. L'annuncio è stato fatto durante l'evento « The Briefing: AI for Science » all'inizio di questa settimana.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development\">Anthropic l'ha anunziaa Claude Science</a>, on « workbench IA per scentifigh » che 'l mett insema istrument e dataset sparpajaa in on ambient unich, e 'l genera di figur e di visuai. L'anunzi l'è staa faa durant l'eveniment « The Briefing: AI for Science » pussee bonora in questa setemana."
+      },
+      "tag": {
+        "fr": "Annonce",
+        "en": "Announcement",
+        "de": "Ankündigung",
+        "it": "Annuncio",
+        "lmo": "Anunzi"
+      },
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/961311/anthropic-claude-science-ai-drug-development"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Claude Code face à un problème chinois complexe",
+        "en": "Claude Code faces a complicated China problem",
+        "de": "Claude Code steht vor einem komplexen China-Problem",
+        "it": "Claude Code affronta un complesso problema cinese",
+        "lmo": "Claude Code de front a on problema cinei compless"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/\">Anthropic tente de bloquer l'accès à Claude Code</a> pour des entreprises chinoises comme ByteDance et Ant Financial, mais celles-ci contournent les restrictions via des VPN et des filiales à l'étranger. Alibaba a quant à lui interdit à ses employés d'utiliser l'outil après la découverte de code caché pouvant identifier les utilisateurs chinois.",
+        "en": "On 3 July 2026, <a href=\"https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/\">Anthropic is attempting to block access to Claude Code</a> for Chinese companies such as ByteDance and Ant Financial, but they are circumventing the restrictions via VPNs and overseas subsidiaries. Alibaba, meanwhile, has banned its employees from using the tool after the discovery of hidden code that could identify Chinese users.",
+        "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/\">versucht Anthropic, den Zugang zu Claude Code</a> für chinesische Unternehmen wie ByteDance und Ant Financial zu blockieren, doch diese umgehen die Beschränkungen über VPNs und Auslandstöchter. Alibaba wiederum hat seinen Mitarbeitern die Nutzung des Tools untersagt, nachdem versteckter Code entdeckt wurde, der chinesische Nutzer identifizieren kann.",
+        "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/\">Anthropic tenta di bloccare l'accesso a Claude Code</a> per aziende cinesi come ByteDance e Ant Financial, ma queste aggirano le restrizioni tramite VPN e filiali all'estero. Alibaba ha invece vietato ai propri dipendenti di utilizzare lo strumento dopo la scoperta di codice nascosto in grado di identificare gli utenti cinesi.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/\">Anthropic el cerca de bloccà l'access a Claude Code</a> per di impres cinei come ByteDance e Ant Financial, ma quelle chì giren intorna ai restrizion via VPN e di filiai a l'ester. Alibaba l'ha inveci proibii ai sò impiegaa de doperà l'istrument dopo la descoverta de còdes sconduu che 'l podeva identificà i utent cinei."
+      },
+      "tag": {
+        "fr": "Géopolitique",
+        "en": "Geopolitics",
+        "de": "Geopolitik",
+        "it": "Geopolitica",
+        "lmo": "Geopolitica"
+      },
+      "urls": [
+        "https://the-decoder.com/claude-codes-complicated-china-problem-involves-bans-on-both-sides-of-the-pacific/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Midjourney montre son scanner médical sans convaincre",
+        "en": "Midjourney shows its medical scanner without convincing",
+        "de": "Midjourney zeigt medizinischen Scanner, kann aber nicht überzeugen",
+        "it": "Midjourney mostra il suo scanner medico senza convincere",
+        "lmo": "Midjourney el mostra el sò scanner medich senza convinc"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\">Midjourney a diffusé une vidéo des coulisses</a> de son scanner à ultrasons, un appareil qu'elle prévoit de déployer dans les spas et qui, selon elle, pourrait transformer la médecine avec une imagerie bon marché, détaillée et sans radiation. La vidéo de près de 20 minutes laisse cependant de nombreuses questions sans réponse quant à l'efficacité réelle de l'appareil.",
+        "en": "On 3 July 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\">Midjourney released a behind-the-scenes video</a> of its ultrasound scanner, a device it plans to deploy in spas and which, it claims, could transform medicine with cheap, detailed, radiation-free imaging. The nearly 20-minute video, however, leaves many questions unanswered about the device's real effectiveness.",
+        "de": "Am 3. Juli 2026 <a href=\"https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\">veröffentlichte Midjourney ein Behind-the-Scenes-Video</a> seines Ultraschallscanners, eines Geräts, das in Spas eingesetzt werden soll und nach Unternehmensangaben die Medizin mit günstiger, detaillierter und strahlungsfreier Bildgebung revolutionieren könnte. Das fast 20-minütige Video lässt jedoch viele Fragen zur tatsächlichen Wirksamkeit des Geräts offen.",
+        "it": "Il 3 luglio 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\">Midjourney ha diffuso un video dietro le quinte</a> del suo scanner a ultrasuoni, un dispositivo che prevede di distribuire nelle spa e che, secondo l'azienda, potrebbe trasformare la medicina con un'imaging economico, dettagliato e senza radiazioni. Il video di quasi 20 minuti lascia tuttavia molte domande senza risposta sull'efficacia reale del dispositivo.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video\">Midjourney l'ha trasmettuu ona video di dree ai quader</a> del sò scanner a ultrason, on apparecc che la preved de mett in di spa e che, segond lee, el podarìa trasformà la medesina cont ona imageria bon mercaa, detajada e senza radiazion. La video de quasi 20 minut la lassa però tante domand senza risposta in quant a l'efficenza reala de l'apparecc."
+      },
+      "tag": {
+        "fr": "Matériel",
+        "en": "Hardware",
+        "de": "Hardware",
+        "it": "Hardware",
+        "lmo": "Material"
+      },
+      "urls": [
+        "https://www.theverge.com/ai-artificial-intelligence/961265/midjourney-medical-ultrasound-scanner-behind-the-scenes-video"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Tesla limite les dépenses IA de ses employés à 200 $ par semaine",
+        "en": "Tesla caps employee AI spending at $200 per week",
+        "de": "Tesla begrenzt KI-Ausgaben der Mitarbeiter auf 200 Dollar pro Woche",
+        "it": "Tesla limita le spese IA dei dipendenti a 200 $ a settimana",
+        "lmo": "Tesla el limita i spender IA di sò impiegaa a 200 $ a setemana"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/\">Tesla a plafonné les dépenses IA de ses employés à 200 dollars par semaine</a>, selon une note interne rapportée par The Information. Cette décision intervient dans un contexte de resserrement budgétaire chez le constructeur automobile, qui cherche à contrôler ses coûts tout en poursuivant ses investissements dans l'IA.",
+        "en": "On 3 July 2026, <a href=\"https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/\">Tesla capped employee AI spending at $200 per week</a>, according to an internal memo reported by The Information. The decision comes amid a budget tightening at the carmaker, which is seeking to control costs while continuing its investments in AI.",
+        "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/\">hat Tesla die KI-Ausgaben seiner Mitarbeiter auf 200 Dollar pro Woche gedeckelt</a>, wie aus einem von The Information berichteten internen Memo hervorgeht. Diese Entscheidung fällt in einen Kontext der Budgetkonsolidierung bei dem Automobilhersteller, der seine Kosten kontrollieren will, während er gleichzeitig seine Investitionen in KI fortsetzt.",
+        "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/\">Tesla ha limitato le spese IA dei suoi dipendenti a 200 dollari a settimana</a>, secondo una nota interna riportata da The Information. Questa decisione arriva in un contesto di strettezza di bilancio presso il costruttore automobilistico, che cerca di controllare i costi pur continuando i suoi investimenti nell'IA.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/\">Tesla l'ha mettuu on tecc ai spender IA di sò impiegaa a 200 dollar a setemana</a>, segond ona nota interna reportada de The Information. Questa decision la riva in on contest de restrenciment de budget del costrutor de automobil, che 'l cerca de controllà i sò cost intant che 'l va adree ai sò investiment in l'IA."
+      },
+      "tag": {
+        "fr": "Entreprise",
+        "en": "Enterprise",
+        "de": "Unternehmen",
+        "it": "Azienda",
+        "lmo": "Impresa"
+      },
+      "urls": [
+        "https://the-decoder.com/tesla-caps-employee-ai-spending-at-200-per-week/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Interfaze ouvre un modèle ASR à diffusion multilingue",
+        "en": "Interfaze open-sources a multilingual diffusion ASR model",
+        "de": "Interfaze veröffentlicht mehrsprachiges Diffusions-ASR-Modell als Open Source",
+        "it": "Interfaze apre un modello ASR a diffusione multilingue",
+        "lmo": "Interfaze l'averz on modèl ASR a diffusion multilingua"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/\">Interfaze a open-sourcé diffusion-gemma-asr-small</a>, un modèle de reconnaissance vocale multilingue qui transcrit par diffusion plutôt que par autorégression. Il ajoute l'audio au DiffusionGemma figé de Google via un adaptateur d'environ 42 millions de paramètres. Un seul adaptateur couvre six langues, et le coût de transcription est déterminé par le nombre d'étapes de débruitage, non par la longueur du transcript.",
+        "en": "On 3 July 2026, <a href=\"https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/\">Interfaze open-sourced diffusion-gemma-asr-small</a>, a multilingual speech recognition model that transcribes via diffusion rather than autoregression. It adds audio to Google's frozen DiffusionGemma via an adapter of approximately 42 million parameters. A single adapter covers six languages, and transcription cost is determined by the number of denoising steps, not the length of the transcript.",
+        "de": "Am 3. Juli 2026 <a href=\"https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/\">hat Interfaze diffusion-gemma-asr-small als Open Source veröffentlicht</a>, ein mehrsprachiges Spracherkennungsmodell, das per Diffusion statt Autoregression transkribiert. Es fügt dem fixierten DiffusionGemma von Google über einen Adapter mit rund 42 Millionen Parametern Audio hinzu. Ein einziger Adapter deckt sechs Sprachen ab, und die Transkriptionskosten werden durch die Anzahl der Entrauschungsschritte bestimmt, nicht durch die Länge des Transkripts.",
+        "it": "Il 3 luglio 2026, <a href=\"https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/\">Interfaze ha open-sourcato diffusion-gemma-asr-small</a>, un modello di riconoscimento vocale multilingue che trascrive per diffusione anziché per autoregressione. Aggiunge l'audio al DiffusionGemma fisso di Google tramite un adattatore di circa 42 milioni di parametri. Un singolo adattatore copre sei lingue e il costo di trascrizione è determinato dal numero di passaggi di denoising, non dalla lunghezza del transcript.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/\">Interfaze l'ha open-sourciaa diffusion-gemma-asr-small</a>, on modèl de riconosciment vocal multilingua che 'l trascriv per diffusion inveci che per autoregression. El gionta l'audio al DiffusionGemma figiaa de Google via on adattator de circa 42 milion de paràmetri. On adattator sol el quata ses lengov, e 'l cost de trascrizion l'è determinaa del numer de pass de debruitagg, no de la longhezza del trascritt."
+      },
+      "tag": {
+        "fr": "Open Source",
+        "en": "Open Source",
+        "de": "Open Source",
+        "it": "Open Source",
+        "lmo": "Open Source"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/02/interfaze-ships-diffusion-gemma-asr-small-an-open-source-diffusion-asr-model-transcribing-six-languages-via-diffusiongemmas-parallel-denoising-decoder/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "WebBrain : un agent navigateur IA open source et local-first",
+        "en": "WebBrain: an open-source, local-first AI browser agent",
+        "de": "WebBrain: Ein Open-Source-KI-Browser-Agent, lokal-first",
+        "it": "WebBrain: un agente browser IA open source e local-first",
+        "lmo": "WebBrain: on agent navigator IA open source e local-first"
+      },
+      "body": {
+        "fr": "Le 3 juillet 2026, <a href=\"https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/\">WebBrain a été présenté</a> comme un agent navigateur IA open source (licence MIT) pour Chrome et Firefox. Il lit les pages, extrait des données et automatise des tâches multi-étapes via des modes Ask et Act. Il peut fonctionner sur des modèles locaux comme llama.cpp ou Ollama pour la confidentialité, ou se connecter à n'importe quelle API cloud.",
+        "en": "On 3 July 2026, <a href=\"https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/\">WebBrain was introduced</a> as an open-source (MIT licence) AI browser agent for Chrome and Firefox. It reads pages, extracts data and automates multi-step tasks via Ask and Act modes. It can run on local models such as llama.cpp or Ollama for privacy, or connect to any cloud API.",
+        "de": "Am 3. Juli 2026 <a href=\"https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/\">wurde WebBrain vorgestellt</a>, ein Open-Source-KI-Browser-Agent (MIT-Lizenz) für Chrome und Firefox. Er liest Seiten, extrahiert Daten und automatisiert mehrstufige Aufgaben über Ask- und Act-Modi. Er kann auf lokalen Modellen wie llama.cpp oder Ollama für den Datenschutz laufen oder mit jeder Cloud-API verbunden werden.",
+        "it": "Il 3 luglio 2026, <a href=\"https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/\">WebBrain è stato presentato</a> come un agente browser IA open source (licenza MIT) per Chrome e Firefox. Legge le pagine, estrae dati e automatizza compiti multi-step tramite modalità Ask e Act. Può funzionare su modelli locali come llama.cpp o Ollama per la privacy, o connettersi a qualsiasi API cloud.",
+        "lmo": "El 3 de luj 2026, <a href=\"https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/\">WebBrain l'è staa presentaa</a> come on agent navigator IA open source (licenza MIT) per Chrome e Firefox. El legg i pagin, el estra i dati e 'l automativa di incarigh multi-pass via di mod Ask e Act. El pò fonzionà in su modèj locai come llama.cpp o Ollama per la confidenzialità, o conettess a qualsessia API cloud."
+      },
+      "tag": {
+        "fr": "Open Source",
+        "en": "Open Source",
+        "de": "Open Source",
+        "it": "Open Source",
+        "lmo": "Open Source"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/02/meet-webbrain-an-open-source-local-first-ai-browser-agent-that-reads-pages-and-automates-tasks-in-chrome-and-firefox/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Agents & Super-apps",
+            "en": "Agents & Super-apps",
+            "de": "Agenten & Super-Apps",
+            "it": "Agenti & Super-app",
+            "lmo": "Aghent & Super-app"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Microsoft fusionne ses Copilot en une super-app et lance les agents AutoPilot",
+                "en": "Microsoft merges its Copilots into a super-app and launches AutoPilot agents",
+                "de": "Microsoft verschmilzt seine Copiloten zu einer Super-App und führt AutoPilot-Agenten ein",
+                "it": "Microsoft fonde i suoi Copilot in una super-app e lancia gli agenti AutoPilot",
+                "lmo": "Microsoft la fonder i sò Copilot in ona super-app e la lanza i aghent AutoPilot"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/\">Microsoft prévoit de fusionner ses applications Copilot grand public et entreprise</a> en une application unique dès août 2026, selon des informations rapportées par The Decoder. La refonte s'accompagne de la suppression de fonctionnalités peu utilisées comme Copilot Podcasts, et de l'introduction d'agents baptisés « AutoPilot » capables d'exécuter des tâches en arrière-plan moyennant un supplément.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/\">Microsoft plans to merge its consumer and enterprise Copilot applications</a> into a single app as early as August 2026, according to reports from The Decoder. The overhaul comes with the removal of underused features such as Copilot Podcasts, and the introduction of agents called \"AutoPilot\" capable of executing background tasks for an additional fee.",
+                "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/\">plant Microsoft, seine Copilot-Anwendungen für Privatkunden und Unternehmen</a> ab August 2026 zu einer einzigen App zu verschmelzen, wie The Decoder berichtet. Die Neugestaltung geht mit der Streichung wenig genutzter Funktionen wie Copilot Podcasts einher, sowie der Einführung von Agenten namens «AutoPilot», die gegen Aufpreis Hintergrundaufgaben ausführen können.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/\">Microsoft prevede di fondere le sue applicazioni Copilot consumer e aziendali</a> in un'unica applicazione a partire da agosto 2026, secondo informazioni riportate da The Decoder. La riprogettazione è accompagnata dalla rimozione di funzionalità poco utilizzate come Copilot Podcasts e dall'introduzione di agenti chiamati « AutoPilot » in grado di eseguire compiti in background a pagamento.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/\">Microsoft la preved de fonder i sò aplicazion Copilot per el publich e per l'impresa</a> in ona aplicazion unega a partì de agost 2026, segond informazion reportaa de The Decoder. La refondura la se compagna de la rimozion de fonzionalità poch doperade come Copilot Podcasts, e de l'introduzion d'aghent ciamaa « AutoPilot » bon de eseguì di incarigh in background cont on supplement."
+              },
+              "kicker": {
+                "fr": "Super-app",
+                "en": "Super-app",
+                "de": "Super-App",
+                "it": "Super-app",
+                "lmo": "Super-app"
+              },
+              "urls": [
+                "https://the-decoder.com/microsoft-follows-anthropic-and-openai-into-the-ai-super-app-race-with-overhauled-copilot-and-autopilot-agents/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les signalements de vulnérabilités explosent depuis que l'IA chasse les bugs",
+                "en": "Security vulnerability reports explode as AI hunts for bugs",
+                "de": "Schwachstellenmeldungen explodieren, seit KI nach Fehlern jagt",
+                "it": "Le segnalazioni di vulnerabilità esplodono da quando l'IA caccia i bug",
+                "lmo": "I segnalament de vulnerabilità hinn s'ciopaa de quand che l'IA la caccia i bug"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/\">Epoch AI a publié une analyse montrant une explosion des signalements de vulnérabilités</a> depuis que les modèles d'IA ont commencé à chasser les bugs. En juin 2026, 21 organisations ont rapporté environ 1 500 CVE de sévérité élevée ou critique, soit plus de 3,5 fois le record mensuel précédent. Cette augmentation coïncide avec le lancement de programmes de chasse aux bugs alimentés par l'IA.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/\">Epoch AI published an analysis showing an explosion in vulnerability reports</a> since AI models began hunting for bugs. In June 2026, 21 organisations reported approximately 1,500 high- or critical-severity CVEs, more than 3.5 times the previous monthly record. This increase coincides with the launch of AI-powered bug bounty programmes.",
+                "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/\">veröffentlichte Epoch AI eine Analyse, die eine Explosion der Schwachstellenmeldungen zeigt</a>, seit KI-Modelle mit der Fehlersuche begonnen haben. Im Juni 2026 meldeten 21 Organisationen rund 1 500 CVE mit hohem oder kritischem Schweregrad – mehr als das 3,5-Fache des bisherigen Monatsrekords. Dieser Anstieg fällt mit dem Start von KI-gestützten Bug-Bounty-Programmen zusammen.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/\">Epoch AI ha pubblicato un'analisi che mostra un'esplosione delle segnalazioni di vulnerabilità</a> da quando i modelli di IA hanno iniziato a cacciare i bug. A giugno 2026, 21 organizzazioni hanno segnalato circa 1.500 CVE di gravità alta o critica, oltre 3,5 volte il record mensile precedente. Questo aumento coincide con il lancio di programmi di bug hunting alimentati dall'IA.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/\">Epoch AI l'ha publicaa ona analisi che la mostra ona esplosion di segnalament de vulnerabilità</a> de quand che i modèj d'IA hann comenzaa a caccià i bug. In de luj 2026, 21 organizazion hann reportaa circa 1 500 CVE de severità volta o critica, o ben pussee de 3,5 voeult el record mensil precedent. Quest aument el coincid cont el lanzament de programma de caccia ai bug alimentaa de l'IA."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://the-decoder.com/security-vulnerability-reports-have-exploded-since-ai-models-started-hunting-for-bugs/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'AI Security Institute britannique révèle que les benchmarks sous-estiment les capacités des agents",
+                "en": "UK AI Security Institute finds benchmarks underestimate agent capabilities",
+                "de": "Britisches AI Security Institute zeigt: Benchmarks unterschätzen Agentenfähigkeiten systematisch",
+                "it": "L'AI Security Institute britannico rivela che i benchmark sottostimano le capacità degli agenti",
+                "lmo": "L'AI Security Institute britannich el revèla che i benchmark sottostimen i capacità di aghent"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/\">l'AI Security Institute (AISI) britannique a publié une étude</a> montrant que les benchmarks standard sous-estiment systématiquement les capacités réelles des agents d'IA en plafonnant le budget de tokens. Sur les tâches de génie logiciel, les taux de succès bondissent d'environ 25 % lorsque le budget de tokens est multiplié par dix. Les modèles les plus récents bénéficient le plus de cette augmentation, et le progrès réel à la frontière serait environ 60 % plus rapide que ce que les mesures précédentes suggéraient.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/\">the UK's AI Security Institute (AISI) published a study</a> showing that standard benchmarks systematically underestimate the real capabilities of AI agents by capping the token budget. On software engineering tasks, success rates jump by about 25% when the token budget is multiplied by ten. The newest models benefit most from this increase, and real frontier progress is roughly 60% faster than previous metrics suggested.",
+                "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/\">veröffentlichte das britische AI Security Institute (AISI) eine Studie</a>, die zeigt, dass Standard-Benchmarks die tatsächlichen Fähigkeiten von KI-Agenten systematisch unterschätzen, indem sie das Token-Budget begrenzen. Bei Softwareentwicklungsaufgaben steigen die Erfolgsquoten um etwa 25 %, wenn das Token-Budget verzehnfacht wird. Die neuesten Modelle profitieren am meisten von dieser Erhöhung, und der tatsächliche Fortschritt an der Grenze wäre etwa 60 % schneller, als bisherige Messungen vermuten liessen.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/\">l'AI Security Institute (AISI) britannico ha pubblicato uno studio</a> che mostra come i benchmark standard sottostimino sistematicamente le capacità reali degli agenti di IA a causa del tetto massimo al budget di token. Nei compiti di ingegneria del software, i tassi di successo balzano di circa il 25% quando il budget di token viene moltiplicato per dieci. I modelli più recenti beneficiano maggiormente di questo aumento, e il progresso reale alla frontiera sarebbe circa il 60% più rapido di quanto suggerito dalle misurazioni precedenti.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/\">l'AI Security Institute (AISI) britannich l'ha publicaa on studi</a> che 'l mostra che i benchmark standard sottostimen sistematicament i capacità reai di aghent d'IA, limitand el budget de token. In sui incarigh de ingegneria del software, i tass de success i saltan de circa el 25% quand che 'l budget de token l'è moltiplicaa per des. I modèj pussee noeuv hinn quei che guadagnen pussee de quest aument, e 'l progress real a la frontiera el saria circa el 60% pussee velos de quell che i misur precedent suggeriven."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://the-decoder.com/uks-ai-security-institute-finds-standard-benchmarks-systematically-underestimate-what-ai-agents-can-actually-do/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Technisches Notizbuch",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "CLI & Moteurs d'inférence",
+            "en": "CLI & Inference Engines",
+            "de": "CLI & Inferenz-Engines",
+            "it": "CLI & Motori di inferenza",
+            "lmo": "CLI & Motor d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code 2.1.200 : les dialogues utilisateur ne s'exécutent plus automatiquement",
+                "en": "Claude Code 2.1.200: user dialogues no longer execute automatically",
+                "de": "Claude Code 2.1.200: Benutzerdialoge werden nicht mehr automatisch ausgeführt",
+                "it": "Claude Code 2.1.200: i dialoghi utente non vengono più eseguiti automaticamente",
+                "lmo": "Claude Code 2.1.200: i dialogh utent i se eseguissen pu automaticament"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.200\">Claude Code a reçu la version 2.1.200</a> qui modifie le comportement par défaut des dialogues AskUserQuestion : ils ne s'exécutent plus automatiquement, et il faut désormais configurer un délai d'inactivité via /config. Le mode de permission par défaut passe à « Manual » dans le CLI, --help, VS Code et JetBrains. La version 2.1.201, publiée quelques heures plus tard, corrige l'utilisation du rôle système en milieu de conversation pour les sessions Claude Sonnet 5.",
+                "en": "On 3 July 2026, <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.200\">Claude Code received version 2.1.200</a> which changes the default behaviour of AskUserQuestion dialogues: they no longer execute automatically, and a timeout must now be configured via /config. The default permission mode switches to \"Manual\" in the CLI, --help, VS Code and JetBrains. Version 2.1.201, released a few hours later, fixes the use of the system role mid-conversation for Claude Sonnet 5 sessions.",
+                "de": "Am 3. Juli 2026 <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.200\">erhielt Claude Code die Version 2.1.200</a>, die das Standardverhalten der AskUserQuestion-Dialoge ändert: Sie werden nicht mehr automatisch ausgeführt, und es muss nun eine Inaktivitätszeit über /config konfiguriert werden. Der Standard-Berechtigungsmodus wechselt im CLI, --help, VS Code und JetBrains auf «Manual». Version 2.1.201, wenige Stunden später veröffentlicht, behebt die Nutzung der Systemrolle in der Mitte von Konversationen für Claude-Sonnet-5-Sitzungen.",
+                "it": "Il 3 luglio 2026, <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.200\">Claude Code ha ricevuto la versione 2.1.200</a> che modifica il comportamento predefinito dei dialoghi AskUserQuestion: non vengono più eseguiti automaticamente, ed è ora necessario configurare un timeout di inattività tramite /config. La modalità di autorizzazione predefinita passa a « Manual » nella CLI, --help, VS Code e JetBrains. La versione 2.1.201, pubblicata poche ore dopo, corregge l'utilizzo del ruolo sistema a metà conversazione per le sessioni Claude Sonnet 5.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.200\">Claude Code l'ha ricevüü la version 2.1.200</a> che la modifica el comportament de default di dialogh AskUserQuestion: i se eseguissen pu automaticament, e besogna adess configurà on delay de inatività via /config. El mod de permission de default el passa a « Manual » in del CLI, --help, VS Code e JetBrains. La version 2.1.201, publicada on quai ora pussee tard, la corregg l'usagg del ròll sistema in mezz a la conversazion per i session Claude Sonnet 5."
+              },
+              "kicker": {
+                "fr": "CLI",
+                "en": "CLI",
+                "de": "CLI",
+                "it": "CLI",
+                "lmo": "CLI"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.201"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b9870 corrige les longues boucles de raisonnement",
+                "en": "llama.cpp b9870 fixes long reasoning loops",
+                "de": "llama.cpp b9870 behebt lange Reasoning-Schleifen",
+                "it": "llama.cpp b9870 corregge i lunghi cicli di ragionamento",
+                "lmo": "llama.cpp b9870 el corregg i longh loop de resonament"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9870\">llama.cpp a publié la version b9870</a> qui corrige un bug dans le parser StepFun affectant les longues boucles de raisonnement. Le correctif déplace le trim des messages avant le rendu et l'applique aux content_parts text ainsi qu'au contenu reasoning_content. La version est disponible pour macOS (Apple Silicon et Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Android et Windows.",
+                "en": "On 3 July 2026, <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9870\">llama.cpp released version b9870</a> which fixes a bug in the StepFun parser affecting long reasoning loops. The fix moves message trimming before rendering and applies it to text content_parts as well as reasoning_content. The release is available for macOS (Apple Silicon and Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Android and Windows.",
+                "de": "Am 3. Juli 2026 <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9870\">veröffentlichte llama.cpp die Version b9870</a>, die einen Fehler im StepFun-Parser behebt, der lange Reasoning-Schleifen betraf. Der Fix verschiebt das Trimmen der Nachrichten vor das Rendern und wendet es sowohl auf text-content_parts als auch auf reasoning_content an. Die Version ist für macOS (Apple Silicon und Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Android und Windows verfügbar.",
+                "it": "Il 3 luglio 2026, <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9870\">llama.cpp ha pubblicato la versione b9870</a> che corregge un bug nel parser StepFun che affliggeva i lunghi cicli di ragionamento. La correzione sposta il trim dei messaggi prima del rendering e lo applica ai content_parts text e al contenuto reasoning_content. La versione è disponibile per macOS (Apple Silicon e Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Android e Windows.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9870\">llama.cpp l'ha publicaa la version b9870</a> che la corregg on bug in del parser StepFun che 'l toccava i longh loop de resonament. El corettiv el sposta el trim di messagg prima del rend e 'l l'aplica ai content_parts text e anca al content reasoning_content. La version l'è disponibil per macOS (Apple Silicon e Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Android e Windows."
+              },
+              "kicker": {
+                "fr": "Moteur",
+                "en": "Engine",
+                "de": "Engine",
+                "it": "Motore",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9870"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.9.12 ajoute le support du drafter Gemma 4 pour MTP",
+                "en": "Rapid-MLX 0.9.12 adds Gemma 4 drafter support for MTP",
+                "de": "Rapid-MLX 0.9.12 fügt Unterstützung für Gemma-4-Drafter für MTP hinzu",
+                "it": "Rapid-MLX 0.9.12 aggiunge il supporto del drafter Gemma 4 per MTP",
+                "lmo": "Rapid-MLX 0.9.12 el gionta el support del drafter Gemma 4 per MTP"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12\">Rapid-MLX 0.9.12</a> introduit le support du drafter assistant Gemma 4 pour la prédiction multi-token (MTP). Cette fonctionnalité, qui avait été revert dans la version précédente, est ré-appliquée et polie. L'installation se fait via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` ou `pip install -U rapid-mlx==0.9.12`.",
+                "en": "On 3 July 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12\">Rapid-MLX 0.9.12</a> introduces support for the Gemma 4 assistant drafter for multi-token prediction (MTP). This feature, which was reverted in the previous version, is re-applied and polished. Installation is via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` or `pip install -U rapid-mlx==0.9.12`.",
+                "de": "Am 3. Juli 2026 <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12\">führt Rapid-MLX 0.9.12</a> die Unterstützung des Gemma-4-Drafter-Assistenten für Multi-Token Prediction (MTP) ein. Diese Funktion, die in der Vorgängerversion zurückgesetzt worden war, wurde erneut implementiert und poliert. Die Installation erfolgt via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` oder `pip install -U rapid-mlx==0.9.12`.",
+                "it": "Il 3 luglio 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12\">Rapid-MLX 0.9.12</a> introduce il supporto del drafter assistente Gemma 4 per la predizione multi-token (MTP). Questa funzionalità, che era stata rimossa nella versione precedente, viene reimplementata e rifinita. L'installazione avviene tramite `brew upgrade raullenchai/rapid-mlx/rapid-mlx` o `pip install -U rapid-mlx==0.9.12`.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12\">Rapid-MLX 0.9.12</a> el introdüiss el support del drafter assistant Gemma 4 per la prevision multi-token (MTP). Questa fonzionalità, che l'era stada revertida in de la version precedent, l'è re-aplicada e polida. L'installazion la se fa via `brew upgrade raullenchai/rapid-mlx/rapid-mlx` o `pip install -U rapid-mlx==0.9.12`."
+              },
+              "kicker": {
+                "fr": "Moteur",
+                "en": "Engine",
+                "de": "Engine",
+                "it": "Motore",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Architecture",
+            "en": "Papers & Architecture",
+            "de": "Papers & Architektur",
+            "it": "Papers & Architettura",
+            "lmo": "Papers & Architettura"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Program-as-Weights : compiler des fonctions floues en réseaux de neurones compacts",
+                "en": "Program-as-Weights: compiling fuzzy functions into compact neural networks",
+                "de": "Program-as-Weights: Verschwommene Funktionen in kompakte neuronale Netze kompilieren",
+                "it": "Program-as-Weights: compilare funzioni fuzzy in reti neurali compatte",
+                "lmo": "Program-as-Weights: compilà di fonzion fò in red de neuroni compatt"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, des chercheurs de l'Université de Waterloo ont publié <a href=\"https://arxiv.org/abs/2607.02512\">Program-as-Weights (PAW)</a>, un nouveau paradigme de programmation qui compile des spécifications en langage naturel en artefacts neuronaux compacts et exécutables localement. Un compilateur de 4 milliards de paramètres, entraîné sur FuzzyBench (un jeu de données de 10 millions d'exemples), émet des adaptateurs paramétriques pour un interpréteur léger et figé de 600 millions de paramètres (Qwen3). Ce dernier atteint les performances d'un Qwen3-32B en prompting direct tout en utilisant environ un cinquantième de la mémoire d'inférence et en tournant à 30 tokens/s sur un MacBook M3.",
+                "en": "On 3 July 2026, researchers at the University of Waterloo published <a href=\"https://arxiv.org/abs/2607.02512\">Program-as-Weights (PAW)</a>, a new programming paradigm that compiles natural language specifications into compact, locally executable neural artefacts. A 4-billion-parameter compiler, trained on FuzzyBench (a dataset of 10 million examples), emits parametric adapters for a lightweight, frozen 600-million-parameter interpreter (Qwen3). The latter achieves the performance of a Qwen3-32B under direct prompting while using roughly one-fiftieth of the inference memory and running at 30 tokens/s on an M3 MacBook.",
+                "de": "Am 3. Juli 2026 veröffentlichten Forscher der University of Waterloo <a href=\"https://arxiv.org/abs/2607.02512\">Program-as-Weights (PAW)</a>, ein neues Programmierparadigma, das natürlichsprachliche Spezifikationen in kompakte, lokal ausführbare neuronale Artefakte kompiliert. Ein Compiler mit 4 Milliarden Parametern, trainiert auf FuzzyBench (einem Datensatz mit 10 Millionen Beispielen), erzeugt parametrische Adapter für einen leichten, fixierten Interpreter mit 600 Millionen Parametern (Qwen3). Dieser erreicht die Leistung eines Qwen3-32B bei direkter Prompting-Eingabe, benötigt aber nur etwa ein Fünfzigstel des Inferenzspeichers und läuft mit 30 Tokens/s auf einem MacBook M3.",
+                "it": "Il 3 luglio 2026, ricercatori dell'Università di Waterloo hanno pubblicato <a href=\"https://arxiv.org/abs/2607.02512\">Program-as-Weights (PAW)</a>, un nuovo paradigma di programmazione che compila specifiche in linguaggio naturale in artefatti neurali compatti ed eseguibili localmente. Un compilatore da 4 miliardi di parametri, addestrato su FuzzyBench (un dataset di 10 milioni di esempi), emette adattatori parametrici per un interprete leggero e fisso da 600 milioni di parametri (Qwen3). Quest'ultimo raggiunge le prestazioni di un Qwen3-32B in prompting diretto utilizzando circa un cinquantesimo della memoria di inferenza e funzionando a 30 token/s su un MacBook M3.",
+                "lmo": "El 3 de luj 2026, di ricercador de l'Università de Waterloo hann publicaa <a href=\"https://arxiv.org/abs/2607.02512\">Program-as-Weights (PAW)</a>, on noeuv paradigma de programazion che 'l compila di specificazion in lenguagg natural in artefati neuronai compatt e eseguibil localment. On compilator de 4 miliard de paràmetri, trainingaa in su FuzzyBench (on dataset de 10 milion de esempi), el emett di adattator parametric per on interpretator legger e figiaa de 600 milion de paràmetri (Qwen3). Quest chì el riva ai performance d'on Qwen3-32B in prompting diret, doperand circa on cinquantesim de la memoria d'inferenza e girand a 30 token/s in su on MacBook M3."
+              },
+              "kicker": {
+                "fr": "Article",
+                "en": "Paper",
+                "de": "Paper",
+                "it": "Articolo",
+                "lmo": "Articol"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.02512",
+                "https://programasweights.com/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "FlashMorph optimise la conversion des Transformers en modèles à attention hybride",
+                "en": "FlashMorph optimises conversion of Transformers into hybrid attention models",
+                "de": "FlashMorph optimiert die Konvertierung von Transformern in Modelle mit hybrider Aufmerksamkeit",
+                "it": "FlashMorph ottimizza la conversione dei Transformers in modelli ad attenzione ibrida",
+                "lmo": "FlashMorph el ottimizza la conversion di Transformers in modèj a attenzion ibrida"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, des chercheurs de ByteDance Seed et de l'Université de science et technologie de Chine ont publié <a href=\"https://arxiv.org/abs/2606.30562\">FlashMorph</a>, une méthode de sélection de couches pour la conversion de Transformers en modèles à attention hybride. FlashMorph formule la sélection comme un problème d'optimisation de sous-ensemble sous contrainte de budget, en utilisant des portes par couche entraînables sur des données synthétiques de récupération long-contexte. Les expériences montrent que FlashMorph découvre des configurations hybrides plus efficaces que les méthodes heuristiques, avec un coût de sélection réduit.",
+                "en": "On 3 July 2026, researchers from ByteDance Seed and the University of Science and Technology of China published <a href=\"https://arxiv.org/abs/2606.30562\">FlashMorph</a>, a layer selection method for converting Transformers into hybrid attention models. FlashMorph formulates selection as a subset optimisation problem under a budget constraint, using trainable per-layer gates on synthetic long-context retrieval data. Experiments show that FlashMorph discovers more effective hybrid configurations than heuristic methods, with reduced selection cost.",
+                "de": "Am 3. Juli 2026 veröffentlichten Forscher von ByteDance Seed und der University of Science and Technology of China <a href=\"https://arxiv.org/abs/2606.30562\">FlashMorph</a>, eine Methode zur Schichtauswahl für die Konvertierung von Transformern in Modelle mit hybrider Aufmerksamkeit. FlashMorph formuliert die Auswahl als Optimierungsproblem einer Teilmenge unter Budgetbeschränkung, wobei trainierbare Tore pro Schicht auf synthetischen Long-Context-Retrieval-Daten zum Einsatz kommen. Experimente zeigen, dass FlashMorph effizientere hybride Konfigurationen findet als heuristische Methoden, bei reduzierten Auswahlkosten.",
+                "it": "Il 3 luglio 2026, ricercatori di ByteDance Seed e dell'Università di Scienza e Tecnologia della Cina hanno pubblicato <a href=\"https://arxiv.org/abs/2606.30562\">FlashMorph</a>, un metodo di selezione dei layer per la conversione di Transformers in modelli ad attenzione ibrida. FlashMorph formula la selezione come un problema di ottimizzazione di sottoinsieme con vincolo di budget, utilizzando porte per layer addestrabili su dati sintetici di recupero long-context. Gli esperimenti mostrano che FlashMorph scopre configurazioni ibride più efficaci dei metodi euristici, con un costo di selezione ridotto.",
+                "lmo": "El 3 de luj 2026, di ricercador de ByteDance Seed e de l'Università de scienza e tecnologia de la Cina hann publicaa <a href=\"https://arxiv.org/abs/2606.30562\">FlashMorph</a>, ona metoda de selezion de layer per la conversion de Transformers in modèj a attenzion ibrida. FlashMorph el formula la selezion come on problema de ottimizzazion de sotto-insiem sota vincol de budget, doperand di port per layer trainingabel in su dati sintetich de recuper long-context. I esperiment mostren che FlashMorph el descovrì di configürazion ibrid pussee efficent di metod euristiche, cont on cost de selezion ridot."
+              },
+              "kicker": {
+                "fr": "Article",
+                "en": "Paper",
+                "de": "Paper",
+                "it": "Articolo",
+                "lmo": "Articol"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2606.30562"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Séparer prédiction et état dans les Transformers améliore les performances",
+                "en": "Separating prediction and state in Transformers improves performance",
+                "de": "Trennung von Vorhersage und Zustand in Transformatoren verbessert die Leistung",
+                "it": "Separare predizione e stato nei Transformers migliora le prestazioni",
+                "lmo": "Separà prevision e stat in di Transformers el migliora i performance"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, des chercheurs de Cornell ont publié <a href=\"https://arxiv.org/abs/2607.01218\">The State-Prediction Separation Hypothesis</a>, qui propose de séparer dans les Transformers le flux de calcul dédié à la prédiction du prochain token de celui dédié au stockage d'état pour les prédictions futures. Leur variante à deux flux améliore la perplexité et surpasse les Transformers standards de 2 à 3 points de pourcentage en moyenne sur les tâches aval, avec une meilleure efficacité en données et en calcul.",
+                "en": "On 3 July 2026, researchers at Cornell published <a href=\"https://arxiv.org/abs/2607.01218\">The State-Prediction Separation Hypothesis</a>, which proposes separating in Transformers the computational flow dedicated to next-token prediction from that dedicated to state storage for future predictions. Their two-stream variant improves perplexity and outperforms standard Transformers by 2 to 3 percentage points on average on downstream tasks, with better data and compute efficiency.",
+                "de": "Am 3. Juli 2026 veröffentlichten Forscher der Cornell University <a href=\"https://arxiv.org/abs/2607.01218\">The State-Prediction Separation Hypothesis</a>, die vorschlägt, in Transformatoren den Rechenfluss für die Vorhersage des nächsten Tokens von jenem für die Zustandsspeicherung für zukünftige Vorhersagen zu trennen. Ihre Zwei-Fluss-Variante verbessert die Perplexität und übertrifft Standard-Transformer um durchschnittlich 2 bis 3 Prozentpunkte bei nachgelagerten Aufgaben, bei besserer Daten- und Recheneffizienz.",
+                "it": "Il 3 luglio 2026, ricercatori della Cornell University hanno pubblicato <a href=\"https://arxiv.org/abs/2607.01218\">The State-Prediction Separation Hypothesis</a>, che propone di separare nei Transformers il flusso di calcolo dedicato alla predizione del token successivo da quello dedicato all'archiviazione dello stato per le predizioni future. La loro variante a due flussi migliora la perplexity e supera i Transformers standard dal 2 al 3 punti percentuali in media sui compiti downstream, con una migliore efficienza in termini di dati e calcolo.",
+                "lmo": "El 3 de luj 2026, di ricercador de Cornell hann publicaa <a href=\"https://arxiv.org/abs/2607.01218\">The State-Prediction Separation Hypothesis</a>, che la propon de separà in di Transformers el fluss de calcol dedicaa a la prevision del prossim token de quell dedicaa al storage de stat per i prevision futur. La soa variant a du fluss la migliora la perplexità e la supera i Transformers standard de 2 a 3 pont percentual in media in sui incarigh aval, cont ona miglior efficenza in dati e in calcol."
+              },
+              "kicker": {
+                "fr": "Article",
+                "en": "Paper",
+                "de": "Paper",
+                "it": "Articolo",
+                "lmo": "Articol"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.01218"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Communauté & Édito",
+            "en": "Community & Editorial",
+            "de": "Community & Leitartikel",
+            "it": "Comunità & Editoriale",
+            "lmo": "Comunità & Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Bridgewater et Thinking Machines Lab fine-tunent Qwen3-235B pour la finance",
+                "en": "Bridgewater and Thinking Machines Lab fine-tune Qwen3-235B for finance",
+                "de": "Bridgewater und Thinking Machines Lab stimmen Qwen3-235B für Finanzen fein",
+                "it": "Bridgewater e Thinking Machines Lab fanno fine-tuning di Qwen3-235B per la finanza",
+                "lmo": "Bridgewater e Thinking Machines Lab fine-tunen Qwen3-235B per la finanza"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/\">Bridgewater Associates et Thinking Machines Lab</a> — la startup fondée par l'ancienne CTO d'OpenAI Mira Murati — ont fine-tuné un modèle Qwen3-235B pour des tâches financières. Selon leurs tests, le modèle atteint 84,7 % de précision, surpassant Gemini, Claude et GPT pour environ un quatorzième du coût. Les résultats n'ont pas été vérifiés par des tiers indépendants.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/\">Bridgewater Associates and Thinking Machines Lab</a> — the startup founded by former OpenAI CTO Mira Murati — fine-tuned a Qwen3-235B model for financial tasks. According to their tests, the model achieves 84.7% accuracy, surpassing Gemini, Claude and GPT for roughly one-fourteenth of the cost. The results have not been verified by independent third parties.",
+                "de": "Am 3. Juli 2026 haben <a href=\"https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/\">Bridgewater Associates und Thinking Machines Lab</a> – das Startup der ehemaligen OpenAI-CTO Mira Murati – ein Qwen3-235B-Modell für Finanzaufgaben feinabgestimmt. Laut ihren Tests erreicht das Modell eine Genauigkeit von 84,7 % und übertrifft Gemini, Claude und GPT zu etwa einem Vierzehntel der Kosten. Die Ergebnisse wurden nicht von unabhängigen Dritten überprüft.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/\">Bridgewater Associates e Thinking Machines Lab</a> — la startup fondata dall'ex CTO di OpenAI Mira Murati — hanno effettuato il fine-tuning di un modello Qwen3-235B per compiti finanziari. Secondo i loro test, il modello raggiunge l'84,7% di precisione, superando Gemini, Claude e GPT per circa un quattordicesimo del costo. I risultati non sono stati verificati da terze parti indipendenti.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/\">Bridgewater Associates e Thinking Machines Lab</a> — la startup fondada de l'ex CTO d'OpenAI Mira Murati — hann faa fine-tuning a on modèl Qwen3-235B per di incarigh finanzari. Segond i sò test, el modèl el riva a 84,7% de precision, superand Gemini, Claude e GPT per circa on quattordicesim del cost. I resultà hinn minga staa verificaa de terz independent."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://the-decoder.com/gpt-and-claude-failed-bridgewaters-finance-tests-because-the-right-answers-were-never-public/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Zuckerberg admet que la poussée agents de Meta est plus lente que prévu",
+                "en": "Zuckerberg admits Meta's agent push is slower than planned",
+                "de": "Zuckerberg räumt ein: Metas Agenten-Vorstoss ist langsamer als geplant",
+                "it": "Zuckerberg ammette che la spinta sugli agenti di Meta è più lenta del previsto",
+                "lmo": "Zuckerberg l'ammett che la spinta aghent de Meta l'è pussee lenta del previst"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/\">Mark Zuckerberg a reconnu des faiblesses dans la restructuration de Meta</a> lors d'un town hall interne. Les agents d'IA autour desquels Meta s'est réorganisé progressent plus lentement que prévu, a déclaré Zuckerberg, tandis que son directeur de l'IA peignait un tableau plus optimiste.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/\">Mark Zuckerberg acknowledged weaknesses in Meta's restructuring</a> during an internal town hall. The AI agents around which Meta has reorganised are progressing more slowly than planned, Zuckerberg said, while his AI director painted a more optimistic picture.",
+                "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/\">räumte Mark Zuckerberg in einer internen Town-Hall-Veranstaltung Schwächen bei der Umstrukturierung von Meta ein</a>. Die KI-Agenten, um die herum Meta sich neu organisiert hat, kämen langsamer voran als geplant, so Zuckerberg, während sein KI-Direktor ein optimistischeres Bild zeichnete.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/\">Mark Zuckerberg ha riconosciuto delle debolezze nella ristrutturazione di Meta</a> durante un town hall interno. Gli agenti di IA attorno ai quali Meta si è riorganizzata stanno progredendo più lentamente del previsto, ha dichiarato Zuckerberg, mentre il suo direttore dell'IA dipingeva un quadro più ottimista.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/\">Mark Zuckerberg l'ha recognossüü di debolezz in la ristrutturazion de Meta</a> durant on town hall intern. I aghent d'IA intorna ai quai Meta s'è reorganizzaa, innanz pussee pian del previst, l'ha dii Zuckerberg, intant che 'l sò diretor de l'IA el depensgeva on quader pussee ottimista."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://the-decoder.com/metas-ai-agent-push-is-moving-slower-than-zuckerberg-planned/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Kling (Kuaishou) lève 2 milliards de dollars avant son IPO à Hong Kong",
+                "en": "Kling (Kuaishou) raises $2 billion ahead of Hong Kong IPO",
+                "de": "Kling (Kuaishou) nimmt 2 Milliarden Dollar vor Börsengang in Hongkong auf",
+                "it": "Kling (Kuaishou) raccoglie 2 miliardi di dollari prima della sua IPO a Hong Kong",
+                "lmo": "Kling (Kuaishou) el cugliern 2 miliard de dollar prima de l'IPO a Hong Kong"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/\">Kuaishou a levé environ 2 milliards de dollars</a> auprès d'investisseurs pour sa division vidéo IA Kling, qui se prépare à une introduction en bourse à Hong Kong. Cette levée de fonds massive témoigne de l'appétit des investisseurs pour les technologies de génération vidéo par IA, un secteur en pleine effervescence.",
+                "en": "On 3 July 2026, <a href=\"https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/\">Kuaishou raised approximately $2 billion</a> from investors for its AI video division Kling, which is preparing for an initial public offering in Hong Kong. This massive fundraising round testifies to investor appetite for AI video generation technologies, a sector in full ferment.",
+                "de": "Am 3. Juli 2026 <a href=\"https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/\">hat Kuaishou rund 2 Milliarden US-Dollar</a> von Investoren für seine KI-Videosparte Kling eingesammelt, die sich auf einen Börsengang in Hongkong vorbereitet. Diese massive Mittelbeschaffung zeugt von der Investorennachfrage nach KI-Videogenerierungstechnologien, einem Sektor in voller Blüte.",
+                "it": "Il 3 luglio 2026, <a href=\"https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/\">Kuaishou ha raccolto circa 2 miliardi di dollari</a> da investitori per la sua divisione video IA Kling, che si prepara a un'offerta pubblica iniziale a Hong Kong. Questa massiccia raccolta fondi testimonia l'appetito degli investitori per le tecnologie di generazione video tramite IA, un settore in piena effervescenza.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/\">Kuaishou l'ha cuglii circa 2 miliard de dollar</a> de investitor per la soa division video IA Kling, che la se prepara a ona introduzion in borsa a Hong Kong. Questa cugliida massiva de fond la testimonia l'apetit di investitor per i tecnologij de generazion video per IA, on setor in piena efervescenza."
+              },
+              "kicker": {
+                "fr": "Financement",
+                "en": "Funding",
+                "de": "Finanzierung",
+                "it": "Finanziamento",
+                "lmo": "Finanziament"
+              },
+              "urls": [
+                "https://the-decoder.com/chinese-ai-video-maker-kling-raises-2-billion-as-it-gears-up-for-hong-kong-ipo/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito : les États-Unis devraient construire leur propre modèle d'IA frontière",
+                "en": "Editorial: the US should build its own frontier AI model",
+                "de": "Leitartikel: Die USA sollten ihr eigenes KI-Spitzenmodell bauen",
+                "it": "Editoriale: gli Stati Uniti dovrebbero costruire il proprio modello di IA frontiera",
+                "lmo": "Editorial: i Stat Unii dovarissen costruì el sò propri modèl d'IA frontiera"
+              },
+              "body": {
+                "fr": "Le 3 juillet 2026, <a href=\"https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html\">le New York Times a publié une tribune</a> plaidant pour que les États-Unis construisent leur propre modèle d'IA frontière au sein des laboratoires nationaux, par analogie avec le projet Manhattan. L'article soutient qu'il n'y a aucune raison pour que le pays s'abstienne de développer un modèle souverain, dans un contexte de compétition technologique croissante avec la Chine.",
+                "en": "On 3 July 2026, <a href=\"https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html\">the New York Times published an op-ed</a> arguing that the United States should build its own frontier AI model within national laboratories, by analogy with the Manhattan Project. The article contends that there is no reason for the country to refrain from developing a sovereign model, in a context of growing technological competition with China.",
+                "de": "Am 3. Juli 2026 <a href=\"https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html\">veröffentlichte die New York Times einen Gastbeitrag</a>, der dafür plädiert, dass die USA in ihren nationalen Labors ein eigenes KI-Spitzenmodell entwickeln sollten – analog zum Manhattan-Projekt. Der Artikel argumentiert, es gebe keinen Grund, warum das Land in einem Kontext wachsenden technologischen Wettbewerbs mit China auf die Entwicklung eines souveränen Modells verzichten sollte.",
+                "it": "Il 3 luglio 2026, <a href=\"https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html\">il New York Times ha pubblicato un editoriale</a> che sostiene la necessità per gli Stati Uniti di costruire il proprio modello di IA frontiera all'interno dei laboratori nazionali, per analogia con il progetto Manhattan. L'articolo sostiene che non vi è alcuna ragione per cui il paese dovrebbe astenersi dallo sviluppare un modello sovrano, in un contesto di crescente competizione tecnologica con la Cina.",
+                "lmo": "El 3 de luj 2026, <a href=\"https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html\">el New York Times l'ha publicaa ona tribuna</a> che la dis che i Stat Unii dovarissen costruì el sò propri modèl d'IA frontiera denter i laboratori nazionai, per analogia cont el proget Manhattan. L'articol el sostegn che gh'è minga nissuna reson per el paes de stàssen de desviluppà on modèl sovran, in on contest de competizion tecnologica semper pussee granda con la Cina."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/03/opinion/ai-national-lab-us.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
