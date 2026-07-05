@@ -1,0 +1,664 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-05",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Claude Science gère le calcul distribué sur machines locales, clusters HPC via SSH et plateformes cloud comme Modal, et se connecte à plus de 60 bases de données scientifiques ainsi qu'aux compétences NVIDIA BioNeMo. Cette infrastructure permet aux chercheurs d'exécuter des workflows complexes sans avoir à gérer manuellement l'approvisionnement en ressources de calcul ni la reproductibilité des environnements logiciels. L'outil s'inscrit dans la stratégie d'Anthropic d'étendre son écosystème Claude au-delà du codage et de la productivité vers des applications scientifiques de pointe.",
+        "en": "Claude Science manages distributed computing across local machines, HPC clusters via SSH, and cloud platforms like Modal, and connects to over 60 scientific databases as well as NVIDIA BioNeMo skills. This infrastructure allows researchers to execute complex workflows without having to manually manage compute resource provisioning or software environment reproducibility. The tool is part of Anthropic's strategy to extend its Claude ecosystem beyond coding and productivity into cutting-edge scientific applications.",
+        "de": "Claude Science verwaltet verteiltes Rechnen auf lokalen Maschinen, HPC-Clustern via SSH und Cloud-Plattformen wie Modal und verbindet sich mit über 60 wissenschaftlichen Datenbanken sowie den NVIDIA BioNeMo-Fähigkeiten. Diese Infrastruktur ermöglicht es Forschern, komplexe Workflows auszuführen, ohne die Rechenressourcen manuell bereitstellen oder die Reproduzierbarkeit von Softwareumgebungen verwalten zu müssen. Das Tool ist Teil von Anthropics Strategie, sein Claude-Ökosystem über das Programmieren und die Produktivität hinaus auf hochmoderne wissenschaftliche Anwendungen auszudehnen.",
+        "it": "Claude Science gestisce il calcolo distribuito su macchine locali, cluster HPC via SSH e piattaforme cloud come Modal, e si connette a oltre 60 database scientifici oltre che alle competenze NVIDIA BioNeMo. Questa infrastruttura permette ai ricercatori di eseguire workflow complessi senza dover gestire manualmente il provisioning delle risorse di calcolo né la riproducibilità degli ambienti software. Lo strumento si inserisce nella strategia di Anthropic di estendere il proprio ecosistema Claude oltre la programmazione e la produttività verso applicazioni scientifiche d'avanguardia.",
+        "lmo": "Claude Science la gestiss el calcol distribuii sora macchin locai, cluster HPC via SSH e piattaform cloud 'me Modal, e la se conliga a pussee de 60 bas de dacc scentifich e anca a competenz NVIDIA BioNeMo. 'Sta infrastrutura la permet ai ricercator de eseguì workflow compless senza havè de gestì manualment el provediment di risors de calcol ni la reproductibilità di ambient software. L'utensil el se mett denter in la strategia d'Anthropic de slargà el sò ecosistema Claude oltra el codà e la produttività vers aplicazion scentifiche de ponta."
+      },
+      {
+        "fr": "Cette annonce intervient alors qu'Anthropic lance également ses propres programmes de <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">découverte de médicaments</a> pour des maladies négligées que l'industrie pharmaceutique juge non rentables. Le PDG de Novartis, Vas Narasimhan, estime que l'IA pourrait réduire le temps de développement de douze à sept ou huit ans et doubler le taux de succès de 8 à 16 %. Ces deux initiatives signalent une ambition croissante d'Anthropic dans le secteur des sciences de la vie.",
+        "en": "The announcement comes as Anthropic also launches its own <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">drug discovery programs</a> for neglected diseases that the pharmaceutical industry considers unprofitable. Novartis CEO Vas Narasimhan estimates that AI could reduce development time from twelve to seven or eight years and double the success rate from 8 to 16 percent. These two initiatives signal Anthropic's growing ambition in the life sciences sector.",
+        "de": "Diese Ankündigung erfolgt, während Anthropic auch eigene <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">Programme zur Wirkstoffforschung</a> für vernachlässigte Krankheiten startet, die die Pharmaindustrie für unrentabel hält. Novartis-CEO Vas Narasimhan schätzt, dass KI die Entwicklungszeit von zwölf auf sieben oder acht Jahre verkürzen und die Erfolgsrate von 8 auf 16 Prozent verdoppeln könnte. Diese beiden Initiativen signalisieren einen wachsenden Ehrgeiz von Anthropic im Bereich der Biowissenschaften.",
+        "it": "Questo annuncio arriva mentre Anthropic lancia anche i propri programmi di <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">scoperta di farmaci</a> per malattie trascurate che l'industria farmaceutica considera non redditizie. L'amministratore delegato di Novartis, Vas Narasimhan, stima che l'IA potrebbe ridurre i tempi di sviluppo da dodici a sette o otto anni e raddoppiare il tasso di successo dall'8 al 16%. Queste due iniziative segnalano una crescente ambizione di Anthropic nel settore delle scienze della vita.",
+        "lmo": "'Sto anunzi el riva intant che Anthropic la lanza anca i sò programm de <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">descovèrt di medesin</a> per malattii trascurà che l'industria farmaceutica la considera minga profitevol. El CEO de Novartis, Vas Narasimhan, el pensa che l'IA la podaria sbassà el temp de desvilupp de dodes a sett o vott ann e fà el doppi del tass de sucess de l'8 al 16 %. 'Sti duu iniziativ hinn segnal d'ona ambizion semper pussee granda d'Anthropic in del settor di scenz de la vita."
+      }
+    ],
+    "urls": [
+      "https://www.marktechpost.com/2026/07/04/anthropic-launches-claude-science-beta/",
+      "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/"
+    ],
+    "kicker": {
+      "fr": "Recherche scientifique",
+      "en": "Scientific Research",
+      "de": "Wissenschaftliche Forschung",
+      "it": "Ricerca scientifica",
+      "lmo": "Ricerca scentifica"
+    },
+    "headline": {
+      "fr": "Anthropic lance Claude Science, un laboratoire multi-agents pour la recherche reproductible",
+      "en": "Anthropic Launches Claude Science, a Multi-Agent Lab for Reproducible Research",
+      "de": "Anthropic lanciert Claude Science, ein Multi-Agenten-Labor für reproduzierbare Forschung",
+      "it": "Anthropic lancia Claude Science, un laboratorio multi-agente per la ricerca riproducibile",
+      "lmo": "Anthropic la fa su e Claude Science, on laboratori multi-agent per la ricerca reproductibila"
+    },
+    "subdeck": {
+      "fr": "La plateforme orchestre des agents spécialisés pour automatiser les pipelines de recherche, avec traçabilité complète et calcul distribué.",
+      "en": "The platform orchestrates specialized agents to automate research pipelines, with full traceability and distributed computing.",
+      "de": "Die Plattform orchestriert spezialisierte Agenten, um Forschungspipelines zu automatisieren, mit vollständiger Rückverfolgbarkeit und verteiltem Rechnen.",
+      "it": "La piattaforma orchestra agenti specializzati per automatizzare le pipeline di ricerca, con tracciabilità completa e calcolo distribuito.",
+      "lmo": "La piattaforma l'orchestra di agent specializzaa per automatizzà i pipeline de ricerca, con tracciabilità completa e calcol distribuii."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "NVIDIA HORIZON : 100 % sur les benchmarks RTL",
+        "en": "NVIDIA HORIZON: 100 Percent on RTL Benchmarks",
+        "de": "NVIDIA HORIZON: 100 % bei RTL-Benchmarks",
+        "it": "NVIDIA HORIZON: 100% sui benchmark RTL",
+        "lmo": "NVIDIA HORIZON: 100 % sora i benchmark RTL"
+      },
+      "body": {
+        "fr": "NVIDIA a dévoilé <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, un agent atteignant 100 % sur les benchmarks RTL de conception matérielle. L'agent héberge chaque problème comme un dépôt versionné et génère automatiquement les solutions de circuits.",
+        "en": "NVIDIA has unveiled <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, an agent achieving 100 percent on RTL hardware design benchmarks. The agent hosts each problem as a versioned repository and automatically generates circuit solutions.",
+        "de": "NVIDIA hat <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a> vorgestellt, einen Agenten, der 100 % bei RTL-Benchmarks für Hardware-Design erreicht. Der Agent hostet jedes Problem als versioniertes Repository und generiert automatisch Schaltungslösungen.",
+        "it": "NVIDIA ha svelato <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, un agente che raggiunge il 100% sui benchmark RTL di progettazione hardware. L'agente ospita ogni problema come un repository versionato e genera automaticamente le soluzioni circuitali.",
+        "lmo": "NVIDIA l'ha presenta <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, on agent che 'l riva al 100 % sora i benchmark RTL de progettazion material. L'agent el ospita ogni problema 'me on deposit versionaa e 'l genera automaticament i soluzion de circuit."
+      },
+      "tag": {
+        "fr": "NVIDIA",
+        "en": "NVIDIA",
+        "de": "NVIDIA",
+        "it": "NVIDIA",
+        "lmo": "NVIDIA"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Leanstral 1.5 détecte des bogues réels",
+        "en": "Leanstral 1.5 Detects Real Bugs",
+        "de": "Leanstral 1.5 erkennt echte Fehler",
+        "it": "Leanstral 1.5 rileva bug reali",
+        "lmo": "Leanstral 1.5 el détetta di boghes reai"
+      },
+      "body": {
+        "fr": "Mistral AI a publié <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, modèle open-source de vérification formelle en Lean 4. Il a découvert cinq bogues inconnus en analysant 57 dépôts open-source.",
+        "en": "Mistral AI has released <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, an open-source model for formal verification in Lean 4. It discovered five unknown bugs while analyzing 57 open-source repositories.",
+        "de": "Mistral AI hat <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a> veröffentlicht, ein Open-Source-Modell für formale Verifikation in Lean 4. Es entdeckte fünf unbekannte Fehler bei der Analyse von 57 Open-Source-Repositories.",
+        "it": "Mistral AI ha pubblicato <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, modello open-source di verifica formale in Lean 4. Ha scoperto cinque bug sconosciuti analizzando 57 repository open-source.",
+        "lmo": "Mistral AI l'ha publicaa <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, model open-source de verificazion formal in Lean 4. L'ha descovèrt cinch boghes conossuu no in analizzà 57 deposit open-source."
+      },
+      "tag": {
+        "fr": "Mistral AI",
+        "en": "Mistral AI",
+        "de": "Mistral AI",
+        "it": "Mistral AI",
+        "lmo": "Mistral AI"
+      },
+      "urls": [
+        "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Seed2.0 : ByteDance détaille son modèle de nouvelle génération",
+        "en": "Seed2.0: ByteDance Details Its Next-Generation Model",
+        "de": "Seed2.0: ByteDance stellt sein Modell der nächsten Generation vor",
+        "it": "Seed2.0: ByteDance descrive il suo modello di nuova generazione",
+        "lmo": "Seed2.0: ByteDance el dettaglia el sò model de noeuva generazion"
+      },
+      "body": {
+        "fr": "ByteDance Seed a publié la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, détaillant un modèle ciblant la connaissance de longue traîne et le suivi complexe d'instructions, avec des capacités de raisonnement, vision et recherche de niveau mondial.",
+        "en": "ByteDance Seed has published the <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, detailing a model targeting long-tail knowledge and complex instruction following, with world-class reasoning, vision, and search capabilities.",
+        "de": "ByteDance Seed hat die <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a> veröffentlicht, die ein Modell detailliert beschreibt, das auf Long-Tail-Wissen und komplexe Instruktionsverfolgung abzielt, mit Denk-, Seh- und Suchfähigkeiten auf Weltniveau.",
+        "it": "ByteDance Seed ha pubblicato la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, descrivendo un modello mirato alla conoscenza di coda lunga e al follow-up complesso di istruzioni, con capacità di ragionamento, visione e ricerca di livello mondiale.",
+        "lmo": "ByteDance Seed l'ha publicaa la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, dettagliand on model che 'l mira la conoscenza de longa cova e 'l seguiment compless d'istruzion, con di capacità de resonament, vision e ricerca de nivell mondial."
+      },
+      "tag": {
+        "fr": "ByteDance",
+        "en": "ByteDance",
+        "de": "ByteDance",
+        "it": "ByteDance",
+        "lmo": "ByteDance"
+      },
+      "urls": [
+        "https://huggingface.co/api/daily_papers?limit=50"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Fuite potentielle de session dans Claude Code",
+        "en": "Potential Session Leak in Claude Code",
+        "de": "Potentielles Session-Leck in Claude Code",
+        "it": "Potenziale fuga di sessione in Claude Code",
+        "lmo": "Fuita potenzial de session in Claude Code"
+      },
+      "body": {
+        "fr": "Un <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problème de fuite de session</a> dans Claude Code a recueilli 282 points sur Hacker News. Des données de session pourraient être accessibles entre instances d'espace de travail.",
+        "en": "A <a href=\"https://github.com/anthropics/claude-code/issues/74066\">session leak issue</a> in Claude Code has garnered 282 points on Hacker News. Session data could be accessible between workspace instances.",
+        "de": ":",
+        "it": "Un <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problema di fuga di sessione</a> in Claude Code ha raccolto 282 punti su Hacker News. I dati di sessione potrebbero essere accessibili tra istanze di workspace.",
+        "lmo": "On <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problema de fuita de session</a> in Claude Code l'ha cataa su 282 pont sora Hacker News. Di dacc de session podarien vess accessibil tra istanz de spazzi de lavorà."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Segurezza"
+      },
+      "urls": [
+        "https://github.com/anthropics/claude-code/issues/74066"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "GPT-5.5 Codex : le clustering des tokens de raisonnement en cause",
+        "en": "GPT-5.5 Codex: Reasoning Token Clustering at Fault",
+        "de": "GPT-5.5 Codex: Reasoning-Token-Clustering als Ursache",
+        "it": "GPT-5.5 Codex: il clustering dei token di ragionamento sotto accusa",
+        "lmo": "GPT-5.5 Codex: el clustering di token de resonament in causa"
+      },
+      "body": {
+        "fr": "Un <a href=\"https://github.com/openai/codex/issues/30364\">bug signalé sur Codex</a> suggère que le clustering des tokens de raisonnement de GPT-5.5 dégrade les performances. 197 points sur Hacker News.",
+        "en": "A <a href=\"https://github.com/openai/codex/issues/30364\">bug reported on Codex</a> suggests that GPT-5.5's reasoning token clustering degrades performance. 197 points on Hacker News.",
+        "de": "Ein <a href=\"https://github.com/openai/codex/issues/30364\">Fehlerbericht zu Codex</a> deutet darauf hin, dass das Clustering der Reasoning-Tokens von GPT-5.5 die Leistung beeinträchtigt. 197 Punkte auf Hacker News.",
+        "it": "Un <a href=\"https://github.com/openai/codex/issues/30364\">bug segnalato su Codex</a> suggerisce che il clustering dei token di ragionamento di GPT-5.5 degrada le performance. 197 punti su Hacker News.",
+        "lmo": "On <a href=\"https://github.com/openai/codex/issues/30364\">bug segnalaa sora Codex</a> el suggeriss che 'l clustering di token de resonament de GPT-5.5 el sbassa i performance. 197 pont sora Hacker News."
+      },
+      "tag": {
+        "fr": "Débogage",
+        "en": "Debugging",
+        "de": "Debugging",
+        "it": "Debug",
+        "lmo": "Débogage"
+      },
+      "urls": [
+        "https://github.com/openai/codex/issues/30364"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "NVIDIA HORIZON atteint 100 % sur les benchmarks de conception matérielle",
+                "en": "NVIDIA HORIZON Hits 100 Percent on Hardware Design Benchmarks",
+                "de": "NVIDIA HORIZON erreicht 100 % bei Hardware-Entwurfs-Benchmarks",
+                "it": "NVIDIA HORIZON raggiunge il 100% sui benchmark di progettazione hardware",
+                "lmo": "NVIDIA HORIZON el riva al 100 % sora i benchmark de progettazion material"
+              },
+              "body": {
+                "fr": "NVIDIA a dévoilé <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, un agent « mains libres » qui atteint 100 % de complétion sur les benchmarks RTL (Register Transfer Level). L'agent héberge chaque problème de conception matérielle comme un dépôt versionné, évolue les worktrees Git et génère automatiquement les solutions de conception de circuits. Cette performance suggère que les agents IA commencent à rivaliser avec les ingénieurs matériels sur des tâches de synthèse logique standardisées.",
+                "en": "NVIDIA has unveiled <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, a \"hands-free\" agent that achieves 100 percent completion on RTL (Register Transfer Level) benchmarks. The agent hosts each hardware design problem as a versioned repository, evolves Git worktrees, and automatically generates circuit design solutions. This performance suggests that AI agents are beginning to rival hardware engineers on standardized logic synthesis tasks.",
+                "de": "NVIDIA hat <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a> vorgestellt, einen «Freihand»-Agenten, der eine 100-prozentige Abschlussrate bei RTL-Benchmarks (Register Transfer Level) erreicht. Der Agent hostet jedes Hardware-Entwurfsproblem als versioniertes Repository, entwickelt Git-Worktrees weiter und generiert automatisch Schaltungsentwurfslösungen. Diese Leistung deutet darauf hin, dass KI-Agenten beginnen, mit Hardware-Ingenieuren bei standardisierten Logiksyntheseaufgaben zu konkurrieren.",
+                "it": "NVIDIA ha svelato <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, un agente \"a mani libere\" che raggiunge il 100% di completamento sui benchmark RTL (Register Transfer Level). L'agente ospita ogni problema di progettazione hardware come un repository versionato, evolve i worktree Git e genera automaticamente le soluzioni di progettazione circuitale. Questa performance suggerisce che gli agenti IA stanno iniziando a competere con gli ingegneri hardware su compiti di sintesi logica standardizzati.",
+                "lmo": "NVIDIA l'ha presenta <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">HORIZON</a>, on agent \"a man liber\" che 'l riva al 100 % de completament sora i benchmark RTL (Register Transfer Level). L'agent el ospita ogni problema de progettazion material 'me on deposit versionaa, el fa evolv i worktrees Git e 'l genera automaticament i soluzion de progettazion di circuit. 'Sta performance la suggeriss che i agent IA comenzen a rivalizzà con i ingegner material sora di compit de sintesi logica standardizzaa."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mistral dévoile Leanstral 1.5, un modèle de vérification formelle qui détecte des bogues réels",
+                "en": "Mistral Unveils Leanstral 1.5, a Formal Verification Model That Catches Real Bugs",
+                "de": "Mistral stellt Leanstral 1.5 vor, ein formales Verifikationsmodell, das echte Fehler erkennt",
+                "it": "Mistral svela Leanstral 1.5, un modello di verifica formale che rileva bug reali",
+                "lmo": "Mistral el presenta Leanstral 1.5, on model de verificazion formal che 'l détetta di boghes reai"
+              },
+              "body": {
+                "fr": "Mistral AI a publié <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, un modèle open-source spécialisé dans la vérification formelle avec Lean 4. Au-delà des performances sur les benchmarks mathématiques formels, le modèle a découvert cinq bogues inconnus en analysant 57 dépôts open-source. Cette capacité à détecter des vulnérabilités réelles dans le code existant distingue Leanstral 1.5 des modèles de raisonnement mathématique généralistes.",
+                "en": "Mistral AI has released <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, an open-source model specialized in formal verification with Lean 4. Beyond performance on formal math benchmarks, the model discovered five unknown bugs while analyzing 57 open-source repositories. This ability to detect real-world vulnerabilities in existing code sets Leanstral 1.5 apart from general-purpose mathematical reasoning models.",
+                "de": "Mistral AI hat <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a> veröffentlicht, ein Open-Source-Modell, das auf formale Verifikation mit Lean 4 spezialisiert ist. Über die Leistung bei formalen Mathematik-Benchmarks hinaus entdeckte das Modell fünf unbekannte Fehler bei der Analyse von 57 Open-Source-Repositories. Diese Fähigkeit, echte Schwachstellen in bestehendem Code zu erkennen, unterscheidet Leanstral 1.5 von allgemeinen mathematischen Denkmodellen.",
+                "it": "Mistral AI ha pubblicato <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, un modello open-source specializzato nella verifica formale con Lean 4. Oltre alle performance sui benchmark matematici formali, il modello ha scoperto cinque bug sconosciuti analizzando 57 repository open-source. Questa capacità di rilevare vulnerabilità reali nel codice esistente distingue Leanstral 1.5 dai modelli di ragionamento matematico generalisti.",
+                "lmo": "Mistral AI l'ha publicaa <a href=\"https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/\">Leanstral 1.5</a>, on model open-source specializzaa in la verificazion formal con Lean 4. Oltra i performance sora i benchmark de matematega formal, el model l'ha descovèrt cinch boghes conossuu no in analizzà 57 deposit open-source. 'Sta capacità de détettà di vulnerabilità reai in del codes esistent la destingua Leanstral 1.5 di model de resonament matemategh generalista."
+              },
+              "kicker": {
+                "fr": "Mistral AI",
+                "en": "Mistral AI",
+                "de": "Mistral AI",
+                "it": "Mistral AI",
+                "lmo": "Mistral AI"
+              },
+              "urls": [
+                "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnet Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harness & CLI",
+            "de": "Geschirr & CLI",
+            "it": "Harnais & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9873 corrige un crash en décodage spéculatif",
+                "en": "llama.cpp b9873 Fixes Crash in Speculative Decoding",
+                "de": "llama.cpp b9873 behebt Absturz beim spekulativen Decoding",
+                "it": "llama.cpp b9873 corregge un crash in decodifica speculativa",
+                "lmo": "llama.cpp b9873 el corregg on crash in decodifega speculativa"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9873\">b9873</a> de llama.cpp, publiée le 4 juillet 2026, corrige un crash survenant lors du décodage spéculatif avec injection KV. Le correctif ajoute un garde-fou pour les entrées de rotation K/V lorsque le buffer n'est pas alloué, un scénario qui se produit quand un graphe stocke les paires clé-valeur sans y appliquer d'attention — typique du décodage spéculatif DFlash. La release est disponible pour macOS (Apple Silicon et Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Windows et Android.",
+                "en": "llama.cpp <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9873\">release b9873</a>, published on July 4, 2026, fixes a crash occurring during speculative decoding with KV injection. The fix adds a guard for K/V rotation inputs when the buffer is not allocated, a scenario that arises when a graph stores key-value pairs without applying attention to them — typical of DFlash speculative decoding. The release is available for macOS (Apple Silicon and Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Windows, and Android.",
+                "de": "Die Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9873\">b9873</a> von llama.cpp, veröffentlicht am 4. Juli 2026, behebt einen Absturz, der beim spekulativen Decoding mit KV-Injektion auftrat. Der Fix fügt eine Schutzmassnahme für K/V-Rotationseingaben hinzu, wenn der Puffer nicht zugewiesen ist – ein Szenario, das auftritt, wenn ein Graph die Schlüssel-Wert-Paare speichert, ohne Aufmerksamkeit darauf anzuwenden, typisch für DFlash-spekulatives Decoding. Das Release ist verfügbar für macOS (Apple Silicon und Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Windows und Android.",
+                "it": "La versione <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9873\">b9873</a> di llama.cpp, pubblicata il 4 luglio 2026, corregge un crash che si verifica durante la decodifica speculativa con iniezione KV. La correzione aggiunge una protezione per le voci di rotazione K/V quando il buffer non è allocato, uno scenario che si verifica quando un grafo memorizza le coppie chiave-valore senza applicarvi attenzione — tipico della decodifica speculativa DFlash. La release è disponibile per macOS (Apple Silicon e Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Windows e Android.",
+                "lmo": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9873\">b9873</a> de llama.cpp, publicada el 4 de luj 2026, la corregg on crash che 'l capita in del decodifega speculativa con iniezion KV. La correzion la gionta on guard-foeu per i entrada de rotazion K/V quand che 'l buffer l'è minga allogaa, on scenari che 'l se verifica quand on graph el conserva i paar ciav-valor senza applicàgh attenzion — tipich del decodifega speculativa DFlash. La release l'è disponibila per macOS (Apple Silicon e Intel), Linux (CPU, Vulkan, ROCm 7.2, OpenVINO, SYCL), Windows e Android."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9873"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX v0.10.0 supporte les groupes d'outils Codex",
+                "en": "Rapid-MLX v0.10.0 Supports Codex Tool Groups",
+                "de": "Rapid-MLX v0.10.0 unterstützt Codex-Toolgruppen",
+                "it": "Rapid-MLX v0.10.0 supporta i gruppi di strumenti Codex",
+                "lmo": "Rapid-MLX v0.10.0 el supporta i grupp d'utensil Codex"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0\">Rapid-MLX v0.10.0</a>, publié le 4 juillet 2026, ajoute la compatibilité avec les groupes d'outils Codex sur l'endpoint /v1/responses. Cette mise à jour permet au serveur d'inférence MLX de fonctionner comme backend pour les agents Codex d'OpenAI, élargissant l'interopérabilité entre l'écosystème Apple Silicon et les outils de codage agentique.",
+                "en": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0\">Rapid-MLX v0.10.0</a>, released on July 4, 2026, adds compatibility with Codex tool groups on the /v1/responses endpoint. This update allows the MLX inference server to function as a backend for OpenAI's Codex agents, expanding interoperability between the Apple Silicon ecosystem and agentic coding tools.",
+                "de": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0\">Rapid-MLX v0.10.0</a>, veröffentlicht am 4. Juli 2026, fügt Kompatibilität mit Codex-Toolgruppen am Endpunkt /v1/responses hinzu. Dieses Update ermöglicht es dem MLX-Inferenzserver, als Backend für OpenAIs Codex-Agenten zu fungieren und erweitert die Interoperabilität zwischen dem Apple-Silicon-Ökosystem und agentischen Codierungswerkzeugen.",
+                "it": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0\">Rapid-MLX v0.10.0</a>, pubblicato il 4 luglio 2026, aggiunge la compatibilità con i gruppi di strumenti Codex sull'endpoint /v1/responses. Questo aggiornamento permette al server di inferenza MLX di funzionare come backend per gli agenti Codex di OpenAI, ampliando l'interoperabilità tra l'ecosistema Apple Silicon e gli strumenti di programmazione agentica.",
+                "lmo": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0\">Rapid-MLX v0.10.0</a>, publicaa el 4 de luj 2026, el gionta la compatibilità con i grupp d'utensil Codex sora l'endpoint /v1/responses. 'Sta modifega la permet al server d'inferenza MLX de fonzionà 'me backend per i agent Codex d'OpenAI, slargand l'interoperabilità tra l'ecosistema Apple Silicon e i utensil de codà agentich."
+              },
+              "kicker": {
+                "fr": "Rapid-MLX",
+                "en": "Rapid-MLX",
+                "de": "Rapid-MLX",
+                "it": "Rapid-MLX",
+                "lmo": "Rapid-MLX"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cline CLI v3.0.37 gère les appels d'outils malformés",
+                "en": "Cline CLI v3.0.37 Handles Malformed Tool Calls",
+                "de": "Cline CLI v3.0.37 verarbeitet fehlerhafte Tool-Aufrufe",
+                "it": "Cline CLI v3.0.37 gestisce le chiamate di strumenti malformate",
+                "lmo": "Cline CLI v3.0.37 el gestiss i ciamad d'utensil malformaa"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/cline/cline/releases/tag/cli-v3.0.37\">Cline CLI v3.0.37</a>, publié le 4 juillet 2026, améliore la robustesse face aux modèles plus faibles (comme DeepSeek) qui émettent des appels d'outils malformés — types d'arguments incorrects ou JSON tronqué. Ces appels sont désormais gérés sans erreur. La version rend également visibles les changements de mode Plan/Act pour le modèle et corrige un problème de course où le changement de mode dans une session vide pouvait déclencher un redémarrage inattendu.",
+                "en": "<a href=\"https://github.com/cline/cline/releases/tag/cli-v3.0.37\">Cline CLI v3.0.37</a>, released on July 4, 2026, improves robustness against weaker models (such as DeepSeek) that emit malformed tool calls — incorrect argument types or truncated JSON. These calls are now handled without error. The release also makes Plan/Act mode changes visible to the model and fixes a race condition where changing mode in an empty session could trigger an unexpected restart.",
+                "de": "<a href=\"https://github.com/cline/cline/releases/tag/cli-v3.0.37\">Cline CLI v3.0.37</a>, veröffentlicht am 4. Juli 2026, verbessert die Robustheit gegenüber schwächeren Modellen (wie DeepSeek), die fehlerhafte Tool-Aufrufe ausgeben – falsche Argumenttypen oder abgeschnittenes JSON. Diese Aufrufe werden nun fehlerfrei verarbeitet. Die Version macht auch die Plan/Act-Moduswechsel für das Modell sichtbar und behebt ein Race-Condition-Problem, bei dem der Moduswechsel in einer leeren Sitzung einen unerwarteten Neustart auslösen konnte.",
+                "it": "<a href=\"https://github.com/cline/cline/releases/tag/cli-v3.0.37\">Cline CLI v3.0.37</a>, pubblicato il 4 luglio 2026, migliora la robustezza verso modelli più deboli (come DeepSeek) che emettono chiamate di strumenti malformate — tipi di argomenti errati o JSON troncato. Queste chiamate vengono ora gestite senza errore. La versione rende inoltre visibili i cambi di modalità Plan/Act per il modello e corregge un problema di race condition in cui il cambio di modalità in una sessione vuota poteva innescare un riavvio inaspettato.",
+                "lmo": "<a href=\"https://github.com/cline/cline/releases/tag/cli-v3.0.37\">Cline CLI v3.0.37</a>, publicaa el 4 de luj 2026, el mejora la robustezza denanz ai model pussee debol (come DeepSeek) che emetten di ciamad d'utensil malformaa — tip d'argoment minga giust o JSON troncaa. 'Sti ciamad hinn adess gestii senza error. La version la fa anca vedè i cambiament de modalità Plan/Act per el model e la corregg on problema de corsa indove el cambiament de modalità in d'ona session vœda el podeva innescà on reistart inaspettaa."
+              },
+              "kicker": {
+                "fr": "Cline",
+                "en": "Cline",
+                "de": "Cline",
+                "it": "Cline",
+                "lmo": "Cline"
+              },
+              "urls": [
+                "https://github.com/cline/cline/releases/tag/cli-v3.0.37"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papiere & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Papers & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ByteDance Seed publie la carte modèle Seed2.0",
+                "en": "ByteDance Seed Publishes Seed2.0 Model Card",
+                "de": "ByteDance Seed veröffentlicht Seed2.0 Model Card",
+                "it": "ByteDance Seed pubblica la scheda del modello Seed2.0",
+                "lmo": "ByteDance Seed la publica la model card Seed2.0"
+              },
+              "body": {
+                "fr": "ByteDance Seed a publié la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, détaillant une série de modèles conçus pour les tâches complexes du monde réel. Seed2.0 cible deux défis persistants : la connaissance de longue traîne et le suivi complexe d'instructions. Le modèle offre des capacités de raisonnement, de compréhension visuelle et de recherche de niveau mondial. La carte modèle documente des cas d'utilisation réels démontrant que Seed2.0 commence à gérer des tâches complexes initiales pour des centaines de millions d'utilisateurs.",
+                "en": "ByteDance Seed has published the <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, detailing a series of models designed for complex real-world tasks. Seed2.0 targets two persistent challenges: long-tail knowledge and complex instruction following. The model offers world-class reasoning, visual understanding, and search capabilities. The model card documents real-world use cases demonstrating that Seed2.0 is beginning to handle initial complex tasks for hundreds of millions of users.",
+                "de": "ByteDance Seed hat die <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a> veröffentlicht, die eine Reihe von Modellen detailliert beschreibt, die für komplexe reale Aufgaben entwickelt wurden. Seed2.0 zielt auf zwei anhaltende Herausforderungen ab: Long-Tail-Wissen und komplexe Instruktionsverfolgung. Das Modell bietet Denk-, visuelle Verständnis- und Suchfähigkeiten auf Weltniveau. Die Model Card dokumentiert reale Anwendungsfälle, die zeigen, dass Seed2.0 beginnt, komplexe anfängliche Aufgaben für Hunderte Millionen von Nutzern zu bewältigen.",
+                "it": "ByteDance Seed ha pubblicato la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, descrivendo una serie di modelli progettati per compiti complessi del mondo reale. Seed2.0 affronta due sfide persistenti: la conoscenza di coda lunga e il follow-up complesso di istruzioni. Il modello offre capacità di ragionamento, comprensione visiva e ricerca di livello mondiale. La scheda del modello documenta casi d'uso reali che dimostrano come Seed2.0 stia iniziando a gestire compiti complessi iniziali per centinaia di milioni di utenti.",
+                "lmo": "ByteDance Seed l'ha publicaa la <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Seed2.0 Model Card</a>, dettagliand ona serie de model progettaa per i compit compless del mond real. Seed2.0 el mira duu sfid persistent: la conoscenza de longa cova e 'l seguiment compless d'istruzion. El model el offr di capacità de resonament, comprension visual e ricerca de nivell mondial. La model card la documenta di cas d'usagg reai che dimostren che Seed2.0 el comenza a gestì di compit compless inizziai per centener de milion d'utent."
+              },
+              "kicker": {
+                "fr": "ByteDance",
+                "en": "ByteDance",
+                "de": "ByteDance",
+                "it": "ByteDance",
+                "lmo": "ByteDance"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Program-as-Weights : compiler des fonctions floues en artefacts neuronaux compacts",
+                "en": "Program-as-Weights: Compiling Fuzzy Functions into Compact Neural Artifacts",
+                "de": "Program-as-Weights: Unscharfe Funktionen in kompakte neuronale Artefakte kompilieren",
+                "it": "Program-as-Weights: compilare funzioni fuzzy in artefatti neurali compatti",
+                "lmo": "Program-as-Weights: compilà di fonzion fioeu in artefatt neuronai compatt"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de Waterloo présentent <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Program-as-Weights (PAW)</a>, un nouveau paradigme de programmation pour les « fonctions floues » — des tâches comme l'alerte sur des lignes de log importantes ou la réparation de JSON malformé. Un compilateur 4B entraîné sur FuzzyBench (10 millions d'exemples) émet des adaptateurs paramétriques pour un interpréteur léger et gelé de 0,6B. L'interpréteur PAW égalise les performances d'un Qwen3-32B en prompting direct tout en utilisant un cinquantième de la mémoire d'inférence et en tournant à 30 tokens/s sur un MacBook M3.",
+                "en": "Researchers at the University of Waterloo present <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Program-as-Weights (PAW)</a>, a new programming paradigm for \"fuzzy functions\" — tasks like alerting on important log lines or repairing malformed JSON. A 4B compiler trained on FuzzyBench (10 million examples) emits parametric adapters for a lightweight, frozen 0.6B interpreter. The PAW interpreter matches the performance of Qwen3-32B on direct prompting while using one-fiftieth of the inference memory and running at 30 tokens/s on an M3 MacBook.",
+                "de": "Forscher der University of Waterloo stellen <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Program-as-Weights (PAW)</a> vor, ein neues Programmierparadigma für «unscharfe Funktionen» – Aufgaben wie das Alarmieren bei wichtigen Logzeilen oder das Reparieren von fehlerhaftem JSON. Ein auf FuzzyBench (10 Millionen Beispiele) trainierter 4B-Compiler gibt parametrische Adapter für einen leichten, eingefrorenen 0,6B-Interpreter aus. Der PAW-Interpreter gleicht die Leistung eines Qwen3-32B mit direktem Prompting aus, während er ein Fünfzigstel des Inferenzspeichers verwendet und mit 30 Tokens/s auf einem MacBook M3 läuft.",
+                "it": "Ricercatori dell'Università di Waterloo presentano <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Program-as-Weights (PAW)</a>, un nuovo paradigma di programmazione per le \"funzioni fuzzy\" — compiti come l'alert su righe di log importanti o la riparazione di JSON malformato. Un compilatore 4B addestrato su FuzzyBench (10 milioni di esempi) emette adattatori parametrici per un interprete leggero e congelato di 0,6B. L'interprete PAW eguaglia le performance di un Qwen3-32B in prompting diretto utilizzando un cinquantesimo della memoria di inferenza e girando a 30 token/s su un MacBook M3.",
+                "lmo": "Di ricercator de l'Università de Waterloo presenten <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Program-as-Weights (PAW)</a>, on noeuv paradigma de programmazion per i \"fonzion fioeu\" — di compit 'me l'alertà sora di lign de log important o la reparazion de JSON malformaa. On compilator 4B trainaa sora FuzzyBench (10 milion d'esempi) el met foeu di adattator parametrich per on interpretator legger e gelaa de 0,6B. L'interpretator PAW el pareggia i performance d'on Qwen3-32B in prompting diret, intant che 'l dòvra on cinquantesim de la memoria d'inferenza e 'l gira a 30 token/s sora on MacBook M3."
+              },
+              "kicker": {
+                "fr": "Waterloo",
+                "en": "Waterloo",
+                "de": "Waterloo",
+                "it": "Waterloo",
+                "lmo": "Waterloo"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Séparer l'état de la prédiction améliore les Transformers",
+                "en": "Separating State from Prediction Improves Transformers",
+                "de": "Trennung von Zustand und Vorhersage verbessert Transformer",
+                "it": "Separare lo stato dalla predizione migliora i Transformer",
+                "lmo": "Separà l'stat de la predizion el mejora i Transformer"
+              },
+              "body": {
+                "fr": "Des chercheurs de Cornell proposent l'<a href=\"https://huggingface.co/api/daily_papers?limit=50\">hypothèse de séparation état-prédiction</a> : les Transformers utilisent le même flux de calcul pour prédire le token suivant et stocker l'état utile pour les prédictions futures. En concevant une variante à deux flux qui sépare ces deux rôles, les auteurs obtiennent une meilleure efficacité en données et en calcul, avec une perte de validation améliorée et des performances supérieures de 2 à 3 points de pourcentage en moyenne sur les tâches aval.",
+                "en": "Researchers at Cornell propose the <a href=\"https://huggingface.co/api/daily_papers?limit=50\">state-prediction separation hypothesis</a>: Transformers use the same computational stream to predict the next token and store state useful for future predictions. By designing a two-stream variant that separates these two roles, the authors achieve better data and compute efficiency, with improved validation loss and performance gains of 2 to 3 percentage points on average across downstream tasks.",
+                "de": "Forscher von Cornell schlagen die <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Zustand-Vorhersage-Trennungshypothese</a> vor: Transformer nutzen denselben Rechenfluss, um das nächste Token vorherzusagen und den für zukünftige Vorhersagen nützlichen Zustand zu speichern. Durch das Entwerfen einer Zweifluss-Variante, die diese beiden Rollen trennt, erzielen die Autoren eine bessere Daten- und Recheneffizienz mit verbessertem Validierungsverlust und einer um 2 bis 3 Prozentpunkte höheren durchschnittlichen Leistung bei nachgelagerten Aufgaben.",
+                "it": "Ricercatori della Cornell propongono l'<a href=\"https://huggingface.co/api/daily_papers?limit=50\">ipotesi di separazione stato-predizione</a>: i Transformer usano lo stesso flusso di calcolo per predire il token successivo e memorizzare lo stato utile per le predizioni future. Progettando una variante a due flussi che separa questi due ruoli, gli autori ottengono una migliore efficienza in dati e calcolo, con una perdita di validazione migliorata e performance superiori dal 2 al 3% in media sui compiti downstream.",
+                "lmo": "Di ricercator de Cornell proponen l'<a href=\"https://huggingface.co/api/daily_papers?limit=50\">ipotesi de separazion stat-predizion</a>: i Transformer dòvren l'istess fluss de calcol per predì el token successiv e per conservà l'stat util per i predizion futur. In progettà ona variant a duu fluss che la separa 'sti duu roeu, i autor ottenen ona mej efficienza in dacc e in calcol, con ona perdita de validazion migliorada e di performance superior de 2 a 3 pont percentual in media sora i compit aval."
+              },
+              "kicker": {
+                "fr": "Cornell",
+                "en": "Cornell",
+                "de": "Cornell",
+                "it": "Cornell",
+                "lmo": "Cornell"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ELDR optimise le routage des requêtes pour les modèles MoE",
+                "en": "ELDR Optimizes Request Routing for MoE Models",
+                "de": "ELDR optimiert das Anfragen-Routing für MoE-Modelle",
+                "it": "ELDR ottimizza il routing delle richieste per i modelli MoE",
+                "lmo": "ELDR el ottimizza el routing di richiest per i model MoE"
+              },
+              "body": {
+                "fr": "Microsoft Research présente <a href=\"https://huggingface.co/api/daily_papers?limit=50\">ELDR</a>, un routeur de décodage sensible à la localité des experts pour le serving PD-disaggregated de modèles MoE. ELDR construit une signature d'experts à partir des activations de préremplissage, partitionne l'espace des signatures avec K-means équilibré, et achemine chaque requête vers le worker le moins chargé correspondant le mieux à sa signature. Implémenté dans vLLM, ELDR réduit le TPOT médian de 5,9 à 13,9 % sur des déploiements allant jusqu'à 40 GPU.",
+                "en": "Microsoft Research presents <a href=\"https://huggingface.co/api/daily_papers?limit=50\">ELDR</a>, a locality-aware expert routing decoder for PD-disaggregated serving of MoE models. ELDR builds an expert signature from prefill activations, partitions the signature space with balanced K-means, and routes each request to the least-loaded worker best matching its signature. Implemented in vLLM, ELDR reduces median TPOT by 5.9 to 13.9 percent on deployments of up to 40 GPUs.",
+                "de": "Microsoft Research stellt <a href=\"https://huggingface.co/api/daily_papers?limit=50\">ELDR</a> vor, einen Expert-Lokalitäts-bewussten Decoding-Router für PD-disaggregiertes Serving von MoE-Modellen. ELDR erstellt eine Expert-Signatur aus den Prefill-Aktivierungen, partitioniert den Signaturraum mit balanciertem K-Means und leitet jede Anfrage an den am wenigsten ausgelasteten Worker, der am besten zu ihrer Signatur passt. Implementiert in vLLM reduziert ELDR den medianen TPOT um 5,9 bis 13,9 % bei Bereitstellungen mit bis zu 40 GPUs.",
+                "it": "Microsoft Research presenta <a href=\"https://huggingface.co/api/daily_papers?limit=50\">ELDR</a>, un router di decodifica sensibile alla località degli esperti per il serving PD-disaggregated di modelli MoE. ELDR costruisce una firma degli esperti a partire dalle attivazioni di pre-riempimento, partiziona lo spazio delle firme con K-means bilanciato, e instrada ogni richiesta verso il worker meno carico che meglio corrisponde alla sua firma. Implementato in vLLM, ELDR riduce il TPOT mediano dal 5,9 al 13,9% su deployment fino a 40 GPU.",
+                "lmo": "Microsoft Research la presenta <a href=\"https://huggingface.co/api/daily_papers?limit=50\">ELDR</a>, on router de decodifega sensibil a la località di expert per el serving PD-disaggregaa di model MoE. ELDR el costruiss ona signatura d'expert a partì di attivazion de preempliment, el partizionna el spazzi di signatur con K-means equilibraa, e 'l adressa ogni richiesta al worker men carregaa che 'l corrispond mej a la soa signatura. Implementaa in vLLM, ELDR el sbassa el TPOT median del 5,9 al 13,9 % sora di despiegament fina a 40 GPU."
+              },
+              "kicker": {
+                "fr": "Microsoft Research",
+                "en": "Microsoft Research",
+                "de": "Microsoft Research",
+                "it": "Microsoft Research",
+                "lmo": "Microsoft Research"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Gemeinschaft & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Débats",
+            "en": "Signals & Debates",
+            "de": "Signale & Debatten",
+            "it": "Segnali & Dibattiti",
+            "lmo": "Segnai & Disquussion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Une fuite potentielle de session dans Claude Code alerte la communauté",
+                "en": "Potential Session Leak in Claude Code Alerts the Community",
+                "de": "Potentielles Session-Leck in Claude Code alarmiert die Gemeinschaft",
+                "it": "Una potenziale fuga di sessione in Claude Code allarma la comunità",
+                "lmo": "On potenzial fuita de session in Claude Code el met in allerta la comunità"
+              },
+              "body": {
+                "fr": "Un <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problème de sécurité signalé sur Hacker News</a> le 4 juillet 2026 concerne une potentielle fuite de session/cache entre instances d'espace de travail ou comptes consommateurs dans Claude Code. L'issue, qui a recueilli 282 points et 129 commentaires, décrit un scénario où les données d'une session pourraient être accessibles depuis une autre instance. La communauté technique débat de la gravité et des implications pour les utilisateurs professionnels de l'outil.",
+                "en": "A <a href=\"https://github.com/anthropics/claude-code/issues/74066\">security issue reported on Hacker News</a> on July 4, 2026 concerns a potential session/cache leak between workspace instances or consumer accounts in Claude Code. The issue, which has garnered 282 points and 129 comments, describes a scenario where data from one session could be accessible from another instance. The technical community is debating the severity and implications for professional users of the tool.",
+                "de": "Ein <a href=\"https://github.com/anthropics/claude-code/issues/74066\">am 4. Juli 2026 auf Hacker News gemeldetes Sicherheitsproblem</a> betrifft ein potenzielles Session/Cache-Leck zwischen Workspace-Instanzen oder Consumer-Konten in Claude Code. Der Issue, der 282 Punkte und 129 Kommentare erhielt, beschreibt ein Szenario, in dem Daten einer Sitzung von einer anderen Instanz aus zugänglich sein könnten. Die technische Gemeinschaft diskutiert über die Schwere und die Auswirkungen für professionelle Nutzer des Tools.",
+                "it": "Un <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problema di sicurezza segnalato su Hacker News</a> il 4 luglio 2026 riguarda una potenziale fuga di sessione/cache tra istanze di workspace o account consumer in Claude Code. L'issue, che ha raccolto 282 punti e 129 commenti, descrive uno scenario in cui i dati di una sessione potrebbero essere accessibili da un'altra istanza. La comunità tecnica discute la gravità e le implicazioni per gli utenti professionali dello strumento.",
+                "lmo": "On <a href=\"https://github.com/anthropics/claude-code/issues/74066\">problema de segurezza segnalaa sora Hacker News</a> el 4 de luj 2026 el riguarda ona potenzial fuita de session/cache tra istanz de spazzi de lavorà o cunt consumator in Claude Code. L'issue, che l'ha cataa su 282 pont e 129 comentari, la descriv on scenari indove i dacc d'ona session podarien vess accessibil de n'oltra istanza. La comunità tecnica la disquota de la gravità e di implicazion per i utent professionai de l'utensil."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Segurezza"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/issues/74066"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "GPT-5.5 Codex : le clustering des tokens de raisonnement inquiète les développeurs",
+                "en": "GPT-5.5 Codex: Reasoning Token Clustering Worries Developers",
+                "de": "GPT-5.5 Codex: Reasoning-Token-Clustering beunruhigt Entwickler",
+                "it": "GPT-5.5 Codex: il clustering dei token di ragionamento preoccupa gli sviluppatori",
+                "lmo": "GPT-5.5 Codex: el clustering di token de resonament el preocupà i desviluppador"
+              },
+              "body": {
+                "fr": "Un <a href=\"https://github.com/openai/codex/issues/30364\">rapport de bug sur Codex</a> suggère que le clustering des tokens de raisonnement de GPT-5.5 pourrait dégrader les performances. L'issue, qui a recueilli 197 points sur Hacker News le 4 juillet, décrit un phénomène où le modèle regroupe les tokens de raisonnement de manière à réduire la qualité des réponses. La discussion technique explore les mécanismes sous-jacents et les correctifs potentiels.",
+                "en": "A <a href=\"https://github.com/openai/codex/issues/30364\">bug report on Codex</a> suggests that GPT-5.5's reasoning token clustering may degrade performance. The issue, which garnered 197 points on Hacker News on July 4, describes a phenomenon where the model clusters reasoning tokens in a way that reduces response quality. The technical discussion explores the underlying mechanisms and potential fixes.",
+                "de": "Ein <a href=\"https://github.com/openai/codex/issues/30364\">Fehlerbericht zu Codex</a> deutet darauf hin, dass das Clustering der Reasoning-Tokens von GPT-5.5 die Leistung beeinträchtigen könnte. Der Issue, der am 4. Juli 197 Punkte auf Hacker News erhielt, beschreibt ein Phänomen, bei dem das Modell die Reasoning-Tokens so gruppiert, dass die Antwortqualität sinkt. Die technische Diskussion untersucht die zugrundeliegenden Mechanismen und mögliche Korrekturen.",
+                "it": "Un <a href=\"https://github.com/openai/codex/issues/30364\">rapporto di bug su Codex</a> suggerisce che il clustering dei token di ragionamento di GPT-5.5 potrebbe degradare le performance. L'issue, che ha raccolto 197 punti su Hacker News il 4 luglio, descrive un fenomeno in cui il modello raggruppa i token di ragionamento in modo da ridurre la qualità delle risposte. La discussione tecnica esplora i meccanismi sottostanti e le potenziali correzioni.",
+                "lmo": "On <a href=\"https://github.com/openai/codex/issues/30364\">rapport de bug sora Codex</a> el suggeriss che 'l clustering di token de resonament de GPT-5.5 el podaria sbassà i performance. L'issue, che l'ha cataa su 197 pont sora Hacker News el 4 de luj, la descriv on fenomen indove el model el ragruppa i token de resonament de manera de sbassà la qualità di rispost. La disquussion tecnica la esplora i mecanism sotta-stant e i correzion potenziai."
+              },
+              "kicker": {
+                "fr": "Débogage",
+                "en": "Debugging",
+                "de": "Debugging",
+                "it": "Debug",
+                "lmo": "Débogage"
+              },
+              "urls": [
+                "https://github.com/openai/codex/issues/30364"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« De meilleurs modèles, de moins bons outils » — un essai qui fait débat",
+                "en": "\"Better Models, Worse Tools\" — An Essay That Sparks Debate",
+                "de": "«Bessere Modelle, schlechtere Werkzeuge» – ein Essay, der für Diskussionen sorgt",
+                "it": "\"Modelli migliori, strumenti peggiori\" — un saggio che fa discutere",
+                "lmo": "\"De model pussee bon, de utensil pussee gramm\" — on sagg che 'l fa disquoter"
+              },
+              "body": {
+                "fr": "Un <a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">essai d'Armin Ronacher</a> (créateur de Flask) publié le 4 juillet 2026 soutient que de meilleurs modèles produisent paradoxalement de moins bons outils. L'argument central : à mesure que les modèles deviennent plus capables, les développeurs s'appuient moins sur une conception d'outils rigoureuse, créant des interfaces qui fonctionnent « assez bien » avec l'IA mais sont frustrantes pour les humains. L'article a suscité 131 points et 40 commentaires sur Hacker News.",
+                "en": "An <a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">essay by Armin Ronacher</a> (creator of Flask) published on July 4, 2026 argues that better models paradoxically produce worse tools. The central argument: as models become more capable, developers rely less on rigorous tool design, creating interfaces that work \"well enough\" with AI but are frustrating for humans. The article has sparked 131 points and 40 comments on Hacker News.",
+                "de": "Ein <a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">Essay von Armin Ronacher</a> (Schöpfer von Flask), veröffentlicht am 4. Juli 2026, argumentiert, dass bessere Modelle paradoxerweise schlechtere Werkzeuge hervorbringen. Das Kernargument: Je leistungsfähiger die Modelle werden, desto weniger verlassen sich Entwickler auf ein rigoroses Werkzeugdesign, wodurch Schnittstellen entstehen, die «gut genug» mit KI funktionieren, aber für Menschen frustrierend sind. Der Artikel erhielt 131 Punkte und 40 Kommentare auf Hacker News.",
+                "it": "Un <a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">saggio di Armin Ronacher</a> (creatore di Flask) pubblicato il 4 luglio 2026 sostiene che modelli migliori producono paradossalmente strumenti peggiori. L'argomento centrale: man mano che i modelli diventano più capaci, gli sviluppatori si affidano meno a una progettazione rigorosa degli strumenti, creando interfacce che funzionano \"abbastanza bene\" con l'IA ma sono frustranti per gli umani. L'articolo ha suscitato 131 punti e 40 commenti su Hacker News.",
+                "lmo": "On <a href=\"https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/\">sagg d'Armin Ronacher</a> (creator de Flask) publicaa el 4 de luj 2026 el sosten che di model pussee bon producen paradoxalment di utensil pussee gramm. L'argoment central: a mesura che i model deventen pussee capaci, i desviluppador se fonden men sora ona progettazion d'utensil rigorosa, creand di interfacc che fonzionen \"bastanza ben\" con l'IA ma hinn frustrant per i omen. L'articol l'ha suscitaa 131 pont e 40 comentari sora Hacker News."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Disquussion"
+              },
+              "urls": [
+                "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Alibaba interdit Claude Code à ses employés",
+                "en": "Alibaba Bans Claude Code for Employees",
+                "de": "Alibaba verbietet Claude Code für seine Mitarbeiter",
+                "it": "Alibaba vieta Claude Code ai propri dipendenti",
+                "lmo": "Alibaba el proibiss Claude Code ai sò impiegaa"
+              },
+              "body": {
+                "fr": "Alibaba a <a href=\"https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\">classé Claude Code comme logiciel à haut risque</a> et interdit son utilisation par ses employés, selon TechCrunch du 4 juillet 2026. Cette décision intervient dans un contexte de tensions géopolitiques croissantes entre la Chine et les États-Unis dans le domaine de l'IA. L'interdiction pourrait affecter les workflows de développement chez Alibaba, qui utilise traditionnellement des outils d'IA américains aux côtés de solutions locales comme Qwen.",
+                "en": "Alibaba has <a href=\"https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\">classified Claude Code as high-risk software</a> and banned its use by employees, according to TechCrunch on July 4, 2026. The decision comes amid growing geopolitical tensions between China and the United States in the AI domain. The ban could affect development workflows at Alibaba, which traditionally uses American AI tools alongside local solutions like Qwen.",
+                "de": "Alibaba hat <a href=\"https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\">Claude Code als Hochrisiko-Software eingestuft</a> und seinen Mitarbeitern die Nutzung verboten, so TechCrunch vom 4. Juli 2026. Diese Entscheidung erfolgt vor dem Hintergrund wachsender geopolitischer Spannungen zwischen China und den USA im Bereich der KI. Das Verbot könnte die Entwicklungs-Workflows bei Alibaba beeinträchtigen, das traditionell neben lokalen Lösungen wie Qwen auch amerikanische KI-Tools einsetzt.",
+                "it": "Alibaba ha <a href=\"https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\">classificato Claude Code come software ad alto rischio</a> e ne ha vietato l'uso ai propri dipendenti, secondo TechCrunch del 4 luglio 2026. La decisione arriva in un contesto di crescenti tensioni geopolitiche tra Cina e Stati Uniti nel campo dell'IA. Il divieto potrebbe influenzare i workflow di sviluppo in Alibaba, che tradizionalmente utilizza strumenti IA americani accanto a soluzioni locali come Qwen.",
+                "lmo": "Alibaba l'ha <a href=\"https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/\">classificaa Claude Code 'me software a volt ris'c</a> e l'ha proibii el sò usagg di sò impiegaa, segond TechCrunch del 4 de luj 2026. 'Sta decision la riva in d'on contest de tension geopolitich semper pussee grand tra la Cina e i Stat Unii in del camp de l'IA. La proibizion la podaria influenzà i workflow de desvilupp in Alibaba, che la dòvra tradizionalment di utensil d'IA american insema a di soluzion locai 'me Qwen."
+              },
+              "kicker": {
+                "fr": "TechCrunch",
+                "en": "TechCrunch",
+                "de": "TechCrunch",
+                "it": "TechCrunch",
+                "lmo": "TechCrunch"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/04/alibaba-reportedly-bans-employees-from-using-claude-code/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Éditorial",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le calme avant la prochaine tempête",
+                "en": "The Calm Before the Next Storm",
+                "de": "Die Ruhe vor dem nächsten Sturm",
+                "it": "La calma prima della prossima tempesta",
+                "lmo": "El calm prima de la prossima tempesta"
+              },
+              "body": {
+                "fr": "L'édition du 5 juillet 2026 du <i>The Neuron Times</i> paraît dans un paysage médiatique où les grands labos — OpenAI, Anthropic, Google DeepMind, Meta, Mistral — n'ont publié aucune annonce majeure dans la fenêtre des dernières 48 heures. Ce silence relatif n'est pas un vide éditorial : il révèle une industrie en phase de digestion après une séquence intense de lancements (Claude Sonnet 5, Seed2.0, GLM 5.2, Laguna XS 2.1). Les signaux les plus forts viennent aujourd'hui de la communauté technique — bugs, essais, controverses — qui, comme toujours, précède et éclaire les mouvements des grands acteurs.",
+                "en": "The July 5, 2026 edition of <i>The Neuron Times</i> appears in a media landscape where the major labs — OpenAI, Anthropic, Google DeepMind, Meta, Mistral — have made no major announcements in the last 48 hours. This relative silence is not an editorial void: it reveals an industry in a digestion phase after an intense sequence of launches (Claude Sonnet 5, Seed2.0, GLM 5.2, Laguna XS 2.1). The strongest signals today come from the technical community — bugs, essays, controversies — which, as always, precedes and illuminates the moves of the major players.",
+                "de": "Die Ausgabe vom 5. Juli 2026 des <i>The Neuron Times</i> erscheint in einer Medienlandschaft, in der die grossen Labore – OpenAI, Anthropic, Google DeepMind, Meta, Mistral – in den letzten 48 Stunden keine grossen Ankündigungen veröffentlicht haben. Diese relative Stille ist keine redaktionelle Leere: Sie offenbart eine Branche in der Verdauungsphase nach einer intensiven Sequenz von Markteinführungen (Claude Sonnet 5, Seed2.0, GLM 5.2, Laguna XS 2.1). Die stärksten Signale kommen heute von der technischen Gemeinschaft – Fehler, Essays, Kontroversen – die, wie immer, den Bewegungen der grossen Akteure vorausgeht und sie erhellt.",
+                "it": "L'edizione del 5 luglio 2026 del <i>The Neuron Times</i> esce in un panorama mediatico in cui i grandi laboratori — OpenAI, Anthropic, Google DeepMind, Meta, Mistral — non hanno pubblicato alcun annuncio importante nella finestra delle ultime 48 ore. Questo silenzio relativo non è un vuoto editoriale: rivela un'industria in fase di digestione dopo una sequenza intensa di lanci (Claude Sonnet 5, Seed2.0, GLM 5.2, Laguna XS 2.1). I segnali più forti arrivano oggi dalla comunità tecnica — bug, saggi, controversie — che, come sempre, precede e illumina i movimenti dei grandi attori.",
+                "lmo": "L'edizion del 5 de luj 2026 del <i>The Neuron Times</i> la sortiss in d'on paesagg mediatega indove i grand laboratori — OpenAI, Anthropic, Google DeepMind, Meta, Mistral — hann minga publicaa nissun anunzi major in la fenestra di ultim 48 or. 'Sto silenzi relativ l'è minga on vœd editorial: el revèla ona industria in faz de digestion dopo ona sequenza intensa de lanz (Claude Sonnet 5, Seed2.0, GLM 5.2, Laguna XS 2.1). I segnai pussee fort vegnen incoeu de la comunità tecnica — bughes, saggi, controversij — che, 'me semper, la va denanz e la ciariss i moviment di grand ator."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": []
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
