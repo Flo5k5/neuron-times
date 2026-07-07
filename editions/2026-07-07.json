@@ -1,0 +1,877 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-07",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Tencent a publié le 6 juillet 2026 <b>Hy3</b>, un modèle de langage open-source de 295 milliards de paramètres à architecture mixture-of-experts (MoE) avec 192 experts et routage top-8, dont seulement 21 milliards de paramètres sont actifs à chaque inférence. Disponible sous licence Apache 2.0 sur <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> et via l'API <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, Hy3 supporte un contexte de 262 144 tokens et un effort de raisonnement configurable (élevé, faible, désactivé). Selon Tencent, le modèle égalerait des architectures deux à cinq fois plus volumineuses tout en réduisant de moitié son taux d'hallucination, à 5,4 %.",
+        "en": "Tencent released <b>Hy3</b> on July 6, 2026, an open-source 295-billion-parameter language model with a mixture-of-experts (MoE) architecture featuring 192 experts and top-8 routing, of which only 21 billion parameters are active per inference. Available under the Apache 2.0 license on <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> and via the <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a> API, Hy3 supports a 262,144-token context and configurable reasoning effort (high, low, disabled). According to Tencent, the model matches architectures two to five times larger while halving its hallucination rate to 5.4%.",
+        "de": "Tencent hat am 6. Juli 2026 <b>Hy3</b> veröffentlicht, ein Open-Source-Sprachmodell mit 295 Milliarden Parametern in einer Mixture-of-Experts-Architektur (MoE) mit 192 Experten und Top-8-Routing, von dem bei jeder Inferenz nur 21 Milliarden Parameter aktiv sind. Verfügbar unter der Apache-2.0-Lizenz auf <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> und über die <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>-API unterstützt Hy3 einen Kontext von 262 144 Token und einen konfigurierbaren Reasoning-Aufwand (hoch, niedrig, deaktiviert). Laut Tencent soll das Modell zwei- bis fünfmal grösseren Architekturen ebenbürtig sein und gleichzeitig die Halluzinationsrate auf 5,4 % halbieren.",
+        "it": "Tencent a publié le 6 juillet 2026 <b>Hy3</b>, un modèle de langage open-source de 295 milliards de paramètres à architecture mixture-of-experts (MoE) avec 192 experts et routage top-8, dont seulement 21 milliards de paramètres sont actifs à chaque inférence. Disponible sous licence Apache 2.0 sur <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> et via l'API <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, Hy3 supporte un contexte de 262 144 tokens et un effort de raisonnement configurable (élevé, faible, désactivé). Selon Tencent, le modèle égalerait des architectures deux à cinq fois plus volumineuses tout en réduisant de moitié son taux d'hallucination, à 5,4 %.",
+        "lmo": "Tencent l'ha publicaa el 6 de luj 2026 <b>Hy3</b>, on model de lengoeu open-source de 295 miliard de parametri a architetura mixture-of-experts (MoE) con 192 espert e routing top-8, indove domà 21 miliard de parametri hinn attiv a ogni inferenza. Disponibil sotta licenza Apache 2.0 in su <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> e via l'API <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, Hy3 el supporta on contest de 262 144 token e on sforz de resonament configurabel (volt, bass, disattivaa). Segond Tencent, el model el rivalizzaria con di architeture du a cinch voeult pussee voluminose, cont el ridù de metà el sò tass d'hallucinazion, al 5,4%."
+      },
+      {
+        "fr": "Le lancement de Hy3 marque un tournant dans la stratégie open-source de Tencent, qui abandonne sa licence communautaire restrictive au profit d'Apache 2.0, levant ainsi les restrictions géographiques qui pesaient sur les versions précédentes. Le modèle est proposé sur OpenRouter à un tarif de 0,20 $ par million de tokens en entrée et 0,80 $ par million en sortie, avec un niveau gratuit limité. Cette publication intervient alors que la concurrence s'intensifie sur le segment des modèles MoE ouverts, où Tencent affirme que Hy3 surpasse des modèles comme Qwen3 et Gemma-4 sur plusieurs benchmarks internes.",
+        "en": "The launch of Hy3 marks a turning point in Tencent's open-source strategy, as the company abandons its restrictive community license in favor of Apache 2.0, lifting the geographic restrictions that applied to previous versions. The model is offered on OpenRouter at $0.20 per million input tokens and $0.80 per million output tokens, with a limited free tier. This release comes amid intensifying competition in the open MoE model segment, where Tencent claims Hy3 outperforms models such as Qwen3 and Gemma-4 on several internal benchmarks.",
+        "de": "Die Veröffentlichung von Hy3 markiert einen Wendepunkt in der Open-Source-Strategie von Tencent, das seine restriktive Community-Lizenz zugunsten von Apache 2.0 aufgibt und damit die geografischen Beschränkungen früherer Versionen aufhebt. Das Modell wird auf OpenRouter zu einem Preis von 0,20 $ pro Million Token für Eingabe und 0,80 $ pro Million für Ausgabe angeboten, mit einem begrenzten Gratis-Kontingent. Diese Veröffentlichung erfolgt in einem sich verschärfenden Wettbewerb im Segment der offenen MoE-Modelle, bei dem Tencent behauptet, Hy3 übertreffe Modelle wie Qwen3 und Gemma-4 in mehreren internen Benchmarks.",
+        "it": "Le lancement de Hy3 marque un tournant dans la stratégie open-source de Tencent, qui abandonne sa licence communautaire restrictive au profit d'Apache 2.0, levant ainsi les restrictions géographiques qui pesaient sur les versions précédentes. Le modèle est proposé sur OpenRouter à un tarif de 0,20 $ par million de tokens en entrée et 0,80 $ par million en sortie, avec un niveau gratuit limité. Cette publication intervient alors que la concurrence s'intensifie sur le segment des modèles MoE ouverts, où Tencent affirme que Hy3 surpasse des modèles comme Qwen3 et Gemma-4 sur plusieurs benchmarks internes.",
+        "lmo": "El lanzament de Hy3 el marca on pont de svolta in la strategia open-source de Tencent, che la bandona la soa licenza comunitaria restrittiva per favorì Apache 2.0, levand inscì i restrizion geografich che pesaven in su i version precedent. El model l'è proponuu in su OpenRouter a on tariff de 0,20$ per milion de token in entrata e 0,80$ per milion in sortida, con on nivell gratuit limitaa. Questa publicazion la riva intant che la concorrenza la s'intensifica in sul segment di modèj MoE vert, indove Tencent l'afferma che Hy3 el supera di modèj come Qwen3 e Gemma-4 in su diversi benchmark intern."
+      },
+      {
+        "fr": "Cette annonce s'inscrit dans un contexte de recomposition rapide du paysage des modèles frontière : selon une analyse publiée le 6 juillet 2026 par <a href=\"https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/\">The Decoder</a>, la durée de domination des meilleurs modèles s'est effondrée — GPT-4 est resté en tête pendant un an, tandis que les modèles actuels ne conservent la première place que sept semaines en médiane, avec 17 changements de leader depuis février 2024. La publication de Hy3 illustre cette accélération du rythme d'innovation dans le domaine.",
+        "en": "This announcement comes against a backdrop of rapid reshuffling in the frontier model landscape: according to an analysis published July 6, 2026 by <a href=\"https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/\">The Decoder</a>, the duration of top model dominance has collapsed — GPT-4 remained at the top for a year, while current models hold the top spot for a median of just seven weeks, with 17 leadership changes since February 2024. The release of Hy3 illustrates this accelerating pace of innovation in the field.",
+        "de": "Diese Ankündigung erfolgt vor dem Hintergrund einer raschen Neuzusammensetzung der Frontier-Modelllandschaft: Laut einer am 6. Juli 2026 veröffentlichten Analyse von <a href=\"https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/\">The Decoder</a> ist die Dauer der Dominanz der besten Modelle eingebrochen – GPT-4 blieb ein Jahr lang an der Spitze, während die heutigen Modelle den ersten Platz im Median nur sieben Wochen halten, mit 17 Führungswechseln seit Februar 2024. Die Veröffentlichung von Hy3 veranschaulicht diese Beschleunigung des Innovationstempos in diesem Bereich.",
+        "it": "Cette annonce s'inscrit dans un contexte de recomposition rapide du paysage des modèles frontière : selon une analyse publiée le 6 juillet 2026 par <a href=\"https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/\">The Decoder</a>, la durée de domination des meilleurs modèles s'est effondrée — GPT-4 est resté en tête pendant un an, tandis que les modèles actuels ne conservent la première place que sept semaines en médiane, avec 17 changements de leader depuis février 2024. La publication de Hy3 illustre cette accélération du rythme d'innovation dans le domaine.",
+        "lmo": "Quest'annunzi el se mett denter in on contest de recomposizion rapida del paesagg di modèj frontiera: segond ona analisi publicada el 6 de luj 2026 de <a href=\"https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/\">The Decoder</a>, la durata de dominazion di miglior modèj l'è borlada giò — GPT-4 l'è restaa in testa per on ann, intant che i modèj d'incoeu i conserven la prima posizion domà set settiman in mediana, con 17 cambiament de leader de febrar 2024. La publicazion de Hy3 l'illustra questa accelerazion del ritm d'innovazion in del camp."
+      }
+    ],
+    "urls": [
+      "https://huggingface.co/collections/tencent/hy3",
+      "https://openrouter.ai/api/v1/models",
+      "https://the-decoder.com/tencent-releases-hy3-open-source-model-that-allegedly-matches-models-up-to-five-times-its-active-size/",
+      "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Frontier",
+      "it": "Modèles & Frontière",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Tencent dévoile Hy3, un modèle open-source de 295 milliards de paramètres qui rivalise avec des modèles cinq fois plus grands",
+      "en": "Tencent unveils Hy3, a 295-billion-parameter open-source model that rivals models five times larger",
+      "de": "Tencent enthüllt Hy3, ein Open-Source-Modell mit 295 Milliarden Parametern, das mit fünfmal grösseren Modellen konkurriert",
+      "it": "Tencent dévoile Hy3, un modèle open-source de 295 milliards de paramètres qui rivalise avec des modèles cinq fois plus grands",
+      "lmo": "Tencent el publica Hy3, on model open-source de 295 miliard de parametri che 'l rivalizza con di model cinch voeult pussee grand"
+    },
+    "subdeck": {
+      "fr": "Le géant chinois publie sous licence Apache 2.0 un modèle MoE de 295B paramètres (21B actifs) qui, selon ses benchmarks internes, égalerait des architectures cinq fois plus grandes avec un taux d'hallucination réduit à 5,4 %.",
+      "en": "The Chinese giant releases under Apache 2.0 a 295B-parameter MoE model (21B active) that, according to its internal benchmarks, matches architectures five times larger with a hallucination rate reduced to 5.4%.",
+      "de": "Der chinesische Gigant veröffentlicht unter der Apache-2.0-Lizenz ein MoE-Modell mit 295B Parametern (21B aktiv), das laut internen Benchmarks fünfmal grösseren Architekturen ebenbürtig sein soll, mit einer auf 5,4 % reduzierten Halluzinationsrate.",
+      "it": "Le géant chinois publie sous licence Apache 2.0 un modèle MoE de 295B paramètres (21B actifs) qui, selon ses benchmarks internes, égalerait des architectures cinq fois plus grandes avec un taux d'hallucination réduit à 5,4 %.",
+      "lmo": "El gigant cineś el publica sotta licenza Apache 2.0 on model MoE de 295B parametri (21B attiv) che, segond i sò benchmark intern, el pareggiarìa di architeture cinch voeult pussee grand cont on tass d'hallucinazion ridott al 5,4%."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Tencent Hy3 : 295B paramètres, 21B actifs, Apache 2.0",
+        "en": "Tencent Hy3: 295B parameters, 21B active, Apache 2.0",
+        "de": "Tencent Hy3: 295B Parameter, 21B aktiv, Apache 2.0",
+        "it": "Tencent Hy3 : 295B paramètres, 21B actifs, Apache 2.0",
+        "lmo": "Tencent Hy3: 295B parametri, 21B attiv, Apache 2.0"
+      },
+      "body": {
+        "fr": "Tencent a publié le 6 juillet 2026 <b>Hy3</b>, un modèle MoE de 295B paramètres (21B actifs, 192 experts, top-8) sous licence Apache 2.0. Disponible sur <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> et <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, il supporte 262K tokens de contexte et un raisonnement configurable.",
+        "en": "Tencent released <b>Hy3</b> on July 6, 2026, a 295B-parameter MoE model (21B active, 192 experts, top-8) under the Apache 2.0 license. Available on <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> and <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, it supports 262K tokens of context and configurable reasoning.",
+        "de": "Tencent hat am 6. Juli 2026 <b>Hy3</b> veröffentlicht, ein MoE-Modell mit 295B Parametern (21B aktiv, 192 Experten, Top-8) unter der Apache-2.0-Lizenz. Verfügbar auf <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> und <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, unterstützt es 262K Token Kontext und konfigurierbares Reasoning.",
+        "it": "Tencent a publié le 6 juillet 2026 <b>Hy3</b>, un modèle MoE de 295B paramètres (21B actifs, 192 experts, top-8) sous licence Apache 2.0. Disponible sur <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> et <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, il supporte 262K tokens de contexte et un raisonnement configurable.",
+        "lmo": "Tencent l'ha publicaa el 6 de luj 2026 <b>Hy3</b>, on model MoE de 295B parametri (21B attiv, 192 espert, top-8) sotta licenza Apache 2.0. Disponibil in su <a href=\"https://huggingface.co/collections/tencent/hy3\">Hugging Face</a> e <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, el supporta 262K token de contest e on resonament configurabel."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Hauptmeldung",
+        "it": "Majeur",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://huggingface.co/collections/tencent/hy3",
+        "https://openrouter.ai/api/v1/models"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "GPT-Realtime-2.1 : OpenAI améliore ses modèles vocaux temps réel",
+        "en": "GPT-Realtime-2.1: OpenAI improves real-time voice models",
+        "de": "GPT-Realtime-2.1: OpenAI verbessert Echtzeit-Sprachmodelle",
+        "it": "GPT-Realtime-2.1 : OpenAI améliore ses modèles vocaux temps réel",
+        "lmo": "GPT-Realtime-2.1: OpenAI el migliora i sò modèj vocai temp real"
+      },
+      "body": {
+        "fr": "OpenAI a lancé le 6 juillet 2026 <b>GPT-Realtime-2.1</b> et <b>GPT-Realtime-2.1-mini</b> dans l'API, avec une latence p95 réduite d'au moins 25 % et un support WebRTC. Le modèle mini est un modèle de raisonnement distillé pour la voix, comme le rapporte <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>.",
+        "en": "OpenAI launched <b>GPT-Realtime-2.1</b> and <b>GPT-Realtime-2.1-mini</b> in the API on July 6, 2026, with p95 latency reduced by at least 25% and WebRTC support. The mini model is a distilled reasoning model for voice, as reported by <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>.",
+        "de": "OpenAI hat am 6. Juli 2026 <b>GPT-Realtime-2.1</b> und <b>GPT-Realtime-2.1-mini</b> in der API lanciert, mit einer um mindestens 25 % reduzierten p95-Latenz und WebRTC-Unterstützung. Das Mini-Modell ist ein destilliertes Reasoning-Modell für Sprache, wie <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a> berichtet.",
+        "it": "OpenAI a lancé le 6 juillet 2026 <b>GPT-Realtime-2.1</b> et <b>GPT-Realtime-2.1-mini</b> dans l'API, avec une latence p95 réduite d'au moins 25 % et un support WebRTC. Le modèle mini est un modèle de raisonnement distillé pour la voix, comme le rapporte <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>.",
+        "lmo": "OpenAI l'ha lanzaa el 6 de luj 2026 <b>GPT-Realtime-2.1</b> e <b>GPT-Realtime-2.1-mini</b> in l'API, con ona latenza p95 redutta d'almen el 25% e on support WebRTC. El model mini l'è on model de resonament distillaa per la vos, come 'l rappòrta <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>."
+      },
+      "tag": {
+        "fr": "API",
+        "en": "API",
+        "de": "API",
+        "it": "API",
+        "lmo": "API"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "LLM-as-a-Verifier : 86,5 % sur Terminal-Bench V2",
+        "en": "LLM-as-a-Verifier: 86.5% on Terminal-Bench V2",
+        "de": "LLM-as-a-Verifier: 86,5 % auf Terminal-Bench V2",
+        "it": "LLM-as-a-Verifier : 86,5 % sur Terminal-Bench V2",
+        "lmo": "LLM-as-a-Verifier: 86,5% in su Terminal-Bench V2"
+      },
+      "body": {
+        "fr": "Des chercheurs de Stanford, UC Berkeley et NVIDIA ont publié <b>LLM-as-a-Verifier</b>, un cadre de vérification probabiliste atteignant 86,5 % sur Terminal-Bench V2 et 78,2 % sur SWE-Bench Verified. Une extension pour Claude Code est disponible. Code sur <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+        "en": "Researchers from Stanford, UC Berkeley and NVIDIA published <b>LLM-as-a-Verifier</b>, a probabilistic verification framework achieving 86.5% on Terminal-Bench V2 and 78.2% on SWE-Bench Verified. An extension for Claude Code is available. Code on <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+        "de": "Forscher von Stanford, UC Berkeley und NVIDIA haben <b>LLM-as-a-Verifier</b> veröffentlicht, ein probabilistisches Verifikationsframework, das 86,5 % auf Terminal-Bench V2 und 78,2 % auf SWE-Bench Verified erreicht. Eine Erweiterung für Claude Code ist verfügbar. Code auf <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+        "it": "Des chercheurs de Stanford, UC Berkeley et NVIDIA ont publié <b>LLM-as-a-Verifier</b>, un cadre de vérification probabiliste atteignant 86,5 % sur Terminal-Bench V2 et 78,2 % sur SWE-Bench Verified. Une extension pour Claude Code est disponible. Code sur <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+        "lmo": "Di ricercador de Stanford, UC Berkeley e NVIDIA hann publicaa <b>LLM-as-a-Verifier</b>, on quadre de verificazion probabilista che 'l raggiunt 86,5% in su Terminal-Bench V2 e 78,2% in su SWE-Bench Verified. On'estension per Claude Code l'è disponibil. Codec in su <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Recherche",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://github.com/llm-as-a-verifier/llm-as-a-verifier"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ByteDance : les lois d'échelle de l'apprentissage agent",
+        "en": "ByteDance: scaling laws of agent learning",
+        "de": "ByteDance: Skalierungsgesetze des agentischen Lernens",
+        "it": "ByteDance : les lois d'échelle de l'apprentissage agent",
+        "lmo": "ByteDance: i legg de scala de l'imprendiment agent"
+      },
+      "body": {
+        "fr": "<b>EdgeBench</b> de ByteDance Seed analyse 38 000 heures d'interaction agent-environnement et révèle que la performance suit une loi d'échelle log-sigmoid (R²=0,998) et que la vitesse d'apprentissage des agents double tous les trois mois. 51 tâches publiées sur <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+        "en": "<b>EdgeBench</b> from ByteDance Seed analyzes 38,000 hours of agent-environment interaction and reveals that performance follows a log-sigmoid scaling law (R²=0.998) and that agent learning speed doubles approximately every three months. 51 tasks published on <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+        "de": "<b>EdgeBench</b> von ByteDance Seed analysiert 38 000 Stunden Agent-Umwelt-Interaktion und zeigt, dass die Leistung einem Log-Sigmoid-Skalierungsgesetz folgt (R²=0,998) und dass sich die Lerngeschwindigkeit der Agenten etwa alle drei Monate verdoppelt. 51 Aufgaben auf <a href=\"https://edge-bench.org/\">edge-bench.org</a> veröffentlicht.",
+        "it": "<b>EdgeBench</b> de ByteDance Seed analyse 38 000 heures d'interaction agent-environnement et révèle que la performance suit une loi d'échelle log-sigmoid (R²=0,998) et que la vitesse d'apprentissage des agents double tous les trois mois. 51 tâches publiées sur <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+        "lmo": "<b>EdgeBench</b> de ByteDance Seed l'analizza 38 000 ore d'interazion agent-ambient e 'l revèla che la performance la seguta ona legg de scala log-sigmoid (R²=0,998) e che la velocità d'imprendiment di agent la dopia ogni trii mes. 51 compit publicaa in su <a href=\"https://edge-bench.org/\">edge-bench.org</a>."
+      },
+      "tag": {
+        "fr": "Scaling",
+        "en": "Scaling",
+        "de": "Skalierung",
+        "it": "Scaling",
+        "lmo": "Scaling"
+      },
+      "urls": [
+        "https://edge-bench.org/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OrbitQuant : quantification agnostique pour DiTs",
+        "en": "OrbitQuant: agnostic quantization for DiTs",
+        "de": "OrbitQuant: Agnostische Quantisierung für DiTs",
+        "it": "OrbitQuant : quantification agnostique pour DiTs",
+        "lmo": "OrbitQuant: quantificazion agnostega per i DiTs"
+      },
+      "body": {
+        "fr": "<b>OrbitQuant</b> (Cantina, Inc.) quantifie les transformers de diffusion sans recalibration, atteignant W2A4 sur FLUX.1, Wan 2.1 et CogVideoX. Code sur <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+        "en": "<b>OrbitQuant</b> (Cantina, Inc.) quantizes diffusion transformers without recalibration, achieving W2A4 on FLUX.1, Wan 2.1 and CogVideoX. Code on <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+        "de": "<b>OrbitQuant</b> (Cantina, Inc.) quantisiert Diffusionstransformer ohne Neukalibrierung und erreicht W2A4 auf FLUX.1, Wan 2.1 und CogVideoX. Code auf <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+        "it": "<b>OrbitQuant</b> (Cantina, Inc.) quantifie les transformers de diffusion sans recalibration, atteignant W2A4 sur FLUX.1, Wan 2.1 et CogVideoX. Code sur <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+        "lmo": "<b>OrbitQuant</b> (Cantina, Inc.) el quantifica i transformer de diffusion senza recalibrazion, raggiuntend W2A4 in su FLUX.1, Wan 2.1 e CogVideoX. Codec in su <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>."
+      },
+      "tag": {
+        "fr": "Optimisation",
+        "en": "Optimization",
+        "de": "Optimierung",
+        "it": "Optimisation",
+        "lmo": "Ottimizzazion"
+      },
+      "urls": [
+        "https://saurabhcantina.github.io/orbitquant/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "iRDM : la génération one-step dépasse FLUX.2 4 étapes",
+        "en": "iRDM: one-step generation surpasses FLUX.2 4-step",
+        "de": "iRDM: Ein-Schritt-Generierung übertrifft FLUX.2 4 Schritte",
+        "it": "iRDM : la génération one-step dépasse FLUX.2 4 étapes",
+        "lmo": "iRDM: la generazion one-step la supera FLUX.2 4 fas"
+      },
+      "body": {
+        "fr": "<b>iRDM</b> (EPFL VITA Lab) établit l'état de l'art en génération one-step sur ImageNet (SW_r14=1,30) et post-entraîne FLUX.2 en un générateur one-step surpassant la version 4 étapes sur GenEval (0,826 vs 0,794). Code sur <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+        "en": "<b>iRDM</b> (EPFL VITA Lab) establishes the state of the art in one-step generation on ImageNet (SW_r14=1.30) and post-trains FLUX.2 into a one-step generator surpassing the 4-step version on GenEval (0.826 vs 0.794). Code on <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+        "de": "<b>iRDM</b> (EPFL VITA Lab) setzt den Spitzenwert in der Ein-Schritt-Generierung auf ImageNet (SW_r14=1,30) und verfeinert FLUX.2 zu einem Ein-Schritt-Generator, der die Vier-Schritt-Version auf GenEval übertrifft (0,826 vs. 0,794). Code auf <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+        "it": "<b>iRDM</b> (EPFL VITA Lab) établit l'état de l'art en génération one-step sur ImageNet (SW_r14=1,30) et post-entraîne FLUX.2 en un générateur one-step surpassant la version 4 étapes sur GenEval (0,826 vs 0,794). Code sur <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+        "lmo": "<b>iRDM</b> (EPFL VITA Lab) el stabiliss el stat de l'art in generazion one-step in su ImageNet (SW_r14=1,30) e 'l post-entrena FLUX.2 in on generator one-step che 'l supera la version 4 fas in su GenEval (0,826 vs 0,794). Codec in su <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>."
+      },
+      "tag": {
+        "fr": "Génération",
+        "en": "Generation",
+        "de": "Generierung",
+        "it": "Génération",
+        "lmo": "Generazion"
+      },
+      "urls": [
+        "https://github.com/vita-epfl/RDM"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "À la Une",
+        "lmo": "A la Voeulta"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Frontier",
+            "it": "Modèles & Frontière",
+            "lmo": "Modèj & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OpenAI lance GPT-Realtime-2.1 et 2.1-mini pour les agents vocaux",
+                "en": "OpenAI launches GPT-Realtime-2.1 and 2.1-mini for voice agents",
+                "de": "OpenAI lanciert GPT-Realtime-2.1 und 2.1-mini für Sprachagenten",
+                "it": "OpenAI lance GPT-Realtime-2.1 et 2.1-mini pour les agents vocaux",
+                "lmo": "OpenAI el lanza GPT-Realtime-2.1 e 2.1-mini per i agent vocai"
+              },
+              "body": {
+                "fr": "OpenAI a déployé le 6 juillet 2026 deux nouveaux modèles temps réel dans son API : <b>GPT-Realtime-2.1</b> et <b>GPT-Realtime-2.1-mini</b>. Le modèle mini, un modèle de raisonnement distillé pour la voix, est proposé au même tarif que le précédent gpt-realtime-mini, tandis que la version complète améliore la reconnaissance alphanumérique, la gestion du silence et du bruit, ainsi que le comportement d'interruption. OpenAI annonce également une réduction d'au moins 25 % de la latence p95 grâce à un caching amélioré, comme le rapporte <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>. Les deux modèles sont accessibles via l'endpoint v1/realtime et supportent désormais WebRTC pour les connexions voix.",
+                "en": "OpenAI deployed two new real-time models in its API on July 6, 2026: <b>GPT-Realtime-2.1</b> and <b>GPT-Realtime-2.1-mini</b>. The mini model, a distilled reasoning model for voice, is offered at the same price as the previous gpt-realtime-mini, while the full version improves alphanumeric recognition, silence and noise handling, and interruption behavior. OpenAI also announced at least a 25% reduction in p95 latency thanks to improved caching, as reported by <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>. Both models are accessible via the v1/realtime endpoint and now support WebRTC for voice connections.",
+                "de": "OpenAI hat am 6. Juli 2026 zwei neue Echtzeitmodelle in seiner API bereitgestellt: <b>GPT-Realtime-2.1</b> und <b>GPT-Realtime-2.1-mini</b>. Das Mini-Modell, ein destilliertes Reasoning-Modell für Sprache, wird zum gleichen Preis wie das bisherige gpt-realtime-mini angeboten, während die Vollversion die alphanumerische Erkennung, die Handhabung von Stille und Rauschen sowie das Unterbrechungsverhalten verbessert. OpenAI kündigt zudem eine Reduzierung der p95-Latenz um mindestens 25 % durch verbessertes Caching an, wie <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a> berichtet. Beide Modelle sind über den Endpunkt v1/realtime zugänglich und unterstützen nun WebRTC für Sprachverbindungen.",
+                "it": "OpenAI a déployé le 6 juillet 2026 deux nouveaux modèles temps réel dans son API : <b>GPT-Realtime-2.1</b> et <b>GPT-Realtime-2.1-mini</b>. Le modèle mini, un modèle de raisonnement distillé pour la voix, est proposé au même tarif que le précédent gpt-realtime-mini, tandis que la version complète améliore la reconnaissance alphanumérique, la gestion du silence et du bruit, ainsi que le comportement d'interruption. OpenAI annonce également une réduction d'au moins 25 % de la latence p95 grâce à un caching amélioré, comme le rapporte <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>. Les deux modèles sont accessibles via l'endpoint v1/realtime et supportent désormais WebRTC pour les connexions voix.",
+                "lmo": "OpenAI l'ha desplegaa el 6 de luj 2026 duu noeuv modèj temp real in la soa API: <b>GPT-Realtime-2.1</b> e <b>GPT-Realtime-2.1-mini</b>. El model mini, on model de resonament distillaa per la vos, l'è proponuu al midemm tariff del precedent gpt-realtime-mini, intant che la version completa la migliora la riconosciment alfanumerich, la gestion del silenzi e del rumor, e anca el comportament d'interruzion. OpenAI l'annunzia anca ona riduzion d'almen el 25% de la latenza p95 grazia a on caching miglioraa, come 'l rappòrta <a href=\"https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/\">MarkTechPost</a>. I duu modèj hinn accessibil via l'endpoint v1/realtime e supporten adess WebRTC per i connession vos."
+              },
+              "kicker": {
+                "fr": "API & Modèles",
+                "en": "API & Models",
+                "de": "API & Modelle",
+                "it": "API & Modèles",
+                "lmo": "API & Modèj"
+              },
+              "urls": [
+                "https://platform.openai.com/api/docs/models/gpt-realtime-2.1",
+                "https://www.marktechpost.com/2026/07/06/openai-gpt-realtime-2-1-mini-reasoning-realtime-api/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic dévoile un mécanisme d'espace de travail global dans les LLM",
+                "en": "Anthropic unveils global workspace mechanism in LLMs",
+                "de": "Anthropic enthüllt Mechanismus des globalen Arbeitsraums in LLMs",
+                "it": "Anthropic dévoile un mécanisme d'espace de travail global dans les LLM",
+                "lmo": "Anthropic el desvela on mecanism d' spazzi de lavorà global in di LLM"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 6 juillet 2026 un article de recherche détaillant un mécanisme d'<b>espace de travail global</b> (global workspace) dans les modèles de langage. Selon l'article, disponible sur <a href=\"https://www.anthropic.com/research/global-workspace\">anthropic.com/research</a>, cette architecture permettrait à différentes parties du réseau de communiquer via un espace de travail partagé, s'inspirant des théories cognitives de la conscience. La publication a suscité 114 commentaires sur Hacker News où elle a atteint la front page avec 315 points, témoignant de l'intérêt de la communauté pour les avancées en interprétabilité des LLM.",
+                "en": "Anthropic published a research paper on July 6, 2026 detailing a <b>global workspace</b> mechanism in language models. According to the paper, available at <a href=\"https://www.anthropic.com/research/global-workspace\">anthropic.com/research</a>, this architecture would allow different parts of the network to communicate via a shared workspace, drawing inspiration from cognitive theories of consciousness. The publication garnered 114 comments on Hacker News where it reached the front page with 315 points, reflecting the community's interest in advances in LLM interpretability.",
+                "de": "Anthropic hat am 6. Juli 2026 einen Forschungsartikel veröffentlicht, der einen Mechanismus des <b>globalen Arbeitsraums</b> (Global Workspace) in Sprachmodellen detailliert beschreibt. Laut dem auf <a href=\"https://www.anthropic.com/research/global-workspace\">anthropic.com/research</a> verfügbaren Artikel würde diese Architektur verschiedenen Teilen des Netzwerks die Kommunikation über einen gemeinsamen Arbeitsraum ermöglichen, inspiriert von kognitiven Bewusstseinstheorien. Die Veröffentlichung löste 114 Kommentare auf Hacker News aus, wo sie mit 315 Punkten auf die Titelseite gelangte, was das Interesse der Gemeinschaft an Fortschritten in der Interpretierbarkeit von LLMs zeigt.",
+                "it": "Anthropic a publié le 6 juillet 2026 un article de recherche détaillant un mécanisme d'<b>espace de travail global</b> (global workspace) dans les modèles de langage. Selon l'article, disponible sur <a href=\"https://www.anthropic.com/research/global-workspace\">anthropic.com/research</a>, cette architecture permettrait à différentes parties du réseau de communiquer via un espace de travail partagé, s'inspirant des théories cognitives de la conscience. La publication a suscité 114 commentaires sur Hacker News où elle a atteint la front page avec 315 points, témoignant de l'intérêt de la communauté pour les avancées en interprétabilité des LLM.",
+                "lmo": "Anthropic l'ha publicaa el 6 de luj 2026 on articol de ricerca che 'l dettaglia on mecanism d'<b>spazzi de lavorà global</b> (global workspace) in di model de lengoeu. Segond l'articol, disponibil in su <a href=\"https://www.anthropic.com/research/global-workspace\">anthropic.com/research</a>, questa architetura la permetterìa a different part de la red de comunicà via on spazzi de lavorà condivis, ispirandess ai teori cognitiv de la coscienza. La publicazion l'ha suscitaa 114 coment in su Hacker News indove l'ha raggiunt la front page con 315 pont, a testimonià l'interess de la comunitaa per i avanzament in interpretabilità di LLM."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Recherche",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://www.anthropic.com/research/global-workspace",
+                "https://news.ycombinator.com/item?id=48808002"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'Alberta déploie Claude pour la cybersécurité gouvernementale",
+                "en": "Alberta deploys Claude for government cybersecurity",
+                "de": "Alberta setzt Claude für staatliche Cybersicherheit ein",
+                "it": "L'Alberta déploie Claude pour la cybersécurité gouvernementale",
+                "lmo": "L'Alberta el despiega Claude per la cybersicurezza governativa"
+              },
+              "body": {
+                "fr": "Le gouvernement de l'Alberta (Canada) utilise <b>Claude</b> d'Anthropic pour identifier et corriger les vulnérabilités de cybersécurité dans ses systèmes gouvernementaux, selon une étude de cas publiée le 6 juillet 2026. Ce déploiement illustre l'adoption croissante des LLM par les institutions publiques pour des missions de sécurité critiques, comme le rapporte <a href=\"https://www.anthropic.com/news\">Anthropic</a>.",
+                "en": "The government of Alberta, Canada is using Anthropic's <b>Claude</b> to identify and fix cybersecurity vulnerabilities in its government systems, according to a case study published July 6, 2026. This deployment illustrates the growing adoption of LLMs by public institutions for critical security missions, as reported by <a href=\"https://www.anthropic.com/news\">Anthropic</a>.",
+                "de": "Die Regierung von Alberta (Kanada) setzt <b>Claude</b> von Anthropic ein, um Cybersicherheitslücken in ihren Regierungssystemen zu identifizieren und zu beheben, wie aus einer am 6. Juli 2026 veröffentlichten Fallstudie hervorgeht. Diese Bereitstellung veranschaulicht die zunehmende Übernahme von LLMs durch öffentliche Institutionen für kritische Sicherheitsaufgaben, wie <a href=\"https://www.anthropic.com/news\">Anthropic</a> berichtet.",
+                "it": "Le gouvernement de l'Alberta (Canada) utilise <b>Claude</b> d'Anthropic pour identifier et corriger les vulnérabilités de cybersécurité dans ses systèmes gouvernementaux, selon une étude de cas publiée le 6 juillet 2026. Ce déploiement illustre l'adoption croissante des LLM par les institutions publiques pour des missions de sécurité critiques, comme le rapporte <a href=\"https://www.anthropic.com/news\">Anthropic</a>.",
+                "lmo": "El govern de l'Alberta (Canada) el dòvra <b>Claude</b> d'Anthropic per identificà e coregg i vulnerabilità de cybersicurezza in di sò sistema governativ, segond on studi de cas publicaa el 6 de luj 2026. Quest despiegament chì l'illustra l'adozion cressenta di LLM per part di istituzion publegh per mission de sicurezza critich, come 'l rappòrta <a href=\"https://www.anthropic.com/news\">Anthropic</a>."
+              },
+              "kicker": {
+                "fr": "Cas d'usage",
+                "en": "Use Case",
+                "de": "Anwendungsfall",
+                "it": "Cas d'usage",
+                "lmo": "Cas d'usagg"
+              },
+              "urls": [
+                "https://www.anthropic.com/news"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Voix & Agents",
+            "en": "Voice & Agents",
+            "de": "Sprache & Agenten",
+            "it": "Voix & Agents",
+            "lmo": "Vos & Agent"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "xAI déploie 21 nouvelles voix pour Grok Voice",
+                "en": "xAI deploys 21 new voices for Grok Voice",
+                "de": "xAI stellt 21 neue Stimmen für Grok Voice bereit",
+                "it": "xAI déploie 21 nouvelles voix pour Grok Voice",
+                "lmo": "xAI el despiega 21 noeuv vos per Grok Voice"
+              },
+              "body": {
+                "fr": "xAI a déployé le 6 juillet 2026 <b>21 nouvelles voix multilingues</b> pour Grok Voice, accompagnées d'une amélioration du naturel des cinq voix originales. Cette mise à jour, annoncée sur <a href=\"https://x.ai/news/new-flagship-voices\">x.ai/news</a>, renforce la position de Grok Voice face à la concurrence croissante sur le marché des assistants vocaux IA, alors qu'OpenAI vient de lancer GPT-Realtime-2.1 pour les applications vocales en temps réel.",
+                "en": "xAI deployed <b>21 new multilingual voices</b> for Grok Voice on July 6, 2026, along with improved naturalness for the five original voices. This update, announced on <a href=\"https://x.ai/news/new-flagship-voices\">x.ai/news</a>, strengthens Grok Voice's position amid growing competition in the AI voice assistant market, as OpenAI has just launched GPT-Realtime-2.1 for real-time voice applications.",
+                "de": "xAI hat am 6. Juli 2026 <b>21 neue mehrsprachige Stimmen</b> für Grok Voice bereitgestellt, begleitet von einer Verbesserung der Natürlichkeit der fünf ursprünglichen Stimmen. Dieses auf <a href=\"https://x.ai/news/new-flagship-voices\">x.ai/news</a> angekündigte Update stärkt die Position von Grok Voice im zunehmenden Wettbewerb auf dem Markt für KI-Sprachassistenten, während OpenAI gerade GPT-Realtime-2.1 für Echtzeit-Sprachapplikationen lanciert hat.",
+                "it": "xAI a déployé le 6 juillet 2026 <b>21 nouvelles voix multilingues</b> pour Grok Voice, accompagnées d'une amélioration du naturel des cinq voix originales. Cette mise à jour, annoncée sur <a href=\"https://x.ai/news/new-flagship-voices\">x.ai/news</a>, renforce la position de Grok Voice face à la concurrence croissante sur le marché des assistants vocaux IA, alors qu'OpenAI vient de lancer GPT-Realtime-2.1 pour les applications vocales en temps réel.",
+                "lmo": "xAI l'ha desplegaa el 6 de luj 2026 <b>21 noeuv vos multilingov</b> per Grok Voice, compagnaa de on migliorament del natural di cinch vos originari. Questa modifega, annunziada in su <a href=\"https://x.ai/news/new-flagship-voices\">x.ai/news</a>, la rinforza la posizion de Grok Voice denanz a la concorrenza cressenta in sul mercaa di assistent vocai IA, intant che OpenAI l'ha giusta lanzaa GPT-Realtime-2.1 per i applicazion vocai in temp real."
+              },
+              "kicker": {
+                "fr": "Voix",
+                "en": "Voice",
+                "de": "Sprache",
+                "it": "Voix",
+                "lmo": "Vos"
+              },
+              "urls": [
+                "https://x.ai/news/new-flagship-voices"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technische Heft",
+        "it": "Le Cahier Technique",
+        "lmo": "El Cader Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Moteurs d'inférence & Harnesses",
+            "en": "Inference Engines & Harnesses",
+            "de": "Inferenz-Engines & Harnesses",
+            "it": "Moteurs d'inférence & Harnesses",
+            "lmo": "Motor d'inferenza & Harness"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9893 optimise l'attention flash OpenCL pour Gemma-4",
+                "en": "llama.cpp b9893 optimizes OpenCL flash attention for Gemma-4",
+                "de": "llama.cpp b9893 optimiert OpenCL-Flash-Attention für Gemma-4",
+                "it": "llama.cpp b9893 optimise l'attention flash OpenCL pour Gemma-4",
+                "lmo": "llama.cpp b9893 el ottimizza l'attenzion flash OpenCL per Gemma-4"
+              },
+              "body": {
+                "fr": "La version <b>b9893</b> de llama.cpp a été publiée le 7 juillet 2026, apportant des optimisations majeures au backend OpenCL pour l'attention flash. Les améliorations concernent les kernels de décodage flash-attention pour les KV-cache en f16, q8_0 et q4_0, avec des optimisations spécifiques pour les requêtes multiples (multiquery FA). Le support du format DK=DV=512 pour Gemma-4 a été ajouté, et les kernels de préfill pour DK=512 sont désormais exécutés sur CPU plutôt que GPU, car plus efficaces. La compilation des kernels FA avec MQ_GQA=8 a été optimisée pour éviter les dépassements de mémoire du compilateur Adreno, comme détaillé dans les notes de version sur <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9893\">GitHub</a>.",
+                "en": "Version <b>b9893</b> of llama.cpp was released on July 7, 2026, bringing major optimizations to the OpenCL backend for flash attention. Improvements concern flash-attention decoding kernels for KV-cache in f16, q8_0 and q4_0, with specific optimizations for multiquery FA. Support for the DK=DV=512 format for Gemma-4 has been added, and prefill kernels for DK=512 are now executed on CPU rather than GPU, as they are more efficient. Compilation of FA kernels with MQ_GQA=8 has been optimized to avoid Adreno compiler memory overflows, as detailed in the release notes on <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9893\">GitHub</a>.",
+                "de": "Die Version <b>b9893</b> von llama.cpp wurde am 7. Juli 2026 veröffentlicht und bringt bedeutende Optimierungen für das OpenCL-Backend für Flash Attention. Die Verbesserungen betreffen die Flash-Attention-Dekodierungs-Kernels für KV-Cache in f16, q8_0 und q4_0, mit spezifischen Optimierungen für mehrere Abfragen (Multiquery FA). Die Unterstützung des Formats DK=DV=512 für Gemma-4 wurde hinzugefügt, und die Prefill-Kernels für DK=512 werden nun auf der CPU statt auf der GPU ausgeführt, da sie dort effizienter sind. Die Kompilierung der FA-Kernels mit MQ_GQA=8 wurde optimiert, um Speicherüberläufe des Adreno-Compilers zu vermeiden, wie in den Versionshinweisen auf <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9893\">GitHub</a> ausgeführt.",
+                "it": "La version <b>b9893</b> de llama.cpp a été publiée le 7 juillet 2026, apportant des optimisations majeures au backend OpenCL pour l'attention flash. Les améliorations concernent les kernels de décodage flash-attention pour les KV-cache en f16, q8_0 et q4_0, avec des optimisations spécifiques pour les requêtes multiples (multiquery FA). Le support du format DK=DV=512 pour Gemma-4 a été ajouté, et les kernels de préfill pour DK=512 sont désormais exécutés sur CPU plutôt que GPU, car plus efficaces. La compilation des kernels FA avec MQ_GQA=8 a été optimisée pour éviter les dépassements de mémoire du compilateur Adreno, comme détaillé dans les notes de version sur <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9893\">GitHub</a>.",
+                "lmo": "La version <b>b9893</b> de llama.cpp l'è stada publicada el 7 de luj 2026, cont el portà di ottimizzazion maggior al backend OpenCL per l'attenzion flash. I migliorament i riguarden i kernel de decoding flash-attention per i KV-cache in f16, q8_0 e q4_0, con di ottimizzazion specific per i domand multipli (multiquery FA). El support del formatt DK=DV=512 per Gemma-4 l'è staa giontaa, e i kernel de prefill per DK=512 hinn adess eseguii in su CPU inveci che GPU, perchè pussee efficent. La compilazion di kernel FA con MQ_GQA=8 l'è stada ottimizzada per evità i superament de memoria del compilator Adreno, come dettagliaa in di not de version in su <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9893\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Moteur d'inférence",
+                "lmo": "Motor d'inferenza"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9893"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ollama 0.31.2-rc1 ajoute un noyau d'agent et active Flash Attention sur CUDA 6.x",
+                "en": "Ollama 0.31.2-rc1 adds agent harness core and enables Flash Attention on CUDA 6.x",
+                "de": "Ollama 0.31.2-rc1 fügt Agenten-Harness-Kern hinzu und aktiviert Flash Attention auf CUDA 6.x",
+                "it": "Ollama 0.31.2-rc1 ajoute un noyau d'agent et active Flash Attention sur CUDA 6.x",
+                "lmo": "Ollama 0.31.2-rc1 el gionta on noeuv d'agent e l'attiva Flash Attention in su CUDA 6.x"
+              },
+              "body": {
+                "fr": "<b>Ollama v0.31.2-rc1</b> a été publié le 6 juillet 2026 en version release candidate. Cette mise à jour introduit un noyau d'agent (agent harness core) et active l'attention flash (FA) sur les GPU CUDA avec architecture 6.x. Le backend MLX a été réécrit (x/create rewrite) et mis à jour vers la version de7b4ed9. La version supprime également l'option expérimentale OLLAMA_EXPERIMENT=client2 et nettoie le code mort de llama-server, comme indiqué dans les notes de version sur <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1\">GitHub</a>.",
+                "en": "<b>Ollama v0.31.2-rc1</b> was released on July 6, 2026 as a release candidate. This update introduces an agent harness core and enables flash attention (FA) on CUDA GPUs with 6.x architecture. The MLX backend has been rewritten (x/create rewrite) and updated to version de7b4ed9. The release also removes the experimental OLLAMA_EXPERIMENT=client2 option and cleans up dead code from llama-server, as indicated in the release notes on <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1\">GitHub</a>.",
+                "de": "<b>Ollama v0.31.2-rc1</b> wurde am 6. Juli 2026 als Release Candidate veröffentlicht. Dieses Update führt einen Agenten-Harness-Kern (Agent Harness Core) ein und aktiviert Flash Attention (FA) auf CUDA-GPUs mit Architektur 6.x. Das MLX-Backend wurde neu geschrieben (x/create rewrite) und auf Version de7b4ed9 aktualisiert. Die Version entfernt zudem die experimentelle Option OLLAMA_EXPERIMENT=client2 und bereinigt toten Code von llama-server, wie in den Versionshinweisen auf <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1\">GitHub</a> angegeben.",
+                "it": "<b>Ollama v0.31.2-rc1</b> a été publié le 6 juillet 2026 en version release candidate. Cette mise à jour introduit un noyau d'agent (agent harness core) et active l'attention flash (FA) sur les GPU CUDA avec architecture 6.x. Le backend MLX a été réécrit (x/create rewrite) et mis à jour vers la version de7b4ed9. La version supprime également l'option expérimentale OLLAMA_EXPERIMENT=client2 et nettoie le code mort de llama-server, comme indiqué dans les notes de version sur <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1\">GitHub</a>.",
+                "lmo": "<b>Ollama v0.31.2-rc1</b> l'è staa publicaa el 6 de luj 2026 in version release candidate. Questa modifega l'introdux on noeuv d'agent (agent harness core) e l'attiva l'attenzion flash (FA) in su i GPU CUDA con architetura 6.x. El backend MLX l'è staa rescrivuu (x/create rewrite) e mudaa a la version de7b4ed9. La version la trà via anca l'opzion esperimental OLLAMA_EXPERIMENT=client2 e la netta el codec mort de llama-server, come indicaa in di not de version in su <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Moteur d'inférence",
+                "lmo": "Motor d'inferenza"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.10.2 introduit un outil d'interprétabilité Jacobian-lens",
+                "en": "Rapid-MLX 0.10.2 introduces Jacobian-lens interpretability tool",
+                "de": "Rapid-MLX 0.10.2 führt Jacobian-Lens-Interpretierbarkeitswerkzeug ein",
+                "it": "Rapid-MLX 0.10.2 introduit un outil d'interprétabilité Jacobian-lens",
+                "lmo": "Rapid-MLX 0.10.2 el introdux on istrument d'interpretabilità Jacobian-lens"
+              },
+              "body": {
+                "fr": "<b>Rapid-MLX v0.10.2</b> a été publié le 7 juillet 2026 avec une nouvelle fonctionnalité majeure : la commande <code>rapid-mlx jlens</code>, un outil d'interprétabilité basé sur la Jacobian-lens. Cette commande permet d'analyser les représentations internes des modèles en calculant les Jacobiennes des couches, offrant ainsi une fenêtre sur le fonctionnement interne des réseaux de neurones. La mise à jour est disponible via <code>brew upgrade raullenchai/rapid-mlx/rapid-mlx</code> ou <code>pip install -U rapid-mlx==0.10.2</code>, comme indiqué sur <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2\">GitHub</a>.",
+                "en": "<b>Rapid-MLX v0.10.2</b> was released on July 7, 2026 with a major new feature: the <code>rapid-mlx jlens</code> command, an interpretability tool based on the Jacobian lens. This command allows analyzing the internal representations of models by computing layer Jacobians, offering a window into the inner workings of neural networks. The update is available via <code>brew upgrade raullenchai/rapid-mlx/rapid-mlx</code> or <code>pip install -U rapid-mlx==0.10.2</code>, as indicated on <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2\">GitHub</a>.",
+                "de": "<b>Rapid-MLX v0.10.2</b> wurde am 7. Juli 2026 mit einer neuen Hauptfunktion veröffentlicht: dem Befehl <code>rapid-mlx jlens</code>, einem auf der Jacobian-Linse basierenden Interpretierbarkeitswerkzeug. Dieser Befehl ermöglicht die Analyse interner Repräsentationen von Modellen durch Berechnung der Jacobi-Matrizen der Schichten und bietet so einen Einblick in die innere Funktionsweise neuronaler Netze. Das Update ist über <code>brew upgrade raullenchai/rapid-mlx/rapid-mlx</code> oder <code>pip install -U rapid-mlx==0.10.2</code> verfügbar, wie auf <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2\">GitHub</a> angegeben.",
+                "it": "<b>Rapid-MLX v0.10.2</b> a été publié le 7 juillet 2026 avec une nouvelle fonctionnalité majeure : la commande <code>rapid-mlx jlens</code>, un outil d'interprétabilité basé sur la Jacobian-lens. Cette commande permet d'analyser les représentations internes des modèles en calculant les Jacobiennes des couches, offrant ainsi une fenêtre sur le fonctionnement interne des réseaux de neurones. La mise à jour est disponible via <code>brew upgrade raullenchai/rapid-mlx/rapid-mlx</code> ou <code>pip install -U rapid-mlx==0.10.2</code>, comme indiqué sur <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2\">GitHub</a>.",
+                "lmo": "<b>Rapid-MLX v0.10.2</b> l'è staa publicaa el 7 de luj 2026 con ona noeuva funzionalità maggior: el comand <code>rapid-mlx jlens</code>, on istrument d'interpretabilità basaa in su la Jacobian-lens. Quest comand chì el permet de analizzà i rappresentazion intern di modèj cont el calcolà i Jacobian di sò strat, offrend inscì ona finestra in sul fonzionament intern di red de neuroni. La modifega l'è disponibil via <code>brew upgrade raullenchai/rapid-mlx/rapid-mlx</code> o <code>pip install -U rapid-mlx==0.10.2</code>, come indicaa in su <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Interprétabilité",
+                "en": "Interpretability",
+                "de": "Interpretierbarkeit",
+                "it": "Interprétabilité",
+                "lmo": "Interpretabilità"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.2"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Harnesses & Outils",
+            "en": "Harnesses & Tools",
+            "de": "Harnesses & Werkzeuge",
+            "it": "Harnesses & Outils",
+            "lmo": "Harness & Istrument"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code 2.1.202 ajoute le contrôle de taille des workflows dynamiques",
+                "en": "Claude Code 2.1.202 adds dynamic workflow size control",
+                "de": "Claude Code 2.1.202 fügt Kontrolle der dynamischen Workflow-Grösse hinzu",
+                "it": "Claude Code 2.1.202 ajoute le contrôle de taille des workflows dynamiques",
+                "lmo": "Claude Code 2.1.202 el gionta el controll de grandezza di workflow dinamegh"
+              },
+              "body": {
+                "fr": "<b>Claude Code v2.1.202</b> a été publié le 6 juillet 2026 avec une fonctionnalité clé : un paramètre de « taille de workflow dynamique » dans <code>/config</code> permettant de contrôler la taille des workflows générés par Claude (petit/moyen/grand nombre d'agents). Cette mise à jour ajoute également les attributs <code>workflow.run_id</code> et <code>workflow.name</code> à la télémétrie OpenTelemetry, permettant de reconstruire l'activité d'un workflow à partir des données OTel. Un correctif résout un crash dans la recherche historique Ctrl+R, comme détaillé sur <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.202\">GitHub</a>.",
+                "en": "<b>Claude Code v2.1.202</b> was released on July 6, 2026 with a key feature: a \"dynamic workflow size\" parameter in <code>/config</code> allowing control over the size of workflows generated by Claude (small/medium/large number of agents). This update also adds <code>workflow.run_id</code> and <code>workflow.name</code> attributes to OpenTelemetry telemetry, enabling workflow activity reconstruction from OTel data. A fix resolves a crash in Ctrl+R history search, as detailed on <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.202\">GitHub</a>.",
+                "de": "<b>Claude Code v2.1.202</b> wurde am 6. Juli 2026 mit einer Schlüsselfunktion veröffentlicht: einem Parameter für «dynamische Workflow-Grösse» in <code>/config</code>, der die Grösse der von Claude generierten Workflows steuert (kleine/mittlere/grosse Anzahl von Agenten). Dieses Update fügt zudem die Attribute <code>workflow.run_id</code> und <code>workflow.name</code> zur OpenTelemetry-Telemetrie hinzu, was die Rekonstruktion der Aktivität eines Workflows aus OTel-Daten ermöglicht. Ein Fix behebt einen Absturz in der historischen Suche mit Strg+R, wie auf <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.202\">GitHub</a> ausgeführt.",
+                "it": "<b>Claude Code v2.1.202</b> a été publié le 6 juillet 2026 avec une fonctionnalité clé : un paramètre de « taille de workflow dynamique » dans <code>/config</code> permettant de contrôler la taille des workflows générés par Claude (petit/moyen/grand nombre d'agents). Cette mise à jour ajoute également les attributs <code>workflow.run_id</code> et <code>workflow.name</code> à la télémétrie OpenTelemetry, permettant de reconstruire l'activité d'un workflow à partir des données OTel. Un correctif résout un crash dans la recherche historique Ctrl+R, comme détaillé sur <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.202\">GitHub</a>.",
+                "lmo": "<b>Claude Code v2.1.202</b> l'è staa publicaa el 6 de luj 2026 con ona funzionalità ciav: on parametro de «grandezza di workflow dinamegh» in <code>/config</code> che 'l permet de controllà la grandezza di workflow generaa de Claude (picol/mezz/grand numer d'agent). Questa modifega la gionta anca i attribut <code>workflow.run_id</code> e <code>workflow.name</code> a la telemetria OpenTelemetry, permettend de ricostruì l'attività d'on workflow a partì di dati OTel. On correttiv el risòlv on crash in la ricerca storega Ctrl+R, come dettagliaa in su <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.202\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Harness",
+                "en": "Harness",
+                "de": "Harness",
+                "it": "Harness",
+                "lmo": "Harness"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenCode 1.17.14 ajoute un adaptateur MCP pour le mode code",
+                "en": "OpenCode 1.17.14 adds MCP adapter for code mode",
+                "de": "OpenCode 1.17.14 fügt MCP-Adapter für den Codemodus hinzu",
+                "it": "OpenCode 1.17.14 ajoute un adaptateur MCP pour le mode code",
+                "lmo": "OpenCode 1.17.14 el gionta on adattator MCP per el mode code"
+              },
+              "body": {
+                "fr": "<b>OpenCode v1.17.14</b> a été publié le 6 juillet 2026 avec un adaptateur MCP pour le mode code, permettant d'exécuter des scripts d'orchestration confinés contre des outils MCP connectés. L'outil <code>execute</code> est désormais masqué sauf en mode code activé. Plusieurs correctifs concernent les catalogues d'outils MCP paginés, le routage des modèles GitHub Copilot, et le rejeu du raisonnement Cerebras. L'interface desktop a été enrichie d'un panneau de revue v2 repensé et d'une réouverture des onglets fermés, comme indiqué sur <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.17.14\">GitHub</a>.",
+                "en": "<b>OpenCode v1.17.14</b> was released on July 6, 2026 with an MCP adapter for code mode, allowing execution of confined orchestration scripts against connected MCP tools. The <code>execute</code> tool is now hidden except when code mode is enabled. Several fixes address paginated MCP tool catalogs, GitHub Copilot model routing, and Cerebras reasoning replay. The desktop interface has been enriched with a redesigned review panel v2 and reopening of closed tabs, as indicated on <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.17.14\">GitHub</a>.",
+                "de": "<b>OpenCode v1.17.14</b> wurde am 6. Juli 2026 mit einem MCP-Adapter für den Codemodus veröffentlicht, der die Ausführung eingeschränkter Orchestrierungsskripte gegen verbundene MCP-Werkzeuge ermöglicht. Das Werkzeug <code>execute</code> ist nun ausser im aktivierten Codemodus ausgeblendet. Mehrere Korrekturen betreffen paginierte MCP-Werkzeugkataloge, das Routing von GitHub-Copilot-Modellen und das Wiederabspielen von Cerebras-Reasoning. Die Desktop-Oberfläche wurde um ein überarbeitetes Review-Panel v2 und die Wiedereröffnung geschlossener Tabs erweitert, wie auf <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.17.14\">GitHub</a> angegeben.",
+                "it": "<b>OpenCode v1.17.14</b> a été publié le 6 juillet 2026 avec un adaptateur MCP pour le mode code, permettant d'exécuter des scripts d'orchestration confinés contre des outils MCP connectés. L'outil <code>execute</code> est désormais masqué sauf en mode code activé. Plusieurs correctifs concernent les catalogues d'outils MCP paginés, le routage des modèles GitHub Copilot, et le rejeu du raisonnement Cerebras. L'interface desktop a été enrichie d'un panneau de revue v2 repensé et d'une réouverture des onglets fermés, comme indiqué sur <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.17.14\">GitHub</a>.",
+                "lmo": "<b>OpenCode v1.17.14</b> l'è staa publicaa el 6 de luj 2026 con on adattator MCP per el mode code, permettend de eseguì di script d'orchestrazion confinaa contra di istrument MCP conness. L'istrument <code>execute</code> l'è adess sconduu foeura che in mode code attivaa. Diversi correttiv i riguarden i catalogh d'istrument MCP paginaa, el routing di modèj GitHub Copilot, e el rejeugh del resonament Cerebras. L'interfaccia desktop l'è stada arichida d'on panel de revixion v2 repensaa e d'ona repertura di sched sarad, come indicaa in su <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.17.14\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Harness",
+                "en": "Harness",
+                "de": "Harness",
+                "it": "Harness",
+                "lmo": "Harness"
+              },
+              "urls": [
+                "https://github.com/anomalyco/opencode/releases/tag/v1.17.14"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Recherche",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Découvertes",
+            "en": "Papers & Discoveries",
+            "de": "Papiere & Entdeckungen",
+            "it": "Papers & Découvertes",
+            "lmo": "Paper & Descovert"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "LLM-as-a-Verifier : un nouveau cadre de vérification probabiliste atteint 86,5 % sur Terminal-Bench V2",
+                "en": "LLM-as-a-Verifier: a new probabilistic verification framework achieves 86.5% on Terminal-Bench V2",
+                "de": "LLM-as-a-Verifier: Ein neues probabilistisches Verifikationsframework erreicht 86,5 % auf Terminal-Bench V2",
+                "it": "LLM-as-a-Verifier : un nouveau cadre de vérification probabiliste atteint 86,5 % sur Terminal-Bench V2",
+                "lmo": "LLM-as-a-Verifier: on noeuv quadre de verificazion probabilista el raggiunt 86,5% in su Terminal-Bench V2"
+              },
+              "body": {
+                "fr": "Une équipe de chercheurs de Stanford, UC Berkeley et NVIDIA a publié le 6 juillet 2026 <b>LLM-as-a-Verifier</b>, un cadre de vérification généraliste qui utilise les logits des tokens de score pour générer des scores continus, contrairement aux juges LM standards qui produisent des scores discrets. Le framework atteint des performances de pointe sur Terminal-Bench V2 (86,5 %), SWE-Bench Verified (78,2 %), RoboRewardBench (87,4 %) et MedAgentBench (73,3 %). Une extension pour Claude Code permet aux développeurs de monitorer leurs systèmes agentiques. Le code est disponible sur <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+                "en": "A team of researchers from Stanford, UC Berkeley and NVIDIA published <b>LLM-as-a-Verifier</b> on July 6, 2026, a general-purpose verification framework that uses logits from score tokens to generate continuous scores, unlike standard LM judges that produce discrete scores. The framework achieves state-of-the-art performance on Terminal-Bench V2 (86.5%), SWE-Bench Verified (78.2%), RoboRewardBench (87.4%) and MedAgentBench (73.3%). An extension for Claude Code allows developers to monitor their agentic systems. Code is available on <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+                "de": "Ein Forscherteam von Stanford, UC Berkeley und NVIDIA hat am 6. Juli 2026 <b>LLM-as-a-Verifier</b> veröffentlicht, ein generalistisches Verifikationsframework, das die Logits der Score-Tokens zur Erzeugung kontinuierlicher Bewertungen nutzt, im Gegensatz zu standardmässigen LM-Richtern, die diskrete Bewertungen liefern. Das Framework erzielt Spitzenleistungen auf Terminal-Bench V2 (86,5 %), SWE-Bench Verified (78,2 %), RoboRewardBench (87,4 %) und MedAgentBench (73,3 %). Eine Erweiterung für Claude Code ermöglicht Entwicklern die Überwachung ihrer agentischen Systeme. Der Code ist auf <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a> verfügbar.",
+                "it": "Une équipe de chercheurs de Stanford, UC Berkeley et NVIDIA a publié le 6 juillet 2026 <b>LLM-as-a-Verifier</b>, un cadre de vérification généraliste qui utilise les logits des tokens de score pour générer des scores continus, contrairement aux juges LM standards qui produisent des scores discrets. Le framework atteint des performances de pointe sur Terminal-Bench V2 (86,5 %), SWE-Bench Verified (78,2 %), RoboRewardBench (87,4 %) et MedAgentBench (73,3 %). Une extension pour Claude Code permet aux développeurs de monitorer leurs systèmes agentiques. Le code est disponible sur <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>.",
+                "lmo": "On team de ricercador de Stanford, UC Berkeley e NVIDIA l'ha publicaa el 6 de luj 2026 <b>LLM-as-a-Verifier</b>, on quadre de verificazion generalista che 'l dòvra i logit di token de score per generà di score continov, al contrari di giudes LM standard che i produxen di score discret. El framework el raggiunt di performance de ponta in su Terminal-Bench V2 (86,5%), SWE-Bench Verified (78,2%), RoboRewardBench (87,4%) e MedAgentBench (73,3%). On'estension per Claude Code la permet ai desvilupador de monitorà i sò sistema agentich. El codec l'è disponibil in su <a href=\"https://github.com/llm-as-a-verifier/llm-as-a-verifier\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Agentic",
+                "en": "Agentic",
+                "de": "Agentik",
+                "it": "Agentic",
+                "lmo": "Agentich"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://github.com/llm-as-a-verifier/llm-as-a-verifier"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ByteDance dévoile EdgeBench : 38 000 heures d'interaction agent révèlent des lois d'échelle",
+                "en": "ByteDance unveils EdgeBench: 38,000 hours of agent interaction reveal scaling laws",
+                "de": "ByteDance enthüllt EdgeBench: 38 000 Stunden Agenteninteraktion offenbaren Skalierungsgesetze",
+                "it": "ByteDance dévoile EdgeBench : 38 000 heures d'interaction agent révèlent des lois d'échelle",
+                "lmo": "ByteDance el desvela EdgeBench: 38 000 ore d'interazion agent i revèlen di legg de scala"
+              },
+              "body": {
+                "fr": "Des chercheurs de ByteDance Seed ont publié le 6 juillet 2026 <b>EdgeBench</b>, une suite de 134 tâches réelles avec des horizons ultra-longs (au moins 12 heures chacune) couvrant la découverte scientifique, le génie logiciel, l'optimisation combinatoire et les mathématiques formelles. L'analyse de 38 000 heures d'interaction agent-environnement révèle que la performance suit une loi d'échelle log-sigmoid avec une précision de R² = 0,998, et que la vitesse d'apprentissage des agents double environ tous les trois mois. 51 tâches et le framework d'évaluation sont publiés sur <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+                "en": "Researchers from ByteDance Seed published <b>EdgeBench</b> on July 6, 2026, a suite of 134 real-world tasks with ultra-long horizons (at least 12 hours each) covering scientific discovery, software engineering, combinatorial optimization and formal mathematics. Analysis of 38,000 hours of agent-environment interaction reveals that performance follows a log-sigmoid scaling law with R² = 0.998 accuracy, and that agent learning speed approximately doubles every three months. 51 tasks and the evaluation framework are published on <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+                "de": "Forscher von ByteDance Seed haben am 6. Juli 2026 <b>EdgeBench</b> veröffentlicht, eine Suite von 134 realen Aufgaben mit ultra-langen Zeithorizonten (mindestens 12 Stunden pro Aufgabe), die wissenschaftliche Entdeckung, Softwareentwicklung, kombinatorische Optimierung und formale Mathematik abdecken. Die Analyse von 38 000 Stunden Agent-Umwelt-Interaktion zeigt, dass die Leistung einem Log-Sigmoid-Skalierungsgesetz mit einer Genauigkeit von R² = 0,998 folgt und dass die Lerngeschwindigkeit der Agenten sich etwa alle drei Monate verdoppelt. 51 Aufgaben und das Evaluierungsframework sind auf <a href=\"https://edge-bench.org/\">edge-bench.org</a> veröffentlicht.",
+                "it": "Des chercheurs de ByteDance Seed ont publié le 6 juillet 2026 <b>EdgeBench</b>, une suite de 134 tâches réelles avec des horizons ultra-longs (au moins 12 heures chacune) couvrant la découverte scientifique, le génie logiciel, l'optimisation combinatoire et les mathématiques formelles. L'analyse de 38 000 heures d'interaction agent-environnement révèle que la performance suit une loi d'échelle log-sigmoid avec une précision de R² = 0,998, et que la vitesse d'apprentissage des agents double environ tous les trois mois. 51 tâches et le framework d'évaluation sont publiés sur <a href=\"https://edge-bench.org/\">edge-bench.org</a>.",
+                "lmo": "Di ricercador de ByteDance Seed hann publicaa el 6 de luj 2026 <b>EdgeBench</b>, ona suite de 134 compit reai con di orizzont ultra-longh (almen 12 ore ognidun) che i covert la descoverta scentifica, l'ingegneria del software, l'ottimizzazion combinatoria e la matematica formala. L'analisi de 38 000 ore d'interazion agent-ambient la revèla che la performance la seguta ona legg de scala log-sigmoid con ona precision de R² = 0,998, e che la velocità d'imprendiment di agent la dopia circa ogni trii mes. 51 compit e el framework de valutazion hinn publicaa in su <a href=\"https://edge-bench.org/\">edge-bench.org</a>."
+              },
+              "kicker": {
+                "fr": "Scaling Laws",
+                "en": "Scaling Laws",
+                "de": "Skalierungsgesetze",
+                "it": "Scaling Laws",
+                "lmo": "Scaling Laws"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://edge-bench.org/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "iRDM : la génération d'images one-step dépasse FLUX.2 en quatre étapes sur GenEval",
+                "en": "iRDM: one-step image generation surpasses FLUX.2 in four steps on GenEval",
+                "de": "iRDM: Ein-Schritt-Bildgenerierung übertrifft FLUX.2 in vier Schritten auf GenEval",
+                "it": "iRDM : la génération d'images one-step dépasse FLUX.2 en quatre étapes sur GenEval",
+                "lmo": "iRDM: la generazion d'imagin one-step la supera FLUX.2 in quatter fas in su GenEval"
+              },
+              "body": {
+                "fr": "Une équipe de l'EPFL VITA Lab a présenté le 6 juillet 2026 <b>iRDM</b> (improved Representation Distribution Matching), une méthode de génération d'images en une seule étape qui établit un nouvel état de l'art sur ImageNet avec un score SW_r14 de 1,30. La méthode post-entraîne le modèle FLUX.2 [klein] en un générateur one-step qui surpasse la version quatre étapes sur GenEval (0,826 contre 0,794) et PickScore (22,76 contre 22,58), en seulement 90 heures de calcul sur GPU H200. Le code est disponible sur <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+                "en": "A team from EPFL VITA Lab presented <b>iRDM</b> (improved Representation Distribution Matching) on July 6, 2026, a one-step image generation method that establishes a new state of the art on ImageNet with an SW_r14 score of 1.30. The method post-trains the FLUX.2 [klein] model into a one-step generator that surpasses the four-step version on GenEval (0.826 vs 0.794) and PickScore (22.76 vs 22.58), in just 90 hours of compute on H200 GPUs. Code is available on <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+                "de": "Ein Team des EPFL VITA Lab hat am 6. Juli 2026 <b>iRDM</b> (improved Representation Distribution Matching) vorgestellt, eine Ein-Schritt-Bildgenerierungsmethode, die einen neuen Spitzenwert auf ImageNet mit einem SW_r14-Score von 1,30 setzt. Die Methode verfeinert das Modell FLUX.2 [klein] zu einem Ein-Schritt-Generator, der die Vier-Schritt-Version auf GenEval (0,826 gegenüber 0,794) und PickScore (22,76 gegenüber 22,58) übertrifft, und das in nur 90 Stunden Rechenzeit auf einer H200-GPU. Der Code ist auf <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a> verfügbar.",
+                "it": "Une équipe de l'EPFL VITA Lab a présenté le 6 juillet 2026 <b>iRDM</b> (improved Representation Distribution Matching), une méthode de génération d'images en une seule étape qui établit un nouvel état de l'art sur ImageNet avec un score SW_r14 de 1,30. La méthode post-entraîne le modèle FLUX.2 [klein] en un générateur one-step qui surpasse la version quatre étapes sur GenEval (0,826 contre 0,794) et PickScore (22,76 contre 22,58), en seulement 90 heures de calcul sur GPU H200. Le code est disponible sur <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>.",
+                "lmo": "On team de l'EPFL VITA Lab l'ha presentaa el 6 de luj 2026 <b>iRDM</b> (improved Representation Distribution Matching), ona metod de generazion d'imagin in ona sola fasa che la stabiliss on noeuv stat de l'art in su ImageNet con on score SW_r14 de 1,30. La metod la post-entrena el model FLUX.2 [klein] in on generator one-step che 'l supera la version de quatter fas in su GenEval (0,826 contra 0,794) e PickScore (22,76 contra 22,58), in domà 90 ore de calcol in su GPU H200. El codec l'è disponibil in su <a href=\"https://github.com/vita-epfl/RDM\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Génération d'images",
+                "en": "Image Generation",
+                "de": "Bildgenerierung",
+                "it": "Génération d'images",
+                "lmo": "Generazion d'imagin"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://github.com/vita-epfl/RDM"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Optimisation & RL",
+            "en": "Optimization & RL",
+            "de": "Optimierung & RL",
+            "it": "Optimisation & RL",
+            "lmo": "Ottimizzazion & RL"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OrbitQuant : la quantification post-entraînement agnostique aux données pour les DiTs",
+                "en": "OrbitQuant: data-agnostic post-training quantization for DiTs",
+                "de": "OrbitQuant: Datenagnostische Nachtrainings-Quantisierung für DiTs",
+                "it": "OrbitQuant : la quantification post-entraînement agnostique aux données pour les DiTs",
+                "lmo": "OrbitQuant: la quantificazion post-entrenament agnostega ai dati per i DiTs"
+              },
+              "body": {
+                "fr": "Des chercheurs de Cantina, Inc. ont publié le 6 juillet 2026 <b>OrbitQuant</b>, un quantifieur poids-activations agnostique aux données pour les transformers de diffusion (DiTs). En quantifiant dans une base normalisée et rotée (randomized permuted block-Hadamard), OrbitQuant élimine le besoin de recalibration pour chaque checkpoint ou modalité. Le même codebook Lloyd-Max sert tous les timesteps, prompts et couches. Sur FLUX.1, Z-Image-Turbo, Wan 2.1 et CogVideoX, OrbitQuant établit l'état de l'art en PTQ à plusieurs niveaux de bits, atteignant W2A4 avec une qualité de génération utilisable. Le code est disponible sur <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+                "en": "Researchers from Cantina, Inc. published <b>OrbitQuant</b> on July 6, 2026, a data-agnostic weight-activation quantizer for diffusion transformers (DiTs). By quantizing in a normalized and rotated basis (randomized permuted block-Hadamard), OrbitQuant eliminates the need for recalibration per checkpoint or modality. The same Lloyd-Max codebook serves all timesteps, prompts and layers. On FLUX.1, Z-Image-Turbo, Wan 2.1 and CogVideoX, OrbitQuant establishes the state of the art in PTQ at multiple bit levels, reaching W2A4 with usable generation quality. Code is available on <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+                "de": "Forscher von Cantina, Inc. haben am 6. Juli 2026 <b>OrbitQuant</b> veröffentlicht, einen datenagnostischen Gewichts-Aktivierungs-Quantisierer für Diffusionstransformer (DiTs). Durch die Quantisierung in einer normalisierten und rotierten Basis (Randomized Permuted Block-Hadamard) eliminiert OrbitQuant die Notwendigkeit einer Neukalibrierung für jeden Checkpoint oder jede Modalität. Derselbe Lloyd-Max-Codebook dient allen Zeitschritten, Prompts und Schichten. Auf FLUX.1, Z-Image-Turbo, Wan 2.1 und CogVideoX setzt OrbitQuant den Spitzenwert in der PTQ auf mehreren Bit-Ebenen und erreicht W2A4 mit nutzbarer Generierungsqualität. Der Code ist auf <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a> verfügbar.",
+                "it": "Des chercheurs de Cantina, Inc. ont publié le 6 juillet 2026 <b>OrbitQuant</b>, un quantifieur poids-activations agnostique aux données pour les transformers de diffusion (DiTs). En quantifiant dans une base normalisée et rotée (randomized permuted block-Hadamard), OrbitQuant élimine le besoin de recalibration pour chaque checkpoint ou modalité. Le même codebook Lloyd-Max sert tous les timesteps, prompts et couches. Sur FLUX.1, Z-Image-Turbo, Wan 2.1 et CogVideoX, OrbitQuant établit l'état de l'art en PTQ à plusieurs niveaux de bits, atteignant W2A4 avec une qualité de génération utilisable. Le code est disponible sur <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>.",
+                "lmo": "Di ricercador de Cantina, Inc. hann publicaa el 6 de luj 2026 <b>OrbitQuant</b>, on quantifieur pes-attivazion agnostich ai dati per i transformer de diffusion (DiTs). Quantifegand in ona bas normalizzada e rotada (randomized permuted block-Hadamard), OrbitQuant el elimina el besogn de recalibrazion per ogni checkpoint o modalità. El midemm codec Lloyd-Max el serviss a tucc i timesteps, prompt e strat. In su FLUX.1, Z-Image-Turbo, Wan 2.1 e CogVideoX, OrbitQuant el stabiliss el stat de l'art in PTQ a diversi nivell de bit, raggiuntend W2A4 con ona qualità de generazion doperabel. El codec l'è disponibil in su <a href=\"https://saurabhcantina.github.io/orbitquant/\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Optimisation",
+                "en": "Optimization",
+                "de": "Optimierung",
+                "it": "Optimisation",
+                "lmo": "Ottimizzazion"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://saurabhcantina.github.io/orbitquant/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "TAC : un curriculum basé sur la transférabilité pour le RLVR multi-domaine",
+                "en": "TAC: a transferability-based curriculum for multi-domain RLVR",
+                "de": "TAC: Ein transferierbarkeitsbasiertes Curriculum für Multi-Domänen-RLVR",
+                "it": "TAC : un curriculum basé sur la transférabilité pour le RLVR multi-domaine",
+                "lmo": "TAC: on curriculum basaa in su la trasferibilità per el RLVR multi-domini"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de Toronto ont présenté le 6 juillet 2026 <b>Transfer-Aware Curriculum (TAC)</b>, un curriculum en ligne de type bandit qui priorise les domaines dont les mises à jour bénéficient largement aux autres domaines dans l'entraînement RLVR multi-domaine. TAC utilise les gradients projetés de l'étape GRPO pour estimer la transférabilité inter-domaines via l'alignement géométrique des gradients, avec un surcoût inférieur à 1 %. Sur Qwen3-1.7B et Llama3.2-3B, TAC améliore la précision macro-moyenne jusqu'à 2,8 points par rapport aux curricula basés sur la seule apprenabilité. Le code est disponible sur <a href=\"https://github.com/YangYongJin/transfer-aware-curriculum\">GitHub</a>.",
+                "en": "Researchers from the University of Toronto presented <b>Transfer-Aware Curriculum (TAC)</b> on July 6, 2026, an online bandit-style curriculum that prioritizes domains whose updates broadly benefit other domains in multi-domain RLVR training. TAC uses projected gradients from the GRPO step to estimate cross-domain transferability via geometric alignment of gradients, with an overhead below 1%. On Qwen3-1.7B and Llama3.2-3B, TAC improves macro-average accuracy by up to 2.8 points compared to curricula based solely on learnability. Code is available on <a href=\"https://github.com/YangYongJin/transfer-aware-curriculum\">GitHub</a>.",
+                "de": "Forscher der Universität Toronto haben am 6. Juli 2026 <b>Transfer-Aware Curriculum (TAC)</b> vorgestellt, ein Online-Banditen-Curriculum, das Domänen priorisiert, deren Aktualisierungen anderen Domänen im Multi-Domänen-RLVR-Training weitgehend zugutekommen. TAC nutzt die projizierten Gradienten des GRPO-Schrittes zur Schätzung der domänenübergreifenden Transferierbarkeit durch geometrische Ausrichtung der Gradienten, mit einem Zusatzaufwand von unter 1 %. Auf Qwen3-1.7B und Llama3.2-3B verbessert TAC die makro-gemittelte Genauigkeit um bis zu 2,8 Punkte im Vergleich zu Curricula, die nur auf der Erlernbarkeit basieren. Der Code ist auf <a href=\"https://github.com/YangYongJin/transfer-aware-curriculum\">GitHub</a> verfügbar.",
+                "it": "Des chercheurs de l'Université de Toronto ont présenté le 6 juillet 2026 <b>Transfer-Aware Curriculum (TAC)</b>, un curriculum en ligne de type bandit qui priorise les domaines dont les mises à jour bénéficient largement aux autres domaines dans l'entraînement RLVR multi-domaine. TAC utilise les gradients projetés de l'étape GRPO pour estimer la transférabilité inter-domaines via l'alignement géométrique des gradients, avec un surcoût inférieur à 1 %. Sur Qwen3-1.7B et Llama3.2-3B, TAC améliore la précision macro-moyenne jusqu'à 2,8 points par rapport aux curricula basés sur la seule apprenabilité. Le code est disponible sur <a href=\"https://github.com/YangYongJin/transfer-aware-curriculum\">GitHub</a>.",
+                "lmo": "Di ricercador de l'Università de Toronto hann presentaa el 6 de luj 2026 <b>Transfer-Aware Curriculum (TAC)</b>, on curriculum online de tipo bandit che 'l priorizza i domini i cui mudifeghe i benefizien largament a i alter domini in l'addestrament RLVR multi-domini. TAC el dòvra i gradient proietaa de la fasa GRPO per stimà la trasferibilità inter-domini via l'alineament geometrich di gradient, con on surcost inferior a l'1%. In su Qwen3-1.7B e Llama3.2-3B, TAC el migliora la precision macro-media fina a 2,8 pont in confront ai curriculum basaa in su la sola apprendibilità. El codec l'è disponibil in su <a href=\"https://github.com/YangYongJin/transfer-aware-curriculum\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "RL",
+                "en": "RL",
+                "de": "RL",
+                "it": "RL",
+                "lmo": "RL"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://github.com/YangYongJin/transfer-aware-curriculum"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Gemeinschaft & Editorial",
+        "it": "La Communauté & Édito",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Communauté & Industrie",
+            "en": "Community & Industry",
+            "de": "Gemeinschaft & Industrie",
+            "it": "Communauté & Industrie",
+            "lmo": "Comunità & Industria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Zhipu AI lance ZCode, un concurrent chinois de Claude Code et Codex",
+                "en": "Zhipu AI launches ZCode, a Chinese competitor to Claude Code and Codex",
+                "de": "Zhipu AI lanciert ZCode, einen chinesischen Konkurrenten zu Claude Code und Codex",
+                "it": "Zhipu AI lance ZCode, un concurrent chinois de Claude Code et Codex",
+                "lmo": "Zhipu AI el lanza ZCode, on concorent cineś de Claude Code e Codex"
+              },
+              "body": {
+                "fr": "<b>Zhipu AI</b> a lancé le 6 juillet 2026 <b>ZCode</b>, un environnement de développement intégré propulsé par GLM-5.2, conçu pour concurrencer Claude Code et OpenAI Codex à une fraction de leur coût. Les nouveaux clients bénéficient d'un essai gratuit de cinq jours avec jusqu'à 5 millions de tokens par jour, et les abonnés reçoivent environ 1,5 fois plus de quota de tokens jusqu'en juillet 2026, comme le rapporte <a href=\"https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/\">The Decoder</a>.",
+                "en": "<b>Zhipu AI</b> launched <b>ZCode</b> on July 6, 2026, an integrated development environment powered by GLM-5.2, designed to compete with Claude Code and OpenAI Codex at a fraction of their cost. New customers receive a five-day free trial with up to 5 million tokens per day, and subscribers receive approximately 1.5 times more token quota until July 2026, as reported by <a href=\"https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/\">The Decoder</a>.",
+                "de": "<b>Zhipu AI</b> hat am 6. Juli 2026 <b>ZCode</b> lanciert, eine von GLM-5.2 angetriebene integrierte Entwicklungsumgebung, die darauf ausgelegt ist, mit Claude Code und OpenAI Codex zu einem Bruchteil der Kosten zu konkurrieren. Neukunden erhalten eine fünftägige kostenlose Testversion mit bis zu 5 Millionen Token pro Tag, und Abonnenten erhalten bis Juli 2026 etwa das 1,5-fache Token-Kontingent, wie <a href=\"https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/\">The Decoder</a> berichtet.",
+                "it": "<b>Zhipu AI</b> a lancé le 6 juillet 2026 <b>ZCode</b>, un environnement de développement intégré propulsé par GLM-5.2, conçu pour concurrencer Claude Code et OpenAI Codex à une fraction de leur coût. Les nouveaux clients bénéficient d'un essai gratuit de cinq jours avec jusqu'à 5 millions de tokens par jour, et les abonnés reçoivent environ 1,5 fois plus de quota de tokens jusqu'en juillet 2026, comme le rapporte <a href=\"https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/\">The Decoder</a>.",
+                "lmo": "<b>Zhipu AI</b> l'ha lanzaa el 6 de luj 2026 <b>ZCode</b>, on ambient de desvilup integraa propulsaa de GLM-5.2, progettaa per concorrer con Claude Code e OpenAI Codex a ona frazion del sò cost. I noeuv client i benefizien d'on tentativ gratuit de cinch dì con fina a 5 milion de token al dì, e i abonaa i riceven circa 1,5 voeult pussee de quota de token fina a luj 2026, come 'l rappòrta <a href=\"https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/\">The Decoder</a>."
+              },
+              "kicker": {
+                "fr": "Outils Dev",
+                "en": "Dev Tools",
+                "de": "Dev-Tools",
+                "it": "Outils Dev",
+                "lmo": "Istrument Dev"
+              },
+              "urls": [
+                "https://the-decoder.com/zhipu-ai-launches-zcode-to-challenge-claude-code-and-openai-codex-at-a-fraction-of-the-cost/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cloudflare remplace le blocage global des bots IA par des contrôles granulaires",
+                "en": "Cloudflare replaces blanket AI bot blocking with granular controls",
+                "de": "Cloudflare ersetzt pauschale KI-Bot-Sperre durch granulare Kontrollen",
+                "it": "Cloudflare remplace le blocage global des bots IA par des contrôles granulaires",
+                "lmo": "Cloudflare el sostituiss el bloccagg global di bot IA con di controll granulari"
+              },
+              "body": {
+                "fr": "<b>Cloudflare</b> a annoncé le 6 juillet 2026 le remplacement de son blocage généralisé des bots IA par des contrôles granulaires permettant aux propriétaires de sites de gérer séparément les bots de recherche, d'entraînement et d'agents. À partir du 15 septembre 2026, les bots d'entraînement et d'agents seront bloqués par défaut sur les pages financées par la publicité, comme le détaille <a href=\"https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/\">The Decoder</a>.",
+                "en": "<b>Cloudflare</b> announced on July 6, 2026 the replacement of its blanket AI bot blocking with granular controls allowing site owners to manage search, training and agent crawlers separately. Starting September 15, 2026, training and agent bots will be blocked by default on ad-funded pages, as detailed by <a href=\"https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/\">The Decoder</a>.",
+                "de": "<b>Cloudflare</b> hat am 6. Juli 2026 die Ablösung seiner pauschalen KI-Bot-Blockierung durch granulare Kontrollen angekündigt, die Website-Betreibern die getrennte Verwaltung von Such-, Trainings- und Agenten-Bots ermöglichen. Ab dem 15. September 2026 werden Trainings- und Agenten-Bots auf werbefinanzierten Seiten standardmässig blockiert, wie <a href=\"https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/\">The Decoder</a> ausführt.",
+                "it": "<b>Cloudflare</b> a annoncé le 6 juillet 2026 le remplacement de son blocage généralisé des bots IA par des contrôles granulaires permettant aux propriétaires de sites de gérer séparément les bots de recherche, d'entraînement et d'agents. À partir du 15 septembre 2026, les bots d'entraînement et d'agents seront bloqués par défaut sur les pages financées par la publicité, comme le détaille <a href=\"https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/\">The Decoder</a>.",
+                "lmo": "<b>Cloudflare</b> l'ha annunziaa el 6 de luj 2026 la sostituzion del sò bloccagg generalizzaa di bot IA con di controll granulari che i permeten ai proprietari de sit de gestì separadament i bot de ricerca, d'addestrament e d'agent. A partì del 15 de setember 2026, i bot d'addestrament e d'agent saran bloccaa de default in su i pagin finanziaa de la publicità, come 'l detaglia <a href=\"https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/\">The Decoder</a>."
+              },
+              "kicker": {
+                "fr": "Infrastructure",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastructure",
+                "lmo": "Infrastruttura"
+              },
+              "urls": [
+                "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Microsoft supprime 4 800 postes, dont Xbox, en priorisant l'IA",
+                "en": "Microsoft cuts 4,800 jobs, including Xbox, as it prioritizes AI",
+                "de": "Microsoft streicht 4 800 Stellen, darunter Xbox, und priorisiert KI",
+                "it": "Microsoft supprime 4 800 postes, dont Xbox, en priorisant l'IA",
+                "lmo": "Microsoft el trà via 4 800 post, compres Xbox, priorizzand l'IA"
+              },
+              "body": {
+                "fr": "<b>Microsoft</b> a licencié environ 4 800 employés le 6 juillet 2026, soit 2,1 % de ses effectifs mondiaux, touchant principalement les divisions Xbox et ventes commerciales. Selon <a href=\"https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\">TechCrunch</a> et <a href=\"https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html\">The New York Times</a>, ces coupes s'inscrivent dans la priorisation des investissements dans l'intelligence artificielle par l'entreprise, alimentant les craintes de remplacement des emplois par l'IA.",
+                "en": "<b>Microsoft</b> laid off approximately 4,800 employees on July 6, 2026, or 2.1% of its global workforce, primarily affecting the Xbox and commercial sales divisions. According to <a href=\"https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\">TechCrunch</a> and <a href=\"https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html\">The New York Times</a>, these cuts are part of the company's prioritization of investments in artificial intelligence, fueling fears of job displacement by AI.",
+                "de": "<b>Microsoft</b> hat am 6. Juli 2026 rund 4 800 Mitarbeiter entlassen, was 2,1 % seiner weltweiten Belegschaft entspricht, wobei hauptsächlich die Sparten Xbox und Geschäftskundenvertrieb betroffen sind. Laut <a href=\"https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\">TechCrunch</a> und <a href=\"https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html\">The New York Times</a> stehen diese Kürzungen im Zusammenhang mit der Priorisierung von Investitionen in künstliche Intelligenz durch das Unternehmen und schüren Ängste vor der Verdrängung von Arbeitsplätzen durch KI.",
+                "it": "<b>Microsoft</b> a licencié environ 4 800 employés le 6 juillet 2026, soit 2,1 % de ses effectifs mondiaux, touchant principalement les divisions Xbox et ventes commerciales. Selon <a href=\"https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\">TechCrunch</a> et <a href=\"https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html\">The New York Times</a>, ces coupes s'inscrivent dans la priorisation des investissements dans l'intelligence artificielle par l'entreprise, alimentant les craintes de remplacement des emplois par l'IA.",
+                "lmo": "<b>Microsoft</b> l'ha licenziaa circa 4 800 impiegaa el 6 de luj 2026, o ben el 2,1% di sò effettiv mondiai, toccand principalment i division Xbox e vendit commerciai. Segond <a href=\"https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/\">TechCrunch</a> e <a href=\"https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html\">The New York Times</a>, questi taj i se metten denter in la priorizzazion di investiment in l'intelligenza artificial per part de l'azienda, alimentand i pagur de sostituzion di impiegh de l'IA."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industrie",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/",
+                "https://www.nytimes.com/2026/07/06/technology/microsoft-xbox-layoffs-ai.html"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Amazon met fin à Mechanical Turk, pionnier du crowdsourcing",
+                "en": "Amazon ends Mechanical Turk, pioneer of crowdsourcing",
+                "de": "Amazon beendet Mechanical Turk, den Pionier des Crowdsourcings",
+                "it": "Amazon met fin à Mechanical Turk, pionnier du crowdsourcing",
+                "lmo": "Amazon el mett fin a Mechanical Turk, pioner del crowdsourcing"
+              },
+              "body": {
+                "fr": "<b>Amazon Web Services</b> met fin à <b>Mechanical Turk</b>, son service de crowdsourcing surnommé « l'intelligence artificielle artificielle originale ». À partir du 30 juillet 2026, la plateforme n'accepte plus de nouveaux clients, comme le rapporte <a href=\"https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/\">The Decoder</a>. Cette décision symbolise la transition du crowdsourcing humain vers l'automatisation par l'IA.",
+                "en": "<b>Amazon Web Services</b> is sunsetting <b>Mechanical Turk</b>, its crowdsourcing service nicknamed \"the original artificial artificial intelligence.\" As of July 30, 2026, the platform will no longer accept new customers, as reported by <a href=\"https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/\">The Decoder</a>. This decision symbolizes the transition from human crowdsourcing to AI automation.",
+                "de": "<b>Amazon Web Services</b> stellt <b>Mechanical Turk</b> ein, seinen Crowdsourcing-Dienst, der als «die ursprüngliche künstliche künstliche Intelligenz» bezeichnet wurde. Ab dem 30. Juli 2026 nimmt die Plattform keine neuen Kunden mehr an, wie <a href=\"https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/\">The Decoder</a> berichtet. Diese Entscheidung symbolisiert den Übergang vom menschlichen Crowdsourcing zur Automatisierung durch KI.",
+                "it": "<b>Amazon Web Services</b> met fin à <b>Mechanical Turk</b>, son service de crowdsourcing surnommé « l'intelligence artificielle artificielle originale ». À partir du 30 juillet 2026, la plateforme n'accepte plus de nouveaux clients, comme le rapporte <a href=\"https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/\">The Decoder</a>. Cette décision symbolise la transition du crowdsourcing humain vers l'automatisation par l'IA.",
+                "lmo": "<b>Amazon Web Services</b> el mett fin a <b>Mechanical Turk</b>, el sò servizzi de crowdsourcing ciamaa «l'intelligenza artificial artificial original». A partì del 30 de luj 2026, la piattaforma l'acetta pu noeuv client, come 'l rappòrta <a href=\"https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/\">The Decoder</a>. Questa decision la simbolizza la transizion del crowdsourcing uman vers l'automatizzazion de l'IA."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industrie",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://the-decoder.com/amazon-sunsets-mechanical-turk-the-original-artificial-artificial-intelligence/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Éditorial",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Éditorial",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito : l'innovation s'accélère, le journalisme aussi",
+                "en": "Editorial: innovation accelerates, journalism must too",
+                "de": "Leitartikel: Innovation beschleunigt sich, der Journalismus auch",
+                "it": "Édito : l'innovation s'accélère, le journalisme aussi",
+                "lmo": "Editorial: l'innovazion l'accelera, el giornalism anca"
+              },
+              "body": {
+                "fr": "L'édition du 7 juillet 2026 du Neuron Times est dominée par la publication de <b>Hy3</b> par Tencent, un modèle open-source de 295 milliards de paramètres qui illustre la compression du cycle d'innovation dans l'IA. Alors que GPT-4 dominait pendant un an, les modèles actuels ne tiennent la première place que sept semaines en médiane. Cette accélération pose une question éditoriale fondamentale : comment un quotidien peut-il couvrir un paysage où les « révolutions » se succèdent toutes les deux semaines ? La réponse du Neuron Times est de privilégier la profondeur technique à la course aux scoops, en analysant les tendances structurelles — comme la montée des architectures MoE ouvertes, la démocratisation de l'inférence via des modèles compacts, et la convergence entre recherche académique et déploiement industriel — plutôt que de chroniquer chaque nouveau record de benchmark.",
+                "en": "The July 7, 2026 edition of The Neuron Times is dominated by Tencent's release of <b>Hy3</b>, a 295-billion-parameter open-source model that illustrates the compression of the innovation cycle in AI. While GPT-4 dominated for a year, current models hold the top spot for a median of just seven weeks. This acceleration raises a fundamental editorial question: how can a daily newspaper cover a landscape where \"revolutions\" follow one another every two weeks? The Neuron Times' answer is to prioritize technical depth over the race for scoops, analyzing structural trends — such as the rise of open MoE architectures, the democratization of inference through compact models, and the convergence between academic research and industrial deployment — rather than chronicling every new benchmark record.",
+                "de": "Die Ausgabe vom 7. Juli 2026 des Neuron Times wird von der Veröffentlichung von <b>Hy3</b> durch Tencent dominiert, einem Open-Source-Modell mit 295 Milliarden Parametern, das die Kompression des Innovationszyklus in der KI veranschaulicht. Während GPT-4 ein Jahr lang dominierte, halten die heutigen Modelle den ersten Platz im Median nur sieben Wochen. Diese Beschleunigung wirft eine grundlegende redaktionelle Frage auf: Wie kann eine Tageszeitung eine Landschaft abdecken, in der sich «Revolutionen» alle zwei Wochen überschlagen? Die Antwort des Neuron Times ist, der technischen Tiefe Vorrang vor der Jagd nach Exklusivmeldungen zu geben, indem strukturelle Trends analysiert werden – wie der Aufstieg offener MoE-Architekturen, die Demokratisierung der Inferenz durch kompakte Modelle und die Konvergenz von akademischer Forschung und industrieller Bereitstellung – anstatt jeden neuen Benchmark-Rekord zu dokumentieren.",
+                "it": "L'édition du 7 juillet 2026 du Neuron Times est dominée par la publication de <b>Hy3</b> par Tencent, un modèle open-source de 295 milliards de paramètres qui illustre la compression du cycle d'innovation dans l'IA. Alors que GPT-4 dominait pendant un an, les modèles actuels ne tiennent la première place que sept semaines en médiane. Cette accélération pose une question éditoriale fondamentale : comment un quotidien peut-il couvrir un paysage où les « révolutions » se succèdent toutes les deux semaines ? La réponse du Neuron Times est de privilégier la profondeur technique à la course aux scoops, en analysant les tendances structurelles — comme la montée des architectures MoE ouvertes, la démocratisation de l'inférence via des modèles compacts, et la convergence entre recherche académique et déploiement industriel — plutôt que de chroniquer chaque nouveau record de benchmark.",
+                "lmo": "L'edizion del 7 de luj 2026 del Neuron Times l'è dominada de la publicazion de <b>Hy3</b> de Tencent, on model open-source de 295 miliard de parametri che 'l illustra la compression del ciclo d'innovazion in l'IA. Intant che GPT-4 el dominava per on ann, i modèj d'incoeu i tegnen la prima posizion domà sett settiman in mediana. Questa accelerazion la mett ona question editoriala fondamentala: come pò on quotidian covertì on paesagg indove i «revoluzion» i se succeden tucc i duu settiman? La risposta del Neuron Times l'è de preferì la profondità tecnica a la corsa ai scoop, analizand i tendenz strutturai — come la montada di architeture MoE vert, la democratizzazion de l'inferenza via di modèj compatt, e la convergenza tra ricerca academega e despiegament industrial — inveci de croncà ogni noeuv record de benchmark."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Éditorial",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://the-decoder.com/gpt-4s-dominance-lasted-a-year-while-todays-top-models-barely-survive-seven-weeks-at-the-top/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
