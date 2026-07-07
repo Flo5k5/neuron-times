@@ -1,0 +1,720 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-06",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W27",
+    "date_range": {
+      "fr": "SEMAINE DU 29 JUIN – 5 JUILLET 2026",
+      "en": "WEEK OF 29 JUNE – 5 JULY 2026",
+      "de": "WOCHE VOM 29. JUNI – 5. JULI 2026",
+      "it": "SETTIMANA DEL 29 GIUGNO – 05 LUGLIO 2026",
+      "lmo": "SETEMANA DEL 29 GIUGNO – 05 LUGLIO 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a déployé cette semaine une stratégie commerciale d'une ampleur inédite, cumulant le lancement de Claude Sonnet 5, une passerelle unifiée multi-cloud, l'intégration dans Microsoft Foundry, un accord préférentiel avec l'État de Californie, et le dévoilement de Claude Science, un environnement de laboratoire pour la recherche reproductible. Chaque annonce, prise isolément, serait notable. Leur simultanéité dessine un mouvement de fond : le laboratoire fondé par Dario Amodei ne se contente plus de vendre des tokens d'inférence — il construit une infrastructure critique pour les entreprises et les gouvernements.",
+        "en": "Anthropic deployed a business strategy of unprecedented scope this week, combining the launch of Claude Sonnet 5, a unified multi-cloud gateway, integration into Microsoft Foundry, a preferential deal with the State of California, and the unveiling of Claude Science, a laboratory environment for reproducible research. Each announcement, taken in isolation, would be notable. Their simultaneity signals a deeper shift: the laboratory founded by Dario Amodei is no longer content selling inference tokens — it is building critical infrastructure for enterprises and governments.",
+        "de": "Anthropic hat diese Woche eine beispiellose kommerzielle Strategie umgesetzt, die den Start von Claude Sonnet 5, ein einheitliches Multi-Cloud-Gateway, die Integration in Microsoft Foundry, eine Vorzugsvereinbarung mit dem Bundesstaat Kalifornien und die Enthüllung von Claude Science, einer Laborumgebung für reproduzierbare Forschung, umfasst. Jede einzelne Ankündigung für sich genommen wäre bemerkenswert. Ihre Gleichzeitigkeit zeichnet eine grundlegende Bewegung ab: Das von Dario Amodei gegründete Labor begnügt sich nicht mehr damit, Inferenz-Token zu verkaufen – es baut eine kritische Infrastruktur für Unternehmen und Regierungen auf.",
+        "it": "Anthropic ha dispiegato questa settimana una strategia commerciale di portata inedita, accumulando il lancio di Claude Sonnet 5, un gateway unificato multi-cloud, l'integrazione in Microsoft Foundry, un accordo preferenziale con lo Stato della California e la presentazione di Claude Science, un ambiente di laboratorio per la ricerca riproducibile. Ogni annuncio, preso singolarmente, sarebbe notevole. La loro simultaneità delinea un movimento di fondo: il laboratorio fondato da Dario Amodei non si accontenta più di vendere token di inferenza — sta costruendo un'infrastruttura critica per imprese e governi.",
+        "lmo": "Anthropic l'ha desplegaa questa setemana ona strategia comercial d'ona grandezza mai vista, metend insema el lanzament del Claude Sonnet 5, ona passerella unifegada multi-cloud, l'integrazion in del Microsoft Foundry, on acord preferenzial cont el Stat de California, e la presentazion del Claude Science, on ambient de laboratori per la ricerca reproductibila. Ogni anunzi, ciapaa deperlu, el saria notevol. La so simultaneità la disegna on moviment de fond: el laboratori fondaa del Dario Amodei el se contenta pu de vend domà di token d'inferenza — el costruiss ona infrastruttura critica per i aziend e i govern."
+      },
+      {
+        "fr": "Le signal le plus structurant pour les mois à venir n'est pas le modèle le plus performant, mais le cadre de sécurité que l'entreprise a proposé avec Amazon, Microsoft et Google. En publiant une taxonomie partagée de la sévérité des jailbreaks, Anthropic tente de normaliser ce qui était jusqu'ici une évaluation artisanale des risques. Si ce référentiel s'impose comme standard industriel, il conditionnera les décisions de déploiement de tous les acteurs — et pas seulement de Claude.",
+        "en": "The most structurally significant signal for the months ahead is not the most powerful model, but the safety framework the company proposed alongside Amazon, Microsoft, and Google. By publishing a shared taxonomy of jailbreak severity, Anthropic is attempting to standardize what has until now been an artisanal risk assessment. If this framework becomes the industry standard, it will shape deployment decisions for every player — not just Claude.",
+        "de": "Das für die kommenden Monate strukturell prägendste Signal ist nicht das leistungsfähigste Modell, sondern der Sicherheitsrahmen, den das Unternehmen gemeinsam mit Amazon, Microsoft und Google vorgeschlagen hat. Mit der Veröffentlichung einer gemeinsamen Taxonomie zur Schwere von Jailbreak-Versuchen versucht Anthropic, das zu standardisieren, was bisher eine handwerkliche Risikobewertung war. Setzt sich dieser Referenzrahmen als Industriestandard durch, wird er die Einsatzentscheidungen aller Akteure beeinflussen – und nicht nur die von Claude.",
+        "it": "Il segnale più strutturante per i mesi a venire non è il modello più performante, ma il quadro di sicurezza che l'azienda ha proposto con Amazon, Microsoft e Google. Pubblicando una tassonomia condivisa della gravità dei jailbreak, Anthropic tenta di normalizzare ciò che finora era una valutazione artigianale dei rischi. Se questo riferimento si imporrà come standard industriale, condizionerà le decisioni di implementazione di tutti gli attori — e non solo di Claude.",
+        "lmo": "El segnal pussee struturant per i mes che vegnen l'è no el modell pussee performant, ma el quadre de sicurezza che l'azienda l'ha propost cont Amazon, Microsoft e Google. Publicand ona tassonomia spartida de la severità di jailbreak, Anthropic la cerca de normalizzà quell che fin adess l'era ona valutazion artigianal di ris'c. Se sto referenzial el se imponiss 'me standard industrial, el condizionarà i decision de despiegament de tucc i ator — e no domà del Claude."
+      },
+      {
+        "fr": "Parallèlement, la réduction de 80 % du prompt système de Claude Code — passant d'environ 1 500 à 300 tokens — révèle un changement de philosophie profond. Là où les premiers agents étaient guidés par des règles explicites, les nouveaux modèles Fable 5, selon Anthropic, « veulent un prompt système plus petit ». Cette délégation accrue au modèle lui-même, plutôt qu'à l'ingénierie du prompt, pourrait redéfinir la manière dont les outils agentiques sont conçus.",
+        "en": "At the same time, the 80% reduction of Claude Code's system prompt — from roughly 1,500 to 300 tokens — reveals a profound shift in philosophy. Where early agents were guided by explicit rules, the new Fable 5 models, according to Anthropic, \"want a smaller system prompt.\" This increased delegation to the model itself, rather than to prompt engineering, could redefine how agentic tools are designed.",
+        "de": "Parallel dazu offenbart die Reduzierung des System-Prompts von Claude Code um 80 % – von rund 1.500 auf 300 Token – einen tiefgreifenden Philosophiewechsel. Während die ersten Agenten durch explizite Regeln geleitet wurden, so Anthropic, «wollen die neuen Fable-5-Modelle einen kleineren System-Prompt». Diese verstärkte Delegation an das Modell selbst, anstatt an die Prompt-Entwicklung, könnte die Art und Weise, wie agentische Werkzeuge konzipiert werden, neu definieren.",
+        "it": "Parallelamente, la riduzione dell'80% del prompt di sistema di Claude Code — passato da circa 1.500 a 300 token — rivela un profondo cambiamento di filosofia. Laddove i primi agenti erano guidati da regole esplicite, i nuovi modelli Fable 5, secondo Anthropic, «vogliono un prompt di sistema più piccolo». Questa maggiore delega al modello stesso, piuttosto che all'ingegneria del prompt, potrebbe ridefinire il modo in cui gli strumenti agentici vengono progettati.",
+        "lmo": "In del midem temp, la redutzion del 80% del prompt sistema del Claude Code — passand de circa 1 500 a 300 token — la revèla on cambiament de filosofia profond. Indove i primm agent eren guidaa de regol esplicite, i noeuv modell Fable 5, segond Anthropic, « i voeuren on prompt sistema pussee piscininit ». Questa delega pussee granda al modell midemm, pussee che a l'ingegneria del prompt, la podariss redifinì la manera che i strument agentigh hinn concepii."
+      },
+      {
+        "fr": "Ces mouvements interviennent dans un contexte où la compétition s'intensifie sur tous les fronts : Microsoft lance une unité de 2,5 milliards de dollars pour déployer 6 000 ingénieurs IA chez ses clients, Mistral publie un agent de preuve formelle open-source qui détecte des bugs réels, et ByteDance détaille Seed2.0, un modèle conçu pour la complexité du monde réel. La semaine qui s'achève n'est pas celle d'une rupture unique, mais celle d'une consolidation — où chaque laboratoire choisit son camp entre ouverture et verrouillage, entre généralisation et spécialisation.",
+        "en": "These moves come amid intensifying competition on all fronts: Microsoft launches a $2.5 billion unit to deploy 6,000 AI engineers at client sites, Mistral releases an open-source formal proof agent that catches real bugs, and ByteDance details Seed2.0, a model designed for real-world complexity. The week that ends is not one of a single breakthrough, but one of consolidation — where every lab chooses its side between openness and lock-in, between generalization and specialization.",
+        "de": "Diese Bewegungen erfolgen in einem Kontext, in dem sich der Wettbewerb an allen Fronten verschärft: Microsoft startet eine 2,5-Milliarden-Dollar-Einheit, um 6.000 KI-Ingenieure bei seinen Kunden einzusetzen, Mistral veröffentlicht einen Open-Source-Agenten für formale Beweise, der echte Fehler erkennt, und ByteDance stellt Seed2.0 im Detail vor, ein Modell, das für die Komplexität der realen Welt konzipiert ist. Die zu Ende gehende Woche ist nicht die eines einzelnen Durchbruchs, sondern die einer Konsolidierung – in der jedes Labor seine Wahl zwischen Offenheit und Abschottung, zwischen Generalisierung und Spezialisierung trifft.",
+        "it": "Questi movimenti avvengono in un contesto in cui la competizione si intensifica su tutti i fronti: Microsoft lancia un'unità da 2,5 miliardi di dollari per implementare 6.000 ingegneri IA presso i propri clienti, Mistral pubblica un agente di dimostrazione formale open-source che rileva bug reali, e ByteDance dettaglia Seed2.0, un modello progettato per la complessità del mondo reale. La settimana che si conclude non è quella di una singola svolta, ma quella di un consolidamento — dove ogni laboratorio sceglie il proprio campo tra apertura e chiusura, tra generalizzazione e specializzazione.",
+        "lmo": "Sti moviment chì intervegnen in d'on contest indove la competizion la s'intensifica sora tucc i front: Microsoft la lanza ona unità de 2,5 miliard de dollar per despiegà 6 000 ingegner IA di sò client, Mistral el publiga on agent de preuva formal open-source che 'l rileva di bug reai, e ByteDance la detaja Seed2.0, on modell concepii per la complessità del mond real. La setemana che la finiss l'è no quella d'ona rottura unega, ma quella d'ona consolidazion — indove ogni laboratori el scerniss el sò camp tra vertura e saradura, tra generalizzazion e specializzazion."
+      }
+    ],
+    "urls": [
+      "https://claude.com/blog/introducing-the-claude-apps-gateway",
+      "https://claude.com/blog/claude-in-microsoft-foundry",
+      "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/",
+      "https://www.anthropic.com/news/claude-sonnet-5",
+      "https://claude.com/product/claude-science",
+      "https://www.anthropic.com/news",
+      "https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/"
+    ],
+    "kicker": {
+      "fr": "Offensive coordonnée",
+      "en": "Coordinated Offensive",
+      "de": "Koordinierte Offensive",
+      "it": "Offensiva coordinata",
+      "lmo": "Offensiva coordinada"
+    },
+    "headline": {
+      "fr": "Anthropic verrouille l'entreprise et la science en une semaine",
+      "en": "Anthropic Locks Down Enterprise and Science in One Week",
+      "de": "Anthropic sichert sich Unternehmen und Wissenschaft in einer Woche",
+      "it": "Anthropic blocca impresa e scienza in una settimana",
+      "lmo": "Anthropic la sara su l'azienda e la scenza in d'ona setemana"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire californien cumule lancements de modèles, passerelle multi-cloud, accord gouvernemental et environnement scientifique, tandis que l'industrie digère une séquence de consolidation sans précédent.",
+      "en": "The California lab piles up model launches, multi-cloud gateway, government deal, and scientific environment, while the industry digests an unprecedented consolidation sequence.",
+      "de": "Das kalifornische Labor häuft Modellstarts, Multi-Cloud-Gateway, Regierungsabkommen und Wissenschaftsumgebung an, während die Branche eine beispiellose Konsolidierungswelle verdaut.",
+      "it": "Il laboratorio californiano accumula lanci di modelli, gateway multi-cloud, accordo governativo e ambiente scientifico, mentre l'industria digerisce una sequenza di consolidamento senza precedenti.",
+      "lmo": "El laboratori californian el cumula lanzament de modell, passerella multi-cloud, acord governativ e ambient scientifigh, intant che l'industria la digeriss ona sequenza de consolidazion senza precedent."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic lance Claude Science et se lance dans la découverte de médicaments",
+        "en": "Anthropic Launches Claude Science and Ventures into Drug Discovery",
+        "de": "Anthropic lanciert Claude Science und steigt in die Wirkstoffforschung ein",
+        "it": "Anthropic lancia Claude Science e si lancia nella scoperta di farmaci",
+        "lmo": "Anthropic el lanza Claude Science e 'l se lanza in la descoverta de medesin"
+      },
+      "body": {
+        "fr": "Anthropic a lancé Claude Science, un environnement de travail IA pour chercheurs intégrant plus de 60 compétences préconfigurées en génomique et chimie computationnelle, avec un agent de vérification automatique des citations et calculs. L'outil fonctionne localement ou sur clusters HPC et se connecte aux compétences NVIDIA BioNeMo. Parallèlement, Anthropic a lancé ses propres programmes de <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">découverte de médicaments</a> pour des maladies négligées.",
+        "en": "Anthropic launched Claude Science, an AI work environment for researchers integrating over 60 preconfigured skills in genomics and computational chemistry, with an automatic citation and calculation verification agent. The tool runs locally or on HPC clusters and connects to NVIDIA BioNeMo skills. At the same time, Anthropic launched its own <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">drug discovery programs</a> for neglected diseases.",
+        "de": "Anthropic hat Claude Science gestartet, eine KI-Arbeitsumgebung für Forscher mit über 60 vorkonfigurierten Fähigkeiten in Genomik und computergestützter Chemie, inklusive eines Agenten zur automatischen Überprüfung von Zitaten und Berechnungen. Das Tool läuft lokal oder auf HPC-Clustern und verbindet sich mit NVIDIA BioNeMo-Fähigkeiten. Parallel dazu hat Anthropic eigene Programme zur <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">Wirkstoffforschung</a> für vernachlässigte Krankheiten gestartet.",
+        "it": "Anthropic ha lanciato Claude Science, un ambiente di lavoro IA per ricercatori che integra oltre 60 competenze preconfigurate in genomica e chimica computazionale, con un agente di verifica automatica delle citazioni e dei calcoli. Lo strumento funziona localmente o su cluster HPC e si connette alle competenze NVIDIA BioNeMo. Parallelamente, Anthropic ha avviato propri programmi di <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">scoperta di farmaci</a> per malattie trascurate.",
+        "lmo": "Anthropic l'ha lanzaa Claude Science, on ambient de lavorà IA per ricercator che 'l integra pussee de 60 competenz preconfiguraa in genomica e chimica computazionala, con on agent de verificazion automatica di citazion e calcol. L'strument el fonziona localment o sora cluster HPC e 'l se connett ai competenz NVIDIA BioNeMo. In del midem temp, Anthropic l'ha lanzaa i sò propri programa de <a href=\"https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/\">descoverta de medesin</a> per di malattìa trascuraa."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://claude.com/product/claude-science",
+        "https://the-decoder.com/anthropic-launches-its-own-drug-discovery-programs-to-tackle-diseases-big-pharma-considers-unprofitable/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OSWorld 2.0 : les agents plafonnent à 20,6 % sur les tâches longues",
+        "en": "OSWorld 2.0: Agents Plateau at 20.6% on Long Tasks",
+        "de": "OSWorld 2.0: Agenten erreichen nur 20,6 % bei langen Aufgaben",
+        "it": "OSWorld 2.0: gli agenti si fermano al 20,6% sui compiti lunghi",
+        "lmo": "OSWorld 2.0: i agent riven a 20,6% sora i compit longh"
+      },
+      "body": {
+        "fr": "Le benchmark OSWorld 2.0 évalue les agents d'utilisation d'ordinateur sur 108 workflows longs et complexes d'une durée médiane d'environ 1,6 heure pour un humain. Claude Opus 4.8 avec raisonnement maximal ne complète que 20,6 % des tâches, tandis que GPT-5.5 plafonne à environ 13 %. Les auteurs identifient que les agents échouent non pas sur le contrôle GUI de base, mais sur la gestion des contraintes et la vérification. L'étude est disponible sur <a href=\"https://arxiv.org/abs/2606.29537\">arXiv</a>.",
+        "en": "The OSWorld 2.0 benchmark evaluates computer-use agents on 108 long, complex workflows with a median duration of roughly 1.6 hours for a human. Claude Opus 4.8 with maximum reasoning completes only 20.6% of tasks, while GPT-5.5 peaks at around 13%. The authors identify that agents fail not on basic GUI control, but on constraint management and verification. The study is available on <a href=\"https://arxiv.org/abs/2606.29537\">arXiv</a>.",
+        "de": "Der Benchmark OSWorld 2.0 evaluiert Computerbedienungs-Agenten anhand von 108 langen und komplexen Workflows mit einer medianen Dauer von etwa 1,6 Stunden für einen Menschen. Claude Opus 4.8 mit maximalem Reasoning absolviert nur 20,6 % der Aufgaben, während GPT-5.5 bei etwa 13 % stagniert. Die Autoren stellen fest, dass Agenten nicht an der grundlegenden GUI-Steuerung scheitern, sondern an der Verwaltung von Einschränkungen und der Verifikation. Die Studie ist auf <a href=\"https://arxiv.org/abs/2606.29537\">arXiv</a> verfügbar.",
+        "it": "Il benchmark OSWorld 2.0 valuta gli agenti di utilizzo del computer su 108 workflow lunghi e complessi con una durata mediana di circa 1,6 ore per un umano. Claude Opus 4.8 con ragionamento massimo completa solo il 20,6% dei compiti, mentre GPT-5.5 raggiunge circa il 13%. Gli autori identificano che gli agenti falliscono non sul controllo GUI di base, ma sulla gestione dei vincoli e sulla verifica. Lo studio è disponibile su <a href=\"https://arxiv.org/abs/2606.29537\">arXiv</a>.",
+        "lmo": "El benchmark OSWorld 2.0 el valuta i agent d'utilizzazion de computer sora 108 workflow longh e compless d'ona durata mediana de circa 1,6 ore per on omen. Claude Opus 4.8 con resonament massim el completa domà el 20,6% di compit, intant che GPT-5.5 el riva a circa el 13%. I autor identifiquen che i agent fallissen no sora el controll GUI de bas, ma sora la gestion di costrizion e la verificazion. L'istudi l'è disponibel sora <a href=\"https://arxiv.org/abs/2606.29537\">arXiv</a>."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2606.29537"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Zuckerberg admet des progrès lents, mais les agents accomplissent 16 % des missions freelances",
+        "en": "Zuckerberg Admits Slow Progress, Yet Agents Complete 16% of Freelance Jobs",
+        "de": "Zuckerberg räumt langsame Fortschritte ein, doch Agenten erledigen 16 % der Freelance-Aufträge",
+        "it": "Zuckerberg ammette progressi lenti, ma gli agenti completano il 16% delle missioni freelance",
+        "lmo": "Zuckerberg l'ammett di progress lent, ma i agent compien el 16% di mission freelance"
+      },
+      "body": {
+        "fr": "Mark Zuckerberg a reconnu lors d'une réunion interne que les agents IA n'avaient pas progressé aussi rapidement qu'espéré, selon <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/\">TechCrunch</a>. Parallèlement, le Remote Labor Index montre que la proportion de missions freelances accomplies par des agents IA à un niveau professionnel est passée de 2,5 % à 16 % en huit mois, selon <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/\">The Decoder</a>. Deux signaux contradictoires sur la maturité réelle des agents.",
+        "en": "Mark Zuckerberg acknowledged during an internal meeting that AI agents had not progressed as quickly as hoped, according to <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/\">TechCrunch</a>. At the same time, the Remote Labor Index shows that the proportion of freelance jobs completed by AI agents at a professional level has risen from 2.5% to 16% in eight months, according to <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/\">The Decoder</a>. Two contradictory signals on the true maturity of agents.",
+        "de": "Mark Zuckerberg hat in einer internen Besprechung eingeräumt, dass KI-Agenten nicht so schnell vorangeschritten seien wie erhofft, wie <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/\">TechCrunch</a> berichtet. Parallel dazu zeigt der Remote Labor Index, dass der Anteil der von KI-Agenten auf professionellem Niveau erledigten Freelance-Aufträge innerhalb von acht Monaten von 2,5 % auf 16 % gestiegen ist, wie <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/\">The Decoder</a> meldet. Zwei widersprüchliche Signale zur tatsächlichen Reife von Agenten.",
+        "it": "Mark Zuckerberg ha riconosciuto durante una riunione interna che gli agenti IA non hanno progredito così rapidamente come sperato, secondo <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/\">TechCrunch</a>. Parallelamente, il Remote Labor Index mostra che la proporzione di missioni freelance completate da agenti IA a livello professionale è passata dal 2,5% al 16% in otto mesi, secondo <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/\">The Decoder</a>. Due segnali contraddittori sulla maturità reale degli agenti.",
+        "lmo": "Mark Zuckerberg l'ha riconossuu durant ona reunion interna che i agent IA eren no progressaa tant svelt 'me speraa, segond <a href=\"https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/\">TechCrunch</a>. In del midem temp, el Remote Labor Index el mostra che la proporzion de mission freelance compii de agent IA a on nivell professional l'è passada del 2,5% al 16% in vot mes, segond <a href=\"https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/\">The Decoder</a>. Du segnal contraditori in su la maturità reala di agent."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hoped/",
+        "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-in-eight-months/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Retro",
+        "de": "Grenzrückblick",
+        "it": "Retro Frontiera",
+        "lmo": "Retro Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Anthropic domine, Mistral et ByteDance répondent",
+            "en": "Anthropic Dominates, Mistral and ByteDance Respond",
+            "de": "Anthropic dominiert, Mistral und ByteDance antworten",
+            "it": "Anthropic domina, Mistral e ByteDance rispondono",
+            "lmo": "Anthropic la domina, Mistral e ByteDance responden"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Sonnet 5 : performances de pointe à prix réduit",
+                "en": "Claude Sonnet 5: Frontier Performance at Reduced Price",
+                "de": "Claude Sonnet 5: Spitzenleistung zum reduzierten Preis",
+                "it": "Claude Sonnet 5: prestazioni di punta a prezzo ridotto",
+                "lmo": "Claude Sonnet 5: performance de ponta a prezzi redutt"
+              },
+              "body": {
+                "fr": "Anthropic a publié Claude Sonnet 5, un modèle qui rivalise avec l'Opus 4.8 sur les benchmarks de codage et d'agents tout en coûtant environ cinq fois moins cher — 2 $ par million de tokens en entrée contre 15 $ pour l'Opus. Sur le benchmark <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">GDPval-AA v2</a>, Sonnet 5 devance même l'Opus 4.8 avec un score de 1 618. Le modèle supporte un contexte natif d'un million de tokens et des niveaux de raisonnement adaptatifs. Il est disponible sur l'API Anthropic, AWS, Google Cloud et Microsoft Foundry, et devient le modèle par défaut de Claude Code.",
+                "en": "Anthropic released Claude Sonnet 5, a model that rivals Opus 4.8 on coding and agent benchmarks while costing roughly five times less — $2 per million input tokens versus $15 for Opus. On the <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">GDPval-AA v2</a> benchmark, Sonnet 5 even surpasses Opus 4.8 with a score of 1,618. The model supports a native one-million-token context and adaptive reasoning levels. It is available on the Anthropic API, AWS, Google Cloud, and Microsoft Foundry, and becomes the default model for Claude Code.",
+                "de": "Anthropic hat Claude Sonnet 5 veröffentlicht, ein Modell, das mit Opus 4.8 bei den Benchmarks für Codierung und Agenten konkurriert, dabei aber etwa fünfmal günstiger ist – 2 $ pro Million Input-Token gegenüber 15 $ für Opus. Im <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">GDPval-AA v2</a>-Benchmark übertrifft Sonnet 5 sogar Opus 4.8 mit einer Punktzahl von 1.618. Das Modell unterstützt einen nativen Kontext von einer Million Token und adaptive Reasoning-Stufen. Es ist über die Anthropic-API, AWS, Google Cloud und Microsoft Foundry verfügbar und wird zum Standardmodell von Claude Code.",
+                "it": "Anthropic ha pubblicato Claude Sonnet 5, un modello che compete con Opus 4.8 nei benchmark di codifica e agenti pur costando circa cinque volte meno — 2 $ per milione di token in input contro 15 $ per Opus. Sul benchmark <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">GDPval-AA v2</a>, Sonnet 5 supera persino Opus 4.8 con un punteggio di 1.618. Il modello supporta un contesto nativo di un milione di token e livelli di ragionamento adattivi. È disponibile sull'API Anthropic, AWS, Google Cloud e Microsoft Foundry, e diventa il modello predefinito di Claude Code.",
+                "lmo": "Anthropic l'ha publicaa Claude Sonnet 5, on modell che 'l ghe va adree a l'Opus 4.8 sora i benchmark de codifega e d'agenti intant che 'l costa circa cinch voeult de men — 2 dollar per milion de token in entrada contra 15 dollar per l'Opus. Sora el benchmark <a href=\"https://www.anthropic.com/news/claude-sonnet-5\">GDPval-AA v2</a>, Sonnet 5 el va anca denanz a l'Opus 4.8 cont on score de 1 618. El modell el supporta on contest nativ d'on milion de token e di nivell de resonament adattativ. L'è disponibil in su l'API Anthropic, AWS, Google Cloud e Microsoft Foundry, e 'l deventa el modell de default del Claude Code."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/news/claude-sonnet-5"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic déploie une offensive multi-cloud et un accord avec la Californie",
+                "en": "Anthropic Launches Multi-Cloud Offensive and California Deal",
+                "de": "Anthropic startet Multi-Cloud-Offensive und Abkommen mit Kalifornien",
+                "it": "Anthropic dispiega un'offensiva multi-cloud e un accordo con la California",
+                "lmo": "Anthropic la despiega on'offensiva multi-cloud e on acord con la California"
+              },
+              "body": {
+                "fr": "Anthropic a dévoilé la <a href=\"https://claude.com/blog/introducing-the-claude-apps-gateway\">Claude apps gateway</a>, une passerelle qui unifie l'accès aux modèles Claude (Opus, Sonnet, Haiku) pour les entreprises utilisant Amazon Bedrock et Google Cloud. Parallèlement, Claude est désormais disponible en disponibilité générale sur <a href=\"https://claude.com/blog/claude-in-microsoft-foundry\">Microsoft Foundry</a>, avec des capacités de déploiement managé, de gouvernance et de sécurité. L'entreprise a également conclu un accord avec l'État de Californie, permettant au gouvernement californien d'accéder à Claude à 50 % du prix du marché, selon <a href=\"https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\">TechCrunch</a>.",
+                "en": "Anthropic unveiled the <a href=\"https://claude.com/blog/introducing-the-claude-apps-gateway\">Claude apps gateway</a>, a gateway that unifies access to Claude models (Opus, Sonnet, Haiku) for enterprises using Amazon Bedrock and Google Cloud. At the same time, Claude is now generally available on <a href=\"https://claude.com/blog/claude-in-microsoft-foundry\">Microsoft Foundry</a>, with managed deployment, governance, and security capabilities. The company also reached an agreement with the State of California, allowing the California government to access Claude at 50% of market price, according to <a href=\"https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\">TechCrunch</a>.",
+                "de": "Anthropic hat die <a href=\"https://claude.com/blog/introducing-the-claude-apps-gateway\">Claude apps gateway</a> vorgestellt, ein Gateway, das den Zugang zu den Claude-Modellen (Opus, Sonnet, Haiku) für Unternehmen, die Amazon Bedrock und Google Cloud nutzen, vereinheitlicht. Parallel dazu ist Claude nun allgemein auf <a href=\"https://claude.com/blog/claude-in-microsoft-foundry\">Microsoft Foundry</a> verfügbar, mit Funktionen für verwaltetes Deployment, Governance und Sicherheit. Das Unternehmen hat zudem eine Vereinbarung mit dem Bundesstaat Kalifornien getroffen, die der kalifornischen Regierung den Zugang zu Claude zu 50 % des Marktpreises ermöglicht, wie <a href=\"https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\">TechCrunch</a> berichtet.",
+                "it": "Anthropic ha svelato la <a href=\"https://claude.com/blog/introducing-the-claude-apps-gateway\">Claude apps gateway</a>, un gateway che unifica l'accesso ai modelli Claude (Opus, Sonnet, Haiku) per le aziende che utilizzano Amazon Bedrock e Google Cloud. Parallelamente, Claude è ora disponibile in disponibilità generale su <a href=\"https://claude.com/blog/claude-in-microsoft-foundry\">Microsoft Foundry</a>, con capacità di implementazione gestita, governance e sicurezza. L'azienda ha inoltre concluso un accordo con lo Stato della California, consentendo al governo californiano di accedere a Claude al 50% del prezzo di mercato, secondo <a href=\"https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\">TechCrunch</a>.",
+                "lmo": "Anthropic l'ha presenta la <a href=\"https://claude.com/blog/introducing-the-claude-apps-gateway\">Claude apps gateway</a>, ona passerella che l'unifega l'access ai modell Claude (Opus, Sonnet, Haiku) per i aziend che doperen Amazon Bedrock e Google Cloud. In del midem temp, Claude l'è adess disponibil in disponibilità generala sora <a href=\"https://claude.com/blog/claude-in-microsoft-foundry\">Microsoft Foundry</a>, con di capacità de despiegament managee, de governance e de sicurezza. L'azienda l'ha anca conclus on acord cont el Stat de California, permettend al govern californian de acced a Claude al 50% del prezz del mercaa, segond <a href=\"https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/\">TechCrunch</a>."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://claude.com/blog/introducing-the-claude-apps-gateway",
+                "https://claude.com/blog/claude-in-microsoft-foundry",
+                "https://techcrunch.com/2026/06/29/anthropic-and-gov-newsom-forge-deal-allowing-california-government-to-use-claude-at-half-price/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic détaille la sécurité de Fable 5 et propose une taxonomie des jailbreaks",
+                "en": "Anthropic Details Fable 5 Safety and Proposes Jailbreak Taxonomy",
+                "de": "Anthropic erläutert Sicherheit von Fable 5 und schlägt Jailbreak-Taxonomie vor",
+                "it": "Anthropic dettaglia la sicurezza di Fable 5 e propone una tassonomia dei jailbreak",
+                "lmo": "Anthropic la detaja la sicurezza del Fable 5 e la propònn ona tassonomia di jailbreak"
+              },
+              "body": {
+                "fr": "Anthropic a publié des détails sur les mécanismes de cybersécurité de Fable 5 et proposé un cadre industriel pour évaluer la sévérité des attaques par jailbreak, développé avec Amazon, Microsoft et Google dans le cadre du programme Glasswing. Le cadre introduit une échelle de sévérité classant les tentatives de contournement, des incitations simples aux attaques multi-tours sophistiquées. L'entreprise affirme que cette taxonomie commune est devenue indispensable alors que les modèles frontière sont déployés dans des environnements de plus en plus critiques. Plus de détails sur <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+                "en": "Anthropic published details on Fable 5's cybersecurity mechanisms and proposed an industry framework for assessing jailbreak attack severity, developed with Amazon, Microsoft, and Google under the Glasswing program. The framework introduces a severity scale classifying bypass attempts, from simple incentives to sophisticated multi-turn attacks. The company states that this common taxonomy has become essential as frontier models are deployed in increasingly critical environments. More details at <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+                "de": "Anthropic hat Details zu den Cybersicherheitsmechanismen von Fable 5 veröffentlicht und einen industriellen Rahmen zur Bewertung der Schwere von Jailbreak-Angriffen vorgeschlagen, der gemeinsam mit Amazon, Microsoft und Google im Rahmen des Glasswing-Programms entwickelt wurde. Der Rahmen führt eine Schweregradskala ein, die Umgehungsversuche von einfachen Aufforderungen bis hin zu ausgeklügelten Multi-Turn-Angriffen einstuft. Das Unternehmen erklärt, dass diese gemeinsame Taxonomie unverzichtbar geworden sei, da Grenzmodelle in zunehmend kritischen Umgebungen eingesetzt werden. Weitere Details auf <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+                "it": "Anthropic ha pubblicato dettagli sui meccanismi di cybersicurezza di Fable 5 e proposto un quadro industriale per valutare la gravità degli attacchi di jailbreak, sviluppato con Amazon, Microsoft e Google nell'ambito del programma Glasswing. Il quadro introduce una scala di gravità che classifica i tentativi di elusione, dagli incentivi semplici agli attacchi multi-turno sofisticati. L'azienda afferma che questa tassonomia comune è diventata indispensabile mentre i modelli di frontiera vengono implementati in ambienti sempre più critici. Maggiori dettagli su <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>.",
+                "lmo": "Anthropic l'ha publicaa di detaj in sui mecanism de cybersicurezza del Fable 5 e l'ha propost on quadre industrial per valutà la severità di atacch per jailbreak, sviluppaa con Amazon, Microsoft e Google in del programa Glasswing. El quadre l'introdux ona scala de severità che la classifica i tentativ de contornament, di incentiv semplici ai atacch multi-tour sofisticaa. L'azienda l'afferma che questa tassonomia comuna l'è deventada indispensabel intant che i modell frontiera hinn despiegaa in di ambient semper pussee critich. Pussee detaj in su <a href=\"https://www.anthropic.com/news\">anthropic.com/news</a>."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/news"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mistral publie Leanstral 1.5, un agent de preuve formelle open-source qui détecte des bugs réels",
+                "en": "Mistral Releases Leanstral 1.5, an Open-Source Formal Proof Agent That Catches Real Bugs",
+                "de": "Mistral veröffentlicht Leanstral 1.5, einen Open-Source-Agenten für formale Beweise, der echte Fehler erkennt",
+                "it": "Mistral pubblica Leanstral 1.5, un agente di dimostrazione formale open-source che rileva bug reali",
+                "lmo": "Mistral el publiga Leanstral 1.5, on agent de preuva formal open-source che 'l rileva di bug reai"
+              },
+              "body": {
+                "fr": "Mistral AI a publié Leanstral 1.5, un agent de code spécialisé dans la preuve formelle en Lean 4, distribué sous licence Apache-2.0. Le modèle, une architecture mixture-of-experts de 119 milliards de paramètres dont 6,5 milliards activés par token, sature le benchmark miniF2F et résout 587 des 672 problèmes du concours PutnamBench. Au-delà des benchmarks, le modèle a découvert cinq bogues inconnus en analysant 57 dépôts open-source, démontrant une utilité concrète pour la détection de vulnérabilités dans des codebases de production. Le modèle est disponible en téléchargement libre sur <a href=\"https://mistral.ai/news/leanstral-1-5/\">mistral.ai</a>.",
+                "en": "Mistral AI released Leanstral 1.5, a code agent specialized in formal proof in Lean 4, distributed under the Apache-2.0 license. The model, a mixture-of-experts architecture with 119 billion parameters of which 6.5 billion are activated per token, saturates the miniF2F benchmark and solves 587 of the 672 problems in the PutnamBench competition. Beyond benchmarks, the model discovered five unknown bugs by analyzing 57 open-source repositories, demonstrating concrete utility for vulnerability detection in production codebases. The model is freely available for download at <a href=\"https://mistral.ai/news/leanstral-1-5/\">mistral.ai</a>.",
+                "de": "Mistral AI hat Leanstral 1.5 veröffentlicht, einen auf formale Beweise in Lean 4 spezialisierten Code-Agenten, der unter der Apache-2.0-Lizenz vertrieben wird. Das Modell, eine Mixture-of-Experts-Architektur mit 119 Milliarden Parametern, von denen 6,5 Milliarden pro Token aktiviert werden, sättigt den miniF2F-Benchmark und löst 587 der 672 Probleme des PutnamBench-Wettbewerbs. Über die Benchmarks hinaus entdeckte das Modell fünf unbekannte Fehler bei der Analyse von 57 Open-Source-Repositories und demonstrierte damit einen konkreten Nutzen für die Erkennung von Schwachstellen in Produktionscodebasen. Das Modell ist frei herunterladbar auf <a href=\"https://mistral.ai/news/leanstral-1-5/\">mistral.ai</a>.",
+                "it": "Mistral AI ha pubblicato Leanstral 1.5, un agente di codice specializzato nella dimostrazione formale in Lean 4, distribuito sotto licenza Apache-2.0. Il modello, un'architettura mixture-of-experts da 119 miliardi di parametri di cui 6,5 miliardi attivati per token, satura il benchmark miniF2F e risolve 587 dei 672 problemi del concorso PutnamBench. Oltre ai benchmark, il modello ha scoperto cinque bug sconosciuti analizzando 57 repository open-source, dimostrando un'utilità concreta per il rilevamento di vulnerabilità in codebase di produzione. Il modello è disponibile per il download gratuito su <a href=\"https://mistral.ai/news/leanstral-1-5/\">mistral.ai</a>.",
+                "lmo": "Mistral AI l'ha publicaa Leanstral 1.5, on agent de codifega specializzaa in la preuva formal in Lean 4, distribuii sotta licenza Apache-2.0. El modell, ona architettura mixture-of-experts de 119 miliard de parametri, di quai 6,5 miliard ativaa per token, el satural el benchmark miniF2F e 'l risoeulv 587 di 672 problema del concors PutnamBench. Oltra ai benchmark, el modell l'ha descovert cinch bug conossuu no in analizzà 57 deposit open-source, dimostrand ona utilità concreta per la rilevazion de vulnerabilità in di codebase de produzion. El modell l'è disponibel in scaricament liber sora <a href=\"https://mistral.ai/news/leanstral-1-5/\">mistral.ai</a>."
+              },
+              "kicker": {
+                "fr": "Mistral AI",
+                "en": "Mistral AI",
+                "de": "Mistral AI",
+                "it": "Mistral AI",
+                "lmo": "Mistral AI"
+              },
+              "urls": [
+                "https://mistral.ai/news/leanstral-1-5/",
+                "https://the-decoder.com/mistrals-open-source-leanstral-1-5-aces-formal-math-benchmarks-and-catches-real-bugs-in-code/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Seed2.0 et HORIZON : ByteDance et NVIDIA poussent leurs gammes",
+            "en": "Seed2.0 and HORIZON: ByteDance and NVIDIA Push Their Ranges",
+            "de": "Seed2.0 und HORIZON: ByteDance und NVIDIA treiben ihre Produktreihen voran",
+            "it": "Seed2.0 e HORIZON: ByteDance e NVIDIA spingono le loro gamme",
+            "lmo": "Seed2.0 e HORIZON: ByteDance e NVIDIA spinghen i sò gam"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ByteDance Seed dévoile Seed2.0, un modèle pour la complexité du monde réel",
+                "en": "ByteDance Seed Unveils Seed2.0, a Model for Real-World Complexity",
+                "de": "ByteDance Seed enthüllt Seed2.0, ein Modell für die Komplexität der realen Welt",
+                "it": "ByteDance Seed svela Seed2.0, un modello per la complessità del mondo reale",
+                "lmo": "ByteDance Seed la revèla Seed2.0, on modell per la complessità del mond real"
+              },
+              "body": {
+                "fr": "ByteDance Seed a publié la carte modèle de Seed2.0, une série de modèles conçus pour résoudre des tâches complexes du monde réel. Seed2.0 cible deux défis persistants : la connaissance de longue traîne et le suivi complexe d'instructions. Le modèle card documente des améliorations substantielles en raisonnement, compréhension visuelle et capacités de recherche, et montre que Seed2.0 commence à gérer des tâches réelles complexes pour des centaines de millions d'utilisateurs. Le document complet est disponible sur <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "en": "ByteDance Seed published the model card for Seed2.0, a series of models designed to solve complex real-world tasks. Seed2.0 targets two persistent challenges: long-tail knowledge and complex instruction following. The model card documents substantial improvements in reasoning, visual understanding, and search capabilities, and shows that Seed2.0 is beginning to handle complex real-world tasks for hundreds of millions of users. The full paper is available on <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "de": "ByteDance Seed hat die Modellkarte von Seed2.0 veröffentlicht, einer Serie von Modellen, die zur Lösung komplexer realer Aufgaben entwickelt wurden. Seed2.0 zielt auf zwei anhaltende Herausforderungen ab: Long-Tail-Wissen und komplexe Instruktionsbefolgung. Die Modellkarte dokumentiert substanzielle Verbesserungen bei Reasoning, visuellem Verständnis und Suchfähigkeiten und zeigt, dass Seed2.0 beginnt, komplexe reale Aufgaben für Hunderte Millionen Nutzer zu bewältigen. Das vollständige Dokument ist auf <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a> verfügbar.",
+                "it": "ByteDance Seed ha pubblicato la model card di Seed2.0, una serie di modelli progettati per risolvere compiti complessi del mondo reale. Seed2.0 mira a due sfide persistenti: la conoscenza di coda lunga e il complesso follow-up di istruzioni. La model card documenta miglioramenti sostanziali in ragionamento, comprensione visiva e capacità di ricerca, e mostra che Seed2.0 inizia a gestire compiti reali complessi per centinaia di milioni di utenti. Il documento completo è disponibile su <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>.",
+                "lmo": "ByteDance Seed l'ha publicaa la carta modell del Seed2.0, ona serie de modell conceput per risoeuv di compit compless del mond real. Seed2.0 el mira du sfid persistent: la conoscenza de longa cova e 'l seguiment compless d'istruzion. La carta modell la documenta di migliorament sostanziai in resonament, comprension visual e capacità de ricerca, e la mostra che Seed2.0 el comenza a gestì di compit reai compless per centenar de milion de utent. El document complet l'è disponibel sora <a href=\"https://arxiv.org/abs/2607.00248\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "ByteDance",
+                "en": "ByteDance",
+                "de": "ByteDance",
+                "it": "ByteDance",
+                "lmo": "ByteDance"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.00248"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NVIDIA HORIZON atteint 100 % sur les benchmarks de conception de circuits",
+                "en": "NVIDIA HORIZON Hits 100% on Circuit Design Benchmarks",
+                "de": "NVIDIA HORIZON erreicht 100 % bei Hardware-Design-Benchmarks",
+                "it": "NVIDIA HORIZON raggiunge il 100% nei benchmark di progettazione circuitale",
+                "lmo": "NVIDIA HORIZON el riva al 100% sora i benchmark de progetazzion de circuit"
+              },
+              "body": {
+                "fr": "NVIDIA a dévoilé HORIZON, un agent « mains libres » qui atteint 100 % de complétion sur les benchmarks RTL de conception matérielle. L'agent héberge chaque problème de conception comme un dépôt versionné, évolue les worktrees Git et génère automatiquement les solutions de circuits. Cette performance suggère que les agents IA commencent à rivaliser avec les ingénieurs matériels sur des tâches de synthèse logique standardisées. Détails sur <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">MarkTechPost</a>.",
+                "en": "NVIDIA unveiled HORIZON, a \"hands-free\" agent that achieves 100% completion on RTL hardware design benchmarks. The agent hosts each design problem as a versioned repository, evolves Git worktrees, and automatically generates circuit solutions. This performance suggests that AI agents are beginning to rival hardware engineers on standardized logic synthesis tasks. Details at <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">MarkTechPost</a>.",
+                "de": "NVIDIA hat HORIZON vorgestellt, einen «Freihand»-Agenten, der eine 100%ige Abschlussrate bei RTL-Benchmarks für Hardware-Design erreicht. Der Agent hostet jedes Designproblem als versioniertes Repository, entwickelt Git-Worktrees weiter und generiert automatisch die Schaltungslösungen. Diese Leistung deutet darauf hin, dass KI-Agenten beginnen, mit Hardware-Ingenieuren bei standardisierten Logiksynthese-Aufgaben zu konkurrieren. Details auf <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">MarkTechPost</a>.",
+                "it": "NVIDIA ha svelato HORIZON, un agente «a mani libere» che raggiunge il 100% di completamento nei benchmark RTL di progettazione hardware. L'agente ospita ogni problema di progettazione come un repository versionato, evolve i worktree Git e genera automaticamente le soluzioni circuitali. Questa performance suggerisce che gli agenti IA iniziano a competere con gli ingegneri hardware su compiti di sintesi logica standardizzati. Dettagli su <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">MarkTechPost</a>.",
+                "lmo": "NVIDIA l'ha presenta HORIZON, on agent « a man liber » che 'l riva al 100% de completament sora i benchmark RTL de progetazzion material. L'agent l'ospita ogni problema de progetazzion 'me on deposit versionaa, el evolv i worktrees Git e 'l genera automaticament i soluzion de circuit. Questa performance la suggeriss che i agent IA comencen a gareggià con i ingegner materiaj sora di compit de sintesi logica standardizzaa. Detaj sora <a href=\"https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/\">MarkTechPost</a>."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/07/04/nvidia-horizon-a-hands-free-agent-that-evolves-git-worktrees-and-hits-100-rtl-benchmark-completion/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praxis",
+        "it": "Strumenti e Pratiche",
+        "lmo": "Strument & Pratich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "CLI et agents de codage",
+            "en": "CLI and Coding Agents",
+            "de": "CLI und Codierungsagenten",
+            "it": "CLI e agenti di codifica",
+            "lmo": "CLI e agent de codifega"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code : prompt système réduit de 80 % et Sonnet 5 par défaut",
+                "en": "Claude Code: System Prompt Reduced by 80%, Sonnet 5 Now Default",
+                "de": "Claude Code: System-Prompt um 80 % reduziert und Sonnet 5 als Standard",
+                "it": "Claude Code: prompt di sistema ridotto dell'80% e Sonnet 5 come predefinito",
+                "lmo": "Claude Code: prompt sistema redutt del 80% e Sonnet 5 de default"
+              },
+              "body": {
+                "fr": "Anthropic a réduit de 80 % le prompt système de Claude Code, passant d'environ 1 500 à 300 tokens, selon une déclaration du staff Tariq Shihipar rapportée par <a href=\"https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/\">The Decoder</a>. La raison invoquée est que les modèles Fable 5 « veulent un prompt système plus petit » et que des instructions trop détaillées peuvent brider leurs capacités. Anthropic indique désormais guider le comportement de l'agent par le contexte plutôt que par des règles strictes. Par ailleurs, la version 2.1.200 a modifié le comportement par défaut des dialogues AskUserQuestion, qui ne s'exécutent plus automatiquement, et la version 2.1.197 a intégré Sonnet 5 comme modèle par défaut.",
+                "en": "Anthropic reduced Claude Code's system prompt by 80%, from roughly 1,500 to 300 tokens, according to a statement from staff member Tariq Shihipar reported by <a href=\"https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/\">The Decoder</a>. The reason given is that Fable 5 models \"want a smaller system prompt\" and that overly detailed instructions can constrain their capabilities. Anthropic now says it guides agent behavior through context rather than strict rules. Additionally, version 2.1.200 changed the default behavior of AskUserQuestion dialogs, which no longer execute automatically, and version 2.1.197 integrated Sonnet 5 as the default model.",
+                "de": "Anthropic hat den System-Prompt von Claude Code um 80 % reduziert, von etwa 1.500 auf 300 Token, wie aus einer Aussage des Mitarbeiters Tariq Shihipar hervorgeht, über die <a href=\"https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/\">The Decoder</a> berichtet. Als Grund wird angeführt, dass die Fable-5-Modelle «einen kleineren System-Prompt wollen» und dass zu detaillierte Anweisungen ihre Fähigkeiten einschränken können. Anthropic gibt an, das Verhalten des Agenten nun eher durch den Kontext als durch strenge Regeln zu steuern. Zudem hat Version 2.1.200 das Standardverhalten der AskUserQuestion-Dialoge geändert, die nicht mehr automatisch ausgeführt werden, und Version 2.1.197 hat Sonnet 5 als Standardmodell integriert.",
+                "it": "Anthropic ha ridotto dell'80% il prompt di sistema di Claude Code, passando da circa 1.500 a 300 token, secondo una dichiarazione del membro dello staff Tariq Shihipar riportata da <a href=\"https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/\">The Decoder</a>. La ragione addotta è che i modelli Fable 5 «vogliono un prompt di sistema più piccolo» e che istruzioni troppo dettagliate possono limitare le loro capacità. Anthropic indica ora di guidare il comportamento dell'agente attraverso il contesto piuttosto che con regole rigide. Inoltre, la versione 2.1.200 ha modificato il comportamento predefinito dei dialoghi AskUserQuestion, che non vengono più eseguiti automaticamente, e la versione 2.1.197 ha integrato Sonnet 5 come modello predefinito.",
+                "lmo": "Anthropic l'ha redutt del 80% el prompt sistema del Claude Code, passand de circa 1 500 a 300 token, segond ona declarazion del staff Tariq Shihipar reportada del <a href=\"https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/\">The Decoder</a>. La reson invocada l'è che i modell Fable 5 « i voeuren on prompt sistema pussee piscininit » e che di istruzion tròpp detajade poden bridà i sò capacità. Anthropic l'indica adess de guidà el comportament de l'agent per el contest pussee che per di regol stregg. D'oltra banda, la version 2.1.200 l'ha modifegaa el comportament de default di dialogh AskUserQuestion, che se eseguissen pu automaticament, e la version 2.1.197 l'ha integraa Sonnet 5 'me modell de default."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://the-decoder.com/anthropic-reduces-claude-code-system-prompt-by-80-percent/",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.200"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI tease un appareil matériel pour Codex et publie de nouvelles versions",
+                "en": "OpenAI Teases Hardware Device for Codex and Releases New Versions",
+                "de": "OpenAI deutet Hardware-Gerät für Codex an und veröffentlicht neue Versionen",
+                "it": "OpenAI anticipa un dispositivo hardware per Codex e pubblica nuove versioni",
+                "lmo": "OpenAI el tease on aparecc material per Codex e 'l publiga di noeuve version"
+              },
+              "body": {
+                "fr": "OpenAI a teasé un appareil matériel dédié à Codex, dont le lancement est prévu pour le 15 juillet 2026. Dans une vidéo publiée sur X, l'entreprise montre un boîtier carré équipé de plusieurs boutons, accompagné du message « Vos raccourcis Codex préférés vont être améliorés », selon <a href=\"https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\">The Verge</a>. Par ailleurs, la version stable rust-v0.142.4 et l'alpha 0.143.0.31 ont été publiées. Un bug signalé sur GitHub suggère que le clustering des tokens de raisonnement de GPT-5.5 pourrait dégrader les performances de Codex.",
+                "en": "OpenAI teased a dedicated hardware device for Codex, with a launch scheduled for July 15, 2026. In a video posted on X, the company shows a square box equipped with several buttons, accompanied by the message \"Your favorite Codex shortcuts are about to get better,\" according to <a href=\"https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\">The Verge</a>. Separately, the stable release rust-v0.142.4 and alpha 0.143.0.31 were published. A bug reported on GitHub suggests that clustering of GPT-5.5 reasoning tokens could degrade Codex performance.",
+                "de": "OpenAI hat ein dediziertes Hardware-Gerät für Codex angedeutet, dessen Markteinführung für den 15. Juli 2026 geplant ist. In einem auf X veröffentlichten Video zeigt das Unternehmen ein quadratisches Gehäuse mit mehreren Tasten, begleitet von der Nachricht «Eure liebsten Codex-Verknüpfungen werden verbessert», wie <a href=\"https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\">The Verge</a> berichtet. Darüber hinaus wurden die stabile Version rust-v0.142.4 und die Alpha 0.143.0.31 veröffentlicht. Ein auf GitHub gemeldeter Fehler deutet darauf hin, dass das Clustering der Reasoning-Token von GPT-5.5 die Leistung von Codex beeinträchtigen könnte.",
+                "it": "OpenAI ha anticipato un dispositivo hardware dedicato a Codex, il cui lancio è previsto per il 15 luglio 2026. In un video pubblicato su X, l'azienda mostra un box quadrato dotato di diversi pulsanti, accompagnato dal messaggio «I vostri collegamenti rapidi preferiti di Codex saranno migliorati», secondo <a href=\"https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\">The Verge</a>. Inoltre, sono state pubblicate la versione stabile rust-v0.142.4 e l'alpha 0.143.0.31. Un bug segnalato su GitHub suggerisce che il clustering dei token di ragionamento di GPT-5.5 potrebbe degradare le performance di Codex.",
+                "lmo": "OpenAI l'ha teasà on aparecc material dedicaa al Codex, del quai el lanzament l'è previs per el 15 de luj 2026. In d'on video publicaa in su X, l'azienda la mostra on scatolin quadraa fornii de pussee boton, compagnaa del messagg « I voster scursament Codex preferii saran miglioraa », segond <a href=\"https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder\">The Verge</a>. D'oltra banda, la version stabila rust-v0.142.4 e l'alpha 0.143.0.31 hinn staa publicaa. On bug segnalaa in su GitHub el suggeriss che 'l clustering di token de resonament del GPT-5.5 el podariss degradà i performance del Codex."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+                "https://github.com/openai/codex/releases/tag/rust-v0.142.4",
+                "https://github.com/openai/codex/issues/30364"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ollama 0.31.1 accélère Gemma 4 de 90 % sur Apple Silicon",
+                "en": "Ollama 0.31.1 Speeds Up Gemma 4 by 90% on Apple Silicon",
+                "de": "Ollama 0.31.1 beschleunigt Gemma 4 um 90 % auf Apple Silicon",
+                "it": "Ollama 0.31.1 accelera Gemma 4 del 90% su Apple Silicon",
+                "lmo": "Ollama 0.31.1 l'accelera Gemma 4 del 90% sora Apple Silicon"
+              },
+              "body": {
+                "fr": "Ollama a publié la version 0.31.1, qui accélère significativement Gemma 4 sur Apple Silicon en exploitant la prédiction multi-tokens (MTP) pour générer des tokens près de 90 % plus rapidement en moyenne sur un benchmark d'agents de codage. Ollama ajuste automatiquement le nombre de tokens draftés à l'exécution, sans configuration requise. La version met également à jour le moteur MLX et le moteur llama.cpp sous-jacent. Détails sur <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.1\">GitHub</a>.",
+                "en": "Ollama released version 0.31.1, which significantly accelerates Gemma 4 on Apple Silicon by leveraging multi-token prediction (MTP) to generate tokens nearly 90% faster on average on a coding agent benchmark. Ollama automatically adjusts the number of drafted tokens at runtime, with no configuration required. The release also updates the underlying MLX engine and llama.cpp engine. Details on <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.1\">GitHub</a>.",
+                "de": "Ollama hat Version 0.31.1 veröffentlicht, die Gemma 4 auf Apple Silicon deutlich beschleunigt, indem sie die Multi-Token-Vorhersage (MTP) nutzt, um Token im Durchschnitt fast 90 % schneller zu generieren, gemessen an einem Benchmark für Codierungsagenten. Ollama passt die Anzahl der entworfenen Token zur Laufzeit automatisch an, ohne dass eine Konfiguration erforderlich ist. Die Version aktualisiert auch die zugrunde liegende MLX-Engine und die llama.cpp-Engine. Details auf <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.1\">GitHub</a>.",
+                "it": "Ollama ha pubblicato la versione 0.31.1, che accelera significativamente Gemma 4 su Apple Silicon sfruttando la predizione multi-token (MTP) per generare token quasi il 90% più velocemente in media su un benchmark di agenti di codifica. Ollama regola automaticamente il numero di token draftati in esecuzione, senza necessità di configurazione. La versione aggiorna inoltre il motore MLX e il motore llama.cpp sottostante. Dettagli su <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.1\">GitHub</a>.",
+                "lmo": "Ollama l'ha publicaa la version 0.31.1, che l'accelera significativament Gemma 4 sora Apple Silicon doperand la prevision multi-token (MTP) per generà di token pressapoch 90% pussee svelt in media sora on benchmark d'agenti de codifega. Ollama el giusta automaticament el numer de token draftaa a l'esecuzion, senza configurazion necessaria. La version la met anca a giornà el motor MLX e 'l motor llama.cpp sotta. Detaj sora <a href=\"https://github.com/ollama/ollama/releases/tag/v0.31.1\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Ollama",
+                "en": "Ollama",
+                "de": "Ollama",
+                "it": "Ollama",
+                "lmo": "Ollama"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.31.1"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs d'inférence et interopérabilité",
+            "en": "Inference Engines and Interoperability",
+            "de": "Inferenz-Engines und Interoperabilität",
+            "it": "Motori di inferenza e interoperabilità",
+            "lmo": "Motor d'inferenza e interoparabilità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp : six versions correctives en une semaine",
+                "en": "llama.cpp: Six Patch Releases in One Week",
+                "de": "llama.cpp: Sechs Fehlerbehebungsversionen in einer Woche",
+                "it": "llama.cpp: sei versioni correttive in una settimana",
+                "lmo": "llama.cpp: ses version correttiv in d'ona setemana"
+              },
+              "body": {
+                "fr": "llama.cpp a publié plusieurs versions cette semaine : b9837 introduit le flag --reasoning-preserve pour les modèles à chaîne de pensée ; b9843 rétablit la stabilité du scheduler multi-GPU ; b9851 corrige des erreurs CUDA dans l'attention flash ; b9860 expose les noms de quantification en API publique ; b9870 corrige les longues boucles de raisonnement ; b9873 corrige un crash en décodage spéculatif. Toutes les versions sont disponibles sur le <a href=\"https://github.com/ggml-org/llama.cpp/releases\">dépôt GitHub de llama.cpp</a>.",
+                "en": "llama.cpp released several versions this week: b9837 introduces the --reasoning-preserve flag for chain-of-thought models; b9843 restores multi-GPU scheduler stability; b9851 fixes CUDA errors in flash attention; b9860 exposes quantization names in the public API; b9870 fixes long reasoning loops; b9873 fixes a crash in speculative decoding. All versions are available on the <a href=\"https://github.com/ggml-org/llama.cpp/releases\">llama.cpp GitHub repository</a>.",
+                "de": "llama.cpp hat diese Woche mehrere Versionen veröffentlicht: b9837 führt das Flag --reasoning-preserve für Chain-of-Thought-Modelle ein; b9843 stellt die Stabilität des Multi-GPU-Schedulers wieder her; b9851 behebt CUDA-Fehler im Flash-Attention; b9860 macht Quantisierungsnamen in der öffentlichen API verfügbar; b9870 behebt lange Reasoning-Schleifen; b9873 behebt einen Absturz beim spekulativen Decoding. Alle Versionen sind im <a href=\"https://github.com/ggml-org/llama.cpp/releases\">GitHub-Repository von llama.cpp</a> verfügbar.",
+                "it": "llama.cpp ha pubblicato diverse versioni questa settimana: b9837 introduce il flag --reasoning-preserve per i modelli a catena di pensiero; b9843 ripristina la stabilità dello scheduler multi-GPU; b9851 corregge errori CUDA nell'attenzione flash; b9860 espone i nomi di quantizzazione nell'API pubblica; b9870 corregge i lunghi loop di ragionamento; b9873 corregge un crash in decodifica speculativa. Tutte le versioni sono disponibili sul <a href=\"https://github.com/ggml-org/llama.cpp/releases\">repository GitHub di llama.cpp</a>.",
+                "lmo": "llama.cpp l'ha publicaa pussee version questa setemana: b9837 l'introdux el flag --reasoning-preserve per i modell a cadena de penser; b9843 el ristabiliss la stabilità del scheduler multi-GPU; b9851 el corregg di error CUDA in l'attenzion flash; b9860 el espon i nomm de quantificazion in API publica; b9870 el corregg i longh loop de resonament; b9873 el corregg on crash in decodifega speculativa. Tutt i version hinn disponibel sora el <a href=\"https://github.com/ggml-org/llama.cpp/releases\">deposit GitHub de llama.cpp</a>."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9837",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9843",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9851",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9860",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9870",
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9873"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX : support du drafter Gemma 4 et compatibilité Codex",
+                "en": "Rapid-MLX: Gemma 4 Drafter Support and Codex Compatibility",
+                "de": "Rapid-MLX: Unterstützung für Gemma-4-Drafter und Codex-Kompatibilität",
+                "it": "Rapid-MLX: supporto del drafter Gemma 4 e compatibilità Codex",
+                "lmo": "Rapid-MLX: support del drafter Gemma 4 e compatibilità Codex"
+              },
+              "body": {
+                "fr": "Rapid-MLX a publié trois versions cette semaine : v0.9.8 restaure la compatibilité avec mlx-vlm 0.6.3 ; v0.9.11 et v0.9.12 ajoutent le support du drafter Gemma 4 pour la prédiction multi-tokens (MTP) sur Apple Silicon. La version v0.10.0 ajoute la compatibilité avec les groupes d'outils Codex sur l'endpoint /v1/responses, permettant au serveur d'inférence MLX de fonctionner comme backend pour les agents Codex d'OpenAI. Toutes les versions sont disponibles sur <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">GitHub</a>.",
+                "en": "Rapid-MLX released three versions this week: v0.9.8 restores compatibility with mlx-vlm 0.6.3; v0.9.11 and v0.9.12 add support for the Gemma 4 drafter for multi-token prediction (MTP) on Apple Silicon. Version v0.10.0 adds compatibility with Codex tool groups on the /v1/responses endpoint, allowing the MLX inference server to function as a backend for OpenAI's Codex agents. All versions are available on <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">GitHub</a>.",
+                "de": "Rapid-MLX hat diese Woche drei Versionen veröffentlicht: v0.9.8 stellt die Kompatibilität mit mlx-vlm 0.6.3 wieder her; v0.9.11 und v0.9.12 fügen die Unterstützung des Gemma-4-Drafters für die Multi-Token-Vorhersage (MTP) auf Apple Silicon hinzu. Version v0.10.0 fügt die Kompatibilität mit Codex-Tool-Gruppen am Endpunkt /v1/responses hinzu, wodurch der MLX-Inferenzserver als Backend für OpenAIs Codex-Agenten fungieren kann. Alle Versionen sind auf <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">GitHub</a> verfügbar.",
+                "it": "Rapid-MLX ha pubblicato tre versioni questa settimana: v0.9.8 ripristina la compatibilità con mlx-vlm 0.6.3; v0.9.11 e v0.9.12 aggiungono il supporto del drafter Gemma 4 per la predizione multi-token (MTP) su Apple Silicon. La versione v0.10.0 aggiunge la compatibilità con i gruppi di strumenti Codex sull'endpoint /v1/responses, consentendo al server di inferenza MLX di funzionare come backend per gli agenti Codex di OpenAI. Tutte le versioni sono disponibili su <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">GitHub</a>.",
+                "lmo": "Rapid-MLX l'ha publicaa trii version questa setemana: v0.9.8 la restabiliss la compatibilità con mlx-vlm 0.6.3; v0.9.11 e v0.9.12 ghe meten adree el support del drafter Gemma 4 per la prevision multi-token (MTP) sora Apple Silicon. La version v0.10.0 la ghe met adree la compatibilità con i grupp de strument Codex sora l'endpoint /v1/responses, permettend al server d'inferenza MLX de fonzionà 'me backend per i agent Codex d'OpenAI. Tutt i version hinn disponibel sora <a href=\"https://github.com/raullenchai/Rapid-MLX/releases\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Rapid-MLX",
+                "en": "Rapid-MLX",
+                "de": "Rapid-MLX",
+                "it": "Rapid-MLX",
+                "lmo": "Rapid-MLX"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.8",
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.11",
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.9.12",
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.0"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers marquants de la semaine",
+            "en": "Notable Papers of the Week",
+            "de": "Bemerkenswerte Papers der Woche",
+            "it": "Paper rilevanti della settimana",
+            "lmo": "Paper marcant de la setemana"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Agents-A1 : un modèle de 35B rivalise avec les trillions en scalant l'horizon",
+                "en": "Agents-A1: A 35B Model Rivals Trillion-Parameter Models by Scaling Horizon",
+                "de": "Agents-A1: Ein 35B-Modell konkurriert mit Billionen durch Horizont-Skalierung",
+                "it": "Agents-A1: un modello da 35B compete con i trilioni scalando l'orizzonte",
+                "lmo": "Agents-A1: on modell de 35B el gareggia con i trilion in scalà l'orizzont"
+              },
+              "body": {
+                "fr": "Une équipe de recherche internationale présente Agents-A1, un modèle agentique Mixture-of-Experts de 35 milliards de paramètres qui atteint des performances comparables à des modèles de 1 000 milliards de paramètres. L'approche repose sur le « scaling de l'horizon » plutôt que le scaling des paramètres : des trajectoires agentiques d'une longueur moyenne de 45 000 tokens, combinées à un entraînement en trois étapes. Agents-A1 obtient des scores de 56,4 sur SEAL-0, 80,6 sur IFBench et 70,2 sur SWE-bench Verified. L'article est disponible sur <a href=\"https://arxiv.org/abs/2606.30616\">arXiv</a>.",
+                "en": "An international research team presents Agents-A1, a 35-billion-parameter Mixture-of-Experts agentic model that achieves performance comparable to trillion-parameter models. The approach relies on \"horizon scaling\" rather than parameter scaling: agentic trajectories averaging 45,000 tokens in length, combined with three-stage training. Agents-A1 scores 56.4 on SEAL-0, 80.6 on IFBench, and 70.2 on SWE-bench Verified. The paper is available on <a href=\"https://arxiv.org/abs/2606.30616\">arXiv</a>.",
+                "de": "Ein internationales Forschungsteam stellt Agents-A1 vor, ein agentisches Mixture-of-Experts-Modell mit 35 Milliarden Parametern, das Leistungen erzielt, die mit Modellen mit 1.000 Milliarden Parametern vergleichbar sind. Der Ansatz basiert auf «Horizont-Skalierung» anstelle von Parameterskalierung: agentische Trajektorien mit einer durchschnittlichen Länge von 45.000 Token, kombiniert mit einem dreistufigen Training. Agents-A1 erzielt Werte von 56,4 bei SEAL-0, 80,6 bei IFBench und 70,2 bei SWE-bench Verified. Das Paper ist auf <a href=\"https://arxiv.org/abs/2606.30616\">arXiv</a> verfügbar.",
+                "it": "Un team di ricerca internazionale presenta Agents-A1, un modello agentico Mixture-of-Experts da 35 miliardi di parametri che raggiunge prestazioni paragonabili a modelli da 1.000 miliardi di parametri. L'approccio si basa sullo «scaling dell'orizzonte» piuttosto che sullo scaling dei parametri: traiettorie agentiche di lunghezza media di 45.000 token, combinate con un addestramento in tre fasi. Agents-A1 ottiene punteggi di 56,4 su SEAL-0, 80,6 su IFBench e 70,2 su SWE-bench Verified. L'articolo è disponibile su <a href=\"https://arxiv.org/abs/2606.30616\">arXiv</a>.",
+                "lmo": "On team de ricerca internazional el presenta Agents-A1, on modell agentigh Mixture-of-Experts de 35 miliard de parametri che 'l riva a di performance comparabil a di modell de 1 000 miliard de parametri. L'approcci el se basà in sul « scaling de l'orizzont » pussee che in sul scaling di parametri: di traiettori agentigh d'ona longhezza media de 45 000 token, combinaa con on addestrament in trii pass. Agents-A1 l'oten di score de 56,4 sora SEAL-0, 80,6 sora IFBench e 70,2 sora SWE-bench Verified. L'articol l'è disponibel sora <a href=\"https://arxiv.org/abs/2606.30616\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2606.30616"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Program-as-Weights : compiler des fonctions floues en artefacts neuronaux compacts",
+                "en": "Program-as-Weights: Compiling Fuzzy Functions into Compact Neural Artifacts",
+                "de": "Program-as-Weights: Kompilierung unscharfer Funktionen zu kompakten neuronalen Artefakten",
+                "it": "Program-as-Weights: compilare funzioni fuzzy in artefatti neurali compatti",
+                "lmo": "Program-as-Weights: compilà di fonzion fioeu in artefatt neuronai compatt"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de Waterloo présentent Program-as-Weights (PAW), un paradigme de programmation pour fonctions floues. Un compilateur de 4 milliards de paramètres, entraîné sur le dataset FuzzyBench (10 millions d'exemples), émet des adaptateurs paramétriques pour un interpréteur léger et figé de 0,6 milliard de paramètres. L'interpréteur PAW égalise les performances d'un Qwen3-32B en prompting direct tout en utilisant environ un cinquantième de la mémoire d'inférence et en tournant à 30 tokens/s sur un MacBook M3. L'article est disponible sur <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "en": "Researchers from the University of Waterloo present Program-as-Weights (PAW), a programming paradigm for fuzzy functions. A 4-billion-parameter compiler, trained on the FuzzyBench dataset (10 million examples), emits parametric adapters for a lightweight, frozen 0.6-billion-parameter interpreter. The PAW interpreter matches the performance of Qwen3-32B with direct prompting while using roughly one-fiftieth of the inference memory and running at 30 tokens/s on an M3 MacBook. The paper is available on <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "de": "Forscher der University of Waterloo stellen Program-as-Weights (PAW) vor, ein Programmierparadigma für unscharfe Funktionen. Ein Compiler mit 4 Milliarden Parametern, trainiert auf dem FuzzyBench-Datensatz (10 Millionen Beispiele), gibt parametrische Adapter für einen leichten, fixierten Interpreter mit 0,6 Milliarden Parametern aus. Der PAW-Interpreter erreicht die Leistung eines Qwen3-32B im direkten Prompting, benötigt dabei aber etwa ein Fünfzigstel des Inferenzspeichers und läuft mit 30 Token/s auf einem MacBook M3. Das Paper ist auf <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a> verfügbar.",
+                "it": "Ricercatori dell'Università di Waterloo presentano Program-as-Weights (PAW), un paradigma di programmazione per funzioni fuzzy. Un compilatore da 4 miliardi di parametri, addestrato sul dataset FuzzyBench (10 milioni di esempi), emette adattatori parametrici per un interprete leggero e fisso da 0,6 miliardi di parametri. L'interprete PAW eguaglia le prestazioni di un Qwen3-32B in prompting diretto pur utilizzando circa un cinquantesimo della memoria di inferenza e funzionando a 30 token/s su un MacBook M3. L'articolo è disponibile su <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>.",
+                "lmo": "Di ricercator de l'Università de Waterloo presenten Program-as-Weights (PAW), on paradigma de programmazion per fonzion fioeu. On compilator de 4 miliard de parametri, addestràa sora el dataset FuzzyBench (10 milion de esempi), el emett di adattator parametrich per on interpretator legger e fissa de 0,6 miliard de parametri. L'interpretator PAW l'eguaglia i performance d'on Qwen3-32B in prompting diret intant che 'l dopera circa on cinquantesim de la memoria d'inferenza e 'l gira a 30 token/s sora on MacBook M3. L'articol l'è disponibel sora <a href=\"https://arxiv.org/abs/2607.02512\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.02512"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Séparer prédiction et état dans les Transformers améliore l'efficacité",
+                "en": "Separating Prediction and State in Transformers Improves Efficiency",
+                "de": "Trennung von Vorhersage und Zustand in Transformatoren verbessert die Effizienz",
+                "it": "Separare predizione e stato nei Transformer migliora l'efficienza",
+                "lmo": "Separà predizion e stat in di Transformers el migliora l'efficienza"
+              },
+              "body": {
+                "fr": "Des chercheurs de Cornell proposent l'hypothèse de séparation état-prédiction : les Transformers utilisent le même flux de calcul pour prédire le token suivant et stocker l'état utile pour les prédictions futures. En concevant une variante à deux flux de calcul séparés, les auteurs obtiennent une meilleure efficacité en données et en calcul, avec une amélioration de 2 à 3 points de pourcentage en moyenne sur les tâches aval. L'étude complète est accessible sur <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "en": "Researchers from Cornell propose the state-prediction separation hypothesis: Transformers use the same computational stream to predict the next token and store state useful for future predictions. By designing a variant with two separate computational streams, the authors achieve better data and compute efficiency, with an average improvement of 2 to 3 percentage points on downstream tasks. The full study is available on <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "de": "Forscher der Cornell University schlagen die State-Prediction-Separation-Hypothese vor: Transformer nutzen denselben Berechnungsfluss, um das nächste Token vorherzusagen und den für zukünftige Vorhersagen nützlichen Zustand zu speichern. Durch die Entwicklung einer Variante mit zwei getrennten Berechnungsflüssen erzielen die Autoren eine bessere Daten- und Recheneffizienz mit einer durchschnittlichen Verbesserung von 2 bis 3 Prozentpunkten bei nachgelagerten Aufgaben. Die vollständige Studie ist auf <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a> zugänglich.",
+                "it": "Ricercatori della Cornell propongono l'ipotesi di separazione stato-predizione: i Transformer utilizzano lo stesso flusso di calcolo per predire il token successivo e memorizzare lo stato utile per le predizioni future. Progettando una variante a due flussi di calcolo separati, gli autori ottengono una migliore efficienza in dati e calcolo, con un miglioramento di 2-3 punti percentuali in media sui compiti downstream. Lo studio completo è accessibile su <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>.",
+                "lmo": "Di ricercator de Cornell proponnen l'ipotesi de separazion stat-predizion: i Transformers doperen el midem fluss de calcol per predì el token che 'l vegn e per conservà el stat util per i predizion futur. In progetà ona variant a du fluss de calcol separaa, i autor otegnen ona mej efficienza in dat e in calcol, con on migliorament de 2 a 3 pont percentual in media sora i compit aval. L'istudi complet l'è accessibil sora <a href=\"https://arxiv.org/abs/2607.01218\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.01218"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ELDR optimise le routage des experts pour l'inférence MoE désagrégée",
+                "en": "ELDR Optimizes Expert Routing for Disaggregated MoE Inference",
+                "de": "ELDR optimiert Experten-Routing für disaggregierte MoE-Inferenz",
+                "it": "ELDR ottimizza il routing degli esperti per l'inferenza MoE disaggregata",
+                "lmo": "ELDR l'ottimizza el routing di expert per l'inferenza MoE desagregada"
+              },
+              "body": {
+                "fr": "Microsoft Research présente ELDR, un routeur de décodage pour l'inférence de modèles Mixture-of-Experts en architecture préfill-decode désagrégée. ELDR construit une signature d'experts à partir des activations du préfill pour prédire quels experts seront activés pendant la génération. Implémenté dans vLLM et évalué sur des déploiements allant jusqu'à 40 GPU, ELDR réduit le temps par token médian de 5,9 à 13,9 % par rapport aux meilleurs algorithmes d'équilibrage de charge. L'article est disponible sur <a href=\"https://arxiv.org/abs/2607.01845\">arXiv</a>.",
+                "en": "Microsoft Research presents ELDR, a decoding router for Mixture-of-Experts model inference in disaggregated prefill-decode architecture. ELDR builds an expert signature from prefill activations to predict which experts will be activated during generation. Implemented in vLLM and evaluated on deployments of up to 40 GPUs, ELDR reduces median time-per-token by 5.9% to 13.9% compared to the best load-balancing algorithms. The paper is available on <a href=\"https://arxiv.org/abs/2607.01845\">arXiv</a>.",
+                "de": "Microsoft Research stellt ELDR vor, einen Decoding-Router für die Inferenz von Mixture-of-Experts-Modellen in einer disaggregierten Prefill-Decode-Architektur. ELDR erstellt eine Expertensignatur aus den Prefill-Aktivierungen, um vorherzusagen, welche Experten während der Generierung aktiviert werden. Implementiert in vLLM und evaluiert auf Deployments mit bis zu 40 GPUs, reduziert ELDR die mediane Zeit pro Token um 5,9 bis 13,9 % im Vergleich zu den besten Lastausgleichsalgorithmen. Das Paper ist auf <a href=\"https://arxiv.org/abs/2607.01845\">arXiv</a> verfügbar.",
+                "it": "Microsoft Research presenta ELDR, un router di decodifica per l'inferenza di modelli Mixture-of-Experts in architettura prefill-decode disaggregata. ELDR costruisce una firma degli esperti a partire dalle attivazioni del prefill per predire quali esperti verranno attivati durante la generazione. Implementato in vLLM e valutato su implementazioni fino a 40 GPU, ELDR riduce il tempo per token mediano dal 5,9 al 13,9% rispetto ai migliori algoritmi di bilanciamento del carico. L'articolo è disponibile su <a href=\"https://arxiv.org/abs/2607.01845\">arXiv</a>.",
+                "lmo": "Microsoft Research la presenta ELDR, on router de decodifega per l'inferenza de modell Mixture-of-Experts in architettura prefill-decode desagregada. ELDR el costruiss ona signature d'expert a partì di attivazion del prefill per predì quai expert saran ativaa durant la generazion. Implementaa in vLLM e valutaa sora di despiegament fin a 40 GPU, ELDR el ridù el temp per token median del 5,9 al 13,9% rispett ai mej algoritm de equilibri de carich. L'articol l'è disponibel sora <a href=\"https://arxiv.org/abs/2607.01845\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.01845"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wochenkommentar",
+        "it": "Editoriale settimanale",
+        "lmo": "Editorial setemanal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The Week in Perspective",
+            "de": "Die Woche im Rückblick",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La semaine où l'IA est devenue une affaire d'infrastructures",
+                "en": "The Week AI Became an Infrastructure Business",
+                "de": "Die Woche, in der KI zur Infrastruktursache wurde",
+                "it": "La settimana in cui l'IA è diventata una questione di infrastrutture",
+                "lmo": "La setemana indove l'IA l'è deventada ona faccenda d'infrastruttur"
+              },
+              "body": {
+                "fr": "La semaine qui s'achève aura été celle d'Anthropic — mais pas seulement pour les raisons que l'on croit. Oui, le laboratoire a cumulé les annonces : un nouveau modèle Sonnet 5 qui rivalise avec l'Opus à prix réduit, une passerelle multi-cloud, une intégration dans Microsoft Foundry, un accord avec la Californie, un environnement scientifique complet, et un cadre de sécurité partagé avec Amazon, Microsoft et Google. Mais ce qui frappe, c'est moins le volume que la cohérence. Chaque pièce du puzzle s'emboîte : la passerelle verrouille les entreprises sur AWS et Google Cloud, Foundry ouvre Azure, l'accord californien offre un débouché gouvernemental, Claude Science étend la marque vers la recherche, et le cadre de sécurité prépare le terrain pour des déploiements régulés.<br><br>Cette offensive intervient dans un climat paradoxal. D'un côté, Anthropic semble en position de force : ses modèles sont considérés comme les meilleurs pour le codage agentique, ses outils — Claude Code en tête — s'imposent comme des références, et sa stratégie commerciale est la plus structurée du secteur. De l'autre, les signaux de fragilité s'accumulent. Meta interdit Claude Code à ses ingénieurs pour protéger ses données d'entraînement. Alibaba classe l'outil comme logiciel à haut risque et en interdit l'usage. Une fuite potentielle de session dans Claude Code alerte la communauté. Et la réduction de 80 % du prompt système, présentée comme une libération des capacités du modèle, pourrait aussi se lire comme un aveu : les ingénieurs d'Anthropic ne savent plus exactement comment guider leur propre création.<br><br>Pendant ce temps, le reste de l'industrie ne reste pas immobile. Mistral publie Leanstral 1.5, un modèle de preuve formelle open-source qui détecte des bugs réels — une démonstration concrète que la vérification formelle, longtemps cantonnée aux laboratoires de recherche, devient un outil pratique. ByteDance détaille Seed2.0, un modèle conçu pour la complexité du monde réel. NVIDIA atteint 100 % sur les benchmarks de conception matérielle avec HORIZON. Et Microsoft lance une unité de 2,5 milliards de dollars pour déployer 6 000 ingénieurs IA chez ses clients, signalant que l'infrastructure de déploiement devient un champ de bataille aussi important que les modèles eux-mêmes.<br><br>Deux tendances de fond émergent de cette semaine dense. La première est la spécialisation : Agents-A1 montre qu'un modèle de 35 milliards de paramètres peut rivaliser avec des modèles mille fois plus volumineux en scalant l'horizon plutôt que les paramètres. Program-as-Weights démontre qu'un interpréteur de 600 millions de paramètres peut égaler un modèle de 32 milliards sur des tâches spécifiques. La course à la taille des modèles n'est pas morte, mais elle n'est plus la seule voie. La seconde tendance est la consolidation des infrastructures : passerelles, frameworks de sécurité, environnements de travail spécialisés — l'industrie construit les couches d'outillage qui transformeront l'IA générative d'une technologie de démonstration en une infrastructure de production.<br><br>Reste une question que personne n'a vraiment abordée cette semaine : celle de la mesure. L'AI Security Institute britannique a publié une étude montrant que les benchmarks standard sous-estiment systématiquement les capacités réelles des agents d'IA — les taux de succès bondissent d'environ 25 % lorsque le budget de tokens est multiplié par dix. OSWorld 2.0 révèle que même Claude Opus 4.8 ne complète que 20,6 % des tâches longues. Et un essai d'Armin Ronacher, créateur de Flask, soutient que de meilleurs modèles produisent paradoxalement de moins bons outils, car les développeurs s'appuient moins sur une conception rigoureuse. Ces trois signaux, pris ensemble, suggèrent que l'industrie navigue à vue : elle ne sait pas encore mesurer ce qu'elle construit, ni concevoir les interfaces qui permettront aux humains de collaborer avec ces systèmes.<br><br>La semaine prochaine, OpenAI dévoilera peut-être son appareil Codex. Les regards se tourneront vers ce que préparent Google DeepMind et Meta. Mais la leçon de cette semaine est ailleurs : l'IA n'est plus une affaire de modèles — elle est devenue une affaire d'infrastructures, de standards et de confiance. Ceux qui construiront ces trois piliers gagneront la prochaine phase. Les autres, même avec les meilleurs modèles, risquent de rester au bord du chemin.",
+                "en": "The week that ends will have been Anthropic's — but not only for the reasons one might think. Yes, the lab piled on announcements: a new Sonnet 5 model that rivals Opus at a reduced price, a multi-cloud gateway, integration into Microsoft Foundry, a deal with California, a complete scientific environment, and a shared safety framework with Amazon, Microsoft, and Google. But what stands out is less the volume than the coherence. Each piece of the puzzle fits: the gateway locks enterprises into AWS and Google Cloud, Foundry opens Azure, the California deal provides a government outlet, Claude Science extends the brand into research, and the safety framework prepares the ground for regulated deployments.<br><br>This offensive comes amid a paradoxical climate. On one hand, Anthropic appears in a position of strength: its models are considered the best for agentic coding, its tools — Claude Code first among them — are becoming benchmarks, and its business strategy is the most structured in the sector. On the other hand, signs of fragility are accumulating. Meta bans Claude Code for its engineers to protect its training data. Alibaba classifies the tool as high-risk software and prohibits its use. A potential session leak in Claude Code alarms the community. And the 80% reduction of the system prompt, presented as a liberation of model capabilities, could also be read as an admission: Anthropic's engineers no longer know exactly how to guide their own creation.<br><br>Meanwhile, the rest of the industry is not standing still. Mistral releases Leanstral 1.5, an open-source formal proof model that catches real bugs — a concrete demonstration that formal verification, long confined to research labs, is becoming a practical tool. ByteDance details Seed2.0, a model designed for real-world complexity. NVIDIA achieves 100% on hardware design benchmarks with HORIZON. And Microsoft launches a $2.5 billion unit to deploy 6,000 AI engineers at client sites, signaling that deployment infrastructure is becoming as important a battleground as the models themselves.<br><br>Two underlying trends emerge from this dense week. The first is specialization: Agents-A1 shows that a 35-billion-parameter model can rival models a thousand times larger by scaling the horizon rather than parameters. Program-as-Weights demonstrates that a 600-million-parameter interpreter can match a 32-billion-parameter model on specific tasks. The race for model size is not dead, but it is no longer the only path. The second trend is infrastructure consolidation: gateways, safety frameworks, specialized work environments — the industry is building the tooling layers that will transform generative AI from a demonstration technology into a production infrastructure.<br><br>One question remains that no one really addressed this week: that of measurement. The UK AI Security Institute published a study showing that standard benchmarks systematically underestimate the real capabilities of AI agents — success rates jump by roughly 25% when the token budget is multiplied by ten. OSWorld 2.0 reveals that even Claude Opus 4.8 completes only 20.6% of long tasks. And an essay by Armin Ronacher, creator of Flask, argues that better models paradoxically produce worse tools, because developers rely less on rigorous design. These three signals, taken together, suggest that the industry is flying blind: it does not yet know how to measure what it builds, nor how to design the interfaces that will allow humans to collaborate with these systems.<br><br>Next week, OpenAI may unveil its Codex device. Eyes will turn to what Google DeepMind and Meta are preparing. But the lesson of this week lies elsewhere: AI is no longer about models — it has become about infrastructure, standards, and trust. Those who build these three pillars will win the next phase. The rest, even with the best models, risk being left by the wayside.",
+                "de": "Die zu Ende gehende Woche war die Woche von Anthropic – aber nicht nur aus den Gründen, die man vermuten mag. Ja, das Labor hat Ankündigungen gehäuft: ein neues Sonnet-5-Modell, das mit Opus zu einem reduzierten Preis konkurriert, ein Multi-Cloud-Gateway, eine Integration in Microsoft Foundry, ein Abkommen mit Kalifornien, eine vollständige Wissenschaftsumgebung und einen gemeinsam mit Amazon, Microsoft und Google entwickelten Sicherheitsrahmen. Aber was auffällt, ist weniger die Menge als die Kohärenz. Jedes Puzzleteil fügt sich ins andere: Das Gateway bindet Unternehmen an AWS und Google Cloud, Foundry öffnet Azure, das kalifornische Abkommen bietet einen staatlichen Absatzmarkt, Claude Science erweitert die Marke in Richtung Forschung, und der Sicherheitsrahmen bereitet den Boden für regulierte Einsätze.<br><br>Diese Offensive erfolgt in einem paradoxen Klima. Einerseits scheint Anthropic in einer Position der Stärke: Seine Modelle gelten als die besten für agentisches Codieren, seine Werkzeuge – allen voran Claude Code – etablieren sich als Referenzen, und seine kommerzielle Strategie ist die strukturierteste der Branche. Andererseits häufen sich die Anzeichen von Verletzlichkeit. Meta verbietet Claude Code seinen Ingenieuren, um seine Trainingsdaten zu schützen. Alibaba stuft das Tool als Hochrisikosoftware ein und untersagt seine Nutzung. Ein potenzielles Session-Leak in Claude Code alarmiert die Community. Und die Reduzierung des System-Prompts um 80 %, als Befreiung der Modellfähigkeiten präsentiert, könnte auch als Eingeständnis gelesen werden: Anthropics Ingenieure wissen nicht mehr genau, wie sie ihre eigene Schöpfung steuern sollen.<br><br>Währenddessen bleibt der Rest der Branche nicht untätig. Mistral veröffentlicht Leanstral 1.5, ein Open-Source-Modell für formale Beweise, das echte Fehler erkennt – ein konkreter Beweis dafür, dass formale Verifikation, lange auf Forschungslabore beschränkt, zu einem praktischen Werkzeug wird. ByteDance stellt Seed2.0 im Detail vor, ein Modell für die Komplexität der realen Welt. NVIDIA erreicht 100 % bei Hardware-Design-Benchmarks mit HORIZON. Und Microsoft startet eine 2,5-Milliarden-Dollar-Einheit, um 6.000 KI-Ingenieure bei seinen Kunden einzusetzen – ein Zeichen dafür, dass die Deployment-Infrastruktur zu einem ebenso wichtigen Schlachtfeld wird wie die Modelle selbst.<br><br>Aus dieser dichten Woche zeichnen sich zwei grundlegende Trends ab. Der erste ist die Spezialisierung: Agents-A1 zeigt, dass ein Modell mit 35 Milliarden Parametern mit tausendmal größeren Modellen konkurrieren kann, indem es den Horizont statt der Parameter skaliert. Program-as-Weights demonstriert, dass ein Interpreter mit 600 Millionen Parametern ein 32-Milliarden-Modell bei spezifischen Aufgaben übertreffen kann. Das Wettrüsten um Modellgrößen ist nicht tot, aber es ist nicht mehr der einzige Weg. Der zweite Trend ist die Konsolidierung der Infrastruktur: Gateways, Sicherheitsrahmen, spezialisierte Arbeitsumgebungen – die Industrie baut die Werkzeugschichten, die generative KI von einer Demonstrationstechnologie in eine Produktionsinfrastruktur verwandeln werden.<br><br>Bleibt eine Frage, die diese Woche niemand wirklich angesprochen hat: die der Messung. Das britische AI Security Institute hat eine Studie veröffentlicht, die zeigt, dass Standard-Benchmarks die tatsächlichen Fähigkeiten von KI-Agenten systematisch unterschätzen – die Erfolgsraten steigen um etwa 25 %, wenn das Token-Budget verzehnfacht wird. OSWorld 2.0 offenbart, dass selbst Claude Opus 4.8 nur 20,6 % der langen Aufgaben bewältigt. Und ein Essay von Armin Ronacher, dem Schöpfer von Flask, argumentiert, dass bessere Modelle paradoxerweise schlechtere Werkzeuge hervorbringen, weil sich Entwickler weniger auf ein rigoroses Design stützen. Diese drei Signale zusammengenommen deuten darauf hin, dass die Branche im Blindflug navigiert: Sie kann noch nicht messen, was sie baut, noch die Schnittstellen entwerfen, die es Menschen ermöglichen, mit diesen Systemen zusammenzuarbeiten.<br><br>Nächste Woche wird OpenAI vielleicht sein Codex-Gerät enthüllen. Die Blicke werden sich darauf richten, was Google DeepMind und Meta vorbereiten. Aber die Lehre dieser Woche liegt woanders: KI ist keine Frage von Modellen mehr – sie ist eine Frage von Infrastrukturen, Standards und Vertrauen. Diejenigen, die diese drei Säulen bauen, werden die nächste Phase gewinnen. Die anderen, selbst mit den besten Modellen, riskieren, am Wegesrand zurückzubleiben.",
+                "it": "La settimana che si conclude è stata quella di Anthropic — ma non solo per le ragioni che si credono. Sì, il laboratorio ha accumulato annunci: un nuovo modello Sonnet 5 che compete con Opus a prezzo ridotto, un gateway multi-cloud, un'integrazione in Microsoft Foundry, un accordo con la California, un ambiente scientifico completo e un quadro di sicurezza condiviso con Amazon, Microsoft e Google. Ma ciò che colpisce è meno il volume che la coerenza. Ogni pezzo del puzzle si incastra: il gateway blocca le aziende su AWS e Google Cloud, Foundry apre Azure, l'accordo californiano offre uno sbocco governativo, Claude Science estende il marchio verso la ricerca, e il quadro di sicurezza prepara il terreno per implementazioni regolamentate.<br><br>Questa offensiva avviene in un clima paradossale. Da un lato, Anthropic sembra in una posizione di forza: i suoi modelli sono considerati i migliori per la codifica agentica, i suoi strumenti — Claude Code in testa — si impongono come riferimenti, e la sua strategia commerciale è la più strutturata del settore. Dall'altro, i segnali di fragilità si accumulano. Meta vieta Claude Code ai suoi ingegneri per proteggere i propri dati di addestramento. Alibaba classifica lo strumento come software ad alto rischio e ne vieta l'uso. Una potenziale fuga di sessione in Claude Code allerta la comunità. E la riduzione dell'80% del prompt di sistema, presentata come una liberazione delle capacità del modello, potrebbe anche essere letta come un'ammissione: gli ingegneri di Anthropic non sanno più esattamente come guidare la propria creazione.<br><br>Nel frattempo, il resto dell'industria non resta fermo. Mistral pubblica Leanstral 1.5, un modello di dimostrazione formale open-source che rileva bug reali — una dimostrazione concreta che la verifica formale, a lungo confinata ai laboratori di ricerca, diventa uno strumento pratico. ByteDance dettaglia Seed2.0, un modello progettato per la complessità del mondo reale. NVIDIA raggiunge il 100% nei benchmark di progettazione hardware con HORIZON. E Microsoft lancia un'unità da 2,5 miliardi di dollari per implementare 6.000 ingegneri IA presso i propri clienti, segnalando che l'infrastruttura di implementazione diventa un campo di battaglia importante quanto i modelli stessi.<br><br>Due tendenze di fondo emergono da questa settimana densa. La prima è la specializzazione: Agents-A1 mostra che un modello da 35 miliardi di parametri può competere con modelli mille volte più grandi scalando l'orizzonte piuttosto che i parametri. Program-as-Weights dimostra che un interprete da 600 milioni di parametri può eguagliare un modello da 32 miliardi su compiti specifici. La corsa alla dimensione dei modelli non è morta, ma non è più l'unica via. La seconda tendenza è il consolidamento delle infrastrutture: gateway, framework di sicurezza, ambienti di lavoro specializzati — l'industria costruisce gli strati di strumentazione che trasformeranno l'IA generativa da tecnologia dimostrativa in infrastruttura di produzione.<br><br>Rimane una domanda che nessuno ha realmente affrontato questa settimana: quella della misurazione. L'AI Security Institute britannico ha pubblicato uno studio che mostra come i benchmark standard sottostimino sistematicamente le capacità reali degli agenti IA — i tassi di successo balzano di circa il 25% quando il budget di token viene moltiplicato per dieci. OSWorld 2.0 rivela che persino Claude Opus 4.8 completa solo il 20,6% dei compiti lunghi. E un saggio di Armin Ronacher, creatore di Flask, sostiene che modelli migliori producono paradossalmente strumenti peggiori, poiché gli sviluppatori si affidano meno a una progettazione rigorosa. Questi tre segnali, presi insieme, suggeriscono che l'industria naviga a vista: non sa ancora misurare ciò che costruisce, né progettare le interfacce che permetteranno agli umani di collaborare con questi sistemi.<br><br>La prossima settimana, OpenAI svelerà forse il suo dispositivo Codex. Gli sguardi si volgeranno verso ciò che preparano Google DeepMind e Meta. Ma la lezione di questa settimana è altrove: l'IA non è più una questione di modelli — è diventata una questione di infrastrutture, standard e fiducia. Coloro che costruiranno questi tre pilastri vinceranno la prossima fase. Gli altri, anche con i migliori modelli, rischiano di restare ai margini.",
+                "lmo": "La setemana che la finiss l'è stada quella d'Anthropic — ma no domà per i reson che se cred. Sì, el laboratori l'ha cumulaa i anunzi: on noeuv modell Sonnet 5 che 'l ghe va adree a l'Opus a prezz redutt, ona passerella multi-cloud, on'integrazion in del Microsoft Foundry, on acord con la California, on ambient scientifigh complet, e on quadre de sicurezza spartii con Amazon, Microsoft e Google. Ma quell che 'l colpiss l'è men el volum che la coerenza. Ogni toch del puzzle el s'incastra: la passerella la sara sora i aziend in su AWS e Google Cloud, Foundry el vert Azure, l'acord californian l'offriss on sbocch governativ, Claude Science el slarga la marca vers la ricerca, e 'l quadre de sicurezza el prepara el terren per di despiegament regolaa.<br><br>Questa offensiva l'intervegn in d'on clima paradossal. De 'na banda, Anthropic el par in posizion de forza: i sò modell hinn considera i mej per la codifega agentiga, i sò strument — Claude Code in primis — s'imponen 'me referenz, e la soa strategia comercial l'è la pussee struturada del setor. De l'oltra banda, i segnal de fragilità s'accumulen. Meta la proibiss Claude Code ai sò ingegner per protegg i sò dat d'addestrament. Alibaba la classifica l'strument 'me software a volt ris'c e 'n proibiss l'usagg. Ona potenzial fuga de session in del Claude Code la alerta la comunità. E la redutzion del 80% del prompt sistema, presentada 'me ona liberazion di capacità del modell, la podariss anca lensges 'me on'ammission: i ingegner d'Anthropic san pu esattament come guidà la soa propia creazion.<br><br>In del menter, el rest de l'industria el resta no ferm. Mistral el publiga Leanstral 1.5, on modell de preuva formal open-source che 'l rileva di bug reai — ona dimostrazion concreta che la verificazion formal, longh temp confinada ai laboratori de ricerca, la deventa on strument pratigh. ByteDance la detaja Seed2.0, on modell concepii per la complessità del mond real. NVIDIA la riva al 100% sora i benchmark de progetazzion materiala con HORIZON. E Microsoft la lanza ona unità de 2,5 miliard de dollar per despiegà 6 000 ingegner IA di sò client, segnaland che l'infrastruttura de despiegament la deventa on camp de bataja important 'me i modell midemm.<br><br>Du tendenz de fond emergen de questa setemana densa. La prima l'è la specializzazion: Agents-A1 el mostra che on modell de 35 miliard de parametri el pò gareggià con di modell mila voeult pussee voluminos in scalà l'orizzont pussee che i parametri. Program-as-Weights el dimostra che on interpretator de 600 milion de parametri el pò eguaglià on modell de 32 miliard sora di compit specifigh. La corsa a la grandezza di modell l'è no morta, ma l'è pu l'unega via. La seconda tendenza l'è la consolidazion di infrastruttur: passerell, framework de sicurezza, ambient de lavorà specializzaa — l'industria la costruiss i sgarz d'utensil che transformarann l'IA generativa d'ona tecnologia de dimostrazion in d'ona infrastruttura de produzion.<br><br>Resta ona domanda che nissun l'ha verament affrontada questa setemana: quella de la misura. L'AI Security Institute britannegh l'ha publicaa on studi che 'l mostra che i benchmark standard sottestimien sistematicament i capacità reai di agent d'IA — i tass de success saltan de circa el 25% quant el budget de token l'è moltiplicaa per des. OSWorld 2.0 el revèla che anca Claude Opus 4.8 el completa domà el 20,6% di compit longh. E on assagg d'Armin Ronacher, creator de Flask, el sostegn che di modell pussee bon producen paradoxalment di strument pussee gramm, perchè i sviluppador se fonden men sora ona progetazzion rigorosa. Sti trii segnal chì, toeucc insema, suggerissen che l'industria la naviga a vista: la sa anmò no misurà quell che la costruiss, né progetà i interfacc che permetterann ai omen de collaborà con sti sistema chì.<br><br>La setemana che vegn, OpenAI el revélarà forsi el sò aparecc Codex. I sguard se volterann vers quell che preparen Google DeepMind e Meta. Ma la lezzion de questa setemana l'è de 'n'oltra banda: l'IA l'è pu ona faccenda de modell — l'è deventada ona faccenda d'infrastruttur, de standard e de fiducia. Quij che costruirann sti trii pilaster chì vincerann la prossima fas. I olter, anca cont i mej modell, ris'cien de restà al bord de la strada."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Kommentar",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              }
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
