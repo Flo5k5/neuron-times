@@ -1,0 +1,1056 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-08",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Google a annoncé le 7 juillet 2026 une expansion significative de ses <a href='https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/'>Managed Agents dans l'API Gemini</a>, introduisant trois capacités clés : l'exécution de tâches en arrière-plan (background tasks), la connexion à des serveurs MCP (Model Context Protocol) distants, et un nouveau mode de déploiement \"agent-as-service\". Les développeurs peuvent désormais lancer des agents qui continuent de s'exécuter même après la déconnexion du client, une fonctionnalité critique pour les workflows de production. La prise en charge du MCP distant permet aux agents d'accéder à des outils et sources de données hébergés sur des serveurs externes, élargissant considérablement leur périmètre d'action au-delà des outils locaux.",
+        "en": "Google announced on July 7, 2026 a significant expansion of its <a href='https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/'>Managed Agents in the Gemini API</a>, introducing three key capabilities: background task execution, connection to remote MCP (Model Context Protocol) servers, and a new \"agent-as-service\" deployment mode. Developers can now launch agents that continue running even after the client disconnects, a critical feature for production workflows. Support for remote MCP allows agents to access tools and data sources hosted on external servers, significantly broadening their scope beyond local tools.",
+        "de": "Google hat am 7. Juli 2026 eine bedeutende Erweiterung seiner <a href='https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/'>Managed Agents in der Gemini-API</a> angekündigt und drei Schlüsselfunktionen eingeführt: die Ausführung von Hintergrundaufgaben (Background Tasks), die Verbindung zu entfernten MCP-Servern (Model Context Protocol) und einen neuen Bereitstellungsmodus «Agent-as-Service». Entwickler können nun Agenten starten, die auch nach der Trennung des Clients weiterlaufen – eine kritische Funktion für Produktions-Workflows. Die Unterstützung von Remote-MCP ermöglicht es Agenten, auf Tools und Datenquellen auf externen Servern zuzugreifen, was ihren Aktionsradius erheblich über lokale Werkzeuge hinaus erweitert.",
+        "it": "Google ha annunciato il 7 luglio 2026 un'espansione significativa dei suoi <a href='https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/'>Managed Agents nell'API Gemini</a>, introducendo tre capacità chiave: l'esecuzione di attività in background (background tasks), la connessione a server MCP (Model Context Protocol) remoti e una nuova modalità di deployment \"agent-as-service\". Gli sviluppatori possono ora lanciare agenti che continuano a eseguirsi anche dopo la disconnessione del client, una funzionalità critica per i workflow di produzione. Il supporto per MCP remoto consente agli agenti di accedere a strumenti e fonti di dati ospitati su server esterni, ampliando considerevolmente il loro raggio d'azione oltre gli strumenti locali.",
+        "lmo": "Google l'ha anunziaa el 7 de luj 2026 ona espansion significativa di sò <a href='https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/'>Managed Agents in l'API Gemini</a>, introduxend tri capacità fondamentai: l'esecuzion de incarigh in background (background tasks), la connession a server MCP (Model Context Protocol) distant, e on noeuv mod de despiegament \"agent-as-service\". I sviluppador poden adess lanzà di agent che continuen a eseguiss anca dopo la disconnession del client, ona funzionalità critica per i workflow de produzion. El support del MCP distant el permet ai agent de acced a istrument e sorgent de dat ospitaa su server esterni, slargand considerevolment el sò perimetr d'azzion oltra i istrument locai."
+      },
+      {
+        "fr": "Parallèlement, les chercheurs de NVIDIA ont publié le 7 juillet <a href='https://huggingface.co/api/daily_papers?limit=50'>Nemotron-Labs-Diffusion</a>, une famille de modèles de langage \"tri-mode\" (3B, 8B et 14B paramètres) qui unifie au sein d'une même architecture le décodage autorégressif (AR), la génération par diffusion et l'auto-décodage spéculatif. Entraîné avec un objectif conjoint AR-diffusion, le modèle peut changer de mode à la volée pour optimiser le débit selon la charge du serveur. En mode auto-spéculatif, la diffusion génère un brouillon que l'AR vérifie, surpassant les méthodes MTP (multi-token prediction) traditionnelles : le modèle 8B décode 6 fois plus de tokens par passage avant que Qwen3-8B, avec une précision comparable, et atteint un débit 4 fois supérieur sur SPEED-Bench avec SGLang sur un GPU GB200.",
+        "en": "Meanwhile, NVIDIA researchers published on July 7 <a href='https://huggingface.co/api/daily_papers?limit=50'>Nemotron-Labs-Diffusion</a>, a family of \"tri-mode\" language models (3B, 8B and 14B parameters) that unify within a single architecture autoregressive decoding (AR), diffusion-based generation and self-speculative decoding. Trained with a joint AR-diffusion objective, the model can switch modes on the fly to optimize throughput based on server load. In self-speculative mode, diffusion generates a draft that AR verifies, outperforming traditional MTP (multi-token prediction) methods: the 8B model decodes 6 times more tokens per pass than Qwen3-8B, with comparable accuracy, and achieves 4 times higher throughput on SPEED-Bench with SGLang on a GB200 GPU.",
+        "de": "Parallel dazu haben NVIDIA-Forscher am 7. Juli <a href='https://huggingface.co/api/daily_papers?limit=50'>Nemotron-Labs-Diffusion</a> veröffentlicht, eine Familie von «Tri-Mode»-Sprachmodellen (3B, 8B und 14B Parameter), die autoregressives Decoding (AR), Diffusionsgenerierung und auto-spekulatives Decoding in einer einzigen Architektur vereinen. Trainiert mit einem gemeinsamen AR-Diffusion-Ziel, kann das Modell im laufenden Betrieb den Modus wechseln, um den Durchsatz je nach Serverlast zu optimieren. Im auto-spekulativen Modus erzeugt die Diffusion einen Entwurf, den der AR überprüft, und übertrifft damit traditionelle MTP-Methoden (Multi-Token Prediction): Das 8B-Modell decodiert 6-mal mehr Token pro Durchlauf als Qwen3-8B bei vergleichbarer Genauigkeit und erreicht auf SPEED-Bench mit SGLang auf einem GB200-GPU einen 4-fach höheren Durchsatz.",
+        "it": "Parallelamente, i ricercatori di NVIDIA hanno pubblicato il 7 luglio <a href='https://huggingface.co/api/daily_papers?limit=50'>Nemotron-Labs-Diffusion</a>, una famiglia di modelli linguistici \"tri-mode\" (3B, 8B e 14B parametri) che unifica all'interno di una stessa architettura la decodifica autoregressiva (AR), la generazione per diffusione e l'auto-decodifica speculativa. Addestrato con un obiettivo congiunto AR-diffusione, il modello può cambiare modalità al volo per ottimizzare il throughput in base al carico del server. In modalità auto-speculativa, la diffusione genera una bozza che l'AR verifica, superando i metodi MTP (multi-token prediction) tradizionali: il modello 8B decodifica 6 volte più token per passaggio rispetto a Qwen3-8B, con una precisione comparabile, e raggiunge un throughput 4 volte superiore su SPEED-Bench con SGLang su una GPU GB200.",
+        "lmo": "In del medemm temp, i ricercator de NVIDIA hann publicaa el 7 de luj <a href='https://huggingface.co/api/daily_papers?limit=50'>Nemotron-Labs-Diffusion</a>, ona fameja de modell de lenguagg \"tri-mod\" (3B, 8B e 14B parametri) che unifica denter de l'istessa architettura la decodifega autoregressiva (AR), la generazion per diffusion e l'auto-decodifega speculativa. Allenaa con on obietiv congiunt AR-diffusion, el modell el pò cambià de mod a la svoeulta per ottimizzà el débit segond la càrega del server. In mod auto-speculativ, la diffusion la genera on bozz che l'AR el verifega, superand i metod MTP (multi-token prediction) tradizionai: el modell 8B el decodifega 6 voeult pussee de token per passagg prima che Qwen3-8B, con ona precision compagna, e el riva a on débit 4 voeult superior su SPEED-Bench con SGLang su on GPU GB200."
+      },
+      {
+        "fr": "Ces deux annonces illustrent une tendance convergente : d'un côté, les plateformes agentiques gagnent en autonomie et en portée grâce à l'infrastructure MCP et aux tâches persistantes ; de l'autre, l'inférence elle-même devient modulable, avec des modèles capables d'ajuster dynamiquement leur stratégie de génération. NVIDIA démontre également que les objectifs AR et diffusion sont complémentaires — la diffusion améliore la planification prospective (lookahead planning) tandis que l'AR fournit les priorités linguistiques gauche-droite — et qu'une analyse \"speed-of-light\" suggère un potentiel de 76,5 % de tokens supplémentaires par passage avant sous un échantillonneur optimal.",
+        "en": "These two announcements illustrate a converging trend: on one hand, agentic platforms are gaining autonomy and reach thanks to MCP infrastructure and persistent tasks; on the other, inference itself is becoming modular, with models capable of dynamically adjusting their generation strategy. NVIDIA also demonstrates that AR and diffusion objectives are complementary — diffusion improves lookahead planning while AR provides left-to-right linguistic priors — and that a \"speed-of-light\" analysis suggests a potential of 76.5% additional tokens per pass under an optimal sampler.",
+        "de": "Diese beiden Ankündigungen veranschaulichen einen konvergierenden Trend: Einerseits gewinnen Agentenplattformen durch die MCP-Infrastruktur und persistente Aufgaben an Autonomie und Reichweite; andererseits wird die Inferenz selbst modular, mit Modellen, die ihre Generierungsstrategie dynamisch anpassen können. NVIDIA zeigt zudem, dass AR- und Diffusionsziele komplementär sind – die Diffusion verbessert die vorausschauende Planung (Lookahead Planning), während der AR die links-rechts-Sprachprioritäten liefert – und dass eine «Speed-of-Light»-Analyse unter einem optimalen Sampler ein Potenzial von 76,5 % zusätzlichen Token pro Durchlauf nahelegt.",
+        "it": "Questi due annunci illustrano una tendenza convergente: da un lato, le piattaforme agentiche guadagnano autonomia e portata grazie all'infrastruttura MCP e alle attività persistenti; dall'altro, l'inferenza stessa diventa modulabile, con modelli capaci di regolare dinamicamente la propria strategia di generazione. NVIDIA dimostra inoltre che gli obiettivi AR e diffusione sono complementari — la diffusione migliora la pianificazione prospettica (lookahead planning) mentre l'AR fornisce le priorità linguistiche sinistra-destra — e che un'analisi \"speed-of-light\" suggerisce un potenziale del 76,5% di token aggiuntivi per passaggio sotto un campionatore ottimale.",
+        "lmo": "Ste dò anunzi illustren ona tendenza convergent: de ona part, i piattaform agenteghe guadagnen in autonomia e in portada grazzia a l'infrastruttura MCP e ai incarigh persistent; de l'oltra, l'inferenza istessa la deventa modulabela, con di modell bon de adattà dinamicament la soa strategia de generazion. NVIDIA la dimostra anca che i obietiv AR e diffusion hinn complementar — la diffusion la mejora la pianificazion prospettiva (lookahead planning) menter l'AR el forniss i priorità lenguistegh de manzina a dritta — e che ona analisi \"speed-of-light\" la suggeriss on potenzial del 76,5% de tokens supplementar per passagg sotta on campionador ottimal."
+      }
+    ],
+    "urls": [
+      "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+      "https://huggingface.co/api/daily_papers?limit=50"
+    ],
+    "kicker": {
+      "fr": "Agents & Inférence",
+      "en": "Agents & Inference",
+      "de": "Agenten & Inferenz",
+      "it": "Agenti & Inferenza",
+      "lmo": "Agents & Inferenza"
+    },
+    "headline": {
+      "fr": "Google étend les Managed Agents avec tâches de fond et MCP distant ; NVIDIA dévoile un modèle tri-mode qui unifie AR, diffusion et décodage spéculatif",
+      "en": "Google expands Managed Agents with background tasks and remote MCP; NVIDIA unveils tri-mode model unifying AR, diffusion and speculative decoding",
+      "de": "Google erweitert Managed Agents um Hintergrundaufgaben und Remote-MCP; NVIDIA stellt Tri-Mode-Modell vor, das AR, Diffusion und spekulatives Decoding vereint",
+      "it": "Google estende gli Managed Agents con attività in background e MCP remoto; NVIDIA svela un modello tri-mode che unifica AR, diffusione e decodifica speculativa",
+      "lmo": "Google el slarga i Managed Agents con incarigh de fond e MCP distant; NVIDIA el presenta on modell tri-mod che unifica AR, diffusion e decodifega speculativa"
+    },
+    "subdeck": {
+      "fr": "Deux annonces majeures redessinent le paysage des agents et de l'inférence : Google ajoute l'exécution persistante et les connexions MCP distantes à ses Managed Agents, tandis que NVIDIA publie Nemotron-Labs-Diffusion, un modèle capable de basculer entre trois modes de génération.",
+      "en": "Two major announcements reshape the landscape of agents and inference: Google adds persistent execution and remote MCP connections to its Managed Agents, while NVIDIA releases Nemotron-Labs-Diffusion, a model capable of switching between three generation modes.",
+      "de": "Zwei bedeutende Ankündigungen verändern die Landschaft der Agenten und der Inferenz: Google erweitert seine Managed Agents um persistente Ausführung und Remote-MCP-Verbindungen, während NVIDIA Nemotron-Labs-Diffusion vorstellt, ein Modell, das zwischen drei Generierungsmodi umschalten kann.",
+      "it": "Due annunci importanti ridisegnano il panorama degli agenti e dell'inferenza: Google aggiunge l'esecuzione persistente e le connessioni MCP remote ai suoi Managed Agents, mentre NVIDIA pubblica Nemotron-Labs-Diffusion, un modello in grado di passare tra tre modalità di generazione.",
+      "lmo": "Dò anunzi important ridessegnen el paesagg di agent e de l'inferenza: Google el gionta l'esecuzion persistenta e i connession MCP distanti ai sò Managed Agents, menter NVIDIA la pubblica Nemotron-Labs-Diffusion, on modell bon de passà tra tri mod de generazion."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Meta lance Muse Image, son générateur d'images IA, et fait face à des critiques sur l'utilisation des photos",
+        "en": "Meta launches Muse Image, its AI image generator, and faces criticism over photo usage",
+        "de": "Meta launcht Muse Image, seinen KI-Bildgenerator, und sieht sich Kritik an der Nutzung von Fotos ausgesetzt",
+        "it": "Meta lancia Muse Image, il suo generatore di immagini IA, e affronta critiche sull'uso delle foto",
+        "lmo": "Meta el lanza Muse Image, el sò generator d'imagin IA, e el se fronta a di critich in su l'usagg di foto"
+      },
+      "body": {
+        "fr": "Meta a dévoilé le 7 juillet 2026 <a href='https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/'>Muse Image</a>, son premier modèle de génération d'images développé par la division Superintelligence Labs. Disponible sur Instagram, WhatsApp et Meta AI, Muse Image peut créer des images réalistes et intégrer d'autres utilisateurs d'Instagram dans les visuels générés. Le modèle est également capable d'éditer avec précision, de composer à partir de multiples références et de puiser dans le contexte social d'Instagram. Son pendant vidéo, Muse Video, offre une fidélité visuelle avec support audio natif. Le lancement suscite déjà des controverses sur l'utilisation des photos des utilisateurs pour l'entraînement.",
+        "en": "Meta unveiled on July 7, 2026 <a href='https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/'>Muse Image</a>, its first image generation model developed by the Superintelligence Labs division. Available on Instagram, WhatsApp and Meta AI, Muse Image can create realistic images and integrate other Instagram users into generated visuals. The model is also capable of precise editing, composing from multiple references and drawing on Instagram's social context. Its video counterpart, Muse Video, offers visual fidelity with native audio support. The launch is already sparking controversy over the use of user photos for training.",
+        "de": "Meta hat am 7. Juli 2026 <a href='https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/'>Muse Image</a> vorgestellt, sein erstes Bildgenerierungsmodell, das von der Superintelligence Labs-Abteilung entwickelt wurde. Verfügbar auf Instagram, WhatsApp und Meta AI, kann Muse Image realistische Bilder erstellen und andere Instagram-Nutzer in die generierten Visuals einbinden. Das Modell kann zudem präzise bearbeiten, aus mehreren Referenzen komponieren und den sozialen Kontext von Instagram nutzen. Das Pendant für Videos, Muse Video, bietet visuelle Treue mit nativer Audio-Unterstützung. Der Start hat bereits Kontroversen über die Nutzung von Benutzerfotos für das Training ausgelöst.",
+        "it": "Meta ha svelato il 7 luglio 2026 <a href='https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/'>Muse Image</a>, il suo primo modello di generazione di immagini sviluppato dalla divisione Superintelligence Labs. Disponibile su Instagram, WhatsApp e Meta AI, Muse Image può creare immagini realistiche e integrare altri utenti di Instagram nei visual generati. Il modello è inoltre in grado di editare con precisione, comporre a partire da molteplici riferimenti e attingere al contesto sociale di Instagram. La sua controparte video, Muse Video, offre fedeltà visiva con supporto audio nativo. Il lancio suscita già controversie sull'uso delle foto degli utenti per l'addestramento.",
+        "lmo": "Meta l'ha presenta el 7 de luj 2026 <a href='https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/'>Muse Image</a>, el sò prim modell de generazion d'imagin desviluppaa de la division Superintelligence Labs. Disponibel su Instagram, WhatsApp e Meta AI, Muse Image el pò creà di imagin realistich e integrà di alter utent d'Instagram in di visual generaa. El modell l'è anca bon de edità con precision, de componn de multipli riferiment e de tirà del contest social d'Instagram. El sò pendant video, Muse Video, el offriss ona fedeltà visuala con support audio nativ. El lanzament el tira sù già di controversi in su l'usagg di foto di utent per l'allenament."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Hauptmeldung",
+        "it": "Importante",
+        "lmo": "Major"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-07",
+        "en": "From the Wires — 2026-07-07",
+        "de": "From the Wires — 2026-07-07",
+        "it": "From the Wires — 2026-07-07",
+        "lmo": "From the Wires — 2026-07-07"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/07/meta-rolls-out-muse-a-new-ai-image-generator/",
+        "https://www.nytimes.com/2026/07/07/technology/meta-ai-muse-image.html",
+        "https://www.theverge.com/tech/962485/meta-muse-image-ai-model-instagram"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Microsoft remplace les modèles OpenAI et Anthropic par ses propres MAI pour réduire les coûts",
+        "en": "Microsoft replaces OpenAI and Anthropic models with its own MAI to cut costs",
+        "de": "Microsoft ersetzt OpenAI- und Anthropic-Modelle durch eigene MAI zur Kostensenkung",
+        "it": "Microsoft sostituisce i modelli OpenAI e Anthropic con i propri MAI per ridurre i costi",
+        "lmo": "Microsoft el sostituiss i modell OpenAI e Anthropic con i sò propri MAI per ridù i cost"
+      },
+      "body": {
+        "fr": "Microsoft a entamé le 7 juillet 2026 le remplacement des modèles d'OpenAI et d'Anthropic par ses propres modèles MAI (Microsoft AI) dans des produits comme Excel et Outlook, selon <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>The Decoder</a>. Des dizaines de milliers de requêtes par semaine transitent déjà par les modèles maison. Le directeur de l'IA, Mustafa Suleyman, a déclaré vouloir \"éliminer à terme\" le coût des modèles externes. Cette décision s'inscrit dans une tendance plus large de réduction des dépenses IA chez les géants technologiques, comme le rapporte <a href='https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/'>TechCrunch</a>.",
+        "en": "Microsoft began on July 7, 2026 replacing OpenAI and Anthropic models with its own MAI (Microsoft AI) models in products such as Excel and Outlook, according to <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>The Decoder</a>. Tens of thousands of queries per week are already routed through the in-house models. AI director Mustafa Suleyman stated he wants to \"ultimately eliminate\" the cost of external models. This decision is part of a broader trend of AI cost reduction among tech giants, as reported by <a href='https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/'>TechCrunch</a>.",
+        "de": "Microsoft hat am 7. Juli 2026 damit begonnen, die Modelle von OpenAI und Anthropic in Produkten wie Excel und Outlook durch eigene MAI-Modelle (Microsoft AI) zu ersetzen, wie <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>The Decoder</a> berichtet. Zehntausende von Anfragen pro Woche laufen bereits über die hauseigenen Modelle. KI-Chef Mustafa Suleyman erklärte, er wolle «die Kosten externer Modelle letztendlich eliminieren». Diese Entscheidung ist Teil eines breiteren Trends zur Reduzierung der KI-Ausgaben bei den Technologiegiganten, wie <a href='https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/'>TechCrunch</a> berichtet.",
+        "it": "Microsoft ha avviato il 7 luglio 2026 la sostituzione dei modelli di OpenAI e Anthropic con i propri modelli MAI (Microsoft AI) in prodotti come Excel e Outlook, secondo <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>The Decoder</a>. Decine di migliaia di richieste a settimana transitano già attraverso i modelli proprietari. Il direttore dell'IA, Mustafa Suleyman, ha dichiarato di voler \"eliminare a termine\" il costo dei modelli esterni. Questa decisione si inserisce in una tendenza più ampia di riduzione delle spese IA presso i giganti tecnologici, come riporta <a href='https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/'>TechCrunch</a>.",
+        "lmo": "Microsoft l'ha scomenzaa el 7 de luj 2026 el sostituiment di modell d'OpenAI e d'Anthropic con i sò propri modell MAI (Microsoft AI) in di prodott 'me Excel e Outlook, segond <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>The Decoder</a>. Desena de miller de richiest per setemana passen già per i modell de cà. El diretor de l'IA, Mustafa Suleyman, l'ha dii de vorè \"eliminà a la fin\" el cost di modell esterni. Questa decision la se met denter in ona tendenza pussee larga de riduzion di spess IA in di gigant tecnològich, 'me l'è raportaa de <a href='https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/'>TechCrunch</a>."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-07",
+        "en": "From the Wires — 2026-07-07",
+        "de": "From the Wires — 2026-07-07",
+        "it": "From the Wires — 2026-07-07",
+        "lmo": "From the Wires — 2026-07-07"
+      },
+      "urls": [
+        "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
+        "https://techcrunch.com/2026/07/07/microsoft-joins-ai-cost-cutting-trend-by-relying-more-on-its-own-models/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "NVIDIA publie Audex : un modèle audio-texte unifié de 30B paramètres qui préserve l'intelligence textuelle",
+        "en": "NVIDIA releases Audex: a 30B-parameter unified audio-text model that preserves text intelligence",
+        "de": "NVIDIA veröffentlicht Audex: Ein einheitliches Audio-Text-Modell mit 30B Parametern, das die Textintelligenz bewahrt",
+        "it": "NVIDIA pubblica Audex: un modello audio-testo unificato da 30B parametri che preserva l'intelligenza testuale",
+        "lmo": "NVIDIA el pubblica Audex: on modell audio-test unificaa de 30B parametri che 'l conserva l'intelligenza testuala"
+      },
+      "body": {
+        "fr": "NVIDIA a publié le 7 juillet 2026 <a href='https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/'>Nemotron-Labs-Audex-30B-A3B (Audex)</a>, un modèle de langage audio-texte unifié construit sur Nemotron-Cascade-2-30B-A3B. Avec une architecture à décodeur Transformer unique où les entrées audio sont encodées et projetées dans l'espace d'embedding texte, Audex atteint un état de l'art en compréhension audio, reconnaissance et traduction vocale, synthèse vocale et génération audio, tout en préservant les capacités de raisonnement, d'alignement et de contexte long de son backbone texte. Les poids du modèle sont publiés.",
+        "en": "NVIDIA published on July 7, 2026 <a href='https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/'>Nemotron-Labs-Audex-30B-A3B (Audex)</a>, a unified audio-text language model built on Nemotron-Cascade-2-30B-A3B. With a single Transformer decoder architecture where audio inputs are encoded and projected into the text embedding space, Audex achieves state-of-the-art performance in audio understanding, speech recognition and translation, text-to-speech and audio generation, while preserving the reasoning, alignment and long-context capabilities of its text backbone. Model weights are published.",
+        "de": "NVIDIA hat am 7. Juli 2026 <a href='https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/'>Nemotron-Labs-Audex-30B-A3B (Audex)</a> veröffentlicht, ein einheitliches Audio-Text-Sprachmodell, das auf Nemotron-Cascade-2-30B-A3B aufbaut. Mit einer einzigen Transformer-Decoder-Architektur, bei der Audioeingaben kodiert und in den Text-Embedding-Raum projiziert werden, erreicht Audex Spitzenwerte bei Audioverständnis, Erkennung und Sprachübersetzung, Sprachsynthese und Audiogenerierung, während es die Reasoning-Fähigkeiten, die Ausrichtung und die Langkontextfähigkeiten seines Text-Backbones bewahrt. Die Modellgewichte sind veröffentlicht.",
+        "it": "NVIDIA ha pubblicato il 7 luglio 2026 <a href='https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/'>Nemotron-Labs-Audex-30B-A3B (Audex)</a>, un modello linguistico audio-testo unificato costruito su Nemotron-Cascade-2-30B-A3B. Con un'architettura a decoder Transformer unico in cui gli input audio vengono codificati e proiettati nello spazio di embedding del testo, Audex raggiunge lo stato dell'arte nella comprensione audio, riconoscimento e traduzione vocale, sintesi vocale e generazione audio, preservando al contempo le capacità di ragionamento, allineamento e contesto lungo del suo backbone testuale. I pesi del modello sono pubblicati.",
+        "lmo": "NVIDIA l'ha publicaa el 7 de luj 2026 <a href='https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/'>Nemotron-Labs-Audex-30B-A3B (Audex)</a>, on modell de lenguagg audio-test unificaa costruii su Nemotron-Cascade-2-30B-A3B. Con ona architettura a decoder Transformer unica indove i entrada audio hinn codifegaa e proiettaa in del spazzi d'embedding test, Audex el riva a on stat de l'art in comprension audio, recognizion e traduzzion vocala, sintesi vocala e generazion audio, menter el conserva i capacità de resonament, d'alineament e de contest longh del sò backbone test. I pes del modell hinn publicaa."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-07",
+        "en": "From the Wires — 2026-07-07",
+        "de": "From the Wires — 2026-07-07",
+        "it": "From the Wires — 2026-07-07",
+        "lmo": "From the Wires — 2026-07-07"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/07/nvidia-releases-audex-nemotron-labs-audex-30b-a3b-a-unified-audio-text-llm-that-preserves-the-text-intelligence-of-its-backbone/",
+        "https://huggingface.co/api/daily_papers?limit=50"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelgeschichte – Modelle & Grenzbereich",
+        "it": "In Primo Piano — Modelli & Frontiera",
+        "lmo": "A la Voeulta — Modell & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Agents & Plateformes",
+            "en": "Agents & Platforms",
+            "de": "Agenten & Plattformen",
+            "it": "Agenti & Piattaforme",
+            "lmo": "Agents & Piattaform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Cowork arrive sur mobile et web, et s'étend au gouvernement",
+                "en": "Claude Cowork arrives on mobile and web, and expands to government",
+                "de": "Claude Cowork kommt auf Mobilgeräte und ins Web und expandiert in den Regierungsbereich",
+                "it": "Claude Cowork arriva su mobile e web, e si estende al governo",
+                "lmo": "Claude Cowork el riva su mobil e web, e el se slarga al govern"
+              },
+              "body": {
+                "fr": "Anthropic a annoncé le 7 juillet 2026 le déploiement de <a href='https://claude.com/blog/cowork-web-mobile'>Claude Cowork sur mobile et web</a>, une expansion majeure de son agent IA jusqu'alors limité à l'application de bureau. Les utilisateurs peuvent désormais lancer une tâche depuis leur ordinateur, recevoir des notifications sur leur téléphone et récupérer le résultat plus tard, même lorsque leur ordinateur portable est fermé. Parallèlement, Anthropic a annoncé <a href='https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government'>l'arrivée de Claude Code et Claude Cowork dans le secteur gouvernemental</a>, avec des déploiements notamment en Alberta pour la cybersécurité. L'extension de l'accès à Fable 5 sur tous les plans payants jusqu'au 12 juillet a également été confirmée.",
+                "en": "Anthropic announced on July 7, 2026 the deployment of <a href='https://claude.com/blog/cowork-web-mobile'>Claude Cowork on mobile and web</a>, a major expansion of its AI agent previously limited to the desktop application. Users can now launch a task from their computer, receive notifications on their phone and retrieve the result later, even when their laptop is closed. Separately, Anthropic announced <a href='https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government'>the arrival of Claude Code and Claude Cowork in the government sector</a>, with deployments notably in Alberta for cybersecurity. The extension of access to Fable 5 on all paid plans until July 12 was also confirmed.",
+                "de": "Anthropic hat am 7. Juli 2026 die Einführung von <a href='https://claude.com/blog/cowork-web-mobile'>Claude Cowork auf Mobilgeräten und im Web</a> angekündigt, eine bedeutende Erweiterung seines KI-Agenten, der bisher auf die Desktop-Anwendung beschränkt war. Nutzer können nun eine Aufgabe von ihrem Computer aus starten, Benachrichtigungen auf ihrem Telefon erhalten und das Ergebnis später abrufen, selbst wenn ihr Laptop zugeklappt ist. Parallel dazu gab Anthropic <a href='https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government'>die Einführung von Claude Code und Claude Cowork im Regierungssektor</a> bekannt, mit Bereitstellungen unter anderem in Alberta für Cybersicherheit. Die Verlängerung des Zugangs zu Fable 5 auf allen kostenpflichtigen Tarifen bis zum 12. Juli wurde ebenfalls bestätigt.",
+                "it": "Anthropic ha annunciato il 7 luglio 2026 il lancio di <a href='https://claude.com/blog/cowork-web-mobile'>Claude Cowork su mobile e web</a>, un'espansione importante del suo agente IA finora limitato all'applicazione desktop. Gli utenti possono ora avviare un'attività dal proprio computer, ricevere notifiche sul telefono e recuperare il risultato più tardi, anche quando il portatile è chiuso. Parallelamente, Anthropic ha annunciato <a href='https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government'>l'arrivo di Claude Code e Claude Cowork nel settore governativo</a>, con implementazioni in particolare in Alberta per la cybersicurezza. È stata inoltre confermata l'estensione dell'accesso a Fable 5 su tutti i piani a pagamento fino al 12 luglio.",
+                "lmo": "Anthropic l'ha anunziaa el 7 de luj 2026 el despiegament de <a href='https://claude.com/blog/cowork-web-mobile'>Claude Cowork su mobil e web</a>, ona espansion major del sò agent IA fina adess limitaa a l'aplicazion de scrivania. I utent poden adess lanzà on incarigh del sò computer, ricev notifich in sul telefon e recuperà el resultad pussee tard, anca quand el sò laptop l'è sarraa su. In del medemm temp, Anthropic l'ha anunziaa <a href='https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government'>l'arrivada de Claude Code e Claude Cowork in del settor governativ</a>, con di despiegament in particolar in Alberta per la cibersicurezza. L'estension de l'access a Fable 5 su tucc i pian pagant fina al 12 de luj l'è stada anca confermada."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://claude.com/blog/cowork-web-mobile",
+                "https://claude.com/blog/bringing-claude-code-and-claude-cowork-to-government",
+                "https://techcrunch.com/2026/07/07/the-coding-agent-wars-are-spilling-into-the-rest-of-the-office-claude-cowork/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic publie un guide pour choisir son modèle et son niveau d'effort dans Claude Code",
+                "en": "Anthropic publishes a guide for choosing model and effort level in Claude Code",
+                "de": "Anthropic veröffentlicht Leitfaden zur Modell- und Aufwandswahl in Claude Code",
+                "it": "Anthropic pubblica una guida per scegliere il modello e il livello di sforzo in Claude Code",
+                "lmo": "Anthropic el pubblica ona guida per scernì el sò modell e el sò nivell de sforz in Claude Code"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 7 juillet 2026 un <a href='https://claude.com/blog/claude-model-and-effort-level-in-claude-code'>guide détaillé</a> pour aider les développeurs à choisir le modèle Claude et le niveau d'effort de raisonnement adaptés à leurs tâches dans Claude Code. Le document couvre les compromis entre les différents modèles (Sonnet, Opus, Haiku) et les niveaux d'effort (low, medium, high, max), offrant des recommandations pratiques pour optimiser à la fois la qualité des résultats et la consommation de tokens. Ce guide accompagne la maturation de Claude Code comme outil de développement professionnel.",
+                "en": "Anthropic published on July 7, 2026 a <a href='https://claude.com/blog/claude-model-and-effort-level-in-claude-code'>detailed guide</a> to help developers choose the Claude model and reasoning effort level best suited to their tasks in Claude Code. The document covers trade-offs between different models (Sonnet, Opus, Haiku) and effort levels (low, medium, high, max), offering practical recommendations to optimize both result quality and token consumption. This guide accompanies the maturation of Claude Code as a professional development tool.",
+                "de": "Anthropic hat am 7. Juli 2026 einen <a href='https://claude.com/blog/claude-model-and-effort-level-in-claude-code'>detaillierten Leitfaden</a> veröffentlicht, der Entwicklern hilft, das passende Claude-Modell und den passenden Reasoning-Aufwand für ihre Aufgaben in Claude Code zu wählen. Das Dokument behandelt die Abwägungen zwischen den verschiedenen Modellen (Sonnet, Opus, Haiku) und den Aufwandsstufen (Low, Medium, High, Max) und bietet praktische Empfehlungen zur Optimierung sowohl der Ergebnisqualität als auch des Token-Verbrauchs. Dieser Leitfaden begleitet die Reifung von Claude Code als professionelles Entwicklungswerkzeug.",
+                "it": "Anthropic ha pubblicato il 7 luglio 2026 una <a href='https://claude.com/blog/claude-model-and-effort-level-in-claude-code'>guida dettagliata</a> per aiutare gli sviluppatori a scegliere il modello Claude e il livello di sforzo di ragionamento adatti ai loro compiti in Claude Code. Il documento copre i compromessi tra i diversi modelli (Sonnet, Opus, Haiku) e i livelli di sforzo (low, medium, high, max), offrendo raccomandazioni pratiche per ottimizzare sia la qualità dei risultati che il consumo di token. Questa guida accompagna la maturazione di Claude Code come strumento di sviluppo professionale.",
+                "lmo": "Anthropic l'ha publicaa el 7 de luj 2026 on <a href='https://claude.com/blog/claude-model-and-effort-level-in-claude-code'>guida detajada</a> per aiutà i sviluppador a scernì el modell Claude e el nivell de sforz de resonament adattaa ai sò incarigh in Claude Code. El document el quatta i compromess tra i diferent modell (Sonnet, Opus, Haiku) e i nivell de sforz (low, medium, high, max), offrend di raccomandazion pratich per ottimizzà sia la qualità di resultad che la consumazion de tokens. Questa guida la compagna la maturazion de Claude Code 'me istrument de desvilupp professional."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://claude.com/blog/claude-model-and-effort-level-in-claude-code"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic étend ses bureaux à Manhattan et double ses effectifs new-yorkais",
+                "en": "Anthropic expands its Manhattan offices and doubles its New York workforce",
+                "de": "Anthropic erweitert Büros in Manhattan und verdoppelt New Yorker Belegschaft",
+                "it": "Anthropic espande i suoi uffici a Manhattan e raddoppia gli organici newyorkesi",
+                "lmo": "Anthropic el slarga i sò uffici a Manhattan e el radoppia i sò effettiv newyorkes"
+              },
+              "body": {
+                "fr": "Anthropic a annoncé le 7 juillet 2026 son intention de <a href='https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html'>louer un immeuble de 16 étages dans Hudson Square</a> et de doubler ses effectifs à New York pour atteindre 1 000 personnes d'ici la fin de l'année, selon le New York Times. Cette expansion s'inscrit dans le boom de l'IA à New York et témoigne de la croissance rapide de l'entreprise, qui prépare une introduction en bourse potentielle.",
+                "en": "Anthropic announced on July 7, 2026 its intention to <a href='https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html'>lease a 16-story building in Hudson Square</a> and double its New York workforce to 1,000 people by the end of the year, according to the New York Times. This expansion is part of the AI boom in New York and reflects the company's rapid growth as it prepares for a potential initial public offering.",
+                "de": "Anthropic hat am 7. Juli 2026 seine Absicht bekannt gegeben, <a href='https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html'>ein 16-stöckiges Gebäude im Hudson Square zu mieten</a> und seine Belegschaft in New York zu verdoppeln, um bis Ende des Jahres 1'000 Mitarbeiter zu erreichen, wie die New York Times berichtet. Diese Expansion ist Teil des KI-Booms in New York und zeugt vom rasanten Wachstum des Unternehmens, das sich auf einen möglichen Börsengang vorbereitet.",
+                "it": "Anthropic ha annunciato il 7 luglio 2026 l'intenzione di <a href='https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html'>affittare un edificio di 16 piani a Hudson Square</a> e di raddoppiare il personale a New York per raggiungere 1.000 persone entro la fine dell'anno, secondo il New York Times. Questa espansione si inserisce nel boom dell'IA a New York e testimonia la rapida crescita dell'azienda, che si prepara a una potenziale offerta pubblica iniziale.",
+                "lmo": "Anthropic l'ha anunziaa el 7 de luj 2026 la soa intenzion de <a href='https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html'>noleggià on palazz de 16 pian in Hudson Square</a> e de radoppià i sò effettiv a New York per rivà a 1 000 personn entro la fin de l'ann, segond el New York Times. Questa espansion la se met denter in del boom de l'IA a New York e la testimonia la crescita rapida de l'azienda, che la prepara ona potenzial introdutzion in borsa."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/07/nyregion/anthropic-ai-boom-nyc.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Modèles & Inférence",
+            "en": "Models & Inference",
+            "de": "Modelle & Inferenz",
+            "it": "Modelli & Inferenza",
+            "lmo": "Modell & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "DeepSeek conçoit sa propre puce IA",
+                "en": "DeepSeek designs its own AI chip",
+                "de": "DeepSeek entwickelt eigenen KI-Chip",
+                "it": "DeepSeek progetta il proprio chip IA",
+                "lmo": "DeepSeek el progetta la soa propia puccia IA"
+              },
+              "body": {
+                "fr": "Selon Reuters, la startup chinoise <a href='https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/'>DeepSeek conçoit sa propre puce IA</a>, une décision stratégique qui pourrait réduire sa dépendance aux GPU NVIDIA et optimiser les coûts d'inférence pour ses modèles comme DeepSeek-V4. Cette initiative s'inscrit dans une tendance plus large des labos chinois à développer du silicium sur mesure face aux restrictions d'exportation américaines.",
+                "en": "According to Reuters, Chinese startup <a href='https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/'>DeepSeek is designing its own AI chip</a>, a strategic decision that could reduce its dependence on NVIDIA GPUs and optimize inference costs for its models such as DeepSeek-V4. This initiative is part of a broader trend among Chinese labs to develop custom silicon in response to US export restrictions.",
+                "de": "Laut Reuters entwickelt das chinesische Startup <a href='https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/'>DeepSeek einen eigenen KI-Chip</a>, eine strategische Entscheidung, die seine Abhängigkeit von NVIDIA-GPUs verringern und die Inferenzkosten für seine Modelle wie DeepSeek-V4 optimieren könnte. Diese Initiative ist Teil eines breiteren Trends chinesischer Labore, angesichts der US-Exportbeschränkungen massgeschneiderte Siliziumlösungen zu entwickeln.",
+                "it": "Secondo Reuters, la startup cinese <a href='https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/'>DeepSeek sta progettando il proprio chip IA</a>, una decisione strategica che potrebbe ridurre la sua dipendenza dalle GPU NVIDIA e ottimizzare i costi di inferenza per i suoi modelli come DeepSeek-V4. Questa iniziativa si inserisce in una tendenza più ampia dei laboratori cinesi a sviluppare silicio su misura di fronte alle restrizioni all'esportazione statunitensi.",
+                "lmo": "Segond Reuters, la startup cinesa <a href='https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/'>DeepSeek la progetta la soa propia puccia IA</a>, ona decision strategica che la podaria ridù la soa dipendenza di GPU NVIDIA e ottimizzà i cost de inferenza per i sò modell 'me DeepSeek-V4. Questa iniziativa la se met denter in ona tendenza pussee larga di laboratori cines a desviluppà silici su misura in facia ai restrizion de esportazion american."
+              },
+              "kicker": {
+                "fr": "DeepSeek",
+                "en": "DeepSeek",
+                "de": "DeepSeek",
+                "it": "DeepSeek",
+                "lmo": "DeepSeek"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cohere lance Transcribe Arabic, un modèle open-source pour la transcription de l'arabe",
+                "en": "Cohere launches Transcribe Arabic, an open-source model for Arabic transcription",
+                "de": "Cohere launcht Transcribe Arabic, ein Open-Source-Modell für arabische Transkription",
+                "it": "Cohere lancia Transcribe Arabic, un modello open-source per la trascrizione dell'arabo",
+                "lmo": "Cohere el lanza Transcribe Arabic, on modell open-source per la trascrizion de l'arab"
+              },
+              "body": {
+                "fr": "Cohere a publié le 7 juillet 2026 <a href='https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/'>Transcribe Arabic</a>, un modèle open-source de 2 milliards de paramètres pour la reconnaissance vocale en arabe. Disponible sur Hugging Face sous licence Apache 2.0, le modèle surpasse Whisper et OmniASR sur les dialectes, l'alternance codique (code-switching) et la parole bilingue arabe-anglais. Cohere a également publié un article de blog sur l'automatisation de la maintenance de forks avec des agents IA.",
+                "en": "Cohere published on July 7, 2026 <a href='https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/'>Transcribe Arabic</a>, a 2-billion-parameter open-source model for Arabic speech recognition. Available on Hugging Face under the Apache 2.0 license, the model outperforms Whisper and OmniASR on dialects, code-switching and bilingual Arabic-English speech. Cohere also published a blog post on automating fork maintenance with AI agents.",
+                "de": "Cohere hat am 7. Juli 2026 <a href='https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/'>Transcribe Arabic</a> veröffentlicht, ein Open-Source-Modell mit 2 Milliarden Parametern für die Spracherkennung im Arabischen. Das unter der Apache-2.0-Lizenz auf Hugging Face verfügbare Modell übertrifft Whisper und OmniASR bei Dialekten, Code-Switching und zweisprachiger arabisch-englischer Sprache. Cohere hat zudem einen Blogbeitrag zur Automatisierung der Fork-Wartung mit KI-Agenten veröffentlicht.",
+                "it": "Cohere ha pubblicato il 7 luglio 2026 <a href='https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/'>Transcribe Arabic</a>, un modello open-source da 2 miliardi di parametri per il riconoscimento vocale in arabo. Disponibile su Hugging Face con licenza Apache 2.0, il modello supera Whisper e OmniASR sui dialetti, l'alternanza di codice (code-switching) e il parlato bilingue arabo-inglese. Cohere ha inoltre pubblicato un articolo sul blog sull'automazione della manutenzione dei fork con agenti IA.",
+                "lmo": "Cohere l'ha publicaa el 7 de luj 2026 <a href='https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/'>Transcribe Arabic</a>, on modell open-source de 2 miliard de parametri per la recognizion vocala in arab. Disponibel su Hugging Face sotta licenza Apache 2.0, el modell el supera Whisper e OmniASR in sui dialett, l'alternanza codiga (code-switching) e la parolla bilingua arab-ingles. Cohere l'ha anca publicaa on articol de blog in su l'automazion de la manutenzion de fork con di agent IA."
+              },
+              "kicker": {
+                "fr": "Cohere",
+                "en": "Cohere",
+                "de": "Cohere",
+                "it": "Cohere",
+                "lmo": "Cohere"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://the-decoder.com/cohere-transcribe-arabic-is-an-open-source-model-built-for-arabics-toughest-transcription-problems/",
+                "https://cohere.com/blog/automating-fork-maintenance-with-ai-agents"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais, CLI & Moteurs",
+        "en": "Tech Notebook — Harnesses, CLI & Engines",
+        "de": "Das Technikheft – Harnais, CLI & Engines",
+        "it": "Il Quaderno Tecnico — Imbracature, CLI & Motori",
+        "lmo": "El Carnet Tecnegh — Harnes, CLI & Motor"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Harnais & CLI",
+            "it": "Imbracature & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Codex 0.143.0 active les plugins distants par défaut et supporte GPT-5.6 Sol",
+                "en": "Codex 0.143.0 enables remote plugins by default and supports GPT-5.6 Sol",
+                "de": "Codex 0.143.0 aktiviert Remote-Plugins standardmässig und unterstützt GPT-5.6 Sol",
+                "it": "Codex 0.143.0 attiva i plugin remoti per impostazione predefinita e supporta GPT-5.6 Sol",
+                "lmo": "Codex 0.143.0 el attiva i plugin distant de default e el supporta GPT-5.6 Sol"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 8 juillet 2026 <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0'>Codex 0.143.0</a> avec des changements majeurs : les plugins distants sont désormais activés par défaut, avec un catalogue enrichi, des sources de marketplace npm et des versions locales/visibles. Codex peut désormais router l'authentification et le trafic API Responses via les proxys système macOS et Windows, y compris les configurations PAC et WPAD. La version ajoute également le support des modèles Amazon Bedrock GPT-5.6 Sol, Terra et Luna, et introduit une commande <code>codex remote-control pair</code> pour générer des codes de couplage manuels depuis un démon en cours d'exécution.",
+                "en": "OpenAI released on July 8, 2026 <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0'>Codex 0.143.0</a> with major changes: remote plugins are now enabled by default, with an enriched catalog, npm marketplace sources and local/visible versions. Codex can now route authentication and API Responses traffic through macOS and Windows system proxies, including PAC and WPAD configurations. The release also adds support for Amazon Bedrock models GPT-5.6 Sol, Terra and Luna, and introduces a <code>codex remote-control pair</code> command to generate manual pairing codes from a running daemon.",
+                "de": "OpenAI hat am 8. Juli 2026 <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0'>Codex 0.143.0</a> mit wichtigen Änderungen veröffentlicht: Remote-Plugins sind nun standardmässig aktiviert, mit einem erweiterten Katalog, npm-Marketplace-Quellen und lokalen/sichtbaren Versionen. Codex kann nun die Authentifizierung und den API-Responses-Verkehr über die macOS- und Windows-Systemproxys leiten, einschliesslich PAC- und WPAD-Konfigurationen. Die Version fügt zudem Unterstützung für die Amazon-Bedrock-Modelle GPT-5.6 Sol, Terra und Luna hinzu und führt einen Befehl <code>codex remote-control pair</code> ein, um manuelle Pairing-Codes von einem laufenden Daemon zu generieren.",
+                "it": "OpenAI ha pubblicato l'8 luglio 2026 <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0'>Codex 0.143.0</a> con cambiamenti importanti: i plugin remoti sono ora attivati per impostazione predefinita, con un catalogo arricchito, sorgenti di marketplace npm e versioni locali/visibili. Codex può ora instradare l'autenticazione e il traffico API Responses tramite i proxy di sistema macOS e Windows, incluse le configurazioni PAC e WPAD. La versione aggiunge inoltre il supporto per i modelli Amazon Bedrock GPT-5.6 Sol, Terra e Luna, e introduce un comando <code>codex remote-control pair</code> per generare codici di accoppiamento manuali da un demone in esecuzione.",
+                "lmo": "OpenAI l'ha publicaa el 8 de luj 2026 <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0'>Codex 0.143.0</a> con di cambiament major: i plugin distant hinn adess ativaa de default, con on catalogh riches, di sorgent de marketplace npm e di version locai/visibel. Codex el pò adess instradà l'autenticazion e el traffich API Responses via i proxy de sistema macOS e Windows, compres i configurazion PAC e WPAD. La version la gionta anca el support di modell Amazon Bedrock GPT-5.6 Sol, Terra e Luna, e la introduss ona commanda <code>codex remote-control pair</code> per generà di codes de cobbiament manuai de on demon in esecuzion."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "wire": {
+                "fr": "2026-07-08",
+                "en": "2026-07-08",
+                "de": "2026-07-08",
+                "it": "2026-07-08",
+                "lmo": "2026-07-08"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.143.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.204 corrige un bug de streaming dans les hooks headless",
+                "en": "Claude Code v2.1.204 fixes streaming bug in headless hooks",
+                "de": "Claude Code v2.1.204 behebt Streaming-Fehler in Headless-Hooks",
+                "it": "Claude Code v2.1.204 corregge un bug di streaming negli hook headless",
+                "lmo": "Claude Code v2.1.204 el corregg on bug de streaming in di hook headless"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 8 juillet 2026 <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.204'>Claude Code v2.1.204</a> qui corrige un problème où les événements de hook n'étaient pas diffusés pendant les hooks SessionStart dans les sessions headless, ce qui pouvait entraîner le recyclage des workers distants en plein milieu d'un hook. La version précédente v2.1.203 (7 juillet) avait ajouté un avertissement en cas d'expiration prochaine de la session, un badge ⏸ gris en mode permission manuelle, et l'ajout des répertoires de travail supplémentaires aux racines MCP.",
+                "en": "Anthropic released on July 8, 2026 <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.204'>Claude Code v2.1.204</a> which fixes an issue where hook events were not streamed during SessionStart hooks in headless sessions, which could cause remote workers to be recycled mid-hook. The previous version v2.1.203 (July 7) added a warning when a session is about to expire, a gray ⏸ badge in manual permission mode, and the addition of extra working directories to MCP roots.",
+                "de": "Anthropic hat am 8. Juli 2026 <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.204'>Claude Code v2.1.204</a> veröffentlicht, das ein Problem behebt, bei dem Hook-Ereignisse während SessionStart-Hooks in headless-Sitzungen nicht gestreamt wurden, was zum Recycling entfernter Worker mitten in einem Hook führen konnte. Die vorherige Version v2.1.203 (7. Juli) hatte eine Warnung bei bald ablaufenden Sitzungen, ein graues ⏸-Abzeichen im manuellen Berechtigungsmodus und die Aufnahme zusätzlicher Arbeitsverzeichnisse in die MCP-Roots hinzugefügt.",
+                "it": "Anthropic ha pubblicato l'8 luglio 2026 <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.204'>Claude Code v2.1.204</a> che corregge un problema per cui gli eventi di hook non venivano trasmessi durante gli hook SessionStart nelle sessioni headless, il che poteva portare al riciclo dei worker remoti nel bel mezzo di un hook. La versione precedente v2.1.203 (7 luglio) aveva aggiunto un avviso in caso di scadenza imminente della sessione, un badge ⏸ grigio in modalità permesso manuale e l'aggiunta delle directory di lavoro supplementari alle radici MCP.",
+                "lmo": "Anthropic l'ha publicaa el 8 de luj 2026 <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.204'>Claude Code v2.1.204</a> che el corregg on problema indove i event de hook eren minga spantegaa duranta i hook SessionStart in di session headless, che el podeva portà al riciclagg di worker distant in del bel mez de on hook. La version precedent v2.1.203 (7 de luj) l'haveva giontaa on avertiment in cas de scadenza iminent de la session, on badge ⏸ gris in mod de permission manuala, e l'giontà di directory de lavorà supplementar a i radis MCP."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "wire": {
+                "fr": "2026-07-08",
+                "en": "2026-07-08",
+                "de": "2026-07-08",
+                "it": "2026-07-08",
+                "lmo": "2026-07-08"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.203"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cline CLI v3.0.38 : nouvelle palette de couleurs plan/act et support des entrées malformées",
+                "en": "Cline CLI v3.0.38: new plan/act color palette and support for malformed inputs",
+                "de": "Cline CLI v3.0.38: Neue Plan/Act-Farbpalette und Unterstützung für fehlerhafte Eingaben",
+                "it": "Cline CLI v3.0.38: nuova palette di colori plan/act e supporto per input malformati",
+                "lmo": "Cline CLI v3.0.38: noeuva paletta de color pian/att e support di entrada malformaa"
+              },
+              "body": {
+                "fr": "Cline a publié le 7 juillet 2026 <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.38'>CLI v3.0.38</a> avec une refonte visuelle : le mode act passe au bleu (#79b8ff) et le mode plan à l'ambre, remplaçant l'ancien cyan/jaune. Le sélecteur de niveau de réflexion (thinking level) par défaut passe désormais à Medium au lieu de Off. La fonction <code>read_files</code> tolère désormais les entrées malformées des modèles plus faibles. Les modèles du catalogue qui ne déclarent pas de fenêtre de contexte reçoivent une limite par défaut de 128K tokens d'entrée.",
+                "en": "Cline released on July 7, 2026 <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.38'>CLI v3.0.38</a> with a visual redesign: act mode switches to blue (#79b8ff) and plan mode to amber, replacing the old cyan/yellow. The default thinking level selector now defaults to Medium instead of Off. The <code>read_files</code> function now tolerates malformed inputs from weaker models. Catalog models that do not declare a context window receive a default limit of 128K input tokens.",
+                "de": "Cline hat am 7. Juli 2026 <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.38'>CLI v3.0.38</a> mit einer visuellen Überarbeitung veröffentlicht: Der Act-Modus wechselt zu Blau (#79b8ff) und der Plan-Modus zu Bernstein, was das alte Cyan/Gelb ersetzt. Der Standard-Auswahlschalter für die Denkstufe (Thinking Level) wechselt nun auf Medium statt Aus. Die Funktion <code>read_files</code> toleriert nun fehlerhafte Eingaben schwächerer Modelle. Modelle im Katalog, die kein Kontextfenster angeben, erhalten eine Standardbegrenzung von 128K Eingabe-Token.",
+                "it": "Cline ha pubblicato il 7 luglio 2026 <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.38'>CLI v3.0.38</a> con un restyling visivo: la modalità attiva passa al blu (#79b8ff) e la modalità piano all'ambra, sostituendo il precedente ciano/giallo. Il selettore del livello di riflessione (thinking level) predefinito passa ora a Medium invece di Off. La funzione <code>read_files</code> tollera ora input malformati da modelli più deboli. I modelli del catalogo che non dichiarano una finestra di contesto ricevono un limite predefinito di 128K token di input.",
+                "lmo": "Cline l'ha publicaa el 7 de luj 2026 <a href='https://github.com/cline/cline/releases/tag/cli-v3.0.38'>CLI v3.0.38</a> con ona refonta visual: el mod att el passa al bloeu (#79b8ff) e el mod pian a l'ambra, sostituend el vegg cian/giald. El selector de nivell de riflession (thinking level) de default el passa adess a Medium inveci de Off. La funzion <code>read_files</code> la tolera adess i entrada malformaa di modell pussee debol. I modell del catalogh che declaren minga ona fenestra de contest riceven on limit de default de 128K tokens de entrata."
+              },
+              "kicker": {
+                "fr": "Cline",
+                "en": "Cline",
+                "de": "Cline",
+                "it": "Cline",
+                "lmo": "Cline"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://github.com/cline/cline/releases/tag/cli-v3.0.38"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenCode v1.17.15 améliore la classification des erreurs de dépassement de contexte",
+                "en": "OpenCode v1.17.15 improves context overflow error classification",
+                "de": "OpenCode v1.17.15 verbessert Klassifizierung von Kontextüberlauffehler",
+                "it": "OpenCode v1.17.15 migliora la classificazione degli errori di superamento del contesto",
+                "lmo": "OpenCode v1.17.15 el mejora la classificazion di error de superament de contest"
+              },
+              "body": {
+                "fr": "OpenCode a publié le 7 juillet 2026 <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.15'>v1.17.15</a> avec une meilleure classification des erreurs de dépassement de limite de tokens pour Z.ai, une gestion plus élégante des répertoires de configuration indisponibles, et des améliorations visuelles de l'interface desktop : restauration des infobulles des modèles, palette de commandes v2 rafraîchie, et correction des problèmes d'affichage du titre de fenêtre sur macOS Sequoia.",
+                "en": "OpenCode released on July 7, 2026 <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.15'>v1.17.15</a> with improved classification of token limit exceeded errors for Z.ai, more graceful handling of unavailable configuration directories, and visual improvements to the desktop interface: restored model tooltips, refreshed command palette v2, and fixed window title display issues on macOS Sequoia.",
+                "de": "OpenCode hat am 7. Juli 2026 <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.15'>v1.17.15</a> mit einer verbesserten Klassifizierung von Token-Limit-Überschreitungsfehlern für Z.ai, einer eleganteren Handhabung nicht verfügbarer Konfigurationsverzeichnisse und visuellen Verbesserungen der Desktop-Oberfläche veröffentlicht: Wiederherstellung von Modell-Tooltips, aktualisierte Befehlspalette v2 und Behebung von Anzeigeproblemen des Fenstertitels unter macOS Sequoia.",
+                "it": "OpenCode ha pubblicato il 7 luglio 2026 <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.15'>v1.17.15</a> con una migliore classificazione degli errori di superamento del limite di token per Z.ai, una gestione più elegante delle directory di configurazione non disponibili e miglioramenti visivi dell'interfaccia desktop: ripristino dei tooltip dei modelli, palette comandi v2 rinfrescata e correzione dei problemi di visualizzazione del titolo della finestra su macOS Sequoia.",
+                "lmo": "OpenCode l'ha publicaa el 7 de luj 2026 <a href='https://github.com/anomalyco/opencode/releases/tag/v1.17.15'>v1.17.15</a> con ona mejora classificazion di error de superament del limit de tokens per Z.ai, ona gestion pussee eleganta di directory de configurazion minga disponibel, e di mejoriament visual de l'interfaccia desktop: restavorazion di infoboll di modell, paletta de command v2 refrescada, e correzion di problema de visualizazion del titol de finestra su macOS Sequoia."
+              },
+              "kicker": {
+                "fr": "OpenCode",
+                "en": "OpenCode",
+                "de": "OpenCode",
+                "it": "OpenCode",
+                "lmo": "OpenCode"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://github.com/anomalyco/opencode/releases/tag/v1.17.15"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs d'inférence",
+            "en": "Inference Engines",
+            "de": "Inferenz-Engines",
+            "it": "Motori di inferenza",
+            "lmo": "Motor d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9910 corrige une incohérence de chargement des modèles de draft",
+                "en": "llama.cpp b9910 fixes draft model loading inconsistency",
+                "de": "llama.cpp b9910 behebt Inkonsistenz beim Laden von Draft-Modellen",
+                "it": "llama.cpp b9910 corregge un'incoerenza di caricamento dei modelli di draft",
+                "lmo": "llama.cpp b9910 el corregg ona incoerenza de carregament di modell de draft"
+              },
+              "body": {
+                "fr": "llama.cpp a publié le 8 juillet 2026 <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9910'>la version b9910</a> qui corrige une incohérence entre l'ajustement (fit) et le chargement (load) des modèles de draft dans le serveur. La correction unifie l'initialisation des paramètres du modèle de draft et du MTP, et déplace la logique speculative dans un fichier dédié. Le correctif empêche le throttling du callback de progression lors du chargement du modèle de draft.",
+                "en": "llama.cpp released on July 8, 2026 <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9910'>version b9910</a> which fixes an inconsistency between fitting and loading draft models in the server. The fix unifies the initialization of draft model and MTP parameters, and moves speculative logic into a dedicated file. The patch prevents throttling of the progress callback when loading the draft model.",
+                "de": "llama.cpp hat am 8. Juli 2026 <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9910'>Version b9910</a> veröffentlicht, die eine Inkonsistenz zwischen dem Anpassen (Fit) und Laden (Load) von Draft-Modellen im Server behebt. Die Korrektur vereinheitlicht die Initialisierung der Parameter des Draft-Modells und des MTP und verschiebt die spekulative Logik in eine eigene Datei. Der Fix verhindert das Drosseln des Fortschritts-Callbacks beim Laden des Draft-Modells.",
+                "it": "llama.cpp ha pubblicato l'8 luglio 2026 <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9910'>la versione b9910</a> che corregge un'incoerenza tra l'aggiustamento (fit) e il caricamento (load) dei modelli di draft nel server. La correzione unifica l'inizializzazione dei parametri del modello di draft e del MTP, e sposta la logica speculativa in un file dedicato. La patch impedisce il throttling del callback di avanzamento durante il caricamento del modello di draft.",
+                "lmo": "llama.cpp l'ha publicaa el 8 de luj 2026 <a href='https://github.com/ggml-org/llama.cpp/releases/tag/b9910'>la version b9910</a> che la corregg ona incoerenza tra l'ajustament (fit) e el carregament (load) di modell de draft in del server. La correzion la unifica l'inizializazion di parametri del modell de draft e del MTP, e la sposta la logica speculativa in on file dedicad. El correttiv el impediss el throttling del callback de progress duranta el carregament del modell de draft."
+              },
+              "kicker": {
+                "fr": "llama.cpp",
+                "en": "llama.cpp",
+                "de": "llama.cpp",
+                "it": "llama.cpp",
+                "lmo": "llama.cpp"
+              },
+              "wire": {
+                "fr": "2026-07-08",
+                "en": "2026-07-08",
+                "de": "2026-07-08",
+                "it": "2026-07-08",
+                "lmo": "2026-07-08"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9910"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX v0.10.3 corrige l'application du stop token pour les agents CodeAct",
+                "en": "Rapid-MLX v0.10.3 fixes stop token application for CodeAct agents",
+                "de": "Rapid-MLX v0.10.3 behebt Anwendung des Stop-Tokens für CodeAct-Agenten",
+                "it": "Rapid-MLX v0.10.3 corregge l'applicazione del token di stop per gli agenti CodeAct",
+                "lmo": "Rapid-MLX v0.10.3 el corregg l'aplicazion del stop token per i agent CodeAct"
+              },
+              "body": {
+                "fr": "Rapid-MLX a publié le 7 juillet 2026 <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3'>v0.10.3</a> qui corrige un bug où le paramètre <code>stop</code> utilisateur était appliqué à tous les canaux au lieu du seul canal final, ce qui bloquait les agents CodeAct utilisant gpt-oss. La correction débloque l'utilisation de modèles open-source avec des agents de codage autonomes sur l'infrastructure MLX.",
+                "en": "Rapid-MLX released on July 7, 2026 <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3'>v0.10.3</a> which fixes a bug where the user <code>stop</code> parameter was applied to all channels instead of only the final channel, which blocked CodeAct agents using gpt-oss. The fix enables the use of open-source models with autonomous coding agents on MLX infrastructure.",
+                "de": "Rapid-MLX hat am 7. Juli 2026 <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3'>v0.10.3</a> veröffentlicht, das einen Fehler behebt, bei dem der benutzerdefinierte <code>stop</code>-Parameter auf alle Kanäle statt nur auf den letzten Kanal angewendet wurde, was CodeAct-Agenten mit gpt-oss blockierte. Die Korrektur ermöglicht die Nutzung von Open-Source-Modellen mit autonomen Codierungsagenten auf der MLX-Infrastruktur.",
+                "it": "Rapid-MLX ha pubblicato il 7 luglio 2026 <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3'>v0.10.3</a> che corregge un bug per cui il parametro <code>stop</code> utente veniva applicato a tutti i canali invece che al solo canale finale, bloccando così gli agenti CodeAct che utilizzano gpt-oss. La correzione sblocca l'uso di modelli open-source con agenti di codifica autonomi sull'infrastruttura MLX.",
+                "lmo": "Rapid-MLX l'ha publicaa el 7 de luj 2026 <a href='https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3'>v0.10.3</a> che la corregg on bug indove el parametro <code>stop</code> utent l'era applicaa a tucc i canai inveci che al solet canal final, che el blocava i agent CodeAct che doperaven gpt-oss. La correzion la desblocca l'usagg de modell open-source con di agent de codifega autonoma in su l'infrastruttura MLX."
+              },
+              "kicker": {
+                "fr": "Rapid-MLX",
+                "en": "Rapid-MLX",
+                "de": "Rapid-MLX",
+                "it": "Rapid-MLX",
+                "lmo": "Rapid-MLX"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.10.3"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "LM Studio 0.4.19 active le protocole Engine par défaut et ajoute /reasoning",
+                "en": "LM Studio 0.4.19 enables Engine protocol by default and adds /reasoning",
+                "de": "LM Studio 0.4.19 aktiviert Engine-Protokoll standardmässig und fügt /reasoning hinzu",
+                "it": "LM Studio 0.4.19 attiva il protocollo Engine per impostazione predefinita e aggiunge /reasoning",
+                "lmo": "LM Studio 0.4.19 el attiva el protocoll Engine de default e el gionta /reasoning"
+              },
+              "body": {
+                "fr": "LM Studio a publié le 7 juillet 2026 <a href='https://lmstudio.ai/changelog'>la version 0.4.19</a> qui active par défaut le LM Studio Engine Protocol (stable). La version ajoute la commande <code>/reasoning</code> à <code>lms chat</code> et corrige un bug où le raisonnement était rejoué comme contenu non-raisonné lors de l'utilisation de <code>/v1/responses</code> ou de l'interface chat.",
+                "en": "LM Studio released on July 7, 2026 <a href='https://lmstudio.ai/changelog'>version 0.4.19</a> which enables the LM Studio Engine Protocol (stable) by default. The release adds the <code>/reasoning</code> command to <code>lms chat</code> and fixes a bug where reasoning was replayed as non-reasoned content when using <code>/v1/responses</code> or the chat interface.",
+                "de": "LM Studio hat am 7. Juli 2026 <a href='https://lmstudio.ai/changelog'>Version 0.4.19</a> veröffentlicht, die standardmässig das LM Studio Engine Protocol (stabil) aktiviert. Die Version fügt den Befehl <code>/reasoning</code> zu <code>lms chat</code> hinzu und behebt einen Fehler, bei dem Reasoning als Nicht-Reasoning-Inhalt wiedergegeben wurde, wenn <code>/v1/responses</code> oder die Chat-Oberfläche verwendet wurde.",
+                "it": "LM Studio ha pubblicato il 7 luglio 2026 <a href='https://lmstudio.ai/changelog'>la versione 0.4.19</a> che attiva per impostazione predefinita il LM Studio Engine Protocol (stabile). La versione aggiunge il comando <code>/reasoning</code> a <code>lms chat</code> e corregge un bug per cui il ragionamento veniva riprodotto come contenuto non ragionato quando si utilizzava <code>/v1/responses</code> o l'interfaccia chat.",
+                "lmo": "LM Studio l'ha publicaa el 7 de luj 2026 <a href='https://lmstudio.ai/changelog'>la version 0.4.19</a> che la attiva de default el LM Studio Engine Protocol (stabil). La version la gionta la commanda <code>/reasoning</code> a <code>lms chat</code> e la corregg on bug indove el resonament l'era rejugaa 'me contegnud minga resonaa duranta l'usagg de <code>/v1/responses</code> o de l'interfaccia chat."
+              },
+              "kicker": {
+                "fr": "LM Studio",
+                "en": "LM Studio",
+                "de": "LM Studio",
+                "it": "LM Studio",
+                "lmo": "LM Studio"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://lmstudio.ai/changelog"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & Labos",
+        "en": "Research — Papers & Labs",
+        "de": "Die Forschung – Papers & Labore",
+        "it": "La Ricerca — Paper & Laboratori",
+        "lmo": "La Ricerca — Papers & Laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Architecture & Inférence",
+            "en": "Architecture & Inference",
+            "de": "Architektur & Inferenz",
+            "it": "Architettura & Inferenza",
+            "lmo": "Architettura & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "HiLS-Attention : une attention sparse hiérarchique qui extrapole 64× la longueur d'entraînement",
+                "en": "HiLS-Attention: a hierarchical sparse attention that extrapolates 64x the training length",
+                "de": "HiLS-Attention: Hierarchische sparse Aufmerksamkeit extrapoliert 64× die Trainingslänge",
+                "it": "HiLS-Attention: un'attenzione sparsa gerarchica che estrapola 64× la lunghezza di addestramento",
+                "lmo": "HiLS-Attention: ona attenzion sparsa gerarchica che la extrapola 64× la longhezza d'allenament"
+              },
+              "body": {
+                "fr": "Les chercheurs de Tencent Hunyuan ont publié le 7 juillet 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>HiLS-Attention (Hierarchical Landmark Sparse Attention)</a>, un mécanisme d'attention sparse par chunks qui apprend la sélection de chunks de bout en bout sous la loss LM. HiLS factorise l'attention hiérarchiquement : chaque requête effectue une attention indépendante avec chaque chunk récupéré, et les sorties sont fusionnées selon les scores de récupération. Les résultats montrent que HiLS atteint des performances comparables à l'attention dense sur les longueurs de contexte d'entraînement, et extrapole à plus de 64× la longueur d'entraînement avec 90 % de précision de récupération. Les modèles existants à attention dense peuvent être convertis avec un pré-entraînement continu léger.",
+                "en": "Researchers at Tencent Hunyuan published on July 7, 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>HiLS-Attention (Hierarchical Landmark Sparse Attention)</a>, a chunk-based sparse attention mechanism that learns chunk selection end-to-end under the LM loss. HiLS factorizes attention hierarchically: each query performs independent attention with each retrieved chunk, and outputs are merged according to retrieval scores. Results show that HiLS achieves performance comparable to dense attention on training context lengths, and extrapolates to over 64x the training length with 90% retrieval accuracy. Existing dense attention models can be converted with lightweight continued pretraining.",
+                "de": "Forscher von Tencent Hunyuan haben am 7. Juli 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>HiLS-Attention (Hierarchical Landmark Sparse Attention)</a> veröffentlicht, einen chunk-basierten Sparse-Attention-Mechanismus, der die Chunk-Auswahl unter dem LM-Verlust Ende-zu-Ende lernt. HiLS faktorisiert die Aufmerksamkeit hierarchisch: Jede Abfrage führt eine unabhängige Aufmerksamkeit mit jedem abgerufenen Chunk durch, und die Ausgaben werden gemäss den Abruf-Scores fusioniert. Die Ergebnisse zeigen, dass HiLS bei Trainingskontextlängen eine mit dichter Aufmerksamkeit vergleichbare Leistung erzielt und auf über das 64-fache der Trainingslänge mit 90 % Abrufgenauigkeit extrapoliert. Bestehende Modelle mit dichter Aufmerksamkeit können mit leichtem kontinuierlichem Vortraining konvertiert werden.",
+                "it": "I ricercatori di Tencent Hunyuan hanno pubblicato il 7 luglio 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>HiLS-Attention (Hierarchical Landmark Sparse Attention)</a>, un meccanismo di attenzione sparsa a chunk che apprende la selezione dei chunk end-to-end sotto la loss LM. HiLS fattorizza l'attenzione gerarchicamente: ogni query effettua un'attenzione indipendente con ogni chunk recuperato, e le uscite vengono fuse in base ai punteggi di recupero. I risultati mostrano che HiLS raggiunge prestazioni comparabili all'attenzione densa sulle lunghezze di contesto di addestramento, ed estrapola a oltre 64× la lunghezza di addestramento con il 90% di precisione di recupero. I modelli esistenti ad attenzione densa possono essere convertiti con un pre-addestramento continuo leggero.",
+                "lmo": "I ricercator de Tencent Hunyuan hann publicaa el 7 de luj 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>HiLS-Attention (Hierarchical Landmark Sparse Attention)</a>, on mecanism d'attenzion sparsa per chunk che l'impren la selezzion de chunk de fin a fin sotta la loss LM. HiLS el fattorizza l'attenzion gerarchicament: ogni richiesta la fa ona attenzion independenta con ogni chunk recuperaa, e i sortid hinn fusi segond i score de recuperazion. I resultad mostren che HiLS el riva a di performance compagne a l'attenzion densa in sui longhez de contest d'allenament, e el extrapola a pussee de 64× la longhezza d'allenament con el 90% de precision de recuperazion. I modell esistent a attenzion densa poden vess convertii con on pre-allenament continov legger."
+              },
+              "kicker": {
+                "fr": "Tencent",
+                "en": "Tencent",
+                "de": "Tencent",
+                "it": "Tencent",
+                "lmo": "Tencent"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://github.com/Tencent-Hunyuan/HiLS-Attention"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SeKV : un cache KV sémantique adaptatif qui réduit la mémoire GPU de 53 % à 128K de contexte",
+                "en": "SeKV: an adaptive semantic KV cache that reduces GPU memory by 53% at 128K context",
+                "de": "SeKV: Semantischer adaptiver KV-Cache reduziert GPU-Speicher um 53 % bei 128K Kontext",
+                "it": "SeKV: una cache KV semantica adattiva che riduce la memoria GPU del 53% a 128K di contesto",
+                "lmo": "SeKV: on cache KV semantich adattiv che el ridù la memoria GPU del 53% a 128K de contest"
+              },
+              "body": {
+                "fr": "Des chercheurs de Microsoft ont publié le 7 juillet 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>SeKV</a>, un cache KV sémantique adaptatif en résolution qui organise le contexte en spans sémantiques guidés par l'entropie, stockés sur une hiérarchie mémoire GPU-CPU sans perte d'information. Chaque span conserve un vecteur de résumé léger sur GPU pour le routage grossier et une base SVD de bas rang sur CPU pour la reconstruction à la demande. Un mécanisme de zoom-in entraîné expand sélectivement les spans pertinents pendant le décodage. SeKV améliore la baseline de compression sémantique la plus forte de 5,9 % en moyenne tout en réduisant la mémoire GPU de 53,3 % par rapport au cache KV complet à 128K de contexte.",
+                "en": "Researchers at Microsoft published on July 7, 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>SeKV</a>, an adaptive-resolution semantic KV cache that organizes context into entropy-guided semantic spans stored on a GPU-CPU memory hierarchy without information loss. Each span keeps a lightweight summary vector on GPU for coarse routing and a low-rank SVD basis on CPU for on-demand reconstruction. A trained zoom-in mechanism selectively expands relevant spans during decoding. SeKV improves the strongest semantic compression baseline by 5.9% on average while reducing GPU memory by 53.3% compared to the full KV cache at 128K context.",
+                "de": "Microsoft-Forscher haben am 7. Juli 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>SeKV</a> veröffentlicht, einen semantischen, auflösungsadaptiven KV-Cache, der den Kontext in entropiegesteuerte semantische Spannen organisiert, die ohne Informationsverlust auf einer GPU-CPU-Speicherhierarchie gespeichert werden. Jede Spanne behält einen leichten Zusammenfassungsvektor auf der GPU für das grobe Routing und eine rangniedrige SVD-Basis auf der CPU für die bedarfsgesteuerte Rekonstruktion. Ein trainierter Zoom-In-Mechanismus expandiert während des Decodings selektiv relevante Spannen. SeKV verbessert die stärkste semantische Kompressions-Baseline um durchschnittlich 5,9 % bei gleichzeitiger Reduzierung des GPU-Speichers um 53,3 % im Vergleich zum vollständigen KV-Cache bei 128K Kontext.",
+                "it": "Ricercatori di Microsoft hanno pubblicato il 7 luglio 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>SeKV</a>, una cache KV semantica adattiva in risoluzione che organizza il contesto in span semantici guidati dall'entropia, memorizzati su una gerarchia di memoria GPU-CPU senza perdita di informazione. Ogni span conserva un vettore di riepilogo leggero su GPU per l'instradamento grossolano e una base SVD di basso rango su CPU per la ricostruzione su richiesta. Un meccanismo di zoom-in addestrato espande selettivamente gli span pertinenti durante la decodifica. SeKV migliora la baseline di compressione semantica più forte del 5,9% in media, riducendo al contempo la memoria GPU del 53,3% rispetto alla cache KV completa a 128K di contesto.",
+                "lmo": "Di ricercator de Microsoft hann publicaa el 7 de luj 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>SeKV</a>, on cache KV semantich adattiv in risoluzion che l'organizza el contest in span semantich guidaa de l'entropia, conservaa su ona gerarchia de memoria GPU-CPU senza perdita d'informazion. Ogni span el conserva on vetor de resumee legger su GPU per l'instradament grossolan e ona base SVD de bass rang su CPU per la ricostruzion a la domanda. On mecanism de zoom-in allenad el expanda seletivament i span pertinent duranta la decodifega. SeKV el mejora la baseline de compression semantica pussee forta del 5,9% in media menter el ridù la memoria GPU del 53,3% respett al cache KV complet a 128K de contest."
+              },
+              "kicker": {
+                "fr": "Microsoft",
+                "en": "Microsoft",
+                "de": "Microsoft",
+                "it": "Microsoft",
+                "lmo": "Microsoft"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://github.com/AmirAbaskohi/SeKV"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Agents & Robotique",
+            "en": "Agents & Robotics",
+            "de": "Agenten & Robotik",
+            "it": "Agenti & Robotica",
+            "lmo": "Agents & Robòtega"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GaP : un harnais multi-agents auto-apprenant pour l'automatisation variationnelle",
+                "en": "GaP: a self-learning multi-agent harness for variational automation",
+                "de": "GaP: Ein selbstlernendes Multi-Agenten-Harnais für variationelle Automatisierung",
+                "it": "GaP: un'imbracatura multi-agente auto-apprendente per l'automazione variazionale",
+                "lmo": "GaP: on harnes multi-agents auto-imparent per l'automazion variazionala"
+              },
+              "body": {
+                "fr": "Des chercheurs de UC Berkeley ont publié le 7 juillet 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Graph-as-Policy (GaP)</a>, un harnais de codage multi-agents qui génère des graphes de calcul dirigés avec des nœuds de perception, planification et contrôle à partir d'une bibliothèque de compétences robotiques modulaires. GaP génère un environnement de simulation interne pour répéter des instances de tâches avec différents graphes en parallèle, affinant itérativement la structure et les paramètres. Évalué sur 8 nouveaux benchmarks de tâches VA (variational automation), GaP atteint des taux de succès significativement supérieurs aux baselines, avec 4 benchmarks en simulation et 4 dans le monde réel.",
+                "en": "Researchers at UC Berkeley published on July 7, 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Graph-as-Policy (GaP)</a>, a multi-agent coding harness that generates directed computation graphs with perception, planning and control nodes from a library of modular robotic skills. GaP generates an internal simulation environment to replay task instances with different graphs in parallel, iteratively refining structure and parameters. Evaluated on 8 new VA (variational automation) task benchmarks, GaP achieves significantly higher success rates than baselines, with 4 benchmarks in simulation and 4 in the real world.",
+                "de": "Forscher der UC Berkeley haben am 7. Juli 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Graph-as-Policy (GaP)</a> veröffentlicht, ein Multi-Agenten-Coding-Harnais, das aus einer Bibliothek modularer Roboterfähigkeiten gerichtete Berechnungsgraphen mit Knoten für Wahrnehmung, Planung und Steuerung generiert. GaP erzeugt eine interne Simulationsumgebung, um Aufgabeninstanzen mit verschiedenen Graphen parallel zu wiederholen und so die Struktur und Parameter iterativ zu verfeinern. Bewertet auf 8 neuen VA-Benchmarks (Variational Automation) erzielt GaP deutlich höhere Erfolgsraten als die Baselines, mit 4 Benchmarks in der Simulation und 4 in der realen Welt.",
+                "it": "Ricercatori di UC Berkeley hanno pubblicato il 7 luglio 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Graph-as-Policy (GaP)</a>, un'imbracatura di codifica multi-agente che genera grafi di calcolo diretti con nodi di percezione, pianificazione e controllo a partire da una libreria di competenze robotiche modulari. GaP genera un ambiente di simulazione interno per ripetere istanze di compiti con diversi grafi in parallelo, raffinando iterativamente la struttura e i parametri. Valutato su 8 nuovi benchmark di compiti VA (variational automation), GaP raggiunge tassi di successo significativamente superiori alle baseline, con 4 benchmark in simulazione e 4 nel mondo reale.",
+                "lmo": "Di ricercator de UC Berkeley hann publicaa el 7 de luj 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Graph-as-Policy (GaP)</a>, on harnes de codifega multi-agents che 'l genera di graf de calcol dirigiu con di node de percezion, pianificazion e controll de ona biblioteca de competenze robotich modolar. GaP el genera on ambient de simulazion interna per repedì di istanz de incarigh con di graf diferent in parallel, refinend iterativament la struttura e i parametri. Valutaa su 8 noeuv benchmark de incarigh VA (variational automation), GaP el riva a di tass de success significativament superior ai baseline, con 4 benchmark in simulazion e 4 in del mond real."
+              },
+              "kicker": {
+                "fr": "UC Berkeley",
+                "en": "UC Berkeley",
+                "de": "UC Berkeley",
+                "it": "UC Berkeley",
+                "lmo": "UC Berkeley"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://graph-robots.github.io/gap/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Flex-Forcing : un cadre unifié pour la génération vidéo autorégressive et bidirectionnelle",
+                "en": "Flex-Forcing: a unified framework for autoregressive and bidirectional video generation",
+                "de": "Flex-Forcing: Ein einheitliches Framework für autoregressive und bidirektionale Videogenerierung",
+                "it": "Flex-Forcing: un framework unificato per la generazione video autoregressiva e bidirezionale",
+                "lmo": "Flex-Forcing: on quadre unificaa per la generazion video autoregressiva e bidirezionala"
+              },
+              "body": {
+                "fr": "NVIDIA a publié le 7 juillet 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Flex-Forcing</a>, un cadre d'entraînement et d'inférence unifié qui permet à un modèle de diffusion vidéo de fonctionner à la fois en mode bidirectionnel et autorégressif. Le mécanisme de chunking flexible, défini conjointement sur l'axe temporel et les étapes de débruitage, permet une inférence bidirectionnelle entre chunks pour la planification globale de la structure, tout en générant les trames de manière autorégressive au sein de chaque chunk. Les expériences montrent une meilleure qualité vidéo et une stabilité accrue pour les vidéos longues par rapport aux baselines.",
+                "en": "NVIDIA published on July 7, 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Flex-Forcing</a>, a unified training and inference framework that allows a video diffusion model to operate in both bidirectional and autoregressive modes. The flexible chunking mechanism, defined jointly over the temporal axis and denoising steps, enables bidirectional inference between chunks for global structure planning, while generating frames autoregressively within each chunk. Experiments show improved video quality and increased stability for long videos compared to baselines.",
+                "de": "NVIDIA hat am 7. Juli 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Flex-Forcing</a> veröffentlicht, ein einheitliches Trainings- und Inferenz-Framework, das es einem Videodiffusionsmodell ermöglicht, sowohl im bidirektionalen als auch im autoregressiven Modus zu arbeiten. Der flexible Chunking-Mechanismus, der gemeinsam über die Zeitachse und die Entrauschungsschritte definiert wird, ermöglicht eine bidirektionale Inferenz zwischen Chunks für die globale Strukturplanung, während die Frames innerhalb jedes Chunks autoregressiv generiert werden. Die Experimente zeigen eine bessere Videoqualität und erhöhte Stabilität für lange Videos im Vergleich zu den Baselines.",
+                "it": "NVIDIA ha pubblicato il 7 luglio 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Flex-Forcing</a>, un framework di addestramento e inferenza unificato che consente a un modello di diffusione video di funzionare sia in modalità bidirezionale che autoregressiva. Il meccanismo di chunking flessibile, definito congiuntamente sull'asse temporale e sui passaggi di denoising, consente un'inferenza bidirezionale tra chunk per la pianificazione globale della struttura, generando al contempo i fotogrammi in modo autoregressivo all'interno di ogni chunk. Gli esperimenti mostrano una migliore qualità video e una maggiore stabilità per i video lunghi rispetto alle baseline.",
+                "lmo": "NVIDIA l'ha publicaa el 7 de luj 2026 <a href='https://huggingface.co/api/daily_papers?limit=50'>Flex-Forcing</a>, on quadre d'allenament e d'inferenza unificaa che 'l permet a on modell de diffusion video de fonzionà sia in mod bidirezional che autoregressiv. El mecanism de chunking flessibel, definii insemma in su l'assa temporal e i pass de denoising, el permet ona inferenza bidirezionala tra chunk per la pianificazion globala de la struttura, menter el genera i quadri de manera autoregressiva denter de ogni chunk. I esperiment mostren ona mejora qualità video e ona stabilità pussee granda per i video longh respett ai baseline."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://research.nvidia.com/labs/genair/flex-forcing/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Antidoom : une méthode open-source qui réduit les boucles fatales des modèles de raisonnement de 22,9 % à 1 %",
+                "en": "Antidoom: an open-source method that reduces reasoning model doom loops from 22.9% to 1%",
+                "de": "Antidoom: Open-Source-Methode senkt Doom-Loops von Reasoning-Modellen von 22,9 % auf 1 %",
+                "it": "Antidoom: un metodo open-source che riduce i loop fatali dei modelli di ragionamento dal 22,9% all'1%",
+                "lmo": "Antidoom: on metod open-source che 'l ridù i bocle fatal di modell de resonament del 22,9% al 1%"
+              },
+              "body": {
+                "fr": "Liquid AI a publié le 7 juillet 2026 <a href='https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/'>Antidoom</a>, une méthode open-source qui cible les \"doom loops\" dans les modèles de raisonnement — des séquences où le modèle répète un span jusqu'à épuisement de la fenêtre de contexte. Antidoom identifie le token qui déclenche la boucle et réentraîne uniquement cette position en utilisant Final Token Preference Optimization (FTPO). Sur LFM2.5-2.6B, le taux de doom loops est passé de 10,2 % à 1,4 % ; sur Qwen3.5-4B, de 22,9 % à 1 %. La génération, la détection et l'entraîneur FTPO sont open source.",
+                "en": "Liquid AI published on July 7, 2026 <a href='https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/'>Antidoom</a>, an open-source method targeting \"doom loops\" in reasoning models — sequences where the model repeats a span until the context window is exhausted. Antidoom identifies the token that triggers the loop and retrains only that position using Final Token Preference Optimization (FTPO). On LFM2.5-2.6B, the doom loop rate dropped from 10.2% to 1.4%; on Qwen3.5-4B, from 22.9% to 1%. The generation, detection and FTPO trainer are open source.",
+                "de": "Liquid AI hat am 7. Juli 2026 <a href='https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/'>Antidoom</a> veröffentlicht, eine Open-Source-Methode, die auf «Doom Loops» in Reasoning-Modellen abzielt – Sequenzen, in denen das Modell eine Spanne wiederholt, bis das Kontextfenster erschöpft ist. Antidoom identifiziert das Token, das die Schleife auslöst, und trainiert nur diese Position mit Final Token Preference Optimization (FTPO) nach. Bei LFM2.5-2.6B sank die Doom-Loop-Rate von 10,2 % auf 1,4 %; bei Qwen3.5-4B von 22,9 % auf 1 %. Die Generierung, Erkennung und der FTPO-Trainer sind Open Source.",
+                "it": "Liquid AI ha pubblicato il 7 luglio 2026 <a href='https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/'>Antidoom</a>, un metodo open-source che mira ai \"doom loops\" nei modelli di ragionamento — sequenze in cui il modello ripete uno span fino all'esaurimento della finestra di contesto. Antidoom identifica il token che innesca il loop e riaddestra solo quella posizione utilizzando Final Token Preference Optimization (FTPO). Su LFM2.5-2.6B, il tasso di doom loops è passato dal 10,2% all'1,4%; su Qwen3.5-4B, dal 22,9% all'1%. La generazione, il rilevamento e l'addestratore FTPO sono open source.",
+                "lmo": "Liquid AI l'ha publicaa el 7 de luj 2026 <a href='https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/'>Antidoom</a>, on metod open-source che 'l toeuva i \"doom loops\" in di modell de resonament — di sequenz indove el modell el repediss on span fina a l'esauriment de la fenestra de contest. Antidoom l'identifica el token che 'l innesca la bocla e el re-allena domà quella posizion doperand Final Token Preference Optimization (FTPO). Su LFM2.5-2.6B, el tass de doom loops l'è passaa del 10,2% al 1,4%; su Qwen3.5-4B, del 22,9% al 1%. La generazion, la rilevazion e l'allenador FTPO hinn open source."
+              },
+              "kicker": {
+                "fr": "Liquid AI",
+                "en": "Liquid AI",
+                "de": "Liquid AI",
+                "it": "Liquid AI",
+                "lmo": "Liquid AI"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/07/07/liquid-ai-antidoom-doom-loops-ftpo/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Industrie & Société",
+            "en": "Industry & Society",
+            "de": "Industrie & Gesellschaft",
+            "it": "Industria & Società",
+            "lmo": "Industria & Società"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La Chine envisage des restrictions d'exportation sur ses meilleurs modèles d'IA",
+                "en": "China considers export restrictions on its top AI models",
+                "de": "China erwägt Exportbeschränkungen für seine besten KI-Modelle",
+                "it": "La Cina valuta restrizioni all'esportazione sui suoi migliori modelli IA",
+                "lmo": "La Cina la pensa a di restrizion de esportazion in sui sò mej modell d'IA"
+              },
+              "body": {
+                "fr": "Selon Reuters, les autorités chinoises <a href='https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/'>envisagent de restreindre l'accès étranger à leurs modèles d'IA les plus puissants</a>, une décision qui affecterait Alibaba, ByteDance et Z.ai. Cependant, des sources sur r/LocalLLaMA <a href='https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/'>contestent cette interprétation</a>, affirmant que les réunions récentes du ministère du Commerce portaient principalement sur les acquisitions à l'étranger plutôt que sur des restrictions généralisées. Si elles se confirment, ces mesures signifieraient que les deux superpuissances traitent désormais l'IA comme un actif stratégique, avec des conséquences majeures pour l'Europe qui dépend des modèles open-source chinois.",
+                "en": "According to Reuters, Chinese authorities <a href='https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/'>are considering restricting foreign access to their most powerful AI models</a>, a decision that would affect Alibaba, ByteDance and Z.ai. However, sources on r/LocalLLaMA <a href='https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/'>contest this interpretation</a>, stating that recent Ministry of Commerce meetings focused primarily on overseas acquisitions rather than broad restrictions. If confirmed, these measures would mean that both superpowers now treat AI as a strategic asset, with major consequences for Europe which depends on Chinese open-source models.",
+                "de": "Laut Reuters erwägen die chinesischen Behörden, <a href='https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/'>den ausländischen Zugang zu ihren leistungsstärksten KI-Modellen einzuschränken</a>, eine Entscheidung, die Alibaba, ByteDance und Z.ai betreffen würde. Quellen auf r/LocalLLaMA <a href='https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/'>bestreiten diese Interpretation jedoch</a> und behaupten, dass die jüngsten Treffen des Handelsministeriums hauptsächlich Übernahmen im Ausland betrafen und nicht pauschale Beschränkungen. Sollten sich die Massnahmen bestätigen, würde dies bedeuten, dass beide Supermächte KI nun als strategisches Gut behandeln, mit schwerwiegenden Folgen für Europa, das auf chinesische Open-Source-Modelle angewiesen ist.",
+                "it": "Secondo Reuters, le autorità cinesi <a href='https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/'>stanno valutando di limitare l'accesso straniero ai loro modelli IA più potenti</a>, una decisione che colpirebbe Alibaba, ByteDance e Z.ai. Tuttavia, fonti su r/LocalLLaMA <a href='https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/'>contestano questa interpretazione</a>, affermando che le recenti riunioni del Ministero del Commercio riguardavano principalmente le acquisizioni all'estero piuttosto che restrizioni generalizzate. Se confermate, queste misure significherebbero che entrambe le superpotenze trattano ormai l'IA come un asset strategico, con conseguenze importanti per l'Europa che dipende dai modelli open-source cinesi.",
+                "lmo": "Segond Reuters, i autorità cines <a href='https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/'>pensen de restrenz l'access forestee ai sò modell IA pussee potent</a>, ona decision che la tocariss Alibaba, ByteDance e Z.ai. Tamen, di sorgent in su r/LocalLLaMA <a href='https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/'>contesthen questa interpretazion</a>, disend che i reunion recent del Ministeri del Comerci portaven principalment in su i acquisizion a l'ester inveci che in su di restrizion generalizaa. Se se confermen, sti mesur significarissen che i dò superpotenz trattan adess l'IA 'me on ativ strategich, con di conseguenz important per l'Europa che la dipend di modell open-source cines."
+              },
+              "kicker": {
+                "fr": "Géopolitique",
+                "en": "Geopolitics",
+                "de": "Geopolitik",
+                "it": "Geopolitica",
+                "lmo": "Geopolitica"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/",
+                "https://www.reddit.com/r/LocalLLaMA/comments/1upvw37/beijing_is_not_looking_at_curbing_overseas_access/",
+                "https://www.reddit.com/r/LocalLLaMA/comments/1uprmso/beijing_is_looking_at_curbing_overseas_access_to/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI et Anthropic distribuent des millions en crédits de calcul pour attirer les startups",
+                "en": "OpenAI and Anthropic give away millions in compute credits to attract startups",
+                "de": "OpenAI und Anthropic verteilen Millionen in Rechenguthaben, um Startups anzulocken",
+                "it": "OpenAI e Anthropic distribuiscono milioni in crediti di calcolo per attrarre startup",
+                "lmo": "OpenAI e Anthropic distribuissen milion in credit de calcol per tirà i startup"
+              },
+              "body": {
+                "fr": "Selon <a href='https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/'>The Decoder</a>, OpenAI, Anthropic et les principaux fournisseurs de cloud se livrent une guerre des prix pour attirer les startups, avec des offres individuelles de crédits de calcul allant jusqu'à 3 millions de dollars. Rien qu'à Y Combinator, OpenAI et Anthropic pourraient distribuer jusqu'à 800 millions de dollars de crédits par an combinés. Cette guerre des rabais intervient alors que les deux entreprises cherchent à améliorer leurs marges avant leurs introductions en bourse respectives.",
+                "en": "According to <a href='https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/'>The Decoder</a>, OpenAI, Anthropic and major cloud providers are engaged in a price war to attract startups, with individual compute credit offers reaching up to $3 million. At Y Combinator alone, OpenAI and Anthropic could distribute up to $800 million in combined credits per year. This discount war comes as both companies seek to improve their margins ahead of their respective IPOs.",
+                "de": "Laut <a href='https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/'>The Decoder</a> liefern sich OpenAI, Anthropic und die grossen Cloud-Anbieter einen Preiskampf um Startups, mit individuellen Rechenguthaben-Angeboten von bis zu 3 Millionen Dollar. Allein bei Y Combinator könnten OpenAI und Anthropic zusammen jährlich bis zu 800 Millionen Dollar an Guthaben verteilen. Dieser Rabattkrieg findet statt, während beide Unternehmen versuchen, ihre Margen vor ihren jeweiligen Börsengängen zu verbessern.",
+                "it": "Secondo <a href='https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/'>The Decoder</a>, OpenAI, Anthropic e i principali fornitori di cloud sono in guerra di prezzi per attrarre startup, con offerte individuali di crediti di calcolo fino a 3 milioni di dollari. Solo a Y Combinator, OpenAI e Anthropic potrebbero distribuire fino a 800 milioni di dollari di crediti all'anno combinati. Questa guerra di sconti avviene mentre entrambe le aziende cercano di migliorare i propri margini prima delle rispettive offerte pubbliche iniziali.",
+                "lmo": "Segond <a href='https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/'>The Decoder</a>, OpenAI, Anthropic e i principal fornidor de cloud se fan ona guerra de prezzi per tirà i startup, con di offert individuai de credit de calcol fina a 3 milion de dollar. Domà a Y Combinator, OpenAI e Anthropic podarissen distribuì fina a 800 milion de dollar de credit per ann combinaa. Questa guerra de scont la riva menter i dò aziend cerchen de migliorà i sò margin prima di sò rispettiv introdutzion in borsa."
+              },
+              "kicker": {
+                "fr": "Écosystème",
+                "en": "Ecosystem",
+                "de": "Ökosystem",
+                "it": "Ecosistema",
+                "lmo": "Ecosistema"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://the-decoder.com/openai-and-anthropic-are-giving-away-millions-in-computing-power-to-attract-startups/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Discord admet qu'un bug de modération IA a banni des utilisateurs par erreur",
+                "en": "Discord admits AI moderation bug wrongfully banned users",
+                "de": "Discord räumt ein, dass KI-Moderationsfehler Benutzer fälschlicherweise gesperrt hat",
+                "it": "Discord ammette che un bug di moderazione IA ha bannato utenti per errore",
+                "lmo": "Discord l'ammett che on bug de moderazion IA l'ha bandii di utent per error"
+              },
+              "body": {
+                "fr": "Discord a reconnu le 7 juillet 2026 qu'un <a href='https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/'>bug de son système de modération IA</a> avait banni des utilisateurs par erreur pour des images inoffensives. Le problème affectait les comptes depuis mai, avec 200 utilisateurs supplémentaires bannis pendant le week-end avant que l'équipe n'identifie et ne corrige le problème. Cet incident soulève des questions sur la fiabilité des systèmes de modération automatisée.",
+                "en": "Discord acknowledged on July 7, 2026 that a <a href='https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/'>bug in its AI moderation system</a> had wrongfully banned users over harmless images. The issue had affected accounts since May, with an additional 200 users banned over the weekend before the team identified and fixed the problem. This incident raises questions about the reliability of automated moderation systems.",
+                "de": "Discord hat am 7. Juli 2026 eingeräumt, dass ein <a href='https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/'>Fehler seines KI-Moderationssystems</a> Benutzer fälschlicherweise wegen harmloser Bilder gesperrt hatte. Das Problem betraf Konten seit Mai, wobei am Wochenende weitere 200 Benutzer gesperrt wurden, bevor das Team den Fehler identifizierte und behob. Dieser Vorfall wirft Fragen zur Zuverlässigkeit automatisierter Moderationssysteme auf.",
+                "it": "Discord ha riconosciuto il 7 luglio 2026 che un <a href='https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/'>bug del suo sistema di moderazione IA</a> aveva bannato utenti per errore per immagini innocue. Il problema riguardava gli account da maggio, con 200 utenti aggiuntivi bannati durante il fine settimana prima che il team identificasse e correggesse il problema. Questo incidente solleva interrogativi sull'affidabilità dei sistemi di moderazione automatizzata.",
+                "lmo": "Discord l'ha recognossuu el 7 de luj 2026 che on <a href='https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/'>bug del sò sistema de moderazion IA</a> l'haveva bandii di utent per error per di imagin inoffensiv. El problema el toccava i cont dal magg, con 200 utent supplementar bandii duranta el weekend prima che la squadra l'identifichass e correggess el problema. Quest incident el tira su di question in su la fidabilità di sistema de moderazion automatizada."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/07/discord-admits-ai-moderation-bug-wrongfully-banned-users-over-harmless-images/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un économiste d'Apollo prévient que les gains de productivité de l'IA hors-tech pourraient prendre \"bien plus\" que prévu",
+                "en": "Apollo economist warns AI productivity gains outside tech could take \"well beyond\" expectations",
+                "de": "Apollo-Ökonom warnt: KI-Produktivitätsgewinne ausserhalb der Tech-Branche könnten «weit länger» dauern als erwartet",
+                "it": "Un economista di Apollo avverte che i guadagni di produttività dell'IA fuori dal tech potrebbero richiedere \"ben più\" del previsto",
+                "lmo": "On economista d'Apollo el preven che i guadagn de produttività de l'IA foeura-tech podarissen ciapà \"ben pussee\" del previst"
+              },
+              "body": {
+                "fr": "Torsten Slok, économiste en chef d'Apollo, a averti le 7 juillet 2026 que <a href='https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/'>les gains de marge liés à l'IA en dehors du secteur technologique</a> pourraient prendre \"bien plus\" que ce que Wall Street anticipe. Dans les secteurs réglementés comme la santé, la banque ou la pharmacie, les refontes de processus et les règles de confidentialité pourraient retarder les gains de productivité de plusieurs années. Si cela prend cinq ans au lieu de cinq mois, de nombreuses valeurs IA pourraient faire face à une douloureuse réévaluation.",
+                "en": "Torsten Slok, chief economist at Apollo, warned on July 7, 2026 that <a href='https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/'>AI-related margin gains outside the technology sector</a> could take \"well beyond\" what Wall Street anticipates. In regulated sectors such as healthcare, banking and pharmaceuticals, process overhauls and privacy rules could delay productivity gains by several years. If it takes five years instead of five months, many AI stocks could face a painful revaluation.",
+                "de": "Torsten Slok, Chefökonom von Apollo, hat am 7. Juli 2026 gewarnt, dass <a href='https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/'>die KI-bedingten Margengewinne ausserhalb des Technologiesektors</a> «weit länger» dauern könnten, als Wall Street erwartet. In regulierten Branchen wie dem Gesundheitswesen, dem Bankwesen oder der Pharmaindustrie könnten Prozessumstellungen und Datenschutzbestimmungen die Produktivitätsgewinne um Jahre verzögern. Wenn dies fünf Jahre statt fünf Monate dauert, könnten viele KI-Werte mit einer schmerzhaften Neubewertung konfrontiert sein.",
+                "it": "Torsten Slok, capo economista di Apollo, ha avvertito il 7 luglio 2026 che <a href='https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/'>i guadagni di margine legati all'IA al di fuori del settore tecnologico</a> potrebbero richiedere \"ben più\" di quanto Wall Street si aspetti. Nei settori regolamentati come sanità, banca o farmaceutica, le riprogettazioni dei processi e le norme sulla privacy potrebbero ritardare i guadagni di produttività di diversi anni. Se ci vogliono cinque anni invece di cinque mesi, molti titoli IA potrebbero affrontare una dolorosa rivalutazione.",
+                "lmo": "Torsten Slok, economista principal d'Apollo, l'ha avertii el 7 de luj 2026 che <a href='https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/'>i guadagn de margin ligaa a l'IA foeura del settor tecnològich</a> podarissen ciapà \"ben pussee\" de quell che Wall Street el se spetta. In di settor regolamentaa 'me la sanità, la banca o la farmacia, i refont di process e i regol de privacy podarissen ritardà i guadagn de produttività de diversi ann. Se quest el ciapà cinch ann inveci de cinch mes, tanti valor IA podarissen frontà ona dolorosa rivalutazion."
+              },
+              "kicker": {
+                "fr": "Économie",
+                "en": "Economy",
+                "de": "Wirtschaft",
+                "it": "Economia",
+                "lmo": "Economia"
+              },
+              "wire": {
+                "fr": "2026-07-07",
+                "en": "2026-07-07",
+                "de": "2026-07-07",
+                "it": "2026-07-07",
+                "lmo": "2026-07-07"
+              },
+              "urls": [
+                "https://the-decoder.com/apollo-economist-warns-ai-profit-gains-outside-tech-could-take-well-beyond-what-wall-street-expects/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le grand réalignement : quand les labos d'IA réduisent leur dépendance mutuelle",
+                "en": "The great realignment: when AI labs reduce their mutual dependence",
+                "de": "Die grosse Neuausrichtung: Wenn KI-Labore ihre gegenseitige Abhängigkeit reduzieren",
+                "it": "Il grande riallineamento: quando i laboratori IA riducono la loro dipendenza reciproca",
+                "lmo": "El grand realineament: quand i laboratori d'IA ridusen la soa dipendenza reciproca"
+              },
+              "body": {
+                "fr": "La décision de Microsoft de <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>remplacer les modèles d'OpenAI et d'Anthropic par ses propres MAI</a> marque un tournant dans l'économie de l'IA. Pendant des années, le récit dominant était celui d'un écosystème interdépendant : Microsoft investissait des milliards dans OpenAI, les startups dépendaient des API des labos frontière, et les modèles open-source chinois irriguaient le marché mondial. Ce modèle vole en éclats. Microsoft internalise, DeepSeek conçoit sa propre puce, la Chine envisage des restrictions d'exportation, et OpenAI comme Anthropic distribuent des crédits pour verrouiller leur propre écosystème. La guerre des modèles n'est plus seulement technologique — elle devient structurelle. Chaque acteur construit son mur, et le paysage de l'IA, qui semblait promis à une convergence ouverte, se fragmente en fiefs concurrents. Pour les développeurs et les entreprises, le message est clair : la diversification des fournisseurs n'est plus une option, c'est une nécessité stratégique.",
+                "en": "Microsoft's decision to <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>replace OpenAI and Anthropic models with its own MAI models</a> marks a turning point in the AI economy. For years, the dominant narrative was one of an interdependent ecosystem: Microsoft invested billions in OpenAI, startups depended on frontier lab APIs, and Chinese open-source models irrigated the global market. That model is shattering. Microsoft is internalizing, DeepSeek is designing its own chip, China is considering export restrictions, and both OpenAI and Anthropic are distributing credits to lock in their own ecosystems. The model war is no longer just technological — it is becoming structural. Every player is building its own wall, and the AI landscape, once seemingly destined for open convergence, is fragmenting into competing fiefdoms. For developers and enterprises, the message is clear: vendor diversification is no longer an option — it is a strategic necessity.",
+                "de": "Die Entscheidung von Microsoft, <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>die Modelle von OpenAI und Anthropic durch eigene MAI zu ersetzen</a>, markiert einen Wendepunkt in der KI-Ökonomie. Jahrelang war das vorherrschende Narrativ das eines voneinander abhängigen Ökosystems: Microsoft investierte Milliarden in OpenAI, Startups waren auf die APIs der Grenzlabore angewiesen, und chinesische Open-Source-Modelle versorgten den Weltmarkt. Dieses Modell zerbricht. Microsoft internalisiert, DeepSeek entwickelt eigene Chips, China erwägt Exportbeschränkungen, und sowohl OpenAI als auch Anthropic verteilen Guthaben, um ihr eigenes Ökosystem zu verriegeln. Der Modellkrieg ist nicht mehr nur technologisch – er wird strukturell. Jeder Akteur baut seine Mauer, und die KI-Landschaft, die einer offenen Konvergenz versprochen schien, zersplittert in konkurrierende Herrschaftsgebiete. Für Entwickler und Unternehmen ist die Botschaft klar: Die Diversifizierung der Anbieter ist keine Option mehr, sondern eine strategische Notwendigkeit.",
+                "it": "La decisione di Microsoft di <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>sostituire i modelli di OpenAI e Anthropic con i propri MAI</a> segna una svolta nell'economia dell'IA. Per anni, la narrazione dominante è stata quella di un ecosistema interdipendente: Microsoft investiva miliardi in OpenAI, le startup dipendevano dalle API dei laboratori di frontiera e i modelli open-source cinesi irrigavano il mercato globale. Questo modello va in frantumi. Microsoft internalizza, DeepSeek progetta il proprio chip, la Cina valuta restrizioni all'esportazione e OpenAI come Anthropic distribuiscono crediti per blindare il proprio ecosistema. La guerra dei modelli non è più solo tecnologica — diventa strutturale. Ogni attore costruisce il proprio muro e il panorama dell'IA, che sembrava promesso a una convergenza aperta, si frammenta in feudi concorrenti. Per gli sviluppatori e le aziende, il messaggio è chiaro: la diversificazione dei fornitori non è più un'opzione, è una necessità strategica.",
+                "lmo": "La decision de Microsoft de <a href='https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/'>sostituì i modell d'OpenAI e d'Anthropic con i sò propri MAI</a> la marca on pont de svolta in l'economia de l'IA. Per di ann, el raccont dominant l'era quell de on ecosistema interdependent: Microsoft l'investiva miliard in OpenAI, i startup dipendeven di API di laboratori frontiera, e i modell open-source cines irigaven el mercad mondial. Quest modell el va in tochei. Microsoft l'internalizza, DeepSeek el progetta la soa propia puccia, la Cina la pensa a di restrizion de esportazion, e OpenAI 'me Anthropic distribuissen credit per blocà el sò propri ecosistema. La guerra di modell l'è pu domà tecnologica — la deventa strutturala. Ogni ator el costruiss el sò mur, e el paesagg de l'IA, che 'l pareva destinad a ona convergenza averta, el se frammenta in feudi concorrent. Per i sviluppador e i aziend, el messagg l'è ciar: la diversificazion di fornidor l'è pu ona opzion, l'è ona necessità strategica."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "wire": {
+                "fr": "2026-07-08",
+                "en": "2026-07-08",
+                "de": "2026-07-08",
+                "it": "2026-07-08",
+                "lmo": "2026-07-08"
+              },
+              "urls": [
+                "https://the-decoder.com/copilot-goes-cheap-as-microsoft-phases-out-openai-and-anthropic-models-to-cut-costs/",
+                "https://the-decoder.com/deepseek-is-designing-its-own-ai-chip/",
+                "https://the-decoder.com/china-eyes-export-curbs-on-its-top-ai-models-and-europe-is-caught-in-the-middle/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
