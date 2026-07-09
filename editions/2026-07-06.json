@@ -1,0 +1,1137 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-06",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "OpenAI a déployé le 6 juillet 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, une mise à jour majeure de son modèle de raisonnement en temps réel destiné aux applications vocales. La version 2.1 améliore la reconnaissance alphanumérique, la gestion du silence et du bruit, ainsi que le comportement d'interruption. Une variante « mini », plus rapide et moins coûteuse, a également été publiée pour les applications vocales à faible latence. Ces modèles sont accessibles via l'endpoint v1/realtime de l'API OpenAI.",
+        "en": "OpenAI deployed on July 6, 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, a major update to its real-time reasoning model for voice applications. Version 2.1 improves alphanumeric recognition, silence and noise handling, and interruption behavior. A faster, lower-cost \"mini\" variant was also released for low-latency voice applications. These models are accessible via the v1/realtime endpoint of the OpenAI API.",
+        "de": "OpenAI a déployé le 6 juillet 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, une mise à jour majeure de son modèle de raisonnement en temps réel destiné aux applications vocales. La version 2.1 améliore la reconnaissance alphanumérique, la gestion du silence et du bruit, ainsi que le comportement d'interruption. Une variante « mini », plus rapide et moins coûteuse, a également été publiée pour les applications vocales à faible latence. Ces modèles sont accessibles via l'endpoint v1/realtime de l'API OpenAI.",
+        "it": "OpenAI ha distribuito il 6 luglio 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, un aggiornamento importante del suo modello di ragionamento in tempo reale destinato alle applicazioni vocali. La versione 2.1 migliora il riconoscimento alfanumerico, la gestione del silenzio e del rumore, nonché il comportamento di interruzione. Una variante « mini », più veloce e meno costosa, è stata anch'essa pubblicata per le applicazioni vocali a bassa latenza. Questi modelli sono accessibili tramite l'endpoint v1/realtime dell'API OpenAI.",
+        "lmo": "OpenAI l'ha desplegaa el 6 de luj 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, on aggiornament important del sò modèl de resonament in temp real destinad ai applicazion vocai. La version 2.1 la migliora la recognizion alfanumerica, la gestion del silenzi e del rumor, e anca el comportament d'interruzion. Ona variant « mini », pussee velosa e men costosa, l'è stada anca publicada per i applicazion vocai a bassa latenza. Sti modèj chì hinn accessibij via l'endpoint v1/realtime de l'API de OpenAI."
+      },
+      {
+        "fr": "Côté recherche fondamentale, <a href='https://arxiv.org/abs/2607.05722'>NVIDIA a présenté Nemotron-Labs-Diffusion</a>, un modèle de langage « tri-mode » qui unifie décodage autorégressif, diffusion et auto-vérification spéculative au sein d'une même architecture. Entraîné avec un objectif conjoint AR-diffusion, le modèle peut basculer entre les modes selon les besoins de déploiement. En mode auto-spéculatif, le module de diffusion sert de draft pendant que l'AR vérifie, surpassant les méthodes MTP (Multi-Token Prediction) en taux d'acceptation et en efficacité réelle. À taille comparable, Nemotron-Labs-Diffusion-8B décode 6 fois plus de tokens par forward que Qwen3-8B.",
+        "en": "On the fundamental research side, <a href='https://arxiv.org/abs/2607.05722'>NVIDIA presented Nemotron-Labs-Diffusion</a>, a \"tri-mode\" language model that unifies autoregressive decoding, diffusion, and speculative self-verification within a single architecture. Trained with a joint AR-diffusion objective, the model can switch between modes depending on deployment needs. In self-speculative mode, the diffusion module serves as a draft while the AR module verifies, outperforming MTP (Multi-Token Prediction) methods in acceptance rate and real-world efficiency. At comparable size, Nemotron-Labs-Diffusion-8B decodes 6 times more tokens per forward pass than Qwen3-8B.",
+        "de": "Côté recherche fondamentale, <a href='https://arxiv.org/abs/2607.05722'>NVIDIA a présenté Nemotron-Labs-Diffusion</a>, un modèle de langage « tri-mode » qui unifie décodage autorégressif, diffusion et auto-vérification spéculative au sein d'une même architecture. Entraîné avec un objectif conjoint AR-diffusion, le modèle peut basculer entre les modes selon les besoins de déploiement. En mode auto-spéculatif, le module de diffusion sert de draft pendant que l'AR vérifie, surpassant les méthodes MTP (Multi-Token Prediction) en taux d'acceptation et en efficacité réelle. À taille comparable, Nemotron-Labs-Diffusion-8B décode 6 fois plus de tokens par forward que Qwen3-8B.",
+        "it": "Sul fronte della ricerca fondamentale, <a href='https://arxiv.org/abs/2607.05722'>NVIDIA ha presentato Nemotron-Labs-Diffusion</a>, un modello linguistico « tri-mode » che unifica decodifica autoregressiva, diffusione e auto-verifica speculativa all'interno di una stessa architettura. Addestrato con un obiettivo congiunto AR-diffusione, il modello può passare da una modalità all'altra in base alle esigenze di distribuzione. In modalità auto-speculativa, il modulo di diffusione funge da draft mentre l'AR verifica, superando i metodi MTP (Multi-Token Prediction) in tasso di accettazione ed efficienza reale. A parità di dimensioni, Nemotron-Labs-Diffusion-8B decodifica 6 volte più token per forward rispetto a Qwen3-8B.",
+        "lmo": "Del lat de la ricerca fondamental, <a href='https://arxiv.org/abs/2607.05722'>NVIDIA l'ha presentad Nemotron-Labs-Diffusion</a>, on modèl de lengoeu « tri-mode » che l'unifica decodifega autoregressiva, diffusion e auto-verifega speculativa denter la midema architettura. Allenad con on obietiv congiunt AR-diffusion, el modèl el pò passà de vun a l'alter mode segond i besogn de despiegament. In mode auto-speculativ, el modul de diffusion el serv de draft menter che l'AR el verifega, superand i metod MTP (Multi-Token Prediction) in tass d'aceetazion e in efficienza real. A grandezza comparabel, Nemotron-Labs-Diffusion-8B el decodifega 6 voeult pussee de token per forward de Qwen3-8B."
+      },
+      {
+        "fr": "Enfin, <a href='https://huggingface.co/collections/tencent/hy3'>Tencent a publié Hy3</a>, un modèle Mixture-of-Experts de 295 milliards de paramètres (21B actifs, 192 experts avec routage top-8) sous licence Apache 2.0. Disponible sur OpenRouter avec un contexte de 262 144 tokens, Hy3 supporte un effort de raisonnement configurable et cible les workflows agentiques. La version gratuite est accessible jusqu'au 21 juillet 2026. Cette ouverture contraste avec la licence communautaire restrictive de la preview précédente.",
+        "en": "Finally, <a href='https://huggingface.co/collections/tencent/hy3'>Tencent released Hy3</a>, a Mixture-of-Experts model with 295 billion parameters (21B active, 192 experts with top-8 routing) under the Apache 2.0 license. Available on OpenRouter with a 262,144-token context, Hy3 supports configurable reasoning effort and targets agentic workflows. The free version is accessible until July 21, 2026. This openness contrasts with the restrictive community license of the previous preview.",
+        "de": "Enfin, <a href='https://huggingface.co/collections/tencent/hy3'>Tencent a publié Hy3</a>, un modèle Mixture-of-Experts de 295 milliards de paramètres (21B actifs, 192 experts avec routage top-8) sous licence Apache 2.0. Disponible sur OpenRouter avec un contexte de 262 144 tokens, Hy3 supporte un effort de raisonnement configurable et cible les workflows agentiques. La version gratuite est accessible jusqu'au 21 juillet 2026. Cette ouverture contraste avec la licence communautaire restrictive de la preview précédente.",
+        "it": "Infine, <a href='https://huggingface.co/collections/tencent/hy3'>Tencent ha pubblicato Hy3</a>, un modello Mixture-of-Experts da 295 miliardi di parametri (21B attivi, 192 esperti con routing top-8) con licenza Apache 2.0. Disponibile su OpenRouter con un contesto di 262 144 token, Hy3 supporta uno sforzo di ragionamento configurabile e punta ai flussi di lavoro agentici. La versione gratuita è accessibile fino al 21 luglio 2026. Questa apertura contrasta con la licenza comunitaria restrittiva dell'anteprima precedente.",
+        "lmo": "Infina, <a href='https://huggingface.co/collections/tencent/hy3'>Tencent l'ha publicad Hy3</a>, on modèl Mixture-of-Experts de 295 miliard de parametri (21B ativ, 192 expert con routing top-8) sotta licenza Apache 2.0. Disponibel sora OpenRouter con on contest de 262 144 token, Hy3 el supporta on sforz de resonament configurabel e l'è miraa ai fluss de lavor agentich. La version gratuita l'è accessibila fina al 21 de luj 2026. 'Sta dervidura chì la contrasta con la licenza comunitaria restritiva de la preview de prima."
+      }
+    ],
+    "urls": [
+      "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
+      "https://arxiv.org/abs/2607.05722",
+      "https://huggingface.co/collections/tencent/hy3"
+    ],
+    "kicker": {
+      "fr": "Modèles & Inférence",
+      "en": "Models & Inference",
+      "de": "Modèles & Inférence",
+      "it": "Modelli & Inferenza",
+      "lmo": "Modèj & Inferenza"
+    },
+    "headline": {
+      "fr": "OpenAI lance GPT-Realtime-2.1, NVIDIA dévoile Nemotron-Labs-Diffusion, et Tencent ouvre Hy3",
+      "en": "OpenAI launches GPT-Realtime-2.1, NVIDIA unveils Nemotron-Labs-Diffusion, and Tencent opens Hy3",
+      "de": "OpenAI lance GPT-Realtime-2.1, NVIDIA dévoile Nemotron-Labs-Diffusion, et Tencent ouvre Hy3",
+      "it": "OpenAI lancia GPT-Realtime-2.1, NVIDIA svela Nemotron-Labs-Diffusion e Tencent apre Hy3",
+      "lmo": "OpenAI el lanza GPT-Realtime-2.1, NVIDIA el presenta Nemotron-Labs-Diffusion, e Tencent el derva Hy3"
+    },
+    "subdeck": {
+      "fr": "Une journée dense marquée par trois annonces majeures : OpenAI améliore son modèle temps réel, NVIDIA unifie trois paradigmes de décodage dans un seul modèle, et Tencent publie un MoE 295B sous licence Apache 2.0.",
+      "en": "A dense day marked by three major announcements: OpenAI improves its real-time model, NVIDIA unifies three decoding paradigms in a single model, and Tencent releases a 295B MoE under Apache 2.0.",
+      "de": "Une journée dense marquée par trois annonces majeures : OpenAI améliore son modèle temps réel, NVIDIA unifie trois paradigmes de décodage dans un seul modèle, et Tencent publie un MoE 295B sous licence Apache 2.0.",
+      "it": "Una giornata intensa segnata da tre annunci importanti: OpenAI migliora il suo modello in tempo reale, NVIDIA unifica tre paradigmi di decodifica in un unico modello e Tencent pubblica un MoE 295B con licenza Apache 2.0.",
+      "lmo": "On dì dens segnaa de tri grand anunzi: OpenAI el migliora el sò modèl temp real, NVIDIA l'unifica tri paradigmi de decodifega in d'on modèl soll, e Tencent el publica on MoE 295B sotta licenza Apache 2.0."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Meituan ouvre LongCat-2.0, un MoE 1,6T de paramètres",
+        "en": "Meituan opens LongCat-2.0, a 1.6T parameter MoE",
+        "de": "Meituan ouvre LongCat-2.0, un MoE 1,6T de paramètres",
+        "it": "Meituan apre LongCat-2.0, un MoE da 1,6T parametri",
+        "lmo": "Meituan el derva LongCat-2.0, on MoE 1,6T de parametri"
+      },
+      "body": {
+        "fr": "Meituan a publié <a href='https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/'>LongCat-2.0</a>, un modèle Mixture-of-Experts de 1 600 milliards de paramètres (48B actifs par token) sous licence MIT. Il offre un contexte natif d'un million de tokens grâce à l'attention sparse LongCat, et a été entraîné et servi sur des superpods ASIC domestiques chinois. Les poids sont ouverts sur ModelScope.",
+        "en": "Meituan released <a href='https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/'>LongCat-2.0</a>, a Mixture-of-Experts model with 1,600 billion parameters (48B active per token) under the MIT license. It offers a native context of one million tokens thanks to LongCat sparse attention, and was trained and served on domestic Chinese ASIC superpods. Weights are open on ModelScope.",
+        "de": "Meituan a publié <a href='https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/'>LongCat-2.0</a>, un modèle Mixture-of-Experts de 1 600 milliards de paramètres (48B actifs par token) sous licence MIT. Il offre un contexte natif d'un million de tokens grâce à l'attention sparse LongCat, et a été entraîné et servi sur des superpods ASIC domestiques chinois. Les poids sont ouverts sur ModelScope.",
+        "it": "Meituan ha pubblicato <a href='https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/'>LongCat-2.0</a>, un modello Mixture-of-Experts da 1 600 miliardi di parametri (48B attivi per token) con licenza MIT. Offre un contesto nativo di un milione di token grazie all'attenzione sparsa LongCat, ed è stato addestrato e servito su superpod ASIC domestici cinesi. I pesi sono aperti su ModelScope.",
+        "lmo": "Meituan l'ha publicad <a href='https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/'>LongCat-2.0</a>, on modèl Mixture-of-Experts de 1 600 miliard de parametri (48B ativ per token) sotta licenza MIT. El offriss on contest nativ de on milion de token grazzie a l'attention sparsa LongCat, e l'è staa allenad e servii sora superpod ASIC domestigh cines. I pes hinn dervid sora ModelScope."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Majeur",
+        "it": "Maggiore",
+        "lmo": "Magior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-06",
+        "en": "From the Wires — 2026-07-06",
+        "de": "From the Wires — 2026-07-06",
+        "it": "From the Wires — 2026-07-06",
+        "lmo": "From the Wires — 2026-07-06"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/05/meituan-releases-longcat-2-0-a-1-6t-parameter-open-moe-model-with-native-1m-context-and-longcat-sparse-attention/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "21 nouvelles voix pour Grok Voice",
+        "en": "21 new voices for Grok Voice",
+        "de": "21 nouvelles voix pour Grok Voice",
+        "it": "21 nuove voci per Grok Voice",
+        "lmo": "21 vos noeuve per Grok Voice"
+      },
+      "body": {
+        "fr": "xAI a déployé le 6 juillet 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nouvelles voix multilingues</a> pour Grok Voice, accompagnées d'une amélioration du naturel des cinq voix originales. L'extension vise à renforcer l'attrait de Grok pour les utilisateurs internationaux de l'application X.",
+        "en": "xAI deployed on July 6, 2026 <a href='https://x.ai/news/new-flagship-voices'>21 new multilingual voices</a> for Grok Voice, along with improved naturalness for the five original voices. The expansion aims to strengthen Grok's appeal to international users of the X app.",
+        "de": "xAI a déployé le 6 juillet 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nouvelles voix multilingues</a> pour Grok Voice, accompagnées d'une amélioration du naturel des cinq voix originales. L'extension vise à renforcer l'attrait de Grok pour les utilisateurs internationaux de l'application X.",
+        "it": "xAI ha distribuito il 6 luglio 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nuove voci multilingue</a> per Grok Voice, accompagnate da un miglioramento della naturalezza delle cinque voci originali. L'estensione mira a rafforzare l'attrattiva di Grok per gli utenti internazionali dell'applicazione X.",
+        "lmo": "xAI l'ha despiegaa el 6 de luj 2026 <a href='https://x.ai/news/new-flagship-voices'>21 vos noeuve multilingov</a> per Grok Voice, compagna de on migliorament del natural di cinch vos originaj. L'estension la mira a rinforzà l'atraenza de Grok per i utent internazionai de l'aplicazion X."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produit",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-06",
+        "en": "From the Wires — 2026-07-06",
+        "de": "From the Wires — 2026-07-06",
+        "it": "From the Wires — 2026-07-06",
+        "lmo": "From the Wires — 2026-07-06"
+      },
+      "urls": [
+        "https://x.ai/news/new-flagship-voices"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ByteDance dévoile EdgeBench et les lois d'échelle de l'apprentissage en environnement réel",
+        "en": "ByteDance unveils EdgeBench and scaling laws for real-world environment learning",
+        "de": "ByteDance dévoile EdgeBench et les lois d'échelle de l'apprentissage en environnement réel",
+        "it": "ByteDance svela EdgeBench e le leggi di scala dell'apprendimento in ambiente reale",
+        "lmo": "ByteDance el desvela EdgeBench e i legg de scala de l'imprendiment in ambient real"
+      },
+      "body": {
+        "fr": "ByteDance Seed a publié <a href='https://edge-bench.org/'>EdgeBench</a>, une suite de 134 tâches réelles (38 000 heures d'interaction agent) qui révèle une loi d'échelle log-sigmoid pour l'apprentissage en environnement (R² = 0,998). La vitesse d'apprentissage des agents double environ tous les trois mois. 51 tâches et le framework d'évaluation sont ouverts.",
+        "en": "ByteDance Seed published <a href='https://edge-bench.org/'>EdgeBench</a>, a suite of 134 real-world tasks (38,000 hours of agent interaction) revealing a log-sigmoid scaling law for environment learning (R² = 0.998). Agent learning speed roughly doubles every three months. 51 tasks and the evaluation framework are open-sourced.",
+        "de": "ByteDance Seed a publié <a href='https://edge-bench.org/'>EdgeBench</a>, une suite de 134 tâches réelles (38 000 heures d'interaction agent) qui révèle une loi d'échelle log-sigmoid pour l'apprentissage en environnement (R² = 0,998). La vitesse d'apprentissage des agents double environ tous les trois mois. 51 tâches et le framework d'évaluation sont ouverts.",
+        "it": "ByteDance Seed ha pubblicato <a href='https://edge-bench.org/'>EdgeBench</a>, una suite di 134 compiti reali (38 000 ore di interazione agente) che rivela una legge di scala log-sigmoid per l'apprendimento in ambiente (R² = 0,998). La velocità di apprendimento degli agenti raddoppia circa ogni tre mesi. 51 compiti e il framework di valutazione sono aperti.",
+        "lmo": "ByteDance Seed l'ha publicad <a href='https://edge-bench.org/'>EdgeBench</a>, ona suite de 134 compit reai (38 000 ore d'interazion agent) che la revèla ona legg de scala log-sigmoid per l'imprendiment in ambient (R² = 0,998). La velocità d'imprendiment di agent la radoppia circa ogni tri mes. 51 compit e 'l framework de valutazion hinn dervid."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Recherche",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-06",
+        "en": "From the Wires — 2026-07-06",
+        "de": "From the Wires — 2026-07-06",
+        "it": "From the Wires — 2026-07-06",
+        "lmo": "From the Wires — 2026-07-06"
+      },
+      "urls": [
+        "https://edge-bench.org/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "DeepSeek dévoile DSpark, un décodage spéculatif semi-autorégressif",
+        "en": "DeepSeek unveils DSpark, a semi-autoregressive speculative decoding framework",
+        "de": "DeepSeek dévoile DSpark, un décodage spéculatif semi-autorégressif",
+        "it": "DeepSeek svela DSpark, una decodifica speculativa semi-autoregressiva",
+        "lmo": "DeepSeek el desvela DSpark, ona decodifega speculativa semi-autoregressiva"
+      },
+      "body": {
+        "fr": "DeepSeek a présenté <a href='https://arxiv.org/abs/2607.05147'>DSpark</a>, un framework de décodage spéculatif qui combine une architecture semi-autorégressive avec une vérification adaptative à la charge. Déployé sur le système de serving DeepSeek-V4, DSpark accélère la génération par utilisateur de 60 à 85 % par rapport à la ligne de base MTP-1, tout en maintenant le débit.",
+        "en": "DeepSeek presented <a href='https://arxiv.org/abs/2607.05147'>DSpark</a>, a speculative decoding framework combining a semi-autoregressive architecture with load-adaptive verification. Deployed on the DeepSeek-V4 serving system, DSpark accelerates per-user generation by 60 to 85% compared to the MTP-1 baseline, while maintaining throughput.",
+        "de": "DeepSeek a présenté <a href='https://arxiv.org/abs/2607.05147'>DSpark</a>, un framework de décodage spéculatif qui combine une architecture semi-autorégressive avec une vérification adaptative à la charge. Déployé sur le système de serving DeepSeek-V4, DSpark accélère la génération par utilisateur de 60 à 85 % par rapport à la ligne de base MTP-1, tout en maintenant le débit.",
+        "it": "DeepSeek ha presentato <a href='https://arxiv.org/abs/2607.05147'>DSpark</a>, un framework di decodifica speculativa che combina un'architettura semi-autoregressiva con una verifica adattativa al carico. Distribuito sul sistema di serving DeepSeek-V4, DSpark accelera la generazione per utente dal 60 all'85% rispetto alla baseline MTP-1, mantenendo al contempo il throughput.",
+        "lmo": "DeepSeek l'ha presentad <a href='https://arxiv.org/abs/2607.05147'>DSpark</a>, on framework de decodifega speculativa che 'l combina ona architettura semi-autoregressiva con ona verifega adattiva a la carica. Despiegaa sora el sistema de serving DeepSeek-V4, DSpark l'accelera la generazion per utent del 60 a l'85% rispett a la linia de bas MTP-1, menter che 'l manten el debit."
+      },
+      "tag": {
+        "fr": "Inférence",
+        "en": "Inference",
+        "de": "Inférence",
+        "it": "Inferenza",
+        "lmo": "Inferenza"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-06",
+        "en": "From the Wires — 2026-07-06",
+        "de": "From the Wires — 2026-07-06",
+        "it": "From the Wires — 2026-07-06",
+        "lmo": "From the Wires — 2026-07-06"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2607.05147"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "À la Une — Modèles & Frontière",
+        "it": "Primo Piano — Modelli & Frontiera",
+        "lmo": "A la Prima — Modèj & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Nouveaux modèles et API",
+            "en": "New models and APIs",
+            "de": "Nouveaux modèles et API",
+            "it": "Nuovi modelli e API",
+            "lmo": "Modèj e API noeuv"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GPT-Realtime-2.1 améliore la reconnaissance vocale et la gestion des interruptions",
+                "en": "GPT-Realtime-2.1 improves speech recognition and interruption handling",
+                "de": "GPT-Realtime-2.1 améliore la reconnaissance vocale et la gestion des interruptions",
+                "it": "GPT-Realtime-2.1 migliora il riconoscimento vocale e la gestione delle interruzioni",
+                "lmo": "GPT-Realtime-2.1 el migliora la recognizion vocal e la gestion di interruzion"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 6 juillet 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, une version améliorée de son modèle de raisonnement temps réel. Les améliorations portent sur la reconnaissance alphanumérique, la gestion du silence et du bruit ambiant, et le comportement d'interruption. Une variante <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini'>GPT-Realtime-2.1 Mini</a>, distillée pour la vitesse et le moindre coût, est également disponible. Les deux modèles sont accessibles via l'endpoint v1/realtime de l'API.",
+                "en": "OpenAI released on July 6, 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, an improved version of its real-time reasoning model. Enhancements include alphanumeric recognition, silence and ambient noise handling, and interruption behavior. A distilled variant, <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini'>GPT-Realtime-2.1 Mini</a>, optimized for speed and lower cost, is also available. Both models are accessible via the v1/realtime endpoint of the API.",
+                "de": "OpenAI a publié le 6 juillet 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, une version améliorée de son modèle de raisonnement temps réel. Les améliorations portent sur la reconnaissance alphanumérique, la gestion du silence et du bruit ambiant, et le comportement d'interruption. Une variante <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini'>GPT-Realtime-2.1 Mini</a>, distillée pour la vitesse et le moindre coût, est également disponible. Les deux modèles sont accessibles via l'endpoint v1/realtime de l'API.",
+                "it": "OpenAI ha pubblicato il 6 luglio 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, una versione migliorata del suo modello di ragionamento in tempo reale. I miglioramenti riguardano il riconoscimento alfanumerico, la gestione del silenzio e del rumore ambientale e il comportamento di interruzione. Una variante <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini'>GPT-Realtime-2.1 Mini</a>, distillata per velocità e minor costo, è anch'essa disponibile. Entrambi i modelli sono accessibili tramite l'endpoint v1/realtime dell'API.",
+                "lmo": "OpenAI l'ha publicad el 6 de luj 2026 <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1'>GPT-Realtime-2.1</a>, ona version migliorada del sò modèl de resonament temp real. I migliorament hinn sora la recognizion alfanumerica, la gestion del silenzi e del rumor ambient, e 'l comportament d'interruzion. Ona variant <a href='https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini'>GPT-Realtime-2.1 Mini</a>, distillada per la velocità e 'l cost pussee bass, l'è anca disponibila. Tuti du i modèj hinn accessibij via l'endpoint v1/realtime de l'API."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://developers.openai.com/api/docs/models/gpt-realtime-2.1",
+                "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "GPT-5.5 Instant Mini remplace GPT-5.3 Instant Mini comme modèle de repli",
+                "en": "GPT-5.5 Instant Mini replaces GPT-5.3 Instant Mini as fallback model",
+                "de": "GPT-5.5 Instant Mini remplace GPT-5.3 Instant Mini comme modèle de repli",
+                "it": "GPT-5.5 Instant Mini sostituisce GPT-5.3 Instant Mini come modello di fallback",
+                "lmo": "GPT-5.5 Instant Mini el sostituiss GPT-5.3 Instant Mini 'me modèl de ripiegh"
+              },
+              "body": {
+                "fr": "OpenAI déploie <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>GPT-5.5 Instant Mini</a> dans ChatGPT. Ce modèle sert de fallback lorsque les utilisateurs atteignent leurs limites de taux sur GPT-5.5 Instant ou Auto. Il n'apparaît pas dans le sélecteur de modèle. Par rapport à GPT-5.3 Instant Mini, il suit mieux l'intention évolutive de l'utilisateur, calibre le ton et évite les réponses répétitives ou trop structurées.",
+                "en": "OpenAI is deploying <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>GPT-5.5 Instant Mini</a> in ChatGPT. This model serves as a fallback when users reach their rate limits on GPT-5.5 Instant or Auto. It does not appear in the model selector. Compared to GPT-5.3 Instant Mini, it better tracks the user's evolving intent, calibrates tone, and avoids repetitive or overly structured responses.",
+                "de": "OpenAI déploie <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>GPT-5.5 Instant Mini</a> dans ChatGPT. Ce modèle sert de fallback lorsque les utilisateurs atteignent leurs limites de taux sur GPT-5.5 Instant ou Auto. Il n'apparaît pas dans le sélecteur de modèle. Par rapport à GPT-5.3 Instant Mini, il suit mieux l'intention évolutive de l'utilisateur, calibre le ton et évite les réponses répétitives ou trop structurées.",
+                "it": "OpenAI distribuisce <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>GPT-5.5 Instant Mini</a> in ChatGPT. Questo modello funge da fallback quando gli utenti raggiungono i propri limiti di frequenza su GPT-5.5 Instant o Auto. Non appare nel selettore di modello. Rispetto a GPT-5.3 Instant Mini, segue meglio l'intenzione evolutiva dell'utente, calibra il tono ed evita risposte ripetitive o troppo strutturate.",
+                "lmo": "OpenAI el despiega <a href='https://help.openai.com/en/articles/6825453-chatgpt-release-notes'>GPT-5.5 Instant Mini</a> in ChatGPT. 'Sto modèl chì el serv de fallback quand che i utent riven ai sò limit de tass sora GPT-5.5 Instant o Auto. El compar no in del selector di modèj. Rispett a GPT-5.3 Instant Mini, el segua mej l'intenzion evolutiva de l'utent, el calibra el ton e 'l evita i risposte repetitiv o trop strutturade."
+              },
+              "kicker": {
+                "fr": "ChatGPT",
+                "en": "ChatGPT",
+                "de": "ChatGPT",
+                "it": "ChatGPT",
+                "lmo": "ChatGPT"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Hy3 : un MoE 295B ouvert sous licence Apache 2.0",
+                "en": "Hy3: an open 295B MoE under Apache 2.0",
+                "de": "Hy3 : un MoE 295B ouvert sous licence Apache 2.0",
+                "it": "Hy3: un MoE 295B aperto con licenza Apache 2.0",
+                "lmo": "Hy3: on MoE 295B dervid sotta licenza Apache 2.0"
+              },
+              "body": {
+                "fr": "Tencent a publié <a href='https://huggingface.co/collections/tencent/hy3'>Hy3</a>, un modèle Mixture-of-Experts de 295 milliards de paramètres (21B actifs, 192 experts, routage top-8) sous licence Apache 2.0. Disponible sur <a href='https://openrouter.ai/api/v1/models'>OpenRouter</a> avec un contexte de 262 144 tokens, Hy3 supporte un raisonnement configurable (effort high/low/none) et cible les usages agentiques. La version gratuite expire le 21 juillet 2026.",
+                "en": "Tencent released <a href='https://huggingface.co/collections/tencent/hy3'>Hy3</a>, a Mixture-of-Experts model with 295 billion parameters (21B active, 192 experts, top-8 routing) under the Apache 2.0 license. Available on <a href='https://openrouter.ai/api/v1/models'>OpenRouter</a> with a 262,144-token context, Hy3 supports configurable reasoning (high/low/none effort) and targets agentic use cases. The free version expires on July 21, 2026.",
+                "de": "Tencent a publié <a href='https://huggingface.co/collections/tencent/hy3'>Hy3</a>, un modèle Mixture-of-Experts de 295 milliards de paramètres (21B actifs, 192 experts, routage top-8) sous licence Apache 2.0. Disponible sur <a href='https://openrouter.ai/api/v1/models'>OpenRouter</a> avec un contexte de 262 144 tokens, Hy3 supporte un raisonnement configurable (effort high/low/none) et cible les usages agentiques. La version gratuite expire le 21 juillet 2026.",
+                "it": "Tencent ha pubblicato <a href='https://huggingface.co/collections/tencent/hy3'>Hy3</a>, un modello Mixture-of-Experts da 295 miliardi di parametri (21B attivi, 192 esperti, routing top-8) con licenza Apache 2.0. Disponibile su <a href='https://openrouter.ai/api/v1/models'>OpenRouter</a> con un contesto di 262 144 token, Hy3 supporta un ragionamento configurabile (effort high/low/none) e punta agli usi agentici. La versione gratuita scade il 21 luglio 2026.",
+                "lmo": "Tencent l'ha publicad <a href='https://huggingface.co/collections/tencent/hy3'>Hy3</a>, on modèl Mixture-of-Experts de 295 miliard de parametri (21B ativ, 192 expert, routing top-8) sotta licenza Apache 2.0. Disponibel sora <a href='https://openrouter.ai/api/v1/models'>OpenRouter</a> con on contest de 262 144 token, Hy3 el supporta on resonament configurabel (effort high/low/none) e l'è miraa ai usagg agentich. La version gratuita la scad el 21 de luj 2026."
+              },
+              "kicker": {
+                "fr": "Tencent",
+                "en": "Tencent",
+                "de": "Tencent",
+                "it": "Tencent",
+                "lmo": "Tencent"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://huggingface.co/collections/tencent/hy3",
+                "https://openrouter.ai/api/v1/models"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un guide de terrain pour Claude Fable 5",
+                "en": "A field guide for Claude Fable 5",
+                "de": "Un guide de terrain pour Claude Fable 5",
+                "it": "Una guida pratica per Claude Fable 5",
+                "lmo": "Ona guida de camp per Claude Fable 5"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 6 juillet 2026 <a href='https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns'>un guide de terrain</a> pour Claude Fable 5, destiné aux développeurs utilisant Claude Code. L'article explore comment tirer parti des capacités du modèle pour découvrir des inconnues dans les projets de code, avec des exemples concrets d'utilisation agentique.",
+                "en": "Anthropic published on July 6, 2026 <a href='https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns'>a field guide</a> for Claude Fable 5, aimed at developers using Claude Code. The article explores how to leverage the model's capabilities to uncover unknowns in code projects, with concrete examples of agentic usage.",
+                "de": "Anthropic a publié le 6 juillet 2026 <a href='https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns'>un guide de terrain</a> pour Claude Fable 5, destiné aux développeurs utilisant Claude Code. L'article explore comment tirer parti des capacités du modèle pour découvrir des inconnues dans les projets de code, avec des exemples concrets d'utilisation agentique.",
+                "it": "Anthropic ha pubblicato il 6 luglio 2026 <a href='https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns'>una guida pratica</a> per Claude Fable 5, destinata agli sviluppatori che utilizzano Claude Code. L'articolo esplora come sfruttare le capacità del modello per scoprire incognite nei progetti di codice, con esempi concreti di utilizzo agentico.",
+                "lmo": "Anthropic l'ha publicad el 6 de luj 2026 <a href='https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns'>on guida de camp</a> per Claude Fable 5, destinada ai sviluppador che doperen Claude Code. L'articol l'esplora 'me sfruttà i capacità del modèl per descovrì di incognit in di proget de code, con esempi concrett de utilizazion agentica."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Produits & Plateformes",
+            "en": "Products & Platforms",
+            "de": "Produits & Plateformes",
+            "it": "Prodotti & Piattaforme",
+            "lmo": "Prodott & Piattaform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Grok Voice s'enrichit de 21 voix multilingues",
+                "en": "Grok Voice gains 21 multilingual voices",
+                "de": "Grok Voice s'enrichit de 21 voix multilingues",
+                "it": "Grok Voice si arricchisce di 21 voci multilingue",
+                "lmo": "Grok Voice el se ricchiss de 21 vos multilingov"
+              },
+              "body": {
+                "fr": "xAI a déployé le 6 juillet 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nouvelles voix</a> pour Grok Voice, couvrant plusieurs langues, avec une amélioration du naturel des cinq voix originales. Cette mise à jour renforce la compétitivité de Grok face aux assistants vocaux d'OpenAI et de Google.",
+                "en": "xAI deployed on July 6, 2026 <a href='https://x.ai/news/new-flagship-voices'>21 new voices</a> for Grok Voice, covering multiple languages, along with improved naturalness for the five original voices. This update strengthens Grok's competitiveness against voice assistants from OpenAI and Google.",
+                "de": "xAI a déployé le 6 juillet 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nouvelles voix</a> pour Grok Voice, couvrant plusieurs langues, avec une amélioration du naturel des cinq voix originales. Cette mise à jour renforce la compétitivité de Grok face aux assistants vocaux d'OpenAI et de Google.",
+                "it": "xAI ha distribuito il 6 luglio 2026 <a href='https://x.ai/news/new-flagship-voices'>21 nuove voci</a> per Grok Voice, che coprono diverse lingue, con un miglioramento della naturalezza delle cinque voci originali. Questo aggiornamento rafforza la competitività di Grok rispetto agli assistenti vocali di OpenAI e Google.",
+                "lmo": "xAI l'ha despiegaa el 6 de luj 2026 <a href='https://x.ai/news/new-flagship-voices'>21 vos noeuve</a> per Grok Voice, quatand pussee lengov, con on migliorament del natural di cinch vos originaj. 'Sto aggiornament chì el rinforza la competitività de Groch denanz ai assistent vocai de OpenAI e de Google."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://x.ai/news/new-flagship-voices"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cloudflare remplace son blocage général des bots IA par des contrôles granulaires",
+                "en": "Cloudflare replaces blanket AI bot block with granular controls",
+                "de": "Cloudflare remplace son blocage général des bots IA par des contrôles granulaires",
+                "it": "Cloudflare sostituisce il blocco generale dei bot IA con controlli granulari",
+                "lmo": "Cloudflare el sostituiss el blòcch general di bot IA con controll granulari"
+              },
+              "body": {
+                "fr": "Cloudflare a annoncé le 6 juillet 2026 <a href='https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/'>de nouveaux contrôles granulaires</a> pour les bots IA. Les propriétaires de sites peuvent désormais gérer séparément les bots de Search, Training et Agent. À compter du 15 septembre 2026, les bots Training et Agent seront bloqués par défaut sur les pages financées par la publicité.",
+                "en": "Cloudflare announced on July 6, 2026 <a href='https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/'>new granular controls</a> for AI bots. Site owners can now manage Search, Training, and Agent bots separately. As of September 15, 2026, Training and Agent bots will be blocked by default on ad-supported pages.",
+                "de": "Cloudflare a annoncé le 6 juillet 2026 <a href='https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/'>de nouveaux contrôles granulaires</a> pour les bots IA. Les propriétaires de sites peuvent désormais gérer séparément les bots de Search, Training et Agent. À compter du 15 septembre 2026, les bots Training et Agent seront bloqués par défaut sur les pages financées par la publicité.",
+                "it": "Cloudflare ha annunciato il 6 luglio 2026 <a href='https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/'>nuovi controlli granulari</a> per i bot IA. I proprietari di siti possono ora gestire separatamente i bot di Search, Training e Agent. A partire dal 15 settembre 2026, i bot Training e Agent saranno bloccati per impostazione predefinita sulle pagine finanziate dalla pubblicità.",
+                "lmo": "Cloudflare l'ha anunziaa el 6 de luj 2026 <a href='https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/'>noeuv controll granulari</a> per i bot IA. I proprietari di sit pòden adess gestì separadament i bot de Search, Training e Agent. A partì del 15 de setember 2026, i bot Training e Agent saran bloccaa de default sora i pagin finanziaa de la publicità."
+              },
+              "kicker": {
+                "fr": "Cloudflare",
+                "en": "Cloudflare",
+                "de": "Cloudflare",
+                "it": "Cloudflare",
+                "lmo": "Cloudflare"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://the-decoder.com/cloudflare-replaces-its-blanket-ai-bot-block-with-granular-controls-for-search-training-and-agent-crawlers/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sakana Translate : un outil de traduction japonais-anglais-chinois propulsé par Namazu",
+                "en": "Sakana Translate: a Japanese-English-Chinese translation tool powered by Namazu",
+                "de": "Sakana Translate : un outil de traduction japonais-anglais-chinois propulsé par Namazu",
+                "it": "Sakana Translate: uno strumento di traduzione giapponese-inglese-cinese basato su Namazu",
+                "lmo": "Sakana Translate: on strument de traduzion giappones-ingles-cines propulsaa de Namazu"
+              },
+              "body": {
+                "fr": "Sakana AI a lancé le 6 juillet 2026 <a href='https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/'>Sakana Translate</a> dans Sakana Chat, un outil de traduction bidirectionnelle japonais-anglais-chinois basé sur la série de modèles Namazu. Trois modes sont disponibles : Translate, Proofread et Ask. L'outil s'appuie sur le benchmark XCOMET-XL pour la validation qualité.",
+                "en": "Sakana AI launched on July 6, 2026 <a href='https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/'>Sakana Translate</a> in Sakana Chat, a bidirectional Japanese-English-Chinese translation tool based on the Namazu model series. Three modes are available: Translate, Proofread, and Ask. The tool relies on the XCOMET-XL benchmark for quality validation.",
+                "de": "Sakana AI a lancé le 6 juillet 2026 <a href='https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/'>Sakana Translate</a> dans Sakana Chat, un outil de traduction bidirectionnelle japonais-anglais-chinois basé sur la série de modèles Namazu. Trois modes sont disponibles : Translate, Proofread et Ask. L'outil s'appuie sur le benchmark XCOMET-XL pour la validation qualité.",
+                "it": "Sakana AI ha lanciato il 6 luglio 2026 <a href='https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/'>Sakana Translate</a> in Sakana Chat, uno strumento di traduzione bidirezionale giapponese-inglese-cinese basato sulla serie di modelli Namazu. Tre modalità sono disponibili: Translate, Proofread e Ask. Lo strumento si basa sul benchmark XCOMET-XL per la validazione della qualità.",
+                "lmo": "Sakana AI l'ha lanzaa el 6 de luj 2026 <a href='https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/'>Sakana Translate</a> in Sakana Chat, on strument de traduzion bidirezional giappones-ingles-cines fondaa sora la serie de modèj Namazu. Tri mode hinn disponibij: Translate, Proofread e Ask. L'strument el se fonda sora el benchmark XCOMET-XL per la validazion qualità."
+              },
+              "kicker": {
+                "fr": "Sakana AI",
+                "en": "Sakana AI",
+                "de": "Sakana AI",
+                "it": "Sakana AI",
+                "lmo": "Sakana AI"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/07/05/sakana-ai-launches-sakana-translate/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais, CLI & Moteurs",
+        "en": "Tech Notebook — Harnesses, CLI & Engines",
+        "de": "Le Cahier Technique — Harnais, CLI & Moteurs",
+        "it": "Il Quaderno Tecnico — Harnais, CLI & Motori",
+        "lmo": "El Carnet Tecnegh — Harnes, CLI & Motor"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Harnais & CLI",
+            "it": "Harnais & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "v2.1.202 : workflows dynamiques et télémétrie OpenTelemetry",
+                "en": "v2.1.202: dynamic workflows and OpenTelemetry telemetry",
+                "de": "v2.1.202 : workflows dynamiques et télémétrie OpenTelemetry",
+                "it": "v2.1.202: flussi di lavoro dinamici e telemetria OpenTelemetry",
+                "lmo": "v2.1.202: fluss de lavor dinamegh e telemetria OpenTelemetry"
+              },
+              "body": {
+                "fr": "Anthropic a publié <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.202'>Claude Code v2.1.202</a> le 6 juillet 2026. La release introduit un paramètre « Dynamic workflow size » dans /config pour contrôler la taille des workflows (small/medium/large). Elle ajoute également les attributs workflow.run_id et workflow.name à la télémétrie OpenTelemetry, permettant de reconstruire l'activité d'un workflow. Un crash dans la recherche historique Ctrl+R a été corrigé.",
+                "en": "Anthropic released <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.202'>Claude Code v2.1.202</a> on July 6, 2026. The release introduces a \"Dynamic workflow size\" parameter in /config to control workflow size (small/medium/large). It also adds workflow.run_id and workflow.name attributes to OpenTelemetry telemetry, enabling workflow activity reconstruction. A crash in the Ctrl+R history search has been fixed.",
+                "de": "Anthropic a publié <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.202'>Claude Code v2.1.202</a> le 6 juillet 2026. La release introduit un paramètre « Dynamic workflow size » dans /config pour contrôler la taille des workflows (small/medium/large). Elle ajoute également les attributs workflow.run_id et workflow.name à la télémétrie OpenTelemetry, permettant de reconstruire l'activité d'un workflow. Un crash dans la recherche historique Ctrl+R a été corrigé.",
+                "it": "Anthropic ha pubblicato <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.202'>Claude Code v2.1.202</a> il 6 luglio 2026. La release introduce un parametro « Dynamic workflow size » in /config per controllare la dimensione dei flussi di lavoro (small/medium/large). Aggiunge inoltre gli attributi workflow.run_id e workflow.name alla telemetria OpenTelemetry, consentendo di ricostruire l'attività di un flusso di lavoro. Un crash nella ricerca storica Ctrl+R è stato corretto.",
+                "lmo": "Anthropic l'ha publicad <a href='https://github.com/anthropics/claude-code/releases/tag/v2.1.202'>Claude Code v2.1.202</a> el 6 de luj 2026. La release la introdux on parametro « Dynamic workflow size » in /config per controllà la grandezza di workflow (small/medium/large). La gionta anca i atribut workflow.run_id e workflow.name a la telemetria OpenTelemetry, permettend de ricostruì l'attività d'on workflow. On crash in la ricerca storega Ctrl+R l'è staa correggiuu."
+              },
+              "kicker": {
+                "fr": "Claude Code",
+                "en": "Claude Code",
+                "de": "Claude Code",
+                "it": "Claude Code",
+                "lmo": "Claude Code"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.202"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex CLI 0.143.0-alpha.37",
+                "en": "Codex CLI 0.143.0-alpha.37",
+                "de": "Codex CLI 0.143.0-alpha.37",
+                "it": "Codex CLI 0.143.0-alpha.37",
+                "lmo": "Codex CLI 0.143.0-alpha.37"
+              },
+              "body": {
+                "fr": "OpenAI a publié <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37'>Codex CLI v0.143.0-alpha.37</a> le 6 juillet 2026, et la version alpha.36 la veille. Les notes de version ne détaillent pas les changements spécifiques, mais ces releases continues témoignent du rythme de développement soutenu de l'outil.",
+                "en": "OpenAI released <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37'>Codex CLI v0.143.0-alpha.37</a> on July 6, 2026, and alpha.36 the day before. The release notes do not detail specific changes, but these continuous releases reflect the sustained development pace of the tool.",
+                "de": "OpenAI a publié <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37'>Codex CLI v0.143.0-alpha.37</a> le 6 juillet 2026, et la version alpha.36 la veille. Les notes de version ne détaillent pas les changements spécifiques, mais ces releases continues témoignent du rythme de développement soutenu de l'outil.",
+                "it": "OpenAI ha pubblicato <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37'>Codex CLI v0.143.0-alpha.37</a> il 6 luglio 2026, e la versione alpha.36 il giorno prima. Le note di rilascio non dettagliano le modifiche specifiche, ma queste release continue testimoniano il ritmo di sviluppo sostenuto dello strumento.",
+                "lmo": "OpenAI l'ha publicad <a href='https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37'>Codex CLI v0.143.0-alpha.37</a> el 6 de luj 2026, e la version alpha.36 el dì prima. I not de version no detajen i cambiament specific, ma 'sti release continov testimònien el ritm de svilupp sostegnuu de l'strument."
+              },
+              "kicker": {
+                "fr": "OpenAI Codex",
+                "en": "OpenAI Codex",
+                "de": "OpenAI Codex",
+                "it": "OpenAI Codex",
+                "lmo": "OpenAI Codex"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.143.0-alpha.37"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nightly v0.51.0 du 6 juillet",
+                "en": "Nightly v0.51.0 of July 6",
+                "de": "Nightly v0.51.0 du 6 juillet",
+                "it": "Nightly v0.51.0 del 6 luglio",
+                "lmo": "Nightly v0.51.0 del 6 de luj"
+              },
+              "body": {
+                "fr": "Google a publié <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518'>Gemini CLI v0.51.0-nightly</a> le 6 juillet 2026, une version nightly sans changelog détaillé. Une version similaire avait été publiée la veille.",
+                "en": "Google released <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518'>Gemini CLI v0.51.0-nightly</a> on July 6, 2026, a nightly build without a detailed changelog. A similar version was released the day before.",
+                "de": "Google a publié <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518'>Gemini CLI v0.51.0-nightly</a> le 6 juillet 2026, une version nightly sans changelog détaillé. Une version similaire avait été publiée la veille.",
+                "it": "Google ha pubblicato <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518'>Gemini CLI v0.51.0-nightly</a> il 6 luglio 2026, una versione nightly senza changelog dettagliato. Una versione simile era stata pubblicata il giorno prima.",
+                "lmo": "Google l'ha publicad <a href='https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518'>Gemini CLI v0.51.0-nightly</a> el 6 de luj 2026, ona version nightly senza changelog detajaa. Ona version similar l'era stada publicada el dì prima."
+              },
+              "kicker": {
+                "fr": "Gemini CLI",
+                "en": "Gemini CLI",
+                "de": "Gemini CLI",
+                "it": "Gemini CLI",
+                "lmo": "Gemini CLI"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.51.0-nightly.20260706.gf7af4e518"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs d'inférence",
+            "en": "Inference engines",
+            "de": "Moteurs d'inférence",
+            "it": "Motori di inferenza",
+            "lmo": "Motor d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "v0.6.4 : support TTS/STT, correction de bugs et optimisation Qwen3.5",
+                "en": "v0.6.4: TTS/STT support, bug fixes, and Qwen3.5 optimization",
+                "de": "v0.6.4 : support TTS/STT, correction de bugs et optimisation Qwen3.5",
+                "it": "v0.6.4: supporto TTS/STT, correzione di bug e ottimizzazione Qwen3.5",
+                "lmo": "v0.6.4: support TTS/STT, correzion de bug e ottimizzazion Qwen3.5"
+              },
+              "body": {
+                "fr": "MLX-VLM v0.6.4 a été publié le 6 juillet 2026. Les ajouts notables incluent le <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4'>support des endpoints TTS et STT</a> dans le serveur, le support du préfill policy pour les modèles de diffusion, et une optimisation majeure pour Qwen3.5 sur CUDA avec un prefill 8,5 fois plus rapide via chunked gated-delta. Le support du modèle Moondream2 a également été ajouté.",
+                "en": "MLX-VLM v0.6.4 was released on July 6, 2026. Notable additions include <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4'>support for TTS and STT endpoints</a> in the server, prefill policy support for diffusion models, and a major optimization for Qwen3.5 on CUDA with 8.5x faster prefill via chunked gated-delta. Support for the Moondream2 model was also added.",
+                "de": "MLX-VLM v0.6.4 a été publié le 6 juillet 2026. Les ajouts notables incluent le <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4'>support des endpoints TTS et STT</a> dans le serveur, le support du préfill policy pour les modèles de diffusion, et une optimisation majeure pour Qwen3.5 sur CUDA avec un prefill 8,5 fois plus rapide via chunked gated-delta. Le support du modèle Moondream2 a également été ajouté.",
+                "it": "MLX-VLM v0.6.4 è stato pubblicato il 6 luglio 2026. Le aggiunte notevoli includono il <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4'>supporto degli endpoint TTS e STT</a> nel server, il supporto del prefill policy per i modelli di diffusione e un'ottimizzazione importante per Qwen3.5 su CUDA con un prefill 8,5 volte più veloce tramite chunked gated-delta. Il supporto del modello Moondream2 è stato anch'esso aggiunto.",
+                "lmo": "MLX-VLM v0.6.4 l'è staa publicad el 6 de luj 2026. I giontad notevol includen el <a href='https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4'>support di endpoint TTS e STT</a> in del server, el support del prefill policy per i modèj de diffusion, e ona ottimizzazion magior per Qwen3.5 sora CUDA con on prefill 8,5 voeult pussee velos via chunked gated-delta. El support del modèl Moondream2 l'è staa anca giontaa."
+              },
+              "kicker": {
+                "fr": "MLX-VLM",
+                "en": "MLX-VLM",
+                "de": "MLX-VLM",
+                "it": "MLX-VLM",
+                "lmo": "MLX-VLM"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.4"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "v0.31.2-rc2 : agent harness et mise à jour llama.cpp",
+                "en": "v0.31.2-rc2: agent harness and llama.cpp update",
+                "de": "v0.31.2-rc2 : agent harness et mise à jour llama.cpp",
+                "it": "v0.31.2-rc2: agent harness e aggiornamento llama.cpp",
+                "lmo": "v0.31.2-rc2: agent harness e mettuda a giornà de llama.cpp"
+              },
+              "body": {
+                "fr": "Ollama a publié <a href='https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2'>v0.31.2-rc2</a> le 6 juillet 2026. Cette release candidate introduit un « agent harness core » pour les workflows agentiques, met à jour llama.cpp, active Flash Attention sur les GPU CUDA CC 6.x, et réécrit le backend MLX. Le support des anciens devices ROCm a été retiré.",
+                "en": "Ollama released <a href='https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2'>v0.31.2-rc2</a> on July 6, 2026. This release candidate introduces an \"agent harness core\" for agentic workflows, updates llama.cpp, enables Flash Attention on CUDA CC 6.x GPUs, and rewrites the MLX backend. Support for older ROCm devices has been removed.",
+                "de": "Ollama a publié <a href='https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2'>v0.31.2-rc2</a> le 6 juillet 2026. Cette release candidate introduit un « agent harness core » pour les workflows agentiques, met à jour llama.cpp, active Flash Attention sur les GPU CUDA CC 6.x, et réécrit le backend MLX. Le support des anciens devices ROCm a été retiré.",
+                "it": "Ollama ha pubblicato <a href='https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2'>v0.31.2-rc2</a> il 6 luglio 2026. Questa release candidate introduce un « agent harness core » per i flussi di lavoro agentici, aggiorna llama.cpp, attiva Flash Attention sulle GPU CUDA CC 6.x e riscrive il backend MLX. Il supporto dei vecchi dispositivi ROCm è stato rimosso.",
+                "lmo": "Ollama l'ha publicad <a href='https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2'>v0.31.2-rc2</a> el 6 de luj 2026. 'Sta release candidate chì la introdux on « agent harness core » per i fluss de lavor agentich, la mett a giornà llama.cpp, la ativa Flash Attention sora i GPU CUDA CC 6.x, e la rescriv el backend MLX. El support di vegg device ROCm l'è staa tolt via."
+              },
+              "kicker": {
+                "fr": "Ollama",
+                "en": "Ollama",
+                "de": "Ollama",
+                "it": "Ollama",
+                "lmo": "Ollama"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.31.2-rc2"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & Labos",
+        "en": "Research — Papers & Labs",
+        "de": "La Recherche — Papers & Labos",
+        "it": "La Ricerca — Paper & Laboratori",
+        "lmo": "La Ricerca — Paper & Laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Architectures & Inférence",
+            "en": "Architectures & Inference",
+            "de": "Architectures & Inférence",
+            "it": "Architetture & Inferenza",
+            "lmo": "Architettur & Inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Nemotron-Labs-Diffusion unifie trois modes de décodage",
+                "en": "Nemotron-Labs-Diffusion unifies three decoding modes",
+                "de": "Nemotron-Labs-Diffusion unifie trois modes de décodage",
+                "it": "Nemotron-Labs-Diffusion unifica tre modalità di decodifica",
+                "lmo": "Nemotron-Labs-Diffusion l'unifica tri mode de decodifega"
+              },
+              "body": {
+                "fr": "NVIDIA a publié <a href='https://arxiv.org/abs/2607.05722'>Nemotron-Labs-Diffusion</a>, un modèle de langage « tri-mode » qui combine décodage autorégressif, diffusion et auto-vérification spéculative. Les objectifs AR et diffusion sont complémentaires : la diffusion améliore la planification prospective tandis que l'AR fournit les priors linguistiques gauche-droite. En mode auto-spéculatif, le module de diffusion draft pendant que l'AR vérifie, surpassant les méthodes MTP. Le modèle existe en versions 3B, 8B et 14B, incluant des variantes instruct et vision-langage.",
+                "en": "NVIDIA published <a href='https://arxiv.org/abs/2607.05722'>Nemotron-Labs-Diffusion</a>, a \"tri-mode\" language model combining autoregressive decoding, diffusion, and speculative self-verification. The AR and diffusion objectives are complementary: diffusion improves forward planning while AR provides left-to-right linguistic priors. In self-speculative mode, the diffusion module drafts while the AR module verifies, outperforming MTP methods. The model comes in 3B, 8B, and 14B versions, including instruct and vision-language variants.",
+                "de": "NVIDIA a publié <a href='https://arxiv.org/abs/2607.05722'>Nemotron-Labs-Diffusion</a>, un modèle de langage « tri-mode » qui combine décodage autorégressif, diffusion et auto-vérification spéculative. Les objectifs AR et diffusion sont complémentaires : la diffusion améliore la planification prospective tandis que l'AR fournit les priors linguistiques gauche-droite. En mode auto-spéculatif, le module de diffusion draft pendant que l'AR vérifie, surpassant les méthodes MTP. Le modèle existe en versions 3B, 8B et 14B, incluant des variantes instruct et vision-langage.",
+                "it": "NVIDIA ha pubblicato <a href='https://arxiv.org/abs/2607.05722'>Nemotron-Labs-Diffusion</a>, un modello linguistico « tri-mode » che combina decodifica autoregressiva, diffusione e auto-verifica speculativa. Gli obiettivi AR e diffusione sono complementari: la diffusione migliora la pianificazione prospettica mentre l'AR fornisce i priori linguistici sinistra-destra. In modalità auto-speculativa, il modulo di diffusione fa da draft mentre l'AR verifica, superando i metodi MTP. Il modello esiste in versioni 3B, 8B e 14B, incluse varianti instruct e visione-linguaggio.",
+                "lmo": "NVIDIA l'ha publicad <a href='https://arxiv.org/abs/2607.05722'>Nemotron-Labs-Diffusion</a>, on modèl de lengoeu « tri-mode » che 'l combina decodifega autoregressiva, diffusion e auto-verifega speculativa. I obietiv AR e diffusion hinn complementar: la diffusion la migliora la pianificazion prospettiva menter che l'AR la forniss i prior linguistegh de sinistra a dritta. In mode auto-speculativ, el modul de diffusion el fa de draft menter che l'AR el verifega, superand i metod MTP. El modèl l'esist in version 3B, 8B e 14B, includend variant instruct e vision-lengoeu."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.05722"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nemotron-Labs-Audex : un modèle audio-texte unifié de 30B",
+                "en": "Nemotron-Labs-Audex: a unified 30B audio-text model",
+                "de": "Nemotron-Labs-Audex : un modèle audio-texte unifié de 30B",
+                "it": "Nemotron-Labs-Audex: un modello audio-testo unificato da 30B",
+                "lmo": "Nemotron-Labs-Audex: on modèl audio-test unificaa de 30B"
+              },
+              "body": {
+                "fr": "NVIDIA a également présenté <a href='https://arxiv.org/abs/2607.05196'>Nemotron-Labs-Audex-30B-A3B</a> (Audex), un modèle audio-texte unifié construit sur Nemotron-Cascade-2. Audex utilise un unique décodeur Transformer où les entrées audio sont projetées dans l'espace d'embedding texte, et les tokens audio quantifiés sont traités comme des tokens texte. Entraîné sur 157,4B tokens audio et 320,5B tokens texte, il atteint un état de l'art en compréhension audio, reconnaissance vocale, traduction, TTS et génération audio, sans régression sur les capacités texte.",
+                "en": "NVIDIA also presented <a href='https://arxiv.org/abs/2607.05196'>Nemotron-Labs-Audex-30B-A3B</a> (Audex), a unified audio-text model built on Nemotron-Cascade-2. Audex uses a single Transformer decoder where audio inputs are projected into the text embedding space, and quantized audio tokens are treated as text tokens. Trained on 157.4B audio tokens and 320.5B text tokens, it achieves state-of-the-art results in audio understanding, speech recognition, translation, TTS, and audio generation, without regression on text capabilities.",
+                "de": "NVIDIA a également présenté <a href='https://arxiv.org/abs/2607.05196'>Nemotron-Labs-Audex-30B-A3B</a> (Audex), un modèle audio-texte unifié construit sur Nemotron-Cascade-2. Audex utilise un unique décodeur Transformer où les entrées audio sont projetées dans l'espace d'embedding texte, et les tokens audio quantifiés sont traités comme des tokens texte. Entraîné sur 157,4B tokens audio et 320,5B tokens texte, il atteint un état de l'art en compréhension audio, reconnaissance vocale, traduction, TTS et génération audio, sans régression sur les capacités texte.",
+                "it": "NVIDIA ha inoltre presentato <a href='https://arxiv.org/abs/2607.05196'>Nemotron-Labs-Audex-30B-A3B</a> (Audex), un modello audio-testo unificato costruito su Nemotron-Cascade-2. Audex utilizza un unico decoder Transformer dove gli input audio sono proiettati nello spazio di embedding del testo, e i token audio quantizzati sono trattati come token di testo. Addestrato su 157,4B token audio e 320,5B token di testo, raggiunge uno stato dell'arte nella comprensione audio, riconoscimento vocale, traduzione, TTS e generazione audio, senza regressione sulle capacità testuali.",
+                "lmo": "NVIDIA l'ha anca presentad <a href='https://arxiv.org/abs/2607.05196'>Nemotron-Labs-Audex-30B-A3B</a> (Audex), on modèl audio-test unificaa costruii sora Nemotron-Cascade-2. Audex el dopera on decoder Transformer soll indove i input audio hinn proietaa in del spazzi d'embedding test, e i token audio quantificaa hinn trataa 'me token test. Allenad sora 157,4B token audio e 320,5B token test, el riva a on stat de l'art in comprension audio, recognizion vocal, traduzion, TTS e generazion audio, senza regression sora i capacità test."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.05196"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "HiLS-Attention : attention sparse hiérarchique pour contextes infinis",
+                "en": "HiLS-Attention: hierarchical sparse attention for infinite contexts",
+                "de": "HiLS-Attention : attention sparse hiérarchique pour contextes infinis",
+                "it": "HiLS-Attention: attenzione sparsa gerarchica per contesti infiniti",
+                "lmo": "HiLS-Attention: attention sparsa ierarchica per contest infinii"
+              },
+              "body": {
+                "fr": "Tencent Hunyuan a publié <a href='https://arxiv.org/abs/2607.02980'>HiLS-Attention</a> (Hierarchical Landmark Sparse Attention), un mécanisme d'attention sparse par chunks qui apprend la sélection de chunks de bout en bout via la loss de language modeling. HiLS extrapole jusqu'à 64 fois la longueur d'entraînement avec 90 % de précision de récupération, et les modèles full-attention existants peuvent être convertis via un continué pretraining léger.",
+                "en": "Tencent Hunyuan published <a href='https://arxiv.org/abs/2607.02980'>HiLS-Attention</a> (Hierarchical Landmark Sparse Attention), a chunk-based sparse attention mechanism that learns chunk selection end-to-end via the language modeling loss. HiLS extrapolates up to 64 times the training length with 90% retrieval accuracy, and existing full-attention models can be converted via lightweight continued pretraining.",
+                "de": "Tencent Hunyuan a publié <a href='https://arxiv.org/abs/2607.02980'>HiLS-Attention</a> (Hierarchical Landmark Sparse Attention), un mécanisme d'attention sparse par chunks qui apprend la sélection de chunks de bout en bout via la loss de language modeling. HiLS extrapole jusqu'à 64 fois la longueur d'entraînement avec 90 % de précision de récupération, et les modèles full-attention existants peuvent être convertis via un continué pretraining léger.",
+                "it": "Tencent Hunyuan ha pubblicato <a href='https://arxiv.org/abs/2607.02980'>HiLS-Attention</a> (Hierarchical Landmark Sparse Attention), un meccanismo di attenzione sparsa per chunk che apprende la selezione dei chunk end-to-end tramite la loss di language modeling. HiLS estrapola fino a 64 volte la lunghezza di addestramento con il 90% di precisione di recupero, e i modelli full-attention esistenti possono essere convertiti tramite un continuato pretraining leggero.",
+                "lmo": "Tencent Hunyuan l'ha publicad <a href='https://arxiv.org/abs/2607.02980'>HiLS-Attention</a> (Hierarchical Landmark Sparse Attention), on mecanism d'attention sparsa per chunk che 'l imprend la selezion di chunk de fin a fin via la loss de language modeling. HiLS l'estrapola fina a 64 voeult la longhezza d'allenament con 90% de precision de recuper, e i modèj full-attention esistent pòden vess convertii via on continuad pretraining legger."
+              },
+              "kicker": {
+                "fr": "Tencent",
+                "en": "Tencent",
+                "de": "Tencent",
+                "it": "Tencent",
+                "lmo": "Tencent"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.02980"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Path-Constrained Mixture-of-Experts : repenser le routage des tokens",
+                "en": "Path-Constrained Mixture-of-Experts: rethinking token routing",
+                "de": "Path-Constrained Mixture-of-Experts : repenser le routage des tokens",
+                "it": "Path-Constrained Mixture-of-Experts: ripensare il routing dei token",
+                "lmo": "Path-Constrained Mixture-of-Experts: repensà el routing di token"
+              },
+              "body": {
+                "fr": "Apple ML Research a publié <a href='https://machinelearning.apple.com/research/path-constrained-mixture-experts'>Path-Constrained MoE</a>, une analyse des chemins d'experts — la séquence de sélections d'experts qu'un token traverse à travers toutes les couches. Les chercheurs montrent que les tokens se regroupent en une petite fraction de chemins alignés sur des fonctions linguistiques, tandis que la grande majorité des chemins restent inexplorés.",
+                "en": "Apple ML Research published <a href='https://machinelearning.apple.com/research/path-constrained-mixture-experts'>Path-Constrained MoE</a>, an analysis of expert paths — the sequence of expert selections a token traverses across all layers. The researchers show that tokens cluster into a small fraction of paths aligned with linguistic functions, while the vast majority of paths remain unexplored.",
+                "de": "Apple ML Research a publié <a href='https://machinelearning.apple.com/research/path-constrained-mixture-experts'>Path-Constrained MoE</a>, une analyse des chemins d'experts — la séquence de sélections d'experts qu'un token traverse à travers toutes les couches. Les chercheurs montrent que les tokens se regroupent en une petite fraction de chemins alignés sur des fonctions linguistiques, tandis que la grande majorité des chemins restent inexplorés.",
+                "it": "Apple ML Research ha pubblicato <a href='https://machinelearning.apple.com/research/path-constrained-mixture-experts'>Path-Constrained MoE</a>, un'analisi dei percorsi degli esperti — la sequenza di selezioni di esperti che un token attraversa attraverso tutti i livelli. I ricercatori mostrano che i token si raggruppano in una piccola frazione di percorsi allineati su funzioni linguistiche, mentre la stragrande maggioranza dei percorsi rimane inesplorata.",
+                "lmo": "Apple ML Research l'ha publicad <a href='https://machinelearning.apple.com/research/path-constrained-mixture-experts'>Path-Constrained MoE</a>, ona analisi di percors d'expert — la sequenza de selezion d'expert che on token el traversa travers tucc i layer. I ricercador mostren che i token se ragrupen in ona piccola frazion de percors alignaa sora fonzion linguistegh, menter che la granda maggioranza di percors la resta inesplorada."
+              },
+              "kicker": {
+                "fr": "Apple",
+                "en": "Apple",
+                "de": "Apple",
+                "it": "Apple",
+                "lmo": "Apple"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://machinelearning.apple.com/research/path-constrained-mixture-experts"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Agents & Robotique",
+            "en": "Agents & Robotics",
+            "de": "Agents & Robotique",
+            "it": "Agenti & Robotica",
+            "lmo": "Agent & Robòtega"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GaP : un harnais multi-agents auto-apprenant pour l'automatisation variable",
+                "en": "GaP: a self-learning multi-agent harness for variable automation",
+                "de": "GaP : un harnais multi-agents auto-apprenant pour l'automatisation variable",
+                "it": "GaP: un harnais multi-agente auto-apprendente per l'automazione variabile",
+                "lmo": "GaP: on harnes multi-agent auto-imprendent per l'automazion variabel"
+              },
+              "body": {
+                "fr": "Des chercheurs de UC Berkeley, NVIDIA et Stanford ont présenté <a href='https://graph-robots.github.io/gap/'>Graph-as-Policy (GaP)</a>, un harnais de codage multi-agents qui génère des graphes de calcul orientés avec des nœuds de perception, planification et contrôle à partir d'une bibliothèque de compétences robotiques modulaires. GaP génère un environnement de simulation interne pour répéter les instances de tâches en parallèle et affiner itérativement la structure du graphe. Sur 8 nouveaux benchmarks, GaP surpasse significativement les lignes de base.",
+                "en": "Researchers from UC Berkeley, NVIDIA, and Stanford presented <a href='https://graph-robots.github.io/gap/'>Graph-as-Policy (GaP)</a>, a multi-agent coding harness that generates directed computation graphs with perception, planning, and control nodes from a library of modular robotic skills. GaP generates an internal simulation environment to replay task instances in parallel and iteratively refine the graph structure. On 8 new benchmarks, GaP significantly outperforms baselines.",
+                "de": "Des chercheurs de UC Berkeley, NVIDIA et Stanford ont présenté <a href='https://graph-robots.github.io/gap/'>Graph-as-Policy (GaP)</a>, un harnais de codage multi-agents qui génère des graphes de calcul orientés avec des nœuds de perception, planification et contrôle à partir d'une bibliothèque de compétences robotiques modulaires. GaP génère un environnement de simulation interne pour répéter les instances de tâches en parallèle et affiner itérativement la structure du graphe. Sur 8 nouveaux benchmarks, GaP surpasse significativement les lignes de base.",
+                "it": "Ricercatori di UC Berkeley, NVIDIA e Stanford hanno presentato <a href='https://graph-robots.github.io/gap/'>Graph-as-Policy (GaP)</a>, un harnais di codifica multi-agente che genera grafi di calcolo orientati con nodi di percezione, pianificazione e controllo a partire da una libreria di competenze robotiche modulari. GaP genera un ambiente di simulazione interno per ripetere le istanze di compiti in parallelo e perfezionare iterativamente la struttura del grafo. Su 8 nuovi benchmark, GaP supera significativamente le baseline.",
+                "lmo": "Di ricercador de UC Berkeley, NVIDIA e Stanford hann presentad <a href='https://graph-robots.github.io/gap/'>Graph-as-Policy (GaP)</a>, on harnes de codifega multi-agent che 'l genera graf de calcol orientaa con node de percezion, pianificazion e controll a partì d'ona biblioteca de competenze robegh modulari. GaP el genera on ambient de simulazion intern per repedì i istanz di compit in parallel e raffinà iterativament la struttura del graf. Sora 8 noeuv benchmark, GaP el supera significativament i linie de bas."
+              },
+              "kicker": {
+                "fr": "UC Berkeley",
+                "en": "UC Berkeley",
+                "de": "UC Berkeley",
+                "it": "UC Berkeley",
+                "lmo": "UC Berkeley"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://graph-robots.github.io/gap/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "EdgeBench révèle les lois d'échelle de l'apprentissage en environnement réel",
+                "en": "EdgeBench reveals scaling laws for real-world environment learning",
+                "de": "EdgeBench révèle les lois d'échelle de l'apprentissage en environnement réel",
+                "it": "EdgeBench rivela le leggi di scala dell'apprendimento in ambiente reale",
+                "lmo": "EdgeBench el revèla i legg de scala de l'imprendiment in ambient real"
+              },
+              "body": {
+                "fr": "ByteDance Seed a publié <a href='https://edge-bench.org/'>EdgeBench</a>, une suite de 134 tâches réelles couvrant la découverte scientifique, le génie logiciel, l'optimisation combinatoire et les mathématiques formelles. L'analyse de 38 000 heures d'interaction agent révèle une loi d'échelle log-sigmoid (R² = 0,998) et un doublement de la vitesse d'apprentissage tous les trois mois. 51 tâches sont ouvertes.",
+                "en": "ByteDance Seed published <a href='https://edge-bench.org/'>EdgeBench</a>, a suite of 134 real-world tasks covering scientific discovery, software engineering, combinatorial optimization, and formal mathematics. Analysis of 38,000 hours of agent interaction reveals a log-sigmoid scaling law (R² = 0.998) and a doubling of learning speed every three months. 51 tasks are open-sourced.",
+                "de": "ByteDance Seed a publié <a href='https://edge-bench.org/'>EdgeBench</a>, une suite de 134 tâches réelles couvrant la découverte scientifique, le génie logiciel, l'optimisation combinatoire et les mathématiques formelles. L'analyse de 38 000 heures d'interaction agent révèle une loi d'échelle log-sigmoid (R² = 0,998) et un doublement de la vitesse d'apprentissage tous les trois mois. 51 tâches sont ouvertes.",
+                "it": "ByteDance Seed ha pubblicato <a href='https://edge-bench.org/'>EdgeBench</a>, una suite di 134 compiti reali che coprono la scoperta scientifica, l'ingegneria del software, l'ottimizzazione combinatoria e la matematica formale. L'analisi di 38 000 ore di interazione agente rivela una legge di scala log-sigmoid (R² = 0,998) e un raddoppio della velocità di apprendimento ogni tre mesi. 51 compiti sono aperti.",
+                "lmo": "ByteDance Seed l'ha publicad <a href='https://edge-bench.org/'>EdgeBench</a>, ona suite de 134 compit reai quatand la descovèrta scentifega, l'ingegneria del software, l'ottimizzazion combinatoria e la matematica formal. L'analisi de 38 000 ore d'interazion agent la revèla ona legg de scala log-sigmoid (R² = 0,998) e on radoppiament de la velocità d'imprendiment ogni tri mes. 51 compit hinn dervid."
+              },
+              "kicker": {
+                "fr": "ByteDance",
+                "en": "ByteDance",
+                "de": "ByteDance",
+                "it": "ByteDance",
+                "lmo": "ByteDance"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://edge-bench.org/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un framework de vérification généraliste atteint 86,5 % sur Terminal-Bench V2",
+                "en": "A generalist verification framework achieves 86.5% on Terminal-Bench V2",
+                "de": "Un framework de vérification généraliste atteint 86,5 % sur Terminal-Bench V2",
+                "it": "Un framework di verifica generalista raggiunge l'86,5% su Terminal-Bench V2",
+                "lmo": "On framework de verifega generalista el riva a 86,5% sora Terminal-Bench V2"
+              },
+              "body": {
+                "fr": "Des chercheurs de Stanford, UC Berkeley et NVIDIA ont présenté <a href='https://llm-as-a-verifier.com/'>LLM-as-a-Verifier</a>, un framework de vérification qui calcule l'espérance sur la distribution des logits des tokens de score pour générer des scores continus. Il atteint 86,5 % sur Terminal-Bench V2, 78,2 % sur SWE-Bench Verified et 87,4 % sur RoboRewardBench. Une extension pour Claude Code permet aux développeurs de monitorer leurs systèmes agentiques.",
+                "en": "Researchers from Stanford, UC Berkeley, and NVIDIA presented <a href='https://llm-as-a-verifier.com/'>LLM-as-a-Verifier</a>, a verification framework that computes expectations over the logit distribution of score tokens to generate continuous scores. It achieves 86.5% on Terminal-Bench V2, 78.2% on SWE-Bench Verified, and 87.4% on RoboRewardBench. An extension for Claude Code allows developers to monitor their agentic systems.",
+                "de": "Des chercheurs de Stanford, UC Berkeley et NVIDIA ont présenté <a href='https://llm-as-a-verifier.com/'>LLM-as-a-Verifier</a>, un framework de vérification qui calcule l'espérance sur la distribution des logits des tokens de score pour générer des scores continus. Il atteint 86,5 % sur Terminal-Bench V2, 78,2 % sur SWE-Bench Verified et 87,4 % sur RoboRewardBench. Une extension pour Claude Code permet aux développeurs de monitorer leurs systèmes agentiques.",
+                "it": "Ricercatori di Stanford, UC Berkeley e NVIDIA hanno presentato <a href='https://llm-as-a-verifier.com/'>LLM-as-a-Verifier</a>, un framework di verifica che calcola l'aspettativa sulla distribuzione dei logit dei token di punteggio per generare punteggi continui. Raggiunge l'86,5% su Terminal-Bench V2, il 78,2% su SWE-Bench Verified e l'87,4% su RoboRewardBench. Un'estensione per Claude Code consente agli sviluppatori di monitorare i propri sistemi agentici.",
+                "lmo": "Di ricercador de Stanford, UC Berkeley e NVIDIA hann presentad <a href='https://llm-as-a-verifier.com/'>LLM-as-a-Verifier</a>, on framework de verifega che 'l calcola l'espettativa sora la distribuzion di logit di token de score per generà score continov. El riva a 86,5% sora Terminal-Bench V2, 78,2% sora SWE-Bench Verified e 87,4% sora RoboRewardBench. Ona estension per Claude Code la permett ai sviluppador de monitorà i sò sistema agentich."
+              },
+              "kicker": {
+                "fr": "LLM-as-a-Verifier",
+                "en": "LLM-as-a-Verifier",
+                "de": "LLM-as-a-Verifier",
+                "it": "LLM-as-a-Verifier",
+                "lmo": "LLM-as-a-Verifier"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://llm-as-a-verifier.com/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "La Communauté & Édito",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Débats",
+            "en": "Signals & Debates",
+            "de": "Signaux & Débats",
+            "it": "Segnali & Dibattiti",
+            "lmo": "Segnai & Debat"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Microsoft licencie 4 800 employés, dont les divisions Xbox et ventes",
+                "en": "Microsoft lays off 4,800 employees, including Xbox and sales divisions",
+                "de": "Microsoft licencie 4 800 employés, dont les divisions Xbox et ventes",
+                "it": "Microsoft licenzia 4 800 dipendenti, comprese le divisioni Xbox e vendite",
+                "lmo": "Microsoft el licenzia 4 800 impiegaa, compres i division Xbox e vendit"
+              },
+              "body": {
+                "fr": "Microsoft a annoncé le 6 juillet 2026 le licenciement d'environ <a href='https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/'>4 800 employés</a>, soit 2,1 % de ses effectifs mondiaux. Les divisions Xbox et ventes commerciales sont les plus touchées. Ces coupes interviennent un an après une précédente vague de 9 100 licenciements, et alimentent les craintes de remplacement des emplois par l'IA.",
+                "en": "Microsoft announced on July 6, 2026 the layoff of approximately <a href='https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/'>4,800 employees</a>, or 2.1% of its global workforce. The Xbox and commercial sales divisions are the most affected. These cuts come a year after a previous wave of 9,100 layoffs, fueling fears of job replacement by AI.",
+                "de": "Microsoft a annoncé le 6 juillet 2026 le licenciement d'environ <a href='https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/'>4 800 employés</a>, soit 2,1 % de ses effectifs mondiaux. Les divisions Xbox et ventes commerciales sont les plus touchées. Ces coupes interviennent un an après une précédente vague de 9 100 licenciements, et alimentent les craintes de remplacement des emplois par l'IA.",
+                "it": "Microsoft ha annunciato il 6 luglio 2026 il licenziamento di circa <a href='https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/'>4 800 dipendenti</a>, pari al 2,1% della sua forza lavoro globale. Le divisioni Xbox e vendite commerciali sono le più colpite. Questi tagli arrivano un anno dopo una precedente ondata di 9 100 licenziamenti e alimentano i timori di sostituzione dei posti di lavoro da parte dell'IA.",
+                "lmo": "Microsoft l'ha anunziaa el 6 de luj 2026 el licenziament de circa <a href='https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/'>4 800 impiegaa</a>, o ben 2,1% di sò efettiv mondiai. I division Xbox e vendit commerciai hinn i pussee toccade. 'Sti taj chì riven on ann dopo d'ona veggia ondata de 9 100 licenziament, e alimenten i pagur de sostituzion di post de lavor de l'IA."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/06/microsoft-lays-off-nearly-5000-employees-across-xbox-commercial-sales/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Une attaque ransomware pilotée par IA… mais pas sans humain",
+                "en": "An AI-driven ransomware attack... but not without a human",
+                "de": "Une attaque ransomware pilotée par IA… mais pas sans humain",
+                "it": "Un attacco ransomware guidato dall'IA... ma non senza umani",
+                "lmo": "On attacch ransomware guidaa de l'IA... ma no senza uman"
+              },
+              "body": {
+                "fr": "Un agent IA a exécuté techniquement <a href='https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/'>la première attaque ransomware</a> connue, mais les détails révèlent qu'un humain a choisi la victime, mis en place l'infrastructure et fourni les identifiants volés. L'attaque n'était donc pas une cybercriminalité entièrement autonome comme les gros titres de la semaine dernière le suggéraient.",
+                "en": "An AI agent technically executed <a href='https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/'>the first known ransomware attack</a>, but details reveal that a human chose the victim, set up the infrastructure, and provided the stolen credentials. The attack was therefore not fully autonomous cybercrime as last week's headlines suggested.",
+                "de": "Un agent IA a exécuté techniquement <a href='https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/'>la première attaque ransomware</a> connue, mais les détails révèlent qu'un humain a choisi la victime, mis en place l'infrastructure et fourni les identifiants volés. L'attaque n'était donc pas une cybercriminalité entièrement autonome comme les gros titres de la semaine dernière le suggéraient.",
+                "it": "Un agente IA ha eseguito tecnicamente <a href='https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/'>il primo attacco ransomware</a> conosciuto, ma i dettagli rivelano che un umano ha scelto la vittima, impostato l'infrastruttura e fornito le credenziali rubate. L'attacco non era quindi una criminalità informatica interamente autonoma come i titoli della scorsa settimana suggerivano.",
+                "lmo": "On agent IA l'ha eseguii tecnicament <a href='https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/'>la prima attacch ransomware</a> conossuda, ma i detaj revèlen che on uman l'ha scernii la vitima, mettuu in pè l'infrastruttura e fornii i credenziai robade. L'attacch donca l'era no ona criminalità informatega completament autonoma 'me che i gros titoi de la setemana passada suggeriven."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sécurité",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/06/the-first-ai-run-ransomware-attack-still-needed-a-human/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Alibaba : le succès de Qwen ne se transforme pas encore en revenus",
+                "en": "Alibaba: Qwen's success has yet to translate into revenue",
+                "de": "Alibaba : le succès de Qwen ne se transforme pas encore en revenus",
+                "it": "Alibaba: il successo di Qwen non si trasforma ancora in ricavi",
+                "lmo": "Alibaba: el success de Qwen el se trasform no anmò in introit"
+              },
+              "body": {
+                "fr": "Le <a href='https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html'>New York Times</a> analyse le paradoxe d'Alibaba : ses modèles Qwen ont conquis les développeurs du monde entier, mais leur nature open source — librement utilisables et modifiables — rend difficile leur monétisation directe. Un défi stratégique pour le géant chinois face à des concurrents aux modèles propriétaires.",
+                "en": "The <a href='https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html'>New York Times</a> analyzes Alibaba's paradox: its Qwen models have won over developers worldwide, but their open-source nature — freely usable and modifiable — makes direct monetization difficult. A strategic challenge for the Chinese giant facing competitors with proprietary models.",
+                "de": "Le <a href='https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html'>New York Times</a> analyse le paradoxe d'Alibaba : ses modèles Qwen ont conquis les développeurs du monde entier, mais leur nature open source — librement utilisables et modifiables — rend difficile leur monétisation directe. Un défi stratégique pour le géant chinois face à des concurrents aux modèles propriétaires.",
+                "it": "Il <a href='https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html'>New York Times</a> analizza il paradosso di Alibaba: i suoi modelli Qwen hanno conquistato gli sviluppatori di tutto il mondo, ma la loro natura open source — liberamente utilizzabili e modificabili — rende difficile la loro monetizzazione diretta. Una sfida strategica per il gigante cinese di fronte a concorrenti con modelli proprietari.",
+                "lmo": "El <a href='https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html'>New York Times</a> l'analizza el paradox de Alibaba: i sò modèj Qwen hann conquistaa i sviluppador de tutt el mond, ma la sò natura open source — liberament doperabel e modificabel — la rend difficil la sò monetizzazion diretta. On sfida strategica per el gigant cines denanz ai competitor con modèj proprietari."
+              },
+              "kicker": {
+                "fr": "Open Source",
+                "en": "Open Source",
+                "de": "Open Source",
+                "it": "Open Source",
+                "lmo": "Open Source"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "LongCat-2.0 et Hy3 : deux gros modèles ouverts en un jour",
+                "en": "LongCat-2.0 and Hy3: two large open models in one day",
+                "de": "LongCat-2.0 et Hy3 : deux gros modèles ouverts en un jour",
+                "it": "LongCat-2.0 e Hy3: due grandi modelli aperti in un giorno",
+                "lmo": "LongCat-2.0 e Hy3: du grand modèj dervid in d'on dì"
+              },
+              "body": {
+                "fr": "La communauté open source a vu arriver le 5 et 6 juillet 2026 deux modèles massifs : <a href='https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/'>LongCat-2.0</a> de Meituan (1,6T paramètres, MIT) et <a href='https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/'>Hy3</a> de Tencent (295B, Apache 2.0). Sur r/LocalLLaMA, les discussions portent sur l'impact de ces modèles pour l'inférence locale et la souveraineté des données.",
+                "en": "The open-source community saw the arrival on July 5 and 6, 2026 of two massive models: <a href='https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/'>LongCat-2.0</a> from Meituan (1.6T parameters, MIT) and <a href='https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/'>Hy3</a> from Tencent (295B, Apache 2.0). On r/LocalLLaMA, discussions focus on the impact of these models for local inference and data sovereignty.",
+                "de": "La communauté open source a vu arriver le 5 et 6 juillet 2026 deux modèles massifs : <a href='https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/'>LongCat-2.0</a> de Meituan (1,6T paramètres, MIT) et <a href='https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/'>Hy3</a> de Tencent (295B, Apache 2.0). Sur r/LocalLLaMA, les discussions portent sur l'impact de ces modèles pour l'inférence locale et la souveraineté des données.",
+                "it": "La comunità open source ha visto arrivare il 5 e 6 luglio 2026 due modelli massicci: <a href='https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/'>LongCat-2.0</a> di Meituan (1,6T parametri, MIT) e <a href='https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/'>Hy3</a> di Tencent (295B, Apache 2.0). Su r/LocalLLaMA, le discussioni vertono sull'impatto di questi modelli per l'inferenza locale e la sovranità dei dati.",
+                "lmo": "La comunità open source l'ha veduu rivà el 5 e 6 de luj 2026 du modèj massiv: <a href='https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/'>LongCat-2.0</a> de Meituan (1,6T parametri, MIT) e <a href='https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/'>Hy3</a> de Tencent (295B, Apache 2.0). Sora r/LocalLLaMA, i discussion hinn sora l'impatt de 'sti modèj chì per l'inferenza locala e la sovranità di dacc."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Communauté",
+                "it": "Comunità",
+                "lmo": "Comunità"
+              },
+              "wire": {
+                "fr": "2026-07-06",
+                "en": "2026-07-06",
+                "de": "2026-07-06",
+                "it": "2026-07-06",
+                "lmo": "2026-07-06"
+              },
+              "urls": [
+                "https://www.reddit.com/r/LocalLLaMA/comments/1unyvnz/longcat_20_16t_48b_active_weights_are_now_open/",
+                "https://www.reddit.com/r/LocalLLaMA/comments/1uoozt4/new_open_model_from_tencent_hy_hy3_295b_total_21b/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Édito",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'open source des modèles géants : bénédiction ou malédiction économique ?",
+                "en": "Open-source giant models: blessing or economic curse?",
+                "de": "L'open source des modèles géants : bénédiction ou malédiction économique ?",
+                "it": "L'open source dei modelli giganti: benedizione o maledizione economica?",
+                "lmo": "L'open source di modèj gigant: benedizion o maledizion economega?"
+              },
+              "body": {
+                "fr": "La publication simultanée de LongCat-2.0 (1,6T paramètres, MIT) par Meituan et de Hy3 (295B, Apache 2.0) par Tencent marque un tournant dans la stratégie des géants chinois de l'IA. Alors que le New York Times souligne la difficulté d'Alibaba à monétiser Qwen, ces ouvertures posent une question fondamentale : quel modèle économique pour l'IA open source à l'échelle des centaines de milliards de paramètres ?<br><br>D'un côté, la transparence et la reproductibilité sont des valeurs cardinales de la recherche. De l'autre, les coûts d'entraînement — estimés à plusieurs dizaines de millions de dollars pour un modèle de cette taille — rendent la gratuité difficilement soutenable sans modèle de revenus adjacent (cloud, services, fine-tuning).<br><br>La réponse viendra peut-être de l'infrastructure : comme le montre l'analyse de ByteDance Seed dans EdgeBench, la valeur réelle des modèles ne réside pas seulement dans leurs poids, mais dans leur capacité à apprendre et à s'adapter aux environnements réels. Les entreprises qui sauront transformer l'open source en avantage compétitif pour l'inférence et l'adaptation — plutôt que pour la simple distribution de poids — seront celles qui prospéreront dans cette nouvelle ère.",
+                "en": "The simultaneous release of LongCat-2.0 (1.6T parameters, MIT) by Meituan and Hy3 (295B, Apache 2.0) by Tencent marks a turning point in the strategy of Chinese AI giants. As the New York Times highlights Alibaba's difficulty in monetizing Qwen, these openings raise a fundamental question: what business model for open-source AI at the scale of hundreds of billions of parameters?<br><br>On one hand, transparency and reproducibility are cardinal values of research. On the other, training costs — estimated at several tens of millions of dollars for a model of this size — make free distribution difficult to sustain without an adjacent revenue model (cloud, services, fine-tuning).<br><br>The answer may come from infrastructure: as ByteDance Seed's analysis in EdgeBench shows, the real value of models lies not only in their weights, but in their ability to learn and adapt to real-world environments. Companies that can turn open source into a competitive advantage for inference and adaptation — rather than for mere weight distribution — will be the ones that thrive in this new era.",
+                "de": "La publication simultanée de LongCat-2.0 (1,6T paramètres, MIT) par Meituan et de Hy3 (295B, Apache 2.0) par Tencent marque un tournant dans la stratégie des géants chinois de l'IA. Alors que le New York Times souligne la difficulté d'Alibaba à monétiser Qwen, ces ouvertures posent une question fondamentale : quel modèle économique pour l'IA open source à l'échelle des centaines de milliards de paramètres ?<br><br>D'un côté, la transparence et la reproductibilité sont des valeurs cardinales de la recherche. De l'autre, les coûts d'entraînement — estimés à plusieurs dizaines de millions de dollars pour un modèle de cette taille — rendent la gratuité difficilement soutenable sans modèle de revenus adjacent (cloud, services, fine-tuning).<br><br>La réponse viendra peut-être de l'infrastructure : comme le montre l'analyse de ByteDance Seed dans EdgeBench, la valeur réelle des modèles ne réside pas seulement dans leurs poids, mais dans leur capacité à apprendre et à s'adapter aux environnements réels. Les entreprises qui sauront transformer l'open source en avantage compétitif pour l'inférence et l'adaptation — plutôt que pour la simple distribution de poids — seront celles qui prospéreront dans cette nouvelle ère.",
+                "it": "La pubblicazione simultanea di LongCat-2.0 (1,6T parametri, MIT) da parte di Meituan e di Hy3 (295B, Apache 2.0) da parte di Tencent segna una svolta nella strategia dei giganti cinesi dell'IA. Mentre il New York Times sottolinea la difficoltà di Alibaba a monetizzare Qwen, queste aperture pongono una domanda fondamentale: quale modello economico per l'IA open source alla scala delle centinaia di miliardi di parametri?<br><br>Da un lato, la trasparenza e la riproducibilità sono valori cardine della ricerca. Dall'altro, i costi di addestramento — stimati in diverse decine di milioni di dollari per un modello di queste dimensioni — rendono la gratuità difficilmente sostenibile senza un modello di ricavi adiacente (cloud, servizi, fine-tuning).<br><br>La risposta verrà forse dall'infrastruttura: come mostra l'analisi di ByteDance Seed in EdgeBench, il valore reale dei modelli non risiede solo nei loro pesi, ma nella loro capacità di apprendere e adattarsi agli ambienti reali. Le aziende che sapranno trasformare l'open source in un vantaggio competitivo per l'inferenza e l'adattamento — piuttosto che per la semplice distribuzione di pesi — saranno quelle che prospereranno in questa nuova era.",
+                "lmo": "La publicazion simultania de LongCat-2.0 (1,6T parametri, MIT) de Meituan e de Hy3 (295B, Apache 2.0) de Tencent la marca on svolt in la strategia di gigant cines de l'IA. Menter che 'l New York Times el sottolinia la difficoltà de Alibaba a monetizzà Qwen, 'sti dervidur chì metten ona question fondamental: che modèl economegh per l'IA open source a la scala di centenar de miliard de parametri?<br><br>D'ona part, la trasparenza e la reprodutibilità hinn valor cardinaj de la ricerca. De l'oltra, i cost d'allenament — stimaa a desen de milion de dollar per on modèl de 'sta grandezza — renden la gratuità difficilment sostenibel senza on modèl de introit adiacent (cloud, servizzi, fine-tuning).<br><br>La risposta la vegnarà forsi de l'infrastruttura: 'me che 'l mostra l'analisi de ByteDance Seed in EdgeBench, el valor real di modèj el sta no domà in di sò pes, ma in la soa capacità de imprend e adattàss ai ambient reai. I aziend che savaran trasformà l'open source in vantagg competitiv per l'inferenza e l'adattament — piuttost che per la sempliz distribuzion di pes — saran quei che prosperaran in 'sta noeuva era."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Éditorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/06/business/alibaba-ai-qwen.html",
+                "https://edge-bench.org/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
