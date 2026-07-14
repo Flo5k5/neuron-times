@@ -1,0 +1,688 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-14",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le 13 juillet 2026, Richard Sutton, co-lauréat du prix Turing 2024 et co-fondateur de l'apprentissage par renforcement moderne, a annoncé la création d'Oak Lab, une startup basée à Toronto. Dans une interview accordée à <a href=\"https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/\">The Decoder</a>, Sutton a qualifié les méthodes actuelles d'apprentissage profond de « faibles et inefficaces », appelant à une rupture paradigmatique vers des agents capables d'apprendre de manière continue depuis leur environnement, sans dépendre de jeux de données figés ni de supervisions humaines massives.",
+        "en": "On 13 July 2026, Richard Sutton, co-winner of the 2024 Turing Award and co-founder of modern reinforcement learning, announced the creation of Oak Lab, a Toronto-based startup. In an interview with <a href=\"https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/\">The Decoder</a>, Sutton described current deep learning methods as \"weak and inefficient,\" calling for a paradigm shift toward agents capable of learning continuously from their environment, without relying on static datasets or massive human supervision.",
+        "de": "Am 13. Juli 2026 gab Richard Sutton, Mitgewinner des Turing-Preises 2024 und Mitbegründer des modernen bestärkenden Lernens, die Gründung von Oak Lab bekannt, einem Startup mit Sitz in Toronto. In einem Interview mit <a href=\"https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/\">The Decoder</a> bezeichnete Sutton die aktuellen Methoden des Deep Learning als «schwach und ineffizient» und forderte einen Paradigmenwechsel hin zu Agenten, die kontinuierlich aus ihrer Umgebung lernen können, ohne auf statische Datensätze oder massive menschliche Aufsicht angewiesen zu sein.",
+        "it": "Il 13 luglio 2026, Richard Sutton, co-vincitore del Premio Turing 2024 e co-fondatore del moderno apprendimento per rinforzo, ha annunciato la creazione di Oak Lab, una startup con sede a Toronto. In un'intervista rilasciata a <a href=\"https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/\">The Decoder</a>, Sutton ha definito gli attuali metodi di deep learning «deboli e inefficienti», chiedendo una rottura paradigmatica verso agenti in grado di apprendere in modo continuo dal proprio ambiente, senza dipendere da dataset fissi né da supervisioni umane massive.",
+        "lmo": "El 13 de luj 2026, Richard Sutton, co-vencedor del premi Turing 2024 e co-fondator de l'imprendiment per rinforz modern, l'ha anunziaa la creazzion de Oak Lab, ona startup con sed a Toronto. In d'ona intervista conceduda a <a href=\"https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/\">The Decoder</a>, Sutton l'ha qualificaa i metod d'incoeu de l'imprendiment profond 'debol e inefficent', ciamand a ona rottura paradigmatiga vers di agent bon de imparà de manera continova del sò ambient, senza dipender de dataset fiss nè de supervision umane massizze."
+      },
+      {
+        "fr": "Oak Lab se donne pour mission de construire des systèmes d'IA qui « apprennent en faisant », en s'inspirant des principes fondamentaux du reinforcement learning que Sutton a contribué à formaliser dans son ouvrage de référence « Reinforcement Learning: An Introduction ». L'approche vise à remplacer le paradigme dominant de l'entraînement hors ligne sur des corpus statiques par un apprentissage en ligne, où l'agent explore, interagit et améliore sa politique de manière autonome. Aucun détail sur le financement ou le calendrier de recherche n'a été divulgué.",
+        "en": "Oak Lab's mission is to build AI systems that \"learn by doing,\" drawing on the fundamental principles of reinforcement learning that Sutton helped formalise in his landmark textbook \"Reinforcement Learning: An Introduction.\" The approach aims to replace the dominant paradigm of offline training on static corpora with online learning, where the agent explores, interacts and improves its policy autonomously. No details on funding or research timeline have been disclosed.",
+        "de": "Oak Lab hat sich zum Ziel gesetzt, KI-Systeme zu bauen, die «durch Handeln lernen», inspiriert von den grundlegenden Prinzipien des bestärkenden Lernens, die Sutton in seinem Standardwerk «Reinforcement Learning: An Introduction» mitformalisiert hat. Der Ansatz zielt darauf ab, das vorherrschende Paradigma des Offline-Trainings auf statischen Korpora durch Online-Lernen zu ersetzen, bei dem der Agent eigenständig erkundet, interagiert und seine Politik verbessert. Details zur Finanzierung oder zum Forschungsfahrplan wurden nicht bekannt gegeben.",
+        "it": "Oak Lab si propone di costruire sistemi di IA che «imparano facendo», ispirandosi ai principi fondamentali del reinforcement learning che Sutton ha contribuito a formalizzare nel suo libro di riferimento «Reinforcement Learning: An Introduction». L'approccio mira a sostituire il paradigma dominante dell'addestramento offline su corpora statici con un apprendimento online, in cui l'agente esplora, interagisce e migliora la propria politica in modo autonomo. Nessun dettaglio sul finanziamento o sul calendario della ricerca è stato divulgato.",
+        "lmo": "Oak Lab el se da la mission de costruì di sistema d'IA che 'imparen fann', ispirandess ai principi fondamentai del reinforcement learning che Sutton l'ha contribuii a formalizzà in del sò liber de riferiment 'Reinforcement Learning: An Introduction'. L'approcci el mira a sostituì el paradigma dominant de l'addestrament foeura de linia sora di corpus statich cont on imprendiment in linia, indove l'agent l'esplora, l'interagiss e 'l migliora la soa politega de manera autonoma. Nissun detaj sora el finanziament o 'l calendari de ricerca l'è staa divulgaa."
+      },
+      {
+        "fr": "Cette annonce intervient alors que plus de 200 économistes et chercheurs en IA, dont 16 lauréats du prix Nobel et des représentants de Google, OpenAI et Anthropic, ont publié le 13 juillet une déclaration coordonnée appelant à une action immédiate face à l'impact économique de l'IA, comme le rapporte <a href=\"https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/\">The Decoder</a>. Le texte prévient que la transformation induite par l'IA pourrait dépasser la Révolution industrielle, mais se dérouler en une fraction du temps, sans toutefois proposer de mesures concrètes.",
+        "en": "This announcement comes as more than 200 economists and AI researchers, including 16 Nobel laureates and representatives from Google, OpenAI and Anthropic, published a coordinated statement on 13 July calling for immediate action on the economic impact of AI, as reported by <a href=\"https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/\">The Decoder</a>. The text warns that the transformation driven by AI could surpass the Industrial Revolution but unfold in a fraction of the time, without however proposing concrete measures.",
+        "de": "Diese Ankündigung erfolgt, während über 200 Ökonomen und KI-Forscher, darunter 16 Nobelpreisträger und Vertreter von Google, OpenAI und Anthropic, am 13. Juli eine koordinierte Erklärung veröffentlichten, die sofortiges Handeln angesichts der wirtschaftlichen Auswirkungen der KI fordert, wie <a href=\"https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/\">The Decoder</a> berichtet. Der Text warnt davor, dass der durch KI ausgelöste Wandel die Industrielle Revolution übertreffen könnte, sich aber in einem Bruchteil der Zeit vollziehen werde, ohne jedoch konkrete Massnahmen vorzuschlagen.",
+        "it": "Questo annuncio arriva mentre oltre 200 economisti e ricercatori di IA, tra cui 16 vincitori del Premio Nobel e rappresentanti di Google, OpenAI e Anthropic, hanno pubblicato il 13 luglio una dichiarazione coordinata che chiede un'azione immediata di fronte all'impatto economico dell'IA, come riportato da <a href=\"https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/\">The Decoder</a>. Il testo avverte che la trasformazione indotta dall'IA potrebbe superare la Rivoluzione Industriale, ma svolgersi in una frazione del tempo, senza tuttavia proporre misure concrete.",
+        "lmo": "St'annunzi el riva intanta che pussee de 200 economista e ricercador d'IA, compres 16 premi Nobel e di rapresentant de Google, OpenAI e Anthropic, hann publicaa el 13 de luj ona declarazion coordinada che la ciama a on'azzion immediada denanz a l'impatt economegh de l'IA, come 'l reporta <a href=\"https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/\">The Decoder</a>. El test el preven che la trasformazion indota de l'IA la podaria superà la Revoluzzion Industrial, ma desligàss in d'ona frazzion del temp, senza però proponì di misure concret."
+      }
+    ],
+    "urls": [
+      "https://the-decoder.com/turing-award-winner-rich-sutton-founds-oak-lab-to-build-ai-agents-that-learn-on-their-own/",
+      "https://the-decoder.com/nobel-laureates-and-ai-leaders-warn-the-window-to-prepare-for-ais-economic-impact-is-closing-fast/"
+    ],
+    "kicker": {
+      "fr": "Apprentissage autonome",
+      "en": "Autonomous Learning",
+      "de": "Selbstständiges Lernen",
+      "it": "Apprendimento autonomo",
+      "lmo": "Imprendiment autonom"
+    },
+    "headline": {
+      "fr": "Rich Sutton, prix Turing, fonde Oak Lab pour des agents qui apprennent en continu",
+      "en": "Turing Award Winner Rich Sutton Founds Oak Lab to Build Agents That Learn Continuously",
+      "de": "Rich Sutton, Turing-Preisträger, gründet Oak Lab für Agenten, die kontinuierlich lernen",
+      "it": "Rich Sutton, premio Turing, fonda Oak Lab per agenti che apprendono in modo continuo",
+      "lmo": "Rich Sutton, premi Turing, el fonda Oak Lab per di agent che imparen in continov"
+    },
+    "subdeck": {
+      "fr": "Le co-inventeur de l'apprentissage par renforcement critique les méthodes actuelles et lance un laboratoire pour des agents véritablement autonomes.",
+      "en": "The co-inventor of reinforcement learning criticises current methods and launches a lab for truly autonomous agents.",
+      "de": "Der Miterfinder des bestärkenden Lernens kritisiert die aktuellen Methoden und gründet ein Labor für wirklich autonome Agenten.",
+      "it": "Il co-inventore dell'apprendimento per rinforzo critica i metodi attuali e lancia un laboratorio per agenti veramente autonomi.",
+      "lmo": "El co-inventor de l'imprendiment per rinforz el critica i metod d'incoeu e 'l lanza on laboratori per di agent verament autonom."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "TRACE : Stanford transforme les échecs d'agents en environnements d'entraînement",
+        "en": "TRACE: Stanford Turns Agent Failures into Training Environments",
+        "de": "TRACE: Stanford verwandelt Agentenfehler in Trainingsumgebungen",
+        "it": "TRACE: Stanford trasforma i fallimenti degli agenti in ambienti di addestramento",
+        "lmo": "TRACE: Stanford la trasforma i falliment di agent in ambient d'addestrament"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\">Stanford a dévoilé TRACE</a>, un système d'entraînement agentique ciblé sur les capacités. TRACE diagnostique les lacunes récurrentes d'un agent à partir de ses propres trajectoires, synthétise un environnement d'entraînement vérifiable par capacité, entraîne un adaptateur LoRA pour chacune, et achemine les tokens entre experts. Le système améliore τ²-Bench de +15,3 points et atteint 73,2 % Pass@1 sur SWE-bench Verified.",
+        "en": "On 13 July 2026, <a href=\"https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\">Stanford unveiled TRACE</a>, a targeted agentic training system focused on capabilities. TRACE diagnoses an agent's recurring gaps from its own trajectories, synthesises a verifiable per-capability training environment, trains a LoRA adapter for each, and routes tokens between experts. The system improves τ²-Bench by +15.3 points and achieves 73.2% Pass@1 on SWE-bench Verified.",
+        "de": "Am 13. Juli 2026 hat <a href=\"https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\">Stanford TRACE vorgestellt</a>, ein agentisches Trainingssystem, das auf Fähigkeiten abzielt. TRACE diagnostiziert wiederkehrende Lücken eines Agenten anhand seiner eigenen Trajektorien, synthetisiert eine fähigkeitsspezifische, verifizierbare Trainingsumgebung, trainiert einen LoRA-Adapter für jede Fähigkeit und leitet Tokens zwischen Experten weiter. Das System verbessert τ²-Bench um +15,3 Punkte und erreicht 73,2 % Pass@1 auf SWE-bench Verified.",
+        "it": "Il 13 luglio 2026, <a href=\"https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\">Stanford ha svelato TRACE</a>, un sistema di addestramento agentico mirato sulle capacità. TRACE diagnostica le lacune ricorrenti di un agente a partire dalle proprie traiettorie, sintetizza un ambiente di addestramento verificabile per capacità, addestra un adattatore LoRA per ciascuna e instrada i token tra esperti. Il sistema migliora τ²-Bench di +15,3 punti e raggiunge il 73,2% Pass@1 su SWE-bench Verified.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/\">Stanford l'ha desvelaa TRACE</a>, on sistema d'addestrament agentigh miraa sora i capacità. TRACE el diagnostega i lacun recurrent d'on agent a partì di sò propri traietori, el sintetizza on ambient d'addestrament verificabil per capacità, l'addestra on adattador LoRA per ognuna, e 'l achemia i token tra i espert. El sistema el migliora τ²-Bench de +15,3 pont e 'l riva a 73,2 % Pass@1 sora SWE-bench Verified."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/13/stanford-researchers-introduce-trace/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Prime Intellect lance Verifiers v1 pour l'entraînement RL agentique",
+        "en": "Prime Intellect Launches Verifiers v1 for Agentic RL Training",
+        "de": "Prime Intellect bringt Verifiers v1 für agentisches RL-Training heraus",
+        "it": "Prime Intellect lancia Verifiers v1 per l'addestramento RL agentico",
+        "lmo": "Prime Intellect el lanza Verifiers v1 per l'addestrament RL agentigh"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/\">Prime Intellect a publié Verifiers v1</a>, une refonte de son framework d'entraînement RL agentique. La version v1 sépare chaque environnement en trois composants : un taskset (quoi), un harness (comment) et un runtime (où), avec un serveur d'interception qui proxy les requêtes et enregistre les traces prêtes pour l'entraînement. Tout taskset fonctionne sous tout harness compatible, avec un support complet de prime-rl dès le lancement.",
+        "en": "On 13 July 2026, <a href=\"https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/\">Prime Intellect released Verifiers v1</a>, a redesign of its agentic RL training framework. Version v1 separates each environment into three components: a taskset (what), a harness (how) and a runtime (where), with an interception server that proxies requests and records traces ready for training. Any taskset works under any compatible harness, with full prime-rl support at launch.",
+        "de": "Am 13. Juli 2026 hat <a href=\"https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/\">Prime Intellect Verifiers v1 veröffentlicht</a>, eine Neugestaltung seines agentischen RL-Trainingsframeworks. Version v1 trennt jede Umgebung in drei Komponenten: ein Taskset (was), ein Harness (wie) und eine Laufzeitumgebung (wo), mit einem Abfangserver, der Anfragen proxyt und trainingsbereite Spuren aufzeichnet. Jedes Taskset funktioniert mit jedem kompatiblen Harness, mit vollständiger prime-rl-Unterstützung ab dem Start.",
+        "it": "Il 13 luglio 2026, <a href=\"https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/\">Prime Intellect ha pubblicato Verifiers v1</a>, una riprogettazione del suo framework di addestramento RL agentico. La versione v1 separa ogni ambiente in tre componenti: un taskset (cosa), un harness (come) e un runtime (dove), con un server di intercettazione che proxy le richieste e registra le tracce pronte per l'addestramento. Ogni taskset funziona con qualsiasi harness compatibile, con supporto completo di prime-rl dal lancio.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/\">Prime Intellect l'ha publicaa Verifiers v1</a>, ona refonta del sò framework d'addestrament RL agentigh. La version v1 la separa ogni ambient in trii component: on taskset (cossa), on harness (come) e on runtime (indove), cont on server d'intercettazion che 'l fa da proxy ai ciamad e 'l registra i tracce pront per l'addestrament. Ogni taskset el fonziona sotta ogni harness compatibel, cont on support complet de prime-rl del lanz."
+      },
+      "tag": {
+        "fr": "Outils",
+        "en": "Tools",
+        "de": "Werkzeuge",
+        "it": "Strumenti",
+        "lmo": "Oeuri"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/13/prime-intellect-releases-verifiers-v1/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "MORPHEUS : un benchmark de simulation d'entreprise pour le RL continu",
+        "en": "MORPHEUS: An Enterprise Simulation Benchmark for Continual RL",
+        "de": "MORPHEUS: Ein Unternehmenssimulations-Benchmark für kontinuierliches RL",
+        "it": "MORPHEUS: un benchmark di simulazione aziendale per il RL continuo",
+        "lmo": "MORPHEUS: on benchmark de simulazion d'impresa per el RL continov"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/\">Skyfall AI a publié MORPHEUS</a>, une plateforme de simulation d'entreprise persistante pour l'apprentissage par renforcement continu. Les mondes ne se réinitialisent jamais, utilisant des changements de régime paramétrables et un protocole d'évaluation à six métriques. PPO, HER, EWC et LCM restent tous bien en dessous de la borne supérieure théorique.",
+        "en": "On 13 July 2026, <a href=\"https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/\">Skyfall AI released MORPHEUS</a>, a persistent enterprise simulation platform for continual reinforcement learning. Worlds never reset, using configurable regime changes and a six-metric evaluation protocol. PPO, HER, EWC and LCM all remain well below the theoretical upper bound.",
+        "de": "Am 13. Juli 2026 hat <a href=\"https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/\">Skyfall AI MORPHEUS veröffentlicht</a>, eine persistente Unternehmenssimulationsplattform für kontinuierliches bestärkendes Lernen. Die Welten werden nie zurückgesetzt, nutzen parametrisierbare Regimewechsel und ein Bewertungsprotokoll mit sechs Metriken. PPO, HER, EWC und LCM bleiben alle deutlich unter der theoretischen Obergrenze.",
+        "it": "Il 13 luglio 2026, <a href=\"https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/\">Skyfall AI ha pubblicato MORPHEUS</a>, una piattaforma di simulazione aziendale persistente per l'apprendimento per rinforzo continuo. I mondi non si resettano mai, utilizzando cambi di regime parametrizzabili e un protocollo di valutazione a sei metriche. PPO, HER, EWC e LCM rimangono tutti ben al di sotto del limite superiore teorico.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/\">Skyfall AI l'ha publicaa MORPHEUS</a>, ona piattaforma de simulazion d'impresa persistent per l'imprendiment per rinforz continov. I mond se reinitizializen mai, doperand di cambiament de regim parametrabil e on protocoll de valutazion a ses metrich. PPO, HER, EWC e LCM resten tucc ben sotta la limit superiora teorega."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/13/skyfall-ai-releases-morpheus-a-persistent-enterprise-simulation-benchmark-that-makes-continual-reinforcement-learning-necessary-under-structured-non-stationarity/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "L'industrie musicale propose des labels pour les morceaux générés par IA",
+        "en": "Music Industry Proposes Labels for AI-Generated Tracks",
+        "de": "Musikindustrie schlägt Labels für KI-generierte Stücke vor",
+        "it": "L'industria musicale propone etichette per i brani generati dall'IA",
+        "lmo": "L'industria musical la proponn di label per i tocch generaa per IA"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html\">The New York Times</a> rapporte que les principaux groupes de l'industrie musicale, dont l'organisation derrière les Grammy Awards, ont proposé d'ajouter des étiquettes pour les morceaux créés avec un certain degré d'intelligence artificielle, sur le modèle des avertissements pour paroles explicites.",
+        "en": "On 13 July 2026, <a href=\"https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html\">The New York Times</a> reports that major music industry groups, including the organisation behind the Grammy Awards, have proposed adding labels for tracks created with some degree of artificial intelligence, modelled on explicit-content warnings.",
+        "de": "Am 13. Juli 2026 berichtet <a href=\"https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html\">The New York Times</a>, dass die wichtigsten Gruppen der Musikindustrie, darunter die Organisation hinter den Grammy Awards, vorgeschlagen haben, Etiketten für Stücke hinzuzufügen, die mit einem gewissen Grad an künstlicher Intelligenz erstellt wurden, nach dem Vorbild der Warnhinweise für explizite Texte.",
+        "it": "Il 13 luglio 2026, <a href=\"https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html\">The New York Times</a> riporta che i principali gruppi dell'industria musicale, inclusa l'organizzazione dietro i Grammy Awards, hanno proposto di aggiungere etichette per i brani creati con un certo grado di intelligenza artificiale, sul modello degli avvisi per testi espliciti.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html\">The New York Times</a> el reporta che i principai grupp de l'industria musical, compres l'organizzazion dedree ai Grammy Awards, hann propost de giontà di etichett per i tocch creaa cont on cert grad d'intelligenza artificial, sul model di avertiment per i test esplicet."
+      },
+      "tag": {
+        "fr": "Régulation",
+        "en": "Regulation",
+        "de": "Regulierung",
+        "it": "Regolamentazione",
+        "lmo": "Regolazion"
+      },
+      "urls": [
+        "https://www.nytimes.com/2026/07/13/arts/music/ai-labels-warnings-riaa.html"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "L'administration Trump pourrait exiger des participations dans les entreprises d'IA",
+        "en": "Trump Administration May Demand Stakes in AI Companies",
+        "de": "Trump-Administration könnte Beteiligungen an KI-Unternehmen verlangen",
+        "it": "L'amministrazione Trump potrebbe richiedere partecipazioni nelle aziende di IA",
+        "lmo": "L'aministrazion Trump la podaria ciamà di partecipazion in d'impres d'IA"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html\">The New York Times</a> rapporte que l'administration Trump acquiert des participations dans des entreprises privées, et que certains dirigeants technologiques craignent que l'examen récent des modèles d'IA par l'administration ne soit un prélude à une demande de participation au capital.",
+        "en": "On 13 July 2026, <a href=\"https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html\">The New York Times</a> reports that the Trump administration is acquiring stakes in private companies, and that some tech executives fear the administration's recent review of AI models is a prelude to demanding equity stakes.",
+        "de": "Am 13. Juli 2026 berichtet <a href=\"https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html\">The New York Times</a>, dass die Trump-Administration Beteiligungen an privaten Unternehmen erwirbt und dass einige Technologieführer befürchten, die jüngste Prüfung von KI-Modellen durch die Administration sei ein Vorspiel zu einer Forderung nach Kapitalbeteiligung.",
+        "it": "Il 13 luglio 2026, <a href=\"https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html\">The New York Times</a> riporta che l'amministrazione Trump acquisisce partecipazioni in aziende private, e che alcuni dirigenti tecnologici temono che il recente esame dei modelli di IA da parte dell'amministrazione sia un preludio a una richiesta di partecipazione al capitale.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html\">The New York Times</a> el reporta che l'aministrazion Trump la crompa di partecipazion in d'impres privad, e che di cert dirigent tecnologigh gh'hann pagura che l'esam recent di model d'IA de l'aministrazion el sia on preludi a ona domanda de partecipazion al capital."
+      },
+      "tag": {
+        "fr": "Politique",
+        "en": "Politics",
+        "de": "Politik",
+        "it": "Politica",
+        "lmo": "Politega"
+      },
+      "urls": [
+        "https://www.nytimes.com/2026/07/13/business/economy/trump-equity-stakes-ai.html"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Claude Code intègre un navigateur web pour interagir avec des sites externes",
+        "en": "Claude Code Integrates Web Browser to Interact with External Sites",
+        "de": "Claude Code integriert Webbrowser zur Interaktion mit externen Websites",
+        "it": "Claude Code integra un browser web per interagire con siti esterni",
+        "lmo": "Claude Code l'integra on navigador web per interagì con di sit forest"
+      },
+      "body": {
+        "fr": "Le 13 juillet 2026, <a href=\"https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/\">The Decoder</a> rapporte que Claude Code dispose désormais d'un navigateur intégré qui permet à l'IA d'ouvrir, lire et interagir avec des pages web directement dans l'environnement de développement. Les actions d'écriture sur des sites externes sont filtrées par des classifieurs, et les achats ou créations de compte nécessitent l'approbation de l'utilisateur.",
+        "en": "On 13 July 2026, <a href=\"https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/\">The Decoder</a> reports that Claude Code now has a built-in browser that allows the AI to open, read and interact with web pages directly within the development environment. Write actions on external sites are filtered by classifiers, and purchases or account creation require user approval.",
+        "de": "Am 13. Juli 2026 berichtet <a href=\"https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/\">The Decoder</a>, dass Claude Code nun über einen integrierten Browser verfügt, der es der KI ermöglicht, Webseiten direkt in der Entwicklungsumgebung zu öffnen, zu lesen und mit ihnen zu interagieren. Schreibaktionen auf externen Websites werden durch Klassifikatoren gefiltert, und Käufe oder Kontenerstellungen erfordern die Zustimmung des Benutzers.",
+        "it": "Il 13 luglio 2026, <a href=\"https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/\">The Decoder</a> riporta che Claude Code dispone ora di un browser integrato che consente all'IA di aprire, leggere e interagire con pagine web direttamente nell'ambiente di sviluppo. Le azioni di scrittura su siti esterni sono filtrate da classificatori, e gli acquisti o la creazione di account richiedono l'approvazione dell'utente.",
+        "lmo": "El 13 de luj 2026, <a href=\"https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/\">The Decoder</a> el reporta che Claude Code el gh'ha adess on navigador integraa che 'l permetta a l'IA de dervì, legg e interagì con di pagine web direttament in de l'ambient de desvilupp. I azion de scrivura sora di sit forest hinn filtraa di classifegador, e i crompad o creazion de account necessiten l'aprovazion de l'utent."
+      },
+      "tag": {
+        "fr": "Harnais",
+        "en": "Harness",
+        "de": "Harnisch",
+        "it": "Harnais",
+        "lmo": "Harnes"
+      },
+      "urls": [
+        "https://the-decoder.com/claude-code-now-has-a-built-in-browser-that-lets-the-ai-read-click-and-type-on-external-websites/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Model & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Soofi S : un modèle souverain allemand de 30B domine les benchmarks ouverts",
+                "en": "Soofi S: German Sovereign 30B Model Tops Open Benchmarks",
+                "de": "Soofi S: Ein deutsches souveränes 30B-Modell dominiert offene Benchmarks",
+                "it": "Soofi S: un modello sovrano tedesco da 30B domina i benchmark aperti",
+                "lmo": "Soofi S: on model sovran todesch de 30B el domina i benchmark avert"
+              },
+              "body": {
+                "fr": "Le consortium de recherche allemand a publié le 13 juillet 2026 <a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Soofi S 30B-A3B</a>, un modèle de fondation ouvert de 30 milliards de paramètres (dont 3 milliards activés par token grâce à une architecture Mixture-of-Experts hybride Mamba-Transformer). Entraîné sur environ 27 000 milliards de tokens avec un surpoids délibéré de données germanophones, Soofi S surpasse tous les modèles ouverts concurrents sur les benchmarks anglais et allemands, y compris Olmo 3 32B et Apertus 70B. Le modèle a été développé de bout en bout sur le German Industrial AI Cloud, une infrastructure HPC souveraine exploitée par Deutsche Telekom à Munich. Les poids, les hyperparamètres et les artefacts de construction seront publiés sous licence permissive.",
+                "en": "The German research consortium released on 13 July 2026 <a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Soofi S 30B-A3B</a>, an open 30-billion-parameter foundation model (3 billion activated per token via a hybrid Mamba-Transformer Mixture-of-Experts architecture). Trained on approximately 27 trillion tokens with a deliberate oversampling of German-language data, Soofi S surpasses all competing open models on both English and German benchmarks, including Olmo 3 32B and Apertus 70B. The model was developed end-to-end on the German Industrial AI Cloud, a sovereign HPC infrastructure operated by Deutsche Telekom in Munich. Weights, hyperparameters and build artefacts will be released under a permissive licence.",
+                "de": "Das deutsche Forschungskonsortium hat am 13. Juli 2026 <a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Soofi S 30B-A3B</a> veröffentlicht, ein offenes Foundation-Modell mit 30 Milliarden Parametern (davon 3 Milliarden pro Token aktiviert dank einer hybriden Mamba-Transformer-Mixture-of-Experts-Architektur). Trainiert auf etwa 27 Billionen Tokens mit einer bewussten Übergewichtung deutschsprachiger Daten, übertrifft Soofi S alle konkurrierenden offenen Modelle in englischen und deutschen Benchmarks, einschliesslich Olmo 3 32B und Apertus 70B. Das Modell wurde durchgängig auf der German Industrial AI Cloud entwickelt, einer souveränen HPC-Infrastruktur, die von der Deutschen Telekom in München betrieben wird. Die Gewichte, Hyperparameter und Bauartefakte werden unter einer permissiven Lizenz veröffentlicht.",
+                "it": "Il consorzio di ricerca tedesco ha pubblicato il 13 luglio 2026 <a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Soofi S 30B-A3B</a>, un modello foundation aperto da 30 miliardi di parametri (di cui 3 miliardi attivati per token grazie a un'architettura Mixture-of-Experts ibrida Mamba-Transformer). Addestrato su circa 27.000 miliardi di token con un sovrappeso deliberato di dati in lingua tedesca, Soofi S supera tutti i modelli aperti concorrenti nei benchmark inglesi e tedeschi, inclusi Olmo 3 32B e Apertus 70B. Il modello è stato sviluppato end-to-end sul German Industrial AI Cloud, un'infrastruttura HPC sovrana gestita da Deutsche Telekom a Monaco. I pesi, gli iperparametri e gli artefatti di costruzione saranno pubblicati con licenza permissiva.",
+                "lmo": "El consorzi de ricerca todesch l'ha publicaa el 13 de luj 2026 <a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Soofi S 30B-A3B</a>, on model de fondazion avert de 30 miliard de parameter (dont 3 miliard ativà per token grazia a ona architettura Mixture-of-Experts ibrida Mamba-Transformer). Addestrà sora circa 27 000 miliard de token cont on sorapes deliberaa de dati in lengua todesca, Soofi S el supera tucc i model avert concorrent sora i benchmark ingles e todesch, compres Olmo 3 32B e Apertus 70B. El model l'è staa sviluppaa de ponta a ponta sora el German Industrial AI Cloud, ona infrastruttura HPC sovrana gestida de Deutsche Telekom a Monaco. I pes, i iperparameter e i artefatt de costruzzion saran publicaa sotta licenza permissiva."
+              },
+              "kicker": {
+                "fr": "Modèles ouverts",
+                "en": "Open Models",
+                "de": "Offene Modelle",
+                "it": "Modelli aperti",
+                "lmo": "Model avert"
+              },
+              "urls": [
+                "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic adapte ses prix à l'Inde et prolonge l'accès gratuit à Fable 5",
+                "en": "Anthropic Localises Pricing for India and Extends Free Fable 5 Access",
+                "de": "Anthropic passt Preise für Indien an und verlängert kostenlosen Zugang zu Fable 5",
+                "it": "Anthropic adatta i prezzi all'India e prolunga l'accesso gratuito a Fable 5",
+                "lmo": "Anthropic l'adatta i sò prezzi a l'India e 'l prolunga l'access gratuit a Fable 5"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/\">TechCrunch</a> rapporte qu'Anthropic a commencé à localiser les prix de Claude pour l'Inde, son plus grand marché après les États-Unis. Les utilisateurs indiens voient désormais des plans d'abonnement libellés en roupies indiennes. Par ailleurs, Anthropic a prolongé jusqu'au 19 juillet 2026 l'accès gratuit à Claude Fable 5 pour les abonnés, une décision que <a href=\"https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/\">The Decoder</a> analyse comme une réponse à la pression tarifaire exercée par GPT-5.6 Sol d'OpenAI.",
+                "en": "On 13 July 2026, <a href=\"https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/\">TechCrunch</a> reports that Anthropic has begun localising Claude pricing for India, its largest market after the United States. Indian users now see subscription plans denominated in Indian rupees. Separately, Anthropic has extended free access to Claude Fable 5 for subscribers until 19 July 2026, a move that <a href=\"https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/\">The Decoder</a> analyses as a response to pricing pressure from OpenAI's GPT-5.6 Sol.",
+                "de": "Am 13. Juli 2026 berichtet <a href=\"https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/\">TechCrunch</a>, dass Anthropic damit begonnen hat, die Preise von Claude für Indien zu lokalisieren, seinem grössten Markt nach den USA. Indische Nutzer sehen nun Abonnementpläne in indischen Rupien. Ausserdem hat Anthropic den kostenlosen Zugang zu Claude Fable 5 für Abonnenten bis zum 19. Juli 2026 verlängert, eine Entscheidung, die <a href=\"https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/\">The Decoder</a> als Reaktion auf den Preisdruck durch OpenAIs GPT-5.6 Sol analysiert.",
+                "it": "Il 13 luglio 2026, <a href=\"https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/\">TechCrunch</a> riporta che Anthropic ha iniziato a localizzare i prezzi di Claude per l'India, il suo mercato più grande dopo gli Stati Uniti. Gli utenti indiani vedono ora piani di abbonamento in rupie indiane. Inoltre, Anthropic ha prolungato fino al 19 luglio 2026 l'accesso gratuito a Claude Fable 5 per gli abbonati, una decisione che <a href=\"https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/\">The Decoder</a> analizza come una risposta alla pressione tariffaria esercitata da GPT-5.6 Sol di OpenAI.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/\">TechCrunch</a> el reporta che Anthropic l'ha scominciaa a localizzà i prezzi de Claude per l'India, el sò mercaa pussee grand dopo i Stat Unii. I utent indian veden adess di pian de abonament in rupie indiane. D'oltra banda, Anthropic l'ha prolungaa fin al 19 de luj 2026 l'access gratuit a Claude Fable 5 per i abonaa, ona decision che <a href=\"https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/\">The Decoder</a> l'analizza come ona risposta a la pression di prezzi esercitada de GPT-5.6 Sol d'OpenAI."
+              },
+              "kicker": {
+                "fr": "Pricing",
+                "en": "Pricing",
+                "de": "Preisgestaltung",
+                "it": "Prezzi",
+                "lmo": "Prezzi"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/",
+                "https://the-decoder.com/anthropic-extends-free-fable-5-access-for-subscribers-as-openais-gpt-5-6-sol-heats-up-the-pricing-war/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI publie un guide de prompting unifié pour ChatGPT et Codex",
+                "en": "OpenAI Publishes Unified Prompting Guide for ChatGPT and Codex",
+                "de": "OpenAI veröffentlicht einheitlichen Prompting-Leitfaden für ChatGPT und Codex",
+                "it": "OpenAI pubblica una guida al prompting unificata per ChatGPT e Codex",
+                "lmo": "OpenAI la publica ona guida de prompting unificada per ChatGPT e Codex"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, OpenAI a publié un nouveau guide de prompting destiné aux utilisateurs quotidiens, comme le rapporte <a href=\"https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/\">The Decoder</a>. Plutôt que des formules rigides, le guide propose quatre blocs de construction optionnels : objectif, contexte, format et contraintes. Le conseil central est simple : décrire le résultat souhaité, pas les étapes pour y parvenir. C'est la première fois qu'OpenAI couvre à la fois ChatGPT et Codex dans un cadre unifié.",
+                "en": "On 13 July 2026, OpenAI published a new prompting guide aimed at everyday users, as reported by <a href=\"https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/\">The Decoder</a>. Rather than rigid formulas, the guide offers four optional building blocks: goal, context, format and constraints. The central advice is simple: describe the desired outcome, not the steps to achieve it. This is the first time OpenAI has covered both ChatGPT and Codex in a unified framework.",
+                "de": "Am 13. Juli 2026 veröffentlichte OpenAI einen neuen Prompting-Leitfaden für alltägliche Nutzer, wie <a href=\"https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/\">The Decoder</a> berichtet. Statt starrer Formeln schlägt der Leitfaden vier optionale Bausteine vor: Ziel, Kontext, Format und Einschränkungen. Der zentrale Ratschlag ist einfach: das gewünschte Ergebnis beschreiben, nicht die Schritte dorthin. Es ist das erste Mal, dass OpenAI sowohl ChatGPT als auch Codex in einem einheitlichen Rahmen abdeckt.",
+                "it": "Il 13 luglio 2026, OpenAI ha pubblicato una nuova guida al prompting destinata agli utenti quotidiani, come riportato da <a href=\"https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/\">The Decoder</a>. Piuttosto che formule rigide, la guida propone quattro blocchi di costruzione opzionali: obiettivo, contesto, formato e vincoli. Il consiglio centrale è semplice: descrivere il risultato desiderato, non i passaggi per raggiungerlo. È la prima volta che OpenAI copre sia ChatGPT che Codex in un quadro unificato.",
+                "lmo": "El 13 de luj 2026, OpenAI l'ha publicaa on noeuv guida de prompting destinad ai utent de tucc i dì, come 'l reporta <a href=\"https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/\">The Decoder</a>. Puttost che di formule rigid, la guida la proponn quatter bloch de costruzzion opzionai: obietiv, contest, format e vincol. El consili central l'è sempliz: descriv el resultad desideraa, no i pass per rivàgh. L'è la prima voeulta che OpenAI la querva sia ChatGPT che Codex in d'on quadri unificaa."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://the-decoder.com/openais-new-prompting-guide-tells-users-to-stop-overthinking-and-start-with-the-result/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "PixVerse lève 439 M$ pour ses modèles de monde vidéo",
+                "en": "PixVerse Raises $439M, Valuation Soars Past $2B",
+                "de": "PixVerse sammelt 439 Mio. $ für Video-Weltmodelle ein",
+                "it": "PixVerse raccoglie 439 M$ per i suoi modelli del mondo video",
+                "lmo": "PixVerse la leva 439 M$ per i sò model del mond video"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/\">TechCrunch</a> annonce que PixVerse, startup de génération vidéo par IA, a levé 439 millions de dollars, portant sa valorisation au-delà de 2 milliards de dollars. L'entreprise prévoit d'utiliser ces fonds pour étendre son offre de modèles de monde et atteindre des clients dans de nouvelles régions géographiques.",
+                "en": "On 13 July 2026, <a href=\"https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/\">TechCrunch</a> announces that PixVerse, an AI video generation startup, has raised $439 million, pushing its valuation past $2 billion. The company plans to use the funds to expand its world model offerings and reach customers in new geographic regions.",
+                "de": "Am 13. Juli 2026 gibt <a href=\"https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/\">TechCrunch</a> bekannt, dass PixVerse, ein Startup zur Videogenerierung mit KI, 439 Millionen US-Dollar eingesammelt hat, wodurch seine Bewertung auf über 2 Milliarden US-Dollar steigt. Das Unternehmen plant, die Mittel zu nutzen, um sein Angebot an Weltmodellen zu erweitern und Kunden in neuen geografischen Regionen zu erreichen.",
+                "it": "Il 13 luglio 2026, <a href=\"https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/\">TechCrunch</a> annuncia che PixVerse, startup di generazione video tramite IA, ha raccolto 439 milioni di dollari, portando la sua valutazione oltre i 2 miliardi di dollari. L'azienda prevede di utilizzare questi fondi per espandere la sua offerta di modelli del mondo e raggiungere clienti in nuove regioni geografiche.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/\">TechCrunch</a> l'anunzia che PixVerse, startup de generazion video per IA, l'ha levaa 439 milion de dollar, portand la soa valorizzazion oltra i 2 miliard de dollar. L'impresa la preved de doperà sti fond per slargà la soa offerta de model del mond e rivà a di client in di noeuv region geografigh."
+              },
+              "kicker": {
+                "fr": "Financement",
+                "en": "Funding",
+                "de": "Finanzierung",
+                "it": "Finanziamento",
+                "lmo": "Finanziament"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/13/video-generation-startup-pixverse-raises-439m-valuation-soars-past-2b/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Moteurs",
+            "en": "Harnesses & Engines",
+            "de": "Harnische & Motoren",
+            "it": "Harnais & Motori",
+            "lmo": "Harnes & Motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b9993 supporte l'architecture Hy3 de Tencent Hunyuan",
+                "en": "llama.cpp b9993 Supports Tencent Hunyuan Hy3 Architecture",
+                "de": "llama.cpp b9993 unterstützt Tencent Hunyuans Hy3-Architektur",
+                "it": "llama.cpp b9993 supporta l'architettura Hy3 di Tencent Hunyuan",
+                "lmo": "llama.cpp b9993 el supporta l'architettura Hy3 de Tencent Hunyuan"
+              },
+              "body": {
+                "fr": "La version b9993 de <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9993\">llama.cpp</a>, publiée le 13 juillet 2026, ajoute le support de l'architecture Hy3 (Hunyuan 3) de Tencent, un modèle MoE avec décodeur à plusieurs têtes, normalisation Q/K par tête, routeur sigmoïde avec biais de sélection d'expert, un expert partagé non-gaté toujours actif, et des blocs denses en tête de réseau. La release intègre également le décodage spéculatif MTP (Multi-Token Prediction) pour cette architecture.",
+                "en": "Version b9993 of <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9993\">llama.cpp</a>, released on 13 July 2026, adds support for Tencent's Hy3 (Hunyuan 3) architecture, an MoE model with multi-head decoder, per-head Q/K normalisation, sigmoid router with expert selection bias, an always-active ungated shared expert, and dense blocks at the network head. The release also integrates Multi-Token Prediction (MTP) speculative decoding for this architecture.",
+                "de": "Die Version b9993 von <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9993\">llama.cpp</a>, veröffentlicht am 13. Juli 2026, fügt Unterstützung für die Hy3-Architektur (Hunyuan 3) von Tencent hinzu, ein MoE-Modell mit Multi-Head-Decoder, Q/K-Normalisierung pro Kopf, Sigmoid-Router mit Expertenauswahl-Bias, einem immer aktiven, nicht getornten Shared Expert und dichten Blöcken im Netzwerkkopf. Das Release integriert auch spekulative Dekodierung mittels MTP (Multi-Token Prediction) für diese Architektur.",
+                "it": "La versione b9993 di <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9993\">llama.cpp</a>, pubblicata il 13 luglio 2026, aggiunge il supporto dell'architettura Hy3 (Hunyuan 3) di Tencent, un modello MoE con decoder multi-testa, normalizzazione Q/K per testa, router sigmoideo con bias di selezione dell'esperto, un esperto condiviso non-gatato sempre attivo e blocchi densi in testa alla rete. La release integra anche la decodifica speculativa MTP (Multi-Token Prediction) per questa architettura.",
+                "lmo": "La version b9993 de <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b9993\">llama.cpp</a>, publicada el 13 de luj 2026, la gionta el support de l'architettura Hy3 (Hunyuan 3) de Tencent, on model MoE cont on decoder a pussee test, normalizzazion Q/K per test, router sigmoid cont on bias de selezion d'espert, on espert spartii minga-gated semper ativ, e di bloch dens in testa a la red. La release la integra anca el decodifega speculativa MTP (Multi-Token Prediction) per questa architettura."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Motore di inferenza",
+                "lmo": "Motor d'inferenza"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b9993"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.208 ajoute un mode lecteur d'écran et un wrapper d'entreprise",
+                "en": "Claude Code v2.1.208 Adds Screen Reader Mode and Enterprise Wrapper",
+                "de": "Claude Code v2.1.208 fügt Screen-Reader-Modus und Unternehmens-Wrapper hinzu",
+                "it": "Claude Code v2.1.208 aggiunge una modalità lettore di schermo e un wrapper aziendale",
+                "lmo": "Claude Code v2.1.208 el gionta on mode lector de schermo e on wrapper d'impresa"
+              },
+              "body": {
+                "fr": "La version v2.1.208 de <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.208\">Claude Code</a>, publiée le 14 juillet 2026, introduit un mode lecteur d'écran (rendu texte opt-in), un paramètre vimInsertModeRemaps pour mapper des séquences d'insertion à deux touches (ex. jj vers Escape), et une variable CLAUDE_CODE_PROCESS_WRAPPER permettant de faire passer chaque sous-processus Claude Code par un exécutable wrapper d'entreprise.",
+                "en": "Version v2.1.208 of <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.208\">Claude Code</a>, released on 14 July 2026, introduces a screen reader mode (opt-in text rendering), a vimInsertModeRemaps setting for mapping two-key insert sequences (e.g. jj to Escape), and a CLAUDE_CODE_PROCESS_WRAPPER variable that allows each Claude Code subprocess to be routed through an enterprise wrapper executable.",
+                "de": "Die Version v2.1.208 von <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.208\">Claude Code</a>, veröffentlicht am 14. Juli 2026, führt einen Screen-Reader-Modus (opt-in Textdarstellung), einen vimInsertModeRemaps-Parameter zum Zuordnen von Zwei-Tasten-Einfügesequenzen (z. B. jj zu Escape) und eine Variable CLAUDE_CODE_PROCESS_WRAPPER ein, mit der jeder Claude-Code-Unterprozess durch einen unternehmenseigenen Wrapper-Ausführbaren geleitet werden kann.",
+                "it": "La versione v2.1.208 di <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.208\">Claude Code</a>, pubblicata il 14 luglio 2026, introduce una modalità lettore di schermo (rendering testo opt-in), un parametro vimInsertModeRemaps per mappare sequenze di inserimento a due tasti (es. jj verso Escape), e una variabile CLAUDE_CODE_PROCESS_WRAPPER che consente di far passare ogni sottoprocesso Claude Code attraverso un eseguibile wrapper aziendale.",
+                "lmo": "La version v2.1.208 de <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.208\">Claude Code</a>, publicada el 14 de luj 2026, la introdus on mode lector de schermo (rendud test opt-in), on parameter vimInsertModeRemaps per mappà di sequenz de inseriment a duu taster (es. jj vers Escape), e ona variabil CLAUDE_CODE_PROCESS_WRAPPER che la permetta de fà passà ogni sotto-process Claude Code per on eseguibel wrapper d'impresa."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harnisch",
+                "it": "Harnais",
+                "lmo": "Harnes"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.208"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Goose v1.42.0 : statistiques par message et support OllamaCloud",
+                "en": "Goose v1.42.0: Per-Message Statistics and OllamaCloud Support",
+                "de": "Goose v1.42.0: Statistiken pro Nachricht und OllamaCloud-Unterstützung",
+                "it": "Goose v1.42.0: statistiche per messaggio e supporto OllamaCloud",
+                "lmo": "Goose v1.42.0: statistich per messagg e support OllamaCloud"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://github.com/aaif-goose/goose/releases/tag/v1.42.0\">Goose v1.42.0</a> (Block) ajoute un fournisseur OllamaCloud avec découverte dynamique de modèles, un affichage des statistiques d'utilisation par message (tokens, coût, TTFT, tok/s), le regroupement des sessions par projet, et des bindings provider vers goose-sdk. Le correctif récupère les appels d'outils malformés des modèles GLM/Minimax.",
+                "en": "On 13 July 2026, <a href=\"https://github.com/aaif-goose/goose/releases/tag/v1.42.0\">Goose v1.42.0</a> (Block) adds an OllamaCloud provider with dynamic model discovery, per-message usage statistics display (tokens, cost, TTFT, tok/s), session grouping by project, and provider bindings to goose-sdk. The fix recovers malformed tool calls from GLM/Minimax models.",
+                "de": "Am 13. Juli 2026 fügt <a href=\"https://github.com/aaif-goose/goose/releases/tag/v1.42.0\">Goose v1.42.0</a> (Block) einen OllamaCloud-Anbieter mit dynamischer Modellerkennung, eine Anzeige der Nutzungsstatistiken pro Nachricht (Tokens, Kosten, TTFT, tok/s), die Gruppierung von Sitzungen nach Projekt und Provider-Bindings zum goose-sdk hinzu. Der Fix fängt fehlerhafte Tool-Aufrufe von GLM/Minimax-Modellen ab.",
+                "it": "Il 13 luglio 2026, <a href=\"https://github.com/aaif-goose/goose/releases/tag/v1.42.0\">Goose v1.42.0</a> (Block) aggiunge un provider OllamaCloud con scoperta dinamica dei modelli, una visualizzazione delle statistiche di utilizzo per messaggio (token, costo, TTFT, tok/s), il raggruppamento delle sessioni per progetto e binding provider verso goose-sdk. La correzione recupera le chiamate di strumenti malformate dai modelli GLM/Minimax.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://github.com/aaif-goose/goose/releases/tag/v1.42.0\">Goose v1.42.0</a> (Block) el gionta on fornidor OllamaCloud con discovèrta dinamega di model, ona visualizzazion di statistich d'usagg per messagg (token, cost, TTFT, tok/s), el ragruppament di session per proget, e di binding fornidor vers goose-sdk. El coretiv el recupera i ciamad d'oeuri malformaa di model GLM/Minimax."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harnisch",
+                "it": "Harnais",
+                "lmo": "Harnes"
+              },
+              "urls": [
+                "https://github.com/aaif-goose/goose/releases/tag/v1.42.0"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Découvertes",
+            "en": "Papers & Discoveries",
+            "de": "Papiere & Entdeckungen",
+            "it": "Papers & Scoperte",
+            "lmo": "Papers & Scovèrte"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GenCeption : les modèles vidéo comme backbone de vision généraliste",
+                "en": "GenCeption: Video Models as Generalist Vision Backbones",
+                "de": "GenCeption: Videomodelle als generalistisches Wahrnehmungs-Backbone",
+                "it": "GenCeption: i modelli video come backbone di visione generalista",
+                "lmo": "GenCeption: i model video come backbone de vision generalista"
+              },
+              "body": {
+                "fr": "Des chercheurs de Google DeepMind présentent <a href=\"https://arxiv.org/abs/2607.09024\">GenCeption</a>, qui utilise un modèle de génération vidéo pré-entraîné comme backbone de perception généraliste. L'approche atteint des performances de pointe sur l'estimation de profondeur, de normales de surface et de pose de caméra, la segmentation par expression et la prédiction de points clés 3D, égalant ou surpassant des modèles spécialisés comme DepthAnything3 et SAM3, avec 7 à 500 fois moins de données d'entraînement.",
+                "en": "Researchers at Google DeepMind present <a href=\"https://arxiv.org/abs/2607.09024\">GenCeption</a>, which uses a pre-trained video generation model as a generalist perception backbone. The approach achieves state-of-the-art performance on depth estimation, surface normals, camera pose estimation, expression segmentation and 3D keypoint prediction, matching or surpassing specialised models such as DepthAnything3 and SAM3 with 7 to 500 times less training data.",
+                "de": "Forscher von Google DeepMind präsentieren <a href=\"https://arxiv.org/abs/2607.09024\">GenCeption</a>, das ein vortrainiertes Videogenerierungsmodell als generalistisches Wahrnehmungs-Backbone nutzt. Der Ansatz erzielt Spitzenleistungen bei der Schätzung von Tiefe, Oberflächennormalen und Kamerapose, der segmentierungsbasierten Expression und der Vorhersage von 3D-Schlüsselpunkten und erreicht oder übertrifft spezialisierte Modelle wie DepthAnything3 und SAM3 mit 7- bis 500-mal weniger Trainingsdaten.",
+                "it": "Ricercatori di Google DeepMind presentano <a href=\"https://arxiv.org/abs/2607.09024\">GenCeption</a>, che utilizza un modello di generazione video pre-addestrato come backbone di percezione generalista. L'approccio raggiunge prestazioni all'avanguardia nella stima della profondità, delle normali di superficie e della posa della fotocamera, nella segmentazione per espressione e nella previsione di punti chiave 3D, eguagliando o superando modelli specializzati come DepthAnything3 e SAM3, con da 7 a 500 volte meno dati di addestramento.",
+                "lmo": "Di ricercador de Google DeepMind presenten <a href=\"https://arxiv.org/abs/2607.09024\">GenCeption</a>, che 'l dopera on model de generazion video pre-addestrad come backbone de percezion generalista. L'approcci el riva a di performance de ponta sora la stima de profondità, de normal de superfis e de posa de camera, la segmentazion per espression e la prevision de pont ciav 3D, pareggiand o superand di model specializzaa come DepthAnything3 e SAM3, con 7 a 500 voeult manch de dati d'addestrament."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.09024"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "UP : un objectif RL universel qui brise le dilemme exploration-stabilité",
+                "en": "UP: A Universal RL Objective That Breaks the Exploration-Stability Dilemma",
+                "de": "UP: Ein universelles RL-Ziel, das das Explorations-Stabilitäts-Dilemma durchbricht",
+                "it": "UP: un obiettivo RL universale che rompe il dilemma esplorazione-stabilità",
+                "lmo": "UP: on obietiv RL universal che 'l romp el dilemma esplorazion-stabilità"
+              },
+              "body": {
+                "fr": "Des chercheurs de ByteDance Seed et de l'Université de Shanghai Jiao Tong publient <a href=\"https://arxiv.org/abs/2607.06987\">UP (Unbounded Positive Asymmetric Optimization)</a>, un objectif universel pour le RL des LLMs qui remplace le clipping conservateur par un gradient non-clippé pour les avantages positifs, tout en maintenant le clipping pour les avantages négatifs. UP améliore l'exploration et la précision du raisonnement sur DAPO, GSPO et GRPO, sur des architectures Dense, MoE et vision-langage.",
+                "en": "Researchers from ByteDance Seed and Shanghai Jiao Tong University publish <a href=\"https://arxiv.org/abs/2607.06987\">UP (Unbounded Positive Asymmetric Optimization)</a>, a universal objective for LLM RL that replaces conservative clipping with unclipped gradients for positive advantages while maintaining clipping for negative advantages. UP improves exploration and reasoning accuracy over DAPO, GSPO and GRPO on Dense, MoE and vision-language architectures.",
+                "de": "Forscher von ByteDance Seed und der Shanghai Jiao Tong Universität veröffentlichen <a href=\"https://arxiv.org/abs/2607.06987\">UP (Unbounded Positive Asymmetric Optimization)</a>, ein universelles Ziel für das RL von LLMs, das das konservative Clipping durch einen nicht-geclippten Gradienten für positive Vorteile ersetzt, während das Clipping für negative Vorteile beibehalten wird. UP verbessert die Erkundung und die Genauigkeit des Denkens bei DAPO, GSPO und GRPO auf Dense-, MoE- und Vision-Language-Architekturen.",
+                "it": "Ricercatori di ByteDance Seed e dell'Università di Shanghai Jiao Tong pubblicano <a href=\"https://arxiv.org/abs/2607.06987\">UP (Unbounded Positive Asymmetric Optimization)</a>, un obiettivo universale per il RL degli LLM che sostituisce il clipping conservativo con un gradiente non clippato per i vantaggi positivi, mantenendo il clipping per i vantaggi negativi. UP migliora l'esplorazione e la precisione del ragionamento su DAPO, GSPO e GRPO, su architetture Dense, MoE e visione-linguaggio.",
+                "lmo": "Di ricercador de ByteDance Seed e de l'Università de Shanghai Jiao Tong publiquen <a href=\"https://arxiv.org/abs/2607.06987\">UP (Unbounded Positive Asymmetric Optimization)</a>, on obietiv universal per el RL di LLM che 'l remplazza el clipping conservador cont on gradient minga-clippad per i vantagg positiv, intanta che 'l manten el clipping per i vantagg negativ. UP el migliora l'esplorazion e la precision del resonament sora DAPO, GSPO e GRPO, sora di architettur Dense, MoE e vision-lengoeu."
+              },
+              "kicker": {
+                "fr": "ByteDance Seed",
+                "en": "ByteDance Seed",
+                "de": "ByteDance Seed",
+                "it": "ByteDance Seed",
+                "lmo": "ByteDance Seed"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.06987"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ARDY : génération interactive de mouvements 3D humains en temps réel",
+                "en": "ARDY: Real-Time Interactive 3D Human Motion Generation",
+                "de": "ARDY: Interaktive Echtzeit-Generierung von 3D-Menschbewegungen",
+                "it": "ARDY: generazione interattiva di movimenti 3D umani in tempo reale",
+                "lmo": "ARDY: generazion interativa de moviment 3D uman in temp real"
+              },
+              "body": {
+                "fr": "NVIDIA dévoile <a href=\"https://research.nvidia.com/labs/sil/projects/ardy/\">ARDY</a>, un framework de génération de mouvements 3D humains en temps réel, contrôlable par texte et contraintes cinématiques. ARDY utilise une représentation hybride (caractéristiques racines explicites + embedding corporel latent) et un débruiteur transformer autorégressif à deux étages. Le modèle atteint une haute fidélité sur HumanML3D et le nouveau dataset Bones Rigplay.",
+                "en": "NVIDIA unveils <a href=\"https://research.nvidia.com/labs/sil/projects/ardy/\">ARDY</a>, a real-time 3D human motion generation framework controllable via text and kinematic constraints. ARDY uses a hybrid representation (explicit root features + latent body embedding) and a two-stage autoregressive transformer denoiser. The model achieves high fidelity on HumanML3D and the new Bones Rigplay dataset.",
+                "de": "NVIDIA enthüllt <a href=\"https://research.nvidia.com/labs/sil/projects/ardy/\">ARDY</a>, ein Framework zur Echtzeit-Generierung von 3D-Menschbewegungen, steuerbar durch Text und kinematische Einschränkungen. ARDY verwendet eine hybride Darstellung (explizite Wurzelmerkmale + latenter Körper-Embedding) und einen zweistufigen autoregressiven Transformer-Entrauscher. Das Modell erreicht eine hohe Wiedergabetreue auf HumanML3D und dem neuen Dataset Bones Rigplay.",
+                "it": "NVIDIA svela <a href=\"https://research.nvidia.com/labs/sil/projects/ardy/\">ARDY</a>, un framework di generazione di movimenti 3D umani in tempo reale, controllabile tramite testo e vincoli cinematici. ARDY utilizza una rappresentazione ibrida (caratteristiche radice esplicite + embedding corporeo latente) e un denoising transformer autoregressivo a due stadi. Il modello raggiunge un'alta fedeltà su HumanML3D e sul nuovo dataset Bones Rigplay.",
+                "lmo": "NVIDIA la desvela <a href=\"https://research.nvidia.com/labs/sil/projects/ardy/\">ARDY</a>, on framework de generazion de moviment 3D uman in temp real, controllabel per test e vincol cinematigh. ARDY el dopera ona rapresentazion ibrida (caratteristigh radis esplicit + embedding corporal latent) e on denoising transformer autoregressiv a duu stadi. El model el riva a ona alta fedeltà sora HumanML3D e 'l noeuv dataset Bones Rigplay."
+              },
+              "kicker": {
+                "fr": "NVIDIA",
+                "en": "NVIDIA",
+                "de": "NVIDIA",
+                "it": "NVIDIA",
+                "lmo": "NVIDIA"
+              },
+              "urls": [
+                "https://research.nvidia.com/labs/sil/projects/ardy/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Opinion",
+        "de": "Die Gemeinschaft & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Débats",
+            "en": "Signals & Debates",
+            "de": "Signale & Debatten",
+            "it": "Segnali & Dibattiti",
+            "lmo": "Segnai & Debat"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Nous Research en négociations pour une levée à 1,5 Md$",
+                "en": "Nous Research in Talks for $1.5B Funding Round",
+                "de": "Nous Research in Verhandlungen über Finanzierungsrunde von 1,5 Mrd. $",
+                "it": "Nous Research in trattative per una raccolta da 1,5 Mld$",
+                "lmo": "Nous Research in negoziazion per ona levada a 1,5 Md$"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\">TechCrunch</a> rapporte que Nous Research, créateur de l'agent Hermes, est en négociations pour une levée de fonds d'au moins 75 millions de dollars menée par Robot Ventures, avec une participation significative d'USV et d'autres investisseurs, valorisant la startup à 1,5 milliard de dollars.",
+                "en": "On 13 July 2026, <a href=\"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\">TechCrunch</a> reports that Nous Research, creator of the Hermes agent, is in talks for a funding round of at least $75 million led by Robot Ventures, with significant participation from USV and other investors, valuing the startup at $1.5 billion.",
+                "de": "Am 13. Juli 2026 berichtet <a href=\"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\">TechCrunch</a>, dass Nous Research, der Entwickler des Agenten Hermes, in Verhandlungen über eine Finanzierungsrunde von mindestens 75 Millionen US-Dollar unter der Leitung von Robot Ventures steht, mit einer bedeutenden Beteiligung von USV und anderen Investoren, die das Startup mit 1,5 Milliarden US-Dollar bewertet.",
+                "it": "Il 13 luglio 2026, <a href=\"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\">TechCrunch</a> riporta che Nous Research, creatore dell'agente Hermes, è in trattative per una raccolta fondi di almeno 75 milioni di dollari guidata da Robot Ventures, con una partecipazione significativa di USV e altri investitori, che valuta la startup a 1,5 miliardi di dollari.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/\">TechCrunch</a> el reporta che Nous Research, creator de l'agent Hermes, l'è in negoziazion per ona levada de fond de almen 75 milion de dollar guidada de Robot Ventures, cont ona partecipazion significativa d'USV e d'olter investidor, valorizand la startup a 1,5 miliard de dollar."
+              },
+              "kicker": {
+                "fr": "Financement",
+                "en": "Funding",
+                "de": "Finanzierung",
+                "it": "Finanziamento",
+                "lmo": "Finanziament"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nadella dénonce le « paradoxe informationnel » d'OpenAI et Anthropic",
+                "en": "Nadella Denounces OpenAI and Anthropic's 'Information Paradox'",
+                "de": "Nadella prangert «Informationsparadoxon» von OpenAI und Anthropic an",
+                "it": "Nadella denuncia il «paradosso informazionale» di OpenAI e Anthropic",
+                "lmo": "Nadella el denonzia el 'paradoss informazional' d'OpenAI e Anthropic"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/\">The Decoder</a> rapporte que le PDG de Microsoft, Satya Nadella, a critiqué OpenAI et Anthropic pour ce qu'il appelle un « paradoxe informationnel inversé » : ils s'entraînent sur des données publiques sous le régime du fair use, mais interdisent la distillation de leurs propres modèles, tout en apprenant des interactions clients. Nadella appelle les entreprises à contrôler leur propre infrastructure d'apprentissage.",
+                "en": "On 13 July 2026, <a href=\"https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/\">The Decoder</a> reports that Microsoft CEO Satya Nadella criticised OpenAI and Anthropic for what he calls an \"inverted information paradox\": they train on public data under fair use but ban distillation of their own models, while also learning from customer interactions. Nadella calls on companies to control their own learning infrastructure.",
+                "de": "Am 13. Juli 2026 berichtet <a href=\"https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/\">The Decoder</a>, dass Microsoft-CEO Satya Nadella OpenAI und Anthropic für das kritisiert hat, was er ein «umgekehrtes Informationsparadoxon» nennt: Sie trainieren auf öffentlichen Daten unter Fair-Use-Bedingungen, verbieten aber die Destillation ihrer eigenen Modelle, während sie aus Kundeninteraktionen lernen. Nadella fordert Unternehmen auf, ihre eigene Lerninfrastruktur zu kontrollieren.",
+                "it": "Il 13 luglio 2026, <a href=\"https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/\">The Decoder</a> riporta che l'amministratore delegato di Microsoft, Satya Nadella, ha criticato OpenAI e Anthropic per quello che definisce un «paradosso informazionale inverso»: si addestrano su dati pubblici sotto il regime del fair use, ma vietano la distillazione dei propri modelli, pur apprendendo dalle interazioni con i clienti. Nadella invita le aziende a controllare la propria infrastruttura di apprendimento.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/\">The Decoder</a> el reporta che 'l CEO de Microsoft, Satya Nadella, l'ha criticaa OpenAI e Anthropic per quell che 'l ciama on 'paradoss informazional invers': lor se addestren sora di data publich sotta el regim del fair use, ma proibissen la distillazion di sò model, intanta che imparnen di interazzion cont i client. Nadella el ciama i impres a controllà la soa propria infrastruttura d'imprendiment."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://the-decoder.com/nadella-calls-out-ai-labs-like-openai-and-anthropic-for-banning-distillation-while-training-on-everyone-elses-data/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI affiche les cotes de Kalshi dans ChatGPT",
+                "en": "OpenAI Displays Kalshi Odds in ChatGPT",
+                "de": "OpenAI zeigt Kalshi-Quoten in ChatGPT an",
+                "it": "OpenAI mostra le quote di Kalshi in ChatGPT",
+                "lmo": "OpenAI la mostra i quot de Kalshi in ChatGPT"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html\">The New York Times</a> rapporte qu'OpenAI a intégré les cotes de la Coupe du Monde de Kalshi dans ChatGPT, une première pour l'entreprise en matière de partenariat avec un marché de prédiction. Les données de Kalshi alimenteront certains résultats de recherche concernant le tournoi de football.",
+                "en": "On 13 July 2026, <a href=\"https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html\">The New York Times</a> reports that OpenAI has integrated Kalshi's World Cup odds into ChatGPT, a first for the company in terms of a partnership with a prediction market. Kalshi data will power certain search results concerning the football tournament.",
+                "de": "Am 13. Juli 2026 berichtet <a href=\"https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html\">The New York Times</a>, dass OpenAI die Quoten der Fussball-Weltmeisterschaft von Kalshi in ChatGPT integriert hat, eine Premiere für das Unternehmen in Bezug auf eine Partnerschaft mit einem Vorhersagemarkt. Die Daten von Kalshi werden einige Suchergebnisse zum Fussballturnier speisen.",
+                "it": "Il 13 luglio 2026, <a href=\"https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html\">The New York Times</a> riporta che OpenAI ha integrato le quote della Coppa del Mondo di Kalshi in ChatGPT, una prima per l'azienda in termini di partnership con un mercato di previsione. I dati di Kalshi alimenteranno alcuni risultati di ricerca riguardanti il torneo di calcio.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html\">The New York Times</a> el reporta che OpenAI l'ha integraa i quot de la Coppa del Mond de Kalshi in ChatGPT, ona prima per l'impresa in materia de partenariad cont on mercaa de prevision. I data de Kalshi alimentaran di cert resultad de ricerca concernent el torneo de folber."
+              },
+              "kicker": {
+                "fr": "Partenariat",
+                "en": "Partnership",
+                "de": "Partnerschaft",
+                "it": "Partenariato",
+                "lmo": "Partenariad"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ChatGPT de retour sur WhatsApp dans l'EEE",
+                "en": "ChatGPT Returns to WhatsApp in the EEA",
+                "de": "ChatGPT zurück auf WhatsApp im EWR",
+                "it": "ChatGPT di nuovo su WhatsApp nel SEE",
+                "lmo": "ChatGPT de ritorn sora WhatsApp in l'AEE"
+              },
+              "body": {
+                "fr": "Le 13 juillet 2026, <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">OpenAI a annoncé</a> le retour de ChatGPT sur WhatsApp dans l'Espace économique européen (EEE). Les utilisateurs peuvent envoyer des messages, télécharger des images, envoyer des notes vocales, créer des images et utiliser ChatGPT dans de nombreuses langues sans nécessairement créer de compte ChatGPT. La disponibilité dépend de l'indicatif pays associé au numéro WhatsApp.",
+                "en": "On 13 July 2026, <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">OpenAI announced</a> the return of ChatGPT on WhatsApp in the European Economic Area (EEA). Users can send messages, upload images, send voice notes, create images and use ChatGPT in many languages without necessarily creating a ChatGPT account. Availability depends on the country code associated with the WhatsApp number.",
+                "de": "Am 13. Juli 2026 gab <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">OpenAI bekannt</a>, dass ChatGPT im Europäischen Wirtschaftsraum (EWR) wieder auf WhatsApp verfügbar ist. Nutzer können Nachrichten senden, Bilder hochladen, Sprachnotizen senden, Bilder erstellen und ChatGPT in vielen Sprachen nutzen, ohne zwingend ein ChatGPT-Konto zu erstellen. Die Verfügbarkeit hängt von der Länderkennung ab, die mit der WhatsApp-Nummer verbunden ist.",
+                "it": "Il 13 luglio 2026, <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">OpenAI ha annunciato</a> il ritorno di ChatGPT su WhatsApp nello Spazio Economico Europeo (SEE). Gli utenti possono inviare messaggi, caricare immagini, inviare note vocali, creare immagini e utilizzare ChatGPT in molte lingue senza necessariamente creare un account ChatGPT. La disponibilità dipende dal prefisso nazionale associato al numero WhatsApp.",
+                "lmo": "El 13 de luj 2026, <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">OpenAI l'ha anunziaa</a> el ritorn de ChatGPT sora WhatsApp in l'Area Economiga Europea (AEE). I utent poden mandà di messagg, scaricà di imagin, mandà di not vocai, creà di imagin e doperà ChatGPT in tante lengov senza necessariament creà on account ChatGPT. La disponibilità la dipend del prefiss del paes associaa al numer WhatsApp."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
