@@ -1,0 +1,680 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-16",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Thinking Machines Lab, le laboratoire fondé par d'anciens chercheurs d'OpenAI et d'Anthropic, a dévoilé le 15 juillet 2026 son premier modèle entièrement entraîné depuis zéro : Inkling. Avec 975 milliards de paramètres dont seulement 41 milliards d'actifs grâce à une architecture Mixture-of-Experts (MoE), le modèle accepte en entrée du texte, des images et de l'audio sur une fenêtre de contexte d'un million de tokens. Les poids complets sont publiés sous licence Apache 2.0, une décision qui tranche avec la stratégie de verrouillage des grands labos propriétaires.",
+        "en": "Thinking Machines Lab, the lab founded by former researchers from OpenAI and Anthropic, unveiled its first fully trained-from-scratch model on July 15, 2026: Inkling. With 975 billion parameters, of which only 41 billion are active thanks to a Mixture-of-Experts (MoE) architecture, the model accepts text, images, and audio input over a one-million-token context window. The full weights are released under the Apache 2.0 license, a decision that breaks with the lock-in strategy of major proprietary labs.",
+        "de": "Thinking Machines Lab, das von ehemaligen Forschern von OpenAI und Anthropic gegründete Labor, hat am 15. Juli 2026 sein erstes vollständig von Grund auf trainiertes Modell vorgestellt: Inkling. Mit 975 Milliarden Parametern, von denen dank einer Mixture-of-Experts-Architektur (MoE) nur 41 Milliarden aktiv sind, verarbeitet das Modell Text, Bilder und Audio auf einem Kontextfenster von einer Million Tokens. Die vollständigen Gewichte werden unter der Apache-2.0-Lizenz veröffentlicht – eine Entscheidung, die sich von der Strategie der Abschottung grosser proprietärer Labore abhebt.",
+        "it": "Thinking Machines Lab, il laboratorio fondato da ex ricercatori di OpenAI e Anthropic, ha svelato il 15 luglio 2026 il suo primo modello interamente addestrato da zero: Inkling. Con 975 miliardi di parametri, di cui solo 41 miliardi attivi grazie a un'architettura Mixture-of-Experts (MoE), il modello accetta in input testo, immagini e audio su una finestra di contesto di un milione di token. I pesi completi sono pubblicati sotto licenza Apache 2.0, una decisione che contrasta con la strategia di chiusura dei grandi laboratori proprietari.",
+        "lmo": "Thinking Machines Lab, el laboratori fondaa de ex-ricercador d'OpenAI e d'Anthropic, l'ha presentaa el 15 de luj 2026 el sò prim model completament adestràa de zero: Inkling. Con 975 miliard de parametri, di cui domà 41 miliard ativ grazia a ona architettura Mixture-of-Experts (MoE), el model el accetta in entrada test, immagin e audio sora ona fenestra de contest de on milion de token. I pes complet hinn publicaa sotta licenza Apache 2.0, ona decision che la trancia con la strategia de saradura di grand laboratori proprietari."
+      },
+      {
+        "fr": "Inkling n'est pas présenté comme le modèle le plus performant du marché — ses concepteurs le reconnaissent explicitement — mais comme une « base de personnalisation » dotée d'un mécanisme d'effort de raisonnement ajustable. Cette capacité, baptisée « controllable thinking effort », permet de moduler la profondeur de calcul en fonction de la complexité de la tâche, un atout pour les déploiements où le budget d'inférence est contraint. Le modèle a été accueilli par 821 points sur Hacker News et 211 commentaires en quelques heures, témoignant de l'appétit de la communauté open-source pour une alternative crédible aux modèles fermés.",
+        "en": "Inkling is not presented as the most performant model on the market — its creators explicitly acknowledge this — but as a \"customization base\" equipped with an adjustable reasoning effort mechanism. This capability, dubbed \"controllable thinking effort,\" allows the depth of computation to be modulated according to task complexity, an asset for deployments where the inference budget is constrained. The model was greeted with 821 points on Hacker News and 211 comments within hours, reflecting the open-source community's appetite for a credible alternative to closed models.",
+        "de": "Inkling wird nicht als das leistungsfähigste Modell auf dem Markt präsentiert – seine Entwickler räumen dies explizit ein –, sondern als eine «Anpassungsbasis» mit einem einstellbaren Reasoning-Aufwand-Mechanismus. Diese Fähigkeit, «controllable thinking effort» genannt, erlaubt es, die Rechentiefe je nach Aufgabenkomplexität zu modulieren – ein Vorteil für Bereitstellungen mit begrenztem Inferenzbudget. Das Modell erhielt innerhalb weniger Stunden 821 Punkte auf Hacker News und 211 Kommentare, was den Appetit der Open-Source-Community auf eine glaubwürdige Alternative zu geschlossenen Modellen zeigt.",
+        "it": "Inkling non viene presentato come il modello più performante sul mercato — i suoi ideatori lo riconoscono esplicitamente — ma come una «base di personalizzazione» dotata di un meccanismo di sforzo di ragionamento regolabile. Questa capacità, battezzata «controllable thinking effort», permette di modulare la profondità di calcolo in base alla complessità del compito, un vantaggio per le implementazioni dove il budget di inferenza è limitato. Il modello è stato accolto con 821 punti su Hacker News e 211 commenti in poche ore, a testimonianza dell'appetito della comunità open-source per un'alternativa credibile ai modelli chiusi.",
+        "lmo": "Inkling l'è no presentaa 'me el model pussee performant del mercaa — i sò progettista le recognossen esplicitament — ma 'me ona « base de personalizzazion » dotada d'on mecanism de sforz de resonament regolabel. Questa capacità, ciamada « controllable thinking effort », la permet de modulà la profondità de calcol in fonzion a la complessità del compit, on vantagg per i despiegament indove el budget d'inferenza l'è limitaa. El model l'è staa acollii con 821 pont in su Hacker News e 211 coment in quaj ora, testimoniand l'apetit de la comunità open-source per ona alternativa credibil ai model saràa."
+      },
+      {
+        "fr": "Le lancement d'Inkling s'accompagne d'une disponibilité immédiate sur l'infrastructure de Together AI, qui a annoncé le 15 juillet 2026 supporter le modèle dès le premier jour. Cette sortie intervient dans un contexte où plusieurs laboratoires — de xAI avec Grok Build à Google avec Gemma 4 — multiplient les publications de modèles ouverts, intensifiant la pression sur les acteurs historiques comme OpenAI et Anthropic pour justifier leurs choix de licence restrictive.",
+        "en": "The launch of Inkling comes with immediate availability on Together AI's infrastructure, which announced on July 15, 2026 that it would support the model from day one. This release occurs in a context where several labs — from xAI with Grok Build to Google with Gemma 4 — are multiplying open model publications, intensifying pressure on historical players like OpenAI and Anthropic to justify their restrictive licensing choices.",
+        "de": "Der Start von Inkling geht mit einer sofortigen Verfügbarkeit auf der Infrastruktur von Together AI einher, die am 15. Juli 2026 die Unterstützung des Modells ab dem ersten Tag ankündigte. Diese Veröffentlichung erfolgt in einem Kontext, in dem mehrere Labore – von xAI mit Grok Build bis Google mit Gemma 4 – die Veröffentlichung offener Modelle vervielfachen und damit den Druck auf etablierte Akteure wie OpenAI und Anthropic erhöhen, ihre restriktiven Lizenzentscheidungen zu rechtfertigen.",
+        "it": "Il lancio di Inkling è accompagnato da una disponibilità immediata sull'infrastruttura di Together AI, che ha annunciato il 15 luglio 2026 di supportare il modello dal primo giorno. Questa uscita avviene in un contesto in cui diversi laboratori — da xAI con Grok Build a Google con Gemma 4 — moltiplicano le pubblicazioni di modelli aperti, intensificando la pressione sugli attori storici come OpenAI e Anthropic per giustificare le loro scelte di licenza restrittiva.",
+        "lmo": "El lanzament d'Inkling l'è compagnaa d'ona disponibilità immediata sora l'infrastruttura de Together AI, che l'ha anunziaa el 15 de luj 2026 de supportà el model del prim dì. Questa sortida la intervegn in on contest indove diversi laboratori — de xAI con Grok Build a Google con Gemma 4 — i moltiplica i pubblicazion de model avert, intensificand la pression sora i ator storegh 'me OpenAI e Anthropic per giustificà i sò scern de licenza restritiva."
+      }
+    ],
+    "urls": [
+      "https://thinkingmachines.ai/news/introducing-inkling/",
+      "https://www.marktechpost.com/2026/07/15/thinking-machines-lab-releases-inkling-a-975b-parameter-open-weights-multimodal-moe-with-41b-active-parameters-and-controllable-thinking-effort/",
+      "https://techcrunch.com/2026/07/15/thinking-machines-amps-up-its-bet-against-one-size-fits-all-ai-with-its-first-open-model-inkling/",
+      "https://www.together.ai/blog/together-ai-brings-thinking-machines-labs-new-model-inkling-on-day-0",
+      "https://news.ycombinator.com/item?id=48924912"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Grenzbereich",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Inkling, le premier modèle ouvert de Thinking Machines Lab, bouscule l'équilibre des forces",
+      "en": "Inkling, Thinking Machines Lab's First Open Model, Shifts the Balance of Power",
+      "de": "Inkling, Thinking Machines Labs erstes offenes Modell, verschiebt das Kräftegleichgewicht",
+      "it": "Inkling, il primo modello aperto di Thinking Machines Lab, sconvolge gli equilibri di potere",
+      "lmo": "Inkling, el prim model avert de Thinking Machines Lab, el bolversa l'equilibri di forz"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire fondé par d'anciens chercheurs d'OpenAI et Anthropic publie un modèle MoE de 975 milliards de paramètres sous licence Apache 2.0, avec un mécanisme d'effort de raisonnement ajustable.",
+      "en": "The lab founded by former OpenAI and Anthropic researchers releases a 975-billion-parameter MoE model under the Apache 2.0 license, featuring an adjustable reasoning effort mechanism.",
+      "de": "Das von ehemaligen OpenAI- und Anthropic-Forschern gegründete Labor veröffentlicht ein 975-Milliarden-Parameter-MoE-Modell unter der Apache-2.0-Lizenz mit einem einstellbaren Reasoning-Aufwand-Mechanismus.",
+      "it": "Il laboratorio fondato da ex ricercatori di OpenAI e Anthropic pubblica un modello MoE da 975 miliardi di parametri sotto licenza Apache 2.0, con un meccanismo di sforzo di ragionamento regolabile.",
+      "lmo": "El laboratori fondaa de ex-ricercador d'OpenAI e Anthropic el publica on model MoE de 975 miliard de parametri sotta licenza Apache 2.0, con on mecanism de sforz de resonament regolabel."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Apple ML Research publie trois papiers : adaptation visuelle, RAG latent et quantification d'incertitude",
+        "en": "Apple ML Research Publishes Three Papers: Visual Adaptation, Latent RAG, and Uncertainty Quantification",
+        "de": "Apple ML Research veröffentlicht drei Papiere: visuelle Adaptation, latentes RAG und Unsicherheitsquantifizierung",
+        "it": "Apple ML Research pubblica tre paper: adattamento visivo, RAG latente e quantificazione dell'incertezza",
+        "lmo": "Apple ML Research la publica tri paper: adattament visiv, RAG latent e quantifega d'incertezza"
+      },
+      "body": {
+        "fr": "Le 15 juillet 2026, Apple a publié trois papiers de recherche simultanément. <a href=\"https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders\">« One Layer Is Enough »</a> montre qu'une seule couche d'adaptation suffit pour transférer des encodeurs visuels pré-entraînés vers la génération d'images. <a href=\"https://machinelearning.apple.com/research/clara-latent-reasoning\">CLaRa</a> propose un framework unifié de RAG latent qui compresse les documents dans un espace continu partagé. <a href=\"https://machinelearning.apple.com/research/uncertainty-quantification-function-calling\">Uncertainty Quantification for LLM Function-Calling</a> introduit une méthode pour quantifier la confiance des modèles lors des appels de fonctions, cruciale pour les applications où une erreur est irréversible.",
+        "en": "On July 15, 2026, Apple published three research papers simultaneously. <a href=\"https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders\">\"One Layer Is Enough\"</a> shows that a single adaptation layer suffices to transfer pre-trained visual encoders to image generation. <a href=\"https://machinelearning.apple.com/research/clara-latent-reasoning\">CLaRa</a> proposes a unified latent RAG framework that compresses documents into a shared continuous space. <a href=\"https://machinelearning.apple.com/research/uncertainty-quantification-function-calling\">Uncertainty Quantification for LLM Function-Calling</a> introduces a method to quantify model confidence during function calls, crucial for applications where an error is irreversible.",
+        "de": "Am 15. Juli 2026 hat Apple gleichzeitig drei Forschungspapiere veröffentlicht. <a href=\"https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders\">«One Layer Is Enough»</a> zeigt, dass eine einzige Anpassungsschicht ausreicht, um vortrainierte visuelle Encoder auf die Bildgenerierung zu übertragen. <a href=\"https://machinelearning.apple.com/research/clara-latent-reasoning\">CLaRa</a> schlägt ein einheitliches Framework für latentes RAG vor, das Dokumente in einen gemeinsamen kontinuierlichen Raum komprimiert. <a href=\"https://machinelearning.apple.com/research/uncertainty-quantification-function-calling\">Uncertainty Quantification for LLM Function-Calling</a> führt eine Methode zur Quantifizierung der Modellkonfidenz bei Funktionsaufrufen ein, die für Anwendungen, bei denen ein Fehler irreversibel ist, von entscheidender Bedeutung ist.",
+        "it": "Il 15 luglio 2026, Apple ha pubblicato tre paper di ricerca simultaneamente. <a href=\"https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders\">«One Layer Is Enough»</a> mostra che un singolo strato di adattamento è sufficiente per trasferire encoder visivi pre-addestrati verso la generazione di immagini. <a href=\"https://machinelearning.apple.com/research/clara-latent-reasoning\">CLaRa</a> propone un framework unificato di RAG latente che comprime i documenti in uno spazio continuo condiviso. <a href=\"https://machinelearning.apple.com/research/uncertainty-quantification-function-calling\">Uncertainty Quantification for LLM Function-Calling</a> introduce un metodo per quantificare la confidenza dei modelli durante le chiamate di funzioni, cruciale per le applicazioni dove un errore è irreversibile.",
+        "lmo": "El 15 de luj 2026, Apple l'ha publicaa tri paper de ricerca simultaniament. <a href=\"https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders\">« One Layer Is Enough »</a> el mostra che ona soeuia capa de adattament la basta per trasferì di encoder visiv pre-adestrad vers la generazion d'immagin. <a href=\"https://machinelearning.apple.com/research/clara-latent-reasoning\">CLaRa</a> el propon on framework unificaa de RAG latent che 'l comprim i document in on spazi continuo spartii. <a href=\"https://machinelearning.apple.com/research/uncertainty-quantification-function-calling\">Uncertainty Quantification for LLM Function-Calling</a> el introdux ona metod per quantificà la confianza di model in ocasion di ciamad de fonzion, crucial per i applicazion indove on error l'è irreversibel."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-15",
+        "en": "From the Wires — 2026-07-15",
+        "de": "From the Wires — 2026-07-15",
+        "it": "From the Wires — 2026-07-15",
+        "lmo": "From the Wires — 2026-07-15"
+      },
+      "urls": [
+        "https://machinelearning.apple.com/research/adapting-pretrained-visual-encoders",
+        "https://machinelearning.apple.com/research/clara-latent-reasoning",
+        "https://machinelearning.apple.com/research/uncertainty-quantification-function-calling"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "LiteRT.js : Google porte l'inférence .tflite dans le navigateur via WebGPU",
+        "en": "LiteRT.js: Google Brings .tflite Inference to the Browser via WebGPU",
+        "de": "LiteRT.js: Google bringt .tflite-Inferenz via WebGPU in den Browser",
+        "it": "LiteRT.js: Google porta l'inferenza .tflite nel browser tramite WebGPU",
+        "lmo": "LiteRT.js: Google el porta l'inferenza .tflite in el navigador via WebGPU"
+      },
+      "body": {
+        "fr": "Le 15 juillet 2026, Google a publié <a href=\"https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/\">LiteRT.js</a>, une liaison JavaScript de LiteRT, le moteur d'inférence sur appareil de Google. La bibliothèque exécute des modèles .tflite directement dans le navigateur via WebAssembly, avec XNNPACK sur CPU, ML Drift sur WebGPU et WebNN expérimental pour les NPU. Google annonce des gains allant jusqu'à 3x par rapport aux autres runtimes web, et de 5 à 60x pour GPU ou NPU par rapport à son propre chemin CPU.",
+        "en": "On July 15, 2026, Google released <a href=\"https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/\">LiteRT.js</a>, a JavaScript binding of LiteRT, Google's on-device inference engine. The library runs .tflite models directly in the browser via WebAssembly, with XNNPACK on CPU, ML Drift on WebGPU, and experimental WebNN for NPUs. Google reports gains of up to 3x compared to other web runtimes, and 5 to 60x for GPU or NPU compared to its own CPU path.",
+        "de": "Am 15. Juli 2026 hat Google <a href=\"https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/\">LiteRT.js</a> veröffentlicht, eine JavaScript-Bindung von LiteRT, Googles On-Device-Inferenz-Engine. Die Bibliothek führt .tflite-Modelle direkt im Browser über WebAssembly aus, mit XNNPACK auf der CPU, ML Drift auf WebGPU und experimentellem WebNN für NPUs. Google gibt Verbesserungen von bis zu 3x gegenüber anderen Web-Runtimes an, und von 5 bis 60x für GPU oder NPU im Vergleich zu seinem eigenen CPU-Pfad.",
+        "it": "Il 15 luglio 2026, Google ha pubblicato <a href=\"https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/\">LiteRT.js</a>, un binding JavaScript di LiteRT, il motore di inferenza su dispositivo di Google. La libreria esegue modelli .tflite direttamente nel browser tramite WebAssembly, con XNNPACK su CPU, ML Drift su WebGPU e WebNN sperimentale per le NPU. Google annuncia guadagni fino a 3x rispetto ad altri runtime web, e da 5 a 60x per GPU o NPU rispetto al proprio percorso CPU.",
+        "lmo": "El 15 de luj 2026, Google l'ha publicaa <a href=\"https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/\">LiteRT.js</a>, ona liaison JavaScript de LiteRT, el motor d'inferenza in su aparei de Google. La biblioteca la eseguiss di model .tflite direttament in el navigador via WebAssembly, con XNNPACK in su CPU, ML Drift in su WebGPU e WebNN esperimental per i NPU. Google l'anunzia di guadagn fin a 3x rispet ai alter runtime web, e de 5 a 60x per GPU o NPU rispet al sò propri camin CPU."
+      },
+      "tag": {
+        "fr": "Développement",
+        "en": "Development",
+        "de": "Entwicklung",
+        "it": "Sviluppo",
+        "lmo": "Desvilup"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-15",
+        "en": "From the Wires — 2026-07-15",
+        "de": "From the Wires — 2026-07-15",
+        "it": "From the Wires — 2026-07-15",
+        "lmo": "From the Wires — 2026-07-15"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/07/15/google-releases-litert-js-a-javascript-binding-of-litert-that-runs-tflite-models-in-browsers-via-webgpu/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Emergent devient licorne en un an : 130 M$ pour le codage assisté par IA",
+        "en": "Emergent Becomes a Unicorn in One Year: $130M for AI-Assisted Coding",
+        "de": "Emergent wird in einem Jahr zum Einhorn: 130 Mio. $ für KI-gestütztes Codieren",
+        "it": "Emergent diventa unicorno in un anno: 130 M$ per la codifica assistita da IA",
+        "lmo": "Emergent la deventa licorna in on ann: 130 M$ per la codifega assistida de IA"
+      },
+      "body": {
+        "fr": "Le 15 juillet 2026, la startup indienne Emergent est devenue une licorne après avoir levé 130 millions de dollars en série C, atteignant une valorisation supérieure à 1 milliard de dollars. Fondée il y a un peu plus d'un an, la plateforme de codage assisté par IA revendique <a href=\"https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/\">120 millions de dollars de revenus annualisés</a> et plus de 200 000 clients payants. Cette levée confirme l'appétit des investisseurs pour les outils de développement augmentés par l'IA.",
+        "en": "On July 15, 2026, Indian startup Emergent became a unicorn after raising $130 million in Series C funding, reaching a valuation of over $1 billion. Founded just over a year ago, the AI-assisted coding platform claims <a href=\"https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/\">$120 million in annualized revenue</a> and over 200,000 paying customers. This raise confirms investor appetite for AI-augmented development tools.",
+        "de": "Am 15. Juli 2026 wurde das indische Startup Emergent zum Einhorn, nachdem es 130 Millionen Dollar in einer Serie-C-Finanzierungsrunde eingesammelt hatte und eine Bewertung von über einer Milliarde Dollar erreichte. Das vor etwas mehr als einem Jahr gegründete Unternehmen für KI-gestütztes Codieren gibt <a href=\"https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/\">120 Millionen Dollar annualisierte Umsätze</a> und über 200'000 zahlende Kunden an. Diese Finanzierungsrunde bestätigt den Appetit der Investoren auf KI-gestützte Entwicklungswerkzeuge.",
+        "it": "Il 15 luglio 2026, la startup indiana Emergent è diventata un unicorno dopo aver raccolto 130 milioni di dollari in serie C, raggiungendo una valutazione superiore a 1 miliardo di dollari. Fondata poco più di un anno fa, la piattaforma di codifica assistita da IA rivendica <a href=\"https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/\">120 milioni di dollari di ricavi annualizzati</a> e oltre 200.000 clienti paganti. Questa raccolta conferma l'appetito degli investitori per gli strumenti di sviluppo potenziati dall'IA.",
+        "lmo": "El 15 de luj 2026, la startup indiana Emergent l'è deventada ona licorna dopo avè cataa su 130 milion de dollar in serie C, raggiungend ona valorizzazion superior a 1 miliard de dollar. Fondada on poo pussee d'on ann fa, la piataforma de codifega assistida de IA la revendica <a href=\"https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/\">120 milion de dollar de revenuu annualizzaa</a> e pussee de 200 000 client pagant. Questa levada la conferma l'apetit di investitor per i utensil de desvilup aumentaa de l'IA."
+      },
+      "tag": {
+        "fr": "Financement",
+        "en": "Funding",
+        "de": "Finanzierung",
+        "it": "Finanziamento",
+        "lmo": "Finanziament"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-07-15",
+        "en": "From the Wires — 2026-07-15",
+        "de": "From the Wires — 2026-07-15",
+        "it": "From the Wires — 2026-07-15",
+        "lmo": "From the Wires — 2026-07-15"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/15/indian-ai-coding-startup-emergent-becomes-a-unicorn-just-over-a-year-after-launch/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Vedrina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèj & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "xAI ouvre le code de Grok Build et déploie 21 nouvelles voix",
+                "en": "xAI Open-Sources Grok Build and Deploys 21 New Voices",
+                "de": "xAI öffnet den Code von Grok Build und stellt 21 neue Stimmen bereit",
+                "it": "xAI apre il codice di Grok Build e distribuisce 21 nuove voci",
+                "lmo": "xAI la derva el codes de Grok Build e la despiega 21 noeuv vos"
+              },
+              "body": {
+                "fr": "Le 15 juillet 2026, xAI a publié le code source de <a href=\"https://github.com/xai-org/grok-build\">Grok Build</a> sur GitHub, rendant accessible l'outil de construction de modèles qui alimente sa famille Grok. L'annonce, qui a recueilli 342 points sur Hacker News et généré 372 commentaires, marque une étape dans la stratégie d'ouverture d'Elon Musk. Parallèlement, xAI a également déployé 21 nouvelles voix pour Grok, élargissant les capacités vocales de son assistant.",
+                "en": "On July 15, 2026, xAI published the source code of <a href=\"https://github.com/xai-org/grok-build\">Grok Build</a> on GitHub, making accessible the model-building tool that powers its Grok family. The announcement, which garnered 342 points on Hacker News and generated 372 comments, marks a step in Elon Musk's openness strategy. In parallel, xAI also deployed 21 new voices for Grok, expanding the vocal capabilities of its assistant.",
+                "de": "Am 15. Juli 2026 hat xAI den Quellcode von <a href=\"https://github.com/xai-org/grok-build\">Grok Build</a> auf GitHub veröffentlicht und damit das Modellbauwerkzeug zugänglich gemacht, das seine Grok-Familie antreibt. Die Ankündigung, die auf Hacker News 342 Punkte und 372 Kommentare erhielt, markiert einen Schritt in der Öffnungsstrategie von Elon Musk. Parallel dazu hat xAI auch 21 neue Stimmen für Grok bereitgestellt und damit die Sprachfähigkeiten seines Assistenten erweitert.",
+                "it": "Il 15 luglio 2026, xAI ha pubblicato il codice sorgente di <a href=\"https://github.com/xai-org/grok-build\">Grok Build</a> su GitHub, rendendo accessibile lo strumento di costruzione di modelli che alimenta la sua famiglia Grok. L'annuncio, che ha raccolto 342 punti su Hacker News e generato 372 commenti, segna una tappa nella strategia di apertura di Elon Musk. Parallelamente, xAI ha anche distribuito 21 nuove voci per Grok, ampliando le capacità vocali del suo assistente.",
+                "lmo": "El 15 de luj 2026, xAI l'ha publicaa el codes sorgent de <a href=\"https://github.com/xai-org/grok-build\">Grok Build</a> in su GitHub, rendend accessibel l'utensil de costruzion de model che l'alimenta la sò fameja Grok. L'anunzi, che l'ha cataa su 342 pont in su Hacker News e generaa 372 coment, el marca ona tappa in la strategia de vertura d'Elon Musk. In contemporanea, xAI l'ha anca despiegaa 21 noeuv vos per Grok, slargand i capacità vocai del sò assistent."
+              },
+              "kicker": {
+                "fr": "Open Source",
+                "en": "Open Source",
+                "de": "Open Source",
+                "it": "Open Source",
+                "lmo": "Open Source"
+              },
+              "urls": [
+                "https://github.com/xai-org/grok-build",
+                "https://x.ai/news/grok-build-open-source",
+                "https://news.ycombinator.com/item?id=48926590"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemma 4 : correctifs d'appel d'outils et Flash Attention 4 sur Hopper",
+                "en": "Gemma 4: Tool Calling Fixes and Flash Attention 4 on Hopper",
+                "de": "Gemma 4: Korrekturen beim Tool Calling und Flash Attention 4 auf Hopper",
+                "it": "Gemma 4: correzioni per la chiamata di strumenti e Flash Attention 4 su Hopper",
+                "lmo": "Gemma 4: correzion de ciamada d'utensil e Flash Attention 4 in su Hopper"
+              },
+              "body": {
+                "fr": "Google a mis à jour le 15 juillet 2026 les templates de chat de <a href=\"https://huggingface.co/spaces/google/gemma4_vision_token_budget\">Gemma 4</a>, apportant des corrections majeures à l'appel d'outils et réduisant le comportement de « paresse » du modèle. La mise à jour active également Flash Attention 4 sur les GPU Hopper, améliorant significativement les performances d'inférence. Un guide interactif a été publié pour accompagner les développeurs dans l'exploitation des capacités visuelles du modèle.",
+                "en": "Google updated the chat templates of <a href=\"https://huggingface.co/spaces/google/gemma4_vision_token_budget\">Gemma 4</a> on July 15, 2026, bringing major corrections to tool calling and reducing the model's \"lazy\" behavior. The update also activates Flash Attention 4 on Hopper GPUs, significantly improving inference performance. An interactive guide was published to help developers exploit the model's visual capabilities.",
+                "de": "Google hat am 15. Juli 2026 die Chat-Templates von <a href=\"https://huggingface.co/spaces/google/gemma4_vision_token_budget\">Gemma 4</a> aktualisiert und damit wichtige Korrekturen beim Tool Calling vorgenommen sowie das «Faulheitsverhalten» des Modells reduziert. Das Update aktiviert zudem Flash Attention 4 auf Hopper-GPUs, was die Inferenzleistung deutlich verbessert. Ein interaktiver Leitfaden wurde veröffentlicht, um Entwickler bei der Nutzung der visuellen Fähigkeiten des Modells zu unterstützen.",
+                "it": "Google ha aggiornato il 15 luglio 2026 i template di chat di <a href=\"https://huggingface.co/spaces/google/gemma4_vision_token_budget\">Gemma 4</a>, apportando correzioni importanti alla chiamata di strumenti e riducendo il comportamento di «pigrizia» del modello. L'aggiornamento attiva anche Flash Attention 4 sui GPU Hopper, migliorando significativamente le prestazioni di inferenza. Una guida interattiva è stata pubblicata per accompagnare gli sviluppatori nello sfruttamento delle capacità visive del modello.",
+                "lmo": "Google l'ha adessaa el 15 de luj 2026 i template de chat de <a href=\"https://huggingface.co/spaces/google/gemma4_vision_token_budget\">Gemma 4</a>, portand correzion major a la ciamada d'utensil e ridusend el comportament de « pigrizia » del model. L'adessament l'ativa anca Flash Attention 4 in su i GPU Hopper, migliorand significativament i performance d'inferenza. Ona guida interativa l'è stada publicada per compagnà i desvilupador in l'utilizz di capacità visiv del model."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Adessament"
+              },
+              "urls": [
+                "https://www.reddit.com/r/LocalLLaMA/comments/1uxfu4k/google_is_updating_gemma_4s_chat_templates/",
+                "https://huggingface.co/spaces/google/gemma4_vision_token_budget"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Soofi S 30B-A3B : un modèle hybride Mamba-Transformer souverain pour l'allemand",
+                "en": "Soofi S 30B-A3B: A Sovereign Hybrid Mamba-Transformer Model for German",
+                "de": "Soofi S 30B-A3B: Ein souveränes hybrides Mamba-Transformer-Modell für Deutsch",
+                "it": "Soofi S 30B-A3B: un modello ibrido Mamba-Transformer sovrano per il tedesco",
+                "lmo": "Soofi S 30B-A3B: on model ibrid Mamba-Transformer sovran per el todesch"
+              },
+              "body": {
+                "fr": "Le consortium Soofi a publié le 15 juillet 2026 <a href=\"https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/\">Soofi S 30B-A3B</a>, un modèle fondation ouvert de 31,6 milliards de paramètres dont 3,2 milliards d'actifs. Sa particularité : une architecture hybride Mamba-Transformer combinée à un routage MoE, optimisée pour l'allemand et l'anglais. Le modèle se positionne comme une alternative souveraine européenne aux modèles américains, avec des performances de premier plan sur les benchmarks germanophones.",
+                "en": "The Soofi consortium published <a href=\"https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/\">Soofi S 30B-A3B</a> on July 15, 2026, an open foundation model with 31.6 billion parameters, of which 3.2 billion are active. Its particularity: a hybrid Mamba-Transformer architecture combined with MoE routing, optimized for German and English. The model positions itself as a European sovereign alternative to American models, with top-tier performance on German-language benchmarks.",
+                "de": "Das Soofi-Konsortium hat am 15. Juli 2026 <a href=\"https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/\">Soofi S 30B-A3B</a> veröffentlicht, ein offenes Foundation-Modell mit 31,6 Milliarden Parametern, von denen 3,2 Milliarden aktiv sind. Seine Besonderheit: eine hybride Mamba-Transformer-Architektur kombiniert mit MoE-Routing, optimiert für Deutsch und Englisch. Das Modell positioniert sich als souveräne europäische Alternative zu amerikanischen Modellen mit Spitzenleistungen bei deutschsprachigen Benchmarks.",
+                "it": "Il consorzio Soofi ha pubblicato il 15 luglio 2026 <a href=\"https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/\">Soofi S 30B-A3B</a>, un modello foundation aperto da 31,6 miliardi di parametri di cui 3,2 miliardi attivi. La sua particolarità: un'architettura ibrida Mamba-Transformer combinata con un routing MoE, ottimizzata per tedesco e inglese. Il modello si posiziona come un'alternativa sovrana europea ai modelli americani, con prestazioni di primo piano sui benchmark germanofoni.",
+                "lmo": "El consorzi Soofi l'ha publicaa el 15 de luj 2026 <a href=\"https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/\">Soofi S 30B-A3B</a>, on model fondazion avert de 31,6 miliard de parametri, di cui 3,2 miliard ativ. La sò particolarità: ona architettura ibrida Mamba-Transformer combinada a on routing MoE, ottimizada per el todesch e l'ingles. El model el se posiziona 'me ona alternativa sovrana europea ai model american, con performance de prim orden in su i benchmark de lengua todesca."
+              },
+              "kicker": {
+                "fr": "Nouveau modèle",
+                "en": "New Model",
+                "de": "Neues Modell",
+                "it": "Nuovo modello",
+                "lmo": "Noeuv model"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/07/15/soofi-consortium-releases-soofi-s-30b-a3b-an-open-hybrid-mamba-transformer-moe-foundation-model-for-german-and-english/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnet Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Moteurs",
+            "en": "Harnesses & Engines",
+            "de": "Geschirre & Motoren",
+            "it": "Imbraghi & Motori",
+            "lmo": "Harnes & Motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OpenAI lance le Codex Micro, un clavier à 230 dollars, et chiffre les instructions entre agents",
+                "en": "OpenAI Launches the Codex Micro, a $230 Keyboard, and Encrypts Inter-Agent Instructions",
+                "de": "OpenAI bringt das Codex Micro, eine Tastatur für 230 Dollar, und verschlüsselt Anweisungen zwischen Agenten",
+                "it": "OpenAI lancia il Codex Micro, una tastiera da 230 dollari, e crittografa le istruzioni tra agenti",
+                "lmo": "OpenAI la lanza el Codex Micro, on taster a 230 dollar, e la cifra i istruzion intra agent"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 15 juillet 2026 le <a href=\"https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\">Codex Micro</a>, un clavier matériel à 230 dollars conçu pour son agent de codage Codex. L'appareil, un bloc carré de boutons rétroéclairés, permet d'exécuter des commandes fréquentes sans quitter le clavier. Cette sortie intervient alors qu'OpenAI est engagée dans un litige avec Apple concernant des accusations de vol de secrets commerciaux liés au matériel. Parallèlement, The Decoder a révélé que Codex chiffre désormais les instructions entre agents, rendant la délégation interne invisible pour les développeurs.",
+                "en": "OpenAI released the <a href=\"https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\">Codex Micro</a> on July 15, 2026, a $230 hardware keyboard designed for its Codex coding agent. The device, a square block of backlit buttons, allows executing frequent commands without leaving the keyboard. This release comes as OpenAI is engaged in a legal dispute with Apple over allegations of hardware trade secret theft. Meanwhile, The Decoder revealed that Codex now encrypts instructions between agents, making internal delegation invisible to developers.",
+                "de": "OpenAI hat am 15. Juli 2026 das <a href=\"https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\">Codex Micro</a> veröffentlicht, eine Hardware-Tastatur für 230 Dollar, die für seinen Code-Agenten Codex entwickelt wurde. Das Gerät, ein quadratischer Block aus hinterleuchteten Tasten, ermöglicht die Ausführung häufiger Befehle ohne Tastaturverlassen. Diese Veröffentlichung erfolgt, während OpenAI in einem Rechtsstreit mit Apple über Vorwürfe des Diebstahls von Geschäftsgeheimnissen im Zusammenhang mit Hardware verwickelt ist. Parallel dazu enthüllte The Decoder, dass Codex nun Anweisungen zwischen Agenten verschlüsselt, wodurch die interne Delegation für Entwickler unsichtbar wird.",
+                "it": "OpenAI ha pubblicato il 15 luglio 2026 il <a href=\"https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\">Codex Micro</a>, una tastiera hardware da 230 dollari progettata per il suo agente di codifica Codex. Il dispositivo, un blocco quadrato di pulsanti retroilluminati, permette di eseguire comandi frequenti senza lasciare la tastiera. Questa uscita avviene mentre OpenAI è coinvolta in una causa con Apple per accuse di furto di segreti commerciali legati all'hardware. Parallelamente, The Decoder ha rivelato che Codex ora crittografa le istruzioni tra agenti, rendendo la delega interna invisibile per gli sviluppatori.",
+                "lmo": "OpenAI l'ha publicaa el 15 de luj 2026 el <a href=\"https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/\">Codex Micro</a>, on taster material de 230 dollar progettaa per el sò agent de codifega Codex. L'aparel, on bloch quadraa de boton retroilluminaa, el permet de eseguì comand frequent senza lassà el taster. Questa sortida la intervegn intant che OpenAI l'è impegnada in on litigi con Apple per via de acus de robatori de segret comerziai ligaa al material. In contemporanea, The Decoder l'ha revelaa che Codex el cifra adess i istruzion intra agent, rendend la delegazion interna invisibel per i desvilupador."
+              },
+              "kicker": {
+                "fr": "Matériel & Sécurité",
+                "en": "Hardware & Security",
+                "de": "Hardware & Sicherheit",
+                "it": "Hardware & Sicurezza",
+                "lmo": "Material & Segurezza"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
+                "https://the-decoder.com/openais-codex-now-encrypts-instructions-between-ai-agents-leaving-developers-blind-to-internal-delegation/",
+                "https://www.theverge.com/ai-artificial-intelligence/965901/openai-hardware-codex-micro-launch"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.211 : transparence des sous-agents et renforcement des hooks",
+                "en": "Claude Code v2.1.211: Sub-Agent Transparency and Enhanced Hooks",
+                "de": "Claude Code v2.1.211: Transparenz bei Unteragenten und gestärkte Hooks",
+                "it": "Claude Code v2.1.211: trasparenza dei sotto-agenti e rafforzamento degli hook",
+                "lmo": "Claude Code v2.1.211: trasparenza di sota-agent e rinforz di hook"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.211\">v2.1.211</a> de Claude Code, publiée le 15 juillet 2026, introduit le flag `--forward-subagent-text` et la variable d'environnement associée, permettant d'inclure le texte et le raisonnement des sous-agents dans la sortie stream-json. La mise à jour corrige également des failles de sécurité dans les aperçus de permissions et renforce la décision des hooks PreToolUse face au mode automatique.",
+                "en": "Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.211\">v2.1.211</a> of Claude Code, released on July 15, 2026, introduces the `--forward-subagent-text` flag and its associated environment variable, allowing sub-agent text and reasoning to be included in the stream-json output. The update also fixes security vulnerabilities in permission previews and strengthens the PreToolUse hook's decision-making against automatic mode.",
+                "de": "Die Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.211\">v2.1.211</a> von Claude Code, veröffentlicht am 15. Juli 2026, führt das Flag `--forward-subagent-text` und die zugehörige Umgebungsvariable ein, die es ermöglichen, den Text und die Reasoning-Schritte von Unteragenten in die Stream-JSON-Ausgabe aufzunehmen. Das Update behebt zudem Sicherheitslücken in den Berechtigungsvorschauen und stärkt die Entscheidungsfindung der PreToolUse-Hooks im automatischen Modus.",
+                "it": "La versione <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.211\">v2.1.211</a> di Claude Code, pubblicata il 15 luglio 2026, introduce il flag `--forward-subagent-text` e la variabile d'ambiente associata, permettendo di includere il testo e il ragionamento dei sotto-agenti nell'output stream-json. L'aggiornamento corregge anche falle di sicurezza nelle anteprime dei permessi e rafforza la decisione degli hook PreToolUse di fronte alla modalità automatica.",
+                "lmo": "La version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.211\">v2.1.211</a> de Claude Code, publicada el 15 de luj 2026, la introdux el flag `--forward-subagent-text` e la variabil d'ambient associada, permettend de includ el test e el resonament di sota-agent in l'output stream-json. L'adessament el corregg anca di falle de segurezza in i anteprime di permess e el rinforza la decision di hook PreToolUse denanz al mode automatic."
+              },
+              "kicker": {
+                "fr": "Mise à jour",
+                "en": "Update",
+                "de": "Update",
+                "it": "Aggiornamento",
+                "lmo": "Adessament"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.211"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ollama v0.32.1-rc0 : support renforcé de Gemma 4 et correction de fuite mémoire",
+                "en": "Ollama v0.32.1-rc0: Enhanced Gemma 4 Support and Memory Leak Fix",
+                "de": "Ollama v0.32.1-rc0: Verbesserte Gemma-4-Unterstützung und Fehlerbehebung bei Speicherlecks",
+                "it": "Ollama v0.32.1-rc0: supporto rafforzato per Gemma 4 e correzione di perdita di memoria",
+                "lmo": "Ollama v0.32.1-rc0: support rinforzaa de Gemma 4 e correzion de fuga de memoria"
+              },
+              "body": {
+                "fr": "La version candidate <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0\">v0.32.1-rc0</a> d'Ollama, publiée le 15 juillet 2026, améliore l'appel d'outils et le raisonnement multi-tour de Gemma 4, avec des continuations de réponses d'outils plus fiables. Un correctif important résout une fuite de cache récurrente pour les modèles MLX qui augmentait la consommation mémoire entre les requêtes. Le chargement des modèles MLX respecte désormais la variable `OLLAMA_LOAD_TIMEOUT`.",
+                "en": "Release candidate <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0\">v0.32.1-rc0</a> of Ollama, published on July 15, 2026, improves tool calling and multi-turn reasoning for Gemma 4, with more reliable tool response continuations. An important fix resolves a recurring cache leak for MLX models that increased memory consumption between requests. Loading MLX models now respects the `OLLAMA_LOAD_TIMEOUT` variable.",
+                "de": "Die Release-Kandidatin <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0\">v0.32.1-rc0</a> von Ollama, veröffentlicht am 15. Juli 2026, verbessert das Tool Calling und das Multi-Turn-Reasoning von Gemma 4 mit zuverlässigeren Fortsetzungen von Tool-Antworten. Ein wichtiger Fix behebt ein wiederkehrendes Cache-Leck bei MLX-Modellen, das den Speicherverbrauch zwischen Anfragen erhöhte. Das Laden von MLX-Modellen respektiert nun die Variable `OLLAMA_LOAD_TIMEOUT`.",
+                "it": "La versione candidata <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0\">v0.32.1-rc0</a> di Ollama, pubblicata il 15 luglio 2026, migliora la chiamata di strumenti e il ragionamento multi-turno di Gemma 4, con continuazioni delle risposte degli strumenti più affidabili. Una correzione importante risolve una perdita di cache ricorrente per i modelli MLX che aumentava il consumo di memoria tra le richieste. Il caricamento dei modelli MLX ora rispetta la variabile `OLLAMA_LOAD_TIMEOUT`.",
+                "lmo": "La version candidata <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0\">v0.32.1-rc0</a> d'Ollama, publicada el 15 de luj 2026, la migliora la ciamada d'utensil e el resonament multi-torn de Gemma 4, con continuazion de rispost d'utensil pussee fidei. On correttiv important el risoeul ona fuga de cache recurrent per i model MLX che la aumentava el consum de memoria intra i domand. El caregament di model MLX el rispetta adess la variabil `OLLAMA_LOAD_TIMEOUT`."
+              },
+              "kicker": {
+                "fr": "Release candidate",
+                "en": "Release Candidate",
+                "de": "Release-Kandidat",
+                "it": "Release candidate",
+                "lmo": "Release candidate"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.32.1-rc0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b10035 optimise la déquantification CUDA pour les modèles 1 bit",
+                "en": "llama.cpp b10035 Optimizes CUDA Dequantization for 1-Bit Models",
+                "de": "llama.cpp b10035 optimiert die CUDA-Dequantisierung für 1-Bit-Modelle",
+                "it": "llama.cpp b10035 ottimizza la dequantizzazione CUDA per i modelli a 1 bit",
+                "lmo": "llama.cpp b10035 la ottimizza la dequantifega CUDA per i model a 1 bit"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10035\">b10035</a> de llama.cpp, publiée le 16 juillet 2026, apporte une optimisation CUDA pour l'extraction des éléments Q1_0 via `__byte_perm`. Cette amélioration cible les charges de travail d'inférence sur GPU NVIDIA, en réduisant la latence des opérations de déquantification pour les modèles quantifiés en 1 bit.",
+                "en": "Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10035\">b10035</a> of llama.cpp, released on July 16, 2026, brings a CUDA optimization for extracting Q1_0 elements via `__byte_perm`. This improvement targets inference workloads on NVIDIA GPUs, reducing latency for dequantization operations on 1-bit quantized models.",
+                "de": "Die Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10035\">b10035</a> von llama.cpp, veröffentlicht am 16. Juli 2026, bringt eine CUDA-Optimierung für die Extraktion von Q1_0-Elementen mittels `__byte_perm`. Diese Verbesserung zielt auf Inferenz-Workloads auf NVIDIA-GPUs ab, indem sie die Latenz von Dequantisierungsoperationen für auf 1 Bit quantisierte Modelle reduziert.",
+                "it": "La versione <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10035\">b10035</a> di llama.cpp, pubblicata il 16 luglio 2026, apporta un'ottimizzazione CUDA per l'estrazione degli elementi Q1_0 tramite `__byte_perm`. Questo miglioramento è mirato ai carichi di lavoro di inferenza su GPU NVIDIA, riducendo la latenza delle operazioni di dequantizzazione per i modelli quantizzati a 1 bit.",
+                "lmo": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10035\">b10035</a> de llama.cpp, publicada el 16 de luj 2026, la porta ona ottimizzazion CUDA per l'estrazion di element Q1_0 via `__byte_perm`. Questa miglioria la cibra i caregh de lavor d'inferenza in su GPU NVIDIA, ridusend la latenza di operazion de dequantifega per i model quantificaa in 1 bit."
+              },
+              "kicker": {
+                "fr": "Optimisation",
+                "en": "Optimization",
+                "de": "Optimierung",
+                "it": "Ottimizzazione",
+                "lmo": "Ottimizzazion"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10035"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Découvertes",
+            "en": "Papers & Discoveries",
+            "de": "Papiere & Entdeckungen",
+            "it": "Papers & Scoperte",
+            "lmo": "Papers & Scopert"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Ring-Zero : l'entraînement par renforcement à l'échelle d'un billion de paramètres fait émerger des comportements inédits",
+                "en": "Ring-Zero: Reinforcement Learning at Trillion-Parameter Scale Yields Emergent Behaviors",
+                "de": "Ring-Zero: Reinforcement Learning im Billionen-Parameter-Massstab lässt neuartige Verhaltensweisen entstehen",
+                "it": "Ring-Zero: l'addestramento per rinforzo alla scala di un trilione di parametri fa emergere comportamenti inediti",
+                "lmo": "Ring-Zero: l'adestrament per rinforz a la scala d'on billion de parametri el fa emerg di comportament ineditt"
+              },
+              "body": {
+                "fr": "L'équipe Ring d'InclusionAI a publié le 15 juillet 2026 un rapport détaillant l'entraînement par renforcement « zero RL » à l'échelle d'un billion de paramètres. Le modèle <a href=\"https://arxiv.org/abs/2607.12395\">Ring-2.5-1T-Zero</a> démontre que le passage à 1 000 milliards de paramètres améliore significativement l'efficacité d'échantillonnage et le plafond de performance. Les chercheurs observent l'émergence spontanée de comportements cognitifs avancés — anthropomorphisme, auto-vérification, raisonnement parallèle et « anxiété de contexte » — rendant les heuristiques artisanales redondantes.",
+                "en": "InclusionAI's Ring team published a report on July 15, 2026 detailing \"zero RL\" reinforcement learning at the trillion-parameter scale. The <a href=\"https://arxiv.org/abs/2607.12395\">Ring-2.5-1T-Zero</a> model demonstrates that scaling to 1,000 billion parameters significantly improves sampling efficiency and performance ceilings. Researchers observe the spontaneous emergence of advanced cognitive behaviors — anthropomorphism, self-verification, parallel reasoning, and \"context anxiety\" — rendering handcrafted heuristics redundant.",
+                "de": "Das Ring-Team von InclusionAI hat am 15. Juli 2026 einen Bericht veröffentlicht, der das «Zero-RL»-Training im Massstab von einer Billion Parametern detailliert beschreibt. Das Modell <a href=\"https://arxiv.org/abs/2607.12395\">Ring-2.5-1T-Zero</a> zeigt, dass der Sprung auf 1'000 Milliarden Parameter die Stichprobeneffizienz und die Leistungsobergrenze deutlich verbessert. Die Forscher beobachten die spontane Entstehung fortgeschrittener kognitiver Verhaltensweisen – Anthropomorphismus, Selbstüberprüfung, paralleles Reasoning und «Kontextangst» – wodurch handgefertigte Heuristiken redundant werden.",
+                "it": "Il team Ring di InclusionAI ha pubblicato il 15 luglio 2026 un rapporto che dettaglia l'addestramento per rinforzo «zero RL» alla scala di un trilione di parametri. Il modello <a href=\"https://arxiv.org/abs/2607.12395\">Ring-2.5-1T-Zero</a> dimostra che il passaggio a 1.000 miliardi di parametri migliora significativamente l'efficienza di campionamento e il tetto delle prestazioni. I ricercatori osservano l'emergenza spontanea di comportamenti cognitivi avanzati — antropomorfismo, auto-verifica, ragionamento parallelo e «ansia di contesto» — rendendo le euristiche artigianali ridondanti.",
+                "lmo": "La squadra Ring d'InclusionAI l'ha publicaa el 15 de luj 2026 on raport che 'l detaglia l'adestrament per rinforz « zero RL » a la scala de on billion de parametri. El model <a href=\"https://arxiv.org/abs/2607.12395\">Ring-2.5-1T-Zero</a> el dimostra che 'l passà a 1 000 miliard de parametri el migliora significativament l'efficienza de campionament e el sofitt de performance. I ricercador i osserven l'emergenza spontanea de comportament cognitiv avanzaa — antropomorfism, auto-verifega, resonament paralel e « ansia de contest » — rendend i euristeghe artigianai redundant."
+              },
+              "kicker": {
+                "fr": "Scaling",
+                "en": "Scaling",
+                "de": "Scaling",
+                "it": "Scaling",
+                "lmo": "Scaling"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.12395"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MuScriptor : Kyutai ouvre un modèle de transcription musicale multi-instrument",
+                "en": "MuScriptor: Kyutai Releases an Open Multi-Instrument Music Transcription Model",
+                "de": "MuScriptor: Kyutai veröffentlicht ein Modell zur Transkription mehrerer Musikinstrumente",
+                "it": "MuScriptor: Kyutai apre un modello di trascrizione musicale multi-strumento",
+                "lmo": "MuScriptor: Kyutai la derva on model de trascrizion musicala multi-strument"
+              },
+              "body": {
+                "fr": "Le laboratoire Kyutai a publié le 15 juillet 2026 <a href=\"https://arxiv.org/abs/2607.08168\">MuScriptor</a>, un modèle ouvert de transcription musicale multi-instrument. Capable de traiter des enregistrements musicaux réels dans une grande diversité de genres, MuScriptor combine pré-entraînement sur données synthétiques, fine-tuning sur audio réel et post-entraînement par apprentissage par renforcement. Le modèle permet de conditionner la transcription sur la présence d'instruments spécifiques. Le code et les poids sont disponibles sur GitHub (576 étoiles).",
+                "en": "Kyutai lab published <a href=\"https://arxiv.org/abs/2607.08168\">MuScriptor</a> on July 15, 2026, an open multi-instrument music transcription model. Capable of processing real musical recordings across a wide diversity of genres, MuScriptor combines pre-training on synthetic data, fine-tuning on real audio, and post-training via reinforcement learning. The model allows conditioning transcription on the presence of specific instruments. Code and weights are available on GitHub (576 stars).",
+                "de": "Das Labor Kyutai hat am 15. Juli 2026 <a href=\"https://arxiv.org/abs/2607.08168\">MuScriptor</a> veröffentlicht, ein offenes Modell für die Transkription mehrerer Musikinstrumente. Das Modell kann reale Musikaufnahmen in einer grossen Vielfalt von Genres verarbeiten und kombiniert Vortraining auf synthetischen Daten, Feintuning auf realem Audio und Post-Training durch Reinforcement Learning. Das Modell ermöglicht es, die Transkription auf das Vorhandensein bestimmter Instrumente zu konditionieren. Code und Gewichte sind auf GitHub verfügbar (576 Sterne).",
+                "it": "Il laboratorio Kyutai ha pubblicato il 15 luglio 2026 <a href=\"https://arxiv.org/abs/2607.08168\">MuScriptor</a>, un modello aperto di trascrizione musicale multi-strumento. In grado di elaborare registrazioni musicali reali in una grande diversità di generi, MuScriptor combina pre-addestramento su dati sintetici, fine-tuning su audio reale e post-addestramento tramite apprendimento per rinforzo. Il modello permette di condizionare la trascrizione sulla presenza di strumenti specifici. Il codice e i pesi sono disponibili su GitHub (576 stelle).",
+                "lmo": "El laboratori Kyutai l'ha publicaa el 15 de luj 2026 <a href=\"https://arxiv.org/abs/2607.08168\">MuScriptor</a>, on model avert de trascrizion musicala multi-strument. Bon de trattà di registrazion musicai reai in ona gran diversità de gener, MuScriptor el combina pre-adestrament in su dade sintetich, fine-tuning in su audio real e post-adestrament per imprendiment per rinforz. El model el permet de condizionà la trascrizion sora la presenza de strument specifegh. El codes e i pes hinn disponibil in su GitHub (576 stelle)."
+              },
+              "kicker": {
+                "fr": "Audio",
+                "en": "Audio",
+                "de": "Audio",
+                "it": "Audio",
+                "lmo": "Audio"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.08168",
+                "https://github.com/muscriptor/muscriptor",
+                "https://muscriptor.kyutai.org/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Blind-Spots-Bench : un benchmark qui expose les angles morts des modèles multimodaux",
+                "en": "Blind-Spots-Bench: A Benchmark Exposing Multimodal Model Blind Spots",
+                "de": "Blind-Spots-Bench: Ein Benchmark, der die blinden Flecken multimodaler Modelle aufdeckt",
+                "it": "Blind-Spots-Bench: un benchmark che espone i punti ciechi dei modelli multimodali",
+                "lmo": "Blind-Spots-Bench: on benchmark che 'l espos i pont mort di model multimodai"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'EPFL ont publié le 15 juillet 2026 <a href=\"https://arxiv.org/abs/2607.08317\">Blind-Spots-Bench</a>, un benchmark conçu pour exposer les angles morts persistants des modèles multimodaux. À partir de 235 questions collectées auprès d'étudiants en IA, le benchmark révèle que les modèles fermés les plus avancés surpassent les modèles ouverts d'environ 10 %, même lorsque leurs performances sur les benchmarks standards sont comparables. Aucun modèle ne domine toutes les catégories de tâches, et certaines restent un défi pour l'ensemble des systèmes évalués.",
+                "en": "Researchers at EPFL published <a href=\"https://arxiv.org/abs/2607.08317\">Blind-Spots-Bench</a> on July 15, 2026, a benchmark designed to expose persistent blind spots in multimodal models. Based on 235 questions collected from AI students, the benchmark reveals that the most advanced closed models outperform open models by about 10%, even when their performance on standard benchmarks is comparable. No model dominates all task categories, and some remain a challenge for all evaluated systems.",
+                "de": "Forscher der EPFL haben am 15. Juli 2026 <a href=\"https://arxiv.org/abs/2607.08317\">Blind-Spots-Bench</a> veröffentlicht, einen Benchmark, der darauf ausgelegt ist, die anhaltenden blinden Flecken multimodaler Modelle aufzudecken. Basierend auf 235 Fragen, die von KI-Studierenden gesammelt wurden, zeigt der Benchmark, dass die fortschrittlichsten geschlossenen Modelle offene Modelle um etwa 10 % übertreffen, selbst wenn ihre Leistung bei Standard-Benchmarks vergleichbar ist. Kein Modell dominiert alle Aufgabenkategorien, und einige bleiben für alle bewerteten Systeme eine Herausforderung.",
+                "it": "Ricercatori dell'EPFL hanno pubblicato il 15 luglio 2026 <a href=\"https://arxiv.org/abs/2607.08317\">Blind-Spots-Bench</a>, un benchmark progettato per esporre i punti ciechi persistenti dei modelli multimodali. A partire da 235 domande raccolte tra studenti di IA, il benchmark rivela che i modelli chiusi più avanzati superano i modelli aperti di circa il 10%, anche quando le loro prestazioni sui benchmark standard sono comparabili. Nessun modello domina tutte le categorie di compiti, e alcune rimangono una sfida per l'insieme dei sistemi valutati.",
+                "lmo": "Di ricercador de l'EPFL hann publicaa el 15 de luj 2026 <a href=\"https://arxiv.org/abs/2607.08317\">Blind-Spots-Bench</a>, on benchmark progettaa per esponn i pont mort persistent di model multimodai. A partì de 235 domand cataa su de student in IA, el benchmark el revela che i model saràa pussee avanzaa i supera i model avert de circa el 10%, anca quand i sò performance in su i benchmark standard hinn comparabel. Nissun model el domina tute i categorie de compit, e quajvuna la resta ona sfida per l'insemma di sistema valutaa."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.08317"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Opinion",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Débats",
+            "en": "Signals & Debates",
+            "de": "Signale & Debatten",
+            "it": "Segnali & Dibattiti",
+            "lmo": "Segnai & Debat"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GPT-Red : l'IA attaque l'IA avec 84 % de succès, six fois plus que les humains",
+                "en": "GPT-Red: AI Attacks AI with 84% Success Rate, Six Times Better Than Humans",
+                "de": "GPT-Red: KI greift KI mit 84 % Erfolgsquote an – sechsmal besser als Menschen",
+                "it": "GPT-Red: l'IA attacca l'IA con l'84% di successo, sei volte più degli umani",
+                "lmo": "GPT-Red: l'IA la ataca l'IA con l'84% de success, ses voeult pussee di omen"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 15 juillet 2026 <a href=\"https://openai.com/index/unlocking-self-improvement-gpt-red\">GPT-Red</a>, un système de red teaming automatisé qui utilise l'auto-jeu pour améliorer la robustesse des modèles. Selon The Decoder, GPT-Red trouve des attaques réussies dans 84 % des scénarios de test, contre seulement 13 % pour les équipes humaines. Les résultats alimentent directement le durcissement de modèles comme GPT-5.6 Sol. Parallèlement, OpenAI a publié une note de politique détaillant une approche de « fédéralisme inversé » pour la gouvernance de l'IA.",
+                "en": "OpenAI published <a href=\"https://openai.com/index/unlocking-self-improvement-gpt-red\">GPT-Red</a> on July 15, 2026, an automated red-teaming system that uses self-play to improve model robustness. According to The Decoder, GPT-Red finds successful attacks in 84% of test scenarios, compared to just 13% for human teams. The results directly feed the hardening of models like GPT-5.6 Sol. In parallel, OpenAI published a policy note detailing a \"reverse federalism\" approach to AI governance.",
+                "de": "OpenAI hat am 15. Juli 2026 <a href=\"https://openai.com/index/unlocking-self-improvement-gpt-red\">GPT-Red</a> veröffentlicht, ein automatisiertes Red-Teaming-System, das Selbstspiel nutzt, um die Robustheit von Modellen zu verbessern. Laut The Decoder findet GPT-Red in 84 % der Testszenarien erfolgreiche Angriffe, verglichen mit nur 13 % bei menschlichen Teams. Die Ergebnisse fliessen direkt in die Härtung von Modellen wie GPT-5.6 Sol ein. Parallel dazu hat OpenAI ein Policy-Papier veröffentlicht, das einen Ansatz des «umgekehrten Föderalismus» für die KI-Governance detailliert.",
+                "it": "OpenAI ha pubblicato il 15 luglio 2026 <a href=\"https://openai.com/index/unlocking-self-improvement-gpt-red\">GPT-Red</a>, un sistema di red teaming automatizzato che utilizza l'auto-gioco per migliorare la robustezza dei modelli. Secondo The Decoder, GPT-Red trova attacchi riusciti nell'84% degli scenari di test, contro solo il 13% per i team umani. I risultati alimentano direttamente l'indurimento di modelli come GPT-5.6 Sol. Parallelamente, OpenAI ha pubblicato una nota politica che dettaglia un approccio di «federalismo inverso» per la governance dell'IA.",
+                "lmo": "OpenAI l'ha publicaa el 15 de luj 2026 <a href=\"https://openai.com/index/unlocking-self-improvement-gpt-red\">GPT-Red</a>, on sistema de red teaming automatizzaa che 'l doperà l'auto-gieugh per migliorà la robustezza di model. Segond The Decoder, GPT-Red el troeuva di atach riessii in l'84% di scenari de test, contra domà el 13% per i squadre uman. I resultat i alimenten direttament el duriment de model 'me GPT-5.6 Sol. In contemporanea, OpenAI l'ha publicaa ona nota de politega che la detaglia on approcc de « federalism inversaa » per la governanza de l'IA."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Segurezza"
+              },
+              "urls": [
+                "https://openai.com/index/unlocking-self-improvement-gpt-red",
+                "https://the-decoder.com/openai-is-now-using-ai-to-attack-its-own-ai-and-its-working-better-than-humans-ever-did/",
+                "https://openai.com/index/advancing-ai-safety-through-state-and-federal-action"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Apple Intelligence approuvé en Chine avec le modèle Qwen d'Alibaba",
+                "en": "Apple Intelligence Approved in China with Alibaba's Qwen Model",
+                "de": "Apple Intelligence in China mit Alibabas Qwen-Modell genehmigt",
+                "it": "Apple Intelligence approvato in Cina con il modello Qwen di Alibaba",
+                "lmo": "Apple Intelligence aprovada in Cina con el model Qwen d'Alibaba"
+              },
+              "body": {
+                "fr": "Le 15 juillet 2026, Apple a obtenu l'approbation réglementaire pour lancer <a href=\"https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\">Apple Intelligence en Chine</a>, en partenariat avec Alibaba et son modèle Qwen. Cette approbation, qui était attendue depuis des mois, marque une étape cruciale pour les ambitions d'Apple sur le deuxième marché mondial du smartphone. L'accord prévoit l'intégration des capacités d'IA générative d'Alibaba dans les appareils Apple vendus en Chine, contournant les restrictions sur les modèles américains.",
+                "en": "On July 15, 2026, Apple obtained regulatory approval to launch <a href=\"https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\">Apple Intelligence in China</a>, in partnership with Alibaba and its Qwen model. This approval, which had been expected for months, marks a crucial step for Apple's ambitions in the world's second-largest smartphone market. The agreement provides for the integration of Alibaba's generative AI capabilities into Apple devices sold in China, bypassing restrictions on American models.",
+                "de": "Am 15. Juli 2026 erhielt Apple die regulatorische Genehmigung für den Start von <a href=\"https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\">Apple Intelligence in China</a>, in Partnerschaft mit Alibaba und dessen Modell Qwen. Diese Genehmigung, die seit Monaten erwartet wurde, markiert einen entscheidenden Schritt für Apples Ambitionen auf dem zweitgrössten Smartphone-Markt der Welt. Die Vereinbarung sieht die Integration der generativen KI-Fähigkeiten von Alibaba in Apple-Geräte vor, die in China verkauft werden, und umgeht damit die Beschränkungen für amerikanische Modelle.",
+                "it": "Il 15 luglio 2026, Apple ha ottenuto l'approvazione regolatoria per lanciare <a href=\"https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\">Apple Intelligence in Cina</a>, in partnership con Alibaba e il suo modello Qwen. Questa approvazione, attesa da mesi, segna una tappa cruciale per le ambizioni di Apple nel secondo mercato mondiale di smartphone. L'accordo prevede l'integrazione delle capacità di IA generativa di Alibaba nei dispositivi Apple venduti in Cina, aggirando le restrizioni sui modelli americani.",
+                "lmo": "El 15 de luj 2026, Apple l'ha ottegnuu l'aprovazion regolamentar per lanzà <a href=\"https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/\">Apple Intelligence in Cina</a>, in partenariad con Alibaba e 'l sò model Qwen. Questa aprovazion, che l'era spetada de mes, la marca ona tappa crucial per i ambizion d'Apple in su segond mercaa mondial del smartphone. L'accord el preved l'integrazion di capacità d'IA generativa d'Alibaba in i aparei Apple venduu in Cina, contornand i restrizion in su i model american."
+              },
+              "kicker": {
+                "fr": "Partenariat",
+                "en": "Partnership",
+                "de": "Partnerschaft",
+                "it": "Partnership",
+                "lmo": "Partenariad"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Meta poursuivi en justice pour des licenciements basés sur des algorithmes d'IA discriminatoires",
+                "en": "Meta Sued Over Layoffs Allegedly Based on Discriminatory AI Algorithms",
+                "de": "Meta wegen angeblich diskriminierender KI-Entlassungsalgorithmen verklagt",
+                "it": "Meta citato in giudizio per licenziamenti basati su algoritmi di IA discriminatori",
+                "lmo": "Meta perseguita in giustizia per di licenziament basaa in su algoritm d'IA discriminatoi"
+              },
+              "body": {
+                "fr": "Le 15 juillet 2026, des employés actuels et anciens de Meta ont intenté une action en justice devant un tribunal fédéral californien, alléguant que l'entreprise avait utilisé des <a href=\"https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/\">systèmes d'IA discriminatoires</a> pour générer les listes de licenciement lors de la suppression de 8 000 postes. Les plaignants affirment que les algorithmes ont ciblé de manière disproportionnée les employés en situation de handicap ou en congé parental.",
+                "en": "On July 15, 2026, current and former Meta employees filed a lawsuit in a California federal court, alleging that the company used <a href=\"https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/\">discriminatory AI systems</a> to generate layoff lists during the elimination of 8,000 positions. The plaintiffs claim that the algorithms disproportionately targeted employees with disabilities or those on parental leave.",
+                "de": "Am 15. Juli 2026 haben aktuelle und ehemalige Meta-Mitarbeiter vor einem Bundesgericht in Kalifornien Klage eingereicht. Sie werfen dem Unternehmen vor, <a href=\"https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/\">diskriminierende KI-Systeme</a> zur Erstellung der Entlassungslisten beim Abbau von 8'000 Stellen eingesetzt zu haben. Die Kläger behaupten, die Algorithmen hätten überproportional Mitarbeiter mit Behinderungen oder in Elternzeit ins Visier genommen.",
+                "it": "Il 15 luglio 2026, dipendenti attuali ed ex di Meta hanno intentato un'azione legale davanti a un tribunale federale californiano, sostenendo che l'azienda aveva utilizzato <a href=\"https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/\">sistemi di IA discriminatori</a> per generare le liste di licenziamento durante la soppressione di 8.000 posti. I querelanti affermano che gli algoritmi hanno preso di mira in modo sproporzionato i dipendenti in situazione di disabilità o in congedo parentale.",
+                "lmo": "El 15 de luj 2026, di impiegaa atuai e ex de Meta hann intentaa ona azion in giustizia denanz a on tribunal federal californian, allegand che l'impresa l'aveva doperà di <a href=\"https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/\">sistema d'IA discriminatoi</a> per generà i list de licenziament in ocasion de la rimozion de 8 000 post. I plaignant i affermen che i algoritm hann cibraa de manera desproporzionada i impiegaa in situazion de disabilità o in conged parental."
+              },
+              "kicker": {
+                "fr": "Contentieux",
+                "en": "Litigation",
+                "de": "Rechtsstreit",
+                "it": "Contenzioso",
+                "lmo": "Litigi"
+              },
+              "urls": [
+                "https://the-decoder.com/meta-employees-sue-over-layoffs-they-say-were-driven-by-discriminatory-ai-selection-systems/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Microsoft forme ses vendeurs à dénigrer OpenAI et Anthropic face à ses modèles internes",
+                "en": "Microsoft Trains Salespeople to Talk Down OpenAI and Anthropic Against Its Internal Models",
+                "de": "Microsoft schult seine Verkäufer darin, OpenAI und Anthropic gegenüber seinen internen Modellen schlechtzureden",
+                "it": "Microsoft forma i suoi venditori a denigrare OpenAI e Anthropic rispetto ai suoi modelli interni",
+                "lmo": "Microsoft la forma i sò venditor a denigrà OpenAI e Anthropic denanz ai sò model intern"
+              },
+              "body": {
+                "fr": "Le 15 juillet 2026, Microsoft a formé ses équipes commerciales à <a href=\"https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/\">dévaloriser les offres d'OpenAI et d'Anthropic</a> face à ses propres modèles internes, selon TechCrunch. La stratégie vise à positionner les modèles maison de Microsoft comme plus efficaces et plus rentables. Cette offensive commerciale intervient alors que Microsoft a massivement investi dans OpenAI mais développe en parallèle sa propre gamme de modèles, notamment via la famille Phi et MAI.",
+                "en": "On July 15, 2026, Microsoft trained its sales teams to <a href=\"https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/\">downplay the offerings of OpenAI and Anthropic</a> compared to its own internal models, according to TechCrunch. The strategy aims to position Microsoft's homegrown models as more efficient and cost-effective. This commercial offensive comes as Microsoft has massively invested in OpenAI but is simultaneously developing its own model lineup, notably through the Phi family and MAI.",
+                "de": "Am 15. Juli 2026 hat Microsoft seine Verkaufsteams laut TechCrunch darin geschult, <a href=\"https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/\">die Angebote von OpenAI und Anthropic gegenüber seinen eigenen internen Modellen herabzusetzen</a>. Die Strategie zielt darauf ab, Microsofts hauseigene Modelle als effizienter und kostengünstiger zu positionieren. Diese kommerzielle Offensive erfolgt, während Microsoft massiv in OpenAI investiert hat, aber parallel eine eigene Modellpalette entwickelt, insbesondere über die Phi-Familie und MAI.",
+                "it": "Il 15 luglio 2026, Microsoft ha formato i suoi team commerciali a <a href=\"https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/\">svalutare le offerte di OpenAI e Anthropic</a> rispetto ai propri modelli interni, secondo TechCrunch. La strategia mira a posizionare i modelli interni di Microsoft come più efficaci e più convenienti. Questa offensiva commerciale avviene mentre Microsoft ha investito massicciamente in OpenAI ma sviluppa in parallelo la propria gamma di modelli, in particolare tramite la famiglia Phi e MAI.",
+                "lmo": "El 15 de luj 2026, Microsoft l'ha formaa i sò squadre comerziai a <a href=\"https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/\">desvalorizà i offert d'OpenAI e d'Anthropic</a> denanz ai sò model intern, segond TechCrunch. La strategia la mira a posizionà i model de cà de Microsoft 'me pussee efficace e pussee rendibel. Questa offensiva comercial la intervegn intant che Microsoft l'ha massivament investii in OpenAI ma la desvilupa in paralel la sò propia gamma de model, soratutt via la fameja Phi e MAI."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/15/microsoft-is-reportedly-training-salespeople-to-talk-down-openai-and-anthropic/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Opinion",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'open-source frappe un grand coup",
+                "en": "Open-Source Strikes a Major Blow",
+                "de": "Open Source landet einen Volltreffer",
+                "it": "L'open-source colpisce duro",
+                "lmo": "L'open-source el tira on gran colp"
+              },
+              "body": {
+                "fr": "L'édition du 16 juillet 2026 du Neuron Times est dominée par l'arrivée d'Inkling, le premier modèle ouvert de Thinking Machines Lab. Ce lancement illustre une tendance de fond : la libération de modèles de plus en plus puissants sous licence permissive, qui redessine la carte des forces dans l'industrie. Alors que xAI ouvre Grok Build, que Google affine Gemma 4 et que le consortium Soofi propose une alternative européenne, la question n'est plus de savoir si l'open-source peut rivaliser avec les modèles propriétaires, mais à quelle vitesse il les rattrapera.",
+                "en": "The July 16, 2026 edition of The Neuron Times is dominated by the arrival of Inkling, Thinking Machines Lab's first open model. This launch illustrates a deep-seated trend: the release of increasingly powerful models under permissive licenses, which is redrawing the balance of power in the industry. As xAI opens Grok Build, Google refines Gemma 4, and the Soofi consortium offers a European alternative, the question is no longer whether open-source can compete with proprietary models, but how quickly it will catch up.",
+                "de": "Die Ausgabe vom 16. Juli 2026 des Neuron Times wird von der Ankunft von Inkling dominiert, dem ersten offenen Modell von Thinking Machines Lab. Dieser Start illustriert einen grundlegenden Trend: die Veröffentlichung immer leistungsfähigerer Modelle unter permissiven Lizenzen, die die Kräfteverhältnisse in der Branche neu zeichnet. Während xAI Grok Build öffnet, Google Gemma 4 verfeinert und das Soofi-Konsortium eine europäische Alternative bietet, stellt sich nicht mehr die Frage, ob Open Source mit proprietären Modellen konkurrieren kann, sondern wie schnell es sie einholen wird.",
+                "it": "L'edizione del 16 luglio 2026 del Neuron Times è dominata dall'arrivo di Inkling, il primo modello aperto di Thinking Machines Lab. Questo lancio illustra una tendenza di fondo: la liberazione di modelli sempre più potenti sotto licenza permissiva, che ridisegna la mappa delle forze nell'industria. Mentre xAI apre Grok Build, Google affina Gemma 4 e il consorzio Soofi propone un'alternativa europea, la questione non è più se l'open-source possa competere con i modelli proprietari, ma a che velocità li raggiungerà.",
+                "lmo": "L'edizion del 16 de luj 2026 del Neuron Times l'è dominada de l'arrivada d'Inkling, el prim model avert de Thinking Machines Lab. Quest lanzament el illustra ona tendenza de fond: la liberazion de model semper pussee potent sotta licenza permissiva, che la ridisegna la carta di forz in l'industria. Intant che xAI la derva Grok Build, che Google el rafina Gemma 4 e che 'l consorzi Soofi el propon ona alternativa europea, la question l'è no pussee de savè se l'open-source el pò rivalizà con i model proprietari, ma a che velocità el i raggiungiarà."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": []
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
