@@ -1,0 +1,733 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-17",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "La start-up chinoise Moonshot AI a dévoilé le 16 juillet 2026 Kimi K3, un modèle ouvert de type mixture-of-experts (MoE) de 2,8 billions de paramètres — dont 16 experts activés sur 896 — qui rivalise avec les fleurons d'OpenAI et d'Anthropic. Selon les benchmarks publiés par l'entreprise, Kimi K3 atteint un score de 57,1 sur l'Artificial Analysis Intelligence Index, se classant troisième derrière GPT-5.6 Sol (58,9) et Claude Fable 5, mais devant Claude Opus 4.8 et GLM 5.2. Le modèle, doté d'une fenêtre de contexte d'un million de tokens, excelle particulièrement en codage (76,2 sur l'indice de codage) et en tâches agentiques (50,1).",
+        "en": "Chinese startup Moonshot AI unveiled Kimi K3 on 16 July 2026, an open mixture-of-experts (MoE) model with 2.8 trillion parameters — 16 experts activated out of 896 — that competes with the flagships of OpenAI and Anthropic. According to benchmarks published by the company, Kimi K3 achieves a score of 57.1 on the Artificial Analysis Intelligence Index, ranking third behind GPT-5.6 Sol (58.9) and Claude Fable 5, but ahead of Claude Opus 4.8 and GLM 5.2. The model, equipped with a one-million-token context window, excels particularly in coding (76.2 on the coding index) and agentic tasks (50.1).",
+        "de": "Das chinesische Start-up Moonshot AI hat am 16. Juli 2026 Kimi K3 vorgestellt, ein offenes Mixture-of-Experts-Modell (MoE) mit 2,8 Billionen Parametern – davon 16 von 896 aktivierten Experten – das mit den Flaggschiffen von OpenAI und Anthropic konkurriert. Laut den vom Unternehmen veröffentlichten Benchmarks erreicht Kimi K3 einen Wert von 57,1 auf dem Artificial Analysis Intelligence Index und belegt damit den dritten Platz hinter GPT-5.6 Sol (58,9) und Claude Fable 5, aber vor Claude Opus 4.8 und GLM 5.2. Das Modell mit einem Kontextfenster von einer Million Tokens zeichnet sich besonders beim Programmieren (76,2 auf dem Programmierindex) und bei agentischen Aufgaben (50,1) aus.",
+        "it": "La startup cinese Moonshot AI ha svelato il 16 luglio 2026 Kimi K3, un modello aperto di tipo mixture-of-experts (MoE) da 2,8 trilioni di parametri — di cui 16 esperti attivati su 896 — che rivaleggia con i fiori all'occhiello di OpenAI e Anthropic. Secondo i benchmark pubblicati dall'azienda, Kimi K3 raggiunge un punteggio di 57,1 sull'Artificial Analysis Intelligence Index, classificandosi terzo dietro GPT-5.6 Sol (58,9) e Claude Fable 5, ma davanti a Claude Opus 4.8 e GLM 5.2. Il modello, dotato di una finestra di contesto di un milione di token, eccelle particolarmente nella codifica (76,2 sull'indice di codifica) e nei compiti agentici (50,1).",
+        "lmo": "La start-up cinésa Moonshot AI l'ha presentaa el 16 de lüi 2026 Kimi K3, on modell avert de tip mixture-of-experts (MoE) de 2,8 bilion de paramèter — con 16 experts ativaa sora 896 — che rivalizza con i fior in del panier d'OpenAI e d'Anthropic. Second i benchmark publicaa de l'azienda, Kimi K3 el vegna a on score de 57,1 sur l'Artificial Analysis Intelligence Index, classificand se terz dree a GPT-5.6 Sol (58,9) e Claude Fable 5, ma davant a Claude Opus 4.8 e GLM 5.2. El modell, dotaa de ona fnestra de contèst de on milion de token, el spica in particolar in el codig (76,2 sur l'index del codig) e in i task agentic (50,1)."
+      },
+      {
+        "fr": "Kimi K3 introduit deux innovations architecturales : l'attention Kimi Delta et les résidus d'attention (Attention Residuals), qui permettent d'atteindre cette performance avec un coût d'inférence réduit. Disponible dès le 16 juillet sur l'API de Moonshot AI et sur OpenRouter, le modèle est proposé à 3 $ par million de tokens en entrée et 15 $ en sortie — un tarif significativement plus élevé que les modèles chinois précédents, signalant selon <a href=\"https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/\">The Decoder</a> la fin de l'ère de l'IA chinoise à bas prix. Les poids complets doivent être publiés d'ici le 27 juillet 2026.",
+        "en": "Kimi K3 introduces two architectural innovations: Kimi Delta attention and Attention Residuals, which enable this performance at reduced inference cost. Available from 16 July on the Moonshot AI API and on OpenRouter, the model is priced at $3 per million input tokens and $15 per million output tokens — a significantly higher rate than previous Chinese models, signaling according to <a href=\"https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/\">The Decoder</a> the end of the era of cheap Chinese AI. The full weights are expected to be released by 27 July 2026.",
+        "de": "Kimi K3 führt zwei architektonische Neuerungen ein: Kimi Delta Attention und Attention Residuals, die diese Leistung bei reduzierten Inferenzkosten ermöglichen. Das Modell ist ab dem 16. Juli über die API von Moonshot AI und auf OpenRouter verfügbar und kostet 3 $ pro Million Tokens bei der Eingabe und 15 $ bei der Ausgabe – ein deutlich höherer Preis als bei früheren chinesischen Modellen, was laut <a href=\"https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/\">The Decoder</a> das Ende der Ära der billigen chinesischen KI signalisiert. Die vollständigen Gewichte sollen bis zum 27. Juli 2026 veröffentlicht werden.",
+        "it": "Kimi K3 introduce due innovazioni architettoniche: l'attenzione Kimi Delta e i residui di attenzione (Attention Residuals), che permettono di raggiungere queste prestazioni con un costo di inferenza ridotto. Disponibile dal 16 luglio sull'API di Moonshot AI e su OpenRouter, il modello è proposto a 3 $ per milione di token in input e 15 $ in output — un prezzo significativamente più alto rispetto ai modelli cinesi precedenti, segnalando secondo <a href=\"https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/\">The Decoder</a> la fine dell'era dell'IA cinese a basso costo. I pesi completi saranno pubblicati entro il 27 luglio 2026.",
+        "lmo": "Kimi K3 el introduis du innovazzion architetturali : l'attenzion Kimi Delta e i residui d'attenzion (Attention Residuals), che permetten de tegnìr sta prestazion con on cost d'inferenza ridot. Disponibil de subito el 16 de lüi sora l'API de Moonshot AI e sora OpenRouter, el modell el vegn propost a 3 $ per milion de token in entrata e 15 $ in uscita — on tarif significativament pussee alt che i precedent modell cinés, segnaland secondo <a href=\"https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/\">The Decoder</a> la fin dell'era de l'IA cinésa a bass prezz. I pes complèt hinn da publicaa entri el 27 de lüi 2026."
+      },
+      {
+        "fr": "L'arrivée de Kimi K3 marque un tournant dans la compétition des modèles ouverts : avec 2,8 billions de paramètres, il devient le plus grand modèle open-weight jamais publié par un laboratoire chinois, dépassant le précédent record de DeepSeek V4. Sur la plateforme de classement communautaire <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/\">r/LocalLLaMA</a>, les utilisateurs rapportent que Kimi K3 surpasse Claude Fable 5 et GPT-5.6 Sol dans l'arène de comparaison, tandis que sur <a href=\"https://artificialanalysis.ai/models/kimi-k3\">Artificial Analysis</a>, il décroche la troisième place absolue, devançant Claude Opus 4.8. La communauté open-source salue une démonstration que l'écart entre modèles ouverts et propriétaires se réduit rapidement.",
+        "en": "The arrival of Kimi K3 marks a turning point in the open model competition: with 2.8 trillion parameters, it becomes the largest open-weight model ever published by a Chinese lab, surpassing the previous record held by DeepSeek V4. On the community ranking platform <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/\">r/LocalLLaMA</a>, users report that Kimi K3 outperforms Claude Fable 5 and GPT-5.6 Sol in the comparison arena, while on <a href=\"https://artificialanalysis.ai/models/kimi-k3\">Artificial Analysis</a>, it secures the absolute third place, ahead of Claude Opus 4.8. The open-source community hails this as a demonstration that the gap between open and proprietary models is rapidly narrowing.",
+        "de": "Die Ankunft von Kimi K3 markiert einen Wendepunkt im Wettbewerb der offenen Modelle: Mit 2,8 Billionen Parametern wird es zum grössten je von einem chinesischen Labor veröffentlichten Open-Weight-Modell und übertrifft den bisherigen Rekord von DeepSeek V4. Auf der Community-Ranglistenplattform <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/\">r/LocalLLaMA</a> berichten Nutzer, dass Kimi K3 Claude Fable 5 und GPT-5.6 Sol in der Vergleichsarena übertrifft, während es auf <a href=\"https://artificialanalysis.ai/models/kimi-k3\">Artificial Analysis</a> den dritten Gesamtrang belegt und Claude Opus 4.8 überflügelt. Die Open-Source-Community begrüsst dies als Beleg dafür, dass sich die Kluft zwischen offenen und proprietären Modellen rasch verringert.",
+        "it": "L'arrivo di Kimi K3 segna una svolta nella competizione dei modelli aperti: con 2,8 trilioni di parametri, diventa il più grande modello open-weight mai pubblicato da un laboratorio cinese, superando il precedente record di DeepSeek V4. Sulla piattaforma di classifica comunitaria <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/\">r/LocalLLaMA</a>, gli utenti riportano che Kimi K3 supera Claude Fable 5 e GPT-5.6 Sol nell'arena di confronto, mentre su <a href=\"https://artificialanalysis.ai/models/kimi-k3\">Artificial Analysis</a> conquista il terzo posto assoluto, superando Claude Opus 4.8. La comunità open-source saluta una dimostrazione che il divario tra modelli aperti e proprietari si sta rapidamente riducendo.",
+        "lmo": "L'ivada de Kimi K3 la marca on tournant in la competizion di modell averts : con 2,8 bilion de paramèter, el vegna el pussee grand modell open-weight mai publicaa da on laboratori cinés, superand el precedent record de DeepSeek V4. Sora la plataforma de classifica communal <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/\">r/LocalLLaMA</a>, i utent i raporten che Kimi K3 el surclassa Claude Fable 5 e GPT-5.6 Sol in l'arena de comparazzion, mentri su <a href=\"https://artificialanalysis.ai/models/kimi-k3\">Artificial Analysis</a>, el piggia la terza posizion assoluta, mettend dree Claude Opus 4.8. La comunitaa open-source la salüta ona demonstrazzion che el distanz tra modell averts e proprietari el se strensch rapidamente."
+      }
+    ],
+    "urls": [
+      "https://www.kimi.com/blog/kimi-k3",
+      "https://the-decoder.com/kimis-open-model-k3-nears-gpt-5-6-sol-and-fable-5-while-signaling-the-end-of-super-cheap-chinese-ai/",
+      "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1uydii0/kimi_k3_beats_claude_fable_and_gpt_56_sol_in/",
+      "https://artificialanalysis.ai/models/kimi-k3",
+      "https://news.ycombinator.com/item?id=48935342"
+    ],
+    "kicker": {
+      "fr": "Frontière",
+      "en": "Frontier",
+      "de": "Grenzbereich",
+      "it": "Frontiera",
+      "lmo": "Frontiera"
+    },
+    "headline": {
+      "fr": "Kimi K3, le modèle chinois de 2,8 billions de paramètres, rivalise avec les meilleurs modèles occidentaux",
+      "en": "Kimi K3, China's 2.8-Trillion-Parameter Model, Rivals Top Western Models",
+      "de": "Kimi K3, das chinesische Modell mit 2,8 Billionen Parametern, misst sich mit den besten westlichen Modellen",
+      "it": "Kimi K3, il modello cinese da 2,8 trilioni di parametri, rivaleggia con i migliori modelli occidentali",
+      "lmo": "Kimi K3, el modell cinés de 2,8 bilion de paramèter, rivalizza con i mej modell occidentai"
+    },
+    "subdeck": {
+      "fr": "Moonshot AI publie un modèle MoE de 2,8 billions de paramètres qui surpasse Claude Opus 4.8 et se rapproche de GPT-5.6 Sol et Claude Fable 5.",
+      "en": "Moonshot AI releases a 2.8-trillion-parameter MoE model that surpasses Claude Opus 4.8 and approaches GPT-5.6 Sol and Claude Fable 5.",
+      "de": "Moonshot AI veröffentlicht ein MoE-Modell mit 2,8 Billionen Parametern, das Claude Opus 4.8 übertrifft und sich GPT-5.6 Sol sowie Claude Fable 5 annähert.",
+      "it": "Moonshot AI pubblica un modello MoE da 2,8 trilioni di parametri che supera Claude Opus 4.8 e si avvicina a GPT-5.6 Sol e Claude Fable 5.",
+      "lmo": "Moonshot AI publica on modell MoE de 2,8 bilion de paramèter che laurad pü aver che Claude Opus 4.8 e che se avicina a GPT-5.6 Sol e Claude Fable 5."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Apple ML publie cinq papiers dont une auto-distillation qui booste le code de 13 points",
+        "en": "Apple ML Publishes Five Papers Including Self-Distillation That Boosts Code by 13 Points",
+        "de": "Apple ML veröffentlicht fünf Papiere, darunter eine Selbst-Destillation, die Code um 13 Punkte verbessert",
+        "it": "Apple ML pubblica cinque paper tra cui un'auto-distillazione che potenzia il codice di 13 punti",
+        "lmo": "Apple ML publica cinc artìcul, trà cui ona auto-distillazion che fa saltà in su el code de 13 pont"
+      },
+      "body": {
+        "fr": "Apple ML Research a publié le 16 juillet 2026 cinq nouveaux papiers, dont une étude sur <a href=\"https://machinelearning.apple.com/research/simple-self-distillation\">l'auto-distillation simple pour la génération de code</a> (SSD), qui améliore Qwen3-30B-Instruct de 42,4 % à 55,3 % pass@1 sur LiveCodeBench v6, et un système de <a href=\"https://machinelearning.apple.com/research/personalizing-incremental-video-search\">personnalisation de la recherche vidéo incrémentale</a> pour Apple TV combinant embeddings textuels et collaboratifs.",
+        "en": "Apple ML Research published five new papers on 16 July 2026, including a study on <a href=\"https://machinelearning.apple.com/research/simple-self-distillation\">simple self-distillation for code generation</a> (SSD), which improves Qwen3-30B-Instruct from 42.4% to 55.3% pass@1 on LiveCodeBench v6, and a system for <a href=\"https://machinelearning.apple.com/research/personalizing-incremental-video-search\">personalizing incremental video search</a> for Apple TV combining textual and collaborative embeddings.",
+        "de": "Apple ML Research hat am 16. Juli 2026 fünf neue Papiere veröffentlicht, darunter eine Studie über <a href=\"https://machinelearning.apple.com/research/simple-self-distillation\">einfache Selbst-Destillation für die Codegenerierung</a> (SSD), die Qwen3-30B-Instruct von 42,4 % auf 55,3 % pass@1 auf LiveCodeBench v6 verbessert, sowie ein System zur <a href=\"https://machinelearning.apple.com/research/personalizing-incremental-video-search\">Personalisierung der inkrementellen Videosuche</a> für Apple TV, das textuelle und kollaborative Embeddings kombiniert.",
+        "it": "Apple ML Research ha pubblicato il 16 luglio 2026 cinque nuovi paper, tra cui uno studio su <a href=\"https://machinelearning.apple.com/research/simple-self-distillation\">l'auto-distillazione semplice per la generazione di codice</a> (SSD), che migliora Qwen3-30B-Instruct dal 42,4% al 55,3% pass@1 su LiveCodeBench v6, e un sistema di <a href=\"https://machinelearning.apple.com/research/personalizing-incremental-video-search\">personalizzazione della ricerca video incrementale</a> per Apple TV che combina embedding testuali e collaborativi.",
+        "lmo": "Apple ML Research l'ha publicaa el 16 de lüi 2026 cinc nòf artìcul, trà cui on studi su <a href=\"https://machinelearning.apple.com/research/simple-self-distillation\">l'auto-distillazion semplice per la generazzion de code</a> (SSD), che meliora Qwen3-30B-Instruct de 42,4 % a 55,3 % pass@1 sur LiveCodeBench v6, e on sistema de <a href=\"https://machinelearning.apple.com/research/personalizing-incremental-video-search\">personalizzazion de la ricerca video incrementala</a> per Apple TV che combina embeddings testual e collaborativ."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://machinelearning.apple.com/research/simple-self-distillation",
+        "https://machinelearning.apple.com/research/personalizing-incremental-video-search"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Hugging Face révèle un incident de sécurité",
+        "en": "Hugging Face Reveals Security Incident",
+        "de": "Hugging Face meldet Sicherheitsvorfall",
+        "it": "Hugging Face rivela un incidente di sicurezza",
+        "lmo": "Hugging Face revela on incident de sicurezza"
+      },
+      "body": {
+        "fr": "Hugging Face a divulgué le 16 juillet 2026 un <a href=\"https://huggingface.co/blog/security-incident-july-2026\">incident de sécurité</a> survenu en juillet 2026. Les détails précis n'ont pas été communiqués, mais l'entreprise a publié une déclaration officielle sur son blog.",
+        "en": "Hugging Face disclosed on 16 July 2026 a <a href=\"https://huggingface.co/blog/security-incident-july-2026\">security incident</a> that occurred in July 2026. Specific details have not been shared, but the company published an official statement on its blog.",
+        "de": "Hugging Face hat am 16. Juli 2026 einen <a href=\"https://huggingface.co/blog/security-incident-july-2026\">Sicherheitsvorfall</a> offengelegt, der sich im Juli 2026 ereignet hat. Die genauen Details wurden nicht mitgeteilt, aber das Unternehmen veröffentlichte eine offizielle Stellungnahme auf seinem Blog.",
+        "it": "Hugging Face ha divulgato il 16 luglio 2026 un <a href=\"https://huggingface.co/blog/security-incident-july-2026\">incidente di sicurezza</a> avvenuto a luglio 2026. I dettagli precisi non sono stati comunicati, ma l'azienda ha pubblicato una dichiarazione ufficiale sul suo blog.",
+        "lmo": "Hugging Face l'ha divulghaa el 16 de lüi 2026 on <a href=\"https://huggingface.co/blog/security-incident-july-2026\">incident de sicurezza</a> capitaa in del lüi 2026. I detai precis no hinn staa comunicaa, ma l'azienda l'ha publicaa ona declarazzion oficial sul so blog."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sicurezza"
+      },
+      "urls": [
+        "https://huggingface.co/blog/security-incident-july-2026"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "NVIDIA Nemotron 3 Embed domine le classement RTEB",
+        "en": "NVIDIA Nemotron 3 Embed Tops RTEB Leaderboard",
+        "de": "NVIDIA Nemotron 3 Embed dominiert die RTEB-Rangliste",
+        "it": "NVIDIA Nemotron 3 Embed domina la classifica RTEB",
+        "lmo": "NVIDIA Nemotron 3 Embed domina la classifica RTEB"
+      },
+      "body": {
+        "fr": "NVIDIA a publié Nemotron 3 Embed, un modèle d'embedding qui se classe premier au classement général du RTEB (Retrieval Text Embedding Benchmark), selon un article publié le 16 juillet 2026 sur le <a href=\"https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\">blog Hugging Face de NVIDIA</a>. Le modèle est conçu pour la recherche agentique et le retrieval augmenté.",
+        "en": "NVIDIA released Nemotron 3 Embed, an embedding model that ranks first in the overall RTEB (Retrieval Text Embedding Benchmark) leaderboard, according to an article published on 16 July 2026 on the <a href=\"https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\">NVIDIA Hugging Face blog</a>. The model is designed for agentic search and augmented retrieval.",
+        "de": "NVIDIA hat Nemotron 3 Embed veröffentlicht, ein Embedding-Modell, das laut einem am 16. Juli 2026 auf dem <a href=\"https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\">Hugging-Face-Blog von NVIDIA</a> veröffentlichten Artikel den ersten Platz in der Gesamtwertung des RTEB (Retrieval Text Embedding Benchmark) belegt. Das Modell ist für agentische Suche und erweitertes Retrieval konzipiert.",
+        "it": "NVIDIA ha pubblicato Nemotron 3 Embed, un modello di embedding che si classifica primo nella classifica generale del RTEB (Retrieval Text Embedding Benchmark), secondo un articolo pubblicato il 16 luglio 2026 sul <a href=\"https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\">blog Hugging Face di NVIDIA</a>. Il modello è progettato per la ricerca agentica e il retrieval aumentato.",
+        "lmo": "NVIDIA l'ha publicaa Nemotron 3 Embed, on modell d'embedding che se classifich al prim post in la classifica general del RTEB (Retrieval Text Embedding Benchmark), secondo on artìcul publicaa el 16 de lüi 2026 su el <a href=\"https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb\">blog Hugging Face de NVIDIA</a>. El modell l'è disegnaa per la ricerca agentica e el retrieval aumentaa."
+      },
+      "tag": {
+        "fr": "Modèles",
+        "en": "Models",
+        "de": "Modelle",
+        "it": "Modelli",
+        "lmo": "Modell"
+      },
+      "urls": [
+        "https://huggingface.co/blog/nvidia/nemotron-3-embed-wins-rteb"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "DeepMind et Isomorphic Labs dévoilent leur approche de la bio-résilience par l'IA",
+        "en": "DeepMind and Isomorphic Labs Unveil Their AI Approach to Bio-Resilience",
+        "de": "DeepMind und Isomorphic Labs legen ihren Ansatz zur Bio-Resilienz durch KI dar",
+        "it": "DeepMind e Isomorphic Labs svelano il loro approccio alla bio-resilienza tramite l'IA",
+        "lmo": "DeepMind e Isomorphic Labs i revelen la lôr approach a la bio-résilienza con l'IA"
+      },
+      "body": {
+        "fr": "Google DeepMind a publié le 16 juillet 2026 un article détaillant son <a href=\"https://deepmind.google/blog/our-approach-to-bioresilience/\">approche conjointe avec Isomorphic Labs</a> en matière de bio-résilience et de modèles d'IA. L'article présente la vision des deux laboratoires pour utiliser l'IA afin d'anticiper et de répondre aux menaces biologiques.",
+        "en": "Google DeepMind published an article on 16 July 2026 detailing its <a href=\"https://deepmind.google/blog/our-approach-to-bioresilience/\">joint approach with Isomorphic Labs</a> on bio-resilience and AI models. The article presents the two labs' vision for using AI to anticipate and respond to biological threats.",
+        "de": "Google DeepMind hat am 16. Juli 2026 einen Artikel veröffentlicht, der seinen <a href=\"https://deepmind.google/blog/our-approach-to-bioresilience/\">gemeinsamen Ansatz mit Isomorphic Labs</a> in den Bereichen Bio-Resilienz und KI-Modelle detailliert beschreibt. Der Artikel stellt die Vision der beiden Labore vor, KI zur Antizipation und Bewältigung biologischer Bedrohungen einzusetzen.",
+        "it": "Google DeepMind ha pubblicato il 16 luglio 2026 un articolo che descrive il suo <a href=\"https://deepmind.google/blog/our-approach-to-bioresilience/\">approccio congiunto con Isomorphic Labs</a> in materia di bio-resilienza e modelli di IA. L'articolo presenta la visione dei due laboratori per utilizzare l'IA al fine di anticipare e rispondere alle minacce biologiche.",
+        "lmo": "Google DeepMind l'ha publicaa el 16 de lüi 2026 on artìcul che detalia la soa <a href=\"https://deepmind.google/blog/our-approach-to-bioresilience/\">approach congiunta con Isomorphic Labs</a> in materie de bio-résilienza e de modell d'IA. L'artìcul el presenta la vision di du laboratori per adiupà l'IA per antizipà e rispond al minacce biologiche."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://deepmind.google/blog/our-approach-to-bioresilience/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI détaille ses mesures de sécurité pour les adolescents sur ChatGPT",
+        "en": "OpenAI Details Safety Measures for Teens on ChatGPT",
+        "de": "OpenAI erläutert Sicherheitsmassnahmen für Jugendliche auf ChatGPT",
+        "it": "OpenAI descrive le sue misure di sicurezza per gli adolescenti su ChatGPT",
+        "lmo": "OpenAI detagia i so misure de sicurezza per i adolecent su ChatGPT"
+      },
+      "body": {
+        "fr": "OpenAI a publié le 16 juillet 2026 un article expliquant comment <a href=\"https://openai.com/index/why-teens-deserve-access-safe-ai\">rendre ChatGPT plus sûr pour les adolescents</a>, avec des protections adaptées à l'âge, des outils d'apprentissage, des contrôles parentaux et des partenariats avec des experts. L'entreprise affirme que les adolescents méritent un accès sécurisé à l'IA.",
+        "en": "OpenAI published an article on 16 July 2026 explaining how to <a href=\"https://openai.com/index/why-teens-deserve-access-safe-ai\">make ChatGPT safer for teenagers</a>, with age-appropriate protections, learning tools, parental controls, and partnerships with experts. The company argues that teenagers deserve safe access to AI.",
+        "de": "OpenAI hat am 16. Juli 2026 einen Artikel veröffentlicht, der erklärt, wie <a href=\"https://openai.com/index/why-teens-deserve-access-safe-ai\">ChatGPT für Jugendliche sicherer gemacht werden kann</a>, mit altersgerechten Schutzmassnahmen, Lernwerkzeugen, elterlichen Kontrollen und Partnerschaften mit Experten. Das Unternehmen betont, dass Jugendliche einen sicheren Zugang zu KI verdienen.",
+        "it": "OpenAI ha pubblicato il 16 luglio 2026 un articolo che spiega come <a href=\"https://openai.com/index/why-teens-deserve-access-safe-ai\">rendere ChatGPT più sicuro per gli adolescenti</a>, con protezioni adatte all'età, strumenti di apprendimento, controlli parentali e partnership con esperti. L'azienda afferma che gli adolescenti meritano un accesso sicuro all'IA.",
+        "lmo": "OpenAI l'ha publicaa el 16 de lüi 2026 on artìcul che spiega come <a href=\"https://openai.com/index/why-teens-deserve-access-safe-ai\">rènder ChatGPT pussee segur per i adolecent</a>, con protezzion adattee a l'etaa, strumenti d'aprendiment, controi parentai e partnariati con esperti. L'azienda la firma che i adolecent i meriten on access segur a l'IA."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sicurezza"
+      },
+      "urls": [
+        "https://openai.com/index/why-teens-deserve-access-safe-ai"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Google Vids : créez des vidéos avec votre avatar IA personnel",
+        "en": "Google Vids: Create Videos with Your Personal AI Avatar",
+        "de": "Google Vids: Erstellen Sie Videos mit Ihrem persönlichen KI-Avatar",
+        "it": "Google Vids: create video con il vostro avatar IA personale",
+        "lmo": "Google Vids : creè vidèe con el vost avatar IA personal"
+      },
+      "body": {
+        "fr": "Google Vids, la plateforme de création vidéo de Google, a reçu deux mises à jour majeures le 16 juillet 2026 : des avatars personnalisés IA qui permettent aux utilisateurs de <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/\">créer des vidéos avec une version numérique d'eux-mêmes</a>, et des outils Gemini Omni pour générer et éditer des vidéos à partir de prompts et d'images de référence.",
+        "en": "Google Vids, Google's video creation platform, received two major updates on 16 July 2026: custom AI avatars that allow users to <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/\">create videos with a digital version of themselves</a>, and Gemini Omni tools for generating and editing videos from prompts and reference images.",
+        "de": "Google Vids, die Videoplattform von Google, hat am 16. Juli 2026 zwei grosse Updates erhalten: personalisierte KI-Avatare, die es Nutzern ermöglichen, <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/\">Videos mit einer digitalen Version ihrer selbst zu erstellen</a>, sowie Gemini-Omni-Tools zur Generierung und Bearbeitung von Videos basierend auf Prompts und Referenzbildern.",
+        "it": "Google Vids, la piattaforma di creazione video di Google, ha ricevuto due aggiornamenti importanti il 16 luglio 2026: avatar IA personalizzati che permettono agli utenti di <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/\">creare video con una versione digitale di sé stessi</a>, e strumenti Gemini Omni per generare e modificare video a partire da prompt e immagini di riferimento.",
+        "lmo": "Google Vids, la piataforma de creazzion video de Google, l'ha ricevuu du aggiornament maiò el 16 de lüi 2026 : avatar personalizzaa IA che permetten ai utent de <a href=\"https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/\">creà vidèe con ona version digital de lur stess</a>, e strumenti Gemini Omni per generà e edità vidèe partend da prompt e immagin de riferiment."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodot"
+      },
+      "urls": [
+        "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+        "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "A la Une"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Kimi K3 : le nouveau champion chinois des modèles ouverts",
+                "en": "Kimi K3: The New Chinese Champion of Open Models",
+                "de": "Kimi K3: Der neue chinesische Champion der offenen Modelle",
+                "it": "Kimi K3: il nuovo campione cinese dei modelli aperti",
+                "lmo": "Kimi K3 : el nouv champion cinés di modell averts"
+              },
+              "body": {
+                "fr": "Moonshot AI a publié le 16 juillet 2026 Kimi K3, un modèle ouvert de 2,8 billions de paramètres avec architecture MoE (16 experts activés sur 896). Le modèle atteint un score de 57,1 sur l'Artificial Analysis Intelligence Index, se classant troisième derrière GPT-5.6 Sol (58,9) et Claude Fable 5, mais devant Claude Opus 4.8. Il est disponible sur <a href=\"https://www.kimi.com/blog/kimi-k3\">kimi.com</a> et via l'API OpenRouter avec une fenêtre de contexte d'un million de tokens. Les poids complets seront publiés d'ici le 27 juillet.",
+                "en": "Moonshot AI released Kimi K3 on 16 July 2026, an open model with 2.8 trillion parameters using an MoE architecture (16 experts activated out of 896). The model achieves a score of 57.1 on the Artificial Analysis Intelligence Index, ranking third behind GPT-5.6 Sol (58.9) and Claude Fable 5, but ahead of Claude Opus 4.8. It is available on <a href=\"https://www.kimi.com/blog/kimi-k3\">kimi.com</a> and via the OpenRouter API with a one-million-token context window. Full weights will be released by 27 July.",
+                "de": "Moonshot AI hat am 16. Juli 2026 Kimi K3 veröffentlicht, ein offenes Modell mit 2,8 Billionen Parametern und MoE-Architektur (16 von 896 aktivierten Experten). Das Modell erreicht einen Wert von 57,1 auf dem Artificial Analysis Intelligence Index und belegt damit den dritten Platz hinter GPT-5.6 Sol (58,9) und Claude Fable 5, aber vor Claude Opus 4.8. Es ist auf <a href=\"https://www.kimi.com/blog/kimi-k3\">kimi.com</a> und über die OpenRouter-API mit einem Kontextfenster von einer Million Tokens verfügbar. Die vollständigen Gewichte werden bis zum 27. Juli veröffentlicht.",
+                "it": "Moonshot AI ha pubblicato il 16 luglio 2026 Kimi K3, un modello aperto da 2,8 trilioni di parametri con architettura MoE (16 esperti attivati su 896). Il modello raggiunge un punteggio di 57,1 sull'Artificial Analysis Intelligence Index, classificandosi terzo dietro GPT-5.6 Sol (58,9) e Claude Fable 5, ma davanti a Claude Opus 4.8. È disponibile su <a href=\"https://www.kimi.com/blog/kimi-k3\">kimi.com</a> e tramite l'API OpenRouter con una finestra di contesto di un milione di token. I pesi completi saranno pubblicati entro il 27 luglio.",
+                "lmo": "Moonshot AI l'ha publicaa el 16 de lüi 2026 Kimi K3, on modell avert de 2,8 bilion de paramèter con architettura MoE (16 experts ativaa sora 896). El modell el vegna a on score de 57,1 sur l'Artificial Analysis Intelligence Index, classificand se terz dree a GPT-5.6 Sol (58,9) e Claude Fable 5, ma davant a Claude Opus 4.8. El l'è disponibil su <a href=\"https://www.kimi.com/blog/kimi-k3\">kimi.com</a> e via l'API OpenRouter con ona fnestra de contèst de on milion de token. I pes complèt i sarà publicaa entri el 27 de lüi."
+              },
+              "kicker": {
+                "fr": "Modèles & Frontière",
+                "en": "Models & Frontier",
+                "de": "Modelle & Grenzbereich",
+                "it": "Modelli & Frontiera",
+                "lmo": "Modell & Frontiera"
+              },
+              "urls": [
+                "https://www.kimi.com/blog/kimi-k3",
+                "https://www.marktechpost.com/2026/07/16/moonshot-ai-releases-kimi-k3-a-2-8-trillion-parameter-open-moe-model-with-kimi-delta-attention-and-1m-context/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google rebaptise NotebookLM en Gemini Notebook et ouvre son AI Mode aux applications",
+                "en": "Google Rebrands NotebookLM as Gemini Notebook and Opens Its AI Mode to Apps",
+                "de": "Google benennt NotebookLM in Gemini Notebook um und öffnet seinen AI Mode für Apps",
+                "it": "Google rinomina NotebookLM in Gemini Notebook e apre la sua AI Mode alle applicazioni",
+                "lmo": "Google renòmena NotebookLM in Gemini Notebook e se varda el so AI Mode ai aplicativ"
+              },
+              "body": {
+                "fr": "Google a annoncé le 16 juillet 2026 le renommage de NotebookLM en Gemini Notebook, intégrant l'outil de prise de notes plus profondément dans l'écosystème Gemini. Chaque notebook dispose désormais d'un ordinateur cloud capable d'écrire et d'exécuter du code, une fonctionnalité réservée aux abonnés AI Ultra et Workspace. Parallèlement, Google Search étend son AI Mode pour permettre aux utilisateurs de <a href=\"https://blog.google/products-and-platforms/products/search/connected-apps/\">connecter et interagir avec des applications tierces</a> directement depuis les résultats de recherche.",
+                "en": "Google announced on 16 July 2026 the rebranding of NotebookLM as Gemini Notebook, integrating the note-taking tool more deeply into the Gemini ecosystem. Each notebook now has a cloud computer capable of writing and executing code, a feature reserved for AI Ultra and Workspace subscribers. Meanwhile, Google Search is expanding its AI Mode to allow users to <a href=\"https://blog.google/products-and-platforms/products/search/connected-apps/\">connect and interact with third-party applications</a> directly from search results.",
+                "de": "Google hat am 16. Juli 2026 die Umbenennung von NotebookLM in Gemini Notebook bekannt gegeben und das Notiztool tiefer in das Gemini-Ökosystem integriert. Jedes Notebook verfügt nun über einen Cloud-Computer, der Code schreiben und ausführen kann – eine Funktion, die Abonnenten von AI Ultra und Workspace vorbehalten ist. Parallel dazu erweitert Google Search seinen AI Mode, damit Nutzer <a href=\"https://blog.google/products-and-platforms/products/search/connected-apps/\">Drittanbieter-Apps direkt aus den Suchergebnissen heraus verbinden und nutzen</a> können.",
+                "it": "Google ha annunciato il 16 luglio 2026 il rebranding di NotebookLM in Gemini Notebook, integrando lo strumento di appunti più profondamente nell'ecosistema Gemini. Ogni notebook dispone ora di un computer cloud in grado di scrivere ed eseguire codice, una funzionalità riservata agli abbonati AI Ultra e Workspace. Parallelamente, Google Search estende la sua AI Mode per permettere agli utenti di <a href=\"https://blog.google/products-and-platforms/products/search/connected-apps/\">connettersi e interagire con applicazioni di terze parti</a> direttamente dai risultati di ricerca.",
+                "lmo": "Google l'ha annunziaa el 16 de lüi 2026 el renòmen de NotebookLM in Gemini Notebook, integrand l'utensil de notes pussee a fonde in l'ecosistema Gemini. Ogni notebook l'ha da d'ura inanz on computer cloud capace de scriv e eseguìr code, ona funzionalitaa riservada ai abonaa AI Ultra e Workspace. In del medesem temp, Google Search el l'estend el so AI Mode per permetter ai utent de <a href=\"https://blog.google/products-and-platforms/products/search/connected-apps/\">connetter e interagì con aplicativ de terze part</a> direttamente dai resultaa de la ricerca."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodot"
+              },
+              "urls": [
+                "https://the-decoder.com/google-rebrands-notebooklm-as-gemini-notebook-and-opens-its-search-app-to-third-party-integration/",
+                "https://blog.google/products-and-platforms/products/search/connected-apps/",
+                "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI lance Grok 4.5 et open-source Grok Build après une fuite de données",
+                "en": "xAI Launches Grok 4.5 and Open-Sources Grok Build After Data Leak",
+                "de": "xAI launcht Grok 4.5 und macht Grok Build nach Datenleck zu Open Source",
+                "it": "xAI lancia Grok 4.5 e open-source Grok Build dopo una fuga di dati",
+                "lmo": "xAI lancia Grok 4.5 e open-source Grok Build dòpo ona fuga de dat"
+              },
+              "body": {
+                "fr": "xAI a publié le 16 juillet 2026 Grok 4.5, présenté comme son modèle le plus intelligent, conçu pour le codage, les tâches agentiques et le travail de connaissance. L'annonce intervient après la divulgation d'une faille de sécurité dans l'outil CLI Grok Build, qui avait <a href=\"https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/\">téléchargé silencieusement des répertoires entiers</a> — incluant clés SSH et bases de mots de passe — vers les serveurs Google Cloud. En réponse, Elon Musk a promis la suppression de toutes les données téléchargées et a open-sourcé l'intégralité du code Rust (844 530 lignes) sous licence Apache 2.0.",
+                "en": "xAI released Grok 4.5 on 16 July 2026, touted as its most intelligent model, designed for coding, agentic tasks, and knowledge work. The announcement follows the disclosure of a security flaw in the Grok Build CLI tool, which had <a href=\"https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/\">silently uploaded entire directories</a> — including SSH keys and password databases — to Google Cloud servers. In response, Elon Musk promised the deletion of all uploaded data and open-sourced the entire Rust codebase (844,530 lines) under the Apache 2.0 license.",
+                "de": "xAI hat am 16. Juli 2026 Grok 4.5 veröffentlicht, das als sein intelligentestes Modell bezeichnet wird und für Programmierung, agentische Aufgaben und Wissensarbeit konzipiert ist. Die Ankündigung erfolgte nach der Offenlegung einer Sicherheitslücke im CLI-Tool Grok Build, das <a href=\"https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/\">stillschweigend ganze Verzeichnisse</a> – einschliesslich SSH-Schlüssel und Passwortdatenbanken – auf Google-Cloud-Server hochgeladen hatte. Als Reaktion versprach Elon Musk die Löschung aller hochgeladenen Daten und veröffentlichte den gesamten Rust-Code (844'530 Zeilen) unter der Apache-2.0-Lizenz als Open Source.",
+                "it": "xAI ha pubblicato il 16 luglio 2026 Grok 4.5, presentato come il suo modello più intelligente, progettato per la codifica, i compiti agentici e il lavoro di conoscenza. L'annuncio arriva dopo la divulgazione di una falla di sicurezza nello strumento CLI Grok Build, che aveva <a href=\"https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/\">caricato silenziosamente intere directory</a> — incluse chiavi SSH e database di password — verso i server Google Cloud. In risposta, Elon Musk ha promesso la cancellazione di tutti i dati caricati e ha open-sourcato l'intero codice Rust (844.530 righe) sotto licenza Apache 2.0.",
+                "lmo": "xAI l'ha publicaa el 16 de lüi 2026 Grok 4.5, presentaa come el so modell pussee intelligent, disegn aa per el codig, i task agentic e el laurà de conoscenza. L'annunci l'vègn dòpo la divulgazzion d'on buca de sicurezza in l'utensil CLI Grok Build, che l'aveva <a href=\"https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/\">descargaa in silenzi interi directory</a> — compres chiavi SSH e basi de password — vers i server Google Cloud. In risposta, Elon Musk l'ha prometa la suppressiun de tucc i dat descargaa e l'ha open-sourcaa l'inter code Rust (844 530 righe) sota licenza Apache 2.0."
+              },
+              "kicker": {
+                "fr": "Modèles & Frontière",
+                "en": "Models & Frontier",
+                "de": "Modelle & Grenzbereich",
+                "it": "Modelli & Frontiera",
+                "lmo": "Modell & Frontiera"
+              },
+              "urls": [
+                "https://x.ai/news/grok-4-5",
+                "https://the-decoder.com/xai-open-sources-grok-build-on-github-after-massive-data-breach/",
+                "https://www.marktechpost.com/2026/07/15/spacexai-open-sources-grok-build-the-rust-agent-harness-tui-and-tool-layer-behind-its-coding-cli/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Anthropic détaille ses migrations de code avec Claude Code et se rapproche d'une IPO",
+                "en": "Anthropic Details Code Migrations with Claude Code and Moves Closer to an IPO",
+                "de": "Anthropic erläutert Coded-Migrationen mit Claude Code und nähert sich einem Börsengang",
+                "it": "Anthropic descrive le sue migrazioni di codice con Claude Code e si avvicina a una IPO",
+                "lmo": "Anthropic detagia i so migrassion de code con Claude Code e se avicina a ona IPO"
+              },
+              "body": {
+                "fr": "Anthropic a publié le 16 juillet 2026 un article détaillant comment l'entreprise utilise Claude Code pour <a href=\"https://claude.com/blog/ai-code-migration\">migrer des bases de code à grande échelle</a>. Le même jour, Anthropic a également annoncé l'intégration de Claude Fable 5 dans Claude Cowork, sa plateforme de collaboration en entreprise. Par ailleurs, le New York Times rapporte qu'Anthropic <a href=\"https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html\">franchit des étapes supplémentaires</a> en vue d'une introduction en Bourse, potentiellement à l'automne 2026.",
+                "en": "Anthropic published an article on 16 July 2026 detailing how the company uses Claude Code to <a href=\"https://claude.com/blog/ai-code-migration\">migrate large-scale codebases</a>. On the same day, Anthropic also announced the integration of Claude Fable 5 into Claude Cowork, its enterprise collaboration platform. Separately, the New York Times reports that Anthropic is <a href=\"https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html\">taking additional steps</a> toward an initial public offering, potentially in autumn 2026.",
+                "de": "Anthropic hat am 16. Juli 2026 einen Artikel veröffentlicht, der detailliert beschreibt, wie das Unternehmen Claude Code für die <a href=\"https://claude.com/blog/ai-code-migration\">Migration grosser Codebasen</a> einsetzt. Am selben Tag gab Anthropic auch die Integration von Claude Fable 5 in Claude Cowork, seine Kollaborationsplattform für Unternehmen, bekannt. Zudem berichtet die New York Times, dass Anthropic <a href=\"https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html\">weitere Schritte</a> in Richtung eines Börsengangs unternimmt, möglicherweise im Herbst 2026.",
+                "it": "Anthropic ha pubblicato il 16 luglio 2026 un articolo che descrive come l'azienda utilizza Claude Code per <a href=\"https://claude.com/blog/ai-code-migration\">migrare basi di codice su larga scala</a>. Lo stesso giorno, Anthropic ha anche annunciato l'integrazione di Claude Fable 5 in Claude Cowork, la sua piattaforma di collaborazione aziendale. Inoltre, il New York Times riporta che Anthropic <a href=\"https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html\">compie ulteriori passi</a> verso un'introduzione in Borsa, potenzialmente nell'autunno 2026.",
+                "lmo": "Anthropic l'ha publicaa el 16 de lüi 2026 on artìcul che detalia come l'azienda l'usa Claude Code per <a href=\"https://claude.com/blog/ai-code-migration\">migrà basi de code a granda scala</a>. El medesem dì, Anthropic l'ha anca annunziaa l'integrazion de Claude Fable 5 in Claude Cowork, la soa piataforma de collaborazzion in d'azienda. In pi, el New York Times el raporta che Anthropic <a href=\"https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html\">fa pass inadree pussee</a> in vista d'una introduzzion in Borsa, potencialment in autunn 2026."
+              },
+              "kicker": {
+                "fr": "Entreprise",
+                "en": "Enterprise",
+                "de": "Unternehmen",
+                "it": "Azienda",
+                "lmo": "Azienda"
+              },
+              "urls": [
+                "https://claude.com/blog/ai-code-migration",
+                "https://claude.com/blog/working-with-claude-fable-5-in-claude-cowork",
+                "https://www.nytimes.com/2026/07/16/business/dealbook/anthropic-ipo-ai.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Cadern Tecnich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Moteurs",
+            "en": "Harnesses & Engines",
+            "de": "Harnasse & Motoren",
+            "it": "Harnais & Motori",
+            "lmo": "Harnais & Motur"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.212 : fork en arrière-plan et limite de recherches web",
+                "en": "Claude Code v2.1.212: Background Forking and Web Search Limit",
+                "de": "Claude Code v2.1.212: Fork im Hintergrund und Web-Suchlimit",
+                "it": "Claude Code v2.1.212: fork in background e limite di ricerche web",
+                "lmo": "Claude Code v2.1.212 : fork in piant e limite de ricerc web"
+              },
+              "body": {
+                "fr": "Claude Code v2.1.212, publié le 17 juillet 2026, introduit plusieurs améliorations majeures : la commande <code>/fork</code> copie désormais la conversation dans une nouvelle session d'arrière-plan (sa propre ligne dans <code>claude agents</code>) ; la commande <code>/subtask</code> remplace le lancement de sous-agents ; une limite de 200 appels WebSearch par session empêche les boucles de recherche incontrôlées ; et <code>claude auto-mode reset</code> permet de restaurer la configuration automatique par défaut. <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.212\">Notes de version complètes</a>.",
+                "en": "Claude Code v2.1.212, released on 17 July 2026, introduces several major improvements: the <code>/fork</code> command now copies the conversation into a new background session (its own line in <code>claude agents</code>); the <code>/subtask</code> command replaces sub-agent launching; a limit of 200 WebSearch calls per session prevents uncontrolled search loops; and <code>claude auto-mode reset</code> restores the default automatic configuration. <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.212\">Full release notes</a>.",
+                "de": "Claude Code v2.1.212, veröffentlicht am 17. Juli 2026, führt mehrere wichtige Verbesserungen ein: Der Befehl <code>/fork</code> kopiert die Unterhaltung nun in eine neue Hintergrundsitzung (eine eigene Zeile in <code>claude agents</code>); der Befehl <code>/subtask</code> ersetzt das Starten von Unteragenten; ein Limit von 200 WebSearch-Aufrufen pro Sitzung verhindert unkontrollierte Suchschleifen; und <code>claude auto-mode reset</code> stellt die automatische Standardkonfiguration wieder her. <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.212\">Vollständige Versionshinweise</a>.",
+                "it": "Claude Code v2.1.212, pubblicato il 17 luglio 2026, introduce diversi miglioramenti importanti: il comando <code>/fork</code> copia ora la conversazione in una nuova sessione in background (una propria riga in <code>claude agents</code>); il comando <code>/subtask</code> sostituisce l'avvio di sotto-agenti; un limite di 200 chiamate WebSearch per sessione impedisce loop di ricerca incontrollati; e <code>claude auto-mode reset</code> permette di ripristinare la configurazione automatica predefinita. <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.212\">Note di rilascio complete</a>.",
+                "lmo": "Claude Code v2.1.212, publicaa el 17 de lüi 2026, introdüis divèrs meliorament maiò : el comand <code>/fork</code> el còpia ades la conversazion in ona nôva session in piant (la soa riga in <code>claude agents</code>) ; el comand <code>/subtask</code> el rimpiazza el lanzament de sotto-agents ; ona limita de 200 chiamaa WebSearch per session la prevénis lùpp de ricerca senza contòll ; e <code>claude auto-mode reset</code> el permet de ristabilì la configurazzion automàtica predefinida. <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.212\">Note de version complètt</a>."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harnass",
+                "it": "Harnais",
+                "lmo": "Harnais"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.212"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex CLI : six versions alpha et support Bedrock personnalisé",
+                "en": "Codex CLI: Six Alpha Versions and Custom Bedrock Support",
+                "de": "Codex CLI: Sechs Alpha-Versionen und benutzerdefinierter Bedrock-Support",
+                "it": "Codex CLI: sei versioni alpha e supporto Bedrock personalizzato",
+                "lmo": "Codex CLI : ses version alpha e support Bedrock personalizzaa"
+              },
+              "body": {
+                "fr": "OpenAI a publié six nouvelles versions alpha de Codex CLI entre le 16 et le 17 juillet 2026, dont la rust-v0.145.0-alpha.20. La version stable rust-v0.144.5 améliore la détection des commandes dangereuses, notamment les formes forcées de <code>rm</code>, avec des messages de rejet plus clairs. La version python-v0.144.4 ajoute le support de transports personnalisés pour Amazon Bedrock, permettant de <a href=\"https://github.com/openai/codex/releases/tag/python-v0.144.4\">contourner la signature AWS</a> pour l'authentification par commande.",
+                "en": "OpenAI released six new alpha versions of Codex CLI between 16 and 17 July 2026, including rust-v0.145.0-alpha.20. The stable version rust-v0.144.5 improves detection of dangerous commands, notably forced forms of <code>rm</code>, with clearer rejection messages. Version python-v0.144.4 adds support for custom transports for Amazon Bedrock, allowing users to <a href=\"https://github.com/openai/codex/releases/tag/python-v0.144.4\">bypass AWS signing</a> for command-line authentication.",
+                "de": "OpenAI hat zwischen dem 16. und 17. Juli 2026 sechs neue Alpha-Versionen von Codex CLI veröffentlicht, darunter rust-v0.145.0-alpha.20. Die stabile Version rust-v0.144.5 verbessert die Erkennung gefährlicher Befehle, insbesondere erzwungener Formen von <code>rm</code>, mit klareren Ablehnungsmeldungen. Die Version python-v0.144.4 fügt Unterstützung für benutzerdefinierte Transports für Amazon Bedrock hinzu, um die <a href=\"https://github.com/openai/codex/releases/tag/python-v0.144.4\">AWS-Signatur für die befehlsbasierte Authentifizierung zu umgehen</a>.",
+                "it": "OpenAI ha pubblicato sei nuove versioni alpha di Codex CLI tra il 16 e il 17 luglio 2026, inclusa la rust-v0.145.0-alpha.20. La versione stabile rust-v0.144.5 migliora il rilevamento dei comandi pericolosi, in particolare le forme forzate di <code>rm</code>, con messaggi di rifiuto più chiari. La versione python-v0.144.4 aggiunge il supporto di trasporti personalizzati per Amazon Bedrock, permettendo di <a href=\"https://github.com/openai/codex/releases/tag/python-v0.144.4\">bypassare la firma AWS</a> per l'autenticazione tramite comando.",
+                "lmo": "OpenAI l'ha publicaa ses nòv version alpha de Codex CLI tra el 16 e el 17 de lüi 2026, trà cui la rust-v0.145.0-alpha.20. La version stable rust-v0.144.5 la meliora la deteczion di comand pericolos, in particolar le form forzee de <code>rm</code>, con messagg de rifüut pussee claar. La version python-v0.144.4 la zonta el support de transport personalizzaa per Amazon Bedrock, permettend de <a href=\"https://github.com/openai/codex/releases/tag/python-v0.144.4\">voltà la signature AWS</a> per l'autentificazion per comand."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harnass",
+                "it": "Harnais",
+                "lmo": "Harnais"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.145.0-alpha.20",
+                "https://github.com/openai/codex/releases/tag/python-v0.144.4"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ollama v0.32.1 améliore Gemma 4 et corrige une fuite mémoire MLX",
+                "en": "Ollama v0.32.1 Improves Gemma 4 and Fixes MLX Memory Leak",
+                "de": "Ollama v0.32.1 verbessert Gemma 4 und behebt MLX-Speicherleck",
+                "it": "Ollama v0.32.1 migliora Gemma 4 e corregge una perdita di memoria MLX",
+                "lmo": "Ollama v0.32.1 meliora Gemma 4 e corregg ona fuga de memoria MLX"
+              },
+              "body": {
+                "fr": "Ollama v0.32.1, publié le 16 juillet 2026, améliore l'appel d'outils et le raisonnement multi-tour de Gemma 4, avec des continuations de réponse plus fiables. La version corrige également une fuite de cache MLX qui augmentait l'utilisation mémoire entre les requêtes, et améliore les performances des snapshots de cache. L'agent web search et fetch informe désormais les utilisateurs d'exécuter <code>ollama signin</code> lorsque l'authentification est requise. <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1\">Notes de version</a>.",
+                "en": "Ollama v0.32.1, released on 16 July 2026, improves tool calling and multi-turn reasoning for Gemma 4, with more reliable response continuations. The release also fixes an MLX cache leak that increased memory usage between requests, and improves cache snapshot performance. The web search and fetch agent now informs users to run <code>ollama signin</code> when authentication is required. <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1\">Release notes</a>.",
+                "de": "Ollama v0.32.1, veröffentlicht am 16. Juli 2026, verbessert den Tool-Aufruf und das mehrschrittige Reasoning von Gemma 4 mit zuverlässigeren Antwortfortsetzungen. Die Version behebt zudem ein MLX-Cache-Leck, das die Speichernutzung zwischen Anfragen erhöhte, und verbessert die Leistung von Cache-Snapshots. Der Web-Such- und Fetch-Agent informiert Nutzer nun darüber, <code>ollama signin</code> auszuführen, wenn eine Authentifizierung erforderlich ist. <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1\">Versionshinweise</a>.",
+                "it": "Ollama v0.32.1, pubblicato il 16 luglio 2026, migliora la chiamata di strumenti e il ragionamento multi-turno di Gemma 4, con continuazioni di risposta più affidabili. La versione corregge anche una perdita di cache MLX che aumentava l'utilizzo di memoria tra le richieste, e migliora le prestazioni degli snapshot di cache. L'agente web search e fetch informa ora gli utenti di eseguire <code>ollama signin</code> quando l'autenticazione è richiesta. <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1\">Note di rilascio</a>.",
+                "lmo": "Ollama v0.32.1, publicaa el 16 de lüi 2026, meliora la chiamada d'utensil e el razonament multi-turn de Gemma 4, con continuazzion de risposta pussee affidabil. La version la corregg anca ona fuga de cache MLX che la fàa cres l'usu de memoria tra i richieste, e meliora i prestazzion di snapshot de cache. L'agent web search e fetch l'informa ades i utent de eseguìr <code>ollama signin</code> quand l'autentificazion l'è richiesta. <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.1\">Note de version</a>."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Motoren",
+                "it": "Moteurs",
+                "lmo": "Motur"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.32.1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b10054 : documentation OpenCL pour Adreno 810",
+                "en": "llama.cpp b10054: OpenCL Documentation for Adreno 810",
+                "de": "llama.cpp b10054: OpenCL-Dokumentation für Adreno 810",
+                "it": "llama.cpp b10054: documentazione OpenCL per Adreno 810",
+                "lmo": "llama.cpp b10054 : documentazion OpenCL per Adreno 810"
+              },
+              "body": {
+                "fr": "llama.cpp b10054, publié le 17 juillet 2026, ajoute une note de documentation sur l'utilisation d'OpenCL avec les GPU Adreno 810. Cette version mineure maintient la compatibilité avec les architectures existantes. <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10054\">Notes de version</a>.",
+                "en": "llama.cpp b10054, released on 17 July 2026, adds a documentation note on using OpenCL with Adreno 810 GPUs. This minor release maintains compatibility with existing architectures. <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10054\">Release notes</a>.",
+                "de": "llama.cpp b10054, veröffentlicht am 17. Juli 2026, fügt eine Dokumentationsnotiz zur Verwendung von OpenCL mit Adreno-810-GPUs hinzu. Diese kleinere Version behält die Kompatibilität mit bestehenden Architekturen bei. <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10054\">Versionshinweise</a>.",
+                "it": "llama.cpp b10054, pubblicato il 17 luglio 2026, aggiunge una nota di documentazione sull'uso di OpenCL con le GPU Adreno 810. Questa versione minore mantiene la compatibilità con le architetture esistenti. <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10054\">Note di rilascio</a>.",
+                "lmo": "llama.cpp b10054, publicaa el 17 de lüi 2026, zonta ona nota de documentazion su l'usu de OpenCL con i GPU Adreno 810. Sta version minor la mantegn la compatibilitaa con le architetture existent. <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10054\">Note de version</a>."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Motoren",
+                "it": "Moteurs",
+                "lmo": "Motur"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10054"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Découvertes",
+            "en": "Papers & Discoveries",
+            "de": "Papiere & Entdeckungen",
+            "it": "Papers & Scoperte",
+            "lmo": "Papers & Scopert"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Ring-Zero : le zero RL à l'échelle d'un billion de paramètres fait émerger des comportements inédits",
+                "en": "Ring-Zero: Trillion-Parameter Zero RL Spawns Unprecedented Behaviors",
+                "de": "Ring-Zero: Zero RL im Billionen-Parameter-Massstab lässt neuartige Verhaltensweisen entstehen",
+                "it": "Ring-Zero: lo zero RL alla scala di un trilione di parametri fa emergere comportamenti inediti",
+                "lmo": "Ring-Zero : el zero RL a scala de on bilion de paramèter el fà emergè comportament nòv"
+              },
+              "body": {
+                "fr": "L'étude Ring-Zero, publiée par inclusionAI le 16 juillet 2026 sur arXiv, démontre que l'entraînement par renforcement sans données humaines (zero RL) peut être étendu à un billion de paramètres. Le modèle Ring-2.5-1T-Zero atteint des performances compétitives sur sept benchmarks mathématiques et développe spontanément des comportements cognitifs avancés : anthropomorphisme, auto-vérification, raisonnement parallèle et « anxiété de contexte ». Les chercheurs ont observé que le processus d'entraînement progresse séquentiellement à travers une phase de découverte initiale suivie d'une phase d'affinage. <a href=\"https://arxiv.org/abs/2607.12395\">Article complet</a>.",
+                "en": "The Ring-Zero study, published by inclusionAI on 16 July 2026 on arXiv, demonstrates that reinforcement learning without human data (zero RL) can be scaled to one trillion parameters. The Ring-2.5-1T-Zero model achieves competitive performance on seven math benchmarks and spontaneously develops advanced cognitive behaviors: anthropomorphism, self-verification, parallel reasoning, and \"context anxiety.\" The researchers observed that the training process progresses sequentially through an initial discovery phase followed by a refinement phase. <a href=\"https://arxiv.org/abs/2607.12395\">Full paper</a>.",
+                "de": "Die Ring-Zero-Studie, veröffentlicht von inclusionAI am 16. Juli 2026 auf arXiv, zeigt, dass Reinforcement Learning ohne menschliche Daten (Zero RL) auf eine Billion Parameter skaliert werden kann. Das Modell Ring-2.5-1T-Zero erreicht wettbewerbsfähige Leistungen bei sieben mathematischen Benchmarks und entwickelt spontan fortgeschrittene kognitive Verhaltensweisen: Anthropomorphismus, Selbstüberprüfung, paralleles Reasoning und «Kontextangst». Die Forscher beobachteten, dass der Trainingsprozess sequenziell durch eine anfängliche Entdeckungsphase gefolgt von einer Verfeinerungsphase verläuft. <a href=\"https://arxiv.org/abs/2607.12395\">Vollständiger Artikel</a>.",
+                "it": "Lo studio Ring-Zero, pubblicato da inclusionAI il 16 luglio 2026 su arXiv, dimostra che l'addestramento per rinforzo senza dati umani (zero RL) può essere esteso a un trilione di parametri. Il modello Ring-2.5-1T-Zero raggiunge prestazioni competitive su sette benchmark matematici e sviluppa spontaneamente comportamenti cognitivi avanzati: antropomorfismo, auto-verifica, ragionamento parallelo e «ansia di contesto». I ricercatori hanno osservato che il processo di addestramento progredisce sequenzialmente attraverso una fase di scoperta iniziale seguita da una fase di raffinamento. <a href=\"https://arxiv.org/abs/2607.12395\">Articolo completo</a>.",
+                "lmo": "L'estudi Ring-Zero, publicaa da inclusionAI el 16 de lüi 2026 sora arXiv, dimostra che l'addestrament per rinforz senz dat uman (zero RL) el pò vess estens aa a on bilion de paramèter. El modell Ring-2.5-1T-Zero el riva a prestazzion competitive sora sett benchmark matematic e el sviluppa de sòlit comportament cognitiv avanzaa : antropomorfism, auto-verifica, razonament paralel e « ansia de contèst ». I ricercador i han osservaa che el process d'addestrament el progrediss sequenzialment tra ona fase de scoperta iniziala seguita da ona fase d'affinament. <a href=\"https://arxiv.org/abs/2607.12395\">Artìcul complet</a>."
+              },
+              "kicker": {
+                "fr": "RL Scaling",
+                "en": "RL Scaling",
+                "de": "RL-Skalierung",
+                "it": "RL Scaling",
+                "lmo": "RL Scaling"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.12395",
+                "https://news.ycombinator.com/item?id=48940603"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "RoboTTT : NVIDIA porte le contexte des politiques robotiques à 8 000 pas",
+                "en": "RoboTTT: NVIDIA Extends Robotic Policy Context to 8,000 Steps",
+                "de": "RoboTTT: NVIDIA erweitert den Kontext von Robotik-Politiken auf 8'000 Schritte",
+                "it": "RoboTTT: NVIDIA porta il contesto delle politiche robotiche a 8.000 passi",
+                "lmo": "RoboTTT : NVIDIA porta el contèst di policy robotiche a 8 000 pass"
+              },
+              "body": {
+                "fr": "NVIDIA a publié RoboTTT, un modèle robotique qui porte le contexte visuomoteur à 8 000 pas de temps — trois ordres de grandeur au-delà des politiques existantes — sans augmenter la latence d'inférence. Le modèle améliore les performances de 87 % par rapport à une ligne de base à contexte unique et accomplit une tâche d'assemblage de cinq minutes en dix étapes qu'aucune ligne de base ne parvient à réaliser. L'entraînement avec un contexte de 8 000 pas surpasse le même modèle avec 1 000 pas de 62 %, suggérant que la longueur de contexte constitue un nouvel axe de scaling pour les modèles robotiques. <a href=\"https://research.nvidia.com/labs/gear/robottt/\">Page du projet</a>.",
+                "en": "NVIDIA released RoboTTT, a robotic model that extends visuomotor context to 8,000 time steps — three orders of magnitude beyond existing policies — without increasing inference latency. The model improves performance by 87% over a single-context baseline and accomplishes a five-minute assembly task in ten steps that no baseline can complete. Training with an 8,000-step context outperforms the same model with 1,000 steps by 62%, suggesting that context length constitutes a new scaling axis for robotic models. <a href=\"https://research.nvidia.com/labs/gear/robottt/\">Project page</a>.",
+                "de": "NVIDIA hat RoboTTT veröffentlicht, ein Robotikmodell, das den visuomotorischen Kontext auf 8'000 Zeitschritte erweitert – drei Grössenordnungen über bestehenden Politiken hinaus – ohne die Inferenzlatenz zu erhöhen. Das Modell verbessert die Leistung um 87 % gegenüber einer Baseline mit Einzelkontext und bewältigt eine fünfmintütige Montageaufgabe in zehn Schritten, die keine Baseline zu bewältigen vermag. Das Training mit einem Kontext von 8'000 Schritten übertrifft dasselbe Modell mit 1'000 Schritten um 62 %, was darauf hindeutet, dass die Kontextlänge eine neue Skalierungsachse für Robotikmodelle darstellt. <a href=\"https://research.nvidia.com/labs/gear/robottt/\">Projektseite</a>.",
+                "it": "NVIDIA ha pubblicato RoboTTT, un modello robotico che porta il contesto visuomotorio a 8.000 passi temporali — tre ordini di grandezza oltre le politiche esistenti — senza aumentare la latenza di inferenza. Il modello migliora le prestazioni dell'87% rispetto a una linea di base a contesto singolo e completa un compito di assemblaggio di cinque minuti in dieci fasi che nessuna linea di base riesce a realizzare. L'addestramento con un contesto di 8.000 passi supera lo stesso modello con 1.000 passi del 62%, suggerendo che la lunghezza del contesto costituisce un nuovo asse di scaling per i modelli robotici. <a href=\"https://research.nvidia.com/labs/gear/robottt/\">Pagina del progetto</a>.",
+                "lmo": "NVIDIA l'ha publicaa RoboTTT, on modell robotic che porta el contèst visuomotur a 8 000 pass de temp — tre orde de grandezza pussee in là di policy existent — sensa aumentà la latenza d'inferenza. El modell el meliora i prestazzion de 87 % rispètt a ona linea de basa a contèst unic e el cumpia ona task d'assemblament de cinc minutt in desze pass che nisuna linea de basa la riva a fà. L'addestrament con on contèst de 8 000 pass el surpasa el medesem modell con 1 000 pass de 62 %, sugerend che la lunghezza del contèst la costitüis on nôv asse de scaling per i modell robotich. <a href=\"https://research.nvidia.com/labs/gear/robottt/\">Pagina del project</a>."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Robotica"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.15275",
+                "https://research.nvidia.com/labs/gear/robottt/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Boogu-Image-0.1 : un modèle multimodal open-source pour 400 000 dollars",
+                "en": "Boogu-Image-0.1: An Open-Source Multimodal Model for $400,000",
+                "de": "Boogu-Image-0.1: Ein multimodales Open-Source-Modell für 400'000 Dollar",
+                "it": "Boogu-Image-0.1: un modello multimodale open-source per 400.000 dollari",
+                "lmo": "Boogu-Image-0.1 : on modell multimodal open-source per 400 000 dòlar"
+              },
+              "body": {
+                "fr": "Le consortium Boogu a publié Boogu-Image-0.1, une famille de modèles open-source unifiés de compréhension et génération multimodale, comprenant les variantes Base, Turbo, Edit et Edit-Turbo. Avec seulement 208,62 millions d'images uniques et un coût d'entraînement théorique d'environ 400 000 dollars, le modèle atteint des performances comparables aux systèmes propriétaires comme Nano-Banana-Pro et GPT-Image-2. Le modèle supporte la génération texte-image, l'inférence rapide, l'édition par instructions et le rendu de texte bilingue (chinois-anglais). <a href=\"https://github.com/boogu-project/Boogu-Image\">Code et poids disponibles</a>.",
+                "en": "The Boogu consortium released Boogu-Image-0.1, a family of open-source unified multimodal understanding and generation models, including Base, Turbo, Edit, and Edit-Turbo variants. With only 208.62 million unique images and a theoretical training cost of approximately $400,000, the model achieves performance comparable to proprietary systems such as Nano-Banana-Pro and GPT-Image-2. The model supports text-to-image generation, fast inference, instruction-based editing, and bilingual text rendering (Chinese-English). <a href=\"https://github.com/boogu-project/Boogu-Image\">Code and weights available</a>.",
+                "de": "Das Boogu-Konsortium hat Boogu-Image-0.1 veröffentlicht, eine Familie offener, einheitlicher Modelle für multimodales Verständnis und Generierung, einschliesslich der Varianten Base, Turbo, Edit und Edit-Turbo. Mit nur 208,62 Millionen einzigartigen Bildern und theoretischen Trainingskosten von rund 400'000 Dollar erreicht das Modell eine mit proprietären Systemen wie Nano-Banana-Pro und GPT-Image-2 vergleichbare Leistung. Das Modell unterstützt Text-zu-Bild-Generierung, schnelle Inferenz, anweisungsbasierte Bearbeitung und zweisprachige Textwiedergabe (Chinesisch-Englisch). <a href=\"https://github.com/boogu-project/Boogu-Image\">Code und Gewichte verfügbar</a>.",
+                "it": "Il consorzio Boogu ha pubblicato Boogu-Image-0.1, una famiglia di modelli open-source unificati di comprensione e generazione multimodale, comprendente le varianti Base, Turbo, Edit e Edit-Turbo. Con solo 208,62 milioni di immagini uniche e un costo di addestramento teorico di circa 400.000 dollari, il modello raggiunge prestazioni paragonabili a sistemi proprietari come Nano-Banana-Pro e GPT-Image-2. Il modello supporta la generazione testo-immagine, l'inferenza rapida, l'editing tramite istruzioni e il rendering di testo bilingue (cinese-inglese). <a href=\"https://github.com/boogu-project/Boogu-Image\">Codice e pesi disponibili</a>.",
+                "lmo": "El consorzi Boogu l'ha publicaa Boogu-Image-0.1, ona famiglia de modell open-source unifichaa de comprension e generazzion multimodal, che comprènd le variant Base, Turbo, Edit e Edit-Turbo. Con domà 208,62 milion de immagin unich e on cost d'addestrament teoric de circa 400 000 dòlar, el modell el riva a prestazzion comparabil con i sistem proprietari come Nano-Banana-Pro e GPT-Image-2. El modell el supporta la generazzion test-imagin, l'inferenza rapida, l'edizzion per istruzzion e el rendiment de test bilingue (cinés-ingles). <a href=\"https://github.com/boogu-project/Boogu-Image\">Code e pes disponibil</a>."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.13125",
+                "https://github.com/boogu-project/Boogu-Image"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SEED : la distillation on-policy auto-évolutive pour l'apprentissage agentique",
+                "en": "SEED: Self-Evolving On-Policy Distillation for Agentic Learning",
+                "de": "SEED: Selbst-evolvierende On-Policy-Destillation für agentisches Lernen",
+                "it": "SEED: la distillazione on-policy auto-evolutiva per l'apprendimento agentico",
+                "lmo": "SEED : la distillazion on-policy auto-evolutiva per l'aprendiment agentic"
+              },
+              "body": {
+                "fr": "Le framework SEED (Self-Evolving On-Policy Distillation), présenté le 16 juillet 2026, propose une méthode de distillation on-policy auto-évolutive pour l'apprentissage par renforcement agentique. SEED convertit les trajectoires on-policy complétées en compétences rétrospectives en langage naturel, puis distille leur effet comportemental dans le modèle de politique. Les expériences sur des tâches agentiques textuelles et visuelles montrent des améliorations constantes des performances et de l'efficacité d'échantillonnage. <a href=\"https://github.com/jinyangwu/SEED\">Code disponible</a>.",
+                "en": "The SEED (Self-Evolving On-Policy Distillation) framework, presented on 16 July 2026, proposes a self-evolving on-policy distillation method for agentic reinforcement learning. SEED converts completed on-policy trajectories into retrospective natural-language skills, then distills their behavioral effect into the policy model. Experiments on textual and visual agentic tasks show consistent improvements in performance and sampling efficiency. <a href=\"https://github.com/jinyangwu/SEED\">Code available</a>.",
+                "de": "Das SEED-Framework (Self-Evolving On-Policy Distillation), vorgestellt am 16. Juli 2026, schlägt eine Methode zur selbst-evolvierenden On-Policy-Destillation für agentisches Reinforcement Learning vor. SEED wandelt abgeschlossene On-Policy-Trajektorien in retrospektive Fähigkeiten in natürlicher Sprache um und destilliert dann deren Verhaltenseffekt in das Politikmodell. Experimente mit textuellen und visuellen agentischen Aufgaben zeigen konstante Leistungs- und Stichprobeneffizienzverbesserungen. <a href=\"https://github.com/jinyangwu/SEED\">Code verfügbar</a>.",
+                "it": "Il framework SEED (Self-Evolving On-Policy Distillation), presentato il 16 luglio 2026, propone un metodo di distillazione on-policy auto-evolutiva per l'apprendimento per rinforzo agentico. SEED converte le traiettorie on-policy completate in competenze retrospettive in linguaggio naturale, quindi distilla il loro effetto comportamentale nel modello di policy. Gli esperimenti su compiti agentici testuali e visivi mostrano miglioramenti costanti delle prestazioni e dell'efficienza di campionamento. <a href=\"https://github.com/jinyangwu/SEED\">Codice disponibile</a>.",
+                "lmo": "El framework SEED (Self-Evolving On-Policy Distillation), presentaa el 16 de lüi 2026, el propòn ona metoda de distillazion on-policy auto-evolutiva per l'aprendiment per rinforz agentic. SEED el converte le trajettorie on-policy completade in competenze retrospektive in lengoeu natural, poeu el distilla el lôr efett comportamental in del modell de politica. Le esperienze su task agentic testual e visual i mostra meliorament costant di prestazzion e de eficienza de campionament. <a href=\"https://github.com/jinyangwu/SEED\">Code disponibil</a>."
+              },
+              "kicker": {
+                "fr": "RL Agentique",
+                "en": "Agentic RL",
+                "de": "Agentisches RL",
+                "it": "RL Agentico",
+                "lmo": "RL Agentica"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.14777",
+                "https://github.com/jinyangwu/SEED"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editoriaal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Débats",
+            "en": "Signals & Debates",
+            "de": "Signale & Debatten",
+            "it": "Segnali & Dibattiti",
+            "lmo": "Segnai & Dibattit"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'UE ordonne à Google d'ouvrir Android aux assistants IA rivaux",
+                "en": "EU Orders Google to Open Android to Rival AI Assistants",
+                "de": "EU ordnet Google an, Android für konkurrierende KI-Assistenten zu öffnen",
+                "it": "L'UE ordina a Google di aprire Android agli assistenti IA rivali",
+                "lmo": "L'UE ordena a Google d'averz Android ai assistent IA rivai"
+              },
+              "body": {
+                "fr": "L'UE a ordonné à Google d'ouvrir Android et Google Search à ses rivaux, une décision qui pourrait affaiblir le contrôle de Google sur deux des plateformes les plus importantes de l'industrie technologique. Les régulateurs européens craignent que Google n'utilise sa vaste base d'utilisateurs Android pour <a href=\"https://www.nytimes.com/2026/07/16/technology/google-android-ai.html\">gagner un avantage dans l'IA</a>. Parallèlement, l'Allemagne a soumis les AI Overviews de Google et Perplexity au droit des médias, une première mondiale.",
+                "en": "The EU has ordered Google to open up Android and Google Search to its rivals, a decision that could weaken Google's control over two of the most important platforms in the tech industry. European regulators fear that Google is using its vast Android user base to <a href=\"https://www.nytimes.com/2026/07/16/technology/google-android-ai.html\">gain an advantage in AI</a>. Meanwhile, Germany has subjected Google's AI Overviews and Perplexity to media law, a world first.",
+                "de": "Die EU hat Google angewiesen, Android und Google Search für seine Konkurrenten zu öffnen – eine Entscheidung, die Googles Kontrolle über zwei der wichtigsten Plattformen der Technologiebranche schwächen könnte. Die europäischen Regulierungsbehörden befürchten, dass Google seine grosse Android-Nutzerbasis nutzt, um sich <a href=\"https://www.nytimes.com/2026/07/16/technology/google-android-ai.html\">einen Vorteil bei KI zu verschaffen</a>. Parallel dazu hat Deutschland die KI-Übersichten von Google und Perplexity dem Medienrecht unterstellt – ein weltweit erstmaliger Schritt.",
+                "it": "L'UE ha ordinato a Google di aprire Android e Google Search ai suoi rivali, una decisione che potrebbe indebolire il controllo di Google su due delle piattaforme più importanti dell'industria tecnologica. I regolatori europei temono che Google utilizzi la sua vasta base di utenti Android per <a href=\"https://www.nytimes.com/2026/07/16/technology/google-android-ai.html\">ottenere un vantaggio nell'IA</a>. Parallelamente, la Germania ha sottoposto gli AI Overviews di Google e Perplexity al diritto dei media, una prima mondiale.",
+                "lmo": "L'UE l'ha ordenaa a Google d'averz Android e Google Search ai so rivai, ona decision che la podarès indebolì el controll de Google sora du de le piattaforme pussee important del sector tecnologic. I regolador européi i temen che Google no vegna a disterà de la so vasta basa d'utent Android per <a href=\"https://www.nytimes.com/2026/07/16/technology/google-android-ai.html\">guadagnà on vantagg in l'IA</a>. In parallelo, la Germania l'ha sottomettüü i AI Overviews de Google e Perplexity al dirit di media, ona primizzia mondial."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/16/technology/google-android-ai.html",
+                "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+                "https://the-decoder.com/germany-puts-googles-ai-overviews-and-perplexity-under-media-law-in-first-of-its-kind-ruling/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude peut désormais utiliser vos mots de passe 1Password",
+                "en": "Claude Can Now Use Your 1Passwords",
+                "de": "Claude kann nun Ihre 1Password-Passwörter nutzen",
+                "it": "Claude può ora utilizzare le vostre password 1Password",
+                "lmo": "Claude el pòra d'ades aduprà i vost password 1Password"
+              },
+              "body": {
+                "fr": "1Password a lancé le 16 juillet 2026 une intégration navigateur pour Claude, permettant au chatbot d'Anthropic d'accéder aux identifiants de sécurité stockés. La fonctionnalité <a href=\"https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration\">1Password for Claude</a> autorise Claude à effectuer des tâches multi-étapes comme la réservation de voyages et la gestion de comptes en ligne sans que l'utilisateur ait à saisir manuellement ses identifiants.",
+                "en": "1Password launched a browser integration for Claude on 16 July 2026, allowing Anthropic's chatbot to access stored security credentials. The <a href=\"https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration\">1Password for Claude</a> feature enables Claude to perform multi-step tasks such as booking travel and managing online accounts without the user having to manually enter their credentials.",
+                "de": "1Password hat am 16. Juli 2026 eine Browser-Integration für Claude gestartet, die dem Chatbot von Anthropic Zugriff auf gespeicherte Sicherheitsanmeldedaten ermöglicht. Die Funktion <a href=\"https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration\">1Password for Claude</a> erlaubt es Claude, mehrstufige Aufgaben wie die Buchung von Reisen und die Verwaltung von Online-Konten durchzuführen, ohne dass der Nutzer seine Anmeldedaten manuell eingeben muss.",
+                "it": "1Password ha lanciato il 16 luglio 2026 un'integrazione browser per Claude, permettendo al chatbot di Anthropic di accedere alle credenziali di sicurezza memorizzate. La funzionalità <a href=\"https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration\">1Password for Claude</a> autorizza Claude a eseguire compiti multi-fase come la prenotazione di viaggi e la gestione di account online senza che l'utente debba inserire manualmente le proprie credenziali.",
+                "lmo": "1Password l'ha lanciat el 16 de lüi 2026 ona integrazion browser per Claude, permettend al chatbot d'Anthropic d'accedì ai credenzial de sicurezza conservaa. La funzionalitaa <a href=\"https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration\">1Password for Claude</a> la autoriza Claude a fà task multistep come la prenotazion de viagg e la gestiun de cont de online sensa che l'utent el vegna a inserì manualment i so credenzial."
+              },
+              "kicker": {
+                "fr": "Partenariat",
+                "en": "Partnership",
+                "de": "Partnerschaft",
+                "it": "Partnership",
+                "lmo": "Partenariat"
+              },
+              "urls": [
+                "https://www.theverge.com/tech/966442/1password-anthropic-claude-browser-integration"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sakana AI ajoute Nemotron à son orchestrateur Fugu",
+                "en": "Sakana AI Adds Nemotron to Its Fugu Orchestrator",
+                "de": "Sakana AI fügt Nemotron zu seinem Fugu-Orchestrator hinzu",
+                "it": "Sakana AI aggiunge Nemotron al suo orchestratore Fugu",
+                "lmo": "Sakana AI zonta Nemotron al so orchestrador Fugu"
+              },
+              "body": {
+                "fr": "Sakana AI a intégré les modèles Nemotron de NVIDIA dans son orchestrateur Fugu, qui combine dynamiquement plusieurs modèles de langage pour des tâches spécifiques. L'argument central : les modèles ouverts ne deviennent compétitifs avec les systèmes frontière que lorsqu'ils sont utilisés de manière coordonnée. <a href=\"https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/\">The Decoder</a> note que l'annonce ne fournit pas encore de chiffres de benchmark spécifiques pour la nouvelle combinaison.",
+                "en": "Sakana AI has integrated NVIDIA's Nemotron models into its Fugu orchestrator, which dynamically combines multiple language models for specific tasks. The central argument: open models only become competitive with frontier systems when used in a coordinated manner. <a href=\"https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/\">The Decoder</a> notes that the announcement does not yet provide specific benchmark figures for the new combination.",
+                "de": "Sakana AI hat die Nemotron-Modelle von NVIDIA in seinen Orchestrator Fugu integriert, der dynamisch mehrere Sprachmodelle für spezifische Aufgaben kombiniert. Das zentrale Argument: Offene Modelle werden nur dann mit Grenzsystemen konkurrenzfähig, wenn sie koordiniert eingesetzt werden. <a href=\"https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/\">The Decoder</a> merkt an, dass die Ankündigung noch keine spezifischen Benchmark-Zahlen für die neue Kombination liefert.",
+                "it": "Sakana AI ha integrato i modelli Nemotron di NVIDIA nel suo orchestratore Fugu, che combina dinamicamente più modelli linguistici per compiti specifici. L'argomento centrale: i modelli aperti diventano competitivi con i sistemi di frontiera solo quando vengono utilizzati in modo coordinato. <a href=\"https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/\">The Decoder</a> nota che l'annuncio non fornisce ancora cifre di benchmark specifiche per la nuova combinazione.",
+                "lmo": "Sakana AI l'ha integrat i modell Nemotron de NVIDIA in del so orchestrador Fugu, che el combina dinamicamente püssè modell de lengoeu per task specifiche. L'argument central : i modell averts no devent competitiv con i sistem frontera se no quaan i vegnan usaa in manera coordinada. <a href=\"https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/\">The Decoder</a> el nota che l'annunci no furniss ancò cifre de benchmark specifich per la nova combinazzion."
+              },
+              "kicker": {
+                "fr": "Orchestration",
+                "en": "Orchestration",
+                "de": "Orchestrierung",
+                "it": "Orchestrazione",
+                "lmo": "Orchestrazion"
+              },
+              "urls": [
+                "https://the-decoder.com/sakana-ais-fugu-adds-nvidia-nemotron-to-prove-collective-intelligence-can-rival-single-frontier-models/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
