@@ -1,0 +1,789 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-25",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a dévoilé le 24 juillet 2026 son nouveau modèle phare, <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, qui succède à Opus 4.8. La société affirme que ce modèle « s'approche des capacités de Claude Fable 5 dans de nombreux domaines » tout en étant facturé deux fois moins cher : 5 $ par million de tokens en entrée et 25 $ en sortie, contre 10 $ et 50 $ pour Fable 5. Une variante « Fast » est également disponible au double du tarif standard, promettant un débit accru pour les charges de travail sensibles à la latence.",
+        "en": "Anthropic unveiled its new flagship model on 24 July 2026, <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, succeeding Opus 4.8. The company claims the model \u0000ab approaches Claude Fable 5's capabilities in many areas \u0000bb while being priced at half the cost: $5 per million input tokens and $25 per million output tokens, compared to $10 and $50 for Fable 5. A \u0000ab Fast \u0000bb variant is also available at double the standard rate, promising higher throughput for latency-sensitive workloads.",
+        "de": "Anthropic hat am 24. Juli 2026 sein neues Flaggschiff-Modell <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a> vorgestellt, das die Nachfolge von Opus 4.8 antritt. Das Unternehmen gibt an, dass das Modell « in vielen Bereichen an die Fähigkeiten von Claude Fable 5 heranreicht », während es nur halb so viel kostet: 5 $ pro Million Tokens bei Eingabe und 25 $ bei Ausgabe, gegenüber 10 $ und 50 $ für Fable 5. Eine « Fast »-Variante ist ebenfalls zum doppelten Standardtarif erhältlich und verspricht einen höheren Durchsatz für latenzempfindliche Arbeitslasten.",
+        "it": "Anthropic ha svelato il 24 luglio 2026 il suo nuovo modello di punta, <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, che succede a Opus 4.8. L'azienda afferma che questo modello « si avvicina alle capacità di Claude Fable 5 in molti ambiti » pur costando la metà: 5 $ per milione di token in input e 25 $ in output, contro 10 $ e 50 $ per Fable 5. Una variante « Fast » è disponibile al doppio della tariffa standard, promettendo una maggiore velocità per i carichi di lavoro sensibili alla latenza.",
+        "lmo": "Anthropic l'ha presenta el 24 de luj 2026 el sò noeuv model de bandera, <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, che 'l succed a Opus 4.8. La socetà la dis che 'sto model « el se vesina ai capacità de Claude Fable 5 in tant camp » e 'l costa la metà: 5 $ per milion de tokens in entrada e 25 $ in sortida, contra i 10 $ e 50 $ del Fable 5. Ona variant « Fast » l'è anca disponibila al doppi del tariff standard, cont ona promessa de débit pussee volt per i carigh de lavorà sensibij a la latenza."
+      },
+      {
+        "fr": "Selon les benchmarks publiés par Anthropic et <a href=\"https://artificialanalysis.ai/models\">Artificial Analysis</a>, Opus 5 obtient un score de 60,7 sur l'AA Intelligence Index, 78 en indice de codage et 55,3 en indice agentique. Sur le benchmark ARC-AGI-3, qui mesure la capacité de résolution de problèmes inédits, le modèle atteint 30,2 %, soit près de quatre fois plus que GPT-5.6 Sol. Opus 5 dispose d'une fenêtre de contexte d'un million de tokens et prend en charge les entrées texte, image et fichier.",
+        "en": "According to benchmarks published by Anthropic and <a href=\"https://artificialanalysis.ai/models\">Artificial Analysis</a>, Opus 5 scores 60.7 on the AA Intelligence Index, 78 on the coding index, and 55.3 on the agentic index. On the ARC-AGI-3 benchmark, which measures the ability to solve novel problems, the model reaches 30.2%, nearly four times that of GPT-5.6 Sol. Opus 5 features a one-million-token context window and supports text, image, and file inputs.",
+        "de": "Laut den von Anthropic und <a href=\"https://artificialanalysis.ai/models\">Artificial Analysis</a> veröffentlichten Benchmarks erreicht Opus 5 einen Wert von 60,7 im AA Intelligence Index, 78 im Coding-Index und 55,3 im Agentic-Index. Im Benchmark ARC-AGI-3, der die Fähigkeit zur Lösung neuartiger Probleme misst, erreicht das Modell 30,2 %, fast viermal so viel wie GPT-5.6 Sol. Opus 5 verfügt über ein Kontextfenster von einer Million Tokens und unterstützt Text-, Bild- und Dateieingaben.",
+        "it": "Secondo i benchmark pubblicati da Anthropic e <a href=\"https://artificialanalysis.ai/models\">Artificial Analysis</a>, Opus 5 ottiene un punteggio di 60,7 sull'AA Intelligence Index, 78 nell'indice di coding e 55,3 nell'indice agentico. Sul benchmark ARC-AGI-3, che misura la capacità di risolvere problemi inediti, il modello raggiunge il 30,2 %, quasi quattro volte più di GPT-5.6 Sol. Opus 5 dispone di una finestra di contesto di un milione di token e supporta input di testo, immagine e file.",
+        "lmo": "Segond i benchmark publicaa de Anthropic e de <a href=\"https://artificialanalysis.ai/models\">Artificial Analysis</a>, Opus 5 el gh'ha on score de 60,7 in su l'AA Intelligence Index, 78 in indice de codifica e 55,3 in indice agentich. In sul benchmark ARC-AGI-3, che 'l misura la capacità de risoeuver problema noeuv, el model el riva a 30,2 %, o ben quasi quatter voeult pussee de GPT-5.6 Sol. Opus 5 el gh'ha ona finestra de contest de on milion de tokens e 'l supporta i input test, immagin e file."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/news/claude-opus-5",
+      "https://artificialanalysis.ai/models",
+      "https://openrouter.ai/api/v1/models",
+      "https://the-decoder.com/anthropic-claims-its-new-claude-opus-5-delivers-near-fable-5-performance-at-half-the-token-price/",
+      "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
+      "https://www.theverge.com/ai-artificial-intelligence/970105/claude-opus-5-announced-anthropic-ai-model-release"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Grenzbereich",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Anthropic lance Claude Opus 5, un nouveau modèle amiral qui rivalise avec Fable 5 à moitié prix",
+      "en": "Anthropic launches Claude Opus 5, a new flagship model that rivals Fable 5 at half the price",
+      "de": "Anthropic lanciert Claude Opus 5, ein neues Flaggschiff-Modell, das mit Fable 5 zu halbem Preis konkurriert",
+      "it": "Anthropic lancia Claude Opus 5, un nuovo modello ammiraglio che rivaleggia con Fable 5 a metà prezzo",
+      "lmo": "Anthropic el lancia Claude Opus 5, on noeuv model amiral che 'l rivalizza cont el Fable 5 a metaa prezzi"
+    },
+    "subdeck": {
+      "fr": "Le nouveau modèle amiral d'Anthropic atteint des performances proches de Fable 5 sur les benchmarks de codage et de raisonnement, pour un coût par token réduit de moitié.",
+      "en": "Anthropic's new flagship model achieves performance close to Fable 5 on coding and reasoning benchmarks, at half the per-token cost.",
+      "de": "Das neue Flaggschiff-Modell von Anthropic erzielt bei Code- und Reasoning-Benchmarks eine Leistung nahe an Fable 5, bei halbierten Kosten pro Token.",
+      "it": "Il nuovo modello ammiraglio di Anthropic raggiunge prestazioni vicine a Fable 5 nei benchmark di coding e ragionamento, con un costo per token dimezzato.",
+      "lmo": "El noeuv model amiral d'Anthropic el riva a di prestazion vesine a quei de Fable 5 in sui benchmark de codifica e de resonament, cont on cost per token sbassaa de la metà."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Apple identifie un goulot d'étranglement dans le raisonnement long des LLMs",
+        "en": "Apple identifies a bottleneck in long-horizon LLM reasoning",
+        "de": "Apple identifiziert einen Engpass beim langen Reasoning von LLMs",
+        "it": "Apple identifica un collo di bottiglia nel ragionamento lungo dei LLM",
+        "lmo": "Apple l'identifica on goulot d'étranglement in del resonament longh di LLM"
+      },
+      "body": {
+        "fr": "<a href=\"https://machinelearning.apple.com/research/lead-no-recovery-bottleneck\">Apple ML Research</a> a publié le 24 juillet 2026 une étude sur le « goulot d'étranglement sans récupération » dans le raisonnement à long horizon des LLMs. Les chercheurs démontrent qu'une décomposition extrême des tâches crée des erreurs irréversibles sur certaines étapes « dures », et proposent Lookahead-Enhanced Attention pour y remédier.",
+        "en": "<a href=\"https://machinelearning.apple.com/research/lead-no-recovery-bottleneck\">Apple ML Research</a> published on 24 July 2026 a study on the \u0000ab lead-no-recovery bottleneck \u0000bb in long-horizon reasoning of LLMs. The researchers demonstrate that extreme task decomposition creates irreversible errors on certain \u0000ab hard \u0000bb steps, and propose Lookahead-Enhanced Attention to address it.",
+        "de": "<a href=\"https://machinelearning.apple.com/research/lead-no-recovery-bottleneck\">Apple ML Research</a> hat am 24. Juli 2026 eine Studie zum « Lead-No-Recovery-Bottleneck » beim Reasoning über lange Horizonte von LLMs veröffentlicht. Die Forscher zeigen, dass eine extreme Aufgabenzerlegung auf bestimmten « harten » Schritten irreversible Fehler erzeugt, und schlagen Lookahead-Enhanced Attention zur Abhilfe vor.",
+        "it": "<a href=\"https://machinelearning.apple.com/research/lead-no-recovery-bottleneck\">Apple ML Research</a> ha pubblicato il 24 luglio 2026 uno studio sul « collo di bottiglia senza recupero » nel ragionamento a lungo orizzonte dei LLM. I ricercatori dimostrano che una scomposizione estrema dei compiti crea errori irreversibili su alcune fasi « difficili », e propongono Lookahead-Enhanced Attention per porvi rimedio.",
+        "lmo": "<a href=\"https://machinelearning.apple.com/research/lead-no-recovery-bottleneck\">Apple ML Research</a> l'ha publicaa el 24 de luj 2026 on studi in sul « goulot d'étranglement senza recuper » in del resonament a longh orizzont di LLM. I ricercator dimostren che ona descomposizion estrema di compit la crea di error irreversibil in su di certi pass « dur », e proponen Lookahead-Enhanced Attention per rimedià."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://machinelearning.apple.com/research/lead-no-recovery-bottleneck"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Kimi K3 contre Fable 5 : le rapport coût-efficacité penche pour Moonshot",
+        "en": "Kimi K3 vs Fable 5: cost-effectiveness favors Moonshot",
+        "de": "Kimi K3 gegen Fable 5: Das Kosten-Nutzen-Verhältnis spricht für Moonshot",
+        "it": "Kimi K3 contro Fable 5: il rapporto costo-efficacia pende per Moonshot",
+        "lmo": "Kimi K3 contra Fable 5: el rapport cost-efficacia el penda per Moonshot"
+      },
+      "body": {
+        "fr": "<a href=\"https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding\">Together AI a comparé le 24 juillet 2026 Kimi K3 et Claude Fable 5</a> sur 452 rollouts DeepSWE. Fable 5 mène en pass@1 avec 1,4 point d'avance, mais Kimi K3 gagne en pass@4 et offre 2,8 fois plus de résolutions par dollar dépensé.",
+        "en": "<a href=\"https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding\">Together AI compared Kimi K3 and Claude Fable 5 on 24 July 2026</a> across 452 DeepSWE rollouts. Fable 5 leads in pass@1 by 1.4 points, but Kimi K3 wins in pass@4 and offers 2.8 times more resolutions per dollar spent.",
+        "de": "<a href=\"https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding\">Together AI hat am 24. Juli 2026 Kimi K3 und Claude Fable 5</a> auf 452 DeepSWE-Rollouts verglichen. Fable 5 führt bei pass@1 mit 1,4 Punkten Vorsprung, aber Kimi K3 gewinnt bei pass@4 und bietet 2,8-mal mehr Lösungen pro ausgegebenem Dollar.",
+        "it": "<a href=\"https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding\">Together AI ha confrontato il 24 luglio 2026 Kimi K3 e Claude Fable 5</a> su 452 rollout DeepSWE. Fable 5 guida in pass@1 con 1,4 punti di vantaggio, ma Kimi K3 vince in pass@4 e offre 2,8 volte più risoluzioni per dollaro speso.",
+        "lmo": "<a href=\"https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding\">Together AI l'ha confrontaa el 24 de luj 2026 Kimi K3 e Claude Fable 5</a> in su 452 rollout DeepSWE. Fable 5 el mena in pass@1 cont 1,4 pont de vantagg, ma Kimi K3 el vinc in pass@4 e 'l offr 2,8 voeult pussee de risoluzion per dollar spenduu."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "urls": [
+        "https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Sakana AI affirme que son routeur Fugu Ultra v1.1 surpasse Fable 5",
+        "en": "Sakana AI claims its Fugu Ultra v1.1 router outperforms Fable 5",
+        "de": "Sakana AI behauptet, sein Router Fugu Ultra v1.1 übertrifft Fable 5",
+        "it": "Sakana AI afferma che il suo router Fugu Ultra v1.1 supera Fable 5",
+        "lmo": "Sakana AI l'afferma che 'l sò router Fugu Ultra v1.1 el supera Fable 5"
+      },
+      "body": {
+        "fr": "<a href=\"https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/\">Sakana AI a mis à jour le 24 juillet 2026 son routeur de modèles Fugu Ultra</a> en version 1.1, revendiquant des gains allant jusqu'à 7,9 points par rapport à la v1.0. Le routeur battrait Fable 5 sans même l'inclure dans le pool de modèles, selon Sakana. La mise à jour ajoute un endpoint compatible Claude Code.",
+        "en": "<a href=\"https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/\">Sakana AI updated its model router Fugu Ultra on 24 July 2026</a> to version 1.1, claiming gains of up to 7.9 points over v1.0. The router would beat Fable 5 without even including it in the model pool, according to Sakana. The update adds a Claude Code-compatible endpoint.",
+        "de": "<a href=\"https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/\">Sakana AI hat am 24. Juli 2026 seinen Modell-Router Fugu Ultra</a> auf Version 1.1 aktualisiert und beansprucht Gewinne von bis zu 7,9 Punkten gegenüber v1.0. Der Router schlage Fable 5, ohne es überhaupt in den Modell-Pool aufzunehmen, so Sakana. Das Update fügt einen mit Claude Code kompatiblen Endpunkt hinzu.",
+        "it": "<a href=\"https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/\">Sakana AI ha aggiornato il 24 luglio 2026 il suo router di modelli Fugu Ultra</a> alla versione 1.1, rivendicando guadagni fino a 7,9 punti rispetto alla v1.0. Il router batterebbe Fable 5 senza nemmeno includerlo nel pool di modelli, secondo Sakana. L'aggiornamento aggiunge un endpoint compatibile con Claude Code.",
+        "lmo": "<a href=\"https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/\">Sakana AI l'ha agiornaa el 24 de luj 2026 el sò router de model Fugu Ultra</a> in version 1.1, rivendicand di guadagn fina a 7,9 pont rispett a la v1.0. El router el bateria Fable 5 senza gnanca includell in del pool de model, segond Sakana. L'agiornament el gionta on endpoint compatibil cont Claude Code."
+      },
+      "tag": {
+        "fr": "Inférence",
+        "en": "Inference",
+        "de": "Inferenz",
+        "it": "Inferenza",
+        "lmo": "Inferenza"
+      },
+      "urls": [
+        "https://the-decoder.com/sakana-claims-its-ai-model-router-fugu-ultra-v1-1-now-beats-fable-5-without-even-including-it-in-the-pool/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Le modèle allemand Soofi S contaminé par son propre benchmark",
+        "en": "German model Soofi S contaminated by its own benchmark",
+        "de": "Das deutsche Modell Soofi S durch eigenen Benchmark kontaminiert",
+        "it": "Il modello tedesco Soofi S contaminato dal proprio benchmark",
+        "lmo": "El model todesch Soofi S contaminaa del sò propri benchmark"
+      },
+      "body": {
+        "fr": "<a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Le consortium allemand Aleph Alpha a publié le 24 juillet 2026 Soofi S</a>, un modèle ouvert de 30 milliards de paramètres. La version 3.0 du rapport technique a dû être corrigée après que la communauté a découvert que des questions du benchmark GPQA avaient accidentellement contaminé les données d'entraînement. Les résultats ont été recalculés sans GPQA.",
+        "en": "<a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">The German consortium Aleph Alpha published Soofi S on 24 July 2026</a>, an open 30-billion-parameter model. Version 3.0 of the technical report had to be corrected after the community discovered that questions from the GPQA benchmark had accidentally contaminated the training data. Results were recalculated without GPQA.",
+        "de": "<a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Das deutsche KI-Konsortium Aleph Alpha hat am 24. Juli 2026 Soofi S</a> veröffentlicht, ein offenes Modell mit 30 Milliarden Parametern. Die Version 3.0 des technischen Berichts musste korrigiert werden, nachdem die Gemeinschaft entdeckt hatte, dass Fragen des GPQA-Benchmarks versehentlich die Trainingsdaten kontaminiert hatten. Die Ergebnisse wurden ohne GPQA neu berechnet.",
+        "it": "<a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">Il consorzio tedesco Aleph Alpha ha pubblicato il 24 luglio 2026 Soofi S</a>, un modello aperto da 30 miliardi di parametri. La versione 3.0 del rapporto tecnico ha dovuto essere corretta dopo che la comunità ha scoperto che domande del benchmark GPQA avevano accidentalmente contaminato i dati di addestramento. I risultati sono stati ricalcolati senza GPQA.",
+        "lmo": "<a href=\"https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/\">El consorzi todesch Aleph Alpha l'ha publicaa el 24 de luj 2026 Soofi S</a>, on model avert de 30 miliard de parametri. La version 3.0 del rapport tecnich l'ha dovù vess coreggia dopo che la comunità l'ha scovrii che di domand del benchmark GPQA hann accidentalment contaminaa i dat d'addestrament. I resultà hinn staa recalcolda senza GPQA."
+      },
+      "tag": {
+        "fr": "Débat",
+        "en": "Debate",
+        "de": "Debatte",
+        "it": "Dibattito",
+        "lmo": "Dibatit"
+      },
+      "urls": [
+        "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèj & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Opus 5 : le nouveau fer de lance d'Anthropic",
+                "en": "Claude Opus 5: Anthropic's new spearhead",
+                "de": "Claude Opus 5: Die neue Speerspitze von Anthropic",
+                "it": "Claude Opus 5: la nuova punta di diamante di Anthropic",
+                "lmo": "Claude Opus 5: el noeuv fer de lancia d'Anthropic"
+              },
+              "body": {
+                "fr": "Anthropic a dévoilé le 24 juillet 2026 <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, son nouveau modèle amiral. Avec un score de 60,7 sur l'AA Intelligence Index et 78 en codage, il rivalise avec Fable 5 pour moitié du prix au token. Le modèle est disponible sur l'API Anthropic, AWS Bedrock, GCP Vertex AI et Claude Code, où il devient l'Opus par défaut. Une variante « Fast » double le débit pour un tarif de 10 $/50 $ par million de tokens.",
+                "en": "Anthropic unveiled its new flagship model on 24 July 2026, <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>. With a score of 60.7 on the AA Intelligence Index and 78 on coding, it rivals Fable 5 at half the per-token price. The model is available on the Anthropic API, AWS Bedrock, GCP Vertex AI, and Claude Code, where it becomes the default Opus. A \u0000ab Fast \u0000bb variant doubles throughput at a rate of $10/$50 per million tokens.",
+                "de": "Anthropic hat am 24. Juli 2026 <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a> vorgestellt, sein neues Flaggschiff-Modell. Mit einem Wert von 60,7 im AA Intelligence Index und 78 beim Coding konkurriert es mit Fable 5 zum halben Preis pro Token. Das Modell ist über die Anthropic-API, AWS Bedrock, GCP Vertex AI und Claude Code verfügbar, wo es zum Standard-Opus wird. Eine « Fast »-Variante verdoppelt den Durchsatz zu einem Tarif von 10 $/50 $ pro Million Tokens.",
+                "it": "Anthropic ha svelato il 24 luglio 2026 <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, il suo nuovo modello ammiraglio. Con un punteggio di 60,7 sull'AA Intelligence Index e 78 nel coding, rivaleggia con Fable 5 a metà del prezzo per token. Il modello è disponibile sull'API Anthropic, AWS Bedrock, GCP Vertex AI e Claude Code, dove diventa l'Opus predefinito. Una variante « Fast » raddoppia la velocità per una tariffa di 10 $/50 $ per milione di token.",
+                "lmo": "Anthropic l'ha presenta el 24 de luj 2026 <a href=\"https://www.anthropic.com/news/claude-opus-5\">Claude Opus 5</a>, el sò noeuv model amiral. Cont on score de 60,7 in su l'AA Intelligence Index e 78 in codifica, el rivalizza cont el Fable 5 per la metà del prezzi al token. El model l'è disponibil in su l'API Anthropic, AWS Bedrock, GCP Vertex AI e Claude Code, indove che 'l deventa l'Opus de default. Ona variant « Fast » la dopia el débit per on tariff de 10 $/50 $ per milion de tokens."
+              },
+              "kicker": {
+                "fr": "Modèles & Frontière",
+                "en": "Models & Frontier",
+                "de": "Modelle & Grenzbereich",
+                "it": "Modelli & Frontiera",
+                "lmo": "Modèj & Frontiera"
+              },
+              "urls": [
+                "https://www.anthropic.com/news/claude-opus-5",
+                "https://artificialanalysis.ai/models"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Industrie & Régulation",
+            "en": "Industry & Regulation",
+            "de": "Industrie & Regulierung",
+            "it": "Industria & Regolamentazione",
+            "lmo": "Industria & Regolazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Nvidia, Microsoft et Meta s'unissent contre les restrictions sur les modèles ouverts",
+                "en": "Nvidia, Microsoft and Meta unite against restrictions on open models",
+                "de": "Nvidia, Microsoft und Meta schliessen sich gegen Beschränkungen offener Modelle zusammen",
+                "it": "Nvidia, Microsoft e Meta si uniscono contro le restrizioni sui modelli aperti",
+                "lmo": "Nvidia, Microsoft e Meta se unissen contra i restrizion in sui model avert"
+              },
+              "body": {
+                "fr": "<a href=\"https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html\">Nvidia, Microsoft et Meta</a>, rejoints par plus de vingt entreprises dont Hugging Face et Palantir, ont signé le 24 juillet 2026 une lettre ouverte exhortant les décideurs politiques à éviter des restrictions prématurées sur les modèles open-weight. Le document, intitulé « Open Weights and American AI Leadership », distingue la distillation légitime de modèles de la mauvaise appropriation. OpenAI, Anthropic et Google sont notablement absents des signataires.",
+                "en": "<a href=\"https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html\">Nvidia, Microsoft and Meta</a>, joined by more than twenty companies including Hugging Face and Palantir, signed an open letter on 24 July 2026 urging policymakers to avoid premature restrictions on open-weight models. The document, titled \u0000ab Open Weights and American AI Leadership \u0000bb, distinguishes legitimate model distillation from misappropriation. OpenAI, Anthropic and Google are notably absent from the signatories.",
+                "de": "<a href=\"https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html\">Nvidia, Microsoft und Meta</a>, unterstützt von über zwanzig Unternehmen darunter Hugging Face und Palantir, haben am 24. Juli 2026 einen offenen Brief unterzeichnet, der die politischen Entscheidungsträger auffordert, voreilige Beschränkungen für Open-Weight-Modelle zu vermeiden. Das Dokument mit dem Titel « Open Weights and American AI Leadership » unterscheidet zwischen legitimer Modelldestillation und unrechtmässiger Aneignung. OpenAI, Anthropic und Google fehlen bemerkenswerterweise unter den Unterzeichnern.",
+                "it": "<a href=\"https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html\">Nvidia, Microsoft e Meta</a>, affiancate da oltre venti aziende tra cui Hugging Face e Palantir, hanno firmato il 24 luglio 2026 una lettera aperta esortando i decisori politici a evitare restrizioni premature sui modelli open-weight. Il documento, intitolato « Open Weights and American AI Leadership », distingue la distillazione legittima di modelli dall'appropriazione indebita. OpenAI, Anthropic e Google sono notevolmente assenti tra i firmatari.",
+                "lmo": "<a href=\"https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html\">Nvidia, Microsoft e Meta</a>, insema a pussee de vint aziend, compres Hugging Face e Palantir, hann firmaa el 24 de luj 2026 ona lettera averta che la prega i decisor politegh de evità di restrizion prematur in sui model open-weight. El document, intitolaa « Open Weights and American AI Leadership », el distingua la distillazion legittima di model de la mala appropriazion. OpenAI, Anthropic e Google hinn notevolment assent di firmatari."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.cnbc.com/2026/07/24/nvidia-microsoft-meta-open-weight-ai-models.html",
+                "https://www.techcrunch.com/2026/07/24/as-us-weighs-response-to-chinese-ai-industry-urges-against-broad-open-weight-restrictions/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Assistants",
+            "en": "Harnesses & Assistants",
+            "de": "Geschirr & Assistenten",
+            "it": "Imbracature & Assistenti",
+            "lmo": "Harnes & Assistente"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code intègre Opus 5 et renforce la sécurité sandbox",
+                "en": "Claude Code integrates Opus 5 and strengthens sandbox security",
+                "de": "Claude Code integriert Opus 5 und verstärkt die Sandbox-Sicherheit",
+                "it": "Claude Code integra Opus 5 e rafforza la sicurezza sandbox",
+                "lmo": "Claude Code el integra Opus 5 e 'l rinforza la sicurezza sandbox"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.219\">Claude Code v2.1.219</a>, publié le 24 juillet 2026, ajoute Claude Opus 5 comme modèle Opus par défaut avec une fenêtre de 1 million de tokens et le mode fast à 10 $/50 $ par million de tokens. La version introduit également un paramètre <code>sandbox.network.strictAllowlist</code> pour bloquer les hôtes non autorisés dans les commandes sandboxées, un hook <code>DirectoryAdded</code> pour les nouveaux répertoires de travail, et signale les erreurs de configuration MCP dans l'événement init. La version v2.1.220 du 25 juillet apporte des corrections de fiabilité.",
+                "en": "<a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.219\">Claude Code v2.1.219</a>, released on 24 July 2026, adds Claude Opus 5 as the default Opus model with a 1-million-token window and fast mode at $10/$50 per million tokens. The release also introduces a <code>sandbox.network.strictAllowlist</code> setting to block unauthorized hosts in sandboxed commands, a <code>DirectoryAdded</code> hook for new working directories, and reports MCP configuration errors in the init event. Version v2.1.220 from 25 July brings reliability fixes.",
+                "de": "<a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.219\">Claude Code v2.1.219</a>, veröffentlicht am 24. Juli 2026, fügt Claude Opus 5 als Standard-Opus-Modell mit einem Fenster von 1 Million Tokens und dem Fast-Modus zu 10 $/50 $ pro Million Tokens hinzu. Die Version führt zudem einen Parameter <code>sandbox.network.strictAllowlist</code> ein, um nicht autorisierte Hosts in sandboxierten Befehlen zu blockieren, einen Hook <code>DirectoryAdded</code> für neue Arbeitsverzeichnisse und meldet MCP-Konfigurationsfehler im init-Ereignis. Die Version v2.1.220 vom 25. Juli bringt Zuverlässigkeitskorrekturen.",
+                "it": "<a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.219\">Claude Code v2.1.219</a>, pubblicato il 24 luglio 2026, aggiunge Claude Opus 5 come modello Opus predefinito con una finestra di 1 milione di token e la modalità fast a 10 $/50 $ per milione di token. La versione introduce anche un parametro <code>sandbox.network.strictAllowlist</code> per bloccare gli host non autorizzati nei comandi sandboxati, un hook <code>DirectoryAdded</code> per le nuove directory di lavoro, e segnala gli errori di configurazione MCP nell'evento init. La versione v2.1.220 del 25 luglio apporta correzioni di affidabilità.",
+                "lmo": "<a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.219\">Claude Code v2.1.219</a>, publicaa el 24 de luj 2026, el gionta Claude Opus 5 come model Opus de default cont ona finestra de 1 milion de tokens e la modalità fast a 10 $/50 $ per milion de tokens. La version la gionta anca on parametro <code>sandbox.network.strictAllowlist</code> per bloccà i host minga autorizzaa in di comand sandboxaa, on hook <code>DirectoryAdded</code> per i noeuv directory de lavorà, e la segnala i error de configurazion MCP in l'event init. La version v2.1.220 del 25 de luj la porta di corezzion de fidabilità."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harnesses",
+                "de": "Geschirr",
+                "it": "Imbracatura",
+                "lmo": "Harnes"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.220"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex CLI accélère avec six versions alpha en 48 heures",
+                "en": "Codex CLI accelerates with six alpha versions in 48 hours",
+                "de": "Codex CLI beschleunigt mit sechs Alpha-Versionen in 48 Stunden",
+                "it": "Codex CLI accelera con sei versioni alpha in 48 ore",
+                "lmo": "Codex CLI l'aceselera con ses version alpha in 48 ore"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10\">OpenAI Codex CLI</a> a enchaîné six versions alpha entre le 23 et le 25 juillet 2026 (v0.146.0-alpha.5 à alpha.10), marquant une accélération du cycle de développement. Les correctifs se concentrent sur la stabilité du client Rust et la gestion des sessions longues.",
+                "en": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10\">OpenAI Codex CLI</a> rolled out six alpha releases between 23 and 25 July 2026 (v0.146.0-alpha.5 to alpha.10), marking an acceleration of the development cycle. The fixes focus on Rust client stability and long session management.",
+                "de": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10\">OpenAI Codex CLI</a> hat zwischen dem 23. und 25. Juli 2026 sechs Alpha-Versionen (v0.146.0-alpha.5 bis alpha.10) veröffentlicht, was eine Beschleunigung des Entwicklungszyklus markiert. Die Korrekturen konzentrieren sich auf die Stabilität des Rust-Clients und die Verwaltung langer Sitzungen.",
+                "it": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10\">OpenAI Codex CLI</a> ha sfornato sei versioni alpha tra il 23 e il 25 luglio 2026 (v0.146.0-alpha.5 ad alpha.10), segnando un'accelerazione del ciclo di sviluppo. Le correzioni si concentrano sulla stabilità del client Rust e sulla gestione delle sessioni lunghe.",
+                "lmo": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10\">OpenAI Codex CLI</a> l'ha faa su ses version alpha in tra el 23 e 'l 25 de luj 2026 (v0.146.0-alpha.5 a alpha.10), cont on'aceselerazion del ciclo de desvilupp. I corezzion se concentren in su la stabilità del client Rust e la gestion di session longh."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harnesses",
+                "de": "Geschirr",
+                "it": "Imbracatura",
+                "lmo": "Harnes"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.10",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.5"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Moteurs d'inférence",
+            "en": "Inference Engines",
+            "de": "Inferenz-Motoren",
+            "it": "Motori di inferenza",
+            "lmo": "Motor d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Ollama 0.32.4 supporte Laguna sur MLX et améliore les agents",
+                "en": "Ollama 0.32.4 supports Laguna on MLX and improves agents",
+                "de": "Ollama 0.32.4 unterstützt Laguna auf MLX und verbessert Agenten",
+                "it": "Ollama 0.32.4 supporta Laguna su MLX e migliora gli agenti",
+                "lmo": "Ollama 0.32.4 el supporta Laguna in su MLX e 'l mejora i agent"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0\">Ollama v0.32.4-rc0</a>, publié le 25 juillet 2026, ajoute le support de Laguna sur MLX, améliore la quantification des têtes de sortie des modèles draft, et corrige la gestion de la quantification des experts sur Qwen 3.5. Le système d'agents intègre le chargement des permissions et une commande de prompt système.",
+                "en": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0\">Ollama v0.32.4-rc0</a>, released on 25 July 2026, adds support for Laguna on MLX, improves quantization of draft model output heads, and fixes expert quantization handling on Qwen 3.5. The agent system integrates permission loading and a system prompt command.",
+                "de": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0\">Ollama v0.32.4-rc0</a>, veröffentlicht am 25. Juli 2026, fügt Unterstützung für Laguna auf MLX hinzu, verbessert die Quantisierung der Ausgabeköpfe von Draft-Modellen und korrigiert die Handhabung der Experten-Quantisierung bei Qwen 3.5. Das Agentensystem integriert das Laden von Berechtigungen und einen System-Prompt-Befehl.",
+                "it": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0\">Ollama v0.32.4-rc0</a>, pubblicato il 25 luglio 2026, aggiunge il supporto di Laguna su MLX, migliora la quantizzazione delle teste di output dei modelli draft, e corregge la gestione della quantizzazione degli esperti su Qwen 3.5. Il sistema di agenti integra il caricamento delle autorizzazioni e un comando di prompt di sistema.",
+                "lmo": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0\">Ollama v0.32.4-rc0</a>, publicaa el 25 de luj 2026, el gionta el support de Laguna in su MLX, el mejora la quantificazion di test de sortida di model draft, e 'l coregg la gestion de la quantificazion di espert in su Qwen 3.5. El sistema de agent el integra el caregament di permess e on comand de prompt sistema."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Motoren",
+                "it": "Motori",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.32.4-rc0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b10107 corrige un crash Windows",
+                "en": "llama.cpp b10107 fixes a Windows crash",
+                "de": "llama.cpp b10107 behebt Windows-Absturz",
+                "it": "llama.cpp b10107 corregge un crash su Windows",
+                "lmo": "llama.cpp b10107 el coregg on crash Windows"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10107\">llama.cpp b10107</a>, publié le 24 juillet 2026, corrige un crash Windows survenant lorsque <code>op_poll</code> est activé. Cette version de maintenance stabilise le backend Hexagon.",
+                "en": "<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10107\">llama.cpp b10107</a>, released on 24 July 2026, fixes a Windows crash that occurred when <code>op_poll</code> is enabled. This maintenance release stabilizes the Hexagon backend.",
+                "de": "<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10107\">llama.cpp b10107</a>, veröffentlicht am 24. Juli 2026, behebt einen Windows-Absturz, der auftritt, wenn <code>op_poll</code> aktiviert ist. Diese Wartungsversion stabilisiert das Hexagon-Backend.",
+                "it": "<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10107\">llama.cpp b10107</a>, pubblicato il 24 luglio 2026, corregge un crash su Windows che si verificava quando <code>op_poll</code> era attivato. Questa versione di manutenzione stabilizza il backend Hexagon.",
+                "lmo": "<a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10107\">llama.cpp b10107</a>, publicaa el 24 de luj 2026, el coregg on crash Windows che 'l capita quand <code>op_poll</code> l'è ativaa. 'Sta version de manutenzion la stabilizza el backend Hexagon."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Motoren",
+                "it": "Motori",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10107"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.11.0 conditionne les outils au budget de raisonnement",
+                "en": "Rapid-MLX 0.11.0 gates tools on reasoning budget",
+                "de": "Rapid-MLX 0.11.0 bindet Werkzeuge an das Reasoning-Budget",
+                "it": "Rapid-MLX 0.11.0 condiziona gli strumenti al budget di ragionamento",
+                "lmo": "Rapid-MLX 0.11.0 el condiziona i istrument al budget de resonament"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0\">Rapid-MLX v0.11.0</a>, publié le 24 juillet 2026, introduit une grammaire d'outils contrainte par le budget de raisonnement via <code>reasoning-gated forced tool grammar</code>. Cette fonctionnalité permet de n'autoriser les appels d'outils qu'après un certain nombre de tokens de réflexion, améliorant la fiabilité des agents.",
+                "en": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0\">Rapid-MLX v0.11.0</a>, released on 24 July 2026, introduces a tool grammar constrained by the reasoning budget via <code>reasoning-gated forced tool grammar</code>. This feature allows tool calls only after a certain number of thinking tokens, improving agent reliability.",
+                "de": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0\">Rapid-MLX v0.11.0</a>, veröffentlicht am 24. Juli 2026, führt eine durch das Reasoning-Budget eingeschränkte Tool-Grammatik mittels <code>reasoning-gated forced tool grammar</code> ein. Diese Funktion erlaubt Tool-Aufrufe erst nach einer bestimmten Anzahl von Reflexions-Tokens und verbessert so die Zuverlässigkeit von Agenten.",
+                "it": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0\">Rapid-MLX v0.11.0</a>, pubblicato il 24 luglio 2026, introduce una grammatica di strumenti vincolata dal budget di ragionamento tramite <code>reasoning-gated forced tool grammar</code>. Questa funzionalità consente di autorizzare le chiamate agli strumenti solo dopo un certo numero di token di riflessione, migliorando l'affidabilità degli agenti.",
+                "lmo": "<a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0\">Rapid-MLX v0.11.0</a>, publicaa el 24 de luj 2026, el gionta ona grammatica d'isterment limitada del budget de resonament via <code>reasoning-gated forced tool grammar</code>. 'Sta funzionalità la permetta de autorizzà i ciamàd d'isterment domà dopo on certo numer de token de riflession, migliorand la fidabilità di agent."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Motoren",
+                "it": "Motori",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.0"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papiere des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Microsoft dévoile OpenForgeRL pour entraîner des agents par renforcement dans n'importe quel harnais",
+                "en": "Microsoft unveils OpenForgeRL for training agents via reinforcement in any harness",
+                "de": "Microsoft stellt OpenForgeRL vor, um Agenten durch Reinforcement Learning in jedem Geschirr zu trainieren",
+                "it": "Microsoft svela OpenForgeRL per addestrare agenti tramite rinforzo in qualsiasi imbracatura",
+                "lmo": "Microsoft el presenta OpenForgeRL per fornà di agent per rinforz in qualsessia harnes"
+              },
+              "body": {
+                "fr": "Des chercheurs de Microsoft ont publié le 24 juillet 2026 <a href=\"https://arxiv.org/abs/2607.21557\">OpenForgeRL</a>, un framework open-source pour entraîner des agents basés sur des harnais d'inférence (Claude Code, Codex, OpenClaw) via RL. Le système utilise un proxy léger et un orchestrateur Kubernetes pour exécuter chaque rollout dans un conteneur distant. Sur ClawEval, OpenForgeClaw atteint 55,9 pass@3, et OpenForgeGUI obtient 37,7 sur OSWorld-Verified, 63,0 sur Online-Mind2Web et 72,3 sur WebVoyager, surpassant les modèles ouverts de taille comparable.",
+                "en": "Microsoft researchers published on 24 July 2026 <a href=\"https://arxiv.org/abs/2607.21557\">OpenForgeRL</a>, an open-source framework for training agents based on inference harnesses (Claude Code, Codex, OpenClaw) via RL. The system uses a lightweight proxy and a Kubernetes orchestrator to run each rollout in a remote container. On ClawEval, OpenForgeClaw achieves 55.9 pass@3, and OpenForgeGUI scores 37.7 on OSWorld-Verified, 63.0 on Online-Mind2Web, and 72.3 on WebVoyager, outperforming open models of comparable size.",
+                "de": "Forscher von Microsoft haben am 24. Juli 2026 <a href=\"https://arxiv.org/abs/2607.21557\">OpenForgeRL</a> veröffentlicht, ein Open-Source-Framework zum Training von Agenten auf Basis von Inferenz-Geschirren (Claude Code, Codex, OpenClaw) mittels RL. Das System verwendet einen leichten Proxy und einen Kubernetes-Orchestrator, um jeden Rollout in einem entfernten Container auszuführen. Auf ClawEval erreicht OpenForgeClaw 55,9 pass@3, und OpenForgeGUI erzielt 37,7 auf OSWorld-Verified, 63,0 auf Online-Mind2Web und 72,3 auf WebVoyager und übertrifft damit offene Modelle vergleichbarer Grösse.",
+                "it": "Ricercatori di Microsoft hanno pubblicato il 24 luglio 2026 <a href=\"https://arxiv.org/abs/2607.21557\">OpenForgeRL</a>, un framework open-source per addestrare agenti basati su imbracature di inferenza (Claude Code, Codex, OpenClaw) tramite RL. Il sistema utilizza un proxy leggero e un orchestratore Kubernetes per eseguire ogni rollout in un contenitore remoto. Su ClawEval, OpenForgeClaw raggiunge 55,9 pass@3, e OpenForgeGUI ottiene 37,7 su OSWorld-Verified, 63,0 su Online-Mind2Web e 72,3 su WebVoyager, superando i modelli aperti di dimensioni comparabili.",
+                "lmo": "Di ricercator de Microsoft hann publicaa el 24 de luj 2026 <a href=\"https://arxiv.org/abs/2607.21557\">OpenForgeRL</a>, on framework open-source per fornà di agent basaa in su di harnes d'inferenza (Claude Code, Codex, OpenClaw) via RL. El sistema el doperà on proxy legger e on orchestrator Kubernetes per eseguì ogni rollout in on container distant. In su ClawEval, OpenForgeClaw el riva a 55,9 pass@3, e OpenForgeGUI el gh'ha 37,7 in su OSWorld-Verified, 63,0 in su Online-Mind2Web e 72,3 in su WebVoyager, superand i model avert de grandezza compagna."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.21557"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "AREX : des agents de recherche profonde qui s'améliorent par récursion",
+                "en": "AREX: deep research agents that improve through recursion",
+                "de": "AREX: Deep-Research-Agenten, die sich durch Rekursion verbessern",
+                "it": "AREX: agenti di ricerca profonda che migliorano per ricorsione",
+                "lmo": "AREX: di agent de ricerca profonda che se miglioren per ricorsion"
+              },
+              "body": {
+                "fr": "L'Académie d'Intelligence Artificielle de Pékin (BAAI) a présenté le 24 juillet 2026 <a href=\"https://arxiv.org/abs/2607.21461\">AREX</a>, une famille d'agents de recherche profonde à auto-amélioration récursive. Le modèle alterne entre une boucle de recherche interne et une boucle d'amélioration externe qui audite les réponses, identifie les affirmations non résolues et lance des recherches ciblées. Disponible en versions dense 4B et MoE 122B-A10B, AREX surpasse les modèles de taille comparable sur BrowseComp, WideSearch et Humanity's Last Exam.",
+                "en": "The Beijing Academy of Artificial Intelligence (BAAI) presented on 24 July 2026 <a href=\"https://arxiv.org/abs/2607.21461\">AREX</a>, a family of recursive self-improving deep research agents. The model alternates between an internal research loop and an external improvement loop that audits responses, identifies unresolved claims, and launches targeted searches. Available in dense 4B and MoE 122B-A10B versions, AREX outperforms comparable models on BrowseComp, WideSearch, and Humanity's Last Exam.",
+                "de": "Die Pekinger Akademie für Künstliche Intelligenz (BAAI) hat am 24. Juli 2026 <a href=\"https://arxiv.org/abs/2607.21461\">AREX</a> vorgestellt, eine Familie von Deep-Research-Agenten mit rekursiver Selbstverbesserung. Das Modell wechselt zwischen einer internen Recherche-Schleife und einer externen Verbesserungs-Schleife, die Antworten prüft, ungelöste Behauptungen identifiziert und gezielte Recherchen startet. AREX ist in den Versionen Dense 4B und MoE 122B-A10B erhältlich und übertrifft Modelle vergleichbarer Grösse auf BrowseComp, WideSearch und Humanity's Last Exam.",
+                "it": "L'Accademia di Intelligenza Artificiale di Pechino (BAAI) ha presentato il 24 luglio 2026 <a href=\"https://arxiv.org/abs/2607.21461\">AREX</a>, una famiglia di agenti di ricerca profonda ad auto-miglioramento ricorsivo. Il modello alterna tra un ciclo di ricerca interno e un ciclo di miglioramento esterno che verifica le risposte, identifica le affermazioni non risolte e avvia ricerche mirate. Disponibile in versioni dense 4B e MoE 122B-A10B, AREX supera i modelli di dimensioni comparabili su BrowseComp, WideSearch e Humanity's Last Exam.",
+                "lmo": "L'Accademia d'Intelligenza Artificial de Pechin (BAAI) l'ha presenta el 24 de luj 2026 <a href=\"https://arxiv.org/abs/2607.21461\">AREX</a>, ona fameja d'agent de ricerca profonda a auto-migliorament ricorsiv. El model l'alterna in tra on loop de ricerca intern e on loop de migliorament estern che 'l audita i rispost, l'identifica i affermazion minga resolvud e 'l lanza di ricerca miraa. Disponibil in version densa 4B e MoE 122B-A10B, AREX el supera i model de grandezza compagna in su BrowseComp, WideSearch e Humanity's Last Exam."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.21461"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NVIDIA propose des agents orientés objet en Python natif",
+                "en": "NVIDIA proposes object-oriented agents in native Python",
+                "de": "NVIDIA bietet objektorientierte Agenten in nativem Python an",
+                "it": "NVIDIA propone agenti orientati agli oggetti in Python nativo",
+                "lmo": "NVIDIA el propon di agent orientaa a l'oggett in Python nativ"
+              },
+              "body": {
+                "fr": "NVIDIA a publié le 24 juillet 2026 <a href=\"https://arxiv.org/abs/2607.20709\">NOOA (NVIDIA Object-Oriented Agents)</a>, un framework Python où un agent est un objet Python : ses méthodes sont les actions, ses champs sont l'état, ses docstrings sont les prompts. Le système atteint des performances compétitives sur SWE-bench Verified, Terminal-Bench 2.0 et ARC-AGI-3.",
+                "en": "NVIDIA published on 24 July 2026 <a href=\"https://arxiv.org/abs/2607.20709\">NOOA (NVIDIA Object-Oriented Agents)</a>, a Python framework where an agent is a Python object: its methods are actions, its fields are state, its docstrings are prompts. The system achieves competitive performance on SWE-bench Verified, Terminal-Bench 2.0, and ARC-AGI-3.",
+                "de": "NVIDIA hat am 24. Juli 2026 <a href=\"https://arxiv.org/abs/2607.20709\">NOOA (NVIDIA Object-Oriented Agents)</a> veröffentlicht, ein Python-Framework, in dem ein Agent ein Python-Objekt ist: seine Methoden sind die Aktionen, seine Felder der Zustand, seine Docstrings die Prompts. Das System erzielt wettbewerbsfähige Leistungen auf SWE-bench Verified, Terminal-Bench 2.0 und ARC-AGI-3.",
+                "it": "NVIDIA ha pubblicato il 24 luglio 2026 <a href=\"https://arxiv.org/abs/2607.20709\">NOOA (NVIDIA Object-Oriented Agents)</a>, un framework Python in cui un agente è un oggetto Python: i suoi metodi sono le azioni, i suoi campi sono lo stato, le sue docstring sono i prompt. Il sistema raggiunge prestazioni competitive su SWE-bench Verified, Terminal-Bench 2.0 e ARC-AGI-3.",
+                "lmo": "NVIDIA l'ha publicaa el 24 de luj 2026 <a href=\"https://arxiv.org/abs/2607.20709\">NOOA (NVIDIA Object-Oriented Agents)</a>, on framework Python indove on agent l'è on oggett Python: i sò metod hinn i azion, i sò camp hinn el stat, i sò docstring hinn i prompt. El sistema el riva a di prestazion competitiv in su SWE-bench Verified, Terminal-Bench 2.0 e ARC-AGI-3."
+              },
+              "kicker": {
+                "fr": "Frameworks",
+                "en": "Frameworks",
+                "de": "Frameworks",
+                "it": "Framework",
+                "lmo": "Framework"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.20709"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Découvertes",
+            "en": "Discoveries",
+            "de": "Entdeckungen",
+            "it": "Scoperte",
+            "lmo": "Scuvert"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "VCSD : une distillation visuelle sans enseignant externe",
+                "en": "VCSD: visual distillation without an external teacher",
+                "de": "VCSD: Visuelle Destillation ohne externen Lehrer",
+                "it": "VCSD: una distillazione visiva senza insegnante esterno",
+                "lmo": "VCSD: ona distillazion visiva senza insegnant estern"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de Pékin ont publié le 24 juillet 2026 <a href=\"https://arxiv.org/abs/2607.21556\">Visual Contrastive Self-Distillation (VCSD)</a>, une méthode qui supprime le besoin d'un enseignant externe pour la distillation. En contrastant les distributions de tokens avec et sans contenu visuel, VCSD améliore les performances de Qwen3-VL de 62,27 % à 67,04 % à 2B paramètres, et de 72,51 % à 76,26 % à 8B, sans coût d'inférence supplémentaire.",
+                "en": "Researchers from Peking University published on 24 July 2026 <a href=\"https://arxiv.org/abs/2607.21556\">Visual Contrastive Self-Distillation (VCSD)</a>, a method that removes the need for an external teacher in distillation. By contrasting token distributions with and without visual content, VCSD improves Qwen3-VL performance from 62.27% to 67.04% at 2B parameters, and from 72.51% to 76.26% at 8B, with no additional inference cost.",
+                "de": "Forscher der Universität Peking haben am 24. Juli 2026 <a href=\"https://arxiv.org/abs/2607.21556\">Visual Contrastive Self-Distillation (VCSD)</a> veröffentlicht, eine Methode, die die Notwendigkeit eines externen Lehrers für die Destillation überflüssig macht. Durch die Kontrastierung von Token-Verteilungen mit und ohne visuellen Inhalt verbessert VCSD die Leistung von Qwen3-VL von 62,27 % auf 67,04 % bei 2B Parametern und von 72,51 % auf 76,26 % bei 8B, ohne zusätzliche Inferenzkosten.",
+                "it": "Ricercatori dell'Università di Pechino hanno pubblicato il 24 luglio 2026 <a href=\"https://arxiv.org/abs/2607.21556\">Visual Contrastive Self-Distillation (VCSD)</a>, un metodo che elimina la necessità di un insegnante esterno per la distillazione. Contrastando le distribuzioni di token con e senza contenuto visivo, VCSD migliora le prestazioni di Qwen3-VL dal 62,27 % al 67,04 % a 2B parametri, e dal 72,51 % al 76,26 % a 8B, senza costi di inferenza aggiuntivi.",
+                "lmo": "Di ricercator de l'Università de Pechin hann publicaa el 24 de luj 2026 <a href=\"https://arxiv.org/abs/2607.21556\">Visual Contrastive Self-Distillation (VCSD)</a>, on metod che 'l toeu via el besogn d'on insegnant estern per la distillazion. Contrastand i distribuzion di token cont e senza contegnuu visiv, VCSD el mejora i prestazion de Qwen3-VL de 62,27 % a 67,04 % a 2B parametri, e de 72,51 % a 76,26 % a 8B, senza cost d'inferenza supplementar."
+              },
+              "kicker": {
+                "fr": "Optimisation",
+                "en": "Optimization",
+                "de": "Optimierung",
+                "it": "Ottimizzazione",
+                "lmo": "Ottimizazion"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.21556"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les LLMs perdent le fil de l'intention utilisateur en conversation",
+                "en": "LLMs lose track of user intent in conversation",
+                "de": "LLMs verlieren den Faden der Benutzerabsicht im Gespräch",
+                "it": "I LLM perdono il filo dell'intenzione dell'utente in conversazione",
+                "lmo": "I LLM perden el fil de l'intenzion de l'utent in conversazion"
+              },
+              "body": {
+                "fr": "<a href=\"https://arxiv.org/abs/2607.20734\">Des chercheurs de Microsoft Research</a> ont démontré le 24 juillet 2026 que les LLMs échouent à suivre l'intention évolutive des utilisateurs dans les conversations multi-tours. Leur framework transforme des tâches statiques en dialogues dynamiques où l'intention se révèle, se révise et se redirige. Les performances chutent massivement par rapport aux évaluations statiques, révélant une lacune fondamentale pour les agents collaboratifs.",
+                "en": "<a href=\"https://arxiv.org/abs/2607.20734\">Researchers from Microsoft Research</a> demonstrated on 24 July 2026 that LLMs fail to track evolving user intent in multi-turn conversations. Their framework transforms static tasks into dynamic dialogues where intent is revealed, revised, and redirected. Performance drops massively compared to static evaluations, revealing a fundamental gap for collaborative agents.",
+                "de": "<a href=\"https://arxiv.org/abs/2607.20734\">Forscher von Microsoft Research</a> haben am 24. Juli 2026 gezeigt, dass LLMs die sich entwickelnde Benutzerabsicht in Multi-Turn-Gesprächen nicht verfolgen können. Ihr Framework wandelt statische Aufgaben in dynamische Dialoge um, in denen die Absicht offenbart, revidiert und umgelenkt wird. Die Leistung fällt im Vergleich zu statischen Bewertungen massiv ab, was eine grundlegende Lücke für kollaborative Agenten offenbart.",
+                "it": "<a href=\"https://arxiv.org/abs/2607.20734\">Ricercatori di Microsoft Research</a> hanno dimostrato il 24 luglio 2026 che i LLM falliscono nel seguire l'intenzione evolutiva degli utenti nelle conversazioni multi-turno. Il loro framework trasforma compiti statici in dialoghi dinamici in cui l'intenzione si rivela, si rivede e si reindirizza. Le prestazioni crollano massicciamente rispetto alle valutazioni statiche, rivelando una lacuna fondamentale per gli agenti collaborativi.",
+                "lmo": "<a href=\"https://arxiv.org/abs/2607.20734\">Di ricercator de Microsoft Research</a> hann dimostraa el 24 de luj 2026 che i LLM fallissen a seguità l'intenzion evolutiva di utent in di conversazion multi-torn. El sò framework el trasforma di compit statich in dialogh dinamegh indove l'intenzion la se revèla, la se revìs e la se redirig. I prestazion borlen giò massivament rispett ai valutazion statich, riveland ona lacuna fondamental per i agent collaborativ."
+              },
+              "kicker": {
+                "fr": "Comportement",
+                "en": "Behavior",
+                "de": "Verhalten",
+                "it": "Comportamento",
+                "lmo": "Comportament"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.20734"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Distiller l'expérience des agents sans interaction supplémentaire",
+                "en": "Distilling agent experience without additional interaction",
+                "de": "Erfahrung von Agenten destillieren ohne zusätzliche Interaktion",
+                "it": "Distillare l'esperienza degli agenti senza interazione aggiuntiva",
+                "lmo": "Distillà l'esperienza di agent senza interazion supplementar"
+              },
+              "body": {
+                "fr": "<a href=\"https://arxiv.org/abs/2607.21051\">Experience Distillation</a>, publié le 24 juillet 2026, propose une méthode pour internaliser l'apprentissage contextuel des agents dans les poids du modèle sans interaction supplémentaire avec l'environnement. Sur 749 tâches de génie logiciel, la méthode conserve 64,8 % des gains de l'apprentissage contextuel, contre 3,8 % pour le fine-tuning supervisé direct, avec 9,6 fois moins d'échantillons que le RL classique.",
+                "en": "<a href=\"https://arxiv.org/abs/2607.21051\">Experience Distillation</a>, published on 24 July 2026, proposes a method to internalize agents' in-context learning into model weights without additional interaction with the environment. On 749 software engineering tasks, the method retains 64.8% of in-context learning gains, compared to 3.8% for direct supervised fine-tuning, with 9.6 times fewer samples than standard RL.",
+                "de": "<a href=\"https://arxiv.org/abs/2607.21051\">Experience Distillation</a>, veröffentlicht am 24. Juli 2026, schlägt eine Methode vor, um das kontextuelle Lernen von Agenten ohne zusätzliche Interaktion mit der Umgebung in die Modellgewichte zu internalisieren. Bei 749 Softwareentwicklungsaufgaben behält die Methode 64,8 % der Gewinne des kontextuellen Lernens, gegenüber 3,8 % beim direkten überwachten Feintuning, bei 9,6-mal weniger Stichproben als beim klassischen RL.",
+                "it": "<a href=\"https://arxiv.org/abs/2607.21051\">Experience Distillation</a>, pubblicato il 24 luglio 2026, propone un metodo per interiorizzare l'apprendimento contestuale degli agenti nei pesi del modello senza interazione aggiuntiva con l'ambiente. Su 749 compiti di ingegneria del software, il metodo conserva il 64,8 % dei guadagni dell'apprendimento contestuale, contro il 3,8 % per il fine-tuning supervisionato diretto, con 9,6 volte meno campioni rispetto alla RL classica.",
+                "lmo": "<a href=\"https://arxiv.org/abs/2607.21051\">Experience Distillation</a>, publicaa el 24 de luj 2026, la propon on metod per internalizzà l'apprendiment contestual di agent in di pes del model senza interazion supplementar cont l'ambient. In su 749 compit de ingegneria del software, el metod el conserva 64,8 % di guadagn de l'apprendiment contestual, contra el 3,8 % del fine-tuning supervisaa diret, con 9,6 voeult men de campion del RL classegh."
+              },
+              "kicker": {
+                "fr": "Apprentissage",
+                "en": "Learning",
+                "de": "Lernen",
+                "it": "Apprendimento",
+                "lmo": "Apprendiment"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.21051"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Gemeinschaft & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Gemeinschaft",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnal de la comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Reid Hoffman et Mark Pincus lancent Prentis, un labo IA à 100 M$",
+                "en": "Reid Hoffman and Mark Pincus launch Prentis, a $100M AI lab",
+                "de": "Reid Hoffman und Mark Pincus gründen Prentis, ein KI-Labor mit 100 Mio. $",
+                "it": "Reid Hoffman e Mark Pincus lanciano Prentis, un laboratorio IA da 100 M$",
+                "lmo": "Reid Hoffman e Mark Pincus lancien Prentis, on laboratori IA de 100 M$"
+              },
+              "body": {
+                "fr": "<a href=\"https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\">Prentis</a>, un nouveau laboratoire d'IA co-fondé par Reid Hoffman (LinkedIn) et Mark Pincus (Zynga), est en négociation pour lever 100 millions de dollars. Le laboratoire parie que l'automatisation des tâches informatiques de routine dépassera bientôt le codage comme principal cas d'usage de l'IA.",
+                "en": "<a href=\"https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\">Prentis</a>, a new AI lab co-founded by Reid Hoffman (LinkedIn) and Mark Pincus (Zynga), is in talks to raise $100 million. The lab bets that automation of routine IT tasks will soon surpass coding as the primary use case for AI.",
+                "de": "<a href=\"https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\">Prentis</a>, ein neues KI-Labor, das von Reid Hoffman (LinkedIn) und Mark Pincus (Zynga) mitbegründet wurde, verhandelt über die Aufnahme von 100 Millionen Dollar. Das Labor setzt darauf, dass die Automatisierung routinemässiger IT-Aufgaben das Programmieren bald als primären KI-Anwendungsfall überholen wird.",
+                "it": "<a href=\"https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\">Prentis</a>, un nuovo laboratorio di IA co-fondato da Reid Hoffman (LinkedIn) e Mark Pincus (Zynga), è in trattativa per raccogliere 100 milioni di dollari. Il laboratorio scommette che l'automazione delle attività informatiche di routine supererà presto la programmazione come principale caso d'uso dell'IA.",
+                "lmo": "<a href=\"https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/\">Prentis</a>, on noeuv laboratori d'IA co-fondaa de Reid Hoffman (LinkedIn) e Mark Pincus (Zynga), l'è in negoziazion per ciapà su 100 milion de dollar. El laboratori el scomet che l'automazion di compit informategh de rutina la superarà prest la codifica come principal cas d'usagg de l'IA."
+              },
+              "kicker": {
+                "fr": "Startups",
+                "en": "Startups",
+                "de": "Startups",
+                "it": "Startup",
+                "lmo": "Startup"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Midjourney acquiert l'application d'astrologie Co-Star",
+                "en": "Midjourney acquires astrology app Co-Star",
+                "de": "Midjourney übernimmt die Astrologie-App Co-Star",
+                "it": "Midjourney acquisisce l'app di astrologia Co-Star",
+                "lmo": "Midjourney el crompa l'applicazion d'astrologia Co-Star"
+              },
+              "body": {
+                "fr": "<a href=\"https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\">Midjourney a acquis le 24 juillet 2026 l'application d'astrologie Co-Star</a>, poursuivant son expansion au-delà de la génération d'images et de vidéos. Co-Star, une application gratuite de  horoscopes personnalisés, rejoint un portefeuille qui inclut désormais l'imagerie médicale et la création 3D.",
+                "en": "<a href=\"https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\">Midjourney acquired the astrology app Co-Star on 24 July 2026</a>, continuing its expansion beyond image and video generation. Co-Star, a free app for personalized horoscopes, joins a portfolio that now includes medical imaging and 3D creation.",
+                "de": "<a href=\"https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\">Midjourney hat am 24. Juli 2026 die Astrologie-App Co-Star übernommen</a> und setzt damit seine Expansion über die Bild- und Videogenerierung hinaus fort. Co-Star, eine kostenlose App für personalisierte Horoskope, schliesst sich einem Portfolio an, das nun auch medizinische Bildgebung und 3D-Erstellung umfasst.",
+                "it": "<a href=\"https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\">Midjourney ha acquisito il 24 luglio 2026 l'app di astrologia Co-Star</a>, proseguendo la sua espansione oltre la generazione di immagini e video. Co-Star, un'app gratuita di oroscopi personalizzati, si unisce a un portafoglio che include ora l'imaging medico e la creazione 3D.",
+                "lmo": "<a href=\"https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/\">Midjourney l'ha crompaa el 24 de luj 2026 l'applicazion d'astrologia Co-Star</a>, seguitand la sò espansion oltra la generazion d'imagin e de video. Co-Star, ona applicazion gratuita de oroscop personalizzaa, la gionta on portafoeuj che 'l includ adess l'imaginaria medega e la creazion 3D."
+              },
+              "kicker": {
+                "fr": "M&A",
+                "en": "M&A",
+                "de": "M&A",
+                "it": "M&A",
+                "lmo": "M&A"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/24/midjourney-acquired-the-astrology-app-co-star/",
+                "https://www.theverge.com/ai-artificial-intelligence/970894/midjourney-co-star-acquisition"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'assistant IA Attie de Bluesky devient un outil de recherche sociale",
+                "en": "Bluesky's AI assistant Attie becomes a social research tool",
+                "de": "Blueskys KI-Assistent Attie wird zu einem Social-Research-Tool",
+                "it": "L'assistente IA Attie di Bluesky diventa uno strumento di ricerca sociale",
+                "lmo": "L'assistent IA Attie de Bluesky el deventa on istrument de ricerca sociala"
+              },
+              "body": {
+                "fr": "<a href=\"https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\">Bluesky a étendu le 24 juillet 2026 son assistant IA Attie</a> en un outil de recherche sociale ouvert. Les utilisateurs peuvent désormais interroger Attie sur les actualités, les tendances et les conversations sur Bluesky et d'autres applications du protocole AT.",
+                "en": "<a href=\"https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\">Bluesky expanded its AI assistant Attie on 24 July 2026</a> into an open social research tool. Users can now query Attie about news, trends, and conversations on Bluesky and other AT Protocol applications.",
+                "de": "<a href=\"https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\">Bluesky hat am 24. Juli 2026 seinen KI-Assistenten Attie</a> zu einem offenen Social-Research-Tool erweitert. Nutzer können Attie nun zu Nachrichten, Trends und Gesprächen auf Bluesky und anderen Anwendungen des AT-Protokolls befragen.",
+                "it": "<a href=\"https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\">Bluesky ha esteso il 24 luglio 2026 il suo assistente IA Attie</a> in uno strumento di ricerca sociale aperto. Gli utenti possono ora interrogare Attie su notizie, tendenze e conversazioni su Bluesky e altre applicazioni del protocollo AT.",
+                "lmo": "<a href=\"https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/\">Bluesky l'ha slargaa el 24 de luj 2026 el sò assistent IA Attie</a> in on istrument de ricerca social avert. I utent pòden adess interrogà Attie in su i notizzi, i tendenz e i conversazion in su Bluesky e in su di alter applicazion del protocoll AT."
+              },
+              "kicker": {
+                "fr": "Plateformes",
+                "en": "Platforms",
+                "de": "Plattformen",
+                "it": "Piattaforme",
+                "lmo": "Piattaform"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/24/blueskys-ai-assistant-attie-expands-into-an-open-social-research-tool/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Meta AI se mue en assistant personnel avec calendrier et briefings",
+                "en": "Meta AI transforms into a personal assistant with calendar and briefings",
+                "de": "Meta AI wandelt sich zum persönlichen Assistenten mit Kalender und Briefings",
+                "it": "Meta AI si trasforma in assistente personale con calendario e briefing",
+                "lmo": "Meta AI el se trasforma in assistent personal cont calendari e briefing"
+              },
+              "body": {
+                "fr": "<a href=\"https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\">Meta a mis à jour le 24 juillet 2026 son chatbot Meta AI</a> avec des fonctionnalités de productivité : accès au calendrier pour planifier des événements, briefings quotidiens générés automatiquement, et recherche approfondie pilotable par l'utilisateur. La mise à jour vise à concurrencer Gemini, ChatGPT et Claude sur le terrain des assistants personnels.",
+                "en": "<a href=\"https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\">Meta updated its Meta AI chatbot on 24 July 2026</a> with productivity features: calendar access for scheduling events, automatically generated daily briefings, and user-driven deep research. The update aims to compete with Gemini, ChatGPT, and Claude in the personal assistant space.",
+                "de": "<a href=\"https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\">Meta hat am 24. Juli 2026 seinen Chatbot Meta AI</a> mit Produktivitätsfunktionen aktualisiert: Kalenderzugriff zur Planung von Ereignissen, automatisch generierte tägliche Briefings und vom Benutzer steuerbare Tiefenrecherche. Das Update zielt darauf ab, mit Gemini, ChatGPT und Claude auf dem Gebiet der persönlichen Assistenten zu konkurrieren.",
+                "it": "<a href=\"https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\">Meta ha aggiornato il 24 luglio 2026 il suo chatbot Meta AI</a> con funzionalità di produttività: accesso al calendario per pianificare eventi, briefing giornalieri generati automaticamente e ricerca approfondita controllabile dall'utente. L'aggiornamento mira a competere con Gemini, ChatGPT e Claude sul terreno degli assistenti personali.",
+                "lmo": "<a href=\"https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update\">Meta l'ha agiornaa el 24 de luj 2026 el sò chatbot Meta AI</a> cont di funzionalità de produttività: access al calendari per programmà di event, briefing quotidian generaa automaticament, e ricerca approfondida guidabel de l'utent. L'agiornament el mira a concorrer con Gemini, ChatGPT e Claude in sul terren di assistent personai."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://www.theverge.com/tech/970570/meta-ai-chatbot-productivity-update"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Opus 5 : le pari d'Anthropic sur la démocratisation des modèles frontière",
+                "en": "Opus 5: Anthropic's bet on democratizing frontier models",
+                "de": "Opus 5: Anthropics Wette auf die Demokratisierung von Grenzmodellen",
+                "it": "Opus 5: la scommessa di Anthropic sulla democratizzazione dei modelli di frontiera",
+                "lmo": "Opus 5: la scommessa d'Anthropic in su la democratizzazion di model frontiera"
+              },
+              "body": {
+                "fr": "L'édition du 25 juillet 2026 du <em>The Neuron Times</em> est dominée par le lancement de Claude Opus 5, un événement qui redessine le paysage des modèles frontière. Anthropic propose désormais une gamme à trois étages — Fable 5 au sommet, Opus 5 en milieu de gamme premium, Sonnet 5 pour l'usage courant — avec une stratégie de prix agressive qui met la pression sur OpenAI et Google.",
+                "en": "The 25 July 2026 edition of <em>The Neuron Times</em> is dominated by the launch of Claude Opus 5, an event that reshapes the frontier model landscape. Anthropic now offers a three-tier lineup \u0014 Fable 5 at the top, Opus 5 in the premium mid-range, Sonnet 5 for everyday use \u0014 with an aggressive pricing strategy that puts pressure on OpenAI and Google.",
+                "de": "Die Ausgabe vom 25. Juli 2026 des <em>The Neuron Times</em> wird vom Start von Claude Opus 5 dominiert, einem Ereignis, das die Landschaft der Grenzmodelle neu zeichnet. Anthropic bietet nun eine dreistufige Palette an — Fable 5 an der Spitze, Opus 5 im Premium-Mittelklasse-Segment, Sonnet 5 für den alltäglichen Gebrauch — mit einer aggressiven Preisstrategie, die OpenAI und Google unter Druck setzt.",
+                "it": "L'edizione del 25 luglio 2026 del <em>The Neuron Times</em> è dominata dal lancio di Claude Opus 5, un evento che ridisegna il panorama dei modelli di frontiera. Anthropic propone ora una gamma a tre livelli — Fable 5 al vertice, Opus 5 in fascia media premium, Sonnet 5 per l'uso quotidiano — con una strategia di prezzo aggressiva che mette pressione su OpenAI e Google.",
+                "lmo": "L'edizion del 25 de luj 2026 del <em>The Neuron Times</em> l'è dominada del lanz de Claude Opus 5, on event che 'l redisegna el paesagg di model frontiera. Anthropic el propon adess ona gamma a trii stadi — Fable 5 al som, Opus 5 in mezza gamma premium, Sonnet 5 per l'usagg corrent — cont ona strategia de prezzi aggressiva che la mett pression in su OpenAI e Google."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://www.anthropic.com/news/claude-opus-5"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
