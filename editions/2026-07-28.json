@@ -1,0 +1,678 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-28",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Moonshot AI a publié le 27 juillet 2026 les poids complets de <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Kimi K3</a>, un modèle Mixture-of-Experts de 2,8 billions de paramètres dont 104 milliards activés par token, accompagné d'une partie de son infrastructure d'entraînement. Le modèle, qui intègre une fenêtre de contexte d'un million de tokens et des capacités de vision native, se positionne comme le modèle open-weight le plus puissant jamais diffusé, tout en reconnaissant rester derrière les modèles propriétaires Claude Fable 5 et GPT-5.6 Sol sur l'ensemble des benchmarks.",
+        "en": "On July 27, 2026, Moonshot AI released the full weights of <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Kimi K3</a>, a 2.8 trillion parameter Mixture-of-Experts model with 104 billion activated parameters per token, along with part of its training infrastructure. The model, which features a one-million-token context window and native vision capabilities, positions itself as the most powerful open-weight model ever released, while acknowledging it still trails proprietary models Claude Fable 5 and GPT-5.6 Sol across all benchmarks.",
+        "de": "Moonshot AI hat am 27. Juli 2026 die vollständigen Gewichte von <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Kimi K3</a> veröffentlicht, einem Mixture-of-Experts-Modell mit 2,8 Billionen Parametern, von denen 104 Milliarden pro Token aktiviert werden, zusammen mit einem Teil seiner Trainingsinfrastruktur. Das Modell, das ein Kontextfenster von einer Million Token und native Bildverarbeitungsfähigkeiten integriert, positioniert sich als das leistungsstärkste je verbreitete Open-Weight-Modell, räumt jedoch ein, bei allen Benchmarks hinter den proprietären Modellen Claude Fable 5 und GPT-5.6 Sol zurückzubleiben.",
+        "it": "Moonshot AI ha pubblicato il 27 luglio 2026 i pesi completi di <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Kimi K3</a>, un modello Mixture-of-Experts da 2,8 trilioni di parametri di cui 104 miliardi attivati per token, accompagnato da una parte della sua infrastruttura di addestramento. Il modello, che integra una finestra di contesto di un milione di token e capacità di visione nativa, si posiziona come il modello open-weight più potente mai diffuso, pur riconoscendo di rimanere dietro ai modelli proprietari Claude Fable 5 e GPT-5.6 Sol su tutti i benchmark.",
+        "lmo": "Moonshot AI l'ha publicaa el 27 de luj 2026 i pes complet del <a href=\"https://huggingface.co/api/daily_papers?limit=50\">Kimi K3</a>, on model Mixture-of-Experts de 2,8 trilion de parametri, cont 104 miliard ativai per token, insema a ona part de la soa infrastruttura de training. El model, che l'integra ona finestra de contest de on milion de token e di capacità de vision nativa, el se met 'me el model open-weight pussee potent mai spantegaa, anca se l'è recognossuu de restà indree rispett ai model proprietari Claude Fable 5 e GPT-5.6 Sol in su tucc i benchmark."
+      },
+      {
+        "fr": "La publication des poids intervient dans un contexte géopolitique tendu : le même jour, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic a publié sa position officielle</a> sur les modèles open-weight, tandis que Dario Amodei déclarait au <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> ne pas s'opposer aux modèles ouverts mais craindre l'IA chinoise. Le New York Times rapporte que <a href=\"https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html\">Moonshot imposera des licences</a> à certains utilisateurs de Kimi K3, tentant de concilier diffusion ouverte et monétisation.",
+        "en": "The weight release comes amid a tense geopolitical climate: on the same day, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic published its official position</a> on open-weight models, while Dario Amodei told <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> he does not oppose open models but fears Chinese AI. The New York Times reports that <a href=\"https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html\">Moonshot will impose licenses</a> on certain Kimi K3 users, attempting to reconcile open distribution with monetization.",
+        "de": "Die Veröffentlichung der Gewichte erfolgt in einem angespannten geopolitischen Kontext: Am selben Tag veröffentlichte <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic seine offizielle Position</a> zu Open-Weight-Modellen, während Dario Amodei gegenüber <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> erklärte, er lehne offene Modelle nicht ab, fürchte aber die chinesische KI. Die New York Times berichtet, dass <a href=\"https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html\">Moonshot bestimmten Nutzern von Kimi K3 Lizenzen auferlegen</a> wird, um offene Verbreitung und Monetarisierung in Einklang zu bringen.",
+        "it": "La pubblicazione dei pesi avviene in un contesto geopolitico teso: lo stesso giorno, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic ha pubblicato la sua posizione ufficiale</a> sui modelli open-weight, mentre Dario Amodei dichiarava a <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> di non opporsi ai modelli aperti ma di temere l'IA cinese. Il New York Times riporta che <a href=\"https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html\">Moonshot imporrà licenze</a> ad alcuni utenti di Kimi K3, tentando di conciliare diffusione aperta e monetizzazione.",
+        "lmo": "La publicazion di pes la riva in on contest geopolitich tes: el midem dì, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic l'ha publicaa la soa posizion offizial</a> in sui model open-weight, intant che Dario Amodei el diseva al <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> de vess minga contrari ai model vert, ma de temer l'IA cinesa. El New York Times el reporta che <a href=\"https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html\">Moonshot la imponarà di licenz</a> a certi utent del Kimi K3, tentand de concilià spantegament vert e monetizazion."
+      },
+      {
+        "fr": "Kimi K3 repose sur plusieurs innovations architecturales : l'attention Delta (Kimi Delta Attention) et les résidus d'attention (Attention Residuals) qui améliorent la circulation de l'information sur la profondeur du modèle, ainsi que Stable LatentMoE qui active 16 experts routés sur 896 par token. Selon Moonshot, ces avancées offrent un gain d'efficacité d'environ 2,5 fois par rapport à Kimi K2. Le post-entraînement a mobilisé un apprentissage par renforcement couvrant les domaines général, agentic et code, avec plusieurs niveaux d'effort de raisonnement.",
+        "en": "Kimi K3 is built on several architectural innovations: Delta Attention (Kimi Delta Attention) and Attention Residuals, which improve information flow across the model's depth, as well as Stable LatentMoE, which activates 16 routed experts out of 896 per token. According to Moonshot, these advances deliver an efficiency gain of approximately 2.5 times compared to Kimi K2. Post-training involved reinforcement learning across general, agentic, and code domains, with multiple levels of reasoning effort.",
+        "de": "Kimi K3 basiert auf mehreren architektonischen Innovationen: Delta Attention (Kimi Delta Attention) und Attention Residuals, die den Informationsfluss über die Modelltiefe verbessern, sowie Stable LatentMoE, das pro Token 16 von 896 Experten routet. Laut Moonshot bieten diese Fortschritte einen Effizienzgewinn von etwa dem 2,5-Fachen im Vergleich zu Kimi K2. Das Post-Training umfasste Reinforcement Learning in den Bereichen Allgemein, Agentic und Code mit mehreren Reasoning-Anstrengungsstufen.",
+        "it": "Kimi K3 si basa su diverse innovazioni architetturali: l'attenzione Delta (Kimi Delta Attention) e i residui di attenzione (Attention Residuals) che migliorano la circolazione dell'informazione sulla profondità del modello, così come Stable LatentMoE che attiva 16 esperti instradati su 896 per token. Secondo Moonshot, questi progressi offrono un guadagno di efficienza di circa 2,5 volte rispetto a Kimi K2. Il post-addestramento ha mobilitato un apprendimento per rinforzo che copre i domini generale, agentico e codice, con diversi livelli di sforzo di ragionamento.",
+        "lmo": "El Kimi K3 el se basa su diverse innovazion architetturai: l'attenzion Delta (Kimi Delta Attention) e i residov d'attenzion (Attention Residuals) che miglioren la circolazion de l'informazion in su la profondità del model, insema a Stable LatentMoE che l'ativa 16 espert rottà su 896 per token. Segond Moonshot, sti avanzament i offren on guadagn d'efficienza de circa 2,5 voeult rispett al Kimi K2. El post-training l'ha mobilitaa on apprendiment per rinforz che 'l quatta i domini general, agentic e code, con diversi nivej de sforz de resonament."
+      }
+    ],
+    "urls": [
+      "https://huggingface.co/api/daily_papers?limit=50",
+      "https://www.anthropic.com/news/position-open-weights-models",
+      "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+      "https://www.nytimes.com/2026/07/27/business/moonshot-kimi-k3-china-ai.html",
+      "https://the-decoder.com/moonshot-ai-releases-kimi-k3-open-weights-and-infrastructure-after-shaking-up-the-frontier-model-race/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1v8364f/kimi_k3_weights_now_released/"
+    ],
+    "kicker": {
+      "fr": "Frontière",
+      "en": "Frontier",
+      "de": "Grenzbereich",
+      "it": "Frontiera",
+      "lmo": "Frontiera"
+    },
+    "headline": {
+      "fr": "Moonshot AI publie les poids de Kimi K3, un modèle MoE de 2,8 billions de paramètres en open source",
+      "en": "Moonshot AI releases Kimi K3 weights, a 2.8 trillion parameter open-source MoE model",
+      "de": "Moonshot AI veröffentlicht Gewichte von Kimi K3, einem MoE-Modell mit 2,8 Billionen Parametern, als Open Source",
+      "it": "Moonshot AI pubblica i pesi di Kimi K3, un modello MoE da 2,8 trilioni di parametri in open source",
+      "lmo": "Moonshot AI el publica i pes del Kimi K3, on model MoE de 2,8 trilion de parametri in open source"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire chinois Moonshot AI a libéré les poids de son modèle géant Kimi K3, un MoE de 2,8T paramètres, dans un contexte de débat mondial sur les modèles ouverts et la sécurité nationale.",
+      "en": "Chinese lab Moonshot AI has released the weights of its giant Kimi K3 model, a 2.8T parameter MoE, amid a global debate over open models and national security.",
+      "de": "Das chinesische Labor Moonshot AI hat die Gewichte seines Riesenmodells Kimi K3, einem MoE mit 2,8T Parametern, inmitten einer globalen Debatte über offene Modelle und nationale Sicherheit freigegeben.",
+      "it": "Il laboratorio cinese Moonshot AI ha rilasciato i pesi del suo modello gigante Kimi K3, un MoE da 2,8T parametri, in un contesto di dibattito globale sui modelli aperti e la sicurezza nazionale.",
+      "lmo": "El laboratori cines Moonshot AI l'ha liberaa i pes del sò model gigant Kimi K3, on MoE de 2,8T parametri, in d'on contest de débat mondial in sui model vert e la sicurezza nazional."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "OpenAI : 43,5 % des usages professionnels de ChatGPT concernent d'autres métiers",
+        "en": "OpenAI: 43.5% of professional ChatGPT usage concerns other people's jobs",
+        "de": "OpenAI: 43,5 % der beruflichen ChatGPT-Nutzung betrifft andere Berufe",
+        "it": "OpenAI: il 43,5% degli usi professionali di ChatGPT riguarda altri mestieri",
+        "lmo": "OpenAI: el 43,5 % di usagg professionai de ChatGPT riguarden d'alter mestee"
+      },
+      "body": {
+        "fr": "Le 27 juillet 2026, <a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">OpenAI a publié une étude</a> analysant plus de 800 000 messages ChatGPT liés au travail. Résultat : 43,5 % des requêtes professionnelles concernent des tâches relevant d'autres métiers. Le phénomène, baptisé « task crossover », est le plus marqué dans les petites entreprises, où les utilisateurs gèrent des tâches spécialisées sans expert dédié.",
+        "en": "On July 27, 2026, <a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">OpenAI published a study</a> analyzing over 800,000 work-related ChatGPT messages. Result: 43.5% of professional queries involve tasks from other occupations. The phenomenon, dubbed \"task crossover,\" is most pronounced in small businesses, where users handle specialized tasks without a dedicated expert.",
+        "de": "Am 27. Juli 2026 veröffentlichte <a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">OpenAI eine Studie</a>, die über 800'000 arbeitsbezogene ChatGPT-Nachrichten analysierte. Ergebnis: 43,5 % der beruflichen Anfragen betreffen Aufgaben aus anderen Berufen. Das als «Task Crossover» bezeichnete Phänomen ist in kleinen Unternehmen am stärksten ausgeprägt, wo Nutzer spezialisierte Aufgaben ohne dedizierten Experten bewältigen.",
+        "it": "Il 27 luglio 2026, <a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">OpenAI ha pubblicato uno studio</a> analizzando oltre 800.000 messaggi ChatGPT legati al lavoro. Risultato: il 43,5% delle richieste professionali riguarda compiti di altre professioni. Il fenomeno, battezzato «task crossover», è più marcato nelle piccole imprese, dove gli utenti gestiscono compiti specializzati senza un esperto dedicato.",
+        "lmo": "El 27 de luj 2026, <a href=\"https://openai.com/index/how-ai-is-expanding-what-people-do-at-work\">OpenAI l'ha publicaa on studi</a> analizzand pussee de 800.000 messagg ChatGPT ligaa al laurà. Resultaa: el 43,5 % di domand professionai riguarden di compit d'alter mestee. El fenomen, ciamaa «task crossover», l'è pussee marcant in di aziend piscininn, indè che i utent gestissen di compit specializzaa senza espert dedicaa."
+      },
+      "tag": {
+        "fr": "Société",
+        "en": "Society",
+        "de": "Gesellschaft",
+        "it": "Società",
+        "lmo": "Società"
+      },
+      "urls": [
+        "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work",
+        "https://the-decoder.com/openai-says-more-workers-are-using-chatgpt-to-do-other-peoples-jobs/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Safe Superintelligence s'associe à Nvidia pour passer à l'échelle",
+        "en": "Safe Superintelligence partners with Nvidia to scale up",
+        "de": "Safe Superintelligence schliesst sich mit Nvidia zusammen, um zu skalieren",
+        "it": "Safe Superintelligence si associa a Nvidia per passare alla scala",
+        "lmo": "Safe Superintelligence la se associa a Nvidia per passà a la scala"
+      },
+      "body": {
+        "fr": "<a href=\"https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\">Safe Superintelligence (SSI)</a>, le laboratoire d'Ilya Sutskever, a annoncé le 27 juillet 2026 un partenariat à long terme avec Nvidia pour passer à l'échelle supérieure. Après deux ans de discrétion, SSI se prépare à intensifier sa recherche sur la superintelligence sécurisée.",
+        "en": "<a href=\"https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\">Safe Superintelligence (SSI)</a>, Ilya Sutskever's lab, announced on July 27, 2026 a long-term partnership with Nvidia to scale up. After two years of quiet operation, SSI is preparing to intensify its research on safe superintelligence.",
+        "de": "<a href=\"https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\">Safe Superintelligence (SSI)</a>, das Labor von Ilya Sutskever, hat am 27. Juli 2026 eine langfristige Partnerschaft mit Nvidia angekündigt, um den nächsten Schritt zu gehen. Nach zwei Jahren der Zurückhaltung bereitet sich SSI darauf vor, seine Forschung zur sicheren Superintelligenz zu intensivieren.",
+        "it": "<a href=\"https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\">Safe Superintelligence (SSI)</a>, il laboratorio di Ilya Sutskever, ha annunciato il 27 luglio 2026 una partnership a lungo termine con Nvidia per passare alla scala superiore. Dopo due anni di discrezione, SSI si prepara a intensificare la sua ricerca sulla superintelligenza sicura.",
+        "lmo": "<a href=\"https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/\">Safe Superintelligence (SSI)</a>, el laboratori d'Ilya Sutskever, l'ha anunziaa el 27 de luj 2026 on partenariato a longh termen con Nvidia per passà a la scala superior. Dopo du agn de discrezion, SSI la se prepara a intensificà la soa ricerca in su la superintelligenza segura."
+      },
+      "tag": {
+        "fr": "Labos",
+        "en": "Labs",
+        "de": "Labore",
+        "it": "Laboratori",
+        "lmo": "Laboratori"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Enigma lève 71 M$ pour simplifier le contrôle des robots",
+        "en": "Enigma raises $71M to simplify robot control",
+        "de": "Enigma sammelt 71 Mio. $ ein, um die Robotersteuerung zu vereinfachen",
+        "it": "Enigma raccoglie 71 M$ per semplificare il controllo dei robot",
+        "lmo": "Enigma la leva 71 M$ per semplificà el controll di robot"
+      },
+      "body": {
+        "fr": "<a href=\"https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\">Enigma a levé 71 millions de dollars</a> lors d'un tour de table massif en seed, mené par Index Ventures et Ribbit Capital, avec la participation de Conviction Partners de Sarah Guo. La startup développe une interface de contrôle robotique intuitive, visant à rendre la manipulation des robots aussi simple que de régler le volume d'une enceinte.",
+        "en": "<a href=\"https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\">Enigma raised $71 million</a> in a massive seed round, led by Index Ventures and Ribbit Capital, with participation from Sarah Guo's Conviction Partners. The startup is developing an intuitive robot control interface, aiming to make manipulating robots as simple as adjusting a speaker's volume.",
+        "de": "<a href=\"https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\">Enigma hat 71 Millionen Dollar</a> in einer massiven Seed-Runde unter der Führung von Index Ventures und Ribbit Capital mit Beteiligung von Sarah Guos Conviction Partners eingesammelt. Das Startup entwickelt eine intuitive Robotik-Steuerungsschnittstelle, die die Handhabung von Robotern so einfach machen soll wie das Einstellen der Lautstärke eines Lautsprechers.",
+        "it": "<a href=\"https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\">Enigma ha raccolto 71 milioni di dollari</a> in un massiccio round seed, guidato da Index Ventures e Ribbit Capital, con la partecipazione di Conviction Partners di Sarah Guo. La startup sviluppa un'interfaccia di controllo robotico intuitiva, mirando a rendere la manipolazione dei robot semplice come regolare il volume di un altoparlante.",
+        "lmo": "<a href=\"https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/\">Enigma l'ha levaa 71 milion de dollar</a> durant on gir de tavol massiv in seed, menaa de Index Ventures e Ribbit Capital, cont la partecipazion de Conviction Partners de Sarah Guo. La startup la desviluppa n'interfaccia de controll robotich intuitiva, cont l'obietiv de rend la manipolazion di robot assee sempliz 'me regolà el volum d'on cassa."
+      },
+      "tag": {
+        "fr": "Financement",
+        "en": "Funding",
+        "de": "Finanzierung",
+        "it": "Finanziamento",
+        "lmo": "Finanziament"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/27/enigma-raises-70m-to-make-controlling-a-robot-as-easy-as-adjusting-the-volume/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Victoire d'OpenAI devant la Haute Cour de Delhi sur le copyright",
+        "en": "OpenAI victory before Delhi High Court on copyright",
+        "de": "OpenAI-Sieg vor dem Obersten Gerichtshof von Delhi in Urheberrechtsfrage",
+        "it": "Vittoria di OpenAI davanti all'Alta Corte di Delhi sul copyright",
+        "lmo": "Vittoria d'OpenAI denanz a la Haorta Cort de Delhi in sul copyright"
+      },
+      "body": {
+        "fr": "<a href=\"https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/\">La Haute Cour de Delhi a rejeté le 27 juillet 2026</a> la demande d'injonction pour violation de droits d'auteur déposée par l'agence de presse indienne ANI contre OpenAI. Pour la première fois, un tribunal a qualifié l'entraînement de l'IA d'« usage privé ». ANI a affaibli sa propre cause en citant des articles publiés après l'entraînement des modèles. Le procès principal est toujours en cours.",
+        "en": "<a href=\"https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/\">The Delhi High Court rejected on July 27, 2026</a> the copyright infringement injunction request filed by Indian news agency ANI against OpenAI. For the first time, a court characterized AI training as \"private use.\" ANI weakened its own case by citing articles published after the models' training. The main trial is still ongoing.",
+        "de": "<a href=\"https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/\">Der Oberste Gerichtshof von Delhi hat am 27. Juli 2026</a> den Antrag auf einstweilige Verfügung wegen Urheberrechtsverletzung der indischen Nachrichtenagentur ANI gegen OpenAI abgewiesen. Erstmals qualifizierte ein Gericht das KI-Training als «private Nutzung». ANI schwächte seine eigene Sache, indem es Artikel zitierte, die nach dem Training der Modelle veröffentlicht wurden. Der Hauptprozess läuft noch.",
+        "it": "<a href=\"https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/\">L'Alta Corte di Delhi ha respinto il 27 luglio 2026</a> la richiesta di ingiunzione per violazione del diritto d'autore presentata dall'agenzia di stampa indiana ANI contro OpenAI. Per la prima volta, un tribunale ha qualificato l'addestramento dell'IA come «uso privato». ANI ha indebolito la propria causa citando articoli pubblicati dopo l'addestramento dei modelli. Il processo principale è ancora in corso.",
+        "lmo": "<a href=\"https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/\">La Haorta Cort de Delhi l'ha refudaa el 27 de luj 2026</a> la domanda d'injontion per violazion de drit d'autor depositada de l'agenzia de stampa indiana ANI contra OpenAI. Per la prima voeulta, on tribunal l'ha qualificaa el training de l'IA 'me «usagg privaa». ANI l'ha indebolii la soa causa citand di articoi publicaa dopo del training di model. El process principal l'è anmò in cors."
+      },
+      "tag": {
+        "fr": "Juridique",
+        "en": "Legal",
+        "de": "Rechtlich",
+        "it": "Giuridico",
+        "lmo": "Juridegh"
+      },
+      "urls": [
+        "https://the-decoder.com/delhi-high-court-hands-openai-a-win-by-rejecting-major-indian-news-agencys-copyright-injunction/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "METR invente une métrique pour comparer le coût des agents IA et des humains",
+        "en": "METR invents a metric to compare cost of AI agents and humans",
+        "de": "METR erfindet Metrik zum Vergleich der Kosten von KI-Agenten und Menschen",
+        "it": "METR inventa una metrica per confrontare il costo degli agenti IA e degli umani",
+        "lmo": "METR la inventa ona metrica per comparà el cost di agent IA e di omen"
+      },
+      "body": {
+        "fr": "<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR a dévoilé le 27 juillet 2026</a> une nouvelle métrique, l'« expenditure horizon », qui chiffre le rapport coût-efficacité des agents IA par rapport aux humains. Les premiers résultats sur le benchmark NanoGPT speedrun sont décevants, et la métrique présente des angles morts, mais les nouvelles générations de modèles pourraient changer la donne.",
+        "en": "<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR unveiled on July 27, 2026</a> a new metric, the \"expenditure horizon,\" which quantifies the cost-effectiveness of AI agents compared to humans. Initial results on the NanoGPT speedrun benchmark are disappointing, and the metric has blind spots, but new model generations could change the picture.",
+        "de": "<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR hat am 27. Juli 2026</a> eine neue Metrik vorgestellt, den «Expenditure Horizon», der das Kosten-Nutzen-Verhältnis von KI-Agenten im Vergleich zu Menschen beziffert. Die ersten Ergebnisse auf dem NanoGPT-Speedrun-Benchmark sind enttäuschend, und die Metrik hat blinde Flecken, aber neue Modellgenerationen könnten das Blatt wenden.",
+        "it": "<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR ha svelato il 27 luglio 2026</a> una nuova metrica, l'«expenditure horizon», che quantifica il rapporto costo-efficacia degli agenti IA rispetto agli umani. I primi risultati sul benchmark NanoGPT speedrun sono deludenti, e la metrica presenta angoli ciechi, ma le nuove generazioni di modelli potrebbero cambiare le carte in tavola.",
+        "lmo": "<a href=\"https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/\">METR l'ha desvelaa el 27 de luj 2026</a> ona noeuva metrica, l'«expenditure horizon», che la cifra el raport cost-efficienza di agent IA rispett ai omen. I prim risultaa in sul benchmark NanoGPT speedrun hinn deludent, e la metrica la presenta di angol mort, ma i noeuv generazion de model podarien cambià la partida."
+      },
+      "tag": {
+        "fr": "Économie",
+        "en": "Economy",
+        "de": "Wirtschaft",
+        "it": "Economia",
+        "lmo": "Economia"
+      },
+      "urls": [
+        "https://the-decoder.com/metr-introduces-a-new-metric-to-calculate-exactly-when-ai-agents-become-more-expensive-than-humans/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cursor cible l'Inde avec des prix localisés",
+        "en": "Cursor targets India with localized pricing",
+        "de": "Cursor zielt mit lokalisierten Preisen auf Indien",
+        "it": "Cursor punta all'India con prezzi localizzati",
+        "lmo": "Cursor el cita l'India con di prezz localizzaa"
+      },
+      "body": {
+        "fr": "<a href=\"https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/\">Cursor a annoncé le 27 juillet 2026</a> son plus grand déploiement en Inde, avec des prix localisés et des recrutements locaux. L'Inde est désormais le troisième marché mondial de l'éditeur d'IDE agentic, qui prévoit d'étendre ses ventes enterprise dans le pays.",
+        "en": "<a href=\"https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/\">Cursor announced on July 27, 2026</a> its largest deployment in India, with localized pricing and local hiring. India is now the third global market for the agentic IDE editor, which plans to expand its enterprise sales in the country.",
+        "de": "<a href=\"https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/\">Cursor hat am 27. Juli 2026</a> seinen grössten Einsatz in Indien angekündigt, mit lokalisierten Preisen und lokalen Einstellungen. Indien ist nun der drittgrösste Markt des Herausgebers von agentischen IDEs, der plant, seine Enterprise-Verkäufe im Land auszubauen.",
+        "it": "<a href=\"https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/\">Cursor ha annunciato il 27 luglio 2026</a> il suo più grande dispiegamento in India, con prezzi localizzati e assunzioni locali. L'India è ora il terzo mercato mondiale dell'editore di IDE agentico, che prevede di espandere le sue vendite enterprise nel paese.",
+        "lmo": "<a href=\"https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/\">Cursor l'ha anunziaa el 27 de luj 2026</a> el sò pussee grand despiegament in India, con di prezz localizzaa e di assunzion locai. L'India l'è adess el terz mercaa mondial de l'editor d'IDE agentic, che 'l preved de slargà i sò vendit enterprise in del paes."
+      },
+      "tag": {
+        "fr": "Business",
+        "en": "Business",
+        "de": "Business",
+        "it": "Business",
+        "lmo": "Business"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/27/cursor-makes-its-biggest-india-push-yet-ahead-of-spacex-acquisition-with-localized-pricing/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Model & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Anthropic clarifie sa position sur les modèles ouverts, Amodei cible l'IA chinoise",
+                "en": "Anthropic clarifies its stance on open models, Amodei targets Chinese AI",
+                "de": "Anthropic präzisiert Position zu offenen Modellen, Amodei zielt auf chinesische KI",
+                "it": "Anthropic chiarisce la sua posizione sui modelli aperti, Amodei punta l'IA cinese",
+                "lmo": "Anthropic la ciariss la soa posizion in sui model vert, Amodei el cita l'IA cinesa"
+              },
+              "body": {
+                "fr": "Le 27 juillet 2026, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic a publié sa position officielle</a> sur les modèles open-weight, un document très attendu alors que le débat fait rage à Washington. Le même jour, Dario Amodei déclarait au <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> ne pas s'opposer aux modèles ouverts en principe, mais exprimer des craintes spécifiques concernant l'IA chinoise. La publication a suscité 636 points et 883 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49076057\">Hacker News</a>, où la communauté a vivement débattu des motivations réelles d'Anthropic.",
+                "en": "On July 27, 2026, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic published its official position</a> on open-weight models, a highly anticipated document as the debate rages in Washington. The same day, Dario Amodei told <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> he does not oppose open models in principle, but expressed specific concerns regarding Chinese AI. The publication sparked 636 points and 883 comments on <a href=\"https://news.ycombinator.com/item?id=49076057\">Hacker News</a>, where the community hotly debated Anthropic's true motivations.",
+                "de": "Am 27. Juli 2026 hat <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic seine offizielle Position</a> zu Open-Weight-Modellen veröffentlicht, ein mit Spannung erwartetes Dokument, während die Debatte in Washington tobt. Am selben Tag erklärte Dario Amodei gegenüber <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a>, er lehne offene Modelle grundsätzlich nicht ab, äussere aber spezifische Bedenken hinsichtlich der chinesischen KI. Die Veröffentlichung löste auf <a href=\"https://news.ycombinator.com/item?id=49076057\">Hacker News</a> 636 Punkte und 883 Kommentare aus, wo die Gemeinschaft lebhaft über die wahren Beweggründe von Anthropic debattierte.",
+                "it": "Il 27 luglio 2026, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic ha pubblicato la sua posizione ufficiale</a> sui modelli open-weight, un documento molto atteso mentre il dibattito infuria a Washington. Lo stesso giorno, Dario Amodei dichiarava a <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> di non opporsi ai modelli aperti in linea di principio, ma di esprimere timori specifici riguardo all'IA cinese. La pubblicazione ha suscitato 636 punti e 883 commenti su <a href=\"https://news.ycombinator.com/item?id=49076057\">Hacker News</a>, dove la comunità ha vivacemente dibattuto le reali motivazioni di Anthropic.",
+                "lmo": "El 27 de luj 2026, <a href=\"https://www.anthropic.com/news/position-open-weights-models\">Anthropic l'ha publicaa la soa posizion offizial</a> in sui model open-weight, on document aspeccaa de tant intant che 'l débat el fa furor a Washington. El midem dì, Dario Amodei el diseva al <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> de vess minga contrari ai model vert in principi, ma de esprimm di pagur specifegh riguard l'IA cinesa. La publicazion l'ha provocaa 636 pont e 883 coment in su <a href=\"https://news.ycombinator.com/item?id=49076057\">Hacker News</a>, indè che la comunità l'ha vivament dibattuu in sui motivazion reai de Anthropic."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.anthropic.com/news/position-open-weights-models",
+                "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/",
+                "https://news.ycombinator.com/item?id=49076057"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nvidia et Microsoft lancent une alliance de cybersécurité IA open source",
+                "en": "Nvidia and Microsoft launch open-source AI cybersecurity alliance",
+                "de": "Nvidia und Microsoft lancieren Open-Source-KI-Cybersicherheitsallianz",
+                "it": "Nvidia e Microsoft lanciano un'alleanza di cybersicurezza IA open source",
+                "lmo": "Nvidia e Microsoft lancien n'alianza de cybersecurity IA open source"
+              },
+              "body": {
+                "fr": "Nvidia, Microsoft, SpaceX et IBM ont annoncé le 27 juillet 2026 la création de l'<a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Open Secure AI Alliance</a>, une coalition dédiée aux outils de cybersécurité open source pour l'IA. L'initiative exclut OpenAI, Google et Anthropic. Jensen Huang a déclaré sur X que lors de l'incident Hugging Face, « l'IA fermée a bloqué les analyses forensiques essentielles », et qu'un modèle open-weight de frontière a aidé à contenir l'intrusion. Le <a href=\"https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html\">New York Times</a> note que l'alliance s'inscrit dans le débat plus large sur la sécurité des modèles chinois.",
+                "en": "Nvidia, Microsoft, SpaceX, and IBM announced on July 27, 2026 the creation of the <a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Open Secure AI Alliance</a>, a coalition dedicated to open-source cybersecurity tools for AI. The initiative excludes OpenAI, Google, and Anthropic. Jensen Huang stated on X that during the Hugging Face incident, \"closed AI blocked essential forensic analysis,\" and that a frontier open-weight model helped contain the intrusion. The <a href=\"https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html\">New York Times</a> notes the alliance is part of the broader debate over the safety of Chinese models.",
+                "de": "Nvidia, Microsoft, SpaceX und IBM haben am 27. Juli 2026 die Gründung der <a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Open Secure AI Alliance</a> angekündigt, einer Koalition für Open-Source-Cybersicherheitstools für KI. Die Initiative schliesst OpenAI, Google und Anthropic aus. Jensen Huang erklärte auf X, dass beim Hugging-Face-Vorfall «geschlossene KI wesentliche forensische Analysen blockiert hat» und ein Open-Weight-Modell der Spitzenklasse half, den Einbruch einzudämmen. Die <a href=\"https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html\">New York Times</a> merkt an, dass die Allianz in die breitere Debatte über die Sicherheit chinesischer Modelle einzuordnen ist.",
+                "it": "Nvidia, Microsoft, SpaceX e IBM hanno annunciato il 27 luglio 2026 la creazione della <a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Open Secure AI Alliance</a>, una coalizione dedicata agli strumenti di cybersicurezza open source per l'IA. L'iniziativa esclude OpenAI, Google e Anthropic. Jensen Huang ha dichiarato su X che durante l'incidente Hugging Face, «l'IA chiusa ha bloccato le analisi forensi essenziali», e che un modello open-weight di frontiera ha aiutato a contenere l'intrusione. Il <a href=\"https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html\">New York Times</a> nota che l'alleanza si inserisce nel dibattito più ampio sulla sicurezza dei modelli cinesi.",
+                "lmo": "Nvidia, Microsoft, SpaceX e IBM hann anunziaa el 27 de luj 2026 la creazion de l'<a href=\"https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity\">Open Secure AI Alliance</a>, ona coalizion dedicada ai istrument de cybersecurity open source per l'IA. L'iniziativa la esclud OpenAI, Google e Anthropic. Jensen Huang l'ha dii su X che durant l'incident Hugging Face, «l'IA sara l'ha bloccaa i analisi forensich essenziai», e che on model open-weight de frontiera l'ha jutaa a contegnì l'intrusion. El <a href=\"https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html\">New York Times</a> el nota che l'alianza la se met denter in del débat pussee largh in su la sicurezza di model cines."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity",
+                "https://www.nytimes.com/2026/07/27/technology/nvidia-open-source-ai.html",
+                "https://www.reddit.com/r/LocalLLaMA/comments/1v7yand/jensen_huang_during_the_hugging_face_incident/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI négocie un data center à 500 milliards avec Nvidia",
+                "en": "OpenAI negotiates $500 billion data center with Nvidia",
+                "de": "OpenAI verhandelt über 500-Milliarden-Rechenzentrum mit Nvidia",
+                "it": "OpenAI negozia un data center da 500 miliardi con Nvidia",
+                "lmo": "OpenAI la negozia on data center de 500 miliard con Nvidia"
+              },
+              "body": {
+                "fr": "Le New York Times rapporte le 27 juillet 2026 qu'<a href=\"https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html\">OpenAI est proche de finaliser un projet de centre de données de 500 milliards de dollars</a> avec le soutien financier de Nvidia, qui fournirait une garantie de 250 milliards. Ce serait l'un des plus grands investissements de l'histoire de l'IA. Parallèlement, <a href=\"https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\">Satya Nadella a averti</a> que les entreprises qui confient tout à un seul modèle d'IA pourraient ne pas survivre, plaidant pour des « passerelles IA » (AI gateways) qui séparent les prompts du modèle lui-même.",
+                "en": "The New York Times reported on July 27, 2026 that <a href=\"https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html\">OpenAI is close to finalizing a $500 billion data center project</a> with financial backing from Nvidia, which would provide a $250 billion guarantee. This would be one of the largest investments in AI history. Meanwhile, <a href=\"https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\">Satya Nadella warned</a> that companies that entrust everything to a single AI model may not survive, advocating for \"AI gateways\" that separate prompts from the model itself.",
+                "de": "Die New York Times berichtet am 27. Juli 2026, dass <a href=\"https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html\">OpenAI kurz vor dem Abschluss eines 500-Milliarden-Dollar-Rechenzentrumsprojekts</a> mit finanzieller Unterstützung von Nvidia steht, das eine Garantie von 250 Milliarden bereitstellen würde. Es wäre eine der grössten Investitionen in der Geschichte der KI. Parallel dazu <a href=\"https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\">warnte Satya Nadella</a>, dass Unternehmen, die alles einem einzigen KI-Modell anvertrauen, möglicherweise nicht überleben werden, und plädierte für «KI-Gateways», die die Prompts vom Modell selbst trennen.",
+                "it": "Il New York Times riporta il 27 luglio 2026 che <a href=\"https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html\">OpenAI è vicina a finalizzare un progetto di centro dati da 500 miliardi di dollari</a> con il sostegno finanziario di Nvidia, che fornirebbe una garanzia di 250 miliardi. Sarebbe uno dei più grandi investimenti nella storia dell'IA. Parallelamente, <a href=\"https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\">Satya Nadella ha avvertito</a> che le aziende che affidano tutto a un unico modello di IA potrebbero non sopravvivere, sostenendo la creazione di «gateway IA» (AI gateways) che separano i prompt dal modello stesso.",
+                "lmo": "El New York Times el reporta el 27 de luj 2026 che <a href=\"https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html\">OpenAI l'è vesin a finalizzà on proget de center de dati de 500 miliard de dollar</a> cont el sostegn finanziari de Nvidia, che la forniria ona garanzia de 250 miliard. El saria vun di pussee grand investiment de la storia de l'IA. In parallell, <a href=\"https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/\">Satya Nadella l'ha avertii</a> che i aziend che confiden tucc a on model de IA sol podarien minga sopravviv, ciamand di «passerell IA» (AI gateways) che separin i prompt del model midem."
+              },
+              "kicker": {
+                "fr": "Infrastructures",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastrutture",
+                "lmo": "Infrastruttur"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/27/technology/openai-data-center-nvidia.html",
+                "https://techcrunch.com/2026/07/27/satya-nadella-says-companies-that-trust-one-ai-for-everything-may-not-survive/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Das Technische Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Moteurs",
+            "en": "Harnesses & Engines",
+            "de": "Geschirre & Motoren",
+            "it": "Imbracature & Motori",
+            "lmo": "Harnes & Motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b10156 corrige la stabilité numérique sur GPU AMD",
+                "en": "llama.cpp b10156 fixes numerical stability on AMD GPUs",
+                "de": "llama.cpp b10156 korrigiert numerische Stabilität auf AMD-GPUs",
+                "it": "llama.cpp b10156 corregge la stabilità numerica su GPU AMD",
+                "lmo": "llama.cpp b10156 el coregg la stabilità numerica in su GPU AMD"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10156\">b10156 de llama.cpp</a> a été publiée le 28 juillet 2026. Cette mise à jour désactive le flag -ffast-math sur le backend HIP (AMD), corrigeant des problèmes de stabilité numérique sur les GPU AMD. Le correctif est important pour les utilisateurs de cartes Radeon qui exécutent des modèles quantifiés, où des optimisations agressives du compilateur pouvaient produire des résultats incorrects.",
+                "en": "Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10156\">b10156 of llama.cpp</a> was released on July 28, 2026. This update disables the -ffast-math flag on the HIP (AMD) backend, fixing numerical stability issues on AMD GPUs. The fix is important for Radeon card users running quantized models, where aggressive compiler optimizations could produce incorrect results.",
+                "de": "Die Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10156\">b10156 von llama.cpp</a> wurde am 28. Juli 2026 veröffentlicht. Dieses Update deaktiviert das Flag -ffast-math auf dem HIP-Backend (AMD) und behebt damit Probleme mit der numerischen Stabilität auf AMD-GPUs. Der Fix ist wichtig für Benutzer von Radeon-Karten, die quantisierte Modelle ausführen, da aggressive Compiler-Optimierungen zu falschen Ergebnissen führen konnten.",
+                "it": "La versione <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10156\">b10156 di llama.cpp</a> è stata pubblicata il 28 luglio 2026. Questo aggiornamento disabilita il flag -ffast-math sul backend HIP (AMD), correggendo problemi di stabilità numerica sulle GPU AMD. La correzione è importante per gli utenti di schede Radeon che eseguono modelli quantizzati, dove ottimizzazioni aggressive del compilatore potevano produrre risultati errati.",
+                "lmo": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10156\">b10156 de llama.cpp</a> l'è stada publicada el 28 de luj 2026. 'Sto agiornament el disabilita el flag -ffast-math in sul backend HIP (AMD), coreggend di problema de stabilità numerica in sui GPU AMD. El corettiv l'è important per i utent de card Radeon che eseguissen di model quantificaa, indè che di ottimizzazion agressiv del compilator podeven prodù di risultaa minga corrett."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Motore di inferenza",
+                "lmo": "Motor d'inferenza"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10156"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ollama 0.32.5 corrige un bug MLX Metal pour les modèles NVFP4",
+                "en": "Ollama 0.32.5 fixes MLX Metal bug for NVFP4 models",
+                "de": "Ollama 0.32.5 behebt MLX-Metal-Fehler für NVFP4-Modelle",
+                "it": "Ollama 0.32.5 corregge un bug MLX Metal per i modelli NVFP4",
+                "lmo": "Ollama 0.32.5 el coregg on bug MLX Metal per i model NVFP4"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.5\">Ollama 0.32.5</a> a été livré le 27 juillet 2026 avec un correctif ciblant le backend MLX Metal. Le bug affectait la qualité de sortie des modèles NVFP4, en particulier le modèle Laguna. Les utilisateurs de Mac Apple Silicon qui exécutent des modèles quantifiés en NVFP4 via MLX sont invités à mettre à jour pour retrouver une qualité de génération normale.",
+                "en": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.5\">Ollama 0.32.5</a> was shipped on July 27, 2026 with a fix targeting the MLX Metal backend. The bug affected output quality of NVFP4 models, particularly the Laguna model. Mac Apple Silicon users running NVFP4 quantized models via MLX are advised to update to restore normal generation quality.",
+                "de": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.5\">Ollama 0.32.5</a> wurde am 27. Juli 2026 mit einem Fix für das MLX-Metal-Backend ausgeliefert. Der Fehler beeinträchtigte die Ausgabequalität von NVFP4-Modellen, insbesondere des Modells Laguna. Benutzer von Apple Silicon Macs, die quantisierte Modelle in NVFP4 über MLX ausführen, werden gebeten, zu aktualisieren, um wieder eine normale Generierungsqualität zu erhalten.",
+                "it": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.5\">Ollama 0.32.5</a> è stato rilasciato il 27 luglio 2026 con una correzione mirata al backend MLX Metal. Il bug riguardava la qualità di output dei modelli NVFP4, in particolare il modello Laguna. Gli utenti di Mac Apple Silicon che eseguono modelli quantizzati in NVFP4 tramite MLX sono invitati ad aggiornare per ritrovare una qualità di generazione normale.",
+                "lmo": "<a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.5\">Ollama 0.32.5</a> l'è staa consegnaa el 27 de luj 2026 cont on corettiv che 'l cata el backend MLX Metal. El bug el toccava la qualità de sortida di model NVFP4, in particolar el model Laguna. I utent de Mac Apple Silicon che eseguissen di model quantificaa in NVFP4 via MLX hinn invitaa a mett a posta per trovà ancamò ona qualità de generazion normala."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Motore di inferenza",
+                "lmo": "Motor d'inferenza"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.32.5"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex CLI enchaîne trois versions alpha en deux jours",
+                "en": "Codex CLI chains three alpha releases in two days",
+                "de": "Codex CLI bringt drei Alpha-Versionen in zwei Tagen heraus",
+                "it": "Codex CLI infila tre versioni alpha in due giorni",
+                "lmo": "Codex CLI el incadena trè version alpha in du dì"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14\">Codex CLI 0.146.0-alpha.14</a> a été publié le 28 juillet 2026, suivi des versions alpha.13 et alpha.12 les 27 et 28 juillet. Cette accélération des releases — trois versions en 48 heures — témoigne d'un rythme de développement intense sur le harnais agentic d'OpenAI, qui concurrence directement Claude Code. Les notes de version ne détaillent pas les changements, mais la cadence suggère des correctifs itératifs rapides.",
+                "en": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14\">Codex CLI 0.146.0-alpha.14</a> was released on July 28, 2026, following alpha.13 and alpha.12 on July 27 and 28. This acceleration in releases — three versions in 48 hours — reflects an intense development pace on OpenAI's agentic harness, which directly competes with Claude Code. The release notes do not detail the changes, but the cadence suggests rapid iterative fixes.",
+                "de": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14\">Codex CLI 0.146.0-alpha.14</a> wurde am 28. Juli 2026 veröffentlicht, gefolgt von den Versionen alpha.13 und alpha.12 am 27. und 28. Juli. Diese Beschleunigung der Releases – drei Versionen in 48 Stunden – zeugt von einem intensiven Entwicklungstempo beim agentischen Harness von OpenAI, das direkt mit Claude Code konkurriert. Die Versionshinweise gehen nicht auf die Änderungen ein, aber die Kadenz deutet auf schnelle iterative Korrekturen hin.",
+                "it": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14\">Codex CLI 0.146.0-alpha.14</a> è stato pubblicato il 28 luglio 2026, seguito dalle versioni alpha.13 e alpha.12 il 27 e 28 luglio. Questa accelerazione dei rilasci — tre versioni in 48 ore — testimonia un ritmo di sviluppo intenso sull'imbracatura agentica di OpenAI, che compete direttamente con Claude Code. Le note di rilascio non dettagliano le modifiche, ma la cadenza suggerisce correzioni iterative rapide.",
+                "lmo": "<a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14\">Codex CLI 0.146.0-alpha.14</a> l'è staa publicaa el 28 de luj 2026, seguii di version alpha.13 e alpha.12 i 27 e 28 de luj. 'Sta acelerazion di release — trè version in 48 ore — la testimonia on ritm de sviluppo intens in sul harnes agentic de OpenAI, che 'l concor direttament con Claude Code. I not de version no detaglien i cambiament, ma la cadenza la sugeriss di corettiv iterativ rapid."
+              },
+              "kicker": {
+                "fr": "Harnais agentic",
+                "en": "Agentic Harness",
+                "de": "Agentisches Harness",
+                "it": "Imbracatura agentica",
+                "lmo": "Harnes agentic"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.13",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.12"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Open WebUI 0.11.0 déploie une refonte visuelle majeure",
+                "en": "Open WebUI 0.11.0 deploys major visual redesign",
+                "de": "Open WebUI 0.11.0 führt grosses visuelles Redesign durch",
+                "it": "Open WebUI 0.11.0 implementa un importante restyling visivo",
+                "lmo": "Open WebUI 0.11.0 el despiega ona refonta visuala magior"
+              },
+              "body": {
+                "fr": "<a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.11.0\">Open WebUI 0.11.0</a> a été publié le 27 juillet 2026 avec une refonte visuelle complète de l'interface. La nouvelle version propose une colonne de conversation plus étroite, une typographie allégée, un espacement resserré, des menus et listes déroulantes cohérents, des champs de texte clairement délimités et des paramètres réorganisés. L'interface de chat comme le panneau d'administration ont été repensés de fond en comble.",
+                "en": "<a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.11.0\">Open WebUI 0.11.0</a> was released on July 27, 2026 with a complete visual overhaul of the interface. The new version features a narrower conversation column, lighter typography, tighter spacing, consistent menus and dropdowns, clearly delineated text fields, and reorganized settings. Both the chat interface and the admin panel have been redesigned from the ground up.",
+                "de": "<a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.11.0\">Open WebUI 0.11.0</a> wurde am 27. Juli 2026 mit einer vollständigen visuellen Neugestaltung der Benutzeroberfläche veröffentlicht. Die neue Version bietet eine schmalere Konversationsspalte, eine leichtere Typografie, engere Abstände, konsistente Menüs und Dropdown-Listen, klar abgegrenzte Textfelder und neu organisierte Einstellungen. Sowohl die Chat-Oberfläche als auch das Admin-Panel wurden von Grund auf neu gestaltet.",
+                "it": "<a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.11.0\">Open WebUI 0.11.0</a> è stato pubblicato il 27 luglio 2026 con un rinnovamento visivo completo dell'interfaccia. La nuova versione propone una colonna di conversazione più stretta, una tipografia alleggerita, una spaziatura più serrata, menu e liste a discesa coerenti, campi di testo chiaramente delimitati e impostazioni riorganizzate. Sia l'interfaccia di chat che il pannello di amministrazione sono stati ridisegnati da cima a fondo.",
+                "lmo": "<a href=\"https://github.com/open-webui/open-webui/releases/tag/v0.11.0\">Open WebUI 0.11.0</a> l'è staa publicaa el 27 de luj 2026 cont ona refonta visuala completa de l'interfaccia. La noeuva version la propon ona colona de conversazion pussee streccia, ona tipografia alleggerida, on spaziament serraa, di menù e list a tendina coerenti, di camp de test chiarament delimitaa e di impostazion reorganizzaa. L'interfaccia de chat 'me anca el panel d'aministrazion hinn staa repensaa de fondament."
+              },
+              "kicker": {
+                "fr": "Frontend",
+                "en": "Frontend",
+                "de": "Frontend",
+                "it": "Frontend",
+                "lmo": "Frontend"
+              },
+              "urls": [
+                "https://github.com/open-webui/open-webui/releases/tag/v0.11.0"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papiere des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "StateAct : des agents qui manipulent l'état du programme plutôt que les pixels",
+                "en": "StateAct: Agents that manipulate program state rather than pixels",
+                "de": "StateAct: Agenten, die den Programmzustand statt der Pixel manipulieren",
+                "it": "StateAct: agenti che manipolano lo stato del programma anziché i pixel",
+                "lmo": "StateAct: di agent che manipolen el stat del programa inveci di píxel"
+              },
+              "body": {
+                "fr": "Des chercheurs de Salesforce AI Research présentent <a href=\"https://arxiv.org/abs/2607.22798\">StateAct</a>, un harnais multi-agents « code-first » pour les agents d'utilisation d'ordinateur. Plutôt que de raisonner sur des captures d'écran, l'agent principal manipule directement l'état du programme via du code, tandis qu'un sous-agent GUI dédié gère les rares interactions pixel par clic (seulement 28 tâches sur 108, soit 1,1 % des étapes). Sur OSWorld 2.0, StateAct fait passer Claude Opus 4.8 de 20,6 % à 26,9 % en succès binaire et de 54,8 % à 61,6 % en succès partiel, avec un coût environ 9 fois inférieur par tâche.",
+                "en": "Researchers from Salesforce AI Research present <a href=\"https://arxiv.org/abs/2607.22798\">StateAct</a>, a \"code-first\" multi-agent harness for computer use agents. Rather than reasoning over screenshots, the main agent directly manipulates program state via code, while a dedicated GUI sub-agent handles the rare pixel-by-click interactions (only 28 tasks out of 108, or 1.1% of steps). On OSWorld 2.0, StateAct lifts Claude Opus 4.8 from 20.6% to 26.9% on binary success and from 54.8% to 61.6% on partial success, at roughly 9 times lower cost per task.",
+                "de": "Forscher von Salesforce AI Research präsentieren <a href=\"https://arxiv.org/abs/2607.22798\">StateAct</a>, ein «Code-First»-Multi-Agenten-Harness für Computer-Usage-Agenten. Anstatt über Bildschirmaufnahmen zu reasoning, manipuliert der Hauptagent den Programmzustand direkt über Code, während ein dedizierter GUI-Sub-Agent die seltenen Pixel-für-Klick-Interaktionen übernimmt (nur 28 von 108 Aufgaben, also 1,1 % der Schritte). Auf OSWorld 2.0 verbessert StateAct Claude Opus 4.8 von 20,6 % auf 26,9 % beim binären Erfolg und von 54,8 % auf 61,6 % beim partiellen Erfolg, bei etwa 9-fach geringeren Kosten pro Aufgabe.",
+                "it": "Ricercatori di Salesforce AI Research presentano <a href=\"https://arxiv.org/abs/2607.22798\">StateAct</a>, un'imbracatura multi-agente «code-first» per agenti di utilizzo del computer. Piuttosto che ragionare su screenshot, l'agente principale manipola direttamente lo stato del programma tramite codice, mentre un sotto-agente GUI dedicato gestisce le rare interazioni pixel per clic (solo 28 compiti su 108, ovvero l'1,1% dei passaggi). Su OSWorld 2.0, StateAct fa passare Claude Opus 4.8 dal 20,6% al 26,9% in successo binario e dal 54,8% al 61,6% in successo parziale, con un costo circa 9 volte inferiore per compito.",
+                "lmo": "Di ricercador de Salesforce AI Research presenten <a href=\"https://arxiv.org/abs/2607.22798\">StateAct</a>, on harnes multi-agent «code-first» per i agent d'utilizzazion del computer. Piuttost che resonà in su di cattur de schermo, l'agent principal el manipola direttament el stat del programa via code, intant che on sotto-agent GUI dedicaa el gestiss i rare interazion pixel per clic (domà 28 compit in su 108, o ben 1,1 % di pass). In su OSWorld 2.0, StateAct el fa passà Claude Opus 4.8 del 20,6 % al 26,9 % in sucess binari e del 54,8 % al 61,6 % in sucess parzial, cont on cost circa 9 voeult inferior per compit."
+              },
+              "kicker": {
+                "fr": "Paper",
+                "en": "Paper",
+                "de": "Paper",
+                "it": "Paper",
+                "lmo": "Paper"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.22798"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NVIDIA publie Molt, un framework RL agentic compact et natif PyTorch",
+                "en": "NVIDIA publishes Molt, a compact native PyTorch agentic RL framework",
+                "de": "NVIDIA veröffentlicht Molt, ein kompaktes, nativ in PyTorch geschriebenes agentisches RL-Framework",
+                "it": "NVIDIA pubblica Molt, un framework RL agentico compatto e nativo PyTorch",
+                "lmo": "NVIDIA la publica Molt, on framework RL agentic compatt e nativ PyTorch"
+              },
+              "body": {
+                "fr": "NVIDIA dévoile <a href=\"https://github.com/NVIDIA-NeMo/labs-molt\">Molt</a>, un framework d'entraînement PyTorch-native pour le reinforcement learning agentic. Conçu pour être suffisamment compact pour qu'un chercheur puisse le lire en entier, Molt supporte les politiques multimodales et Mixture-of-Experts dans une boucle asynchrone unique. Sous protocole identique, ses performances sont statistiquement comparables à une stack Megatron de pointe. Le code et les recettes sont disponibles sur GitHub.",
+                "en": "NVIDIA unveils <a href=\"https://github.com/NVIDIA-NeMo/labs-molt\">Molt</a>, a PyTorch-native training framework for agentic reinforcement learning. Designed to be compact enough for a researcher to read in its entirety, Molt supports multimodal and Mixture-of-Experts policies within a single asynchronous loop. Under identical protocol, its performance is statistically comparable to a state-of-the-art Megatron stack. Code and recipes are available on GitHub.",
+                "de": "NVIDIA enthüllt <a href=\"https://github.com/NVIDIA-NeMo/labs-molt\">Molt</a>, ein PyTorch-natives Trainingsframework für agentisches Reinforcement Learning. Konzipiert, um kompakt genug zu sein, dass ein Forscher es vollständig lesen kann, unterstützt Molt multimodale Policies und Mixture-of-Experts in einer einzigen asynchronen Schleife. Unter identischem Protokoll ist seine Leistung statistisch vergleichbar mit einem hochmodernen Megatron-Stack. Code und Rezepte sind auf GitHub verfügbar.",
+                "it": "NVIDIA svela <a href=\"https://github.com/NVIDIA-NeMo/labs-molt\">Molt</a>, un framework di addestramento PyTorch-native per il reinforcement learning agentico. Progettato per essere sufficientemente compatto da permettere a un ricercatore di leggerlo integralmente, Molt supporta politiche multimodali e Mixture-of-Experts in un unico loop asincrono. Sotto protocollo identico, le sue prestazioni sono statisticamente comparabili a uno stack Megatron all'avanguardia. Il codice e le ricette sono disponibili su GitHub.",
+                "lmo": "NVIDIA la desvela <a href=\"https://github.com/NVIDIA-NeMo/labs-molt\">Molt</a>, on framework de training PyTorch-nativ per el reinforcement learning agentic. Progettaa per vess assee compatt che on ricercador el poda lensgìll intregh, Molt el supporta i politegh multimodai e Mixture-of-Experts in d'on loop asincron unich. Sotta protocoll identich, i sò performance hinn statisticament comparabil a ona stack Megatron de ponta. El code e i ricett hinn disponibil in su GitHub."
+              },
+              "kicker": {
+                "fr": "Paper",
+                "en": "Paper",
+                "de": "Paper",
+                "it": "Paper",
+                "lmo": "Paper"
+              },
+              "urls": [
+                "https://github.com/NVIDIA-NeMo/labs-molt"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Gemeinschaft & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Éditorial",
+            "en": "Signals & Editorial",
+            "de": "Signale & Editorial",
+            "it": "Segnali & Editoriale",
+            "lmo": "Segnai & Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Des conversations Claude partagées exposées dans les résultats Google",
+                "en": "Shared Claude conversations exposed in Google results",
+                "de": "Geteilte Claude-Konversationen in Google-Ergebnissen offengelegt",
+                "it": "Conversazioni Claude condivise esposte nei risultati Google",
+                "lmo": "Di conversazion Claude spartii espos in di risultaa Google"
+              },
+              "body": {
+                "fr": "Le 27 juillet 2026, <a href=\"https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\">TechCrunch a révélé</a> que des conversations partagées via Claude apparaissaient dans les résultats de recherche Google. Le problème provenait de la fonction « share chat » d'Anthropic, qui génère des URLs sans balise noindex, permettant leur indexation par les moteurs de recherche. Des utilisateurs ont signalé que des clés cryptographiques et des questions juridiques confidentielles étaient exposées. OpenAI avait commis la même erreur en 2025.",
+                "en": "On July 27, 2026, <a href=\"https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\">TechCrunch revealed</a> that conversations shared via Claude were appearing in Google search results. The issue stemmed from Anthropic's \"share chat\" feature, which generates URLs without a noindex tag, allowing search engines to index them. Users reported that cryptographic keys and confidential legal questions were exposed. OpenAI made the same mistake in 2025.",
+                "de": "Am 27. Juli 2026 enthüllte <a href=\"https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\">TechCrunch</a>, dass über Claude geteilte Konversationen in den Google-Suchergebnissen auftauchten. Das Problem rührte von der «Share Chat»-Funktion von Anthropic her, die URLs ohne noindex-Tag generiert, was deren Indexierung durch Suchmaschinen ermöglichte. Benutzer berichteten, dass kryptografische Schlüssel und vertrauliche rechtliche Fragen offengelegt wurden. OpenAI hatte denselben Fehler im Jahr 2025 begangen.",
+                "it": "Il 27 luglio 2026, <a href=\"https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\">TechCrunch ha rivelato</a> che conversazioni condivise tramite Claude apparivano nei risultati di ricerca di Google. Il problema proveniva dalla funzione «share chat» di Anthropic, che genera URL senza tag noindex, permettendone l'indicizzazione da parte dei motori di ricerca. Utenti hanno segnalato che chiavi crittografiche e questioni legali riservate erano esposte. OpenAI aveva commesso lo stesso errore nel 2025.",
+                "lmo": "El 27 de luj 2026, <a href=\"https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/\">TechCrunch l'ha revelaa</a> che di conversazion spartii via Claude compariven in di risultaa de ricerca Google. El problema el vegniva de la fonzion «share chat» de Anthropic, che la genera di URL senza balis noindex, permettend la soa indicizzazion di motor de ricerca. Di utent hann segnalaa che di ciav criptografich e di domand juridich confidenziai eren espos. OpenAI l'aveva commess l'istess error in del 2025."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/27/psa-your-claude-shared-chats-and-artifacts-may-have-ended-up-on-google/",
+                "https://the-decoder.com/shared-claude-chats-were-reportedly-showing-up-in-search-engines/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Microsoft lance son premier modèle de cybersécurité, MAI-Cyber-1-Flash",
+                "en": "Microsoft launches its first cybersecurity model, MAI-Cyber-1-Flash",
+                "de": "Microsoft lanciert erstes Cybersicherheitsmodell, MAI-Cyber-1-Flash",
+                "it": "Microsoft lancia il suo primo modello di cybersicurezza, MAI-Cyber-1-Flash",
+                "lmo": "Microsoft la lancia el sò prim model de cybersecurity, MAI-Cyber-1-Flash"
+              },
+              "body": {
+                "fr": "<a href=\"https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\">Microsoft a lancé le 27 juillet 2026</a> son premier modèle de cybersécurité, MAI-Cyber-1-Flash, intégré dans un système multi-agents baptisé MDASH. Le modèle atteint 96 % sur le benchmark CyberGym. Selon <a href=\"https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/\">The Decoder</a>, Microsoft estime que les coûts pourraient baisser de 50 % par rapport aux modèles de frontière, les cas les plus complexes étant toujours transmis à GPT-5.4 d'OpenAI.",
+                "en": "<a href=\"https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\">Microsoft launched on July 27, 2026</a> its first cybersecurity model, MAI-Cyber-1-Flash, integrated into a multi-agent system called MDASH. The model achieves 96% on the CyberGym benchmark. According to <a href=\"https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/\">The Decoder</a>, Microsoft estimates costs could drop by 50% compared to frontier models, with the most complex cases still routed to OpenAI's GPT-5.4.",
+                "de": "<a href=\"https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\">Microsoft hat am 27. Juli 2026</a> sein erstes Cybersicherheitsmodell, MAI-Cyber-1-Flash, gestartet, das in ein Multi-Agenten-System namens MDASH integriert ist. Das Modell erreicht 96 % im CyberGym-Benchmark. Laut <a href=\"https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/\">The Decoder</a> schätzt Microsoft, dass die Kosten im Vergleich zu Spitzenmodellen um 50 % sinken könnten, wobei die komplexesten Fälle weiterhin an GPT-5.4 von OpenAI weitergeleitet werden.",
+                "it": "<a href=\"https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\">Microsoft ha lanciato il 27 luglio 2026</a> il suo primo modello di cybersicurezza, MAI-Cyber-1-Flash, integrato in un sistema multi-agente chiamato MDASH. Il modello raggiunge il 96% sul benchmark CyberGym. Secondo <a href=\"https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/\">The Decoder</a>, Microsoft stima che i costi potrebbero scendere del 50% rispetto ai modelli di frontiera, con i casi più complessi ancora trasmessi a GPT-5.4 di OpenAI.",
+                "lmo": "<a href=\"https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/\">Microsoft l'ha lanciaa el 27 de luj 2026</a> el sò prim model de cybersecurity, MAI-Cyber-1-Flash, integraa in d'on sistema multi-agent ciamaa MDASH. El model el riva al 96 % in sul benchmark CyberGym. Segond <a href=\"https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/\">The Decoder</a>, Microsoft la stima che i cost podarien sbassà del 50 % rispett ai model de frontiera, i cas pussee compless essend semper trasmett a GPT-5.4 de OpenAI."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/27/microsoft-launches-its-first-cyber-model-and-a-new-agentic-cybersecurity-system/",
+                "https://the-decoder.com/microsoft-launches-its-own-cybersecurity-model-mai-cyber-1-flash-but-still-depends-on-openai-for-the-toughest-tasks/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Meta AI arrive dans les DM de Threads ; Google AI Overviews atteint 43 % des recherches",
+                "en": "Meta AI arrives in Threads DMs; Google AI Overviews reaches 43% of searches",
+                "de": "Meta AI kommt in die DMs von Threads; Google AI Overviews erreicht 43 % der Suchen",
+                "it": "Meta AI arriva nei DM di Threads; Google AI Overviews raggiunge il 43% delle ricerche",
+                "lmo": "Meta AI el riva in di DM de Threads; Google AI Overviews el riva al 43 % di ricerch"
+              },
+              "body": {
+                "fr": "<a href=\"https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\">Meta a déployé le 27 juillet 2026</a> son assistant Meta AI dans les messages directs de Threads. Les utilisateurs peuvent désormais dialoguer avec l'assistant directement dans leurs DM, une intégration qui rapproche Threads des autres plateformes Meta déjà équipées de l'assistant. Par ailleurs, <a href=\"https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\">TechCrunch rapporte</a> que les AI Overviews de Google apparaissent désormais dans 43 % des recherches, confirmant la rapide adoption des réponses générées par IA comme mode par défaut de découverte d'information en ligne.",
+                "en": "<a href=\"https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\">Meta deployed on July 27, 2026</a> its Meta AI assistant in Threads direct messages. Users can now converse with the assistant directly in their DMs, an integration that brings Threads closer to other Meta platforms already equipped with the assistant. Meanwhile, <a href=\"https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\">TechCrunch reports</a> that Google's AI Overviews now appear in 43% of searches, confirming the rapid adoption of AI-generated answers as the default mode of online information discovery.",
+                "de": "<a href=\"https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\">Meta hat am 27. Juli 2026</a> seinen Assistenten Meta AI in den Direktnachrichten von Threads eingeführt. Benutzer können nun direkt in ihren DMs mit dem Assistenten chatten, eine Integration, die Threads den anderen Meta-Plattformen mit Assistenten annähert. Zudem berichtet <a href=\"https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\">TechCrunch</a>, dass die AI Overviews von Google nun bei 43 % der Suchen erscheinen, was die rasche Adoption von KI-generierten Antworten als Standardmodus der Online-Informationssuche bestätigt.",
+                "it": "<a href=\"https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\">Meta ha implementato il 27 luglio 2026</a> il suo assistente Meta AI nei messaggi diretti di Threads. Gli utenti possono ora dialogare con l'assistente direttamente nei loro DM, un'integrazione che avvicina Threads alle altre piattaforme Meta già dotate dell'assistente. Inoltre, <a href=\"https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\">TechCrunch riporta</a> che gli AI Overviews di Google appaiono ora nel 43% delle ricerche, confermando la rapida adozione delle risposte generate dall'IA come modalità predefinita di scoperta delle informazioni online.",
+                "lmo": "<a href=\"https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/\">Meta l'ha despiegaa el 27 de luj 2026</a> el sò assistent Meta AI in di messagg dirett de Threads. I utent poden adess dialogà con l'assistent direttament in di sò DM, ona integrazion che l'avvesina Threads ai alter piattaform Meta giamò equipagiad de l'assistent. D'oltra banda, <a href=\"https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/\">TechCrunch el reporta</a> che i AI Overviews de Google comparissen adess in del 43 % di ricerch, confermand la rapida adozion di rispost generaa de l'IA 'me manera de default de descoverta de l'informazion in linia."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/27/threads-users-can-now-chat-with-meta-ai-in-their-dms/",
+                "https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito : Le paradoxe de l'open-weight à l'ère Kimi K3",
+                "en": "Editorial: The open-weight paradox in the Kimi K3 era",
+                "de": "Leitartikel: Das Paradoxon des Open-Weight im Zeitalter von Kimi K3",
+                "it": "Editoriale: Il paradosso dell'open-weight nell'era Kimi K3",
+                "lmo": "Editorial: El paradox de l'open-weight a l'era del Kimi K3"
+              },
+              "body": {
+                "fr": "La publication des poids de Kimi K3 par Moonshot AI le 27 juillet 2026 marque un tournant dans l'économie des modèles de fondation. Avec 2,8 billions de paramètres et 104 milliards activés par token, ce modèle open-weight rivalise avec les meilleurs modèles propriétaires occidentaux sur de nombreux benchmarks, pour une fraction du coût d'inférence. Mais cette ouverture soulève des questions vertigineuses : si un laboratoire chinois peut diffuser gratuitement un modèle de cette puissance, quel avantage concurrentiel reste-t-il aux géants américains qui investissent des dizaines de milliards dans des modèles fermés ? La réponse d'Anthropic, qui publie le même jour une position nuancée sur l'open-weight, et l'initiative Open Secure AI Alliance de Nvidia, qui exclut OpenAI et Google, dessinent les lignes de fracture d'une industrie qui ne sait plus si elle doit ouvrir ou verrouiller ses créations.",
+                "en": "The release of Kimi K3 weights by Moonshot AI on July 27, 2026 marks a turning point in the foundation model economy. With 2.8 trillion parameters and 104 billion activated per token, this open-weight model rivals the best Western proprietary models on many benchmarks, at a fraction of the inference cost. But this openness raises dizzying questions: if a Chinese lab can freely distribute a model of this power, what competitive advantage remains for American giants investing tens of billions in closed models? Anthropic's response, publishing a nuanced position on open-weight the same day, and Nvidia's Open Secure AI Alliance initiative, which excludes OpenAI and Google, draw the fault lines of an industry that no longer knows whether to open or lock down its creations.",
+                "de": "Die Veröffentlichung der Gewichte von Kimi K3 durch Moonshot AI am 27. Juli 2026 markiert einen Wendepunkt in der Ökonomie der Foundation-Modelle. Mit 2,8 Billionen Parametern und 104 Milliarden aktivierten pro Token konkurriert dieses Open-Weight-Modell bei vielen Benchmarks mit den besten westlichen proprietären Modellen – zu einem Bruchteil der Inferenzkosten. Doch diese Offenheit wirft schwindelerregende Fragen auf: Wenn ein chinesisches Labor ein Modell dieser Leistungsfähigkeit kostenlos verbreiten kann, welcher Wettbewerbsvorteil bleibt dann den amerikanischen Giganten, die Dutzende Milliarden in geschlossene Modelle investieren? Die Antwort von Anthropic, die am selben Tag eine differenzierte Position zu Open-Weight veröffentlicht, und die Open Secure AI Alliance von Nvidia, die OpenAI und Google ausschliesst, zeichnen die Bruchlinien einer Industrie, die nicht mehr weiss, ob sie ihre Kreationen öffnen oder verschliessen soll.",
+                "it": "La pubblicazione dei pesi di Kimi K3 da parte di Moonshot AI il 27 luglio 2026 segna una svolta nell'economia dei modelli di fondazione. Con 2,8 trilioni di parametri e 104 miliardi attivati per token, questo modello open-weight rivaleggia con i migliori modelli proprietari occidentali su molti benchmark, per una frazione del costo di inferenza. Ma questa apertura solleva domande vertiginose: se un laboratorio cinese può diffondere gratuitamente un modello di questa potenza, quale vantaggio competitivo rimane ai giganti americani che investono decine di miliardi in modelli chiusi? La risposta di Anthropic, che pubblica lo stesso giorno una posizione sfumata sull'open-weight, e l'iniziativa Open Secure AI Alliance di Nvidia, che esclude OpenAI e Google, delineano le linee di frattura di un'industria che non sa più se aprire o chiudere le sue creazioni.",
+                "lmo": "La publicazion di pes del Kimi K3 de Moonshot AI el 27 de luj 2026 la marca on svolt in l'economia di model de fondazion. Con 2,8 trilion de parametri e 104 miliard ativai per token, 'sto model open-weight el gareggia con i miglior model proprietari ocidentai in su tanti benchmark, per ona frazion del cost d'inferenza. Ma 'sta vertura la solleva di domand vertiginos: se on laboratori cines el pò spantegà gratis on model de 'sta potenza, qual vantagg concorrential el resta ai gigant american che investissen desen de miliard in di model saraa? La risposta de Anthropic, che la publica el midem dì ona posizion sfumada in su l'open-weight, e l'iniziativa Open Secure AI Alliance de Nvidia, che la esclud OpenAI e Google, disegnen i linii de frattura d'on'industria che la sa pu se la dev dervì o sarrà i sò creazion."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://huggingface.co/api/daily_papers?limit=50",
+                "https://www.anthropic.com/news/position-open-weights-models",
+                "https://www.theverge.com/ai-artificial-intelligence/971281/nvidia-open-secure-ai-alliance-cybersecurity"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
