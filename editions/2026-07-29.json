@@ -1,0 +1,667 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-07-29",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a annoncé le 28 juillet 2026 que son modèle Claude Mythos Preview a identifié des vulnérabilités dans plusieurs algorithmes cryptographiques fondamentaux, dont une attaque inédite contre le schéma de signature post-quantique HAWK que des experts humains avaient examiné pendant plus de deux ans. Le modèle a accompli cette tâche en 60 heures pour un coût d'API d'environ 100 000 dollars, selon un <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">article de recherche publié par Anthropic</a>.",
+        "en": "Anthropic announced on July 28, 2026 that its Claude Mythos Preview model identified vulnerabilities in several fundamental cryptographic algorithms, including a novel attack against the post-quantum signature scheme HAWK that human experts had examined for over two years. The model accomplished this task in 60 hours at an API cost of approximately $100,000, according to a <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">research paper published by Anthropic</a>.",
+        "de": "Anthropic gab am 28. Juli 2026 bekannt, dass sein Modell Claude Mythos Preview Schwachstellen in mehreren fundamentalen kryptografischen Algorithmen identifiziert hat, darunter ein neuartiger Angriff auf das Post-Quanten-Signaturschema HAWK, den menschliche Experten über zwei Jahre lang geprüft hatten. Das Modell erledigte diese Aufgabe in 60 Stunden bei API-Kosten von rund 100'000 Dollar, laut einem <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">von Anthropic veröffentlichten Forschungsartikel</a>.",
+        "it": "Anthropic ha annunciato il 28 luglio 2026 che il suo modello Claude Mythos Preview ha identificato vulnerabilità in diversi algoritmi crittografici fondamentali, tra cui un attacco inedito contro lo schema di firma post-quantistica HAWK che esperti umani avevano esaminato per oltre due anni. Il modello ha completato questo compito in 60 ore per un costo API di circa 100.000 dollari, secondo un <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">articolo di ricerca pubblicato da Anthropic</a>.",
+        "lmo": "Anthropic l'ha anunziaa el 28 de luj 2026 che 'l sò modell Claude Mythos Preview l'ha identificaa di vulnerabilità in diversi algoritm criptografich fondamentai, cont ona atacch inedit contra 'l schema de firma post-quantega HAWK che di espert uman hann esaminaa per pussee de duu agn. El modell l'ha compii quest compit in 60 ore per on cost d'API de circa 100 000 dollar, segond on <a href=\"https://www.anthropic.com/research/discovering-cryptographic-weaknesses\">articol de ricerca publicaa de Anthropic</a>."
+      },
+      {
+        "fr": "Les failles découvertes ne compromettent pas les systèmes actuellement en production, précise Anthropic, mais elles démontrent comment l'IA pourrait remettre en cause les hypothèses fondamentales sur lesquelles repose la sécurité de l'internet. Le <a href=\"https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html\">New York Times</a> rapporte que les tests ont porté sur des versions affaiblies d'algorithmes comme l'AES, utilisés pour protéger les transactions financières et les communications privées.",
+        "en": "The discovered flaws do not compromise systems currently in production, Anthropic notes, but they demonstrate how AI could challenge the fundamental assumptions on which internet security rests. The <a href=\"https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html\">New York Times</a> reports that the tests targeted weakened versions of algorithms such as AES, used to protect financial transactions and private communications.",
+        "de": "Die entdeckten Schwachstellen gefährden die derzeit in Produktion befindlichen Systeme nicht, so Anthropic, aber sie zeigen, wie KI die grundlegenden Annahmen in Frage stellen könnte, auf denen die Sicherheit des Internets beruht. Die <a href=\"https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html\">New York Times</a> berichtet, dass die Tests an abgeschwächten Versionen von Algorithmen wie AES durchgeführt wurden, die zum Schutz von Finanztransaktionen und privater Kommunikation eingesetzt werden.",
+        "it": "Le falle scoperte non compromettono i sistemi attualmente in produzione, precisa Anthropic, ma dimostrano come l'IA potrebbe mettere in discussione le ipotesi fondamentali su cui si basa la sicurezza di internet. Il <a href=\"https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html\">New York Times</a> riferisce che i test hanno riguardato versioni indebolite di algoritmi come l'AES, utilizzati per proteggere le transazioni finanziarie e le comunicazioni private.",
+        "lmo": "I falle descovrì no comprometten i sistema che al dì d'incoeu hinn in produzion, el precisa Anthropic, ma lor dimostren comè l'IA la podariss mett in discussion i ipotesi fondamentai sora i quai la reposa la sicurezza de l'internet. El <a href=\"https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html\">New York Times</a> el rapporta che i test hann toccaa di version indebolì d'algoritm comè l'AES, doperaa per protegg i transazion finanzieri e i comunicazion privaa."
+      },
+      {
+        "fr": "Cette démonstration intervient alors que le débat sur les risques des modèles d'IA s'intensifie. Dario Amodei, PDG d'Anthropic, a réitéré le 28 juillet sa position sur les risques des modèles open-weight, déclarant au <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> qu'il ne s'oppose pas aux modèles ouverts mais craint que des États autoritaires comme la Chine ne les exploitent pour des cyberattaques ou des usages biologiques.",
+        "en": "This demonstration comes as the debate over the risks of AI models intensifies. Dario Amodei, CEO of Anthropic, reiterated on July 28 his position on the risks of open-weight models, telling <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> that he does not oppose open models but fears that authoritarian states like China could exploit them for cyberattacks or biological uses.",
+        "de": "Diese Demonstration erfolgt zu einem Zeitpunkt, an dem die Debatte über die Risiken von KI-Modellen intensiver wird. Dario Amodei, CEO von Anthropic, bekräftigte am 28. Juli seine Haltung zu den Risiken von Open-Weight-Modellen und erklärte gegenüber <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a>, er sei nicht gegen offene Modelle, befürchte jedoch, dass autoritäre Staaten wie China sie für Cyberangriffe oder biologische Anwendungen ausnutzen könnten.",
+        "it": "Questa dimostrazione arriva mentre il dibattito sui rischi dei modelli di IA si intensifica. Dario Amodei, CEO di Anthropic, ha ribadito il 28 luglio la sua posizione sui rischi dei modelli open-weight, dichiarando a <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> di non opporsi ai modelli aperti ma di temere che Stati autoritari come la Cina possano sfruttarli per cyberattacchi o usi biologici.",
+        "lmo": "Questa dimostrazion la riva intant che 'l debatt sora i ris'c di modell d'IA el s'intensifica. Dario Amodei, CEO d'Anthropic, l'ha reitegaa el 28 de luj la soa posizion sora i ris'c di modell open-weight, declarand al <a href=\"https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/\">TechCrunch</a> che lu el se oppònn no ai modell vert, ma 'l gh'ha pagura che di Stat autoritari comè la Cina i poden sfruttà per di cyberatacch o per di usagg biologich."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "https://www.nytimes.com/2026/07/28/us/politics/anthropic-ai-encryption-security-aes.html",
+      "https://techcrunch.com/2026/07/27/anthropics-dario-amodei-responds-doesnt-oppose-open-weight-models-but-fears-chinese-ai/"
+    ],
+    "kicker": {
+      "fr": "Frontière",
+      "en": "Frontier",
+      "de": "Grenzbereich",
+      "it": "Frontiera",
+      "lmo": "Frontiera"
+    },
+    "headline": {
+      "fr": "Claude Mythos Preview découvre des failles dans des algorithmes cryptographiques qui sécurisent l'internet",
+      "en": "Claude Mythos Preview discovers flaws in cryptographic algorithms that secure the internet",
+      "de": "Claude Mythos Preview entdeckt Schwachstellen in kryptografischen Algorithmen, die das Internet sichern",
+      "it": "Claude Mythos Preview scopre falle in algoritmi crittografici che proteggono internet",
+      "lmo": "Claude Mythos Preview el descovriss di falle in di algoritm criptografich che sicuren l'internet"
+    },
+    "subdeck": {
+      "fr": "Le modèle Claude Mythos Preview d'Anthropic a découvert des attaques inédites contre des algorithmes cryptographiques majeurs en 60 heures, pour un coût de 100 000 dollars — un exploit qui interroge les fondements de la sécurité internet.",
+      "en": "Anthropic's Claude Mythos Preview model discovered novel attacks against major cryptographic algorithms in 60 hours, at a cost of $100,000 — a feat that questions the foundations of internet security.",
+      "de": "Das Claude Mythos Preview-Modell von Anthropic entdeckte in 60 Stunden neuartige Angriffe auf bedeutende kryptografische Algorithmen, zu Kosten von 100'000 Dollar – eine Leistung, die die Grundfesten der Internetsicherheit infrage stellt.",
+      "it": "Il modello Claude Mythos Preview di Anthropic ha scoperto attacchi inediti contro algoritmi crittografici maggiori in 60 ore, per un costo di 100.000 dollari — un'impresa che interroga i fondamenti della sicurezza internet.",
+      "lmo": "El modell Claude Mythos Preview d'Anthropic l'ha descovrii di atacch inedii contra di algoritm criptografich magior in 60 ore, per on cost de 100 000 dollar — on exploit che 'l interroga i fondament de la sicurezza internet."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "OpenAI lance GPT Transcribe et GPT Live Transcribe",
+        "en": "OpenAI launches GPT Transcribe and GPT Live Transcribe",
+        "de": "OpenAI lanciert GPT Transcribe und GPT Live Transcribe",
+        "it": "OpenAI lancia GPT Transcribe e GPT Live Transcribe",
+        "lmo": "OpenAI la lanza GPT Transcribe e GPT Live Transcribe"
+      },
+      "body": {
+        "fr": "OpenAI a publié le 28 juillet 2026 GPT Transcribe et GPT Live Transcribe, deux nouveaux modèles de transcription. GPT Transcribe est conçu pour la transcription précise de fichiers et les transcriptions finales de tours Realtime, tandis que GPT Live Transcribe offre une transcription en streaming à faible latence. Les deux modèles supportent le contexte de transcription libre, des indices de mots-clés et plusieurs langues d'entrée attendues, selon le <a href=\"https://platform.openai.com/api/docs/models/gpt-transcribe\">changelog de la plateforme OpenAI</a>.",
+        "en": "OpenAI released on July 28, 2026 GPT Transcribe and GPT Live Transcribe, two new transcription models. GPT Transcribe is designed for accurate file transcription and final transcriptions of Realtime turns, while GPT Live Transcribe offers low-latency streaming transcription. Both models support free transcription context, keyword hints and multiple expected input languages, according to the <a href=\"https://platform.openai.com/api/docs/models/gpt-transcribe\">OpenAI platform changelog</a>.",
+        "de": "OpenAI hat am 28. Juli 2026 GPT Transcribe und GPT Live Transcribe veröffentlicht, zwei neue Transkriptionsmodelle. GPT Transcribe ist für die präzise Transkription von Dateien und finale Transkriptionen von Realtime-Runden konzipiert, während GPT Live Transcribe eine Transkription mit geringer Latenz im Streaming bietet. Beide Modelle unterstützen freien Transkriptionskontext, Stichwort-Hinweise und mehrere erwartete Eingabesprachen, laut dem <a href=\"https://platform.openai.com/api/docs/models/gpt-transcribe\">OpenAI-Plattform-Changelog</a>.",
+        "it": "OpenAI ha pubblicato il 28 luglio 2026 GPT Transcribe e GPT Live Transcribe, due nuovi modelli di trascrizione. GPT Transcribe è progettato per la trascrizione precisa di file e le trascrizioni finali di turni Realtime, mentre GPT Live Transcribe offre una trascrizione in streaming a bassa latenza. Entrambi i modelli supportano il contesto di trascrizione libero, suggerimenti di parole chiave e più lingue di input attese, secondo il <a href=\"https://platform.openai.com/api/docs/models/gpt-transcribe\">changelog della piattaforma OpenAI</a>.",
+        "lmo": "OpenAI l'ha publicaa el 28 de luj 2026 GPT Transcribe e GPT Live Transcribe, duu noeuv modell de trascrizion. GPT Transcribe l'è concepii per la trascrizion precisa de file e i trascrizion finai de tour Realtime, intant che GPT Live Transcribe l'offriss ona trascrizion in streaming a bassa latenza. I duu modell supporten el contest de trascrizion libera, di indizzi de paroll-ciav e pussee lengov d'entrada spetaa, segond el <a href=\"https://platform.openai.com/api/docs/models/gpt-transcribe\">changelog de la piattaforma OpenAI</a>."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "urls": [
+        "https://platform.openai.com/api/docs/models/gpt-transcribe"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Nvidia investit dans le laboratoire SSI d'Ilya Sutskever",
+        "en": "Nvidia invests in Ilya Sutskever's SSI lab",
+        "de": "Nvidia investiert in Ilya Sutskever KI-Labor SSI",
+        "it": "Nvidia investe nel laboratorio SSI di Ilya Sutskever",
+        "lmo": "Nvidia la investiss in del laboratori SSI d'Ilya Sutskever"
+      },
+      "body": {
+        "fr": "Nvidia a investi un montant « substantiel » dans Safe Superintelligence (SSI), le laboratoire d'Ilya Sutskever, selon <a href=\"https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/\">The Decoder</a> du 28 juillet 2026. L'investissement permettrait à SSI de s'éloigner des puces Google au profit des GPU Nvidia, marquant un réalignement stratégique dans la course à la superintelligence.",
+        "en": "Nvidia invested a \"substantial\" amount in Safe Superintelligence (SSI), Ilya Sutskever's lab, according to <a href=\"https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/\">The Decoder</a> on July 28, 2026. The investment would allow SSI to move away from Google chips in favor of Nvidia GPUs, marking a strategic realignment in the race to superintelligence.",
+        "de": "Nvidia hat einen «substanziellen» Betrag in Safe Superintelligence (SSI), das Labor von Ilya Sutskever, investiert, so <a href=\"https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/\">The Decoder</a> vom 28. Juli 2026. Die Investition ermöglicht es SSI, sich von Google-Chips zu Nvidia-GPUs zu verlagern, was eine strategische Neuausrichtung im Wettlauf um Superintelligenz markiert.",
+        "it": "Nvidia ha investito un importo «sostanziale» in Safe Superintelligence (SSI), il laboratorio di Ilya Sutskever, secondo <a href=\"https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/\">The Decoder</a> del 28 luglio 2026. L'investimento permetterebbe a SSI di allontanarsi dai chip Google a favore dei GPU Nvidia, segnando un riallineamento strategico nella corsa alla superintelligenza.",
+        "lmo": "Nvidia l'ha investii on import « sostanzial » in Safe Superintelligence (SSI), el laboratori d'Ilya Sutskever, segond <a href=\"https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/\">The Decoder</a> del 28 de luj 2026. L'investiment el permetariss a SSI de slontanass di cip Google a favor di GPU Nvidia, marchend on realineament strategich in la corsa a la superintelligenza."
+      },
+      "tag": {
+        "fr": "Financement",
+        "en": "Funding",
+        "de": "Finanzierung",
+        "it": "Finanziamento",
+        "lmo": "Finanziament"
+      },
+      "urls": [
+        "https://the-decoder.com/nvidia-invests-in-ilya-sutskevers-ai-lab-shifting-ssi-away-from-google-chips/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Amazon réduit ses modèles Nova et parie sur une nouvelle équipe Frontier",
+        "en": "Amazon scales back Nova models and bets on new Frontier team",
+        "de": "Amazon fährt Nova-Modelle zurück und setzt auf neues Frontier-Team",
+        "it": "Amazon riduce i suoi modelli Nova e punta su un nuovo team Frontier",
+        "lmo": "Amazon el riduss i sò modell Nova e 'l ponta sora ona noeuva squadra Frontier"
+      },
+      "body": {
+        "fr": "Amazon réduit la voilure de ses modèles Nova AI, dont Nova Premier, Omni, Reel et Canvas, selon <a href=\"https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/\">The Decoder</a> du 28 juillet 2026. Les modèles restent en ligne pour les clients existants en mode « keep the lights on » mais ne sont plus activement développés. Amazon mise désormais sur un nouveau groupe Frontier Model Research et un modèle de fondation qui doit être dévoilé au re:Invent cet automne.",
+        "en": "Amazon is scaling back its Nova AI models, including Nova Premier, Omni, Reel and Canvas, according to <a href=\"https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/\">The Decoder</a> on July 28, 2026. The models remain online for existing customers in \"keep the lights on\" mode but are no longer actively developed. Amazon is now betting on a new Frontier Model Research group and a foundation model to be unveiled at re:Invent this fall.",
+        "de": "Amazon fährt seine Nova-AI-Modelle zurück, darunter Nova Premier, Omni, Reel und Canvas, so <a href=\"https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/\">The Decoder</a> vom 28. Juli 2026. Die Modelle bleiben für bestehende Kunden im «Keep-the-lights-on»-Modus online, werden aber nicht mehr aktiv weiterentwickelt. Amazon setzt nun auf eine neue Frontier Model Research-Gruppe und ein Foundation-Modell, das auf dem re:Invent diesen Herbst vorgestellt werden soll.",
+        "it": "Amazon riduce il perimetro dei suoi modelli Nova AI, tra cui Nova Premier, Omni, Reel e Canvas, secondo <a href=\"https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/\">The Decoder</a> del 28 luglio 2026. I modelli restano online per i clienti esistenti in modalità «keep the lights on» ma non sono più sviluppati attivamente. Amazon punta ora su un nuovo gruppo Frontier Model Research e su un modello di fondazione che sarà svelato al re:Invent questo autunno.",
+        "lmo": "Amazon el riduss la veladura di sò modell Nova AI, compres Nova Premier, Omni, Reel e Canvas, segond <a href=\"https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/\">The Decoder</a> del 28 de luj 2026. I modell resten in ligna per i client esistent in modalità « keep the lights on » ma hinn pu desviluppaa ativament. Amazon el met adess sora on noeuv grupp Frontier Model Research e on modell de fondazion che 'l gh'ha de vess desvelaa al re:Invent quest'autunn."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "urls": [
+        "https://the-decoder.com/amazon-reportedly-scales-back-its-nova-ai-models-and-bets-on-a-new-frontier-research-team/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Fish Audio lève 52 M$ pour ses modèles de voix IA",
+        "en": "Fish Audio raises $52M for AI voice models",
+        "de": "Fish Audio sammelt 52 Mio. $ für KI-Sprachmodelle ein",
+        "it": "Fish Audio raccoglie 52 M$ per i suoi modelli di voce IA",
+        "lmo": "Fish Audio el leva 52 M$ per i sò modell de vos IA"
+      },
+      "body": {
+        "fr": "Fish Audio a levé 52 millions de dollars en seed round le 28 juillet 2026 pour construire des modèles de voix IA destinés aux créateurs et aux entreprises. Selon <a href=\"https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\">TechCrunch</a>, la startup compte plus de 8 millions d'utilisateurs et génère un revenu annuel récurrent de 21 millions de dollars depuis son lancement l'année dernière.",
+        "en": "Fish Audio raised $52 million in a seed round on July 28, 2026 to build AI voice models for creators and enterprises. According to <a href=\"https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\">TechCrunch</a>, the startup has over 8 million users and generates $21 million in annual recurring revenue since its launch last year.",
+        "de": "Fish Audio hat am 28. Juli 2026 in einer Seed-Runde 52 Millionen Dollar eingesammelt, um KI-Sprachmodelle für Kreative und Unternehmen zu bauen. Laut <a href=\"https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\">TechCrunch</a> zählt das Startup über 8 Millionen Nutzer und erwirtschaftet einen jährlich wiederkehrenden Umsatz von 21 Millionen Dollar seit seinem Start im letzten Jahr.",
+        "it": "Fish Audio ha raccolto 52 milioni di dollari in seed round il 28 luglio 2026 per costruire modelli di voce IA destinati a creatori e aziende. Secondo <a href=\"https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\">TechCrunch</a>, la startup conta oltre 8 milioni di utenti e genera un ricavo annuo ricorrente di 21 milioni di dollari dal suo lancio l'anno scorso.",
+        "lmo": "Fish Audio l'ha levaa 52 milion de dollar in seed round el 28 de luj 2026 per costruì di modell de vos IA destinad ai creator e ai impres. Segond <a href=\"https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/\">TechCrunch</a>, la startup la cunta pussee de 8 milion d'utent e la genera on revenuu anual ricorrent de 21 milion de dollar del sò lanzament l'ann passaa."
+      },
+      "tag": {
+        "fr": "Financement",
+        "en": "Funding",
+        "de": "Finanzierung",
+        "it": "Finanziamento",
+        "lmo": "Finanziament"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/07/28/fish-audio-raises-50m-seed-to-build-ai-voice-models-for-creators-and-enterprises/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Mythos Preview perce la cryptographie post-quantique en 60 heures",
+                "en": "Claude Mythos Preview cracks post-quantum cryptography in 60 hours",
+                "de": "Claude Mythos Preview knackt Post-Quanten-Kryptografie in 60 Stunden",
+                "it": "Claude Mythos Preview scardina la crittografia post-quantistica in 60 ore",
+                "lmo": "Claude Mythos Preview el trapassa la criptografia post-quantega in 60 ore"
+              },
+              "body": {
+                "fr": "Anthropic a annoncé le 28 juillet 2026 que son modèle Claude Mythos Preview a découvert des vulnérabilités dans des algorithmes cryptographiques fondamentaux, dont une attaque inédite contre le schéma de signature post-quantique HAWK. Selon <a href=\"https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/\">The Decoder</a>, le modèle a trouvé ces failles en 60 heures pour un coût d'API d'environ 100 000 dollars, là où des experts humains avaient examiné HAWK pendant plus de deux ans. Les résultats ne compromettent pas les systèmes actuels mais montrent comment l'IA pourrait défier les hypothèses de sécurité de l'internet.",
+                "en": "Anthropic announced on July 28, 2026 that its Claude Mythos Preview model discovered vulnerabilities in fundamental cryptographic algorithms, including a novel attack against the post-quantum signature scheme HAWK. According to <a href=\"https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/\">The Decoder</a>, the model found these flaws in 60 hours at an API cost of approximately $100,000, whereas human experts had examined HAWK for over two years. The results do not compromise current systems but show how AI could challenge the security assumptions of the internet.",
+                "de": "Anthropic gab am 28. Juli 2026 bekannt, dass sein Modell Claude Mythos Preview Schwachstellen in fundamentalen kryptografischen Algorithmen entdeckt hat, darunter ein neuartiger Angriff auf das Post-Quanten-Signaturschema HAWK. Laut <a href=\"https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/\">The Decoder</a> fand das Modell diese Schwachstellen in 60 Stunden bei API-Kosten von rund 100'000 Dollar, während menschliche Experten HAWK über zwei Jahre lang geprüft hatten. Die Ergebnisse gefährden die aktuellen Systeme nicht, zeigen aber, wie KI die Sicherheitsannahmen des Internets herausfordern könnte.",
+                "it": "Anthropic ha annunciato il 28 luglio 2026 che il suo modello Claude Mythos Preview ha scoperto vulnerabilità in algoritmi crittografici fondamentali, tra cui un attacco inedito contro lo schema di firma post-quantistica HAWK. Secondo <a href=\"https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/\">The Decoder</a>, il modello ha trovato queste falle in 60 ore per un costo API di circa 100.000 dollari, mentre esperti umani avevano esaminato HAWK per oltre due anni. I risultati non compromettono i sistemi attuali ma mostrano come l'IA potrebbe sfidare le ipotesi di sicurezza di internet.",
+                "lmo": "Anthropic l'ha anunziaa el 28 de luj 2026 che 'l sò modell Claude Mythos Preview l'ha descovrii di vulnerabilità in di algoritm criptografich fondamentai, cont ona atacch inedit contra 'l schema de firma post-quantega HAWK. Segond <a href=\"https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/\">The Decoder</a>, el modell l'ha trovaa sti falle in 60 ore per on cost d'API de circa 100 000 dollar, là indove di espert uman hann esaminaa HAWK per pussee de duu agn. I resultaa no comprometten i sistema atuai ma mostren comè l'IA la podariss sfidà i ipotesi de sicurezza de l'internet."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google déploie les Managed Agents avec Gemini 3.6 Flash et des hooks",
+                "en": "Google deploys Managed Agents with Gemini 3.6 Flash and hooks",
+                "de": "Google führt Managed Agents mit Gemini 3.6 Flash und Hooks ein",
+                "it": "Google distribuisce i Managed Agents con Gemini 3.6 Flash e hook",
+                "lmo": "Google el despiega i Managed Agents con Gemini 3.6 Flash e di hooks"
+              },
+              "body": {
+                "fr": "Google a annoncé le 28 juillet 2026 l'extension de ses Managed Agents dans l'API Gemini, avec le support du modèle Gemini 3.6 Flash et l'ajout de hooks personnalisables. Selon le <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\">blog Google AI</a>, ces nouvelles capacités permettent aux développeurs de construire des agents fiables et prêts pour la production, avec un contrôle accru sur le cycle de vie des agents via des points d'extension.",
+                "en": "Google announced on July 28, 2026 the expansion of its Managed Agents in the Gemini API, with support for the Gemini 3.6 Flash model and the addition of customizable hooks. According to the <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\">Google AI blog</a>, these new capabilities allow developers to build reliable, production-ready agents with increased control over the agent lifecycle via extension points.",
+                "de": "Google gab am 28. Juli 2026 die Erweiterung seiner Managed Agents in der Gemini-API bekannt, mit Unterstützung des Modells Gemini 3.6 Flash und der Hinzufügung anpassbarer Hooks. Laut dem <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\">Google AI-Blog</a> ermöglichen diese neuen Fähigkeiten Entwicklern, zuverlässige, produktionsreife Agenten mit erhöhter Kontrolle über den Agentenlebenszyklus über Erweiterungspunkte zu bauen.",
+                "it": "Google ha annunciato il 28 luglio 2026 l'estensione dei suoi Managed Agents nell'API Gemini, con il supporto del modello Gemini 3.6 Flash e l'aggiunta di hook personalizzabili. Secondo il <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\">blog Google AI</a>, queste nuove capacità permettono agli sviluppatori di costruire agenti affidabili e pronti per la produzione, con un controllo accresciuto sul ciclo di vita degli agenti tramite punti di estensione.",
+                "lmo": "Google l'ha anunziaa el 28 de luj 2026 l'estension di sò Managed Agents in l'API Gemini, cont el support del modell Gemini 3.6 Flash e l'gionta de hooks personalizzabil. Segond el <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/\">blog Google AI</a>, sti noeuv capacità permetten ai sviluppador de costruì di agent fidabil e pront per la produzion, cont on controll pussee grand sora 'l ciclo de vita di agent per mezz de pont d'estension."
+              },
+              "kicker": {
+                "fr": "Google AI",
+                "en": "Google AI",
+                "de": "Google AI",
+                "it": "Google AI",
+                "lmo": "Google AI"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Grok 4.5 arrive dans GitHub Copilot et xAI lance Build Mode",
+                "en": "Grok 4.5 arrives in GitHub Copilot and xAI launches Build Mode",
+                "de": "Grok 4.5 kommt in GitHub Copilot und xAI lanciert Build Mode",
+                "it": "Grok 4.5 arriva in GitHub Copilot e xAI lancia Build Mode",
+                "lmo": "Grok 4.5 el riva in GitHub Copilot e xAI la lanza Build Mode"
+              },
+              "body": {
+                "fr": "xAI a annoncé le 28 juillet 2026 l'intégration de Grok 4.5 dans GitHub Copilot, permettant aux développeurs d'utiliser le modèle directement depuis leur environnement de développement. Parallèlement, la société a dévoilé <a href=\"https://x.ai/news/grok-build-mode\">Build Mode</a>, un nouvel environnement de développement assisté par IA. Ces annonces marquent une expansion significative de l'écosystème Grok au-delà de la plateforme X.",
+                "en": "xAI announced on July 28, 2026 the integration of Grok 4.5 into GitHub Copilot, allowing developers to use the model directly from their development environment. At the same time, the company unveiled <a href=\"https://x.ai/news/grok-build-mode\">Build Mode</a>, a new AI-assisted development environment. These announcements mark a significant expansion of the Grok ecosystem beyond the X platform.",
+                "de": "xAI gab am 28. Juli 2026 die Integration von Grok 4.5 in GitHub Copilot bekannt, die es Entwicklern ermöglicht, das Modell direkt aus ihrer Entwicklungsumgebung zu nutzen. Parallel dazu stellte das Unternehmen <a href=\"https://x.ai/news/grok-build-mode\">Build Mode</a> vor, eine neue KI-gestützte Entwicklungsumgebung. Diese Ankündigungen markieren eine signifikante Expansion des Grok-Ökosystems über die X-Plattform hinaus.",
+                "it": "xAI ha annunciato il 28 luglio 2026 l'integrazione di Grok 4.5 in GitHub Copilot, permettendo agli sviluppatori di utilizzare il modello direttamente dal proprio ambiente di sviluppo. Parallelamente, la società ha svelato <a href=\"https://x.ai/news/grok-build-mode\">Build Mode</a>, un nuovo ambiente di sviluppo assistito da IA. Questi annunci segnano un'espansione significativa dell'ecosistema Grok oltre la piattaforma X.",
+                "lmo": "xAI l'ha anunziaa el 28 de luj 2026 l'integrazion de Grok 4.5 in GitHub Copilot, permettend ai sviluppador de doperà el modell direttament del sò ambient de desvilupp. In contemporanea, la socetà l'ha desvelaa <a href=\"https://x.ai/news/grok-build-mode\">Build Mode</a>, on noeuv ambient de desvilupp assistii de l'IA. Sti anunzi marchen ona espansion significativa de l'ecosistema Grok oltra la piattaforma X."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "urls": [
+                "https://x.ai/news/grok-github-copilot",
+                "https://x.ai/news/grok-build-mode"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI montre comment les agents de codage transforment la science computationnelle",
+                "en": "OpenAI shows how coding agents are transforming computational science",
+                "de": "OpenAI zeigt, wie Codierungsagenten die Computerwissenschaft verändern",
+                "it": "OpenAI mostra come gli agenti di codifica trasformano la scienza computazionale",
+                "lmo": "OpenAI la mostra comè i agent de codifica transformen la scienza computazionala"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 28 juillet 2026 un rapport de terrain détaillant comment les scientifiques utilisent les agents de codage IA pour moderniser le calcul scientifique. Selon <a href=\"https://openai.com/index/scientific-computing-agentic-ai\">l'article publié par OpenAI</a>, ces agents accélèrent le développement logiciel et la découverte dans des domaines comme la génomique, transformant les workflows de recherche computationnelle.",
+                "en": "OpenAI published on July 28, 2026 a field report detailing how scientists are using AI coding agents to modernize scientific computing. According to <a href=\"https://openai.com/index/scientific-computing-agentic-ai\">the article published by OpenAI</a>, these agents accelerate software development and discovery in fields such as genomics, transforming computational research workflows.",
+                "de": "OpenAI veröffentlichte am 28. Juli 2026 einen Erfahrungsbericht, der detailliert beschreibt, wie Wissenschaftler KI-Codierungsagenten zur Modernisierung des wissenschaftlichen Rechnens einsetzen. Laut <a href=\"https://openai.com/index/scientific-computing-agentic-ai\">dem von OpenAI veröffentlichten Artikel</a> beschleunigen diese Agenten die Softwareentwicklung und Entdeckungen in Bereichen wie der Genomik und transformieren die Workflows der computergestützten Forschung.",
+                "it": "OpenAI ha pubblicato il 28 luglio 2026 un rapporto sul campo che dettaglia come gli scienziati utilizzano gli agenti di codifica IA per modernizzare il calcolo scientifico. Secondo <a href=\"https://openai.com/index/scientific-computing-agentic-ai\">l'articolo pubblicato da OpenAI</a>, questi agenti accelerano lo sviluppo software e la scoperta in ambiti come la genomica, trasformando i flussi di lavoro della ricerca computazionale.",
+                "lmo": "OpenAI l'ha publicaa el 28 de luj 2026 on rapport de camp che 'l dettaglia comè i scientist doperen i agent de codifica IA per modernizà el calcol scientifich. Segond <a href=\"https://openai.com/index/scientific-computing-agentic-ai\">l'articol publicaa de OpenAI</a>, sti agent acceleren el desvilupp software e la descovrì in di camp comè la genomica, transformand i workflow de ricerca computazionala."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://openai.com/index/scientific-computing-agentic-ai"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Technisches Notizbuch",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Moteurs",
+            "en": "Harnesses & Engines",
+            "de": "Geschirre & Motoren",
+            "it": "Finimenti & Motori",
+            "lmo": "Harnes & Motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Codex CLI 0.146.0 : plugins Agent, fork de threads et sessions nommées",
+                "en": "Codex CLI 0.146.0: Agent plugins, thread forking and named sessions",
+                "de": "Codex CLI 0.146.0: Agent-Plugins, Thread-Forking und benannte Sitzungen",
+                "it": "Codex CLI 0.146.0: plugin Agent, fork di thread e sessioni nominate",
+                "lmo": "Codex CLI 0.146.0: plugin Agent, fork de thread e session nomenaa"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 28 juillet 2026 la version stable 0.146.0 de Codex CLI, accompagnée de trois versions alpha (0.146.0-alpha.14, .15 et .16). La version stable introduit des fonctionnalités majeures : la possibilité de nommer les sessions avec <code>/new</code> ou <code>/clear</code>, le support des plugins Agent avec des manifests et des marketplaces pour Amazon Bedrock et Claude Code, ainsi que le fork de threads avec historique paginé. Selon les <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0\">notes de version</a>, les utilisateurs peuvent désormais épingler des fils de discussion importants et basculer entre conversations sans les fermer.",
+                "en": "OpenAI released on July 28, 2026 the stable version 0.146.0 of Codex CLI, accompanied by three alpha versions (0.146.0-alpha.14, .15 and .16). The stable release introduces major features: the ability to name sessions with <code>/new</code> or <code>/clear</code>, support for Agent plugins with manifests and marketplaces for Amazon Bedrock and Claude Code, as well as thread forking with paginated history. According to the <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0\">release notes</a>, users can now pin important threads and switch between conversations without closing them.",
+                "de": "OpenAI veröffentlichte am 28. Juli 2026 die stabile Version 0.146.0 von Codex CLI, zusammen mit drei Alpha-Versionen (0.146.0-alpha.14, .15 und .16). Die stabile Version führt wichtige Funktionen ein: die Möglichkeit, Sitzungen mit <code>/new</code> oder <code>/clear</code> zu benennen, Unterstützung für Agent-Plugins mit Manifests und Marktplätzen für Amazon Bedrock und Claude Code sowie das Forken von Threads mit paginierter Historie. Laut den <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0\">Versionshinweisen</a> können Benutzer nun wichtige Diskussionsfäden anheften und zwischen Unterhaltungen wechseln, ohne sie zu schliessen.",
+                "it": "OpenAI ha pubblicato il 28 luglio 2026 la versione stabile 0.146.0 di Codex CLI, accompagnata da tre versioni alpha (0.146.0-alpha.14, .15 e .16). La versione stabile introduce funzionalità importanti: la possibilità di nominare le sessioni con <code>/new</code> o <code>/clear</code>, il supporto dei plugin Agent con manifest e marketplace per Amazon Bedrock e Claude Code, e il fork dei thread con cronologia paginata. Secondo le <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0\">note di rilascio</a>, gli utenti possono ora fissare discussioni importanti e passare da una conversazione all'altra senza chiuderle.",
+                "lmo": "OpenAI l'ha publicaa el 28 de luj 2026 la version stabel 0.146.0 de Codex CLI, insemma a trè version alpha (0.146.0-alpha.14, .15 e .16). La version stabel la introdus di funzionalità magior: la possibilità de nomà i session con <code>/new</code> o <code>/clear</code>, el support di plugin Agent con di manifest e di marketplace per Amazon Bedrock e Claude Code, insemma al fork di thread con stòria paginada. Segond i <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.146.0\">note de version</a>, i utent pòden adess fissà di fil de discussion important e passà de 'na conversazion a l'oltra senza sarràj."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.16",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.15",
+                "https://github.com/openai/codex/releases/tag/rust-v0.146.0-alpha.14"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini CLI 0.53.0 et 0.54.0-preview.0 : correction des boucles ReAct et triage automatisé",
+                "en": "Gemini CLI 0.53.0 and 0.54.0-preview.0: ReAct loop fixes and automated triage",
+                "de": "Gemini CLI 0.53.0 und 0.54.0-preview.0: Korrektur von ReAct-Schleifen und automatisiertes Triage",
+                "it": "Gemini CLI 0.53.0 e 0.54.0-preview.0: correzione dei loop ReAct e triage automatizzato",
+                "lmo": "Gemini CLI 0.53.0 e 0.54.0-preview.0: correzion di loop ReAct e triage automatisaa"
+              },
+              "body": {
+                "fr": "Google a publié le 28 juillet 2026 la version 0.54.0-preview.0 de Gemini CLI, qui corrige les boucles infinies ReAct et les injections de prompt, ainsi que la version stable 0.53.0 qui introduit un orchestrateur LLM pour le triage des tickets et un profil Seatbelt macOS restrictif. Selon les <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0\">notes de version</a>, la version 0.54.0-preview.0 ajoute aussi la rotation des ID de session lors du fallback de modèle pour éviter les erreurs d'API.",
+                "en": "Google released on July 28, 2026 version 0.54.0-preview.0 of Gemini CLI, which fixes infinite ReAct loops and prompt injections, as well as stable version 0.53.0 which introduces an LLM orchestrator for ticket triage and a restrictive macOS Seatbelt profile. According to the <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0\">release notes</a>, version 0.54.0-preview.0 also adds session ID rotation during model fallback to avoid API errors.",
+                "de": "Google veröffentlichte am 28. Juli 2026 die Version 0.54.0-preview.0 von Gemini CLI, die Endlosschleifen bei ReAct und Prompt-Injektionen behebt, sowie die stabile Version 0.53.0, die einen LLM-Orchestrator für das Triage von Tickets und ein restriktives macOS-Seatbelt-Profil einführt. Laut den <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0\">Versionshinweisen</a> fügt Version 0.54.0-preview.0 zudem die Rotation von Sitzungs-IDs beim Modell-Fallback hinzu, um API-Fehler zu vermeiden.",
+                "it": "Google ha pubblicato il 28 luglio 2026 la versione 0.54.0-preview.0 di Gemini CLI, che corregge i loop infiniti ReAct e le injection di prompt, e la versione stabile 0.53.0 che introduce un orchestratore LLM per il triage dei ticket e un profilo Seatbelt macOS restrittivo. Secondo le <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0\">note di rilascio</a>, la versione 0.54.0-preview.0 aggiunge anche la rotazione degli ID di sessione durante il fallback del modello per evitare errori API.",
+                "lmo": "Google l'ha publicaa el 28 de luj 2026 la version 0.54.0-preview.0 de Gemini CLI, che la corregg i loop infinii ReAct e i iniezion de prompt, insemma a la version stabel 0.53.0 che la introdus on orchestrator LLM per el triage di ticket e on profill Seatbelt macOS restrittiv. Segond i <a href=\"https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0\">note de version</a>, la version 0.54.0-preview.0 la gionta anca la rotazion di ID de session durant el fallback de modell per evità i error d'API."
+              },
+              "kicker": {
+                "fr": "Google",
+                "en": "Google",
+                "de": "Google",
+                "it": "Google",
+                "lmo": "Google"
+              },
+              "urls": [
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.53.0",
+                "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0-preview.0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp b10173 supporte le modèle Laguna-S-2.1 de Poolside",
+                "en": "llama.cpp b10173 supports Poolside's Laguna-S-2.1 model",
+                "de": "llama.cpp b10173 unterstützt Poolside-Modell Laguna-S-2.1",
+                "it": "llama.cpp b10173 supporta il modello Laguna-S-2.1 di Poolside",
+                "lmo": "llama.cpp b10173 el supporta el modell Laguna-S-2.1 de Poolside"
+              },
+              "body": {
+                "fr": "llama.cpp a publié le 28 juillet 2026 la version b10173 qui ajoute le support du modèle Laguna-S-2.1 (LLM_TYPE). Selon les <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10173\">notes de version</a>, cette mise à jour permet d'inférer le modèle de codage agentic de Poolside, un modèle de 118 milliards de paramètres avec 8 milliards d'activés par token, directement via llama.cpp.",
+                "en": "llama.cpp released on July 28, 2026 version b10173 which adds support for the Laguna-S-2.1 model (LLM_TYPE). According to the <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10173\">release notes</a>, this update enables inference of Poolside's agentic coding model, a 118-billion parameter model with 8 billion active parameters per token, directly via llama.cpp.",
+                "de": "llama.cpp veröffentlichte am 28. Juli 2026 die Version b10173, die Unterstützung für das Modell Laguna-S-2.1 (LLM_TYPE) hinzufügt. Laut den <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10173\">Versionshinweisen</a> ermöglicht dieses Update die Inferenz des agentischen Codierungsmodells von Poolside, eines Modells mit 118 Milliarden Parametern und 8 Milliarden aktiven pro Token, direkt über llama.cpp.",
+                "it": "llama.cpp ha pubblicato il 28 luglio 2026 la versione b10173 che aggiunge il supporto del modello Laguna-S-2.1 (LLM_TYPE). Secondo le <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10173\">note di rilascio</a>, questo aggiornamento permette di inferire il modello di codifica agentico di Poolside, un modello da 118 miliardi di parametri con 8 miliardi attivati per token, direttamente tramite llama.cpp.",
+                "lmo": "llama.cpp l'ha publicaa el 28 de luj 2026 la version b10173 che la gionta el support del modell Laguna-S-2.1 (LLM_TYPE). Segond i <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10173\">note de version</a>, questa atualizazion la permet de inferì el modell de codifica agentic de Poolside, on modell de 118 miliard de parametri con 8 miliard de attivà per token, direttament per mezz de llama.cpp."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Engines",
+                "it": "Motori",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10173"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.11.1 corrige le démarrage à froid et Qwen3.6",
+                "en": "Rapid-MLX 0.11.1 fixes cold start and Qwen3.6",
+                "de": "Rapid-MLX 0.11.1 behebt Kaltstart und Qwen3.6",
+                "it": "Rapid-MLX 0.11.1 corregge l'avvio a freddo e Qwen3.6",
+                "lmo": "Rapid-MLX 0.11.1 el corregg el scomenzà a fregg e Qwen3.6"
+              },
+              "body": {
+                "fr": "Rapid-MLX a publié le 28 juillet 2026 la version 0.11.1 qui corrige le démarrage à froid et mute les barres de progression HF qui fuyaient. Selon les <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1\">notes de version</a>, cette version ajoute aussi le support de la clé standard <code>mcpServers</code> pour la configuration MCP, corrige le décalage RMSNorm de Qwen3.6 qui empêchait un service cohérent, et améliore la télémétrie avec des événements de requête sur le chemin streaming.",
+                "en": "Rapid-MLX released on July 28, 2026 version 0.11.1 which fixes cold start and mutes leaking HF progress bars. According to the <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1\">release notes</a>, this version also adds support for the standard <code>mcpServers</code> key for MCP configuration, fixes the Qwen3.6 RMSNorm offset that prevented consistent service, and improves telemetry with request events on the streaming path.",
+                "de": "Rapid-MLX veröffentlichte am 28. Juli 2026 die Version 0.11.1, die den Kaltstart behebt und die durchsickernden HF-Fortschrittsbalken stummschaltet. Laut den <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1\">Versionshinweisen</a> fügt diese Version zudem Unterstützung für den Standard-Schlüssel <code>mcpServers</code> für die MCP-Konfiguration hinzu, behebt den RMSNorm-Versatz von Qwen3.6, der einen konsistenten Dienst verhinderte, und verbessert die Telemetrie mit Abfrageereignissen auf dem Streaming-Pfad.",
+                "it": "Rapid-MLX ha pubblicato il 28 luglio 2026 la versione 0.11.1 che corregge l'avvio a freddo e silenzia le barre di progresso HF che perdevano. Secondo le <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1\">note di rilascio</a>, questa versione aggiunge anche il supporto della chiave standard <code>mcpServers</code> per la configurazione MCP, corregge lo scostamento RMSNorm di Qwen3.6 che impediva un servizio coerente, e migliora la telemetria con eventi di richiesta sul percorso streaming.",
+                "lmo": "Rapid-MLX l'ha publicaa el 28 de luj 2026 la version 0.11.1 che la corregg el scomenzà a fregg e la muta i barre de progress HF che fuggiven. Segond i <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1\">note de version</a>, questa version la gionta anca el support de la ciav standard <code>mcpServers</code> per la configurazion MCP, la corregg el deslizament RMSNorm de Qwen3.6 che 'l impediva on servizzi consistent, e la migliora la telemetria con di event de richiesta sora 'l camin streaming."
+              },
+              "kicker": {
+                "fr": "Moteurs",
+                "en": "Engines",
+                "de": "Engines",
+                "it": "Motori",
+                "lmo": "Motor"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.11.1"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Paper des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Mistral dévoile Shieldstral, un classifieur de sécurité de 3B paramètres",
+                "en": "Mistral unveils Shieldstral, a 3B parameter safety classifier",
+                "de": "Mistral enthüllt Shieldstral, einen 3B-Parameter-Sicherheitsklassifikator",
+                "it": "Mistral svela Shieldstral, un classificatore di sicurezza da 3B parametri",
+                "lmo": "Mistral el desvela Shieldstral, on classifieur de sicurezza de 3B parametri"
+              },
+              "body": {
+                "fr": "Mistral AI a publié le 28 juillet 2026 Shieldstral, un classifieur de sécurité multimodal de 3 milliards de paramètres qui égalise ou surpasse des modèles près de 7 fois plus grands. Selon le <a href=\"https://arxiv.org/abs/2607.25857\">paper</a> (3 upvotes), Shieldstral formule la modération de contenu comme une tâche de question-réponse binaire, unifiant des taxonomies de sécurité hétérogènes. Le modèle a été entraîné sur environ 54,1 millions d'échantillons.",
+                "en": "Mistral AI published on July 28, 2026 Shieldstral, a 3-billion parameter multimodal safety classifier that matches or surpasses models nearly 7 times larger. According to the <a href=\"https://arxiv.org/abs/2607.25857\">paper</a> (3 upvotes), Shieldstral formulates content moderation as a binary question-answering task, unifying heterogeneous safety taxonomies. The model was trained on approximately 54.1 million samples.",
+                "de": "Mistral AI veröffentlichte am 28. Juli 2026 Shieldstral, einen multimodalen Sicherheitsklassifikator mit 3 Milliarden Parametern, der mit fast 7-mal grösseren Modellen gleichzieht oder sie übertrifft. Laut dem <a href=\"https://arxiv.org/abs/2607.25857\">Paper</a> (3 Upvotes) formuliert Shieldstral die Inhaltsmoderation als binäre Frage-Antwort-Aufgabe und vereinheitlicht heterogene Sicherheitstaxonomien. Das Modell wurde mit etwa 54,1 Millionen Stichproben trainiert.",
+                "it": "Mistral AI ha pubblicato il 28 luglio 2026 Shieldstral, un classificatore di sicurezza multimodale da 3 miliardi di parametri che eguaglia o supera modelli quasi 7 volte più grandi. Secondo il <a href=\"https://arxiv.org/abs/2607.25857\">paper</a> (3 upvotes), Shieldstral formula la moderazione dei contenuti come un compito di domanda-risposta binaria, unificando tassonomie di sicurezza eterogenee. Il modello è stato addestrato su circa 54,1 milioni di campioni.",
+                "lmo": "Mistral AI l'ha publicaa el 28 de luj 2026 Shieldstral, on classifieur de sicurezza multimodal de 3 miliard de parametri che 'l egualia o 'l supera di modell quasi 7 voeult pussee grand. Segond el <a href=\"https://arxiv.org/abs/2607.25857\">paper</a> (3 upvotes), Shieldstral el formula la moderazion del contegnuu comè on compit de domanda-resposta binaria, unifficand di tassonomie de sicurezza eterogenee. El modell l'è staa adestrà sora circa 54,1 milion de campion."
+              },
+              "kicker": {
+                "fr": "Mistral AI",
+                "en": "Mistral AI",
+                "de": "Mistral AI",
+                "it": "Mistral AI",
+                "lmo": "Mistral AI"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.25857"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google DeepMind montre que l'ingénierie de prompt visuelle booste les modèles vidéo",
+                "en": "Google DeepMind shows visual prompt engineering boosts video models",
+                "de": "Google DeepMind zeigt, dass visuelles Prompt-Engineering Videomodelle verbessert",
+                "it": "Google DeepMind mostra che l'ingegneria di prompt visiva potenzia i modelli video",
+                "lmo": "Google DeepMind el mostra che l'ingegneria de prompt visuala la potenzia i modell video"
+              },
+              "body": {
+                "fr": "Google DeepMind a publié le 28 juillet 2026 Visual Prompt Engineering (VIPE) pour les modèles vidéo. Selon le <a href=\"https://arxiv.org/abs/2607.25537\">paper</a>, la modification automatique de l'image de tâche (ex. : transformer un croquis en version photoréaliste) améliore les performances de raisonnement vidéo, surpassant parfois l'ingénierie de prompt textuelle classique ou le test-time scaling.",
+                "en": "Google DeepMind published on July 28, 2026 Visual Prompt Engineering (VIPE) for video models. According to the <a href=\"https://arxiv.org/abs/2607.25537\">paper</a>, automatically modifying the task image (e.g., transforming a sketch into a photorealistic version) improves video reasoning performance, sometimes surpassing traditional text prompt engineering or test-time scaling.",
+                "de": "Google DeepMind veröffentlichte am 28. Juli 2026 Visual Prompt Engineering (VIPE) für Videomodelle. Laut dem <a href=\"https://arxiv.org/abs/2607.25537\">Paper</a> verbessert die automatische Modifikation des Aufgabenbildes (z. B. Umwandlung einer Skizze in eine fotorealistische Version) die Leistung des Video-Reasonings und übertrifft dabei manchmal klassisches textuelles Prompt-Engineering oder Test-Time Scaling.",
+                "it": "Google DeepMind ha pubblicato il 28 luglio 2026 Visual Prompt Engineering (VIPE) per i modelli video. Secondo il <a href=\"https://arxiv.org/abs/2607.25537\">paper</a>, la modifica automatica dell'immagine di compito (es. trasformare uno schizzo in versione fotorealistica) migliora le prestazioni di ragionamento video, superando talvolta l'ingegneria di prompt testuale classica o il test-time scaling.",
+                "lmo": "Google DeepMind l'ha publicaa el 28 de luj 2026 Visual Prompt Engineering (VIPE) per i modell video. Segond el <a href=\"https://arxiv.org/abs/2607.25537\">paper</a>, la modifega automatica de l'imagin del compit (es.: transformà on croquis in version fotorealista) la migliora i performance de resonament video, superand a voeult l'ingegneria de prompt testuala classega o 'l test-time scaling."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2607.25537"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Apple détaille l'architecture de synthèse audio de Siri Expressive Voices",
+                "en": "Apple details audio synthesis architecture for Siri Expressive Voices",
+                "de": "Apple erläutert die Audiosynthese-Architektur von Siri Expressive Voices",
+                "it": "Apple dettaglia l'architettura di sintesi audio di Siri Expressive Voices",
+                "lmo": "Apple la detaglia l'architettura de sintesi audio de Siri Expressive Voices"
+              },
+              "body": {
+                "fr": "Apple a publié le 28 juillet 2026 un article détaillant l'architecture de synthèse audio derrière Siri Expressive Voices. Selon le <a href=\"https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers\">blog Apple ML Research</a>, le détokeniseur convertit les tokens audio sémantiques émis par le modèle de fondation AFM 3 Core Advanced en audio haute-fidélité, dans les contraintes de calcul et de mémoire du coprocesseur Apple Matrix (AMX).",
+                "en": "Apple published on July 28, 2026 an article detailing the audio synthesis architecture behind Siri Expressive Voices. According to the <a href=\"https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers\">Apple ML Research blog</a>, the detokenizer converts semantic audio tokens emitted by the AFM 3 Core Advanced foundation model into high-fidelity audio, within the compute and memory constraints of the Apple Matrix coprocessor (AMX).",
+                "de": "Apple veröffentlichte am 28. Juli 2026 einen Artikel, der die Architektur der Audiosynthese hinter Siri Expressive Voices detailliert beschreibt. Laut dem <a href=\"https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers\">Apple ML Research-Blog</a> wandelt der Detokenizer die vom Foundation-Modell AFM 3 Core Advanced ausgegebenen semantischen Audio-Tokens in hochauflösendes Audio um, unter den Rechen- und Speicherbeschränkungen des Apple Matrix Coprozessors (AMX).",
+                "it": "Apple ha pubblicato il 28 luglio 2026 un articolo che dettaglia l'architettura di sintesi audio alla base di Siri Expressive Voices. Secondo il <a href=\"https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers\">blog Apple ML Research</a>, il detokenizer converte i token audio semantici emessi dal modello di fondazione AFM 3 Core Advanced in audio ad alta fedeltà, nei vincoli di calcolo e memoria del coprocessore Apple Matrix (AMX).",
+                "lmo": "Apple l'ha publicaa el 28 de luj 2026 on articol che 'l dettaglia l'architettura de sintesi audio dedree a Siri Expressive Voices. Segond el <a href=\"https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers\">blog Apple ML Research</a>, el detokenizator el convertiss i token audio semantich emess del modell de fondazion AFM 3 Core Advanced in audio a alta fedeltà, in di vincol de calcol e de memoria del coprocessor Apple Matrix (AMX)."
+              },
+              "kicker": {
+                "fr": "Apple ML Research",
+                "en": "Apple ML Research",
+                "de": "Apple ML Research",
+                "it": "Apple ML Research",
+                "lmo": "Apple ML Research"
+              },
+              "urls": [
+                "https://machinelearning.apple.com/research/audio-synthesis-diffusion-transformers"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & Éditorial",
+            "en": "Signals & Editorial",
+            "de": "Signale & Editorial",
+            "it": "Segnali & Editoriale",
+            "lmo": "Segnai & Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Les leaders de l'IA signent une déclaration commune pour un ralentissement régulé",
+                "en": "AI leaders sign joint statement calling for regulated slowdown",
+                "de": "KI-Führungskräfte unterzeichnen gemeinsame Erklärung für regulierte Verlangsamung",
+                "it": "I leader dell'IA firmano una dichiarazione comune per un rallentamento regolamentato",
+                "lmo": "I leader de l'IA firmen ona declarazion comuna per on rallentament regolaa"
+              },
+              "body": {
+                "fr": "Des employés d'OpenAI, Anthropic, Google, Meta, Thinking Machines, Microsoft et Mistral ont signé le 28 juillet 2026 une déclaration commune appelant le gouvernement américain à ralentir le développement de l'IA frontalière — ou du moins à accélérer les efforts de gouvernance mondiale coordonnée. Selon <a href=\"https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\">The Verge</a>, la déclaration intervient après ce que Sam Altman a qualifié de « premier incident de sécurité que j'ai ressenti de manière très viscérale », en référence au piratage de Hugging Face par un agent OpenAI.",
+                "en": "Employees from OpenAI, Anthropic, Google, Meta, Thinking Machines, Microsoft and Mistral signed on July 28, 2026 a joint statement calling on the US government to slow down frontier AI development — or at least to accelerate coordinated global governance efforts. According to <a href=\"https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\">The Verge</a>, the statement follows what Sam Altman described as \"the first security incident I felt very viscerally,\" referring to the hacking of Hugging Face by an OpenAI agent.",
+                "de": "Mitarbeiter von OpenAI, Anthropic, Google, Meta, Thinking Machines, Microsoft und Mistral unterzeichneten am 28. Juli 2026 eine gemeinsame Erklärung, in der sie die US-Regierung auffordern, die Entwicklung von Frontier-KI zu verlangsamen – oder zumindest die weltweit koordinierten Governance-Bemühungen zu beschleunigen. Laut <a href=\"https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\">The Verge</a> erfolgt die Erklärung nach dem, was Sam Altman als «ersten Sicherheitsvorfall, den ich sehr viszeral gespürt habe» bezeichnete, in Bezug auf den Hack von Hugging Face durch einen OpenAI-Agenten.",
+                "it": "Dipendenti di OpenAI, Anthropic, Google, Meta, Thinking Machines, Microsoft e Mistral hanno firmato il 28 luglio 2026 una dichiarazione comune che chiede al governo statunitense di rallentare lo sviluppo dell'IA di frontiera — o almeno di accelerare gli sforzi di governance mondiale coordinata. Secondo <a href=\"https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\">The Verge</a>, la dichiarazione arriva dopo quello che Sam Altman ha definito «il primo incidente di sicurezza che ho sentito in modo molto viscerale», in riferimento al pirataggio di Hugging Face da parte di un agente OpenAI.",
+                "lmo": "Di impiegaa d'OpenAI, Anthropic, Google, Meta, Thinking Machines, Microsoft e Mistral hann firmaa el 28 de luj 2026 ona declarazion comuna ciamand el governo american a rallentà el desvilupp de l'IA frontaliera — o almanch a accelerà i sforz de governanza globala coordinada. Segond <a href=\"https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta\">The Verge</a>, la declarazion la riva dopo de quell che Sam Altman l'ha qualificaa comè « prim incident de sicurezza che hoo sentii in manera molto viscerala », in riferiment al piratagg de Hugging Face de part d'on agent OpenAI."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/972161/ai-leaders-us-government-openai-anthropic-google-meta"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Zuckerberg fustige la centralisation de l'IA et défend l'open-weight",
+                "en": "Zuckerberg decries AI centralization and defends open-weight",
+                "de": "Zuckerberg geisselt Zentralisierung der KI und verteidigt Open-Weight",
+                "it": "Zuckerberg critica la centralizzazione dell'IA e difende l'open-weight",
+                "lmo": "Zuckerberg el fustiga la centralizzazion de l'IA e 'l difend l'open-weight"
+              },
+              "body": {
+                "fr": "Mark Zuckerberg a critiqué le 28 juillet 2026 la centralisation du pouvoir dans l'IA, prenant pour cible Anthropic et OpenAI qui poussent à un contrôle strict du développement. Dans un <a href=\"https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html\">entretien avec le New York Times</a>, le PDG de Meta s'est déclaré favorable à « plus d'ouverture », s'alignant sur la position des modèles open-weight.",
+                "en": "Mark Zuckerberg criticized on July 28, 2026 the centralization of power in AI, targeting Anthropic and OpenAI who push for strict development control. In an <a href=\"https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html\">interview with the New York Times</a>, the Meta CEO declared himself in favor of \"more openness,\" aligning with the open-weight model position.",
+                "de": "Mark Zuckerberg kritisierte am 28. Juli 2026 die Zentralisierung der Macht in der KI und nahm dabei Anthropic und OpenAI ins Visier, die auf eine strenge Kontrolle der Entwicklung drängen. In einem <a href=\"https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html\">Interview mit der New York Times</a> sprach sich der Meta-CEO für «mehr Offenheit» aus und schloss sich damit der Position der Open-Weight-Modelle an.",
+                "it": "Mark Zuckerberg ha criticato il 28 luglio 2026 la centralizzazione del potere nell'IA, prendendo di mira Anthropic e OpenAI che spingono per un controllo stretto dello sviluppo. In un'<a href=\"https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html\">intervista con il New York Times</a>, il CEO di Meta si è dichiarato favorevole a «più apertura», allineandosi alla posizione dei modelli open-weight.",
+                "lmo": "Mark Zuckerberg l'ha criticaa el 28 de luj 2026 la centralizzazion del poder in l'IA, toeu come obietiv Anthropic e OpenAI che spingen a on controll stregg del desvilupp. In on <a href=\"https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html\">intervista cont el New York Times</a>, el CEO de Meta el s'è declaraa favorabel a « pussee de vertura », alineandoss a la posizion di modell open-weight."
+              },
+              "kicker": {
+                "fr": "Meta",
+                "en": "Meta",
+                "de": "Meta",
+                "it": "Meta",
+                "lmo": "Meta"
+              },
+              "urls": [
+                "https://www.nytimes.com/2026/07/28/technology/mark-zuckerberg-meta-ai.html"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Perplexity Personal Computer arrive sur Windows",
+                "en": "Perplexity Personal Computer arrives on Windows",
+                "de": "Perplexity Personal Computer kommt auf Windows",
+                "it": "Perplexity Personal Computer arriva su Windows",
+                "lmo": "Perplexity Personal Computer el riva sora Windows"
+              },
+              "body": {
+                "fr": "Perplexity a étendu le 28 juillet 2026 son outil agentic Personal Computer à Windows, permettant aux PC de fonctionner comme des systèmes d'IA locaux. Selon <a href=\"https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\">The Verge</a>, Personal Computer for Windows agit comme un « travailleur numérique généraliste » capable d'accéder aux fichiers et applications locales pour exécuter des tâches complexes.",
+                "en": "Perplexity expanded on July 28, 2026 its agentic Personal Computer tool to Windows, allowing PCs to function as local AI systems. According to <a href=\"https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\">The Verge</a>, Personal Computer for Windows acts as a \"generalist digital worker\" capable of accessing local files and applications to execute complex tasks.",
+                "de": "Perplexity erweiterte am 28. Juli 2026 sein agentisches Tool Personal Computer auf Windows, sodass PCs als lokale KI-Systeme fungieren können. Laut <a href=\"https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\">The Verge</a> fungiert Personal Computer for Windows als «generalistischer digitaler Arbeiter», der auf lokale Dateien und Anwendungen zugreifen kann, um komplexe Aufgaben auszuführen.",
+                "it": "Perplexity ha esteso il 28 luglio 2026 il suo strumento agentico Personal Computer a Windows, permettendo ai PC di funzionare come sistemi di IA locali. Secondo <a href=\"https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\">The Verge</a>, Personal Computer for Windows agisce come un «lavoratore digitale generalista» capace di accedere a file e applicazioni locali per eseguire compiti complessi.",
+                "lmo": "Perplexity l'ha estenduu el 28 de luj 2026 el sò strument agentic Personal Computer a Windows, permettend ai PC de fonzionà comè sistema d'IA locai. Segond <a href=\"https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents\">The Verge</a>, Personal Computer for Windows el agiss comè on « lavorador numerich generalista » bon de acced a i file e applicazion locai per eseguì di compit compless."
+              },
+              "kicker": {
+                "fr": "Perplexity",
+                "en": "Perplexity",
+                "de": "Perplexity",
+                "it": "Perplexity",
+                "lmo": "Perplexity"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/971750/perplexity-personal-computer-windows-ai-agents"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cyera acquiert Oasis Security pour 1 milliard de dollars",
+                "en": "Cyera acquires Oasis Security for $1 billion",
+                "de": "Cyera übernimmt Oasis Security für 1 Milliarde Dollar",
+                "it": "Cyera acquisisce Oasis Security per 1 miliardo di dollari",
+                "lmo": "Cyera l'acquista Oasis Security per 1 miliard de dollar"
+              },
+              "body": {
+                "fr": "Cyera a accepté le 28 juillet 2026 d'acquérir Oasis Security pour 1 milliard de dollars afin de sécuriser la prolifération des agents IA. Selon <a href=\"https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/\">TechCrunch</a>, il s'agit de la troisième acquisition de Cyera cette année, soulignant l'urgence croissante de sécuriser les déploiements d'agents autonomes en entreprise.",
+                "en": "Cyera agreed on July 28, 2026 to acquire Oasis Security for $1 billion to secure the proliferation of AI agents. According to <a href=\"https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/\">TechCrunch</a>, this is Cyera's third acquisition this year, underscoring the growing urgency of securing enterprise autonomous agent deployments.",
+                "de": "Cyera hat am 28. Juli 2026 der Übernahme von Oasis Security für 1 Milliarde Dollar zugestimmt, um die Verbreitung von KI-Agenten zu sichern. Laut <a href=\"https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/\">TechCrunch</a> handelt es sich um die dritte Akquisition von Cyera in diesem Jahr, was die wachsende Dringlichkeit unterstreicht, die Bereitstellung autonomer Agenten in Unternehmen zu sichern.",
+                "it": "Cyera ha accettato il 28 luglio 2026 di acquisire Oasis Security per 1 miliardo di dollari per proteggere la proliferazione degli agenti IA. Secondo <a href=\"https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/\">TechCrunch</a>, si tratta della terza acquisizione di Cyera quest'anno, sottolineando l'urgenza crescente di proteggere le distribuzioni di agenti autonomi in azienda.",
+                "lmo": "Cyera l'ha accettaa el 28 de luj 2026 de acquistà Oasis Security per 1 miliard de dollar per sicurà la proliferazion di agent IA. Segond <a href=\"https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/\">TechCrunch</a>, l'è la terza acquisizion de Cyera quest'ann, sotta lignand l'urgenza semper pussee granda de sicurà i despiegament d'agent autonom in impresa."
+              },
+              "kicker": {
+                "fr": "M&A",
+                "en": "M&A",
+                "de": "M&A",
+                "it": "M&A",
+                "lmo": "M&A"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/07/28/cyera-agrees-to-acquire-oasis-security-for-1b-to-safeguard-proliferating-ai-agents/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
