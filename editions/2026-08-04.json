@@ -1,0 +1,877 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-04",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Alibaba a annoncé le 3 août 2026 le passage en disponibilité générale de <a href=\"https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/\">Qwen3.8-Max</a>, son modèle phare de la famille Qwen3.8. Avec 2,4 billions de paramètres au total et une architecture Mixture-of-Experts (MoE), le modèle accepte en entrée du texte, des images et des vidéos sur une fenêtre de contexte de 1 million de tokens. Selon les données publiées sur <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, il obtient un score de 53,4 sur l'AA Intelligence Index, 68,9 en codage et 49,9 en agentic — des performances qui le placent en concurrence directe avec les modèles frontière américains.",
+        "en": "Alibaba announced on Monday, 3 August 2026 the general availability of <a href=\"https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/\">Qwen3.8-Max</a>, its flagship model in the Qwen3.8 family. With 2.4 trillion total parameters and a Mixture-of-Experts (MoE) architecture, the model accepts text, images and video as input over a 1-million-token context window. According to data published on <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, it scores 53.4 on the AA Intelligence Index, 68.9 on coding and 49.9 on agentic tasks — performance that places it in direct competition with American frontier models.",
+        "de": "Alibaba hat am 3. August 2026 die allgemeine Verfügbarkeit von <a href=\"https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/\">Qwen3.8-Max</a>, seinem Flaggschiff-Modell der Qwen3.8-Familie, bekannt gegeben. Mit insgesamt 2,4 Billionen Parametern und einer Mixture-of-Experts (MoE)-Architektur verarbeitet das Modell Text, Bilder und Videos über ein Kontextfenster von 1 Million Token. Laut den auf <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a> veröffentlichten Daten erreicht es einen Wert von 53,4 im AA Intelligence Index, 68,9 beim Codieren und 49,9 bei agentischen Aufgaben – Leistungen, die es in direkte Konkurrenz zu den amerikanischen Grenzmodellen stellen.",
+        "it": "Alibaba ha annunciato il 3 agosto 2026 il passaggio in disponibilità generale di <a href=\"https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/\">Qwen3.8-Max</a>, il suo modello di punta della famiglia Qwen3.8. Con 2,4 trilioni di parametri totali e un'architettura Mixture-of-Experts (MoE), il modello accetta in input testo, immagini e video su una finestra di contesto di 1 milione di token. Secondo i dati pubblicati su <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, ottiene un punteggio di 53,4 sull'AA Intelligence Index, 68,9 in codifica e 49,9 in agentic — prestazioni che lo pongono in diretta concorrenza con i modelli frontiera americani.",
+        "lmo": "Alibaba l'ha anunziaa el 3 d'agost 2026 el passagg in disponibilità generala de <a href=\"https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/\">Qwen3.8-Max</a>, el sò modell de bandera de la fameja Qwen3.8. Con 2,4 billion de parametri in total e ona architettura Mixture-of-Experts (MoE), el modell l'accepta in entrada del test, di imagin e di video sora ona fenestra de contest de 1 milion de token. Segond i dati publicaa sora <a href=\"https://openrouter.ai/api/v1/models\">OpenRouter</a>, l'otten on score de 53,4 in su l'AA Intelligence Index, 68,9 in codifica e 49,9 in agentic — di performance che le metten in concorrenza diretta cont i modell frontiera american."
+      },
+      {
+        "fr": "Contrairement à la preview, la version GA s'accompagne d'une tarification au token publiée : 2 $ par million de tokens en entrée et 6 $ par million en sortie, avec un cache de lecture à 0,25 $ et un cache d'écriture à 2,50 $ par million de tokens. L'équipe Qwen prévoit de <a href=\"https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/\">publier les poids du modèle la semaine prochaine</a>, une décision qui contraste avec la stratégie de plus en plus fermée des laboratoires américains. Le modèle est conçu pour des tâches longues s'étalant sur plusieurs jours, de la reproduction d'articles de recherche à la conception de puces de manière autonome.",
+        "en": "Unlike the preview, the GA version comes with published per-token pricing: $2 per million input tokens and $6 per million output tokens, with a read cache at $0.25 and a write cache at $2.50 per million tokens. The Qwen team plans to <a href=\"https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/\">release the model weights next week</a>, a decision that contrasts with the increasingly closed strategy of American labs. The model is designed for long-horizon tasks spanning several days, from reproducing research papers to autonomously designing chips.",
+        "de": "Im Gegensatz zur Vorschauversion wird die GA-Version mit einer veröffentlichten Token-Preisgestaltung ausgeliefert: 2 $ pro Million Token bei Eingabe und 6 $ pro Million bei Ausgabe, mit einem Lesecache zu 0,25 $ und einem Schreibcache zu 2,50 $ pro Million Token. Das Qwen-Team plant, <a href=\"https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/\">die Modellgewichte nächste Woche zu veröffentlichen</a>, ein Schritt, der im Gegensatz zur zunehmend geschlossenen Strategie amerikanischer Labore steht. Das Modell ist für langfristige Aufgaben konzipiert, die sich über mehrere Tage erstrecken, von der Reproduktion von Forschungsarbeiten bis zum autonomen Chipdesign.",
+        "it": "A differenza della preview, la versione GA è accompagnata da una tariffazione al token pubblicata: 2 $ per milione di token in input e 6 $ per milione in output, con una cache di lettura a 0,25 $ e una cache di scrittura a 2,50 $ per milione di token. Il team Qwen prevede di <a href=\"https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/\">pubblicare i pesi del modello la prossima settimana</a>, una decisione che contrasta con la strategia sempre più chiusa dei laboratori americani. Il modello è progettato per compiti lunghi che si estendono su più giorni, dalla riproduzione di articoli di ricerca alla progettazione di chip in modo autonomo.",
+        "lmo": "A diferenza de la preview, la version GA l'è compagnada de ona tarifazion al token publicada: 2 $ per milion de token in entrada e 6 $ per milion in sortida, cont on cache de letura a 0,25 $ e on cache de scritura a 2,50 $ per milion de token. La squadra Qwen la preved de <a href=\"https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/\">pubblicà i pes del modell la setemana vegnenta</a>, ona decision che la contrasta con la strategia semper pussee sarada di laboratori american. El modell l'è progettaa per di incarigh longh che se slonghen per pussee dì, de la riproduzion de articoi de ricerca a la progettazion de chip in manera autonoma."
+      },
+      {
+        "fr": "En parallèle, Alibaba a également dévoilé <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/\">Qwen3.8-27B</a>, une variante plus légère de 27 milliards de paramètres activés. Selon Daniel Han d'Unsloth, ce modèle nécessitera seulement 17 Go de VRAM, le rendant accessible sur du matériel grand public. La sortie intervient dans un contexte de compétition intense avec les laboratoires chinois : DeepSeek V4 Flash 0731, Kimi K3 et MiniMax H3 sont tous récemment arrivés sur le marché, chacun avec des positionnements techniques distincts.",
+        "en": "In parallel, Alibaba also unveiled <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/\">Qwen3.8-27B</a>, a lighter variant with 27 billion activated parameters. According to Daniel Han of Unsloth, this model will require only 17 GB of VRAM, making it accessible on consumer hardware. The release comes amid intense competition with Chinese labs: DeepSeek V4 Flash 0731, Kimi K3 and MiniMax H3 have all recently entered the market, each with distinct technical positioning.",
+        "de": "Parallel dazu hat Alibaba auch <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/\">Qwen3.8-27B</a> vorgestellt, eine leichtere Variante mit 27 Milliarden aktivierten Parametern. Laut Daniel Han von Unsloth benötigt dieses Modell nur 17 GB VRAM und ist damit auf handelsüblicher Hardware nutzbar. Die Veröffentlichung erfolgt in einem Umfeld intensiver Konkurrenz mit chinesischen Laboren: DeepSeek V4 Flash 0731, Kimi K3 und MiniMax H3 sind alle kürzlich auf den Markt gekommen, jedes mit einem eigenen technischen Profil.",
+        "it": "In parallelo, Alibaba ha anche svelato <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/\">Qwen3.8-27B</a>, una variante più leggera da 27 miliardi di parametri attivati. Secondo Daniel Han di Unsloth, questo modello richiederà solo 17 GB di VRAM, rendendolo accessibile su hardware consumer. L'uscita avviene in un contesto di competizione intensa con i laboratori cinesi: DeepSeek V4 Flash 0731, Kimi K3 e MiniMax H3 sono tutti recentemente arrivati sul mercato, ciascuno con posizionamenti tecnici distinti.",
+        "lmo": "In parallelo, Alibaba l'ha anca desvelaa <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/\">Qwen3.8-27B</a>, ona variant pussee legera de 27 miliard de parametri attivaa. Segond Daniel Han d'Unsloth, sto modell chì el ghe vorà domà 17 GB de VRAM, el rendend accessibil sora di material de consum. La sortida la riva in on contest de competizion intensa cont i laboratori cinei: DeepSeek V4 Flash 0731, Kimi K3 e MiniMax H3 hinn tucc rivaa de recent in sul mercaa, ognidun cont di posizionament tecnich distint."
+      }
+    ],
+    "urls": [
+      "https://www.marktechpost.com/2026/08/03/alibaba-qwen-releases-qwen3-8-max/",
+      "https://openrouter.ai/api/v1/models",
+      "https://the-decoder.com/alibabas-open-weight-qwen3-8-max-takes-on-long-horizon-ai-tasks-with-2-4-trillion-parameters/",
+      "https://www.reddit.com/r/LocalLLaMA/comments/1ve0psn/qwen3827b_announced_alongside_qwen38max/"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Grenzbereich",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modèj & Frontiera"
+    },
+    "headline": {
+      "fr": "Qwen3.8-Max passe en disponibilité générale : 2,4 billions de paramètres et poids ouverts la semaine prochaine",
+      "en": "Qwen3.8-Max Goes General Availability: 2.4 Trillion Parameters and Open Weights Next Week",
+      "de": "Qwen3.8-Max geht in die allgemeine Verfügbarkeit: 2,4 Billionen Parameter und offene Gewichte nächste Woche",
+      "it": "Qwen3.8-Max passa in disponibilità generale: 2,4 trilioni di parametri e pesi aperti la prossima settimana",
+      "lmo": "Qwen3.8-Max el va in disponibilità generala: 2,4 billion de parametri e pes avert la setemana vegnenta"
+    },
+    "subdeck": {
+      "fr": "Alibaba officialise son modèle MoE le plus ambitieux, avec une fenêtre de 1 million de tokens et des capacités multimodales, tandis que les poids open-source seront publiés sous licence permissive.",
+      "en": "Alibaba formalizes its most ambitious MoE model, with a 1-million-token context window and multimodal capabilities, while open-source weights will be released under a permissive license.",
+      "de": "Alibaba macht sein ehrgeizigstes MoE-Modell offiziell, mit einem 1-Millionen-Token-Fenster und multimodalen Fähigkeiten, während die Open-Source-Gewichte unter einer permissiven Lizenz veröffentlicht werden.",
+      "it": "Alibaba ufficializza il suo modello MoE più ambizioso, con una finestra di 1 milione di token e capacità multimodali, mentre i pesi open-source saranno pubblicati con licenza permissiva.",
+      "lmo": "Alibaba l'ofizializza el sò modell MoE el pussee ambizios, cont ona fenestra de 1 milion de token e capacità multimodai, intanta che i pes open-source saran publicaa sotta licenza permissiva."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Microsoft dévoile Orchard, un framework open-source pour agents scalables",
+        "en": "Microsoft Unveils Orchard, an Open-Source Framework for Scalable Agents",
+        "de": "Microsoft stellt Orchard vor, ein Open-Source-Framework für skalierbare Agenten",
+        "it": "Microsoft svela Orchard, un framework open-source per agenti scalabili",
+        "lmo": "Microsoft el desvela Orchard, on framework open-source per agent scalabil"
+      },
+      "body": {
+        "fr": "Microsoft Research a publié le 3 août 2026 <a href=\"https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/\">Orchard</a>, un framework open-source conçu pour former et évaluer des agents IA à travers différents types de tâches. Orchard réduit la complexité tout en permettant à des modèles plus petits d'atteindre de bonnes performances en réutilisant la même infrastructure. Le framework s'adresse à la communauté de recherche pour accélérer le développement d'agents capables de généraliser sur des environnements variés.",
+        "en": "Microsoft Research published on Monday, 3 August 2026 <a href=\"https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/\">Orchard</a>, an open-source framework designed to train and evaluate AI agents across different types of tasks. Orchard reduces complexity while allowing smaller models to achieve strong performance by reusing the same infrastructure. The framework targets the research community to accelerate the development of agents capable of generalizing across varied environments.",
+        "de": "Microsoft Research hat am 3. August 2026 <a href=\"https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/\">Orchard</a> veröffentlicht, ein Open-Source-Framework zum Trainieren und Evaluieren von KI-Agenten über verschiedene Aufgabentypen hinweg. Orchard reduziert die Komplexität, während es kleineren Modellen ermöglicht, durch die Wiederverwendung derselben Infrastruktur gute Leistungen zu erzielen. Das Framework richtet sich an die Forschungsgemeinschaft, um die Entwicklung von Agenten zu beschleunigen, die über verschiedene Umgebungen hinweg generalisieren können.",
+        "it": "Microsoft Research ha pubblicato il 3 agosto 2026 <a href=\"https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/\">Orchard</a>, un framework open-source progettato per formare e valutare agenti IA attraverso diversi tipi di compiti. Orchard riduce la complessità consentendo a modelli più piccoli di raggiungere buone prestazioni riutilizzando la stessa infrastruttura. Il framework si rivolge alla comunità di ricerca per accelerare lo sviluppo di agenti capaci di generalizzare su ambienti vari.",
+        "lmo": "Microsoft Research l'ha publicaa el 3 d'agost 2026 <a href=\"https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/\">Orchard</a>, on framework open-source progettaa per formà e valutà di agent IA travers different tipi de incarigh. Orchard el ridus la complessità intanta che l' permett a di modell pussee piscinitt de rivà a di bon performance reutilizand la stessa infrastruttura. El framework l'è adressaa a la comunità de ricerca per accelerà el desvilupp d'aget bon de generalizà sora di ambient variad."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 3 août 2026",
+        "en": "From the Wires — Monday, 3 August 2026",
+        "de": "From the Wires — 3. August 2026",
+        "it": "From the Wires — 3 agosto 2026",
+        "lmo": "From the Wires — 3 d'agost 2026"
+      },
+      "urls": [
+        "https://www.microsoft.com/en-us/research/blog/orchard-an-open-framework-for-scalable-agentic-ai/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cloudflare détaille ses techniques pour servir Kimi et GLM à grande échelle",
+        "en": "Cloudflare Details Its Techniques for Serving Kimi and GLM at Scale",
+        "de": "Cloudflare erläutert Techniken zur skalierbaren Bereitstellung von Kimi und GLM",
+        "it": "Cloudflare dettaglia le sue tecniche per servire Kimi e GLM su larga scala",
+        "lmo": "Cloudflare el detaja i sò tecnich per servì Kimi e GLM a granda scala"
+      },
+      "body": {
+        "fr": "Cloudflare a publié le 3 août 2026 un article technique détaillant comment il sert les modèles frontière comme <a href=\"https://blog.cloudflare.com/smaller-faster-safer-models/\">Kimi et GLM à grande échelle</a>. L'équipe explique ses méthodes de quantification des caches KV, de compression des poids de modèles et d'ajouts de contrôles d'intégrité pour servir ces modèles plus rapidement, à moindre coût et en toute sécurité. L'article a recueilli 177 points sur Hacker News, témoignant de l'intérêt de la communauté pour l'optimisation d'inférence.",
+        "en": "Cloudflare published on Monday, 3 August 2026 a technical article detailing how it serves frontier models like <a href=\"https://blog.cloudflare.com/smaller-faster-safer-models/\">Kimi and GLM at scale</a>. The team explains its methods for quantizing KV caches, compressing model weights and adding integrity checks to serve these models faster, cheaper and more safely. The article garnered 177 points on Hacker News, reflecting the community's interest in inference optimization.",
+        "de": "Cloudflare hat am 3. August 2026 einen technischen Artikel veröffentlicht, der detailliert beschreibt, wie es Grenzmodelle wie <a href=\"https://blog.cloudflare.com/smaller-faster-safer-models/\">Kimi und GLM in grossem Massstab bereitstellt</a>. Das Team erläutert seine Methoden zur Quantisierung von KV-Caches, zur Kompression von Modellgewichten und zur Implementierung von Integritätsprüfungen, um diese Modelle schneller, kostengünstiger und sicherer bereitzustellen. Der Artikel erhielt 177 Punkte auf Hacker News, was das Interesse der Gemeinschaft an Inferenzoptimierung widerspiegelt.",
+        "it": "Cloudflare ha pubblicato il 3 agosto 2026 un articolo tecnico che dettaglia come serve i modelli frontiera come <a href=\"https://blog.cloudflare.com/smaller-faster-safer-models/\">Kimi e GLM su larga scala</a>. Il team spiega i suoi metodi di quantizzazione delle cache KV, compressione dei pesi dei modelli e aggiunta di controlli d'integrità per servire questi modelli più velocemente, a minor costo e in sicurezza. L'articolo ha raccolto 177 punti su Hacker News, testimoniando l'interesse della comunità per l'ottimizzazione dell'inferenza.",
+        "lmo": "Cloudflare l'ha publicaa el 3 d'agost 2026 on articol tecnich detajand comè l' serviss i modell frontiera come <a href=\"https://blog.cloudflare.com/smaller-faster-safer-models/\">Kimi e GLM a granda scala</a>. La squadra la spiega i sò metod de quantificazion di cache KV, de compression di pes di modell e de gionta de contròi d'integrità per servì sti modell chì pussee svelt, a men cost e in manera segura. L'articol l'ha cugliuu 177 pont in su Hacker News, testimoniand l'interess de la comunità per l'ottimizzazion d'inferenza."
+      },
+      "tag": {
+        "fr": "Infrastructure",
+        "en": "Infrastructure",
+        "de": "Infrastruktur",
+        "it": "Infrastruttura",
+        "lmo": "Infrastruttura"
+      },
+      "wire": {
+        "fr": "From the Wires — 3 août 2026",
+        "en": "From the Wires — Monday, 3 August 2026",
+        "de": "From the Wires — 3. August 2026",
+        "it": "From the Wires — 3 agosto 2026",
+        "lmo": "From the Wires — 3 d'agost 2026"
+      },
+      "urls": [
+        "https://blog.cloudflare.com/smaller-faster-safer-models/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "IBM révèle que 92 % des entreprises victimes d'incidents IA manquaient de contrôles d'accès",
+        "en": "IBM Reveals 92% of Companies Hit by AI Incidents Lacked Access Controls",
+        "de": "IBM: 92 % der von KI-Vorfällen betroffenen Unternehmen hatten keine Zugriffskontrollen",
+        "it": "IBM rivela che il 92% delle aziende vittime di incidenti IA mancava di controlli d'accesso",
+        "lmo": "IBM el revèla che 92 % di aziend vittim de incident IA gh'even minga de contròi d'access"
+      },
+      "body": {
+        "fr": "Selon un rapport d'IBM publié le 3 août 2026, <a href=\"https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/\">92 % des entreprises ayant subi un incident de sécurité lié à l'IA</a> ne disposaient pas de contrôles d'accès adéquats pour leurs systèmes d'IA. L'étude précise que le modèle lui-même était rarement le problème : les failles provenaient principalement d'une mauvaise configuration des permissions et d'un manque de gouvernance sur les accès aux API et aux données d'entraînement.",
+        "en": "According to an IBM report published on Monday, 3 August 2026, <a href=\"https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/\">92% of companies that suffered an AI-related security incident</a> lacked adequate access controls for their AI systems. The study notes that the model itself was rarely the problem: the breaches stemmed primarily from misconfigured permissions and a lack of governance over API and training data access.",
+        "de": "Laut einem am 3. August 2026 veröffentlichten IBM-Bericht <a href=\"https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/\">verfügten 92 % der Unternehmen, die einen KI-Sicherheitsvorfall erlitten hatten</a>, nicht über angemessene Zugriffskontrollen für ihre KI-Systeme. Die Studie stellt klar, dass das Modell selbst selten das Problem war: Die Schwachstellen resultierten hauptsächlich aus falsch konfigurierten Berechtigungen und fehlender Governance bei Zugriffen auf APIs und Trainingsdaten.",
+        "it": "Secondo un rapporto di IBM pubblicato il 3 agosto 2026, <a href=\"https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/\">il 92% delle aziende che hanno subito un incidente di sicurezza legato all'IA</a> non disponeva di controlli d'accesso adeguati per i propri sistemi di IA. Lo studio precisa che il modello stesso era raramente il problema: le falle provenivano principalmente da una cattiva configurazione delle autorizzazioni e da una mancanza di governance sugli accessi alle API e ai dati di addestramento.",
+        "lmo": "Segond on rapport d'IBM publicaa el 3 d'agost 2026, <a href=\"https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/\">92 % di aziend che hann subii on incident de sigurezza ligaa a l'IA</a> gh'even minga di contròi d'access adatt per i sò sistema d'IA. El studi el precisa che el modell istess l'era rarament el problema: i falle vegniven principalment de ona cativa configürazion di permission e de ona mancanza de governanza in su i access ai API e ai dat d'addestrament."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sigurezza"
+      },
+      "wire": {
+        "fr": "From the Wires — 3 août 2026",
+        "en": "From the Wires — Monday, 3 August 2026",
+        "de": "From the Wires — 3. August 2026",
+        "it": "From the Wires — 3 agosto 2026",
+        "lmo": "From the Wires — 3 d'agost 2026"
+      },
+      "urls": [
+        "https://the-decoder.com/ibm-finds-92-of-companies-hit-by-ai-security-breaches-lacked-basic-access-controls/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelgeschichte",
+        "it": "In Primo Piano",
+        "lmo": "A la Vuna"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzbereich",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèj & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "MiniMax H3 devient le premier modèle ouvert en tête d'un classement vidéo IA",
+                "en": "MiniMax H3 Becomes the First Open Model to Top an AI Video Ranking",
+                "de": "MiniMax H3 ist das erste offene Modell an der Spitze eines KI-Video-Rankings",
+                "it": "MiniMax H3 diventa il primo modello aperto in testa a una classifica video IA",
+                "lmo": "MiniMax H3 el deventa el prim modell avert in testa d'on classament video IA"
+              },
+              "body": {
+                "fr": "MiniMax a publié le 3 août 2026 les poids de son modèle <a href=\"https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/\">H3</a>, un système génératif omni-modal qui supporte la compréhension unifiée de contextes multimodaux (texte, image, vidéo, audio) et peut générer des vidéos avec audio stéréo natif en résolution jusqu'à 2K et des durées allant jusqu'à 15 secondes. C'est la première fois qu'un modèle open-weight atteint la première place d'un classement de génération vidéo. Le modèle est disponible sur Hugging Face et bénéficie d'un support Day-0 dans ComfyUI, comme l'a rapporté la communauté sur <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/\">r/LocalLLaMA</a>.",
+                "en": "MiniMax published on Monday, 3 August 2026 the weights of its <a href=\"https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/\">H3</a> model, an omni-modal generative system that supports unified understanding of multimodal contexts (text, image, video, audio) and can generate videos with native stereo audio at resolutions up to 2K and durations up to 15 seconds. This is the first time an open-weight model has reached the top spot on a video generation leaderboard. The model is available on Hugging Face and benefits from Day-0 support in ComfyUI, as reported by the community on <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/\">r/LocalLLaMA</a>.",
+                "de": "MiniMax hat am 3. August 2026 die Gewichte seines Modells <a href=\"https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/\">H3</a> veröffentlicht, ein generatives omni-modales System, das das einheitliche Verständnis multimodaler Kontexte (Text, Bild, Video, Audio) unterstützt und Videos mit nativem Stereo-Audio in einer Auflösung von bis zu 2K und einer Dauer von bis zu 15 Sekunden generieren kann. Es ist das erste Mal, dass ein Open-Weight-Modell den ersten Platz in einem Ranking zur Videogenerierung erreicht. Das Modell ist auf Hugging Face verfügbar und wird ab Tag 0 in ComfyUI unterstützt, wie die Community auf <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/\">r/LocalLLaMA</a> berichtete.",
+                "it": "MiniMax ha pubblicato il 3 agosto 2026 i pesi del suo modello <a href=\"https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/\">H3</a>, un sistema generativo onni-modale che supporta la comprensione unificata di contesti multimodali (testo, immagine, video, audio) e può generare video con audio stereo nativo in risoluzione fino a 2K e durate fino a 15 secondi. È la prima volta che un modello open-weight raggiunge il primo posto di una classifica di generazione video. Il modello è disponibile su Hugging Face e beneficia di un supporto Day-0 in ComfyUI, come riportato dalla comunità su <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/\">r/LocalLLaMA</a>.",
+                "lmo": "MiniMax l'ha publicaa el 3 d'agost 2026 i pes del sò modell <a href=\"https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/\">H3</a>, on sistema generativ omni-modal che l' supporta la comprension unificada de contest multimodai (test, imagin, video, audio) e l' pò generà di video con audio stereo nativ in risoluzion fina a 2K e di durà fina a 15 second. L'è la prima voeulta che on modell open-weight el riva a la prima posizion d'on classament de generazion video. El modell l'è disponibil in su Hugging Face e l' beneficia d'on support Day-0 in ComfyUI, come l'ha reportaa la comunità sora <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/\">r/LocalLLaMA</a>."
+              },
+              "kicker": {
+                "fr": "Nouveau modèle",
+                "en": "New Model",
+                "de": "Neues Modell",
+                "it": "Nuovo modello",
+                "lmo": "Noeuv modell"
+              },
+              "urls": [
+                "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/",
+                "https://www.reddit.com/r/LocalLLaMA/comments/1ve1mvh/minimaxh3_now_on_huggingface/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Deux équipes résolvent le même problème de crypto quantique avec GPT-5.6 à trois heures d'intervalle",
+                "en": "Two Teams Solve the Same Quantum Crypto Problem with GPT-5.6 Three Hours Apart",
+                "de": "Zwei Teams lösen dasselbe Quantenkryptographie-Problem mit GPT-5.6 im Abstand von drei Stunden",
+                "it": "Due team risolvono lo stesso problema di critto quantistico con GPT-5.6 a tre ore di distanza",
+                "lmo": "Dò squadre resoeuven l'istess problema de cripto quantica con GPT-5.6 a trè or de distanza"
+              },
+              "body": {
+                "fr": "Le 3 août 2026, deux équipes de recherche indépendantes ont résolu le même problème ouvert de cryptographie quantique en utilisant <a href=\"https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/\">GPT-5.6 Sol Ultra d'OpenAI</a>, soumettant leurs articles à seulement trois heures d'intervalle. « Si quelqu'un mentionne un problème ouvert, la première chose à faire est de voir si GPT le résout », a commenté l'un des chercheurs. Ce cas soulève des questions sur la définition de la « découverte indépendante » à l'ère des modèles partagés.",
+                "en": "On Monday, 3 August 2026, two independent research teams solved the same open problem in quantum cryptography using <a href=\"https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/\">OpenAI's GPT-5.6 Sol Ultra</a>, submitting their papers just three hours apart. \"If someone mentions an open problem, the first thing to do is see if GPT solves it,\" one of the researchers commented. The case raises questions about the definition of \"independent discovery\" in the era of shared models.",
+                "de": "Am 3. August 2026 haben zwei unabhängige Forschungsteams dasselbe offene Problem der Quantenkryptographie mit <a href=\"https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/\">GPT-5.6 Sol Ultra von OpenAI</a> gelöst und ihre Arbeiten im Abstand von nur drei Stunden eingereicht. «Wenn jemand ein offenes Problem erwähnt, ist das Erste, was man tut, zu prüfen, ob GPT es löst», kommentierte einer der Forscher. Dieser Fall wirft Fragen zur Definition von «unabhängiger Entdeckung» im Zeitalter gemeinsamer Modelle auf.",
+                "it": "Il 3 agosto 2026, due team di ricerca indipendenti hanno risolto lo stesso problema aperto di crittografia quantistica utilizzando <a href=\"https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/\">GPT-5.6 Sol Ultra di OpenAI</a>, sottoponendo i loro articoli a sole tre ore di distanza. «Se qualcuno menziona un problema aperto, la prima cosa da fare è vedere se GPT lo risolve», ha commentato uno dei ricercatori. Questo caso solleva domande sulla definizione di «scoperta indipendente» nell'era dei modelli condivisi.",
+                "lmo": "El 3 d'agost 2026, dò squadre de ricerca independent hann resolt l'istess problema avert de crittografia quantica doperand <a href=\"https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/\">GPT-5.6 Sol Ultra d'OpenAI</a>, sottomettend i sò articoi a domà trè or de distanza. « Se quajdun el menziona on problema avert, la prima roba de fà l'è de vedè se GPT el resoeu », l'ha commentaa vun di ricercador. Sto cas chì l'als di question in su la definizion de « scoperta independenta » a l'era di modell spartii."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://the-decoder.com/two-teams-solved-the-same-quantum-crypto-problem-using-gpt-5-6-just-three-hours-apart/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI détaille l'architecture de GPT-Live pour l'interaction vocale en temps réel",
+                "en": "OpenAI Details GPT-Live Architecture for Real-Time Voice Interaction",
+                "de": "OpenAI erläutert die Architektur von GPT-Live für Echtzeit-Sprachinteraktion",
+                "it": "OpenAI dettaglia l'architettura di GPT-Live per l'interazione vocale in tempo reale",
+                "lmo": "OpenAI el detaja l'architettura de GPT-Live per l'interazion vocala in temp real"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 3 août 2026 un article détaillant la construction de <a href=\"https://openai.com/index/continuous-voice-interaction-with-gpt-live\">GPT-Live</a>, un système d'interaction vocale continue avec l'IA. Le système utilise un modèle de parole sans tour de parole (turnless speech model) et une architecture à faible latence pour permettre des conversations plus rapides et plus naturelles. L'équipe explique comment elle a conçu le système en six mois, en surmontant les défis de latence et de fluidité conversationnelle.",
+                "en": "OpenAI published on Monday, 3 August 2026 a paper detailing the construction of <a href=\"https://openai.com/index/continuous-voice-interaction-with-gpt-live\">GPT-Live</a>, a system for continuous voice interaction with AI. The system uses a turnless speech model and a low-latency architecture to enable faster, more natural conversations. The team explains how it designed the system in six months, overcoming challenges of latency and conversational fluidity.",
+                "de": "OpenAI hat am 3. August 2026 einen Artikel veröffentlicht, der den Aufbau von <a href=\"https://openai.com/index/continuous-voice-interaction-with-gpt-live\">GPT-Live</a> detailliert beschreibt, einem System für kontinuierliche Sprachinteraktion mit KI. Das System verwendet ein turnless-Sprachmodell und eine Architektur mit niedriger Latenz, um schnellere und natürlichere Gespräche zu ermöglichen. Das Team erläutert, wie es das System in sechs Monaten entwickelte und dabei Herausforderungen bei Latenz und Gesprächsfluss überwand.",
+                "it": "OpenAI ha pubblicato il 3 agosto 2026 un articolo che dettaglia la costruzione di <a href=\"https://openai.com/index/continuous-voice-interaction-with-gpt-live\">GPT-Live</a>, un sistema di interazione vocale continua con l'IA. Il sistema utilizza un modello vocale senza turno di parola (turnless speech model) e un'architettura a bassa latenza per consentire conversazioni più rapide e naturali. Il team spiega come ha progettato il sistema in sei mesi, superando le sfide di latenza e fluidità conversazionale.",
+                "lmo": "OpenAI l'ha publicaa el 3 d'agost 2026 on articol detajand la costruzion de <a href=\"https://openai.com/index/continuous-voice-interaction-with-gpt-live\">GPT-Live</a>, on sistema d'interazion vocala continova con l'IA. El sistema l' doperà on modell de parolla senza torn de parolla (turnless speech model) e ona architettura a bassa latenza per permett di conversazion pussee svelt e pussee naturai. La squadra la spiega comè l'ha progettaa el sistema in ses mes, superand i sfid de latenza e de fluidità conversazionala."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Circles utilise OpenAI et Codex pour la personnalisation télécom",
+                "en": "Circles Uses OpenAI and Codex for Telecom Personalization",
+                "de": "Circles nutzt OpenAI und Codex für Telekom-Personalisierung",
+                "it": "Circles utilizza OpenAI e Codex per la personalizzazione telecom",
+                "lmo": "Circles el doperà OpenAI e Codex per la personalizzazion telecom"
+              },
+              "body": {
+                "fr": "L'opérateur télécom Circles a déployé l'API OpenAI et Codex pour alimenter des expériences télécom natives IA, comme l'annonce <a href=\"https://openai.com/index/circles\">OpenAI le 3 août 2026</a>. Les résultats montrent une augmentation de 22 % du revenu moyen par utilisateur (ARPU), une réduction de 9 % du taux d'attrition et une amélioration de l'efficacité du développement. Ce cas d'usage illustre l'adoption croissante de l'IA générative dans le secteur des télécommunications.",
+                "en": "Telecom operator Circles has deployed the OpenAI API and Codex to power AI-native telecom experiences, as <a href=\"https://openai.com/index/circles\">OpenAI announced on Monday, 3 August 2026</a>. Results show a 22% increase in average revenue per user (ARPU), a 9% reduction in churn rate and improved development efficiency. This use case illustrates the growing adoption of generative AI in the telecommunications sector.",
+                "de": "Der Telekommunikationsanbieter Circles hat die OpenAI-API und Codex eingesetzt, um KI-native Telekom-Erlebnisse zu ermöglichen, wie <a href=\"https://openai.com/index/circles\">OpenAI am 3. August 2026</a> bekannt gab. Die Ergebnisse zeigen eine Steigerung des durchschnittlichen Umsatzes pro Nutzer (ARPU) um 22 %, eine Reduzierung der Abwanderungsrate um 9 % und eine verbesserte Entwicklungseffizienz. Dieser Anwendungsfall veranschaulicht die zunehmende Verbreitung generativer KI im Telekommunikationssektor.",
+                "it": "L'operatore telecom Circles ha implementato l'API OpenAI e Codex per alimentare esperienze telecom native IA, come annuncia <a href=\"https://openai.com/index/circles\">OpenAI il 3 agosto 2026</a>. I risultati mostrano un aumento del 22% del ricavo medio per utente (ARPU), una riduzione del 9% del tasso di abbandono e un miglioramento dell'efficienza dello sviluppo. Questo caso d'uso illustra l'adozione crescente dell'IA generativa nel settore delle telecomunicazioni.",
+                "lmo": "L'operador telecom Circles l'ha despiegaa l'API OpenAI e Codex per alimentà di esperienz telecom native IA, come l' anunzia <a href=\"https://openai.com/index/circles\">OpenAI el 3 d'agost 2026</a>. I resultà mostren on aument del 22 % del revenud medi per utent (ARPU), ona riduzion del 9 % del tass d'attrizion e on migliorament de l'efficienza del desvilupp. Sto cas d'usagg l'illustra l'adozion semper pussee granda de l'IA generativa in del settor di telecomunicazion."
+              },
+              "kicker": {
+                "fr": "Partenariat",
+                "en": "Partnership",
+                "de": "Partnerschaft",
+                "it": "Partenariato",
+                "lmo": "Partenariad"
+              },
+              "urls": [
+                "https://openai.com/index/circles"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Tech Notebook",
+        "de": "Technisches Heft",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Carnet Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Moteurs d'inférence",
+            "en": "Inference Engines",
+            "de": "Inferenz-Engines",
+            "it": "Motori d'inferenza",
+            "lmo": "Motor d'inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "llama.cpp b10254 ajoute un template dédié pour DeepSeek V4 Flash 0731",
+                "en": "llama.cpp b10254 Adds Dedicated Template for DeepSeek V4 Flash 0731",
+                "de": "llama.cpp b10254 fügt dedizierte Vorlage für DeepSeek V4 Flash 0731 hinzu",
+                "it": "llama.cpp b10254 aggiunge un template dedicato per DeepSeek V4 Flash 0731",
+                "lmo": "llama.cpp b10254 el gionta on template dedicaa per DeepSeek V4 Flash 0731"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10254\">b10254 de llama.cpp</a>, publiée le 4 août 2026, introduit un nouveau template de chat pour DeepSeek V4 Flash 0731. La mise à jour aligne les templates avec les encodeurs officiels, ajoute le support du format de sortie structurée (structured output) et une cartographie mise à jour des efforts de raisonnement high et max. Le template gère également le drop_thinking pour l'historique, omettant le raisonnement antérieur sauf si preserve_reasoning est demandé.",
+                "en": "Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10254\">b10254 of llama.cpp</a>, released on Tuesday, 4 August 2026, introduces a new chat template for DeepSeek V4 Flash 0731. The update aligns templates with official encoders, adds support for structured output format and an updated mapping of high and max reasoning efforts. The template also handles drop_thinking for history, omitting prior reasoning unless preserve_reasoning is requested.",
+                "de": "Die Version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10254\">b10254 von llama.cpp</a>, veröffentlicht am 4. August 2026, führt eine neue Chat-Vorlage für DeepSeek V4 Flash 0731 ein. Das Update gleicht die Vorlagen mit den offiziellen Encodern ab, fügt Unterstützung für strukturierte Ausgabeformate und eine aktualisierte Zuordnung der Reasoning-Aufwandsstufen high und max hinzu. Die Vorlage behandelt auch drop_thinking für den Verlauf, wobei früheres Reasoning weggelassen wird, es sei denn, preserve_reasoning wird angefordert.",
+                "it": "La versione <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10254\">b10254 di llama.cpp</a>, pubblicata il 4 agosto 2026, introduce un nuovo template di chat per DeepSeek V4 Flash 0731. L'aggiornamento allinea i template con gli encoder ufficiali, aggiunge il supporto del formato di output strutturato (structured output) e una mappatura aggiornata degli sforzi di ragionamento high e max. Il template gestisce anche il drop_thinking per la cronologia, omettendo il ragionamento precedente a meno che non sia richiesto preserve_reasoning.",
+                "lmo": "La version <a href=\"https://github.com/ggml-org/llama.cpp/releases/tag/b10254\">b10254 de llama.cpp</a>, publicada el 4 d'agost 2026, la introdux on noeuv template de chat per DeepSeek V4 Flash 0731. L'aggiornament l'alegna i template cont i encoder ofiziai, el gionta el support del format de sortida struturada (structured output) e ona cartografia aggiornada di sforz de resonament high e max. El template el gestiss anca el drop_thinking per l'istoria, ometend el resonament anterior a men che preserve_reasoning el sia domandaa."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/ggml-org/llama.cpp/releases/tag/b10254"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "oMLX 0.5.5 corrige DeepSeek V4 et accélère Inkling Small",
+                "en": "oMLX 0.5.5 Fixes DeepSeek V4 and Accelerates Inkling Small",
+                "de": "oMLX 0.5.5 korrigiert DeepSeek V4 und beschleunigt Inkling Small",
+                "it": "oMLX 0.5.5 corregge DeepSeek V4 e accelera Inkling Small",
+                "lmo": "oMLX 0.5.5 el coregg DeepSeek V4 e l'accelera Inkling Small"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/jundot/omlx/releases/tag/v0.5.5\">0.5.5 d'oMLX</a>, publiée le 3 août 2026, corrige la visibilité du prompt-tail de DeepSeek V4, la compatibilité du cache hiérarchisé et la sécurité du cache de fallback sparse-prefill. Elle hérite des améliorations de la 0.5.4 : DeepSeek V4 Flash 0731 bénéficie du DSpark Lightning MTP avec un décodage jusqu'à 85,6 % plus rapide, et Inkling Small est accéléré avec des gains MTP de 1,18 à 1,23x. Le benchmark de contexte mesure désormais le contexte utile maximal sur chaque Mac.",
+                "en": "Version <a href=\"https://github.com/jundot/omlx/releases/tag/v0.5.5\">0.5.5 of oMLX</a>, released on Monday, 3 August 2026, fixes DeepSeek V4 prompt-tail visibility, tiered cache compatibility and sparse-prefill fallback cache safety. It inherits improvements from 0.5.4: DeepSeek V4 Flash 0731 benefits from DSpark Lightning MTP with up to 85.6% faster decoding, and Inkling Small is accelerated with MTP gains of 1.18 to 1.23x. The context benchmark now measures maximum useful context on each Mac.",
+                "de": "Die Version <a href=\"https://github.com/jundot/omlx/releases/tag/v0.5.5\">0.5.5 von oMLX</a>, veröffentlicht am 3. August 2026, korrigiert die Sichtbarkeit des Prompt-Tails von DeepSeek V4, die Kompatibilität des hierarchischen Caches und die Sicherheit des Fallback-Sparse-Prefill-Caches. Sie übernimmt die Verbesserungen von 0.5.4: DeepSeek V4 Flash 0731 profitiert von DSpark Lightning MTP mit einer bis zu 85,6 % schnelleren Dekodierung, und Inkling Small wird mit MTP-Gewinnen von 1,18 bis 1,23x beschleunigt. Der Kontext-Benchmark misst nun den maximalen nutzbaren Kontext auf jedem Mac.",
+                "it": "La versione <a href=\"https://github.com/jundot/omlx/releases/tag/v0.5.5\">0.5.5 di oMLX</a>, pubblicata il 3 agosto 2026, corregge la visibilità del prompt-tail di DeepSeek V4, la compatibilità della cache gerarchizzata e la sicurezza della cache di fallback sparse-prefill. Eredita i miglioramenti della 0.5.4: DeepSeek V4 Flash 0731 beneficia del DSpark Lightning MTP con un decoding fino all'85,6% più veloce, e Inkling Small è accelerato con guadagni MTP da 1,18 a 1,23x. Il benchmark di contesto misura ora il contesto utile massimo su ogni Mac.",
+                "lmo": "La version <a href=\"https://github.com/jundot/omlx/releases/tag/v0.5.5\">0.5.5 d'oMLX</a>, publicada el 3 d'agost 2026, la coregg la visibilità del prompt-tail de DeepSeek V4, la compatibilità del cache gerarchizzaa e la sigurezza del cache de fallback sparse-prefill. Lee l'eredita i migliorament de la 0.5.4: DeepSeek V4 Flash 0731 el beneficia del DSpark Lightning MTP cont on decodagg fina a 85,6 % pussee svelt, e Inkling Small l'è acceleràa con di guadagn MTP de 1,18 a 1,23x. El benchmark de contest el misura adess el contest util massim in su ogni Mac."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/jundot/omlx/releases/tag/v0.5.5"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.12.1 : première version signée et notariée",
+                "en": "Rapid-MLX 0.12.1: First Signed and Notarized Release",
+                "de": "Rapid-MLX 0.12.1: Erste signierte und notarisierte Version",
+                "it": "Rapid-MLX 0.12.1: prima versione firmata e notarizzata",
+                "lmo": "Rapid-MLX 0.12.1 : prima version signada e notariada"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1\">rapid-mac-v0.12.1</a>, publiée le 3 août 2026, est la première release signée et notariée de Rapid-MLX, éliminant l'avertissement Gatekeeper. Elle corrige l'intégration du cache Hugging Face pour les nouveaux utilisateurs et remplace l'icône de la barre de menus par le guépard de la marque. Le moteur d'inférence 0.12.1 apporte la stabilité agent/DeepSeek, la correction du cache de préfixe, des correctifs pour Gemma 4 et un stack audio validé.",
+                "en": "Version <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1\">rapid-mac-v0.12.1</a>, released on Monday, 3 August 2026, is the first signed and notarized release of Rapid-MLX, eliminating the Gatekeeper warning. It fixes Hugging Face cache integration for new users and replaces the menu bar icon with the brand cheetah. The 0.12.1 inference engine brings agent/DeepSeek stability, prefix cache fixes, Gemma 4 patches and a validated audio stack.",
+                "de": "Die Version <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1\">rapid-mac-v0.12.1</a>, veröffentlicht am 3. August 2026, ist das erste signierte und notarisierte Release von Rapid-MLX und beseitigt die Gatekeeper-Warnung. Sie korrigiert die Hugging-Face-Cache-Integration für neue Benutzer und ersetzt das Menüleistensymbol durch den Marken-Geparden. Die Inferenz-Engine 0.12.1 bringt Stabilität für Agent/DeepSeek, Korrektur des Präfix-Caches, Fehlerbehebungen für Gemma 4 und einen validierten Audio-Stack.",
+                "it": "La versione <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1\">rapid-mac-v0.12.1</a>, pubblicata il 3 agosto 2026, è la prima release firmata e notarizzata di Rapid-MLX, eliminando l'avviso Gatekeeper. Corregge l'integrazione della cache Hugging Face per i nuovi utenti e sostituisce l'icona della barra dei menu con il ghepardo del marchio. Il motore d'inferenza 0.12.1 porta stabilità agent/DeepSeek, correzione della cache di prefisso, correzioni per Gemma 4 e uno stack audio validato.",
+                "lmo": "La version <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1\">rapid-mac-v0.12.1</a>, publicada el 3 d'agost 2026, l'è la prima release signada e notariada de Rapid-MLX, eliminand l'avertiment Gatekeeper. Lee la coregg l'integrazion del cache Hugging Face per i noeuv utent e la sostituiss l'icona de la barra di menu cont el gheppard de la marca. El motor d'inferenza 0.12.1 el porta la stabilità agent/DeepSeek, la corezzion del cache de prefiss, di coretiv per Gemma 4 e on stack audio validàa."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/rapid-mac-v0.12.1"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MLX-VLM 0.6.9 ajoute Kimi K3, Inkling Small et Mage-VL",
+                "en": "MLX-VLM 0.6.9 Adds Kimi K3, Inkling Small and Mage-VL",
+                "de": "MLX-VLM 0.6.9 fügt Kimi K3, Inkling Small und Mage-VL hinzu",
+                "it": "MLX-VLM 0.6.9 aggiunge Kimi K3, Inkling Small e Mage-VL",
+                "lmo": "MLX-VLM 0.6.9 el gionta Kimi K3, Inkling Small e Mage-VL"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9\">0.6.9 de MLX-VLM</a>, publiée le 3 août 2026, ajoute le support de Kimi K3, Inkling Small et Mage-VL de Microsoft. Elle corrige le crash du détokeniseur BPE UTF-8, la double transposition des poids audio de Nemotron Omni, et la corruption des caches KV rotatifs par le cache de préfixe. Le chemin de décodage rapide d'Inkling inclut des noyaux fusionnés sconv et MoE, une attention à fenêtre bornée et un extracteur audio natif.",
+                "en": "Version <a href=\"https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9\">0.6.9 of MLX-VLM</a>, released on Monday, 3 August 2026, adds support for Kimi K3, Inkling Small and Microsoft's Mage-VL. It fixes the BPE UTF-8 detokenizer crash, double transposition of Nemotron Omni audio weights, and corruption of rotary KV caches by the prefix cache. Inkling's fast decoding path includes fused sconv and MoE kernels, bounded window attention and a native audio extractor.",
+                "de": "Die Version <a href=\"https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9\">0.6.9 von MLX-VLM</a>, veröffentlicht am 3. August 2026, fügt Unterstützung für Kimi K3, Inkling Small und Mage-VL von Microsoft hinzu. Sie behebt den Absturz des BPE-UTF-8-Detokenizers, die doppelte Transposition der Audio-Gewichte von Nemotron Omni und die Beschädigung rotierender KV-Caches durch den Präfix-Cache. Der schnelle Dekodierungspfad von Inkling umfasst fusionierte sconv- und MoE-Kernel, eine fensterbegrenzte Aufmerksamkeit und einen nativen Audio-Extraktor.",
+                "it": "La versione <a href=\"https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9\">0.6.9 di MLX-VLM</a>, pubblicata il 3 agosto 2026, aggiunge il supporto di Kimi K3, Inkling Small e Mage-VL di Microsoft. Corregge il crash del detokenizzatore BPE UTF-8, la doppia trasposizione dei pesi audio di Nemotron Omni e la corruzione delle cache KV rotazionali da parte della cache di prefisso. Il percorso di decoding rapido di Inkling include kernel fusi sconv e MoE, attenzione a finestra limitata ed estrattore audio nativo.",
+                "lmo": "La version <a href=\"https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9\">0.6.9 de MLX-VLM</a>, publicada el 3 d'agost 2026, la gionta el support de Kimi K3, Inkling Small e Mage-VL de Microsoft. Lee la coregg el crash del detokenizzator BPE UTF-8, la dobia trasposizion di pes audio de Nemotron Omni, e la corruzion di cache KV rotativ del cache de prefiss. El camin de decodagg svelt d'Inkling l'includ di nucli fusionaa sconv e MoE, ona attenzion a fenestra limitada e on estrattor audio nativ."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/Blaizzy/mlx-vlm/releases/tag/v0.6.9"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Harnische & CLI",
+            "it": "Harnais & CLI",
+            "lmo": "Harnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code v2.1.221 introduit le Focus View et le masquage de fichiers sandbox",
+                "en": "Claude Code v2.1.221 Introduces Focus View and Sandbox File Masking",
+                "de": "Claude Code v2.1.221 führt Focus View und Sandbox-Datei-Masking ein",
+                "it": "Claude Code v2.1.221 introduce il Focus View e l'occultamento di file sandbox",
+                "lmo": "Claude Code v2.1.221 el introdux el Focus View e el mascherament di file sandbox"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.221\">v2.1.221 de Claude Code</a>, publiée le 4 août 2026, ajoute un Focus View dans VSCode : un bouton dans le menu de chat qui masque l'activité des outils derrière un résumé extensible par tour, avec un indicateur d'outil en cours d'exécution. Elle introduit également un mode « mask » pour les fichiers d'identifiants sandbox sur Linux et WSL : les commandes sandbox lisent une copie sentinelle tandis que le proxy sandbox substitue la valeur réelle à la sortie.",
+                "en": "Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.221\">v2.1.221 of Claude Code</a>, released on Tuesday, 4 August 2026, adds a Focus View in VSCode: a button in the chat menu that hides tool activity behind an expandable per-turn summary, with a running tool indicator. It also introduces a \"mask\" mode for sandbox credential files on Linux and WSL: sandbox commands read a sentinel copy while the sandbox proxy substitutes the real value on output.",
+                "de": "Die Version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.221\">v2.1.221 von Claude Code</a>, veröffentlicht am 4. August 2026, fügt einen Focus View in VSCode hinzu: eine Schaltfläche im Chat-Menü, die die Tool-Aktivität hinter einer pro Runde erweiterbaren Zusammenfassung mit einem Indikator für laufende Tools verbirgt. Sie führt auch einen «Mask»-Modus für Sandbox-Anmeldedateien unter Linux und WSL ein: Sandbox-Befehle lesen eine Sentinel-Kopie, während der Sandbox-Proxy bei der Ausgabe den tatsächlichen Wert einsetzt.",
+                "it": "La versione <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.221\">v2.1.221 di Claude Code</a>, pubblicata il 4 agosto 2026, aggiunge un Focus View in VSCode: un pulsante nel menu di chat che nasconde l'attività degli strumenti dietro un riepilogo espandibile per turno, con un indicatore di strumento in esecuzione. Introduce inoltre una modalità «mask» per i file di credenziali sandbox su Linux e WSL: i comandi sandbox leggono una copia sentinella mentre il proxy sandbox sostituisce il valore reale all'output.",
+                "lmo": "La version <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.221\">v2.1.221 de Claude Code</a>, publicada el 4 d'agost 2026, la gionta on Focus View in VSCode: on botton in del menu de chat che l' scond l'attività di istrument dedree de on resum estensibil per torn, cont on indicator d'istrument in esecuzion. Lee la introdux anca on mode « mask » per i file d'identificativ sandbox in su Linux e WSL: i comand sandbox lesen ona copia sentinella intanta che el proxy sandbox el sostituiss el valor real a la sortida."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.221"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenCode v1.18.12 corrige Azure GPT-5.5+ et réduit la latence du composeur",
+                "en": "OpenCode v1.18.12 Fixes Azure GPT-5.5+ and Reduces Composer Latency",
+                "de": "OpenCode v1.18.12 korrigiert Azure GPT-5.5+ und reduziert Latenz des Composers",
+                "it": "OpenCode v1.18.12 corregge Azure GPT-5.5+ e riduce la latenza del compositore",
+                "lmo": "OpenCode v1.18.12 el coregg Azure GPT-5.5+ e el ridus la latenza del compositor"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.18.12\">v1.18.12 d'OpenCode</a>, publiée le 4 août 2026, corrige les requêtes Azure GPT-5.5+ qui échouaient lorsque le raisonnement était activé. Le composeur du client desktop voit sa latence réduite lors de l'inclusion de grandes images ou pièces jointes, et la recherche de projets peut désormais trouver n'importe quel projet récent connu au lieu des cinq premiers seulement.",
+                "en": "Version <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.18.12\">v1.18.12 of OpenCode</a>, released on Tuesday, 4 August 2026, fixes Azure GPT-5.5+ requests that failed when reasoning was enabled. The desktop client composer sees reduced latency when including large images or attachments, and project search can now find any known recent project instead of only the top five.",
+                "de": "Die Version <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.18.12\">v1.18.12 von OpenCode</a>, veröffentlicht am 4. August 2026, behebt Azure GPT-5.5+-Anfragen, die fehlschlugen, wenn Reasoning aktiviert war. Der Composer des Desktop-Clients weist eine reduzierte Latenz beim Einfügen grosser Bilder oder Anhänge auf, und die Projektsuche kann nun jedes bekannte aktuelle Projekt finden, nicht nur die ersten fünf.",
+                "it": "La versione <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.18.12\">v1.18.12 di OpenCode</a>, pubblicata il 4 agosto 2026, corregge le richieste Azure GPT-5.5+ che fallivano quando il ragionamento era attivato. Il compositore del client desktop vede la sua latenza ridotta durante l'inclusione di grandi immagini o allegati, e la ricerca di progetti può ora trovare qualsiasi progetto recente noto invece dei soli primi cinque.",
+                "lmo": "La version <a href=\"https://github.com/anomalyco/opencode/releases/tag/v1.18.12\">v1.18.12 d'OpenCode</a>, publicada el 4 d'agost 2026, la coregg i richiest Azure GPT-5.5+ che falliven quand che el resonament l'era attivaa. El compositor del client desktop el ved la soa latenza reduta quand che l'includ di grand imagin o tocch giontaa, e la ricerca de progett la pò adess trovà quajsevoeur progett recent cognossuu inveci de domà i prim cinch."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/anomalyco/opencode/releases/tag/v1.18.12"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Hermes Agent v0.20.0 : voix conversationnelle, A2A v1.0 et webhooks",
+                "en": "Hermes Agent v0.20.0: Conversational Voice, A2A v1.0 and Webhooks",
+                "de": "Hermes Agent v0.20.0: Konversationssprache, A2A v1.0 und Webhooks",
+                "it": "Hermes Agent v0.20.0: voce conversazionale, A2A v1.0 e webhook",
+                "lmo": "Hermes Agent v0.20.0 : vos conversazionala, A2A v1.0 e webhooks"
+              },
+              "body": {
+                "fr": "La version <a href=\"https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3\">v0.20.0 (Herald) de Hermes Agent</a>, publiée le 3 août 2026, introduit la voix conversationnelle en streaming avec barge-in, des wake words exécutés localement, le support du protocole A2A v1.0 pour la communication inter-agents, des webhooks sortants signés, et une recherche sourcée avec citations vérifiables. L'application desktop devient une plateforme avec artefacts en prévisualisation live, SDK de plugins et entrée rapide depuis n'importe où.",
+                "en": "Version <a href=\"https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3\">v0.20.0 (Herald) of Hermes Agent</a>, released on Monday, 3 August 2026, introduces streaming conversational voice with barge-in, locally executed wake words, support for the A2A v1.0 protocol for inter-agent communication, signed outgoing webhooks, and sourced search with verifiable citations. The desktop app becomes a platform with live preview artifacts, a plugin SDK and quick entry from anywhere.",
+                "de": "Die Version <a href=\"https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3\">v0.20.0 (Herald) von Hermes Agent</a>, veröffentlicht am 3. August 2026, führt konversationelle Sprachsteuerung mit Barge-In, lokal ausgeführte Wake-Words, Unterstützung des A2A v1.0-Protokolls für die Kommunikation zwischen Agenten, signierte ausgehende Webhooks und quellierte Suche mit überprüfbaren Zitaten ein. Die Desktop-Anwendung wird zu einer Plattform mit Artefakten in Live-Vorschau, Plugin-SDK und Schnelleingabe von überall.",
+                "it": "La versione <a href=\"https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3\">v0.20.0 (Herald) di Hermes Agent</a>, pubblicata il 3 agosto 2026, introduce la voce conversazionale in streaming con barge-in, wake word eseguiti localmente, il supporto del protocollo A2A v1.0 per la comunicazione inter-agenti, webhook in uscita firmati e una ricerca fontata con citazioni verificabili. L'applicazione desktop diventa una piattaforma con artefatti in anteprima live, SDK di plugin e input rapido da qualsiasi punto.",
+                "lmo": "La version <a href=\"https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3\">v0.20.0 (Herald) de Hermes Agent</a>, publicada el 3 d'agost 2026, la introdux la vos conversazionala in streaming con barge-in, di wake word eseguii localment, el support del protocoll A2A v1.0 per la comunicazion inter-agent, di webhooks sortint signaa, e ona ricerca fontada con citazion verificabil. L'applicazion desktop la deventa ona piattaforma con artefatt in prevision live, SDK de plugin e entrada svelt de quajsevoeur part."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/NousResearch/hermes-agent/releases/tag/v2026.8.3"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI Codex CLI 0.147.0 : trois nouvelles alpha",
+                "en": "OpenAI Codex CLI 0.147.0: Three New Alphas",
+                "de": "OpenAI Codex CLI 0.147.0: Drei neue Alpha-Versionen",
+                "it": "OpenAI Codex CLI 0.147.0: tre nuove alpha",
+                "lmo": "OpenAI Codex CLI 0.147.0 : trè noeuv alpha"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 3 août 2026 trois nouvelles versions alpha de <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6\">Codex CLI 0.147.0</a> (alpha.6, alpha.5 et alpha.1.2). Ces versions s'inscrivent dans le cycle de développement rapide du harnais de codage agentique d'OpenAI, qui permet aux développeurs d'exécuter des agents de codage en ligne de commande avec accès aux modèles GPT.",
+                "en": "OpenAI released on Monday, 3 August 2026 three new alpha versions of <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6\">Codex CLI 0.147.0</a> (alpha.6, alpha.5 and alpha.1.2). These releases are part of the rapid development cycle of OpenAI's agentic coding harness, which allows developers to run coding agents from the command line with access to GPT models.",
+                "de": "OpenAI hat am 3. August 2026 drei neue Alpha-Versionen von <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6\">Codex CLI 0.147.0</a> veröffentlicht (alpha.6, alpha.5 und alpha.1.2). Diese Versionen sind Teil des schnellen Entwicklungszyklus des agentischen Codier-Harnischs von OpenAI, der es Entwicklern ermöglicht, Codier-Agenten in der Befehlszeile mit Zugriff auf GPT-Modelle auszuführen.",
+                "it": "OpenAI ha pubblicato il 3 agosto 2026 tre nuove versioni alpha di <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6\">Codex CLI 0.147.0</a> (alpha.6, alpha.5 e alpha.1.2). Queste versioni si inseriscono nel ciclo di sviluppo rapido dell'harnais di codifica agentica di OpenAI, che consente agli sviluppatori di eseguire agenti di codifica da riga di comando con accesso ai modelli GPT.",
+                "lmo": "OpenAI l'ha publicaa el 3 d'agost 2026 trè noeuv version alpha de <a href=\"https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6\">Codex CLI 0.147.0</a> (alpha.6, alpha.5 e alpha.1.2). Ste version chì se scriven in del ciclo de desvilupp svelt del harnes de codifica agentica d'OpenAI, che l' permett ai desviluppador de eseguì di agent de codifica in linia de comand con access ai modell GPT."
+              },
+              "kicker": {
+                "fr": "Release",
+                "en": "Release",
+                "de": "Release",
+                "it": "Release",
+                "lmo": "Release"
+              },
+              "urls": [
+                "https://github.com/openai/codex/releases/tag/rust-v0.147.0-alpha.6"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & Labos",
+            "en": "Papers & Labs",
+            "de": "Papers & Labore",
+            "it": "Papers & Laboratori",
+            "lmo": "Papers & Laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Apple publie une étude complète sur l'alignement des MLLM multimodaux",
+                "en": "Apple Publishes Comprehensive Study on Multimodal MLLM Alignment",
+                "de": "Apple veröffentlicht umfassende Studie zum Alignment multimodaler MLLMs",
+                "it": "Apple pubblica uno studio completo sull'allineamento dei MLLM multimodali",
+                "lmo": "Apple el publica on studi complet in su l'aliniament di MLLM multimodai"
+              },
+              "body": {
+                "fr": "Apple ML Research a publié le 3 août 2026 une <a href=\"https://machinelearning.apple.com/research/alignment-multimodal-llms\">étude approfondie sur l'alignement de préférence</a> dans les modèles de langage multimodaux (MLLM). L'article examine comment l'alignement, crucial pour les LLM, reste sous-exploré en contexte multimodal, notamment pour les tâches de compréhension d'image où l'hallucination peut produire des réponses incohérentes avec le contenu visuel. L'étude couvre les défis spécifiques à l'alignement multimodal et propose des pistes pour améliorer la fiabilité des réponses.",
+                "en": "Apple ML Research published on Monday, 3 August 2026 an <a href=\"https://machinelearning.apple.com/research/alignment-multimodal-llms\">in-depth study on preference alignment</a> in multimodal large language models (MLLMs). The paper examines how alignment, crucial for LLMs, remains underexplored in multimodal contexts, particularly for image understanding tasks where hallucination can produce responses inconsistent with visual content. The study covers the specific challenges of multimodal alignment and proposes avenues for improving response reliability.",
+                "de": "Apple ML Research hat am 3. August 2026 eine <a href=\"https://machinelearning.apple.com/research/alignment-multimodal-llms\">eingehende Studie zum Präferenz-Alignment</a> in multimodalen Sprachmodellen (MLLMs) veröffentlicht. Der Artikel untersucht, wie Alignment, das für LLMs entscheidend ist, im multimodalen Kontext noch wenig erforscht ist, insbesondere bei Bildverständnisaufgaben, bei denen Halluzination zu Antworten führen kann, die nicht mit dem visuellen Inhalt übereinstimmen. Die Studie behandelt die spezifischen Herausforderungen des multimodalen Alignments und schlägt Wege zur Verbesserung der Antwortzuverlässigkeit vor.",
+                "it": "Apple ML Research ha pubblicato il 3 agosto 2026 uno <a href=\"https://machinelearning.apple.com/research/alignment-multimodal-llms\">studio approfondito sull'allineamento di preferenza</a> nei modelli di linguaggio multimodali (MLLM). L'articolo esamina come l'allineamento, cruciale per gli LLM, rimanga poco esplorato in contesto multimodale, in particolare per i compiti di comprensione delle immagini dove l'allucinazione può produrre risposte incoerenti con il contenuto visivo. Lo studio copre le sfide specifiche dell'allineamento multimodale e propone piste per migliorare l'affidabilità delle risposte.",
+                "lmo": "Apple ML Research l'ha publicaa el 3 d'agost 2026 ona <a href=\"https://machinelearning.apple.com/research/alignment-multimodal-llms\">studi a fond in su l'aliniament de preferenza</a> in di modell de lenguagg multimodai (MLLM). L'articol l'esamina comè l'aliniament, crucial per i LLM, el resta sotta-esploraa in contest multimodal, specialment per i incarigh de comprension d'imagin indove l'hallucinazion la pò prodù di rispost incoerent cont el contegnuu visual. El studi el quatta i sfid specific a l'aliniament multimodal e l' propò di strad per migliorà l'affidabilità di rispost."
+              },
+              "kicker": {
+                "fr": "Apple ML",
+                "en": "Apple ML",
+                "de": "Apple ML",
+                "it": "Apple ML",
+                "lmo": "Apple ML"
+              },
+              "urls": [
+                "https://machinelearning.apple.com/research/alignment-multimodal-llms"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SwanTale unifie la génération vocale et audio multi-locuteurs",
+                "en": "SwanTale Unifies Multi-Speaker Speech and Audio Generation",
+                "de": "SwanTale vereinheitlicht Sprach- und Audio-Generierung mit mehreren Sprechern",
+                "it": "SwanTale unifica la generazione vocale e audio multi-locutore",
+                "lmo": "SwanTale l'unifica la generazion vocala e audio multi-locutor"
+              },
+              "body": {
+                "fr": "ByteDance a publié le 3 août 2026 <a href=\"https://swanaigc.github.io/#swantale\">SwanTale</a>, un modèle unifié de génération de parole et d'audio multi-locuteurs qui supporte à la fois les tâches instruct (description textuelle) et zero-shot (référence audio). Le modèle utilise SwanVAE pour la génération multi-modalité audio, un MoE unifié pour le multitâche, et un post-entraînement GRPO. Il atteint les meilleurs scores sur plusieurs métriques clés de génération vocale et audio, avec un support de scènes acoustiques complexes.",
+                "en": "ByteDance published on Monday, 3 August 2026 <a href=\"https://swanaigc.github.io/#swantale\">SwanTale</a>, a unified multi-speaker speech and audio generation model that supports both instruct (textual description) and zero-shot (audio reference) tasks. The model uses SwanVAE for multi-modality audio generation, a unified MoE for multitasking, and GRPO post-training. It achieves top scores on several key speech and audio generation metrics, with support for complex acoustic scenes.",
+                "de": "ByteDance hat am 3. August 2026 <a href=\"https://swanaigc.github.io/#swantale\">SwanTale</a> veröffentlicht, ein einheitliches Modell zur Sprach- und Audio-Generierung mit mehreren Sprechern, das sowohl Instruct-Aufgaben (textuelle Beschreibung) als auch Zero-Shot-Aufgaben (Audio-Referenz) unterstützt. Das Modell verwendet SwanVAE für die Multi-Modalitäts-Audio-Generierung, ein einheitliches MoE für Multitasking und GRPO-Post-Training. Es erzielt die besten Werte bei mehreren wichtigen Metriken der Sprach- und Audio-Generierung und unterstützt komplexe akustische Szenen.",
+                "it": "ByteDance ha pubblicato il 3 agosto 2026 <a href=\"https://swanaigc.github.io/#swantale\">SwanTale</a>, un modello unificato di generazione di parlato e audio multi-locutore che supporta sia i compiti instruct (descrizione testuale) che zero-shot (riferimento audio). Il modello utilizza SwanVAE per la generazione multi-modalità audio, un MoE unificato per il multitasking e un post-addestramento GRPO. Raggiunge i migliori punteggi su diverse metriche chiave di generazione vocale e audio, con supporto di scene acustiche complesse.",
+                "lmo": "ByteDance l'ha publicaa el 3 d'agost 2026 <a href=\"https://swanaigc.github.io/#swantale\">SwanTale</a>, on modell unificaa de generazion de parolla e de audio multi-locutor che l' supporta sia i incarigh instruct (descrizion testuala) sia zero-shot (referenza audio). El modell l' doperà SwanVAE per la generazion multi-modalità audio, on MoE unificaa per el multitasking, e on post-addestrament GRPO. El riva ai miglior score sora pussee metrich chiav de generazion vocala e audio, cont on support de scen acustich compless."
+              },
+              "kicker": {
+                "fr": "ByteDance",
+                "en": "ByteDance",
+                "de": "ByteDance",
+                "it": "ByteDance",
+                "lmo": "ByteDance"
+              },
+              "urls": [
+                "https://swanaigc.github.io/#swantale"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "UEmbed unifie embeddings denses et sparse en un seul modèle multimodal",
+                "en": "UEmbed Unifies Dense and Sparse Embeddings in a Single Multimodal Model",
+                "de": "UEmbed vereinheitlicht dichte und sparse Embeddings in einem einzigen multimodalen Modell",
+                "it": "UEmbed unifica embedding densi e sparsi in un unico modello multimodale",
+                "lmo": "UEmbed l'unifica embedding dens e spars in on modell multimodal domà"
+              },
+              "body": {
+                "fr": "Alibaba NLP a publié le 3 août 2026 <a href=\"https://alibaba-nlp.github.io/UEmbed/\">UEmbed</a>, un modèle d'embedding multimodal decoder-only qui produit à la fois des représentations lexicales sparse et denses en une seule passe forward. Disponible en tailles 2B, 4B et 9B, UEmbed-9B atteint 71,8 (dense) et 71,0 (sparse) sur MMEB-v2, surpassant les modèles d'embedding multimodaux existants. Le modèle unifie pour la première fois les embeddings denses et sparse dans une architecture unique, étendant la recherche sparse au texte et aux entrées multimodales.",
+                "en": "Alibaba NLP published on Monday, 3 August 2026 <a href=\"https://alibaba-nlp.github.io/UEmbed/\">UEmbed</a>, a decoder-only multimodal embedding model that produces both sparse lexical and dense representations in a single forward pass. Available in 2B, 4B and 9B sizes, UEmbed-9B achieves 71.8 (dense) and 71.0 (sparse) on MMEB-v2, surpassing existing multimodal embedding models. The model unifies dense and sparse embeddings for the first time in a single architecture, extending sparse search to text and multimodal inputs.",
+                "de": "Alibaba NLP hat am 3. August 2026 <a href=\"https://alibaba-nlp.github.io/UEmbed/\">UEmbed</a> veröffentlicht, ein multimodales Decoder-Only-Embedding-Modell, das in einem einzigen Vorwärtsdurchlauf sowohl lexikalische sparse als auch dichte Repräsentationen erzeugt. Verfügbar in den Grössen 2B, 4B und 9B, erreicht UEmbed-9B 71,8 (dicht) und 71,0 (sparse) auf MMEB-v2 und übertrifft damit bestehende multimodale Embedding-Modelle. Das Modell vereinheitlicht erstmals dichte und sparse Embeddings in einer einzigen Architektur und erweitert die sparse Suche auf Text und multimodale Eingaben.",
+                "it": "Alibaba NLP ha pubblicato il 3 agosto 2026 <a href=\"https://alibaba-nlp.github.io/UEmbed/\">UEmbed</a>, un modello di embedding multimodale decoder-only che produce sia rappresentazioni lessicali sparse che dense in un unico passaggio forward. Disponibile in taglie 2B, 4B e 9B, UEmbed-9B raggiunge 71,8 (dense) e 71,0 (sparse) su MMEB-v2, superando i modelli di embedding multimodali esistenti. Il modello unifica per la prima volta gli embedding densi e sparsi in un'architettura unica, estendendo la ricerca sparsa al testo e agli input multimodali.",
+                "lmo": "Alibaba NLP l'ha publicaa el 3 d'agost 2026 <a href=\"https://alibaba-nlp.github.io/UEmbed/\">UEmbed</a>, on modell d'embedding multimodal decoder-only che l' produx sia di rappresentazion lessicai sparse sia dens in ona sola passada forward. Disponibil in grandezz 2B, 4B e 9B, UEmbed-9B el riva a 71,8 (dens) e 71,0 (spars) in su MMEB-v2, superand i modell d'embedding multimodai esistent. El modell l'unifica per la prima voeulta i embedding dens e spars in d'ona architettura unica, estendend la ricerca sparsa al test e ai input multimodai."
+              },
+              "kicker": {
+                "fr": "Alibaba",
+                "en": "Alibaba",
+                "de": "Alibaba",
+                "it": "Alibaba",
+                "lmo": "Alibaba"
+              },
+              "urls": [
+                "https://alibaba-nlp.github.io/UEmbed/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Weak-to-Strong On-Policy Distillation : distiller depuis des modèles plus faibles",
+                "en": "Weak-to-Strong On-Policy Distillation: Distilling from Weaker Models",
+                "de": "Weak-to-Strong On-Policy Distillation: Destillation von schwächeren Modellen",
+                "it": "Weak-to-Strong On-Policy Distillation: distillare da modelli più deboli",
+                "lmo": "Weak-to-Strong On-Policy Distillation : distilà de modell pussee debol"
+              },
+              "body": {
+                "fr": "Microsoft Research a publié le 3 août 2026 <a href=\"https://w2s-opd.github.io\">W2S-OPD</a>, une méthode de distillation on-policy qui améliore un étudiant fort en distillant depuis plusieurs modèles faibles. La technique construit un enseignant proxy dans l'espace des logits à partir d'une paire contrastive (modèle positif et négatif), tous deux plus petits que l'étudiant. Sur quatre benchmarks de mathématiques et trois de code, W2S-OPD surpasse la distillation standard et permet à l'étudiant de dépasser l'enseignant de domaine, même quand toutes les sources de supervision sont plus faibles.",
+                "en": "Microsoft Research published on Monday, 3 August 2026 <a href=\"https://w2s-opd.github.io\">W2S-OPD</a>, an on-policy distillation method that improves a strong student by distilling from multiple weak models. The technique builds a proxy teacher in logit space from a contrastive pair (positive and negative model), both smaller than the student. Across four math benchmarks and three code benchmarks, W2S-OPD outperforms standard distillation and allows the student to surpass the domain teacher, even when all supervision sources are weaker.",
+                "de": "Microsoft Research hat am 3. August 2026 <a href=\"https://w2s-opd.github.io\">W2S-OPD</a> veröffentlicht, eine On-Policy-Destillationsmethode, die einen starken Schüler verbessert, indem sie von mehreren schwachen Modellen destilliert. Die Technik konstruiert einen Proxy-Lehrer im Logit-Raum aus einem kontrastiven Paar (positives und negatives Modell), die beide kleiner sind als der Schüler. Bei vier Mathematik-Benchmarks und drei Code-Benchmarks übertrifft W2S-OPD die Standard-Destillation und ermöglicht es dem Schüler, den Domänenlehrer zu übertreffen, selbst wenn alle Supervisionsquellen schwächer sind.",
+                "it": "Microsoft Research ha pubblicato il 3 agosto 2026 <a href=\"https://w2s-opd.github.io\">W2S-OPD</a>, un metodo di distillazione on-policy che migliora uno studente forte distillando da diversi modelli deboli. La tecnica costruisce un insegnante proxy nello spazio dei logit a partire da una coppia contrastiva (modello positivo e negativo), entrambi più piccoli dello studente. Su quattro benchmark di matematica e tre di codice, W2S-OPD supera la distillazione standard e consente allo studente di superare l'insegnante di dominio, anche quando tutte le fonti di supervisione sono più deboli.",
+                "lmo": "Microsoft Research l'ha publicaa el 3 d'agost 2026 <a href=\"https://w2s-opd.github.io\">W2S-OPD</a>, on metod de distillazion on-policy che l' migliora on student fort distiland de pussee modell debol. La tecnica la costruiss on insegnant proxy in del spazi di logit a partì de ona cobia contrastiva (modell positiv e negativ), tucc dò pussee piscinitt del student. Sora quatter benchmark de matematica e trè de code, W2S-OPD el supera la distillazion standard e l' permett al student de superà l'insegnant de domini, anca quand che tucc i sorgent de supervision hinn pussee debol."
+              },
+              "kicker": {
+                "fr": "Microsoft Research",
+                "en": "Microsoft Research",
+                "de": "Microsoft Research",
+                "it": "Microsoft Research",
+                "lmo": "Microsoft Research"
+              },
+              "urls": [
+                "https://w2s-opd.github.io"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Benchmarks & Évaluation",
+            "en": "Benchmarks & Evaluation",
+            "de": "Benchmarks & Evaluation",
+            "it": "Benchmark & Valutazione",
+            "lmo": "Benchmark & Valutazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "SWE-Touch révèle la fragilité des agents de codage face aux modifications utilisateur",
+                "en": "SWE-Touch Reveals Fragility of Coding Agents Facing User Edits",
+                "de": "SWE-Touch offenbart die Fragilität von Codier-Agenten gegenüber Benutzeränderungen",
+                "it": "SWE-Touch rivela la fragilità degli agenti di codifica di fronte alle modifiche utente",
+                "lmo": "SWE-Touch el revèla la fragilità di agent de codifica denanz ai modifich utent"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Académie chinoise des sciences ont publié le 3 août 2026 <a href=\"https://trae1oung.github.io/SWE-Touch/\">SWE-Touch</a>, un framework qui évalue la capacité des agents de codage à comprendre et répondre aux modifications de code dans un espace de travail partagé. En injectant des contre-édits plausibles dans le code, le benchmark réduit le taux de résolution moyen de 7,7 points sur SWE-bench Verified. L'analyse des trajectoires montre que les agents peinent à détecter les changements dans l'espace de travail et à réconcilier les modifications conflictuelles.",
+                "en": "Researchers from the Chinese Academy of Sciences published on Monday, 3 August 2026 <a href=\"https://trae1oung.github.io/SWE-Touch/\">SWE-Touch</a>, a framework that evaluates coding agents' ability to understand and respond to code modifications in a shared workspace. By injecting plausible counter-edits into the code, the benchmark reduces the average resolution rate by 7.7 points on SWE-bench Verified. Trajectory analysis shows that agents struggle to detect workspace changes and reconcile conflicting modifications.",
+                "de": "Forscher der Chinesischen Akademie der Wissenschaften haben am 3. August 2026 <a href=\"https://trae1oung.github.io/SWE-Touch/\">SWE-Touch</a> veröffentlicht, ein Framework, das die Fähigkeit von Codier-Agenten bewertet, Code-Änderungen in einem gemeinsamen Arbeitsbereich zu verstehen und darauf zu reagieren. Durch das Einfügen plausibler Gegenbearbeitungen in den Code senkt der Benchmark die durchschnittliche Lösungsrate um 7,7 Punkte auf SWE-bench Verified. Die Analyse der Trajektorien zeigt, dass Agenten Schwierigkeiten haben, Änderungen im Arbeitsbereich zu erkennen und widersprüchliche Änderungen abzugleichen.",
+                "it": "Ricercatori dell'Accademia cinese delle scienze hanno pubblicato il 3 agosto 2026 <a href=\"https://trae1oung.github.io/SWE-Touch/\">SWE-Touch</a>, un framework che valuta la capacità degli agenti di codifica di comprendere e rispondere alle modifiche al codice in uno spazio di lavoro condiviso. Iniettando contro-modifiche plausibili nel codice, il benchmark riduce il tasso di risoluzione medio di 7,7 punti su SWE-bench Verified. L'analisi delle traiettorie mostra che gli agenti faticano a rilevare i cambiamenti nello spazio di lavoro e a riconciliare le modifiche conflittuali.",
+                "lmo": "Di ricercador de l'Accademia Cinesa di Scienz hann publicaa el 3 d'agost 2026 <a href=\"https://trae1oung.github.io/SWE-Touch/\">SWE-Touch</a>, on framework che l' valuta la capacità di agent de codifica a capì e respond ai modifich de code in d'on spazi de lavor spartii. Iniettand di contra-edit plausibil in del code, el benchmark el ridus el tass de risoluzion medi de 7,7 pont in su SWE-bench Verified. L'analisi di traiettori la mostra che i agent fadighen a rilevà i cambiament in del spazi de lavor e a reconcilià i modifich conflittuai."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://trae1oung.github.io/SWE-Touch/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ScrambleToolBench : les agents peinent à s'adapter aux changements d'environnement",
+                "en": "ScrambleToolBench: Agents Struggle to Adapt to Environmental Changes",
+                "de": "ScrambleToolBench: Agenten haben Mühe, sich an Umweltveränderungen anzupassen",
+                "it": "ScrambleToolBench: gli agenti faticano ad adattarsi ai cambiamenti ambientali",
+                "lmo": "ScrambleToolBench : i agent fadighen a adattàss ai cambiament d'ambient"
+              },
+              "body": {
+                "fr": "Le laboratoire DeCLaRe a publié le 3 août 2026 <a href=\"https://github.com/declare-lab/ScrambleToolBench\">ScrambleToolBench</a>, un benchmark interactif qui teste la capacité des agents à inférer le comportement de systèmes inconnus par essai-erreur. En supprimant les indices sémantiques et en introduisant des défis dynamiques (dérive de cartographie, échecs d'action stochastiques), l'évaluation montre que les modèles actuels échouent à utiliser des stratégies déductives face aux changements structurels, recourant à une recherche exhaustive coûteuse même quand leur propre « carte » indique la prochaine étape.",
+                "en": "The DeCLaRe lab published on Monday, 3 August 2026 <a href=\"https://github.com/declare-lab/ScrambleToolBench\">ScrambleToolBench</a>, an interactive benchmark that tests agents' ability to infer the behavior of unknown systems through trial and error. By removing semantic cues and introducing dynamic challenges (mapping drift, stochastic action failures), the evaluation shows that current models fail to use deductive strategies when facing structural changes, resorting to costly exhaustive search even when their own \"map\" indicates the next step.",
+                "de": "Das DeCLaRe-Labor hat am 3. August 2026 <a href=\"https://github.com/declare-lab/ScrambleToolBench\">ScrambleToolBench</a> veröffentlicht, einen interaktiven Benchmark, der die Fähigkeit von Agenten testet, das Verhalten unbekannter Systeme durch Versuch und Irrtum zu erschliessen. Durch das Entfernen semantischer Hinweise und das Einführen dynamischer Herausforderungen (Mapping-Drift, stochastische Aktionsfehler) zeigt die Evaluation, dass aktuelle Modelle angesichts struktureller Veränderungen keine deduktiven Strategien anwenden, sondern auf kostspielige erschöpfende Suche zurückgreifen, selbst wenn ihre eigene «Karte» den nächsten Schritt anzeigt.",
+                "it": "Il laboratorio DeCLaRe ha pubblicato il 3 agosto 2026 <a href=\"https://github.com/declare-lab/ScrambleToolBench\">ScrambleToolBench</a>, un benchmark interattivo che testa la capacità degli agenti di inferire il comportamento di sistemi sconosciuti per tentativi ed errori. Rimuovendo gli indizi semantici e introducendo sfide dinamiche (deriva di mappatura, fallimenti d'azione stocastici), la valutazione mostra che i modelli attuali falliscono nell'utilizzare strategie deduttive di fronte ai cambiamenti strutturali, ricorrendo a una ricerca esaustiva costosa anche quando la loro stessa «mappa» indica il passo successivo.",
+                "lmo": "El laboratori DeCLaRe l'ha publicaa el 3 d'agost 2026 <a href=\"https://github.com/declare-lab/ScrambleToolBench\">ScrambleToolBench</a>, on benchmark interativ che l' testa la capacità di agent a inferì el comportament de sistema sconossuu per tentativ e error. S'cancelland i indiz semantich e introducend di sfid dinemich (deriva de cartografia, falliment d'azion stocastich), la valutazion la mostra che i modell atuai fallissen a doperà di strategij deduttiv denanz ai cambiament struturai, ricorrend a ona ricerca esaustiva costosa anca quand che la soa « carta » l' indica el pass vegnent."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://github.com/declare-lab/ScrambleToolBench"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Opinion",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Genspark open-source GenOffice, une suite bureautique IA sans publicité",
+                "en": "Genspark Open-Sources GenOffice, an Ad-Free AI Office Suite",
+                "de": "Genspark macht GenOffice als Open Source verfügbar, eine werbefreie KI-Bürosuite",
+                "it": "Genspark apre il codice di GenOffice, una suite per ufficio IA senza pubblicità",
+                "lmo": "Genspark el open-source GenOffice, ona suite d'ufici IA senza publicità"
+              },
+              "body": {
+                "fr": "Genspark a open-sourcé le 3 août 2026 sous licence Apache 2.0 <a href=\"https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/\">GenOffice</a>, une suite bureautique IA-native pour macOS et Windows couvrant Docs, Sheets, Slides et PDF. L'innovation technique principale est un round-trip byte-preserving : seuls les paragraphes édités sont régénérés en OOXML et réinsérés dans le fichier original, préservant la mise en page dans Word. Sheets associe le noyau open-source Univer à un moteur de calcul Rust maison.",
+                "en": "Genspark open-sourced on Monday, 3 August 2026 under the Apache 2.0 license <a href=\"https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/\">GenOffice</a>, an AI-native office suite for macOS and Windows covering Docs, Sheets, Slides and PDF. The main technical innovation is byte-preserving round-trip: only edited paragraphs are regenerated in OOXML and reinserted into the original file, preserving layout in Word. Sheets combines the open-source Univer kernel with a custom Rust computation engine.",
+                "de": "Genspark hat am 3. August 2026 unter der Apache-2.0-Lizenz <a href=\"https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/\">GenOffice</a> als Open Source veröffentlicht, eine KI-native Bürosuite für macOS und Windows mit Docs, Sheets, Slides und PDF. Die technische Hauptinnovation ist ein byte-erhaltender Round-Trip: Nur bearbeitete Absätze werden in OOXML regeneriert und in die Originaldatei zurückgesetzt, wodurch das Layout in Word erhalten bleibt. Sheets kombiniert den Open-Source-Kernel Univer mit einer hauseigenen Rust-Berechnungsengine.",
+                "it": "Genspark ha aperto il codice il 3 agosto 2026 sotto licenza Apache 2.0 di <a href=\"https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/\">GenOffice</a>, una suite per ufficio IA-native per macOS e Windows che copre Docs, Sheets, Slides e PDF. L'innovazione tecnica principale è un round-trip byte-preserving: solo i paragrafi modificati vengono rigenerati in OOXML e reinseriti nel file originale, preservando l'impaginazione in Word. Sheets associa il kernel open-source Univer a un motore di calcolo Rust fatto in casa.",
+                "lmo": "Genspark l'ha open-sorcid el 3 d'agost 2026 sotta licenza Apache 2.0 <a href=\"https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/\">GenOffice</a>, ona suite d'ufici IA-nativa per macOS e Windows quatrand Docs, Sheets, Slides e PDF. L'innovazion tecnica principal l'è on round-trip byte-preserving: domà i paragraf editaa hinn regeneraa in OOXML e reinserii in del file original, preservand la mettuda in pàgina in Word. Sheets l'associa el nucli open-source Univer a on motor de calcol Rust de cà."
+              },
+              "kicker": {
+                "fr": "Open Source",
+                "en": "Open Source",
+                "de": "Open Source",
+                "it": "Open Source",
+                "lmo": "Open Source"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/08/03/genspark-open-sources-genoffice-a-free-ad-free-ai-office-suite-for-macos-and-windows-with-docs-sheets-slides-pdf/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Interpol : l'IA est devenue le « moteur opérationnel central » de la cybercriminalité en Afrique",
+                "en": "Interpol: AI Has Become the \"Core Operational Driver\" of Cybercrime in Africa",
+                "de": "Interpol: KI ist zum «zentralen operativen Motor» der Cyberkriminalität in Afrika geworden",
+                "it": "Interpol: l'IA è diventata il «motore operativo centrale» della criminalità informatica in Africa",
+                "lmo": "Interpol : l'IA l'è deventada el « motor operativ central » de la criminalità informatega in Africa"
+              },
+              "body": {
+                "fr": "Selon un rapport d'Interpol publié le 3 août 2026, <a href=\"https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/\">l'IA est impliquée dans 55 % des cybercrimes signalés en Afrique</a>. Les pertes financières ont plus que doublé, passant de 192 à 484 millions de dollars, et environ 600 000 cas d'extorsion numérique impliquant des deepfakes ont été enregistrés. Le rapport qualifie l'IA de « moteur opérationnel central » de la cybercriminalité sur le continent.",
+                "en": "According to an Interpol report published on Monday, 3 August 2026, <a href=\"https://the-decoder.com/interpol-says-ai-has-been-the-core-operational-driver-of-cybercrime-across-africa/\">AI is involved in 55% of reported cybercrimes in Africa</a>. Financial losses have more than doubled, from $192 million to $484 million, and approximately 600,000 cases of digital extortion involving deepfakes have been recorded. The report describes AI as the \"core operational driver\" of cybercrime on the continent.",
+                "de": "Laut einem am 3. August 2026 veröffentlichten Interpol-Bericht <a href=\"https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/\">ist KI an 55 % der gemeldeten Cyberkriminalität in Afrika beteiligt</a>. Die finanziellen Verluste haben sich von 192 auf 484 Millionen US-Dollar mehr als verdoppelt, und rund 600 000 Fälle digitaler Erpressung mit Deepfakes wurden registriert. Der Bericht bezeichnet KI als «zentralen operativen Motor» der Cyberkriminalität auf dem Kontinent.",
+                "it": "Secondo un rapporto di Interpol pubblicato il 3 agosto 2026, <a href=\"https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/\">l'IA è coinvolta nel 55% dei crimini informatici segnalati in Africa</a>. Le perdite finanziarie sono più che raddoppiate, passando da 192 a 484 milioni di dollari, e circa 600 000 casi di estorsione digitale che coinvolgono deepfake sono stati registrati. Il rapporto definisce l'IA «motore operativo centrale» della criminalità informatica nel continente.",
+                "lmo": "Segond on rapport d'Interpol publicaa el 3 d'agost 2026, <a href=\"https://the-decoder.com/interpol-says-ai-has-become-the-core-operational-driver-of-cybercrime-across-africa/\">l'IA l'è involucrada in del 55 % di crimin informategh segnalaa in Africa</a>. I perdit finanzieri hinn pussee che dobiad, passand de 192 a 484 milion de dollar, e circa 600 000 cas d'estorsion digitala che involucraven di deepfake hinn staa registraa. El rapport el qualifica l'IA de « motor operativ central » de la criminalità informatega in sul continent."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://the-decoder.com/interpol-says-ai-has-been-the-core-operational-driver-of-cybercrime-across-africa/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Design Arena lève 7,9 millions de dollars pour « apporter le goût » aux modèles IA",
+                "en": "Design Arena Raises $7.9 Million to \"Bring Taste\" to AI Models",
+                "de": "Design Arena sammelt 7,9 Millionen US-Dollar ein, um KI-Modellen «Geschmack» zu verleihen",
+                "it": "Design Arena raccoglie 7,9 milioni di dollari per «portare il gusto» ai modelli IA",
+                "lmo": "Design Arena l'als 7,9 milion de dollar per « portà el gust » ai modell IA"
+              },
+              "body": {
+                "fr": "Les créateurs de Design Arena ont annoncé le 3 août 2026 une levée de fonds de <a href=\"https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\">7,9 millions de dollars</a>. Utilisée par 5,3 millions de personnes dans le monde, la plateforme fournit des évaluations humaines critiques aux laboratoires frontière. Design Arena permet de classer les modèles selon des critères esthétiques et qualitatifs, un complément aux benchmarks automatiques traditionnels.",
+                "en": "The creators of Design Arena announced on Monday, 3 August 2026 a funding round of <a href=\"https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\">$7.9 million</a>. Used by 5.3 million people worldwide, the platform provides critical human evaluations to frontier labs. Design Arena enables ranking models according to aesthetic and qualitative criteria, a complement to traditional automated benchmarks.",
+                "de": "Die Macher von Design Arena haben am 3. August 2026 eine Finanzierungsrunde in Höhe von <a href=\"https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\">7,9 Millionen US-Dollar</a> bekannt gegeben. Die Plattform, die von 5,3 Millionen Menschen weltweit genutzt wird, bietet Grenzlaboren kritische menschliche Bewertungen. Design Arena ermöglicht die Klassifizierung von Modellen nach ästhetischen und qualitativen Kriterien, eine Ergänzung zu den traditionellen automatischen Benchmarks.",
+                "it": "I creatori di Design Arena hanno annunciato il 3 agosto 2026 una raccolta fondi di <a href=\"https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\">7,9 milioni di dollari</a>. Utilizzata da 5,3 milioni di persone nel mondo, la piattaforma fornisce valutazioni umane critiche ai laboratori frontiera. Design Arena consente di classificare i modelli secondo criteri estetici e qualitativi, un complemento ai benchmark automatici tradizionali.",
+                "lmo": "I creator de Design Arena hann anunziaa el 3 d'agost 2026 ona levada de fons de <a href=\"https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/\">7,9 milion de dollar</a>. Doperada de 5,3 milion de personn in del mond, la piattaforma la forniss di valutazion uman critic ai laboratori frontiera. Design Arena la permett de classificà i modell segond di criteri estetich e qualitativ, on complement ai benchmark automategh tradizionai."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Éditorial",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le dilemme de la transparence : quand les prompts système restent cachés",
+                "en": "The Transparency Dilemma: When System Prompts Remain Hidden",
+                "de": "Das Transparenz-Dilemma: Wenn System-Prompts verborgen bleiben",
+                "it": "Il dilemma della trasparenza: quando i prompt di sistema restano nascosti",
+                "lmo": "El dilemma de la trasparenza : quand che i prompt sistema resten sconduu"
+              },
+              "body": {
+                "fr": "Une étude de l'Université de Stanford publiée le 3 août 2026, <a href=\"https://systempromptindex.org/\">AISPA</a>, a audité 3 249 instructions provenant des prompts système de 88 produits d'IA commerciaux. Les résultats sont éloquents : 98,9 % des produits contiennent au moins une instruction protective, mais seulement 24 % couvrent les huit dimensions de protection identifiées par l'étude. Plus inquiétant, environ 40 % des produits contiennent au moins une instruction qui va à l'encontre des intérêts des utilisateurs. Les instructions protectives et problématiques coexistent fréquemment dans le même prompt. Cette opacité généralisée des prompts système — rarement divulgués au public ou aux régulateurs — crée un fossé de confiance et de responsabilité dans le déploiement des systèmes d'IA. L'étude appelle à une plus grande transparence, standardisation et supervision indépendante des prompts système dans les produits d'IA commerciaux.",
+                "en": "A study from Stanford University published on Monday, 3 August 2026, <a href=\"https://systempromptindex.org/\">AISPA</a>, audited 3,249 instructions from the system prompts of 88 commercial AI products. The findings are striking: 98.9% of products contain at least one protective instruction, but only 24% cover all eight protection dimensions identified by the study. More concerning, approximately 40% of products contain at least one instruction that runs counter to user interests. Protective and problematic instructions frequently coexist within the same prompt. This widespread opacity of system prompts — rarely disclosed to the public or regulators — creates a trust and accountability gap in the deployment of AI systems. The study calls for greater transparency, standardization and independent oversight of system prompts in commercial AI products.",
+                "de": "Eine am 3. August 2026 von der Stanford University veröffentlichte Studie, <a href=\"https://systempromptindex.org/\">AISPA</a>, hat 3 249 Anweisungen aus den System-Prompts von 88 kommerziellen KI-Produkten geprüft. Die Ergebnisse sind aussagekräftig: 98,9 % der Produkte enthalten mindestens eine schützende Anweisung, aber nur 24 % decken alle acht von der Studie identifizierten Schutzdimensionen ab. Besorgniserregender ist, dass etwa 40 % der Produkte mindestens eine Anweisung enthalten, die gegen die Interessen der Nutzer verstösst. Schützende und problematische Anweisungen koexistieren häufig im selben Prompt. Diese weit verbreitete Undurchsichtigkeit von System-Prompts – die selten der Öffentlichkeit oder den Aufsichtsbehörden offengelegt werden – schafft eine Vertrauens- und Verantwortungslücke bei der Bereitstellung von KI-Systemen. Die Studie fordert mehr Transparenz, Standardisierung und unabhängige Aufsicht über System-Prompts in kommerziellen KI-Produkten.",
+                "it": "Uno studio dell'Università di Stanford pubblicato il 3 agosto 2026, <a href=\"https://systempromptindex.org/\">AISPA</a>, ha auditato 3 249 istruzioni provenienti dai prompt di sistema di 88 prodotti IA commerciali. I risultati sono eloquenti: il 98,9% dei prodotti contiene almeno un'istruzione protettiva, ma solo il 24% copre le otto dimensioni di protezione identificate dallo studio. Più preoccupante, circa il 40% dei prodotti contiene almeno un'istruzione che va contro gli interessi degli utenti. Le istruzioni protettive e problematiche coesistono frequentemente nello stesso prompt. Questa opacità generalizzata dei prompt di sistema — raramente divulgati al pubblico o ai regolatori — crea un divario di fiducia e responsabilità nel dispiegamento dei sistemi di IA. Lo studio chiede una maggiore trasparenza, standardizzazione e supervisione indipendente dei prompt di sistema nei prodotti IA commerciali.",
+                "lmo": "On studi de l'Università de Stanford publicaa el 3 d'agost 2026, <a href=\"https://systempromptindex.org/\">AISPA</a>, l'ha auditaa 3 249 istruzzion vegnent di prompt sistema de 88 prodott d'IA commerciai. I resultà hinn eloquenti: 98,9 % di prodott contegnen almen ona istruzzion protettiva, ma domà el 24 % quatten i vot dimension de protezion identificad del studi. Pussee preocupant, circa el 40 % di prodott contegnen almen ona istruzzion che la va contra i interess di utent. I istruzzion protettiv e problematiche coexisten frequentement in l'istess prompt. Sta opacità generalizada di prompt sistema — rarament divulgada al publich o ai regolador — la crea on foss de fiducia e de responsabilità in del despiegament di sistema d'IA. El studi el ciama a ona maggior trasparenza, standardizzazion e supervision independenta di prompt sistema in di prodott d'IA commerciai."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://systempromptindex.org/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
