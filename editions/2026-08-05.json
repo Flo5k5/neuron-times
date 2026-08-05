@@ -1,0 +1,713 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-05",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Mistral AI a annoncé le 4 août 2026 Shieldstral, un classificateur de sécurité multimodal à poids ouverts de 3 milliards de paramètres. Selon l'entreprise française, le modèle <a href=\"https://mistral.ai/news/shieldstral/\">surpasse des classificateurs jusqu'à sept fois sa taille</a> dans les tâches de modération de contenu, couvrant simultanément les modalités texte et image. Sa disponibilité en poids ouverts autorise un déploiement local sans dépendance à une API propriétaire.",
+        "en": "Mistral AI announced on 4 August 2026 Shieldstral, an open-weights multimodal safety classifier with 3 billion parameters. According to the French company, the model <a href=\"https://mistral.ai/news/shieldstral/\">outperforms classifiers up to seven times its size</a> on content moderation tasks, covering both text and image modalities simultaneously. Its availability as open weights allows local deployment without reliance on a proprietary API.",
+        "de": "Mistral AI hat am 4. August 2026 Shieldstral angekündigt, einen multimodalen Sicherheitsklassifikator mit offenen Gewichten und 3 Milliarden Parametern. Gemäss dem französischen Unternehmen <a href=\"https://mistral.ai/news/shieldstral/\">übertrifft das Modell Klassifikatoren, die bis zu siebenmal so gross sind</a>, bei Aufgaben der Inhaltsmoderation und deckt dabei gleichzeitig Text- und Bildmodalitäten ab. Die Verfügbarkeit als offene Gewichte ermöglicht einen lokalen Einsatz ohne Abhängigkeit von einer proprietären API.",
+        "it": "Mistral AI ha annunciato il 4 agosto 2026 Shieldstral, un classificatore di sicurezza multimodale a pesi aperti da 3 miliardi di parametri. Secondo l'azienda francese, il modello <a href=\"https://mistral.ai/news/shieldstral/\">supera classificatori fino a sette volte le sue dimensioni</a> nei compiti di moderazione dei contenuti, coprendo simultaneamente le modalità testo e immagine. La sua disponibilità in pesi aperti consente un'implementazione locale senza dipendenza da un'API proprietaria.",
+        "lmo": "Mistral AI l'ha anunziaa el 4 de agost 2026 Shieldstral, on classificator de sicurezza multimodal a pès open de 3 miliard de parameter. Segond l'azienda francesa, el modei <a href=\"https://mistral.ai/news/shieldstral/\">el sorapassa di classificator finna a sett voeult la soa dimension</a> in di task de moderazion del contegnuu, covrend simultaneament i modalitaa test e image. La soa disponibilità in di pès open la permett on despiegament local senza dipendenza de ona API proprietaria."
+      },
+      {
+        "fr": "La sortie a suscité un vif intérêt dans la communauté technique : la <a href=\"https://news.ycombinator.com/item?id=49171268\">discussion sur Hacker News</a> a atteint 350 points et 84 commentaires en quelques heures, les débats portant sur l'architecture du modèle, ses limites face aux attaques adversariales et son positionnement face aux solutions propriétaires. Shieldstral se distingue par son encombrement réduit — 3 milliards de paramètres contre les 20+ milliards typiques des classificateurs de référence.",
+        "en": "The release sparked strong interest in the technical community: the <a href=\"https://news.ycombinator.com/item?id=49171268\">Hacker News discussion</a> reached 350 points and 84 comments within hours, with debates centring on the model's architecture, its limitations against adversarial attacks, and its positioning relative to proprietary solutions. Shieldstral stands out for its compact footprint — 3 billion parameters versus the 20+ billion typical of reference classifiers.",
+        "de": "Die Veröffentlichung hat in der technischen Community grosses Interesse ausgelöst: Die <a href=\"https://news.ycombinator.com/item?id=49171268\">Diskussion auf Hacker News</a> erreichte innerhalb weniger Stunden 350 Punkte und 84 Kommentare. Die Debatten drehten sich um die Modellarchitektur, die Grenzen bei adversariellen Angriffen und die Positionierung gegenüber proprietären Lösungen. Shieldstral zeichnet sich durch seinen geringen Fussabdruck aus – 3 Milliarden Parameter gegenüber den typischen 20+ Milliarden bei Referenzklassifikatoren.",
+        "it": "Il rilascio ha suscitato vivo interesse nella comunità tecnica: la <a href=\"https://news.ycombinator.com/item?id=49171268\">discussione su Hacker News</a> ha raggiunto 350 punti e 84 commenti in poche ore, con dibattiti sull'architettura del modello, i suoi limiti di fronte agli attacchi avversari e il suo posizionamento rispetto alle soluzioni proprietarie. Shieldstral si distingue per il suo ingombro ridotto — 3 miliardi di parametri contro i 20+ miliardi tipici dei classificatori di riferimento.",
+        "lmo": "La sortida l'ha faa nasser on fort interess in de la comunitaa tecnica: la <a href=\"https://news.ycombinator.com/item?id=49171268\">discussion in su Hacker News</a> l'ha raggiungiuu 350 pont e 84 comment in d'on quaj ora, con di dibattid in su l'architettura del modei, i soeu limit denanz ai attacch aversariaj e 'l so posizionament denanz ai soluzion proprietari. Shieldstral el se disting per el so ingomber ridott — 3 miliard de parameter contra i 20+ miliard tipegh di classificator de riferiment."
+      },
+      {
+        "fr": "Le lancement intervient dans un contexte de tensions croissantes autour de la sécurité des modèles ouverts. Le même jour, un rapport de l'organisation SaferAI souligne que le modèle GLM-5.2 de Z.ai, diffusé en poids ouverts, approche les capacités de la frontière tout en manquant de garde-fous essentiels — relançant le débat sur la capacité des outils de sécurité open source à suivre le rythme de l'innovation.",
+        "en": "The launch comes amid growing tensions around the safety of open models. On the same day, a report from the organisation SaferAI highlights that Z.ai's GLM-5.2, released as open weights, approaches frontier-level capabilities while lacking essential guardrails — reigniting the debate over whether open-source safety tools can keep pace with innovation.",
+        "de": "Der Launch erfolgt vor dem Hintergrund wachsender Spannungen rund um die Sicherheit offener Modelle. Am selben Tag weist ein Bericht der Organisation SaferAI darauf hin, dass das Modell GLM-5.2 von Z.ai, das als offene Gewichte verbreitet wird, sich den Fähigkeiten der Frontier nähert, während ihm wesentliche Schutzmechanismen fehlen – was die Debatte darüber neu entfacht, ob Open-Source-Sicherheitstools mit dem Innovationstempo Schritt halten können.",
+        "it": "Il lancio arriva in un contesto di crescenti tensioni attorno alla sicurezza dei modelli aperti. Lo stesso giorno, un rapporto dell'organizzazione SaferAI evidenzia che il modello GLM-5.2 di Z.ai, diffuso a pesi aperti, si avvicina alle capacità di frontiera pur mancando di salvaguardie essenziali — rilanciando il dibattito sulla capacità degli strumenti di sicurezza open source di tenere il passo con l'innovazione.",
+        "lmo": "El lanciaiment el riva in d'on contest de tension semper pussee fort intorna a la sicurezza di modej open. L'istess dì, on rapport de l'organizzazion SaferAI el sottoligna che el modei GLM-5.2 de Z.ai, spantegaa cont pès open, el se vesina ai capacitaa de la frontiera intant che 'l gh'ha minga i guard-fund essenziaj — relansand el dibattid sora la capacità di strument de sicurezza open source de segondagg el ritmi de l'innovazion."
+      }
+    ],
+    "urls": [
+      "https://mistral.ai/news/shieldstral/",
+      "https://news.ycombinator.com/item?id=49171268"
+    ],
+    "kicker": {
+      "fr": "Sécurité des modèles",
+      "en": "Model Safety",
+      "de": "Modellsicherheit",
+      "it": "Sicurezza dei modelli",
+      "lmo": "Sicurezza di modej"
+    },
+    "headline": {
+      "fr": "Mistral lance Shieldstral, un classificateur de sécurité multimodal open-weights de 3 milliards de paramètres",
+      "en": "Mistral launches Shieldstral, a 3-billion-parameter open-weights multimodal safety classifier",
+      "de": "Mistral lanciert Shieldstral – ein multimodaler Open-Weights-Sicherheitsklassifikator mit 3 Milliarden Parametern",
+      "it": "Mistral lancia Shieldstral, un classificatore di sicurezza multimodale open-weights da 3 miliardi di parametri",
+      "lmo": "Mistral el lancia Shieldstral, on classificator de sicurezza multimodal open-weights de 3 miliard de parameter"
+    },
+    "subdeck": {
+      "fr": "Le modèle dépasse des classificateurs jusqu'à sept fois sa taille pour la modération de contenu texte et image, comblant un manque critique dans l'écosystème open source.",
+      "en": "The model outperforms classifiers up to seven times its size on text and image content moderation, filling a critical gap in the open-source ecosystem.",
+      "de": "Das Modell übertrifft Klassifikatoren, die bis zu siebenmal so gross sind, bei der Text- und Bild-Moderation und schliesst eine kritische Lücke im Open-Source-Ökosystem.",
+      "it": "Il modello supera classificatori fino a sette volte le sue dimensioni per la moderazione di contenuti testuali e visivi, colmando una lacuna critica nell'ecosistema open source.",
+      "lmo": "El modei el sorapassa di classificator finna a sett voeult la soa dimension per la moderazion del contegnuu test e image, colmand on macc critich in de l'ecosistema open source."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic verrouille 10 milliards de dollars de calcul auprès de Volta",
+        "en": "Anthropic locks in $10 billion in compute from Volta",
+        "de": "Anthropic sichert sich 10 Milliarden Dollar an Rechenleistung bei Volta",
+        "it": "Anthropic blocca 10 miliardi di dollari di calcolo con Volta",
+        "lmo": "Anthropic el bloca 10 miliard de doller de calcol con Volta"
+      },
+      "body": {
+        "fr": "Anthropic a signé un accord de 10 milliards de dollars avec <a href=\"https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/\">Volta Infra Holdings</a>, une startup cloud née il y a moins de six mois. Parallèlement, <a href=\"https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\">TechCrunch</a> rapporte que Google construit avec Broadcom, Apollo et Morgan Stanley une structure financière maintenant environ 200 milliards de dollars de contrats hors bilan, dépendants de la croissance continue d'Anthropic.",
+        "en": "Anthropic has signed a $10 billion deal with <a href=\"https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/\">Volta Infra Holdings</a>, a cloud startup founded less than six months ago. Separately, <a href=\"https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\">TechCrunch</a> reports that Google is building with Broadcom, Apollo and Morgan Stanley a financial structure maintaining approximately $200 billion in off-balance-sheet contracts, contingent on Anthropic's continued growth.",
+        "de": "Anthropic hat eine Vereinbarung über 10 Milliarden Dollar mit <a href=\"https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/\">Volta Infra Holdings</a> geschlossen, einem Cloud-Startup, das vor weniger als sechs Monaten gegründet wurde. Parallel dazu berichtet <a href=\"https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\">TechCrunch</a>, dass Google gemeinsam mit Broadcom, Apollo und Morgan Stanley eine Finanzstruktur aufbaut, die rund 200 Milliarden Dollar an Verträgen ausserhalb der Bilanz hält – abhängig vom kontinuierlichen Wachstum von Anthropic.",
+        "it": "Anthropic ha firmato un accordo da 10 miliardi di dollari con <a href=\"https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/\">Volta Infra Holdings</a>, una startup cloud nata meno di sei mesi fa. Parallelamente, <a href=\"https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\">TechCrunch</a> riferisce che Google sta costruendo con Broadcom, Apollo e Morgan Stanley una struttura finanziaria che mantiene circa 200 miliardi di dollari di contratti fuori bilancio, dipendenti dalla crescita continua di Anthropic.",
+        "lmo": "Anthropic l'ha firmaa on accord de 10 miliard de doller con <a href=\"https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/\">Volta Infra Holdings</a>, ona startup cloud nassuda manch de ses mes faa. In manera parallela, <a href=\"https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/\">TechCrunch</a> el riporta che Google l'è dree a tirà su con Broadcom, Apollo e Morgan Stanley ona struttura finanziaria che la mantegn circa 200 miliard de doller de contracc foeura del bilanc, dipendents de la crescita continua de Anthropic."
+      },
+      "tag": {
+        "fr": "Business",
+        "en": "Business",
+        "de": "Wirtschaft",
+        "it": "Business",
+        "lmo": "Business"
+      },
+      "wire": {
+        "fr": "From the Wires — 4 août 2026",
+        "en": "From the Wires — 4 August 2026",
+        "de": "From the Wires — 4. August 2026",
+        "it": "From the Wires — 4 agosto 2026",
+        "lmo": "From the Wires — 4 de agost 2026"
+      },
+      "urls": [
+        "https://techcrunch.com/2026/08/04/anthropic-signs-10-billion-deal-with-ai-cloud-startup-volta/",
+        "https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cursor open-source Mixture-of-Kittens, un mégakernel MoE 2,37× plus rapide",
+        "en": "Cursor open-sources Mixture-of-Kittens, a MoE megakernel 2.37× faster",
+        "de": "Cursor veröffentlicht Mixture-of-Kittens als Open Source – ein MoE-Megakernel, der 2,37× schneller ist",
+        "it": "Cursor rende open source Mixture-of-Kittens, un megakernel MoE 2,37× più veloce",
+        "lmo": "Cursor el rend open source Mixture-of-Kittens, on megakernel MoE 2,37× pussee svelt"
+      },
+      "body": {
+        "fr": "Cursor Research a open-sourcé <a href=\"https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\">Mixture-of-Kittens (MoK)</a>, le mégakernel d'entraînement MoE qui propulse ses modèles Composer. MoK fusionne toute la communication et le calcul des mixture-of-experts en un seul kernel déterministe, atteignant un facteur d'accélération de 2,37× sur les racks GB300 NVL72. Le système requiert des GPU Blackwell SM100 ou SM103.",
+        "en": "Cursor Research has open-sourced <a href=\"https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\">Mixture-of-Kittens (MoK)</a>, the MoE training megakernel that powers its Composer models. MoK fuses all mixture-of-experts communication and computation into a single deterministic kernel, achieving a 2.37× speedup on GB300 NVL72 racks. The system requires Blackwell SM100 or SM103 GPUs.",
+        "de": "Cursor Research hat <a href=\"https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\">Mixture-of-Kittens (MoK)</a> als Open Source veröffentlicht – den MoE-Trainings-Megakernel, der seine Composer-Modelle antreibt. MoK fusioniert die gesamte Kommunikation und Berechnung der Mixture-of-Experts in einen einzigen deterministischen Kernel und erreicht einen Beschleunigungsfaktor von 2,37× auf GB300 NVL72-Racks. Das System benötigt Blackwell-GPUs des Typs SM100 oder SM103.",
+        "it": "Cursor Research ha reso open source <a href=\"https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\">Mixture-of-Kittens (MoK)</a>, il megakernel di addestramento MoE che alimenta i suoi modelli Composer. MoK fonde tutta la comunicazione e il calcolo dei mixture-of-experts in un unico kernel deterministico, raggiungendo un fattore di accelerazione di 2,37× sui rack GB300 NVL72. Il sistema richiede GPU Blackwell SM100 o SM103.",
+        "lmo": "Cursor Research l'ha renduu open source <a href=\"https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/\">Mixture-of-Kittens (MoK)</a>, el megakernel de addestrament MoE che 'l sping i so modej Composer. MoK el fonn tutta la comunicazion e 'l calcol di mixture-of-experts in d'on sol kernel deterministegh, raggiungend on fattor de acelerazion de 2,37× sora i rack GB300 NVL72. El sistema el ghe besogn de GPU Blackwell SM100 o SM103."
+      },
+      "tag": {
+        "fr": "Open Source",
+        "en": "Open Source",
+        "de": "Open Source",
+        "it": "Open Source",
+        "lmo": "Open Source"
+      },
+      "wire": {
+        "fr": "From the Wires — 4 août 2026",
+        "en": "From the Wires — 4 August 2026",
+        "de": "From the Wires — 4. August 2026",
+        "it": "From the Wires — 4 agosto 2026",
+        "lmo": "From the Wires — 4 de agost 2026"
+      },
+      "urls": [
+        "https://www.marktechpost.com/2026/08/04/cursor-open-sources-mixture-of-kittens-mok-a-deterministic-moe-training-megakernel-for-gb300-nvl72-racks/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "LiquidAI déploie LFM2.5-2.6B pour l'exécution locale d'agents",
+        "en": "LiquidAI deploys LFM2.5-2.6B for local agent execution",
+        "de": "LiquidAI setzt LFM2.5-2.6B für die lokale Ausführung von Agenten ein",
+        "it": "LiquidAI distribuisce LFM2.5-2.6B per l'esecuzione locale di agenti",
+        "lmo": "LiquidAI el despiega LFM2.5-2.6B per l'esecuzion local di agent"
+      },
+      "body": {
+        "fr": "LiquidAI a publié <a href=\"https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\">LFM2.5-2.6B</a> le 4 août 2026, un modèle de 2,6 milliards de paramètres conçu pour exécuter des agents IA localement sur tout type d'appareil. Le modèle est hébergé sur Hugging Face et cible les cas d'usage agentiques en environnement contraint, où l'encombrement mémoire et la latence priment.",
+        "en": "LiquidAI released <a href=\"https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\">LFM2.5-2.6B</a> on 4 August 2026, a 2.6-billion-parameter model designed to run AI agents locally on any device. The model is hosted on Hugging Face and targets agentic use cases in constrained environments, where memory footprint and latency are paramount.",
+        "de": "LiquidAI hat am 4. August 2026 <a href=\"https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\">LFM2.5-2.6B</a> veröffentlicht, ein Modell mit 2,6 Milliarden Parametern, das dafür konzipiert ist, KI-Agenten lokal auf beliebigen Geräten auszuführen. Das Modell ist auf Hugging Face gehostet und zielt auf agentische Anwendungsfälle in ressourcenbeschränkten Umgebungen ab, wo Speicherbedarf und Latenz im Vordergrund stehen.",
+        "it": "LiquidAI ha pubblicato <a href=\"https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\">LFM2.5-2.6B</a> il 4 agosto 2026, un modello da 2,6 miliardi di parametri progettato per eseguire agenti IA localmente su qualsiasi tipo di dispositivo. Il modello è ospitato su Hugging Face e mira ai casi d'uso agentici in ambienti con risorse limitate, dove l'ingombro di memoria e la latenza sono prioritari.",
+        "lmo": "LiquidAI l'ha publicaa <a href=\"https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b\">LFM2.5-2.6B</a> el 4 de agost 2026, on modei de 2,6 miliard de parameter concepii per eseguì di agent IA in local sora ogni tipo de dispositiv. El modei l'è ospitaa in su Hugging Face e 'l mira ai cas d'us aggentegh in ambient restringiuu, dove l'ingomber de memoria e la latenza hinn al primm post."
+      },
+      "tag": {
+        "fr": "Modèles",
+        "en": "Models",
+        "de": "Modelle",
+        "it": "Modelli",
+        "lmo": "Modej"
+      },
+      "wire": {
+        "fr": "From the Wires — 4 août 2026",
+        "en": "From the Wires — 4 August 2026",
+        "de": "From the Wires — 4. August 2026",
+        "it": "From the Wires — 4 agosto 2026",
+        "lmo": "From the Wires — 4 de agost 2026"
+      },
+      "urls": [
+        "https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "La Maison Blanche prépare un cadre d'évaluation des risques de sécurité IA",
+        "en": "White House prepares AI safety risk assessment framework",
+        "de": "Das Weisse Haus bereitet einen Rahmen zur Bewertung von KI-Sicherheitsrisiken vor",
+        "it": "La Casa Bianca prepara un quadro di valutazione dei rischi di sicurezza IA",
+        "lmo": "La Cà Bianca la pronta on quadri de valutazion di ris'c de sicurezza IA"
+      },
+      "body": {
+        "fr": "L'administration Trump finalise un <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">cadre d'évaluation volontaire</a> couvrant les modèles d'IA à source fermée, mais excluant explicitement ceux qui publient leur code sous-jacent. Cette exclusion survient alors qu'une fracture s'accentue au sein de la Silicon Valley : OpenAI et Anthropic poussent pour des restrictions sur les modèles chinois, tandis que Nvidia, Google et Meta s'y opposent.",
+        "en": "The Trump administration is finalising a <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">voluntary assessment framework</a> covering closed-source AI models, but explicitly excluding those that publish their underlying code. This exclusion comes as a rift deepens within Silicon Valley: OpenAI and Anthropic are pushing for restrictions on Chinese models, while Nvidia, Google and Meta oppose them.",
+        "de": "Die Trump-Administration finalisiert einen <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">freiwilligen Bewertungsrahmen</a>, der Modelle mit geschlossenem Quellcode abdeckt, jedoch jene explizit ausschliesst, die ihren zugrundeliegenden Code veröffentlichen. Dieser Ausschluss erfolgt zu einem Zeitpunkt, als sich eine Spaltung im Silicon Valley vertieft: OpenAI und Anthropic drängen auf Beschränkungen gegenüber chinesischen Modellen, während Nvidia, Google und Meta sich dagegen wehren.",
+        "it": "L'amministrazione Trump sta finalizzando un <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">quadro di valutazione volontario</a> che copre i modelli di IA a sorgente chiusa, escludendo però esplicitamente quelli che pubblicano il loro codice sottostante. Questa esclusione arriva mentre si accentua una frattura all'interno della Silicon Valley: OpenAI e Anthropic spingono per restrizioni sui modelli cinesi, mentre Nvidia, Google e Meta si oppongono.",
+        "lmo": "L'aministrazion Trump la finalizza on <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">quadri de valutazion volontari</a> che 'l covre i modej de IA a sorgent seraada, ma che 'l esclud esplicitament quej che publichen el so codes sotta. Questa esclusion la riva intant che ona spaccadura la seprofonda in de la Silicon Valley: OpenAI e Anthropic i spingen per di restrezzion sora i modej cinees, intant che Nvidia, Google e Meta i se opponen."
+      },
+      "tag": {
+        "fr": "Politique",
+        "en": "Policy",
+        "de": "Politik",
+        "it": "Politica",
+        "lmo": "Politica"
+      },
+      "wire": {
+        "fr": "From the Wires — 4 août 2026",
+        "en": "From the Wires — 4 August 2026",
+        "de": "From the Wires — 4. August 2026",
+        "it": "From the Wires — 4 agosto 2026",
+        "lmo": "From the Wires — 4 de agost 2026"
+      },
+      "urls": [
+        "https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite — Modelle & Frontier",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In prima pagina — Modej & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière des modèles",
+            "en": "Model Frontier",
+            "de": "Frontier der Modelle",
+            "it": "Frontiera dei modelli",
+            "lmo": "Frontiera di modej"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Maple-Preview : un MoE ternaire de 20B tourne à 120 tokens/seconde sur iPhone",
+                "en": "Maple-Preview: a 20B ternary MoE runs at 120 tokens/second on iPhone",
+                "de": "Maple-Preview: Ein ternärer MoE mit 20B erreicht 120 Tokens/Sekunde auf dem iPhone",
+                "it": "Maple-Preview: un MoE ternario da 20B gira a 120 token/secondo su iPhone",
+                "lmo": "Maple-Preview: on MoE ternari de 20B che 'l va a 120 token al segond sora l'iPhone"
+              },
+              "body": {
+                "fr": "DeepGrove a présenté le 4 août 2026 Maple-Preview, un modèle mixture-of-experts ternaire de 20 milliards de paramètres capable d'atteindre <a href=\"https://deepgrove.ai/maple-preview\">120 tokens par seconde sur un iPhone</a>. La démonstration, <a href=\"https://news.ycombinator.com/item?id=49173984\">saluée sur Hacker News</a> avec 82 points et 22 commentaires, illustre les progrès de la quantification ternaire — où chaque poids est codé sur 1,58 bits — pour l'inférence sur appareil mobile.",
+                "en": "DeepGrove unveiled on 4 August 2026 Maple-Preview, a 20-billion-parameter ternary mixture-of-experts model capable of reaching <a href=\"https://deepgrove.ai/maple-preview\">120 tokens per second on an iPhone</a>. The demonstration, <a href=\"https://news.ycombinator.com/item?id=49173984\">praised on Hacker News</a> with 82 points and 22 comments, illustrates the progress of ternary quantisation — where each weight is encoded on 1.58 bits — for on-device mobile inference.",
+                "de": "DeepGrove hat am 4. August 2026 Maple-Preview vorgestellt, ein ternäres Mixture-of-Experts-Modell mit 20 Milliarden Parametern, das <a href=\"https://deepgrove.ai/maple-preview\">120 Tokens pro Sekunde auf einem iPhone</a> erreicht. Die Demonstration, die auf <a href=\"https://news.ycombinator.com/item?id=49173984\">Hacker News mit 82 Punkten und 22 Kommentaren</a> Anerkennung fand, veranschaulicht die Fortschritte der ternären Quantisierung – bei der jedes Gewicht auf 1,58 Bits codiert wird – für die Inferenz auf mobilen Geräten.",
+                "it": "DeepGrove ha presentato il 4 agosto 2026 Maple-Preview, un modello mixture-of-experts ternario da 20 miliardi di parametri in grado di raggiungere <a href=\"https://deepgrove.ai/maple-preview\">120 token al secondo su un iPhone</a>. La dimostrazione, <a href=\"https://news.ycombinator.com/item?id=49173984\">acclamata su Hacker News</a> con 82 punti e 22 commenti, illustra i progressi della quantizzazione ternaria — in cui ogni peso è codificato su 1,58 bit — per l'inferenza su dispositivi mobili.",
+                "lmo": "DeepGrove l'ha presentaa el 4 de agost 2026 Maple-Preview, on modei mixture-of-experts ternari de 20 miliard de parameter bon de raggiung <a href=\"https://deepgrove.ai/maple-preview\">120 token al segond sora on iPhone</a>. La dimostrazion, <a href=\"https://news.ycombinator.com/item?id=49173984\">saludada in su Hacker News</a> con 82 pont e 22 comment, la illustra i progress de la quantifegazion ternaria — dove ogni pès l'è codifegaa sora 1,58 bit — per l'inferenzia sora dispositiv mobel."
+              },
+              "kicker": {
+                "fr": "Inférence mobile",
+                "en": "Mobile Inference",
+                "de": "Mobile Inferenz",
+                "it": "Inferenza mobile",
+                "lmo": "Inferenzia mobel"
+              },
+              "urls": [
+                "https://deepgrove.ai/maple-preview",
+                "https://news.ycombinator.com/item?id=49173984"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI publie le détail de ses évaluations cybersécurité par des tiers",
+                "en": "OpenAI publishes details of its third-party cybersecurity evaluations",
+                "de": "OpenAI veröffentlicht Details zu externen Cybersicherheits-Evaluierungen",
+                "it": "OpenAI pubblica i dettagli delle sue valutazioni di cybersecurity di terze parti",
+                "lmo": "OpenAI el pubblica el detali di so valutazion de cybersicurezza de terz"
+              },
+              "body": {
+                "fr": "OpenAI a publié le 4 août 2026 un <a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\">compte-rendu d'incidents</a> survenus lors d'évaluations cybersécurité menées par des acteurs externes sur ses modèles. L'entreprise décrit de nouveaux garde-fous destinés à renforcer les protocoles de test et d'évaluation face aux menaces offensives, sans toutefois détailler les vulnérabilités spécifiques exploitées lors des incidents.",
+                "en": "OpenAI released on 4 August 2026 an <a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\">incident report</a> on events that occurred during cybersecurity evaluations conducted by external actors on its models. The company describes new guardrails designed to strengthen testing and evaluation protocols against offensive threats, without however detailing the specific vulnerabilities exploited during the incidents.",
+                "de": "OpenAI hat am 4. August 2026 einen <a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\">Bericht über Vorfälle</a> veröffentlicht, die bei Cybersicherheits-Evaluierungen durch externe Akteure an seinen Modellen auftraten. Das Unternehmen beschreibt neue Schutzmassnahmen zur Stärkung der Test- und Bewertungsprotokolle gegenüber offensiven Bedrohungen, ohne jedoch die spezifischen Schwachstellen zu detaillieren, die bei den Vorfällen ausgenutzt wurden.",
+                "it": "OpenAI ha pubblicato il 4 agosto 2026 un <a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\">resoconto di incidenti</a> verificatisi durante valutazioni di cybersecurity condotte da attori esterni sui suoi modelli. L'azienda descrive nuove salvaguardie volte a rafforzare i protocolli di test e valutazione di fronte alle minacce offensive, senza però dettagliare le vulnerabilità specifiche sfruttate durante gli incidenti.",
+                "lmo": "OpenAI l'ha publicaa el 4 de agost 2026 on <a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models\">rendicont di incident</a> sucess durant di valutazion de cybersicurezza menaa de attor esterni sora i so modej. L'azienda la descriv di noeuv guard-fund destinaa a rinforzà i protocoeuj de prov e de valutazion denanz ai menasc offeusiv, senza però dà i detali di vulnerabilitaa spezzifegh sfruttaa durant i incident."
+              },
+              "kicker": {
+                "fr": "Évaluations",
+                "en": "Evaluations",
+                "de": "Evaluierungen",
+                "it": "Valutazioni",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Industrie & Régulation",
+            "en": "Industry & Regulation",
+            "de": "Industrie & Regulierung",
+            "it": "Industria & Regolamentazione",
+            "lmo": "Industria & Regolazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Google déplace des milliards de risque puces IA hors de son bilan",
+                "en": "Google moves billions in AI chip risk off its balance sheet",
+                "de": "Google lagert Milliarden an KI-Chip-Risiken aus der Bilanz aus",
+                "it": "Google sposta miliardi di rischio chip IA fuori dal proprio bilancio",
+                "lmo": "Google el sposta di miliard de ris'c di chip IA foeura del so bilanc"
+              },
+              "body": {
+                "fr": "Google construit avec Broadcom, Apollo, Blackstone et Morgan Stanley une structure de financement de plusieurs milliards de dollars pour fournir à Anthropic des puces IA et des centres de données tout en éloignant l'essentiel du risque de son propre bilan. Selon <a href=\"https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/\">The Decoder</a> le 4 août 2026, environ 200 milliards de dollars de contrats dépendent désormais de la capacité d'Anthropic à honorer ses paiements de bail, révélant l'ampleur des engagements sous-jacents à la course au calcul.",
+                "en": "Google is building with Broadcom, Apollo, Blackstone and Morgan Stanley a multi-billion-dollar financing structure to supply Anthropic with AI chips and data centres while keeping most of the risk off its own balance sheet. According to <a href=\"https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/\">The Decoder</a> on 4 August 2026, approximately $200 billion in contracts now depend on Anthropic's ability to meet its lease payments, revealing the scale of the commitments underpinning the compute race.",
+                "de": "Google baut gemeinsam mit Broadcom, Apollo, Blackstone und Morgan Stanley eine Finanzierungsstruktur im mehrstelligen Milliardenbereich auf, um Anthropic mit KI-Chips und Rechenzentren zu versorgen und dabei das wesentliche Risiko von der eigenen Bilanz fernzuhalten. Gemäss <a href=\"https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/\">The Decoder</a> vom 4. August 2026 hängen inzwischen rund 200 Milliarden Dollar an Verträgen von der Fähigkeit Anthropics ab, seine Leasingzahlungen zu bedienen – was das Ausmass der Verpflichtungen hinter dem Wettrüsten um Rechenleistung offenbart.",
+                "it": "Google sta costruendo con Broadcom, Apollo, Blackstone e Morgan Stanley una struttura di finanziamento di diversi miliardi di dollari per fornire ad Anthropic chip IA e data center, allontanando nel contempo la maggior parte del rischio dal proprio bilancio. Secondo <a href=\"https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/\">The Decoder</a> il 4 agosto 2026, circa 200 miliardi di dollari di contratti dipendono ormai dalla capacità di Anthropic di onorare i propri pagamenti di leasing, rivelando l'entità degli impegni sottostanti alla corsa al calcolo.",
+                "lmo": "Google l'è dree a tirà su con Broadcom, Apollo, Blackstone e Morgan Stanley ona struttura de finonziament de diversi miliard de doller per fornì a Anthropic di chip IA e di center di dacc intant che 'l te lontan el pussee del ris'c del so bilanc. Segond <a href=\"https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/\">The Decoder</a> el 4 de agost 2026, circa 200 miliard de doller de contracc i dipenden adess de la capacità de Anthropic deonorà i so pagament de afit, reveland l'ampiezza di impegn sotta a la corsa al calcol."
+              },
+              "kicker": {
+                "fr": "Finance IA",
+                "en": "AI Finance",
+                "de": "KI-Finanzierung",
+                "it": "Finanza IA",
+                "lmo": "Finanza IA"
+              },
+              "urls": [
+                "https://the-decoder.com/google-moves-billions-in-anthropic-chip-risk-off-its-balance-sheet/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les modèles ouverts rattrapent la frontière, le fossé sécuritaire persiste",
+                "en": "Open models catch up to the frontier, the safety gap persists",
+                "de": "Offene Modelle holen zur Frontier auf – die Sicherheitslücke bleibt",
+                "it": "I modelli aperti raggiungono la frontiera, il divario di sicurezza persiste",
+                "lmo": "I modej open i raggiungen la frontiera, el fossaa de sicurezza el va innanz"
+              },
+              "body": {
+                "fr": "Un rapport de SaferAI publié le 4 août 2026 établit que GLM-5.2 de Z.ai, diffusé en poids ouverts, <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">approche les capacités des modèles de frontière</a> tout en manquant de garde-fous essentiels. Le constat relance les inquiétudes sur la capacité des modèles ouverts puissants à devancer les mécanismes de gouvernance. La Maison Blanche, de son côté, <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">exclut les modèles ouverts</a> de son cadre volontaire d'évaluation des risques.",
+                "en": "A report from SaferAI published on 4 August 2026 finds that Z.ai's GLM-5.2, released as open weights, <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">approaches the capabilities of frontier models</a> while lacking essential guardrails. The finding reignites concerns about the ability of powerful open models to outpace governance mechanisms. The White House, for its part, <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">excludes open models</a> from its voluntary risk assessment framework.",
+                "de": "Ein Bericht von SaferAI vom 4. August 2026 stellt fest, dass GLM-5.2 von Z.ai, das als offene Gewichte verbreitet wird, sich <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">den Fähigkeiten von Frontier-Modellen nähert</a>, während ihm wesentliche Schutzmechanismen fehlen. Diese Feststellung belebt die Besorgnis darüber, dass leistungsfähige offene Modelle die Governance-Mechanismen überholen könnten. Das Weisse Haus wiederum <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">schliesst offene Modelle</a> aus seinem freiwilligen Rahmen zur Risikobewertung aus.",
+                "it": "Un rapporto di SaferAI pubblicato il 4 agosto 2026 stabilisce che GLM-5.2 di Z.ai, diffuso a pesi aperti, <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">si avvicina alle capacità dei modelli di frontiera</a> pur mancando di salvaguardie essenziali. La constatazione rilancia le preoccupazioni sulla capacità dei modelli aperti potenti di precedere i meccanismi di governance. La Casa Bianca, da parte sua, <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">esclude i modelli aperti</a> dal proprio quadro volontario di valutazione dei rischi.",
+                "lmo": "On rapport de SaferAI publicaa el 4 de agost 2026 el stabiliss che GLM-5.2 de Z.ai, spantegaa cont pès open, <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">el se vesina ai capacitaa di modej de frontiera</a> intant che 'l gh'ha minga i guard-fund essenziaj. El constatt el relanza i preoccupazion sora la capacità di modej open potent de andà innanz ai mecanismi de governanza. La Cà Bianca, de la soa part, <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">la esclud i modej open</a> del so quadri voluntari de valutazion di ris'c."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+                "https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais & Moteurs",
+        "en": "The Technical Briefing — Harnesses & Engines",
+        "de": "Technischer Teil — Engines & Frameworks",
+        "it": "Quaderno Tecnico — Harness & Motori",
+        "lmo": "El Quadern Tecnegh — Harness & Motor"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Moteurs & Harnais",
+            "en": "Engines & Harnesses",
+            "de": "Engines & Frameworks",
+            "it": "Motori & Harness",
+            "lmo": "Motor & Harness"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Ollama 0.32.6 : décoding spéculatif MTP pour Qwen3.5 et conformité OpenAI",
+                "en": "Ollama 0.32.6: MTP speculative decoding for Qwen3.5 and OpenAI compliance",
+                "de": "Ollama 0.32.6: Spekulatives MTP-Decoding für Qwen3.5 und OpenAI-Konformität",
+                "it": "Ollama 0.32.6: decoding speculativo MTP per Qwen3.5 e conformità OpenAI",
+                "lmo": "Ollama 0.32.6: decodifica specolativa MTP per Qwen3.5 e conformità OpenAI"
+              },
+              "body": {
+                "fr": "Ollama a publié la version 0.32.6-rc0 le 4 août 2026. Le moteur MLX utilise désormais <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0\">automatiquement la tête MTP de Qwen3.5</a> pour le décoding spéculatif sur GPU Apple, accélérant la génération. L'API streaming /v1/chat/completions adopte le format wire d'OpenAI : le champ « role » n'apparaît que sur le premier chunk et « finish_reason » obtient son propre chunk. La commande ollama run kimi-k3 propose désormais kimi-k3:cloud pour les modèles sans tag par défaut.",
+                "en": "Ollama released version 0.32.6-rc0 on 4 August 2026. The MLX engine now <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0\">automatically uses the MTP head of Qwen3.5</a> for speculative decoding on Apple GPUs, accelerating generation. The streaming /v1/chat/completions API adopts OpenAI's wire format: the \"role\" field appears only on the first chunk and \"finish_reason\" receives its own chunk. The ollama run kimi-k3 command now offers kimi-k3:cloud for models without a default tag.",
+                "de": "Ollama hat am 4. August 2026 die Version 0.32.6-rc0 veröffentlicht. Die MLX-Engine nutzt nun <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0\">automatisch den MTP-Kopf von Qwen3.5</a> für spekulatives Decoding auf Apple-GPUs und beschleunigt damit die Generierung. Die Streaming-API /v1/chat/completions übernimmt das Wire-Format von OpenAI: Das Feld «role» erscheint nur im ersten Chunk und «finish_reason» erhält einen eigenen Chunk. Der Befehl ollama run kimi-k3 bietet nun kimi-k3:cloud für Modelle ohne Standard-Tag an.",
+                "it": "Ollama ha pubblicato la versione 0.32.6-rc0 il 4 agosto 2026. Il motore MLX utilizza ormai <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0\">automaticamente la testa MTP di Qwen3.5</a> per il decoding speculativo su GPU Apple, accelerando la generazione. L'API streaming /v1/chat/completions adotta il formato wire di OpenAI: il campo « role » appare solo sul primo chunk e « finish_reason » ottiene un proprio chunk. Il comando ollama run kimi-k3 propone ormai kimi-k3:cloud per i modelli senza tag predefinito.",
+                "lmo": "Ollama l'ha publicaa la version 0.32.6-rc0 el 4 de agost 2026. El motor MLX el dopera adess <a href=\"https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0\">automaticament la testa MTP de Qwen3.5</a> per la decodifica specolativa sora i GPU Apple, acelerand la generazion. L'API streaming /v1/chat/completions la adotta el format wire d'OpenAI: el camp « role » el compariss domà sora el primm chunk e « finish_reason » el gh'ha el so chunk. El comand ollama run kimi-k3 el propon adess kimi-k3:cloud per i modej senza tag de default."
+              },
+              "kicker": {
+                "fr": "Moteur d'inférence",
+                "en": "Inference Engine",
+                "de": "Inferenz-Engine",
+                "it": "Motore di inferenza",
+                "lmo": "Motor d'inferenzia"
+              },
+              "urls": [
+                "https://github.com/ollama/ollama/releases/tag/v0.32.6-rc0"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code 2.1.222 verrouille les sessions isolées contre git",
+                "en": "Claude Code 2.1.222 locks isolated sessions against git",
+                "de": "Claude Code 2.1.222 schützt isolierte Sessions gegen git",
+                "it": "Claude Code 2.1.222 blocca le sessioni isolate contro git",
+                "lmo": "Claude Code 2.1.222 el bloca i session isolaa contra git"
+              },
+              "body": {
+                "fr": "Anthropic a corrigé dans <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.222\">Claude Code v2.1.222</a>, publié le 4 août 2026, une faille critique : les sessions worktree-isolées et leurs sous-agents pouvaient exécuter des commandes git destructives contre le checkout principal. L'isolation s'étend désormais aux modifications de fichiers et aux commandes Bash dans tous les types de sessions. Un hook PreToolUse contournant les restrictions d'outils dans les tâches d'agents en arrière-plan a également été corrigé.",
+                "en": "Anthropic has fixed in <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.222\">Claude Code v2.1.222</a>, released on 4 August 2026, a critical vulnerability: worktree-isolated sessions and their sub-agents could execute destructive git commands against the main checkout. Isolation now extends to file modifications and Bash commands across all session types. A PreToolUse hook that bypassed tool restrictions in background agent tasks has also been patched.",
+                "de": "Anthropic hat in <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.222\">Claude Code v2.1.222</a>, veröffentlicht am 4. August 2026, eine kritische Schwachstelle behoben: Worktree-isolierte Sessions und deren Unter-Agenten konnten destruktive git-Befehle gegen den Haupt-Checkout ausführen. Die Isolation erstreckt sich nun auf Dateiänderungen und Bash-Befehle in allen Session-Typen. Zudem wurde ein PreToolUse-Hook korrigiert, der Tool-Beschränkungen bei Hintergrund-Agentenaufgaben umging.",
+                "it": "Anthropic ha corretto in <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.222\">Claude Code v2.1.222</a>, pubblicato il 4 agosto 2026, una falla critica: le sessioni worktree-isolate e i relativi sotto-agenti potevano eseguire comandi git distruttivi contro il checkout principale. L'isolamento si estende ormai alle modifiche dei file e ai comandi Bash in tutti i tipi di sessione. Anche un hook PreToolUse che aggirava le restrizioni degli strumenti nelle attività degli agenti in background è stato corretto.",
+                "lmo": "Anthropic l'ha corregii in <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.222\">Claude Code v2.1.222</a>, publicaa el 4 de agost 2026, ona falla creatiga: i session worktree-isolaa e i so sot-agent podeven eseguì di comand git distruttiv contra el checkout principal. L'isolament el se estend adess ai modifegh di file e ai comand Bash in tucc i tipo de session. On hook PreToolUse che 'l passava oltra i restrezzion de strument in di task di agent in background l'è staa corregii anca lu."
+              },
+              "kicker": {
+                "fr": "Harnais de codage",
+                "en": "Coding Harness",
+                "de": "Coding-Framework",
+                "it": "Harness di codifica",
+                "lmo": "Harness de codes"
+              },
+              "urls": [
+                "https://github.com/anthropics/claude-code/releases/tag/v2.1.222"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Rapid-MLX 0.12.4 ajoute LFM2.5-2.6B et stabilise DeepSeek V4",
+                "en": "Rapid-MLX 0.12.4 adds LFM2.5-2.6B and stabilises DeepSeek V4",
+                "de": "Rapid-MLX 0.12.4 fügt LFM2.5-2.6B hinzu und stabilisiert DeepSeek V4",
+                "it": "Rapid-MLX 0.12.4 aggiunge LFM2.5-2.6B e stabilizza DeepSeek V4",
+                "lmo": "Rapid-MLX 0.12.4 el gionta LFM2.5-2.6B e 'l stabilizza DeepSeek V4"
+              },
+              "body": {
+                "fr": "Rapid-MLX v0.12.4, publié le 4 août 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4\">ajoute le support de LFM2.5-2.6B</a> dont les huit quants partagent un seul dépôt, et apporte plusieurs correctifs au cache DeepSeek V4 : persistance du préfixe le plus profond à l'arrêt, rejeu des tokens à travers les frontières de prompt, et matérialisation des graphes de cache pendant le décodage. Les Mac à 8 Go de RAM reçoivent désormais une recommandation de configuration au lieu d'un rejet catégorique.",
+                "en": "Rapid-MLX v0.12.4, released on 4 August 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4\">adds support for LFM2.5-2.6B</a> whose eight quants share a single repository, and brings several fixes to the DeepSeek V4 cache: persistence of the deepest prefix on shutdown, token replay across prompt boundaries, and cache graph materialisation during decoding. Macs with 8 GB of RAM now receive a configuration recommendation instead of an outright rejection.",
+                "de": "Rapid-MLX v0.12.4, veröffentlicht am 4. August 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4\">fügt Unterstützung für LFM2.5-2.6B hinzu</a>, dessen acht Quants sich ein einziges Repository teilen, und bringt mehrere Korrekturen am DeepSeek-V4-Cache: Persistenz des tiefsten Präfixes beim Stopp, Replay von Tokens über Prompt-Grenzen hinweg sowie Materialisierung der Cache-Graphen während des Decodings. Macs mit 8 GB RAM erhalten nun eine Konfigurationsempfehlung statt einer kategorischen Ablehnung.",
+                "it": "Rapid-MLX v0.12.4, pubblicato il 4 agosto 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4\">aggiunge il supporto per LFM2.5-2.6B</a> i cui otto quant condividono un unico repository, e apporta diverse correzioni alla cache di DeepSeek V4: persistenza del prefisso più profondo all'arresto, riesecuzione dei token attraverso i confini di prompt e materializzazione dei grafi di cache durante il decoding. I Mac con 8 GB di RAM ricevono ormai una raccomandazione di configurazione invece di un rifiuto categorico.",
+                "lmo": "Rapid-MLX v0.12.4, publicaa el 4 de agost 2026, <a href=\"https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4\">el gionta el support de LFM2.5-2.6B</a> che i so vot quant i condividen on sol deposit, e 'l porta divers correttiv al cache de DeepSeek V4: persistenza del prefiss pussee profond a l'arrest, re-generazion di token travers i frontier de prompt, e materializzazion di graf de cache durant la decodifica. I Mac con 8 Go de RAM i riceven adess ona raccomandazion de configurazion inveci de on refud categoric."
+              },
+              "kicker": {
+                "fr": "Runtime MLX",
+                "en": "MLX Runtime",
+                "de": "MLX-Runtime",
+                "it": "Runtime MLX",
+                "lmo": "Runtime MLX"
+              },
+              "urls": [
+                "https://github.com/raullenchai/Rapid-MLX/releases/tag/v0.12.4"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & Labos",
+        "en": "Research — Papers & Labs",
+        "de": "Forschung — Papers & Labore",
+        "it": "La Ricerca — Paper & Laboratori",
+        "lmo": "La Ricerca — Paper & Laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Agents, RL & Sécurité",
+            "en": "Agents, RL & Safety",
+            "de": "Agenten, RL & Sicherheit",
+            "it": "Agenti, RL & Sicurezza",
+            "lmo": "Agent, RL & Sicurezza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "LongHorizon-Harness : la boucle Manage-Exécute-Audit propulse les agents longue portée",
+                "en": "LongHorizon-Harness: the Manage-Execute-Audit loop propels long-horizon agents",
+                "de": "LongHorizon-Harness: Die Manage-Execute-Audit-Schleife treibt Langstrecken-Agenten an",
+                "it": "LongHorizon-Harness: il ciclo Manage-Esegui-Audit spinge gli agenti a lungo raggio",
+                "lmo": "LongHorizon-Harness: el lacc Manage-Execute-Audit el sping i agent de longa portada"
+              },
+              "body": {
+                "fr": "Une équipe propose <a href=\"https://arxiv.org/abs/2608.01964\">LongHorizon-Harness</a>, un harnais qui externalise la gestion d'état des tâches hors du contexte d'exécution via une boucle Manage-Execute-Audit (MEA). Les gains sont substantiels : Qwen 3.7-Plus passe de 51,8 % à 80,7 % sur WeaveBench, de 69,7 % à 77,2 % sur Terminal-Bench 2.1, et Claude Opus 4.7 grimpe de 20,0 % à 34,3 % sur un sous-ensemble d'OSWorld 2.0. Le papier a récolté 134 votes sur Hugging Face Daily Papers le 5 août 2026.",
+                "en": "A team proposes <a href=\"https://arxiv.org/abs/2608.01964\">LongHorizon-Harness</a>, a harness that externalises task state management from the execution context via a Manage-Execute-Audit (MEA) loop. The gains are substantial: Qwen 3.7-Plus improves from 51.8% to 80.7% on WeaveBench, from 69.7% to 77.2% on Terminal-Bench 2.1, and Claude Opus 4.7 climbs from 20.0% to 34.3% on a subset of OSWorld 2.0. The paper garnered 134 votes on Hugging Face Daily Papers on 5 August 2026.",
+                "de": "Ein Team schlägt <a href=\"https://arxiv.org/abs/2608.01964\">LongHorizon-Harness</a> vor, ein Framework, das das Zustandsmanagement von Aufgaben aus dem Ausführungskontext über eine Manage-Execute-Audit-Schleife (MEA) auslagert. Die Ergebnisse sind substanziell: Qwen 3.7-Plus steigt von 51,8 % auf 80,7 % auf WeaveBench, von 69,7 % auf 77,2 % auf Terminal-Bench 2.1, und Claude Opus 4.7 klettert von 20,0 % auf 34,3 % auf einem Subset von OSWorld 2.0. Das Paper erhielt 134 Stimmen auf Hugging Face Daily Papers am 5. August 2026.",
+                "it": "Un team propone <a href=\"https://arxiv.org/abs/2608.01964\">LongHorizon-Harness</a>, un harness che esternalizza la gestione dello stato delle attività fuori dal contesto di esecuzione tramite un ciclo Manage-Execute-Audit (MEA). I risultati sono sostanziali: Qwen 3.7-Plus passa dal 51,8% all'80,7% su WeaveBench, dal 69,7% al 77,2% su Terminal-Bench 2.1, e Claude Opus 4.7 sale dal 20,0% al 34,3% su un sottoinsieme di OSWorld 2.0. Il paper ha raccolto 134 voti su Hugging Face Daily Papers il 5 agosto 2026.",
+                "lmo": "On'equipe la propon <a href=\"https://arxiv.org/abs/2608.01964\">LongHorizon-Harness</a>, on harness che 'l esternalizza la gestion del stat di task foeura del contest d'esecuzion travers on lacc Manage-Execute-Audit (MEA). I guadagn hinn sostanziai: Qwen 3.7-Plus el va del 51,8% al 80,7% in su WeaveBench, del 69,7% al 77,2% in su Terminal-Bench 2.1, e Claude Opus 4.7 el rampa del 20,0% al 34,3% sora on sott-insieme de OSWorld 2.0. El paper l'ha catkaa su 134 vott in su Hugging Face Daily Papers el 5 de agost 2026."
+              },
+              "kicker": {
+                "fr": "Agents longue portée",
+                "en": "Long-Horizon Agents",
+                "de": "Langstrecken-Agenten",
+                "it": "Agenti a lungo raggio",
+                "lmo": "Agent de longa portada"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.01964"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DAPD combat l'« illusion de privilège » dans la distillation sur politique",
+                "en": "DAPD combats the \"privilege illusion\" in on-policy distillation",
+                "de": "DAPD bekämpft die «Privilegien-Illusion» bei der On-Policy-Destillation",
+                "it": "DAPD combatte l'«illusione di privilegio» nella distillazione on-policy",
+                "lmo": "DAPD el combatt l'«illusione de privilésg» in la destillazion in su la politega"
+              },
+              "body": {
+                "fr": "Le Dual-Anchored Policy Distillation (<a href=\"https://arxiv.org/abs/2608.01735\">DAPD</a>), développé au Shanghai AI Laboratory, identifie une cause d'échec majeure dans la distillation sur politique (OPSD) : l'étudiant apprend des comportements dépendants d'informations privilégiées indisponibles à l'inférence. DAPD surpasse OPSD de +2,00 points en moyenne sur Qwen3-4B, avec des gains qui s'amplifient à l'échelle : +2,69 à 4B et +2,78 à 32B. Le papier compte 97 votes sur Hugging Face Daily Papers.",
+                "en": "Dual-Anchored Policy Distillation (<a href=\"https://arxiv.org/abs/2608.01735\">DAPD</a>), developed at the Shanghai AI Laboratory, identifies a major failure mode in on-policy distillation (OPSD): the student learns behaviours dependent on privileged information unavailable at inference. DAPD outperforms OPSD by +2.00 points on average on Qwen3-4B, with gains that amplify at scale: +2.69 at 4B and +2.78 at 32B. The paper has 97 votes on Hugging Face Daily Papers.",
+                "de": "Die Dual-Anchored Policy Distillation (<a href=\"https://arxiv.org/abs/2608.01735\">DAPD</a>), entwickelt am Shanghai AI Laboratory, identifiziert eine wesentliche Fehlerursache bei der On-Policy-Destillation (OPSD): Der Student lernt Verhaltensweisen, die von privilegierten Informationen abhängen, die zur Inferenzzeit nicht verfügbar sind. DAPD übertrifft OPSD um durchschnittlich +2,00 Punkte auf Qwen3-4B, wobei die Gewinne mit dem Massstab wachsen: +2,69 bei 4B und +2,78 bei 32B. Das Paper zählt 97 Stimmen auf Hugging Face Daily Papers.",
+                "it": "La Dual-Anchored Policy Distillation (<a href=\"https://arxiv.org/abs/2608.01735\">DAPD</a>), sviluppata presso lo Shanghai AI Laboratory, identifica una causa principale di fallimento nella distillazione on-policy (OPSD): lo studente apprende comportamenti dipendenti da informazioni privilegiate non disponibili all'inferenza. DAPD supera OPSD di +2,00 punti in media su Qwen3-4B, con guadagni che si amplificano a scala: +2,69 a 4B e +2,78 a 32B. Il paper conta 97 voti su Hugging Face Daily Papers.",
+                "lmo": "El Dual-Anchored Policy Distillation (<a href=\"https://arxiv.org/abs/2608.01735\">DAPD</a>), svilupaa al Shanghai AI Laboratory, el recognoss ona causa de insuccess magior in la destillazion in su la politega (OPSD): el student el impara di comportament dependent de informazion privilégiad minga disponibil a l'inferenzia. DAPD el sorapassa OPSD de +2,00 pont in media sora Qwen3-4B, con di guadagn che se amplifichen a la scala: +2,69 a 4B e +2,78 a 32B. El paper el cunta 97 vott in su Hugging Face Daily Papers."
+              },
+              "kicker": {
+                "fr": "Post-training",
+                "en": "Post-training",
+                "de": "Post-Training",
+                "it": "Post-training",
+                "lmo": "Post-training"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.01735"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SkillJack : la première attaque par porte dérobée dans les compétences des agents auto-évolutifs",
+                "en": "SkillJack: the first backdoor attack in self-evolving agent skills",
+                "de": "SkillJack: Der erste Backdoor-Angriff auf Fähigkeiten selbst-evolvierender Agenten",
+                "it": "SkillJack: il primo attacco con backdoor nelle competenze degli agenti auto-evolutivi",
+                "lmo": "SkillJack: el primm attacch con porta scorlant dent di competenz di agent auto-evolueuv"
+              },
+              "body": {
+                "fr": "Des chercheurs de Tencent révèlent <a href=\"https://arxiv.org/abs/2608.03509\">SkillJack</a>, la première attaque exploitant le pipeline de conversion d'expérience en compétence des agents auto-évolutifs. Les résultats sont alarmants : dans SkillX, le taux de détection de sécurité chute de 98,5 % pour les trajectoires empoisonnées à 11,4 % pour les compétences extraites. Les taux de succès d'attaque atteignent 56,2 % et 89,2 % sur deux systèmes, et 80 % des attaques persistent après suppression des enregistrements empoisonnés d'origine.",
+                "en": "Researchers at Tencent reveal <a href=\"https://arxiv.org/abs/2608.03509\">SkillJack</a>, the first attack exploiting the experience-to-skill conversion pipeline of self-evolving agents. The results are alarming: in SkillX, the safety detection rate drops from 98.5% for poisoned trajectories to 11.4% for extracted skills. Attack success rates reach 56.2% and 89.2% on two systems, and 80% of attacks persist after removal of the original poisoned records.",
+                "de": "Forscher von Tencent enthüllen <a href=\"https://arxiv.org/abs/2608.03509\">SkillJack</a>, den ersten Angriff, der die Pipeline zur Umwandlung von Erfahrung in Fähigkeiten bei selbst-evolvierenden Agenten ausnutzt. Die Ergebnisse sind alarmierend: In SkillX fällt die Sicherheits-Erkennungsrate von 98,5 % für vergiftete Trajektorien auf 11,4 % für extrahierte Fähigkeiten. Die Angriffserfolgsraten erreichen 56,2 % und 89,2 % auf zwei Systemen, und 80 % der Angriffe persistieren nach der Löschung der ursprünglichen vergifteten Aufzeichnungen.",
+                "it": "Ricercatori di Tencent rivelano <a href=\"https://arxiv.org/abs/2608.03509\">SkillJack</a>, il primo attacco che sfrutta la pipeline di conversione dell'esperienza in competenza degli agenti auto-evolutivi. I risultati sono allarmanti: in SkillX, il tasso di rilevamento di sicurezza crolla dal 98,5% per le traiettorie avvelenate all'11,4% per le competenze estratte. I tassi di successo degli attacchi raggiungono il 56,2% e l'89,2% su due sistemi, e l'80% degli attacchi persiste dopo la rimozione dei record avvelenati originali.",
+                "lmo": "Di recercador de Tencent i revelen <a href=\"https://arxiv.org/abs/2608.03509\">SkillJack</a>, el primm attacch che 'l sfrutta la pipeline de conversion de l'esperienza in competenza di agent auto-evolueuv. I risultaa hinn allarmant: in SkillX, el tass de rilevazion de sicurezza el borla del 98,5% per i traiettorej avvelenaa al 11,4% per i competenz estratt. I tass de success d'attacch i raggiungen el 56,2% e l'89,2% in su duu sistema, e l'80% di attacch el resista anca dòpo la cancellazion di register avvelenaa d'origin."
+              },
+              "kicker": {
+                "fr": "Sécurité des agents",
+                "en": "Agent Security",
+                "de": "Agenten-Sicherheit",
+                "it": "Sicurezza degli agenti",
+                "lmo": "Sicurezza di agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.03509"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "JoyAI-Video-Edit : édition vidéo en temps réel à 30 FPS sur un seul B200",
+                "en": "JoyAI-Video-Edit: real-time video editing at 30 FPS on a single B200",
+                "de": "JoyAI-Video-Edit: Video-Bearbeitung in Echtzeit mit 30 FPS auf einem einzigen B200",
+                "it": "JoyAI-Video-Edit: editing video in tempo reale a 30 FPS su un solo B200",
+                "lmo": "JoyAI-Video-Edit: modifice video in temp real a 30 FPS sora on sol B200"
+              },
+              "body": {
+                "fr": "Un cadre de <a href=\"https://arxiv.org/abs/2608.03974\">16 milliards de paramètres</a> nommé JoyAI-Video-Edit, développé par JD.com, permet l'édition vidéo en temps réel sans accès aux images futures. Grâce à l'adaptation autoregressive par blocs et à deux techniques de distillation (SA-DMD et Long-Horizon Autoregressive Distillation), le système atteint environ 30 FPS en édition 720p sur un seul GPU Nvidia B200, rivalisant avec les systèmes hors ligne tant sur les vidéos courtes que longues. Le papier totalise 53 votes sur Hugging Face Daily Papers.",
+                "en": "A <a href=\"https://arxiv.org/abs/2608.03974\">16-billion-parameter</a> framework named JoyAI-Video-Edit, developed by JD.com, enables real-time video editing without access to future frames. Through block-wise autoregressive adaptation and two distillation techniques (SA-DMD and Long-Horizon Autoregressive Distillation), the system achieves approximately 30 FPS in 720p editing on a single Nvidia B200 GPU, rivalling offline systems on both short and long videos. The paper totals 53 votes on Hugging Face Daily Papers.",
+                "de": "Ein <a href=\"https://arxiv.org/abs/2608.03974\">16-Milliarden-Parameter-Framework</a> namens JoyAI-Video-Edit, entwickelt von JD.com, ermöglicht die Video-Bearbeitung in Echtzeit ohne Zugriff auf zukünftige Frames. Dank blockweiser autoregressiver Adaption und zweier Destillationstechniken (SA-DMD und Long-Horizon Autoregressive Distillation) erreicht das System rund 30 FPS bei der 720p-Bearbeitung auf einem einzigen Nvidia-B200-GPU und konkurriert mit Offline-Systemen sowohl bei kurzen als auch bei langen Videos. Das Paper kommt auf insgesamt 53 Stimmen auf Hugging Face Daily Papers.",
+                "it": "Un framework di <a href=\"https://arxiv.org/abs/2608.03974\">16 miliardi di parametri</a> denominato JoyAI-Video-Edit, sviluppato da JD.com, consente l'editing video in tempo reale senza accesso ai frame futuri. Grazie all'adattamento autoregressivo a blocchi e a due tecniche di distillazione (SA-DMD e Long-Horizon Autoregressive Distillation), il sistema raggiunge circa 30 FPS in editing 720p su un'unica GPU Nvidia B200, rivaleggiando con i sistemi offline tanto sui video brevi quanto su quelli lunghi. Il paper totalizza 53 voti su Hugging Face Daily Papers.",
+                "lmo": "On framework de <a href=\"https://arxiv.org/abs/2608.03974\">16 miliard de parameter</a> ciamaa JoyAI-Video-Edit, svilupaa de JD.com, el permett la modifica video in temp real senza accès ai image futur. Grazzie a l'adattament autoregressiv per bloch e a duu tecnich de destillazion (SA-DMD e Long-Horizon Autoregressive Distillation), el sistema el raggiung circa 30 FPS in modifice 720p sora on sol GPU Nvidia B200, a la pari cont i sistema off-line sia sora i video curt che longh. El paper el totalizza 53 vott in su Hugging Face Daily Papers."
+              },
+              "kicker": {
+                "fr": "Vidéo générative",
+                "en": "Generative Video",
+                "de": "Generative Video",
+                "it": "Video generativo",
+                "lmo": "Video generativa"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.03974"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editoriale"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "gwern quitte l'écriture à temps plein pour lancer Guardian Angel",
+                "en": "gwern steps away from full-time writing to launch Guardian Angel",
+                "de": "gwern gibt das Schreiben Vollzeit auf und gründet Guardian Angel",
+                "it": "gwern lascia la scrittura a tempo pieno per lanciare Guardian Angel",
+                "lmo": "gwern el lassa la scritura a temp pien per lancià Guardian Angel"
+              },
+              "body": {
+                "fr": "Le chercheur connu sous le pseudonyme <a href=\"https://news.ycombinator.com/item?id=49174900\">gwern</a> a annoncé le 4 août 2026 sa retraite de l'écriture à temps plein et de son anonymat pour fonder Guardian Angel. La discussion sur Hacker News a attiré 228 points et 142 commentaires, nombreux à saluer l'influence de gwern.net sur la recherche en IA depuis plus d'une décennie. La page produit est consultable sur <a href=\"https://gwern.net/guardian-angel\">gwern.net/guardian-angel</a>.",
+                "en": "The researcher known by the pseudonym <a href=\"https://news.ycombinator.com/item?id=49174900\">gwern</a> announced on 4 August 2026 his retirement from full-time writing and his anonymity to found Guardian Angel. The Hacker News discussion attracted 228 points and 142 comments, many praising the influence of gwern.net on AI research for over a decade. The product page is available at <a href=\"https://gwern.net/guardian-angel\">gwern.net/guardian-angel</a>.",
+                "de": "Der unter dem Pseudonym <a href=\"https://news.ycombinator.com/item?id=49174900\">gwern</a> bekannte Forscher hat am 4. August 2026 seinen Rückzug vom Vollzeit-Schreiben und aus seiner Anonymität bekannt gegeben, um Guardian Angel zu gründen. Die Diskussion auf Hacker News zog 228 Punkte und 142 Kommentare an; viele hoben den Einfluss von gwern.net auf die KI-Forschung über mehr als ein Jahrzehnt hervor. Die Produktseite ist unter <a href=\"https://gwern.net/guardian-angel\">gwern.net/guardian-angel</a> abrufbar.",
+                "it": "Il ricercatore noto con lo pseudonimo di <a href=\"https://news.ycombinator.com/item?id=49174900\">gwern</a> ha annunciato il 4 agosto 2026 il ritiro dalla scrittura a tempo pieno e dal proprio anonimato per fondare Guardian Angel. La discussione su Hacker News ha attirato 228 punti e 142 commenti, molti dei quali hanno salutato l'influenza di gwern.net sulla ricerca in IA da oltre un decennio. La pagina del prodotto è consultabile su <a href=\"https://gwern.net/guardian-angel\">gwern.net/guardian-angel</a>.",
+                "lmo": "El recercador cognossuu sotta el pseudonim <a href=\"https://news.ycombinator.com/item?id=49174900\">gwern</a> l'ha anunziaa el 4 de agost 2026 el so ritir de la scritura a temp pien e del so anonimaa per fondà Guardian Angel. La discussion in su Hacker News l'ha tiraa 228 pont e 142 comment, tant a saludà l'influenza de gwern.net in su la ricerca in IA de pussee de ona decada. La pagina prodot l'è consultabella in su <a href=\"https://gwern.net/guardian-angel\">gwern.net/guardian-angel</a>."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Comunitaa"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=49174900",
+                "https://gwern.net/guardian-angel"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Flowise, la plateforme d'orchestration LLM no-code, ferme ses portes",
+                "en": "Flowise, the no-code LLM orchestration platform, shuts down",
+                "de": "Flowise, die No-Code-Plattform für LLM-Orchestrierung, stellt den Betrieb ein",
+                "it": "Flowise, la piattaforma di orchestrazione LLM no-code, chiude i battenti",
+                "lmo": "Flowise, la piattaforma de orchestrazion LLM no-code, la sera i port"
+              },
+              "body": {
+                "fr": "<a href=\"https://flowiseai.com/sunset\">Flowise</a> a annoncé sa fermeture le 5 août 2026. L'outil open source d'orchestration de LLM par glisser-déposer, largement utilisé pour prototyper des chaînes RAG et des workflows d'agents, cesse ses opérations. <a href=\"https://news.ycombinator.com/item?id=49176920\">La nouvelle sur Hacker News</a> (29 points, 17 commentaires) suscite des débats sur la durabilité des projets open source dans un écosystème IA en consolidation accélérée.",
+                "en": "<a href=\"https://flowiseai.com/sunset\">Flowise</a> announced its closure on 5 August 2026. The open-source drag-and-drop LLM orchestration tool, widely used for prototyping RAG chains and agent workflows, is ceasing operations. <a href=\"https://news.ycombinator.com/item?id=49176920\">The news on Hacker News</a> (29 points, 17 comments) has sparked debates about the sustainability of open-source projects in an AI ecosystem undergoing rapid consolidation.",
+                "de": "<a href=\"https://flowiseai.com/sunset\">Flowise</a> hat am 5. August 2026 seine Schliessung bekannt gegeben. Das Open-Source-Tool zur Drag-and-Drop-Orchestrierung von LLMs, das weit verbreitet war, um RAG-Ketten und Agenten-Workflows zu prototypisieren, stellt den Betrieb ein. <a href=\"https://news.ycombinator.com/item?id=49176920\">Die Nachricht auf Hacker News</a> (29 Punkte, 17 Kommentare) löst Debatten über die Nachhaltigkeit von Open-Source-Projekten in einem KI-Ökosystem mit beschleunigter Konsolidierung aus.",
+                "it": "<a href=\"https://flowiseai.com/sunset\">Flowise</a> ha annunciato la chiusura il 5 agosto 2026. Lo strumento open source di orchestrazione di LLM tramite drag-and-drop, ampiamente utilizzato per prototipare catene RAG e workflow di agenti, cessa le operazioni. <a href=\"https://news.ycombinator.com/item?id=49176920\">La notizia su Hacker News</a> (29 punti, 17 commenti) suscita dibattiti sulla sostenibilità dei progetti open source in un ecosistema IA in rapida consolidazione.",
+                "lmo": "<a href=\"https://flowiseai.com/sunset\">Flowise</a> l'ha anunziaa la soa saradura el 5 de agost 2026. El strument open source de orchestrazion de LLM per drag-and-drop, doperaa ampiament per prototipà di cadenn RAG e di workflow de agent, el ferma i operazion. <a href=\"https://news.ycombinator.com/item?id=49176920\">La notizzia in su Hacker News</a> (29 pont, 17 comment) la fa nasser dibattid in su la sostenibilità di proget open source in d'on ecosistema IA in consolidament aceleraa."
+              },
+              "kicker": {
+                "fr": "Écosystème",
+                "en": "Ecosystem",
+                "de": "Ökosystem",
+                "it": "Ecosistema",
+                "lmo": "Ecosistema"
+              },
+              "urls": [
+                "https://flowiseai.com/sunset",
+                "https://news.ycombinator.com/item?id=49176920"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "CopilotKit open-source Channels SDK : agents AG-UI dans Slack et Teams",
+                "en": "CopilotKit open-sources Channels SDK: AG-UI agents in Slack and Teams",
+                "de": "CopilotKit veröffentlicht Channels SDK als Open Source: AG-UI-Agenten in Slack und Teams",
+                "it": "CopilotKit rende open source Channels SDK: agenti AG-UI in Slack e Teams",
+                "lmo": "CopilotKit el rend open source Channels SDK: agent AG-UI in Slack e Teams"
+              },
+              "body": {
+                "fr": "CopilotKit a publié le 4 août 2026 <a href=\"https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\">Channels SDK</a>, une bibliothèque sous licence MIT permettant d'exécuter n'importe quel agent AG-UI existant dans Slack et Microsoft Teams. La version 0.5.0 embarque cinq adaptateurs de plateforme et un contrat d'exécution documenté, élargissant le déploiement d'agents au-delà des interfaces web dédiées.",
+                "en": "CopilotKit released on 4 August 2026 <a href=\"https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\">Channels SDK</a>, an MIT-licensed library that enables running any existing AG-UI agent in Slack and Microsoft Teams. Version 0.5.0 ships with five platform adapters and a documented execution contract, broadening agent deployment beyond dedicated web interfaces.",
+                "de": "CopilotKit hat am 4. August 2026 <a href=\"https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\">Channels SDK</a> veröffentlicht, eine unter MIT-Lizenz stehende Bibliothek, die es ermöglicht, beliebige bestehende AG-UI-Agenten in Slack und Microsoft Teams auszuführen. Version 0.5.0 umfasst fünf Plattform-Adapter und einen dokumentierten Ausführungsvertrag und erweitert so den Einsatz von Agenten über dedizierte Web-Schnittstellen hinaus.",
+                "it": "CopilotKit ha pubblicato il 4 agosto 2026 <a href=\"https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\">Channels SDK</a>, una libreria con licenza MIT che consente di eseguire qualsiasi agente AG-UI esistente in Slack e Microsoft Teams. La versione 0.5.0 include cinque adattatori di piattaforma e un contratto di esecuzione documentato, ampliando l'implementazione di agenti oltre le interfacce web dedicate.",
+                "lmo": "CopilotKit l'ha publicaa el 4 de agost 2026 <a href=\"https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/\">Channels SDK</a>, ona libreria sotta licensa MIT che la permett de eseguì ogni agent AG-UI esistent in Slack e Microsoft Teams. La version 0.5.0 la gh'ha dent cinch adatador de piattaforma e on contratt d'esecuzion documentaa, slargand el despiegament di agent oltra i interfacc web dedicaa."
+              },
+              "kicker": {
+                "fr": "Outils",
+                "en": "Tools",
+                "de": "Werkzeuge",
+                "it": "Strumenti",
+                "lmo": "Strument"
+              },
+              "urls": [
+                "https://www.marktechpost.com/2026/08/04/copilotkit-open-sources-channels-sdk/"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editoriale"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'IA ouverte rattrape la frontière, la gouvernance reste à quai",
+                "en": "Open AI catches up to the frontier, governance remains at the dock",
+                "de": "Offene KI holt zur Frontier auf – die Governance bleibt im Hafen",
+                "it": "L'IA aperta raggiunge la frontiera, la governance resta a terra",
+                "lmo": "L'IA open la riva a la frontiera, la governanza la resta in port"
+              },
+              "body": {
+                "fr": "Le 4 août 2026 condense en une journée le paradoxe qui définit l'industrie. <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">Un rapport de SaferAI</a> confirme que les modèles à poids ouverts rejoignent les capacités des systèmes propriétaires de pointe — GLM-5.2 de Z.ai en tête — sans disposer des garde-fous que la frontière propriétaire a mis des années à construire. Simultanément, le <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">cadre volontaire de la Maison Blanche</a> exclut délibérément les modèles ouverts de toute évaluation. Le message est cohérent : les régulateurs ne savent pas quoi faire des poids ouverts, alors même que leur puissance explose.\n\nLa réponse de Mistral — un classificateur de sécurité lui-même ouvert, Shieldstral, qui bat des modèles sept fois plus gros — esquisse une voie. Si les capacités sont ouvertes, les défenses doivent l'être aussi. Mais un patch diffusable ne suffira pas si l'écart entre capacités offensives et défenses continue de se creuser à la vitesse observée. Les 10 milliards de dollars qu'Anthropic vient de garantir auprès de Volta pour sécuriser son calcul, et les 200 milliards de dollars de contrats que Google maintient hors bilan, rappellent que la course à la puissance ne ralentit pas. La question n'est plus de savoir si l'IA ouverte atteindra la frontière — c'est déjà le cas — mais si les outils pour la contenir seront prêts à temps.",
+                "en": "4 August 2026 condenses into a single day the paradox that defines the industry. <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">A SaferAI report</a> confirms that open-weight models are matching the capabilities of cutting-edge proprietary systems — Z.ai's GLM-5.2 in the lead — without the guardrails that the proprietary frontier took years to build. Simultaneously, the <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">White House's voluntary framework</a> deliberately excludes open models from any assessment. The message is consistent: regulators do not know what to do with open weights, even as their power explodes.\n\nMistral's response — a safety classifier that is itself open, Shieldstral, which beats models seven times larger — sketches a path forward. If capabilities are open, defences must be too. But a distributable patch will not suffice if the gap between offensive capabilities and defences continues to widen at the pace observed. The $10 billion that Anthropic just secured from Volta to lock in its compute, and the $200 billion in contracts that Google keeps off its balance sheet, are a reminder that the race for power is not slowing down. The question is no longer whether open AI will reach the frontier — it already has — but whether the tools to contain it will be ready in time.",
+                "de": "Der 4. August 2026 verdichtet in einem einzigen Tag das Paradoxon, das die Branche definiert. <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">Ein Bericht von SaferAI</a> bestätigt, dass Modelle mit offenen Gewichten die Fähigkeiten proprietärer Spitzen-Systeme erreichen – GLM-5.2 von Z.ai an der Spitze –, ohne über die Schutzmassnahmen zu verfügen, die der proprietäre Frontier-Bereich über Jahre aufgebaut hat. Gleichzeitig schliesst der <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">freiwillige Rahmen des Weissen Hauses</a> offene Modelle bewusst von jeglicher Evaluierung aus. Die Botschaft ist konsistent: Die Regulatoren wissen nicht, was sie mit offenen Gewichten anfangen sollen, während deren Leistung explodiert.\n\nDie Antwort von Mistral – ein ebenfalls offener Sicherheitsklassifikator, Shieldstral, der Modelle übertrifft, die siebenmal so gross sind – skizziert einen Weg. Wenn die Fähigkeiten offen sind, müssen es die Verteidigungsmechanismen ebenfalls sein. Ein verteilbarer Patch reicht jedoch nicht aus, wenn die Lücke zwischen offensiven Fähigkeiten und Abwehrmassnahmen weiterhin in dem beobachteten Tempo wächst. Die 10 Milliarden Dollar, die Anthropic soeben bei Volta zur Sicherung seiner Rechenleistung garantiert hat, und die 200 Milliarden Dollar an Verträgen, die Google ausserhalb der Bilanz hält, erinnern daran, dass das Wettrüsten um Leistung nicht nachlässt. Die Frage ist nicht mehr, ob offene KI die Frontier erreichen wird – das ist bereits geschehen –, sondern ob die Werkzeuge, sie einzudämmen, rechtzeitig bereitstehen.",
+                "it": "Il 4 agosto 2026 condensa in una sola giornata il paradosso che definisce l'industria. <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">Un rapporto di SaferAI</a> conferma che i modelli a pesi aperti raggiungono le capacità dei sistemi proprietari di punta — con GLM-5.2 di Z.ai in testa — senza disporre delle salvaguardie che la frontiera proprietaria ha impiegato anni a costruire. Simultaneamente, il <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">quadro volontario della Casa Bianca</a> esclude deliberatamente i modelli aperti da qualsiasi valutazione. Il messaggio è coerente: i regolatori non sanno cosa fare dei pesi aperti, proprio mentre la loro potenza esplode.\n\nLa risposta di Mistral — un classificatore di sicurezza anch'esso aperto, Shieldstral, che batte modelli sette volte più grandi — abbozza una via. Se le capacità sono aperte, anche le difese devono esserlo. Ma una patch distribuibile non basterà se il divario tra capacità offensive e difese continua ad allargarsi alla velocità osservata. I 10 miliardi di dollari che Anthropic ha appena garantito con Volta per mettere al sicuro il proprio calcolo, e i 200 miliardi di dollari di contratti che Google mantiene fuori bilancio, ricordano che la corsa alla potenza non rallenta. La domanda non è più se l'IA aperta raggiungerà la frontiera — è già così — ma se gli strumenti per contenerla saranno pronti in tempo.",
+                "lmo": "El 4 de agost 2026 el condesna in d'on sol dì el paradoss che 'l definiss l'industria. <a href=\"https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/\">On rapport de SaferAI</a> el conferma che i modej a pès open i raggiungen i capacitaa di sistema proprietari de ponta — GLM-5.2 de Z.ai in testa — senza avegh i guard-fund che la frontiera proprietaria l'ha mettuu on bell poo d'agn a tirà su. In manera simultanea, el <a href=\"https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html\">quadri voluntari de la Cà Bianca</a> el esclud deliberatament i modej open de ogni valutazion. El messagg l'è coerent: i regolador i sa no cossà fà di pès open, intant che la soa potenza la s'ceppa.\n\nLa resposta de Mistral — on classificator de sicurezza lu medema open, Shieldstral, che 'l batt di modej sett voeult pussee grand — la traccia ona via. Se i capacitaa hinn open, anca i defensiv i gh'hann de vess. Ma ona pezza che se pò spantegà la basterà minga se 'l vosid in tra capacità offeusiv e defensiv el va innanz a svellescà a la velocità osservada. I 10 miliard de doller che Anthropic l'ha de pu garantii con Volta per sicurizzà el so calcol, e i 200 miliard de doller de contracc che Google el mantegn foeura del bilanc, i regorden che la corsa a la potenza la rallenta minga. La domanda l'è pu se l'IA open la raggiungirà la frontiera — l'è giamò inscì — ma se i strument per contenella i sarann pront a temp."
+              },
+              "kicker": {
+                "fr": "Éditorial",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://techcrunch.com/2026/08/04/open-weight-ai-models-are-catching-up-to-the-frontier-the-safety-gap-remains/",
+                "https://www.nytimes.com/2026/08/04/technology/white-house-ai-framework.html"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
