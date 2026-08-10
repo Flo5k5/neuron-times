@@ -1,0 +1,723 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-10",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le code généré par IA présente un « profil de qualité distinct », écrivent les auteurs. Il affiche des taux plus élevés de couplage d'interfaces, des surcoûts de copie et d'allocation mémoire, ainsi qu'une propension à recourir à des boucles explicites plutôt qu'aux API standard optimisées. En production, ces caractéristiques se traduisent par une augmentation de 5 à 8 % de la consommation de ressources de calcul — un surcoût qui, appliqué à l'échelle d'un acteur comme Google, représente des sommes considérables et une empreinte carbone non négligeable.",
+        "en": "Le code généré par IA présente un « profil de qualité distinct », écrivent les auteurs. Il affiche des taux plus élevés de couplage d'interfaces, des surcoûts de copie et d'allocation mémoire, ainsi qu'une propension à recourir à des boucles explicites plutôt qu'aux API standard optimisées. En production, ces caractéristiques se traduisent par une augmentation de 5 à 8 % de la consommation de ressources de calcul — un surcoût qui, appliqué à l'échelle d'un acteur comme Google, représente des sommes considérables et une empreinte carbone non négligeable.",
+        "de": "Der von KI generierte Code weist ein «eigenständiges Qualitätsprofil» auf, schreiben die Autoren. Er zeigt höhere Raten an Schnittstellenkopplung, Mehraufwand durch Kopier- und Speicherallokationsvorgänge sowie eine Neigung, explizite Schleifen gegenüber optimierten Standard-APIs zu verwenden. Im Produktivbetrieb schlagen sich diese Eigenschaften in einer um 5 bis 8 % höheren Inanspruchnahme von Rechenressourcen nieder — ein Mehraufwand, der bei einem Akteur wie Google beträchtliche Summen und einen nicht unerheblichen CO₂-Fussabdruck bedeutet.",
+        "it": "Il codice generato da IA presenta un «profilo di qualità distinto», scrivono gli autori. Mostra tassi più elevati di accoppiamento di interfacce, costi aggiuntivi di copia e allocazione di memoria, nonché una propensione a ricorrere a cicli espliciti anziché alle API standard ottimizzate. In produzione, queste caratteristiche si traducono in un aumento del 5–8% nel consumo di risorse di calcolo — un costo aggiuntivo che, applicato alla scala di un attore come Google, rappresenta cifre considerevoli e un'impronta di carbonio non trascurabile.",
+        "lmo": "El codes generaa de l'AI el gh'ha on « profil de qualità distint », i scriven i autor. El mostra tass pussee volt de acoppiament di interfacc, di soracòst de copia e de allocazion memoria, e anca ona tendenza a doperà di cicch esplìcit inveci di API standard ottimizzaa. In produzion, 'sti caratteristich se tradussen con on aument del 5 a l'8 % in del consum di resors de calcol — on soracòst che, applicaa a la scala de on attor compagn de Google, el represent di somm considerabel e ona impronta carbonica nò de pocch."
+      },
+      {
+        "fr": "L'étude ne se limite pas au constat. Les chercheurs démontrent qu'un retour d'information ciblé, fondé sur une taxonomie des défauts, permet d'atténuer significativement ces effets : les avertissements d'analyse statique diminuent de 11,1 % et l'efficacité computationnelle s'améliore. Cette piste — « entraîner » les modèles à mieux écrire en leur signalant précisément leurs biais de génération — pourrait redonner aux équipes d'ingénierie une partie du contrôle que la généralisation du code IA leur a fait perdre. <a href=\"https://arxiv.org/abs/2608.06640\">Lire l'étude complète sur arXiv</a>.",
+        "en": "L'étude ne se limite pas au constat. Les chercheurs démontrent qu'un retour d'information ciblé, fondé sur une taxonomie des défauts, permet d'atténuer significativement ces effets : les avertissements d'analyse statique diminuent de 11,1 % et l'efficacité computationnelle s'améliore. Cette piste — « entraîner » les modèles à mieux écrire en leur signalant précisément leurs biais de génération — pourrait redonner aux équipes d'ingénierie une partie du contrôle que la généralisation du code IA leur a fait perdre. <a href=\"https://arxiv.org/abs/2608.06640\">Lire l'étude complète sur arXiv</a>.",
+        "de": "Die Studie beschränkt sich nicht auf die Bestandsaufnahme. Die Forscher zeigen, dass gezieltes Feedback auf der Grundlage einer Fehler-Taxonomie diese Effekte signifikant abschwächt: Warnungen der statischen Analyse gehen um 11,1 % zurück, und die Recheneffizienz verbessert sich. Dieser Ansatz — Modelle durch präzises Aufzeigen ihrer Generierungsverzerrungen zu «besserem Schreiben» anzuhalten — könnte den Engineering-Teams einen Teil der Kontrolle zurückgeben, den ihnen die Verbreitung von KI-Code entzogen hat. <a href=\"https://arxiv.org/abs/2608.06640\">Die vollständige Studie auf arXiv lesen</a>.",
+        "it": "Lo studio non si limita alla constatazione. I ricercatori dimostrano che un feedback mirato, fondato su una tassonomia dei difetti, permette di attenuare significativamente questi effetti: gli avvisi di analisi statica diminuiscono dell'11,1% e l'efficienza computazionale migliora. Questa pista — «allenare» i modelli a scrivere meglio segnalando loro con precisione i propri bias di generazione — potrebbe restituire ai team di ingegneria una parte del controllo che la generalizzazione del codice IA ha loro fatto perdere. <a href=\"https://arxiv.org/abs/2608.06640\">Leggi lo studio completo su arXiv</a>.",
+        "lmo": "El studi el va nò domà al constatt. I ricercador i demostren che on ritorn d'informazion targettaa, fondaa sù ona tassonomia di difett, el permet de mitigà de manera significativa 'sti effett chì: i avvis d'analisi statiga i calen de l'11,1 % e l'efficienza computazional la se meliora. 'Sta via chì — « addestrà » i modèi a scriv mej se ghe se signala propri i sò bias de generazion — la podarìa dà indree ai squadr d'ingegneria ona part del contròll che la generalizzazion del codes IA gh'ha faa perd. <a href=\"https://arxiv.org/abs/2608.06640\">Legg el studi complet sora arXiv</a>."
+      }
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2608.06640"
+    ],
+    "kicker": {
+      "fr": "Qualité du code",
+      "en": "Qualité du code",
+      "de": "Codequalität",
+      "it": "Qualità del codice",
+      "lmo": "Qualità del codes"
+    },
+    "headline": {
+      "fr": "Le code C++ généré par IA coûte 5 à 8 % de calcul supplémentaire en production, selon une étude de Google portant sur 3,52 millions de modifications",
+      "en": "Le code C++ généré par IA coûte 5 à 8 % de calcul supplémentaire en production, selon une étude de Google portant sur 3,52 millions de modifications",
+      "de": "Von KI generierter C++-Code verursacht im Produktivbetrieb 5 bis 8 % Mehraufwand an Rechenleistung, zeigt eine Google-Studie über 3,52 Millionen Änderungen",
+      "it": "Il codice C++ generato da IA costa dal 5 all'8% di calcolo supplementare in produzione, secondo uno studio di Google su 3,52 milioni di modifiche",
+      "lmo": "El codes C++ generaa de l'IA el costa on sbalonz de calcol del 5 a l'8 % in produzion, segond on studi de Google in su 3,52 milion de modificazion"
+    },
+    "subdeck": {
+      "fr": "L'analyse la plus vaste à ce jour sur le code généré par IA en environnement industriel révèle un profil de qualité distinct — marqué par des surcoûts tangibles mais atténuables.",
+      "en": "L'analyse la plus vaste à ce jour sur le code généré par IA en environnement industriel révèle un profil de qualité distinct — marqué par des surcoûts tangibles mais atténuables.",
+      "de": "Die bislang umfassendste Analyse von KI-generiertem Code in industrieller Umgebung offenbart ein eigenständiges Qualitätsprofil — mit greifbaren, aber behebbaren Mehrkosten.",
+      "it": "L'analisi più ampia finora condotta sul codice generato da IA in ambiente industriale rivela un profilo di qualità distinto — caratterizzato da costi aggiuntivi tangibili ma attenuabili.",
+      "lmo": "L'analisi pussee granda fina adess in sul codes generaa de l'IA in ambient industrial la revela on profil de qualità distint — marcaa de soracòst tangìbel ma che se poden mitigà."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "SimWAM : un world-action model léger atteint 91,5 PDMS sur NAVSIM pour la conduite autonome",
+        "en": "SimWAM : un world-action model léger atteint 91,5 PDMS sur NAVSIM pour la conduite autonome",
+        "de": "SimWAM: Ein leichtgewichtiges World-Action-Modell erreicht 91,5 PDMS auf NAVSIM für autonomes Fahren",
+        "it": "SimWAM: un world-action model leggero raggiunge 91,5 PDMS su NAVSIM per la guida autonoma",
+        "lmo": "SimWAM: on world-action model legger el riva a 91,5 PDMS sora NAVSIM per la guida autonoma"
+      },
+      "body": {
+        "fr": "Présenté le 10 août sur Hugging Face Daily Papers avec 16 votes favorables — le score le plus élevé de la journée —, SimWAM propose une architecture de world-action model qui utilise la génération vidéo uniquement comme signal d'entraînement, puis la jette après apprentissage. Le modèle atteint 91,5 PDMS sur NAVSIM, surpassant les planificateurs état de l'art basés sur WAM avec une latence substantiellement réduite, et se transfère sans apprentissage supplémentaire à nuScenes. Code et weights disponibles sur <a href=\"https://github.com/H-EmbodVis/SimWAM\">GitHub</a>. Papier complet sur <a href=\"https://arxiv.org/abs/2608.07468\">arXiv</a>.",
+        "en": "Présenté le 10 août sur Hugging Face Daily Papers avec 16 votes favorables — le score le plus élevé de la journée —, SimWAM propose une architecture de world-action model qui utilise la génération vidéo uniquement comme signal d'entraînement, puis la jette après apprentissage. Le modèle atteint 91,5 PDMS sur NAVSIM, surpassant les planificateurs état de l'art basés sur WAM avec une latence substantiellement réduite, et se transfère sans apprentissage supplémentaire à nuScenes. Code et weights disponibles sur <a href=\"https://github.com/H-EmbodVis/SimWAM\">GitHub</a>. Papier complet sur <a href=\"https://arxiv.org/abs/2608.07468\">arXiv</a>.",
+        "de": "Am 10. August auf Hugging Face Daily Papers mit 16 Stimmen vorgestellt — dem höchsten Wert des Tages —, schlägt SimWAM eine World-Action-Modell-Architektur vor, die Videogenerierung ausschliesslich als Trainingssignal verwendet und nach dem Lernen verwirft. Das Modell erreicht 91,5 PDMS auf NAVSIM, übertrifft WAM-basierte Planer des Standes der Technik bei deutlich reduzierter Latenz und lässt sich ohne zusätzliches Training auf nuScenes übertragen. Code und Gewichte verfügbar auf <a href=\"https://github.com/H-EmbodVis/SimWAM\">GitHub</a>. Vollständiges Paper auf <a href=\"https://arxiv.org/abs/2608.07468\">arXiv</a>.",
+        "it": "Presentato il 10 agosto su Hugging Face Daily Papers con 16 voti favorevoli — il punteggio più alto della giornata —, SimWAM propone un'architettura di world-action model che utilizza la generazione video esclusivamente come segnale di addestramento, per poi scartarla dopo l'apprendimento. Il modello raggiunge 91,5 PDMS su NAVSIM, superando i pianificatori allo stato dell'arte basati su WAM con una latenza sostanzialmente ridotta, e si trasferisce senza ulteriore apprendimento a nuScenes. Codice e pesi disponibili su <a href=\"https://github.com/H-EmbodVis/SimWAM\">GitHub</a>. Paper completo su <a href=\"https://arxiv.org/abs/2608.07468\">arXiv</a>.",
+        "lmo": "Presentaa el 10 de avost sora Hugging Face Daily Papers con 16 vot favorevol — el score pussee volt de la giornada —, SimWAM el propon ona architettura de world-action model che la doperà la generazion video domà 'me segnàl de addestrament, e pœu la buttà via dòpo l'imparà. El modèl el riva a 91,5 PDMS sora NAVSIM, sorpassand i pianificator staa-de-l'art basaa sora WAM con ona latenza sostanzialment sbassada, e el se trasferiss senza addestrament supplementar a nuScenes. Codes e pes disponìbel sora <a href=\"https://github.com/H-EmbodVis/SimWAM\">GitHub</a>. Carta completa sora <a href=\"https://arxiv.org/abs/2608.07468\">arXiv</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Majeur",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-10",
+        "en": "From the Wires — 2026-08-10",
+        "de": "From the Wires — 2026-08-10",
+        "it": "From the Wires — 2026-08-10",
+        "lmo": "From the Wires — 2026-08-10"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.07468",
+        "https://github.com/H-EmbodVis/SimWAM"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenChamber : un environnement de développement « agentic » open source suscite 127 points sur Hacker News",
+        "en": "OpenChamber : un environnement de développement « agentic » open source suscite 127 points sur Hacker News",
+        "de": "OpenChamber: Eine Open-Source-Entwicklungsumgebung für «agentenbasiertes» Programmieren erzielt 127 Punkte auf Hacker News",
+        "it": "OpenChamber: un ambiente di sviluppo «agentic» open source ottiene 127 punti su Hacker News",
+        "lmo": "OpenChamber: on ambient de svilupp « agentic » open source el raccogna 127 pont sora Hacker News"
+      },
+      "body": {
+        "fr": "Lancé le 9 août, OpenChamber se présente comme un environnement de développement « agentic » open source, accumulant 127 points et 71 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49233448\">Hacker News</a>. Le projet, accessible sur <a href=\"https://openchamber.dev/\">openchamber.dev</a>, rejoint une vague d'outils cherchant à orchestrer plusieurs agents IA dans un même flux de travail de développement — un espace déjà occupé par Claude Code, Codex CLI et d'autres harnais concurrents.",
+        "en": "Lancé le 9 août, OpenChamber se présente comme un environnement de développement « agentic » open source, accumulant 127 points et 71 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49233448\">Hacker News</a>. Le projet, accessible sur <a href=\"https://openchamber.dev/\">openchamber.dev</a>, rejoint une vague d'outils cherchant à orchestrer plusieurs agents IA dans un même flux de travail de développement — un espace déjà occupé par Claude Code, Codex CLI et d'autres harnais concurrents.",
+        "de": "Am 9. August lanciert, positioniert sich OpenChamber als Open-Source-Entwicklungsumgebung für «agentenbasiertes» Arbeiten und sammelt 127 Punkte und 71 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49233448\">Hacker News</a>. Das Projekt, erreichbar unter <a href=\"https://openchamber.dev/\">openchamber.dev</a>, reiht sich in eine Welle von Werkzeugen ein, die mehrere KI-Agenten in einem gemeinsamen Entwicklungsworkflow orchestrieren wollen — ein Bereich, der bereits von Claude Code, Codex CLI und weiteren konkurrierenden Frameworks besetzt ist.",
+        "it": "Lanciato il 9 agosto, OpenChamber si presenta come un ambiente di sviluppo «agentic» open source, accumulando 127 punti e 71 commenti su <a href=\"https://news.ycombinator.com/item?id=49233448\">Hacker News</a>. Il progetto, accessibile su <a href=\"https://openchamber.dev/\">openchamber.dev</a>, si inserisce in un'onda di strumenti che cercano di orchestrare più agenti IA in uno stesso flusso di lavoro di sviluppo — uno spazio già occupato da Claude Code, Codex CLI e altri framework concorrenti.",
+        "lmo": "Lanciaa el 9 de avost, OpenChamber el se presenta 'me on ambient de svilupp « agentic » open source, raccogliend 127 pont e 71 comment sora <a href=\"https://news.ycombinator.com/item?id=49233448\">Hacker News</a>. El proget, acessìbel sora <a href=\"https://openchamber.dev/\">openchamber.dev</a>, el se gionta a ona venna de strument che i cerchen de orchester pussee agent IA in del midemm fluss de laurà de svilupp — on spazzi giamò occupaa de Claude Code, Codex CLI e di alter harnass concorrent."
+      },
+      "tag": {
+        "fr": "Communauté",
+        "en": "Communauté",
+        "de": "Community",
+        "it": "Comunità",
+        "lmo": "Comunitaa"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-09",
+        "en": "From the Wires — 2026-08-09",
+        "de": "From the Wires — 2026-08-09",
+        "it": "From the Wires — 2026-08-09",
+        "lmo": "From the Wires — 2026-08-09"
+      },
+      "urls": [
+        "https://openchamber.dev/",
+        "https://news.ycombinator.com/item?id=49233448"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "AudioRubrics : des rubriques auto-évolutives pour entraîner le raisonnement audio des modèles",
+        "en": "AudioRubrics : des rubriques auto-évolutives pour entraîner le raisonnement audio des modèles",
+        "de": "AudioRubrics: Selbst-evolvierende Rubriken zum Training des audio-basierten Schliessens von Modellen",
+        "it": "AudioRubrics: rubriche auto-evolutive per allenare il ragionamento audio dei modelli",
+        "lmo": "AudioRubrics: di rubrich auto-evolutiv per addestrà el resoneament audio di modèi"
+      },
+      "body": {
+        "fr": "Soumis le 10 août à Hugging Face Daily Papers avec 7 votes favorables, AudioRubrics (Université du Maryland) introduit un cadre d'apprentissage par renforcement où les récompenses ne sont ni statiques ni définies manuellement : le système synthétise des rubriques par échantillon à partir du signal audio brut, puis les régénère et les pondère en fonction des propres rollouts du modèle. Évalué sur trois benchmarks de raisonnement audio, il surpasse largement les baselines open source et basées sur l'entraînement. Détails sur <a href=\"https://arxiv.org/abs/2608.02831\">arXiv</a> et la <a href=\"https://audiorubrics.github.io\">page du projet</a>.",
+        "en": "Soumis le 10 août à Hugging Face Daily Papers avec 7 votes favorables, AudioRubrics (Université du Maryland) introduit un cadre d'apprentissage par renforcement où les récompenses ne sont ni statiques ni définies manuellement : le système synthétise des rubriques par échantillon à partir du signal audio brut, puis les régénère et les pondère en fonction des propres rollouts du modèle. Évalué sur trois benchmarks de raisonnement audio, il surpasse largement les baselines open source et basées sur l'entraînement. Détails sur <a href=\"https://arxiv.org/abs/2608.02831\">arXiv</a> et la <a href=\"https://audiorubrics.github.io\">page du projet</a>.",
+        "de": "Am 10. August bei Hugging Face Daily Papers mit 7 Stimmen eingereicht, führt AudioRubrics (Universität Maryland) ein Framework für bestärkendes Lernen ein, bei dem Belohnungen weder statisch noch manuell definiert sind: Das System synthetisiert probenweise Rubriken aus dem rochen Audiosignal und regeneriert sowie gewichtet diese auf der Grundlage der eigenen Rollouts des Modells. Auf drei Benchmarks für audio-basiertes Schliessen übertrifft es Open-Source- und Trainings-Baselines deutlich. Details auf <a href=\"https://arxiv.org/abs/2608.02831\">arXiv</a> und der <a href=\"https://audiorubrics.github.io\">Projektseite</a>.",
+        "it": "Sottomesso il 10 agosto a Hugging Face Daily Papers con 7 voti favorevoli, AudioRubrics (Università del Maryland) introduce un framework di apprendimento per rinforzo in cui le ricompense non sono né statiche né definite manualmente: il sistema sintetizza rubriche per campione a partire dal segnale audio grezzo, per poi rigenerarle e ponderarle in funzione dei roll-out del modello stesso. Valutato su tre benchmark di ragionamento audio, supera ampiamente le baseline open source e basate sull'addestramento. Dettagli su <a href=\"https://arxiv.org/abs/2608.02831\">arXiv</a> e la <a href=\"https://audiorubrics.github.io\">pagina del progetto</a>.",
+        "lmo": "Consegnaraa el 10 de avost a Hugging Face Daily Papers con 7 vot favorevol, AudioRubrics (Università del Maryland) el introduv on quadro d'imparà per rinforz indova i ricompèns i hinn nè statich nè definii a man: el sistema el sintetizza di rubrich per campion a partì del segnàl audio grezz, pœu el je rigenera e el je pondera in funzion di sò rollouts del modèl. Valutaa sora trii benchmark de resoneament audio, el supera de bon i baseline open source e basaa sora l'addestrament. Detali sora <a href=\"https://arxiv.org/abs/2608.02831\">arXiv</a> e la <a href=\"https://audiorubrics.github.io\">pagina del proget</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Recherche",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-10",
+        "en": "From the Wires — 2026-08-10",
+        "de": "From the Wires — 2026-08-10",
+        "it": "From the Wires — 2026-08-10",
+        "lmo": "From the Wires — 2026-08-10"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.02831",
+        "https://audiorubrics.github.io"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "WorldTrace (NVIDIA) : sauver la mémoire visuelle des world models au-delà de l'horizon d'entraînement",
+        "en": "WorldTrace (NVIDIA) : sauver la mémoire visuelle des world models au-delà de l'horizon d'entraînement",
+        "de": "WorldTrace (NVIDIA): Das visuelle Gedächtnis von World Models jenseits des Trainings-Horizonts bewahren",
+        "it": "WorldTrace (NVIDIA): salvare la memoria visiva dei world models oltre l'orizzonte di addestramento",
+        "lmo": "WorldTrace (NVIDIA): salvà la memoria visiva di world models oltra l'orizzont de addestrament"
+      },
+      "body": {
+        "fr": "Des chercheurs de NVIDIA identifient une faille dans les world models vidéo interactifs : au-delà de l'horizon d'entraînement, les embeddings positionnels rotatifs (RoPE) sortent de leur plage apprise, rendant le contenu stocké dans le cache KV inaddressable. WorldTrace propose un cadre sans réentraînement assignant à chaque slot de résumé une position virtuelle dans la distribution. WorldTrace-Field améliore la cohérence temporelle de 15,5 % et WorldTrace-Landmark le rappel épisodique de 19,5 % sur le nouveau benchmark LoopBench. <a href=\"https://arxiv.org/abs/2608.07408\">Papier sur arXiv</a>.",
+        "en": "Des chercheurs de NVIDIA identifient une faille dans les world models vidéo interactifs : au-delà de l'horizon d'entraînement, les embeddings positionnels rotatifs (RoPE) sortent de leur plage apprise, rendant le contenu stocké dans le cache KV inaddressable. WorldTrace propose un cadre sans réentraînement assignant à chaque slot de résumé une position virtuelle dans la distribution. WorldTrace-Field améliore la cohérence temporelle de 15,5 % et WorldTrace-Landmark le rappel épisodique de 19,5 % sur le nouveau benchmark LoopBench. <a href=\"https://arxiv.org/abs/2608.07408\">Papier sur arXiv</a>.",
+        "de": "Forscher von NVIDIA identifizieren eine Schwachstelle in interaktiven Video-World-Models: Jenseits des Trainings-Horizonts verlassen die rotatorischen positionellen Embeddings (RoPE) ihren gelernten Bereich, wodurch der im KV-Cache gespeicherte Inhalt nicht mehr adressierbar wird. WorldTrace schlägt ein Framework ohne Neu-Training vor, das jedem Zusammenfassungs-Slot eine virtuelle Position innerhalb der Verteilung zuweist. WorldTrace-Field verbessert die zeitliche Kohärenz um 15,5 % und WorldTrace-Landmark das episodische Erinnerungsvermögen um 19,5 % auf dem neuen Benchmark LoopBench. <a href=\"https://arxiv.org/abs/2608.07408\">Paper auf arXiv</a>.",
+        "it": "Ricercatori di NVIDIA identificano una falla nei world models video interattivi: oltre l'orizzonte di addestramento, gli embeddings posizionali rotazionali (RoPE) escono dalla propria gamma appresa, rendendo il contenuto memorizzato nella cache KV non indirizzabile. WorldTrace propone un framework senza riaddestramento che assegna a ogni slot di riepilogo una posizione virtuale nella distribuzione. WorldTrace-Field migliora la coerenza temporale del 15,5% e WorldTrace-Landmark il richiamo episodico del 19,5% sul nuovo benchmark LoopBench. <a href=\"https://arxiv.org/abs/2608.07408\">Paper su arXiv</a>.",
+        "lmo": "Di ricercador de NVIDIA i identifichen ona falla in di world models video interattiv: oltra l'orizzont de addestrament, i embedding posicionaj rotativ (RoPE) i va foeura de la soa gamma imparada, rendend el content quattaa sù in del cache KV inaddressable. WorldTrace el propon on quadro sensa readestrament che 'l assigna a ògni slot de resum ona posicion virtual in de la distribuzion. WorldTrace-Field el meliora la coerenza temporal del 15,5 % e WorldTrace-Landmark el reciam episodich del 19,5 % sora el noeuv benchmark LoopBench. <a href=\"https://arxiv.org/abs/2608.07408\">Carta sora arXiv</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Recherche",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-10",
+        "en": "From the Wires — 2026-08-10",
+        "de": "From the Wires — 2026-08-10",
+        "it": "From the Wires — 2026-08-10",
+        "lmo": "From the Wires — 2026-08-10"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.07408"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "À la Une",
+        "de": "Titelseite",
+        "it": "In Prima Pagina",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Modèles & Frontière",
+            "de": "Modelle & Grenzen",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèi & Frontera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Douyin Multimodal Embedding : ByteDance atteint l'état de l'art sur MMEB-v2 avec un modèle déployé en production",
+                "en": "Douyin Multimodal Embedding : ByteDance atteint l'état de l'art sur MMEB-v2 avec un modèle déployé en production",
+                "de": "Douyin Multimodal Embedding: ByteDance erreicht den Stand der Technik auf MMEB-v2 mit einem im Produktivbetrieb eingesetzten Modell",
+                "it": "Douyin Multimodal Embedding: ByteDance raggiunge lo stato dell'arte su MMEB-v2 con un modello schierato in produzione",
+                "lmo": "Douyin Multimodal Embedding: ByteDance el riva a l'staa-de-l'art sora MMEB-v2 con on modèl despiegaa in produzion"
+              },
+              "body": {
+                "fr": "ByteDance publie le rapport technique de son modèle d'embedding multimodal Douyin (DME), mis en lumière le 10 août sur Hugging Face Daily Papers. DME combine un pré-entraînement contrastif à grande échelle avec un raisonnement latent en espace caché et une reconstruction croisée conditionnelle — deux mécanismes actifs uniquement pendant l'entraînement, qui n'ajoutent qu'un coût marginal en inference. Les variantes 2B et 9B atteignent respectivement 74,8 et 78,4 sur MMEB-v2, des scores à l'état de l'art pour des tailles comparables, avec une force particulière sur les tâches vidéo et document visuel. En production, DME délivre un gain relatif de 2,92 % sur l'évaluation interne de Douyin et un gain de 0,1 % Lifetime en test A/B sur la recherche Douyin. <a href=\"https://arxiv.org/abs/2608.02148\">Rapport technique sur arXiv</a>.",
+                "en": "ByteDance publie le rapport technique de son modèle d'embedding multimodal Douyin (DME), mis en lumière le 10 août sur Hugging Face Daily Papers. DME combine un pré-entraînement contrastif à grande échelle avec un raisonnement latent en espace caché et une reconstruction croisée conditionnelle — deux mécanismes actifs uniquement pendant l'entraînement, qui n'ajoutent qu'un coût marginal en inference. Les variantes 2B et 9B atteignent respectivement 74,8 et 78,4 sur MMEB-v2, des scores à l'état de l'art pour des tailles comparables, avec une force particulière sur les tâches vidéo et document visuel. En production, DME délivre un gain relatif de 2,92 % sur l'évaluation interne de Douyin et un gain de 0,1 % Lifetime en test A/B sur la recherche Douyin. <a href=\"https://arxiv.org/abs/2608.02148\">Rapport technique sur arXiv</a>.",
+                "de": "ByteDance veröffentlicht den technischen Bericht seines multimodalen Embedding-Modells Douyin (DME), das am 10. August auf Hugging Face Daily Papers hervorgehoben wurde. DME kombiniert gross angelegtes kontrastives Pre-Training mit latentem Schliessen im Hidden-Space und bedingter Kreuzrekonstruktion — zwei Mechanismen, die ausschliesslich während des Trainings aktiv sind und beim Inferenz nur marginale Kosten verursachen. Die Varianten 2B und 9B erreichen auf MMEB-v2 jeweils 74,8 und 78,4, was den Stand der Technik für vergleichbare Modellgrössen darstellt, mit besonderer Stärke bei Video- und visuellen Dokumentaufgaben. Im Produktivbetrieb liefert DME einen relativen Gewinn von 2,92 % bei der internen Evaluierung von Douyin und einen Gewinn von 0,1 % Lifetime im A/B-Test der Douyin-Suche. <a href=\"https://arxiv.org/abs/2608.02148\">Technischer Bericht auf arXiv</a>.",
+                "it": "ByteDance pubblica il rapporto tecnico del proprio modello di embedding multimodale Douyin (DME), messo in luce il 10 agosto su Hugging Face Daily Papers. DME combina un pre-addestramento contrastivo su larga scala con ragionamento latente in spazio nascosto e ricostruzione incrociata condizionale — due meccanismi attivi unicamente durante l'addestramento, che aggiungono solo un costo marginale in inferenza. Le varianti 2B e 9B raggiungono rispettivamente 74,8 e 78,4 su MMEB-v2, punteggi allo stato dell'arte per dimensioni comparabili, con una forza particolare sui compiti video e documenti visivi. In produzione, DME apporta un guadagno relativo del 2,92% sulla valutazione interna di Douyin e un guadagno dello 0,1% a Lifetime in test A/B sulla ricerca Douyin. <a href=\"https://arxiv.org/abs/2608.02148\">Rapporto tecnico su arXiv</a>.",
+                "lmo": "ByteDance el publica el raport tecnegh del sò modèl d'embedding multimodal Douyin (DME), miss in luss el 10 de avost sora Hugging Face Daily Papers. DME el combina on pre-addestrament contrastiv a granda scala con on resoneament latent in spazzi scond e ona ricostruzion incrosada condizional — dò meccanism attiv domà durant l'addestrament, che i ghe zonten apena on cost marginal in inference. I variant 2B e 9B i riven respetivament a 74,8 e 78,4 sora MMEB-v2, di score a l'staa-de-l'art per di dimenzion comparabil, con ona forza particular in su i cargh video e document visiv. In produzion, DME el dà on guadagn relativ del 2,92 % sora la valutazion interna de Douyin e on guadagn del 0,1 % Lifetime in test A/B in su la ricerca Douyin. <a href=\"https://arxiv.org/abs/2608.02148\">Raport tecnegh sora arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Embeddings multimodaux",
+                "en": "Embeddings multimodaux",
+                "de": "Multimodale Embeddings",
+                "it": "Embeddings multimodali",
+                "lmo": "Embedding multimodaj"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.02148"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un world model « conscient de l'incertitude » pour la navigation de drones par image-cible",
+                "en": "Un world model « conscient de l'incertitude » pour la navigation de drones par image-cible",
+                "de": "Ein «unsicherheitsbewusstes» World Model für die Drohnen-Navigation per Zielbild",
+                "it": "Un world model «consapevole dell'incertezza» per la navigazione dei droni tramite immagine-obiettivo",
+                "lmo": "On world model « consci de l'incertezza » per la navigazion de drone per immag-obietiv"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université Tsinghua proposent UA-NWM, un world model latent pour la navigation de drones vers un point défini par une image, présenté le 10 août sur Hugging Face Daily Papers avec 5 votes. Le modèle formule le classement des trajectoires comme un problème de détection hors-distribution conditionnelle : il décompose l'écart entre prédiction et objectif en une composante explicable par l'incertitude et un résidu inexpliqué, seul ce dernier servant au classement. Cette approche permet une sélection robuste sans échantillonnage multiple. Des expériences réelles sur drone valident la méthode. <a href=\"https://arxiv.org/abs/2608.05597\">Papier sur arXiv</a>, <a href=\"https://duryi.github.io/UA-NWM-Project-Page\">page du projet</a>.",
+                "en": "Des chercheurs de l'Université Tsinghua proposent UA-NWM, un world model latent pour la navigation de drones vers un point défini par une image, présenté le 10 août sur Hugging Face Daily Papers avec 5 votes. Le modèle formule le classement des trajectoires comme un problème de détection hors-distribution conditionnelle : il décompose l'écart entre prédiction et objectif en une composante explicable par l'incertitude et un résidu inexpliqué, seul ce dernier servant au classement. Cette approche permet une sélection robuste sans échantillonnage multiple. Des expériences réelles sur drone valident la méthode. <a href=\"https://arxiv.org/abs/2608.05597\">Papier sur arXiv</a>, <a href=\"https://duryi.github.io/UA-NWM-Project-Page\">page du projet</a>.",
+                "de": "Forscher der Tsinghua-Universität schlagen UA-NWM vor, ein latentes World Model für die Drohnen-Navigation zu einem durch ein Bild definierten Zielpunkt, vorgestellt am 10. August auf Hugging Face Daily Papers mit 5 Stimmen. Das Modell formuliert das Ranking von Trajektorien als Problem der bedingten Out-of-Distribution-Erkennung: Es zerlegt die Abweichung zwischen Vorhersage und Ziel in eine durch Unsicherheit erklärbare Komponente und einen unerklärten Rest, wobei nur Letzterer für das Ranking verwendet wird. Dieser Ansatz ermöglicht eine robuste Auswahl ohne mehrfaches Sampling. Reale Drohnenexperimente bestätigen die Methode. <a href=\"https://arxiv.org/abs/2608.05597\">Paper auf arXiv</a>, <a href=\"https://duryi.github.io/UA-NWM-Project-Page\">Projektseite</a>.",
+                "it": "Ricercatori dell'Università Tsinghua propongono UA-NWM, un world model latente per la navigazione dei droni verso un punto definito da un'immagine, presentato il 10 agosto su Hugging Face Daily Papers con 5 voti. Il modello formula la classificazione delle traiettorie come un problema di rilevamento out-of-distribution condizionale: scompone lo scarto tra predizione e obiettivo in una componente spiegabile dall'incertezza e in un residuo inspiegato, utilizzando solo quest'ultimo per la classificazione. Questo approccio consente una selezione robusta senza campionamento multiplo. Esperimenti reali su drone convalidano il metodo. <a href=\"https://arxiv.org/abs/2608.05597\">Paper su arXiv</a>, <a href=\"https://duryi.github.io/UA-NWM-Project-Page\">pagina del progetto</a>.",
+                "lmo": "Di ricercador de l'Università Tsinghua i proponen UA-NWM, on world model latent per la navigazion de drone vers on pont definii de ona immag, presentaa el 10 de avost sora Hugging Face Daily Papers con 5 vot. El modèl el formula la classifega di traiettori 'me on problema de rilevazion foeura-distribuzion condizional: el se descompon el scart intra predizion e obietiv in d'ona component spiegabil per l'incertezza e on residuu inspiegaa, domà 'st'ultem chì el servend a la classifega. 'St approcc chì el permet ona selezion robusta senza campionament multipel. Di esperiment reaj sora drone i validen el metod. <a href=\"https://arxiv.org/abs/2608.05597\">Carta sora arXiv</a>, <a href=\"https://duryi.github.io/UA-NWM-Project-Page\">pagina del proget</a>."
+              },
+              "kicker": {
+                "fr": "Robotique & Navigation",
+                "en": "Robotique & Navigation",
+                "de": "Robotik & Navigation",
+                "it": "Robotica & Navigazione",
+                "lmo": "Robotega & Navigazion"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.05597",
+                "https://duryi.github.io/UA-NWM-Project-Page"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "Le Cahier Technique",
+        "de": "Technischer Teil",
+        "it": "La Sezione Tecnica",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Méthodes",
+            "en": "Harnais & Méthodes",
+            "de": "Frameworks & Methoden",
+            "it": "Framework & Metodi",
+            "lmo": "Harnass & Metod"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "YOLO-PEFT : le premier cadre d'ajustement fin efficace en paramètres conçu pour la famille YOLO",
+                "en": "YOLO-PEFT : le premier cadre d'ajustement fin efficace en paramètres conçu pour la famille YOLO",
+                "de": "YOLO-PEFT: Das erste Framework für parametereffizientes Fine-Tuning, das für die YOLO-Familie entwickelt wurde",
+                "it": "YOLO-PEFT: il primo framework di fine-tuning efficiente in parametri progettato per la famiglia YOLO",
+                "lmo": "YOLO-PEFT: el primm quadro de ajustament fin efficient in parameter concepii per la fameja YOLO"
+              },
+              "body": {
+                "fr": "Tencent publie YOLO-PEFT, un cadre structurellement conscient qui formule le placement d'adaptateurs LoRA comme un problème de planification sous contraintes auditables. Sur le protocole VOC07+12 vers VOC07, le RS-LoRA planifié atteint 0,7138 mAP50-95 sur YOLO11s et 0,7307 sur YOLO12s, contre 0,6428 et 0,6662 pour le Full-SFT — soit une amélioration tout en réduisant la mémoire d'entraînement de 43,9 %. Le système sait également refuser l'entraînement lorsqu'il détecte un risque catastrophique : sur RT-DETR-L, les sept configurations LoRA évaluées franchissent le seuil critique, déclenchant un Refuse-to-Full-SFT. <a href=\"https://arxiv.org/abs/2608.07051\">Papier sur arXiv</a>.",
+                "en": "Tencent publie YOLO-PEFT, un cadre structurellement conscient qui formule le placement d'adaptateurs LoRA comme un problème de planification sous contraintes auditables. Sur le protocole VOC07+12 vers VOC07, le RS-LoRA planifié atteint 0,7138 mAP50-95 sur YOLO11s et 0,7307 sur YOLO12s, contre 0,6428 et 0,6662 pour le Full-SFT — soit une amélioration tout en réduisant la mémoire d'entraînement de 43,9 %. Le système sait également refuser l'entraînement lorsqu'il détecte un risque catastrophique : sur RT-DETR-L, les sept configurations LoRA évaluées franchissent le seuil critique, déclenchant un Refuse-to-Full-SFT. <a href=\"https://arxiv.org/abs/2608.07051\">Papier sur arXiv</a>.",
+                "de": "Tencent veröffentlicht YOLO-PEFT, ein strukturell bewusstes Framework, das die Platzierung von LoRA-Adaptern als Planungsproblem unter überprüfbaren Nebenbedingungen formuliert. Auf dem Protokoll VOC07+12 zu VOC07 erreicht das geplante RS-LoRA 0,7138 mAP50-95 auf YOLO11s und 0,7307 auf YOLO12s, gegenüber 0,6428 und 0,6662 für Full-SFT — also eine Verbesserung bei gleichzeitiger Reduktion des Trainings-Speichers um 43,9 %. Das System kann das Training auch verweigern, wenn es ein katastrophales Risiko erkennt: Auf RT-DETR-L überschreiten alle sieben evaluierten LoRA-Konfigurationen den kritischen Schwellenwert und lösen ein Refuse-to-Full-SFT aus. <a href=\"https://arxiv.org/abs/2608.07051\">Paper auf arXiv</a>.",
+                "it": "Tencent pubblica YOLO-PEFT, un framework strutturalmente consapevole che formula il posizionamento degli adattatori LoRA come un problema di pianificazione sotto vincoli verificabili. Sul protocollo VOC07+12 verso VOC07, il RS-LoRA pianificato raggiunge 0,7138 mAP50-95 su YOLO11s e 0,7307 su YOLO12s, contro 0,6428 e 0,6662 per il Full-SFT — un miglioramento riducendo al contempo la memoria di addestramento del 43,9%. Il sistema sa anche rifiutare l'addestramento quando rileva un rischio catastrofico: su RT-DETR-L, tutte e sette le configurazioni LoRA valutate superano la soglia critica, innescando un Refuse-to-Full-SFT. <a href=\"https://arxiv.org/abs/2608.07051\">Paper su arXiv</a>.",
+                "lmo": "Tencent el publica YOLO-PEFT, on quadro strutturalment consci che 'l formula el piazzament di adattator LoRA 'me on problema de pianificazion sotta vincol auditabil. Sora el protocoll VOC07+12 vers VOC07, el RS-LoRA pianificaa el riva a 0,7138 mAP50-95 sora YOLO11s e 0,7307 sora YOLO12s, contra 0,6428 e 0,6662 per el Full-SFT — cioè on meliorament intant che se sbassa la memoria de addestrament del 43,9 %. El sistema el sa anca refudà de addestrà quand che 'l rileva on ris'c catastrofegh: sora RT-DETR-L, i sètt configurazion LoRA valutaa i passa la soglia crìtega, deslanzand on Refuse-to-Full-SFT. <a href=\"https://arxiv.org/abs/2608.07051\">Carta sora arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Fine-tuning",
+                "en": "Fine-tuning",
+                "de": "Fine-Tuning",
+                "it": "Fine-tuning",
+                "lmo": "Fine-tuning"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.07051"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Modular TTT : décomposer le test-time training en modules composites",
+                "en": "Modular TTT : décomposer le test-time training en modules composites",
+                "de": "Modular TTT: Test-Time Training in composite Module zerlegen",
+                "it": "Modular TTT: scomporre il test-time training in moduli compositi",
+                "lmo": "Modular TTT: descomponn el test-time training in modui compost"
+              },
+              "body": {
+                "fr": "ByteDance Seed propose Modular TTT, un cadre qui représente l'apprentissage au moment du test comme un graphe acyclique dirigé, exposant le réseau de poids rapides, la fonction de perte, le taux d'apprentissage et la normalisation comme dimensions de conception explicites. Les ablations systématiques révèlent qu'une faible initialisation du taux d'apprentissage, le weight decay et une non-linéarité à couche unique améliorent les performances, tandis que les réseaux de poids rapides plus profonds et la normalisation les dégradent. La meilleure variante, entraînée à 410M et 1,45B paramètres sur 100B tokens, atteint une loss et des performances benchmark comparables à Gated DeltaNet. <a href=\"https://arxiv.org/abs/2608.07110\">Lire le papier sur arXiv</a>.",
+                "en": "ByteDance Seed propose Modular TTT, un cadre qui représente l'apprentissage au moment du test comme un graphe acyclique dirigé, exposant le réseau de poids rapides, la fonction de perte, le taux d'apprentissage et la normalisation comme dimensions de conception explicites. Les ablations systématiques révèlent qu'une faible initialisation du taux d'apprentissage, le weight decay et une non-linéarité à couche unique améliorent les performances, tandis que les réseaux de poids rapides plus profonds et la normalisation les dégradent. La meilleure variante, entraînée à 410M et 1,45B paramètres sur 100B tokens, atteint une loss et des performances benchmark comparables à Gated DeltaNet. <a href=\"https://arxiv.org/abs/2608.07110\">Lire le papier sur arXiv</a>.",
+                "de": "ByteDance Seed schlägt Modular TTT vor, ein Framework, das Lernen zur Inferenzzeit als gerichteten azyklischen Graphen darstellt und dabei das Netz der schnellen Gewichte, die Verlustfunktion, die Lernrate und die Normalisierung als explizite Design-Dimensionen freilegt. Systematische Ablationen zeigen, dass eine niedrige Initialisierung der Lernrate, Weight Decay und eine nicht-lineare Funktion mit einer einzigen Schicht die Leistung verbessern, während tiefere Netzwerke schneller Gewichte und Normalisierung sie verschlechtern. Die beste Variante, trainiert bei 410M und 1,45B Parametern auf 100B Token, erreicht eine Loss und Benchmark-Leistung, die mit Gated DeltaNet vergleichbar ist. <a href=\"https://arxiv.org/abs/2608.07110\">Das Paper auf arXiv lesen</a>.",
+                "it": "ByteDance Seed propone Modular TTT, un framework che rappresenta l'apprendimento al momento del test come un grafo aciclico diretto, esponendo la rete di pesi rapidi, la funzione di perdita, il tasso di apprendimento e la normalizzazione come dimensioni di progettazione esplicite. Le ablazioni sistematiche rivelano che una bassa inizializzazione del tasso di apprendimento, il weight decay e una non-linearità a strato singolo migliorano le prestazioni, mentre le reti di pesi rapidi più profonde e la normalizzazione le degradano. La migliore variante, addestrata a 410M e 1,45B parametri su 100B token, raggiunge loss e prestazioni benchmark comparabili a Gated DeltaNet. <a href=\"https://arxiv.org/abs/2608.07110\">Leggi il paper su arXiv</a>.",
+                "lmo": "ByteDance Seed el propon Modular TTT, on quadro che 'l representa l'imparà al moment del test 'me on graf aciclich dirett, esponend la red di pes svelt, la fonzion de perd, el tass d'imparà e la normalizzazion 'me dimenzion de concezion esplìcit. I abiazion sistemategh i revelen che ona bassa inizializzazion del tass d'imparà, el weight decay e ona nò-linearitàa a singol strat i melioren i prestazion, intant che i red di pes svelt pussee profond e la normalizzazion i pesnen. La variant mej, addestrada a 410M e 1,45B parameter sora 100B token, la riva a ona perd e di prestazion benchmark comparabil a Gated DeltaNet. <a href=\"https://arxiv.org/abs/2608.07110\">Legg la carta sora arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Test-time training",
+                "en": "Test-time training",
+                "de": "Test-Time Training",
+                "it": "Test-time training",
+                "lmo": "Test-time training"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.07110"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ReASearch : l'optimiseur EST l'agent",
+                "en": "ReASearch : l'optimiseur EST l'agent",
+                "de": "ReASearch: Der Optimierer IST der Agent",
+                "it": "ReASearch: l'ottimizzatore È l'agente",
+                "lmo": "ReASearch: l'ottimizzator L'È l'agent"
+              },
+              "body": {
+                "fr": "Un papier soumis le 10 août sur Hugging Face Daily Papers pose une question radicale : combien de la politique de recherche dans l'optimisation de prompts, de programmes et de flux ML peut être internalisée par un seul agent utilisant des outils ? ReASearch présente un cadre unifié où l'agent décide autonoment quoi évaluer, comment diagnostiquer les échecs, quelles modifications apporter et quand vérifier ou recommencer. Sur 14 tâches diverses, il est compétitif avec — et souvent meilleur que — des systèmes d'optimisation spécialisés, avec des gains de 2 % à 40 % sur les baselines. Les comportements de recherche complexes émergent naturellement du raisonnement de l'agent. <a href=\"https://arxiv.org/abs/2608.06714\">Consulter l'étude sur arXiv</a>.",
+                "en": "Un papier soumis le 10 août sur Hugging Face Daily Papers pose une question radicale : combien de la politique de recherche dans l'optimisation de prompts, de programmes et de flux ML peut être internalisée par un seul agent utilisant des outils ? ReASearch présente un cadre unifié où l'agent décide autonoment quoi évaluer, comment diagnostiquer les échecs, quelles modifications apporter et quand vérifier ou recommencer. Sur 14 tâches diverses, il est compétitif avec — et souvent meilleur que — des systèmes d'optimisation spécialisés, avec des gains de 2 % à 40 % sur les baselines. Les comportements de recherche complexes émergent naturellement du raisonnement de l'agent. <a href=\"https://arxiv.org/abs/2608.06714\">Consulter l'étude sur arXiv</a>.",
+                "de": "Ein Paper, das am 10. August auf Hugging Face Daily Papers eingereicht wurde, stellt eine radikale Frage: Wie viel von der Such-Politik bei der Optimierung von Prompts, Programmen und ML-Pipelines kann von einem einzigen werkzeugverwendenden Agenten internalisiert werden? ReASearch präsentiert ein vereinheitlichtes Framework, in dem der Agent autonom entscheidet, was er evaluieren will, wie er Misserfolge diagnostiziert, welche Änderungen er vornimmt und wann er verifiziert oder neu beginnt. Auf 14 unterschiedlichen Aufgaben ist es wettbewerbsfähig mit — und oft besser als — spezialisierte Optimierungssysteme, mit Gewinnen von 2 % bis 40 % über den Baselines. Komplexe Suchverhalten entsteht natürlicherweise aus dem Schliessen des Agenten. <a href=\"https://arxiv.org/abs/2608.06714\">Die Studie auf arXiv konsultieren</a>.",
+                "it": "Un paper sottomesso il 10 agosto su Hugging Face Daily Papers pone una domanda radicale: quanta parte della politica di ricerca nell'ottimizzazione di prompt, programmi e pipeline ML può essere internalizzata da un singolo agente che utilizza strumenti? ReASearch presenta un framework unificato in cui l'agente decide autonomamente cosa valutare, come diagnosticare i fallimenti, quali modifiche apportare e quando verificare o ricominciare. Su 14 compiti diversi, è competitivo con — e spesso migliore di — sistemi di ottimizzazione specializzati, con guadagni dal 2% al 40% rispetto alle baseline. I comportamenti di ricerca complessi emergono naturalmente dal ragionamento dell'agente. <a href=\"https://arxiv.org/abs/2608.06714\">Consulta lo studio su arXiv</a>.",
+                "lmo": "Ona carta consegnada el 10 de avost sora Hugging Face Daily Papers la mètt ona domanda radicaj: quand de la politega de ricerca in l'ottimizzazion di prompt, di program e di fluss ML la pò vess internalizzada de on singol agent che 'l doperà di strument? ReASearch el presenta on quadro unificaa indova l'agent el decid autonomament cossà valutà, 'me diagnosticà i faliament, qual modifegh portà e quand verificà o scomincià de nœuv. Sora 14 cargh divers, l'è competitiv con — e despess mej de — di sistema d'ottimizzazion specializaa, con di guadagn del 2 % al 40 % sora i baseline. I comportament de ricerca compless i vegnen foeura naturalment del resoneament de l'agent. <a href=\"https://arxiv.org/abs/2608.06714\">Consulta el studi sora arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Optimisation agentique",
+                "en": "Optimisation agentique",
+                "de": "Agenten-Optimierung",
+                "it": "Ottimizzazione agentica",
+                "lmo": "Ottimizzazion agentega"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.06714"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "La Recherche",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Agents & RL",
+            "en": "Agents & RL",
+            "de": "Agenten & RL",
+            "it": "Agenti & RL",
+            "lmo": "Agent & RL"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "SMRC-SD : quand le guidage privilégié devient contre-productif pour les agents multi-tours",
+                "en": "SMRC-SD : quand le guidage privilégié devient contre-productif pour les agents multi-tours",
+                "de": "SMRC-SD: Wenn privilegierte Anleitung für Multi-Turn-Agenten kontraproduktiv wird",
+                "it": "SMRC-SD: quando la guida privilegiata diventa controproducente per gli agenti multi-turno",
+                "lmo": "SMRC-SD: quand che la guida privilegiada la vegn contra-producent per i agent multi-turn"
+              },
+              "body": {
+                "fr": "La distillation privilégiée on-policy fournit une supervision dense pour les agents multi-tours, mais quand l'élève prend des actions différentes de la trajectoire de référence, l'enseignant devient un guide peu fiable. SMRC-SD (State-Matched Routing and Contextualized Self-Distillation) vérifie à chaque tour si l'état d'exécution de l'élève correspond à un état couvert par la référence, et n'applique la distillation qu'aux états correspondants. Avec Qwen3-1.7B, le taux de succès passe de 0,746 à 0,865 sur ALFWorld et de 0,574 à 0,693 sur WebShop. Code disponible sur <a href=\"https://github.com/liujunzhuo/SMRC-SD\">GitHub</a>, papier sur <a href=\"https://arxiv.org/abs/2608.05219\">arXiv</a>.",
+                "en": "La distillation privilégiée on-policy fournit une supervision dense pour les agents multi-tours, mais quand l'élève prend des actions différentes de la trajectoire de référence, l'enseignant devient un guide peu fiable. SMRC-SD (State-Matched Routing and Contextualized Self-Distillation) vérifie à chaque tour si l'état d'exécution de l'élève correspond à un état couvert par la référence, et n'applique la distillation qu'aux états correspondants. Avec Qwen3-1.7B, le taux de succès passe de 0,746 à 0,865 sur ALFWorld et de 0,574 à 0,693 sur WebShop. Code disponible sur <a href=\"https://github.com/liujunzhuo/SMRC-SD\">GitHub</a>, papier sur <a href=\"https://arxiv.org/abs/2608.05219\">arXiv</a>.",
+                "de": "On-Policy-Destillation mit privilegierten Informationen liefert dichte Supervision für Multi-Turn-Agenten, doch wenn der Schüler andere Aktionen als die Referenz-Trajektorie wählt, wird der Lehrer zu einem unzuverlässigen Ratgeber. SMRC-SD (State-Matched Routing and Contextualized Self-Distillation) prüft in jedem Zug, ob der Ausführungszustand des Schülers einem von der Referenz abgedeckten Zustand entspricht, und wendet die Destillation nur auf übereinstimmende Zustände an. Mit Qwen3-1.7B steigt die Erfolgsquote von 0,746 auf 0,865 auf ALFWorld und von 0,574 auf 0,693 auf WebShop. Code verfügbar auf <a href=\"https://github.com/lijunzhuo/SMRC-SD\">GitHub</a>, Paper auf <a href=\"https://arxiv.org/abs/2608.05219\">arXiv</a>.",
+                "it": "La distillazione privilegiata on-policy fornisce una supervisione densa per gli agenti multi-turno, ma quando l'allievo compie azioni diverse dalla traiettoria di riferimento, l'insegnante diventa una guida poco affidabile. SMRC-SD (State-Matched Routing and Contextualized Self-Distillation) verifica a ogni turno se lo stato di esecuzione dell'allievo corrisponde a uno stato coperto dal riferimento, e applica la distillazione solo agli stati corrispondenti. Con Qwen3-1.7B, il tasso di successo passa da 0,746 a 0,865 su ALFWorld e da 0,574 a 0,693 su WebShop. Codice disponibile su <a href=\"https://github.com/liujunzhuo/SMRC-SD\">GitHub</a>, paper su <a href=\"https://arxiv.org/abs/2608.05219\">arXiv</a>.",
+                "lmo": "La distillazion privilegiada on-policy la forniss ona supervision densa per i agent multi-turn, ma quand che l'alev el prend di azion divers de la traiettoria de riferiment, l'insegnant el vegn on guide pocch affidàbel. SMRC-SD (State-Matched Routing and Contextualized Self-Distillation) el verifica a ògni turn se 'l staa d'esecuzion de l'alev el corespond a on staa quattaa del riferiment, e l'aplica la distillazion domà ai staa corrispondent. Con Qwen3-1.7B, el tass de success el va de 0,746 a 0,865 sora ALFWorld e de 0,574 a 0,693 sora WebShop. Codes disponìbel sora <a href=\"https://github.com/liujunzhuo/SMRC-SD\">GitHub</a>, carta sora <a href=\"https://arxiv.org/abs/2608.05219\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Distillation",
+                "en": "Distillation",
+                "de": "Destillation",
+                "it": "Distillazione",
+                "lmo": "Distillazion"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.05219",
+                "https://github.com/liujunzhuo/SMRC-SD"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "StreamArena : 243 vidéos d'une durée moyenne de 88,8 minutes pour évaluer la compréhension streaming des agents",
+                "en": "StreamArena : 243 vidéos d'une durée moyenne de 88,8 minutes pour évaluer la compréhension streaming des agents",
+                "de": "StreamArena: 243 Videos mit einer durchschnittlichen Dauer von 88,8 Minuten zur Evaluierung des Streaming-Verständnisses von Agenten",
+                "it": "StreamArena: 243 video di durata media di 88,8 minuti per valutare la comprensione streaming degli agenti",
+                "lmo": "StreamArena: 243 video de ona durada media de 88,8 menut per valutà la comprension streaming di agent"
+              },
+              "body": {
+                "fr": "Xiaohongshu publie StreamArena, un benchmark pour la compréhension vidéo streaming à l'échelle de l'heure. Avec 243 vidéos intégrales d'une durée moyenne de 88,8 minutes et 3 646 paires question-réponse en questions ouvertes, StreamArena évalue la perception temps réel, la rétrospection historique, l'interaction proactive et l'utilisation d'outils multimodaux. L'évaluation révèle une tension fondamentale : les méthodes qui ne conservent que les images récentes perdent les événements lointains, celles qui convertissent le passé en texte perdent l'évidence visuelle, et celles qui compressent la mémoire peinent à préserver les détails fins. <a href=\"https://arxiv.org/abs/2608.05703\">Papier sur arXiv</a>, <a href=\"https://hkuzxc.github.io/StreamArena_web/\">page du projet</a>.",
+                "en": "Xiaohongshu publie StreamArena, un benchmark pour la compréhension vidéo streaming à l'échelle de l'heure. Avec 243 vidéos intégrales d'une durée moyenne de 88,8 minutes et 3 646 paires question-réponse en questions ouvertes, StreamArena évalue la perception temps réel, la rétrospection historique, l'interaction proactive et l'utilisation d'outils multimodaux. L'évaluation révèle une tension fondamentale : les méthodes qui ne conservent que les images récentes perdent les événements lointains, celles qui convertissent le passé en texte perdent l'évidence visuelle, et celles qui compressent la mémoire peinent à préserver les détails fins. <a href=\"https://arxiv.org/abs/2608.05703\">Papier sur arXiv</a>, <a href=\"https://hkuzxc.github.io/StreamArena_web/\">page du projet</a>.",
+                "de": "Xiaohongshu veröffentlicht StreamArena, einen Benchmark für das Verständnis von gestreamtem Video im Stunden-Massstab. Mit 243 vollständigen Videos von durchschnittlich 88,8 Minuten Dauer und 3 646 Frage-Antwort-Paaren in offener Form bewertet StreamArena Echtzeitwahrnehmung, historische Rückschau, proaktive Interaktion und die Nutzung multimodaler Werkzeuge. Die Evaluierung offenbart einen fundamentalen Zielkonflikt: Methoden, die nur die neuesten Bilder behalten, verlieren weit zurückliegende Ereignisse; Methoden, die die Vergangenheit in Text umwandeln, verlieren visuelle Evidenz; und Methoden, die das Gedächtnis komprimieren, haben Mühe, feine Details zu bewahren. <a href=\"https://arxiv.org/abs/2608.05703\">Paper auf arXiv</a>, <a href=\"https://hkuzxc.github.io/StreamArena_web/\">Projektseite</a>.",
+                "it": "Xiaohongshu pubblica StreamArena, un benchmark per la comprensione video streaming su scala dell'ora. Con 243 video integrali di durata media di 88,8 minuti e 3 646 coppie domanda-risposta a domanda aperta, StreamArena valuta la percezione in tempo reale, la retrospettiva storica, l'interazione proattiva e l'uso di strumenti multimodali. La valutazione rivela una tensione fondamentale: i metodi che conservano solo le immagini recenti perdono gli eventi lontani, quelli che convertono il passato in testo perdono l'evidenza visiva, e quelli che comprimono la memoria faticano a preservare i dettagli fini. <a href=\"https://arxiv.org/abs/2608.05703\">Paper su arXiv</a>, <a href=\"https://hkuzxc.github.io/StreamArena_web/\">pagina del progetto</a>.",
+                "lmo": "Xiaohongshu el pubblica StreamArena, on benchmark per la comprension video streaming a la scala de l'ora. Con 243 video intregh de ona durada media de 88,8 menut e 3 646 cobbia domanda-risposta in domand avert, StreamArena el valuta la percezion temp real, la retrospezion storega, l'interazion proattiva e l'us di strument multimodaj. La valutazion la revela ona tension fondamental: i metod che i conserven domà i immag recent i perden i event lontan, quij che i converten el passaa in test i perden l'evidenza visiva, e quij che i comprimenn la memoria i fadighen a conservà i detali fin. <a href=\"https://arxiv.org/abs/2608.05703\">Carta sora arXiv</a>, <a href=\"https://hkuzxc.github.io/StreamArena_web/\">pagina del proget</a>."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.05703",
+                "https://hkuzxc.github.io/StreamArena_web/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Confidentialité",
+            "en": "Confidentialité",
+            "de": "Datenschutz",
+            "it": "Riservatezza",
+            "lmo": "Confidenzialitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "PrivacyPeek : les agents IA acquièrent massivement plus de données sensibles que nécessaire",
+                "en": "PrivacyPeek : les agents IA acquièrent massivement plus de données sensibles que nécessaire",
+                "de": "PrivacyPeek: KI-Agenten beschaffen massiv mehr sensible Daten als nötig",
+                "it": "PrivacyPeek: gli agenti IA acquisiscono massicciamente più dati sensibili del necessario",
+                "lmo": "PrivacyPeek: i agent IA i acquisten massivament pussee dacc sensìbel del necessari"
+              },
+              "body": {
+                "fr": "PrivacyPeek, un benchmark présenté le 10 août sur Hugging Face Daily Papers, audite la phase d'acquisition — là où les données entrent dans le contexte de l'agent — et non plus seulement ce que l'agent divulgue. Avec 1 182 cas couvrant 7 comportements d'acquisition et 16 domaines d'application, les expériences sur 10 agents issus de 4 familles de modèles montrent que l'acquisition non nécessaire d'informations sensibles est généralisée. Plus préoccupant : une corrélation existe entre la capacité de complétion de tâche et l'ampleur des fuites, et les défenses au niveau du prompt ne réduisent qu'une faible fraction du problème. Code et données sur <a href=\"https://github.com/Xuan269/PrivacyPeek-Resource\">GitHub</a>, papier sur <a href=\"https://arxiv.org/abs/2606.00152\">arXiv</a>.",
+                "en": "PrivacyPeek, un benchmark présenté le 10 août sur Hugging Face Daily Papers, audite la phase d'acquisition — là où les données entrent dans le contexte de l'agent — et non plus seulement ce que l'agent divulgue. Avec 1 182 cas couvrant 7 comportements d'acquisition et 16 domaines d'application, les expériences sur 10 agents issus de 4 familles de modèles montrent que l'acquisition non nécessaire d'informations sensibles est généralisée. Plus préoccupant : une corrélation existe entre la capacité de complétion de tâche et l'ampleur des fuites, et les défenses au niveau du prompt ne réduisent qu'une faible fraction du problème. Code et données sur <a href=\"https://github.com/Xuan269/PrivacyPeek-Resource\">GitHub</a>, papier sur <a href=\"https://arxiv.org/abs/2606.00152\">arXiv</a>.",
+                "de": "PrivacyPeek, ein Benchmark, der am 10. August auf Hugging Face Daily Papers vorgestellt wurde, auditiert die Akquisitionsphase — den Moment, in dem Daten in den Kontext des Agenten gelangen — und nicht mehr nur das, was der Agent nach aussen gibt. Mit 1 182 Fällen, die 7 Akquisitionsverhalten und 16 Anwendungsbereiche abdecken, zeigen Experimente mit 10 Agenten aus 4 Modellfamilien, dass die unnötige Beschaffung sensibler Informationen weit verbreitet ist. Besorgniserregend: Es besteht eine Korrelation zwischen der Fähigkeit zur Aufgabenbewältigung und dem Ausmass der Lecks, und Abwehrmassnahmen auf Prompt-Ebene reduzieren nur einen kleinen Teil des Problems. Code und Daten auf <a href=\"https://github.com/Xuan269/PrivacyPeek-Resource\">GitHub</a>, Paper auf <a href=\"https://arxiv.org/abs/2606.00152\">arXiv</a>.",
+                "it": "PrivacyPeek, un benchmark presentato il 10 agosto su Hugging Face Daily Papers, audita la fase di acquisizione — laddove i dati entrano nel contesto dell'agente — e non più soltanto ciò che l'agente divulga. Con 1 182 casi che coprono 7 comportamenti di acquisizione e 16 domini applicativi, gli esperimenti su 10 agenti provenienti da 4 famiglie di modelli mostrano che l'acquisizione non necessaria di informazioni sensibili è generalizzata. Più preoccupante: esiste una correlazione tra la capacità di completamento del compito e l'entità delle fughe, e le difese a livello di prompt riducono solo una frazione marginale del problema. Codice e dati su <a href=\"https://github.com/Xuan269/PrivacyPeek-Resource\">GitHub</a>, paper su <a href=\"https://arxiv.org/abs/2606.00152\">arXiv</a>.",
+                "lmo": "PrivacyPeek, on benchmark presentaa el 10 de avost sora Hugging Face Daily Papers, el audita la fasi de acuisizion — lí indova i dacc i entren in del contest de l'agent — e nò domà quell che l'el revela. Con 1 182 cas che i quatten 7 comportament d'acuisizion e 16 domini d'applicazion, i esperiment sora 10 agent tòlt foeura de 4 famej de modèi i mostren che l'acuisizion nò necessaria d'informazion sensìbel l'è generalizada. Pussee preocupant: l'è ona correlazion intra la capacità de compless de cargh e la grandezza di sorgent, e i difés a nivell de prompt i sbassen apena ona frazion piscinina del problema. Codes e dacc sora <a href=\"https://github.com/Xuan269/PrivacyPeek-Resource\">GitHub</a>, carta sora <a href=\"https://arxiv.org/abs/2606.00152\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Sécurité",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2606.00152",
+                "https://github.com/Xuan269/PrivacyPeek-Resource"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        },
+        {
+          "title": {
+            "fr": "Scaling",
+            "en": "Scaling",
+            "de": "Scaling",
+            "it": "Scaling",
+            "lmo": "Scaling"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Skaling (Meta) : les lois de Chinchilla et de Kaplan réconciliées par un exposant d'interaction",
+                "en": "Skaling (Meta) : les lois de Chinchilla et de Kaplan réconciliées par un exposant d'interaction",
+                "de": "Skaling (Meta): Die Gesetze von Chinchilla und Kaplan durch einen Interaktions-Exponenten versöhnt",
+                "it": "Skaling (Meta): le leggi di Chinchilla e di Kaplan riconciliate da un esponente di interazione",
+                "lmo": "Skaling (Meta): i leg de Chinchilla e de Kaplan riconciliaa de on esponent d'interazion"
+              },
+              "body": {
+                "fr": "Des chercheurs de Meta proposent la loi de Skaling, une forme fonctionnelle généralisée qui couple la capacité du modèle et la quantité de données via un seul exposant d'interaction, au lieu de les traiter indépendamment. Cette extension réduit l'erreur absolue en pourcentage (MAPE) d'un facteur 1,5 à 3× par rapport aux formulations standard, en interpolation comme en extrapolation. Combinée à une stratégie de grille éparse restreinte aux régions de faible calcul, elle permet une extrapolation précise avec environ 10× moins de calcul que les balayages uniformes. <a href=\"https://arxiv.org/abs/2608.07222\">Papier sur arXiv</a>.",
+                "en": "Des chercheurs de Meta proposent la loi de Skaling, une forme fonctionnelle généralisée qui couple la capacité du modèle et la quantité de données via un seul exposant d'interaction, au lieu de les traiter indépendamment. Cette extension réduit l'erreur absolue en pourcentage (MAPE) d'un facteur 1,5 à 3× par rapport aux formulations standard, en interpolation comme en extrapolation. Combinée à une stratégie de grille éparse restreinte aux régions de faible calcul, elle permet une extrapolation précise avec environ 10× moins de calcul que les balayages uniformes. <a href=\"https://arxiv.org/abs/2608.07222\">Papier sur arXiv</a>.",
+                "de": "Forscher von Meta schlagen das Skaling-Gesetz vor, eine verallgemeinerte funktionale Form, die Modellkapazität und Datenmenge über einen einzigen Interaktions-Exponenten koppelt, anstatt sie unabhängig zu behandeln. Diese Erweiterung reduziert den mittleren absoluten prozentualen Fehler (MAPE) um den Faktor 1,5 bis 3× im Vergleich zu Standardformulierungen, sowohl bei Interpolation als auch bei Extrapolation. Kombiniert mit einer Strategie der dünnen Gitter, die auf Regionen geringer Rechenleistung beschränkt ist, ermöglicht sie eine genaue Extrapolation mit etwa 10× weniger Rechenleistung als bei gleichmässigen Suchläufen. <a href=\"https://arxiv.org/abs/2608.07222\">Paper auf arXiv</a>.",
+                "it": "Ricercatori di Meta propongono la legge di Skaling, una forma funzionale generalizzata che accoppia la capacità del modello e la quantità di dati tramite un singolo esponente di interazione, invece di trattarli indipendentemente. Questa estensione riduce l'errore assoluto percentuale (MAPE) di un fattore da 1,5 a 3× rispetto alle formulazioni standard, sia in interpolazione che in estrapolazione. Combinata a una strategia di griglia sparsa ristretta alle regioni di basso calcolo, permette un'estrapolazione precisa con circa 10× meno calcolo rispetto alle scansioni uniformi. <a href=\"https://arxiv.org/abs/2608.07222\">Paper su arXiv</a>.",
+                "lmo": "Di ricercador de Meta i proponen la leg de Skaling, ona forma fonzional generalizzada che l'acoppia la capacità del modèl e la quantitàa de dacc via on singol esponent d'interazion, inveci de trattàj independentement. 'St'estension chì la sbassa l'eror assolut in percentual (MAPE) de on fattor de 1,5 a 3× rispètt ai formulazion standard, tant in interpolazion quant in extrapolazion. Combinaa con ona strategia de grignja sparsa restrinzuda ai region de calcol bas, la permet ona extrapolazion precisa con circa 10× manch de calcol rispètt ai pass uniform. <a href=\"https://arxiv.org/abs/2608.07222\">Carta sora arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Lois d'échelle",
+                "en": "Lois d'échelle",
+                "de": "Skalierungsgesetze",
+                "it": "Leggi di scala",
+                "lmo": "Leg de scala"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.07222"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "La Communauté & Édito",
+        "de": "Community & Leitartikel",
+        "it": "Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Signaux de la communauté",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnal de la comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Comment j'utilise les LLM pour apprendre des sujets complexes » : 517 points et 290 commentaires sur Hacker News",
+                "en": "« Comment j'utilise les LLM pour apprendre des sujets complexes » : 517 points et 290 commentaires sur Hacker News",
+                "de": "«Wie ich LLMs verwende, um komplexe Themen zu lernen»: 517 Punkte und 290 Kommentare auf Hacker News",
+                "it": "«Come uso gli LLM per imparare argomenti complessi»: 517 punti e 290 commenti su Hacker News",
+                "lmo": "« Comè fà doperi i LLM per imparà di argoment compless »: 517 pont e 290 comment sora Hacker News"
+              },
+              "body": {
+                "fr": "Un essai méthodologique publié le 9 août sur le blog personnel de Laurentiu Gabriel a déclenché la discussion IA la plus suivie de la journée sur <a href=\"https://news.ycombinator.com/item?id=49234675\">Hacker News</a>, accumulant 517 points et 290 commentaires. L'auteur y détaille son processus d'apprentissage de sujets complexes à l'aide des grands modèles de langage — de la décomposition de concepts au quiz itératif. Le texte original est disponible sur <a href=\"https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/\">son blog</a>. L'engouement témoigne de l'appétit croissant des développeurs pour des récits d'usage pratiques, au-delà des annonces de produits.",
+                "en": "Un essai méthodologique publié le 9 août sur le blog personnel de Laurentiu Gabriel a déclenché la discussion IA la plus suivie de la journée sur <a href=\"https://news.ycombinator.com/item?id=49234675\">Hacker News</a>, accumulant 517 points et 290 commentaires. L'auteur y détaille son processus d'apprentissage de sujets complexes à l'aide des grands modèles de langage — de la décomposition de concepts au quiz itératif. Le texte original est disponible sur <a href=\"https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/\">son blog</a>. L'engouement témoigne de l'appétit croissant des développeurs pour des récits d'usage pratiques, au-delà des annonces de produits.",
+                "de": "Ein methodologischer Essay, veröffentlicht am 9. August auf dem persönlichen Blog von Laurentiu Gabriel, hat die meistverfolgte KI-Diskussion des Tages auf <a href=\"https://news.ycombinator.com/item?id=49234675\">Hacker News</a> ausgelöst und 517 Punkte sowie 290 Kommentare gesammelt. Der Autor beschreibt darin seinen Prozess des Erlernens komplexer Themen mit Hilfe grosser Sprachmodelle — von der Zerlegung von Konzepten bis zum iterativen Quiz. Der Originaltext ist auf <a href=\"https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/\">seinem Blog</a> verfügbar. Das grosse Interesse zeugt vom wachsenden Appetit der Entwickler auf praxisnahe Erfahrungsberichte jenseits von Produktankündigungen.",
+                "it": "Un saggio metodologico pubblicato il 9 agosto sul blog personale di Laurentiu Gabriel ha innescato la discussione IA più seguita della giornata su <a href=\"https://news.ycombinator.com/item?id=49234675\">Hacker News</a>, accumulando 517 punti e 290 commenti. L'autore vi dettaglia il proprio processo di apprendimento di argomenti complessi con l'aiuto dei grandi modelli linguistici — dalla scomposizione dei concetti al quiz iterativo. Il testo originale è disponibile sul <a href=\"https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/\">suo blog</a>. L'entusiasmo testimonia l'appetito crescente degli sviluppatori per racconti d'uso pratici, al di là degli annunci di prodotto.",
+                "lmo": "On saggi metodològegh publicaa el 9 de avost sora el blog personal de Laurentiu Gabriel l'ha deslanzaa la discussion IA pussee seguttaa de la giornada sora <a href=\"https://news.ycombinator.com/item?id=49234675\">Hacker News</a>, raccogliend 517 pont e 290 comment. L'autor el ghì detaja dent el sò process d'imparà di argoment compless cont l'us di grand modèi de lengoeu — de la scomposizion di concecc al quiz iterativ. El test original l'è disponìbel sora <a href=\"https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/\">el sò blog</a>. L'entusiasma el testimonia l'appetit cressent di svilupador per di raccont d'us prategh, oltra i anunzi de pròdott."
+              },
+              "kicker": {
+                "fr": "Méthodologie",
+                "en": "Méthodologie",
+                "de": "Methodik",
+                "it": "Metodologia",
+                "lmo": "Metodologia"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-09",
+                "en": "From the Wires — 2026-08-09",
+                "de": "From the Wires — 2026-08-09",
+                "it": "From the Wires — 2026-08-09",
+                "lmo": "From the Wires — 2026-08-09"
+              },
+              "urls": [
+                "https://laurentiugabriel.github.io/blog/articles/how-i-use-llms-to-learn/",
+                "https://news.ycombinator.com/item?id=49234675"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un murder mystery vocal où vous interrogez des suspects IA avec votre voix",
+                "en": "Un murder mystery vocal où vous interrogez des suspects IA avec votre voix",
+                "de": "Ein sprachgesteuertes Krimispiel, in dem Sie KI-Verdächtige mit Ihrer Stimme vernehmen",
+                "it": "Un giallo vocale in cui interrogate sospettati IA con la vostra voce",
+                "lmo": "On murder mystery vocal indova ti interroget di sospettaa IA con la tò vos"
+              },
+              "body": {
+                "fr": "Un développeur indépendant a présenté le 10 août sur <a href=\"https://news.ycombinator.com/item?id=49238851\">Hacker News</a> un jeu d'enquête policière piloté par la voix : les interrogatoires se font en speech-to-speech avec le modèle gpt-realtime-2.1 d'OpenAI via WebRTC, tandis qu'un juge gpt-5-mini évalue si le joueur a réellement présenté les preuves requises. Le projet, accessible sur <a href=\"https://www.whodunnitai.com/\">whodunnitai.com</a>, illustre les cas d'usage émergents des modèles audio en temps réel — et leurs défis de coût, l'auteur ayant imposé un minuteur de 30 minutes par session pour éviter une facture ruineuse.",
+                "en": "Un développeur indépendant a présenté le 10 août sur <a href=\"https://news.ycombinator.com/item?id=49238851\">Hacker News</a> un jeu d'enquête policière piloté par la voix : les interrogatoires se font en speech-to-speech avec le modèle gpt-realtime-2.1 d'OpenAI via WebRTC, tandis qu'un juge gpt-5-mini évalue si le joueur a réellement présenté les preuves requises. Le projet, accessible sur <a href=\"https://www.whodunnitai.com/\">whodunnitai.com</a>, illustre les cas d'usage émergents des modèles audio en temps réel — et leurs défis de coût, l'auteur ayant imposé un minuteur de 30 minutes par session pour éviter une facture ruineuse.",
+                "de": "Ein unabhängiger Entwickler hat am 10. August auf <a href=\"https://news.ycombinator.com/item?id=49238851\">Hacker News</a> ein sprachgesteuertes Kriminalermittlungsspiel vorgestellt: Die Vernehmungen erfolgen per Speech-to-Speech mit dem Modell gpt-realtime-2.1 von OpenAI über WebRTC, während ein Richter auf Basis von gpt-5-mini beurteilt, ob der Spieler die geforderten Beweise tatsächlich vorgelegt hat. Das Projekt, erreichbar unter <a href=\"https://www.whodunnitai.com/\">whodunnitai.com</a>, veranschaulicht die aufkommenden Anwendungsfälle von Echtzeit-Audiomodellen — und deren Kostenausforderungen, hat der Autor doch einen Timer von 30 Minuten pro Session eingeführt, um ruinöse Rechnungen zu vermeiden.",
+                "it": "Uno sviluppatore indipendente ha presentato il 10 agosto su <a href=\"https://news.ycombinator.com/item?id=49238851\">Hacker News</a> un gioco di indagine poliziesca guidato dalla voce: gli interrogatori avvengono in speech-to-speech con il modello gpt-realtime-2.1 di OpenAI tramite WebRTC, mentre un giudice gpt-5-mini valuta se il giocatore ha effettivamente presentato le prove richieste. Il progetto, accessibile su <a href=\"https://www.whodunnitai.com/\">whodunnitai.com</a>, illustra i casi d'uso emergenti dei modelli audio in tempo reale — e le loro sfide di costo, visto che l'autore ha imposto un timer di 30 minuti per sessione per evitare una fattura rovinosa.",
+                "lmo": "On svilupador independént l'ha presentaa el 10 de avost sora <a href=\"https://news.ycombinator.com/item?id=49238851\">Hacker News</a> on gieugh d'indagina polizesca guidaa de la vos: i interrogatori se fann in speech-to-speech con el modèl gpt-realtime-2.1 de OpenAI via WebRTC, intant che on giudess gpt-5-mini el valuta se el gioeugador l'ha propri presenta le prov necessari. El proget, acessìbel sora <a href=\"https://www.whodunnitai.com/\">whodunnitai.com</a>, el illustra i cas d'us emergent di modèi audio in temp real — e i sò desfiad de cost, l'autor avend impognuu on timer de 30 menut per session per evità ona fattura ruinosa."
+              },
+              "kicker": {
+                "fr": "Show HN",
+                "en": "Show HN",
+                "de": "Show HN",
+                "it": "Show HN",
+                "lmo": "Show HN"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-10",
+                "en": "From the Wires — 2026-08-10",
+                "de": "From the Wires — 2026-08-10",
+                "it": "From the Wires — 2026-08-10",
+                "lmo": "From the Wires — 2026-08-10"
+              },
+              "urls": [
+                "https://www.whodunnitai.com/",
+                "https://news.ycombinator.com/item?id=49238851"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Édito",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Edito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le week-end où l'IA a fait ses comptes",
+                "en": "Le week-end où l'IA a fait ses comptes",
+                "de": "Das Wochenende, an dem die KI ihre Bilanz zog",
+                "it": "Il fine-settimana in cui l'IA ha fatto i conti",
+                "lmo": "El fine-settimana quand che l'IA l'ha faa i sò contegg"
+              },
+              "body": {
+                "fr": "Ce dimanche 10 août 2026, aucun labo frontière n'a publié de nouveau modèle. C'est le calme plat côté releases — et c'est précisément dans ce calme que se révèlent les vraies questions. L'étude de Google sur 3,52 millions de modifications de code C++ généré par IA pose un constat sans détour : la productivité gagnée d'un côté se paie de l'autre, en couplage excessif, en allocations superflues, en 5 à 8 % de calcul supplémentaire en production. Le remède existe — un retour d'information taxonomique précis qui réduit les avertissements de 11,1 % — mais il exige un effort d'ingénierie que peu d'équipes ont encore industrialisé.<br/><br/>Pendant ce temps, les chercheurs de NVIDIA montrent que même les world models les plus avancés perdent la mémoire au-delà de leur horizon d'entraînement, et Xiaohongshu révèle que les agents multimodaux ne savent pas regarder une vidéo de 89 minutes sans perdre le fil. PrivacyPeek, elle, démontre que les agents acquièrent bien plus de données sensibles que ce que leur tâche exige — et que les défenses par prompt n'y peuvent presque rien.<br/><br/>Le signal le plus parlant vient peut-être de la communauté : 517 développeurs ont porté un essai sur « comment j'utilise les LLM pour apprendre » en tête de Hacker News. Non pas pour réclamer un nouveau modèle, mais pour partager des pratiques. La frontière, ce week-end, n'est pas dans les poids. Elle est dans l'usage.",
+                "en": "Ce dimanche 10 août 2026, aucun labo frontière n'a publié de nouveau modèle. C'est le calme plat côté releases — et c'est précisément dans ce calme que se révèlent les vraies questions. L'étude de Google sur 3,52 millions de modifications de code C++ généré par IA pose un constat sans détour : la productivité gagnée d'un côté se paie de l'autre, en couplage excessif, en allocations superflues, en 5 à 8 % de calcul supplémentaire en production. Le remède existe — un retour d'information taxonomique précis qui réduit les avertissements de 11,1 % — mais il exige un effort d'ingénierie que peu d'équipes ont encore industrialisé.<br/><br/>Pendant ce temps, les chercheurs de NVIDIA montrent que même les world models les plus avancés perdent la mémoire au-delà de leur horizon d'entraînement, et Xiaohongshu révèle que les agents multimodaux ne savent pas regarder une vidéo de 89 minutes sans perdre le fil. PrivacyPeek, elle, démontre que les agents acquièrent bien plus de données sensibles que ce que leur tâche exige — et que les défenses par prompt n'y peuvent presque rien.<br/><br/>Le signal le plus parlant vient peut-être de la communauté : 517 développeurs ont porté un essai sur « comment j'utilise les LLM pour apprendre » en tête de Hacker News. Non pas pour réclamer un nouveau modèle, mais pour partager des pratiques. La frontière, ce week-end, n'est pas dans les poids. Elle est dans l'usage.",
+                "de": "An diesem Sonntag, den 10. August 2026, hat kein einziges Frontier-Lab ein neues Modell veröffentlicht. Es ist Flaute bei den Releases — und genau in dieser Flaute zeigen sich die wahren Fragen. Die Google-Studie über 3,52 Millionen Änderungen an KI-generiertem C++-Code stellt eine ungeschminkte Feststellung: Die auf der einen Seite gewonnene Produktivität wird auf der anderen Seite bezahlt — mit übermässiger Kopplung, überflüssigen Allokationen, mit 5 bis 8 % mehr Rechenleistung im Produktivbetrieb. Das Gegenmittel existiert — ein präzises, taxonomisches Feedback, das Warnungen um 11,1 % reduziert —, doch es erfordert einen Engineering-Aufwand, den bisher nur wenige Teams industrialisiert haben.<br/><br/>Währenddessen zeigen Forscher von NVIDIA, dass selbst die fortgeschrittensten World Models jenseits ihres Trainings-Horizonts das Gedächtnis verlieren, und Xiaohongshu offenbart, dass multimodale Agenten ein 89-minütiges Video nicht ohne Fadenverlust betrachten können. PrivacyPeek wiederum zeigt, dass Agenten weit mehr sensible Daten beschaffen, als ihre Aufgabe erfordert — und dass Prompt-basierte Abwehrmassnahmen dagegen fast nichts ausrichten können.<br/><br/>Das aussagekräftigste Signal kommt vielleicht aus der Community: 517 Entwickler haben einen Essay über «wie ich LLMs zum Lernen verwende» an die Spitze von Hacker News getragen. Nicht um ein neues Modell zu fordern, sondern um Praktiken zu teilen. Die Grenze, an diesem Wochenende, liegt nicht in den Gewichten. Sie liegt im Gebrauch.",
+                "it": "Questa domenica 10 agosto 2026, nessun laboratorio di frontiera ha pubblicato un nuovo modello. È bonaccia sul fronte dei release — ed è proprio in questa calma che emergono le vere domande. Lo studio di Google su 3,52 milioni di modifiche di codice C++ generato da IA pone una constatazione senza giri di parole: la produttività guadagnata da una parte si paga dall'altra, in accoppiamento eccessivo, in allocazioni superflue, nel 5–8% di calcolo supplementare in produzione. Il rimedio esiste — un feedback tassonomico preciso che riduce gli avvisi dell'11,1% — ma richiede uno sforzo di ingegneria che pochi team hanno ancora industrializzato.<br/><br/>Nel frattempo, i ricercatori di NVIDIA mostrano che perfino i world models più avanzati perdono la memoria oltre il proprio orizzonte di addestramento, e Xiaohongshu rivela che gli agenti multimodali non sanno guardare un video di 89 minuti senza perdere il filo. PrivacyPeek, dal canto suo, dimostra che gli agenti acquisiscono molte più dati sensibili di quanto il loro compito richieda — e che le difese via prompt possono farci ben poco.<br/><br/>Il segnale più eloquente arriva forse dalla comunità: 517 sviluppatori hanno portato in cima a Hacker News un saggio su «come uso gli LLM per imparare». Non per reclamare un nuovo modello, ma per condividere pratiche. La frontiera, questo fine-settimana, non sta nei pesi. Sta nell'uso.",
+                "lmo": "'Stæ domenega 10 de avost 2026, nissun laborator de frontera l'ha publicaa on noeuv modèl. L'è calmm piatt de la part di relèas — e l'è propri in 'st calmm chì che se revelen i domand ver. El studi de Google in su 3,52 milion de modificazion de codes C++ generaa de l'AI el mètt on constatt sensa girà intorn: la produtivitàa guadagnada de ona part la se paga de l'altra, in acoppiament eccessiv, in allocazion superfluu, in del 5 a l'8 % de calcol supplementar in produzion. El remedi l'esist — on ritorn d'informazion tassonòmegh precis che 'l sbassa i avvis de l'11,1 % — ma l'esig on sforz d'ingegneria che pocch squadr gh'hann anmò industrializzaa.<br/><br/>Intant che se va innanz, i ricercador de NVIDIA i mostren che anca i world models pussee avanzaa i perden la memoria oltra el sò orizzont de addestrament, e Xiaohongshu el revela che i agent multimodaj i san nò vardà on video de 89 menut senza perd el fill. PrivacyPeek, de la soa part, la dimostra che i agent i acquisten propri pussee dacc sensìbel de quell che la soa cargh l'esig — e che i difés per prompt gh'en poden fà quasi nient.<br/><br/>El segnàl pussee parlant el vegn forsì de la comunitaa: 517 svilupador i hann portaa on saggi sora « comè fà doperi i LLM per imparà » in testa a Hacker News. Nò per pretend on noeuv modèl, ma per spartì di prategh. La frontera, 'st fine-settimana chì, l'è nò in di pes. L'è in l'us."
+              },
+              "kicker": {
+                "fr": "Tribune",
+                "en": "Tribune",
+                "de": "Meinung",
+                "it": "Tribuna",
+                "lmo": "Tribuna"
+              },
+              "urls": []
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
