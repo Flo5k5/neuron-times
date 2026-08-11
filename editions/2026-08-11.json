@@ -1,0 +1,843 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-11",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Meta a publié Muse Glimmer le 10 août 2026, un modèle open weight de 30 milliards de paramètres conçu pour les flux de travail d'agents locaux en continu (« always-on local agent workflows »). Décrit comme « local, agentic, multimodal et open source » sur le <a href=\"https://huggingface.co/blog/muse-glimmer\">blog Hugging Face</a>, le modèle est immédiatement devenu le sujet IA le plus discuté de la journée sur <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a>, avec 1 072 points et 590 commentaires en moins de vingt-quatre heures. La <a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">page de recherche Meta</a> présente le modèle comme optimisé pour une exécution sur matériel grand public.",
+        "en": "Meta released Muse Glimmer on 10 August 2026, a 30-billion-parameter open-weight model designed for always-on local agent workflows. Described as 'local, agentic, multimodal and open source' on the <a href=\"https://huggingface.co/blog/muse-glimmer\">Hugging Face blog</a>, the model immediately became the most discussed AI topic of the day on <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a>, with 1,072 points and 590 comments in under twenty-four hours. The <a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">Meta research page</a> presents the model as optimized for execution on consumer hardware.",
+        "de": "Meta hat Muse Glimmer am 10. August 2026 veröffentlicht – ein Open-Weight-Modell mit 30 Milliarden Parametern, das für kontinuierlich laufende lokale Agenten-Workflows («always-on local agent workflows») konzipiert ist. Auf dem <a href=\"https://huggingface.co/blog/muse-glimmer\">Hugging-Face-Blog</a> als «lokal, agentisch, multimodal und Open Source» beschrieben, wurde das Modell unmittelbar zum meistdiskutierten KI-Thema des Tages auf <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> – mit 1 072 Punkten und 590 Kommentaren in weniger als vierundzwanzig Stunden. Die <a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">Meta-Forschungsseite</a> stellt das Modell als für die Ausführung auf Consumer-Hardware optimiert dar.",
+        "it": "Meta ha pubblicato Muse Glimmer il 10 agosto 2026, un modello open weight da 30 miliardi di parametri progettato per i flussi di lavoro degli agenti locali in continuo («always-on local agent workflows»). Descritto come «locale, agentico, multimodale e open source» sul <a href=\"https://huggingface.co/blog/muse-glimmer\">blog Hugging Face</a>, il è diventato immediatamente l'argomento IA più discusso della giornata su <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a>, con 1.072 punti e 590 commenti in meno di ventiquattro ore. La <a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">pagina di ricerca Meta</a> presenta il modello come ottimizzato per un'esecuzione su hardware di consumo.",
+        "lmo": "Meta a publié Muse Glimmer le 10 août 2026, un modèle open weight de 30 milliards de paramètres conçu pour les flux de travail d'agents locaux en continu (« always-on local agent workflows »). Décrit comme « local, agentic, multimodal et open source » sur le <a href=\"https://huggingface.co/blog/muse-glimmer\">blog Hugging Face</a>, le modèle est immédiatement devenu le sujet IA le plus discuté de la journée sur <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a>, avec 1 072 points et 590 commentaires en moins de vingt-quatre heures. La <a href=\"https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model\">page de recherche Meta</a> présente le modèle comme optimisé pour une exécution sur matériel grand public."
+      },
+      {
+        "fr": "L'orientation « always-on » signale une cible précise : non pas le chat ponctuel, mais l'agent persistant qui raisonne, agit et se souvient au fil d'une session prolongée. À 30 milliards de paramètres, Muse Glimmer se positionne dans une zone de compromis entre densité cognitive et contraintes de mémoire — un créneau où peu de modèles open weight s'étaient aventurés jusqu'ici avec une explicitation aussi claire du cas d'usage agentique.",
+        "en": "The 'always-on' orientation signals a precise target: not occasional chat, but the persistent agent that reasons, acts and remembers across a prolonged session. At 30 billion parameters, Muse Glimmer sits in a trade-off zone between cognitive density and memory constraints — a niche where few open-weight models had previously ventured with such explicit articulation of the agentic use case.",
+        "de": "Die Ausrichtung auf den Dauerbetrieb («always-on») signalisiert ein klares Ziel: nicht der gelegentliche Chat, sondern der persistente Agent, der über eine längere Sitzung hinweg denkt, handelt und sich erinnert. Mit 30 Milliarden Parametern positioniert sich Muse Glimmer in einer Grauzone zwischen kognitiver Dichte und Speicherbeschränkungen – ein Nische, in die sich bislang wenige Open-Weight-Modelle mit einer derart klaren Benennung des agentischen Anwendungsfall gewagt hatten.",
+        "it": "L'orientamento «always-on» segnala un bersaglio preciso: non la chat occasionale, ma l'agente persistente che ragiona, agisce e ricorda nel corso di una sessione prolungata. Con 30 miliardi di parametri, Muse Glimmer si posiziona in una zona di compromesso tra densità cognitiva e vincoli di memoria — una nicchia in cui pochi modelli open weight si erano spinti finora con un'esplicitazione altrettanto chiara del caso d'uso agentico.",
+        "lmo": "L'orientation « always-on » signale une cible précise : non pas le chat ponctuel, mais l'agent persistant qui raisonne, agit et se souvient au fil d'une session prolongée. À 30 milliards de paramètres, Muse Glimmer se positionne dans une zone de compromis entre densité cognitive et contraintes de mémoire — un créneau où peu de modèles open weight s'étaient aventurés jusqu'ici avec une explicitation aussi claire du cas d'usage agentique."
+      },
+      {
+        "fr": "Le lancement coïncide avec une offensive stratégique plus large : le même jour, Mark Zuckerberg a publiquement attaqué les concurrents IA « fermés », comme le rapporte le <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> (433 points, 416 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a>). Cette double offensive — produit et discours — intervient alors qu'OpenAI renforce au contraire ses modèles spécialisés à accès restreint, créant un contraste net entre deux visions de l'avenir de l'IA.",
+        "en": "The launch coincides with a broader strategic offensive: on the same day, Mark Zuckerberg publicly attacked 'closed' AI competitors, as reported by the <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> (433 points, 416 comments on <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a>). This dual offensive — product and rhetoric — comes as OpenAI, by contrast, doubles down on specialised models with restricted access, creating a stark contrast between two visions of the future of AI.",
+        "de": "Der Launch fällt mit einer breiter angelegten strategischen Offensive zusammen: Am selben Tag griff Mark Zuckerberg öffentlich die «geschlossenen» KI-Konkurrenten an, wie der <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> berichtet (433 Punkte, 416 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a>). Diese doppelte Offensive – Produkt und Diskurs – kommt zu einem Zeitpunkt, da OpenAI im Gegenteil seine spezialisierten Modelle mit beschränktem Zugang ausbaut und so einen scharfen Kontrast zwischen zwei Visionen der Zukunft der KI schafft.",
+        "it": "Il lancio coincide con un'offensiva strategica più ampia: lo stesso giorno, Mark Zuckerberg ha pubblicamente attaccato i concorrenti IA «chiusi», come riporta il <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> (433 punti, 416 commenti su <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a>). Questa duplice offensiva — prodotto e discorso — interviene mentre OpenAI rafforza al contrario i propri modelli specializzati ad accesso ristretto, creando un netto contrasto tra due visioni del futuro dell'IA.",
+        "lmo": "Le lancement coïncide avec une offensive stratégique plus large : le même jour, Mark Zuckerberg a publiquement attaqué les concurrents IA « fermés », comme le rapporte le <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> (433 points, 416 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a>). Cette double offensive — produit et discours — intervient alors qu'OpenAI renforce au contraire ses modèles spécialisés à accès restreint, créant un contraste net entre deux visions de l'avenir de l'IA."
+      }
+    ],
+    "urls": [
+      "https://huggingface.co/blog/muse-glimmer",
+      "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "https://news.ycombinator.com/item?id=49241679",
+      "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+      "https://news.ycombinator.com/item?id=49243880"
+    ],
+    "kicker": {
+      "fr": "Open Weight",
+      "en": "Open Weight",
+      "de": "Open Weight",
+      "it": "Open Weight",
+      "lmo": "Open Weight"
+    },
+    "headline": {
+      "fr": "Meta lance Muse Glimmer, un modèle open source de 30 milliards de paramètres pour les agents locaux en continu",
+      "en": "Meta Launches Muse Glimmer, a 30-Billion-Parameter Open Source Model for Always-On Local Agents",
+      "de": "Meta bringt Muse Glimmer auf den Markt – ein Open-Source-Modell mit 30 Milliarden Parametern für lokale, kontinuierlich laufende Agenten",
+      "it": "Meta lancia Muse Glimmer, un modello open source da 30 miliardi di parametri per agenti locali in continuo",
+      "lmo": "Meta lance Muse Glimmer, un modèle open source de 30 milliards de paramètres pour les agents locaux en continu"
+    },
+    "subdeck": {
+      "fr": "Le modèle « local, agentic, multimodal » déclenche la discussion IA la plus suivie de l'année sur Hacker News, avec 1 072 points et 590 commentaires.",
+      "en": "The 'local, agentic, multimodal' model triggers the most closely followed AI discussion of the year on Hacker News, with 1,072 points and 590 comments.",
+      "de": "Das als «lokal, agentisch, multimodal» beschriebene Modell löst die meistbeachtete KI-Debatte des Jahres auf Hacker News aus: 1 072 Punkte und 590 Kommentare.",
+      "it": "Il modello «locale, agentico, multimodale» scatena la discussione IA più seguita dell'anno su Hacker News, con 1.072 punti e 590 commenti.",
+      "lmo": "Le modèle « local, agentic, multimodal » déclenche la discussion IA la plus suivie de l'année sur Hacker News, avec 1 072 points et 590 commentaires."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "OpenAI lance GPT-5.6-Cyber via Daybreak Red pour la recherche en vulnérabilités",
+        "en": "OpenAI Launches GPT-5.6-Cyber via Daybreak Red for Vulnerability Research",
+        "de": "OpenAI bringt GPT-5.6-Cyber über Daybreak Red für die Schwachstellenforschung auf den Markt",
+        "it": "OpenAI lancia GPT-5.6-Cyber tramite Daybreak Red per la ricerca sulle vulnerabilità",
+        "lmo": "OpenAI lance GPT-5.6-Cyber via Daybreak Red pour la recherche en vulnérabilités"
+      },
+      "body": {
+        "fr": "OpenAI a dévoilé le 10 août 2026 GPT-5.6-Cyber, un modèle spécialisé en cybersécurité accessible via le programme Daybreak Red. Conçu pour la recherche autorisée en vulnérabilités, la validation d'exploits et les tests de sécurité, le modèle est réservé aux partenaires approuvés. L'annonce, publiée sur <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">le blog OpenAI</a>, s'accompagne d'un élargissement de l'accès aux modèles cyber de frontière pour les prestataires de services de sécurité régis. Voir aussi <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\">la note complémentaire</a>.",
+        "en": "OpenAI unveiled GPT-5.6-Cyber on 10 August 2026, a cybersecurity-specialised model accessible through the Daybreak Red programme. Designed for authorised vulnerability research, exploit validation and security testing, the model is restricted to approved partners. The announcement, published on <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">the OpenAI blog</a>, is accompanied by an expansion of access to frontier cyber models for regulated security service providers. See also <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\">the companion note</a>.",
+        "de": "OpenAI hat am 10. August 2026 GPT-5.6-Cyber vorgestellt, ein auf Cybersicherheit spezialisiertes Modell, das über das Programm Daybreak Red zugänglich ist. Es wurde für die autorisierte Schwachstellenforschung, die Validierung von Exploits und Sicherheitstests konzipiert und ist ausschliesslich genehmigten Partnern vorbehalten. Die auf dem <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI-Blog</a> veröffentlichte Ankündigung geht mit einer Ausweitung des Zugangs zu grenzwertigen Cybermodellen für regulierte Sicherheitsdienstleister einher. Siehe auch <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\">die ergänzende Mitteilung</a>.",
+        "it": "OpenAI ha svelato il 10 agosto 2026 GPT-5.6-Cyber, un modello specializzato in cybersecurity accessibile tramite il programma Daybreak Red. Progettato per la ricerca autorizzata sulle vulnerabilità, la validazione di exploit e i test di sicurezza, il è riservato ai partner approvati. L'annuncio, pubblicato sul <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">blog OpenAI</a>, è accompagnato da un ampliamento dell'accesso ai modelli cyber di frontiera per i fornitori di servizi di sicurezza regolamentati. Si veda anche <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\">la nota complementare</a>.",
+        "lmo": "OpenAI a dévoilé le 10 août 2026 GPT-5.6-Cyber, un modèle spécialisé en cybersécurité accessible via le programme Daybreak Red. Conçu pour la recherche autorisée en vulnérabilités, la validation d'exploits et les tests de sécurité, le modèle est réservé aux partenaires approuvés. L'annonce, publiée sur <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">le blog OpenAI</a>, s'accompagne d'un élargissement de l'accès aux modèles cyber de frontière pour les prestataires de services de sécurité régis. Voir aussi <a href=\"https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands\">la note complémentaire</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Majeur"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 août 2026",
+        "en": "From the Wires — 10 August 2026",
+        "de": "From the Wires — 10. August 2026",
+        "it": "From the Wires — 10 agosto 2026",
+        "lmo": "From the Wires — 10 août 2026"
+      },
+      "urls": [
+        "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Zuckerberg attaque les rivaux IA « fermés » alors que Meta retourne à l'open source",
+        "en": "Zuckerberg Attacks 'Closed' AI Rivals as Meta Returns to Open Source",
+        "de": "Zuckerberg greift «geschlossene» KI-Konkurrenten an, während Meta zur Open Source zurückkehrt",
+        "it": "Zuckerberg attacca i rivali IA «chiusi» mentre Meta torna all'open source",
+        "lmo": "Zuckerberg attaque les rivaux IA « fermés » alors que Meta retourne à l'open source"
+      },
+      "body": {
+        "fr": "Le PDG de Meta a publiquement pris position contre les modèles d'IA propriétaires fermés le 10 août 2026, dans une offensive relayée par le <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> et débattue sur <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a> (433 points, 416 commentaires). Le site <a href=\"https://www.meta.com/thefutureisforeveryone/\">meta.com/thefutureisforeveryone</a> accompagne la campagne. Le mouvement coïncide avec la sortie de Muse Glimmer en open weight.",
+        "en": "Meta's CEO publicly took a stand against closed proprietary AI models on 10 August 2026, in an offensive covered by the <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> and debated on <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a> (433 points, 416 comments). The site <a href=\"https://www.meta.com/thefutureisforeveryone/\">meta.com/thefutureisforeveryone</a> accompanies the campaign. The move coincides with the open-weight release of Muse Glimmer.",
+        "de": "Der CEO von Meta hat sich am 10. August 2026 öffentlich gegen geschlossene proprietäre KI-Modelle positioniert – eine Offensive, die vom <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> aufgegriffen und auf <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a> debattiert wurde (433 Punkte, 416 Kommentare). Die Website <a href=\"https://www.meta.com/thefutureisforeveryone/\">meta.com/thefutureisforeveryone</a> begleitet die Kampagne. Der Schritt fällt mit der Veröffentlichung von Muse Glimmer als Open-Weight-Modell zusammen.",
+        "it": "Il CEO di Meta ha pubblicamente preso posizione contro i modelli di IA proprietari chiusi il 10 agosto 2026, in un'offensiva ripresa dal <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> e discussa su <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a> (433 punti, 416 commenti). Il sito <a href=\"https://www.meta.com/thefutureisforeveryone/\">meta.com/thefutureisforeveryone</a> accompagna la campagna. La mossa coincide con il rilascio di Muse Glimmer in open weight.",
+        "lmo": "Le PDG de Meta a publiquement pris position contre les modèles d'IA propriétaires fermés le 10 août 2026, dans une offensive relayée par le <a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a> et débattue sur <a href=\"https://news.ycombinator.com/item?id=49243880\">Hacker News</a> (433 points, 416 commentaires). Le site <a href=\"https://www.meta.com/thefutureisforeveryone/\">meta.com/thefutureisforeveryone</a> accompagne la campagne. Le mouvement coïncide avec la sortie de Muse Glimmer en open weight."
+      },
+      "tag": {
+        "fr": "Stratégie",
+        "en": "Strategy",
+        "de": "Strategie",
+        "it": "Strategia",
+        "lmo": "Stratégie"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 août 2026",
+        "en": "From the Wires — 10 August 2026",
+        "de": "From the Wires — 10. August 2026",
+        "it": "From the Wires — 10 agosto 2026",
+        "lmo": "From the Wires — 10 août 2026"
+      },
+      "urls": [
+        "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+        "https://news.ycombinator.com/item?id=49243880",
+        "https://www.meta.com/thefutureisforeveryone/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Needle 2 : un LLM agentique de 14 Mo pour téléphones, wearables et microcontrôleurs",
+        "en": "Needle 2: A 14 MB Agentic LLM for Phones, Wearables and Microcontrollers",
+        "de": "Needle 2: Ein agentischer LLM mit 14 MB für Telefone, Wearables und Mikrocontroller",
+        "it": "Needle 2: un LLM agentico da 14 MB per telefoni, wearables e microcontrollori",
+        "lmo": "Needle 2 : un LLM agentique de 14 Mo pour téléphones, wearables et microcontrôleurs"
+      },
+      "body": {
+        "fr": "Cactus Compute a présenté Needle 2 le 10 août 2026 sur <a href=\"https://news.ycombinator.com/item?id=49246804\">Hacker News</a> (239 points, 97 commentaires) : un LLM de 45 millions de paramètres compressé en 2 bits, tenant en 14 Mo et fonctionnant en 28 Mo de RAM. Il atteint 500 tokens/s sur Raspberry Pi 5, 300 à 700 tokens/s sur des téléphones à moins de 200 $, et 400 à 1 500 tokens/s sur Meta Quest 3S et Apple Vision Pro. Le modèle, basé sur les Simple Attention Networks (<a href=\"https://arxiv.org/abs/2607.18363\">arXiv:2607.18363</a>), rivalise avec LFM2.5 230M et l'Apple Foundation Model tout en étant 5 à 70 fois plus petit. Le code est disponible sur <a href=\"https://cactuscompute.com/needle\">cactuscompute.com/needle</a>.",
+        "en": "Cactus Compute introduced Needle 2 on 10 August 2026 on <a href=\"https://news.ycombinator.com/item?id=49246804\">Hacker News</a> (239 points, 97 comments): a 45-million-parameter LLM compressed to 2 bits, fitting in 14 MB and running in 28 MB of RAM. It achieves 500 tokens/s on Raspberry Pi 5, 300–700 tokens/s on sub-$200 phones, and 400–1,500 tokens/s on Meta Quest 3S and Apple Vision Pro. The model, based on Simple Attention Networks (<a href=\"https://arxiv.org/abs/2607.18363\">arXiv:2607.18363</a>), rivals LFM2.5 230M and the Apple Foundation Model while being 5 to 70 times smaller. The code is available at <a href=\"https://cactuscompute.com/needle\">cactuscompute.com/needle</a>.",
+        "de": "Cactus Compute hat Needle 2 am 10. August 2026 auf <a href=\"https://news.ycombinator.com/item?id=49246804\">Hacker News</a> vorgestellt (239 Punkte, 97 Kommentare): ein LLM mit 45 Millionen Parametern, auf 2 Bit komprimiert, das in 14 MB Platz findet und mit 28 MB RAM läuft. Es erreicht 500 Tokens/s auf einem Raspberry Pi 5, 300 bis 700 Tokens/s auf Telefonen unter 200 $ und 400 bis 1 500 Tokens/s auf Meta Quest 3S und Apple Vision Pro. Das auf Simple Attention Networks basierende Modell (<a href=\"https://arxiv.org/abs/2607.18363\">arXiv:2607.18363</a>) konkurriert mit LFM2.5 230M und dem Apple Foundation Model, während es 5- bis 70-mal kleiner ist. Der Code ist auf <a href=\"https://cactuscompute.com/needle\">cactuscompute.com/needle</a> verfügbar.",
+        "it": "Cactus Compute ha presentato Needle 2 il 10 agosto 2026 su <a href=\"https://news.ycombinator.com/item?id=49246804\">Hacker News</a> (239 punti, 97 commenti): un LLM da 45 milioni di parametri compresso in 2 bit, che occupa 14 MB e funziona con 28 MB di RAM. Raggiunge 500 token/s su Raspberry Pi 5, 300-700 token/s su telefoni sotto i 200 $ e 400-1.500 token/s su Meta Quest 3S e Apple Vision Pro. Il modello, basato sui Simple Attention Networks (<a href=\"https://arxiv.org/abs/2607.18363\">arXiv:2607.18363</a>), compete con LFM2.5 230M e l'Apple Foundation Model pur essendo 5-70 volte più piccolo. Il codice è disponibile su <a href=\"https://cactuscompute.com/needle\">cactuscompute.com/needle</a>.",
+        "lmo": "Cactus Compute a présenté Needle 2 le 10 août 2026 sur <a href=\"https://news.ycombinator.com/item?id=49246804\">Hacker News</a> (239 points, 97 commentaires) : un LLM de 45 millions de paramètres compressé en 2 bits, tenant en 14 Mo et fonctionnant en 28 Mo de RAM. Il atteint 500 tokens/s sur Raspberry Pi 5, 300 à 700 tokens/s sur des téléphones à moins de 200 $, et 400 à 1 500 tokens/s sur Meta Quest 3S et Apple Vision Pro. Le modèle, basé sur les Simple Attention Networks (<a href=\"https://arxiv.org/abs/2607.18363\">arXiv:2607.18363</a>), rivalise avec LFM2.5 230M et l'Apple Foundation Model tout en étant 5 à 70 fois plus petit. Le code est disponible sur <a href=\"https://cactuscompute.com/needle\">cactuscompute.com/needle</a>."
+      },
+      "tag": {
+        "fr": "Edge AI",
+        "en": "Edge AI",
+        "de": "Edge AI",
+        "it": "Edge AI",
+        "lmo": "Edge AI"
+      },
+      "wire": {
+        "fr": "From the Wires — 10 août 2026",
+        "en": "From the Wires — 10 August 2026",
+        "de": "From the Wires — 10. August 2026",
+        "it": "From the Wires — 10 agosto 2026",
+        "lmo": "From the Wires — 10 août 2026"
+      },
+      "urls": [
+        "https://cactuscompute.com/needle",
+        "https://news.ycombinator.com/item?id=49246804",
+        "https://arxiv.org/abs/2607.18363"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "SWE-Bench ProMax : ByteDance frappe fort avec un benchmark de refactoring multilingue",
+        "en": "SWE-Bench ProMax: ByteDance Strikes with a Multilingual Refactoring Benchmark",
+        "de": "SWE-Bench ProMax: ByteDance schlägt mit einem mehrsprachigen Refactoring-Benchmark zu",
+        "it": "SWE-Bench ProMax: ByteDance colpisce forte con un benchmark di refactoring multilingue",
+        "lmo": "SWE-Bench ProMax : ByteDance frappe fort avec un benchmark de refactoring multilingue"
+      },
+      "body": {
+        "fr": "ByteDance publie SWE-Bench ProMax, un benchmark de refactoring de code à grande échelle comprenant 170 instances en sept langages (Python, Java, TypeScript, Go, C, C++, Rust), avec une moyenne de 11,4 fichiers modifiés et 261,6 lignes de code par instance. Le meilleur modèle n'atteint que 41,2 % de résolution. Les auteurs soulignent que près de 60 % des instances non résolues de SWE-bench Verified contiennent des tests défectueux. 43 votes positifs sur <a href=\"https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax\">Hugging Face</a>. Paper : <a href=\"https://arxiv.org/abs/2608.09802\">arXiv:2608.09802</a>.",
+        "en": "ByteDance releases SWE-Bench ProMax, a large-scale code refactoring benchmark comprising 170 instances across seven languages (Python, Java, TypeScript, Go, C, C++, Rust), with an average of 11.4 modified files and 261.6 lines of code per instance. The best model achieves only 41.2% resolution. The authors highlight that nearly 60% of unresolved instances in SWE-bench Verified contain faulty tests. 43 upvotes on <a href=\"https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax\">Hugging Face</a>. Paper: <a href=\"https://arxiv.org/abs/2608.09802\">arXiv:2608.09802</a>.",
+        "de": "ByteDance veröffentlicht SWE-Bench ProMax, einen grossmassstäblichen Code-Refactoring-Benchmark mit 170 Instanzen in sieben Sprachen (Python, Java, TypeScript, Go, C, C++, Rust), mit durchschnittlich 11,4 veränderten Dateien und 261,6 Codezeilen pro Instanz. Das beste Modell erreicht lediglich 41,2 % Lösungsrate. Die Autoren heben hervor, dass fast 60 % der ungelösten Instanzen von SWE-bench Verified fehlerhafte Tests enthalten. 43 positive Stimmen auf <a href=\"https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax\">Hugging Face</a>. Paper: <a href=\"https://arxiv.org/abs/2608.09802\">arXiv:2608.09802</a>.",
+        "it": "ByteDance pubblica SWE-Bench ProMax, un benchmark di refactoring del codice su larga scala comprendente 170 istanze in sette linguaggi (Python, Java, TypeScript, Go, C, C++, Rust), con una media di 11,4 file modificati e 261,6 righe di codice per istanza. Il miglior modello raggiunge solo il 41,2% di risoluzione. Gli autori sottolineano che quasi il 60% delle istanze non risolte di SWE-bench Verified contiene test difettosi. 43 voti positivi su <a href=\"https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax\">Hugging Face</a>. Paper: <a href=\"https://arxiv.org/abs/2608.09802\">arXiv:2608.09802</a>.",
+        "lmo": "ByteDance publie SWE-Bench ProMax, un benchmark de refactoring de code à grande échelle comprenant 170 instances en sept langages (Python, Java, TypeScript, Go, C, C++, Rust), avec une moyenne de 11,4 fichiers modifiés et 261,6 lignes de code par instance. Le meilleur modèle n'atteint que 41,2 % de résolution. Les auteurs soulignent que près de 60 % des instances non résolues de SWE-bench Verified contiennent des tests défectueux. 43 votes positifs sur <a href=\"https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax\">Hugging Face</a>. Paper : <a href=\"https://arxiv.org/abs/2608.09802\">arXiv:2608.09802</a>."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "wire": {
+        "fr": "HF Daily Papers — 11 août 2026",
+        "en": "HF Daily Papers — 11 August 2026",
+        "de": "HF Daily Papers — 11. August 2026",
+        "it": "HF Daily Papers — 11 agosto 2026",
+        "lmo": "HF Daily Papers — 11 août 2026"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.09802",
+        "https://huggingface.co/datasets/swe-bench-promax/SWE-Bench-ProMax"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelseite",
+        "it": "In Prima Pagina",
+        "lmo": "À la Une"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Frontier",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modèles & Frontière"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Motif 3 : un MoE de 314 milliards de paramètres avec 384 experts routés",
+                "en": "Motif 3: A 314-Billion-Parameter MoE with 384 Routed Experts",
+                "de": "Motif 3: Ein MoE mit 314 Milliarden Parametern und 384 gerouteten Experten",
+                "it": "Motif 3: un MoE da 314 miliardi di parametri con 384 esperti instradati",
+                "lmo": "Motif 3 : un MoE de 314 milliards de paramètres avec 384 experts routés"
+              },
+              "body": {
+                "fr": "Motif Technologies dévoile Motif 3, un modèle decoder-only Mixture-of-Experts de 314 milliards de paramètres totaux dont seulement 13,2 milliards sont activés par token. Chaque couche MoE contient 384 experts routés, dont 8 sont sélectionnés par token. L'architecture repose sur le Grouped Differential Latent Attention (GDLA), qui combine l'attention différentielle groupée avec la compression KV du Multi-head Latent Attention. Le pré-entraînement a porté sur environ 12,5 trillions de tokens avec des contextes jusqu'à 256K. Le post-training combine un fine-tuning supervisé général, six enseignants spécialistes entraînés par RL et une distillation multi-enseignant on-policy. Paper : <a href=\"https://arxiv.org/abs/2608.09119\">arXiv:2608.09119</a> (16 votes positifs).",
+                "en": "Motif Technologies unveils Motif 3, a decoder-only Mixture-of-Experts model with 314 billion total parameters, of which only 13.2 billion are activated per token. Each MoE layer contains 384 routed experts, of which 8 are selected per token. The architecture relies on Grouped Differential Latent Attention (GDLA), which combines grouped differential attention with the KV compression of Multi-head Latent Attention. Pre-training was conducted on approximately 12.5 trillion tokens with contexts up to 256K. Post-training combines general supervised fine-tuning, six specialist teachers trained via RL, and on-policy multi-teacher distillation. Paper: <a href=\"https://arxiv.org/abs/2608.09119\">arXiv:2608.09119</a> (16 upvotes).",
+                "de": "Motif Technologies stellt Motif 3 vor, ein Decoder-only-Mixture-of-Experts-Modell mit 314 Milliarden Parametern insgesamt, von denen nur 13,2 Milliarden pro Token aktiviert werden. Jede MoE-Schicht enthält 384 geroutete Experten, von denen 8 pro Token ausgewählt werden. Die Architektur basiert auf Grouped Differential Latent Attention (GDLA), die gruppierte differentielle Attention mit der KV-Kompression des Multi-head Latent Attention kombiniert. Das Pre-Training umfasste rund 12,5 Billionen Tokens bei Kontextlängen bis zu 256K. Das Post-Training kombiniert ein allgemeines überwachtes Fine-Tuning, sechs durch RL trainierte Spezialisten-Lehrer und eine Multi-Lehrer-On-Policy-Distillation. Paper: <a href=\"https://arxiv.org/abs/2608.09119\">arXiv:2608.09119</a> (16 positive Stimmen).",
+                "it": "Motif Technologies svela Motif 3, un modello decoder-only Mixture-of-Experts da 314 miliardi di parametri totali di cui solo 13,2 miliardi sono attivati per token. Ogni strato MoE contiene 384 esperti instradati, dei quali 8 sono selezionati per token. L'architettura si basa sul Grouped Differential Latent Attention (GDLA), che combina l'attenzione differenziale raggruppata con la compressione KV del Multi-head Latent Attention. Il pre-training è stato condotto su circa 12,5 trilioni di token con contesti fino a 256K. Il post-training combina un fine-tuning supervisionato generale, sei insegnanti specializzati addestrati con RL e una distillazione multi-insegnante on-policy. Paper: <a href=\"https://arxiv.org/abs/2608.09119\">arXiv:2608.09119</a> (16 voti positivi).",
+                "lmo": "Motif Technologies dévoile Motif 3, un modèle decoder-only Mixture-of-Experts de 314 milliards de paramètres totaux dont seulement 13,2 milliards sont activés par token. Chaque couche MoE contient 384 experts routés, dont 8 sont sélectionnés par token. L'architecture repose sur le Grouped Differential Latent Attention (GDLA), qui combine l'attention différentielle groupée avec la compression KV du Multi-head Latent Attention. Le pré-entraînement a porté sur environ 12,5 trillions de tokens avec des contextes jusqu'à 256K. Le post-training combine un fine-tuning supervisé général, six enseignants spécialistes entraînés par RL et une distillation multi-enseignant on-policy. Paper : <a href=\"https://arxiv.org/abs/2608.09119\">arXiv:2608.09119</a> (16 votes positifs)."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architecture"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.09119"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Macaron-V1 : un système à Mixture-of-LoRA pour l'apprentissage continu",
+                "en": "Macaron-V1: A Mixture-of-LoRA System for Continual Learning",
+                "de": "Macaron-V1: Ein Mixture-of-LoRA-System für kontinuierliches Lernen",
+                "it": "Macaron-V1: un sistema a Mixture-of-LoRA per l'apprendimento continuo",
+                "lmo": "Macaron-V1 : un système à Mixture-of-LoRA pour l'apprentissage continu"
+              },
+              "body": {
+                "fr": "Mind Lab publie Macaron-V1, une famille de modèles agents open source organisée autour de deux objectifs : l'adaptation par amélioration récursive de paires modèle-harnais versionnées, et la collaboration via l'architecture Mixture-of-LoRA (MoL). Le flagship Macaron-V1-Venti combine une base GLM-5.2 de 744 milliards de paramètres avec quatre LoRA spécialisées (chat, agent, code, GenUI) ; la variante Macaron-V1-Tall repose sur Qwen3.6 (50B) pour le déploiement local. Le framework d'RL agentique s'appelle MindForge, et l'infrastructure de post-training MinT. Paper : <a href=\"https://arxiv.org/abs/2608.09819\">arXiv:2608.09819</a> (35 votes positifs).",
+                "en": "Mind Lab publishes Macaron-V1, a family of open-source agentic models organised around two objectives: adaptation through iterative improvement of versioned model-harness pairs, and collaboration via the Mixture-of-LoRA (MoL) architecture. The flagship Macaron-V1-Venti combines a GLM-5.2 base of 744 billion parameters with four specialised LoRAs (chat, agent, code, GenUI); the Macaron-V1-Tall variant is built on Qwen3.6 (50B) for local deployment. The agentic RL framework is called MindForge, and the post-training infrastructure MinT. Paper: <a href=\"https://arxiv.org/abs/2608.09819\">arXiv:2608.09819</a> (35 upvotes).",
+                "de": "Mind Lab veröffentlicht Macaron-V1, eine Familie von Open-Source-Agent-Modellen, die auf zwei Zielsetzungen beruht: Anpassung durch rekursive Verbesserung versionierter Modell-Harness-Paare und Kollaboration über die Mixture-of-LoRA-Architektur (MoL). Das Flaggschiff Macaron-V1-Venti kombiniert eine GLM-5.2-Basis mit 744 Milliarden Parametern mit vier spezialisierten LoRAs (Chat, Agent, Code, GenUI); die Variante Macaron-V1-Tall basiert auf Qwen3.6 (50B) für den lokalen Einsatz. Das agentische RL-Framework heisst MindForge, die Post-Training-Infrastruktur MinT. Paper: <a href=\"https://arxiv.org/abs/2608.09819\">arXiv:2608.09819</a> (35 positive Stimmen).",
+                "it": "Mind Lab pubblica Macaron-V1, una famiglia di modelli agenti open source organizzata attorno a due obiettivi: l'adattamento tramite miglioramento ricorsivo di coppie modello-harness versionate, e la collaborazione tramite l'architettura Mixture-of-LoRA (MoL). Il modello di punta Macaron-V1-Venti combina una base GLM-5.2 da 744 miliardi di parametri con quattro LoRA specializzate (chat, agente, codice, GenUI); la variante Macaron-V1-Tall si basa su Qwen3.6 (50B) per il deployment locale. Il framework di RL agentico si chiama MindForge, e l'infrastruttura di post-training MinT. Paper: <a href=\"https://arxiv.org/abs/2608.09819\">arXiv:2608.09819</a> (35 voti positivi).",
+                "lmo": "Mind Lab publie Macaron-V1, une famille de modèles agents open source organisée autour de deux objectifs : l'adaptation par amélioration récursive de paires modèle-harnais versionnées, et la collaboration via l'architecture Mixture-of-LoRA (MoL). Le flagship Macaron-V1-Venti combine une base GLM-5.2 de 744 milliards de paramètres avec quatre LoRA spécialisées (chat, agent, code, GenUI) ; la variante Macaron-V1-Tall repose sur Qwen3.6 (50B) pour le déploiement local. Le framework d'RL agentique s'appelle MindForge, et l'infrastructure de post-training MinT. Paper : <a href=\"https://arxiv.org/abs/2608.09819\">arXiv:2608.09819</a> (35 votes positifs)."
+              },
+              "kicker": {
+                "fr": "Continual Learning",
+                "en": "Continual Learning",
+                "de": "Continual Learning",
+                "it": "Continual Learning",
+                "lmo": "Continual Learning"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.09819"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Politique & Écosystème",
+            "en": "Policy & Ecosystem",
+            "de": "Politik & Ökosystem",
+            "it": "Politica & Ecosistema",
+            "lmo": "Politique & Écosystème"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OpenAI écrit au gouverneur Abbott pour défendre ses investissements d'infrastructure IA au Texas",
+                "en": "OpenAI Writes to Governor Abbott to Defend Its AI Infrastructure Investments in Texas",
+                "de": "OpenAI schreibt an Gouverneur Abbott, um seine KI-Infrastrukturinvestitionen in Texas zu verteidigen",
+                "it": "OpenAI scrive al governatore Abbott per difendere i propri investimenti in infrastruttura IA in Texas",
+                "lmo": "OpenAI écrit au gouverneur Abbott pour défendre ses investissements d'infrastructure IA au Texas"
+              },
+              "body": {
+                "fr": "OpenAI a adressé le 10 août 2026 une lettre au gouverneur du Texas, Greg Abbott, détaillant son engagement en faveur d'une infrastructure IA responsable dans l'État. La lettre, <a href=\"https://openai.com/index/responsible-ai-infrastructure-texas\">publiée sur openai.com</a>, plaide pour une croissance fiable et transparente bénéficiant aux Texans. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49244308\">Hacker News</a> a recueilli 102 points et 188 commentaires, concentrés sur les enjeux de gouvernance et de politique énergétique.",
+                "en": "OpenAI sent a letter on 10 August 2026 to Texas Governor Greg Abbott, detailing its commitment to responsible AI infrastructure in the state. The letter, <a href=\"https://openai.com/index/responsible-ai-infrastructure-texas\">published on openai.com</a>, advocates for reliable and transparent growth benefiting Texans. The discussion on <a href=\"https://news.ycombinator.com/item?id=49244308\">Hacker News</a> gathered 102 points and 188 comments, focused on governance and energy policy issues.",
+                "de": "OpenAI hat am 10. August 2026 einen Brief an den texanischen Gouverneur Greg Abbott gerichtet, in dem es sein Engagement für eine verantwortungsvolle KI-Infrastruktur im Bundesstaat darlegt. Der auf <a href=\"https://openai.com/index/responsible-ai-infrastructure-texas\">openai.com</a> veröffentlichte Brief plädiert für ein verlässliches und transparentes Wachstum, das den Bürgern von Texas zugutekommt. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49244308\">Hacker News</a> erzielte 102 Punkte und 188 Kommentare, die sich auf Fragen der Governance und der Energiepolitik konzentrierten.",
+                "it": "OpenAI ha inviato il 10 agosto 2026 una lettera al governatore del Texas, Greg Abbott, illustrando il proprio impegno a favore di un'infrastruttura IA responsabile nello Stato. La lettera, <a href=\"https://openai.com/index/responsible-ai-infrastructure-texas\">pubblicata su openai.com</a>, plaude a una crescita affidabile e trasparente a beneficio dei texani. La discussione su <a href=\"https://news.ycombinator.com/item?id=49244308\">Hacker News</a> ha raccolto 102 punti e 188 commenti, concentrati sulle questioni di governance e di politica energetica.",
+                "lmo": "OpenAI a adressé le 10 août 2026 une lettre au gouverneur du Texas, Greg Abbott, détaillant son engagement en faveur d'une infrastructure IA responsable dans l'État. La lettre, <a href=\"https://openai.com/index/responsible-ai-infrastructure-texas\">publiée sur openai.com</a>, plaide pour une croissance fiable et transparente bénéficiant aux Texans. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49244308\">Hacker News</a> a recueilli 102 points et 188 commentaires, concentrés sur les enjeux de gouvernance et de politique énergétique."
+              },
+              "kicker": {
+                "fr": "Infrastructure",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastruttura",
+                "lmo": "Infrastructure"
+              },
+              "wire": {
+                "fr": "OpenAI Newsroom — 10 août 2026",
+                "en": "OpenAI Newsroom — 10 August 2026",
+                "de": "OpenAI Newsroom — 10. August 2026",
+                "it": "OpenAI Newsroom — 10 agosto 2026",
+                "lmo": "OpenAI Newsroom — 10 août 2026"
+              },
+              "urls": [
+                "https://openai.com/index/responsible-ai-infrastructure-texas",
+                "https://news.ycombinator.com/item?id=49244308"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google déploie de nouvelles expériences IA et agentiques dans Ads et Analytics",
+                "en": "Google Rolls Out New AI and Agentic Experiences in Ads and Analytics",
+                "de": "Google rollt neue KI- und agentische Funktionen in Ads und Analytics aus",
+                "it": "Google introduce nuove esperienze IA e agentiche in Ads e Analytics",
+                "lmo": "Google déploie de nouvelles expériences IA et agentiques dans Ads et Analytics"
+              },
+              "body": {
+                "fr": "Google a annoncé le 10 août 2026 de nouveaux outils IA à travers Google Ads et Google Analytics, présentés comme capables de simplifier les flux de travail marketing. L'<a href=\"https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/\">annonce</a> évoque des expériences « agentiques » intégrées aux plateformes publicitaires, prolongeant la stratégie de Google consistant à imbriquer l'IA générative dans chaque couche produit.",
+                "en": "Google announced on 10 August 2026 new AI tools across Google Ads and Google Analytics, presented as capable of simplifying marketing workflows. The <a href=\"https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/\">announcement</a> describes 'agentic' experiences integrated into the advertising platforms, extending Google's strategy of embedding generative AI into every product layer.",
+                "de": "Google hat am 10. August 2026 neue KI-Werkzeuge in Google Ads und Google Analytics angekündigt, die der Vereinfachung von Marketing-Workflows dienen sollen. Die <a href=\"https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/\">Ankündigung</a> erwähnt in die Werbeplattformen integrierte «agentische» Erfahrungen und setzt die Strategie von Google fort, generative KI in jede Produktebene einzubetten.",
+                "it": "Google ha annunciato il 10 agosto 2026 nuovi strumenti IA in Google Ads e Google Analytics, presentati come capaci di semplificare i flussi di lavoro di marketing. L'<a href=\"https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/\">annuncio</a> menziona esperienze «agentiche» integrate nelle piattaforme pubblicitarie, prolungando la strategia di Google consistente nell'innestare l'IA generativa in ogni livello di prodotto.",
+                "lmo": "Google a annoncé le 10 août 2026 de nouveaux outils IA à travers Google Ads et Google Analytics, présentés comme capables de simplifier les flux de travail marketing. L'<a href=\"https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/\">annonce</a> évoque des expériences « agentiques » intégrées aux plateformes publicitaires, prolongeant la stratégie de Google consistant à imbriquer l'IA générative dans chaque couche produit."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Produit"
+              },
+              "wire": {
+                "fr": "Google Blog — 10 août 2026",
+                "en": "Google Blog — 10 August 2026",
+                "de": "Google Blog — 10. August 2026",
+                "it": "Google Blog — 10 agosto 2026",
+                "lmo": "Google Blog — 10 août 2026"
+              },
+              "urls": [
+                "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Brief",
+        "de": "Technischer Teil",
+        "it": "Inserto Tecnico",
+        "lmo": "Le Cahier Technique"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Inférence & Engines",
+            "en": "Inference & Engines",
+            "de": "Inferenz & Engines",
+            "it": "Inference & Engine",
+            "lmo": "Inférence & Engines"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "H3-metal : antirez implémente MiniMax-H3 nativement pour Apple Silicon en C",
+                "en": "H3-metal: antirez Implements MiniMax-H3 Natively for Apple Silicon in C",
+                "de": "H3-metal: antirez implementiert MiniMax-H3 nativ für Apple Silicon in C",
+                "it": "H3-metal: antirez implementa MiniMax-H3 nativamente per Apple Silicon in C",
+                "lmo": "H3-metal : antirez implémente MiniMax-H3 nativement pour Apple Silicon en C"
+              },
+              "body": {
+                "fr": "Salvatore Sanfilippo, créateur de Redis, a publié H3-metal le 11 août 2026 : une implémentation native en C de l'inférence MiniMax-H3 pour Apple Silicon. Le dépôt <a href=\"https://github.com/antirez/h3.c\">github.com/antirez/h3.c</a> a suscité 122 points et 14 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49252179\">Hacker News</a>. Le projet vise à démontrer que les architectures hybrides SSM/attention de type H3 peuvent être servies efficacement sur la pile Metal sans dépendance à des frameworks lourds.",
+                "en": "Salvatore Sanfilippo, creator of Redis, released H3-metal on 11 August 2026: a native C implementation of MiniMax-H3 inference for Apple Silicon. The repository <a href=\"https://github.com/antirez/h3.c\">github.com/antirez/h3.c</a> garnered 122 points and 14 comments on <a href=\"https://news.ycombinator.com/item?id=49252179\">Hacker News</a>. The project aims to demonstrate that hybrid SSM/attention architectures of the H3 type can be served efficiently on the Metal stack without dependency on heavyweight frameworks.",
+                "de": "Salvatore Sanfilippo, der Schöpfer von Redis, hat am 11. August 2026 H3-metal veröffentlicht: eine native C-Implementierung der MiniMax-H3-Inferenz für Apple Silicon. Das Repository <a href=\"https://github.com/antirez/h3.c\">github.com/antirez/h3.c</a> erzielte 122 Punkte und 14 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49252179\">Hacker News</a>. Das Projekt zielt darauf ab zu zeigen, dass hybride SSM/Attention-Architekturen vom Typ H3 auf dem Metal-Stack ohne Abhängigkeit von schwerwiegenden Frameworks effizient bereitgestellt werden können.",
+                "it": "Salvatore Sanfilippo, creatore di Redis, ha pubblicato H3-metal l'11 agosto 2026: un'implementazione nativa in C dell'inference MiniMax-H3 per Apple Silicon. Il repository <a href=\"https://github.com/antirez/h3.c\">github.com/antirez/h3.c</a> ha suscitato 122 punti e 14 commenti su <a href=\"https://news.ycombinator.com/item?id=49252179\">Hacker News</a>. Il progetto mira a dimostrare che le architetture ibride SSM/attention di tipo H3 possono essere servite efficientemente sullo stack Metal senza dipendenze da framework pesanti.",
+                "lmo": "Salvatore Sanfilippo, créateur de Redis, a publié H3-metal le 11 août 2026 : une implémentation native en C de l'inférence MiniMax-H3 pour Apple Silicon. Le dépôt <a href=\"https://github.com/antirez/h3.c\">github.com/antirez/h3.c</a> a suscité 122 points et 14 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49252179\">Hacker News</a>. Le projet vise à démontrer que les architectures hybrides SSM/attention de type H3 peuvent être servies efficacement sur la pile Metal sans dépendance à des frameworks lourds."
+              },
+              "kicker": {
+                "fr": "Apple Silicon",
+                "en": "Apple Silicon",
+                "de": "Apple Silicon",
+                "it": "Apple Silicon",
+                "lmo": "Apple Silicon"
+              },
+              "wire": {
+                "fr": "Hacker News — 11 août 2026",
+                "en": "Hacker News — 11 August 2026",
+                "de": "Hacker News — 11. August 2026",
+                "it": "Hacker News — 11 agosto 2026",
+                "lmo": "Hacker News — 11 août 2026"
+              },
+              "urls": [
+                "https://github.com/antirez/h3.c",
+                "https://news.ycombinator.com/item?id=49252179"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OasisKV (Microsoft) : franchir la barrière HBM par le préfetching sparse lookahead",
+                "en": "OasisKV (Microsoft): Breaking the HBM Barrier via Sparse Lookahead Prefetching",
+                "de": "OasisKV (Microsoft): Die HBM-Grenze durch sparsames Lookahead-Prefetching überwinden",
+                "it": "OasisKV (Microsoft): superare la barriera HBM tramite sparse lookahead prefetching",
+                "lmo": "OasisKV (Microsoft) : franchir la barrière HBM par le préfetching sparse lookahead"
+              },
+              "body": {
+                "fr": "Des chercheurs de Microsoft proposent OasisKV, un système d'inférence LLM qui découple le stockage du KV cache de la HBM pendant le décodage. En exploitant la nature sparse de l'attention au moment du décodage, OasisKV ne conserve en HBM que les entrées KV les plus pertinentes, les autres étant stockées dans des tiers de mémoire supérieurs. La prédiction des tokens importants futurs s'appuie sur les tokens lookahead du décoding spéculatif. Implémenté sur vLLM, OasisKV maintient la précision à 0,7 point de l'attention dense avec un budget KV de 2 048 tokens, tout en atteignant un débit 1,69× supérieur sur les charges de raisonnement et jusqu'à 2,1× en multi-GPU long-contexte. Paper : <a href=\"https://arxiv.org/abs/2608.08097\">arXiv:2608.08097</a>.",
+                "en": "Researchers at Microsoft propose OasisKV, an LLM inference system that decouples KV cache storage from HBM during decoding. By exploiting the sparse nature of attention at decoding time, OasisKV retains only the most relevant KV entries in HBM, with the rest stored in higher memory tiers. Prediction of important future tokens relies on lookahead tokens from speculative decoding. Implemented on vLLM, OasisKV maintains accuracy within 0.7 points of dense attention with a KV budget of 2,048 tokens, while achieving 1.69× higher throughput on reasoning workloads and up to 2.1× in multi-GPU long-context settings. Paper: <a href=\"https://arxiv.org/abs/2608.08097\">arXiv:2608.08097</a>.",
+                "de": "Forschende von Microsoft schlagen OasisKV vor, ein LLM-Inferenzsystem, das die Speicherung des KV-Cache während des Decoding von der HBM entkoppelt. Durch Ausnutzung der sparsamen Natur der Attention zum Zeitpunkt des Decoding hält OasisKV nur die relevantesten KV-Einträge in der HBM; die übrigen werden in höheren Speichertiers abgelegt. Die Vorhersage wichtiger zukünftiger Tokens stützt sich auf Lookahead-Tokens aus dem spekulativen Decoding. Auf vLLM implementiert, hält OasisKV die Genauigkeit bei 0,7 Punkten der dichten Attention mit einem KV-Budget von 2 048 Tokens und erreicht dabei einen 1,69× höheren Durchsatz bei Reasoning-Workloads und bis zu 2,1× bei Multi-GPU-Langkontext. Paper: <a href=\"https://arxiv.org/abs/2608.08097\">arXiv:2608.08097</a>.",
+                "it": "Ricercatori di Microsoft propongono OasisKV, un sistema di inference LLM che disaccoppia l'archiviazione del KV cache dalla HBM durante il decoding. Sfruttando la natura sparse dell'attenzione al momento del decoding, OasisKV conserva in HBM solo le entry KV più rilevanti, mentre le altre vengono memorizzate in tier di memoria superiori. La previsione dei token futuri importanti si basa sui token lookahead del decoding speculativo. Implementato su vLLM, OasisKV mantiene la precisione a 0,7 punti dall'attenzione dense con un budget KV di 2.048 token, raggiungendo al contempo un throughput 1,69× superiore su carichi di ragionamento e fino a 2,1× in multi-GPU long-context. Paper: <a href=\"https://arxiv.org/abs/2608.08097\">arXiv:2608.08097</a>.",
+                "lmo": "Des chercheurs de Microsoft proposent OasisKV, un système d'inférence LLM qui découple le stockage du KV cache de la HBM pendant le décodage. En exploitant la nature sparse de l'attention au moment du décodage, OasisKV ne conserve en HBM que les entrées KV les plus pertinentes, les autres étant stockées dans des tiers de mémoire supérieurs. La prédiction des tokens importants futurs s'appuie sur les tokens lookahead du décoding spéculatif. Implémenté sur vLLM, OasisKV maintient la précision à 0,7 point de l'attention dense avec un budget KV de 2 048 tokens, tout en atteignant un débit 1,69× supérieur sur les charges de raisonnement et jusqu'à 2,1× en multi-GPU long-contexte. Paper : <a href=\"https://arxiv.org/abs/2608.08097\">arXiv:2608.08097</a>."
+              },
+              "kicker": {
+                "fr": "KV Cache",
+                "en": "KV Cache",
+                "de": "KV Cache",
+                "it": "KV Cache",
+                "lmo": "KV Cache"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.08097"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Optimisation & Déploiement",
+            "en": "Optimisation & Deployment",
+            "de": "Optimierung & Einsatz",
+            "it": "Ottimizzazione & Deployment",
+            "lmo": "Optimisation & Déploiement"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Multiverse Computing : rendre la distillation de connaissances abordable à grande échelle",
+                "en": "Multiverse Computing: Making Knowledge Distillation Affordable at Scale",
+                "de": "Multiverse Computing: Wissensdistillation im grossen Massstab bezahlbar machen",
+                "it": "Multiverse Computing: rendere la distillazione delle conoscenze accessibile su larga scala",
+                "lmo": "Multiverse Computing : rendre la distillation de connaissances abordable à grande échelle"
+              },
+              "body": {
+                "fr": "Multiverse Computing CAI publie le 10 août 2026 une méthode pour réduire le coût de la distillation de connaissances à l'échelle. Le <a href=\"https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation\">billet sur Hugging Face</a> décrit des techniques permettant d'exécuter la distillation sans exploser les budgets de calcul, un enjeu critique pour transférer les capacités des modèles frontière vers des modèles plus compacts déployables en production.",
+                "en": "Multiverse Computing CAI published on 10 August 2026 a method to reduce the cost of knowledge distillation at scale. The <a href=\"https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation\">post on Hugging Face</a> describes techniques enabling distillation without exploding compute budgets, a critical challenge for transferring the capabilities of frontier models to more compact models deployable in production.",
+                "de": "Multiverse Computing CAI veröffentlicht am 10. August 2026 eine Methode zur Kostensenkung der Wissensdistillation im grossen Massstab. Der <a href=\"https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation\">Beitrag auf Hugging Face</a> beschreibt Techniken, die die Distillation ohne Explosion der Rechenbudgets ermöglichen – eine kritische Herausforderung für die Übertragung von Fähigkeiten aus Frontier-Modellen in kompaktere, produktiv einsetzbare Modelle.",
+                "it": "Multiverse Computing CAI pubblica il 10 agosto 2026 un metodo per ridurre il costo della distillazione delle conoscenze su larga scala. Il <a href=\"https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation\">post su Hugging Face</a> descrive tecniche che consentono di eseguire la distillazione senza far esplodere i budget di calcolo, una sfida critica per trasferire le capacità dei modelli di frontiera verso modelli più compatti deployabili in produzione.",
+                "lmo": "Multiverse Computing CAI publie le 10 août 2026 une méthode pour réduire le coût de la distillation de connaissances à l'échelle. Le <a href=\"https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation\">billet sur Hugging Face</a> décrit des techniques permettant d'exécuter la distillation sans exploser les budgets de calcul, un enjeu critique pour transférer les capacités des modèles frontière vers des modèles plus compacts déployables en production."
+              },
+              "kicker": {
+                "fr": "Distillation",
+                "en": "Distillation",
+                "de": "Distillation",
+                "it": "Distillazione",
+                "lmo": "Distillation"
+              },
+              "wire": {
+                "fr": "Hugging Face Blog — 10 août 2026",
+                "en": "Hugging Face Blog — 10 August 2026",
+                "de": "Hugging Face Blog — 10. August 2026",
+                "it": "Hugging Face Blog — 10 agosto 2026",
+                "lmo": "Hugging Face Blog — 10 août 2026"
+              },
+              "urls": [
+                "https://huggingface.co/blog/MultiverseComputingCAI/efficient-knowledge-distillation"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NVIDIA Magpie TTS : des agents vocaux multilingues open weight en faible latence",
+                "en": "NVIDIA Magpie TTS: Open-Weight Multilingual Voice Agents at Low Latency",
+                "de": "NVIDIA Magpie TTS: Mehrsprachige Open-Weight-Sprachagenten mit niedriger Latenz",
+                "it": "NVIDIA Magpie TTS: agenti vocali multilingue open weight a bassa latenza",
+                "lmo": "NVIDIA Magpie TTS : des agents vocaux multilingues open weight en faible latence"
+              },
+              "body": {
+                "fr": "NVIDIA a publié Magpie TTS le 10 août 2026, un modèle de synthèse vocale multilingue conçu pour construire des agents vocaux en faible latence. Le <a href=\"https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents\">billet Hugging Face</a> met l'accent sur le contrôle total du déploiement et la disponibilité des poids ouverts, ce qui permet aux développeurs d'héberger et de personnaliser le modèle sans dépendre d'une API propriétaire.",
+                "en": "NVIDIA released Magpie TTS on 10 August 2026, a multilingual speech synthesis model designed to build low-latency voice agents. The <a href=\"https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents\">Hugging Face post</a> emphasises full deployment control and open-weight availability, enabling developers to host and customise the model without relying on a proprietary API.",
+                "de": "NVIDIA hat am 10. August 2026 Magpie TTS veröffentlicht, ein mehrsprachiges Sprachsynthesemodell, das für den Aufbau von Sprachagenten mit niedriger Latenz konzipiert ist. Der <a href=\"https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents\">Hugging-Face-Beitrag</a> betont die volle Kontrolle über den Einsatz und die Verfügbarkeit offener Gewichte, was Entwicklern erlaubt, das Modell zu hosten und anzupassen, ohne von einer proprietären API abhängig zu sein.",
+                "it": "NVIDIA ha pubblicato Magpie TTS il 10 agosto 2026, un modello di sintesi vocale multilingue progettato per costruire agenti vocali a bassa latenza. Il <a href=\"https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents\">post su Hugging Face</a> mette l'accento sul controllo totale del deployment e sulla disponibilità dei pesi aperti, consentendo agli sviluppatori di ospitare e personalizzare il modello senza dipendere da un'API proprietaria.",
+                "lmo": "NVIDIA a publié Magpie TTS le 10 août 2026, un modèle de synthèse vocale multilingue conçu pour construire des agents vocaux en faible latence. Le <a href=\"https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents\">billet Hugging Face</a> met l'accent sur le contrôle total du déploiement et la disponibilité des poids ouverts, ce qui permet aux développeurs d'héberger et de personnaliser le modèle sans dépendre d'une API propriétaire."
+              },
+              "kicker": {
+                "fr": "TTS Multilingue",
+                "en": "Multilingual TTS",
+                "de": "Mehrsprachige TTS",
+                "it": "TTS Multilingue",
+                "lmo": "TTS Multilingue"
+              },
+              "wire": {
+                "fr": "Hugging Face Blog — 10 août 2026",
+                "en": "Hugging Face Blog — 10 August 2026",
+                "de": "Hugging Face Blog — 10. August 2026",
+                "it": "Hugging Face Blog — 10 agosto 2026",
+                "lmo": "Hugging Face Blog — 10 août 2026"
+              },
+              "urls": [
+                "https://huggingface.co/blog/nvidia/magpie-tts-multilingual-voice-agents"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Recherche"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papiere des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Papers du jour"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Ouroboros : un agent de codage qui réécrit son propre code, 86,74 % sur Terminal-Bench 2.1",
+                "en": "Ouroboros: A Coding Agent That Rewrites Its Own Code, 86.74% on Terminal-Bench 2.1",
+                "de": "Ouroboros: Ein Coding-Agent, der seinen eigenen Code umschreibt – 86,74 % auf Terminal-Bench 2.1",
+                "it": "Ouroboros: un agente di coding che riscrive il proprio codice, 86,74% su Terminal-Bench 2.1",
+                "lmo": "Ouroboros : un agent de codage qui réécrit son propre code, 86,74 % sur Terminal-Bench 2.1"
+              },
+              "body": {
+                "fr": "Ouroboros est un harnais d'agent auto-développant dont les outils, prompts et cœur d'implémentation s'améliorent par commits révisés devenant le runtime des cycles suivants. Sur Terminal-Bench 2.1, une exécution Opus 5 atteint 86,74 %, meilleur score rapporté ; sur OSWorld-Verified, elle atteint 90,69 %. Le projet « Hope » documente 161 jours d'évolution libre sous communication humaine gouvernée à travers sept surfaces. Paper : <a href=\"https://arxiv.org/abs/2608.08311\">arXiv:2608.08311</a> (5 votes positifs). Code : <a href=\"https://github.com/razzant/ouroboros\">github.com/razzant/ouroboros</a> (1 056 étoiles).",
+                "en": "Ouroboros is a self-developing agent harness whose tools, prompts and core implementation improve through reviewed commits that become the runtime of subsequent cycles. On Terminal-Bench 2.1, an Opus 5 run achieves 86.74%, the best reported score; on OSWorld-Verified, it reaches 90.69%. The 'Hope' project documents 161 days of free evolution under governed human communication across seven surfaces. Paper: <a href=\"https://arxiv.org/abs/2608.08311\">arXiv:2608.08311</a> (5 upvotes). Code: <a href=\"https://github.com/razzant/ouroboros\">github.com/razzant/ouroboros</a> (1,056 stars).",
+                "de": "Ouroboros ist ein selbstentwickelnder Agent-Harness, dessen Werkzeuge, Prompts und Implementierungskern sich durch geprüfte Commits verbessern, die zum Runtime der nachfolgenden Zyklen werden. Auf Terminal-Bench 2.1 erreicht eine Opus-5-Ausführung 86,74 % – der beste berichtete Wert; auf OSWorld-Verified erreicht sie 90,69 %. Das Projekt «Hope» dokumentiert 161 Tage freier Evolution unter geführter menschlicher Kommunikation über sieben Oberflächen. Paper: <a href=\"https://arxiv.org/abs/2608.08311\">arXiv:2608.08311</a> (5 positive Stimmen). Code: <a href=\"https://github.com/razzant/ouroboros\">github.com/razzant/ouroboros</a> (1 056 Sterne).",
+                "it": "Ouroboros è un harness di agente auto-sviluppante i cui strumenti, prompt e nucleo di implementazione migliorano tramite commit revisionati che diventano il runtime dei cicli successivi. Su Terminal-Bench 2.1, un'esecuzione Opus 5 raggiunge l'86,74%, il punteggio migliore mai riportato; su OSWorld-Verified raggiunge il 90,69%. Il progetto «Hope» documenta 161 giorni di evoluzione libera sotto comunicazione umana governata attraverso sette superfici. Paper: <a href=\"https://arxiv.org/abs/2608.08311\">arXiv:2608.08311</a> (5 voti positivi). Codice: <a href=\"https://github.com/razzant/ouroboros\">github.com/razzant/ouroboros</a> (1.056 stelle).",
+                "lmo": "Ouroboros est un harnais d'agent auto-développant dont les outils, prompts et cœur d'implémentation s'améliorent par commits révisés devenant le runtime des cycles suivants. Sur Terminal-Bench 2.1, une exécution Opus 5 atteint 86,74 %, meilleur score rapporté ; sur OSWorld-Verified, elle atteint 90,69 %. Le projet « Hope » documente 161 jours d'évolution libre sous communication humaine gouvernée à travers sept surfaces. Paper : <a href=\"https://arxiv.org/abs/2608.08311\">arXiv:2608.08311</a> (5 votes positifs). Code : <a href=\"https://github.com/razzant/ouroboros\">github.com/razzant/ouroboros</a> (1 056 étoiles)."
+              },
+              "kicker": {
+                "fr": "Agent auto-évolutif",
+                "en": "Self-Evolving Agent",
+                "de": "Selbstevolvierender Agent",
+                "it": "Agente auto-evolutivo",
+                "lmo": "Agent auto-évolutif"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.08311",
+                "https://github.com/razzant/ouroboros"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Evo-Bench : les LLM peuvent-ils améliorer leur propre harnais d'agent ?",
+                "en": "Evo-Bench: Can LLMs Improve Their Own Agent Harness?",
+                "de": "Evo-Bench: Können LLM ihren eigenen Agent-Harness verbessern?",
+                "it": "Evo-Bench: i LLM possono migliorare il proprio harness di agente?",
+                "lmo": "Evo-Bench : les LLM peuvent-ils améliorer leur propre harnais d'agent ?"
+              },
+              "body": {
+                "fr": "RUC-AIBOX introduit Evo-Bench, le premier benchmark conçu pour évaluer la capacité des modèles à faire évoluer autonomement leur propre harnais opérationnel à travers trois domaines : recherche, bureautique et tâches générales. Évaluant neuf modèles frontière et open weight, les auteurs observent des gains absolus allant jusqu'à 16,6 points, approchant les baselines conçues par des humains. L'évolution autonome surpasse les harnais artificiels en tâches générales et de recherche, mais peine dans les tâches bureautiques exigeant des flux très spécifiques. Paper : <a href=\"https://arxiv.org/abs/2608.09096\">arXiv:2608.09096</a> (3 votes). Site : <a href=\"https://evobench.org/\">evobench.org</a>.",
+                "en": "RUC-AIBOX introduces Evo-Bench, the first benchmark designed to evaluate the ability of models to autonomously evolve their own operational harness across three domains: research, office and general tasks. Evaluating nine frontier and open-weight models, the authors observe absolute gains of up to 16.6 points, approaching human-designed baselines. Autonomous evolution outperforms artificial harnesses on general and research tasks, but struggles with office tasks requiring highly specific workflows. Paper: <a href=\"https://arxiv.org/abs/2608.09096\">arXiv:2608.09096</a> (3 upvotes). Site: <a href=\"https://evobench.org/\">evobench.org</a>.",
+                "de": "RUC-AIBOX führt Evo-Bench ein, den ersten Benchmark zur Bewertung der Fähigkeit von Modellen, ihren eigenen operativen Harness über drei Bereiche autonom weiterzuentwickeln: Recherche, Büroanwendungen und allgemeine Aufgaben. Bei der Evaluierung von neun Frontier- und Open-Weight-Modellen beobachten die Autoren absolute Gewinnste bis zu 16,6 Punkten, die an menschengemachte Baselines heranreichen. Die autonome Evolution übertrifft künstliche Harnesses bei allgemeinen und Recherchaufgaben, hat jedoch Mühe bei Büroaufgaben, die sehr spezifische Abläufe erfordern. Paper: <a href=\"https://arxiv.org/abs/2608.09096\">arXiv:2608.09096</a> (3 Stimmen). Website: <a href=\"https://evobench.org/\">evobench.org</a>.",
+                "it": "RUC-AIBOX introduce Evo-Bench, il primo benchmark progettato per valutare la capacità dei modelli di far evolvere autonomamente il proprio harness operativo attraverso tre domini: ricerca, office automation e attività generali. Valutando nove modelli di frontiera e open weight, gli autori osservano guadagni assoluti fino a 16,6 punti, avvicinandosi alle baseline progettate da esseri umani. L'evoluzione autonoma supera gli harness artificiali nelle attività generali e di ricerca, ma fatica nei compiti d'ufficio che richiedono flussi molto specifici. Paper: <a href=\"https://arxiv.org/abs/2608.09096\">arXiv:2608.09096</a> (3 voti). Sito: <a href=\"https://evobench.org/\">evobench.org</a>.",
+                "lmo": "RUC-AIBOX introduit Evo-Bench, le premier benchmark conçu pour évaluer la capacité des modèles à faire évoluer autonomement leur propre harnais opérationnel à travers trois domaines : recherche, bureautique et tâches générales. Évaluant neuf modèles frontière et open weight, les auteurs observent des gains absolus allant jusqu'à 16,6 points, approchant les baselines conçues par des humains. L'évolution autonome surpasse les harnais artificiels en tâches générales et de recherche, mais peine dans les tâches bureautiques exigeant des flux très spécifiques. Paper : <a href=\"https://arxiv.org/abs/2608.09096\">arXiv:2608.09096</a> (3 votes). Site : <a href=\"https://evobench.org/\">evobench.org</a>."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.09096",
+                "https://evobench.org/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "RynnValue (Alibaba DAMO) : un modèle de valeur robotique entraîné sur 7 000 heures sans étiquettes de préférence",
+                "en": "RynnValue (Alibaba DAMO): A Robotic Value Model Trained on 7,000 Hours Without Preference Labels",
+                "de": "RynnValue (Alibaba DAMO): Ein robotischer Wertmodell, trainiert auf 7 000 Stunden ohne Präferenzlabels",
+                "it": "RynnValue (Alibaba DAMO): un modello di valore robotico addestrato su 7.000 ore senza etichette di preferenza",
+                "lmo": "RynnValue (Alibaba DAMO) : un modèle de valeur robotique entraîné sur 7 000 heures sans étiquettes de préférence"
+              },
+              "body": {
+                "fr": "Alibaba DAMO Academy propose RynnValue, un modèle de valeur de fondation pour la manipulation robotique qui remplace les ancres de préférence par la distance temporelle — le coût-à-aller dirigé d'une observation vers le but exprimé en langage. Avec des étiquettes dérivées d'horodatages, RynnValue s'entraîne sur plus de 7 000 heures et environ 3 millions de clips. Il atteint un tau_a de Kendall moyen de 0,675 sur RBM-EVAL-OOD, dépassant l'état de l'art supervisé par préférence (0,655). Converti en récompense dense, il fait passer le taux de succès de 52,5 % à 72,5 % en ligne. Paper : <a href=\"https://arxiv.org/abs/2608.09853\">arXiv:2608.09853</a>.",
+                "en": "Alibaba DAMO Academy proposes RynnValue, a foundation value model for robotic manipulation that replaces preference anchors with temporal distance — the directed cost-to-go from an observation to the goal expressed in language. With labels derived from timestamps, RynnValue is trained on over 7,000 hours and approximately 3 million clips. It achieves a mean Kendall tau_a of 0.675 on RBM-EVAL-OOD, surpassing the supervised preference-based state of the art (0.655). Converted to a dense reward, it raises the success rate from 52.5% to 72.5% online. Paper: <a href=\"https://arxiv.org/abs/2608.09853\">arXiv:2608.09853</a>.",
+                "de": "Alibaba DAMO Academy schlägt RynnValue vor, ein fundamentales Wertmodell für die robotische Manipulation, das Präferenzankern durch die zeitliche Distanz ersetzt – die gerichteten Cost-to-Go einer Beobachtung zum sprachlich ausgedrückten Ziel. Mit aus Zeitstempeln abgeleiteten Labels trainiert RynnValue auf über 7 000 Stunden und rund 3 Millionen Clips. Es erreicht einen mittleren Kendall-Tau_a von 0,675 auf RBM-EVAL-OOD und übertrifft damit den präferenzüberwachten Stand der Technik (0,655). In eine dichte Belohnung umgewandelt, steigert es die Erfolgsquote von 52,5 % auf 72,5 % im laufenden Betrieb. Paper: <a href=\"https://arxiv.org/abs/2608.09853\">arXiv:2608.09853</a>.",
+                "it": "Alibaba DAMO Academy propone RynnValue, un modello di valore di fondazione per la manipolazione robotica che sostituisce le ancore di preferenza con la distanza temporale — il costo-per-andare guidato da un'osservazione verso l'obiettivo espresso in linguaggio. Con etichette derivate da timestamp, RynnValue si allena su oltre 7.000 ore e circa 3 milioni di clip. Raggiunge un tau_a di Kendall medio di 0,675 su RBM-EVAL-OOD, superando lo stato dell'arte supervisionato per preferenza (0,655). Convertito in reward denso, porta il tasso di successo dal 52,5% al 72,5% online. Paper: <a href=\"https://arxiv.org/abs/2608.09853\">arXiv:2608.09853</a>.",
+                "lmo": "Alibaba DAMO Academy propose RynnValue, un modèle de valeur de fondation pour la manipulation robotique qui remplace les ancres de préférence par la distance temporelle — le coût-à-aller dirigé d'une observation vers le but exprimé en langage. Avec des étiquettes dérivées d'horodatages, RynnValue s'entraîne sur plus de 7 000 heures et environ 3 millions de clips. Il atteint un tau_a de Kendall moyen de 0,675 sur RBM-EVAL-OOD, dépassant l'état de l'art supervisé par préférence (0,655). Converti en récompense dense, il fait passer le taux de succès de 52,5 % à 72,5 % en ligne. Paper : <a href=\"https://arxiv.org/abs/2608.09853\">arXiv:2608.09853</a>."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Robotique"
+              },
+              "wire": {
+                "fr": "HF Daily Papers — 11 août 2026",
+                "en": "HF Daily Papers — 11 August 2026",
+                "de": "HF Daily Papers — 11. August 2026",
+                "it": "HF Daily Papers — 11 agosto 2026",
+                "lmo": "HF Daily Papers — 11 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.09853"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "Community & Editoriale",
+        "lmo": "La Communauté & Édito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla community",
+            "lmo": "Signaux de la communauté"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Humaniliser les sorties des LLM, c'est bête » : un essai déclenche 184 points",
+                "en": "'Humanising LLM Outputs Is Actually Dumb': An Essay Triggers 184 Points",
+                "de": "«LLM-Ausgaben zu vermenschlichen ist dumm»: Ein Essay löst 184 Punkte aus",
+                "it": "«Rendere umani gli output dei LLM è stupido»: un saggio scatena 184 punti",
+                "lmo": "« Humaniliser les sorties des LLM, c'est bête » : un essai déclenche 184 points"
+              },
+              "body": {
+                "fr": "Un essai publié sur <a href=\"https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb\">kuber.studio</a> argue que les efforts pour rendre les sorties de LLM plus « humaines » dans leur ton sont non seulement superflus mais potentiellement contre-productifs. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49243474\">Hacker News</a> (184 points, 113 commentaires) oppose les partisans d'une transparence radicale sur la nature machine des réponses à ceux qui estiment qu'un minimum de politesse améliore l'expérience utilisateur.",
+                "en": "An essay published on <a href=\"https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb\">kuber.studio</a> argues that efforts to make LLM outputs more 'human' in tone are not only superfluous but potentially counterproductive. The discussion on <a href=\"https://news.ycombinator.com/item?id=49243474\">Hacker News</a> (184 points, 113 comments) pits proponents of radical transparency about the machine nature of responses against those who believe a minimum of politeness improves the user experience.",
+                "de": "Ein auf <a href=\"https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb\">kuber.studio</a> veröffentlichter Essay argumentiert, dass Bemühungen, die Ausgaben von LLM im Ton «menschlicher» klingen zu lassen, nicht nur überflüssig, sondern potenziell kontraproduktiv sind. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49243474\">Hacker News</a> (184 Punkte, 113 Kommentare) stellt Befürworter einer radikalen Transparenz über die maschinelle Natur der Antworten jenen gegenüber, die meinen, dass ein Mindestmass an Höflichkeit die Benutzererfahrung verbessere.",
+                "it": "Un saggio pubblicato su <a href=\"https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb\">kuber.studio</a> sostiene che gli sforzi per rendere gli output dei LLM più «umani» nel tono sono non solo superflui ma potenzialmente controproducenti. La discussione su <a href=\"https://news.ycombinator.com/item?id=49243474\">Hacker News</a> (184 punti, 113 commenti) contrappone i fautori di una trasparenza radicale sulla natura meccanica delle risposte a chi ritiene che un minimo di cortesia migliori l'esperienza utente.",
+                "lmo": "Un essai publié sur <a href=\"https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb\">kuber.studio</a> argue que les efforts pour rendre les sorties de LLM plus « humaines » dans leur ton sont non seulement superflus mais potentiellement contre-productifs. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49243474\">Hacker News</a> (184 points, 113 commentaires) oppose les partisans d'une transparence radicale sur la nature machine des réponses à ceux qui estiment qu'un minimum de politesse améliore l'expérience utilisateur."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Débat"
+              },
+              "wire": {
+                "fr": "Hacker News — 10 août 2026",
+                "en": "Hacker News — 10 August 2026",
+                "de": "Hacker News — 10. August 2026",
+                "it": "Hacker News — 10 agosto 2026",
+                "lmo": "Hacker News — 10 août 2026"
+              },
+              "urls": [
+                "https://kuber.studio/blog/Reflections/Humanising-LLM-Outputs-is-Actually-Dumb",
+                "https://news.ycombinator.com/item?id=49243474"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Exploration des dates de coupure de connaissances de Claude et GPT : 130 points",
+                "en": "Exploring Claude and GPT Knowledge Cutoff Dates: 130 Points",
+                "de": "Untersuchung der Wissens-Stopfdaten von Claude und GPT: 130 Punkte",
+                "it": "Esplorazione delle date di cutoff delle conoscenze di Claude e GPT: 130 punti",
+                "lmo": "Exploration des dates de coupure de connaissances de Claude et GPT : 130 points"
+              },
+              "body": {
+                "fr": "Une analyse publiée sur <a href=\"https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs\">blog.sshh.io</a> tente de cartographier les dates de coupure effectives des modèles Claude et GPT, ainsi que les timelines de pré-entraînement qui les sous-tendent. Le post, partagé sur <a href=\"https://news.ycombinator.com/item?id=49244085\">Hacker News</a> (130 points, 16 commentaires), fournit une méthodologie reproductible pour tester empiriquement ce que les modèles savent et jusqu'à quand.",
+                "en": "An analysis published on <a href=\"https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs\">blog.sshh.io</a> attempts to map the effective knowledge cutoff dates of Claude and GPT models, as well as the underlying pre-training timelines. The post, shared on <a href=\"https://news.ycombinator.com/item?id=49244085\">Hacker News</a> (130 points, 16 comments), provides a reproducible methodology for empirically testing what models know and up to when.",
+                "de": "Eine auf <a href=\"https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs\">blog.sshh.io</a> veröffentlichte Analyse versucht, die effektiven Wissens-Stopfdaten der Modelle Claude und GPT sowie die zugrundeliegenden Pre-Training-Zeitleisten zu kartieren. Der auf <a href=\"https://news.ycombinator.com/item?id=49244085\">Hacker News</a> geteilte Beitrag (130 Punkte, 16 Kommentare) liefert eine reproduzierbare Methodik, um empirisch zu testen, was die Modelle wissen und bis wann.",
+                "it": "Un'analisi pubblicata su <a href=\"https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs\">blog.sshh.io</a> cerca di mappare le date di cutoff effettive dei modelli Claude e GPT, nonché le timeline di pre-training che le sottendono. Il post, condiviso su <a href=\"https://news.ycombinator.com/item?id=49244085\">Hacker News</a> (130 punti, 16 commenti), fornisce una metodologia riproducibile per testare empiricamente ciò che i modelli sanno e fino a quando.",
+                "lmo": "Une analyse publiée sur <a href=\"https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs\">blog.sshh.io</a> tente de cartographier les dates de coupure effectives des modèles Claude et GPT, ainsi que les timelines de pré-entraînement qui les sous-tendent. Le post, partagé sur <a href=\"https://news.ycombinator.com/item?id=49244085\">Hacker News</a> (130 points, 16 commentaires), fournit une méthodologie reproductible pour tester empiriquement ce que les modèles savent et jusqu'à quand."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analyse"
+              },
+              "wire": {
+                "fr": "Hacker News — 10 août 2026",
+                "en": "Hacker News — 10 August 2026",
+                "de": "Hacker News — 10. August 2026",
+                "it": "Hacker News — 10 agosto 2026",
+                "lmo": "Hacker News — 10 août 2026"
+              },
+              "urls": [
+                "https://blog.sshh.io/p/exploring-claudegpt-knowledge-cutoffs",
+                "https://news.ycombinator.com/item?id=49244085"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Quel est le meilleur langage de programmation pour les agents de codage ? danluu répond",
+                "en": "What Is the Best Programming Language for Coding Agents? danluu Answers",
+                "de": "Welches ist die beste Programmiersprache für Coding-Agenten? danluu antwortet",
+                "it": "Qual è il miglior linguaggio di programmazione per gli agenti di coding? danluu risponde",
+                "lmo": "Quel est le meilleur langage de programmation pour les agents de codage ? danluu répond"
+              },
+              "body": {
+                "fr": "Dan Luu publie une <a href=\"http://danluu.com/pl-tokens/\">analyse comparative</a> de l'efficacité en tokens des différents langages de programmation lorsqu'ils sont utilisés par des agents de codage IA. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49245936\">Hacker News</a> (100 points, 70 commentaires) se concentre sur l'impact pratique du choix de langage sur le coût et la fiabilité des agents autonomes, un sujet devenu central avec la généralisation du codage IA en production.",
+                "en": "Dan Luu publishes a <a href=\"http://danluu.com/pl-tokens/\">comparative analysis</a> of token efficiency across different programming languages when used by AI coding agents. The discussion on <a href=\"https://news.ycombinator.com/item?id=49245936\">Hacker News</a> (100 points, 70 comments) focuses on the practical impact of language choice on the cost and reliability of autonomous agents, a topic that has become central with the mainstream adoption of AI coding in production.",
+                "de": "Dan Luu veröffentlicht eine <a href=\"http://danluu.com/pl-tokens/\">vergleichende Analyse</a> der Token-Effizienz verschiedener Programmiersprachen bei der Verwendung durch KI-Coding-Agenten. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49245936\">Hacker News</a> (100 Punkte, 70 Kommentare) konzentriert sich auf die praktische Auswirkung der Sprachwahl auf die Kosten und die Zuverlässigkeit autonomer Agenten – ein Thema, das mit der Verbreitung von KI-gestütztem Programmieren in der Produktion zentral geworden ist.",
+                "it": "Dan Luu pubblica un'<a href=\"http://danluu.com/pl-tokens/\">analisi comparativa</a> dell'efficienza in token dei diversi linguaggi di programmazione quando utilizzati da agenti di coding IA. La discussione su <a href=\"https://news.ycombinator.com/item?id=49245936\">Hacker News</a> (100 punti, 70 commenti) si concentra sull'impatto pratico della scelta del linguaggio sul costo e l'affidabilità degli agenti autonomi, un argomento diventato centrale con la generalizzazione del coding IA in produzione.",
+                "lmo": "Dan Luu publie une <a href=\"http://danluu.com/pl-tokens/\">analyse comparative</a> de l'efficacité en tokens des différents langages de programmation lorsqu'ils sont utilisés par des agents de codage IA. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49245936\">Hacker News</a> (100 points, 70 commentaires) se concentre sur l'impact pratique du choix de langage sur le coût et la fiabilité des agents autonomes, un sujet devenu central avec la généralisation du codage IA en production."
+              },
+              "kicker": {
+                "fr": "Tokens",
+                "en": "Tokens",
+                "de": "Tokens",
+                "it": "Token",
+                "lmo": "Tokens"
+              },
+              "wire": {
+                "fr": "Hacker News — 10 août 2026",
+                "en": "Hacker News — 10 August 2026",
+                "de": "Hacker News — 10. August 2026",
+                "it": "Hacker News — 10 agosto 2026",
+                "lmo": "Hacker News — 10 août 2026"
+              },
+              "urls": [
+                "http://danluu.com/pl-tokens/",
+                "https://news.ycombinator.com/item?id=49245936"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Édito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La contre-offensive de l'open weight",
+                "en": "The Open-Weight Counter-Offensive",
+                "de": "Die Gegenoffensive des Open Weight",
+                "it": "La controffensiva dell'open weight",
+                "lmo": "La contre-offensive de l'open weight"
+              },
+              "body": {
+                "fr": "Pendant des mois, le récit dominant voulait que l'avenir de l'IA appartînt aux modèles fermés, servis derrière des API contrôlées, avec des variantes spécialisées comme le GPT-5.6-Cyber dévoilé hier par <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI</a>. Le 10 août 2026, Meta a choisi de rappeler qu'une autre voie existe. Muse Glimmer — 30 milliards de paramètres, local, agentique, open weight — n'est pas un simple modèle de plus : c'est un acte de positionnement stratégique, accompagné par les déclarations publiques de Mark Zuckerberg contre les rivaux « fermés » (<a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a>).<br/><br/>Les chiffres de réception parlent d'eux-mêmes : 1 072 points et 590 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> en moins d'une journée. Le developer community n'attendait pas seulement un nouveau modèle ; il attendait un signal que l'open weight reste une priorité pour au moins un acteur du calibre de Meta. Simultanément, des projets comme <a href=\"https://github.com/antirez/h3.c\">H3-metal d'antirez</a> ou <a href=\"https://cactuscompute.com/needle\">Needle 2 de Cactus Compute</a> démontrent que l'innovation en inference locale ne vient pas que des labos majeurs.<br/><br/>Reste une question ouverte : l'open weight peut-il rivaliser durablement avec des modèles propriétaires dont les budgets d'entraînement se chiffrent en centaines de millions de dollars ? La réponse de Meta est claire — elle consiste à parier que la transparence, la déployabilité locale et la communauté finiront par l'emporter. Le marché tranchera. Mais pour aujourd'hui, le vent souffle du côté de l'ouverture.",
+                "en": "For months, the dominant narrative held that the future of AI belonged to closed models, served behind controlled APIs, with specialised variants such as the GPT-5.6-Cyber unveiled yesterday by <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI</a>. On 10 August 2026, Meta chose to remind the world that another path exists. Muse Glimmer — 30 billion parameters, local, agentic, open weight — is not just another model: it is an act of strategic positioning, accompanied by Mark Zuckerberg's public declarations against 'closed' rivals (<a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a>).<br/><br/>The reception figures speak for themselves: 1,072 points and 590 comments on <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> in under a day. The developer community was not merely waiting for a new model; it was waiting for a signal that open weight remains a priority for at least one player of Meta's calibre. Simultaneously, projects such as <a href=\"https://github.com/antirez/h3.c\">antirez's H3-metal</a> or <a href=\"https://cactuscompute.com/needle\">Cactus Compute's Needle 2</a> demonstrate that innovation in local inference comes not only from major labs.<br/><br/>An open question remains: can open weight compete sustainably with proprietary models whose training budgets run into the hundreds of millions of dollars? Meta's answer is clear — it consists of betting that transparency, local deployability and community will ultimately prevail. The market will decide. But for today, the wind is blowing towards openness.",
+                "de": "Wochenlang hielt sich die Erzählung, die Zukunft der KI gehöre geschlossenen Modellen, die hinter kontrollierten APIs bereitgestellt werden, mit spezialisierten Varianten wie dem gestern von <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI</a> vorgestellten GPT-5.6-Cyber. Am 10. August 2026 hat Meta daran erinnert, dass ein anderer Weg existiert. Muse Glimmer – 30 Milliarden Parameter, lokal, agentisch, Open Weight – ist nicht einfach ein weiteres Modell: Es ist ein strategischer Positionsakt, begleitet von den öffentlichen Erklärungen Mark Zuckerbergs gegen die «geschlossenen» Konkurrenten (<a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a>).<br/><br/>Die Rezeptionszahlen sprechen für sich: 1 072 Punkte und 590 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> in weniger als einem Tag. Die Entwickler-Community wartete nicht nur auf ein neues Modell; sie wartete auf ein Signal, dass Open Weight für mindestens einen Akteur vom Kaliber Metas eine Priorität bleibt. Gleichzeitig zeigen Projekte wie <a href=\"https://github.com/antirez/h3.c\">H3-metal von antirez</a> oder <a href=\"https://cactuscompute.com/needle\">Needle 2 von Cactus Compute</a>, dass Innovation in der lokalen Inferenz nicht nur von den grossen Labors kommt.<br/><br/>Eine offene Frage bleibt: Kann Open Weight dauerhaft mit proprietären Modellen konkurrieren, deren Trainingsbudgets sich in Hunderten von Millionen Dollar bemessen? Metas Antwort ist eindeutig – sie setzt darauf, dass Transparenz, lokale Bereitstellbarkeit und Gemeinschaft am Ende obsiegen werden. Der Markt wird entscheiden. Doch heute weht der Wind in Richtung Offenheit.",
+                "it": "Per mesi, la narrazione dominante voleva che il futuro dell'IA appartenesse ai modelli chiusi, serviti dietro API controllate, con varianti specializzate come il GPT-5.6-Cyber svelato ieri da <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI</a>. Il 10 agosto 2026, Meta ha scelto di ricordare che un'altra via esiste. Muse Glimmer — 30 miliardi di parametri, locale, agentico, open weight — non è un semplice modello in più: è un atto di posizionamento strategico, accompagnato dalle dichiarazioni pubbliche di Mark Zuckerberg contro i rivali «chiusi» (<a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a>).<br/><br/>I numeri della recezione parlano da soli: 1.072 punti e 590 commenti su <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> in meno di una giornata. La community degli sviluppatori non aspettava solo un nuovo modello; aspettava un segnale che l'open weight resti una priorità per almeno un attore del calibro di Meta. Simultaneamente, progetti come <a href=\"https://github.com/antirez/h3.c\">H3-metal di antirez</a> o <a href=\"https://cactuscompute.com/needle\">Needle 2 di Cactus Compute</a> dimostrano che l'innovazione nell'inference locale non proviene solo dai grandi laboratori.<br/><br/>Resta una questione aperta: l'open weight può competere durevolmente con modelli proprietari i cui budget di addestramento si contano in centinaia di milioni di dollari? La risposta di Meta è chiara — consiste nel scommettere che la trasparenza, la deployabilità locale e la community finiranno per prevalere. Il mercato deciderà. Ma per oggi, il vento soffia dalla parte dell'apertura.",
+                "lmo": "Pendant des mois, le récit dominant voulait que l'avenir de l'IA appartînt aux modèles fermés, servis derrière des API contrôlées, avec des variantes spécialisées comme le GPT-5.6-Cyber dévoilé hier par <a href=\"https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows\">OpenAI</a>. Le 10 août 2026, Meta a choisi de rappeler qu'une autre voie existe. Muse Glimmer — 30 milliards de paramètres, local, agentique, open weight — n'est pas un simple modèle de plus : c'est un acte de positionnement stratégique, accompagné par les déclarations publiques de Mark Zuckerberg contre les rivaux « fermés » (<a href=\"https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878\">Financial Times</a>).<br/><br/>Les chiffres de réception parlent d'eux-mêmes : 1 072 points et 590 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49241679\">Hacker News</a> en moins d'une journée. Le developer community n'attendait pas seulement un nouveau modèle ; il attendait un signal que l'open weight reste une priorité pour au moins un acteur du calibre de Meta. Simultanément, des projets comme <a href=\"https://github.com/antirez/h3.c\">H3-metal d'antirez</a> ou <a href=\"https://cactuscompute.com/needle\">Needle 2 de Cactus Compute</a> démontrent que l'innovation en inference locale ne vient pas que des labos majeurs.<br/><br/>Reste une question ouverte : l'open weight peut-il rivaliser durablement avec des modèles propriétaires dont les budgets d'entraînement se chiffrent en centaines de millions de dollars ? La réponse de Meta est claire — elle consiste à parier que la transparence, la déployabilité locale et la communauté finiront par l'emporter. Le marché tranchera. Mais pour aujourd'hui, le vent souffle du côté de l'ouverture."
+              },
+              "kicker": {
+                "fr": "Édito du jour",
+                "en": "Editorial of the Day",
+                "de": "Leitartikel des Tages",
+                "it": "Editoriale del giorno",
+                "lmo": "Édito du jour"
+              },
+              "urls": [
+                "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+                "https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878",
+                "https://news.ycombinator.com/item?id=49241679",
+                "https://github.com/antirez/h3.c",
+                "https://cactuscompute.com/needle"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
