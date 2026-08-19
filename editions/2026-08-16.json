@@ -1,0 +1,444 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-16",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a publié, le 16 août 2026, une note de recherche intitulée « Patterns and problems in emerging multi-agent systems », consacrée aux architectures dans lesquelles plusieurs agents logiciels se coordonnent pour accomplir des tâches complexes. Le document, disponible sur <a href=\"https://www.anthropic.com/research/multiagent-systems\">le site de recherche du laboratoire</a>, a été soumis sur Hacker News dans la nuit du 15 au 16 août, à 02 h 12 UTC, où il recueillait 20 points et 3 commentaires dans les heures suivantes.",
+        "en": "On 16 August 2026, Anthropic published a research note entitled “Patterns and problems in emerging multi-agent systems”, devoted to the architectures in which several software agents coordinate to carry out complex tasks. The document, available on <a href=\"https://www.anthropic.com/research/multiagent-systems\">the lab's research site</a>, was submitted to Hacker News in the night of 15–16 August, at 02:12 UTC, where it gathered 20 points and 3 comments within the following hours.",
+        "de": "Anthropic a publié, le 16 août 2026, une note de recherche intitulée « Patterns and problems in emerging multi-agent systems », consacrée aux architectures dans lesquelles plusieurs agents logiciels se coordonnent pour accomplir des tâches complexes. Le document, disponible sur <a href=\"https://www.anthropic.com/research/multiagent-systems\">le site de recherche du laboratoire</a>, a été soumis sur Hacker News dans la nuit du 15 au 16 août, à 02 h 12 UTC, où il recueillait 20 points et 3 commentaires dans les heures suivantes.",
+        "it": "Anthropic ha pubblicato, il 16 agosto 2026, una nota di ricerca intitolata «Patterns and problems in emerging multi-agent systems», dedicata alle architetture in cui più agenti software si coordinano per portare a termine compiti complessi. Il documento, disponibile <a href=\"https://www.anthropic.com/research/multiagent-systems\">sul sito di ricerca del laboratorio</a>, è stato segnalato su Hacker News nella notte tra il 15 e il 16 agosto, alle 02:12 UTC, dove raccoglieva 20 punti e 3 commenti nelle ore successive.",
+        "lmo": "Anthropic l'ha publicaa, el 16 de agost 2026, ona nota de ricerca intitolada « Patterns and problems in emerging multi-agent systems », dedicada ai architettur indova che diversi agent software se coordinen per compì di lavorà compless. El document, disponibel sora <a href=\"https://www.anthropic.com/research/multiagent-systems\">el sitt de ricerca del laboratori</a>, l'è staa mettuu in su Hacker News in de la nocc tra el 15 e 'l 16 de agost, ai 02:12 UTC, indova l'ha ciappaa 20 pont e 3 comment in di or dopo."
+      },
+      {
+        "fr": "Le titre annonce le programme : recenser les motifs d'architecture récurrents — les « patterns » — qui se dégagent des systèmes multi-agents émergents, et documenter les problèmes qui les accompagnent. Une démarche de cartographie, à l'heure où les orchestrateurs cessent d'être des prototypes pour devenir des briques standard des piles de développement. La discussion amorcée sur <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> restait encore confidentielle au matin du 16 août.",
+        "en": "The title sets out the programme: to catalogue the recurring architectural motifs — the “patterns” — that emerge from nascent multi-agent systems, and to document the problems that accompany them. A mapping exercise, at a time when orchestrators are ceasing to be prototypes and becoming standard building blocks of development stacks. The discussion begun on <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> was still flying under the radar on the morning of 16 August.",
+        "de": "Le titre annonce le programme : recenser les motifs d'architecture récurrents — les « patterns » — qui se dégagent des systèmes multi-agents émergents, et documenter les problèmes qui les accompagnent. Une démarche de cartographie, à l'heure où les orchestrateurs cessent d'être des prototypes pour devenir des briques standard des piles de développement. La discussion amorcée sur <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> restait encore confidentielle au matin du 16 août.",
+        "it": "Il titolo annuncia il programma: censire i pattern architetturali ricorrenti che emergono dai sistemi multiagente in via di sviluppo e documentare i problemi che li accompagnano. Un approccio di mappatura, in un momento in cui gli orchestratori smettono di essere prototipi per diventare componenti standard degli stack di sviluppo. La discussione avviata su <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> restava ancora riservata la mattina del 16 agosto.",
+        "lmo": "El titol l'annunzia el programa: fà l'inventari di motif d'architettura ricorrent — i « pattern » — che se disen foeura di sistema multi-agent emergent, e documentà i problema che ghe vann adree. Ona manera de fà cartografia, a l'ora che i orchestrador i smetten de vess prototip e i deventen di tocch standard in di stack de svilupp. La discussion scominciada in su <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> l'era ancamò riservada el matin del 16 de agost."
+      },
+      {
+        "fr": "La publication tombe au cœur d'un cycle où les limites cognitives des machines occupent le devant de la scène : la veille, 15 août, un essai arguant que l'IA dispose d'une mémoire de travail « considérablement plus vaste » que celle du cerveau humain y avait réuni 454 points et 394 commentaires. En nommant les angles morts de la coordination entre agents, Anthropic ajoute une pierre à un chantier devenu industriel : savoir ce que ces systèmes font — et où ils cassent.",
+        "en": "The publication lands in the middle of a news cycle in which the cognitive limits of machines take centre stage: the previous day, 15 August, an essay arguing that AI possesses a working memory “considerably larger” than that of the human brain had drawn 454 points and 394 comments there. By naming the blind spots in coordination between agents, Anthropic adds a further brick to a project that has become an industry: understanding what these systems do — and where they break.",
+        "de": "La publication tombe au cœur d'un cycle où les limites cognitives des machines occupent le devant de la scène : la veille, 15 août, un essai arguant que l'IA dispose d'une mémoire de travail « considérablement plus vaste » que celle du cerveau humain y avait réuni 454 points et 394 commentaires. En nommant les angles morts de la coordination entre agents, Anthropic ajoute une pierre à un chantier devenu industriel : savoir ce que ces systèmes font — et où ils cassent.",
+        "it": "La pubblicazione arriva nel cuore di un ciclo in cui i limiti cognitivi delle macchine occupano il proscenio: il giorno prima, il 15 agosto, un saggio secondo cui l'IA dispone di una memoria di lavoro «considerevolmente più ampia» di quella del cervello umano vi aveva riunito 454 punti e 394 commenti. Nominando i punti ciechi della coordinazione tra agenti, Anthropic aggiunge un mattone a un cantiere divenuto industriale: sapere cosa fanno questi sistemi — e dove si rompono.",
+        "lmo": "La pubblicazion la borla propi in del coeur d'on cicli indova che i limit cognitiv di macchin i ocupen el primm pian: el dì prima, el 15 de agost, on sagg che 'l sostegn che l'IA la gh'ha ona memoria de lavorà « considerabilment pussee granda » de quella del cervell uman l'aveva tiraa insema 454 pont e 394 comment. Cont el dà nom ai angui mort de la coordinazion tra agent, Anthropic el gionta ona preja a on cantee ch'el l'è diventaa industrial: savè cosa che quei sistema chì fann — e indova che i se rompen."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/research/multiagent-systems",
+      "https://news.ycombinator.com/item?id=49316271"
+    ],
+    "kicker": {
+      "fr": "Systèmes multi-agents",
+      "en": "Multi-agent systems",
+      "de": "Systèmes multi-agents",
+      "it": "Sistemi multiagente",
+      "lmo": "Sistem multi-agent"
+    },
+    "headline": {
+      "fr": "Anthropic publie la cartographie des systèmes multi-agents émergents : motifs récurrents, défaillances documentées",
+      "en": "Anthropic maps emerging multi-agent systems: recurring patterns, documented failures",
+      "de": "Anthropic publie la cartographie des systèmes multi-agents émergents : motifs récurrents, défaillances documentées",
+      "it": "Anthropic pubblica la mappatura dei sistemi multiagente emergenti: pattern ricorrenti, guasti documentati",
+      "lmo": "Anthropic el pubblica la cartografia di sistema multi-agent emergent: motif ricorrent, falliment documentaa"
+    },
+    "subdeck": {
+      "fr": "La note « Patterns and problems in emerging multi-agent systems », mise en ligne le 16 août 2026 par le laboratoire, recense les motifs d'architecture et les points de friction des déploiements où plusieurs agents se coordonnent.",
+      "en": "The note “Patterns and problems in emerging multi-agent systems”, released on 16 August 2026 by the lab, catalogues the architectural motifs and friction points of deployments in which multiple agents coordinate.",
+      "de": "La note « Patterns and problems in emerging multi-agent systems », mise en ligne le 16 août 2026 par le laboratoire, recense les motifs d'architecture et les points de friction des déploiements où plusieurs agents se coordonnent.",
+      "it": "La nota «Patterns and problems in emerging multi-agent systems», messa online il 16 agosto 2026 dal laboratorio, censice i pattern architetturali e i punti di attrito delle implementazioni in cui più agenti si coordinano.",
+      "lmo": "La nota « Patterns and problems in emerging multi-agent systems », missa in linha el 16 de agost 2026 del laboratori, la fa l'inventari di motif d'architettura e di pont de atrit di dispiegament indova che diversi agent se coordinen."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Mémoire de travail : un essai oppose la démesure de l'IA aux réflexes du cerveau humain",
+        "en": "Working memory: an essay pits the vastness of AI against the reflexes of the human brain",
+        "de": "Mémoire de travail : un essai oppose la démesure de l'IA aux réflexes du cerveau humain",
+        "it": "Memoria di lavoro: un saggio contrappone la smisuratezza dell'IA ai riflessi del cervello umano",
+        "lmo": "Memoria de lavorà: on sagg el mett a confront la desmesura de l'IA e i rifles del cervell uman"
+      },
+      "body": {
+        "fr": "Dans un essai diffusé le 15 août 2026 sur <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">son site</a>, Davide Piffer soutient que l'IA accède à une mémoire de travail « considérablement plus vaste » que celle du cerveau humain. Soumis sur Hacker News à 18 h 13 UTC, le texte a dépassé en une dizaine d'heures la barre des 450 points (454 au matin du 16 août) et des 390 commentaires (394) — <a href=\"https://news.ycombinator.com/item?id=49312845\">discussion en cours</a>.",
+        "en": "In an essay released on 15 August 2026 on <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">his website</a>, Davide Piffer argues that AI has access to a working memory “considerably larger” than that of the human brain. Submitted to Hacker News at 18:13 UTC, the text crossed the 450-point mark in roughly ten hours (454 by the morning of 16 August) and the 390-comment mark (394) — <a href=\"https://news.ycombinator.com/item?id=49312845\">ongoing discussion</a>.",
+        "de": "Dans un essai diffusé le 15 août 2026 sur <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">son site</a>, Davide Piffer soutient que l'IA accède à une mémoire de travail « considérablement plus vaste » que celle du cerveau humain. Soumis sur Hacker News à 18 h 13 UTC, le texte a dépassé en une dizaine d'heures la barre des 450 points (454 au matin du 16 août) et des 390 commentaires (394) — <a href=\"https://news.ycombinator.com/item?id=49312845\">discussion en cours</a>.",
+        "it": "In un saggio diffuso il 15 agosto 2026 <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">sul suo sito</a>, Davide Piffer sostiene che l'IA accede a una memoria di lavoro «considerevolmente più ampia» di quella del cervello umano. Segnalato su Hacker News alle 18:13 UTC, il testo ha superato nel giro di una decina di ore la soglia dei 450 punti (454 la mattina del 16 agosto) e dei 390 commenti (394) — <a href=\"https://news.ycombinator.com/item?id=49312845\">discussione in corso</a>.",
+        "lmo": "In d'on sagg diffusaa el 15 de agost 2026 sora <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">el sò sitt</a>, Davide Piffer el sostegn che l'IA la riva a ona memoria de lavorà « considerabilment pussee granda » de quella del cervell uman. Sottamettuu in su Hacker News ai 18:13 UTC, el test l'ha superaa in pressappoch des or la soglia di 450 pont (454 el matin del 16 de agost) e di 390 comment (394) — <a href=\"https://news.ycombinator.com/item?id=49312845\">discussion in cors</a>."
+      },
+      "tag": {
+        "fr": "Débat",
+        "en": "Debate",
+        "de": "Débat",
+        "it": "Dibattito",
+        "lmo": "Dibattit"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-15",
+        "en": "From the Wires — 2026-08-15",
+        "de": "From the Wires — 2026-08-15",
+        "it": "Dalle agenzie — 2026-08-15",
+        "lmo": "Dai Agenzie — 15 de agost 2026"
+      },
+      "urls": [
+        "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+        "https://news.ycombinator.com/item?id=49312845"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Découverte de médicaments : un état des lieux de l'IA signé Science",
+        "en": "Drug discovery: Science takes stock of AI",
+        "de": "Découverte de médicaments : un état des lieux de l'IA signé Science",
+        "it": "Scoperta di farmaci: un bilancio sull'IA firmato Science",
+        "lmo": "Descoverta di medicament: on bilancc de l'IA firmaa de Science"
+      },
+      "body": {
+        "fr": "Science propose, dans un billet diffusé le 15 août 2026, un point intitulé « AI in drug discovery : what it is, where we stand and the path forward », qui fait le tri entre promesses et livraisons effectives. La <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">publication</a> a réuni 118 points et 60 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49313367\">Hacker News</a> en près de dix heures.",
+        "en": "In a post published on 15 August 2026, Science offers an assessment entitled “AI in drug discovery: what it is, where we stand and the path forward”, which separates promises from actual deliveries. The <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">publication</a> gathered 118 points and 60 comments on <a href=\"https://news.ycombinator.com/item?id=49313367\">Hacker News</a> in nearly ten hours.",
+        "de": "Science propose, dans un billet diffusé le 15 août 2026, un point intitulé « AI in drug discovery : what it is, where we stand and the path forward », qui fait le tri entre promesses et livraisons effectives. La <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">publication</a> a réuni 118 points et 60 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49313367\">Hacker News</a> en près de dix heures.",
+        "it": "Science propone, in un articolo diffuso il 15 agosto 2026, un punto della situazione intitolato «AI in drug discovery: what it is, where we stand and the path forward», che mette ordine tra promesse e consegne effettive. La <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">pubblicazione</a> ha riunito 118 punti e 60 commenti su <a href=\"https://news.ycombinator.com/item?id=49313367\">Hacker News</a> in quasi dieci ore.",
+        "lmo": "Science la propon, in d'on post diffusaa el 15 de agost 2026, on pont intitolaa « AI in drug discovery : what it is, where we stand and the path forward », che 'l fa la selezzion tra i promess e quell che l'è staa consegnaa per vera. La <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">pubblicazion</a> l'ha tiraa insema 118 pont e 60 comment in su <a href=\"https://news.ycombinator.com/item?id=49313367\">Hacker News</a> in pressappoch des or."
+      },
+      "tag": {
+        "fr": "Sciences de la vie",
+        "en": "Life sciences",
+        "de": "Sciences de la vie",
+        "it": "Scienze della vita",
+        "lmo": "Scienz de la vita"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-15",
+        "en": "From the Wires — 2026-08-15",
+        "de": "From the Wires — 2026-08-15",
+        "it": "Dalle agenzie — 2026-08-15",
+        "lmo": "Dai Agenzie — 15 de agost 2026"
+      },
+      "urls": [
+        "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+        "https://news.ycombinator.com/item?id=49313367"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Un papier arXiv détaille le portage GPU assisté par IA d'un code météo de 250 000 lignes",
+        "en": "An arXiv paper details the AI-assisted GPU port of a 250,000-line weather code",
+        "de": "Un papier arXiv détaille le portage GPU assisté par IA d'un code météo de 250 000 lignes",
+        "it": "Un paper di arXiv descrive nel dettaglio il porting su GPU assistito dall'IA di un codice meteo da 250'000 righe",
+        "lmo": "On paper de arXiv el descriv a fond el portagg in su GPU assistii de l'IA d'on codes meteo de 250.000 lign"
+      },
+      "body": {
+        "fr": "Référencé arXiv:2608.13122, l'article décrit le portage assisté par IA d'une simulation météorologique legacy de 250 000 lignes vers GPU. Soumis sur Hacker News le 15 août 2026 à 22 h 41 UTC, il comptait 17 points et 2 commentaires au matin du 16 août — <a href=\"https://arxiv.org/abs/2608.13122\">texte intégral</a> et <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a>.",
+        "en": "Referenced arXiv:2608.13122, the article describes the AI-assisted porting of a 250,000-line legacy meteorological simulation to GPU. Submitted to Hacker News on 15 August 2026 at 22:41 UTC, it had drawn 17 points and 2 comments by the morning of 16 August — <a href=\"https://arxiv.org/abs/2608.13122\">full text</a> and <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a>.",
+        "de": "Référencé arXiv:2608.13122, l'article décrit le portage assisté par IA d'une simulation météorologique legacy de 250 000 lignes vers GPU. Soumis sur Hacker News le 15 août 2026 à 22 h 41 UTC, il comptait 17 points et 2 commentaires au matin du 16 août — <a href=\"https://arxiv.org/abs/2608.13122\">texte intégral</a> et <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a>.",
+        "it": "Catalogato come arXiv:2608.13122, l'articolo descrive il porting assistito dall'IA verso GPU di una simulazione meteorologica legacy di 250'000 righe. Segnalato su Hacker News il 15 agosto 2026 alle 22:41 UTC, contava 17 punti e 2 commenti la mattina del 16 agosto — <a href=\"https://arxiv.org/abs/2608.13122\">testo integrale</a> e <a href=\"https://news.ycombinator.com/item?id=49314967\">discussione</a>.",
+        "lmo": "Referenziaa arXiv:2608.13122, l'articol el descriv el portagg, assistii de l'IA, d'ona simulazion meteorologega legacy de 250.000 lign vers i GPU. Sottamettuu in su Hacker News el 15 de agost 2026 ai 22:41 UTC, el contava 17 pont e 2 comment el matin del 16 de agost — <a href=\"https://arxiv.org/abs/2608.13122\">test integral</a> e <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a>."
+      },
+      "tag": {
+        "fr": "Méthodes",
+        "en": "Methods",
+        "de": "Méthodes",
+        "it": "Metodi",
+        "lmo": "Metod"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-08-15",
+        "en": "From the Wires — 2026-08-15",
+        "de": "From the Wires — 2026-08-15",
+        "it": "Dalle agenzie — 2026-08-15",
+        "lmo": "Dai Agenzie — 15 de agost 2026"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.13122",
+        "https://news.ycombinator.com/item?id=49314967"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "À la Une — Modèles & Frontière",
+        "it": "In prima pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modej & Frontera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière cognitive",
+            "en": "Cognitive frontier",
+            "de": "Frontière cognitive",
+            "it": "Frontiera cognitiva",
+            "lmo": "Frontera cognitiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Quand la mémoire de travail de l'IA dépasse celle du cerveau, pourquoi ne surpense-t-elle pas les mathématiciens ?",
+                "en": "When AI's working memory outstrips the brain's, why doesn't it outthink mathematicians?",
+                "de": "Quand la mémoire de travail de l'IA dépasse celle du cerveau, pourquoi ne surpense-t-elle pas les mathématiciens ?",
+                "it": "Quando la memoria di lavoro dell'IA supera quella del cervello, perché non pensa meglio dei matematici?",
+                "lmo": "Quand che la memoria de lavorà de l'IA la supera quella del cervell, perchè la pensa no mej di matemategh?"
+              },
+              "body": {
+                "fr": "L'essai que Davide Piffer a diffusé le 15 août 2026 — accessible <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">en ligne</a> — part d'un constat frontal : les systèmes d'IA accèdent à une mémoire de travail « considérablement plus vaste » que celle d'un cerveau humain. L'adresse du billet, « ai-isnt-outthinking-mathematicians », annonce la suite de la thèse : cette supériorité brute en mémoire ne se traduit pas en supériorité de pensée mathématique.\n\nLa réception a été massive. Soumis à 18 h 13 UTC sur <a href=\"https://news.ycombinator.com/item?id=49312845\">Hacker News</a>, le texte totalisait 454 points et 394 commentaires une dizaine d'heures plus tard, au matin du 16 août — l'un des débats les plus animés de la semaine sur l'agrégateur, avec près de 400 interventions.\n\nLe contraste avec la journée du 16 août est saisissant : 20 points pour la note de recherche d'Anthropic sur les systèmes multi-agents, 454 pour l'essai d'un auteur indépendant. À en juger par ces chiffres, la communauté s'interroge davantage sur les limites cognitives des machines que sur leurs motifs d'orchestration.",
+                "en": "The essay Davide Piffer released on 15 August 2026 — accessible <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">online</a> — opens with a head-on observation: AI systems have access to a working memory “considerably larger” than that of a human brain. The post's address, “ai-isnt-outthinking-mathematicians”, announces the rest of the thesis: this raw superiority in memory does not translate into superiority in mathematical thought.\n\nThe reception was massive. Submitted at 18:13 UTC to <a href=\"https://news.ycombinator.com/item?id=49312845\">Hacker News</a>, the text had racked up 454 points and 394 comments some ten hours later, by the morning of 16 August — one of the week's liveliest debates on the aggregator, with close to 400 interventions.\n\nThe contrast with 16 August is striking: 20 points for Anthropic's research note on multi-agent systems, 454 for the essay of an independent author. Judging by these figures, the community is more preoccupied with the cognitive limits of machines than with their orchestration patterns.",
+                "de": "L'essai que Davide Piffer a diffusé le 15 août 2026 — accessible <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">en ligne</a> — part d'un constat frontal : les systèmes d'IA accèdent à une mémoire de travail « considérablement plus vaste » que celle d'un cerveau humain. L'adresse du billet, « ai-isnt-outthinking-mathematicians », annonce la suite de la thèse : cette supériorité brute en mémoire ne se traduit pas en supériorité de pensée mathématique.\n\nLa réception a été massive. Soumis à 18 h 13 UTC sur <a href=\"https://news.ycombinator.com/item?id=49312845\">Hacker News</a>, le texte totalisait 454 points et 394 commentaires une dizaine d'heures plus tard, au matin du 16 août — l'un des débats les plus animés de la semaine sur l'agrégateur, avec près de 400 interventions.\n\nLe contraste avec la journée du 16 août est saisissant : 20 points pour la note de recherche d'Anthropic sur les systèmes multi-agents, 454 pour l'essai d'un auteur indépendant. À en juger par ces chiffres, la communauté s'interroge davantage sur les limites cognitives des machines que sur leurs motifs d'orchestration.",
+                "it": "Il saggio diffuso da Davide Piffer il 15 agosto 2026 — accessibile <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">online</a> — parte da una constatazione netta: i sistemi di IA accedono a una memoria di lavoro «considerevolmente più ampia» di quella di un cervello umano. L'indirizzo dell'articolo, «ai-isnt-outthinking-mathematicians», annuncia il seguito della tesi: questa superiorità grezza in memoria non si traduce in una superiorità di pensiero matematico.\n\nLa ricezione è stata massiccia. Segnalato alle 18:13 UTC su <a href=\"https://news.ycombinator.com/item?id=49312845\">Hacker News</a>, il testo totalizzava 454 punti e 394 commenti una decina di ore dopo, la mattina del 16 agosto — uno dei dibattiti più animati della settimana sull'aggregatore, con quasi 400 interventi.\n\nIl contrasto con la giornata del 16 agosto è impressionante: 20 punti per la nota di ricerca di Anthropic sui sistemi multiagente, 454 per il saggio di un autore indipendente. A giudicare da questi numeri, la comunità si interroga più sui limiti cognitivi delle macchine che sui loro pattern di orchestrazione.",
+                "lmo": "El sagg che Davide Piffer l'ha diffusaa el 15 de agost 2026 — accessibel <a href=\"https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians\">in ligna</a> — el part de on constat frontal: i sistema de IA i gh'hann a disposizion ona memoria de lavorà « considerabilment pussee granda » de quella d'on cervell uman. L'adressa del post, « ai-isnt-outthinking-mathematicians », la nonzia el rest de la tesi: quella superiorità bruta in memoria la se traduss minga in superiorità de penser matemategh.\n\nLa recezion l'è stada granda. Sottamettuu ai 18:13 UTC in su <a href=\"https://news.ycombinator.com/item?id=49312845\">Hacker News</a>, el test el contava 454 pont e 394 comment circa des or dopo, el matin del 16 de agost — vun di dibattit pussee viv de la settemana in su l'agregator, con pressappoch 400 intervent.\n\nEl contrast con la giornada del 16 de agost el salta a l'oeucc: 20 pont per la nota de ricerca de Anthropic sui sistema multi-agent, 454 per el sagg d'on autor independent. A giudicà di numer chì, la comunità la se interroga pussee in sui limit cognitiv di macchin che in sui sò motif de orchestrazzion."
+              },
+              "kicker": {
+                "fr": "Analyse · Cognition",
+                "en": "Analysis · Cognition",
+                "de": "Analyse · Cognition",
+                "it": "Analisi · Cognizione",
+                "lmo": "Analisi · Cognizzion"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-15",
+                "en": "From the Wires — 2026-08-15",
+                "de": "From the Wires — 2026-08-15",
+                "it": "Dalle agenzie — 2026-08-15",
+                "lmo": "Dai Agenzie — 15 de agost 2026"
+              },
+              "urls": [
+                "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+                "https://news.ycombinator.com/item?id=49312845"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Le Cahier Technique",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Portage & Infrastructures",
+            "en": "Porting & Infrastructure",
+            "de": "Portage & Infrastructures",
+            "it": "Porting & Infrastrutture",
+            "lmo": "Portagg & Infrastruttur"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "250 000 lignes de simulation météo legacy portées sur GPU avec l'assistance d'IA",
+                "en": "250,000 lines of legacy weather simulation ported to GPU with AI assistance",
+                "de": "250 000 lignes de simulation météo legacy portées sur GPU avec l'assistance d'IA",
+                "it": "250'000 righe di simulazione meteo legacy portate su GPU con l'assistenza dell'IA",
+                "lmo": "250.000 lign de simulazion meteo legacy portaa in su GPU con l'assistenza de l'IA"
+              },
+              "body": {
+                "fr": "Un article référencé <a href=\"https://arxiv.org/abs/2608.13122\">arXiv:2608.13122</a> documente le portage vers GPU d'un code de simulation météorologique legacy de 250 000 lignes, mené avec l'assistance d'IA. Le cas d'école intéresse directement les équipes qui maintiennent des simulateurs scientifiques antérieurs à l'ère des accélérateurs graphiques.\n\nSoumis sur Hacker News le 15 août 2026 à 22 h 41 UTC, le papier comptait 17 points et 2 commentaires au matin du 16 août — un début de <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a> encore balbutiant pour un travail dont l'objet dépasse le seul cercle du calcul haute performance.",
+                "en": "An article referenced <a href=\"https://arxiv.org/abs/2608.13122\">arXiv:2608.13122</a> documents the porting to GPU of a 250,000-line legacy meteorological simulation code, carried out with AI assistance. The case study speaks directly to the teams maintaining scientific simulators that predate the era of graphics accelerators.\n\nSubmitted to Hacker News on 15 August 2026 at 22:41 UTC, the paper counted 17 points and 2 comments by the morning of 16 August — a still faltering start to the <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a> for a piece whose subject extends well beyond the high-performance computing circle.",
+                "de": "Un article référencé <a href=\"https://arxiv.org/abs/2608.13122\">arXiv:2608.13122</a> documente le portage vers GPU d'un code de simulation météorologique legacy de 250 000 lignes, mené avec l'assistance d'IA. Le cas d'école intéresse directement les équipes qui maintiennent des simulateurs scientifiques antérieurs à l'ère des accélérateurs graphiques.\n\nSoumis sur Hacker News le 15 août 2026 à 22 h 41 UTC, le papier comptait 17 points et 2 commentaires au matin du 16 août — un début de <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a> encore balbutiant pour un travail dont l'objet dépasse le seul cercle du calcul haute performance.",
+                "it": "Un articolo catalogato come <a href=\"https://arxiv.org/abs/2608.13122\">arXiv:2608.13122</a> documenta il porting su GPU di un codice di simulazione meteorologica legacy di 250'000 righe, condotto con l'assistenza dell'IA. Il caso esemplare interessa direttamente i team che mantengono simulatori scientifici anteriori all'era degli acceleratori grafici.\n\nSegnalato su Hacker News il 15 agosto 2026 alle 22:41 UTC, il paper contava 17 punti e 2 commenti la mattina del 16 agosto — un avvio di <a href=\"https://news.ycombinator.com/item?id=49314967\">discussione</a> ancora balbettante per un lavoro il cui oggetto supera il solo circolo del calcolo ad alte prestazioni.",
+                "lmo": "On articol referenziaa <a href=\"https://arxiv.org/abs/2608.13122\">arXiv:2608.13122</a> el documenta el portagg vers GPU d'on codes de simulazion meteorologega legacy de 250.000 lign, faa con l'assistenza de l'IA. El cas de scòla el interessa direttament i squadra che manten di simulator scientifegh anterior a l'era di acelerator grafegh.\n\nSottamettuu in su Hacker News el 15 de agost 2026 ai 22:41 UTC, el paper el contava 17 pont e 2 comment el matin del 16 de agost — on principi de <a href=\"https://news.ycombinator.com/item?id=49314967\">discussion</a> ancamò timid per on laurà che 'l sò oget el va oltra el domà sercc del calcol d'alta prestazion."
+              },
+              "kicker": {
+                "fr": "Étude de cas",
+                "en": "Case study",
+                "de": "Étude de cas",
+                "it": "Caso di studio",
+                "lmo": "Studi de cas"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-15",
+                "en": "From the Wires — 2026-08-15",
+                "de": "From the Wires — 2026-08-15",
+                "it": "Dalle agenzie — 2026-08-15",
+                "lmo": "Dai Agenzie — 15 de agost 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.13122",
+                "https://news.ycombinator.com/item?id=49314967"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "La Recherche",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Recherche appliquée",
+            "en": "Applied research",
+            "de": "Recherche appliquée",
+            "it": "Ricerca applicata",
+            "lmo": "Ricerca aplicada"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Où en est vraiment l'IA en découverte de médicaments ? » : l'état des lieux de Science",
+                "en": "“Where does AI really stand in drug discovery?”: Science takes stock",
+                "de": "« Où en est vraiment l'IA en découverte de médicaments ? » : l'état des lieux de Science",
+                "it": "«Dove si trova davvero l'IA nella scoperta di farmaci?»: il bilancio di Science",
+                "lmo": "« Indova che l'è rivada propi l'IA in de la descoverta di medicament? »: el bilancc de Science"
+              },
+              "body": {
+                "fr": "Quel bilan tirer de l'IA appliquée à la découverte de médicaments ? Science y consacre une mise au point diffusée le 15 août 2026 — « AI in drug discovery : what it is, where we stand and the path forward » — qui distingue ce que la technologie est, où elle en est et la voie à suivre. Le <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">billet</a> s'est hissé sur la front page de Hacker News avec 118 points et 60 commentaires en près de dix heures.\n\nLes commentateurs y renvoient notamment vers une analyse parue dans Nature (référence s41573-026-01496-2), <a href=\"https://www.nature.com/articles/s41573-026-01496-2\">accessible ici</a>, qui prolonge le débat sur la trajectoire réelle du domaine. La <a href=\"https://news.ycombinator.com/item?id=49313367\">discussion</a> du 15 août illustre l'appétit persistant du public technique pour un sujet où s'entremêlent annonces industrielles et validation scientifique.",
+                "en": "What verdict on AI applied to drug discovery? Science devotes a stock-taking piece to the question, released on 15 August 2026 — “AI in drug discovery: what it is, where we stand and the path forward” — which distinguishes what the technology is, where it stands and the road ahead. The <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">post</a> climbed onto Hacker News's front page with 118 points and 60 comments in nearly ten hours.\n\nCommenters point in particular to an analysis published in Nature (reference s41573-026-01496-2), <a href=\"https://www.nature.com/articles/s41573-026-01496-2\">accessible here</a>, which extends the debate on the field's real trajectory. The 15 August <a href=\"https://news.ycombinator.com/item?id=49313367\">discussion</a> illustrates the technical public's abiding appetite for a subject in which industrial announcements and scientific validation intertwine.",
+                "de": "Quel bilan tirer de l'IA appliquée à la découverte de médicaments ? Science y consacre une mise au point diffusée le 15 août 2026 — « AI in drug discovery : what it is, where we stand and the path forward » — qui distingue ce que la technologie est, où elle en est et la voie à suivre. Le <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">billet</a> s'est hissé sur la front page de Hacker News avec 118 points et 60 commentaires en près de dix heures.\n\nLes commentateurs y renvoient notamment vers une analyse parue dans Nature (référence s41573-026-01496-2), <a href=\"https://www.nature.com/articles/s41573-026-01496-2\">accessible ici</a>, qui prolonge le débat sur la trajectoire réelle du domaine. La <a href=\"https://news.ycombinator.com/item?id=49313367\">discussion</a> du 15 août illustre l'appétit persistant du public technique pour un sujet où s'entremêlent annonces industrielles et validation scientifique.",
+                "it": "Che bilancio trarre dall'IA applicata alla scoperta di farmaci? Science vi dedica una messa a punto diffusa il 15 agosto 2026 — «AI in drug discovery: what it is, where we stand and the path forward» — che distingue che cos'è la tecnologia, a che punto si trova e la strada da seguire. L'<a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">articolo</a> si è issato sulla front page di Hacker News con 118 punti e 60 commenti in quasi dieci ore.\n\nI commentatori vi rimandano in particolare a un'analisi apparsa su Nature (riferimento s41573-026-01496-2), <a href=\"https://www.nature.com/articles/s41573-026-01496-2\">accessibile qui</a>, che prolunga il dibattito sulla traiettoria reale del settore. La <a href=\"https://news.ycombinator.com/item?id=49313367\">discussione</a> del 15 agosto illustra l'appetito persistente del pubblico tecnico per un tema in cui si intrecciano annunci industriali e validazione scientifica.",
+                "lmo": "Che bilancc trà foeu de l'IA aplicada a la descoverta di medicament? Science la ghe dedica ona messa a pont diffusada el 15 de agost 2026 — « AI in drug discovery : what it is, where we stand and the path forward » — che la schiariss cosa che la tecnologia l'è, indova che la riva e la strada de seguí. El <a href=\"https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really\">post</a> l'è rivaa in su la front page de Hacker News cont 118 pont e 60 comment in pressappoch des or.\n\nI comentator ghe rimanden soratutt a ona analisi sortida in su Nature (referenza s41573-026-01496-2), <a href=\"https://www.nature.com/articles/s41573-026-01496-2\">accessibela chì</a>, che la slonga el dibattit in su la traiettoria vera del setor. La <a href=\"https://news.ycombinator.com/item?id=49313367\">discussion</a> del 15 de agost la fa vedè l'apetit che 'l va no via del pubblegh tecnegh per on argoment indova che se incrosen anunzi industriaj e validazion scientifega."
+              },
+              "kicker": {
+                "fr": "Sciences de la vie",
+                "en": "Life sciences",
+                "de": "Sciences de la vie",
+                "it": "Scienze della vita",
+                "lmo": "Scienz de la vita"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-15",
+                "en": "From the Wires — 2026-08-15",
+                "de": "From the Wires — 2026-08-15",
+                "it": "Dalle agenzie — 2026-08-15",
+                "lmo": "Dai Agenzie — 15 de agost 2026"
+              },
+              "urls": [
+                "https://www.science.org/content/blog-post/so-how-ai-drug-discovery-doing-really",
+                "https://www.nature.com/articles/s41573-026-01496-2",
+                "https://news.ycombinator.com/item?id=49313367"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "La Communauté & Édito",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community signals",
+            "de": "Signaux de la communauté",
+            "it": "Segnali della comunità",
+            "lmo": "Segnal de la comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Multi-agents : la note d'Anthropic démarre lentement sur Hacker News",
+                "en": "Multi-agent systems: Anthropic's note gets off to a slow start on Hacker News",
+                "de": "Multi-agents : la note d'Anthropic démarre lentement sur Hacker News",
+                "it": "Multiagente: la nota di Anthropic parte lentamente su Hacker News",
+                "lmo": "Multi-agent: la nota de Anthropic la part adasi in su Hacker News"
+              },
+              "body": {
+                "fr": "Soumise sur <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> le 16 août 2026 à 02 h 12 UTC, la note d'Anthropic « Patterns and problems in emerging multi-agent systems » n'avait encore rassemblé, au matin, que 20 points et 3 commentaires. Un démarrage mesuré pour un <a href=\"https://www.anthropic.com/research/multiagent-systems\">document</a> dont l'objet — l'orchestration d'agents — irrigue pourtant l'actualité quotidienne des développeurs. À comparer aux 454 points et 394 commentaires de l'essai sur la mémoire de travail des IA, en tête des discussions de la veille : l'attention du jour va aux controverses cognitives plus qu'aux nomenclatures d'architecture.",
+                "en": "Submitted to <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> on 16 August 2026 at 02:12 UTC, Anthropic's note “Patterns and problems in emerging multi-agent systems” had gathered just 20 points and 3 comments by morning. A measured start for a <a href=\"https://www.anthropic.com/research/multiagent-systems\">document</a> whose subject — agent orchestration — nonetheless runs through developers' daily news cycle. Compare that with the 454 points and 394 comments of the essay on AI working memory, which led the previous day's discussions: today's attention is going to cognitive controversies rather than architectural nomenclature.",
+                "de": "Soumise sur <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> le 16 août 2026 à 02 h 12 UTC, la note d'Anthropic « Patterns and problems in emerging multi-agent systems » n'avait encore rassemblé, au matin, que 20 points et 3 commentaires. Un démarrage mesuré pour un <a href=\"https://www.anthropic.com/research/multiagent-systems\">document</a> dont l'objet — l'orchestration d'agents — irrigue pourtant l'actualité quotidienne des développeurs. À comparer aux 454 points et 394 commentaires de l'essai sur la mémoire de travail des IA, en tête des discussions de la veille : l'attention du jour va aux controverses cognitives plus qu'aux nomenclatures d'architecture.",
+                "it": "Segnalata su <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> il 16 agosto 2026 alle 02:12 UTC, la nota di Anthropic «Patterns and problems in emerging multi-agent systems» aveva ancora raccolto, al mattino, solo 20 punti e 3 commenti. Un avvio misurato per un <a href=\"https://www.anthropic.com/research/multiagent-systems\">documento</a> il cui oggetto — l'orchestrazione di agenti — irriga però l'attualità quotidiana degli sviluppatori. Da confrontare con i 454 punti e i 394 commenti del saggio sulla memoria di lavoro delle IA, in testa alle discussioni del giorno prima: l'attenzione della giornata va alle controversie cognitive più che alle nomenclature architetturali.",
+                "lmo": "Sottamettuda in su <a href=\"https://news.ycombinator.com/item?id=49316271\">Hacker News</a> el 16 de agost 2026 ai 02:12 UTC, la nota de Anthropic « Patterns and problems in emerging multi-agent systems » l'aveva ancamò tiraa insema, al matin, domà 20 pont e 3 comment. On scominci moderatt per on <a href=\"https://www.anthropic.com/research/multiagent-systems\">document</a> che 'l sò oget — l'orchestrazzion di agent — el bagna però l'attualità de tutt i dì di svilupador. De mett a confront cont i 454 pont e 394 comment del sagg in su la memoria de lavorà di IA, in coo ai discussion del dì prima: l'attenzion del dì la va ai controversi cognitiv pussee che ai nomenclatur d'architettura."
+              },
+              "kicker": {
+                "fr": "Réception",
+                "en": "Reception",
+                "de": "Réception",
+                "it": "Ricezione",
+                "lmo": "Recezion"
+              },
+              "wire": {
+                "fr": "From the Wires — 2026-08-16",
+                "en": "From the Wires — 2026-08-16",
+                "de": "From the Wires — 2026-08-16",
+                "it": "Dalle agenzie — 2026-08-16",
+                "lmo": "Dai Agenzie — 16 de agost 2026"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=49316271",
+                "https://www.anthropic.com/research/multiagent-systems"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Édito",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cartographier la meute avant qu'elle ne se disperse",
+                "en": "Mapping the pack before it scatters",
+                "de": "Cartographier la meute avant qu'elle ne se disperse",
+                "it": "Mappare il branco prima che si disperda",
+                "lmo": "Fà la carta del branco prima che 'l se dispersa"
+              },
+              "body": {
+                "fr": "L'IA a appris à se multiplier. Des harnais d'agents aux orchestrateurs de code, la réponse de l'industrie aux tâches longues consiste désormais à lancer plusieurs modèles en meute. Mais une meute sans carte n'est qu'un essaim : la note qu'Anthropic met en ligne ce 16 août — <a href=\"https://www.anthropic.com/research/multiagent-systems\">Patterns and problems in emerging multi-agent systems</a> — vaut d'abord pour son geste. Nommer les motifs, recenser les défaillances, donner une grammaire commune à des architectures qui prolifèrent plus vite qu'elles ne se comprennent.\n\nLe paradoxe du jour est savoureux. Tandis que la communauté débat à 394 commentaires de la mémoire de travail des machines, les documents qui structureront réellement les déploiements de demain démarrent à 20 points. L'attention va au spéculatif ; l'ingénierie avance en silence. C'est précisément pour capter ces signaux discrets qu'un quotidien existe.",
+                "en": "AI has learned to multiply. From agent harnesses to code orchestrators, the industry's answer to long-running tasks is now to release several models as a pack. But a pack without a map is merely a swarm: the note Anthropic puts online this 16 August — <a href=\"https://www.anthropic.com/research/multiagent-systems\">Patterns and problems in emerging multi-agent systems</a> — is worth something first as a gesture. Naming the patterns, cataloguing the failures, giving a common grammar to architectures that proliferate faster than they can be understood.\n\nThe paradox of the day is a tasty one. While the community debates machine working memory to the tune of 394 comments, the documents that will genuinely shape tomorrow's deployments are starting out at 20 points. Attention goes to the speculative; engineering advances in silence. Capturing precisely these quiet signals is why a daily newspaper exists.",
+                "de": "L'IA a appris à se multiplier. Des harnais d'agents aux orchestrateurs de code, la réponse de l'industrie aux tâches longues consiste désormais à lancer plusieurs modèles en meute. Mais une meute sans carte n'est qu'un essaim : la note qu'Anthropic met en ligne ce 16 août — <a href=\"https://www.anthropic.com/research/multiagent-systems\">Patterns and problems in emerging multi-agent systems</a> — vaut d'abord pour son geste. Nommer les motifs, recenser les défaillances, donner une grammaire commune à des architectures qui prolifèrent plus vite qu'elles ne se comprennent.\n\nLe paradoxe du jour est savoureux. Tandis que la communauté débat à 394 commentaires de la mémoire de travail des machines, les documents qui structureront réellement les déploiements de demain démarrent à 20 points. L'attention va au spéculatif ; l'ingénierie avance en silence. C'est précisément pour capter ces signaux discrets qu'un quotidien existe.",
+                "it": "L'IA ha imparato a moltiplicarsi. Dagli harness per agenti agli orchestratori di codice, la risposta dell'industria ai compiti lunghi consiste ormai nel lanciare più modelli in branco. Ma un branco senza mappa è solo uno sciame: la nota che Anthropic mette in rete questo 16 agosto — <a href=\"https://www.anthropic.com/research/multiagent-systems\">Patterns and problems in emerging multi-agent systems</a> — vale anzitutto per il suo gesto. Nominare i pattern, censire i guasti, dare una grammatica comune ad architetture che proliferano più velocemente di quanto non si comprendano.\n\nIl paradosso della giornata è gustoso. Mentre la comunità discute con 394 commenti della memoria di lavoro delle macchine, i documenti che struttureranno davvero i deployment di domani partono con 20 punti. L'attenzione va allo speculativo; l'ingegneria avanza in silenzio. È proprio per captare questi segnali discreti che esiste un quotidiano.",
+                "lmo": "L'IA l'ha imparaa a moltipicàss. Dai brich di agent ai orchestrador de codes, la risposta de l'industria ai lavorà longh l'è adess quella de trà in camp diversi modej in branco. Ma on branco senza carta l'è domà on sciama: la nota che Anthropic la pubblica el 16 de agost chì — <a href=\"https://www.anthropic.com/research/multiagent-systems\">Patterns and problems in emerging multi-agent systems</a> — la var prima de tutt per el sò gest. Dà nom ai motif, fà l'inventari di falliment, dà ona grammatica comuna a di architettur che se moltiplichen pussee a la svelta de quell che se capissen.\n\nEl paradoss del dì el gh'ha el sò savor. Intant che la comunità la dibatt cont 394 comment in su la memoria de lavorà di macchin, i document che strutturarann per bon i dispiegament de doman i partissen cont 20 pont. L'attenzion la va al speculativ; l'ingegneria la va innanz in silenzi. L'è propri per ciapà su quei segnai discret chì che on quotidian l'esist."
+              },
+              "kicker": {
+                "fr": "L'édito du Neuron Times",
+                "en": "The Neuron Times Editorial",
+                "de": "L'édito du Neuron Times",
+                "it": "L'editoriale del Neuron Times",
+                "lmo": "L'editorial del Neuron Times"
+              },
+              "urls": [
+                "https://www.anthropic.com/research/multiagent-systems"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
