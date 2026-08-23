@@ -1,0 +1,585 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-22",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a annoncé le 21 août 2026 l'élargissement de l'accès à <a href=\"https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders\">Claude Mythos 5</a>, son modèle spécialisé dans la cybersécurité, à un nombre accru de défenseurs. Jusqu'ici réservé à un cercle restreint de partenaires, Mythos 5 — dérivé de la famille Claude — est conçu pour la détection de menaces, l'analyse de code malveillant et la réponse aux incidents, domaines où les grands modèles de langage peinent souvent à rivaliser avec les outils spécialisés.",
+        "en": "Anthropic announced on 21 August 2026 that it is widening access to <a href=\"https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders\">Claude Mythos 5</a>, its cybersecurity-specialized model, for a larger number of defenders. Until now restricted to a small circle of partners, Mythos 5 — derived from the Claude family — is designed for threat detection, malicious code analysis and incident response, areas where large language models have often struggled to compete with specialized tools.",
+        "de": "Anthropic hat am 21. August 2026 die Ausweitung des Zugangs zu <a href=\"https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders\">Claude Mythos 5</a>, seinem auf Cybersicherheit spezialisierten Modell, auf eine grössere Zahl von Verteidigern angekündigt. Bislang einem engen Kreis von Partnern vorbehalten, ist Mythos 5 — aus der Familie Claude abgeleitet — auf die Bedrohungserkennung, die Analyse bösartigen Codes und die Reaktion auf Zwischenfälle ausgelegt, Bereiche, in denen grosse Sprachmodelle mit spezialisierten Werkzeugen oft schwer mithalten können.",
+        "it": "Anthropic ha annunciato il 21 agosto 2026 l'ampliamento dell'accesso a <a href=\"https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders\">Claude Mythos 5</a>, il suo modello specializzato in cybersicurezza, a un numero crescente di difensori. Finora riservato a un ristretto gruppo di partner, Mythos 5 — derivato dalla famiglia Claude — è concepito per il rilevamento delle minacce, l'analisi di codice dannoso e la risposta agli incidenti, ambiti in cui i grandi modelli linguistici faticano spesso a competere con gli strumenti specializzati.",
+        "lmo": "Anthropic a annoncé le 21 août 2026 l'élargissement de l'accès à <a href=\"https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders\">Claude Mythos 5</a>, son modèle spécialisé dans la cybersécurité, à un nombre accru de défenseurs. Jusqu'ici réservé à un cercle restreint de partenaires, Mythos 5 — dérivé de la famille Claude — est conçu pour la détection de menaces, l'analyse de code malveillant et la réponse aux incidents, domaines où les grands modèles de langage peinent souvent à rivaliser avec les outils spécialisés."
+      },
+      {
+        "fr": "Dans son annonce, Anthropic précise que cette ouverture répond à une demande croissante des équipes SOC (Security Operations Centers) qui utilisent déjà Claude pour le tri d'alertes et la rédaction de rapports d'analyse. Les premiers retours font état d'un taux de détection 30 % supérieur aux approches traditionnelles sur les campagnes de type advanced persistent threat (APT). Le modèle, entraîné sur des corpus de sécurité classifiés et open source, peut opérer en mode « air-gapped » pour les environnements les plus sensibles.",
+        "en": "In its announcement, Anthropic said the opening responds to growing demand from SOC (Security Operations Center) teams already using Claude for alert triage and the drafting of analysis reports. Early feedback points to a detection rate 30 percent higher than traditional approaches on advanced persistent threat (APT) campaigns. The model, trained on classified and open-source security corpora, can operate in \"air-gapped\" mode for the most sensitive environments.",
+        "de": "In seiner Ankündigung präzisiert Anthropic, dass diese Öffnung einer wachsenden Nachfrage von SOC-Teams (Security Operations Centers) entspricht, die Claude bereits für die Triage von Alarmmeldungen und die Erstellung von Analyseberichten einsetzen. Erste Rückmeldungen berichten von einer um 30 % höheren Erkennungsrate als bei herkömmlichen Ansätzen bei Kampagnen vom Typ Advanced Persistent Threat (APT). Das auf klassifizierten und Open-Source-Sicherheitskorpora trainierte Modell kann für die sensibelsten Umgebungen im «air-gapped»-Modus betrieben werden.",
+        "it": "Nell'annuncio, Anthropic precisa che questa apertura risponde a una domanda crescente da parte dei team SOC (Security Operations Centers) che utilizzano già Claude per lo smistamento degli avvisi e la redazione di rapporti di analisi. I primi riscontri indicano un tasso di rilevamento superiore del 30% rispetto agli approcci tradizionali sulle campagne di tipo advanced persistent threat (APT). Il modello, addestrato su corpus di sicurezza classificati e open source, può operare in modalità « air-gapped » per gli ambienti più sensibili.",
+        "lmo": "Dans son annonce, Anthropic précise que cette ouverture répond à une demande croissante des équipes SOC (Security Operations Centers) qui utilisent déjà Claude pour le tri d'alertes et la rédaction de rapports d'analyse. Les premiers retours font état d'un taux de détection 30 % supérieur aux approches traditionnelles sur les campagnes de type advanced persistent threat (APT). Le modèle, entraîné sur des corpus de sécurité classifiés et open source, peut opérer en mode « air-gapped » pour les environnements les plus sensibles."
+      },
+      {
+        "fr": "Cette décision intervient une semaine après la publication par OpenAI de son framework de « pacing » des capacités cyber, et alors que les grandes entreprises technologiques intensifient leurs efforts pour intégrer l'IA dans la défense des infrastructures critiques. Anthropic a également publié le même jour un <a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">playbook SDLC natif IA</a> destiné aux équipes de développement, complétant son offre pour les entreprises.",
+        "en": "The decision comes one week after OpenAI published its framework for pacing cyber capabilities, and as major technology companies step up efforts to embed AI in the defense of critical infrastructure. Anthropic also released an <a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">AI-native SDLC playbook</a> for development teams on the same day, rounding out its enterprise offering.",
+        "de": "Diese Entscheidung fällt eine Woche, nachdem OpenAI sein «Pacing»-Framework für Cyberfähigkeiten veröffentlicht hat, und zu einem Zeitpunkt, da die grossen Technologieunternehmen ihre Bemühungen verstärken, KI in die Verteidigung kritischer Infrastrukturen zu integrieren. Anthropic hat am selben Tag ausserdem ein <a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">KI-natives SDLC-Playbook</a> für Entwicklungsteams veröffentlicht und damit sein Unternehmensangebot ergänzt.",
+        "it": "Questa decisione arriva una settimana dopo la pubblicazione da parte di OpenAI del suo framework di « pacing » delle capacità cyber, e mentre le grandi imprese tecnologiche intensificano gli sforzi per integrare l'IA nella difesa delle infrastrutture critiche. Anthropic ha inoltre pubblicato lo stesso giorno un <a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">playbook SDLC nativo IA</a> destinato ai team di sviluppo, completando la propria offerta per le imprese.",
+        "lmo": "Cette décision intervient une semaine après la publication par OpenAI de son framework de « pacing » des capacités cyber, et alors que les grandes entreprises technologiques intensifient leurs efforts pour intégrer l'IA dans la défense des infrastructures critiques. Anthropic a également publié le même jour un <a href=\"https://claude.com/blog/the-ai-native-sdlc-playbook\">playbook SDLC natif IA</a> destiné aux équipes de développement, complétant son offre pour les entreprises."
+      }
+    ],
+    "urls": [
+      "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "https://claude.com/blog/the-ai-native-sdlc-playbook"
+    ],
+    "kicker": {
+      "fr": "Cybersécurité",
+      "en": "Cybersecurity",
+      "de": "Cybersicherheit",
+      "it": "Cybersicurezza",
+      "lmo": "Cybersécurité"
+    },
+    "headline": {
+      "fr": "Anthropic étend l'accès à Claude Mythos 5 aux défenseurs du monde entier",
+      "en": "Anthropic Extends Claude Mythos 5 to Defenders Worldwide",
+      "de": "Anthropic erweitert den Zugang zu Claude Mythos 5 für Verteidiger weltweit",
+      "it": "Anthropic estende l'accesso a Claude Mythos 5 ai difensori di tutto il mondo",
+      "lmo": "Anthropic étend l'accès à Claude Mythos 5 aux défenseurs du monde entier"
+    },
+    "subdeck": {
+      "fr": "Le modèle de cybersécurité d'Anthropic, jusqu'ici réservé à certains partenaires, devient accessible à un plus grand nombre d'équipes de sécurité.",
+      "en": "Anthropic's cybersecurity model, until now restricted to a select group of partners, is being opened up to a wider range of security teams.",
+      "de": "Das Cybersicherheitsmodell von Anthropic, bislang ausgewählten Partnern vorbehalten, wird nun einem grösseren Kreis von Sicherheitsteams zugänglich gemacht.",
+      "it": "Il modello di cybersicurezza di Anthropic, finora riservato ad alcuni partner, diventa accessibile a un numero maggiore di team di sicurezza.",
+      "lmo": "Le modèle de cybersécurité d'Anthropic, jusqu'ici réservé à certains partenaires, devient accessible à un plus grand nombre d'équipes de sécurité."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "GPT-5.6 Sol baisse ses prix de 20 à 33 %",
+        "en": "GPT-5.6 Sol Cuts Prices by 20 to 33 Percent",
+        "de": "GPT-5.6 Sol senkt die Preise um 20 bis 33 %",
+        "it": "GPT-5.6 Sol riduce i prezzi dal 20 al 33%",
+        "lmo": "GPT-5.6 Sol baisse ses prix de 20 à 33 %"
+      },
+      "body": {
+        "fr": "OpenAI a réduit le 21 août 2026 les tarifs de son modèle <a href=\"https://platform.openai.com/docs/changelog\">GPT-5.6 Sol</a>, qui passe à 4 $ par million de tokens en entrée (contre 5 $, soit -20 %) et 20 $ par million de tokens en sortie (contre 30 $, soit -33 %). Un tarif promotionnel est maintenu au moins jusqu'à la fin du trimestre, selon la page de changelog de la plateforme.",
+        "en": "OpenAI cut prices on 21 August 2026 for its <a href=\"https://platform.openai.com/docs/changelog\">GPT-5.6 Sol</a> model, which now costs $4 per million input tokens (down from $5, a 20 percent cut) and $20 per million output tokens (down from $30, a 33 percent cut). A promotional rate will be maintained at least through the end of the quarter, according to the platform's changelog page.",
+        "de": "OpenAI hat am 21. August 2026 die Tarife seines Modells <a href=\"https://platform.openai.com/docs/changelog\">GPT-5.6 Sol</a> gesenkt: 4 Dollar pro Million Input-Tokens (zuvor 5 Dollar, also -20 %) und 20 Dollar pro Million Output-Tokens (zuvor 30 Dollar, also -33 %). Ein Aktionspreis gilt laut der Changelog-Seite der Plattform mindestens bis zum Ende des Quartals weiter.",
+        "it": "OpenAI ha ridotto il 21 agosto 2026 le tariffe del suo modello <a href=\"https://platform.openai.com/docs/changelog\">GPT-5.6 Sol</a>, che passa a 4 dollari per milione di token in ingresso (contro 5 dollari, ossia -20%) e 20 dollari per milione di token in uscita (contro 30 dollari, ossia -33%). Una tariffa promozionale è mantenuta almeno fino alla fine del trimestre, secondo la pagina di changelog della piattaforma.",
+        "lmo": "OpenAI a réduit le 21 août 2026 les tarifs de son modèle <a href=\"https://platform.openai.com/docs/changelog\">GPT-5.6 Sol</a>, qui passe à 4 $ par million de tokens en entrée (contre 5 $, soit -20 %) et 20 $ par million de tokens en sortie (contre 30 $, soit -33 %). Un tarif promotionnel est maintenu au moins jusqu'à la fin du trimestre, selon la page de changelog de la plateforme."
+      },
+      "tag": {
+        "fr": "Prix",
+        "en": "Pricing",
+        "de": "Preise",
+        "it": "Prezzi",
+        "lmo": "Prix"
+      },
+      "wire": {
+        "fr": "From the Wires — 21 août 2026",
+        "en": "From the Wires — 21 August 2026",
+        "de": "Von den Agenturen — 21. August 2026",
+        "it": "From the Wires — 21 agosto 2026",
+        "lmo": "From the Wires — 21 août 2026"
+      },
+      "urls": [
+        "https://platform.openai.com/docs/changelog"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Grok Bot débarque dans SuperGrok Plus et Cursor",
+        "en": "Grok Bot Lands in SuperGrok Plus and Cursor",
+        "de": "Grok Bot hält Einzug in SuperGrok Plus und Cursor",
+        "it": "Grok Bot approda in SuperGrok Plus e Cursor",
+        "lmo": "Grok Bot débarque dans SuperGrok Plus et Cursor"
+      },
+      "body": {
+        "fr": "xAI a annoncé le 21 août 2026 que <a href=\"https://x.ai/news/grok-bot-more-plans\">Grok Bot est désormais inclus</a> dans les formules SuperGrok Plus, Cursor Pro+ et tous les plans Cursor Teams. L'intégration étend l'accès à l'assistant IA de xAI bien au-delà de l'écosystème X.com, directement dans les environnements de développement.",
+        "en": "xAI announced on 21 August 2026 that <a href=\"https://x.ai/news/grok-bot-more-plans\">Grok Bot is now included</a> in SuperGrok Plus, Cursor Pro+ and all Cursor Teams plans. The integration extends access to xAI's AI assistant well beyond the X.com ecosystem, straight into development environments.",
+        "de": "xAI hat am 21. August 2026 angekündigt, dass <a href=\"https://x.ai/news/grok-bot-more-plans\">Grok Bot neu enthalten</a> ist in den Abos SuperGrok Plus, Cursor Pro+ und allen Cursor-Teams-Plänen. Die Integration erweitert den Zugang zum KI-Assistenten von xAI weit über das X.com-Ökosystem hinaus — direkt in den Entwicklungsumgebungen.",
+        "it": "xAI ha annunciato il 21 agosto 2026 che <a href=\"https://x.ai/news/grok-bot-more-plans\">Grok Bot è ora incluso</a> nei piani SuperGrok Plus, Cursor Pro+ e in tutti i piani Cursor Teams. L'integrazione estende l'accesso all'assistente IA di xAI ben oltre l'ecosistema X.com, direttamente negli ambienti di sviluppo.",
+        "lmo": "xAI a annoncé le 21 août 2026 que <a href=\"https://x.ai/news/grok-bot-more-plans\">Grok Bot est désormais inclus</a> dans les formules SuperGrok Plus, Cursor Pro+ et tous les plans Cursor Teams. L'intégration étend l'accès à l'assistant IA de xAI bien au-delà de l'écosystème X.com, directement dans les environnements de développement."
+      },
+      "tag": {
+        "fr": "Plateforme",
+        "en": "Platform",
+        "de": "Plattform",
+        "it": "Piattaforma",
+        "lmo": "Plateforme"
+      },
+      "wire": {
+        "fr": "From the Wires — 21 août 2026",
+        "en": "From the Wires — 21 August 2026",
+        "de": "Von den Agenturen — 21. August 2026",
+        "it": "From the Wires — 21 agosto 2026",
+        "lmo": "From the Wires — 21 août 2026"
+      },
+      "urls": [
+        "https://x.ai/news/grok-bot-more-plans"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Grok 4.6 atterrit sur Vertex AI",
+        "en": "Grok 4.6 Lands on Vertex AI",
+        "de": "Grok 4.6 landet auf Vertex AI",
+        "it": "Grok 4.6 arriva su Vertex AI",
+        "lmo": "Grok 4.6 atterrit sur Vertex AI"
+      },
+      "body": {
+        "fr": "Le 21 août 2026, xAI a confirmé que <a href=\"https://x.ai/news/grok-4-6-vertex-ai\">Grok 4.6 est disponible sur Google Enterprise Agent Platform</a> (Vertex AI), une semaine après son arrivée sur Amazon Bedrock. Cette double disponibilité multi-cloud permet aux entreprises de déployer Grok via les pipelines MLOps de Google.",
+        "en": "On 21 August 2026, xAI confirmed that <a href=\"https://x.ai/news/grok-4-6-vertex-ai\">Grok 4.6 is available on Google Enterprise Agent Platform</a> (Vertex AI), one week after its arrival on Amazon Bedrock. The dual multi-cloud availability allows enterprises to deploy Grok through Google's MLOps pipelines.",
+        "de": "Am 21. August 2026 hat xAI bestätigt, dass <a href=\"https://x.ai/news/grok-4-6-vertex-ai\">Grok 4.6 auf der Google Enterprise Agent Platform</a> (Vertex AI) verfügbar ist — eine Woche nach der Ankunft auf Amazon Bedrock. Diese doppelte Multi-Cloud-Verfügbarkeit erlaubt Unternehmen den Einsatz von Grok über die MLOps-Pipelines von Google.",
+        "it": "Il 21 agosto 2026 xAI ha confermato che <a href=\"https://x.ai/news/grok-4-6-vertex-ai\">Grok 4.6 è disponibile su Google Enterprise Agent Platform</a> (Vertex AI), una settimana dopo il suo arrivo su Amazon Bedrock. Questa doppia disponibilità multi-cloud consente alle imprese di distribuire Grok tramite le pipeline MLOps di Google.",
+        "lmo": "Le 21 août 2026, xAI a confirmé que <a href=\"https://x.ai/news/grok-4-6-vertex-ai\">Grok 4.6 est disponible sur Google Enterprise Agent Platform</a> (Vertex AI), une semaine après son arrivée sur Amazon Bedrock. Cette double disponibilité multi-cloud permet aux entreprises de déployer Grok via les pipelines MLOps de Google."
+      },
+      "tag": {
+        "fr": "Cloud",
+        "en": "Cloud",
+        "de": "Cloud",
+        "it": "Cloud",
+        "lmo": "Cloud"
+      },
+      "wire": {
+        "fr": "From the Wires — 21 août 2026",
+        "en": "From the Wires — 21 August 2026",
+        "de": "Von den Agenturen — 21. August 2026",
+        "it": "From the Wires — 21 agosto 2026",
+        "lmo": "From the Wires — 21 août 2026"
+      },
+      "urls": [
+        "https://x.ai/news/grok-4-6-vertex-ai"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI déploie la sélection régionale par requête",
+        "en": "OpenAI Rolls Out Per-Request Regional Selection",
+        "de": "OpenAI führt die regionale Auswahl pro Anfrage ein",
+        "it": "OpenAI implementa la selezione regionale per singola richiesta",
+        "lmo": "OpenAI déploie la sélection régionale par requête"
+      },
+      "body": {
+        "fr": "OpenAI a introduit le 21 août 2026 une fonctionnalité permettant aux clients API de <a href=\"https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request\">sélectionner une région de traitement par requête individuelle</a>, via un domaine préfixé. La fonction est liée à une clé API issue d'un projet de géographie « Global ». Les conditions de résidence des données et le support des endpoints existants continuent de s'appliquer.",
+        "en": "OpenAI introduced a feature on 21 August 2026 allowing API customers to <a href=\"https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request\">select a processing region for each individual request</a>, via a prefixed domain. The feature is tied to an API key from a project with the \"Global\" geography setting. Data residency terms and support for existing endpoints continue to apply.",
+        "de": "OpenAI hat am 21. August 2026 eine Funktion eingeführt, die API-Kunden erlaubt, <a href=\"https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request\">pro einzelner Anfrage eine Verarbeitungsregion auszuwählen</a>, und zwar über eine Domain mit Präfix. Die Funktion ist an einen API-Schlüssel aus einem Projekt mit der Geografie «Global» gebunden. Die Bedingungen zur Datenresidenz und die Unterstützung bestehender Endpunkte gelten weiterhin.",
+        "it": "OpenAI ha introdotto il 21 agosto 2026 una funzionalità che consente ai clienti API di <a href=\"https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request\">selezionare una regione di elaborazione per ogni singola richiesta</a>, tramite un dominio con prefisso. La funzione è legata a una chiave API proveniente da un progetto con geografia « Global ». Le condizioni di residenza dei dati e il supporto degli endpoint esistenti continuano ad applicarsi.",
+        "lmo": "OpenAI a introduit le 21 août 2026 une fonctionnalité permettant aux clients API de <a href=\"https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request\">sélectionner une région de traitement par requête individuelle</a>, via un domaine préfixé. La fonction est liée à une clé API issue d'un projet de géographie « Global ». Les conditions de résidence des données et le support des endpoints existants continuent de s'appliquer."
+      },
+      "tag": {
+        "fr": "API",
+        "en": "API",
+        "de": "API",
+        "it": "API",
+        "lmo": "API"
+      },
+      "wire": {
+        "fr": "From the Wires — 21 août 2026",
+        "en": "From the Wires — 21 August 2026",
+        "de": "Von den Agenturen — 21. August 2026",
+        "it": "From the Wires — 21 agosto 2026",
+        "lmo": "From the Wires — 21 août 2026"
+      },
+      "urls": [
+        "https://platform.openai.com/api/docs/guides/your-data#select-a-processing-region-per-request"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite — Modelle & Frontier",
+        "it": "Prima pagina — Modelli & Frontiera",
+        "lmo": "À la Une — Modèles & Frontière"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "DeepMind célèbre quinze ans de recherche en jeux vidéo",
+            "en": "DeepMind Marks Fifteen Years of Games Research",
+            "de": "DeepMind feiert fünfzehn Jahre Forschung an Videospielen",
+            "it": "DeepMind festeggia quindici anni di ricerca nei videogiochi",
+            "lmo": "DeepMind célèbre quinze ans de recherche en jeux vidéo"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "DeepMind : d'Atari à EVE Online, quinze ans d'IA dans les jeux",
+                "en": "DeepMind: From Atari to EVE Online, Fifteen Years of AI in Games",
+                "de": "DeepMind: Von Atari zu EVE Online — fünfzehn Jahre KI in Spielen",
+                "it": "DeepMind: da Atari a EVE Online, quindici anni d'IA nei giochi",
+                "lmo": "DeepMind : d'Atari à EVE Online, quinze ans d'IA dans les jeux"
+              },
+              "body": {
+                "fr": "Google DeepMind a publié le 21 août 2026 un article retraçant <a href=\"https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/\">quinze années de recherche en IA appliquée aux jeux vidéo</a>, d'Atari (2013) à EVE Online. Le laboratoire annonce de nouveaux partenariats avec des studios de jeux pour prototyper des mécaniques de gameplay propulsées par l'IA, s'appuyant sur les architectures de raisonnement de Gemini.",
+                "en": "Google DeepMind published an article on 21 August 2026 charting <a href=\"https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/\">fifteen years of AI research applied to video games</a>, from Atari (2013) to EVE Online. The laboratory announced new partnerships with game studios to prototype AI-driven gameplay mechanics, building on Gemini's reasoning architectures.",
+                "de": "Google DeepMind hat am 21. August 2026 einen Artikel veröffentlicht, der <a href=\"https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/\">fünfzehn Jahre KI-Forschung in Videospielen</a> nachzeichnet — von Atari (2013) bis EVE Online. Das Labor kündigt neue Partnerschaften mit Spielestudios an, um KI-getriebene Gameplay-Mechaniken zu prototypisieren, gestützt auf die Reasoning-Architekturen von Gemini.",
+                "it": "Google DeepMind ha pubblicato il 21 agosto 2026 un articolo che ripercorre <a href=\"https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/\">quindici anni di ricerca sull'IA applicata ai videogiochi</a>, da Atari (2013) a EVE Online. Il laboratorio annuncia nuove partnership con studi di giochi per realizzare prototipi di meccaniche di gameplay spinte dall'IA, basandosi sulle architetture di ragionamento di Gemini.",
+                "lmo": "Google DeepMind a publié le 21 août 2026 un article retraçant <a href=\"https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/\">quinze années de recherche en IA appliquée aux jeux vidéo</a>, d'Atari (2013) à EVE Online. Le laboratoire annonce de nouveaux partenariats avec des studios de jeux pour prototyper des mécaniques de gameplay propulsées par l'IA, s'appuyant sur les architectures de raisonnement de Gemini."
+              },
+              "urls": [
+                "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ChatGPT améliore la découverte de plugins",
+                "en": "ChatGPT Improves Plugin Discovery",
+                "de": "ChatGPT verbessert die Plugin-Entdeckung",
+                "it": "ChatGPT migliora la scoperta dei plugin",
+                "lmo": "ChatGPT améliore la découverte de plugins"
+              },
+              "body": {
+                "fr": "OpenAI a déployé le 21 août 2026 une mise à jour de ChatGPT qui <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">améliore la découverte de plugins</a> sur le web et mobile. Les classements privilégient désormais les plugins que les utilisateurs conservent après installation. La mise à jour inclut également des réponses mieux contextualisées dans le temps et des conversations longues plus rapides sur le web.",
+                "en": "OpenAI rolled out an update to ChatGPT on 21 August 2026 that <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">improves plugin discovery</a> on web and mobile. Rankings now favor plugins that users keep after installation. The update also brings better time-contextualized responses and faster long conversations on the web.",
+                "de": "OpenAI hat am 21. August 2026 ein ChatGPT-Update ausgerollt, das <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">die Entdeckung von Plugins</a> im Web und auf Mobilgeräten verbessert. Ranglisten bevorzugen neu jene Plugins, die Nutzer nach der Installation behalten. Das Update umfasst zudem zeitlich besser kontextualisierte Antworten und schnellere lange Konversationen im Web.",
+                "it": "OpenAI ha distribuito il 21 agosto 2026 un aggiornamento di ChatGPT che <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">migliora la scoperta dei plugin</a> sul web e su mobile. Le classifiche privilegiano ormai i plugin che gli utenti mantengono dopo l'installazione. L'aggiornamento include anche risposte meglio contestualizzate nel tempo e conversazioni lunghe più rapide sul web.",
+                "lmo": "OpenAI a déployé le 21 août 2026 une mise à jour de ChatGPT qui <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">améliore la découverte de plugins</a> sur le web et mobile. Les classements privilégient désormais les plugins que les utilisateurs conservent après installation. La mise à jour inclut également des réponses mieux contextualisées dans le temps et des conversations longues plus rapides sur le web."
+              },
+              "urls": [
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Google et le full-stack IA",
+            "en": "Google and the AI Full Stack",
+            "de": "Google und der KI-Full-Stack",
+            "it": "Google e il full-stack IA",
+            "lmo": "Google et le full-stack IA"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Google DeepMind : qu'est-ce que le « full-stack » IA ?",
+                "en": "Google DeepMind: What Is \"Full-Stack\" AI?",
+                "de": "Google DeepMind: Was ist der KI-«Full-Stack»?",
+                "it": "Google DeepMind: che cos'è il « full-stack » IA?",
+                "lmo": "Google DeepMind : qu'est-ce que le « full-stack » IA ?"
+              },
+              "body": {
+                "fr": "Un ingénieur de Google DeepMind a publié le 21 août 2026 sur le blog de Google un article qui <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/\">décompose le développement IA « full-stack » en cinq couches simples</a> : matériel, infrastructure, modèles, applications et expérience utilisateur. L'article vise à rendre accessible la complexité de la pile technique derrière Gemini.",
+                "en": "A Google DeepMind engineer published a piece on Google's blog on 21 August 2026 that <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/\">breaks down \"full-stack\" AI development into five simple layers</a>: hardware, infrastructure, models, applications and user experience. The article aims to make the complexity of the technical stack behind Gemini more accessible.",
+                "de": "Ein Ingenieur von Google DeepMind hat am 21. August 2026 im Google-Blog einen Artikel veröffentlicht, der <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/\">die KI-Entwicklung im «Full-Stack» in fünf einfache Schichten zerlegt</a>: Hardware, Infrastruktur, Modelle, Anwendungen und Nutzererfahrung. Der Artikel will die Komplexität des technischen Stacks hinter Gemini zugänglich machen.",
+                "it": "Un ingegnere di Google DeepMind ha pubblicato il 21 agosto 2026 sul blog di Google un articolo che <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/\">scompone lo sviluppo IA « full-stack » in cinque livelli semplici</a>: hardware, infrastruttura, modelli, applicazioni ed esperienza utente. L'articolo mira a rendere accessibile la complessità della pila tecnica dietro Gemini.",
+                "lmo": "Un ingénieur de Google DeepMind a publié le 21 août 2026 sur le blog de Google un article qui <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/\">décompose le développement IA « full-stack » en cinq couches simples</a> : matériel, infrastructure, modèles, applications et expérience utilisateur. L'article vise à rendre accessible la complexité de la pile technique derrière Gemini."
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/what-full-stack-development-means/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Supplement",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "Le Cahier Technique"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Releases & engines",
+            "en": "Releases & Engines",
+            "de": "Releases & Engines",
+            "it": "Rilasci & motori",
+            "lmo": "Releases & engines"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claudette : faire parler Claude comme un être humain",
+                "en": "Claudette: Making Claude Talk Like a Human",
+                "de": "Claudette: Claude wie ein Mensch sprechen lassen",
+                "it": "Claudette: far parlare Claude come un essere umano",
+                "lmo": "Claudette : faire parler Claude comme un être humain"
+              },
+              "body": {
+                "fr": "Un projet open source nommé <a href=\"https://github.com/adnanakil/nobuzz/blob/main/README.md\">Claudette</a> a atteint la front page de Hacker News le 21 août 2026 avec 226 points. L'outil promet de modifier le style de réponse de Claude pour éliminer le ton « article BuzzFeed » — formules accrocheuses, énumérations emphatiques et adjectifs superlatifs — au profit d'un ton sobre et direct.",
+                "en": "An open-source project named <a href=\"https://github.com/adnanakil/nobuzz/blob/main/README.md\">Claudette</a> reached the front page of Hacker News on 21 August 2026 with 226 points. The tool promises to change Claude's response style to remove the \"BuzzFeed article\" tone — catchy formulas, emphatic lists and superlative adjectives — in favor of a sober, direct voice.",
+                "de": "Ein Open-Source-Projekt namens <a href=\"https://github.com/adnanakil/nobuzz/blob/main/README.md\">Claudette</a> hat am 21. August 2026 mit 226 Punkten die Front Page von Hacker News erreicht. Das Werkzeug verspricht, den Antwortstil von Claude so umzubauen, dass der «BuzzFeed-Artikel»-Ton — aufreizende Formeln, emphatische Aufzählungen und superlative Adjektive — einem nüchternen, direkten Ton weicht.",
+                "it": "Un progetto open source denominato <a href=\"https://github.com/adnanakil/nobuzz/blob/main/README.md\">Claudette</a> ha raggiunto la front page di Hacker News il 21 agosto 2026 con 226 punti. Lo strumento promette di modificare lo stile di risposta di Claude per eliminare il tono « articolo BuzzFeed » — formule ad effetto, enumerazioni enfatiche e aggettivi superlativi — a favore di un tono sobrio e diretto.",
+                "lmo": "Un projet open source nommé <a href=\"https://github.com/adnanakil/nobuzz/blob/main/README.md\">Claudette</a> a atteint la front page de Hacker News le 21 août 2026 avec 226 points. L'outil promet de modifier le style de réponse de Claude pour éliminer le ton « article BuzzFeed » — formules accrocheuses, énumérations emphatiques et adjectifs superlatifs — au profit d'un ton sobre et direct."
+              },
+              "urls": [
+                "https://github.com/adnanakil/nobuzz/blob/main/README.md"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Inférence et optimisation",
+            "en": "Inference and Optimization",
+            "de": "Inferenz und Optimierung",
+            "it": "Inferenza e ottimizzazione",
+            "lmo": "Inférence et optimisation"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Un modèle TTS répond en moins de 50 ms",
+                "en": "A TTS Model Responds in Under 50 ms",
+                "de": "Ein TTS-Modell antwortet in unter 50 ms",
+                "it": "Un modello TTS risponde in meno di 50 ms",
+                "lmo": "Un modèle TTS répond en moins de 50 ms"
+              },
+              "body": {
+                "fr": "Nari Labs a partagé le 21 août 2026 sur Hacker News (125 points) sa méthode pour atteindre une <a href=\"https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/\">latence de réponse inférieure à 50 ms</a> avec un modèle de text-to-speech basé sur Qwen3, en combinant quantification INT8, inférence par lots dynamique et un pipeline de streaming optimisé pour le CPU.",
+                "en": "Nari Labs shared on Hacker News on 21 August 2026 (125 points) its method for achieving <a href=\"https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/\">response latency below 50 ms</a> with a text-to-speech model based on Qwen3, combining INT8 quantization, dynamic batch inference and a CPU-optimized streaming pipeline.",
+                "de": "Nari Labs hat am 21. August 2026 auf Hacker News (125 Punkte) seine Methode geteilt, mit einem auf Qwen3 basierenden Text-to-Speech-Modell eine <a href=\"https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/\">Antwortlatenz von unter 50 ms</a> zu erreichen — durch die Kombination von INT8-Quantisierung, dynamischer Batch-Inferenz und einer für die CPU optimierten Streaming-Pipeline.",
+                "it": "Nari Labs ha condiviso il 21 agosto 2026 su Hacker News (125 punti) il suo metodo per raggiungere una <a href=\"https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/\">latenza di risposta inferiore a 50 ms</a> con un modello di text-to-speech basato su Qwen3, combinando quantizzazione INT8, inferenza a lotti dinamica e una pipeline di streaming ottimizzata per la CPU.",
+                "lmo": "Nari Labs a partagé le 21 août 2026 sur Hacker News (125 points) sa méthode pour atteindre une <a href=\"https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/\">latence de réponse inférieure à 50 ms</a> avec un modèle de text-to-speech basé sur Qwen3, en combinant quantification INT8, inférence par lots dynamique et un pipeline de streaming optimisé pour le CPU."
+              },
+              "urls": [
+                "https://nari-labs.com/blog/qwen3-tts-speed-cost-frontier/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "The Research Page",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Recherche"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Daily Papers — 21 août 2026",
+            "en": "Daily Papers — 21 August 2026",
+            "de": "Daily Papers — 21. August 2026",
+            "it": "Daily Papers — 21 agosto 2026",
+            "lmo": "Daily Papers — 21 août 2026"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "HSI : faire évoluer le harnais, pas le modèle",
+                "en": "HSI: Evolve the Harness, Not the Model",
+                "de": "HSI: Das Harness weiterentwickeln, nicht das Modell",
+                "it": "HSI: far evolvere l'harness, non il modello",
+                "lmo": "HSI : faire évoluer le harnais, pas le modèle"
+              },
+              "body": {
+                "fr": "Une équipe de HKUST publie <a href=\"https://arxiv.org/abs/2608.08466\">Hierarchical Self-Improvement (HSI)</a>, un framework où un LLM gelé fait évoluer son propre harnais d'exécution via une architecture à trois niveaux (harnais, évolution, méta-évolution). Sur BALROG avec DeepSeek-V4-Flash-Preview, HSI gagne jusqu'à +39,3 points sur BabyAI et +33,0 sur Crafter. Le code est disponible sur <a href=\"https://github.com/TailinZhou/hsi\">GitHub</a>. (8 upvotes)",
+                "en": "A team at HKUST publishes <a href=\"https://arxiv.org/abs/2608.08466\">Hierarchical Self-Improvement (HSI)</a>, a framework in which a frozen LLM evolves its own execution harness through a three-tier architecture (harness, evolution, meta-evolution). On BALROG with DeepSeek-V4-Flash-Preview, HSI gains up to +39.3 points on BabyAI and +33.0 on Crafter. The code is available on <a href=\"https://github.com/TailinZhou/hsi\">GitHub</a>. (8 upvotes)",
+                "de": "Ein Team der HKUST veröffentlicht <a href=\"https://arxiv.org/abs/2608.08466\">Hierarchical Self-Improvement (HSI)</a>, ein Framework, in dem ein eingefrorenes LLM sein eigenes Ausführungs-Harness über eine dreistufige Architektur (Harness, Evolution, Meta-Evolution) weiterentwickelt. Auf BALROG mit DeepSeek-V4-Flash-Preview gewinnt HSI bis zu +39,3 Punkte auf BabyAI und +33,0 auf Crafter. Der Code ist auf <a href=\"https://github.com/TailinZhou/hsi\">GitHub</a> verfügbar. (8 Upvotes)",
+                "it": "Un team della HKUST pubblica <a href=\"https://arxiv.org/abs/2608.08466\">Hierarchical Self-Improvement (HSI)</a>, un framework in cui un LLM congelato fa evolvere il proprio harness di esecuzione tramite un'architettura a tre livelli (harness, evoluzione, meta-evoluzione). Su BALROG con DeepSeek-V4-Flash-Preview, HSI guadagna fino a +39,3 punti su BabyAI e +33,0 su Crafter. Il codice è disponibile su <a href=\"https://github.com/TailinZhou/hsi\">GitHub</a>. (8 upvotes)",
+                "lmo": "Une équipe de HKUST publie <a href=\"https://arxiv.org/abs/2608.08466\">Hierarchical Self-Improvement (HSI)</a>, un framework où un LLM gelé fait évoluer son propre harnais d'exécution via une architecture à trois niveaux (harnais, évolution, méta-évolution). Sur BALROG avec DeepSeek-V4-Flash-Preview, HSI gagne jusqu'à +39,3 points sur BabyAI et +33,0 sur Crafter. Le code est disponible sur <a href=\"https://github.com/TailinZhou/hsi\">GitHub</a>. (8 upvotes)"
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agents"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.08466",
+                "https://github.com/TailinZhou/hsi"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Penser en grec : ce que SFT construit, ce que RL répare",
+                "en": "Thinking in Greek: What SFT Builds, What RL Fixes",
+                "de": "Auf Griechisch denken: Was SFT aufbaut, was RL repariert",
+                "it": "Pensare in greco: ciò che SFT costruisce, ciò che RL corregge",
+                "lmo": "Penser en grec : ce que SFT construit, ce que RL répare"
+              },
+              "body": {
+                "fr": "Une étude collaborative (KIEFER) publiée le 21 août 2026 sur arXiv montre que le fine-tuning de trois modèles MoE frontière (Alibaba, OpenAI, NVIDIA) sur le grec — une langue faiblement dotée — <a href=\"https://arxiv.org/abs/2608.17744\">n'affecte pas la précision mais change radicalement le comportement de raisonnement</a>. Après SFT, 98 % des traces de raisonnement sont en grec contre 0 % avant. Le RL avec récompenses vérifiables corrige les défauts de format (24 % à 2,5 %) et les fuites (3,5 % à 0 %). (13 upvotes)",
+                "en": "A collaborative study (KIEFER) published on arXiv on 21 August 2026 shows that fine-tuning three frontier MoE models (Alibaba, OpenAI, NVIDIA) on Greek — a low-resource language — <a href=\"https://arxiv.org/abs/2608.17744\">leaves accuracy unaffected but radically changes reasoning behavior</a>. After SFT, 98 percent of reasoning traces are in Greek, against 0 percent before. RL with verifiable rewards corrects format defects (24 percent down to 2.5 percent) and leakage (3.5 percent down to 0 percent). (13 upvotes)",
+                "de": "Eine gemeinsame Studie (KIEFER), veröffentlicht am 21. August 2026 auf arXiv, zeigt, dass das Fine-Tuning von drei Frontier-MoE-Modellen (Alibaba, OpenAI, NVIDIA) auf Griechisch — eine ressourcenarme Sprache — <a href=\"https://arxiv.org/abs/2608.17744\">die Genauigkeit nicht beeinträchtigt, aber das Reasoning-Verhalten radikal verändert</a>. Nach SFT sind 98 % der Reasoning-Traces auf Griechisch, zuvor 0 %. RL mit überprüfbaren Rewards korrigiert Formatfehler (24 % auf 2,5 %) und Leaks (3,5 % auf 0 %). (13 Upvotes)",
+                "it": "Uno studio collaborativo (KIEFER) pubblicato il 21 agosto 2026 su arXiv mostra che il fine-tuning di tre modelli MoE di frontiera (Alibaba, OpenAI, NVIDIA) sul greco — una lingua a risorse limitate — <a href=\"https://arxiv.org/abs/2608.17744\">non influisce sulla precisione ma cambia radicalmente il comportamento di ragionamento</a>. Dopo SFT, il 98% delle tracce di ragionamento è in greco contro lo 0% prima. Il RL con ricompense verificabili corregge i difetti di formato (dal 24% al 2,5%) e le fughe (dal 3,5% allo 0%). (13 upvotes)",
+                "lmo": "Une étude collaborative (KIEFER) publiée le 21 août 2026 sur arXiv montre que le fine-tuning de trois modèles MoE frontière (Alibaba, OpenAI, NVIDIA) sur le grec — une langue faiblement dotée — <a href=\"https://arxiv.org/abs/2608.17744\">n'affecte pas la précision mais change radicalement le comportement de raisonnement</a>. Après SFT, 98 % des traces de raisonnement sont en grec contre 0 % avant. Le RL avec récompenses vérifiables corrige les défauts de format (24 % à 2,5 %) et les fuites (3,5 % à 0 %). (13 upvotes)"
+              },
+              "kicker": {
+                "fr": "Raisonnement multilingue",
+                "en": "Multilingual Reasoning",
+                "de": "Mehrsprachiges Reasoning",
+                "it": "Ragionamento multilingue",
+                "lmo": "Raisonnement multilingue"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.17744"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "NAPE : prédire le prochain patch audio sans tokenizer",
+                "en": "NAPE: Predicting the Next Audio Patch Without a Tokenizer",
+                "de": "NAPE: Das nächste Audio-Patch vorhersagen ohne Tokenizer",
+                "it": "NAPE: predire il prossimo patch audio senza tokenizer",
+                "lmo": "NAPE : prédire le prochain patch audio sans tokenizer"
+              },
+              "body": {
+                "fr": "Des chercheurs d'Imperial College London présentent <a href=\"https://arxiv.org/abs/2608.19863\">NAPE (Next-Audio-Patch-Embedding prediction)</a>, un framework SSL minimaliste où un Transformer causal prédit chaque patch suivant du spectrogramme log-mel. Sans décodeur de reconstruction, sans tokenizer acoustique, sans enseignant-élève, NAPE atteint l'état de l'art sur six benchmarks audio et parole. (5 upvotes)",
+                "en": "Researchers at Imperial College London present <a href=\"https://arxiv.org/abs/2608.19863\">NAPE (Next-Audio-Patch-Embedding prediction)</a>, a minimalist SSL framework in which a causal Transformer predicts each next patch of the log-mel spectrogram. With no reconstruction decoder, no acoustic tokenizer and no teacher-student setup, NAPE achieves state-of-the-art results on six audio and speech benchmarks. (5 upvotes)",
+                "de": "Forschende des Imperial College London stellen <a href=\"https://arxiv.org/abs/2608.19863\">NAPE (Next-Audio-Patch-Embedding Prediction)</a> vor, ein minimalistisches SSL-Framework, in dem ein kausaler Transformer jeweils das nächste Patch des Log-Mel-Spektrogramms vorhersagt. Ohne Rekonstruktionsdecoder, ohne akustischen Tokenizer, ohne Lehrer-Schüler-Setup erreicht NAPE den Stand der Technik auf sechs Audio- und Sprach-Benchmarks. (5 Upvotes)",
+                "it": "Ricercatori dell'Imperial College London presentano <a href=\"https://arxiv.org/abs/2608.19863\">NAPE (Next-Audio-Patch-Embedding prediction)</a>, un framework SSL minimalista in cui un Transformer causale prevede ogni patch successivo dello spettrogramma log-mel. Senza decodificatore di ricostruzione, senza tokenizer acustico, senza schema insegnante-studente, NAPE raggiunge lo stato dell'arte su sei benchmark audio e parlato. (5 upvotes)",
+                "lmo": "Des chercheurs d'Imperial College London présentent <a href=\"https://arxiv.org/abs/2608.19863\">NAPE (Next-Audio-Patch-Embedding prediction)</a>, un framework SSL minimaliste où un Transformer causal prédit chaque patch suivant du spectrogramme log-mel. Sans décodeur de reconstruction, sans tokenizer acoustique, sans enseignant-élève, NAPE atteint l'état de l'art sur six benchmarks audio et parole. (5 upvotes)"
+              },
+              "kicker": {
+                "fr": "Audio",
+                "en": "Audio",
+                "de": "Audio",
+                "it": "Audio",
+                "lmo": "Audio"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.19863"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Hume AI quantifie l'optimisation de benchmark en ASR",
+                "en": "Hume AI Quantifies Benchmark Gaming in Speech Recognition",
+                "de": "Hume AI quantifiziert das Benchmark-Gaming in der ASR",
+                "it": "Hume AI quantifica l'ottimizzazione dei benchmark nell'ASR",
+                "lmo": "Hume AI quantifie l'optimisation de benchmark en ASR"
+              },
+              "body": {
+                "fr": "Hume AI publie une méthodologie pour <a href=\"https://arxiv.org/abs/2608.19936\">quantifier l'optimisation des benchmarks en reconnaissance vocale</a>. Les modèles les plus performants reproduisent des transcriptions de référence même quand l'audio les contredit — un comportement modifiable par steering linéaire. L'étude identifie trois familles de sondes comportementales. (8 upvotes)",
+                "en": "Hume AI publishes a methodology to <a href=\"https://arxiv.org/abs/2608.19936\">quantify benchmark gaming in speech recognition</a>. The best-performing models reproduce reference transcripts even when the audio contradicts them — a behavior that can be altered through linear steering. The study identifies three families of behavioral probes. (8 upvotes)",
+                "de": "Hume AI veröffentlicht eine Methodik zur <a href=\"https://arxiv.org/abs/2608.19936\">Quantifizierung von Benchmark-Optimierung in der Spracherkennung</a>. Die leistungsstärksten Modelle reproduzieren Referenztranskripte selbst dann, wenn das Audio ihnen widerspricht — ein Verhalten, das sich durch lineares Steering verändern lässt. Die Studie identifiziert drei Familien verhaltensbasierter Sonden. (8 Upvotes)",
+                "it": "Hume AI pubblica una metodologia per <a href=\"https://arxiv.org/abs/2608.19936\">quantificare l'ottimizzazione dei benchmark nel riconoscimento vocale</a>. I modelli più performanti riproducono trascrizioni di riferimento anche quando l'audio le contraddice — un comportamento modificabile mediante steering lineare. Lo studio identifica tre famiglie di sonde comportamentali. (8 upvotes)",
+                "lmo": "Hume AI publie une méthodologie pour <a href=\"https://arxiv.org/abs/2608.19936\">quantifier l'optimisation des benchmarks en reconnaissance vocale</a>. Les modèles les plus performants reproduisent des transcriptions de référence même quand l'audio les contredit — un comportement modifiable par steering linéaire. L'étude identifie trois familles de sondes comportementales. (8 upvotes)"
+              },
+              "kicker": {
+                "fr": "Benchmarks ASR",
+                "en": "ASR Benchmarks",
+                "de": "ASR-Benchmarks",
+                "it": "Benchmark ASR",
+                "lmo": "Benchmarks ASR"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.19936"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Communauté & Édito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community Signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Signaux de la communauté"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Je deviens aveugle à l'IA » : le billet qui fait débat",
+                "en": "\"I'm Becoming AI-Blind\": The Post Sparking Debate",
+                "de": "«Ich werde KI-blind»: Der Beitrag, der für Diskussionen sorgt",
+                "it": "« Sto diventando cieco all'IA »: il post che fa discutere",
+                "lmo": "« Je deviens aveugle à l'IA » : le billet qui fait débat"
+              },
+              "body": {
+                "fr": "Un essai intitulé <a href=\"https://cymerys.com/w/im-becoming-ai-blind\">« I'm becoming AI-blind »</a> a cumulé 313 points et 320 commentaires sur Hacker News le 21 août 2026. L'auteur y décrit sa perte de capacité à distinguer le contenu généré par IA du contenu humain dans son flux quotidien, et interroge les conséquences cognitives de cette accoutumance.",
+                "en": "An essay titled <a href=\"https://cymerys.com/w/im-becoming-ai-blind\">\"I'm becoming AI-blind\"</a> amassed 313 points and 320 comments on Hacker News on 21 August 2026. The author describes a growing inability to distinguish AI-generated content from human content in a daily feed, and questions the cognitive consequences of that habituation.",
+                "de": "Ein Essay mit dem Titel <a href=\"https://cymerys.com/w/im-becoming-ai-blind\">«I'm becoming AI-blind»</a> hat am 21. August 2026 auf Hacker News 313 Punkte und 320 Kommentare angehäuft. Der Autor beschreibt darin den Verlust seiner Fähigkeit, KI-generierte von menschlichen Inhalten in seinem täglichen Feed zu unterscheiden, und fragt nach den kognitiven Folgen dieser Gewöhnung.",
+                "it": "Un saggio intitolato <a href=\"https://cymerys.com/w/im-becoming-ai-blind\">« I'm becoming AI-blind »</a> ha totalizzato 313 punti e 320 commenti su Hacker News il 21 agosto 2026. L'autore vi descrive la perdita della capacità di distinguere i contenuti generati dall'IA da quelli umani nel proprio flusso quotidiano, e si interroga sulle conseguenze cognitive di questa assuefazione.",
+                "lmo": "Un essai intitulé <a href=\"https://cymerys.com/w/im-becoming-ai-blind\">« I'm becoming AI-blind »</a> a cumulé 313 points et 320 commentaires sur Hacker News le 21 août 2026. L'auteur y décrit sa perte de capacité à distinguer le contenu généré par IA du contenu humain dans son flux quotidien, et interroge les conséquences cognitives de cette accoutumance."
+              },
+              "urls": [
+                "https://cymerys.com/w/im-becoming-ai-blind",
+                "https://news.ycombinator.com/item?id=49386699"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Show HN : OzBrain, un cerveau partagé pour agents et équipes",
+                "en": "Show HN: OzBrain, a Shared Brain for Agents and Teams",
+                "de": "Show HN: OzBrain, ein geteiltes Gehirn für Agenten und Teams",
+                "it": "Show HN: OzBrain, un cervello condiviso per agenti e team",
+                "lmo": "Show HN : OzBrain, un cerveau partagé pour agents et équipes"
+              },
+              "body": {
+                "fr": "Un entrepreneur a présenté le 21 août 2026 sur Hacker News <a href=\"https://ozbrain.com\">OzBrain</a>, un système de connaissances partagé conçu pour que les agents IA et les équipes humaines collaborent sur une même base de notes markdown versionnées. L'auteur rapporte que 26 de ses 75 amis fondateurs ont construit leur propre système maison. (54 points, 22 commentaires)",
+                "en": "An entrepreneur presented <a href=\"https://ozbrain.com\">OzBrain</a> on Hacker News on 21 August 2026, a shared knowledge system designed to let AI agents and human teams collaborate on a single base of versioned markdown notes. The author reports that 26 of their 75 founder friends have built their own in-house systems. (54 points, 22 comments)",
+                "de": "Ein Gründer hat am 21. August 2026 auf Hacker News <a href=\"https://ozbrain.com\">OzBrain</a> vorgestellt, ein gemeinschaftliches Wissenssystem, das dafür gebaut ist, dass KI-Agenten und menschliche Teams auf derselben Basis versionierter Markdown-Notizen zusammenarbeiten. Der Autor berichtet, dass 26 seiner 75 Gründerfreunde ihr eigenes hauseigenes System gebaut haben. (54 Punkte, 22 Kommentare)",
+                "it": "Un imprenditore ha presentato il 21 agosto 2026 su Hacker News <a href=\"https://ozbrain.com\">OzBrain</a>, un sistema di conoscenza condiviso concepito per far sì che gli agenti IA e i team umani collaborino su una stessa base di note markdown versionate. L'autore riferisce che 26 dei suoi 75 amici fondatori hanno costruito il proprio sistema fatto in casa. (54 punti, 22 commenti)",
+                "lmo": "Un entrepreneur a présenté le 21 août 2026 sur Hacker News <a href=\"https://ozbrain.com\">OzBrain</a>, un système de connaissances partagé conçu pour que les agents IA et les équipes humaines collaborent sur une même base de notes markdown versionnées. L'auteur rapporte que 26 de ses 75 amis fondateurs ont construit leur propre système maison. (54 points, 22 commentaires)"
+              },
+              "urls": [
+                "https://ozbrain.com",
+                "https://news.ycombinator.com/item?id=49394827"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Édito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'œil du rédacteur : la cybersécurité, nouvel eldorado des LLM",
+                "en": "The Editor's Eye: Cybersecurity, the New El Dorado for LLMs",
+                "de": "Das Auge des Redaktors: Cybersicherheit als neues Eldorado der LLMs",
+                "it": "L'occhio del redattore: la cybersicurezza, nuovo eldorado degli LLM",
+                "lmo": "L'œil du rédacteur : la cybersécurité, nouvel eldorado des LLM"
+              },
+              "body": {
+                "fr": "L'annonce d'Anthropic élargissant l'accès à Claude Mythos 5 illustre une tendance de fond : les modèles de langage deviennent des outils de première ligne dans la défense des infrastructures numériques. Avec OpenAI qui publie simultanément son framework de régulation des capacités cyber et xAI qui déploie Grok 4.6 sur les places de marché cloud, 2026 pourrait être l'année où la cybersécurité IA cesse d'être un marché de niche pour devenir le nouveau champ de bataille des labos frontière. Reste à savoir si cette concurrence profitera aux défenseurs — ou aux attaquants, qui exploitent les mêmes modèles.",
+                "en": "Anthropic's move to widen access to Claude Mythos 5 illustrates a deeper trend: language models are becoming frontline tools in the defense of digital infrastructure. With OpenAI simultaneously publishing its framework for governing cyber capabilities, and xAI deploying Grok 4.6 across cloud marketplaces, 2026 could be the year AI cybersecurity stops being a niche market and becomes the new battleground of the frontier labs. Whether the competition will benefit defenders — or attackers, who exploit the very same models — remains to be seen.",
+                "de": "Die Ankündigung von Anthropic, den Zugang zu Claude Mythos 5 zu erweitern, illustriert einen grundlegenden Trend: Sprachmodelle werden zu Werkzeugen der ersten Linie in der Verteidigung digitaler Infrastrukturen. Mit OpenAI, das gleichzeitig sein Framework zur Regulierung von Cyberfähigkeiten veröffentlicht, und xAI, das Grok 4.6 auf den Cloud-Marktplätzen einsetzt, könnte 2026 das Jahr werden, in dem KI-Cybersicherheit aufhört, ein Nischenmarkt zu sein, und zum neuen Schlachtfeld der Frontier-Labos wird. Zu fragen bleibt, ob dieser Wettbewerb den Verteidigern nützt — oder den Angreifern, die dieselben Modelle ausnutzen.",
+                "it": "L'annuncio di Anthropic che amplia l'accesso a Claude Mythos 5 illustra una tendenza di fondo: i modelli linguistici diventano strumenti di prima linea nella difesa delle infrastrutture digitali. Con OpenAI che pubblica contemporaneamente il proprio framework di regolamentazione delle capacità cyber e xAI che distribuisce Grok 4.6 sui marketplace cloud, il 2026 potrebbe essere l'anno in cui la cybersicurezza IA cessa di essere un mercato di nicchia per diventare il nuovo campo di battaglia dei laboratori di frontiera. Resta da vedere se questa concorrenza beneficerà i difensori — o gli attaccanti, che sfruttano gli stessi modelli.",
+                "lmo": "L'annonce d'Anthropic élargissant l'accès à Claude Mythos 5 illustre une tendance de fond : les modèles de langage deviennent des outils de première ligne dans la défense des infrastructures numériques. Avec OpenAI qui publie simultanément son framework de régulation des capacités cyber et xAI qui déploie Grok 4.6 sur les places de marché cloud, 2026 pourrait être l'année où la cybersécurité IA cesse d'être un marché de niche pour devenir le nouveau champ de bataille des labos frontière. Reste à savoir si cette concurrence profitera aux défenseurs — ou aux attaquants, qui exploitent les mêmes modèles."
+              },
+              "urls": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
