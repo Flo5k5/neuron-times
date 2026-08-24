@@ -1,0 +1,417 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-24",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Leur cadre procède en deux étapes. D'abord, une adaptation de la paramétrisation maximale de mise à jour (μP) aux architectures MoE combinant attention latente multi-tête (MLA) et optimiseur Muon, qui montre que les learning rates optimaux se transfèrent de manière cohérente entre modèles de largeurs croissantes. Ensuite, une loi d'échelle prédictive le long de l'axe des tokens : une simple régression linéaire sur les valeurs optimales mesurées sur de petits modèles proxy extrapole le taux idéal jusqu'à 10 000 milliards de tokens, avec une fidélité de R² = 0,95.",
+        "en": "Their framework proceeds in two stages. First, an adaptation of maximal update parameterization (μP) to MoE architectures combining multi-head latent attention (MLA) and the Muon optimizer, showing that optimal learning rates transfer consistently across models of increasing width. Second, a predictive scaling law along the token axis: a simple linear regression on optimal values measured on small proxy models extrapolates the ideal rate up to 10 trillion tokens, with a fidelity of R² = 0.95.",
+        "de": "Ihr Framework geht in zwei Schritten vor. Zunächst eine Anpassung der maximalen Update-Parametrisierung (μP) an MoE-Architekturen, die Multi-Head Latent Attention (MLA) und den Optimierer Muon kombinieren; sie zeigt, dass sich optimale Learning Rates konsistent über Modelle zunehmender Breite hinweg übertragen. Sodann ein prädiktives Skalierungsgesetz entlang der Token-Achse: Eine einfache lineare Regression über die auf kleinen Proxy-Modellen gemessenen Optimalwerte extrapoliert die ideale Lernrate bis zu 10 Billionen Tokens — mit einer Anpassungsgüte von R² = 0,95.",
+        "it": "Il loro quadro procede in due fasi. In primo luogo, un adattamento della parametrizzazione massimale di aggiornamento (μP) alle architetture MoE che combinano attenzione latente multi-testa (MLA) e ottimizzatore Muon, che dimostra come i learning rate ottimali si trasferiscano in modo coerente tra modelli di larghezza crescente. In secondo luogo, una legge di scala predittiva lungo l'asse dei token: una semplice regressione lineare sui valori ottimali misurati su piccoli modelli proxy estrapola il tasso ideale fino a 10'000 miliardi di token, con una fedeltà di R² = 0,95.",
+        "lmo": "Leur cadre procède en deux étapes. D'abord, une adaptation de la paramétrisation maximale de mise à jour (μP) aux architectures MoE combinant attention latente multi-tête (MLA) et optimiseur Muon, qui montre que les learning rates optimaux se transfèrent de manière cohérente entre modèles de largeurs croissantes. Ensuite, une loi d'échelle prédictive le long de l'axe des tokens : une simple régression linéaire sur les valeurs optimales mesurées sur de petits modèles proxy extrapole le taux idéal jusqu'à 10 000 milliards de tokens, avec une fidélité de R² = 0,95."
+      },
+      {
+        "fr": "La démonstration ne s'arrête pas à la simulation : l'équipe a pré-entraîné de zéro un modèle fondation de 155 milliards de paramètres totaux, dont 17 milliards actifs. L'entraînement est resté stable et les évaluations valident la conclusion centrale du papier — les configurations optimales d'une cible à pleine échelle peuvent être prédites avec un coût d'ablation minimal, rendant les balayages massifs superflus.",
+        "en": "The demonstration does not stop at simulation: the team pre-trained a foundation model from scratch with 155 billion total parameters, of which 17 billion active. Training remained stable and the evaluations validate the paper's central conclusion — the optimal configurations of a full-scale target can be predicted at minimal ablation cost, rendering massive sweeps superfluous.",
+        "de": "Der Nachweis bleibt nicht bei der Simulation: Das Team hat von Grund auf ein Foundation-Modell mit 155 Milliarden Parametern vortrainiert, davon 17 Milliarden aktive. Das Training blieb stabil, und die Evaluationen bestätigen die zentrale Schlussfolgerung des Papiers — die optimalen Konfigurationen eines Ziels in voller Grösse lassen sich mit minimalem Ablationsaufwand vorhersagen, was grosse Sweeps überflüssig macht.",
+        "it": "La dimostrazione non si ferma alla simulazione: il team ha pre-addestrato da zero un modello fondazione da 155 miliardi di parametri totali, di cui 17 miliardi attivi. L'addestramento è rimasto stabile e le valutazioni convalidano la conclusione centrale del paper — le configurazioni ottimali di un bersaglio a piena scala possono essere previste con un costo di ablazione minimo, rendendo superflui gli sweep massicci.",
+        "lmo": "La démonstration ne s'arrête pas à la simulation : l'équipe a pré-entraîné de zéro un modèle fondation de 155 milliards de paramètres totaux, dont 17 milliards actifs. L'entraînement est resté stable et les évaluations valident la conclusion centrale du papier — les configurations optimales d'une cible à pleine échelle peuvent être prédites avec un coût d'ablation minimal, rendant les balayages massifs superflus."
+      }
+    ],
+    "urls": [
+      "https://arxiv.org/abs/2608.20061"
+    ],
+    "kicker": {
+      "fr": "Recherche — Entraînement",
+      "en": "Research — Training",
+      "de": "Forschung — Training",
+      "it": "Ricerca — Addestramento",
+      "lmo": "Recherche — Entraînement"
+    },
+    "headline": {
+      "fr": "MoE géants : Kakao publie la méthode pour prédire leurs learning rates sans calculs ruineux",
+      "en": "Giant MoEs: Kakao publishes the method for predicting their learning rates without ruinous compute",
+      "de": "MoE-Giganten: Kakao veröffentlicht die Methode, ihre Learning Rates ohne ruinöse Rechenläufe vorherzusagen",
+      "it": "MoE giganti: Kakao pubblica il metodo per prevedere i loro learning rate senza calcoli rovinosi",
+      "lmo": "MoE géants : Kakao publie la méthode pour prédire leurs learning rates sans calculs ruineux"
+    },
+    "subdeck": {
+      "fr": "Un cadre en deux étapes extrapole les hyperparamètres optimaux jusqu'à 10 000 milliards de tokens et est validé par le pré-entraînement d'un MoE de 155 milliards de paramètres dont 17 milliards d'actifs.",
+      "en": "A two-stage framework extrapolates optimal hyperparameters up to 10 trillion tokens and is validated by the pre-training of a 155-billion-parameter MoE with 17 billion active parameters.",
+      "de": "Ein zweistufiger Rahmen extrapoliert die optimalen Hyperparameter bis zu 10 Billionen Tokens; validiert wird er durch das Pre-Training eines MoE mit 155 Milliarden Parametern, davon 17 Milliarden aktive.",
+      "it": "Un quadro in due fasi estrapola gli iperparametri ottimali fino a 10'000 miliardi di token e viene convalidato dal pre-addestramento di un MoE da 155 miliardi di parametri, di cui 17 miliardi attivi.",
+      "lmo": "Un cadre en deux étapes extrapole les hyperparamètres optimaux jusqu'à 10 000 milliards de tokens et est validé par le pré-entraînement d'un MoE de 155 milliards de paramètres dont 17 milliards d'actifs."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "AgentMercury : 4 783 mondes d'entreprise synthétiques pour entraîner les agents",
+        "en": "AgentMercury: 4,783 synthetic enterprise worlds for training agents",
+        "de": "AgentMercury: 4'783 synthetische Unternehmenswelten für das Training von Agenten",
+        "it": "AgentMercury: 4'783 mondi aziendali sintetici per addestrare gli agenti",
+        "lmo": "AgentMercury : 4 783 mondes d'entreprise synthétiques pour entraîner les agents"
+      },
+      "body": {
+        "fr": "Plutôt que de construire un environnement par tâche, AgentMercury, mis en avant le 24 août par le Daily Papers de Hugging Face, instancie un monde persistant — entités, services, outils, invariants inter-services — d'où les tâches émergent. Résultat : 4 783 environnements exécutables couvrant 14 industries et 50 pays. L'entraînement par renforcement y porte ses fruits hors domaine : Qwen3.5-4B progresse de 12,3 à 15,7 sur EnterpriseOps-GYM et de 45,9 à 56,0 sur AIME26, détaille <a href=\"https://arxiv.org/abs/2608.20634\">le papier</a>.",
+        "en": "Rather than building one environment per task, AgentMercury, featured on 24 August by Hugging Face's Daily Papers, instantiates a persistent world — entities, services, tools, cross-service invariants — from which tasks emerge. The result: 4,783 executable environments covering 14 industries and 50 countries. Reinforcement learning pays off out of domain: Qwen3.5-4B improves from 12.3 to 15.7 on EnterpriseOps-GYM and from 45.9 to 56.0 on AIME26, as <a href=\"https://arxiv.org/abs/2608.20634\">the paper</a> details.",
+        "de": "Statt für jede Aufgabe eine eigene Umgebung zu bauen, instanziiert AgentMercury, am 24. August von Hugging Faces Daily Papers hervorgehoben, eine persistente Welt — Entitäten, Dienste, Werkzeuge, dienstübergreifende Invarianten —, aus der die Aufgaben hervorgehen. Das Ergebnis: 4'783 ausführbare Umgebungen, die 14 Branchen und 50 Länder abdecken. Das Verstärkungslernen trägt auch ausserhalb der Domäne Früchte: Qwen3.5-4B legt von 12,3 auf 15,7 auf EnterpriseOps-GYM und von 45,9 auf 56,0 auf AIME26 zu, wie <a href=\"https://arxiv.org/abs/2608.20634\">das Papier</a> ausführt.",
+        "it": "Invece di costruire un ambiente per ciascun compito, AgentMercury, messo in evidenza il 24 agosto dal Daily Papers di Hugging Face, istanzia un mondo persistente — entità, servizi, strumenti, invarianti tra servizi — da cui i compiti emergono. Risultato: 4'783 ambienti eseguibili che coprono 14 settori industriali e 50 paesi. L'addestramento per rinforzo dà i suoi frutti fuori dominio: Qwen3.5-4B passa da 12,3 a 15,7 su EnterpriseOps-GYM e da 45,9 a 56,0 su AIME26, dettaglia <a href=\"https://arxiv.org/abs/2608.20634\">il paper</a>.",
+        "lmo": "Plutôt que de construire un environnement par tâche, AgentMercury, mis en avant le 24 août par le Daily Papers de Hugging Face, instancie un monde persistant — entités, services, outils, invariants inter-services — d'où les tâches émergent. Résultat : 4 783 environnements exécutables couvrant 14 industries et 50 pays. L'entraînement par renforcement y porte ses fruits hors domaine : Qwen3.5-4B progresse de 12,3 à 15,7 sur EnterpriseOps-GYM et de 45,9 à 56,0 sur AIME26, détaille <a href=\"https://arxiv.org/abs/2608.20634\">le papier</a>."
+      },
+      "tag": {
+        "fr": "Agents",
+        "en": "Agents",
+        "de": "Agenten",
+        "it": "Agenti",
+        "lmo": "Agents"
+      },
+      "wire": {
+        "fr": "From the Wires — 24 août 2026",
+        "en": "From the Wires — 24 August 2026",
+        "de": "From the Wires — 24. August 2026",
+        "it": "Dalle agenzie — 24 agosto 2026",
+        "lmo": "From the Wires — 24 août 2026"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.20634",
+        "https://minstar.github.io/AgentMercury/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Un VLM de 11 milliards de paramètres tient en 3,7 Go grâce à un format 2,7 bits",
+        "en": "An 11-billion-parameter VLM fits in 3.7 GB thanks to a 2.7-bit format",
+        "de": "Ein VLM mit 11 Milliarden Parametern passt dank eines 2,7-Bit-Formats in 3,7 GB",
+        "it": "Un VLM da 11 miliardi di parametri entra in 3,7 GB grazie a un formato a 2,7 bit",
+        "lmo": "Un VLM de 11 milliards de paramètres tient en 3,7 Go grâce à un format 2,7 bits"
+      },
+      "body": {
+        "fr": "Faire tenir un modèle vision-langage de 11 milliards de paramètres dans une poche ? Une équipe propose, dans un papier mis en avant le 24 août par le Daily Papers, un format à 2,7 bits par paramètre exécutable sur CPU Arm : Llama 3.2 11B Vision Instruct est compressé à 3,7 Go avec des activations en 8 bits, sans perte notable sur les tâches standard de question-réponse visuelle. Le pipeline de quantification <a href=\"https://arxiv.org/abs/2608.21134\">génère lui-même ses données d'entraînement</a>, sans accès aux données originales.",
+        "en": "Fitting an 11-billion-parameter vision-language model in a pocket? In a paper featured on 24 August by the Daily Papers, a team proposes a 2.7-bit-per-parameter format executable on Arm CPUs: Llama 3.2 11B Vision Instruct is compressed to 3.7 GB with 8-bit activations, with no notable loss on standard visual question-answering tasks. The quantization pipeline <a href=\"https://arxiv.org/abs/2608.21134\">generates its own training data</a>, without access to the original data.",
+        "de": "Ein Vision-Sprach-Modell mit 11 Milliarden Parametern in die Hosentasche zwängen? In einem am 24. August von den Daily Papers hervorgehobenen Papier schlägt ein Team ein Format mit 2,7 Bit pro Parameter vor, das auf Arm-CPUs lauffähig ist: Llama 3.2 11B Vision Instruct wird auf 3,7 GB komprimiert, mit 8-Bit-Aktivierungen, ohne nennenswerte Einbussen bei den üblichen Aufgaben der visuellen Frage-Antwort. Die Quantisierungspipeline <a href=\"https://arxiv.org/abs/2608.21134\">erzeugt ihre Trainingsdaten selbst</a>, ohne Zugriff auf die Originaldaten.",
+        "it": "Far stare un modello visione-linguaggio da 11 miliardi di parametri in una tasca? Un team propone, in un paper messo in evidenza il 24 agosto dal Daily Papers, un formato a 2,7 bit per parametro eseguibile su CPU Arm: Llama 3.2 11B Vision Instruct viene compresso a 3,7 GB con attivazioni a 8 bit, senza perdite evidenti sui compiti standard di risposta a domande visive. La pipeline di quantizzazione <a href=\"https://arxiv.org/abs/2608.21134\">genera da sola i propri dati di addestramento</a>, senza accesso ai dati originali.",
+        "lmo": "Faire tenir un modèle vision-langage de 11 milliards de paramètres dans une poche ? Une équipe propose, dans un papier mis en avant le 24 août par le Daily Papers, un format à 2,7 bits par paramètre exécutable sur CPU Arm : Llama 3.2 11B Vision Instruct est compressé à 3,7 Go avec des activations en 8 bits, sans perte notable sur les tâches standard de question-réponse visuelle. Le pipeline de quantification <a href=\"https://arxiv.org/abs/2608.21134\">génère lui-même ses données d'entraînement</a>, sans accès aux données originales."
+      },
+      "tag": {
+        "fr": "Mobile",
+        "en": "Mobile",
+        "de": "Mobil",
+        "it": "Mobile",
+        "lmo": "Mobile"
+      },
+      "wire": {
+        "fr": "From the Wires — 24 août 2026",
+        "en": "From the Wires — 24 August 2026",
+        "de": "From the Wires — 24. August 2026",
+        "it": "Dalle agenzie — 24 agosto 2026",
+        "lmo": "From the Wires — 24 août 2026"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2608.21134"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & the Frontier",
+        "de": "Titelseite — Modelle & Frontier",
+        "it": "Prima pagina — Modelli & Frontiera",
+        "lmo": "À la Une — Modèles & Frontière"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La frontière ouverte",
+            "en": "The open frontier",
+            "de": "Die offene Frontier",
+            "it": "La frontiera aperta",
+            "lmo": "La frontière ouverte"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Qwen 3.8 27B boucle un travail de rétro-ingénierie en 30 minutes",
+                "en": "Qwen 3.8 27B completes a reverse-engineering job in 30 minutes",
+                "de": "Qwen 3.8 27B schliesst eine Reverse-Engineering-Aufgabe in 30 Minuten ab",
+                "it": "Qwen 3.8 27B completa un lavoro di reverse engineering in 30 minuti",
+                "lmo": "Qwen 3.8 27B boucle un travail de rétro-ingénierie en 30 minutes"
+              },
+              "body": {
+                "fr": "Le 23 août 2026, XDA Developers relate un test hors norme : un modèle open weights de 27 milliards de paramètres, <a href=\"https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\">Qwen 3.8 27B</a>, aurait mené à bien en 30 minutes une tâche de rétro-ingénierie logicielle, un territoire traditionnellement réservé aux modèles propriétaires de plus grande taille. La story a décollé sur Hacker News le jour même : 159 points et 80 commentaires au compteur.",
+                "en": "On 23 August 2026, XDA Developers reported a remarkable test: a 27-billion-parameter open-weights model, <a href=\"https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\">Qwen 3.8 27B</a>, allegedly completed a software reverse-engineering task in 30 minutes, territory traditionally reserved for larger proprietary models. The story took off on Hacker News the same day: 159 points and 80 comments at last count.",
+                "de": "Am 23. August 2026 berichtet XDA Developers über einen aussergewöhnlichen Test: Ein Open-Weights-Modell mit 27 Milliarden Parametern, <a href=\"https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\">Qwen 3.8 27B</a>, habe in 30 Minuten eine Aufgabe des Software-Reverse-Engineering abgeschlossen — ein Terrain, das traditionell grösseren proprietären Modellen vorbehalten ist. Die Story ging noch am selben Tag auf Hacker News hoch: 159 Punkte und 80 Kommentare standen zu Buche.",
+                "it": "Il 23 agosto 2026, XDA Developers racconta un test fuori dal comune: un modello open weights da 27 miliardi di parametri, <a href=\"https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\">Qwen 3.8 27B</a>, avrebbe portato a termine in 30 minuti un compito di reverse engineering del software, un territorio tradizionalmente riservato ai modelli proprietari di dimensioni maggiori. La storia è decollata su Hacker News lo stesso giorno: 159 punti e 80 commenti al contatore.",
+                "lmo": "Le 23 août 2026, XDA Developers relate un test hors norme : un modèle open weights de 27 milliards de paramètres, <a href=\"https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/\">Qwen 3.8 27B</a>, aurait mené à bien en 30 minutes une tâche de rétro-ingénierie logicielle, un territoire traditionnellement réservé aux modèles propriétaires de plus grande taille. La story a décollé sur Hacker News le jour même : 159 points et 80 commentaires au compteur."
+              },
+              "kicker": {
+                "fr": "Open weights",
+                "en": "Open weights",
+                "de": "Offene Gewichte",
+                "it": "Pesi aperti",
+                "lmo": "Open weights"
+              },
+              "wire": {
+                "fr": "From the Wires — 23 août 2026",
+                "en": "From the Wires — 23 August 2026",
+                "de": "From the Wires — 23. August 2026",
+                "it": "Dalle agenzie — 23 agosto 2026",
+                "lmo": "From the Wires — 23 août 2026"
+              },
+              "urls": [
+                "https://www.xda-developers.com/qwen-3-8-27b-reverse-engineering-job-frontier-model/",
+                "https://news.ycombinator.com/item?id=49407507"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Distillation on-policy : ce qui se transmet, c'est le raisonnement, pas les réponses",
+                "en": "On-policy distillation: what transfers is the reasoning, not the answers",
+                "de": "On-Policy-Destillation: Übertragen wird das Denken, nicht die Antworten",
+                "it": "Distillazione on-policy: ciò che si trasmette è il ragionamento, non le risposte",
+                "lmo": "Distillation on-policy : ce qui se transmet, c'est le raisonnement, pas les réponses"
+              },
+              "body": {
+                "fr": "Qu'est-ce qui passe réellement entre un enseignant et un élève lors d'une distillation on-policy ? Une étude contrôlée du IQuest Lab, mise en avant le 24 août par le Daily Papers de Hugging Face, varie les facteurs de généralisation un par un et conclut que l'OPD <a href=\"https://arxiv.org/abs/2608.16647\">transfère les comportements de raisonnement plutôt que les réponses</a> à des problèmes particuliers : la difficulté d'entraînement compte à peine, et même les problèmes jamais résolus par l'enseignant restent utiles.",
+                "en": "What actually passes between a teacher and a student during on-policy distillation? A controlled study from the IQuest Lab, featured on 24 August by Hugging Face's Daily Papers, varies the factors of generalization one by one and concludes that OPD <a href=\"https://arxiv.org/abs/2608.16647\">transfers reasoning behaviours rather than answers</a> to particular problems: training difficulty barely matters, and even problems never solved by the teacher remain useful.",
+                "de": "Was geht bei einer On-Policy-Destillation tatsächlich zwischen Lehrer und Schüler über? Eine kontrollierte Studie des IQuest Lab, am 24. August von Hugging Faces Daily Papers hervorgehoben, variiert die Verallgemeinerungsfaktoren einzeln und schliesst daraus, dass OPD <a href=\"https://arxiv.org/abs/2608.16647\">Schlussfolgerungsverhalten statt Antworten auf einzelne Probleme überträgt</a>: Die Schwierigkeit der Trainingsaufgaben spielt kaum eine Rolle, und selbst vom Lehrer nie gelöste Probleme bleiben nützlich.",
+                "it": "Che cosa passa realmente tra un insegnante e uno studente durante una distillazione on-policy? Uno studio controllato dello IQuest Lab, messo in evidenza il 24 agosto dal Daily Papers di Hugging Face, varia uno per uno i fattori di generalizzazione e conclude che l'OPD <a href=\"https://arxiv.org/abs/2608.16647\">trasferisce i comportamenti di ragionamento piuttosto che le risposte</a> a problemi specifici: la difficoltà di addestramento conta appena e perfino i problemi mai risolti dall'insegnante restano utili.",
+                "lmo": "Qu'est-ce qui passe réellement entre un enseignant et un élève lors d'une distillation on-policy ? Une étude contrôlée du IQuest Lab, mise en avant le 24 août par le Daily Papers de Hugging Face, varie les facteurs de généralisation un par un et conclut que l'OPD <a href=\"https://arxiv.org/abs/2608.16647\">transfère les comportements de raisonnement plutôt que les réponses</a> à des problèmes particuliers : la difficulté d'entraînement compte à peine, et même les problèmes jamais résolus par l'enseignant restent utiles."
+              },
+              "kicker": {
+                "fr": "Entraînement",
+                "en": "Training",
+                "de": "Training",
+                "it": "Addestramento",
+                "lmo": "Entraînement"
+              },
+              "wire": {
+                "fr": "Daily Papers — Hugging Face, 24 août 2026",
+                "en": "Daily Papers — Hugging Face, 24 August 2026",
+                "de": "Daily Papers — Hugging Face, 24. August 2026",
+                "it": "Daily Papers — Hugging Face, 24 agosto 2026",
+                "lmo": "Daily Papers — Hugging Face, 24 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.16647"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Recherche"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Daily Papers — 24 août 2026",
+            "en": "Daily Papers — 24 August 2026",
+            "de": "Daily Papers — 24. August 2026",
+            "it": "Daily Papers — 24 agosto 2026",
+            "lmo": "Daily Papers — 24 août 2026"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "RecVerse : simuler des acheteurs crédibles, entre mémoire hiérarchique et renforcement",
+                "en": "RecVerse: simulating credible buyers, between hierarchical memory and reinforcement",
+                "de": "RecVerse: Glaubwürdige Käufer simulieren — zwischen hierarchischem Gedächtnis und Verstärkungslernen",
+                "it": "RecVerse: simulare acquirenti credibili, tra memoria gerarchica e rinforzo",
+                "lmo": "RecVerse : simuler des acheteurs crédibles, entre mémoire hiérarchique et renforcement"
+              },
+              "body": {
+                "fr": "Simuler un internaute crédible suppose de traverser des dizaines de pages sans perdre l'état du consommateur ni saturer le contexte. RecVerse, mis en avant le 24 août par le Daily Papers, perçoit les pages par captures d'écran et organise sa mémoire en trois étages — travail, épisodique, préférences — avec des mises à jour traitées comme des actions. Optimisé par un objectif de renforcement au niveau de la trajectoire complète, l'agent s'accompagne d'<a href=\"https://arxiv.org/abs/2608.20707\">USB, un jeu de données interactif de trajectoires e-commerce</a> multi-tours.",
+                "en": "Simulating a credible web user means traversing dozens of pages without losing the consumer's state or saturating the context. RecVerse, featured on 24 August by the Daily Papers, perceives pages through screenshots and organizes its memory in three tiers — working, episodic, preferences — with updates treated as actions. Optimized by a reinforcement objective at the level of the complete trajectory, the agent comes with <a href=\"https://arxiv.org/abs/2608.20707\">USB, an interactive dataset of multi-turn e-commerce trajectories</a>.",
+                "de": "Einen glaubwürdigen Internetnutzer zu simulieren heisst, dutzende Seiten zu durchlaufen, ohne den Zustand des Konsumenten zu verlieren oder den Kontext zu überladen. RecVerse, am 24. August von den Daily Papers hervorgehoben, nimmt Seiten anhand von Screenshots wahr und organisiert sein Gedächtnis in drei Ebenen — Arbeits-, episodisch, Präferenzen —, wobei Aktualisierungen als Aktionen behandelt werden. Mit einem Verstärkungsziel auf Ebene der vollständigen Trajektorie optimiert, wird der Agent von <a href=\"https://arxiv.org/abs/2608.20707\">USB begleitet, einem interaktiven Datensatz von Multi-Turn-E-Commerce-Trajektorien</a>.",
+                "it": "Simulare un utente web credibile presuppone attraversare decine di pagine senza perdere lo stato del consumatore né saturare il contesto. RecVerse, messo in evidenza il 24 agosto dal Daily Papers, percepisce le pagine tramite screenshot e organizza la memoria su tre livelli — di lavoro, episodica, preferenze — con aggiornamenti trattati come azioni. Ottimizzato da un obiettivo di rinforzo a livello dell'intera traiettoria, l'agente è accompagnato da <a href=\"https://arxiv.org/abs/2608.20707\">USB, un dataset interattivo di traiettorie e-commerce</a> multi-turno.",
+                "lmo": "Simuler un internaute crédible suppose de traverser des dizaines de pages sans perdre l'état du consommateur ni saturer le contexte. RecVerse, mis en avant le 24 août par le Daily Papers, perçoit les pages par captures d'écran et organise sa mémoire en trois étages — travail, épisodique, préférences — avec des mises à jour traitées comme des actions. Optimisé par un objectif de renforcement au niveau de la trajectoire complète, l'agent s'accompagne d'<a href=\"https://arxiv.org/abs/2608.20707\">USB, un jeu de données interactif de trajectoires e-commerce</a> multi-tours."
+              },
+              "kicker": {
+                "fr": "Agents & RL",
+                "en": "Agents & RL",
+                "de": "Agenten & RL",
+                "it": "Agenti & RL",
+                "lmo": "Agents & RL"
+              },
+              "wire": {
+                "fr": "Daily Papers — Hugging Face, 24 août 2026",
+                "en": "Daily Papers — Hugging Face, 24 August 2026",
+                "de": "Daily Papers — Hugging Face, 24. August 2026",
+                "it": "Daily Papers — Hugging Face, 24 agosto 2026",
+                "lmo": "Daily Papers — Hugging Face, 24 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.20707"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Tencent mesure ce que les modèles multimodaux racontent, pas seulement ce qu'ils savent",
+                "en": "Tencent measures what multimodal models say, not just what they know",
+                "de": "Tencent misst, was multimodale Modelle erzählen, nicht nur, was sie wissen",
+                "it": "Tencent misura ciò che i modelli multimodali raccontano, non solo ciò che sanno",
+                "lmo": "Tencent mesure ce que les modèles multimodaux racontent, pas seulement ce qu'ils savent"
+              },
+              "body": {
+                "fr": "Une réponse peut être juste et pourtant inutilisable : raisonnement qui fuit, répétitions, contradictions, effort performatif. Des chercheurs de Tencent publient PatternEval, un banc de diagnostic de 2 415 prompts multimodaux qui mesure ces quatre défaillances de comportement, sensiblement plus fréquentes en mode non-réflexif. Le remède proposé, PatternRL, injecte des pénalités spécifiques lors de l'apprentissage par renforcement et <a href=\"https://arxiv.org/abs/2608.12781\">réduit le désalignement entre modes sur Qwen3-VL-4B et Qwen3-VL-8B</a>, au prix d'une légère contrepartie de performance.",
+                "en": "A response can be correct and still unusable: leaking reasoning, repetitions, contradictions, performative effort. Researchers at Tencent publish PatternEval, a diagnostic benchmark of 2,415 multimodal prompts measuring these four behavioural failures, markedly more frequent in non-reflective mode. The proposed remedy, PatternRL, injects targeted penalties during reinforcement learning and <a href=\"https://arxiv.org/abs/2608.12781\">reduces cross-mode misalignment on Qwen3-VL-4B and Qwen3-VL-8B</a>, at the cost of a slight performance trade-off.",
+                "de": "Eine Antwort kann korrekt und dennoch unbrauchbar sein: ausuferndes Schlussfolgern, Wiederholungen, Widersprüche, performativer Aufwand. Forschende von Tencent veröffentlichen PatternEval, eine Diagnose-Bank mit 2'415 multimodalen Prompts, die diese vier Verhaltensschwächen misst; im nicht-reflektierenden Modus treten sie deutlich häufiger auf. Das vorgeschlagene Gegenmittel PatternRL injiziert beim Verstärkungslernen spezifische Strafterme und <a href=\"https://arxiv.org/abs/2608.12781\">reduziert die Abweichung zwischen den Modi auf Qwen3-VL-4B und Qwen3-VL-8B</a> — zum Preis einer leichten Leistungseinbusse.",
+                "it": "Una risposta può essere corretta eppure inutilizzabile: ragionamento che trapela, ripetizioni, contraddizioni, sforzo performativo. Un gruppo di ricercatori di Tencent pubblica PatternEval, un banco diagnostico di 2'415 prompt multimodali che misura questi quattro difetti comportamentali, sensibilmente più frequenti in modalità non riflessiva. Il rimedio proposto, PatternRL, inietta penalità specifiche durante l'apprendimento per rinforzo e <a href=\"https://arxiv.org/abs/2608.12781\">riduce il disallineamento tra le modalità su Qwen3-VL-4B e Qwen3-VL-8B</a>, al prezzo di una leggera contropartita in termini di prestazioni.",
+                "lmo": "Une réponse peut être juste et pourtant inutilisable : raisonnement qui fuit, répétitions, contradictions, effort performatif. Des chercheurs de Tencent publient PatternEval, un banc de diagnostic de 2 415 prompts multimodaux qui mesure ces quatre défaillances de comportement, sensiblement plus fréquentes en mode non-réflexif. Le remède proposé, PatternRL, injecte des pénalités spécifiques lors de l'apprentissage par renforcement et <a href=\"https://arxiv.org/abs/2608.12781\">réduit le désalignement entre modes sur Qwen3-VL-4B et Qwen3-VL-8B</a>, au prix d'une légère contrepartie de performance."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Évaluation"
+              },
+              "wire": {
+                "fr": "Daily Papers — Hugging Face, 24 août 2026",
+                "en": "Daily Papers — Hugging Face, 24 August 2026",
+                "de": "Daily Papers — Hugging Face, 24. August 2026",
+                "it": "Daily Papers — Hugging Face, 24 agosto 2026",
+                "lmo": "Daily Papers — Hugging Face, 24 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.12781"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Communauté & Édito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Signaux de la communauté"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« What Is a Harness? » : un billet veut fixer la définition de la pièce maîtresse des agents",
+                "en": "\"What Is a Harness?\": a post seeks to pin down the definition of the linchpin of agents",
+                "de": "«What Is a Harness?»: Ein Beitrag will das Kernstück der Agenten definieren",
+                "it": "«What Is a Harness?»: un post vuole fissare la definizione del pezzo centrale degli agenti",
+                "lmo": "« What Is a Harness? » : un billet veut fixer la définition de la pièce maîtresse des agents"
+              },
+              "body": {
+                "fr": "Le 23 août 2026, un billet sobrement intitulé « What Is a Harness? » a ouvert la discussion sur Hacker News, récoltant 27 points et 15 commentaires : quand un terme envahit les notes de version et les débats d'architecture, sa définition même devient un enjeu. La question tombe à point : à mesure que les modèles s'égalisent, c'est bien la couche d'outils qui les entoure — le <a href=\"https://earendil.com/posts/what-is-a-harness/\">harnais</a> — qui concentre l'attention des praticiens.",
+                "en": "On 23 August 2026, a post soberly titled \"What Is a Harness?\" opened the discussion on Hacker News, gathering 27 points and 15 comments: when a term invades release notes and architecture debates, its very definition becomes a stake. The question is timely: as models converge, it is precisely the layer of tools surrounding them — the <a href=\"https://earendil.com/posts/what-is-a-harness/\">harness</a> — that is drawing practitioners' attention.",
+                "de": "Am 23. August 2026 hat ein schlicht «What Is a Harness?» betitelter Beitrag die Diskussion auf Hacker News eröffnet und dabei 27 Punkte und 15 Kommentare geerntet: Wenn ein Begriff die Release Notes und die Architekturdebatten überflutet, wird seine Definition selbst zur Streitfrage. Die Frage kommt gelegen: Je stärker sich die Modelle angleichen, desto mehr richtet sich die Aufmerksamkeit der Praktiker auf die Werkzeugschicht um sie herum — das <a href=\"https://earendil.com/posts/what-is-a-harness/\">Harness</a>.",
+                "it": "Il 23 agosto 2026, un post sobriamente intitolato «What Is a Harness?» ha aperto la discussione su Hacker News, raccogliendo 27 punti e 15 commenti: quando un termine invade le note di rilascio e i dibattiti di architettura, la sua stessa definizione diventa una posta in gioco. La domanda arriva al momento giusto: man mano che i modelli si equivalgono, è proprio lo strato di strumenti che li circonda — l'<a href=\"https://earendil.com/posts/what-is-a-harness/\">harness</a> — a concentrare l'attenzione dei pratici.",
+                "lmo": "Le 23 août 2026, un billet sobrement intitulé « What Is a Harness? » a ouvert la discussion sur Hacker News, récoltant 27 points et 15 commentaires : quand un terme envahit les notes de version et les débats d'architecture, sa définition même devient un enjeu. La question tombe à point : à mesure que les modèles s'égalisent, c'est bien la couche d'outils qui les entoure — le <a href=\"https://earendil.com/posts/what-is-a-harness/\">harnais</a> — qui concentre l'attention des praticiens."
+              },
+              "kicker": {
+                "fr": "Essai",
+                "en": "Essay",
+                "de": "Essay",
+                "it": "Saggio",
+                "lmo": "Essai"
+              },
+              "wire": {
+                "fr": "From the Wires — 23 août 2026",
+                "en": "From the Wires — 23 August 2026",
+                "de": "From the Wires — 23. August 2026",
+                "it": "Dalle agenzie — 23 agosto 2026",
+                "lmo": "From the Wires — 23 août 2026"
+              },
+              "urls": [
+                "https://earendil.com/posts/what-is-a-harness/",
+                "https://news.ycombinator.com/item?id=49409092"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Édito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'édito — La bataille se déplace du modèle à l'échafaudage",
+                "en": "Editorial — The battle shifts from the model to the scaffolding",
+                "de": "Der Leitartikel — Die Schlacht verlagert sich vom Modell zum Gerüst",
+                "it": "L'editoriale — La battaglia si sposta dal modello all'impalcatura",
+                "lmo": "L'édito — La bataille se déplace du modèle à l'échafaudage"
+              },
+              "body": {
+                "fr": "Un constat s'impose à la lecture des travaux du jour : l'innovation ne se joue plus seulement dans les poids. Les chercheurs qui plaident pour un <a href=\"https://arxiv.org/abs/2608.21156\">« Graph Engineering »</a> des systèmes d'agents, l'équipe qui synthétise <a href=\"https://arxiv.org/abs/2608.20634\">4 783 environnements d'entreprise exécutables</a> pour l'apprentissage par renforcement, le banc d'essai qui évalue des assistants vidéo en interaction plutôt qu'en compréhension passive : tous déplacent la frontière du modèle vers l'échafaudage qui l'entoure — harnais, graphes, mondes synthétiques. C'est un signal de maturité. Quand la recette d'entraînement des géants elle-même devient prédictible par de petits modèles proxy, comme le démontre le travail de Kakao en tête des votes du jour, la différenciation se loge dans l'ingénierie des systèmes. Les rédacteurs de ce journal suivront ce déplacement avec attention : la prochaine rupture aura probablement lieu autour des modèles, plus qu'en eux.",
+                "en": "One conclusion is inescapable when reading today's papers: innovation no longer plays out solely in the weights. The researchers advocating <a href=\"https://arxiv.org/abs/2608.21156\">\"Graph Engineering\"</a> for agent systems, the team synthesizing <a href=\"https://arxiv.org/abs/2608.20634\">4,783 executable enterprise environments</a> for reinforcement learning, the benchmark evaluating video assistants in interaction rather than passive comprehension: all are shifting the frontier from the model to the scaffolding around it — harnesses, graphs, synthetic worlds. It is a sign of maturity. When the training recipe of the giants itself becomes predictable from small proxy models, as the work by Kakao at the top of today's votes demonstrates, differentiation now lies in systems engineering. This newspaper's editors will follow this shift closely: the next rupture will likely take place around models, more than within them.",
+                "de": "Bei der Lektüre der heutigen Arbeiten drängt sich ein Befund auf: Innovation spielt sich nicht mehr allein in den Gewichten ab. Die Forschenden, die für ein <a href=\"https://arxiv.org/abs/2608.21156\">«Graph Engineering»</a> von Agentensystemen plädieren, das Team, das <a href=\"https://arxiv.org/abs/2608.20634\">4'783 ausführbare Unternehmensumgebungen</a> für das Verstärkungslernen synthetisiert, der Prüfstand, der Videoassistenten in der Interaktion statt im passiven Verstehen evaluiert: Sie alle verlagern die Frontier vom Modell hin zum Gerüst, das es umgibt — Harness, Graphen, synthetische Welten. Das ist ein Reifesignal. Wenn selbst das Trainingsrezept der Giganten durch kleine Proxy-Modelle vorhersagbar wird, wie es die Arbeit von Kakao an der Spitze der Tagesabstimmungen demonstriert, liegt die Differenzierung in der Systemtechnik. Die Redaktion dieses Blattes wird diese Verschiebung aufmerksam verfolgen: Der nächste Bruch dürfte um die Modelle herum stattfinden, eher als in ihnen.",
+                "it": "Una constatazione si impone alla lettura dei lavori del giorno: l'innovazione non si gioca più soltanto nei pesi. I ricercatori che propugnano un <a href=\"https://arxiv.org/abs/2608.21156\">«Graph Engineering»</a> dei sistemi di agenti, il team che sintetizza <a href=\"https://arxiv.org/abs/2608.20634\">4'783 ambienti aziendali eseguibili</a> per l'apprendimento per rinforzo, il banco di prova che valuta assistenti video in interazione anziché in comprensione passiva: tutti spostano la frontiera del modello verso l'impalcatura che lo circonda — harness, grafi, mondi sintetici. È un segnale di maturità. Quando persino la ricetta di addestramento dei giganti diventa prevedibile tramite piccoli modelli proxy, come dimostra il lavoro di Kakao in testa alle votazioni del giorno, la differenziazione si colloca nell'ingegneria dei sistemi. I redattori di questo giornale seguiranno questo spostamento con attenzione: la prossima rottura avrà probabilmente luogo attorno ai modelli, più che dentro di essi.",
+                "lmo": "Un constat s'impose à la lecture des travaux du jour : l'innovation ne se joue plus seulement dans les poids. Les chercheurs qui plaident pour un <a href=\"https://arxiv.org/abs/2608.21156\">« Graph Engineering »</a> des systèmes d'agents, l'équipe qui synthétise <a href=\"https://arxiv.org/abs/2608.20634\">4 783 environnements d'entreprise exécutables</a> pour l'apprentissage par renforcement, le banc d'essai qui évalue des assistants vidéo en interaction plutôt qu'en compréhension passive : tous déplacent la frontière du modèle vers l'échafaudage qui l'entoure — harnais, graphes, mondes synthétiques. C'est un signal de maturité. Quand la recette d'entraînement des géants elle-même devient prédictible par de petits modèles proxy, comme le démontre le travail de Kakao en tête des votes du jour, la différenciation se loge dans l'ingénierie des systèmes. Les rédacteurs de ce journal suivront ce déplacement avec attention : la prochaine rupture aura probablement lieu autour des modèles, plus qu'en eux."
+              },
+              "kicker": {
+                "fr": "L'édito du jour",
+                "en": "Today's editorial",
+                "de": "Der Leitartikel des Tages",
+                "it": "L'editoriale del giorno",
+                "lmo": "L'édito du jour"
+              },
+              "wire": {
+                "fr": "The Neuron Times — 24 août 2026",
+                "en": "The Neuron Times — 24 August 2026",
+                "de": "The Neuron Times — 24. August 2026",
+                "it": "The Neuron Times — 24 agosto 2026",
+                "lmo": "The Neuron Times — 24 août 2026"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.21156",
+                "https://arxiv.org/abs/2608.20634",
+                "https://earendil.com/posts/what-is-a-harness/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
