@@ -1,0 +1,519 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-08-23",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le 22 août 2026, le blog officiel du Model Context Protocol a publié une nouvelle feuille de route du protocole, immédiatement arrivée en tête des discussions techniques de Hacker News : 192 points et 129 commentaires pour ce document qui fixe le cap des évolutions à venir du standard. L'annonce est <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">consultable sur le blog du protocole</a>.",
+        "en": "On 22 August 2026, the official Model Context Protocol blog published a new road map for the protocol, which immediately topped Hacker News's technical discussions: 192 points and 129 comments for a document that sets the course for the standard's future evolution. The announcement can be <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">read on the protocol's blog</a>.",
+        "de": "Am 22. August 2026 hat der offizielle Blog des Model Context Protocol eine neue Roadmap des Protokolls veröffentlicht, die sofort an die Spitze der technischen Diskussionen auf Hacker News gelangte: 192 Punkte und 129 Kommentare für dieses Dokument, das den Kurs für die künftige Entwicklung des Standards festlegt. Die Ankündigung ist <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">im Blog des Protokolls abrufbar</a>.",
+        "it": "Il 22 agosto 2026 il blog ufficiale del Model Context Protocol ha pubblicato una nuova roadmap del protocollo, subito arrivata in cima alle discussioni tecniche di Hacker News: 192 punti e 129 commenti per un documento che fissa la rotta delle future evoluzioni dello standard. L'annuncio è <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">consultabile sul blog del protocollo</a>.",
+        "lmo": "Le 22 août 2026, le blog officiel du Model Context Protocol a publié une nouvelle feuille de route du protocole, immédiatement arrivée en tête des discussions techniques de Hacker News : 192 points et 129 commentaires pour ce document qui fixe le cap des évolutions à venir du standard. L'annonce est <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">consultable sur le blog du protocole</a>."
+      },
+      {
+        "fr": "Le MCP est la couche par laquelle modèles, agents et harnais se raccordent aux outils et aux données. Lancé par Anthropic fin 2024 puis adopté par la plupart des grands laboratoires, il s'est imposé comme la langue commune de l'écosystème agentique : chaque ajustement engage, d'un coup, l'ensemble des serveurs d'outils, des IDE et des agents de code qui s'y sont branchés. Une feuille de route n'y est donc jamais un simple document technique, mais un engagement de compatibilité envers tout un pan de l'industrie.",
+        "en": "MCP is the layer through which models, agents and harnesses connect to tools and data. Launched by Anthropic in late 2024 and since adopted by most major laboratories, it has established itself as the common language of the agent ecosystem: each adjustment commits, at a stroke, the entire population of tool servers, IDEs and code agents plugged into it. A road map is therefore never merely a technical document, but a pledge of compatibility towards an entire segment of the industry.",
+        "de": "MCP ist die Schicht, über die sich Modelle, Agenten und Harnesses mit Werkzeugen und Daten verbinden. Ende 2024 von Anthropic lanciert und danach von den meisten grossen Laboren übernommen, hat sich das Protokoll als gemeinsame Sprache des Agenten-Ökosystems etabliert: Jede Anpassung bindet mit einem Schlag sämtliche Tool-Server, IDEs und Code-Agenten, die daran angeschlossen sind. Eine Roadmap ist in diesem Umfeld nie bloss ein technisches Dokument, sondern ein Kompatibilitätsversprechen gegenüber einem ganzen Zweig der Industrie.",
+        "it": "L'MCP è il livello attraverso cui modelli, agenti e harness si collegano agli strumenti e ai dati. Lanciato da Anthropic alla fine del 2024 e poi adottato dalla maggior parte dei grandi laboratori, si è imposto come la lingua comune dell'ecosistema agentico: ogni aggiustamento impegna, in un colpo solo, l'insieme dei server di strumenti, degli IDE e degli agenti di codice che vi si sono collegati. Una roadmap non è mai dunque un semplice documento tecnico, ma un impegno di compatibilità nei confronti di un intero settore dell'industria.",
+        "lmo": "Le MCP est la couche par laquelle modèles, agents et harnais se raccordent aux outils et aux données. Lancé par Anthropic fin 2024 puis adopté par la plupart des grands laboratoires, il s'est imposé comme la langue commune de l'écosystème agentique : chaque ajustement engage, d'un coup, l'ensemble des serveurs d'outils, des IDE et des agents de code qui s'y sont branchés. Une feuille de route n'y est donc jamais un simple document technique, mais un engagement de compatibilité envers tout un pan de l'industrie."
+      },
+      {
+        "fr": "La vigueur du débat, suivie <a href=\"https://news.ycombinator.com/item?id=49399591\">sur Hacker News</a>, illustre ce basculement : à l'heure où les capacités des modèles frontière se rapprochent, c'est la plomberie — protocoles, compatibilité, interopérabilité — qui mobilise l'attention des développeurs. En plein week-end d'été, un document de spécification a ainsi réuni plus de commentaires que bien des lancements de produits : le vrai calendrier de l'industrie se joue aussi dans ses normes.",
+        "en": "The vigour of the debate, followed <a href=\"https://news.ycombinator.com/item?id=49399591\">on Hacker News</a>, illustrates this shift: as the capabilities of frontier models converge, it is the plumbing — protocols, compatibility, interoperability — that now commands developers' attention. In the middle of a summer weekend, a specification document thus drew more comments than many a product launch: the industry's real timetable is also being played out in its standards.",
+        "de": "Die Lebhaftigkeit der Debatte, die <a href=\"https://news.ycombinator.com/item?id=49399591\">auf Hacker News</a> verfolgt wurde, illustriert diesen Umschwung: In einer Zeit, in der sich die Fähigkeiten der Frontier-Modelle einander angleichen, ist es die Verrohrung – Protokolle, Kompatibilität, Interoperabilität –, welche die Aufmerksamkeit der Entwickler bindet. Mitten im Sommerwochenende versammelte so ein Spezifikationsdokument mehr Kommentare als manche Produkteinführung: Auch der wahre Kalender der Industrie wird in seinen Normen geschrieben.",
+        "it": "Il vigore del dibattito, seguito <a href=\"https://news.ycombinator.com/item?id=49399591\">su Hacker News</a>, illustra questo cambiamento: in un'epoca in cui le capacità dei modelli di frontiera si avvicinano, è l'impiantistica — protocolli, compatibilità, interoperabilità — a mobilitare l'attenzione degli sviluppatori. In pieno fine settimana estivo, un documento di specifiche ha così raccolto più commenti di molti lanci di prodotti: il vero calendario dell'industria si decide anche nelle sue norme.",
+        "lmo": "La vigueur du débat, suivie <a href=\"https://news.ycombinator.com/item?id=49399591\">sur Hacker News</a>, illustre ce basculement : à l'heure où les capacités des modèles frontière se rapprochent, c'est la plomberie — protocoles, compatibilité, interopérabilité — qui mobilise l'attention des développeurs. En plein week-end d'été, un document de spécification a ainsi réuni plus de commentaires que bien des lancements de produits : le vrai calendrier de l'industrie se joue aussi dans ses normes."
+      }
+    ],
+    "urls": [
+      "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+      "https://news.ycombinator.com/item?id=49399591"
+    ],
+    "kicker": {
+      "fr": "Standard des agents",
+      "en": "The Agents' Standard",
+      "de": "Agenten-Standard",
+      "it": "Lo standard degli agenti",
+      "lmo": "Standard des agents"
+    },
+    "headline": {
+      "fr": "Le Model Context Protocol publie sa feuille de route, et la communauté s'en empare",
+      "en": "Model Context Protocol Publishes Its Road Map, and the Community Seizes on It",
+      "de": "Das Model Context Protocol veröffentlicht seine Roadmap – und die Community macht sie sich zu eigen",
+      "it": "Il Model Context Protocol pubblica la sua roadmap e la comunità se ne impossessa",
+      "lmo": "Le Model Context Protocol publie sa feuille de route, et la communauté s'en empare"
+    },
+    "subdeck": {
+      "fr": "Publiée à l'orée du week-end du 22 août 2026, la feuille de route du protocole dominant de l'écosystème agentique a déclenché l'une des discussions techniques les plus fournies de Hacker News.",
+      "en": "Published at the opening of the weekend of 22 August 2026, the road map of the agent ecosystem's dominant protocol has triggered one of the most substantial technical discussions on Hacker News.",
+      "de": "Am Vorabend des Wochenendes vom 22. August 2026 veröffentlicht, hat die Roadmap des im Agenten-Ökosystem dominierenden Protokolls eine der ergiebigsten technischen Diskussionen auf Hacker News ausgelöst.",
+      "it": "Pubblicata all'avvio del fine settimana del 22 agosto 2026, la roadmap del protocollo dominante dell'ecosistema agentico ha scatenato una delle discussioni tecniche più ricche apparse su Hacker News.",
+      "lmo": "Publiée à l'orée du week-end du 22 août 2026, la feuille de route du protocole dominant de l'écosystème agentique a déclenché l'une des discussions techniques les plus fournies de Hacker News."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Un harnais d'agents pour diriger « un bureau de vos clones »",
+        "en": "An Agent Harness to Run “An Office of Your Clones”",
+        "de": "Ein Agenten-Harness zur Steuerung eines «Büros aus Ihren Klonen»",
+        "it": "Un harness di agenti per gestire « un ufficio dei vostri cloni »",
+        "lmo": "Un harnais d'agents pour diriger « un bureau de vos clones »"
+      },
+      "body": {
+        "fr": "Le projet <a href=\"https://munderdiffl.in/\">Munder Difflin</a>, un « agent harness » qui se présente comme l'outil pour faire tourner un bureau peuplé de clones de l'utilisateur, a été l'une des attractions de Hacker News le 22 août 2026 : 270 points et 117 commentaires en une journée. La <a href=\"https://news.ycombinator.com/item?id=49398152\">discussion</a> accompagne un lancement très remarqué.",
+        "en": "The project <a href=\"https://munderdiffl.in/\">Munder Difflin</a>, an “agent harness” that presents itself as the tool for running an office staffed with the user's clones, was among Hacker News's attractions on 22 August 2026: 270 points and 117 comments in a single day. The <a href=\"https://news.ycombinator.com/item?id=49398152\">discussion</a> accompanies a much-noticed launch.",
+        "de": "Das Projekt <a href=\"https://munderdiffl.in/\">Munder Difflin</a>, ein «Agent-Harness», das sich als Werkzeug für den Betrieb eines von Klonen des Nutzers bevölkerten Büros versteht, gehörte am 22. August 2026 zu den Anziehungspunkten auf Hacker News: 270 Punkte und 117 Kommentare an einem einzigen Tag. Die <a href=\"https://news.ycombinator.com/item?id=49398152\">Diskussion</a> begleitet eine viel beachtete Lancierung.",
+        "it": "Il progetto <a href=\"https://munderdiffl.in/\">Munder Difflin</a>, un «agent harness» che si presenta come lo strumento per far girare un ufficio popolato di cloni dell'utente, è stata una delle attrazioni di Hacker News il 22 agosto 2026: 270 punti e 117 commenti in una giornata. La <a href=\"https://news.ycombinator.com/item?id=49398152\">discussione</a> accompagna un lancio molto notato.",
+        "lmo": "Le projet <a href=\"https://munderdiffl.in/\">Munder Difflin</a>, un « agent harness » qui se présente comme l'outil pour faire tourner un bureau peuplé de clones de l'utilisateur, a été l'une des attractions de Hacker News le 22 août 2026 : 270 points et 117 commentaires en une journée. La <a href=\"https://news.ycombinator.com/item?id=49398152\">discussion</a> accompagne un lancement très remarqué."
+      },
+      "tag": {
+        "fr": "Lancement",
+        "en": "Launch",
+        "de": "Lancierung",
+        "it": "Lancio",
+        "lmo": "Lancement"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 août 2026",
+        "en": "From the Wires — 22 August 2026",
+        "de": "From the Wires – 22. August 2026",
+        "it": "Dalle agenzie — 22 agosto 2026",
+        "lmo": "From the Wires — 22 août 2026"
+      },
+      "urls": [
+        "https://munderdiffl.in/",
+        "https://news.ycombinator.com/item?id=49398152"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "LLM locaux : « plus bêtes qu'ils ne sont » ? Un fil touche un nerf",
+        "en": "Local LLMs: “Dumber Than They Are”? A Thread Strikes a Nerve",
+        "de": "Lokale LLM: «dümmer, als sie sind»? Ein Thread trifft einen Nerv",
+        "it": "LLM locali: « più stupidi di quanto siano »? Un thread tocca un nervo scoperto",
+        "lmo": "LLM locaux : « plus bêtes qu'ils ne sont » ? Un fil touche un nerf"
+      },
+      "body": {
+        "fr": "Un billet du forum Level1Techs, <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a>, a cumulé 257 points et 84 commentaires sur Hacker News le 22 août 2026 en interrogeant l'écart entre les évaluations des modèles exécutés en local et l'expérience réelle de leurs utilisateurs.",
+        "en": "A post on the Level1Techs forum, <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">“Why your local LLM feels dumber than it is”</a>, racked up 257 points and 84 comments on Hacker News on 22 August 2026 by probing the gap between evaluations of locally run models and their users' real-world experience.",
+        "de": "Ein Beitrag aus dem Forum Level1Techs, <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">«Why your local LLM feels dumber than it is»</a>, hat am 22. August 2026 auf Hacker News 257 Punkte und 84 Kommentare angehäuft, indem er die Lücke zwischen den Bewertungen lokal betriebener Modelle und dem tatsächlichen Erleben ihrer Nutzer ausleuchtete.",
+        "it": "Un post del forum Level1Techs, <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a>, ha totalizzato 257 punti e 84 commenti su Hacker News il 22 agosto 2026 interrogandosi sul divario tra le valutazioni dei modelli eseguiti in locale e l'esperienza reale dei loro utenti.",
+        "lmo": "Un billet du forum Level1Techs, <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a>, a cumulé 257 points et 84 commentaires sur Hacker News le 22 août 2026 en interrogeant l'écart entre les évaluations des modèles exécutés en local et l'expérience réelle de leurs utilisateurs."
+      },
+      "tag": {
+        "fr": "Inférence",
+        "en": "Inference",
+        "de": "Inferenz",
+        "it": "Inferenza",
+        "lmo": "Inférence"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 août 2026",
+        "en": "From the Wires — 22 August 2026",
+        "de": "From the Wires – 22. August 2026",
+        "it": "Dalle agenzie — 22 agosto 2026",
+        "lmo": "From the Wires — 22 août 2026"
+      },
+      "urls": [
+        "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+        "https://news.ycombinator.com/item?id=49402232"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "« NanoGPT Speedrun Frontier » : Prime Intellect ouvre la chasse aux records",
+        "en": "“NanoGPT Speedrun Frontier”: Prime Intellect Opens the Record Hunt",
+        "de": "«NanoGPT Speedrun Frontier»: Prime Intellect eröffnet die Rekordjagd",
+        "it": "« NanoGPT Speedrun Frontier »: Prime Intellect apre la caccia ai record",
+        "lmo": "« NanoGPT Speedrun Frontier » : Prime Intellect ouvre la chasse aux records"
+      },
+      "body": {
+        "fr": "La page <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, hébergée par le laboratoire décentralisé Prime Intellect et consacrée aux records d'entraînement de modèles de classe GPT-2, a fait son entrée sur Hacker News le 22 août 2026 au soir : 78 points et 20 commentaires.",
+        "en": "The <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a> page, hosted by the decentralised laboratory Prime Intellect and devoted to training records for GPT-2-class models, made its entrance on Hacker News on the evening of 22 August 2026: 78 points and 20 comments.",
+        "de": "Die Seite <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, gehostet vom dezentralen Labor Prime Intellect und den Trainingsrekorden von Modellen der GPT-2-Klasse gewidmet, hielt am Abend des 22. August 2026 Einzug auf Hacker News: 78 Punkte und 20 Kommentare.",
+        "it": "La pagina <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, ospitata dal laboratorio decentralizzato Prime Intellect e dedicata ai record di addestramento di modelli di classe GPT-2, ha fatto il suo ingresso su Hacker News la sera del 22 agosto 2026: 78 punti e 20 commenti.",
+        "lmo": "La page <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, hébergée par le laboratoire décentralisé Prime Intellect et consacrée aux records d'entraînement de modèles de classe GPT-2, a fait son entrée sur Hacker News le 22 août 2026 au soir : 78 points et 20 commentaires."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Recherche"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 août 2026",
+        "en": "From the Wires — 22 August 2026",
+        "de": "From the Wires – 22. August 2026",
+        "it": "Dalle agenzie — 22 agosto 2026",
+        "lmo": "From the Wires — 22 août 2026"
+      },
+      "urls": [
+        "https://www.primeintellect.ai/research/nanogpt-speedrun",
+        "https://news.ycombinator.com/item?id=49404380"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ElevenLabs, TwelveLabs, ThirteenLabs : la dérision s'empare du naming",
+        "en": "ElevenLabs, TwelveLabs, ThirteenLabs: Mockery Takes Hold of the Naming Game",
+        "de": "ElevenLabs, TwelveLabs, ThirteenLabs: Der Spott bemächtigt sich der Namensgebung",
+        "it": "ElevenLabs, TwelveLabs, ThirteenLabs: la derisione si impadronisce del naming",
+        "lmo": "ElevenLabs, TwelveLabs, ThirteenLabs : la dérision s'empare du naming"
+      },
+      "body": {
+        "fr": "Une <a href=\"https://quantumi.sh/public/labs.html\">page satirique</a> déclinant à l'infini la mode des « labs » numérotés a trusté les conversations de Hacker News le 22 août 2026 : 353 points et 108 commentaires pour ce miroir tendu à la frénésie de branding de la génération IA.",
+        "en": "A <a href=\"https://quantumi.sh/public/labs.html\">satirical page</a> endlessly riffing on the vogue for numbered “labs” dominated Hacker News conversations on 22 August 2026: 353 points and 108 comments for this mirror held up to the branding frenzy of the AI generation.",
+        "de": "Eine <a href=\"https://quantumi.sh/public/labs.html\">satirische Seite</a>, die die Mode der nummerierten «Labs» ins Unendliche weitertreibt, hat am 22. August 2026 die Gespräche auf Hacker News dominiert: 353 Punkte und 108 Kommentare für dieses Spiegelbild der Branding-Frenesie der KI-Generation.",
+        "it": "Una <a href=\"https://quantumi.sh/public/labs.html\">pagina satirica</a> che declina all'infinito la moda dei «lab» numerati ha dominato le conversazioni di Hacker News il 22 agosto 2026: 353 punti e 108 commenti per questo specchio teso verso la frenesia di branding della generazione IA.",
+        "lmo": "Une <a href=\"https://quantumi.sh/public/labs.html\">page satirique</a> déclinant à l'infini la mode des « labs » numérotés a trusté les conversations de Hacker News le 22 août 2026 : 353 points et 108 commentaires pour ce miroir tendu à la frénésie de branding de la génération IA."
+      },
+      "tag": {
+        "fr": "Coulisses",
+        "en": "Behind the Scenes",
+        "de": "Hinter den Kulissen",
+        "it": "Dietro le quinte",
+        "lmo": "Coulisses"
+      },
+      "wire": {
+        "fr": "From the Wires — 22 août 2026",
+        "en": "From the Wires — 22 August 2026",
+        "de": "From the Wires – 22. August 2026",
+        "it": "Dalle agenzie — 22 agosto 2026",
+        "lmo": "From the Wires — 22 août 2026"
+      },
+      "urls": [
+        "https://quantumi.sh/public/labs.html",
+        "https://news.ycombinator.com/item?id=49400408"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite – Modelle & Frontier",
+        "it": "Prima pagina — Modelli & Frontiera",
+        "lmo": "À la Une — Modèles & Frontière"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Le protocole au pouvoir",
+            "en": "The Protocol in Power",
+            "de": "Das Protokoll an der Macht",
+            "it": "Il protocollo al potere",
+            "lmo": "Le protocole au pouvoir"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Une feuille de route en première page : le MCP, nouvelle frontière de l'IA",
+                "en": "A Road Map on the Front Page: MCP, AI's New Frontier",
+                "de": "Eine Roadmap auf der Titelseite: Das MCP als neue Frontier der KI",
+                "it": "Una roadmap in prima pagina: l'MCP, nuova frontiera dell'IA",
+                "lmo": "Une feuille de route en première page : le MCP, nouvelle frontière de l'IA"
+              },
+              "body": {
+                "fr": "Le 22 août 2026, la plus grosse actualité de l'écosystème n'était ni un modèle ni une levée de fonds, mais un document de spécification : la <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">nouvelle feuille de route</a> du Model Context Protocol, qui a réuni 192 points et 129 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49399591\">Hacker News</a>. Le protocole relie aujourd'hui une part croissante de la chaîne outil — agents de code, IDE, serveurs de données — et ses évolutions conditionnent des choix d'architecture bien au-delà du cercle de ses mainteneurs. Que la communauté y consacre son week-end en dit long sur le moment industriel : la valeur migre des poids des modèles vers la plomberie qui les relie.",
+                "en": "On 22 August 2026, the ecosystem's biggest story was neither a model nor a funding round, but a specification document: the <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">new road map</a> of the Model Context Protocol, which gathered 192 points and 129 comments on <a href=\"https://news.ycombinator.com/item?id=49399591\">Hacker News</a>. The protocol now connects a growing share of the tooling chain — code agents, IDEs, data servers — and its evolution shapes architectural choices well beyond the circle of its maintainers. That the community should give its weekend to it says much about the industrial moment: value is migrating from model weights to the plumbing that connects them.",
+                "de": "Am 22. August 2026 war die grösste Nachricht des Ökosystems weder ein Modell noch eine Finanzierungsrunde, sondern ein Spezifikationsdokument: die <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">neue Roadmap</a> des Model Context Protocol, die auf <a href=\"https://news.ycombinator.com/item?id=49399591\">Hacker News</a> 192 Punkte und 129 Kommentare versammelte. Das Protokoll verbindet heute einen wachsenden Teil der Werkzeugkette – Code-Agenten, IDEs, Datenserver –, und seine Weiterentwicklung bedingt Architekturentscheidungen weit über den Kreis seiner Maintainer hinaus. Dass die Community ihm ihr Wochenende widmet, ist bezeichnend für den industriellen Moment: Der Wert wandert von den Gewichten der Modelle hin zur Verrohrung, die sie verbindet.",
+                "it": "Il 22 agosto 2026 la notizia più grande dell'ecosistema non era né un modello né una raccolta di capitali, ma un documento di specifiche: la <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">nuova roadmap</a> del Model Context Protocol, che ha raccolto 192 punti e 129 commenti su <a href=\"https://news.ycombinator.com/item?id=49399591\">Hacker News</a>. Il protocollo collega oggi una quota crescente della catena degli strumenti — agenti di codice, IDE, server di dati — e le sue evoluzioni condizionano scelte architettoniche ben al di là della cerchia dei suoi manutentori. Che la comunità vi consacri il proprio fine settimana la dice lunga sul momento industriale: il valore migra dai pesi dei modelli verso l'impiantistica che li collega.",
+                "lmo": "Le 22 août 2026, la plus grosse actualité de l'écosystème n'était ni un modèle ni une levée de fonds, mais un document de spécification : la <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">nouvelle feuille de route</a> du Model Context Protocol, qui a réuni 192 points et 129 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49399591\">Hacker News</a>. Le protocole relie aujourd'hui une part croissante de la chaîne outil — agents de code, IDE, serveurs de données — et ses évolutions conditionnent des choix d'architecture bien au-delà du cercle de ses mainteneurs. Que la communauté y consacre son week-end en dit long sur le moment industriel : la valeur migre des poids des modèles vers la plomberie qui les relie."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analyse"
+              },
+              "wire": {
+                "fr": "Analyse — 23 août 2026",
+                "en": "Analysis — 23 August 2026",
+                "de": "Analyse – 23. August 2026",
+                "it": "Analisi — 23 agosto 2026",
+                "lmo": "Analyse — 23 août 2026"
+              },
+              "urls": [
+                "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+                "https://news.ycombinator.com/item?id=49399591"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Munder Difflin : l'open space des agents a ouvert",
+                "en": "Munder Difflin: The Agents' Open-Plan Office Has Opened",
+                "de": "Munder Difflin: Das Grossraumbüro der Agenten hat eröffnet",
+                "it": "Munder Difflin: l'open space degli agenti ha aperto",
+                "lmo": "Munder Difflin : l'open space des agents a ouvert"
+              },
+              "body": {
+                "fr": "Sur le papier, <a href=\"https://munderdiffl.in/\">Munder Difflin</a> est un « agent harness » ; dans la conversation, c'est la métaphore qui séduit : faire tourner un bureau entier peuplé de vos clones, promesse qui tient dans le sous-titre même du projet. Soumis à Hacker News le 22 août 2026, l'outil y a pris la deuxième place des sujets IA du jour avec 270 points et 117 commentaires, derrière la <a href=\"https://quantumi.sh/public/labs.html\">page satirique</a> sur les « labs ». Le nom, clin d'œil à un cabinet de papier culte, annonce la couleur : l'organisation du travail, même déléguée aux machines, conserve ses rituels d'open space.",
+                "en": "On paper, <a href=\"https://munderdiffl.in/\">Munder Difflin</a> is an “agent harness”; in the conversation, it is the metaphor that seduces: running an entire office staffed with your clones, a promise spelled out in the project's very subtitle. Submitted to Hacker News on 22 August 2026, the tool took second place among the day's AI topics with 270 points and 117 comments, behind the <a href=\"https://quantumi.sh/public/labs.html\">satirical page</a> on “labs”. The name, a nod to a cult paper company, sets the tone: the organisation of work, even when delegated to machines, keeps its open-plan rituals.",
+                "de": "Auf dem Papier ist <a href=\"https://munderdiffl.in/\">Munder Difflin</a> ein «Agent-Harness»; in der Diskussion ist es die Metapher, die begeistert: ein ganzes Büro mit Ihren Klonen betreiben – ein Versprechen, das schon im Untertitel des Projekts steht. Am 22. August 2026 bei Hacker News eingereicht, erreichte das Werkzeug dort mit 270 Punkten und 117 Kommentaren den zweiten Platz unter den KI-Themen des Tages, hinter der <a href=\"https://quantumi.sh/public/labs.html\">satirischen Seite</a> über die «Labs». Der Name, ein Augenzwinkern in Richtung eines kultigen Papierunternehmens, kündigt an, was zu erwarten ist: Die Organisation der Arbeit, selbst an Maschinen delegiert, behält ihre Open-Space-Rituale.",
+                "it": "Sulla carta, <a href=\"https://munderdiffl.in/\">Munder Difflin</a> è un «agent harness»; nella conversazione, è la metafora a sedurre: far girare un intero ufficio popolato di vostri cloni, una promessa racchiusa nel sottotitolo stesso del progetto. Presentato su Hacker News il 22 agosto 2026, lo strumento vi ha conquistato il secondo posto tra i temi IA della giornata con 270 punti e 117 commenti, dietro la <a href=\"https://quantumi.sh/public/labs.html\">pagina satirica</a> sui «lab». Il nome, un chiaro omaggio a una celebre azienda cartaria, ne annuncia il tono: l'organizzazione del lavoro, anche quando è delegata alle macchine, conserva i suoi rituali di open space.",
+                "lmo": "Sur le papier, <a href=\"https://munderdiffl.in/\">Munder Difflin</a> est un « agent harness » ; dans la conversation, c'est la métaphore qui séduit : faire tourner un bureau entier peuplé de vos clones, promesse qui tient dans le sous-titre même du projet. Soumis à Hacker News le 22 août 2026, l'outil y a pris la deuxième place des sujets IA du jour avec 270 points et 117 commentaires, derrière la <a href=\"https://quantumi.sh/public/labs.html\">page satirique</a> sur les « labs ». Le nom, clin d'œil à un cabinet de papier culte, annonce la couleur : l'organisation du travail, même déléguée aux machines, conserve ses rituels d'open space."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Produit"
+              },
+              "wire": {
+                "fr": "From the Wires — 22 août 2026",
+                "en": "From the Wires — 22 August 2026",
+                "de": "From the Wires – 22. August 2026",
+                "it": "Dalle agenzie — 22 agosto 2026",
+                "lmo": "From the Wires — 22 août 2026"
+              },
+              "urls": [
+                "https://munderdiffl.in/",
+                "https://news.ycombinator.com/item?id=49398152",
+                "https://quantumi.sh/public/labs.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Section",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "Le Cahier Technique"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Inférence locale & ressenti utilisateur",
+            "en": "Local Inference & Perceived Performance",
+            "de": "Lokale Inferenz & Nutzungsempfinden",
+            "it": "Inferenza locale e percezione degli utenti",
+            "lmo": "Inférence locale & ressenti utilisateur"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le débat du week-end : pourquoi un LLM local « paraît plus bête qu'il n'est »",
+                "en": "The Weekend Debate: Why a Local LLM “Seems Dumber Than It Is”",
+                "de": "Die Wochenenddebatte: Warum ein lokales LLM «dümmer wirkt, als es ist»",
+                "it": "Il dibattito del fine settimana: perché un LLM locale « sembra più stupido di quanto sia »",
+                "lmo": "Le débat du week-end : pourquoi un LLM local « paraît plus bête qu'il n'est »"
+              },
+              "body": {
+                "fr": "Parti d'un forum d'enthousiastes du matériel, le billet <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a> a terminé la journée du 22 août 2026 sur la front page de Hacker News : 257 points et 84 commentaires. Sa thèse tient dans le titre — l'écart entre les performances attendues d'un modèle exécuté en local et son rendu à l'usage — et la <a href=\"https://news.ycombinator.com/item?id=49402232\">discussion</a> qui s'en est suivie confirme que la question du ressenti d'usage, au-delà des seuls scores de benchmark, reste l'un des points sensibles de l'inférence hors cloud.",
+                "en": "Starting out on a forum of hardware enthusiasts, the post <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">“Why your local LLM feels dumber than it is”</a> ended the day on 22 August 2026 on Hacker News's front page: 257 points and 84 comments. Its thesis is contained in the title — the gap between the expected performance of a locally run model and how it actually renders in use — and the <a href=\"https://news.ycombinator.com/item?id=49402232\">discussion</a> that followed confirms that the question of the lived experience of use, beyond benchmark scores alone, remains one of the sensitive points of inference outside the cloud.",
+                "de": "Von einem Forum für Hardware-Enthusiasten ausgegangen, beendete der Beitrag <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">«Why your local LLM feels dumber than it is»</a> den 22. August 2026 auf der Frontpage von Hacker News: 257 Punkte und 84 Kommentare. Seine These steht im Titel – die Lücke zwischen der erwarteten Leistungsfähigkeit eines lokal betriebenen Modells und seinem tatsächlichen Verhalten im Einsatz –, und die anschliessende <a href=\"https://news.ycombinator.com/item?id=49402232\">Diskussion</a> bestätigt, dass die Frage des Nutzungsempfindens, jenseits der blossen Benchmark-Ergebnisse, einer der neuralgischen Punkte der Inferenz ausserhalb der Cloud bleibt.",
+                "it": "Partito da un forum di appassionati di hardware, il post <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a> ha chiuso la giornata del 22 agosto 2026 in prima pagina su Hacker News: 257 punti e 84 commenti. La sua tesi è racchiusa nel titolo — il divario tra le prestazioni attese da un modello eseguito in locale e il suo rendimento nell'uso — e la <a href=\"https://news.ycombinator.com/item?id=49402232\">discussione</a> che ne è seguita conferma che la questione della percezione d'uso, al di là dei soli punteggi di benchmark, resta uno dei punti sensibili dell'inferenza fuori dal cloud.",
+                "lmo": "Parti d'un forum d'enthousiastes du matériel, le billet <a href=\"https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917\">« Why your local LLM feels dumber than it is »</a> a terminé la journée du 22 août 2026 sur la front page de Hacker News : 257 points et 84 commentaires. Sa thèse tient dans le titre — l'écart entre les performances attendues d'un modèle exécuté en local et son rendu à l'usage — et la <a href=\"https://news.ycombinator.com/item?id=49402232\">discussion</a> qui s'en est suivie confirme que la question du ressenti d'usage, au-delà des seuls scores de benchmark, reste l'un des points sensibles de l'inférence hors cloud."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inférence"
+              },
+              "wire": {
+                "fr": "From the Wires — 22 août 2026",
+                "en": "From the Wires — 22 August 2026",
+                "de": "From the Wires – 22. August 2026",
+                "it": "Dalle agenzie — 22 agosto 2026",
+                "lmo": "From the Wires — 22 août 2026"
+              },
+              "urls": [
+                "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+                "https://news.ycombinator.com/item?id=49402232"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Recherche"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "L'entraînement sous contrainte",
+            "en": "Training Under Constraint",
+            "de": "Training unter Zwang",
+            "it": "L'addestramento sotto vincolo",
+            "lmo": "L'entraînement sous contrainte"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "NanoGPT Speedrun Frontier : la course aux records version Prime Intellect",
+                "en": "NanoGPT Speedrun Frontier: The Record Race, Prime Intellect Edition",
+                "de": "NanoGPT Speedrun Frontier: Die Rekordjagd in der Version von Prime Intellect",
+                "it": "NanoGPT Speedrun Frontier: la corsa ai record in versione Prime Intellect",
+                "lmo": "NanoGPT Speedrun Frontier : la course aux records version Prime Intellect"
+              },
+              "body": {
+                "fr": "La page <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, hébergée par le laboratoire décentralisé Prime Intellect, a fait son entrée sur Hacker News le 22 août 2026 au soir : <a href=\"https://news.ycombinator.com/item?id=49404380\">78 points et 20 commentaires</a>. Elle documente la discipline du « speedrun » d'entraînement — atteindre, sur un modèle de classe GPT-2, un niveau de perte cible en un minimum de temps. Devenue un terrain d'exercice pour l'optimisation bas niveau, cette course aux records intéresse une communauté qui y lit une mesure concrète de l'efficacité du calcul disponible.",
+                "en": "The <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a> page, hosted by the decentralised laboratory Prime Intellect, made its entrance on Hacker News on the evening of 22 August 2026: <a href=\"https://news.ycombinator.com/item?id=49404380\">78 points and 20 comments</a>. It documents the discipline of the training “speedrun” — reaching, on a GPT-2-class model, a target loss level in the least possible time. Now a training ground for low-level optimisation, this record race interests a community that reads in it a concrete measure of the efficiency of available compute.",
+                "de": "Die Seite <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, gehostet vom dezentralen Labor Prime Intellect, hielt am Abend des 22. August 2026 Einzug auf Hacker News: <a href=\"https://news.ycombinator.com/item?id=49404380\">78 Punkte und 20 Kommentare</a>. Sie dokumentiert die Disziplin des Trainings-«Speedruns» – mit einem Modell der GPT-2-Klasse in minimaler Zeit ein vorgegebenes Verlustniveau erreichen. Zum Übungsfeld für die Optimierung auf niedriger Ebene geworden, interessiert diese Rekordjagd eine Community, die darin eine konkrete Messgrösse für die Effizienz des verfügbaren Rechenvermögens erkennt.",
+                "it": "La pagina <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, ospitata dal laboratorio decentralizzato Prime Intellect, ha fatto il suo ingresso su Hacker News la sera del 22 agosto 2026: <a href=\"https://news.ycombinator.com/item?id=49404380\">78 punti e 20 commenti</a>. Documenta la disciplina dello «speedrun» di addestramento — raggiungere, su un modello di classe GPT-2, un livello di perdita obiettivo in un tempo minimo. Divenuta un terreno di esercizio per l'ottimizzazione a basso livello, questa corsa ai record interessa una comunità che vi legge una misura concreta dell'efficienza del calcolo disponibile.",
+                "lmo": "La page <a href=\"https://www.primeintellect.ai/research/nanogpt-speedrun\">NanoGPT Speedrun Frontier</a>, hébergée par le laboratoire décentralisé Prime Intellect, a fait son entrée sur Hacker News le 22 août 2026 au soir : <a href=\"https://news.ycombinator.com/item?id=49404380\">78 points et 20 commentaires</a>. Elle documente la discipline du « speedrun » d'entraînement — atteindre, sur un modèle de classe GPT-2, un niveau de perte cible en un minimum de temps. Devenue un terrain d'exercice pour l'optimisation bas niveau, cette course aux records intéresse une communauté qui y lit une mesure concrète de l'efficacité du calcul disponible."
+              },
+              "kicker": {
+                "fr": "Efficacité",
+                "en": "Efficiency",
+                "de": "Effizienz",
+                "it": "Efficienza",
+                "lmo": "Efficacité"
+              },
+              "wire": {
+                "fr": "From the Wires — 22 août 2026",
+                "en": "From the Wires — 22 August 2026",
+                "de": "From the Wires – 22. August 2026",
+                "it": "Dalle agenzie — 22 agosto 2026",
+                "lmo": "From the Wires — 22 août 2026"
+              },
+              "urls": [
+                "https://www.primeintellect.ai/research/nanogpt-speedrun",
+                "https://news.ycombinator.com/item?id=49404380"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Community & der Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Communauté & Édito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Signals from the Community",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Signaux de la communauté"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ElevenLabs, TwelveLabs, ThirteenLabs… : la blague qui dit tout du branding IA",
+                "en": "ElevenLabs, TwelveLabs, ThirteenLabs…: The Joke That Says It All About AI Branding",
+                "de": "ElevenLabs, TwelveLabs, ThirteenLabs …: Der Witz, der alles über KI-Branding sagt",
+                "it": "ElevenLabs, TwelveLabs, ThirteenLabs…: la battuta che dice tutto del branding IA",
+                "lmo": "ElevenLabs, TwelveLabs, ThirteenLabs… : la blague qui dit tout du branding IA"
+              },
+              "body": {
+                "fr": "Avec 353 points et 108 commentaires le 22 août 2026, la <a href=\"https://quantumi.sh/public/labs.html\">page « ElevenLabs, TwelveLabs, ThirteenLabs »</a> s'est imposée comme le sujet IA le plus voté de la journée sur <a href=\"https://news.ycombinator.com/item?id=49400408\">Hacker News</a>. Le ressort est mince et efficace : décliner la mode des suffixes « Labs » jusqu'à l'absurde. Qu'une industrie tout entière puisse se résumer en une blague de comptable est déjà, en soi, un diagnostic sur sa nomenclature.",
+                "en": "With 353 points and 108 comments on 22 August 2026, the <a href=\"https://quantumi.sh/public/labs.html\">“ElevenLabs, TwelveLabs, ThirteenLabs” page</a> established itself as the day's most upvoted AI topic on <a href=\"https://news.ycombinator.com/item?id=49400408\">Hacker News</a>. The device is thin and effective: declining the vogue for “Labs” suffixes to the point of absurdity. That an entire industry can be summed up in an accountant's joke is, in itself, already a diagnosis of its nomenclature.",
+                "de": "Mit 353 Punkten und 108 Kommentaren am 22. August 2026 setzte sich die <a href=\"https://quantumi.sh/public/labs.html\">Seite «ElevenLabs, TwelveLabs, ThirteenLabs»</a> als das am häufigsten bewertete KI-Thema des Tages auf <a href=\"https://news.ycombinator.com/item?id=49400408\">Hacker News</a> durch. Der Mechanismus ist simpel und wirksam: die Mode der Endungen «Labs» bis zur Absurdität weitertreiben. Dass sich eine ganze Industrie in einem Buchhalterwitz zusammenfassen lässt, ist an und für sich schon eine Diagnose ihrer Nomenklatur.",
+                "it": "Con 353 punti e 108 commenti il 22 agosto 2026, la <a href=\"https://quantumi.sh/public/labs.html\">pagina « ElevenLabs, TwelveLabs, ThirteenLabs »</a> si è imposta come il tema IA più votato della giornata su <a href=\"https://news.ycombinator.com/item?id=49400408\">Hacker News</a>. Il meccanismo è semplice ed efficace: declinare la moda dei suffissi «Labs» fino all'assurdo. Che un'intera industria possa riassumersi in una battuta da ragioniere è già, di per sé, una diagnosi sulla sua nomenclatura.",
+                "lmo": "Avec 353 points et 108 commentaires le 22 août 2026, la <a href=\"https://quantumi.sh/public/labs.html\">page « ElevenLabs, TwelveLabs, ThirteenLabs »</a> s'est imposée comme le sujet IA le plus voté de la journée sur <a href=\"https://news.ycombinator.com/item?id=49400408\">Hacker News</a>. Le ressort est mince et efficace : décliner la mode des suffixes « Labs » jusqu'à l'absurde. Qu'une industrie tout entière puisse se résumer en une blague de comptable est déjà, en soi, un diagnostic sur sa nomenclature."
+              },
+              "kicker": {
+                "fr": "Humour",
+                "en": "Humour",
+                "de": "Humor",
+                "it": "Umorismo",
+                "lmo": "Humour"
+              },
+              "wire": {
+                "fr": "From the Wires — 22 août 2026",
+                "en": "From the Wires — 22 August 2026",
+                "de": "From the Wires – 22. August 2026",
+                "it": "Dalle agenzie — 22 agosto 2026",
+                "lmo": "From the Wires — 22 août 2026"
+              },
+              "urls": [
+                "https://quantumi.sh/public/labs.html",
+                "https://news.ycombinator.com/item?id=49400408"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Édito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le week-end où la plomberie a fait la une",
+                "en": "The Weekend the Plumbing Made the Front Page",
+                "de": "Das Wochenende, an dem die Verrohrung die Titelseite machte",
+                "it": "Il fine settimana in cui l'impiantistica ha fatto prima pagina",
+                "lmo": "Le week-end où la plomberie a fait la une"
+              },
+              "body": {
+                "fr": "Il y a des week-ends qui racontent mieux l'état d'une industrie que d'autres. Samedi 22 août 2026, le fil IA le plus commenté de Hacker News fut celui d'une feuille de route — celle du <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">Model Context Protocol</a>, 192 points et 129 commentaires — aux côtés d'une page satirique sur le naming des entreprises (353 points, 108 commentaires) et d'un harnais d'agents promettant un « bureau de clones » (270 points, 117 commentaires). Le tableau est parlant : à force de modèles frontière toujours plus proches, la discussion migre vers la plomberie, le vocabulaire et les manières de travailler. C'est le signe d'une technologie qui grandit — l'attention va désormais à ce qui relie les modèles plus qu'aux modèles eux-mêmes. La rédaction.",
+                "en": "There are weekends that tell the state of an industry better than others. On Saturday 22 August 2026, the most commented-on AI thread on Hacker News was that of a road map — the <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">Model Context Protocol</a>'s, with 192 points and 129 comments — alongside a satirical page on company naming (353 points, 108 comments) and an agent harness promising a “clone office” (270 points, 117 comments). The picture is telling: with frontier models ever closer to one another, the discussion is migrating towards plumbing, vocabulary and ways of working. It is the sign of a technology coming of age — attention now goes to what connects models more than to the models themselves. The Editors.",
+                "de": "Es gibt Wochenenden, die den Zustand einer Industrie besser erzählen als andere. Am Samstag, dem 22. August 2026, war der meistkommentierte KI-Strang auf Hacker News der zu einer Roadmap – jener des <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">Model Context Protocol</a>, 192 Punkte und 129 Kommentare –, flankiert von einer satirischen Seite über die Namensgebung von Unternehmen (353 Punkte, 108 Kommentare) und einem Agenten-Harness, der ein «Büro aus Klonen» versprach (270 Punkte, 117 Kommentare). Das Bild ist sprechend: Weil sich die Frontier-Modelle einander immer angleichen, wandert die Diskussion hin zur Verrohrung, zum Vokabular und zu den Arbeitsweisen. Es ist das Zeichen einer Technologie, die erwachsen wird – die Aufmerksamkeit gilt neu mehr dem, was die Modelle verbindet, als den Modellen selbst. Die Redaktion.",
+                "it": "Ci sono fine settimana che raccontano lo stato di un'industria meglio di altri. Sabato 22 agosto 2026, il thread IA più commentato di Hacker News è stato quello di una roadmap — quella del <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">Model Context Protocol</a>, 192 punti e 129 commenti — accanto a una pagina satirica sul naming delle imprese (353 punti, 108 commenti) e a un harness di agenti che prometteva un «ufficio di cloni» (270 punti, 117 commenti). Il quadro è eloquente: con modelli di frontiera sempre più vicini tra loro, la discussione migra verso l'impiantistica, il vocabolario e i modi di lavorare. È il segno di una tecnologia che cresce — l'attenzione va ormai a ciò che collega i modelli più che ai modelli stessi. La redazione.",
+                "lmo": "Il y a des week-ends qui racontent mieux l'état d'une industrie que d'autres. Samedi 22 août 2026, le fil IA le plus commenté de Hacker News fut celui d'une feuille de route — celle du <a href=\"https://blog.modelcontextprotocol.io/posts/mcp-roadmap/\">Model Context Protocol</a>, 192 points et 129 commentaires — aux côtés d'une page satirique sur le naming des entreprises (353 points, 108 commentaires) et d'un harnais d'agents promettant un « bureau de clones » (270 points, 117 commentaires). Le tableau est parlant : à force de modèles frontière toujours plus proches, la discussion migre vers la plomberie, le vocabulaire et les manières de travailler. C'est le signe d'une technologie qui grandit — l'attention va désormais à ce qui relie les modèles plus qu'aux modèles eux-mêmes. La rédaction."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Édito"
+              },
+              "wire": {
+                "fr": "Édito — 23 août 2026",
+                "en": "Editorial — 23 August 2026",
+                "de": "Leitartikel – 23. August 2026",
+                "it": "Editoriale — 23 agosto 2026",
+                "lmo": "Édito — 23 août 2026"
+              },
+              "urls": [
+                "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
