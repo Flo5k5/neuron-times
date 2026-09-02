@@ -1,0 +1,763 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-02",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Anthropic a annoncé le 1er septembre 2026 la sortie de deux nouveaux modèles jumeaux, Claude Fable 5.1 et Claude Mythos 5.1, présentés comme « nos modèles les plus avancés pour le code et le travail de la connaissance ». Le laboratoire précise que leurs capacités de recherche offrent un aperçu précoce de la contribution des modèles d'IA au progrès scientifique, selon l'annonce publiée sur <a href=\"https://www.anthropic.com/news?subjects=announcements\">la newsroom officielle d'Anthropic</a>.",
+        "en": "On Tuesday, 1 September 2026, Anthropic announced the release of two new twin models, Claude Fable 5.1 and Claude Mythos 5.1, presented as \"our most advanced models for code and knowledge work\". The lab notes that their research capabilities offer an early glimpse into how AI models may contribute to scientific progress, according to the announcement published on <a href=\"https://www.anthropic.com/news?subjects=announcements\">Anthropic's official newsroom</a>.",
+        "de": "Anthropic kündigte am 1. September 2026 die Veröffentlichung zweier neuer Zwillingsmodelle an, Claude Fable 5.1 und Claude Mythos 5.1, die als «unsere fortschrittlichsten Modelle für Code und Wissensarbeit» präsentiert werden. Das Labor präzisiert, dass ihre Recherche-Fähigkeiten einen frühen Einblick in den Beitrag von KI-Modellen zum wissenschaftlichen Fortschritt bieten, gemäss der Ankündigung auf <a href=\"https://www.anthropic.com/news?subjects=announcements\">der offiziellen Newsroom von Anthropic</a>.",
+        "it": "Anthropic ha annunciato il 1° settembre 2026 il rilascio di due nuovi modelli gemelli, Claude Fable 5.1 e Claude Mythos 5.1, presentati come «i nostri modelli più avanzati per il codice e il lavoro della conoscenza». Il laboratorio precisa che le loro capacità di ricerca offrono un'anticipazione del contributo dei modelli di IA al progresso scientifico, secondo l'annuncio pubblicato su <a href=\"https://www.anthropic.com/news?subjects=announcements\">la newsroom ufficiale di Anthropic</a>.",
+        "lmo": "Anthropic l'ha anunziaa el primm de setember 2026 l'essida de duu modej zemell, Claude Fable 5.1 e Claude Mythos 5.1, presentaa comè « i noster modej pussee avanzaa per el codes e el laurà de la conoscenza ». El laboratori el precisa che i sò capacitaa de ricerca dann ona vista in anticip del contribut di modej de IA al progress scentifegh, segond l'anunzi publicaa sora <a href=\"https://www.anthropic.com/news?subjects=announcements\">la newsroom ofizziala d'Anthropic</a>."
+      },
+      {
+        "fr": "L'annonce a immédiatement déclenché un débat d'ampleur : la discussion <a href=\"https://news.ycombinator.com/item?id=49525378\">« Claude Fable 5.1 and Claude Mythos 5.1 »</a> sur Hacker News a atteint 1 042 points et 970 commentaires en moins de douze heures, les participants décortiquant la documentation <a href=\"https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1\">« What's new in Fable 5.1 »</a> et la <a href=\"https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\">System Card</a> publiées par le laboratoire.",
+        "en": "The announcement immediately triggered a wide-ranging debate: the <a href=\"https://news.ycombinator.com/item?id=49525378\">\"Claude Fable 5.1 and Claude Mythos 5.1\"</a> discussion on Hacker News reached 1,042 points and 970 comments in under twelve hours, with participants dissecting the <a href=\"https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1\">\"What's new in Fable 5.1\"</a> documentation and the <a href=\"https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\">System Card</a> published by the lab.",
+        "de": "Die Ankündigung löste umgehend eine Debatte von grossem Ausmass aus: Die Diskussion <a href=\"https://news.ycombinator.com/item?id=49525378\">«Claude Fable 5.1 and Claude Mythos 5.1»</a> auf Hacker News erreichte in weniger als zwölf Stunden 1042 Punkte und 970 Kommentare, wobei die Teilnehmenden die Dokumentation <a href=\"https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1\">«What's new in Fable 5.1»</a> und die vom Labor veröffentlichte <a href=\"https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\">System Card</a> sezierten.",
+        "it": "L'annuncio ha subito innescato un dibattito di ampia portata: la discussione <a href=\"https://news.ycombinator.com/item?id=49525378\">« Claude Fable 5.1 and Claude Mythos 5.1 »</a> su Hacker News ha raggiunto 1 042 punti e 970 commenti in meno di dodici ore, con i partecipanti che analizzano minuziosamente la documentazione <a href=\"https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1\">« What's new in Fable 5.1 »</a> e la <a href=\"https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\">System Card</a> pubblicate dal laboratorio.",
+        "lmo": "L'anunzi l'ha subet faa sù on dibattit de grandi proporzion: la discussion <a href=\"https://news.ycombinator.com/item?id=49525378\">« Claude Fable 5.1 and Claude Mythos 5.1 »</a> sora Hacker News l'ha razonzaa 1.042 pont e 970 comment in manch de dodes or, cont i partecipant che descomponeven la documentazzion <a href=\"https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1\">« What's new in Fable 5.1 »</a> e la <a href=\"https://www-cdn.anthropic.com/0339e6a7c5c7b87f5c07798616dc32c215d14235/Claude%20Fable%205.1%20&amp;%20Claude%20Mythos%205.1%20System%20Card.pdf\">System Card</a> publicaa del laboratori."
+      }
+    ],
+    "urls": [
+      "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "https://news.ycombinator.com/item?id=49525378",
+      "https://platform.claude.com/docs/en/models/fable-5-1/whats-new-fable-5-1"
+    ],
+    "kicker": {
+      "fr": "Modèles",
+      "en": "Models",
+      "de": "Modelle",
+      "it": "Modelli",
+      "lmo": "Modej"
+    },
+    "headline": {
+      "fr": "Anthropic lance Claude Fable 5.1 et Claude Mythos 5.1, ses nouveaux modèles frontière pour le code et la recherche",
+      "en": "Anthropic launches Claude Fable 5.1 and Claude Mythos 5.1, its new frontier models for code and research",
+      "de": "Anthropic lanciert Claude Fable 5.1 und Claude Mythos 5.1, seine neuen Frontier-Modelle für Code und Recherche",
+      "it": "Anthropic lancia Claude Fable 5.1 e Claude Mythos 5.1, i suoi nuovi modelli di frontiera per il codice e la ricerca",
+      "lmo": "Anthropic el lansa Claude Fable 5.1 e Claude Mythos 5.1, i sò noeuv modej frontiera per el codes e la ricerca"
+    },
+    "subdeck": {
+      "fr": "La double release du 1er septembre 2026, saluée pour le code et le travail de connaissance, promet aussi « un aperçu précoce » de la contribution des modèles au progrès scientifique.",
+      "en": "The dual release of 1 September 2026, praised for code and knowledge work, also promises \"an early glimpse\" of models' contribution to scientific progress.",
+      "de": "Die Doppelveröffentlichung vom 1. September 2026, gelobt für Code und Wissensarbeit, verspricht zudem «einen frühen Einblick» in den Beitrag der Modelle zum wissenschaftlichen Fortschritt.",
+      "it": "Il doppio rilascio del 1° settembre 2026, salutato per il codice e il lavoro della conoscenza, promette anche «un'anticipazione» del contributo dei modelli al progresso scientifico.",
+      "lmo": "La doble release del primm de setember 2026, aprezada per el codes e el laurà de conoscenza, la promett anca « ona vista in anticip » del contribut di modej al progress scentifegh."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Les entreprises « AI-natives » transformées par les agents, selon OpenAI",
+        "en": "AI-native companies transformed by agents, according to OpenAI",
+        "de": "«KI-native» Unternehmen, von Agenten umgeformt, gemäss OpenAI",
+        "it": "Le imprese «AI-native» trasformate dagli agenti, secondo OpenAI",
+        "lmo": "I aziende « AI-native » transformaa di agent, segond OpenAI"
+      },
+      "body": {
+        "fr": "OpenAI publie le 1er septembre 2026 un retour d'expérience sur la façon dont Basis, Clay et Exa Labs transforment leurs workflows en capacité opérationnelle via des agents, avec des enseignements pour les directions d'entreprise : <a href=\"https://openai.com/index/ai-native-company-workflows\">l'analyse complète</a> couvre onboarding, gestion de comptes et intégrations développeur.",
+        "en": "OpenAI published on Tuesday, 1 September 2026 a retrospective on how Basis, Clay and Exa Labs turn their workflows into operational capability via agents, with lessons for corporate leadership: <a href=\"https://openai.com/index/ai-native-company-workflows\">the full analysis</a> covers onboarding, account management and developer integrations.",
+        "de": "OpenAI veröffentlicht am 1. September 2026 einen Erfahrungsbericht darüber, wie Basis, Clay und Exa Labs ihre Workflows durch Agenten in operative Fähigkeiten verwandeln, mit Erkenntnissen für Unternehmensleitungen: <a href=\"https://openai.com/index/ai-native-company-workflows\">die vollständige Analyse</a> behandelt Onboarding, Kontoführung und Entwickler-Integrationen.",
+        "it": "OpenAI pubblica il 1° settembre 2026 un ritorno d'esperienza su come Basis, Clay ed Exa Labs trasformano i propri workflow in capacità operativa tramite agenti, con insegnamenti per i vertici aziendali: <a href=\"https://openai.com/index/ai-native-company-workflows\">l'analisi completa</a> copre onboarding, gestione dei conti e integrazioni per sviluppatori.",
+        "lmo": "OpenAI el publica el primm de setember 2026 on retorn de esperienza sora comè Basis, Clay e Exa Labs trasformen i sò workflow in capacità operativa cont di agent, cont di insegnament per i direzzion d'azienda: <a href=\"https://openai.com/index/ai-native-company-workflows\">l'analisi completa</a> la quatta onboarding, gestion di cunt e integrazzion desvilupador."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-01",
+        "en": "From the Wires — 2026-09-01",
+        "de": "From the Wires — 2026-09-01",
+        "it": "From the Wires — 2026-09-01",
+        "lmo": "From the Wires — 2026-09-01"
+      },
+      "urls": [
+        "https://openai.com/index/ai-native-company-workflows"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Gilbert + Tobin : gouverner le déploiement de l'IA dans un cabinet d'avocats",
+        "en": "Gilbert + Tobin: governing AI deployment in a law firm",
+        "de": "Gilbert + Tobin: den KI-Einsatz in einer Anwaltskanzlei steuern",
+        "it": "Gilbert + Tobin: governare il deployment dell'IA in uno studio legale",
+        "lmo": "Gilbert + Tobin: governà el despiegh de l'IA in d'on studi legal"
+      },
+      "body": {
+        "fr": "Le cabinet australien Gilbert + Tobin documente comment il déploie ChatGPT Enterprise et Codex à l'échelle avec engagement de la direction, gouvernance rigoureuse et responsabilité humaine, dans une <a href=\"https://openai.com/index/gilbert-tobin\">étude de cas</a> publiée le 1er septembre 2026 — un exemple concret de gouvernance juridique de l'IA en entreprise.",
+        "en": "The Australian law firm Gilbert + Tobin documents how it deploys ChatGPT Enterprise and Codex at scale with leadership buy-in, rigorous governance and human accountability, in a <a href=\"https://openai.com/index/gilbert-tobin\">case study</a> published on Tuesday, 1 September 2026 — a concrete example of corporate legal AI governance.",
+        "de": "Die australische Kanzlei Gilbert + Tobin dokumentiert, wie sie ChatGPT Enterprise und Codex skalierungsweit einsetzt — mit Engagement der Geschäftsleitung, rigoroser Governance und menschlicher Verantwortung — in einer <a href=\"https://openai.com/index/gilbert-tobin\">Fallstudie</a> vom 1. September 2026: ein konkretes Beispiel für rechtliche KI-Governance im Unternehmen.",
+        "it": "Lo studio legale australiano Gilbert + Tobin documenta come distribuisce ChatGPT Enterprise e Codex su larga scala con coinvolgimento della direzione, governance rigorosa e responsabilità umana, in un <a href=\"https://openai.com/index/gilbert-tobin\">caso di studio</a> pubblicato il 1° settembre 2026 — un esempio concreto di governance giuridica dell'IA in azienda.",
+        "lmo": "El studi legal australian Gilbert + Tobin el documenta comè 'l despiega ChatGPT Enterprise e Codex a scala con impegna de la direzzion, governa rigida e responsabilitaa umana, in d'on <a href=\"https://openai.com/index/gilbert-tobin\">studi de cas</a> publicaa el primm de setember 2026 — on esempi concret de governa giuridega de l'IA in azienda."
+      },
+      "tag": {
+        "fr": "Juridique",
+        "en": "Legal",
+        "de": "Recht",
+        "it": "Giuridico",
+        "lmo": "Giuridegh"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-01",
+        "en": "From the Wires — 2026-09-01",
+        "de": "From the Wires — 2026-09-01",
+        "it": "From the Wires — 2026-09-01",
+        "lmo": "From the Wires — 2026-09-01"
+      },
+      "urls": [
+        "https://openai.com/index/gilbert-tobin"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "DeepMind : l'IA pour prédire les cyclones plus tôt",
+        "en": "DeepMind: AI to predict cyclones earlier",
+        "de": "DeepMind: KI, um Zyklone früher vorherzusagen",
+        "it": "DeepMind: l'IA per prevedere i cicloni prima",
+        "lmo": "DeepMind: l'IA per predic i ciclon pussee prest"
+      },
+      "body": {
+        "fr": "Un chercheur de DeepMind explique comment la prédiction météo par IA permet d'anticiper les cyclones et d'alerter les communautés plus tôt que jamais, dans une <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/\">chronique « Ask a Scientist »</a> publiée le 1er septembre 2026 autour du modèle WeatherNext.",
+        "en": "A DeepMind researcher explains how AI weather forecasting makes it possible to anticipate cyclones and warn communities earlier than ever, in an <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/\">\"Ask a Scientist\" column</a> published on Tuesday, 1 September 2026 centred on the WeatherNext model.",
+        "de": "Ein Forschender von DeepMind erklärt, wie KI-gestützte Wettervorhersage erlaubt, Zyklone früher zu antizipieren und Gemeinden schneller zu warnen als je zuvor, in einer <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/\">Kolumne «Ask a Scientist»</a> vom 1. September 2026 rund um das Modell WeatherNext.",
+        "it": "Un ricercatore di DeepMind spiega come la previsione meteorologica tramite IA permette di anticipare i cicloni e di avvisare le comunità prima che mai, in una <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/\">rubrica «Ask a Scientist»</a> pubblicata il 1° settembre 2026 attorno al modello WeatherNext.",
+        "lmo": "On ricercador de DeepMind el spiega comè la predizzion meteo cont l'IA la permett de anticipà i ciclon e de avvisà i comunitaa pussee prest che mai, in d'ona <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/\">cronaca « Ask a Scientist »</a> publicada el primm de setember 2026 intorna al modej WeatherNext."
+      },
+      "tag": {
+        "fr": "Science appliquée",
+        "en": "Applied science",
+        "de": "Angewandte Wissenschaft",
+        "it": "Scienza applicata",
+        "lmo": "Scenza aplicada"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-01",
+        "en": "From the Wires — 2026-09-01",
+        "de": "From the Wires — 2026-09-01",
+        "it": "From the Wires — 2026-09-01",
+        "lmo": "From the Wires — 2026-09-01"
+      },
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "H3-World : contrôler un générateur vidéo 33B avec 0,2 % de paramètres entraînables",
+        "en": "H3-World: controlling a 33B video generator with 0.2% of trainable parameters",
+        "de": "H3-World: einen 33B-Videogenerator mit 0,2 Prozent trainierbaren Parametern steuern",
+        "it": "H3-World: controllare un generatore video 33B con lo 0,2 % di parametri addestrabili",
+        "lmo": "H3-World: controllà on generador video 33B cont el 0,2% de parameter addestrabij"
+      },
+      "body": {
+        "fr": "Une équipe liée à MiniMax publie <a href=\"https://arxiv.org/abs/2609.01560\">H3-World</a>, qui transforme le générateur vidéo 33B MiniMax-H3 en monde interactif contrôlable : avec seulement 8 000 échantillons de gameplay, 10 000 étapes LoRA et 0,199 % de paramètres entraînables, le framework obtient un contrôle précis des personnages et de la caméra tout en généralisant à des scénarios inédits (10 upvotes sur les Daily Papers Hugging Face du 2 septembre 2026).",
+        "en": "A team linked to MiniMax published <a href=\"https://arxiv.org/abs/2609.01560\">H3-World</a>, which turns the 33B MiniMax-H3 video generator into a controllable interactive world: with just 8,000 gameplay samples, 10,000 LoRA steps and 0.199 per cent of trainable parameters, the framework achieves precise character and camera control while generalising to unseen scenarios (10 upvotes on Hugging Face Daily Papers on Wednesday, 2 September 2026).",
+        "de": "Ein Team mit Bezug zu MiniMax veröffentlicht <a href=\"https://arxiv.org/abs/2609.01560\">H3-World</a>, das den 33B-Videogenerator MiniMax-H3 in eine steuerbare interaktive Welt verwandelt: Mit nur 8000 Gameplay-Samples, 10 000 LoRA-Schritten und 0,199 Prozent trainierbarer Parameter erreicht das Framework eine präzise Steuerung von Figuren und Kamera und generalisiert zugleich auf neuartige Szenarien (10 Upvotes auf den Daily Papers von Hugging Face am 2. September 2026).",
+        "it": "Un team legato a MiniMax pubblica <a href=\"https://arxiv.org/abs/2609.01560\">H3-World</a>, che trasforma il generatore video 33B MiniMax-H3 in un mondo interattivo controllabile: con soli 8 000 campioni di gameplay, 10 000 passi LoRA e lo 0,199 % di parametri addestrabili, il framework ottiene un controllo preciso dei personaggi e della telecamera generalizzando al contempo a scenari inediti (10 upvote sui Daily Papers di Hugging Face del 2 settembre 2026).",
+        "lmo": "Ona squadra ligada a MiniMax la publica <a href=\"https://arxiv.org/abs/2609.01560\">H3-World</a>, che 'l transforma el generador video 33B MiniMax-H3 in on mond interativ controllabil: con domà 8.000 campion de gameplay, 10.000 pass LoRA e 0,199% de parameter addestrabij, el framework el ottegn on contròll precis di personagg e de la camera e 'l generalizza anca a scenari noeuv (10 upvote sora i Daily Papers Hugging Face del 2 de setember 2026)."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-02",
+        "en": "From the Wires — 2026-09-02",
+        "de": "From the Wires — 2026-09-02",
+        "it": "From the Wires — 2026-09-02",
+        "lmo": "From the Wires — 2026-09-02"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2609.01560"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite — Modelle & Grenzen",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Paggina — Modej & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzen",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modej & Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemini passe à la compréhension vidéo agentique",
+                "en": "Gemini moves to agentic video understanding",
+                "de": "Gemini wendet sich der agentischen Videoanalyse zu",
+                "it": "Gemini passa alla comprensione video agentica",
+                "lmo": "Gemini el passa a la comprension video agentiga"
+              },
+              "body": {
+                "fr": "Google DeepMind a annoncé le 1er septembre 2026 le lancement de la compréhension vidéo agentique « à travers nos derniers modèles Gemini », promettant une meilleure exactitude et une réduction des coûts et de la consommation de tokens, selon <a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">l'annonce officielle</a>. Le modèle ne se contente plus d'analyser passivement une vidéo : il peut la décomposer et interroger son contenu de façon itérative.",
+                "en": "Google DeepMind announced on Tuesday, 1 September 2026 the launch of agentic video understanding \"across our latest Gemini models\", promising improved accuracy along with reduced costs and token consumption, according to <a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">the official announcement</a>. The model no longer passively analyses a video: it can break it down and iteratively query its content.",
+                "de": "Google DeepMind kündigte am 1. September 2026 die Einführung agentischer Videoanalyse «mit unseren neuesten Gemini-Modellen» an und verspricht bessere Genauigkeit sowie geringere Kosten und Token-Verbrauch, gemäss <a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">der offiziellen Ankündigung</a>. Das Modell analysiert ein Video nicht mehr nur passiv: Es kann es zerlegen und seinen Inhalt iterativ abfragen.",
+                "it": "Google DeepMind ha annunciato il 1° settembre 2026 il lancio della comprensione video agentica «attraverso i nostri ultimi modelli Gemini», promettendo una migliore accuratezza e una riduzione dei costi e del consumo di token, secondo <a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">l'annuncio ufficiale</a>. Il modello non si limita più ad analizzare passivamente un video: può scomporlo e interrogarne il contenuto in modo iterativo.",
+                "lmo": "Google DeepMind l'ha anunziaa el primm de setember 2026 el lanzament de la comprension video agentiga « cont i noster ultem modej Gemini », cont la promessa de ona mej precision e de ona riduzzion di cost e del consum de tokens, segond <a href=\"https://deepmind.google/blog/introducing-agentic-video-in-gemini/\">l'anunzi ofizzial</a>. El modej el analizza pu domà passivament on video: el pò descomponnel e interrogà el sò contegnuu de manera iterativa."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Path to Astra : OpenAI franchit un seuil critique en cybersécurité",
+                "en": "Path to Astra: OpenAI crosses a critical cybersecurity threshold",
+                "de": "Path to Astra: OpenAI überschreitet eine kritische Schwelle in der Cybersicherheit",
+                "it": "Path to Astra: OpenAI supera una soglia critica in cybersicurezza",
+                "lmo": "Path to Astra: OpenAI el passa ona soglia crìtega in cybersecurity"
+              },
+              "body": {
+                "fr": "Premier modèle OpenAI à franchir le seuil « Critique » de capacité en cybersécurité du Preparedness Framework, Astra s'accompagne de garde-fous renforcés pour sa mise en production, détaille <a href=\"https://openai.com/index/path-to-astra\">l'analyse « Path to Astra »</a> publiée le 1er septembre 2026. La discussion <a href=\"https://news.ycombinator.com/item?id=49527595\">sur Hacker News</a> (110 points, 50 commentaires) s'est concentrée sur la méthodologie d'évaluation des capacités offensives.",
+                "en": "The first OpenAI model to cross the \"Critical\" cybersecurity capability threshold of the Preparedness Framework, Astra ships with reinforced guardrails for its production rollout, as detailed in the <a href=\"https://openai.com/index/path-to-astra\">\"Path to Astra\"</a> analysis published on Tuesday, 1 September 2026. The <a href=\"https://news.ycombinator.com/item?id=49527595\">Hacker News discussion</a> (110 points, 50 comments) focused on the methodology for evaluating offensive capabilities.",
+                "de": "Als erstes OpenAI-Modell überschreitet Astra die Schwelle «Kritisch» der Cybersecurity-Fähigkeiten des Preparedness Framework und wird von verstärkten Schutzmassnahmen für den Produktionseinsatz begleitet, wie die am 1. September 2026 veröffentlichte Analyse <a href=\"https://openai.com/index/path-to-astra\">«Path to Astra»</a> ausführt. Die Diskussion <a href=\"https://news.ycombinator.com/item?id=49527595\">auf Hacker News</a> (110 Punkte, 50 Kommentare) konzentrierte sich auf die Methodik der Bewertung offensiver Fähigkeiten.",
+                "it": "Primo modello OpenAI a superare la soglia «Critica» di capacità in cybersicurezza del Preparedness Framework, Astra è accompagnato da garanzie rafforzate per il suo rilascio in produzione, come dettaglia <a href=\"https://openai.com/index/path-to-astra\">l'analisi «Path to Astra»</a> pubblicata il 1° settembre 2026. La discussione <a href=\"https://news.ycombinator.com/item?id=49527595\">su Hacker News</a> (110 punti, 50 commenti) si è concentrata sulla metodologia di valutazione delle capacità offensive.",
+                "lmo": "Primm modej OpenAI a passà la soglia « Crìtega » de capacità in cybersecurity del Preparedness Framework, Astra el gh'ha adree di salvaguard renforzaa per el sò despiegh in produzzion, comè el detaja <a href=\"https://openai.com/index/path-to-astra\">l'analisi « Path to Astra »</a> publicada el primm de setember 2026. La discussion <a href=\"https://news.ycombinator.com/item?id=49527595\">sora Hacker News</a> (110 pont, 50 comment) la s'è concentrada sora la metodologia de valutazzion di capacità offensiv."
+              },
+              "kicker": {
+                "fr": "OpenAI · Sûreté",
+                "en": "OpenAI · Safety",
+                "de": "OpenAI · Sicherheit",
+                "it": "OpenAI · Sicurezza",
+                "lmo": "OpenAI · Sùretaa"
+              },
+              "urls": [
+                "https://openai.com/index/path-to-astra",
+                "https://news.ycombinator.com/item?id=49527595"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI publie « Biosecurity at the frontier »",
+                "en": "xAI publishes \"Biosecurity at the frontier\"",
+                "de": "xAI veröffentlicht «Biosecurity at the frontier»",
+                "it": "xAI pubblica «Biosecurity at the frontier»",
+                "lmo": "xAI el publica « Biosecurity at the frontier »"
+              },
+              "body": {
+                "fr": "xAI a publié le 1er septembre 2026 un billet intitulé <a href=\"https://x.ai/news/biosafety-at-the-frontier\">« Biosecurity at the frontier »</a>, portant sa communication sur les mesures de biosécurité appliquées à Grok. Une convergence notable : OpenAI évoquait le même jour ses seuils critiques dans un autre domaine de risque, celui de la cybersécurité.",
+                "en": "xAI published on Tuesday, 1 September 2026 a post entitled <a href=\"https://x.ai/news/biosafety-at-the-frontier\">\"Biosecurity at the frontier\"</a>, centring its communications on the biosecurity measures applied to Grok. A notable convergence: that same day, OpenAI was discussing its critical thresholds in another risk domain, cybersecurity.",
+                "de": "xAI veröffentlichte am 1. September 2026 einen Beitrag mit dem Titel <a href=\"https://x.ai/news/biosafety-at-the-frontier\">«Biosecurity at the frontier»</a>, in dem das Unternehmen seine Kommunikation auf die bei Grok angewandten Biosicherheitsmassnahmen ausrichtete. Eine bemerkenswerte Konvergenz: OpenAI erwähnte am selben Tag seine kritischen Schwellen in einem anderen Risikobereich, jenem der Cybersicherheit.",
+                "it": "xAI ha pubblicato il 1° settembre 2026 un post intitolato <a href=\"https://x.ai/news/biosafety-at-the-frontier\">«Biosecurity at the frontier»</a>, incentrando la propria comunicazione sulle misure di biosicurezza applicate a Grok. Una convergenza notevole: OpenAI evocava lo stesso giorno le proprie soglie critiche in un altro dominio di rischio, quello della cybersicurezza.",
+                "lmo": "xAI l'ha publicaa el primm de setember 2026 on post intitulaa <a href=\"https://x.ai/news/biosafety-at-the-frontier\">« Biosecurity at the frontier »</a>, centrand la soa comunicazzion sora i mesur de biosicurezza aplicaa a Grok. Convergenza notabil: OpenAI el tratava el midemm dì i soeu soglij crìtegh in d'on alter domini de ris'c, quell de la cybersecurity."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "urls": [
+                "https://x.ai/news/biosafety-at-the-frontier"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Produits & déploiement",
+            "en": "Products & deployment",
+            "de": "Produkte & Einsatz",
+            "it": "Prodotti & diffusione",
+            "lmo": "Prodott & despiegh"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Google Pics arrive dans Workspace, propulsé par Nano Banana",
+                "en": "Google Pics arrives in Workspace, powered by Nano Banana",
+                "de": "Google Pics kommt in Workspace, angetrieben von Nano Banana",
+                "it": "Google Pics arriva in Workspace, spinto da Nano Banana",
+                "lmo": "Google Pics el riva in Workspace, spingiuu de Nano Banana"
+              },
+              "body": {
+                "fr": "Bâti sur le dernier modèle Nano Banana, Google Pics — l'outil de création et d'édition d'images de Workspace — est désormais disponible, annonce Google le 1er septembre 2026 dans <a href=\"https://blog.google/products-and-platforms/products/workspace/google-pics/\">son billet de lancement</a>. Le même jour, l'entreprise publiait sa <a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">revue des annonces IA d'août 2026</a>.",
+                "en": "Built on the latest Nano Banana model, Google Pics — Workspace's image creation and editing tool — is now available, Google announced on Tuesday, 1 September 2026 in <a href=\"https://blog.google/products-and-platforms/products/workspace/google-pics/\">its launch post</a>. The same day, the company published its <a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">review of AI announcements for August 2026</a>.",
+                "de": "Aufgebaut auf dem neuesten Nano-Banana-Modell ist Google Pics — das Werkzeug zur Bilderstellung und -bearbeitung in Workspace — ab sofort verfügbar, kündigt Google am 1. September 2026 in <a href=\"https://blog.google/products-and-platforms/products/workspace/google-pics/\">seinem Launch-Beitrag</a> an. Am selben Tag veröffentlichte das Unternehmen seine <a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">Zusammenfassung der KI-Ankündigungen vom August 2026</a>.",
+                "it": "Basato sull'ultimo modello Nano Banana, Google Pics — lo strumento di creazione e modifica di immagini di Workspace — è ormai disponibile, annuncia Google il 1° settembre 2026 nel suo <a href=\"https://blog.google/products-and-platforms/products/workspace/google-pics/\">post di lancio</a>. Lo stesso giorno, l'azienda pubblicava la sua <a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">rassegna degli annunci IA di agosto 2026</a>.",
+                "lmo": "Faa su sora l'ultem modej Nano Banana, Google Pics — l'strument de creazzion e modifega de imagin de Workspace — l'è adess disponibij, comè el nunzia Google el primm de setember 2026 in del so <a href=\"https://blog.google/products-and-platforms/products/workspace/google-pics/\">post de lanzament</a>. El midemm dì, l'azienda la publicava la soa <a href=\"https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/\">rassegna di anunzi IA de avost 2026</a>."
+              },
+              "kicker": {
+                "fr": "Google Workspace",
+                "en": "Google Workspace",
+                "de": "Google Workspace",
+                "it": "Google Workspace",
+                "lmo": "Google Workspace"
+              },
+              "urls": [
+                "https://blog.google/products-and-platforms/products/workspace/google-pics/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ChatGPT se connecte aux dossiers de santé électroniques",
+                "en": "ChatGPT connects to electronic health records",
+                "de": "ChatGPT verbindet sich mit elektronischen Gesundheitsakten",
+                "it": "ChatGPT si collega alle cartelle cliniche elettroniche",
+                "lmo": "ChatGPT el se conliga ai cartellett sanitari eletronegh"
+              },
+              "body": {
+                "fr": "Les organisations de santé peuvent désormais connecter des dossiers médicaux électroniques (EHR) et des données sectorielles à ChatGPT, annonçait OpenAI le 1er septembre 2026, permettant aux cliniciens d'accéder de façon sécurisée au contexte patient (<a href=\"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\">annonce</a>). Dans la foulée, les notes de version de ChatGPT du 1er septembre détaillent un plugin « Healthcare Public Data » regroupant <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">neuf applications de recherche en sources publiques</a>, en lecture seule, sans accès aux dossiers patients.",
+                "en": "Healthcare organisations can now connect electronic health records (EHRs) and sector data to ChatGPT, OpenAI announced on Tuesday, 1 September 2026, allowing clinicians to securely access patient context (<a href=\"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\">announcement</a>). Following this, the ChatGPT release notes of 1 September detail a \"Healthcare Public Data\" plugin bundling <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">nine research applications over public sources</a>, in read-only mode, with no access to patient records.",
+                "de": "Gesundheitsorganisationen können ab sofort elektronische Patientenakten (EHR) und Branchendaten mit ChatGPT verbinden, kündigte OpenAI am 1. September 2026 an, womit Klinikerinnen und Kliniker sicher auf den Patientenkontext zugreifen können (<a href=\"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\">Ankündigung</a>). Im Anschluss beschreiben die Versionshinweise von ChatGPT vom 1. September ein Plugin «Healthcare Public Data», das <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">neun Recherche-Anwendungen auf öffentliche Quellen</a> bündelt — nur lesend, ohne Zugriff auf Patientenakten.",
+                "it": "Le organizzazioni sanitarie possono ormai collegare cartelle cliniche elettroniche (EHR) e dati settoriali a ChatGPT, annunciava OpenAI il 1° settembre 2026, permettendo ai clinici di accedere in modo sicuro al contesto del paziente (<a href=\"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\">annuncio</a>). A seguire, le note di versione di ChatGPT del 1° settembre dettagliano un plugin «Healthcare Public Data» che raggruppa <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">nove applicazioni di ricerca su fonti pubbliche</a>, in sola lettura, senza accesso alle cartelle dei pazienti.",
+                "lmo": "I organizazzion sanitari poden adess conligà di cartellett medegh eletronegh (EHR) e di dacc del settor a ChatGPT, comè l'anunziava OpenAI el primm de setember 2026, permettand ai clenegh de agh acced de manera segura al contest del pazient (<a href=\"https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources\">anunzi</a>). In del seguit, i not de version de ChatGPT del primm de setember detajen on plugin « Healthcare Public Data » che 'l mett insema <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">nœu applicazzion de ricerca in di font publegh</a>, in domà letura, senza access ai cartellett di pazient."
+              },
+              "kicker": {
+                "fr": "OpenAI · Santé",
+                "en": "OpenAI · Health",
+                "de": "OpenAI · Gesundheit",
+                "it": "OpenAI · Salute",
+                "lmo": "OpenAI · Salut"
+              },
+              "urls": [
+                "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Section",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadernegh Tecegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Infra & outillage",
+            "en": "Infrastructure & tooling",
+            "de": "Infrastruktur & Werkzeuge",
+            "it": "Infra & strumenti",
+            "lmo": "Infra & strumentazzion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Hugging Face libère 200+ kernels WebGPU pour l'IA locale",
+                "en": "Hugging Face open-sources 200+ WebGPU kernels for local AI",
+                "de": "Hugging Face veröffentlicht über 200 WebGPU-Kernels für lokale KI",
+                "it": "Hugging Face libera 200+ kernel WebGPU per l'IA locale",
+                "lmo": "Hugging Face el libera 200+ kernels WebGPU per l'IA local"
+              },
+              "body": {
+                "fr": "Hugging Face a publié le 1er septembre 2026 <a href=\"https://huggingface.co/blog/webgpu-kernels\">@huggingface/kernels</a>, une bibliothèque de plus de 200 kernels WebGPU prêts à l'emploi pour faire tourner des modèles directement dans le navigateur et en local. L'initiative abaisse la barrière d'entrée de l'inférence locale côté client, historiquement freinée par la fragmentation des backends graphiques.",
+                "en": "Hugging Face released on Tuesday, 1 September 2026 <a href=\"https://huggingface.co/blog/webgpu-kernels\">@huggingface/kernels</a>, a library of more than 200 ready-to-use WebGPU kernels for running models directly in the browser and on-device. The initiative lowers the barrier to client-side local inference, historically held back by the fragmentation of graphics backends.",
+                "de": "Hugging Face veröffentlichte am 1. September 2026 <a href=\"https://huggingface.co/blog/webgpu-kernels\">@huggingface/kernels</a>, eine Bibliothek mit über 200 einsatzbereiten WebGPU-Kernels, um Modelle direkt im Browser und lokal laufen zu lassen. Die Initiative senkt die Einstiegshürde für clientseitige lokale Inferenz, die historisch durch die Fragmentierung der Grafik-Backends gebremst wurde.",
+                "it": "Hugging Face ha pubblicato il 1° settembre 2026 <a href=\"https://huggingface.co/blog/webgpu-kernels\">@huggingface/kernels</a>, una libreria di oltre 200 kernel WebGPU pronti all'uso per far girare modelli direttamente nel browser e in locale. L'iniziativa abbassa la barriera d'ingresso all'inferenza locale lato client, storicamente frenata dalla frammentazione dei backend grafici.",
+                "lmo": "Hugging Face l'ha publicaa el primm de setember 2026 <a href=\"https://huggingface.co/blog/webgpu-kernels\">@huggingface/kernels</a>, ona biblioteca de pussee de 200 kernels WebGPU pront per fà girà di modej direttamente in del browser e in local. L'inizziativa la sbassa la barriera de ingress per l'inferenzi local lato client, storegada storegament de la frammentazzion di backend grafegh."
+              },
+              "kicker": {
+                "fr": "Inférence navigateur",
+                "en": "Browser inference",
+                "de": "Browser-Inferenz",
+                "it": "Inferenza nel browser",
+                "lmo": "Inferenzi browser"
+              },
+              "urls": [
+                "https://huggingface.co/blog/webgpu-kernels"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "slotstream : un modèle de 104 Go sur un Mac de 48 Go à 12 tokens/s",
+                "en": "slotstream: a 104 GB model on a 48 GB Mac at 12 tokens/s",
+                "de": "slotstream: ein 104-GB-Modell auf einem 48-GB-Mac mit 12 Tokens/s",
+                "it": "slotstream: un modello da 104 GB su un Mac da 48 GB a 12 token/s",
+                "lmo": "slotstream: on modej de 104 GB sora on Mac de 48 GB a 12 tokens/s"
+              },
+              "body": {
+                "fr": "Un développeur a publié le 1er septembre 2026 slotstream, un outil Mac natif (MLX, Swift) qui fait tourner Qwen3.8-Flash-Next en 4 bits — 125 milliards de paramètres, 104 Go de poids — sur un Mac de 48 Go à environ 12 tokens/seconde, grâce à l'expert-offloading et au streaming SSD, à partir de 16 Go de mémoire, selon le <a href=\"https://github.com/carloslfu/slotstream\">dépôt GitHub</a>. La discussion <a href=\"https://news.ycombinator.com/item?id=49524447\">Show HN</a> (181 points, 90 commentaires) a débattu du compromis mémoire/vitesse de l'auto-mode ; le portage du MTP pour le décodage spéculatif est annoncé comme prochaine étape.",
+                "en": "A developer released on Tuesday, 1 September 2026 slotstream, a native Mac tool (MLX, Swift) that runs Qwen3.8-Flash-Next in 4-bit — 125 billion parameters, 104 GB of weights — on a 48 GB Mac at roughly 12 tokens per second, thanks to expert-offloading and SSD streaming, starting from 16 GB of memory, according to the <a href=\"https://github.com/carloslfu/slotstream\">GitHub repository</a>. The <a href=\"https://news.ycombinator.com/item?id=49524447\">Show HN</a> discussion (181 points, 90 comments) debated the memory/speed trade-off of auto-mode; a port of MTP for speculative decoding is announced as the next step.",
+                "de": "Ein Entwickler veröffentlichte am 1. September 2026 slotstream, ein Mac-natives Werkzeug (MLX, Swift), das Qwen3.8-Flash-Next in 4 Bit ausführt — 125 Milliarden Parameter, 104 GB Gewichte — auf einem Mac mit 48 GB Arbeitsspeicher mit rund 12 Tokens pro Sekunde, dank Expert-Offloading und SSD-Streaming, ab 16 GB Speicher, gemäss dem <a href=\"https://github.com/carloslfu/slotstream\">GitHub-Repository</a>. Die Diskussion <a href=\"https://news.ycombinator.com/item?id=49524447\">Show HN</a> (181 Punkte, 90 Kommentare) diskutierte den Speicher-/Geschwindigkeits-Kompromiss des Auto-Modus; die Portierung des MTP für spekulative Dekodierung ist als nächster Schritt angekündigt.",
+                "it": "Uno sviluppatore ha pubblicato il 1° settembre 2026 slotstream, uno strumento nativo per Mac (MLX, Swift) che fa girare Qwen3.8-Flash-Next in 4 bit — 125 miliardi di parametri, 104 GB di pesi — su un Mac da 48 GB a circa 12 token al secondo, grazie all'expert-offloading e allo streaming su SSD, a partire da 16 GB di memoria, secondo il <a href=\"https://github.com/carloslfu/slotstream\">repository GitHub</a>. La discussione <a href=\"https://news.ycombinator.com/item?id=49524447\">Show HN</a> (181 punti, 90 commenti) ha dibattuto il compromesso memoria/velocità dell'auto-mode; il porting dell'MTP per il decoding speculativo è annunciato come prossimo passo.",
+                "lmo": "On desvilupador l'ha publicaa el primm de setember 2026 slotstream, on strument nativ Mac (MLX, Swift) che 'l fa girà Qwen3.8-Flash-Next a 4 bit — 125 miliard de parameter, 104 GB de pes — sora on Mac de 48 GB a circa 12 tokens al segond, grazie a l'expert-offloading e al streaming SSD, a partì de 16 GB de memoria, segond el <a href=\"https://github.com/carloslfu/slotstream\">repository GitHub</a>. La discussion <a href=\"https://news.ycombinator.com/item?id=49524447\">Show HN</a> (181 pont, 90 comment) l'ha dibattuu el compromess memoria/velocità de l'auto-mode; el port del MTP per el decodifegh speculativ l'è anunziaa comè prossim pass."
+              },
+              "kicker": {
+                "fr": "Inférence locale",
+                "en": "Local inference",
+                "de": "Lokale Inferenz",
+                "it": "Inferenza locale",
+                "lmo": "Inferenzi local"
+              },
+              "urls": [
+                "https://github.com/carloslfu/slotstream",
+                "https://news.ycombinator.com/item?id=49524447"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'app ChatGPT/Codex embarque une copie complète de LibreOffice",
+                "en": "The ChatGPT/Codex app bundles a full copy of LibreOffice",
+                "de": "Die ChatGPT/Codex-App bringt eine vollständige Kopie von LibreOffice mit",
+                "it": "L'app ChatGPT/Codex incorpora una copia completa di LibreOffice",
+                "lmo": "L'app ChatGPT/Codex la porta adree ona copia completa de LibreOffice"
+              },
+              "body": {
+                "fr": "Simon Willison a constaté le 1er septembre 2026 que l'application <a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">ChatGPT/Codex embarque une copie complète de LibreOffice</a>, confirmée par la discussion <a href=\"https://news.ycombinator.com/item?id=49527396\">Hacker News</a> (308 points, 143 commentaires). Les agents y trouvent un moteur bureautique complet pour manipuler documents et classeurs — un choix architectural qui en dit long sur la matérialisation des outils agentiques.",
+                "en": "Simon Willison found on Tuesday, 1 September 2026 that the <a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">ChatGPT/Codex app bundles a complete copy of LibreOffice</a>, confirmed by the <a href=\"https://news.ycombinator.com/item?id=49527396\">Hacker News</a> discussion (308 points, 143 comments). Agents gain a full office suite engine to manipulate documents and spreadsheets — an architectural choice that says a great deal about the materialisation of agentic tooling.",
+                "de": "Simon Willison stellte am 1. September 2026 fest, dass die Anwendung <a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">ChatGPT/Codex eine vollständige Kopie von LibreOffice mitbringt</a>, bestätigt durch die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49527396\">Hacker News</a> (308 Punkte, 143 Kommentare). Die Agenten finden darin eine vollständige Office-Engine, um Dokumente und Tabellen zu bearbeiten — eine architektonische Entscheidung, die viel über die Materialisierung agentischer Werkzeuge aussagt.",
+                "it": "Simon Willison ha constatato il 1° settembre 2026 che l'applicazione <a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">ChatGPT/Codex incorpora una copia completa di LibreOffice</a>, confermato dalla discussione <a href=\"https://news.ycombinator.com/item?id=49527396\">Hacker News</a> (308 punti, 143 commenti). Gli agenti vi trovano un motore office completo per manipolare documenti e fogli di calcolo — una scelta architetturale che la dice lunga sulla materializzazione degli strumenti agentici.",
+                "lmo": "Simon Willison l'ha constataa el primm de setember 2026 che l'applicazzion <a href=\"https://simonwillison.net/2026/Sep/1/codex-libreoffice/\">ChatGPT/Codex la gh'ha denter ona copia completa de LibreOffice</a>, confermada de la discussion <a href=\"https://news.ycombinator.com/item?id=49527396\">Hacker News</a> (308 pont, 143 comment). I agent chì troeuven on motor de biofissa complet per manipolà document e foeuj de calcol — ona scerna architettoniga che la dis propi tant sora la materializazzion di strument agentigh."
+              },
+              "kicker": {
+                "fr": "Agentique",
+                "en": "Agentic",
+                "de": "Agentisch",
+                "it": "Agentico",
+                "lmo": "Agentigh"
+              },
+              "urls": [
+                "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+                "https://news.ycombinator.com/item?id=49527396"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "La frontière efficiente de l'inférence LLM, cartographiée par Baseten",
+                "en": "The efficient frontier of LLM inference, mapped by Baseten",
+                "de": "Die effiziente Grenze der LLM-Inferenz, kartiert von Baseten",
+                "it": "La frontiera efficiente dell'inferenza LLM, mappata da Baseten",
+                "lmo": "La frontiera effiçienta de l'inferenzi LLM, mappada de Baseten"
+              },
+              "body": {
+                "fr": "Baseten publie le 1er septembre 2026 une analyse de la <a href=\"https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/\">« frontière efficiente » de l'inférence LLM</a>, relayée par une discussion <a href=\"https://news.ycombinator.com/item?id=49529898\">Hacker News</a> (72 points). Le texte cartographie les compromis débit/latence/coût entre configurations d'inférence, utile dans un contexte où les optimisations locales et cloud se multiplient.",
+                "en": "Baseten published on Tuesday, 1 September 2026 an analysis of the <a href=\"https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/\">\"efficient frontier\" of LLM inference</a>, relayed by a <a href=\"https://news.ycombinator.com/item?id=49529898\">Hacker News</a> discussion (72 points). The piece maps throughput/latency/cost trade-offs across inference configurations, useful in a context where local and cloud optimisations proliferate.",
+                "de": "Baseten veröffentlicht am 1. September 2026 eine Analyse der <a href=\"https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/\">«effizienten Grenze» der LLM-Inferenz</a>, aufgegriffen von einer Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49529898\">Hacker News</a> (72 Punkte). Der Text kartiert die Kompromisse zwischen Durchsatz, Latenz und Kosten über Inferenz-Konfigurationen hinweg — nützlich in einem Umfeld, in dem sich lokale und Cloud-Optimierungen häufen.",
+                "it": "Baseten pubblica il 1° settembre 2026 un'analisi della <a href=\"https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/\">«frontiera efficiente» dell'inferenza LLM</a>, ripresa da una discussione <a href=\"https://news.ycombinator.com/item?id=49529898\">Hacker News</a> (72 punti). Il testo mappa i compromessi throughput/latenza/costo tra configurazioni d'inferenza, utile in un contesto in cui le ottimizzazioni locali e cloud si moltiplicano.",
+                "lmo": "Baseten el publica el primm de setember 2026 ona analisi de la <a href=\"https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/\">« frontiera effiçienta » de l'inferenzi LLM</a>, relexada de ona discussion <a href=\"https://news.ycombinator.com/item?id=49529898\">Hacker News</a> (72 pont). El test el mapa i compromess debit/latenza/cost tra i configurazzion de inferenzi, util in d'on contest indova che i otimizazzion localegh e cloud se moltiplegen."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analisi"
+              },
+              "urls": [
+                "https://www.baseten.co/blog/the-efficient-frontier-of-llm-inference/",
+                "https://news.ycombinator.com/item?id=49529898"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "The Research Section",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "SMELT : boucler les couches médianes d'un MoE économise jusqu'à 18 % de FLOPs d'entraînement",
+                "en": "SMELT: looping a MoE's middle layers saves up to 18% of training FLOPs",
+                "de": "SMELT: Das Durchlaufen der mittleren Schichten eines MoE spart bis zu 18 Prozent Trainings-FLOPs",
+                "it": "SMELT: chiudere in loop gli strati mediani di un MoE fa risparmiare fino al 18 % di FLOP di addestramento",
+                "lmo": "SMELT: sarà su i facc median d'on MoE el fa risparmià fin al 18% de FLOPs de addestrament"
+              },
+              "body": {
+                "fr": "Des chercheurs de ByteDance Seed proposent <a href=\"https://arxiv.org/abs/2609.01343\">SMELT</a> (15 upvotes sur HF Daily Papers le 2 septembre 2026) : boucler deux fois la moitié médiane des couches d'un Transformer MoE, à budget égal en FLOPs par token, paramètres et cache KV, économise 6,8 à 18,0 % de FLOPs d'entraînement sur la frontière compute-optimale, avec des gains les plus marqués en code et croissants avec la longueur de contexte. La recette est validée jusqu'à 54 milliards de paramètres hors embeddings.",
+                "en": "Researchers at ByteDance Seed propose <a href=\"https://arxiv.org/abs/2609.01343\">SMELT</a> (15 upvotes on HF Daily Papers on Wednesday, 2 September 2026): looping the middle half of a MoE Transformer's layers twice, at equal budget in FLOPs per token, parameters and KV cache, saves 6.8 to 18.0 per cent of training FLOPs on the compute-optimal frontier, with the largest gains on code and growing ones with context length. The recipe is validated up to 54 billion parameters excluding embeddings.",
+                "de": "Forschende von ByteDance Seed schlagen <a href=\"https://arxiv.org/abs/2609.01343\">SMELT</a> vor (15 Upvotes auf HF Daily Papers am 2. September 2026): Das zweifache Durchlaufen der mittleren Hälfte der Schichten eines MoE-Transformers spart — bei gleichem Budget an FLOPs pro Token, Parametern und KV-Cache — 6,8 bis 18,0 Prozent Trainings-FLOPs auf der compute-optimalen Grenze, mit den grössten Gewinnen bei Code und zunehmend mit der Kontextlänge. Das Rezept ist bis 54 Milliarden Parameter ohne Embeddings validiert.",
+                "it": "Ricercatori di ByteDance Seed propongono <a href=\"https://arxiv.org/abs/2609.01343\">SMELT</a> (15 upvote su HF Daily Papers il 2 settembre 2026): eseguire due volte in loop la metà mediana degli strati di un Transformer MoE, a parità di budget in FLOP per token, parametri e cache KV, fa risparmiare dal 6,8 al 18,0 % di FLOP di addestramento sulla frontiera compute-ottimale, con i guadagni più marcati nel codice e crescenti con la lunghezza del contesto. La ricetta è validata fino a 54 miliardi di parametri esclusi gli embedding.",
+                "lmo": "Di ricercador de ByteDance Seed proponen <a href=\"https://arxiv.org/abs/2609.01343\">SMELT</a> (15 upvote sora HF Daily Papers el 2 de setember 2026): fà vegnì serial duu voeult la mitaa mediana di facc d'on Transformer MoE, con budget compagn in FLOPs per token, parameter e cache KV, el fa risparmià del 6,8 al 18,0% de FLOPs de addestrament sora la frontiera compute-ottemala, cont i guadagn pussee fort in codes e crescent con la longhezza del contest. La ricetta l'è validada infina a 54 miliard de parameter foeura di embedding."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architetura"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.01343"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "E-Commerce Bench : sur un an de commerce simulé, aucun modèle ne domine tous les autres",
+                "en": "E-Commerce Bench: over a simulated year of commerce, no model dominates all others",
+                "de": "E-Commerce Bench: Über ein Jahr simulierten Handels dominiert kein Modell alle anderen",
+                "it": "E-Commerce Bench: su un anno di commercio simulato, nessun modello domina tutti gli altri",
+                "lmo": "E-Commerce Bench: sora on ann de commerzi simulaa, nissun modej el domina tucc i alter"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://arxiv.org/abs/2608.30730\">benchmark E-Commerce Bench</a>, ouvert par l'équipe Qwen, simule une année complète (365 jours) de gestion de boutiques en ligne avec négociations fournisseurs et chocs d'offre. Sur les 18 modèles frontière évalués, aucun ne domine : GPT-5.6 Sol transforme un capital initial de 100 000 en 1 431 425, mais se classe 16e sur 18 en détection de fraude ; côté poids ouverts, Qwen3.8-Max-Preview mène avec 416 252, soit 38 % de plus que GLM 5.2 (high).",
+                "en": "The <a href=\"https://arxiv.org/abs/2608.30730\">E-Commerce Bench benchmark</a>, released by the Qwen team, simulates a full year (365 days) of online shop management with supplier negotiations and supply shocks. Of the 18 frontier models evaluated, none dominates: GPT-5.6 Sol turns an initial capital of 100,000 into 1,431,425, but ranks 16th of 18 in fraud detection; among open weights, Qwen3.8-Max-Preview leads with 416,252, 38 per cent ahead of GLM 5.2 (high).",
+                "de": "Der <a href=\"https://arxiv.org/abs/2608.30730\">Benchmark E-Commerce Bench</a>, vom Qwen-Team eröffnet, simuliert ein ganzes Jahr (365 Tage) der Führung von Online-Shops mit Lieferantenverhandlungen und Angebotsschocks. Von den 18 bewerteten Frontier-Modellen dominiert keines: GPT-5.6 Sol verwandelt ein Startkapital von 100 000 in 1 431 425, belegt aber bei der Betrugserkennung nur Rang 16 von 18; bei den offenen Gewichten führt Qwen3.8-Max-Preview mit 416 252 — 38 Prozent mehr als GLM 5.2 (high).",
+                "it": "Il <a href=\"https://arxiv.org/abs/2608.30730\">benchmark E-Commerce Bench</a>, reso pubblico dal team Qwen, simula un anno intero (365 giorni) di gestione di negozi online con negoziazioni con i fornitori e choc dell'offerta. Su 18 modelli di frontiera valutati, nessuno domina: GPT-5.6 Sol trasforma un capitale iniziale di 100 000 in 1 431 425, ma si classifica 16° su 18 nel rilevamento delle frodi; sul fronte dei pesi aperti, Qwen3.8-Max-Preview guida con 416 252, ovvero il 38 % in più di GLM 5.2 (high).",
+                "lmo": "El <a href=\"https://arxiv.org/abs/2608.30730\">benchmark E-Commerce Bench</a>, dervid de l'equip Qwen, el simula on ann complet (365 dì) de gestion de bottegh in linia con negoziazzion con i fornitór e sicc de offerta. Tra i 18 modej frontiera valutaa, nissun el domina: GPT-5.6 Sol el transforma on capital inizzial de 100.000 in 1.431.425, ma el se classifega 16esim su 18 in rilevament di frott; de la banda di pes dervii, Qwen3.8-Max-Preview el guida con 416.252, el 38% pussee de GLM 5.2 (high)."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2608.30730"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "UI-Venus-2 : un agent GUI open source pour 170+ apps mobiles et le desktop",
+                "en": "UI-Venus-2: an open-source GUI agent for 170+ mobile apps and desktop",
+                "de": "UI-Venus-2: ein quelloffener GUI-Agent für über 170 mobile Apps und den Desktop",
+                "it": "UI-Venus-2: un agente GUI open source per 170+ app mobili e il desktop",
+                "lmo": "UI-Venus-2: on agent GUI open source per 170+ app mobil e el desktop"
+              },
+              "body": {
+                "fr": "Ant Group publie le rapport technique d'<a href=\"https://arxiv.org/abs/2609.00028\">UI-Venus-2</a> (39 upvotes, papier le plus voté du jour sur HF Daily Papers le 2 septembre 2026), un agent GUI multimodal open source couvrant plus de 170 applications mobiles multilingues et les systèmes desktop natifs, avec vérification multi-modèles pour des signaux RL fiables et des mécanismes de sécurité pour les actions à conséquences.",
+                "en": "Ant Group published the technical report for <a href=\"https://arxiv.org/abs/2609.00028\">UI-Venus-2</a> (39 upvotes, the most upvoted paper of the day on HF Daily Papers on Wednesday, 2 September 2026), an open-source multimodal GUI agent covering more than 170 multilingual mobile applications and native desktop systems, with multi-model verification for reliable RL signals and safety mechanisms for consequential actions.",
+                "de": "Ant Group veröffentlicht das technische Bericht zu <a href=\"https://arxiv.org/abs/2609.00028\">UI-Venus-2</a> (39 Upvotes, meistgewähltes Paper des Tages auf HF Daily Papers am 2. September 2026), einem quelloffenen multimodalen GUI-Agenten, der mehr als 170 mehrsprachige mobile Anwendungen sowie native Desktop-Systeme abdeckt, mit Multi-Modell-Verifizierung für zuverlässige RL-Signale und Sicherheitsmechanismen für folgenreiche Aktionen.",
+                "it": "Ant Group pubblica il rapporto tecnico di <a href=\"https://arxiv.org/abs/2609.00028\">UI-Venus-2</a> (39 upvote, paper più votato del giorno su HF Daily Papers il 2 settembre 2026), un agente GUI multimodale open source che copre oltre 170 applicazioni mobili multilingue e i sistemi desktop nativi, con verifica multimodello per segnali RL affidabili e meccanismi di sicurezza per le azioni con conseguenze.",
+                "lmo": "Ant Group el publica el rapport tecegh d'<a href=\"https://arxiv.org/abs/2609.00028\">UI-Venus-2</a> (39 upvote, paper pussée votaa del dì sora HF Daily Papers el 2 de setember 2026), on agent GUI multimodal open source che 'l quatta pussee de 170 applicazzion mobil multilingov e i sistema desktop nativ, con verifica multimodej per di segnaj RL fidabij e di meccanism de sicurezza per i azzion con conseguenz."
+              },
+              "kicker": {
+                "fr": "Agents GUI",
+                "en": "GUI agents",
+                "de": "GUI-Agenten",
+                "it": "Agenti GUI",
+                "lmo": "Agent GUI"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.00028"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Safin-1 : la sécurité comme état interne du modèle, et DiagEvo apprend de ses erreurs",
+                "en": "Safin-1: safety as an internal model state, and DiagEvo learns from its mistakes",
+                "de": "Safin-1: Sicherheit als interner Zustand des Modells — und DiagEvo lernt aus seinen Fehlern",
+                "it": "Safin-1: la sicurezza come stato interno del modello, e DiagEvo impara dai propri errori",
+                "lmo": "Safin-1: la sicurezza comè stat intern del modej, e DiagEvo el impara di soeu error"
+              },
+              "body": {
+                "fr": "Le <a href=\"https://arxiv.org/abs/2609.00092\">papier Safin-1</a> du Shanghai AI Laboratory (12 upvotes) défend une « sécurité de l'intérieur » : via une architecture MARCH de routage mémoire à travers l'historique de contexte, la sûreté devient un état natif et adaptable du modèle, sans re-entraîner le backbone. Toujours le 2 septembre 2026, <a href=\"https://arxiv.org/abs/2609.00768\">DiagEvo</a> de Meituan LongCat (5 upvotes) montre qu'un curriculum d'auto-évolution peut être dérivé de la propre histoire d'échecs du solveur : 72,3 % de précision moyenne sur cinq benchmarks mathématiques avec Qwen3-8B, 4,5 points au-dessus de R-Zero.",
+                "en": "The <a href=\"https://arxiv.org/abs/2609.00092\">Safin-1 paper</a> from the Shanghai AI Laboratory (12 upvotes) argues for \"safety from within\": via a MARCH architecture routing memory through the context history, safety becomes a native, adaptable state of the model, without retraining the backbone. Also on Wednesday, 2 September 2026, <a href=\"https://arxiv.org/abs/2609.00768\">DiagEvo</a> from Meituan LongCat (5 upvotes) shows that a self-evolution curriculum can be derived from the solver's own failure history: 72.3 per cent average accuracy across five mathematical benchmarks with Qwen3-8B, 4.5 points above R-Zero.",
+                "de": "Das <a href=\"https://arxiv.org/abs/2609.00092\">Paper Safin-1</a> des Shanghai AI Laboratory (12 Upvotes) plädiert für «Sicherheit von innen»: Über eine MARCH-Architektur zur Speicher-Routing durch den Kontextverlauf wird Sicherheit zu einem nativen, anpassungsfähigen Zustand des Modells — ohne das Backbone neu zu trainieren. Ebenfalls am 2. September 2026 zeigt <a href=\"https://arxiv.org/abs/2609.00768\">DiagEvo</a> von Meituan LongCat (5 Upvotes), dass ein Curriculum der Selbstevolution aus der eigenen Fehlergeschichte des Solvers abgeleitet werden kann: 72,3 Prozent durchschnittliche Genauigkeit auf fünf mathematischen Benchmarks mit Qwen3-8B — 4,5 Punkte über R-Zero.",
+                "it": "Il <a href=\"https://arxiv.org/abs/2609.00092\">paper Safin-1</a> dello Shanghai AI Laboratory (12 upvote) difende una «sicurezza dall'interno»: tramite un'architettura MARCH di instradamento della memoria attraverso la storia del contesto, la sicurezza diventa uno stato nativo e adattabile del modello, senza riaddestrare il backbone. Sempre il 2 settembre 2026, <a href=\"https://arxiv.org/abs/2609.00768\">DiagEvo</a> di Meituan LongCat (5 upvote) mostra che un curriculum di autoevoluzione può essere derivato dalla stessa storia di fallimenti del solver: 72,3 % di precisione media su cinque benchmark matematici con Qwen3-8B, 4,5 punti sopra R-Zero.",
+                "lmo": "El <a href=\"https://arxiv.org/abs/2609.00092\">paper Safin-1</a> del Shanghai AI Laboratory (12 upvote) el sostegn ona « sicurezza de denter»: cont ona architetura MARCH de instradament de memoria travers la storia del contest, la sùretaa la deven on stat nativ e adattabil del modej, senza re-addestrà el backbone. Semper el 2 de setember 2026, <a href=\"https://arxiv.org/abs/2609.00768\">DiagEvo</a> de Meituan LongCat (5 upvote) el mostra che on curriculum de auto-evoluzzion el pò vess derivaa de la propia storia di insuccess del solver: 72,3% de precision media su cinch benchmark matemategh con Qwen3-8B, 4,5 pont sora de R-Zero."
+              },
+              "kicker": {
+                "fr": "Sûreté & RL",
+                "en": "Safety & RL",
+                "de": "Sicherheit & RL",
+                "it": "Sicurezza & RL",
+                "lmo": "Sùretaa & RL"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.00092",
+                "https://arxiv.org/abs/2609.00768"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edeg"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communauté",
+            "en": "Community signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnaj comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Dan Luu passe au crible les prédictions d'Ed Zitron",
+                "en": "Dan Luu puts Ed Zitron's predictions under the microscope",
+                "de": "Dan Luu nimmt Ed Zitrons Vorhersagen unter die Lupe",
+                "it": "Dan Luu passa al setaccio le previsioni di Ed Zitron",
+                "lmo": "Dan Luu el passa al setasciû predizzion d'Ed Zitron"
+              },
+              "body": {
+                "fr": "Dan Luu a publié le 1er septembre 2026 une vérification factuelle des prédictions du sceptique Ed Zitron, objet d'une discussion <a href=\"https://news.ycombinator.com/item?id=49526069\">Hacker News</a> à 543 points et 629 commentaires. L'exercice, rare dans le débat IA, confronte chaque prophétie pessimiste publiée à ce qui s'est effectivement produit — et alimente un débat plus large sur la responsabilité des commentateurs des deux camps.",
+                "en": "Dan Luu published on Tuesday, 1 September 2026 a fact-check of the predictions of sceptic Ed Zitron, prompting a <a href=\"https://news.ycombinator.com/item?id=49526069\">Hacker News</a> discussion with 543 points and 629 comments. The exercise, rare in the AI debate, confronts each published pessimistic prophecy with what actually happened — and feeds a broader debate about accountability among commentators on both sides.",
+                "de": "Dan Luu veröffentlichte am 1. September 2026 eine faktenbasierte Überprüfung der Vorhersagen des Skeptikers Ed Zitron, Gegenstand einer <a href=\"https://news.ycombinator.com/item?id=49526069\">Hacker-News-Diskussion</a> mit 543 Punkten und 629 Kommentaren. Diese Übung, selten in der KI-Debatte, konfrontiert jede pessimistische Prophezeiung mit dem, was tatsächlich eingetreten ist — und befeuert eine breitere Debatte über die Verantwortung von Kommentierenden in beiden Lagern.",
+                "it": "Dan Luu ha pubblicato il 1° settembre 2026 una verifica fattuale delle previsioni dello scettico Ed Zitron, oggetto di una discussione <a href=\"https://news.ycombinator.com/item?id=49526069\">Hacker News</a> con 543 punti e 629 commenti. L'esercizio, raro nel dibattito sull'IA, confronta ogni profezia pessimista pubblicata con quanto effettivamente accaduto — e alimenta un dibattito più ampio sulla responsabilità dei commentatori di entrambi gli schieramenti.",
+                "lmo": "Dan Luu l'ha publicaa el primm de setember 2026 ona verifica fattuala di predizzion del settegh Ed Zitron, oggett d'ona discussion <a href=\"https://news.ycombinator.com/item?id=49526069\">Hacker News</a> a 543 pont e 629 comment. L'esercizzi, rar in del dibattit IA, el mett a confront ogni profezia pessimista publicada con quell che l'è suceduu propi — e 'l alimenta on dibattit pussee largh sora la responsabilitaa di comentador de tucc duu i camp."
+              },
+              "kicker": {
+                "fr": "Débat public",
+                "en": "Public debate",
+                "de": "Öffentliche Debatte",
+                "it": "Dibattito pubblico",
+                "lmo": "Dibattit publegh"
+              },
+              "urls": [
+                "https://danluu.com/zitron/",
+                "https://news.ycombinator.com/item?id=49526069"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Retour d'expérience : les modèles locaux sur Mac Mini M4 Pro",
+                "en": "Hands-on: local models on the Mac Mini M4 Pro",
+                "de": "Erfahrungsbericht: lokale Modelle auf dem Mac Mini M4 Pro",
+                "it": "Ritorno d'esperienza: i modelli locali su Mac Mini M4 Pro",
+                "lmo": "Retorn de esperienza: i modej localegh sora Mac Mini M4 Pro"
+              },
+              "body": {
+                "fr": "Un bilot détaillé sur <a href=\"https://lws.io/blog/my-local-model-setup/\">une configuration de modèles locaux sur Mac Mini M4 Pro</a> a réuni 116 points et 57 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49529132\">Hacker News</a> le 1er septembre 2026. Complément utile à slotstream, il documente les choix concrets — modèles, quantifications, outils — d'un usage quotidien hors cloud, signe que l'écosystème local Mac atteint une masse critique.",
+                "en": "A detailed post on <a href=\"https://lws.io/blog/my-local-model-setup/\">a local model setup on a Mac Mini M4 Pro</a> gathered 116 points and 57 comments on <a href=\"https://news.ycombinator.com/item?id=49529132\">Hacker News</a> on Tuesday, 1 September 2026. A useful companion to slotstream, it documents the concrete choices — models, quantisations, tools — of everyday cloud-free usage, a sign that the local Mac ecosystem is reaching critical mass.",
+                "de": "Ein ausführlicher Beitrag über <a href=\"https://lws.io/blog/my-local-model-setup/\">ein Setup lokaler Modelle auf einem Mac Mini M4 Pro</a> versammelte am 1. September 2026 116 Punkte und 57 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49529132\">Hacker News</a>. Als nützliche Ergänzung zu slotstream dokumentiert er die konkreten Entscheidungen — Modelle, Quantisierungen, Werkzeuge — einer täglichen Nutzung ausserhalb der Cloud; ein Zeichen, dass das lokale Mac-Ökosystem eine kritische Masse erreicht.",
+                "it": "Un post dettagliato su <a href=\"https://lws.io/blog/my-local-model-setup/\">una configurazione di modelli locali su Mac Mini M4 Pro</a> ha raccolto 116 punti e 57 commenti su <a href=\"https://news.ycombinator.com/item?id=49529132\">Hacker News</a> il 1° settembre 2026. Utile complemento a slotstream, documenta le scelte concrete — modelli, quantizzazioni, strumenti — di un uso quotidiano fuori dal cloud, segno che l'ecosistema locale su Mac raggiunge una massa critica.",
+                "lmo": "On post detajaa sora <a href=\"https://lws.io/blog/my-local-model-setup/\">ona configurazzion de modej localegh sora Mac Mini M4 Pro</a> l'ha regolt 116 pont e 57 comment sora <a href=\"https://news.ycombinator.com/item?id=49529132\">Hacker News</a> el primm de setember 2026. Complement util a slotstream, el documenta i scerni concret — modej, quantizzazzion, strument — d'on usagg quotidian foeura del cloud, segn che l'ecosistema local Mac el ragonza ona massa crìtega."
+              },
+              "kicker": {
+                "fr": "Pratiques",
+                "en": "Practice",
+                "de": "Praktiken",
+                "it": "Pratiche",
+                "lmo": "Prategh"
+              },
+              "urls": [
+                "https://lws.io/blog/my-local-model-setup/",
+                "https://news.ycombinator.com/item?id=49529132"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "BenchMIRT : ce que les benchmarks LLM mesurent vraiment",
+                "en": "BenchMIRT: what LLM benchmarks really measure",
+                "de": "BenchMIRT: Was LLM-Benchmarks wirklich messen",
+                "it": "BenchMIRT: che cosa misurano davvero i benchmark LLM",
+                "lmo": "BenchMIRT: quell che i benchmark LLM mesuren propi"
+              },
+              "body": {
+                "fr": "Le Seattle AI Lab (Allen Institute for AI) publie <a href=\"https://huggingface.co/blog/allenai/benchmirt\">BenchMIRT</a> le 1er septembre 2026, une étude systématique de ce que mesurent réellement les benchmarks LLM en appliquant la théorie psychométrique MIRT. La conclusion interpelle une industrie qui communique presque exclusivement en scores : une part de la variance des classements tient à des dimensions latentes que les métriques publiques confondent.",
+                "en": "The Seattle AI Lab (Allen Institute for AI) published <a href=\"https://huggingface.co/blog/allenai/benchmirt\">BenchMIRT</a> on Tuesday, 1 September 2026, a systematic study of what LLM benchmarks actually measure by applying MIRT psychometric theory. The conclusion challenges an industry that communicates almost exclusively in scores: part of the variance in rankings stems from latent dimensions that public metrics conflate.",
+                "de": "Das Seattle AI Lab (Allen Institute for AI) veröffentlicht <a href=\"https://huggingface.co/blog/allenai/benchmirt\">BenchMIRT</a> am 1. September 2026, eine systematische Untersuchung dessen, was LLM-Benchmarks tatsächlich messen, durch Anwendung der psychometrischen Theorie MIRT. Die Schlussfolgerung stellt eine Industrie infrage, die fast ausschliesslich in Scores kommuniziert: Ein Teil der Varianz der Ranglisten beruht auf latenten Dimensionen, die die öffentlichen Metriken vermengen.",
+                "it": "Il Seattle AI Lab (Allen Institute for AI) pubblica <a href=\"https://huggingface.co/blog/allenai/benchmirt\">BenchMIRT</a> il 1° settembre 2026, uno studio sistematico di ciò che i benchmark LLM misurano realmente applicando la teoria psicometrica MIRT. La conclusione interpella un'industria che comunica quasi esclusivamente tramite punteggi: una parte della varianza delle classifiche è dovuta a dimensioni latenti che le metriche pubbliche confondono.",
+                "lmo": "El Seattle AI Lab (Allen Institute for AI) el publica <a href=\"https://huggingface.co/blog/allenai/benchmirt\">BenchMIRT</a> el primm de setember 2026, on studi sistematich de quell che mesuren propi i benchmark LLM cont l'aplicà la teoria psiçometrega MIRT. La concluzzion la fa pensà ona industria che la comunica quasi domà cont i pontegg: ona part de la varianza di classifeghe la se là sora di dimension latent che i metriegh publegh i confonden."
+              },
+              "kicker": {
+                "fr": "Métascience",
+                "en": "Metascience",
+                "de": "Metawissenschaft",
+                "it": "Metascienza",
+                "lmo": "Metascenza"
+              },
+              "urls": [
+                "https://huggingface.co/blog/allenai/benchmirt"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Edeg"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — La sûreté devient un argument de vente : bonne nouvelle, à condition qu'elle soit vérifiable",
+                "en": "Editorial — Safety becomes a selling point: good news, provided it is verifiable",
+                "de": "Editorial — Sicherheit wird zum Verkaufsargument: eine gute Nachricht, sofern sie überprüfbar ist",
+                "it": "Editoriale — La sicurezza diventa un argomento di vendita: una buona notizia, a condizione che sia verificabile",
+                "lmo": "Edeg — La sùretaa la deven on argoment de vendita: bona noeuva, a condizzion che la sìa verificabij"
+              },
+              "body": {
+                "fr": "Deux annonces du 1er septembre 2026 racontent la même histoire sous deux angles. D'un côté, OpenAI publie « Path to Astra » : un modèle franchit pour la première fois le seuil « Critique » de cybersécurité de son propre cadre de préparation — et le laboratoire en fait une communication de transparence. De l'autre, xAI publie « Biosecurity at the frontier » : le concurrent aligne sa communication sur le même registre (<a href=\"https://openai.com/index/path-to-astra\">OpenAI</a>, <a href=\"https://x.ai/news/biosafety-at-the-frontier\">xAI</a>). Que la sûreté devienne un argument concurrentiel plutôt qu'un fardeau réglementaire est une bonne nouvelle — à une condition : que ces cadres internes s'ouvrent à la vérification externe. Anthropic, qui a publié la System Card complète de Fable 5.1 et Mythos 5.1 dès le premier jour, montre la marche à suivre (<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">annonce</a>). Le risque inverse existe : une course aux annonces de sûreté sans substance, où le vocabulaire du risque servirait de vernis marketing. Les lecteurs jugeront sur pièces — nous nous employons, de notre côté, à continuer de les leur fournir.",
+                "en": "Two announcements of Tuesday, 1 September 2026 tell the same story from two angles. On one side, OpenAI publishes \"Path to Astra\": a model crosses the \"Critical\" cybersecurity threshold of its own preparedness framework for the first time — and the lab turns it into a transparency exercise. On the other, xAI publishes \"Biosecurity at the frontier\": the competitor aligns its communications on the same register (<a href=\"https://openai.com/index/path-to-astra\">OpenAI</a>, <a href=\"https://x.ai/news/biosafety-at-the-frontier\">xAI</a>). That safety is becoming a competitive selling point rather than a regulatory burden is good news — on one condition: that these internal frameworks open themselves to external verification. Anthropic, which published the full System Card for Fable 5.1 and Mythos 5.1 on day one, is showing the way (<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">announcement</a>). The opposite risk exists: a race to safety announcements devoid of substance, where the vocabulary of risk would serve as a marketing veneer. Readers will judge on the evidence — and we, for our part, intend to keep providing it.",
+                "de": "Zwei Ankündigungen vom 1. September 2026 erzählen dieselbe Geschichte aus zwei Blickwinkeln. Einerseits veröffentlicht OpenAI «Path to Astra»: Ein Modell überschreitet erstmals die Cybersecurity-Schwelle «Kritisch» des eigenen Preparedness-Frameworks — und das Labor macht daraus eine Transparenzkommunikation. Andererseits veröffentlicht xAI «Biosecurity at the frontier»: Der Konkurrent richtet seine Kommunikation auf dasselbe Register aus (<a href=\"https://openai.com/index/path-to-astra\">OpenAI</a>, <a href=\"https://x.ai/news/biosafety-at-the-frontier\">xAI</a>). Dass Sicherheit zu einem Wettbewerbsargument statt zu einer regulatorischen Bürde wird, ist eine gute Nachricht — unter einer Bedingung: dass sich diese internen Rahmen der externen Überprüfung öffnen. Anthropic, das die vollständige System Card von Fable 5.1 und Mythos 5.1 schon am ersten Tag veröffentlichte, zeigt den Weg (<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">Ankündigung</a>). Das umgekehrte Risiko besteht ebenfalls: ein Wettlauf um substanzlose Sicherheitsankündigungen, in dem der Risikovokabular als Marketingfirnis dient. Die Leserschaft wird anhand der Dokumente urteilen — wir bemühen uns unsererseits, diese weiterhin zu liefern.",
+                "it": "Due annunci del 1° settembre 2026 raccontano la stessa storia da due angolazioni. Da un lato, OpenAI pubblica «Path to Astra»: un modello supera per la prima volta la soglia «Critica» di cybersicurezza del proprio quadro di preparazione — e il laboratorio ne fa una comunicazione di trasparenza. Dall'altro, xAI pubblica «Biosecurity at the frontier»: il concorrente allinea la propria comunicazione sullo stesso registro (<a href=\"https://openai.com/index/path-to-astra\">OpenAI</a>, <a href=\"https://x.ai/news/biosafety-at-the-frontier\">xAI</a>). Che la sicurezza diventi un argomento competitivo anziché un peso regolamentare è una buona notizia — a una condizione: che questi quadri interni si aprano alla verifica esterna. Anthropic, che ha pubblicato la System Card completa di Fable 5.1 e Mythos 5.1 fin dal primo giorno, mostra la strada da seguire (<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">annuncio</a>). Esiste il rischio inverso: una corsa agli annunci di sicurezza senza sostanza, in cui il vocabolario del rischio servirebbe da vernice marketing. I lettori giudicheranno sulla base dei fatti — da parte nostra, ci adoperiamo per continuare a fornirglieli.",
+                "lmo": "Duu anunzi del primm de setember 2026 disen la midemma storia con duu anglegh diferent. De la banda OpenAI, « Path to Astra »: on modej el passa per la prima voeulta la soglia « Crìtega » de cybersecurity del sò propi quadro de preparazzion — e 'l laboratori el ne fa ona comunicazzion de trasparenza. De l'altra banda, xAI el pubblica « Biosecurity at the frontier »: el concorrent el alinea la soa comunicazzion sul midemm register (<a href=\"https://openai.com/index/path-to-astra\">OpenAI</a>, <a href=\"https://x.ai/news/biosafety-at-the-frontier\">xAI</a>). Che la sùretaa la deven on argoment de vendita putoost che on pes regolatori l'è ona bona noeuva — a ona condizzion: che sti quadro intern chì se derven a la verifica esterna. Anthropic, che l'ha publicaa la System Card completa de Fable 5.1 e Mythos 5.1 del primm dì, el mostra la strada de fà (<a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">anunzi</a>). El ris'c invers l'esist: ona corsa ai anunzi de sùretaa senza sostanza, indova che 'l vocabolari del ris'c el servarà de vernis de marketing. I lector giudegherà su la robi — numm, de la nostra banda, se femm promett de fornìghela semper."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edeg"
+              },
+              "urls": [
+                "https://openai.com/index/path-to-astra",
+                "https://x.ai/news/biosafety-at-the-frontier",
+                "https://www.anthropic.com/claude-fable-and-mythos-5-1"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
