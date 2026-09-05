@@ -1,0 +1,740 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-04",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "OpenAI a annoncé le 3 septembre 2026 la sortie de GPT-6 Astra, présenté comme son modèle le plus capable, « construit pour le travail le plus difficile de bout en bout ». Le modèle combine raisonnement, programmation, usage d'ordinateur, recherche et création de documents : selon les notes de version de ChatGPT, Astra peut produire documents, tableurs et présentations qui suivent les templates et instructions de l'utilisateur, et s'adapter quand les exigences changent en cours de route. L'accès est déployé progressivement auprès d'un ensemble limité d'organisations, une disponibilité générale étant annoncée « dans les jours à venir » (voir <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">les release notes</a> et <a href=\"https://openai.com/index/gpt-6-astra/\">l'annonce</a>).",
+        "en": "OpenAI announced on September 3, 2026 the release of GPT-6 Astra, presented as its most capable model, \"built for the hardest end-to-end work.\" The model combines reasoning, coding, computer use, research and document creation: according to the ChatGPT release notes, Astra can produce documents, spreadsheets and presentations that follow the user's templates and instructions, and adapt when requirements change along the way. Access is being rolled out gradually to a limited set of organizations, with general availability announced \"in the coming days\" (see <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">the release notes</a> and <a href=\"https://openai.com/index/gpt-6-astra/\">the announcement</a>).",
+        "de": "OpenAI hat am 3. September 2026 die Veröffentlichung von GPT-6 Astra angekündigt, das als sein leistungsfähigstes Modell präsentiert wird, «gebaut für die anspruchsvollsten durchgängigen Arbeitsabläufe». Das Modell vereint Schlussfolgern, Programmierung, Computernutzung, Recherche und Dokumenterstellung: Gemäss den Versionshinweisen von ChatGPT kann Astra Dokumente, Tabellen und Präsentationen erstellen, die den Vorlagen und Anweisungen des Nutzers folgen, und sich anpassen, wenn sich die Anforderungen unterwegs ändern. Der Zugang wird schrittweise für eine begrenzte Anzahl von Organisationen ausgerollt; eine breite Verfügbarkeit wird «in den kommenden Tagen» angekündigt (siehe <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">die Release Notes</a> und <a href=\"https://openai.com/index/gpt-6-astra/\">die Ankündigung</a>).",
+        "it": "OpenAI ha annunciato il 3 settembre 2026 il rilascio di GPT-6 Astra, presentato come il suo modello più capace, «costruito per il lavoro più difficile end-to-end». Il modello combina ragionamento, programmazione, uso del computer, ricerca e creazione di documenti: secondo le note di rilascio di ChatGPT, Astra può produrre documenti, fogli di calcolo e presentazioni che seguono i template e le istruzioni dell'utente, e adattarsi quando le esigenze cambiano durante il percorso. L'accesso viene distribuito progressivamente a un insieme limitato di organizzazioni, con una disponibilità generale annunciata «nei prossimi giorni» (vedi <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">le release notes</a> e <a href=\"https://openai.com/index/gpt-6-astra/\">l'annuncio</a>).",
+        "lmo": "OpenAI l'ha anunziaa el 3 de settember 2026 l'entrada de GPT-6 Astra, presentaa come el sò model pussee capaas, « costruì per el laurà pusseegram diffizil de principi a fin ». El model el combina resònament, programazion, drovagg del computer, riserca e creazion de document: segond i not de versiun del ChatGPT, Astra el pò producee document, foeuj de calcol e presentazion che sequen i template e i istruzion de l'utent, e adattàss quand i esigenz cambien in del mezzi. L'access l'è deployaa gradivament a on insemm limitaa de organizazion, ona disponibilità generala che l'è stada anunziada « in di dì che vegnen » (vardà <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">i release notes</a> e <a href=\"https://openai.com/index/gpt-6-astra/\">l'anunzia</a>)."
+      },
+      {
+        "fr": "Sur le plan de la sûreté, OpenAI publie en parallèle un aperçu dédié : GPT-6 Astra est le premier modèle largement déployé à atteindre le niveau « Critical » de capacité en cybersécurité selon son Preparedness Framework, et embarque une surveillance supplémentaire pour détecter les cas où l'agent aurait mal interprété les instructions (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview</a>). La sortie a déclenché une discussion massive : le fil Hacker News consacré au modèle dépasse 1 280 commentaires et 1 500 points en quelques heures, avec des fils annexes sur ses performances à l'ARC-AGI-3 et sur l'Artificial Analysis Coding Agent Index (<a href=\"https://news.ycombinator.com/item?id=49554643\">discussion</a>).",
+        "en": "On the safety front, OpenAI published a dedicated overview in parallel: GPT-6 Astra is the first widely deployed model to reach the \"Critical\" cybersecurity capability level under its Preparedness Framework, and ships with additional monitoring to detect cases where the agent misinterpreted instructions (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview</a>). The release triggered massive discussion: the Hacker News thread devoted to the model passed 1,280 comments and 1,500 points within hours, with side threads on its ARC-AGI-3 performance and on the Artificial Analysis Coding Agent Index (<a href=\"https://news.ycombinator.com/item?id=49554643\">discussion</a>).",
+        "de": "Im Bereich der Sicherheit veröffentlicht OpenAI parallel eine eigene Übersicht: GPT-6 Astra ist das erste breit eingesetzte Modell, das gemäss seinem Preparedness Framework die Stufe «Critical» an Cybersecurity-Fähigkeiten erreicht, und enthält eine zusätzliche Überwachung, um Fälle zu erkennen, in denen der Agent Anweisungen falsch interpretiert hat (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview</a>). Die Veröffentlichung hat eine massive Debatte ausgelöst: Der Hacker-News-Thread zum Modell übersteigt in wenigen Stunden 1280 Kommentare und 1500 Punkte, mit begleitenden Threads zu seinen Leistungen bei ARC-AGI-3 und im Artificial Analysis Coding Agent Index (<a href=\"https://news.ycombinator.com/item?id=49554643\">Diskussion</a>).",
+        "it": "Sul fronte della sicurezza, OpenAI pubblica in parallelo una panoramica dedicata: GPT-6 Astra è il primo modello ampiamente distribuito a raggiungere il livello «Critical» di capacità in cybersecurity secondo il suo Preparedness Framework, e incorpora una sorveglianza aggiuntiva per rilevare i casi in cui l'agente avrebbe interpretato male le istruzioni (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview</a>). Il rilascio ha scatenato una discussione massiccia: il thread di Hacker News dedicato al modello supera 1.280 commenti e 1.500 punti in poche ore, con discussioni collaterali sulle sue prestazioni su ARC-AGI-3 e sull'Artificial Analysis Coding Agent Index (<a href=\"https://news.ycombinator.com/item?id=49554643\">discussione</a>).",
+        "lmo": "In sul pian de la segurazza, OpenAI la publica in parallel on sgard dedicà: GPT-6 Astra l'è el prim model deployaa larghament a rivà al nivell « Critical » de capacità in cybersigurazza segond el sò Preparedness Framework, e'l se porta adree ona soravejanza gionta per truvà i cas indove l'agent el gh'aveva interpretà mal i istruzion (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview</a>). L'entrada la gh'ha finì per ona discuzion massiva: el fil Hacker News dedicà al model el passa 1 280 coment e 1 500 pont in on quai or, con di fil annexi sora i sò performanz a l'ARC-AGI-3 e sora l'Artificial Analysis Coding Agent Index (<a href=\"https://news.ycombinator.com/item?id=49554643\">discuzion</a>)."
+      },
+      {
+        "fr": "Côté développeurs, le changelog de l'API OpenAI précise les changements de migration : GPT-6 Astra ne supporte ni le niveau de raisonnement « none », ni la « temperature » personnalisée. En parallèle, l'API Responses gagne des contrôles pour les tâches longues : appel d'outils asynchrone, redirection en cours de tour (mid-turn steering) via WebSockets, et modification de l'effort de raisonnement en pleine conversation (<a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog plateforme</a>).",
+        "en": "On the developer side, the OpenAI API changelog details the migration changes: GPT-6 Astra supports neither the \"none\" reasoning level nor custom \"temperature.\" In parallel, the Responses API gains controls for long-running tasks: asynchronous tool calls, mid-turn steering via WebSockets, and the ability to change reasoning effort mid-conversation (<a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">platform changelog</a>).",
+        "de": "Auf Entwicklerseite präzisiert das Changelog der OpenAI-API die Migrationsänderungen: GPT-6 Astra unterstützt weder die Reasoning-Stufe «none» noch eine benutzerdefinierte «temperature». Parallel erhält die Responses-API Kontrollen für langlaufende Aufgaben: asynchrone Tool-Aufrufe, Umleitung während des Gesprächsverlaufs (mid-turn steering) über WebSockets sowie Anpassung des Reasoning-Aufwands mitten in der Konversation (<a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Plattform-Changelog</a>).",
+        "it": "Lato sviluppatori, il changelog dell'API OpenAI precisa le modifiche di migrazione: GPT-6 Astra non supporta né il livello di ragionamento «none», né la «temperature» personalizzata. In parallelo, l'API Responses ottiene controlli per i task lunghi: chiamata asincrona di strumenti, redirezione a metà turno (mid-turn steering) via WebSockets, e modifica dell'impegno di ragionamento durante la conversazione (<a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog della piattaforma</a>).",
+        "lmo": "De banda di svilupadur, el changelog de l'API OpenAI el specifica i cambiamént de migrizion: GPT-6 Astra el g'ha nè el support al nivell de resònament « none », nè la « temperature » personalizada. In parallell, l'API Responses la ciappa i controll per i compit longh: ciamà di strumenti asincron, redirizion in del cors del torner (mid-turn steering) via WebSockets, e mudifega de l'effort de resònament in piena conversazion (<a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog piattaforma</a>)."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/gpt-6-astra/",
+      "https://openai.com/index/safety-overview-gpt-6-astra",
+      "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "https://r.jina.ai/https://platform.openai.com/docs/changelog",
+      "https://news.ycombinator.com/item?id=49554643"
+    ],
+    "kicker": {
+      "fr": "Modèles frontière",
+      "en": "Frontier Models",
+      "de": "Frontier-Modelle",
+      "it": "Modelli di frontiera",
+      "lmo": "Modèj frontiera"
+    },
+    "headline": {
+      "fr": "OpenAI lance GPT-6 Astra, son modèle le plus capable, conçu pour le travail de bout en bout",
+      "en": "OpenAI launches GPT-6 Astra, its most capable model, built for end-to-end work",
+      "de": "OpenAI startet GPT-6 Astra, sein leistungsfähigstes Modell, konzipiert für durchgängige Arbeitsabläufe",
+      "it": "OpenAI lancia GPT-6 Astra, il suo modello più capace, pensato per il lavoro end-to-end",
+      "lmo": "OpenAI la reint GPT-6 Astra, el sò model pussee capaas, progetaa per el laurà de principi a fin"
+    },
+    "subdeck": {
+      "fr": "Le nouveau modèle frontière d'OpenAI, annoncé le 3 septembre 2026, combine raisonnement, code, usage d'ordinateur et création de documents — et devient le premier modèle déployé largement à atteindre le niveau « Critical » de cybersécurité.",
+      "en": "OpenAI's new frontier model, announced on September 3, 2026, combines reasoning, code, computer use and document creation — and becomes the first widely deployed model to reach the \"Critical\" cybersecurity capability level.",
+      "de": "Das neue Frontier-Modell von OpenAI, angekündigt am 3. September 2026, vereint Reasoning, Code, Computernutzung und Dokumenterstellung — und wird zum ersten breit eingesetzten Modell, das die Cybersecurity-Stufe «Critical» erreicht.",
+      "it": "Il nuovo modello di frontiera di OpenAI, annunciato il 3 settembre 2026, combina ragionamento, codice, uso del computer e creazione di documenti — e diventa il primo modello ampiamente distribuito a raggiungere il livello «Critical» di cybersecurity.",
+      "lmo": "El növ model frontiera d'OpenAI, anunziaa el 3 de settember 2026, el combina resònament, cod, drovagg del computer e creazion de document — e'l deventa el prim model deployaa larghament a rivà al nivell « Critical » de cybersigurazza."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Google DeepMind lance WeatherNext 3, son modèle météo mondial le plus précis",
+        "en": "Google DeepMind launches WeatherNext 3, its most accurate global weather model",
+        "de": "Google DeepMind startet WeatherNext 3, sein genauestes globales Wettermodell",
+        "it": "Google DeepMind lancia WeatherNext 3, il suo modello meteo globale più preciso",
+        "lmo": "Google DeepMind la reint WeatherNext 3, el sò model meteo mondial el pussee preciss"
+      },
+      "body": {
+        "fr": "DeepMind annonce le 3 septembre 2026 WeatherNext 3, décrit comme son modèle météo mondial par IA le plus précis à ce jour. Le modèle est intégré simultanément à Search, Gemini, Maps, Google Maps Platform et Cloud (<a href=\"https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/\">annonce DeepMind</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/\">post Google</a>).",
+        "en": "DeepMind announced on September 3, 2026 WeatherNext 3, described as its most accurate AI global weather model to date. The model is simultaneously integrated into Search, Gemini, Maps, Google Maps Platform and Cloud (<a href=\"https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/\">DeepMind announcement</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/\">Google post</a>).",
+        "de": "DeepMind kündigt am 3. September 2026 WeatherNext 3 an, beschrieben als sein bislang genauestes globales KI-Wettermodell. Das Modell wird gleichzeitig in Search, Gemini, Maps, Google Maps Platform und Cloud integriert (<a href=\"https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/\">DeepMind-Ankündigung</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/\">Google-Post</a>).",
+        "it": "DeepMind annuncia il 3 settembre 2026 WeatherNext 3, descritto come il suo modello meteo globale basato su IA più preciso finora. Il modello è integrato simultaneamente in Search, Gemini, Maps, Google Maps Platform e Cloud (<a href=\"https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/\">annuncio DeepMind</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/\">post Google</a>).",
+        "lmo": "DeepMind l'anunzia el 3 de settember 2026 WeatherNext 3, descrijuu come el sò model meteo mondial a IA el pussee preciss fin ades. El model l'è integraa a la voelta in Search, Gemini, Maps, Google Maps Platform e Cloud (<a href=\"https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/\">anunzia DeepMind</a>, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/\">post Google</a>)."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Schwerpunkt",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-03",
+        "en": "From the Wires — 2026-09-03",
+        "de": "From the Wires — 2026-09-03",
+        "it": "From the Wires — 2026-09-03",
+        "lmo": "From the Wires — 2026-09-03"
+      },
+      "urls": [
+        "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI engage 1 milliard de dollars pour protéger les services essentiels",
+        "en": "OpenAI commits 1 billion dollars to protecting essential services",
+        "de": "OpenAI investiert eine Milliarde Dollar zum Schutz kritischer Dienste",
+        "it": "OpenAI investe un miliardo di dollari per proteggere i servizi essenziali",
+        "lmo": "OpenAI la mett 1 miliard de dollar per protegg i servizi essenziai"
+      },
+      "body": {
+        "fr": "OpenAI détaille le 3 septembre 2026 un engagement d'un milliard de dollars, « Daybreak for Frontline Defenders », destiné à élargir l'accès à l'IA cyber de frontière, à la formation et au support pour les services essentiels — hôpitaux, énergie, eau (<a href=\"https://openai.com/index/daybreak-for-frontline-defenders\">annonce</a>).",
+        "en": "OpenAI detailed on September 3, 2026 a one-billion-dollar commitment, \"Daybreak for Frontline Defenders,\" aimed at expanding access to frontier cyber AI, training and support for essential services — hospitals, energy, water (<a href=\"https://openai.com/index/daybreak-for-frontline-defenders\">announcement</a>).",
+        "de": "OpenAI legt am 3. September 2026 eine Milliarde Dollar Engagement dar: «Daybreak for Frontline Defenders», bestimmt, um Zugang zu Frontier-Cyber-KI, Schulung und Support für kritische Dienste auszuweiten — Spitäler, Energie, Wasser (<a href=\"https://openai.com/index/daybreak-for-frontline-defenders\">Ankündigung</a>).",
+        "it": "OpenAI dettaglia il 3 settembre 2026 un impegno da un miliardo di dollari, «Daybreak for Frontline Defenders», destinato ad ampliare l'accesso all'IA cyber di frontiera, alla formazione e al supporto per i servizi essenziali — ospedali, energia, acqua (<a href=\"https://openai.com/index/daybreak-for-frontline-defenders\">annuncio</a>).",
+        "lmo": "OpenAI la detaja el 3 de settember 2026 on ingagg de on miliard de dollar, « Daybreak for Frontline Defenders », destinàa a slargà l'access a l'IA cyber de frontiera, a la furmazion e al support per i servizi essenziai — uspedaj, energia, acqua (<a href=\"https://openai.com/index/daybreak-for-frontline-defenders\">anunzia</a>)."
+      },
+      "tag": {
+        "fr": "Cybersécurité",
+        "en": "Cybersecurity",
+        "de": "Cybersicherheit",
+        "it": "Cybersecurity",
+        "lmo": "Cybersigurazza"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-03",
+        "en": "From the Wires — 2026-09-03",
+        "de": "From the Wires — 2026-09-03",
+        "it": "From the Wires — 2026-09-03",
+        "lmo": "From the Wires — 2026-09-03"
+      },
+      "urls": [
+        "https://openai.com/index/daybreak-for-frontline-defenders"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Grok Bot s'ouvre aux entreprises avec deux semaines d'usage gratuit",
+        "en": "Grok Bot opens to businesses with two weeks of free usage",
+        "de": "Grok Bot öffnet sich für Unternehmen mit zwei Wochen Gratisnutzung",
+        "it": "Grok Bot si apre alle imprese con due settimane di uso gratuito",
+        "lmo": "Grok Bot l'è duvert ai aziend con duu seteman de uzagg gratis"
+      },
+      "body": {
+        "fr": "xAI publie le 3 septembre 2026 Grok Bot for Enterprise : Grok Bot devient disponible pour les organisations, avec usage gratuit pendant deux semaines pour les clients Grok et Cursor Enterprise, y compris l'invitation de collaborateurs sans siège existant (<a href=\"https://x.ai/news/grok-bot-for-enterprise\">annonce</a>).",
+        "en": "xAI released on September 3, 2026 Grok Bot for Enterprise: Grok Bot is now available to organizations, with two weeks of free usage for Grok and Cursor Enterprise customers, including inviting collaborators without an existing seat (<a href=\"https://x.ai/news/grok-bot-for-enterprise\">announcement</a>).",
+        "de": "xAI veröffentlicht am 3. September 2026 Grok Bot for Enterprise: Grok Bot wird für Organisationen verfügbar, mit zwei Wochen kostenloser Nutzung für Grok- und Cursor-Enterprise-Kunden, einschliesslich der Einladung von Mitarbeitenden ohne bestehenden Sitz (<a href=\"https://x.ai/news/grok-bot-for-enterprise\">Ankündigung</a>).",
+        "it": "xAI pubblica il 3 settembre 2026 Grok Bot for Enterprise: Grok Bot diventa disponibile per le organizzazioni, con uso gratuito per due settimane per i clienti Grok e Cursor Enterprise, incluso l'invito di collaboratori senza seggio esistente (<a href=\"https://x.ai/news/grok-bot-for-enterprise\">annuncio</a>).",
+        "lmo": "xAI la publica el 3 de settember 2026 Grok Bot for Enterprise: Grok Bot el deventa disponibil per i organizazion, con uzagg a gratis per duu seteman per i client Grok e Cursor Enterprise, dent anca l'invitazion de collaborador sensa siella esistent (<a href=\"https://x.ai/news/grok-bot-for-enterprise\">anunzia</a>)."
+      },
+      "tag": {
+        "fr": "xAI",
+        "en": "xAI",
+        "de": "xAI",
+        "it": "xAI",
+        "lmo": "xAI"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-03",
+        "en": "From the Wires — 2026-09-03",
+        "de": "From the Wires — 2026-09-03",
+        "it": "From the Wires — 2026-09-03",
+        "lmo": "From the Wires — 2026-09-03"
+      },
+      "urls": [
+        "https://x.ai/news/grok-bot-for-enterprise"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "K2 Horizon : une flotte connectée de six modèles ouverts",
+        "en": "K2 Horizon: a connected fleet of six open models",
+        "de": "K2 Horizon: eine verbundene Flotte von sechs offenen Modellen",
+        "it": "K2 Horizon: una flotta connessa di sei modelli aperti",
+        "lmo": "K2 Horizon: ona flota connessa de ses modèj duvert"
+      },
+      "body": {
+        "fr": "Un projet publié le 3 septembre 2026 et vite monté sur Hacker News (274 points) présente K2 Horizon, une flotte connectée de six modèles ouverts conçus pour fonctionner ensemble (<a href=\"https://ifm.ai/blog/k2/\">billet</a>, <a href=\"https://news.ycombinator.com/item?id=49551760\">discussion</a>).",
+        "en": "A project published on September 3, 2026 that quickly climbed Hacker News (274 points) presents K2 Horizon, a connected fleet of six open models designed to work together (<a href=\"https://ifm.ai/blog/k2/\">post</a>, <a href=\"https://news.ycombinator.com/item?id=49551760\">discussion</a>).",
+        "de": "Ein am 3. September 2026 veröffentlichtes und schnell auf Hacker News hochgeklettertes Projekt (274 Punkte) stellt K2 Horizon vor: eine verbundene Flotte von sechs offenen Modellen, die darauf ausgelegt sind, zusammenzuarbeiten (<a href=\"https://ifm.ai/blog/k2/\">Beitrag</a>, <a href=\"https://news.ycombinator.com/item?id=49551760\">Diskussion</a>).",
+        "it": "Un progetto pubblicato il 3 settembre 2026 e presto salito su Hacker News (274 punti) presenta K2 Horizon, una flotta connessa di sei modelli aperti pensati per funzionare insieme (<a href=\"https://ifm.ai/blog/k2/\">post</a>, <a href=\"https://news.ycombinator.com/item?id=49551760\">discussione</a>).",
+        "lmo": "On proget publicaa el 3 de settember 2026 e a la svelta montàa sora Hacker News (274 pont) el presenta K2 Horizon, ona flota connessa de ses modèj duvert progetàa per fonzionà insemm (<a href=\"https://ifm.ai/blog/k2/\">biliett</a>, <a href=\"https://news.ycombinator.com/item?id=49551760\">discuzion</a>)."
+      },
+      "tag": {
+        "fr": "Open source",
+        "en": "Open Source",
+        "de": "Open Source",
+        "it": "Open source",
+        "lmo": "Open source"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-03",
+        "en": "From the Wires — 2026-09-03",
+        "de": "From the Wires — 2026-09-03",
+        "it": "From the Wires — 2026-09-03",
+        "lmo": "From the Wires — 2026-09-03"
+      },
+      "urls": [
+        "https://ifm.ai/blog/k2/",
+        "https://news.ycombinator.com/item?id=49551760"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & the Frontier",
+        "de": "Titelseite — Modelle & Frontier",
+        "it": "Prima pagina — Modelli & Frontiera",
+        "lmo": "A la Una — Modèj & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière",
+            "en": "The Frontier",
+            "de": "Frontier",
+            "it": "Frontiera",
+            "lmo": "Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GPT-6 Astra franchit le niveau « Critical » de cybersécurité",
+                "en": "GPT-6 Astra crosses the \"Critical\" cybersecurity threshold",
+                "de": "GPT-6 Astra überschreitet die Cybersecurity-Stufe «Critical»",
+                "it": "GPT-6 Astra supera il livello «Critical» di cybersecurity",
+                "lmo": "GPT-6 Astra el passa el nivell « Critical » de cybersigurazza"
+              },
+              "body": {
+                "fr": "OpenAI accompagne le lancement de GPT-6 Astra d'un aperçu de sûreté détaillé, publié le 3 septembre 2026. Le modèle est décrit comme le premier déployé largement à atteindre le niveau « Critical » de capacité en cybersécurité sous le Preparedness Framework, et embarque une surveillance additionnelle des interprétations erronées d'instructions par les agents. L'annonce s'inscrit dans la continuité du « Path to Astra » publié deux jours plus tôt (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview: GPT-6 Astra</a>).",
+                "en": "OpenAI accompanied the GPT-6 Astra launch with a detailed safety overview, published on September 3, 2026. The model is described as the first widely deployed model to reach the \"Critical\" cybersecurity capability level under the Preparedness Framework, and ships with additional monitoring of agents' misinterpretations of instructions. The announcement follows the \"Path to Astra\" published two days earlier (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview: GPT-6 Astra</a>).",
+                "de": "OpenAI begleitet den Start von GPT-6 Astra mit einer detaillierten Sicherheitsübersicht, veröffentlicht am 3. September 2026. Das Modell wird als erstes breit eingesetztes Modell beschrieben, das unter dem Preparedness Framework die Stufe «Critical» an Cybersecurity-Fähigkeiten erreicht, und enthält eine zusätzliche Überwachung fehlerhafter Instruktionsdeutungen durch Agenten. Die Ankündigung steht in der Kontinuität des zwei Tage zuvor veröffentlichten «Path to Astra» (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview: GPT-6 Astra</a>).",
+                "it": "OpenAI accompagna il lancio di GPT-6 Astra con una panoramica di sicurezza dettagliata, pubblicata il 3 settembre 2026. Il modello è descritto come il primo ampiamente distribuito a raggiungere il livello «Critical» di capacità in cybersecurity secondo il Preparedness Framework, e incorpora una sorveglianza aggiuntiva delle interpretazioni errate delle istruzioni da parte degli agenti. L'annuncio si inserisce nella continuità del «Path to Astra» pubblicato due giorni prima (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview: GPT-6 Astra</a>).",
+                "lmo": "OpenAI la compagnia el lansament de GPT-6 Astra con on sgard de segurazza detajaa, publicaa el 3 de settember 2026. El model l'è descrijuu come el prim deployaa larghament a rivà al nivell « Critical » de capacità in cybersigurazza sotta el Preparedness Framework, e'l se porta adree ona soravejanza agionta di interpretazion s'biagliade di istruzion di agent. L'anunzia la se met denter in la continità del « Path to Astra » publicaa duu dì prima (<a href=\"https://openai.com/index/safety-overview-gpt-6-astra\">Safety overview: GPT-6 Astra</a>)."
+              },
+              "kicker": {
+                "fr": "Sûreté",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Segurazza"
+              },
+              "urls": [
+                "https://openai.com/index/safety-overview-gpt-6-astra"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "L'architecture récurrente d'Astra inquiète une partie de la communauté",
+                "en": "Astra's recurrent architecture worries part of the community",
+                "de": "Astras rekurrente Architektur beunruhigt einen Teil der Gemeinschaft",
+                "it": "L'architettura ricorrente di Astra preoccupa una parte della comunità",
+                "lmo": "L'architetura recorrent d'Astra la gh'ha preoccupa ona part de la comunitaa"
+              },
+              "body": {
+                "fr": "Un billet de Lesswrong publié le 3 septembre 2026 interroge l'architecture récurrente de GPT-6 Astra et les questions de sûreté qu'elle soulève. La discussion, qui a dépassé 100 points sur Hacker News avec près de 70 commentaires, revient sur les implications d'une récurrence profonde pour l'extrapolation des capacités (<a href=\"https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\">l'analyse</a>, discutée sur <a href=\"https://news.ycombinator.com/item?id=49553321\">HN</a>).",
+                "en": "A LessWrong post published on September 3, 2026 questions GPT-6 Astra's recurrent architecture and the safety issues it raises. The discussion, which passed 100 points on Hacker News with nearly 70 comments, examines the implications of deep recurrence for capability extrapolation (<a href=\"https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\">the analysis</a>, discussed on <a href=\"https://news.ycombinator.com/item?id=49553321\">HN</a>).",
+                "de": "Ein Lesswrong-Beitrag vom 3. September 2026 hinterfragt die rekurrente Architektur von GPT-6 Astra und die Sicherheitsfragen, die sie aufwirft. Die Diskussion, die auf Hacker News über 100 Punkte mit rund 70 Kommentaren erreicht hat, beleuchtet die Implikationen tiefer Rekurrenz für die Extrapolation von Fähigkeiten (<a href=\"https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\">die Analyse</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=49553321\">HN</a>).",
+                "it": "Un post di Lesswrong pubblicato il 3 settembre 2026 mette in discussione l'architettura ricorrente di GPT-6 Astra e le questioni di sicurezza che essa solleva. La discussione, che ha superato 100 punti su Hacker News con quasi 70 commenti, torna sulle implicazioni di una ricorrenza profonda per l'estrapolazione delle capacità (<a href=\"https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\">l'analisi</a>, discussa su <a href=\"https://news.ycombinator.com/item?id=49553321\">HN</a>).",
+                "lmo": "On biliett de Lesswrong publicaa el 3 de settember 2026 el gh'ha questionad l'architetura recorrent de GPT-6 Astra e i question de segurazza che lee la g'ha dedree. La discuzion, che l'ha passaa 100 pont sora Hacker News con pressapoch 70 coment, la torna sora i implicazion d'ona recorrenza profonda per l'extrapolazion di capacità (<a href=\"https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent\">l'analisi</a>, discutida sora <a href=\"https://news.ycombinator.com/item?id=49553321\">HN</a>)."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analisi"
+              },
+              "urls": [
+                "https://www.lesswrong.com/posts/PLisnSFir8y5AHkmP/how-concerned-should-we-be-about-astra-s-recurrent",
+                "https://news.ycombinator.com/item?id=49553321"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Astra progresse fortement sur l'index d'agents de code d'Artificial Analysis",
+                "en": "Astra makes strong progress on Artificial Analysis's coding agent index",
+                "de": "Astra legt stark zu im Coding-Agent-Index von Artificial Analysis",
+                "it": "Astra avanza fortemente sull'indice di agenti di codice di Artificial Analysis",
+                "lmo": "Astra el va adree fort sora l'index di agent de cod de Artificial Analysis"
+              },
+              "body": {
+                "fr": "GPT-6 Astra réalise des gains notables sur l'Artificial Analysis Coding Agent Index, selon un fil Hacker News ouvert le 3 septembre 2026 et rattaché à la discussion principale du lancement (plus de 1 280 commentaires cumulés). Le modèle est aussi testé en continu sur ARC-AGI-3 (<a href=\"https://news.ycombinator.com/item?id=49556147\">fil dédié</a>).",
+                "en": "GPT-6 Astra posts notable gains on the Artificial Analysis Coding Agent Index, according to a Hacker News thread opened on September 3, 2026 and linked to the main launch discussion (more than 1,280 cumulative comments). The model is also being continuously tested on ARC-AGI-3 (<a href=\"https://news.ycombinator.com/item?id=49556147\">dedicated thread</a>).",
+                "de": "GPT-6 Astra erzielt deutliche Zugewinne im Artificial Analysis Coding Agent Index, gemäss einem am 3. September 2026 eröffneten Hacker-News-Thread, der an die Hauptdiskussion des Starts angebunden ist (über 1280 Kommentare kumuliert). Das Modell wird zudem laufend auf ARC-AGI-3 getestet (<a href=\"https://news.ycombinator.com/item?id=49556147\">eigener Thread</a>).",
+                "it": "GPT-6 Astra registra guadagni notevoli sull'Artificial Analysis Coding Agent Index, secondo un thread di Hacker News aperto il 3 settembre 2026 e collegato alla discussione principale del lancio (più di 1.280 commenti cumulati). Il modello è inoltre testato in modo continuo su ARC-AGI-3 (<a href=\"https://news.ycombinator.com/item?id=49556147\">thread dedicato</a>).",
+                "lmo": "GPT-6 Astra el fa di guadagn notabil sora l'Artificial Analysis Coding Agent Index, segond on fil Hacker News duvert el 3 de settember 2026 e tacaa a la discuzion principal del lansament (pussee de 1 280 coment sumàa). El model l'è anca testaa in contnu sora l'ARC-AGI-3 (<a href=\"https://news.ycombinator.com/item?id=49556147\">fil dedicà</a>)."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=49556147"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Qwen 3.8 27B servi à 1 500 tokens/s sur Cerebras",
+                "en": "Qwen 3.8 27B served at 1,500 tokens/s on Cerebras",
+                "de": "Qwen 3.8 27B mit 1500 Tokens/s auf Cerebras ausgeliefert",
+                "it": "Qwen 3.8 27B servito a 1.500 token/s su Cerebras",
+                "lmo": "Qwen 3.8 27B servii a 1 500 token/s sora Cerebras"
+              },
+              "body": {
+                "fr": "Cerebras a ouvert le 3 septembre 2026 l'accès à Qwen 3.8 27B sur son infrastructure d'inférence, à environ 1 500 tokens/s. L'annonce, portée par un fil Hacker News à près de 500 points et 150 commentaires, illustre l'attrait des modèles ouverts de taille moyenne servis sur silicium wafer-scale (<a href=\"https://inference-docs.cerebras.ai/models/overview\">documentation Cerebras</a>, <a href=\"https://news.ycombinator.com/item?id=49554520\">discussion</a>).",
+                "en": "Cerebras opened access on September 3, 2026 to Qwen 3.8 27B on its inference infrastructure, at roughly 1,500 tokens/s. The announcement, driven by a Hacker News thread approaching 500 points and 150 comments, illustrates the appeal of mid-sized open models served on wafer-scale silicon (<a href=\"https://inference-docs.cerebras.ai/models/overview\">Cerebras documentation</a>, <a href=\"https://news.ycombinator.com/item?id=49554520\">discussion</a>).",
+                "de": "Cerebras hat am 3. September 2026 den Zugang zu Qwen 3.8 27B auf seiner Inference-Infrastruktur geöffnet, mit rund 1500 Tokens/s. Die Ankündigung, getragen von einem Hacker-News-Thread mit knapp 500 Punkten und 150 Kommentaren, illustriert die Anziehungskraft mittlerer offener Modelle auf Wafer-Scale-Silizium (<a href=\"https://inference-docs.cerebras.ai/models/overview\">Cerebras-Dokumentation</a>, <a href=\"https://news.ycombinator.com/item?id=49554520\">Diskussion</a>).",
+                "it": "Cerebras ha aperto il 3 settembre 2026 l'accesso a Qwen 3.8 27B sulla propria infrastruttura di inferenza, a circa 1.500 token/s. L'annuncio, sostenuto da un thread di Hacker News con quasi 500 punti e 150 commenti, illustra l'attrattiva dei modelli aperti di dimensione media serviti su silicio wafer-scale (<a href=\"https://inference-docs.cerebras.ai/models/overview\">documentazione Cerebras</a>, <a href=\"https://news.ycombinator.com/item?id=49554520\">discussione</a>).",
+                "lmo": "Cerebras l'ha duvert el 3 de settember 2026 l'access a Qwen 3.8 27B sora la sò infrastrutura d'inferenza, a pressapoch 1 500 token/s. L'anunzia, portada de on fil Hacker News a pressapoch 500 pont e 150 coment, la mostra l'apetit per i modèj duvert de tama media servii sora silizium wafer-scale (<a href=\"https://inference-docs.cerebras.ai/models/overview\">documentazion Cerebras</a>, <a href=\"https://news.ycombinator.com/item?id=49554520\">discuzion</a>)."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "urls": [
+                "https://inference-docs.cerebras.ai/models/overview",
+                "https://news.ycombinator.com/item?id=49554520"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Cajiè Tecnich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "API & harnais",
+            "en": "API & Harnesses",
+            "de": "API & Harness",
+            "it": "API & harness",
+            "lmo": "API & harnais"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Funes : donner à vos agents de code une mémoire qui vous appartient",
+                "en": "Funes: giving your coding agents a memory you own",
+                "de": "Funes: Ihren Coding-Agenten einen Speicher geben, der Ihnen gehört",
+                "it": "Funes: dare ai vostri agenti di codice una memoria che vi appartiene",
+                "lmo": "Funes: dà ai voster agent de cod ona memòria che la g'hi vialter"
+              },
+              "body": {
+                "fr": "Hugging Face publie le 3 septembre 2026 un billet sur Funes, un système donnant aux agents de code une mémoire que l'utilisateur possède et contrôle. L'approche répond au verrou de la persistance entre sessions des harnais d'agents, où les préférences et apprentissages disparaissent souvent entre projets (<a href=\"https://huggingface.co/blog/funes\">billet Funes</a>).",
+                "en": "Hugging Face published on September 3, 2026 a post on Funes, a system giving coding agents a memory that the user owns and controls. The approach addresses the persistence bottleneck in agent harnesses, where preferences and learnings often vanish between projects (<a href=\"https://huggingface.co/blog/funes\">Funes post</a>).",
+                "de": "Hugging Face veröffentlicht am 3. September 2026 einen Beitrag zu Funes, einem System, das Coding-Agenten einen Speicher gibt, den der Nutzer besitzt und kontrolliert. Der Ansatz adressiert das Persistenzproblem von Agent-Harnesses zwischen Sitzungen, wo Präferenzen und Erkenntnisse zwischen Projekten oft verloren gehen (<a href=\"https://huggingface.co/blog/funes\">Funes-Beitrag</a>).",
+                "it": "Hugging Face pubblica il 3 settembre 2026 un post su Funes, un sistema che dà agli agenti di codice una memoria posseduta e controllata dall'utente. L'approccio risponde al collo di bottiglia della persistenza tra sessioni dei sistemi di agenti, dove preferenze e apprendimenti spesso scompaiono tra progetti diversi (<a href=\"https://huggingface.co/blog/funes\">post Funes</a>).",
+                "lmo": "Hugging Face la publica el 3 de settember 2026 on biliett sora Funes, on sistem che'l dà ai agent de cod ona memòria che l'utent el g'ha e'l contròlla. L'aprocc el rispond al lok de la persistenza intra sesion di harnais di agent, indove i preferenze e i iemprendiment se perden spess intra i proget (<a href=\"https://huggingface.co/blog/funes\">biliett Funes</a>)."
+              },
+              "kicker": {
+                "fr": "Hugging Face",
+                "en": "Hugging Face",
+                "de": "Hugging Face",
+                "it": "Hugging Face",
+                "lmo": "Hugging Face"
+              },
+              "urls": [
+                "https://huggingface.co/blog/funes"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Fine-tuner un modèle de 350M en 100 pas GRPO pour de meilleures sorties structurées",
+                "en": "Fine-tune a 350M model in 100 GRPO steps for better structured outputs",
+                "de": "Ein 350M-Modell in 100 GRPO-Schritten feintunen für bessere strukturierte Ausgaben",
+                "it": "Fine-tuning di un modello da 350M in 100 passi GRPO per output strutturati migliori",
+                "lmo": "Fine-tunà on model de 350M in 100 pas GRPO per de sortide strukturade mej"
+              },
+              "body": {
+                "fr": "Le tutoriel publié le 3 septembre 2026 sur le blog Hugging Face montre qu'environ 100 pas de GRPO suffisent pour améliorer les sorties structurées d'un modèle de 350 millions de paramètres. La recette, basée sur TRL, cible les développeurs qui ont besoin de JSON fiable sans passer par un modèle frontière (<a href=\"https://huggingface.co/blog/grpo-with-trl-ifstruct\">tutoriel complet</a>).",
+                "en": "The tutorial published on September 3, 2026 on the Hugging Face blog shows that roughly 100 GRPO steps suffice to improve the structured outputs of a 350-million-parameter model. The recipe, built on TRL, targets developers who need reliable JSON without going through a frontier model (<a href=\"https://huggingface.co/blog/grpo-with-trl-ifstruct\">full tutorial</a>).",
+                "de": "Das am 3. September 2026 im Hugging-Face-Blog veröffentlichte Tutorial zeigt, dass rund 100 GRPO-Schritte genügen, um die strukturierten Ausgaben eines Modells mit 350 Millionen Parametern zu verbessern. Das auf TRL basierende Rezept richtet sich an Entwickler, die verlässliches JSON benötigen, ohne ein Frontier-Modell zu bemühen (<a href=\"https://huggingface.co/blog/grpo-with-trl-ifstruct\">vollständiges Tutorial</a>).",
+                "it": "Il tutorial pubblicato il 3 settembre 2026 sul blog di Hugging Face mostra che circa 100 passi di GRPO bastano per migliorare gli output strutturati di un modello da 350 milioni di parametri. La ricetta, basata su TRL, si rivolge agli sviluppatori che hanno bisogno di JSON affidabile senza ricorrere a un modello di frontiera (<a href=\"https://huggingface.co/blog/grpo-with-trl-ifstruct\">tutorial completo</a>).",
+                "lmo": "El tutoriàl publicaa el 3 de settember 2026 sora el blog Hugging Face el mostra che pressapoch 100 pas de GRPO i basten per megiorà i sortide strukturade de on model de 350 miliun de parametr. La receta, basada sora TRL, la mirona i svilupadur che gh'han besogn de JSON affidabel sensa passà per on model frontiera (<a href=\"https://huggingface.co/blog/grpo-with-trl-ifstruct\">tutoriàl complet</a>)."
+              },
+              "kicker": {
+                "fr": "Fine-tuning",
+                "en": "Fine-tuning",
+                "de": "Fine-tuning",
+                "it": "Fine-tuning",
+                "lmo": "Fine-tuning"
+              },
+              "urls": [
+                "https://huggingface.co/blog/grpo-with-trl-ifstruct"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Trois nouvelles commandes vocales dans Gmail, Docs et Keep",
+                "en": "Three new voice commands in Gmail, Docs and Keep",
+                "de": "Drei neue Sprachbefehle in Gmail, Docs und Keep",
+                "it": "Tre nuovi comandi vocali in Gmail, Docs e Keep",
+                "lmo": "Trè növ comand vocal in Gmail, Docs e Keep"
+              },
+              "body": {
+                "fr": "Google déploie le 3 septembre 2026 trois fonctionnalités vocales dans Gmail, Docs et Keep. L'activation se fait à la voix dans les produits Workspace, prolongeant la vague d'assistants vocaux agentiques engagée par Gemini (<a href=\"https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/\">annonce Workspace</a>).",
+                "en": "Google is rolling out on September 3, 2026 three voice features in Gmail, Docs and Keep. Activation is done by voice within Workspace products, extending the wave of agentic voice assistants initiated by Gemini (<a href=\"https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/\">Workspace announcement</a>).",
+                "de": "Google rollt am 3. September 2026 drei Sprachfunktionen in Gmail, Docs und Keep aus. Die Aktivierung erfolgt per Stimme in den Workspace-Produkten und verlängert die von Gemini angestossene Welle agentischer Sprachassistenten (<a href=\"https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/\">Workspace-Ankündigung</a>).",
+                "it": "Google distribuisce il 3 settembre 2026 tre funzionalità vocali in Gmail, Docs e Keep. L'attivazione avviene a voce nei prodotti Workspace, prolungando l'onda di assistenti vocali agentici avviata da Gemini (<a href=\"https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/\">annuncio Workspace</a>).",
+                "lmo": "Google la fa vegnì foeura el 3 de settember 2026 trè funzion vocal in Gmail, Docs e Keep. L'ativazion la se fa a la vos in di prodot Workspace, estendend l'onda di assitent vocal agentich taccada de Gemini (<a href=\"https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/\">anunzia Workspace</a>)."
+              },
+              "kicker": {
+                "fr": "Produits",
+                "en": "Products",
+                "de": "Produkte",
+                "it": "Prodotti",
+                "lmo": "Prodòt"
+              },
+              "urls": [
+                "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Composants",
+            "en": "Components",
+            "de": "Komponenten",
+            "it": "Componenti",
+            "lmo": "Componént"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "NeoMME : un encodeur multimodal natif et multilingue chez H Company",
+                "en": "NeoMME: a natively multimodal, multilingual encoder from H Company",
+                "de": "NeoMME: ein nativ multimodaler, mehrsprachiger Encoder bei H Company",
+                "it": "NeoMME: un encoder multimodale nativo e multilingue presso H Company",
+                "lmo": "NeoMME: on encodador multimodal nativ e multilengov a H Company"
+              },
+              "body": {
+                "fr": "H Company publie le 3 septembre 2026 NeoMME, un encodeur multimodal natif et multilingue. Le composant vise les étapes d'embedding des pipelines multimodaux où les encodeurs traditionnels monolingues perdent en précision (<a href=\"https://huggingface.co/blog/Hcompany/neomme\">billet de release</a>).",
+                "en": "H Company published on September 3, 2026 NeoMME, a natively multimodal and multilingual encoder. The component targets the embedding stages of multimodal pipelines where traditional monolingual encoders lose precision (<a href=\"https://huggingface.co/blog/Hcompany/neomme\">release post</a>).",
+                "de": "H Company veröffentlicht am 3. September 2026 NeoMME, einen nativ multimodalen und mehrsprachigen Encoder. Die Komponente zielt auf die Embedding-Schritte multimodaler Pipelines, wo traditionelle einsprachige Encoder an Präzision verlieren (<a href=\"https://huggingface.co/blog/Hcompany/neomme\">Release-Beitrag</a>).",
+                "it": "H Company pubblica il 3 settembre 2026 NeoMME, un encoder multimodale nativo e multilingue. Il componente punta alle fasi di embedding delle pipeline multimodali, dove gli encoder tradizionali monolingue perdono in precisione (<a href=\"https://huggingface.co/blog/Hcompany/neomme\">post di rilascio</a>).",
+                "lmo": "H Company la publica el 3 de settember 2026 NeoMME, on encodador multimodal nativ e multilengov. El component el mirona i fas d'embedding di pipeline multimodai indove i encodador tradizziunai monolengov perden in precison (<a href=\"https://huggingface.co/blog/Hcompany/neomme\">biliett de release</a>)."
+              },
+              "kicker": {
+                "fr": "Modèles",
+                "en": "Models",
+                "de": "Modelle",
+                "it": "Modelli",
+                "lmo": "Modèj"
+              },
+              "urls": [
+                "https://huggingface.co/blog/Hcompany/neomme"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Riserca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Papers del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Random Attention : éviction aléatoire du KV cache égale les méthodes sélectives",
+                "en": "Random Attention: random KV cache eviction matches selective methods",
+                "de": "Random Attention: zufällige KV-Cache-Eviktion erreicht selektive Methoden",
+                "it": "Random Attention: l'evizione casuale della KV cache eguaglia i metodi selettivi",
+                "lmo": "Random Attention: evizion casuala del KV cache l'eguaglia i metod seletiv"
+              },
+              "body": {
+                "fr": "Des chercheurs de Salesforce AI Research montrent que le signal de sélection des méthodes de compression du KV cache ne contribue presque à rien : éviction aléatoire à l'intérieur de chaque tête d'attention, prompt préservé, égale le meilleur évictueur sélectif sur quatre modèles et six tâches de raisonnement, tout en servant 32 à 43 % de débit supplémentaire sous vLLM. L'explication tient à la redondance de la trace de raisonnement, dans le texte comme entre les têtes. Le code est public sur <a href=\"https://github.com/SalesforceAIResearch/Random-Attention\">GitHub</a> (<a href=\"https://arxiv.org/abs/2609.03430\">paper</a>).",
+                "en": "Researchers at Salesforce AI Research show that the selection signal in KV cache compression methods contributes almost nothing: random eviction within each attention head, with the prompt preserved, matches the best selective evictor across four models and six reasoning tasks, while serving 32 to 43% additional throughput under vLLM. The explanation lies in the redundancy of the reasoning trace, both in text and across heads. The code is public on <a href=\"https://github.com/SalesforceAIResearch/Random-Attention\">GitHub</a> (<a href=\"https://arxiv.org/abs/2609.03430\">paper</a>).",
+                "de": "Forschende von Salesforce AI Research zeigen, dass das Auswahlsignal von KV-Cache-Kompressionsmethoden fast nichts beiträgt: zufällige Eviktion innerhalb jedes Attention-Heads bei erhaltenem Prompt erreicht den besten selektiven Evictor über vier Modelle und sechs Reasoning-Aufgaben — bei 32 bis 43 Prozent zusätzlichem Durchsatz unter vLLM. Die Erklärung liegt in der Redundanz der Reasoning-Spur, im Text wie zwischen den Heads. Der Code ist öffentlich auf <a href=\"https://github.com/SalesforceAIResearch/Random-Attention\">GitHub</a> (<a href=\"https://arxiv.org/abs/2609.03430\">Paper</a>).",
+                "it": "Ricercatori di Salesforce AI Research mostrano che il segnale di selezione dei metodi di compressione della KV cache non contribuisce quasi a nulla: l'evizione casuale all'interno di ogni testa di attenzione, con prompt preservato, eguaglia il migliore evitore selettivo su quattro modelli e sei task di ragionamento, servendo al contempo dal 32 al 43% di throughput aggiuntivo sotto vLLM. La spiegazione sta nella ridondanza della traccia di ragionamento, sia nel testo sia tra le teste. Il codice è pubblico su <a href=\"https://github.com/SalesforceAIResearch/Random-Attention\">GitHub</a> (<a href=\"https://arxiv.org/abs/2609.03430\">paper</a>).",
+                "lmo": "Di risercadur de Salesforce AI Research i mostren che el signal de selezion di metod de compressiun del KV cache l'contribuiss gnanmà a gnint: evizion casuala denter in de ogni testa d'atenzion, prompt preservà, l'eguaglia el mej evicidur seletiv sora quater modèj e ses compit de resònament, intant che la g'ha 32 a 43 % de debit pussee sotta vLLM. La spiegazion la sta in la redundanza de la traccia de resònament, in del test come intra i teste. El cod l'è public sora <a href=\"https://github.com/SalesforceAIResearch/Random-Attention\">GitHub</a> (<a href=\"https://arxiv.org/abs/2609.03430\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.03430",
+                "https://github.com/SalesforceAIResearch/Random-Attention"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "La distillation on-policy fonctionne avec un seul exemple d'entraînement",
+                "en": "On-policy distillation works with a single training example",
+                "de": "On-Policy-Destillation funktioniert mit einem einzigen Trainingsbeispiel",
+                "it": "La distillazione on-policy funziona con un solo esempio di addestramento",
+                "lmo": "La distillazion on-policy la fonziona con domà on esempi de emprentament"
+              },
+              "body": {
+                "fr": "Entraîner par distillation on-policy sur une seule requête suffit à récupérer l'essentiel des gains de l'entraînement complet, selon ce travail publié le 3 septembre 2026. Une requête unique couvre déjà 71,5 % des états visitées par l'entraînement complet ; 16 requêtes sémantiquement distinctes atteignent 98,9 % et égalent le full-data. Conclusion des auteurs : l'OPD est « sur-alimentée en données mais sous-alimentée en algorithme » (<a href=\"https://arxiv.org/abs/2609.04172\">paper</a>).",
+                "en": "Training with on-policy distillation on a single prompt suffices to recover most of the gains of full training, according to this work published on September 3, 2026. A single query already covers 71.5% of the states visited by full training; 16 semantically distinct queries reach 98.9% and match full-data performance. The authors' conclusion: OPD is \"data-rich but algorithm-poor\" (<a href=\"https://arxiv.org/abs/2609.04172\">paper</a>).",
+                "de": "On-Policy-Destillation mit einer einzigen Trainingsanfrage genügt, um den Grossteil der Zugewinne des vollständigen Trainings zu erreichen, so diese am 3. September 2026 veröffentlichte Arbeit. Eine einzige Anfrage deckt bereits 71,5 Prozent der vom vollständigen Training besuchten Zustände ab; 16 semantisch unterschiedliche Anfragen erreichen 98,9 Prozent und gleichen das Full-Data-Training aus. Fazit der Autoren: OPD ist «an Daten über-, am Algorithmus unterernährt» (<a href=\"https://arxiv.org/abs/2609.04172\">Paper</a>).",
+                "it": "Addestrare con distillazione on-policy su una sola query basta a recuperare la parte essenziale dei guadagni dell'addestramento completo, secondo questo lavoro pubblicato il 3 settembre 2026. Una singola query copre già il 71,5% degli stati visitati dall'addestramento completo; 16 query semanticamente distinte raggiungono il 98,9% e eguagliano il full-data. Conclusione degli autori: l'OPD è «sovr-alimentata di dati ma sotto-alimentata di algoritmo» (<a href=\"https://arxiv.org/abs/2609.04172\">paper</a>).",
+                "lmo": "Iempregnà con distillazion on-policy sora domà ona requista l'è bastant per trà via l'essenzial di guadagn de l'emprentament complet, segond chest lavurà publicaa el 3 de settember 2026. Ona requista uniga la ga pògià 71,5 % dei staa visitàa de l'emprentament complet; 16 requist semanticament destint i riven a 98,9 % e i eguaglien el full-data. Concluzion di autur: l'OPD l'è « sora-numerada in dat ma sota-numerada in algoritm » (<a href=\"https://arxiv.org/abs/2609.04172\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "Post-training",
+                "en": "Post-training",
+                "de": "Post-training",
+                "it": "Post-training",
+                "lmo": "Post-training"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.04172"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "LatentStream : une mémoire latente évolutive pour la vidéo en streaming",
+                "en": "LatentStream: an evolving latent memory for streaming video",
+                "de": "LatentStream: ein evolutionärer latenter Speicher für gestreamtes Video",
+                "it": "LatentStream: una memoria latente evolutiva per il video in streaming",
+                "lmo": "LatentStream: ona memòria latenta evolutiva per el video in streaming"
+              },
+              "body": {
+                "fr": "LatentStream propose de faire passer la mémoire des MLLM du paradigme store-and-retrieve à retrieve-and-internalize : une mémoire de travail latente de longueur fixe internalise progressivement l'évidence historique, organisée en niveaux court, moyen et long terme. Le framework établit un nouvel état de l'art sur les benchmarks vidéo en ligne et hors ligne (<a href=\"https://arxiv.org/abs/2609.04131\">paper</a>, code sur <a href=\"https://github.com/quhongyu/LatentStream\">GitHub</a>).",
+                "en": "LatentStream proposes moving MLLM memory from the store-and-retrieve paradigm to retrieve-and-internalize: a fixed-length latent working memory progressively internalizes historical evidence, organized into short, medium and long-term levels. The framework sets a new state of the art on both online and offline video benchmarks (<a href=\"https://arxiv.org/abs/2609.04131\">paper</a>, code on <a href=\"https://github.com/quhongyu/LatentStream\">GitHub</a>).",
+                "de": "LatentStream schlägt vor, den Speicher von MLLM vom Paradigma store-and-retrieve zu retrieve-and-internalize zu verschieben: ein latenter Arbeitsspeicher fester Länge internalisiert historische Evidenz schrittweise, organisiert in Kurz-, Mittel- und Langzeitstufen. Das Framework setzt einen neuen State of the Art auf Online- und Offline-Video-Benchmarks (<a href=\"https://arxiv.org/abs/2609.04131\">Paper</a>, Code auf <a href=\"https://github.com/quhongyu/LatentStream\">GitHub</a>).",
+                "it": "LatentStream propone di portare la memoria dei MLLM dal paradigma store-and-retrieve a retrieve-and-internalize: una memoria di lavoro latente a lunghezza fissa internalizza progressivamente l'evidenza storica, organizzata in livelli a breve, medio e lungo termine. Il framework stabilisce un nuovo stato dell'arte sui benchmark video online e offline (<a href=\"https://arxiv.org/abs/2609.04131\">paper</a>, codice su <a href=\"https://github.com/quhongyu/LatentStream\">GitHub</a>).",
+                "lmo": "LatentStream el propogn de fà passà la memòria di MLLM del paradigm store-and-retrieve a retrieve-and-internalize: ona memòria de laurà latenta de longhezza fissa la internaliza gradivament l'evidenza storega, organizada in nivell cort, med e longh termen. El framework el stabeliss on növ stat de l'art sora i benchmark video in linea e foeura linea (<a href=\"https://arxiv.org/abs/2609.04131\">paper</a>, cod sora <a href=\"https://github.com/quhongyu/LatentStream\">GitHub</a>)."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.04131",
+                "https://github.com/quhongyu/LatentStream"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "WorldReward : noter les world models vidéo avec un VLM-juge",
+                "en": "WorldReward: scoring video world models with a VLM judge",
+                "de": "WorldReward: Video-World-Models mit einem VLM-Richter bewerten",
+                "it": "WorldReward: valutare i world model video con un VLM-giudice",
+                "lmo": "WorldReward: dà di punt ai world models video con on VLM-giudes"
+              },
+              "body": {
+                "fr": "WorldReward est un modèle de récompense à base de VLM qui unifie l'évaluation de cohérence d'action et de qualité visuelle pour les world models conditionnés caméra. Sur son benchmark WorldReward-Bench annoté humainement, il surpasse GPT-5.5 de 3,42, 1,45 et 3,56 points sur les trois dimensions mesurées, et améliore HY-WorldPlay 1.5 en post-training RL (<a href=\"https://arxiv.org/abs/2609.03952\">paper</a>).",
+                "en": "WorldReward is a VLM-based reward model that unifies the evaluation of action consistency and visual quality for camera-conditioned world models. On its human-annotated WorldReward-Bench benchmark, it outperforms GPT-5.5 by 3.42, 1.45 and 3.56 points on the three measured dimensions, and improves HY-WorldPlay 1.5 through RL post-training (<a href=\"https://arxiv.org/abs/2609.03952\">paper</a>).",
+                "de": "WorldReward ist ein VLM-basiertes Reward-Modell, das die Bewertung von Aktionskonsistenz und visueller Qualität für kamerakonditionierte World Models vereinheitlicht. Auf seinem menschlich annotierten Benchmark WorldReward-Bench übertrifft es GPT-5.5 um 3,42, 1,45 und 3,56 Punkte auf den drei gemessenen Dimensionen und verbessert HY-WorldPlay 1.5 durch RL-Post-training (<a href=\"https://arxiv.org/abs/2609.03952\">Paper</a>).",
+                "it": "WorldReward è un modello di ricompensa basato su VLM che unifica la valutazione di coerenza d'azione e di qualità visiva per i world models condizionati dalla camera. Sul suo benchmark WorldReward-Bench annotato umanamente, supera GPT-5.5 di 3,42, 1,45 e 3,56 punti sulle tre dimensioni misurate, e migliora HY-WorldPlay 1.5 in post-training RL (<a href=\"https://arxiv.org/abs/2609.03952\">paper</a>).",
+                "lmo": "WorldReward l'è on model de recompensa a bas de VLM che'l unifega la valutazion de coerenzia d'azion e de qualità visiva per i world models condizionàa camera. Sora el sò benchmark WorldReward-Bench annotàa da uman, lu l' surpassed GPT-5.5 de 3,42, 1,45 e 3,56 pont sora i trè dimensiun misuràde, e l'megiora HY-WorldPlay 1.5 in post-training RL (<a href=\"https://arxiv.org/abs/2609.03952\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "World models",
+                "en": "World Models",
+                "de": "World Models",
+                "it": "World models",
+                "lmo": "World models"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.03952"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communauté & édito",
+            "en": "Community Signals & Editorial",
+            "de": "Community-Signale & Editorial",
+            "it": "Segnali comunità & editoriale",
+            "lmo": "Signal comunitaa & edito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "17 000 exécutions mesurées : quels outils Claude, Codex et Cursor choisissent",
+                "en": "17,000 measured runs: which tools Claude, Codex and Cursor actually choose",
+                "de": "17'000 gemessene Ausführungen: welche Tools Claude, Codex und Cursor wählen",
+                "it": "17.000 esecuzioni misurate: quali strumenti scelgono Claude, Codex e Cursor",
+                "lmo": "17 000 ezecuzion misuràde: quai strumenti i scernissen Claude, Codex e Cursor"
+              },
+              "body": {
+                "fr": "Armature a mesuré 17 000 exécutions de Claude, Codex et Cursor pour déterminer quels outils les agents de code installent réellement et utilisent. L'étude, soumise sur Hacker News le 3 septembre 2026 avec 140 points et une cinquantaine de commentaires, éclaire les choix d'outillage implicites des harnais (<a href=\"https://armature.tech/blog/which-tools-coding-agents-install\">étude</a>, <a href=\"https://news.ycombinator.com/item?id=49557206\">discussion</a>).",
+                "en": "Armature measured 17,000 runs of Claude, Codex and Cursor to determine which tools coding agents actually install and use. The study, submitted to Hacker News on September 3, 2026 with 140 points and some fifty comments, sheds light on the implicit tooling choices of harnesses (<a href=\"https://armature.tech/blog/which-tools-coding-agents-install\">study</a>, <a href=\"https://news.ycombinator.com/item?id=49557206\">discussion</a>).",
+                "de": "Armature hat 17'000 Ausführungen von Claude, Codex und Cursor gemessen, um zu bestimmen, welche Tools Coding-Agenten tatsächlich installieren und nutzen. Die Studie, am 3. September 2026 auf Hacker News eingereicht mit 140 Punkten und gut fünfzig Kommentaren, beleuchtet die impliziten Tooling-Entscheidungen der Harnesses (<a href=\"https://armature.tech/blog/which-tools-coding-agents-install\">Studie</a>, <a href=\"https://news.ycombinator.com/item?id=49557206\">Diskussion</a>).",
+                "it": "Armature ha misurato 17.000 esecuzioni di Claude, Codex e Cursor per determinare quali strumenti gli agenti di codice installano realmente e utilizzano. Lo studio, inviato su Hacker News il 3 settembre 2026 con 140 punti e una cinquantina di commenti, fa luce sulle scelte di tooling implicite dei sistemi di agenti (<a href=\"https://armature.tech/blog/which-tools-coding-agents-install\">studio</a>, <a href=\"https://news.ycombinator.com/item?id=49557206\">discussione</a>).",
+                "lmo": "Armature l'ha misuràa 17 000 ezecuzion de Claude, Codex e Cursor per savè quai strumenti i agent de cod i installen verament e i droven. El studi, spedii sora Hacker News el 3 de settember 2026 con 140 pont e ona cinquantena de coment, el fà ciar i scerniment d'utill inplizit di harnais (<a href=\"https://armature.tech/blog/which-tools-coding-agents-install\">studi</a>, <a href=\"https://news.ycombinator.com/item?id=49557206\">discuzion</a>)."
+              },
+              "kicker": {
+                "fr": "Mesure",
+                "en": "Measurement",
+                "de": "Messung",
+                "it": "Misurazione",
+                "lmo": "Mizura"
+              },
+              "urls": [
+                "https://armature.tech/blog/which-tools-coding-agents-install",
+                "https://news.ycombinator.com/item?id=49557206"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Antigravity : les CGU de Google inquiètent les utilisateurs tiers",
+                "en": "Antigravity: Google's terms of service worry third-party users",
+                "de": "Antigravity: Googles Nutzungsbedingungen beunruhigen Drittnutzer",
+                "it": "Antigravity: i termini di utilizzo di Google preoccupano gli utenti terzi",
+                "lmo": "Antigravity: i CGU de Google i gh'ha mett paura ai utent de terz"
+              },
+              "body": {
+                "fr": "Un signalement relayé par Gergely Orosz souligne que les conditions d'utilisation de Google Antigravity prévoient qu'un usage par des tiers peut entraîner la suspension du compte Google concerné. La discussion Hacker News, ouverte le 3 septembre 2026, dépasse 200 commentaires et 300 points (<a href=\"https://twitter.com/GergelyOrosz/status/2095453567955968398\">signalement</a>, <a href=\"https://news.ycombinator.com/item?id=49548452\">discussion</a>).",
+                "en": "A report relayed by Gergely Orosz highlights that Google Antigravity's terms of service provide that third-party use may lead to the suspension of the associated Google account. The Hacker News discussion, opened on September 3, 2026, exceeds 200 comments and 300 points (<a href=\"https://twitter.com/GergelyOrosz/status/2095453567955968398\">report</a>, <a href=\"https://news.ycombinator.com/item?id=49548452\">discussion</a>).",
+                "de": "Ein von Gergely Orosz geteilter Hinweis hebt hervor, dass die Nutzungsbedingungen von Google Antigravity vorsehen, dass eine Nutzung durch Dritte zur Sperrung des betroffenen Google-Kontos führen kann. Die am 3. September 2026 eröffnete Hacker-News-Diskussion übersteigt 200 Kommentare und 300 Punkte (<a href=\"https://twitter.com/GergelyOrosz/status/2095453567955968398\">Hinweis</a>, <a href=\"https://news.ycombinator.com/item?id=49548452\">Diskussion</a>).",
+                "it": "Un segnalazione ripresa da Gergely Orosz evidenzia che i termini di utilizzo di Google Antigravity prevedono che un uso da parte di terzi possa comportare la sospensione dell'account Google interessato. La discussione su Hacker News, aperta il 3 settembre 2026, supera 200 commenti e 300 punti (<a href=\"https://twitter.com/GergelyOrosz/status/2095453567955968398\">segnalazione</a>, <a href=\"https://news.ycombinator.com/item?id=49548452\">discussione</a>).",
+                "lmo": "On segnaiament ligàa de Gergely Orosz el sottolinia che i condizion d'uzagg de Google Antigravity i preveden che on uzagg da terz el pò portà a la sospensiun del cont Google che'l toca. La discuzion Hacker News, duverta el 3 de settember 2026, la passa 200 coment e 300 pont (<a href=\"https://twitter.com/GergelyOrosz/status/2095453567955968398\">segnaiament</a>, <a href=\"https://news.ycombinator.com/item?id=49548452\">discuzion</a>)."
+              },
+              "kicker": {
+                "fr": "Conditions d'usage",
+                "en": "Terms of Service",
+                "de": "Nutzungsbedingungen",
+                "it": "Condizioni d'uso",
+                "lmo": "Condizion d'uzagg"
+              },
+              "urls": [
+                "https://twitter.com/GergelyOrosz/status/2095453567955968398",
+                "https://news.ycombinator.com/item?id=49548452"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ask HN : qui utilise vraiment MCP en production ?",
+                "en": "Ask HN: who is actually using MCP in production?",
+                "de": "Ask HN: Wer nutzt MCP wirklich in Produktion?",
+                "it": "Ask HN: chi usa davvero MCP in produzione?",
+                "lmo": "Ask HN: chi l'drova propriament MCP in produzione?"
+              },
+              "body": {
+                "fr": "La question « Qui utilise MCP en production ? » posée sur Hacker News le 3 septembre 2026 a réuni plus de quarante retours d'expérience. Les répondants comparent le protocole aux intégrations directes d'API et de CLI, un débat utile à l'heure où l'écosystème d'agents s'industrialise (<a href=\"https://news.ycombinator.com/item?id=49548600\">Ask HN</a>).",
+                "en": "The question \"Who is actually using MCP in production?\" posted on Hacker News on September 3, 2026 drew more than forty accounts of hands-on experience. Respondents compare the protocol to direct API and CLI integrations, a useful debate as the agent ecosystem industrializes (<a href=\"https://news.ycombinator.com/item?id=49548600\">Ask HN</a>).",
+                "de": "Die am 3. September 2026 auf Hacker News gestellte Frage «Wer nutzt MCP tatsächlich in Produktion?» hat mehr als vierzig Erfahrungsberichte versammelt. Die Antwortenden vergleichen das Protokoll mit direkten API- und CLI-Integrationen — eine nützliche Debatte in einer Zeit, in der das Agenten-Ökosystem industrialisiert wird (<a href=\"https://news.ycombinator.com/item?id=49548600\">Ask HN</a>).",
+                "it": "La domanda «Chi usa MCP in produzione?» posta su Hacker News il 3 settembre 2026 ha raccolto più di quarante feedback diretti. I rispondenti confrontano il protocollo con le integrazioni dirette di API e CLI, un dibattito utile nel momento in cui l'ecosistema di agenti si industrializza (<a href=\"https://news.ycombinator.com/item?id=49548600\">Ask HN</a>).",
+                "lmo": "La question « Chi el drova MCP in produzione? » fada sora Hacker News el 3 de settember 2026 la gh'ha finì per trovà pussee de quaranta esperienz reportàde. Quai che'l rispónd el compagnia el protocoll ai integrazzion dirette de API e CLI, on dibatit util al moment che l'ecosistem di agent el s'industrializza (<a href=\"https://news.ycombinator.com/item?id=49548600\">Ask HN</a>)."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Dibatit"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=49548600"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — L'IA des tâches longues a besoin de mémoire, de freins et de contrat",
+                "en": "Editorial — Long-task AI needs memory, brakes and a contract",
+                "de": "Editorial — Die KI für lange Aufgaben braucht Gedächtnis, Bremsen und Vertrag",
+                "it": "Editoriale — L'IA dei task lunghi ha bisogno di memoria, freni e contratto",
+                "lmo": "Edito — L'IA di compit longh la gh'ha besogn de memòria, de fren e de contrat"
+              },
+              "body": {
+                "fr": "La journée du 3 septembre 2026 illustre une bascule : les annonces se concentrent moins sur des scores de benchmark que sur la capacité des modèles à enchaîner des tâches longues — documents, tableurs, code, recherche — jusqu'à leur terme. GPT-6 Astra en est l'archétype : son argument central n'est pas un score, mais la combinaison du raisonnement, de l'usage d'outils et d'une surveillance de sûreté embarquée. Deux signaux méritent l'attention du lecteur. D'abord, la recherche publiée le même jour rappelle que la sophistication n'est pas toujours là où on l'attend : l'éviction aléatoire du KV cache égale les méthodes sélectives, preuve que des pans entiers d'ingénierie reposent peut-être sur des intuitions non vérifiées. Ensuite, les conditions d'usage d'Antigravity, qui peuvent suspendre un compte Google pour un usage par des tiers, montrent que la question de qui contrôle l'infrastructure d'agents devient aussi sensible que celle de leur compétence. La frontière avance ; le droit de l'accompagner aussi.",
+                "en": "The day of September 3, 2026 illustrates a shift: announcements focus less on benchmark scores than on models' ability to carry long-running tasks — documents, spreadsheets, code, research — through to completion. GPT-6 Astra is the archetype: its central pitch is not a score but the combination of reasoning, tool use and built-in safety monitoring. Two signals deserve the reader's attention. First, the research published the same day reminds us that sophistication is not always where we expect it: random KV cache eviction matches selective methods, proof that entire swaths of engineering may rest on unverified intuitions. Second, Antigravity's terms of service, which can suspend a Google account over third-party use, show that the question of who controls the agent infrastructure is becoming as sensitive as that of their competence. The frontier advances; so does the law that must accompany it.",
+                "de": "Der 3. September 2026 illustriert eine Wendemarke: Die Ankündigungen fokussieren weniger auf Benchmark-Scores als auf die Fähigkeit der Modelle, lange Aufgaben — Dokumente, Tabellen, Code, Recherche — bis zum Ende durchzuziehen. GPT-6 Astra ist deren Archetyp: Sein zentrales Argument ist kein Score, sondern die Kombination aus Reasoning, Tool-Nutzung und eingebetteter Sicherheitsüberwachung. Zwei Signale verdienen die Aufmerksamkeit der Leser. Erstens erinnert die Forschung desselben Tages daran, dass Raffinesse nicht immer dort liegt, wo man sie vermutet: Zufällige KV-Cache-Eviktion erreicht selektive Methoden — ein Beleg dafür, dass ganze Bereiche des Engineerings womöglich auf ungeprüften Intuitionen beruhen. Zweitens zeigen die Nutzungsbedingungen von Antigravity, die ein Google-Konto wegen Nutzung durch Dritte sperren können, dass die Frage, wer die Agenten-Infrastruktur kontrolliert, ebenso heikel wird wie die nach deren Kompetenz. Die Frontier schreitet voran; das Recht, sie zu begleiten, ebenso.",
+                "it": "La giornata del 3 settembre 2026 illustra una svolta: gli annunci si concentrano meno su punteggi di benchmark che sulla capacità dei modelli di concatenare task lunghi — documenti, fogli di calcolo, codice, ricerca — fino al loro compimento. GPT-6 Astra ne è l'archetipo: il suo argomento centrale non è un punteggio, ma la combinazione di ragionamento, uso di strumenti e una sorveglianza di sicurezza incorporata. Due segnali meritano l'attenzione del lettore. Primo, la ricerca pubblicata lo stesso giorno ricorda che la sofisticazione non sempre si trova dove la si aspetta: l'evizione casuale della KV cache eguaglia i metodi selettivi, prova che interi settori dell'ingegneria si fondano forse su intuizioni non verificate. Secondo, i termini di utilizzo di Antigravity, che possono sospendere un account Google per un uso da parte di terzi, mostrano che la questione di chi controlla l'infrastruttura di agenti diventa tanto sensibile quanto quella della loro competenza. La frontiera avanza; anche il diritto di accompagnarla.",
+                "lmo": "La giornada del 3 de settember 2026 la fà vedè on cambiament: i anunzi i se concentren men sora i score de benchmark che sora la capacità di modèj de menà adree di compit longh — document, foeuj de calcol, cod, riserca — fin a la sò fin. GPT-6 Astra l'è l'archetip: el sò argument central l'è no on score, ma la combinazion del resònament, del drovagg di strumenti e d'ona soravejanza de segurazza denter in del model. Dò signal i meritén l'atenzion de l'letur. Primma, la riserca publicada el midem dì la regorda che la sofisticazion l'è no semper indove che la s'aspeta: l'evizion casuala del KV cache la eguaglia i metod seletiv, pruva che di tochenter inter de ingegneria fùrsemè i sta sora di intuizion minga verificàde. Pö, i condizion d'uzagg d'Antigravity, che i pò sospender on cont Google per on uzagg da terz, i mostren che la question de chi el contròlla l'infrastrutura di agent la deventa tanta sensibila come quella de la sò capacità. La frontiera la va inanz; anca el dirit de scoltàg adree."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "urls": [
+                "https://openai.com/index/gpt-6-astra/",
+                "https://arxiv.org/abs/2609.03430",
+                "https://news.ycombinator.com/item?id=49548452"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
