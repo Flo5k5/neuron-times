@@ -1,0 +1,786 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-11",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le 10 septembre 2026, OpenAI a publié en bêta publique l'Agents API, un service managé qui permet de construire et déployer des agents de longue durée dans le cloud, avec le harnais de Codex comme moteur d'orchestration. La société <a href=\"https://openai.com/index/introducing-the-agents-api\">annonce</a> que l'infrastructure gère l'orchestration des sessions, la compaction du contexte et la récupération après incident, tandis que le développeur apporte ses outils et ses serveurs MCP. Les agents peuvent s'exécuter dans des sandboxes hébergées par OpenAI ou dans une infrastructure tierce connectée.",
+        "en": "On 10 September 2026, OpenAI released the Agents API in public beta, a managed service for building and deploying long-running agents in the cloud, with the Codex harness as the orchestration engine. The company <a href=\"https://openai.com/index/introducing-the-agents-api\">announces</a> that the infrastructure handles session orchestration, context compaction and crash recovery, while the developer brings their own tools and MCP servers. Agents can run in sandboxes hosted by OpenAI or on connected third-party infrastructure.",
+        "de": "Am 10. September 2026 hat OpenAI die Agents API als öffentliche Beta veröffentlicht – ein Managed Service zum Bauen und Deployen langlebiger Agenten in der Cloud, mit dem Codex-Harness als Orchestrierungsmotor. Das Unternehmen <a href=\"https://openai.com/index/introducing-the-agents-api\">kündigt</a> an, dass die Infrastruktur die Orchestrierung der Sessions, die Verdichtung des Kontexts und die Wiederherstellung nach Zwischenfällen übernimmt, während Entwickler ihre eigenen Tools und MCP-Server beisteuern. Die Agenten können in von OpenAI gehosteten Sandboxes oder in angeschlossener Drittanbieter-Infrastruktur laufen.",
+        "it": "Il 10 settembre 2026, OpenAI ha pubblicato in beta pubblica l'Agents API, un servizio gestito che permette di costruire e distribuire agenti di lunga durata nel cloud, con l'harness di Codex come motore di orchestrazione. La società <a href=\"https://openai.com/index/introducing-the-agents-api\">annuncia</a> che l'infrastruttura gestisce l'orchestrazione delle sessioni, la compattazione del contesto e il ripristino dopo incidenti, mentre lo sviluppatore porta i propri strumenti e i propri server MCP. Gli agenti possono essere eseguiti in sandbox ospitate da OpenAI o in un'infrastruttura di terzi connessa.",
+        "lmo": "El 10 de setember 2026, OpenAI l'ha publicaa in beta publega l'Agents API, on servizzi gestii che 'l permet de costruì e desplegà agent de longa durada in del cloud, con el harnais de Codex 'me motor de ordestrazion. La società la <a href=\"https://openai.com/index/introducing-the-agents-api\">anunzia</a> che l'infrastruttura la gestiona l'ordestrazion di session, la compazion del contest e 'l recuver dòpo on incident, intant che 'l svilupadator el porta i sò strument e i sò server MCP. I agent poden eseguìss in di sandbox ospitaa de OpenAI o in d'ona infrastruttura de terz conligada."
+      },
+      {
+        "fr": "Sur Hacker News, l'annonce a réuni 186 points et 118 commentaires en moins de douze heures, la <a href=\"https://news.ycombinator.com/item?id=49649213\">discussion</a> portant notamment sur le verrouillage propriétaire implicite d'un harnais managé. Le même jour, le <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la plateforme</a> précise que les sessions durables permettent de reprendre le travail entre les tours, de streamer la progression et de connecter ses propres outils, avec un quickstart dédié pour démarrer.",
+        "en": "On Hacker News, the announcement gathered 186 points and 118 comments in under twelve hours, with the <a href=\"https://news.ycombinator.com/item?id=49649213\">discussion</a> focusing in particular on the implicit proprietary lock-in of a managed harness. The same day, the <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">platform changelog</a> specifies that durable sessions allow resuming work between turns, streaming progress and connecting one's own tools, with a dedicated quickstart to get started.",
+        "de": "Auf Hacker News versammelte die Ankündigung in weniger als zwölf Stunden 186 Punkte und 118 Kommentare; die <a href=\"https://news.ycombinator.com/item?id=49649213\">Diskussion</a> drehte sich unter anderem um die implizite proprietäre Bindung eines verwalteten Harnesses. Am selben Tag präzisiert der <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Changelog der Plattform</a>, dass dauerhafte Sessions das Fortsetzen der Arbeit zwischen Zügen, das Streamen des Fortschritts und das Anbinden eigener Tools erlauben – samt dediziertem Quickstart für den Einstieg.",
+        "it": "Su Hacker News, l'annuncio ha raccolto 186 punti e 118 commenti in meno di dodici ore; la <a href=\"https://news.ycombinator.com/item?id=49649213\">discussione</a> ha riguardato in particolare il lock-in proprietario implicito di un harness gestito. Lo stesso giorno, il <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog della piattaforma</a> precisa che le sessioni durevoli permettono di riprendere il lavoro tra i turni, di trasmettere in streaming l'avanzamento e di collegare i propri strumenti, con un quickstart dedicato per iniziare.",
+        "lmo": "In su Hacker News, l'anunzi l'ha reünii 186 pont e 118 coment in manch de dodes or, la <a href=\"https://news.ycombinator.com/item?id=49649213\">discussion</a> l'era soratutt sora el bloch proprietari implicit de on harnais gestii. El midemm dì, el <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la piataforma</a> el precisa che i session durabil permeten de riprend el laurà tra i turn, de fà streamming del progress e de conligà i sò strument, cont on quickstart dedicaa per partì."
+      },
+      {
+        "fr": "Le lancement s'inscrit dans une journée chargée côté OpenAI : la même date a vu l'ouverture de GPT-Live-1 en disponibilité générale, la sortie d'un agent Data dans ChatGPT Work et de ChatGPT pour les services financiers. L'Agents API officialise toutefois un mouvement de fond : la valeur se déplace du modèle vers l'infrastructure d'exécution qui l'entoure, jusqu'ici domaine des harnais open source comme Claude Code ou Codex CLI.",
+        "en": "The launch caps a busy day for OpenAI: the same date saw GPT-Live-1 reach general availability, the release of a Data agent in ChatGPT Work, and ChatGPT for financial services. The Agents API nonetheless formalizes a deeper shift: value is moving from the model to the execution infrastructure around it, until now the domain of open-source harnesses like Claude Code or Codex CLI.",
+        "de": "Der Start fällt in einen ereignisreichen Tag bei OpenAI: Am selben Datum wurde GPT-Live-1 allgemein verfügbar, ein Data-Agent in ChatGPT Work sowie ChatGPT für Finanzdienstleister lanciert. Die Agents API zementiert indes einen grundlegenden Trend: Der Wert verschiebt sich vom Modell hin zur Ausführungsinfrastruktur, die es umgibt – bislang das Gebiet quelloffener Harnesses wie Claude Code oder Codex CLI.",
+        "it": "Il lancio si inserisce in una giornata intensa per OpenAI: la stessa data ha visto l'apertura di GPT-Live-1 in disponibilità generale, il rilascio di un agente Data in ChatGPT Work e di ChatGPT per i servizi finanziari. L'Agents API sancisce tuttavia un movimento di fondo: il valore si sposta dal modello verso l'infrastruttura di esecuzione che lo circonda, finora dominio degli harness open source come Claude Code o Codex CLI.",
+        "lmo": "El lanz el se inseriss in d'ona giornada carica de la part de OpenAI: la midemma data l'ha veduu la vertura de GPT-Live-1 in disponibilità general, la sortida de on agent Data in ChatGPT Work e de ChatGPT per i servizzi financier. L'Agents API el offizializza però on moviment de fond: el valor el se moeuv del modell vers l'infrastruttura de esecuzion che la gh'è intorna, fin adess domini di harnais open source 'me Claude Code o Codex CLI."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/introducing-the-agents-api",
+      "https://news.ycombinator.com/item?id=49649213",
+      "https://r.jina.ai/https://platform.openai.com/docs/changelog"
+    ],
+    "kicker": {
+      "fr": "Plateformes",
+      "en": "Platforms",
+      "de": "Plattformen",
+      "it": "Piattaforme",
+      "lmo": "Piataform"
+    },
+    "headline": {
+      "fr": "OpenAI lance l'Agents API : le harnais Codex devient un service managé du cloud",
+      "en": "OpenAI launches the Agents API: the Codex harness becomes a managed cloud service",
+      "de": "OpenAI startet die Agents API: Das Codex-Harness wird zum Managed Service in der Cloud",
+      "it": "OpenAI lancia l'Agents API: l'harness di Codex diventa un servizio gestito nel cloud",
+      "lmo": "OpenAI el lancia l'Agents API: el harnais Codex el deventa on servizzi gestii del cloud"
+    },
+    "subdeck": {
+      "fr": "Le lancement du 10 septembre 2026 transforme l'orchestration d'agents en service géré : sessions durables, sandboxes hébergées et compaction de contexte pris en charge par OpenAI.",
+      "en": "The 10 September 2026 launch turns agent orchestration into a managed service: durable sessions, hosted sandboxes and context compaction handled by OpenAI.",
+      "de": "Der Launch vom 10. September 2026 macht die Orchestrierung von Agenten zu einem verwalteten Dienst: dauerhafte Sessions, gehostete Sandboxes und Kontextverdichtung, getragen von OpenAI.",
+      "it": "Il lancio del 10 settembre 2026 trasforma l'orchestrazione di agenti in un servizio gestito: sessioni durevoli, sandbox ospitate e compattazione del contesto gestite da OpenAI.",
+      "lmo": "El lanz del 10 de setember 2026 el trasforma l'ordestrazion di agent in servizzi gestii: session durabil, sandbox ospitaa e compazion del contest gestii de OpenAI."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic publie son rapport de contre-mesure des usages malveillants de Claude",
+        "en": "Anthropic publishes its report on counter-measures to malicious uses of Claude",
+        "de": "Anthropic veröffentlicht seinen Bericht zu Gegenmassnahmen gegen böswillige Claude-Nutzung",
+        "it": "Anthropic pubblica il rapporto sulle contromisure agli usi malevoli di Claude",
+        "lmo": "Anthropic el publica el sò rapport de contramesura di us malizios de Claude"
+      },
+      "body": {
+        "fr": "Le rapport de threat intelligence publié le 10 septembre 2026 documente huit mois d'opérations où l'équipe dédiée a identifié et disrupté des tentatives d'usage malveillant de Claude, avec études de cas et comparaison avec les rapports de 2025. La <a href=\"https://www.anthropic.com/threat-intelligence-report-september-2026\">publication</a> a réuni 103 points et 176 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49647300\">Hacker News</a> en moins de douze heures.",
+        "en": "The threat intelligence report published on 10 September 2026 documents eight months of operations in which the dedicated team identified and disrupted attempts at malicious use of Claude, with case studies and a comparison with the 2025 reports. The <a href=\"https://www.anthropic.com/threat-intelligence-report-september-2026\">publication</a> gathered 103 points and 176 comments on <a href=\"https://news.ycombinator.com/item?id=49647300\">Hacker News</a> in under twelve hours.",
+        "de": "Der am 10. September 2026 veröffentlichte Threat-Intelligence-Bericht dokumentiert acht Monate Operationen, in denen das dedizierte Team böswillige Nutzungversuche von Claude identifizierte und störte – mit Fallstudien und einem Vergleich mit den Berichten von 2025. Die <a href=\"https://www.anthropic.com/threat-intelligence-report-september-2026\">Publikation</a> versammelte in weniger als zwölf Stunden 103 Punkte und 176 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49647300\">Hacker News</a>.",
+        "it": "Il rapporto di threat intelligence pubblicato il 10 settembre 2026 documenta otto mesi di operazioni in cui il team dedicato ha identificato e interrotto tentativi d'uso malevolo di Claude, con casi di studio e confronto con i rapporti del 2025. La <a href=\"https://www.anthropic.com/threat-intelligence-report-september-2026\">pubblicazione</a> ha raccolto 103 punti e 176 commenti su <a href=\"https://news.ycombinator.com/item?id=49647300\">Hacker News</a> in meno di dodici ore.",
+        "lmo": "El rapport de threat intelligence publicaa el 10 de setember 2026 el documenta vott mes de operazion indoa l'equipa dedicada l'ha identificaa e disrujii di tentativ de us malizios de Claude, cont studi de cas e confront cont i rapport del 2025. La <a href=\"https://www.anthropic.com/threat-intelligence-report-september-2026\">publicazion</a> l'ha reünii 103 pont e 176 coment in su <a href=\"https://news.ycombinator.com/item?id=49647300\">Hacker News</a> in manch de dodes or."
+      },
+      "tag": {
+        "fr": "Sûreté",
+        "en": "Safety",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sicurezza"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-10",
+        "en": "From the Wires — 2026-09-10",
+        "de": "From the Wires — 2026-09-10",
+        "it": "From the Wires — 2026-09-10",
+        "lmo": "From the Wires — 2026-09-10"
+      },
+      "urls": [
+        "https://www.anthropic.com/threat-intelligence-report-september-2026",
+        "https://news.ycombinator.com/item?id=49647300"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "SWE-2 de Cognition rivalise avec Fable 5.1 et GPT-Astra, selon son éditeur",
+        "en": "Cognition's SWE-2 rivals Fable 5.1 and GPT-Astra, its maker says",
+        "de": "SWE-2 von Cognition reiht sich neben Fable 5.1 und GPT-Astra ein, gemäss dem Hersteller",
+        "it": "SWE-2 di Cognition rivalisce con Fable 5.1 e GPT-Astra, secondo il suo editore",
+        "lmo": "SWE-2 de Cognition el riva a la pari cont Fable 5.1 e GPT-Astra, segond el sò editor"
+      },
+      "body": {
+        "fr": "Cognition a lancé SWE-2 le 10 septembre 2026, un modèle positionné face aux ténors du code ; la discussion <a href=\"https://news.ycombinator.com/item?id=49645443\">sur Hacker News</a> (381 points, 160 commentaires) s'est surtout polarisée sur la méthodologie de comparaison avec Fable 5.1 et GPT-Astra, <a href=\"https://cognition.com/blog/swe-2\">annoncée</a> par l'éditeur de Devin comme « rivale » des modèles frontière.",
+        "en": "Cognition launched SWE-2 on 10 September 2026, a model positioned against the leading coding models; the <a href=\"https://news.ycombinator.com/item?id=49645443\">Hacker News</a> discussion (381 points, 160 comments) focused largely on the comparison methodology with Fable 5.1 and GPT-Astra, as <a href=\"https://cognition.com/blog/swe-2\">announced</a> by the maker of Devin as \"rival\" to frontier models.",
+        "de": "Cognition hat SWE-2 am 10. September 2026 gestartet, ein Modell, das gegen die Code-Stars positioniert wird; die <a href=\"https://news.ycombinator.com/item?id=49645443\">Diskussion auf Hacker News</a> (381 Punkte, 160 Kommentare) polarisierte sich vor allem an der Vergleichsmethodik mit Fable 5.1 und GPT-Astra, die von Cognition als « ebenbürtig» mit den Frontier-Modellen <a href=\"https://cognition.com/blog/swe-2\">angekündigt</a> wurde.",
+        "it": "Cognition ha lanciato SWE-2 il 10 settembre 2026, un modello posizionato contro i campioni del codice; la discussione <a href=\"https://news.ycombinator.com/item?id=49645443\">su Hacker News</a> (381 punti, 160 commenti) si è polarizzata soprattutto sulla metodologia di confronto con Fable 5.1 e GPT-Astra, <a href=\"https://cognition.com/blog/swe-2\">annunciata</a> dall'editore di Devin come «rivale» dei modelli di frontiera.",
+        "lmo": "Cognition l'ha lanziaa SWE-2 el 10 de setember 2026, on modell posizionaa denanz ai tenor del codes; la discussion <a href=\"https://news.ycombinator.com/item?id=49645443\">in su Hacker News</a> (381 pont, 160 coment) la s'è soratutt polarizzada sora la metodologia de confront cont Fable 5.1 e GPT-Astra, <a href=\"https://cognition.com/blog/swe-2\">anunziada</a> de l'editor de Devin 'me « rivala » di modell de frontiera."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-10",
+        "en": "From the Wires — 2026-09-10",
+        "de": "From the Wires — 2026-09-10",
+        "it": "From the Wires — 2026-09-10",
+        "lmo": "From the Wires — 2026-09-10"
+      },
+      "urls": [
+        "https://cognition.com/blog/swe-2",
+        "https://news.ycombinator.com/item?id=49645443"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cohere ouvre les coulisses de son moteur à megakernels : 1,58x plus rapide sur H100",
+        "en": "Cohere opens up its megakernel engine: 1.58x faster on H100",
+        "de": "Cohere öffnet die Kulissen seiner Megakernel-Engine: 1,58x schneller auf der H100",
+        "it": "Cohere apre le quinte del suo motore a megakernel: 1,58x più veloce su H100",
+        "lmo": "Cohere el derv i scagn del sò motor a megakernel: 1,58x pussee svelt in su H100"
+      },
+      "body": {
+        "fr": "Cohere détaille le moteur de serving à megakernels de North Mini Code, qui délivre un service LLM <a href=\"https://cohere.com/blog/megakernels\">1,58 fois plus rapide sur H100</a> selon le deep dive publié le 10 septembre 2026. L'approche fusionne les opérations d'attention dans un unique kernel, un angle rarement documenté publiquement par un labo commercial.",
+        "en": "Cohere details the megakernel serving engine of North Mini Code, which delivers LLM serving <a href=\"https://cohere.com/blog/megakernels\">1.58 times faster on H100</a> according to the deep dive published on 10 September 2026. The approach fuses attention operations into a single kernel, an angle rarely documented publicly by a commercial lab.",
+        "de": "Cohere legt die Megakernel-Serving-Engine von North Mini Code offen, die gemäss dem am 10. September 2026 publizierten Deep Dive einen <a href=\"https://cohere.com/blog/megakernels\">um den Faktor 1,58 schnelleren LLM-Dienst auf der H100</a> liefert. Der Ansatz verschmilzt die Attention-Operationen in einem einzigen Kernel – ein Blick hinter die Kulissen, den ein kommerzielles Labor selten öffentlich dokumentiert.",
+        "it": "Cohere dettaglia il motore di serving a megakernel di North Mini Code, che eroga un servizio LLM <a href=\"https://cohere.com/blog/megakernels\">1,58 volte più veloce su H100</a> secondo il deep dive pubblicato il 10 settembre 2026. L'approccio fonde le operazioni di attenzione in un unico kernel, un angolo raramente documentato pubblicamente da un laboratorio commerciale.",
+        "lmo": "Cohere el descingia el motor de serving a megakernel de North Mini Code, che 'l forniss on servizzi LLM <a href=\"https://cohere.com/blog/megakernels\">1,58 voeult pussee svelt in su H100</a> segond el deep dive publicaa el 10 de setember 2026. L'apros la fond i operazion de attention in d'on ünich kernel, on'angol rarament documentaa publegament de on laboratori comercial."
+      },
+      "tag": {
+        "fr": "Inférence",
+        "en": "Inference",
+        "de": "Inferenz",
+        "it": "Inferenza",
+        "lmo": "Inferenzi"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-10",
+        "en": "From the Wires — 2026-09-10",
+        "de": "From the Wires — 2026-09-10",
+        "it": "From the Wires — 2026-09-10",
+        "lmo": "From the Wires — 2026-09-10"
+      },
+      "urls": [
+        "https://cohere.com/blog/megakernels"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ThunderKittens sur Vera Rubin NVL72 : plus de 22 PFLOPS en NVFP4",
+        "en": "ThunderKittens on Vera Rubin NVL72: over 22 PFLOPS in NVFP4",
+        "de": "ThunderKittens auf Vera Rubin NVL72: über 22 PFLOPS in NVFP4",
+        "it": "ThunderKittens su Vera Rubin NVL72: oltre 22 PFLOPS in NVFP4",
+        "lmo": "ThunderKittens in su Vera Rubin NVL72: pussee de 22 PFLOPS in NVFP4"
+      },
+      "body": {
+        "fr": "Together AI a porté ThunderKittens sur le NVL72 de NVIDIA et reconstruit son GEMM NVFP4 autour du nouveau matériel, passant de 42 % du roofline à plus de 22 PFLOPS — compétitif avec cuBLAS et CuTe DSL selon <a href=\"https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72\">l'annonce</a> du 10 septembre 2026. La même journée, l'opérateur introduisait du <a href=\"https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price\">calcul préemptible à 50 % du tarif on-demand</a>, avec une fenêtre de drainage de cinq minutes.",
+        "en": "Together AI ported ThunderKittens to NVIDIA's NVL72 and rebuilt its NVFP4 GEMM around the new hardware, going from 42% of roofline to over 22 PFLOPS — competitive with cuBLAS and CuTe DSL according to the <a href=\"https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72\">announcement</a> of 10 September 2026. The same day, the operator introduced <a href=\"https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price\">preemptible compute at 50% of on-demand pricing</a>, with a five-minute drain window.",
+        "de": "Together AI hat ThunderKittens auf NVIDIAs NVL72 portiert und sein NVFP4-GEMM für die neue Hardware neu gebaut – von 42 Prozent des Roofline auf über 22 PFLOPS, konkurrenzfähig mit cuBLAS und CuTe DSL gemäss der <a href=\"https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72\">Ankündigung</a> vom 10. September 2026. Am selben Tag führte der Betreiber <a href=\"https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price\">präemptible Compute zum halben On-Demand-Tarif</a> ein, mit einem Drainage-Fenster von fünf Minuten.",
+        "it": "Together AI ha portato ThunderKittens sul NVL72 di NVIDIA e ricostruito il proprio GEMM NVFP4 attorno al nuovo hardware, passando dal 42% del roofline a oltre 22 PFLOPS — competitivo con cuBLAS e CuTe DSL secondo <a href=\"https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72\">l'annuncio</a> del 10 settembre 2026. Lo stesso giorno, l'operatore introduceva un <a href=\"https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price\">calcolo preemption al 50% della tariffa on-demand</a>, con una finestra di draining di cinque minuti.",
+        "lmo": "Together AI l'ha portaa ThunderKittens sora el NVL72 de NVIDIA e recostruii el sò GEMM NVFP4 intorna del noeuv hardware, passand del 42 % del roofline a pussee de 22 PFLOPS — competitiv cont cuBLAS e CuTe DSL segond <a href=\"https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72\">l'anunzi</a> del 10 de setember 2026. La midemma giornata, l'operador l'introduveva del <a href=\"https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price\">calcol preemptibil al 50 % del tarif on-demand</a>, cont ona finestra de drainage de cinch minut."
+      },
+      "tag": {
+        "fr": "Calcul",
+        "en": "Compute",
+        "de": "Rechenleistung",
+        "it": "Calcolo",
+        "lmo": "Calcol"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-10",
+        "en": "From the Wires — 2026-09-10",
+        "de": "From the Wires — 2026-09-10",
+        "it": "From the Wires — 2026-09-10",
+        "lmo": "From the Wires — 2026-09-10"
+      },
+      "urls": [
+        "https://www.together.ai/blog/to-infinity-and-beyond-thunderkittens-now-on-nvidia-vera-rubin-nvl72",
+        "https://www.together.ai/blog/introducing-preemptible-compute-the-same-compute-half-the-price"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Frontseite",
+        "it": "Prima pagina",
+        "lmo": "In Prima Paögna"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & Frontière",
+            "en": "Models & Frontier",
+            "de": "Modelle & Grenzen",
+            "it": "Modelli & Frontiera",
+            "lmo": "Modell & Frontier"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ChatGPT pour les services financiers : données intégrées et GPT-6 Astra",
+                "en": "ChatGPT for financial services: integrated data and GPT-6 Astra",
+                "de": "ChatGPT für Finanzdienstleister: integrierte Daten und GPT-6 Astra",
+                "it": "ChatGPT per i servizi finanziari: dati integrati e GPT-6 Astra",
+                "lmo": "ChatGPT per i servizzi financier: dati integraa e GPT-6 Astra"
+              },
+              "body": {
+                "fr": "Le 10 septembre 2026, OpenAI a dévoilé ChatGPT pour les services financiers, une offre qui <a href=\"https://openai.com/index/introducing-chatgpt-financial-services\">combine</a> des données financières intégrées et GPT-6 Astra pour la recherche, la modélisation et la production de documents prêts à présenter aux clients. Le secteur financier, l'un des plus gros consommateurs d'IA d'entreprise, dispose ainsi d'un produit vertical clé en main, dans la lignée des offres sectorielles déployées ces derniers mois.",
+                "en": "On 10 September 2026, OpenAI unveiled ChatGPT for financial services, an offering that <a href=\"https://openai.com/index/introducing-chatgpt-financial-services\">combines</a> integrated financial data and GPT-6 Astra for research, modelling and the production of client-ready documents. The financial sector, one of the largest consumers of enterprise AI, now has a turnkey vertical product, in line with the sector-specific offerings rolled out in recent months.",
+                "de": "Am 10. September 2026 hat OpenAI ChatGPT für Finanzdienstleister vorgestellt – ein Angebot, das integrierte Finanzdaten und GPT-6 Astra für Recherche, Modellierung und die Erstellung kundenfertiger Dokumente <a href=\"https://openai.com/index/introducing-chatgpt-financial-services\">kombiniert</a>. Der Finanzsektor, einer der grössten Abnehmer von Unternehmens-KI, erhält damit ein schlüsselfertiges Vertikalprodukt, in der Linie der Branchenangebote der letzten Monate.",
+                "it": "Il 10 settembre 2026, OpenAI ha presentato ChatGPT per i servizi finanziari, un'offerta che <a href=\"https://openai.com/index/introducing-chatgpt-financial-services\">combina</a> dati finanziari integrati e GPT-6 Astra per la ricerca, la modellizzazione e la produzione di documenti pronti da presentare ai clienti. Il settore finanziario, uno dei maggiori consumatori di IA aziendale, dispone così di un prodotto verticale chiavi in mano, in linea con le offerte settoriali lanciate negli ultimi mesi.",
+                "lmo": "El 10 de setember 2026, OpenAI l'ha desvelaa ChatGPT per i servizzi financier, ona oferta che <a href=\"https://openai.com/index/introducing-chatgpt-financial-services\">la combina</a> dati financier integraa e GPT-6 Astra per la ricerca, la modelizazion e la produzion de document pront per vess presentaa ai client. El settor financier, vun di pussee gross consumador de IA d'impresa, el gh'ha inscì on prodott vertical ciav in man, in la ligna di offer settoriai desplegaa in di ultem mes."
+              },
+              "kicker": {
+                "fr": "Vertical",
+                "en": "Vertical",
+                "de": "Vertikal",
+                "it": "Verticale",
+                "lmo": "Vertical"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-chatgpt-financial-services"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "GPT-Live-1 en GA : la voix full-duplex facturée 0,05 dollar la minute",
+                "en": "GPT-Live-1 goes GA: full-duplex voice at $0.05 a minute",
+                "de": "GPT-Live-1 in GA: Vollduplex-Stimme zum Preis von 0,05 Dollar pro Minute",
+                "it": "GPT-Live-1 in GA: la voce full-duplex fatturata 0,05 dollari al minuto",
+                "lmo": "GPT-Live-1 in GA: la vos full-duplex fatturada 0,05 dollar al minut"
+              },
+              "body": {
+                "fr": "GPT-Live-1 est passé en disponibilité générale dans l'API le 10 septembre 2026, apportant des conversations vocales full-duplex capables de se poursuivre pendant qu'un modèle backend gère le raisonnement et les outils. Selon le <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la plateforme</a>, les sessions vocales coûtent 0,05 dollar par minute, facturées à la seconde, l'usage du modèle backend étant facturé séparément. OpenAI <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api\">précise</a> que le service supporte des voix personnalisées et la téléphonie.",
+                "en": "GPT-Live-1 moved into general availability in the API on 10 September 2026, bringing full-duplex voice conversations that can continue while a backend model handles reasoning and tools. According to the <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">platform changelog</a>, voice sessions cost $0.05 per minute, billed by the second, with backend model usage billed separately. OpenAI <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api\">specifies</a> that the service supports custom voices and telephony.",
+                "de": "GPT-Live-1 ist am 10. September 2026 in der API allgemein verfügbar geworden und bringt Vollduplex-Sprachgespräche, die fortlaufen können, während ein Backend-Modell Reasoning und Tools übernimmt. Gemäss dem <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Changelog der Plattform</a> kosten Sprachsessions 0,05 Dollar pro Minute, sekundengenau abgerechnet; die Nutzung des Backend-Modells wird separat verrechnet. OpenAI <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api\">präzisiert</a>, dass der Dienst eigene Stimmen und Telefonie unterstützt.",
+                "it": "GPT-Live-1 è passato in disponibilità generale nell'API il 10 settembre 2026, portando conversazioni vocali full-duplex in grado di proseguire mentre un modello di backend gestisce il ragionamento e gli strumenti. Secondo il <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog della piattaforma</a>, le sessioni vocali costano 0,05 dollari al minuto, fatturate al secondo, con l'uso del modello di backend fatturato separatamente. OpenAI <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api\">precisa</a> che il servizio supporta voci personalizzate e la telefonia.",
+                "lmo": "GPT-Live-1 l'è passaa in disponibilità general in de l'API el 10 de setember 2026, portand conversazion vos full-duplex bon de andà innanz intant che on modell backend el gestiona el resonee e i strument. Segond el <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">changelog de la piataforma</a>, i session vos costen 0,05 dollar al minut, fatturaa al segond, con l'us del modell backend fatturaa a part. OpenAI el <a href=\"https://openai.com/index/introducing-gpt-live-1-in-the-api\">el precisa</a> che 'l servizzi el suppòrt vos personnai e la telefonia."
+              },
+              "kicker": {
+                "fr": "API",
+                "en": "API",
+                "de": "API",
+                "it": "API",
+                "lmo": "API"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+                "https://r.jina.ai/https://platform.openai.com/docs/changelog"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Des antimicrobiens cherchés dans les génomes éteints à coups d'agents",
+                "en": "Hunting antimicrobials in extinct genomes with agents",
+                "de": "Antimikrobielle Wirkstoffe in ausgestorbenen Genomen – mittels Agenten gesucht",
+                "it": "Antimicrobici cercati nei genomi estinti a colpi di agenti",
+                "lmo": "Antimicrobian cercacc in di genom estint cont i agent"
+              },
+              "body": {
+                "fr": "Le laboratoire de César de la Fuente utilise Codex et ChatGPT pour fouiller des génomes vivants et éteints à la recherche de candidats antimicrobiens contre les infections résistantes aux médicaments, <a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">raconte</a> OpenAI le 10 septembre 2026. Le cas d'usage illustre l'usage croissant des agents de code comme moteurs de découverte scientifique, au-delà du simple génie logiciel.",
+                "en": "César de la Fuente's lab is using Codex and ChatGPT to mine living and extinct genomes for antimicrobial candidates against drug-resistant infections, OpenAI <a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">reports</a> on 10 September 2026. The use case illustrates the growing use of coding agents as engines of scientific discovery, beyond software engineering proper.",
+                "de": "Das Labor von César de la Fuente nutzt Codex und ChatGPT, um lebende und ausgestorbene Genome nach antimikrobiellen Kandidaten gegen medikamentenresistente Infektionen zu durchsuchen, <a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">berichtet</a> OpenAI am 10. September 2026. Der Anwendungsfall illustriert die wachsende Rolle von Code-Agenten als Motoren wissenschaftlicher Entdeckung, jenseits des reinen Software-Engineerings.",
+                "it": "Il laboratorio di César de la Fuente utilizza Codex e ChatGPT per esaminare genomi viventi ed estinti alla ricerca di candidati antimicrobici contro le infezioni resistenti ai farmaci, <a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">racconta</a> OpenAI il 10 settembre 2026. Il caso d'uso illustra l'impiego crescente degli agenti di codice come motori di scoperta scientifica, oltre la semplice ingegneria del software.",
+                "lmo": "El laboratori de César de la Fuente el dopera Codex e ChatGPT per guardà genom viv e estint a la ricerca de candidaa antimicrobian contra i infezion resistent ai farmach, 'me 'l <a href=\"https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials\">cunta su</a> OpenAI el 10 de setember 2026. El cas d'us el illusstra l'us cressent di agent de codes 'me motor de descuvera scentifiga, oltra del semplisg ingenieria del software."
+              },
+              "kicker": {
+                "fr": "Science",
+                "en": "Science",
+                "de": "Wissenschaft",
+                "it": "Scienza",
+                "lmo": "Scenza"
+              },
+              "urls": [
+                "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI offre les licences aux administrations américaines avec la GSA",
+                "en": "OpenAI gives licences to US government agencies via the GSA",
+                "de": "OpenAI verschenkt Lizenzen an US-Behörden – gemeinsam mit der GSA",
+                "it": "OpenAI offre le licenze alle amministrazioni statunitensi con la GSA",
+                "lmo": "OpenAI el oferiss i licens ai aministrazion american con la GSA"
+              },
+              "body": {
+                "fr": "Le 10 septembre 2026, OpenAI et la GSA ont annoncé élargir l'accès à l'IA pour les administrations fédérales, des États, locales et tribales américaines : <a href=\"https://openai.com/index/expanding-ai-access-us-government\">0 dollar de frais de licence</a>, 50 % de réduction sur l'usage et un support renforcé en cyberdéfense. L'accord consolide la position d'OpenAI sur le marché public, segment stratégique où les exigences de souveraineté s'aiguisent.",
+                "en": "On 10 September 2026, OpenAI and the GSA announced expanded AI access for US federal, state, local and tribal governments: <a href=\"https://openai.com/index/expanding-ai-access-us-government\">$0 licence fees</a>, a 50% discount on usage and enhanced cybersecurity support. The deal consolidates OpenAI's position in the public sector, a strategic segment where sovereignty requirements are sharpening.",
+                "de": "Am 10. September 2026 kündigten OpenAI und die GSA an, den KI-Zugang für US-Behörden auf Bundes-, Staats-, Lokal- und Stammesebene auszuweiten: <a href=\"https://openai.com/index/expanding-ai-access-us-government\">0 Dollar Lizenzgebühren</a>, 50 Prozent Rabatt auf die Nutzung und verstärkte Unterstützung in Cyberabwehr. Die Vereinbarung festigt OpenAIs Stellung auf dem Markt der öffentlichen Hand – ein strategisches Segment mit zunehmend verschärften Souveränitätsanforderungen.",
+                "it": "Il 10 settembre 2026, OpenAI e la GSA hanno annunciato l'ampliamento dell'accesso all'IA per le amministrazioni federali, statali, locali e tribali statunitensi: <a href=\"https://openai.com/index/expanding-ai-access-us-government\">0 dollari di costi di licenza</a>, 50% di riduzione sull'uso e un supporto rafforzato in cyberdifesa. L'accordo consolida la posizione di OpenAI sul mercato pubblico, segmento strategico dove le esigenze di sovranità si acuiscono.",
+                "lmo": "El 10 de setember 2026, OpenAI e la GSA hinn anunziaa de slargà l'acess a l'IA per i aministrazion federai, di Stat, locai e tribai american: <a href=\"https://openai.com/index/expanding-ai-access-us-government\">0 dollar de tass de licensa</a>, 50 % de riduzion sora l'us e on suppòrt renforzaa in ciberoeuvre de difesa. L'acord el consolida la posizion de OpenAI sora el mercaa publegh, segment strategich indoa i esigenz de sovranità se slarghen."
+              },
+              "kicker": {
+                "fr": "Marché public",
+                "en": "Public sector",
+                "de": "Öffentlicher Markt",
+                "it": "Mercato pubblico",
+                "lmo": "Mercaa publegh"
+              },
+              "urls": [
+                "https://openai.com/index/expanding-ai-access-us-government"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Écosystème",
+            "en": "Ecosystem",
+            "de": "Ökosystem",
+            "it": "Ecosistema",
+            "lmo": "Ecosistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gradio Workflow reconstruit AUTOMATIC1111 en composants",
+                "en": "Gradio Workflow rebuilds AUTOMATIC1111 as components",
+                "de": "Gradio Workflow: AUTOMATIC1111 als Komponenten neu gebaut",
+                "it": "Gradio Workflow ricostruisce AUTOMATIC1111 in componenti",
+                "lmo": "Gradio Workflow el recostruess AUTOMATIC1111 in component"
+              },
+              "body": {
+                "fr": "Un classique du web débarque sur le blog Hugging Face : la refonte d'AUTOMATIC1111 en <a href=\"https://huggingface.co/blog/gradio-workflow-1111\">Gradio Workflow</a>, publiée le 10 septembre 2026. Le projet montre la migration d'une interface historique de génération d'images vers des composants modulaires et composables, illustrant la mue des interfaces d'IA générative vers des environnements de type node-based.",
+                "en": "A web classic lands on the Hugging Face blog: the rebuild of AUTOMATIC1111 in <a href=\"https://huggingface.co/blog/gradio-workflow-1111\">Gradio Workflow</a>, published on 10 September 2026. The project shows the migration of a historic image-generation interface to modular, composable components, illustrating the evolution of generative AI interfaces toward node-based environments.",
+                "de": "Ein Klassiker des Webs landet auf dem Hugging-Face-Blog: das Rebuild von AUTOMATIC1111 als <a href=\"https://huggingface.co/blog/gradio-workflow-1111\">Gradio Workflow</a>, veröffentlicht am 10. September 2026. Das Projekt zeigt die Migration einer historischen Bildgenerierungs-Oberfläche hin zu modularen, komponierbaren Komponenten – ein Beleg für den Wandel generativer KI-Interfaces hin zu node-basierten Umgebungen.",
+                "it": "Un classico del web approda sul blog di Hugging Face: la rifondazione di AUTOMATIC1111 in <a href=\"https://huggingface.co/blog/gradio-workflow-1111\">Gradio Workflow</a>, pubblicata il 10 settembre 2026. Il progetto mostra la migrazione di un'interfaccia storica di generazione di immagini verso componenti modulari e componibili, illustrando la trasformazione delle interfacce di IA generativa verso ambienti di tipo node-based.",
+                "lmo": "On classegh del web el riva sora el blog de Hugging Face: la refœuda de AUTOMATIC1111 in <a href=\"https://huggingface.co/blog/gradio-workflow-1111\">Gradio Workflow</a>, publicada el 10 de setember 2026. El progett el mostra la migrazion de vna interfass storega de generazion de imagin vers component moduii e componibii, illusstrand la mœuva di interfass de IA generativa vers ambient de tipo node-based."
+              },
+              "kicker": {
+                "fr": "Outils",
+                "en": "Tools",
+                "de": "Tools",
+                "it": "Strumenti",
+                "lmo": "Strument"
+              },
+              "urls": [
+                "https://huggingface.co/blog/gradio-workflow-1111"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Das Technische Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnigh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais, API & Outils",
+            "en": "Harnesses, APIs & Tools",
+            "de": "Harness, API & Tools",
+            "it": "Harness, API & Strumenti",
+            "lmo": "Harnais, API & Strument"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'agent Data arrive dans ChatGPT Work et Codex via un plugin",
+                "en": "The Data agent arrives in ChatGPT Work and Codex via a plugin",
+                "de": "Der Data-Agent kommt via Plugin in ChatGPT Work und Codex",
+                "it": "L'agente Data arriva in ChatGPT Work e Codex tramite un plugin",
+                "lmo": "L'agent Data el riva in ChatGPT Work e Codex via plugin"
+              },
+              "body": {
+                "fr": "Le 10 septembre 2026, OpenAI a détaillé le plugin Data dans ChatGPT Work et Codex, qui permet d'analyser des données métier connectées et de construire des tableaux de bord interactifs. Les <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">notes de version</a> précisent le mode d'emploi : installer Data depuis le répertoire de plugins, démarrer avec @Data, les requêtes respectant les permissions du compte connecté. Box, Dropbox et SharePoint rejoignent par ailleurs la bibliothèque de sources.",
+                "en": "On 10 September 2026, OpenAI detailed the Data plugin in ChatGPT Work and Codex, which analyses connected business data and builds interactive dashboards. The <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">release notes</a> explain how: install Data from the plugin directory, start with @Data, with queries respecting the connected account's permissions. Box, Dropbox and SharePoint also join the source library.",
+                "de": "Am 10. September 2026 hat OpenAI das Data-Plugin in ChatGPT Work und Codex vorgestellt, das die Analyse angebundener Geschäftsdaten und den Bau interaktiver Dashboards erlaubt. Die <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">Release Notes</a> präzisieren das Vorgehen: Data aus dem Plugin-Verzeichnis installieren, mit @Data starten; die Abfragen respektieren die Berechtigungen des verbundenen Kontos. Box, Dropbox und SharePoint erweitern zudem die Quellenbibliothek.",
+                "it": "Il 10 settembre 2026, OpenAI ha dettagliato il plugin Data in ChatGPT Work e Codex, che permette di analizzare dati aziendali connessi e di costruire dashboard interattive. Le <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">note di versione</a> precisano la modalità d'uso: installare Data dalla directory dei plugin, iniziare con @Data, con le richieste che rispettano i permessi dell'account connesso. Box, Dropbox e SharePoint si aggiungono inoltre alla biblioteca delle sorgenti.",
+                "lmo": "El 10 de setember 2026, OpenAI l'ha descingiaa el plugin Data in ChatGPT Work e Codex, che 'l permet de analizzà dati de mestee conligaa e de costruì dashboard interattiv. I <a href=\"https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">not de version</a> i precisa el moda de doperà: instalà Data dal repertori di plugin, partì con @Data, i dimand rispeten i permission del contest conligaa. Box, Dropbox e SharePoint i riven anca lor in de la biblioteca di sorgent."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://r.jina.ai/https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+                "https://openai.com/index/put-data-to-work"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenCode + Ollama + sbx : le harnais local documenté pas à pas",
+                "en": "OpenCode + Ollama + sbx: the local harness, documented step by step",
+                "de": "OpenCode + Ollama + sbx: das lokale Harness Schritt für Schritt dokumentiert",
+                "it": "OpenCode + Ollama + sbx: l'harness locale documentato passo per passo",
+                "lmo": "OpenCode + Ollama + sbx: l'harnais local documentaa pass a pass"
+              },
+              "body": {
+                "fr": "Un tutoriel paru sur la front page de Hacker News le 11 septembre 2026 détaille la mise en place d'OpenCode avec Ollama et sbx sur Mac, une <a href=\"https://tensorsandtokens.com/posts/opencode-ollama/\">configuration</a> qui combine un harnais open source, un moteur local et un bac à sable. La même journée, une <a href=\"https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74\">comparaison de neuf harnais de code</a> sur un même ordinateur portable circulait également — signe que la question du choix d'harnais reste ouverte.",
+                "en": "A tutorial that hit the Hacker News front page on 11 September 2026 details setting up OpenCode with Ollama and sbx on Mac, a <a href=\"https://tensorsandtokens.com/posts/opencode-ollama/\">configuration</a> combining an open-source harness, a local engine and a sandbox. The same day, a <a href=\"https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74\">comparison of nine coding harnesses</a> on a single laptop was also making the rounds — a sign that the harness question remains open.",
+                "de": "Ein Tutorial auf der Hacker-News-Frontpage vom 11. September 2026 beschreibt Schritt für Schritt das Aufsetzen von OpenCode mit Ollama und sbx auf dem Mac – eine <a href=\"https://tensorsandtokens.com/posts/opencode-ollama/\">Konfiguration</a>, die ein quelloffenes Harness, eine lokale Engine und eine Sandbox kombiniert. Am selben Tag kursierte zudem ein <a href=\"https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74\">Vergleich von neun Code-Harnesses</a> auf demselben Laptop – ein Zeichen dafür, dass die Frage der Harness-Wahl offen bleibt.",
+                "it": "Un tutorial apparso in front page su Hacker News l'11 settembre 2026 dettaglia l'installazione di OpenCode con Ollama e sbx su Mac, una <a href=\"https://tensorsandtokens.com/posts/opencode-ollama/\">configurazione</a> che combina un harness open source, un motore locale e una sandbox. Lo stesso giorno, circolava anche un <a href=\"https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74\">confronto di nove harness di codice</a> sullo stesso computer portatile — segno che la questione della scelta dell'harness resta aperta.",
+                "lmo": "On tutorial publicaa in su la front page de Hacker News el 11 de setember 2026 el descingia la messa in pè de OpenCode con Ollama e sbx in su Mac, vna <a href=\"https://tensorsandtokens.com/posts/opencode-ollama/\">configurazion</a> che la combina on harnais open source, on motor local e on bac a la sabia. La midemma giornada, ona <a href=\"https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74\">confront de noeuv harnais de codes</a> sora l'istess computer portabil la circulava anca — segn che la question de la scerna de l'harnais la resta dervida."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harness",
+                "it": "Harness",
+                "lmo": "Harnais"
+              },
+              "urls": [
+                "https://tensorsandtokens.com/posts/opencode-ollama/",
+                "https://nasutton.notion.site/Nine-coding-harnesses-vs-your-laptop-3d139990182b80d59fa3cf500f0450ba?pvs=74"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude dans la chaîne d'investissement de T. Rowe Price",
+                "en": "Claude in T. Rowe Price's investment pipeline",
+                "de": "Claude in der Anlagekette von T. Rowe Price",
+                "it": "Claude nella catena d'investimento di T. Rowe Price",
+                "lmo": "Claude in de la cadena de investiment de T. Rowe Price"
+              },
+              "body": {
+                "fr": "T. Rowe Price élargit son usage de Claude dans son processus d'investissement, <a href=\"https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process\">raconte</a> le 10 septembre 2026 le blog Anthropic. La même journée, une <a href=\"https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai\">enquête</a> auprès de 1 000 dirigeants de PME dessine les usages réels de l'IA en petite entreprise — deux signaux du glissement de Claude vers la finance et la longue traîne.",
+                "en": "T. Rowe Price is expanding its use of Claude across its investment process, the <a href=\"https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process\">Anthropic blog</a> reports on 10 September 2026. The same day, a <a href=\"https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai\">survey</a> of 1,000 small-business owners sketches real-world AI use in small business — two signals of Claude's drift toward finance and the long tail.",
+                "de": "T. Rowe Price weitet den Einsatz von Claude in seinem Anlageprozess aus, <a href=\"https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process\">berichtet</a> am 10. September 2026 der Anthropic-Blog. Am selben Tag zeichnet eine <a href=\"https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai\">Umfrage</a> unter 1000 KMU-Geschäftsführern die realen KI-Nutzungen in kleinen Unternehmen – zwei Signale der Verschiebung von Claude Richtung Finanzbranche und Long Tail.",
+                "it": "T. Rowe Price amplia l'uso di Claude nel proprio processo d'investimento, <a href=\"https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process\">racconta</a> il 10 settembre 2026 il blog di Anthropic. Lo stesso giorno, un'<a href=\"https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai\">indagine</a> su 1.000 dirigenti di PMI delinea gli usi reali dell'IA nelle piccole imprese — due segnali dello spostamento di Claude verso la finanza e la lunga coda.",
+                "lmo": "T. Rowe Price el slarga el sò us de Claude in del sò process de investiment, 'me 'l <a href=\"https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process\">cunta su</a> el 10 de setember 2026 el blog de Anthropic. La midemma giornada, ona <a href=\"https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai\">inchiesta</a> arent a 1 000 dirigent de PME la disegna i us reai de l'IA in di piscinitt impres — dò segnai del slenguasc de Claude vers la finanza e la longa coa."
+              },
+              "kicker": {
+                "fr": "Enterprise",
+                "en": "Enterprise",
+                "de": "Enterprise",
+                "it": "Enterprise",
+                "lmo": "Enterprise"
+              },
+              "urls": [
+                "https://claude.com/blog/t-rowe-price-brings-more-of-claude-to-its-investment-process",
+                "https://claude.com/blog/what-1-000-small-business-owners-taught-us-about-ai"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "NCP-ArchPreview : le plus grand modèle de langage en espace latent à ce jour",
+                "en": "NCP-ArchPreview: the largest latent-space language model to date",
+                "de": "NCP-ArchPreview: das bislang grösste Sprachmodell im latenten Raum",
+                "it": "NCP-ArchPreview: il più grande modello linguistico in spazio latente ad oggi",
+                "lmo": "NCP-ArchPreview: el pussee grand modell de lengoeu in spazzi latent fin adess"
+              },
+              "body": {
+                "fr": "Le rapport technique NCP-ArchPreview, dominant les Daily Papers du 11 septembre 2026 avec 89 votes, entraîne un modèle de langage en espace latent de 8,9 milliards de paramètres sur 5,73 trillions de tokens de Dolma-3. En consommant seulement 51,3 % des tokens d'entraînement, il atteint la perte finale de pré-entraînement d'OLMo-3-7B et le <a href=\"https://arxiv.org/abs/2609.10715\">dépasse</a> de 2,45 points en moyenne aval, dont 5,99 points sur GSM8K. L'injection de concepts latents dans un drafter DFlash2 améliore en outre de 4,17 % la longueur moyenne acceptée en décodage spéculatif.",
+                "en": "The NCP-ArchPreview technical report, topping the Daily Papers of 11 September 2026 with 89 votes, trains an 8.9-billion-parameter latent-space language model on 5.73 trillion tokens of Dolma-3. While consuming only 51.3% of the training tokens, it reaches OLMo-3-7B's final pre-training loss and <a href=\"https://arxiv.org/abs/2609.10715\">exceeds</a> it by 2.45 points on downstream average, including 5.99 points on GSM8K. Injecting latent concepts into a DFlash2 drafter further improves average accepted length in speculative decoding by 4.17%.",
+                "de": "Der technische Bericht NCP-ArchPreview, am 11. September 2026 mit 89 Stimmen an der Spitze der Daily Papers, trainiert ein Sprachmodell im latenten Raum mit 8,9 Milliarden Parametern auf 5,73 Billionen Tokens von Dolma-3. Mit nur 51,3 Prozent der Trainingstokens erreicht es den finalen Pre-Training-Loss von OLMo-3-7B und <a href=\"https://arxiv.org/abs/2609.10715\">übertrifft</a> es diesen im Durchschnitt um 2,45 Punkte Downstream, darunter 5,99 Punkte auf GSM8K. Die Injektion latenter Konzepte in einen DFlash2-Drafter erhöht zudem die mittlere akzeptierte Länge beim spekulativen Dekodieren um 4,17 Prozent.",
+                "it": "Il rapporto tecnico NCP-ArchPreview, in testa ai Daily Papers dell'11 settembre 2026 con 89 voti, addestra un modello linguistico in spazio latente di 8,9 miliardi di parametri su 5,73 trilioni di token di Dolma-3. Consumando solo il 51,3% dei token di addestramento, raggiunge la perdita finale di pre-addestramento di OLMo-3-7B e lo <a href=\"https://arxiv.org/abs/2609.10715\">supera</a> di 2,45 punti in media sulle valutazioni, di cui 5,99 punti su GSM8K. L'iniezione di concetti latenti in un drafter DFlash2 migliora inoltre del 4,17% la lunghezza media accettata nel decoding speculativo.",
+                "lmo": "El rapport tecnigh NCP-ArchPreview, che 'l domina i Daily Papers del 11 de setember 2026 cont 89 vot, el adestra on modell de lengoeu in spazzi latent de 8,9 miliard de parametter sora 5,73 trillion de token de Dolma-3. Cont el consumà domà 51,3 % di token de addestrament, el riv a la perdita finala de pre-addestrament de OLMo-3-7B e 'l <a href=\"https://arxiv.org/abs/2609.10715\">el supera</a> de 2,45 pont in media aval, intra i quai 5,99 pont in su GSM8K. L'iniezion de concett latent in d'ona drafter DFlash2 la migliora anca del 4,17 % la longhezza media acetada in decodifega speculativa."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architetura"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.10715"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "T1 de Tencent : 122 milliards de paramètres pour les agents longue durée",
+                "en": "Tencent's T1: 122 billion parameters for long-horizon agents",
+                "de": "T1 von Tencent: 122 Milliarden Parameter für langlebige Agenten",
+                "it": "T1 di Tencent: 122 miliardi di parametri per gli agenti di lunga durata",
+                "lmo": "T1 de Tencent: 122 miliard de parametter per i agent de longa durada"
+              },
+              "body": {
+                "fr": "Tencent Hunyuan publie T1, un modèle Mixture-of-Experts de 122 milliards de paramètres entraîné par renforcement pour les tâches longues en terminal réel, jusqu'à plus de 300 tours d'outils par tâche dans un sandbox cloud. Sur Terminal-Bench 2.1, le pipeline de post-entraînement <a href=\"https://arxiv.org/abs/2609.11042\">fait passer</a> le score de 43,8 % à 64,0 %, et T1 atteint 27,9 % sur le Long-Horizon Terminal Bench, devant GPT-5.4 et GLM-5.1 selon les auteurs, avec un corpus d'entraînement volontairement disjoint du benchmark.",
+                "en": "Tencent Hunyuan releases T1, a 122-billion-parameter Mixture-of-Experts model trained by reinforcement for long-horizon tasks in a real terminal, up to more than 300 tool calls per task in a cloud sandbox. On Terminal-Bench 2.1, the post-training pipeline <a href=\"https://arxiv.org/abs/2609.11042\">lifts</a> the score from 43.8% to 64.0%, and T1 reaches 27.9% on the Long-Horizon Terminal Bench, ahead of GPT-5.4 and GLM-5.1 according to the authors, with a training corpus deliberately disjoint from the benchmark.",
+                "de": "Tencent Hunyuan veröffentlicht T1, ein Mixture-of-Experts-Modell mit 122 Milliarden Parametern, per Reinforcement Learning für langlaufende Aufgaben in realen Terminals trainiert – mit bis zu über 300 Tool-Zügen pro Aufgabe in einer Cloud-Sandbox. Auf Terminal-Bench 2.1 <a href=\"https://arxiv.org/abs/2609.11042\">steigert</a> die Post-Training-Pipeline den Score von 43,8 auf 64,0 Prozent, und T1 erreicht 27,9 Prozent auf dem Long-Horizon Terminal Bench, vor GPT-5.4 und GLM-5.1 gemäss den Autoren – mit einem Trainingskorpus, der bewusst disjunkt vom Benchmark ist.",
+                "it": "Tencent Hunyuan pubblica T1, un modello Mixture-of-Experts di 122 miliardi di parametri addestrato con rinforzo per i compiti lunghi in terminale reale, fino a oltre 300 turni di strumenti per compito in una sandbox cloud. Su Terminal-Bench 2.1, la pipeline di post-addestramento <a href=\"https://arxiv.org/abs/2609.11042\">porta</a> il punteggio dal 43,8% al 64,0%, e T1 raggiunge il 27,9% sul Long-Horizon Terminal Bench, davanti a GPT-5.4 e GLM-5.1 secondo gli autori, con un corpus di addestramento volutamente disgiunto dal benchmark.",
+                "lmo": "Tencent Hunyuan el publica T1, on modell Mixture-of-Experts de 122 miliard de parametter adestraa con renforz per i lavor longh in terminal real, fin a pussee de 300 turn de strument per lavora in d'ona sandbox in del cloud. In su Terminal-Bench 2.1, la pipeline de post-addestrament la <a href=\"https://arxiv.org/abs/2609.11042\">la fa passà</a> el score del 43,8 % al 64,0 %, e T1 el riv a 27,9 % sora el Long-Horizon Terminal Bench, denanz a GPT-5.4 e GLM-5.1 segond i autor, cont on corpus de addestrament desligaa apposta del benchmark."
+              },
+              "kicker": {
+                "fr": "RL & agents",
+                "en": "RL & agents",
+                "de": "RL & Agenten",
+                "it": "RL & agenti",
+                "lmo": "RL & agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11042"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SenseNova-U1.5 : compréhension et génération visuelles dans un seul modèle 8B",
+                "en": "SenseNova-U1.5: visual understanding and generation in a single 8B model",
+                "de": "SenseNova-U1.5: visuelles Verstehen und Generieren in einem einzigen 8B-Modell",
+                "it": "SenseNova-U1.5: comprensione e generazione visive in un unico modello 8B",
+                "lmo": "SenseNova-U1.5: comprension e generazion visuaj in d'on ünich modell 8B"
+              },
+              "body": {
+                "fr": "SenseNova-U1.5 est un modèle multimodal unifié natif de 8 milliards de paramètres (8B-MoT) qui comprend, raisonne et génère des visuels sans encodeur ni VAE, jusqu'à des résolutions natives de 4K. Le rapport du 11 septembre 2026, repéré avec 49 votes sur les Daily Papers, <a href=\"https://arxiv.org/abs/2609.11929\">détaille</a> une distillation multi-experts on-policy pour l'esthétique visuelle, le rendu de texte bilingue et l'édition multi-référence, avec promesse d'open-sourcer le code d'entraînement.",
+                "en": "SenseNova-U1.5 is a natively unified 8-billion-parameter multimodal model (8B-MoT) that understands, reasons over and generates visuals without an encoder or VAE, up to native 4K resolutions. The 11 September 2026 report, spotted with 49 votes on the Daily Papers, <a href=\"https://arxiv.org/abs/2609.11929\">details</a> multi-expert on-policy distillation for visual aesthetics, bilingual text rendering and multi-reference editing, with a promise to open-source the training code.",
+                "de": "SenseNova-U1.5 ist ein nativ vereinheitlichtes multimodales Modell mit 8 Milliarden Parametern (8B-MoT), das visuelle Inhalte versteht, darüber nachdenkt und generiert – ohne Encoder oder VAE, bis zu nativen 4K-Auflösungen. Der Bericht vom 11. September 2026, mit 49 Stimmen auf den Daily Papers notiert, <a href=\"https://arxiv.org/abs/2609.11929\">beschreibt</a> eine Multi-Experten-On-Policy-Destillation für visuelle Ästhetik, zweisprachiges Textrendering und Multi-Referenz-Bearbeitung – mit dem Versprechen, den Trainingscode zu open-sourcen.",
+                "it": "SenseNova-U1.5 è un modello multimodale unificato nativo di 8 miliardi di parametri (8B-MoT) che comprende, ragiona e genera contenuti visivi senza encoder né VAE, fino a risoluzioni native 4K. Il rapporto dell'11 settembre 2026, segnalato con 49 voti sui Daily Papers, <a href=\"https://arxiv.org/abs/2609.11929\">dettaglia</a> una distillazione multi-esperti on-policy per l'estetica visiva, il rendering di testo bilingue e l'editing multi-riferimento, con promessa di aprire il codice di addestramento.",
+                "lmo": "SenseNova-U1.5 l'è on modell multimodal ünificaa nativ de 8 miliard de parametter (8B-MoT) che 'l capiss, el resona e 'l genera visuaj sensa encoder né VAE, fin a resoluzion nativ de 4K. El rapport del 11 de setember 2026, vist cont 49 vot in su i Daily Papers, el <a href=\"https://arxiv.org/abs/2609.11929\">el descingia</a> vna distillazion multi-espert on-policy per l'estetega visual, el rendering de test bilingh e la moda multi-referenz, cont la promessa de dervì el codes de addestrament."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11929"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Nemotron : la recette ouverte d'une médaille d'or à l'IMO 2026",
+                "en": "Nemotron: the open recipe for an IMO 2026 gold medal",
+                "de": "Nemotron: das offene Rezept für eine IMO-Goldmedaille 2026",
+                "it": "Nemotron: la ricetta aperta di una medaglia d'oro all'IMO 2026",
+                "lmo": "Nemotron: la recetta dervida de vna medaja d'or a l'IMO 2026"
+              },
+              "body": {
+                "fr": "NVIDIA publie la recette complète — checkpoints, données, code d'entraînement et d'inférence — d'un pipeline entièrement en langage naturel qui a marqué 30 points sur 42 à l'IMO 2026, seuil de la médaille d'or, sans prover formel ni accès internet. Partant de Nemotron 3 Ultra, deux checkpoints spécialisés (SFT puis RL) alimentent une recherche itérative générant, vérifiant et raffinant des preuves, <a href=\"https://arxiv.org/abs/2609.10712\">accompagnée</a> d'un benchmark inédit de 200 problèmes olympiques.",
+                "en": "NVIDIA publishes the complete recipe — checkpoints, data, training and inference code — for an all-natural-language pipeline that scored 30 points out of 42 at IMO 2026, the gold-medal threshold, without formal provers or internet access. Starting from Nemotron 3 Ultra, two specialised checkpoints (SFT then RL) power an iterative search that generates, verifies and refines proofs, <a href=\"https://arxiv.org/abs/2609.10712\">accompanied</a> by a new benchmark of 200 olympiad problems.",
+                "de": "NVIDIA veröffentlicht das vollständige Rezept – Checkpoints, Daten, Trainings- und Inferenzcode – einer komplett in natürlicher Sprache arbeitenden Pipeline, die an der IMO 2026 30 von 42 Punkten erreichte, der Schwelle für eine Goldmedaille, ganz ohne formale Prover und Internetzugang. Ausgehend von Nemotron 3 Ultra speisen zwei spezialisierte Checkpoints (SFT dann RL) eine iterative Suche, die Beweise generiert, verifiziert und verfeinert – <a href=\"https://arxiv.org/abs/2609.10712\">begleitet</a> von einem neuen Benchmark mit 200 Olympiadeproblemen.",
+                "it": "NVIDIA pubblica la ricetta completa — checkpoint, dati, codice di addestramento e d'inferenza — di una pipeline interamente in linguaggio naturale che ha totalizzato 30 punti su 42 all'IMO 2026, soglia della medaglia d'oro, senza prover formale né accesso a internet. Partendo da Nemotron 3 Ultra, due checkpoint specializzati (SFT poi RL) alimentano una ricerca iterativa che genera, verifica e raffina dimostrazioni, <a href=\"https://arxiv.org/abs/2609.10712\">accompagnata</a> da un benchmark inedito di 200 problemi olimpici.",
+                "lmo": "NVIDIA el pubblica la recetta completa — checkpoint, dati, codes de addestrament e de inferenza — de vna pipeline tutta in lengoeu natural che l'ha segnaa 30 pont sora 42 a l'IMO 2026, sogia de la medaja d'or, senza prover formal né acess a internet. Partend de Nemotron 3 Ultra, dò checkpoint specializzaa (SFT poeu RL) i alimenta ona ricerca iterativa che la genera, la verifica e la raffina di prov, <a href=\"https://arxiv.org/abs/2609.10712\">acompagnada</a> de on benchmark noeuv de 200 problema olimpich."
+              },
+              "kicker": {
+                "fr": "Mathématiques",
+                "en": "Mathematics",
+                "de": "Mathematik",
+                "it": "Matematica",
+                "lmo": "Matematiga"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.10712"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Aussi noté",
+            "en": "Also Noted",
+            "de": "Ebenfalls notiert",
+            "it": "Segnalati anche",
+            "lmo": "Ancmò notaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "EvoSafeHarness : des harnais de sécurité générés par recherche",
+                "en": "EvoSafeHarness: safety harnesses generated by search",
+                "de": "EvoSafeHarness: Sicherheits-Harnesses, per Suche generiert",
+                "it": "EvoSafeHarness: harness di sicurezza generati tramite ricerca",
+                "lmo": "EvoSafeHarness: harnais de sicurezza generacc con la ricerca"
+              },
+              "body": {
+                "fr": "EvoSafeHarness (Johns Hopkins) synthétise automatiquement un harnais de sécurité déployable pour un modèle figé et un domaine cible, en cherchant conjointement une politique en langage naturel et de la logique exécutable. Sur DecodingTrust-Agent, elle <a href=\"https://arxiv.org/abs/2609.05903\">réduit</a> le taux de succès d'attaque de 45,6 % à 10,0 % pour 3,3 points d'utilité perdus, et sur AgentDojo atteint 82,8 % d'utilité à 0 % d'ASR — le double de CaMeL au même point de fonctionnement.",
+                "en": "EvoSafeHarness (Johns Hopkins) automatically synthesises a deployable safety harness for a frozen model and target domain, jointly searching for a natural-language policy and executable logic. On DecodingTrust-Agent, it <a href=\"https://arxiv.org/abs/2609.05903\">reduces</a> the attack success rate from 45.6% to 10.0% for 3.3 points of lost utility, and on AgentDojo reaches 82.8% utility at 0% ASR — twice that of CaMeL at the same operating point.",
+                "de": "EvoSafeHarness (Johns Hopkins) synthetisiert automatisch ein einsetzbares Sicherheits-Harness für ein eingefrorenes Modell und eine Ziel-Domain, indem eine Politik in natürlicher Sprache gemeinsam mit ausführbarer Logik gesucht wird. Auf DecodingTrust-Agent <a href=\"https://arxiv.org/abs/2609.05903\">senkt</a> es die Erfolgsquote von Angriffen von 45,6 auf 10,0 Prozent bei 3,3 Punkten verlorener Nützlichkeit, und auf AgentDojo erreicht es 82,8 Prozent Nützlichkeit bei 0 Prozent ASR – doppelt so viel wie CaMeL im selben Betriebspunkt.",
+                "it": "EvoSafeHarness (Johns Hopkins) sintetizza automaticamente un harness di sicurezza distribuibile per un modello congelato e un dominio target, cercando congiuntamente una politica in linguaggio naturale e logica eseguibile. Su DecodingTrust-Agent, <a href=\"https://arxiv.org/abs/2609.05903\">riduce</a> il tasso di successo d'attacco dal 45,6% al 10,0% con 3,3 punti di utilità persi, e su AgentDojo raggiunge l'82,8% di utilità con 0% di ASR — il doppio di CaMeL allo stesso punto operativo.",
+                "lmo": "EvoSafeHarness (Johns Hopkins) el sintetizza automaticament on harnais de sicurezza desplegabil per on modell fisgaa e on domini target, cercand insema ona politega in lengoeu natural e de la logega eseguibil. In su DecodingTrust-Agent, la <a href=\"https://arxiv.org/abs/2609.05903\">la redœus</a> el tas de success de atach del 45,6 % al 10,0 % per 3,3 pont de utilità perduda, e in su AgentDojo la riv a 82,8 % de utilità a 0 % de ASR — el doppel de CaMeL al midemm pont de funzionament."
+              },
+              "kicker": {
+                "fr": "Sûreté",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.05903"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SpatialBlock : apprendre l'espace aux LVLMs avec 15 000 blocs",
+                "en": "SpatialBlock: teaching space to LVLMs with 15,000 blocks",
+                "de": "SpatialBlock: LVLMs den Raum beibringen – mit 15'000 Blöcken",
+                "it": "SpatialBlock: insegnare lo spazio ai LVLM con 15.000 blocchi",
+                "lmo": "SpatialBlock: insegnàgh el spazzi ai LVLM cont 15 000 bloch"
+              },
+              "body": {
+                "fr": "KAIST publie SpatialBlock-15k, un jeu synthétique de 15 000 problèmes d'empilement de blocs couvrant la projection 3D-vers-2D, la transformation de point de vue et la composition structurelle. Les LVLMs entraînés dessus <a href=\"https://arxiv.org/abs/2609.07064\">surpassent</a> significativement les baselines et généralisent aux tâches spatiales du monde réel, malgré la nature synthétique et compacte du jeu de données — un clin d'œil au développement cognitif enfantin par le jeu de construction.",
+                "en": "KAIST publishes SpatialBlock-15k, a synthetic set of 15,000 block-stacking problems covering 3D-to-2D projection, viewpoint transformation and structural composition. LVLMs trained on it <a href=\"https://arxiv.org/abs/2609.07064\">significantly outperform</a> baselines and generalise to real-world spatial tasks, despite the synthetic, compact nature of the dataset — a nod to children's cognitive development through block play.",
+                "de": "KAIST veröffentlicht SpatialBlock-15k, ein synthetischer Satz von 15'000 Block-Stapel-Problemen, der die 3D-zu-2D-Projektion, Sichttransformation und strukturelle Komposition abdeckt. Die darauf trainierten LVLMs <a href=\"https://arxiv.org/abs/2609.07064\">übertrafen</a> die Baselines deutlich und verallgemeinern auf räumliche Aufgaben aus der realen Welt – trotz der synthetischen und kompakten Natur des Datensatzes, ein Augenzwinkern zur kognitiven Entwicklung von Kindern mittels Bauklötzen.",
+                "it": "KAIST pubblica SpatialBlock-15k, un insieme sintetico di 15.000 problemi di impilamento di blocchi che copre la proiezione 3D-verso-2D, la trasformazione del punto di vista e la composizione strutturale. I LVLM addestrati su di esso <a href=\"https://arxiv.org/abs/2609.07064\">superano</a> significativamente le baseline e generalizzano ai compiti spaziali del mondo reale, nonostante la natura sintetica e compatta del dataset — un richiamo allo sviluppo cognitivo infantile attraverso il gioco di costruzione.",
+                "lmo": "KAIST el pubblica SpatialBlock-15k, on gioeugh sintetigh de 15 000 problema de impilament de bloch che 'l quatta la proiezion 3D-vers-2D, la trasformazion de pont de vista e la composizion struturala. I LVLM adestraa sora de lu i <a href=\"https://arxiv.org/abs/2609.07064\">i superen</a> in manera significativa i baseline e i generalizzen ai lavor spaziai del mond real, malgraa la natura sintetiga e compatta del dataset — on sbisser al desvilup cognitiv di bagaj con el gioeugh de costruzion."
+              },
+              "kicker": {
+                "fr": "Spatial",
+                "en": "Spatial",
+                "de": "Räumlich",
+                "it": "Spaziale",
+                "lmo": "Spazial"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.07064"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editòri"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communauté",
+            "en": "Community Signals",
+            "de": "Community-Signale",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "YuE2 : la musique frontière par planification symbolique",
+                "en": "YuE2: frontier music via symbolic planning",
+                "de": "YuE2: Frontier-Musik durch symbolische Planung",
+                "it": "YuE2: la musica di frontiera tramite pianificazione simbolica",
+                "lmo": "YuE2: la musega de frontiera con pianificazion simbolega"
+              },
+              "body": {
+                "fr": "YuE2, un modèle de génération musicale à planification symbolique, a atteint la front page de Hacker News le 11 septembre 2026 avec 69 points et 60 commentaires. La <a href=\"https://map-yue2.github.io/\">page projet</a> revendique une génération frontière avec structure musicale explicite plutôt que continuation acoustique aveugle — une approche symbolique qui tranche avec les générateurs audio purs.",
+                "en": "YuE2, a symbolic-planning music generation model, reached the Hacker News front page on 11 September 2026 with 69 points and 60 comments. The <a href=\"https://map-yue2.github.io/\">project page</a> claims frontier-grade generation with explicit musical structure rather than blind acoustic continuation — a symbolic approach that cuts against pure audio generators.",
+                "de": "YuE2, ein Musikgenerierungsmodell mit symbolischer Planung, erreichte am 11. September 2026 mit 69 Punkten und 60 Kommentaren die Hacker-News-Frontpage. Die <a href=\"https://map-yue2.github.io/\">Projektseite</a> beansprucht Frontier-Generierung mit expliziter musikalischer Struktur statt blinder akustischer Fortsetzung – ein symbolischer Ansatz, der sich von reinen Audiogeneratoren abhebt.",
+                "it": "YuE2, un modello di generazione musicale a pianificazione simbolica, ha raggiunto la front page di Hacker News l'11 settembre 2026 con 69 punti e 60 commenti. La <a href=\"https://map-yue2.github.io/\">pagina del progetto</a> rivendica una generazione al livello della frontiera con struttura musicale esplicita anziché una continuazione acustica cieca — un approccio simbolico che si distacca dai generatori audio puri.",
+                "lmo": "YuE2, on modell de generazion musegal a pianificazion simbolega, l'ha rivaa la front page de Hacker News el 11 de setember 2026 cont 69 pont e 60 coment. La <a href=\"https://map-yue2.github.io/\">pagina del progett</a> la revendega vna generazion de frontiera con strutura musegala espligita pussee che ona continuazion acostiga orba — on'apros simbolega che la talia cont i generator audio pür."
+              },
+              "kicker": {
+                "fr": "Génération",
+                "en": "Generation",
+                "de": "Generierung",
+                "it": "Generazione",
+                "lmo": "Generazion"
+              },
+              "urls": [
+                "https://map-yue2.github.io/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Search s'invite dans la préparation des courses à pied",
+                "en": "Search makes its way into running-race preparation",
+                "de": "Search mischt sich ein bei der Vorbereitung von Laufrennen",
+                "it": "Search si affaccia nella preparazione delle gare di corsa",
+                "lmo": "Search el se invita in de la preparazion di cors a pee"
+              },
+              "body": {
+                "fr": "Google met en avant trois façons de préparer une course avec Search, <a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">publiées</a> le 10 septembre 2026 : alertes d'inscription, plans d'entraînement personnalisés et conseils au jour le jour. Anecdotique en apparence, la note illustre l'extension continue des fonctionnalités IA du Search vers des cas d'usage très quotidiens, sans annonce de modèle.",
+                "en": "Google highlights three ways to prepare for a race with Search, <a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">published</a> on 10 September 2026: registration alerts, personalised training plans and day-to-day advice. Seemingly anecdotal, the note illustrates the steady extension of Search's AI features into highly everyday use cases, with no model announcement.",
+                "de": "Google hebt drei Wege hervor, mit Search ein Rennen vorzubereiten, <a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">veröffentlicht</a> am 10. September 2026: Anmelde-Alerts, personalisierte Trainingspläne und Ratschläge von Tag zu Tag. Anekdotisch anmutend, illustriert die Notiz die fortlaufende Ausweitung der KI-Funktionen von Search in alltägliche Anwendungsfälle – ganz ohne Modellankündigung.",
+                "it": "Google mette in evidenza tre modi di preparare una gara di corsa con Search, <a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">pubblicati</a> il 10 settembre 2026: avvisi d'iscrizione, piani di allenamento personalizzati e consigli giorno per giorno. Aneddotica in apparenza, la nota illustra la continua estensione delle funzionalità IA di Search verso casi d'uso molto quotidiani, senza alcun annuncio di modello.",
+                "lmo": "Google el met in volta trii maner de preparà ona corsa con Search, <a href=\"https://blog.google/products-and-platforms/products/search/running-race-training-tips/\">publicaa</a> el 10 de setember 2026: alert de iscrizion, pian de addestrament personnai e consili al dì. Aneddotiga a la prima vista, la nota la illusstra l'estension continova di funzionalità IA del Search vers cas d'us propi de tucc i dì, senza anunzi de modell."
+              },
+              "kicker": {
+                "fr": "Google",
+                "en": "Google",
+                "de": "Google",
+                "it": "Google",
+                "lmo": "Google"
+              },
+              "urls": [
+                "https://blog.google/products-and-platforms/products/search/running-race-training-tips/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editòri"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — Quand le harnais devient le produit",
+                "en": "Editorial — When the harness becomes the product",
+                "de": "Leitartikel — Wenn das Harness zum Produkt wird",
+                "it": "Editoriale — Quando l'harness diventa il prodotto",
+                "lmo": "Editòri — Quand che l'harnais el deventa el prodott"
+              },
+              "body": {
+                "fr": "Deux annonces du 10 septembre 2026 racontent, chacune à sa manière, la même histoire. Chez OpenAI, l'Agents API transforme le harnais de Codex — l'outil qui enveloppait le modèle — en service managé facturé et hébergé. Chez Cohere, le deep dive sur le moteur de serving à megakernels montre l'autre versant : pousser le matériel jusqu'à <a href=\"https://cohere.com/blog/megakernels\">1,58 fois plus vite</a> sur H100. La couche d'infrastructure, longtemps invisible entre le modèle et l'utilisateur, devient le théâtre principal de la concurrence. Les laboratoires frontière l'avaient pressenti avec les sandboxes et les tunnels MCP ; ils l'écrivent désormais dans leurs <a href=\"https://openai.com/index/introducing-the-agents-api\">changelogs</a>. Pour les équipes, la question du jour n'est plus « quel modèle ? » mais « qui tient la session ? » — et la réponse engagera leur architecture bien plus longtemps que le choix d'uncheckpoint.",
+                "en": "Two announcements of 10 September 2026 tell the same story, each in its own way. At OpenAI, the Agents API turns the Codex harness — the tool that wrapped the model — into a billed, hosted managed service. At Cohere, the deep dive on the megakernel serving engine shows the other side: pushing the hardware to <a href=\"https://cohere.com/blog/megakernels\">1.58 times faster</a> on H100. The infrastructure layer, long invisible between the model and the user, is becoming the main theatre of competition. Frontier labs had sensed it with sandboxes and MCP tunnels; they are now writing it in their <a href=\"https://openai.com/index/introducing-the-agents-api\">changelogs</a>. For teams, the question of the day is no longer \"which model?\" but \"who holds the session?\" — and the answer will bind their architecture far longer than the choice of a checkpoint.",
+                "de": "Zwei Ankündigungen vom 10. September 2026 erzählen, jeder auf seine Weise, dieselbe Geschichte. Bei OpenAI macht die Agents API das Codex-Harness – das Werkzeug, das das Modell umhüllte – zu einem abgerechneten, gehosteten Managed Service. Bei Cohere zeigt der Deep Dive über die Megakernel-Serving-Engine die andere Seite: Hardware bis auf <a href=\"https://cohere.com/blog/megakernels\">das 1,58-Fache an Geschwindigkeit</a> auf der H100 treiben. Die Infrastrukturschicht, lange unsichtbar zwischen Modell und Nutzer, wird zur Hauptbühne des Wettbewerbs. Die Frontier-Labore hatten es mit Sandboxes und MCP-Tunneln geahnt; jetzt schreiben sie es in ihre <a href=\"https://openai.com/index/introducing-the-agents-api\">Changelogs</a>. Für Teams lautet die Frage des Tages nicht mehr «welches Modell?», sondern «wer hält die Session?» – und die Antwort wird ihre Architektur weit länger prägen als die Wahl eines Checkpoints.",
+                "it": "Due annunci del 10 settembre 2026 raccontano, ciascuno a modo suo, la stessa storia. Da OpenAI, l'Agents API trasforma l'harness di Codex — lo strumento che avvolgeva il modello — in un servizio gestito fatturato e ospitato. Da Cohere, il deep dive sul motore di serving a megakernel mostra l'altro versante: spingere l'hardware fino a <a href=\"https://cohere.com/blog/megakernels\">1,58 volte più veloce</a> su H100. Il livello d'infrastruttura, a lungo invisibile tra il modello e l'utente, diventa il teatro principale della concorrenza. I laboratori di frontiera l'avevano intuito con le sandbox e i tunnel MCP; ora lo scrivono nei propri <a href=\"https://openai.com/index/introducing-the-agents-api\">changelog</a>. Per i team, la domanda del giorno non è più «quale modello?» ma «chi tiene la sessione?» — e la risposta impegnerà la loro architettura molto più a lungo della scelta di un checkpoint.",
+                "lmo": "Dò anunzi del 10 de setember 2026 i cunten su, ognidun a la soa manera, l'istessa storia. De OpenAI, l'Agents API el trasforma el harnais de Codex — l'istrument che 'l taccava su el modell — in servizzi gestii fatturaa e ospitaa. De Cohere, el deep dive sora el motor de serving a megakernel el mostra l'oltra versant: sping el hardware fin a <a href=\"https://cohere.com/blog/megakernels\">1,58 voeult pussee svelt</a> in su H100. La layera de infrastruttura, longh temp invisibela tra el modell e l'utilisadator, la deventa el teater principal de la concurrenza. I laboratori de frontiera i l'aveven sentii rivà cont i sandbox e i tunnee MCP; ades i la scriven in di sò <a href=\"https://openai.com/index/introducing-the-agents-api\">changelog</a>. Per i squader, la question del dì l'è pu « qual modell ? » ma « chi che 'l ten la session ? » — e la risposta la impegnarà la sò architetura per on bell pee pussee longh che la scerna de on checkpoint."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editòri"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-the-agents-api",
+                "https://cohere.com/blog/megakernels"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
