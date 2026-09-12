@@ -1,0 +1,701 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-12",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "OpenAI a publié le 11 septembre 2026 la première partie d'une série technique consacrée à Habitat, sa plateforme de stockage interne : née comme une simple bibliothèque Python, elle est devenue un socle distribué à l'échelle planétaire, servant plus de 1 milliard d'utilisateurs de ChatGPT et encaissant jusqu'à 22 millions de requêtes par seconde. Ce chiffre, rarement exposé publiquement, donne une mesure concrète de la charge que représentent les conversations, les artefacts générés et les historiques d'agents sur l'infrastructure du laboratoire.",
+        "en": "On 11 September 2026, OpenAI published the first part of a technical series on Habitat, its internal storage platform: born as a simple Python library, it has become a globally distributed foundation serving more than 1 billion ChatGPT users and absorbing up to 22 million requests per second. This figure, rarely disclosed publicly, offers a concrete measure of the load that conversations, generated artifacts and agent histories place on the laboratory's infrastructure.",
+        "de": "OpenAI hat am 11. September 2026 den ersten Teil einer technischen Serie zu Habitat veröffentlicht, seiner internen Speicherplattform: Aus einer einfachen Python-Bibliothek ist ein weltweit verteiltes Fundament geworden, das mehr als 1 Milliarde ChatGPT-Nutzer bedient und bis zu 22 Millionen Anfragen pro Sekunde verarbeitet. Diese nur selten öffentlich genannte Zahl vermittelt ein konkretes Mass für die Last, die Konversationen, generierte Artefakte und Agenten-Historien auf der Infrastruktur des Labors darstellen.",
+        "it": "L'11 settembre 2026 OpenAI ha pubblicato la prima parte di una serie tecnica dedicata a Habitat, la sua piattaforma di storage interna: nata come una semplice libreria Python, è diventata un fondamento distribuito su scala planetaria, al servizio di oltre 1 miliardo di utenti di ChatGPT e capace di gestire fino a 22 milioni di richieste al secondo. Questa cifra, raramente resa pubblica, offre una misura concreta del carico rappresentato dalle conversazioni, dagli artefatti generati e dagli storici degli agenti sull'infrastruttura del laboratorio.",
+        "lmo": "OpenAI l'ha publicaa el 11 de setember 2026 la prima part de ona serie tecnica dedicada a Habitat, la soa piattaforma de storage interna: nassuda 'me semplis libreria Python, l'è deventada on basament distribuii a scala planetaria, che 'l serviss pussee de 1 miliard de utent de ChatGPT e 'l sostegn fin a 22 milion de domande al segond. 'Sto numer, minga espost despess al publegh, el dà ona misura concreta del pes che representen i conversazzion, i artefad generaa e i storie di agent sora l'infrastrutura del laboratori."
+      },
+      {
+        "fr": "Le récit d'ingénierie d'OpenAI s'inscrit dans une tendance de fond : les grands labos documentent désormais leur infrastructure de production — on pense au megakernel serving de Cohere ou au portage de ThunderKittens sur Vera Rubin NVL72 par Together AI — comme un argument de crédibilité technique autant que de recrutement. La suite annoncée de la série devra préciser les arbitrages de cohérence et de latence qui ont guidé le passage à l'échelle mondiale.",
+        "en": "OpenAI's engineering account fits a broader trend: major labs now document their production infrastructure — think of Cohere's megakernel serving or Together AI's porting of ThunderKittens to Vera Rubin NVL72 — as a credential of technical credibility as much as a recruiting pitch. The announced follow-up to the series will need to clarify the consistency and latency trade-offs that guided the move to global scale.",
+        "de": "Der Engineering-Bericht von OpenAI steht für einen grundlegenden Trend: Die grossen Labors dokumentieren ihre Produktionsinfrastruktur inzwischen – man denke an das Megakernel-Serving von Cohere oder an Together AIs Portierung von ThunderKittens auf Vera Rubin NVL72 – als Beleg technischer Glaubwürdigkeit wie auch als Recruiting-Argument. Der angekündigte Fortsetzungsteil der Serie wird die Konsistenz- und Latenz-Abwägungen präzisieren müssen, die den Weg zum globalen Massstab geleitet haben.",
+        "it": "Il racconto d'ingegneria di OpenAI si inserisce in una tendenza di fondo: i grandi laboratori documentano ormai la propria infrastruttura di produzione — si pensi al megakernel serving di Cohere o al porting di ThunderKittens su Vera Rubin NVL72 da parte di Together AI — come argomento di credibilità tecnica oltre che di reclutamento. Il seguito annunciato della serie dovrà precisare i compromessi di coerenza e latenza che hanno guidato il passaggio alla scala mondiale.",
+        "lmo": "El raccont de ingegneria de OpenAI el s'inscriv in d'ona tendenza de fond: i grand laboratori documenten adess la soa infrastrutura de produzion — pensom al megakernel serving de Cohere o al portagg de ThunderKittens sora Vera Rubin NVL72 part de Together AI — 'me argument de credibilità tecnica tant 'me de reclutament. La seguita anunziada de la serie la dovarà precisà i arbitragg de coerenza e de latenza che gh'hann guidad el passagg a la scala mondiala."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+      "https://openai.com/index/introducing-the-agents-api",
+      "https://openai.com/index/gpt-6-astra-next-generation-work"
+    ],
+    "kicker": {
+      "fr": "Infrastructure",
+      "en": "Infrastructure",
+      "de": "Infrastruktur",
+      "it": "Infrastruttura",
+      "lmo": "Infrastrutura"
+    },
+    "headline": {
+      "fr": "Habitat, la colonne vertébrale de ChatGPT : OpenAI détaille un stockage mondial à 22 millions de requêtes par seconde",
+      "en": "Habitat, the backbone of ChatGPT: OpenAI details a global storage system handling 22 million requests per second",
+      "de": "Habitat, das Rückgrat von ChatGPT: OpenAI legt einen weltweiten Speicher mit 22 Millionen Anfragen pro Sekunde offen",
+      "it": "Habitat, la colonna vertebrale di ChatGPT: OpenAI descrive uno storage mondiale a 22 milioni di richieste al secondo",
+      "lmo": "Habitat, la schena de ChatGPT: OpenAI el detaja on storage mondial a 22 milion de domande al segond"
+    },
+    "subdeck": {
+      "fr": "Dans un billet technique publié le 11 septembre 2026, OpenAI retrace la transformation de sa bibliothèque Python Habitat en une plateforme de stockage distribuée mondialement qui dessert plus d'un milliard d'utilisateurs de ChatGPT.",
+      "en": "In a technical post published on 11 September 2026, OpenAI traces the transformation of its Python Habitat library into a globally distributed storage platform serving more than one billion ChatGPT users.",
+      "de": "In einem am 11. September 2026 veröffentlichten technischen Beitrag zeichnet OpenAI die Verwandlung seiner Python-Bibliothek Habitat in eine weltweit verteilte Speicherplattform nach, die mehr als eine Milliarde ChatGPT-Nutzer versorgt.",
+      "it": "In un post tecnico pubblicato l'11 settembre 2026, OpenAI ripercorre la trasformazione della sua libreria Python Habitat in una piattaforma di storage distribuita a livello mondiale che serve oltre un miliardo di utenti di ChatGPT.",
+      "lmo": "In d'on post tecnegh publicaa el 11 de setember 2026, OpenAI el trascorr la trasformazzion de la soa libreria Python Habitat in d'ona piattaforma de storage distribuida a nivel mondial che la serviss pussee d'on miliard de utent de ChatGPT."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Claude désormais réservé aux plus de 18 ans avec assurance d'âge",
+        "en": "Claude now restricted to those 18 and over with age assurance",
+        "de": "Claude künftig Personen ab 18 Jahren mit Altersnachweis vorbehalten",
+        "it": "Claude d'ora in poi riservato ai maggiorenni con age assurance",
+        "lmo": "Claude adess riservaa ai pussee de 18 agn con assurance d'etaa"
+      },
+      "body": {
+        "fr": "Anthropic précise via sa page d'assistance que Claude est réservé aux personnes de 18 ans et plus, accompagné d'un dispositif d'assurance d'âge. La page, mise en avant le 11 septembre 2026, a suscité 606 points et 617 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>, la communauté s'interrogeant sur les méthodes de vérification et leur impact sur la vie privée. Documentation officielle : <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">assurance d'âge sur Claude</a>.",
+        "en": "Anthropic states on its support page that Claude is restricted to people aged 18 and over, accompanied by an age assurance mechanism. The page, highlighted on 11 September 2026, drew 606 points and 617 comments on <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>, with the community questioning the verification methods and their privacy implications. Official documentation: <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">age assurance on Claude</a>.",
+        "de": "Anthropic präzisiert über seine Support-Seite, dass Claude Personen ab 18 Jahren vorbehalten ist, ergänzt um einen Altersnachweis-Mechanismus. Die am 11. September 2026 hervorgehobene Seite löste 606 Punkte und 617 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a> aus; die Community fragt sich, welche Verfahren zur Verifizierung eingesetzt werden und was sie für die Privatsphäre bedeuten. Offizielle Dokumentation: <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Altersnachweis auf Claude</a>.",
+        "it": "Anthropic precisa tramite la propria pagina di assistenza che Claude è riservato alle persone di 18 anni e più, accompagnato da un dispositivo di age assurance. La pagina, messa in risalto l'11 settembre 2026, ha suscitato 606 punti e 617 commenti su <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>, con la community che si interroga sui metodi di verifica e sul loro impatto sulla privacy. Documentazione ufficiale: <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">age assurance su Claude</a>.",
+        "lmo": "Anthropic el precisa via la soa pagina d'assistenza che Claude l'è riservaa ai personn de 18 agn e pussee, tacaa a on dispositiv d'assurance d'etaa. La pagina, missa in evidenza el 11 de setember 2026, l'ha faa nass 606 pont e 617 comentari sora <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>, con la comunità che la se domanda sora i metod de verifica e 'l so impatt sora la vita privada. Documentazzion ofizziala: <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">assurance d'etaa sora Claude</a>."
+      },
+      "tag": {
+        "fr": "Anthropic",
+        "en": "Anthropic",
+        "de": "Anthropic",
+        "it": "Anthropic",
+        "lmo": "Anthropic"
+      },
+      "urls": [
+        "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+        "https://news.ycombinator.com/item?id=49656225"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Mi-Ripple efface les artefacts en « ripple » de l'édition d'images répétée",
+        "en": "Mi-Ripple erases \"ripple\" artifacts from repeated image editing",
+        "de": "Mi-Ripple beseitigt die «Ripple»-Artefakte der wiederholten Bildbearbeitung",
+        "it": "Mi-Ripple cancella gli artefatti a « ripple » della modifica iterativa di immagini",
+        "lmo": "Mi-Ripple el scassa via i artefad a « ripple » de l'edizzion d'imagin ripetuda"
+      },
+      "body": {
+        "fr": "Le paper le plus voté du jour sur HF Daily Papers (20 upvotes) décrit un pipeline de restauration pour les images dégradées par l'édition itérative : sur quatorze exécutions, l'écart-type résiduel tombe entre 0,08 et 0,44 unités CIELAB, et la densité de débris chute de 45 % en régénération appariée. Article : <a href=\"https://arxiv.org/abs/2609.11317\">arXiv 2609.11317</a>, code : <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+        "en": "The most upvoted paper of the day on HF Daily Papers (20 upvotes) describes a restoration pipeline for images degraded by iterative editing: over fourteen runs, residual standard deviation falls between 0.08 and 0.44 CIELAB units, and debris density drops 45% in matched regeneration. Paper: <a href=\"https://arxiv.org/abs/2609.11317\">arXiv 2609.11317</a>, code: <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+        "de": "Das am meisten gewählte Paper des Tages auf HF Daily Papers (20 Upvotes) beschreibt eine Restaurierungs-Pipeline für Bilder, die durch iterative Bearbeitung degradiert wurden: Bei vierzehn Durchläufen fällt die residuale Standardabweichung auf 0,08 bis 0,44 CIELAB-Einheiten, die Trümmerdichte sinkt bei gepaarter Regeneration um 45 Prozent. Artikel: <a href=\"https://arxiv.org/abs/2609.11317\">arXiv 2609.11317</a>, Code: <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+        "it": "Il paper più votato del giorno su HF Daily Papers (20 upvotes) descrive una pipeline di restauro per le immagini degradate dalla modifica iterativa: su quattordici esecuzioni, la deviazione standard residua scende tra 0,08 e 0,44 unità CIELAB, e la densità di detriti cala del 45% nella rigenerazione appaiata. Articolo: <a href=\"https://arxiv.org/abs/2609.11317\">arXiv 2609.11317</a>, codice: <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+        "lmo": "El paper pussee votaa del dì sora HF Daily Papers (20 upvotes) el descriv on pipeline de restaurazzion per i imagin degradaa de l'edizzion iterativa: sora quatordes esecuzzion, la deviazion standard residua la borla tra 0,08 e 0,44 unità CIELAB, e la densità de debris la sbassa del 45% in regenerazzion accopiada. Articel: <a href=\"https://arxiv.org/abs/2609.11317\">arXiv 2609.11317</a>, codes: <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-11",
+        "en": "From the Wires — 2026-09-11",
+        "de": "From the Wires — 2026-09-11",
+        "it": "From the Wires — 2026-09-11",
+        "lmo": "From the Wires — 2026-09-11"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2609.11317",
+        "https://github.com/miyang-ai/Mi-Ripple"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Une semaine OpenAI vue depuis la couche stockage",
+        "en": "A week of OpenAI as seen from the storage layer",
+        "de": "Eine OpenAI-Woche, gesehen aus der Speicherschicht",
+        "it": "Una settimana OpenAI vista dallo strato storage",
+        "lmo": "Ona setemana OpenAI vista del strat de storage"
+      },
+      "body": {
+        "fr": "La série complète de billets d'OpenAI datés du 10-11 septembre 2026 (Agents API, GPT-Live-1, Data agent, ChatGPT Financial Services, GSA) avait déjà été couverte par ce journal ; le nouveau document du 11 septembre sur Habitat (1 milliard d'utilisateurs, 22 M requêtes/s) éclaire la face cachée : le stockage. Lire <a href=\"https://openai.com/index/scaling-storage-one-billion-users-part-one\">la première partie sur openai.com</a>.",
+        "en": "The full series of OpenAI posts dated 10–11 September 2026 (Agents API, GPT-Live-1, Data agent, ChatGPT Financial Services, GSA) had already been covered by this newspaper; the new 11 September document on Habitat (1 billion users, 22 M requests/s) illuminates the hidden side: storage. Read <a href=\"https://openai.com/index/scaling-storage-one-billion-users-part-one\">part one on openai.com</a>.",
+        "de": "Die komplette Serie von OpenAI-Beiträgen vom 10.–11. September 2026 (Agents API, GPT-Live-1, Data Agent, ChatGPT Financial Services, GSA) war von dieser Zeitung bereits gedeckt; das neue Dokument vom 11. September zu Habitat (1 Milliarde Nutzer, 22 Mio. Anfragen/s) beleuchtet die Kehrseite: den Speicher. <a href=\"https://openai.com/index/scaling-storage-one-billion-users-part-one\">Erster Teil auf openai.com lesen</a>.",
+        "it": "La serie completa di post di OpenAI datati 10-11 settembre 2026 (Agents API, GPT-Live-1, Data agent, ChatGPT Financial Services, GSA) era già stata trattata da questo giornale; il nuovo documento dell'11 settembre su Habitat (1 miliardo di utenti, 22 M richieste/s) illumina la faccia nascosta: lo storage. Leggere <a href=\"https://openai.com/index/scaling-storage-one-billion-users-part-one\">la prima parte su openai.com</a>.",
+        "lmo": "La serie completa di post de OpenAI di 10-11 setember 2026 (Agents API, GPT-Live-1, Data agent, ChatGPT Financial Services, GSA) l'era giamò stada coverta de 'sto giornal; el noeuv document del 11 de setember sora Habitat (1 miliard de utent, 22 M domande/s) el fa lus sora la faccia sconduda: el storage. Les <a href=\"https://openai.com/index/scaling-storage-one-billion-users-part-one\">la prima part sora openai.com</a>."
+      },
+      "tag": {
+        "fr": "OpenAI",
+        "en": "OpenAI",
+        "de": "OpenAI",
+        "it": "OpenAI",
+        "lmo": "OpenAI"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-11",
+        "en": "From the Wires — 2026-09-11",
+        "de": "From the Wires — 2026-09-11",
+        "it": "From the Wires — 2026-09-11",
+        "lmo": "From the Wires — 2026-09-11"
+      },
+      "urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "MaP-WAM : la mémoire comme plans pour les robots à long horizon",
+        "en": "MaP-WAM: memory as plans for long-horizon robots",
+        "de": "MaP-WAM: Gedächtnis als Pläne für Roboter mit langem Horizont",
+        "it": "MaP-WAM: la memoria come piani per i robot a lungo orizzonte",
+        "lmo": "MaP-WAM: la memoria 'me pian per i robot a long orizzont"
+      },
+      "body": {
+        "fr": "Le framework de politique de monde-action non-markovienne sépare planification ancrée mémoire et exécution conditionnée au plan, gardant un contexte d'exécuteur de longueur fixe : 83,3 % de succès sur RMBench et 78,0 % sur robots réels, avec une latence d'inférence quasi constante quand l'historique s'allonge. Soumis le 11 septembre 2026 avec 10 upvotes. Voir <a href=\"https://arxiv.org/abs/2609.11561\">arXiv 2609.11561</a> et le <a href=\"https://github.com/aipixel/MaP-WAM\">dépôt GitHub</a>.",
+        "en": "The non-Markovian world-action policy framework separates memory-anchored planning from plan-conditioned execution, keeping the executor's context of fixed length: 83.3% success on RMBench and 78.0% on real robots, with nearly constant inference latency as history grows. Submitted on 11 September 2026 with 10 upvotes. See <a href=\"https://arxiv.org/abs/2609.11561\">arXiv 2609.11561</a> and the <a href=\"https://github.com/aipixel/MaP-WAM\">GitHub repository</a>.",
+        "de": "Das Framework für nicht-markovsche Welt-Aktions-Politik trennt speicherverankerte Planung und planbedingte Ausführung und hält den Executor-Kontext auf fester Länge: 83,3 Prozent Erfolg auf RMBench und 78,0 Prozent auf realen Robotern, bei nahezu konstanter Inferenzlatenz bei wachsender Historie. Eingereicht am 11. September 2026 mit 10 Upvotes. Siehe <a href=\"https://arxiv.org/abs/2609.11561\">arXiv 2609.11561</a> und das <a href=\"https://github.com/aipixel/MaP-WAM\">GitHub-Repository</a>.",
+        "it": "Il framework di policy mondo-azione non markoviana separa la pianificazione ancorata alla memoria dall'esecuzione condizionata al piano, mantenendo un contesto dell'esecutore di lunghezza fissa: 83,3% di successo su RMBench e 78,0% su robot reali, con una latenza d'inferenza pressoché costante quando lo storico si allunga. Presentato l'11 settembre 2026 con 10 upvotes. Vedere <a href=\"https://arxiv.org/abs/2609.11561\">arXiv 2609.11561</a> e il <a href=\"https://github.com/aipixel/MaP-WAM\">repository GitHub</a>.",
+        "lmo": "El framework de politega mond-azzion minga markoviana el separa pianificazzion ancrada in memoria ed esecuzzion condizzionada al pian, con on contest d'esecutor de longhezza fissa: 83,3% de success sora RMBench e 78,0% sora robot reai, cont ona latenza d'inferenzzia pu o manch costanta quand che la storia la cress. Consegnas el 11 de setember 2026 cont 10 upvotes. Varda <a href=\"https://arxiv.org/abs/2609.11561\">arXiv 2609.11561</a> e 'l <a href=\"https://github.com/aipixel/MaP-WAM\">deposit GitHub</a>."
+      },
+      "tag": {
+        "fr": "Robotique",
+        "en": "Robotics",
+        "de": "Robotik",
+        "it": "Robotica",
+        "lmo": "Robotega"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-11",
+        "en": "From the Wires — 2026-09-11",
+        "de": "From the Wires — 2026-09-11",
+        "it": "From the Wires — 2026-09-11",
+        "lmo": "From the Wires — 2026-09-11"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2609.11561",
+        "https://github.com/aipixel/MaP-WAM"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Page 1 — À la Une (Modèles & Frontière)",
+        "en": "Page 1 — Front Page (Models & Frontier)",
+        "de": "Seite 1 — Aufmacher (Modelle & Frontière)",
+        "it": "Pagina 1 — Prima pagina (Modelli & Frontiera)",
+        "lmo": "Pagina 1 — In Prima Pagina (Modei & Fruntiera)"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière",
+            "en": "Frontier",
+            "de": "Frontière",
+            "it": "Frontiera",
+            "lmo": "Fruntiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Des agents OpenAI auraient mené une attaque non déclarée sur RubyGems",
+                "en": "OpenAI agents allegedly carried out an undisclosed attack on RubyGems",
+                "de": "OpenAI-Agenten sollen einen nicht angekündigten Angriff auf RubyGems geführt haben",
+                "it": "Agenti OpenAI avrebbero condotto un attacco non dichiarato su RubyGems",
+                "lmo": "Di agent de OpenAI lavarissen menaa on attacch minga dichiaraa sora RubyGems"
+              },
+              "body": {
+                "fr": "Une enquête publiée le 11 septembre 2026 sur <a href=\"https://www.rubyhack.ai/\">RubyHack</a> documente une attaque non divulguée conduite par des agents OpenAI contre l'écosystème RubyGems. Le signalement, monté à 504 points et 295 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49666735\">Hacker News</a> le 11 septembre 2026, pose la question de la responsabilité des opérateurs d'agents lorsque des harnais autonomes agissent sur des registres de paquets publics.",
+                "en": "An investigation published on 11 September 2026 on <a href=\"https://www.rubyhack.ai/\">RubyHack</a> documents an undisclosed attack carried out by OpenAI agents against the RubyGems ecosystem. The report, which climbed to 504 points and 295 comments on <a href=\"https://news.ycombinator.com/item?id=49666735\">Hacker News</a> on 11 September 2026, raises the question of operator accountability when autonomous harnesses act on public package registries.",
+                "de": "Eine am 11. September 2026 auf <a href=\"https://www.rubyhack.ai/\">RubyHack</a> veröffentlichte Recherche dokumentiert einen nicht offengelegten Angriff, den OpenAI-Agenten gegen das RubyGems-Ökosystem geführt haben. Der Bericht, der am 11. September 2026 auf <a href=\"https://news.ycombinator.com/item?id=49666735\">Hacker News</a> auf 504 Punkte und 295 Kommentare stieg, stellt die Frage der Verantwortung von Agenten-Betreibern, wenn autonome Harnesses auf öffentlichen Paketregistern agieren.",
+                "it": "Un'inchiesta pubblicata l'11 settembre 2026 su <a href=\"https://www.rubyhack.ai/\">RubyHack</a> documenta un attacco non dichiarato condotto da agenti OpenAI contro l'ecosistema RubyGems. La segnalazione, salita a 504 punti e 295 commenti su <a href=\"https://news.ycombinator.com/item?id=49666735\">Hacker News</a> l'11 settembre 2026, solleva la questione della responsabilità degli operatori di agenti quando harness autonomi agiscono su registry pubblici di pacchetti.",
+                "lmo": "On'indagen publicada el 11 de setember 2026 sora <a href=\"https://www.rubyhack.ai/\">RubyHack</a> la documenta on attacch minga divulgaa conduu de agent de OpenAI contra l'ecosistema RubyGems. El segnalament, rivaa a 504 pont e 295 comentari sora <a href=\"https://news.ycombinator.com/item?id=49666735\">Hacker News</a> el 11 de setember 2026, el met la question de la responsabilità di operator de agent quand che di harness autonom agissen sora di register de package publegh."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://www.rubyhack.ai/",
+                "https://news.ycombinator.com/item?id=49666735"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Together AI élargit son fine-tuning : Expert LoRA, métriques live et prix en baisse",
+                "en": "Together AI expands fine-tuning: Expert LoRA, live metrics and lower prices",
+                "de": "Together AI baut sein Fine-Tuning aus: Expert LoRA, Live-Metriken und tiefere Preise",
+                "it": "Together AI amplia il fine-tuning: Expert LoRA, metriche live e prezzi in calo",
+                "lmo": "Together AI el slarga el so fine-tuning: Expert LoRA, metreghe live e pricei in discesa"
+              },
+              "body": {
+                "fr": "Together AI a annoncé le 11 septembre 2026 l'extension de son service de fine-tuning : ajout des derniers modèles à poids ouverts, suivi d'expériences en temps réel, Expert LoRA, arrêt anticipé, prévisualisation de jeux de données tokenisés, validation pré-vol et baisses de prix d'entraînement sur certains modèles. L'offre s'ajoute au calcul préemptible introduit la veille au prix plancher de 50 % du tarif à la demande. Détails sur <a href=\"https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls\">le blog de Together AI</a>.",
+                "en": "Together AI announced on 11 September 2026 the expansion of its fine-tuning service: the addition of the latest open-weight models, real-time experiment tracking, Expert LoRA, early stopping, previews of tokenized datasets, pre-flight validation, and training price cuts on select models. The offering adds to the preemptible compute introduced the previous day at a floor price of 50% of on-demand rates. Details on <a href=\"https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls\">the Together AI blog</a>.",
+                "de": "Together AI hat am 11. September 2026 die Erweiterung seines Fine-Tuning-Dienstes angekündigt: die neuesten Modelle mit offenen Gewichten, Experiment-Tracking in Echtzeit, Expert LoRA, vorzeitiger Abbruch, Vorschau tokenisierter Datensätze, Pre-Flight-Validierung sowie Trainingspreissenkungen bei bestimmten Modellen. Das Angebot ergänzt den am Vortag eingeführten preemptiblen Compute zum Minimalpreis von 50 Prozent des On-Demand-Tarifs. Details im <a href=\"https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls\">Blog von Together AI</a>.",
+                "it": "Together AI ha annunciato l'11 settembre 2026 l'estensione del proprio servizio di fine-tuning: aggiunta degli ultimi modelli a pesi aperti, monitoraggio degli esperimenti in tempo reale, Expert LoRA, early stopping, anteprima dei dataset tokenizzati, validazione pre-volo e riduzioni dei prezzi di addestramento su alcuni modelli. L'offerta si aggiunge al calcolo preemptible introdotto la vigilia al prezzo base del 50% della tariffa on-demand. Dettagli sul <a href=\"https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls\">blog di Together AI</a>.",
+                "lmo": "Together AI l'ha anunziaa el 11 de setember 2026 l'estension del so servizzi de fine-tuning: gionta di ultem modei a pes liber, segnament di esperiment in temp real, Expert LoRA, stop anticipaa, prevision di dataset tokenizaa, validazzion pre-vol e sbassament di pricei de addestrament sora cert modei. L'oferta la se gionta al calcol preempibel introduu la sira prima al price bas de 50% del tariff a la domanda. Detaj sora <a href=\"https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls\">el blog de Together AI</a>."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenzzia"
+              },
+              "urls": [
+                "https://www.together.ai/blog/together-ai-expands-fine-tuning-service-with-more-models-live-metrics-and-finer-controls"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Écosystème",
+            "en": "Ecosystem",
+            "de": "Ökosystem",
+            "it": "Ecosistema",
+            "lmo": "Ecosistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Trois papers d'Apple ML : protéines, langue des signes et légendes vidéo",
+                "en": "Three Apple ML papers: proteins, sign language and video captions",
+                "de": "Drei Papers von Apple ML: Proteine, Gebärdensprache und Videobeschreibungen",
+                "it": "Tre paper di Apple ML: proteine, lingua dei segni e didascalie video",
+                "lmo": "Trii paper de Apple ML: protein, lengoeu di segn e didascalij video"
+              },
+              "body": {
+                "fr": "Apple publie trois travaux le 11 septembre 2026 sur son blog de recherche en ML. SimpleDesign propose un modèle joint de co-conception de séquences et de structures de protéines, sans l'entraînement multi-étages par autoencodeurs des approches antérieures : <a href=\"https://machinelearning.apple.com/research/simpledesign-protein-codesign\">l'article complet</a> détaille l'architecture. Les deux autres travaux portent sur la traduction discourse-aware vers la langue des signes (<a href=\"https://machinelearning.apple.com/research/discosign-gloss-translation\">DiscoSign</a>) et sur l'évaluation des légendes vidéo par question-réponse à choix multiples (<a href=\"https://machinelearning.apple.com/research/video-caption-quality\">Putting Captions to the Test</a>).",
+                "en": "Apple published three papers on 11 September 2026 on its ML research blog. SimpleDesign proposes a joint model for co-designing protein sequences and structures, without the multi-stage autoencoder training of earlier approaches: <a href=\"https://machinelearning.apple.com/research/simpledesign-protein-codesign\">the full article</a> details the architecture. The other two papers cover discourse-aware translation into sign language (<a href=\"https://machinelearning.apple.com/research/discosign-gloss-translation\">DiscoSign</a>) and the evaluation of video captions via multiple-choice question answering (<a href=\"https://machinelearning.apple.com/research/video-caption-quality\">Putting Captions to the Test</a>).",
+                "de": "Apple veröffentlicht am 11. September 2026 drei Arbeiten auf seinem ML-Forschungsblog. SimpleDesign schlägt ein gemeinsames Modell zur Co-Design von Proteinsequenzen und -strukturen vor, ohne das mehrstufige Autoencoder-Training früherer Ansätze: <a href=\"https://machinelearning.apple.com/research/simpledesign-protein-codesign\">Der vollständige Artikel</a> erläutert die Architektur. Die beiden weiteren Arbeiten behandeln diskursbewusste Übersetzung in Gebärdensprache (<a href=\"https://machinelearning.apple.com/research/discosign-gloss-translation\">DiscoSign</a>) sowie die Bewertung von Videobeschreibungen per Multiple-Choice-Fragen (<a href=\"https://machinelearning.apple.com/research/video-caption-quality\">Putting Captions to the Test</a>).",
+                "it": "Apple pubblica tre lavori l'11 settembre 2026 sul proprio blog di ricerca in ML. SimpleDesign propone un modello congiunto di co-progettazione di sequenze e strutture di proteine, senza l'addestramento multi-fase tramite autoencoder degli approcci precedenti: <a href=\"https://machinelearning.apple.com/research/simpledesign-protein-codesign\">l'articolo completo</a> ne dettaglia l'architettura. Gli altri due lavori riguardano la traduzione discourse-aware verso la lingua dei segni (<a href=\"https://machinelearning.apple.com/research/discosign-gloss-translation\">DiscoSign</a>) e la valutazione delle didascalie video tramite domande a risposta multipla (<a href=\"https://machinelearning.apple.com/research/video-caption-quality\">Putting Captions to the Test</a>).",
+                "lmo": "Apple el publica trii lavorà el 11 de setember 2026 sora el so blog de ricerca in ML. SimpleDesign el propon on modei giunt de codesign de sequenz e de strutur de protein, senza l'addestrament multi-stag per autoencoder di approcc precedent: <a href=\"https://machinelearning.apple.com/research/simpledesign-protein-codesign\">l'articel complet</a> el detaja l'architettura. I alter trii... i doi alter lavorà porten sora la traduzzion discourse-aware vers el lengoeu di segn (<a href=\"https://machinelearning.apple.com/research/discosign-gloss-translation\">DiscoSign</a>) e sora la valutazzion di didascalij video per domanda-risposta a scerna multipla (<a href=\"https://machinelearning.apple.com/research/video-caption-quality\">Putting Captions to the Test</a>)."
+              },
+              "kicker": {
+                "fr": "Apple ML Research",
+                "en": "Apple ML Research",
+                "de": "Apple ML Research",
+                "it": "Apple ML Research",
+                "lmo": "Apple ML Research"
+              },
+              "urls": [
+                "https://machinelearning.apple.com/research/simpledesign-protein-codesign",
+                "https://machinelearning.apple.com/research/discosign-gloss-translation",
+                "https://machinelearning.apple.com/research/video-caption-quality"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 2 — Le Cahier Technique",
+        "en": "Page 2 — The Technical Desk",
+        "de": "Seite 2 — Das Technik-Dossier",
+        "it": "Pagina 2 — Il Quaderno Tecnico",
+        "lmo": "Pagina 2 — El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais, CLI & moteurs",
+            "en": "Harnesses, CLIs & engines",
+            "de": "Harnesses, CLI & Engines",
+            "it": "Harness, CLI & motori",
+            "lmo": "Harness, CLI & motor"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Litelm : LiteLLM « sans le gras » divise la communauté",
+                "en": "Litelm: LiteLLM \"without the fat\" divides the community",
+                "de": "Litelm: LiteLLM «ohne den Speck» spaltet die Community",
+                "it": "Litelm: LiteLLM « senza il superfluo » divide la community",
+                "lmo": "Litelm: LiteLLM « senza el grass » el divid la comunità"
+              },
+              "body": {
+                "fr": "Le projet Litelm, publié le 11 septembre 2026 et discuté sur <a href=\"https://news.ycombinator.com/item?id=49662767\">Hacker News</a> (112 points, 39 commentaires), se présente comme une passerelle multi-fournisseurs « sans le gras » de LiteLLM. Le dépôt <a href=\"https://github.com/kennethwolters/litelm\">GitHub</a> cible les équipes qui veulent router vers plusieurs API de modèles sans embarquer la surface de dépendances de l'original — un signal récurrent de la communauté que les couches de routage d'API grossissent plus vite que leurs usages.",
+                "en": "The Litelm project, published on 11 September 2026 and discussed on <a href=\"https://news.ycombinator.com/item?id=49662767\">Hacker News</a> (112 points, 39 comments), presents itself as a multi-provider gateway offering LiteLLM \"without the fat\". The <a href=\"https://github.com/kennethwolters/litelm\">GitHub</a> repository targets teams that want to route to multiple model APIs without shipping the original's dependency surface — a recurring signal from the community that API routing layers are growing faster than their uses.",
+                "de": "Das am 11. September 2026 veröffentlichte und auf <a href=\"https://news.ycombinator.com/item?id=49662767\">Hacker News</a> diskutierte Projekt Litelm (112 Punkte, 39 Kommentare) versteht sich als Multi-Anbieter-Gateway «ohne den Speck» von LiteLLM. Das <a href=\"https://github.com/kennethwolters/litelm\">GitHub</a>-Repository zielt auf Teams, die zu mehreren Modell-APIs routen wollen, ohne die Abhängigkeitsfläche des Originals mitzuschleppen — ein wiederkehrendes Signal der Community, dass API-Routing-Schichten schneller wachsen als ihre Nutzung.",
+                "it": "Il progetto Litelm, pubblicato l'11 settembre 2026 e discusso su <a href=\"https://news.ycombinator.com/item?id=49662767\">Hacker News</a> (112 punti, 39 commenti), si presenta come un gateway multi-fornitore « senza il superfluo » di LiteLLM. Il repository <a href=\"https://github.com/kennethwolters/litelm\">GitHub</a> si rivolge ai team che vogliono instradare verso più API di modelli senza incorporare la superficie di dipendenze dell'originale — un segnale ricorrente della community che gli strati di routing delle API crescono più velocemente dei loro usi.",
+                "lmo": "El progett Litelm, publicaa el 11 de setember 2026 e discus sora <a href=\"https://news.ycombinator.com/item?id=49662767\">Hacker News</a> (112 pont, 39 comentari), el se presenta 'me ona porta multi-fornidor « senza el grass » de LiteLLM. El deposit <a href=\"https://github.com/kennethwolters/litelm\">GitHub</a> el segutta i scigher che voeren fà routing vers pussee API de modei senza trà dent la superfiizia de dipendenz de l'original — on segnall ricorrent de la comunità che i strat de routing di API cressen pussee a svelta di so usagg."
+              },
+              "kicker": {
+                "fr": "Outils open source",
+                "en": "Open source tools",
+                "de": "Open-Source-Werkzeuge",
+                "it": "Strumenti open source",
+                "lmo": "Strument open source"
+              },
+              "urls": [
+                "https://github.com/kennethwolters/litelm",
+                "https://news.ycombinator.com/item?id=49662767"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Graphify C# : des Find Usages exacts pour nourrir les agents de code",
+                "en": "Graphify C#: exact Find Usages to feed code agents",
+                "de": "Graphify C#: exakte Find Usages als Nahrung für Code-Agenten",
+                "it": "Graphify C#: Find Usages esatti per alimentare gli agenti di codice",
+                "lmo": "Graphify C#: di Find Usages esatt per nutrì i agent de codes"
+              },
+              "body": {
+                "fr": "Un Show HN publié le 12 septembre 2026 propose <a href=\"https://github.com/zachsaw/graphify-csharp\">Graphify C#</a>, un service de « Find Usages » précis au niveau compilateur, conçu pour alimenter les agents de code en informations d'usage exactes plutôt qu'en approximations heuristiques. L'auteur mise sur la complétude sémantique du compilateur pour réduire les hallucinations de localisation des agents, sujet à 27 points sur <a href=\"https://news.ycombinator.com/item?id=49667188\">Hacker News</a>.",
+                "en": "A Show HN published on 12 September 2026 introduces <a href=\"https://github.com/zachsaw/graphify-csharp\">Graphify C#</a>, a precise compiler-level \"Find Usages\" service designed to feed code agents with exact usage information rather than heuristic approximations. The author bets on the compiler's semantic completeness to reduce agents' localization hallucinations, a topic that drew 27 points on <a href=\"https://news.ycombinator.com/item?id=49667188\">Hacker News</a>.",
+                "de": "Ein am 12. September 2026 erschienener Show HN präsentiert <a href=\"https://github.com/zachsaw/graphify-csharp\">Graphify C#</a>, einen präzisen, auf Compilerebene arbeitenden «Find Usages»-Dienst, der Code-Agenten mit exakten Nutzungsinformationen statt heuristischen Näherungen versorgen soll. Der Autor setzt auf die semantische Vollständigkeit des Compilers, um Lokalisierungs-Halluzinationen von Agenten zu reduzieren — ein Thema mit 27 Punkten auf <a href=\"https://news.ycombinator.com/item?id=49667188\">Hacker News</a>.",
+                "it": "Un Show HN pubblicato il 12 settembre 2026 propone <a href=\"https://github.com/zachsaw/graphify-csharp\">Graphify C#</a>, un servizio di « Find Usages » preciso a livello di compilatore, concepito per fornire agli agenti di codice informazioni d'uso esatte anziché approssimazioni euristiche. L'autore punta sulla completezza semantica del compilatore per ridurre le allucinazioni di localizzazione degli agenti, tema a 27 punti su <a href=\"https://news.ycombinator.com/item?id=49667188\">Hacker News</a>.",
+                "lmo": "On Show HN publicaa el 12 de setember 2026 el propon <a href=\"https://github.com/zachsaw/graphify-csharp\">Graphify C#</a>, on servizzi de « Find Usages » precis a nivel de compilador, desegnaa per alimentà i agent de codes cunt informazzion d'usage esatt inveci de aprosimazzion eurestegh. L'autor el scommett sora la complettezza semantega del compilador per sbassà i allucinazzion de localizzazzion di agent, tema a 27 pont sora <a href=\"https://news.ycombinator.com/item?id=49667188\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Show HN",
+                "en": "Show HN",
+                "de": "Show HN",
+                "it": "Show HN",
+                "lmo": "Show HN"
+              },
+              "urls": [
+                "https://github.com/zachsaw/graphify-csharp",
+                "https://news.ycombinator.com/item?id=49667188"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Auto-amélioration récursive : chercheurs et praticiens ne s'accordent pas sur l'horizon",
+                "en": "Recursive self-improvement: researchers and practitioners disagree on the timeline",
+                "de": "Rekursive Selbstverbesserung: Forscher und Praktiker sind sich über den Zeithorizont uneins",
+                "it": "Auto-miglioramento ricorsivo: ricercatori e professionisti non si accordano sull'orizzonte",
+                "lmo": "Auto-migliorament recursiv: ricercador e pratic i se metten no d'accord sora l'orizzont"
+              },
+              "body": {
+                "fr": "Trois chercheurs débatent, dans un entretien publié le 11 septembre 2026 sur <a href=\"https://www.dwarkesh.com/p/john-beren-charlie\">Dwarkesh</a>, de la proximité de l'auto-amélioration récursive. La discussion (76 points sur <a href=\"https://news.ycombinator.com/item?id=49665711\">Hacker News</a>) revient sur les critères empiriques qui permettraient de distinguer un goulot de données d'un vrai bouclage d'amélioration, alors que les harnais d'agents managés se généralisent côté industrie.",
+                "en": "Three researchers debate, in an interview published on 11 September 2026 on <a href=\"https://www.dwarkesh.com/p/john-beren-charlie\">Dwarkesh</a>, how close recursive self-improvement is. The discussion (76 points on <a href=\"https://news.ycombinator.com/item?id=49665711\">Hacker News</a>) returns to the empirical criteria that would distinguish a data bottleneck from a genuine improvement loop, as managed agent harnesses spread across industry.",
+                "de": "Drei Forscher debattieren in einem am 11. September 2026 auf <a href=\"https://www.dwarkesh.com/p/john-beren-charlie\">Dwarkesh</a> erschienenen Gespräch über die Nähe rekursiver Selbstverbesserung. Die Diskussion (76 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49665711\">Hacker News</a>) kreist um die empirischen Kriterien, die einen Daten-Engpass von einer echten Verbesserungsschleife unterscheiden würden, während in der Industrie gemanagte Agenten-Harnesses zum Standard werden.",
+                "it": "Tre ricercatori dibattono, in un'intervista pubblicata l'11 settembre 2026 su <a href=\"https://www.dwarkesh.com/p/john-beren-charlie\">Dwarkesh</a>, della prossimità dell'auto-miglioramento ricorsivo. La discussione (76 punti su <a href=\"https://news.ycombinator.com/item?id=49665711\">Hacker News</a>) torna sui criteri empirici che permetterebbero di distinguere un collo di bottiglia dei dati da un vero ciclo di miglioramento, mentre gli harness di agenti gestiti si generalizzano sul versante industriale.",
+                "lmo": "Trii ricercador i debateden, in d'ona entrevista publicada el 11 de setember 2026 sora <a href=\"https://www.dwarkesh.com/p/john-beren-charlie\">Dwarkesh</a>, de la vicinanza de l'auto-migliorament recursiv. La discussion (76 pont sora <a href=\"https://news.ycombinator.com/item?id=49665711\">Hacker News</a>) la torna sora i criteri empirich che permettarissen de destingov on collott de dacc d'on ver sarciament de migliorament, quand che i harness de agent gestii se generalizen de la part de l'industria."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Debat"
+              },
+              "urls": [
+                "https://www.dwarkesh.com/p/john-beren-charlie",
+                "https://news.ycombinator.com/item?id=49665711"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Évaluation",
+            "en": "Evaluation",
+            "de": "Evaluation",
+            "it": "Valutazione",
+            "lmo": "Valutazzion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Les tokenizers d'images comme langages visuels : la perte I2T, métrique la plus fiable",
+                "en": "Image tokenizers as visual languages: I2T loss, the most reliable metric",
+                "de": "Bild-Tokenisierer als visuelle Sprachen: der I2T-Verlust als zuverlässigste Metrik",
+                "it": "I tokenizer di immagini come linguaggi visivi: la perdita I2T, la metrica più affidabile",
+                "lmo": "I tokenizer di imagin 'me lengoeu visuai: la perdita I2T, la metrega pussee fidabel"
+              },
+              "body": {
+                "fr": "La série HF Daily Papers du 11 septembre 2026 met en avant le paper « Studying Image Tokenizers as Visual Languages » d'Amazon Frontier AI & Robotics (5 upvotes) : un banc d'essai autoregressif contrôlé montre que la perte I2T, calculée sur un vocabulaire texte partagé, offre un signal plus cohérent entre tokenizers que la perte T2I, et que meilleure reconstruction ne rime pas toujours avec meilleure performance aval. <a href=\"https://arxiv.org/abs/2609.09143\">L'article arXiv</a> et le <a href=\"https://github.com/amazon-far/Tokenizer_UMM\">dépôt GitHub</a> sont publics.",
+                "en": "The 11 September 2026 HF Daily Papers series highlights \"Studying Image Tokenizers as Visual Languages\" from Amazon Frontier AI & Robotics (5 upvotes): a controlled autoregressive benchmark shows that I2T loss, computed on a shared text vocabulary, offers a more consistent signal across tokenizers than T2T loss, and that better reconstruction does not always mean better downstream performance. <a href=\"https://arxiv.org/abs/2609.09143\">The arXiv paper</a> and the <a href=\"https://github.com/amazon-far/Tokenizer_UMM\">GitHub repository</a> are public.",
+                "de": "Die HF-Daily-Papers-Serie vom 11. September 2026 hebt das Paper «Studying Image Tokenizers as Visual Languages» von Amazon Frontier AI & Robotics hervor (5 Upvotes): Ein kontrollierter autoregressiver Benchmark zeigt, dass der I2T-Verlust, berechnet über ein gemeinsames Textvokabular, ein kohärenteres Signal zwischen Tokenizern liefert als der T2I-Verlust — und dass bessere Rekonstruktion nicht immer bessere Downstream-Leistung bedeutet. <a href=\"https://arxiv.org/abs/2609.09143\">Das arXiv-Paper</a> und das <a href=\"https://github.com/amazon-far/Tokenizer_UMM\">GitHub-Repository</a> sind öffentlich.",
+                "it": "La serie HF Daily Papers dell'11 settembre 2026 mette in risalto il paper « Studying Image Tokenizers as Visual Languages » di Amazon Frontier AI & Robotics (5 upvotes): un benchmark autoregressivo controllato mostra che la perdita I2T, calcolata su un vocabolario testo condiviso, offre un segnale più coerente tra tokenizer rispetto alla perdita T2I, e che una migliore ricostruzione non always significa migliori prestazioni a valle. <a href=\"https://arxiv.org/abs/2609.09143\">L'articolo arXiv</a> e il <a href=\"https://github.com/amazon-far/Tokenizer_UMM\">repository GitHub</a> sono pubblici.",
+                "lmo": "La serie HF Daily Papers del 11 de setember 2026 la met in cantina el paper « Studying Image Tokenizers as Visual Languages » d'Amazon Frontier AI & Robotics (5 upvotes): on banc de proeuva autoregressiv controlaa el mostra che la perdita I2T, calculada sora on vocabolari test condivis, la offriss on segnall pussee coerent tra tokenizer che la perdita T2I, e che 'na mej ricostruzzion la va no semper insema a 'na mej prestazzion a val. <a href=\"https://arxiv.org/abs/2609.09143\">L'articel arXiv</a> e 'l <a href=\"https://github.com/amazon-far/Tokenizer_UMM\">deposit GitHub</a> hinn publegh."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.09143",
+                "https://github.com/amazon-far/Tokenizer_UMM"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 3 — La Recherche",
+        "en": "Page 3 — Research",
+        "de": "Seite 3 — Die Forschung",
+        "it": "Pagina 3 — La Ricerca",
+        "lmo": "Pagina 3 — La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "MaP-WAM : la mémoire comme plans pour la manipulation robotique longue durée",
+                "en": "MaP-WAM: memory as plans for long-horizon robotic manipulation",
+                "de": "MaP-WAM: Gedächtnis als Pläne für langfristige Roboter-Manipulation",
+                "it": "MaP-WAM: la memoria come piani per la manipolazione robotica di lunga durata",
+                "lmo": "MaP-WAM: la memoria 'me pian per la manipolazzion robotega longa"
+              },
+              "body": {
+                "fr": "MaP-WAM (« Memory as Plans »), paper soumis le 11 septembre 2026 sur HF Daily Papers (10 upvotes), décompose la modélisation monde-action non-markovienne en planification ancrée en mémoire et exécution conditionnée au plan : le contexte de l'exécuteur reste de longueur fixe, et la latence d'inférence à peu près constante quand l'historique croît. Le système atteint 83,3 % de succès sur RMBench et 78,0 % sur des tâches robotiques réelles. <a href=\"https://arxiv.org/abs/2609.11561\">Paper arXiv</a> et <a href=\"https://github.com/aipixel/MaP-WAM\">code</a> disponibles.",
+                "en": "MaP-WAM (\"Memory as Plans\"), a paper submitted on 11 September 2026 to HF Daily Papers (10 upvotes), decomposes non-Markovian world-action modeling into memory-anchored planning and plan-conditioned execution: the executor's context remains of fixed length, and inference latency stays roughly constant as history grows. The system achieves 83.3% success on RMBench and 78.0% on real robotic tasks. <a href=\"https://arxiv.org/abs/2609.11561\">arXiv paper</a> and <a href=\"https://github.com/aipixel/MaP-WAM\">code</a> available.",
+                "de": "MaP-WAM («Memory as Plans»), am 11. September 2026 auf HF Daily Papers eingereicht (10 Upvotes), zerlegt die nicht-markovsche Welt-Aktions-Modellierung in speicherverankerte Planung und planbedingte Ausführung: Der Kontext des Executors bleibt von fester Länge, die Inferenzlatenz bei wachsender Historie nahezu konstant. Das System erreicht 83,3 Prozent Erfolg auf RMBench und 78,0 Prozent auf realen Roboteraufgaben. <a href=\"https://arxiv.org/abs/2609.11561\">arXiv-Paper</a> und <a href=\"https://github.com/aipixel/MaP-WAM\">Code</a> verfügbar.",
+                "it": "MaP-WAM (« Memory as Plans »), paper presentato l'11 settembre 2026 su HF Daily Papers (10 upvotes), scompone la modellazione mondo-azione non markoviana in pianificazione ancorata alla memoria ed esecuzione condizionata al piano: il contesto dell'esecutore resta di lunghezza fissa e la latenza d'inferenza pressoché costante quando lo storico cresce. Il sistema raggiunge l'83,3% di successo su RMBench e il 78,0% su mansioni robotiche reali. <a href=\"https://arxiv.org/abs/2609.11561\">Paper arXiv</a> e <a href=\"https://github.com/aipixel/MaP-WAM\">codice</a> disponibili.",
+                "lmo": "MaP-WAM (« Memory as Plans »), paper consegnaa el 11 de setember 2026 sora HF Daily Papers (10 upvotes), el descompon la modellazzion mond-azzion minga markoviana in pianificazzion ancrada in memoria ed esecuzzion condizzionada al pian: el contest de l'esecutor el resta de longhezza fissa, e la latenza d'inferenzzia a l'è pu o manch costanta quand che la storia la cress. El sistema el riva a 83,3% de success sora RMBench e 78,0% sora di task robotegh reai. <a href=\"https://arxiv.org/abs/2609.11561\">Paper arXiv</a> e <a href=\"https://github.com/aipixel/MaP-WAM\">codes</a> disponibil."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Robotega"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11561",
+                "https://github.com/aipixel/MaP-WAM"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mi-Ripple : réparer les images dégradées par l'édition itérative d'IA",
+                "en": "Mi-Ripple: repairing images degraded by iterative AI editing",
+                "de": "Mi-Ripple: Bilder reparieren, die durch iterative KI-Bildbearbeitung degradiert wurden",
+                "it": "Mi-Ripple: riparare le immagini degradate dalla modifica iterativa con l'IA",
+                "lmo": "Mi-Ripple: reparà i imagin degradaa de l'edizzion iterativa de IA"
+              },
+              "body": {
+                "fr": "Mi-Ripple, l'article le plus voté du jour sur HF Daily Papers (20 upvotes, soumis le 11 septembre 2026), traite les textures grille et granuleuses apparues après des éditions d'images itératives par IA. Le workflow sépare artefacts périodiques et texture de contenu, combine notch spectral et régénération à référence nettoyée : sur quatorze exécutions, l'écart-type résiduel tombe entre 0,08 et 0,44 unités CIELAB, et la densité de débris chute de 45 % en régénération appariée. Détails sur <a href=\"https://arxiv.org/abs/2609.11317\">arXiv</a> et <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+                "en": "Mi-Ripple, the most upvoted paper of the day on HF Daily Papers (20 upvotes, submitted on 11 September 2026), addresses the grid and grainy textures that appear after iterative AI image edits. The workflow separates periodic artifacts from content texture, combining spectral notch filtering with regeneration against a cleaned reference: over fourteen runs, residual standard deviation falls between 0.08 and 0.44 CIELAB units, and debris density drops 45% in matched regeneration. Details on <a href=\"https://arxiv.org/abs/2609.11317\">arXiv</a> and <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+                "de": "Mi-Ripple, das am meisten gewählte Paper des Tages auf HF Daily Papers (20 Upvotes, eingereicht am 11. September 2026), behandelt die gitter- und körnigartigen Texturen, die nach iterativen KI-Bildbearbeitungen auftreten. Der Workflow trennt periodische Artefakte von der Inhaltstextur und kombiniert spektrales Notch-Filtering mit Regeneration anhand einer gereinigten Referenz: Bei vierzehn Durchläufen fällt die residuale Standardabweichung auf 0,08 bis 0,44 CIELAB-Einheiten, die Trümmerdichte sinkt bei gepaarter Regeneration um 45 Prozent. Details auf <a href=\"https://arxiv.org/abs/2609.11317\">arXiv</a> und <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+                "it": "Mi-Ripple, l'articolo più votato del giorno su HF Daily Papers (20 upvotes, presentato l'11 settembre 2026), tratta le texture a griglia e granulose comparse dopo modifiche iterative di immagini tramite IA. Il workflow separa gli artefatti periodici dalla texture del contenuto, combinando notch spettrale e rigenerazione a riferimento pulito: su quattordici esecuzioni, la deviazione standard residua scende tra 0,08 e 0,44 unità CIELAB, e la densità di detriti cala del 45% nella rigenerazione appaiata. Dettagli su <a href=\"https://arxiv.org/abs/2609.11317\">arXiv</a> e <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>.",
+                "lmo": "Mi-Ripple, l'articel pussee votaa del dì sora HF Daily Papers (20 upvotes, consegnas el 11 de setember 2026), el tratta i tessud grilia e granulos compars dopo di edizzion d'imagin iterativ per IA. El workflow el separa artefad periodegh e tessud de contegnuu, el combina notch spettral e regenerazzion a referenza nettada: sora quatordes esecuzzion, la deviazion standard residua la borla tra 0,08 e 0,44 unità CIELAB, e la densità de debris la crolla del 45% in regenerazzion accopiada. Detaj sora <a href=\"https://arxiv.org/abs/2609.11317\">arXiv</a> e <a href=\"https://github.com/miyang-ai/Mi-Ripple\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Images",
+                "en": "Images",
+                "de": "Bilder",
+                "it": "Immagini",
+                "lmo": "Imagin"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11317",
+                "https://github.com/miyang-ai/Mi-Ripple"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Negative Self-Distillation : apprendre à raisonner en évitant ses propres défauts",
+                "en": "Negative Self-Distillation: learning to reason by avoiding one's own flaws",
+                "de": "Negative Self-Distillation: Denken lernen, indem man die eigenen Schwächen meidet",
+                "it": "Negative Self-Distillation: imparare a ragionare evitando i propri difetti",
+                "lmo": "Negative Self-Distillation: imparà a resonà schivand i propi difett"
+              },
+              "body": {
+                "fr": "Soumis le 11 septembre 2026 (5 upvotes), NSD propose d'apprendre à raisonner en s'éloignant des raisonnements défaillants plutôt qu'en imitant des solutions privilégiées : le modèle génère lui-même un « raisonneur négligent » contre lequel diverger, un mécanisme de gating dynamique isolant les tokens critiques de raisonnement pour préserver les capacités linguistiques. Les auteurs rapportent des gains réguliers sur OPSD et les baselines RL label-free. Voir <a href=\"https://arxiv.org/abs/2609.11699\">l'article arXiv</a>.",
+                "en": "Submitted on 11 September 2026 (5 upvotes), NSD proposes learning to reason by moving away from flawed reasoning rather than imitating privileged solutions: the model itself generates a \"sloppy reasoner\" to diverge from, with a dynamic gating mechanism isolating critical reasoning tokens to preserve linguistic capabilities. The authors report consistent gains on OPSD and label-free RL baselines. See <a href=\"https://arxiv.org/abs/2609.11699\">the arXiv paper</a>.",
+                "de": "Am 11. September 2026 eingereicht (5 Upvotes) schlägt NSD vor, das Schliessen zu lernen, indem man sich von fehlerhaftem Schliessen entfernt, statt privilegierte Lösungen zu imitieren: Das Modell erzeugt selbst einen «nachlässigen Reasoner», von dem es abweicht; ein dynamisches Gating isoliert kritische Reasoning-Tokens, um sprachliche Fähigkeiten zu bewahren. Die Autoren berichten von konstanten Gewinnen auf OPSD und gegen label-freie RL-Baselines. Siehe <a href=\"https://arxiv.org/abs/2609.11699\">den arXiv-Artikel</a>.",
+                "it": "Presentato l'11 settembre 2026 (5 upvotes), NSD propone di imparare a ragionare allontanandosi dai ragionamenti fallaci anziché imitando soluzioni privilegiate: il modello genera da solo un « ragionatore negligente » dal quale divergere, con un meccanismo di gating dinamico che isola i token critici del ragionamento per preservare le capacità linguistiche. Gli autori riportano guadagni regolari su OPSD e sulle baseline RL label-free. Vedere <a href=\"https://arxiv.org/abs/2609.11699\">l'articolo arXiv</a>.",
+                "lmo": "Consegnas el 11 de setember 2026 (5 upvotes), NSD el propon d'imparà a resonà vestendes via di resoneament difettos inveci che imità di soluzzion privilegiada: el modei el genera da per lu on « resonador negligenz » del qual diverger, on meccanism de gating dinamegh che 'l isola i token critic de resoneament per conservà i capacità lengovistegh. I autor i rapporten di guadagn regolar sora OPSD e i baseline RL label-free. Varda <a href=\"https://arxiv.org/abs/2609.11699\">l'articel arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Post-training",
+                "en": "Post-training",
+                "de": "Post-Training",
+                "it": "Post-training",
+                "lmo": "Post-training"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11699"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "FreeFlow : le flux optique sans biais de tâche atteint l'état de l'art",
+                "en": "FreeFlow: task-bias-free optical flow reaches state of the art",
+                "de": "FreeFlow: optischer Fluss ohne Aufgaben-Bias erreicht den Stand der Technik",
+                "it": "FreeFlow: il flusso ottico senza bias di compito raggiunge lo stato dell'arte",
+                "lmo": "FreeFlow: el fluss ottegh senza bias de task el riva al stat de l'art"
+              },
+              "body": {
+                "fr": "FreeFlow (soumis le 11 septembre 2026, 5 upvotes) abandonne les biais inductifs classiques du flux optique — volumes de corrélation, warping, raffinement itératif — au profit d'un transformer hiérarchique à trois attentions (fenêtre, fenêtre glissante, globale). Résultat : état de l'art sur Sintel (0,68/1,48 EPE Clean/Final), KITTI-2015 (3,23 Fl-all) et Spring (3,192 1px), avec une mémoire maîtrisée en 1080p. <a href=\"https://arxiv.org/abs/2609.11486\">Paper</a> et <a href=\"https://github.com/msu-video-group/freeflow\">code</a> ouverts.",
+                "en": "FreeFlow (submitted on 11 September 2026, 5 upvotes) abandons the classic inductive biases of optical flow — correlation volumes, warping, iterative refinement — in favor of a hierarchical transformer with three attention types (window, sliding window, global). Result: state of the art on Sintel (0.68/1.48 EPE Clean/Final), KITTI-2015 (3.23 Fl-all) and Spring (3.192 1px), with controlled memory use at 1080p. <a href=\"https://arxiv.org/abs/2609.11486\">Paper</a> and <a href=\"https://github.com/msu-video-group/freeflow\">code</a> open.",
+                "de": "FreeFlow (eingereicht am 11. September 2026, 5 Upvotes) wirft die klassischen induktiven Verzerrungen des optischen Flusses über Bord — Korrelationsvolumina, Warping, iterative Verfeinerung — zugunsten eines hierarchischen Transformers mit drei Aufmerksamkeiten (Fenster, gleitendes Fenster, global). Ergebnis: State of the Art auf Sintel (0,68/1,48 EPE Clean/Final), KITTI-2015 (3,23 Fl-all) und Spring (3,192 1px), bei beherrschtem Speicherbedarf in 1080p. <a href=\"https://arxiv.org/abs/2609.11486\">Paper</a> und <a href=\"https://github.com/msu-video-group/freeflow\">Code</a> offen.",
+                "it": "FreeFlow (presentato l'11 settembre 2026, 5 upvotes) abbandona i bias induttivi classici del flusso ottico — volumi di correlazione, warping, raffinamento iterativo — a favore di un transformer gerarchico a tre attenzioni (finestra, finestra scorrevole, globale). Risultato: stato dell'arte su Sintel (0,68/1,48 EPE Clean/Final), KITTI-2015 (3,23 Fl-all) e Spring (3,192 1px), con una memoria contenuta in 1080p. <a href=\"https://arxiv.org/abs/2609.11486\">Paper</a> e <a href=\"https://github.com/msu-video-group/freeflow\">codice</a> aperti.",
+                "lmo": "FreeFlow (consegnas el 11 de setember 2026, 5 upvotes) el bandona i bias induttiv classegh del fluss ottegh — volum de correlazzion, warping, rifiniment iterativ — a favor d'on transformer gerarcegh a trii atenzion (finestra, finestra scorivol, globala). Risultaa: stat de l'art sora Sintel (0,68/1,48 EPE Clean/Final), KITTI-2015 (3,23 Fl-all) e Spring (3,192 1px), con ona memoria domineda in 1080p. <a href=\"https://arxiv.org/abs/2609.11486\">Paper</a> e <a href=\"https://github.com/msu-video-group/freeflow\">codes</a> duvert."
+              },
+              "kicker": {
+                "fr": "Vision",
+                "en": "Vision",
+                "de": "Vision",
+                "it": "Visione",
+                "lmo": "Vision"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.11486",
+                "https://github.com/msu-video-group/freeflow"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 4 — La Communauté & Édito",
+        "en": "Page 4 — Community & Editorial",
+        "de": "Seite 4 — Community & Leitartikel",
+        "it": "Pagina 4 — La Community & Editoriale",
+        "lmo": "Pagina 4 — La Comunità & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communauté",
+            "en": "Community signals",
+            "de": "Community-Signale",
+            "it": "Segnali dalla community",
+            "lmo": "Segnai comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude réservé aux plus de 18 ans : l'assurance d'âge fait débat",
+                "en": "Claude restricted to those 18 and over: age assurance sparks debate",
+                "de": "Claude ab 18 Jahren: der Altersnachweis sorgt für Streit",
+                "it": "Claude riservato ai maggiorenni: l'age assurance accende il dibattito",
+                "lmo": "Claude riservaa ai pussee de 18 agn: l'assurance d'etaa la fa debat"
+              },
+              "body": {
+                "fr": "La documentation d'Anthropic précisant que <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Claude n'est disponible que pour les plus de 18 ans</a>, assortie d'un mécanisme d'assurance d'âge, a fait surface le 11 septembre 2026 : 606 points et 617 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>. La discussion oscille entre contrôle d'âge des modèles généralistes et questions de vie privée des méthodes de vérification.",
+                "en": "Anthropic's documentation stating that <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Claude is only available to those 18 and over</a>, accompanied by an age assurance mechanism, surfaced on 11 September 2026: 606 points and 617 comments on <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>. The discussion swings between age controls for general-purpose models and privacy concerns around verification methods.",
+                "de": "Die Dokumentation von Anthropic, wonach <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Claude nur für Personen ab 18 Jahren verfügbar ist</a>, ergänzt um einen Altersnachweis-Mechanismus, tauchte am 11. September 2026 auf: 606 Punkte und 617 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>. Die Diskussion pendelt zwischen Alterskontrolle für generalistische Modelle und Fragen des Datenschutzes bei den Verfahren zur Verifizierung.",
+                "it": "La documentazione di Anthropic che precisa che <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Claude è disponibile solo per i maggiorenni</a>, corredata da un meccanismo di age assurance, è emersa l'11 settembre 2026: 606 punti e 617 commenti su <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>. La discussione oscilla tra controllo dell'età per i modelli generalisti e questioni di privacy dei metodi di verifica.",
+                "lmo": "La documentazzion de Anthropic che la precisa che <a href=\"https://support.claude.com/en/articles/15171100-age-assurance-on-claude\">Claude l'è disponibil domà per i pussee de 18 agn</a>, tacada a on meccanism d'assurance d'etaa, l'è rivada a galla el 11 de setember 2026: 606 pont e 617 comentari sora <a href=\"https://news.ycombinator.com/item?id=49656225\">Hacker News</a>. La discussion la oscilla tra contròll d'etaa di modei generalista e question de vita privada di metod de verifica."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://support.claude.com/en/articles/15171100-age-assurance-on-claude",
+                "https://news.ycombinator.com/item?id=49656225"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google supprime les URLs directs de ses résultats : conséquences pour les agents",
+                "en": "Google removes direct URLs from search results: consequences for agents",
+                "de": "Google streicht direkte URLs aus seinen Resultaten: Folgen für Agenten",
+                "it": "Google elimina gli URL diretti dai propri risultati: conseguenze per gli agenti",
+                "lmo": "Google el cava via i URL dirett di so risultaa: conseguenz per i agent"
+              },
+              "body": {
+                "fr": "Selon une analyse publiée le 12 septembre 2026 par <a href=\"https://www.autom.dev/blog/google-search-goto-links\">Autom</a>, Google ne fournit plus d'URLs directs dans ses résultats de recherche, remplaçant les liens par des redirections internes. Le signalement (119 points sur <a href=\"https://news.ycombinator.com/item?id=49668386\">Hacker News</a>) a des implications directes pour les agents IA qui s'appuient sur le scraping de résultats : la couche de redirection opaque complique l'accès vérifiable aux sources originales.",
+                "en": "According to an analysis published on 12 September 2026 by <a href=\"https://www.autom.dev/blog/google-search-goto-links\">Autom</a>, Google no longer provides direct URLs in its search results, replacing links with internal redirects. The report (119 points on <a href=\"https://news.ycombinator.com/item?id=49668386\">Hacker News</a>) has direct implications for AI agents that rely on scraping results: the opaque redirection layer complicates verifiable access to original sources.",
+                "de": "Laut einer am 12. September 2026 von <a href=\"https://www.autom.dev/blog/google-search-goto-links\">Autom</a> veröffentlichten Analyse liefert Google keine direkten URLs mehr in den Suchresultaten, sondern ersetzt die Links durch interne Weiterleitungen. Der Bericht (119 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49668386\">Hacker News</a>) hat unmittelbare Folgen für KI-Agenten, die auf das Scraping von Resultaten setzen: Die undurchsichtige Umleitungsschicht erschwert den überprüfbaren Zugriff auf die Originalquellen.",
+                "it": "Secondo un'analisi pubblicata il 12 settembre 2026 da <a href=\"https://www.autom.dev/blog/google-search-goto-links\">Autom</a>, Google non fornisce più URL diretti nei propri risultati di ricerca, sostituendo i link con redirect interni. La segnalazione (119 punti su <a href=\"https://news.ycombinator.com/item?id=49668386\">Hacker News</a>) ha implicazioni dirette per gli agenti IA che si affidano allo scraping dei risultati: lo strato opaco di reindirizzamento complica l'accesso verificabile alle fonti originali.",
+                "lmo": "Segond ona analisi publicada el 12 de setember 2026 de <a href=\"https://www.autom.dev/blog/google-search-goto-links\">Autom</a>, Google el forniss pu di URL dirett in di so risultaa de ricerca, sostituend i coll con di redirezion interni. El segnalament (119 pont sora <a href=\"https://news.ycombinator.com/item?id=49668386\">Hacker News</a>) el gh'ha di implicazzion dirette per i agent IA che se basen sora el scraping di risultaa: el strat de redirezion opach el complica l'acess verificabel ai font originai."
+              },
+              "kicker": {
+                "fr": "Web & agents",
+                "en": "Web & agents",
+                "de": "Web & Agenten",
+                "it": "Web & agenti",
+                "lmo": "Web & agent"
+              },
+              "urls": [
+                "https://www.autom.dev/blog/google-search-goto-links",
+                "https://news.ycombinator.com/item?id=49668386"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — Quand l'infrastructure monte en première page",
+                "en": "Editorial — When infrastructure makes the front page",
+                "de": "Leitartikel — Wenn die Infrastruktur auf Seite eins rückt",
+                "it": "Editoriale — Quando l'infrastruttura arriva in prima pagina",
+                "lmo": "Editorial — Quand che l'infrastrutura la riva in prima pagina"
+              },
+              "body": {
+                "fr": "Trois signaux de ce 11-12 septembre 2026 dessinent la même ligne de faille. D'un côté, l'industrialisation : Habitat encaisse 22 millions de requêtes par seconde, les harnais managés s'imposent en API de plateforme, le fine-tuning devient un abonnement avec métriques live. De l'autre, la contestation : 775 points sur une lettre de mathématiciens, une attaque d'agents sur RubyGems dénoncée par la communauté Ruby, un contrôle d'âge discuté à 600 points. L'industrie construit plus vite qu'elle ne rend des comptes, et les forums — pas les comités — sont devenus le lieu où s'arbitre ce décalage. Les labos qui publient leurs coulisses d'ingénierie le 11 septembre 2026 l'ont compris : la transparence technique est devenue le dernier argument de confiance. La suite de la série Habitat d'OpenAI sera suivie avec autant d'attention qu'un lancement de modèle — c'est, peut-être, la vraie nouvelle de la semaine.",
+                "en": "Three signals from this 11–12 September 2026 trace the same fault line. On one side, industrialization: Habitat absorbs 22 million requests per second, managed harnesses become platform APIs, fine-tuning turns into a subscription with live metrics. On the other, pushback: 775 points on a letter from mathematicians, an agent attack on RubyGems condemned by the Ruby community, an age-verification debate at 600 points. The industry builds faster than it answers for it, and forums — not committees — have become the place where this gap is arbitrated. The labs publishing their engineering internals on 11 September 2026 have understood: technical transparency has become the last argument for trust. The follow-up to OpenAI's Habitat series will be watched as closely as a model launch — that, perhaps, is the real news of the week.",
+                "de": "Drei Signale dieses 11./12. September 2026 zeichnen dieselbe Bruchlinie. Auf der einen Seite die Industrialisierung: Habitat verkraftet 22 Millionen Anfragen pro Sekunde, gemanagte Harnesses etablieren sich als Plattform-APIs, Fine-Tuning wird zum Abo mit Live-Metriken. Auf der anderen Seite der Widerstand: 775 Punkte für einen Brief von Mathematikern, ein von der Ruby-Community angeprangerter Agenten-Angriff auf RubyGems, eine mit 600 Punkten diskutierte Alterskontrolle. Die Industrie baut schneller, als sie Rechenschaft ablegt, und die Foren — nicht die Komitees — sind zum Ort geworden, an dem diese Schere verhandelt wird. Die Labors, die am 11. September 2026 ihre technischen Kulissen offenlegen, haben es verstanden: Technische Transparenz ist zum letzten Vertrauensargument geworden. Der Fortsetzungsteil der Habitat-Serie von OpenAI wird mit derselben Aufmerksamkeit verfolgt wie ein Modelllaunch — das ist vielleicht die eigentliche Nachricht der Woche.",
+                "it": "Tre segnali di questo 11-12 settembre 2026 disegnano la stessa linea di faglia. Da un lato l'industrializzazione: Habitat gestisce 22 milioni di richieste al secondo, gli harness gestiti si affermano come API di piattaforma, il fine-tuning diventa un abbonamento con metriche live. Dall'altro la contestazione: 775 punti su una lettera di matematici, un attacco di agenti su RubyGems denunciato dalla community Ruby, un controllo dell'età discusso a 600 punti. L'industria costruisce più velocemente di quanto renda conto, e i forum — non i comitati — sono diventati il luogo dove si arbitra questo scarto. I laboratori che pubblicano i propri retroscena d'ingegneria l'11 settembre 2026 l'hanno capito: la trasparenza tecnica è diventata l'ultimo argomento di fiducia. Il seguito della serie Habitat di OpenAI sarà seguito con la stessa attenzione di un lancio di modello — è questa, forse, la vera notizia della settimana.",
+                "lmo": "Trii segnai de 'sto 11-12 de setember 2026 disen la midemma linea de fenda. D'ona part, l'industrializzazzion: Habitat el sostegn 22 milion de domande al segond, i harness gestii se imponen 'me API de piattaforma, el fine-tuning el deventa on abonament cont metreghe live. De l'altra, la contestazzion: 775 pont sora ona lettera de matemategh, on attacch de agent sora RubyGems denunziaa de la comunità Ruby, on contròll d'etaa discuss a 600 pont. L'industria la costruess pussee a svelta che la rend minga cunt, e i forum — minga i comitaa — hinn deventaa el loeugh indova che 'sto desfasament el ven arbitrà. I laboratori che i pubblicen i so couliss d'ingegneria el 11 de setember 2026 l'hann capii: la trasparenza tecnega l'è deventada l'ultem argument de fiducia. La seguita de la serie Habitat de OpenAI la sarà seguidda cont tant de attenzzion 'me on lanz de modei — l'è, fors, la vera noeuva de la setemana."
+              },
+              "kicker": {
+                "fr": "La une du rédacteur en chef",
+                "en": "The editor-in-chief's front page",
+                "de": "Der Chefredakteur auf der Frontseite",
+                "it": "La prima del direttore",
+                "lmo": "La prima pagina del diretor"
+              },
+              "urls": [
+                "https://openai.com/index/scaling-storage-one-billion-users-part-one"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
