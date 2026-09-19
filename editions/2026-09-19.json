@@ -1,0 +1,558 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-19",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "xAI a annoncé le 18 septembre 2026 Grok Voice Transcribe 2.0, présenté par l'entreprise comme son nouveau modèle speech-to-text « le plus précis et le plus rentable » de sa gamme. Le lancement marque une extension notable du périmètre de xAI au-delà des LLM conversationnels, vers la couche d'entrée audio qui alimente les agents vocaux et les interfaces temps réel. L'annonce est publiée sur la page officielle des nouvelles du laboratoire (<a href=\"https://x.ai/news/grok-voice-transcribe-2\">x.ai/news</a>).",
+        "en": "On September 18, 2026, xAI announced Grok Voice Transcribe 2.0, presented by the company as its new \"most accurate and most cost-effective\" speech-to-text model in its lineup. The launch marks a notable expansion of xAI's scope beyond conversational LLMs, into the audio input layer that powers voice agents and real-time interfaces. The announcement was published on the lab's official news page (<a href=\"https://x.ai/news/grok-voice-transcribe-2\">x.ai/news</a>).",
+        "de": "xAI hat am 18. September 2026 Grok Voice Transcribe 2.0 angekündigt, das vom Unternehmen als sein neues «genauestes und wirtschaftlichstes» Speech-to-Text-Modell der Palette präsentiert wird. Der Launch markiert eine bemerkenswerte Ausweitung des Tätigkeitsgebiets von xAI über konversationelle LLMs hinaus hin zur Audio-Eingabeschicht, die Sprachagenten und Echtzeit-Schnittstellen speist. Die Ankündigung ist auf der offiziellen News-Seite des Labors veröffentlicht (<a href=\"https://x.ai/news/grok-voice-transcribe-2\">x.ai/news</a>).",
+        "it": "Il 18 settembre 2026 xAI ha annunciato Grok Voice Transcribe 2.0, presentato dall'azienda come il suo nuovo modello speech-to-text «più preciso e più economico» della gamma. Il lancio segna un'estensione notevole del perimetro di xAI oltre i LLM conversazionali, verso lo strato di ingresso audio che alimenta gli agenti vocali e le interfacce in tempo reale. L'annuncio è pubblicato sulla pagina ufficiale delle novità del laboratorio (<a href=\"https://x.ai/news/grok-voice-transcribe-2\">x.ai/news</a>).",
+        "lmo": "xAI l'ha anunziaa el 18 de setember 2026 Grok Voice Transcribe 2.0, presentaa de l'impresa come el sò noeuv modei speech-to-text « el pussee precis e el pussee convenient » de la soa gamma. El lans el marca ona estension importanta del perimeter de xAI oltra di LLM conversazionai, vers el strat de entrada audio che 'l alimenta i agent vocai e i interfaci in temp real. L'anunzi l'è publicaa sora la pagina offizial di noeuv del laboratori (<a href=\"https://x.ai/news/grok-voice-transcribe-2\">x.ai/news</a>)."
+      },
+      {
+        "fr": "Cette sortie s'inscrit dans la continuité du déploiement produit accéléré de xAI : la veille, le laboratoire avait déjà doté Grok Build d'une mémoire persistante et dévoilé un bot d'approvisionnement. La transcription vocale est un segment où la concurrence frontière est déjà dense, et le positionnement affiché sur le couple précision-coût suggère un ciblage des charges de travail industrielles — appels, dictée, sous-titrage — davantage que du grand public.",
+        "en": "The release follows xAI's accelerated product deployment: the previous day, the lab had already given Grok Build persistent memory and unveiled a procurement bot. Speech transcription is a segment where frontier competition is already dense, and the stated positioning on the precision-cost pairing suggests a targeting of industrial workloads — calls, dictation, subtitling — rather than the general public.",
+        "de": "Diese Veröffentlichung reiht sich ein in das beschleunigte Produktdesployment von xAI: Am Vortag hatte das Labor Grok Build einen persistenten Speicher verliehen und einen Beschaffungs-Bot vorgestellt. Sprachtranskription ist ein Segment, in dem der Frontier-Wettbewerb bereits dicht ist; die betonte Positionierung auf das Duo Präzision–Kosten deutet auf eine Zielsetzung im Bereich industrieller Workloads hin — Telefonate, Diktat, Untertitelung — mehr als auf den Massenmarkt.",
+        "it": "Questa uscita si inserisce nella continuità del dispiegamento prodotto accelerato di xAI: il giorno prima, il laboratorio aveva già dotato Grok Build di una memoria persistente e svelato un bot di approvvigionamento. La trascrizione vocale è un segmento dove la concorrenza frontiera è già densa, e il posizionamento dichiarato sulla coppia precisione-costi suggerisce un puntamento sui carichi di lavoro industriali — chiamate, dettatura, sottotitolazione — più che sul grande pubblico.",
+        "lmo": "Questa sortida la se met in de la continuitaa del desplegament prodott aceleraa de xAI: el dì prima, el laboratori l'aveva giamò daa a Grok Build ona memoria persistenta e desvelaa on bot de aquisizion. La trascrizion vocal l'è on segment indova la competizion de frontiera l'è giamò densa, e el posizionament mostraa sora la cobbia precision-cost el suggeriss on targhettizz di carich de laurà industriai — ciamad, dettatura, sottotitoi — pussee che del grand pubblegh."
+      },
+      {
+        "fr": "Pour l'écosystème, le signal est double : d'une part, la bataille des modèles omni-modaux se joue désormais aussi sur des tâches perçues comme secondaires mais massivement consommées ; d'autre part, la publication d'xAI reste sélective sur les détails techniques, les benchmarks précis n'étant pas joints à l'annonce. La rédaction suivra les mesures indépendantes dès leur publication.",
+        "en": "For the ecosystem, the signal is twofold: on one hand, the battle of omni-modal models is now also being fought over tasks seen as secondary yet massively consumed; on the other, xAI's publication remains selective on technical details, with no precise benchmarks attached to the announcement. The newsroom will follow independent measurements as soon as they are published.",
+        "de": "Für das Ökosystem ist das Signal doppelt: Einerseits wird die Schlacht der omni-modalen Modelle inzwischen auch auf Aufgaben ausgetragen, die als sekundär gelten, aber massenhaft konsumiert werden; andererseits bleibt die Publikation von xAI selektiv bei den technischen Details — präzise Benchmarks waren der Ankündigung nicht beigefügt. Die Redaktion wird unabhängige Messungen verfolgen, sobald sie erscheinen.",
+        "it": "Per l'ecosistema, il segnale è doppio: da un lato, la battaglia dei modelli omni-modali si gioca ormai anche su compiti percepiti come secondari ma massicciamente consumati; dall'altro, la pubblicazione di xAI rimane selettiva sui dettagli tecnici, i benchmark precisi non essendo allegati all'annuncio. La redazione seguirà le misurazioni indipendenti appena pubblicate.",
+        "lmo": "Per l'ecosistema, el segnai l'è doppi: d'on lat, la battaja di modei omni-modai adess la se giuga anca sora di operazion consideraa secundari ma consumaa a grand scala; de l'alter lat, la publicazion de xAI la resta selettiva sora i dettaj tecnegh, cont i benchmark precis minga giontaa a l'anunzi. La redazion la seguirà i misur independents apena che saran publicaa."
+      }
+    ],
+    "urls": [
+      "https://x.ai/news/grok-voice-transcribe-2"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Frontiers",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modei & Frontiera"
+    },
+    "headline": {
+      "fr": "Grok Voice Transcribe 2.0 : xAI attaque le marché de la transcription vocale",
+      "en": "Grok Voice Transcribe 2.0: xAI Takes Aim at the Speech Transcription Market",
+      "de": "Grok Voice Transcribe 2.0: xAI greift den Markt für Sprachtranskription an",
+      "it": "Grok Voice Transcribe 2.0: xAI attacca il mercato della trascrizione vocale",
+      "lmo": "Grok Voice Transcribe 2.0: xAI el taca el mercaa de la trascrizion vocal"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire d'Elon Musk lance un modèle de transcription vocale dédié, revendiquant une précision et un rapport coût-efficacité inédits.",
+      "en": "Elon Musk's lab launches a dedicated speech transcription model, claiming unprecedented accuracy and cost efficiency.",
+      "de": "Das Labor von Elon Musk lanciert ein dediziertes Modell für Sprachtranskription und beansprucht eine bisher nicht erreichte Präzision und Kosteneffizienz.",
+      "it": "Il laboratorio di Elon Musk lancia un modello di trascrizione vocale dedicato, rivendicando una precisione e un rapporto costi-efficacia inediti.",
+      "lmo": "El laboratori de l'Elon Musk el lansa on modei de trascrizion vocal dedicaa, cont ona precision e on rapport cost-efficienza mai veduu prima."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Apple : un steering d'activations à intensité dynamique pour éviter de dégrader les modèles",
+        "en": "Apple: Dynamically-Scaled Activation Steering to Avoid Degrading Models",
+        "de": "Apple: Activation Steering mit dynamischer Intensität, um Modelldegradation zu vermeiden",
+        "it": "Apple: uno steering delle attivazioni a intensità dinamica per evitare di degradare i modelli",
+        "lmo": "Apple: on steering di attivazion a intensitaa dinamega per evità de degradà i modei"
+      },
+      "body": {
+        "fr": "Apple publie le 18 septembre 2026 DSAS, un cadre de steering d'activations indépendant de la méthode : il découple « quand steerer » de « comment steerer » et module la force d'intervention selon l'entrée, évitant la dégradation quand le steering est inutile — un pas vers des garde-fous adaptatifs. Paper : <a href=\"https://machinelearning.apple.com/research/dynamically-scaled-activation-steering\">machinelearning.apple.com</a>.",
+        "en": "Apple publishes on September 18, 2026 DSAS, a method-agnostic activation steering framework: it decouples \"when to steer\" from \"how to steer\" and modulates the strength of intervention according to the input, avoiding degradation when steering is unnecessary — a step toward adaptive guardrails. Paper: <a href=\"https://machinelearning.apple.com/research/dynamically-scaled-activation-steering\">machinelearning.apple.com</a>.",
+        "de": "Apple veröffentlicht am 18. September 2026 DSAS, ein methodenunabhängiges Framework für Activation Steering: Es entkoppelt «wann gesteuert wird» von «wie gesteuert wird» und moduliert die Interventionsstärke je nach Eingabe, was Degradation vermeidet, wenn Steering unnötig ist — ein Schritt hin zu adaptiven Guardrails. Paper: <a href=\"https://machinelearning.apple.com/research/dynamically-scaled-activation-steering\">machinelearning.apple.com</a>.",
+        "it": "Apple pubblica il 18 settembre 2026 DSAS, un quadro di steering delle attivazioni indipendente dal metodo: disaccoppia «quando intervenire» da «come intervenire» e modula la forza d'intervento secondo l'ingresso, evitando la degradazione quando lo steering è inutile — un passo verso guardrail adattivi. Paper: <a href=\"https://machinelearning.apple.com/research/dynamically-scaled-activation-steering\">machinelearning.apple.com</a>.",
+        "lmo": "Apple el pubblica el 18 de setember 2026 DSAS, on quadro de steering di attivazion independent de la metoda: el descoopecia « quand steering » de « come steering » e 'l modula la forza d'intervent segond l'entrada, evitand la degradazion quand che el steering l'è minga necessari — on pass vers di guard-rail adattiv. Paper: <a href=\"https://machinelearning.apple.com/research/dynamically-scaled-activation-steering\">machinelearning.apple.com</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-18",
+        "en": "From the Wires — 2026-09-18",
+        "de": "From the Wires — 18.09.2026",
+        "it": "From the Wires — 2026-09-18",
+        "lmo": "From the Wires — 18 de setember 2026"
+      },
+      "urls": [
+        "https://machinelearning.apple.com/research/dynamically-scaled-activation-steering"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Google Flow co-crée avec les créateurs de la Fashion Week de New York",
+        "en": "Google Flow Co-Creates with New York Fashion Week Designers",
+        "de": "Google Flow kreierte gemeinsam mit den Designern der New Yorker Fashion Week",
+        "it": "Google Flow co-crea con i creator della Fashion Week di New York",
+        "lmo": "Google Flow el co-crea cont i creator de la Fashion Week de New York"
+      },
+      "body": {
+        "fr": "Le 18 septembre 2026, Google détaille sa collaboration avec les designers Jane Wade et Sergio Hudson pour la Fashion Week new-yorkaise : les outils Google Flow ont été adaptés sur mesure pour la préparation des collections. Un terrain d'essai grand public de la vidéo générative. Annonce : <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/\">blog.google</a>.",
+        "en": "On September 18, 2026, Google details its collaboration with designers Jane Wade and Sergio Hudson for New York Fashion Week: Google Flow tools were tailored for collection preparation. A large-scale public testing ground for generative video. Announcement: <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/\">blog.google</a>.",
+        "de": "Am 18. September 2026 legt Google die Zusammenarbeit mit den Designern Jane Wade und Sergio Hudson für die New Yorker Fashion Week dar: Die Google-Flow-Werkzeuge wurden massgeschneidert für die Vorbereitung der Kollektionen angepasst. Ein Praxistest generativer Videotechnik im grossen Publikumsmassstab. Ankündigung: <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/\">blog.google</a>.",
+        "it": "Il 18 settembre 2026, Google dettaglia la sua collaborazione con i designer Jane Wade e Sergio Hudson per la Fashion Week newyorkese: gli strumenti Google Flow sono stati adattati su misura per la preparazione delle collezioni. Un banco di prova per il grande pubblico della video generativa. Annuncio: <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/\">blog.google</a>.",
+        "lmo": "El 18 de setember 2026, Google el detaja la soa collaborazion cont i designer Jane Wade e Sergio Hudson per la Fashion Week de New York: i strument Google Flow hinn staa adattaa su misura per la preparazion di collezion. On camp de prova del grand pubblegh per la video generativa. Anunzi: <a href=\"https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/\">blog.google</a>."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-18",
+        "en": "From the Wires — 2026-09-18",
+        "de": "From the Wires — 18.09.2026",
+        "it": "From the Wires — 2026-09-18",
+        "lmo": "From the Wires — 18 de setember 2026"
+      },
+      "urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Alibaba ouvre un modèle médical couvrant près de 150 pathologies, dont des cancers",
+        "en": "Alibaba Open-Sources a Medical Model Covering Nearly 150 Conditions, Including Cancers",
+        "de": "Alibaba öffnet ein medizinisches Modell, das rund 150 Krankheiten abdeckt, darunter Krebs",
+        "it": "Alibaba apre un modello medico che copre quasi 150 patologie, tumori compresi",
+        "lmo": "Alibaba el derva on modei medeghal che 'l quata quasi 150 patologia, cancer comprés"
+      },
+      "body": {
+        "fr": "Selon le South China Morning Post du 18 septembre 2026, Alibaba a open-sourcé un modèle d'IA médicale capable de détecter des cancers et près de 150 pathologies. L'annonce, discutée sur <a href=\"https://news.ycombinator.com/item?id=49761840\">Hacker News</a> (77 points), confirme l'offensive santé du groupe. Article : <a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">scmp.com</a>.",
+        "en": "According to the South China Morning Post of September 18, 2026, Alibaba has open-sourced a medical AI model capable of detecting cancers and nearly 150 conditions. The announcement, discussed on <a href=\"https://news.ycombinator.com/item?id=49761840\">Hacker News</a> (77 points), confirms the group's health offensive. Article: <a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">scmp.com</a>.",
+        "de": "Gemäss South China Morning Post vom 18. September 2026 hat Alibaba ein medizinisches KI-Modell als Open Source freigegeben, das Krebserkrankungen und rund 150 Krankheiten erkennen kann. Die Ankündigung, auf <a href=\"https://news.ycombinator.com/item?id=49761840\">Hacker News</a> (77 Punkte) diskutiert, bestätigt die Gesundheitsoffensive des Konzerns. Artikel: <a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">scmp.com</a>.",
+        "it": "Secondo il South China Morning Post del 18 settembre 2026, Alibaba ha reso open source un modello di IA medica capace di rilevare tumori e quasi 150 patologie. L'annuncio, discusso su <a href=\"https://news.ycombinator.com/item?id=49761840\">Hacker News</a> (77 punti), conferma l'offensiva sanitaria del gruppo. Articolo: <a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">scmp.com</a>.",
+        "lmo": "Segond el South China Morning Post del 18 de setember 2026, Alibaba l'ha render open-source on modei de IA medegala bon de descovrì di cancer e quasi 150 patologia. L'anunzi, discoss sora <a href=\"https://news.ycombinator.com/item?id=49761840\">Hacker News</a> (77 pont), el conferma l'ofensiva sanitaria del grupp. Articol: <a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">scmp.com</a>."
+      },
+      "tag": {
+        "fr": "Open source",
+        "en": "Open source",
+        "de": "Open Source",
+        "it": "Open source",
+        "lmo": "Open source"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-09-18",
+        "en": "From the Wires — 2026-09-18",
+        "de": "From the Wires — 18.09.2026",
+        "it": "From the Wires — 2026-09-18",
+        "lmo": "From the Wires — 18 de setember 2026"
+      },
+      "urls": [
+        "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+        "https://news.ycombinator.com/item?id=49761840"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Frontseite — Modelle & Frontiers",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modei & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Annonces des labos",
+            "en": "Lab announcements",
+            "de": "Ankündigungen der Labors",
+            "it": "Annunci dei laboratori",
+            "lmo": "Anunzi di laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Google étoffe son équipe IA & Économie avec de nouveaux experts académiques",
+                "en": "Google Expands Its AI & Economy Team with New Academic Experts",
+                "de": "Google verstärkt sein Team KI & Wirtschaft mit neuen akademischen Fachleuten",
+                "it": "Google rafforza la sua squadra IA & Economia con nuovi esperti accademici",
+                "lmo": "Google el rinforza el sò team IA & Economia cont noeuv espert academigh"
+              },
+              "body": {
+                "fr": "Google a annoncé le 18 septembre 2026 l'arrivée de nouveaux conseillers académiques, fellows et chercheurs internes au sein de son équipe AI & Economy, l'unité qui analyse l'effet macroéconomique de l'IA. Ce renforcement suit l'ouverture de la base ATLAS mi-septembre. Voir <a href=\"https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/\">l'annonce officielle</a>.",
+                "en": "Google announced on September 18, 2026 the arrival of new academic advisers, fellows and in-house researchers within its AI & Economy team, the unit analyzing AI's macroeconomic effect. The reinforcement follows the mid-September opening of the ATLAS database. See <a href=\"https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/\">the official announcement</a>.",
+                "de": "Google hat am 18. September 2026 den Zuzug neuer akademischer Berater, Fellows und interner Forscher in sein Team AI & Economy bekanntgegeben, jener Einheit, die die makroökonomische Wirkung der KI analysiert. Diese Verstärkung folgt auf die Mitte September erfolgte Eröffnung der ATLAS-Datenbank. Siehe <a href=\"https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/\">die offizielle Ankündigung</a>.",
+                "it": "Google ha annunciato il 18 settembre 2026 l'arrivo di nuovi consulenti accademici, fellow e ricercatori interni nella sua squadra AI & Economy, l'unità che analizza l'effetto macroeconomico dell'IA. Questo rafforzamento segue l'apertura della base ATLAS a metà settembre. Vedi <a href=\"https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/\">l'annuncio ufficiale</a>.",
+                "lmo": "Google l'ha anunziaa el 18 de setember 2026 la rivada di noeuv consiliee academigh, fellows e ricercador intern in del sò team AI & Economy, l'unitaa che la analizza l'effett macroeconomic de l'IA. Quest rinforz el ven dopo l'avertura de la bas ATLAS a metaa de setember. Vedé <a href=\"https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/\">l'anunzi offizial</a>."
+              },
+              "kicker": {
+                "fr": "Google",
+                "en": "Google",
+                "de": "Google",
+                "it": "Google",
+                "lmo": "Google"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Une fintech mondiale passe ses agents de codage sur l'inference dédiée de Together",
+                "en": "A Global Fintech Moves Its Coding Agents to Together's Dedicated Inference",
+                "de": "Eine globale Fintech-Firma verlagert ihre Coding-Agenten auf Together's dedizierte Inference",
+                "it": "Una fintech mondiale sposta i suoi agenti di coding sull'inferenza dedicata di Together",
+                "lmo": "Ona fintech mondiala la passa i sò agent de cod sora l'inference dedicaa de Together"
+              },
+              "body": {
+                "fr": "Together AI publie le 18 septembre 2026 le retour d'expérience d'une banque mondiale qui a basculé son trafic d'agents de codage vers une inference dédiée (DMI) en self-service : les équipes ingénierie y ont gagné le contrôle direct du scaling, du choix des modèles et des tests. L'étude de cas illustre la montée des charges agentiques en production financière. Lecture sur <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">le blog Together</a>.",
+                "en": "Together AI published on September 18, 2026 the feedback of a global bank that shifted its coding agent traffic to self-service dedicated model inference (DMI): engineering teams gained direct control over scaling, model selection and testing. The case study illustrates the rise of agentic workloads in financial production. Read on <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">the Together blog</a>.",
+                "de": "Together AI veröffentlicht am 18. September 2026 die Erfahrungswerte einer Weltbank, die ihren Verkehr mit Coding-Agenten auf eine dedizierte Inference (DMI) im Self-Service umgestellt hat: Die Engineering-Teams gewannen dadurch die direkte Kontrolle über Scaling, Modellwahl und Tests. Die Case Study illustriert das Wachstum agentischer Workloads im Produktivbetrieb im Finanzwesen. Nachzulesen auf <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">dem Together-Blog</a>.",
+                "it": "Together AI pubblica il 18 settembre 2026 il ritorno di esperienza di una banca mondiale che ha spostato il suo traffico di agenti di coding verso un'inferenza dedicata (DMI) in self-service: le squadre di ingegneria vi hanno guadagnato il controllo diretto dello scaling, della scelta dei modelli e dei test. Il caso di studio illustra l'ascesa dei carichi agentici nella finanza in produzione. Da leggere su <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">il blog Together</a>.",
+                "lmo": "Together AI el publica el 18 de setember 2026 el ritorn d'esperienza de ona banca mondiala che l'ha spostaa el sò trafegh di agent de cod vers ona inference dedicaa (DMI) in self-service: i team de ingegneria gh'hann guadagnaa el contròl dirett del scaling, de la scerna di modei e di test. El studi de cas el illustra la salida di carich agentegh in produzion finanzial. Lettura sora <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">el blog Together</a>."
+              },
+              "kicker": {
+                "fr": "Inference",
+                "en": "Inference",
+                "de": "Inference",
+                "it": "Inferenza",
+                "lmo": "Inference"
+              },
+              "urls": [
+                "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Das Technische Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & systèmes",
+            "en": "Tools & systems",
+            "de": "Werkzeuge & Systeme",
+            "it": "Strumenti & sistemi",
+            "lmo": "Strument & sistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code adopte AGENTS.md comme solution de repli",
+                "en": "Claude Code Adopts AGENTS.md as a Fallback Solution",
+                "de": "Claude Code übernimmt AGENTS.md als Fallback-Lösung",
+                "it": "Claude Code adotta AGENTS.md come soluzione di ripiego",
+                "lmo": "Claude Code el doperà AGENTS.md come soluzion de repli"
+              },
+              "body": {
+                "fr": "Le changelog du 18 septembre 2026 indique que Claude Code lit désormais le fichier AGENTS.md lorsqu'aucun CLAUDE.md n'est présent dans le projet — un pas vers la standardisation inter-outils des instructions d'agent, déjà discutée par 208 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49760187\">Hacker News</a> (582 points). Source : <a href=\"https://code.claude.com/docs/en/changelog\">changelog officiel</a>.",
+                "en": "The September 18, 2026 changelog indicates that Claude Code now reads the AGENTS.md file when no CLAUDE.md is present in the project — a step toward cross-tool standardization of agent instructions, already discussed by 208 comments on <a href=\"https://news.ycombinator.com/item?id=49760187\">Hacker News</a> (582 points). Source: <a href=\"https://code.claude.com/docs/en/changelog\">official changelog</a>.",
+                "de": "Das Changelog vom 18. September 2026 zeigt, dass Claude Code neu die Datei AGENTS.md liest, wenn im Projekt kein CLAUDE.md vorhanden ist — ein Schritt Richtung werkzeugübergreifende Standardisierung von Agenten-Instruktionen, bereits mit 208 Kommentaren auf <a href=\"https://news.ycombinator.com/item?id=49760187\">Hacker News</a> diskutiert (582 Punkte). Quelle: <a href=\"https://code.claude.com/docs/en/changelog\">offizielles Changelog</a>.",
+                "it": "Il changelog del 18 settembre 2026 indica che Claude Code ora legge il file AGENTS.md quando nessun CLAUDE.md è presente nel progetto — un passo verso la standardizzazione interstrumenti delle istruzioni degli agenti, già discussa da 208 commenti su <a href=\"https://news.ycombinator.com/item?id=49760187\">Hacker News</a> (582 punti). Fonte: <a href=\"https://code.claude.com/docs/en/changelog\">changelog ufficiale</a>.",
+                "lmo": "El changelog del 18 de setember 2026 el dis che Claude Code adess el lesg el file AGENTS.md quand che gh'è nissun CLAUDE.md present in del progett — on pass vers la standardizzazion intra-strument di istruzion de l'agent, giamò discossa de 208 comment sora <a href=\"https://news.ycombinator.com/item?id=49760187\">Hacker News</a> (582 pont). Font: <a href=\"https://code.claude.com/docs/en/changelog\">changelog offizial</a>."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harness",
+                "it": "Harness",
+                "lmo": "Harnais"
+              },
+              "urls": [
+                "https://code.claude.com/docs/en/changelog",
+                "https://news.ycombinator.com/item?id=49760187"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Encore 100 To de RAM économisés, par la seule force des mathématiques",
+                "en": "Another 100 TB of RAM Saved, Through the Sheer Power of Mathematics",
+                "de": "Wieder 100 TB RAM gespart — allein durch die Kraft der Mathematik",
+                "it": "Altri 100 To di RAM risparmiati, alla sola forza della matematica",
+                "lmo": "Ancmò 100 TO de RAM risparmiaa, domà con la forza di matematega"
+              },
+              "body": {
+                "fr": "Cloudflare détaille le 18 septembre 2026 comment une refonte mathématique de ses structures internes lui a permis d'économiser 100 To supplémentaires de RAM — après un premier gain du même ordre. Le billet (285 points sur <a href=\"https://news.ycombinator.com/item?id=49758580\">Hacker News</a>) montre qu'à l'échelle, l'optimisation mémoire est un levier d'infrastructure IA autant que les GPU. À lire sur <a href=\"https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/\">le blog Cloudflare</a>.",
+                "en": "Cloudflare details on September 18, 2026 how a mathematical overhaul of its internal structures allowed it to save an additional 100 TB of RAM — after a first gain of the same order. The post (285 points on <a href=\"https://news.ycombinator.com/item?id=49758580\">Hacker News</a>) shows that at scale, memory optimization is as much an AI infrastructure lever as GPUs. Read on <a href=\"https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/\">the Cloudflare blog</a>.",
+                "de": "Cloudflare legt am 18. September 2026 dar, wie eine mathematische Neugestaltung interner Datenstrukturen weitere 100 TB RAM einsparte — nach einem ersten Gewinn ähnlicher Grössenordnung. Der Beitrag (285 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49758580\">Hacker News</a>) zeigt, dass Speicheroptimierung im grossen Massstab ein Hebel der KI-Infrastruktur ist wie die GPUs selbst. Zu lesen auf <a href=\"https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/\">dem Cloudflare-Blog</a>.",
+                "it": "Cloudflare dettaglia il 18 settembre 2026 come una rielaborazione matematica delle sue strutture interne gli abbia permesso di risparmiare altri 100 To di RAM — dopo un primo guadagno dello stesso ordine. Il post (285 punti su <a href=\"https://news.ycombinator.com/item?id=49758580\">Hacker News</a>) mostra che a scala, l'ottimizzazione della memoria è una leva d'infrastruttura IA quanto le GPU. Da leggere su <a href=\"https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/\">il blog Cloudflare</a>.",
+                "lmo": "Cloudflare el detaja el 18 de setember 2026 come ona refoda matematega di sò struttur intern gh'ha permettuu de risparmià 100 TO pussee de RAM — dopo on prim guadagn de l'istess orden. El post (285 pont sora <a href=\"https://news.ycombinator.com/item?id=49758580\">Hacker News</a>) el mostra che a la scala, l'ottimizzazion de memoria l'è ona leva d'infrastrutura IA tant quant i GPU. De legg sora <a href=\"https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/\">el blog Cloudflare</a>."
+              },
+              "kicker": {
+                "fr": "Infra",
+                "en": "Infra",
+                "de": "Infra",
+                "it": "Infra",
+                "lmo": "Infra"
+              },
+              "urls": [
+                "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/",
+                "https://news.ycombinator.com/item?id=49758580"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ZCode : quand l'agent de codage exfiltre votre historique Git en silence",
+                "en": "ZCode: When a Coding Agent Quietly Exfiltrates Your Git History",
+                "de": "ZCode: Wenn der Coding-Agent Ihre Git-Historie stillschweigend exfiltriert",
+                "it": "ZCode: quando l'agente di coding esfiltra la tua cronologia Git in silenzio",
+                "lmo": "ZCode: quand che l'agent de cod el se ciappa via el tò istorich Git in silenzi"
+              },
+              "body": {
+                "fr": "Une analyse publiée le 18 septembre 2026 documente comment l'extension ZCode télécharge silencieusement l'historique Git complet et un snapshot de l'espace de travail vers le cloud, sans avertissement clair. Le billet, à 277 points sur <a href=\"https://news.ycombinator.com/item?id=49750694\">Hacker News</a>, relance le débat sur la confidentialité des harnais de codage. Analyse complète sur <a href=\"https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/\">blog.ferstar.org</a>.",
+                "en": "An analysis published on September 18, 2026 documents how the ZCode extension silently uploads the complete Git history and a snapshot of the workspace to the cloud, without clear warning. The post, at 277 points on <a href=\"https://news.ycombinator.com/item?id=49750694\">Hacker News</a>, reignites the debate over the privacy of coding harnesses. Full analysis on <a href=\"https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/\">blog.ferstar.org</a>.",
+                "de": "Eine am 18. September 2026 veröffentlichte Analyse dokumentiert, wie die Erweiterung ZCode unbemerkt den vollständigen Git-Verlauf und einen Snapshot des Arbeitsbereichs in die Cloud hochlädt, ohne klare Warnung. Der Beitrag, mit 277 Punkten auf <a href=\"https://news.ycombinator.com/item?id=49750694\">Hacker News</a>, befeuert die Debatte über die Vertraulichkeit von Coding-Harnesses. Vollständige Analyse auf <a href=\"https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/\">blog.ferstar.org</a>.",
+                "it": "Un'analisi pubblicata il 18 settembre 2026 documenta come l'estensione ZCode scarichi silenziosamente la cronologia Git completa e uno snapshot dello spazio di lavoro verso il cloud, senza avviso chiaro. Il post, a 277 punti su <a href=\"https://news.ycombinator.com/item?id=49750694\">Hacker News</a>, rilancia il dibattito sulla riservatezza degli harness di coding. Analisi completa su <a href=\"https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/\">blog.ferstar.org</a>.",
+                "lmo": "On'analisi publica el 18 de setember 2026 la documenta come l'estension ZCode la descarega in silenzi l'istorich Git complet e ona foto de l'ambient de laurà vers el cloud, senza on avvertiment ciar. El post, a 277 pont sora <a href=\"https://news.ycombinator.com/item?id=49750694\">Hacker News</a>, el fa tornà el dibattit sora la riservatezza di harnais de cod. Analisi completa sora <a href=\"https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/\">blog.ferstar.org</a>."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/",
+                "https://news.ycombinator.com/item?id=49750694"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & labos",
+            "en": "Papers & labs",
+            "de": "Papers & Labors",
+            "it": "Paper & laboratori",
+            "lmo": "Paper & laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Fuse : mesurer le raisonnement social des assistants LLM avec une vérité terrain vérifiable",
+                "en": "Fuse: Measuring the Social Reasoning of LLM Assistants with Verifiable Ground Truth",
+                "de": "Fuse: Das soziale Reasoning von LLM-Assistenten mit überprüfbarer Ground Truth messen",
+                "it": "Fuse: misurare il ragionamento sociale degli assistenti LLM con una verità di riferimento verificabile",
+                "lmo": "Fuse: misurà el resonament social di assistent LLM cont ona veritaa terren verificabil"
+              },
+              "body": {
+                "fr": "Des chercheurs de Google introduisent Fuse, un cadre de simulation multi-agents pour évaluer le raisonnement social des assistants à partir de récits subjectifs d'utilisateurs, avec vérité terrain par construction. Validée par une étude humaine de 24 000 annotations et appliquée à 12 LLM, la méthode montre notamment que les modèles sont sensibles au cadrage biaisé de l'utilisateur. Paper : <a href=\"https://arxiv.org/abs/2609.17496\">arXiv:2609.17496</a> (13 upvotes sur <a href=\"https://huggingface.co/papers\">HF Daily Papers</a>), code ouvert avec 21 000 exemples.",
+                "en": "Google researchers introduce Fuse, a multi-agent simulation framework to evaluate the social reasoning of assistants from users' subjective narratives, with ground truth by construction. Validated by a 24,000-annotation human study and applied to 12 LLMs, the method notably shows that models are sensitive to biased user framing. Paper: <a href=\"https://arxiv.org/abs/2609.17496\">arXiv:2609.17496</a> (13 upvotes on <a href=\"https://huggingface.co/papers\">HF Daily Papers</a>), open-source code with 21,000 examples.",
+                "de": "Forscher von Google stellen Fuse vor, ein Multi-Agenten-Simulations-Framework zur Bewertung des sozialen Reasonings von Assistenten anhand subjektiver Nutzernarrative, mit einer per Konstruktion verifizierbaren Ground Truth. Validiert mit einer menschlichen Studie von 24 000 Annotationen und auf 12 LLMs angewendet, zeigt die Methode unter anderem, dass die Modelle anfällig für das verzerrte Framing der Nutzer sind. Paper: <a href=\"https://arxiv.org/abs/2609.17496\">arXiv:2609.17496</a> (13 Upvotes auf <a href=\"https://huggingface.co/papers\">HF Daily Papers</a>), offener Code mit 21 000 Beispielen.",
+                "it": "Ricercatori di Google introducono Fuse, un quadro di simulazione multi-agente per valutare il ragionamento sociale degli assistenti a partire da resoconti soggettivi degli utenti, con verità di riferimento garantita per costruzione. Validata da uno studio umano di 24.000 annotazioni e applicata a 12 LLM, il metodo mostra in particolare che i modelli sono sensibili all'inquadramento distorto dell'utente. Paper: <a href=\"https://arxiv.org/abs/2609.17496\">arXiv:2609.17496</a> (13 upvote su <a href=\"https://huggingface.co/papers\">HF Daily Papers</a>), codice aperto con 21.000 esempi.",
+                "lmo": "Di ricercador de Google i presenta Fuse, on quadro de simulazion multi-agent per valutà el resonament social di assistent a partì di raccont soggettiv di utent, cont veritaa terren per costruzion. Validada cont on studi uman de 24 000 annotazion e aplicada a 12 LLM, la metoda la mostra tra l'alter che i modei hinn sensibii al cadratura sbiasada de l'utent. Paper: <a href=\"https://arxiv.org/abs/2609.17496\">arXiv:2609.17496</a> (13 upvote sora <a href=\"https://huggingface.co/papers\">HF Daily Papers</a>), codesvert con 21 000 esempi."
+              },
+              "kicker": {
+                "fr": "Google",
+                "en": "Google",
+                "de": "Google",
+                "it": "Google",
+                "lmo": "Google"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.17496"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MiniMax-H3 à l'épreuve du monde physique : 41,97 % de réussite globale",
+                "en": "MiniMax-H3 Tested Against the Physical World: 41.97% Overall Success Rate",
+                "de": "MiniMax-H3 auf dem Prüfstand der physischen Welt: 41,97 % Gesamterfolg",
+                "it": "MiniMax-H3 alla prova del mondo fisico: 41,97% di successo globale",
+                "lmo": "MiniMax-H3 a la prova del mond fisegh: 41,97 % de reussia global"
+              },
+              "body": {
+                "fr": "Une équipe indépendante a soumis MiniMax-H3 à 517 instances d'évaluation du raisonnement physique omni-modal : taux de réussite global de 41,97 %, avec 56,00 % pour la décision à partir de vidéo mais seulement 27,40 % pour la désambiguïsation audio. Les résultats, en tête des Daily Papers du 18 septembre 2026 (23 upvotes), suggèrent que l'intégration multimodale reste le maillon faible des omni-modèles. Paper : <a href=\"https://arxiv.org/abs/2609.18323\">arXiv:2609.18323</a>, code sur <a href=\"https://github.com/gulucaptain/MiniMax-H3-Reason\">GitHub</a>.",
+                "en": "An independent team subjected MiniMax-H3 to 517 evaluation instances of omni-modal physical reasoning: an overall success rate of 41.97%, with 56.00% for video-based decision-making but only 27.40% for audio disambiguation. The results, topping the September 18, 2026 Daily Papers (23 upvotes), suggest that multimodal integration remains the weak link of omni-models. Paper: <a href=\"https://arxiv.org/abs/2609.18323\">arXiv:2609.18323</a>, code on <a href=\"https://github.com/gulucaptain/MiniMax-H3-Reason\">GitHub</a>.",
+                "de": "Ein unabhängiges Team hat MiniMax-H3 durch 517 Evaluationsinstanzen für omni-modales physisches Reasoning geschickt: globale Erfolgsquote von 41,97 %, mit 56,00 % bei der Videobasierten Entscheidung, aber nur 27,40 % bei der Audio-Desambiguierung. Die Ergebnisse, am 18. September 2026 an der Spitze der Daily Papers (23 Upvotes), legen nahe, dass die multimodale Integration nach wie vor die Schwachstelle der Omni-Modelle ist. Paper: <a href=\"https://arxiv.org/abs/2609.18323\">arXiv:2609.18323</a>, Code auf <a href=\"https://github.com/gulucaptain/MiniMax-H3-Reason\">GitHub</a>.",
+                "it": "Una squadra indipendente ha sottoposto MiniMax-H3 a 517 istanze di valutazione del ragionamento fisico omni-modale: tasso di successo globale del 41,97%, con il 56,00% per la decisione a partire da video ma solo il 27,40% per la disambiguazione audio. I risultati, in testa ai Daily Papers del 18 settembre 2026 (23 upvote), suggeriscono che l'integrazione multimodale resta l'anello debole degli omni-modelli. Paper: <a href=\"https://arxiv.org/abs/2609.18323\">arXiv:2609.18323</a>, codice su <a href=\"https://github.com/gulucaptain/MiniMax-H3-Reason\">GitHub</a>.",
+                "lmo": "Ona squadra independenta l'ha sutaa MiniMax-H3 a 517 instanz de valutazion del resonament fisegh omni-modal: tass de reussia global de 41,97 %, cont 56,00 % per la decision a partì de video ma domà 27,40 % per la desambiguiazion audio. I resultaa, in coo di Daily Papers del 18 de setember 2026 (23 upvote), suggerissen che l'integrazion multimodala la resta l'aneli debol di omni-modei. Paper: <a href=\"https://arxiv.org/abs/2609.18323\">arXiv:2609.18323</a>, codes sora <a href=\"https://github.com/gulucaptain/MiniMax-H3-Reason\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.18323",
+                "https://github.com/gulucaptain/MiniMax-H3-Reason"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Harm laundering » : la discrimination transformée plutôt qu'éliminée dans GPT",
+                "en": "\"Harm Laundering\": Discrimination Transformed Rather Than Eliminated in GPT",
+                "de": "«Harm Laundering»: Diskriminierung wird in GPT transformiert statt beseitigt",
+                "it": "«Harm laundering»: la discriminazione trasformata anziché eliminata nei GPT",
+                "lmo": "« Harm laundering »: la discriminazion trasformada pitost che eliminada in GPT"
+              },
+              "body": {
+                "fr": "Un paper publié le 19 septembre 2026 montre que dans les modèles GPT, la discrimination de genre n'est pas supprimée par les filtres de sécurité mais transformée et déplacée — un phénomène que ses auteurs nomment « blanchiment de dommage » (harm laundering). Le travail fait écho aux débats sur l'évaluation comportementale ouverts par le cadre de signalement d'OpenAI. Paper : <a href=\"https://arxiv.org/abs/2609.20779\">arXiv:2609.20779</a>.",
+                "en": "A paper published on September 19, 2026 shows that in GPT models, gender discrimination is not removed by safety filters but transformed and displaced — a phenomenon its authors call \"harm laundering.\" The work echoes the debates on behavioral evaluation opened by OpenAI's reporting framework. Paper: <a href=\"https://arxiv.org/abs/2609.20779\">arXiv:2609.20779</a>.",
+                "de": "Ein am 19. September 2026 veröffentlichtes Paper zeigt, dass in GPT-Modellen die Geschlechterdiskriminierung durch Sicherheitsfilter nicht beseitigt, sondern transformiert und verschoben wird — ein Phänomen, das die Autoren «Harm Laundering» (Schadenswäsche) nennen. Die Arbeit ergänzt die Debatten über Verhaltensevaluation, die durch das Melde-Framework von OpenAI eröffnet wurden. Paper: <a href=\"https://arxiv.org/abs/2609.20779\">arXiv:2609.20779</a>.",
+                "it": "Un paper pubblicato il 19 settembre 2026 mostra che nei modelli GPT la discriminazione di genere non è eliminata dai filtri di sicurezza ma trasformata e spostata — un fenomeno che i suoi autori chiamano «riciclaggio del danno» (harm laundering). Il lavoro fa eco ai dibattiti sulla valutazione comportamentale aperti dal quadro di segnalazione di OpenAI. Paper: <a href=\"https://arxiv.org/abs/2609.20779\">arXiv:2609.20779</a>.",
+                "lmo": "On paper publicaa el 19 de setember 2026 el mostra che in di modei GPT, la discriminazion de gener l'è minga scanzada di filtr de sigurezza ma trasformada e spostada — on fenomen che i sò autor i ciamen « sbiancament de dann » (harm laundering). El laurà el fa eco ai dibattit sora la valutazion comportamental dervii del quadro de segnalazion de OpenAI. Paper: <a href=\"https://arxiv.org/abs/2609.20779\">arXiv:2609.20779</a>."
+              },
+              "kicker": {
+                "fr": "Alignement",
+                "en": "Alignment",
+                "de": "Alignment",
+                "it": "Allineamento",
+                "lmo": "Alignament"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.20779"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & opinion",
+            "en": "Signals & opinion",
+            "de": "Signale & Meinung",
+            "it": "Segnali & opinione",
+            "lmo": "Segnai & opinion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Needle 3 : des modèles d'automatisation de 8 à 29 Mo qui tiennent la comparaison avec DeepSeek V4 Flash",
+                "en": "Needle 3: Automation Models of 8 to 29 MB That Hold Their Own Against DeepSeek V4 Flash",
+                "de": "Needle 3: Automatisierungsmodelle von 8 bis 29 MB, die mit DeepSeek V4 Flash mithalten",
+                "it": "Needle 3: modelli di automazione da 8 a 29 Mo che reggono il confronto con DeepSeek V4 Flash",
+                "lmo": "Needle 3: modei de automatizzazion de 8 a 29 Mo che i se tenen a la par con DeepSeek V4 Flash"
+              },
+              "body": {
+                "fr": "Cactus a publié le 18 septembre 2026 Needle 3, une famille d'automatisation de 25 à 121 millions de paramètres en 2-bit livrant des binaires de 8 à 29 Mo, décodant jusqu'à 4 000 tokens/s sur Raspberry Pi 5. Sur Mobile Actions, le modèle 20 couches atteint 86,0 contre 82,4 pour LFM2.5 1.2B et 76,0 pour Qwen3.5 0.8B. Annonce et démo sur <a href=\"https://cactuscompute.com/needle\">cactuscompute.com</a>, discussion à 181 points sur <a href=\"https://news.ycombinator.com/item?id=49748553\">Hacker News</a>.",
+                "en": "Cactus released on September 18, 2026 Needle 3, a family of automation models of 25 to 121 million parameters in 2-bit delivering 8 to 29 MB binaries, decoding up to 4,000 tokens/s on a Raspberry Pi 5. On Mobile Actions, the 20-layer model reaches 86.0 versus 82.4 for LFM2.5 1.2B and 76.0 for Qwen3.5 0.8B. Announcement and demo on <a href=\"https://cactuscompute.com/needle\">cactuscompute.com</a>, discussion at 181 points on <a href=\"https://news.ycombinator.com/item?id=49748553\">Hacker News</a>.",
+                "de": "Cactus hat am 18. September 2026 Needle 3 veröffentlicht, eine Automatisierungs-Familie mit 25 bis 121 Millionen Parametern in 2-Bit, die Binärdateien von 8 bis 29 MB liefert und auf einem Raspberry Pi 5 bis zu 4 000 Tokens/s dekodiert. Auf Mobile Actions erreicht das 20-Schichten-Modell 86,0 gegenüber 82,4 für LFM2.5 1.2B und 76,0 für Qwen3.5 0.8B. Ankündigung und Demo auf <a href=\"https://cactuscompute.com/needle\">cactuscompute.com</a>, Diskussion mit 181 Punkten auf <a href=\"https://news.ycombinator.com/item?id=49748553\">Hacker News</a>.",
+                "it": "Cactus ha pubblicato il 18 settembre 2026 Needle 3, una famiglia di automazione da 25 a 121 milioni di parametri in 2-bit che fornisce binari da 8 a 29 Mo, decodificando fino a 4.000 token/s su Raspberry Pi 5. Su Mobile Actions, il modello a 20 strati raggiunge 86,0 contro 82,4 per LFM2.5 1.2B e 76,0 per Qwen3.5 0.8B. Annuncio e demo su <a href=\"https://cactuscompute.com/needle\">cactuscompute.com</a>, discussione a 181 punti su <a href=\"https://news.ycombinator.com/item?id=49748553\">Hacker News</a>.",
+                "lmo": "Cactus l'ha publicaa el 18 de setember 2026 Needle 3, ona fameja de automatizzazion de 25 a 121 milion de parametr in 2-bit che la consegna di binari de 8 a 29 Mo, cont decodifica fina a 4 000 token/s sora Raspberry Pi 5. Sora Mobile Actions, el modei a 20 strat el riva a 86,0 contra 82,4 per LFM2.5 1.2B e 76,0 per Qwen3.5 0.8B. Anunzi e demo sora <a href=\"https://cactuscompute.com/needle\">cactuscompute.com</a>, discussione a 181 pont sora <a href=\"https://news.ycombinator.com/item?id=49748553\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Show HN",
+                "en": "Show HN",
+                "de": "Show HN",
+                "it": "Show HN",
+                "lmo": "Show HN"
+              },
+              "urls": [
+                "https://cactuscompute.com/needle",
+                "https://news.ycombinator.com/item?id=49748553"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Comment OpenAI a utilisé ses propres LLM pour concevoir sa puce « Jalapeño »",
+                "en": "How OpenAI Used Its Own LLMs to Design Its \"Jalapeño\" Chip",
+                "de": "Wie OpenAI die eigenen LLMs für die Entwicklung seines Chips «Jalapeño» nutzte",
+                "it": "Come OpenAI ha usato i propri LLM per progettare il suo chip «Jalapeño»",
+                "lmo": "Come OpenAI l'ha dovraa i sò midemm LLM per disegnà la soa chip « Jalapeño »"
+              },
+              "body": {
+                "fr": "IEEE Spectrum révèle le 18 septembre 2026 comment OpenAI a mobilisé ses propres LLM dans la conception de sa puce « Jalapeño », de la génération de RTL à la vérification. Le récit documente l'entrée des modèles génératifs dans la chaîne de conception matérielle, un domaine jusqu'ici épargné. Enquête sur <a href=\"https://spectrum.ieee.org/llms-for-chip-design\">spectrum.ieee.org</a>, discutée sur <a href=\"https://news.ycombinator.com/item?id=49761432\">Hacker News</a> (86 points).",
+                "en": "IEEE Spectrum reveals on September 18, 2026 how OpenAI mobilized its own LLMs in the design of its \"Jalapeño\" chip, from RTL generation to verification. The account documents generative models' entry into the hardware design chain, a domain spared until now. Investigation on <a href=\"https://spectrum.ieee.org/llms-for-chip-design\">spectrum.ieee.org</a>, discussed on <a href=\"https://news.ycombinator.com/item?id=49761432\">Hacker News</a> (86 points).",
+                "de": "IEEE Spectrum enthüllt am 18. September 2026, wie OpenAI die eigenen LLMs bei der Entwicklung seines Chips «Jalapeño» eingesetzt hat — von der RTL-Generierung bis zur Verifikation. Der Bericht dokumentiert den Einzug generativer Modelle in die Chipdesign-Kette, ein bisher weitgehend unberührtes Gebiet. Reportage auf <a href=\"https://spectrum.ieee.org/llms-for-chip-design\">spectrum.ieee.org</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=49761432\">Hacker News</a> (86 Punkte).",
+                "it": "IEEE Spectrum rivela il 18 settembre 2026 come OpenAI abbia mobilitato i propri LLM nella progettazione del suo chip «Jalapeño», dalla generazione di RTL alla verifica. Il racconto documenta l'ingresso dei modelli generativi nella catena di progettazione hardware, un dominio finora risparmiato. Inchiesta su <a href=\"https://spectrum.ieee.org/llms-for-chip-design\">spectrum.ieee.org</a>, discussa su <a href=\"https://news.ycombinator.com/item?id=49761432\">Hacker News</a> (86 punti).",
+                "lmo": "IEEE Spectrum el rivela el 18 de setember 2026 come OpenAI l'ha mobilizzaa i sò midemm LLM in del design de la soa chip « Jalapeño », de la generazion de RTL a la verificazion. El raccont el documenta l'intrada di modei generativ in de la cadena de design hardware, on domini fin ades sparogn. Inchiesta sora <a href=\"https://spectrum.ieee.org/llms-for-chip-design\">spectrum.ieee.org</a>, discossa sora <a href=\"https://news.ycombinator.com/item?id=49761432\">Hacker News</a> (86 pont)."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://spectrum.ieee.org/llms-for-chip-design",
+                "https://news.ycombinator.com/item?id=49761432"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — Le jour sans méga-lancement, ou la consolidation tranquille de l'IA",
+                "en": "Editorial — The Day Without a Mega-Launch, or AI's Quiet Consolidation",
+                "de": "Leitartikel — Der Tag ohne Mega-Launch, oder: Die stille Konsolidierung der KI",
+                "it": "Editoriale — La giornata senza mega-lancio, ovvero la tranquilla consolidazione dell'IA",
+                "lmo": "Edito — El dì senza mega-lans, o la consolidazion quietta de l'IA"
+              },
+              "body": {
+                "fr": "Ce vendredi 19 septembre 2026, aucune révolution frontière : pas de nouvelle version numérotée, pas de record fracassant. Et pourtant, le fil de la journée raconte quelque chose. xAI pousse un modèle de transcription ; Google recrute pour mesurer l'IA dans l'économie ; Anthropic s'allie à Accenture pour évaluer ses agents là où ils travaillent ; Alibaba ouvre un modèle médical couvrant près de 150 pathologies (<a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">SCMP</a>). Le front s'est déplacé : après la course aux paramètres, celle à l'intégration, à la mesure et à la confiance. Les journées sans tambour sont celles où l'infrastructure se solidifie — c'est souvent là que se décident les prochaines guerres.",
+                "en": "This Friday, September 19, 2026, no frontier revolution: no new numbered release, no record-breaking benchmark. And yet, the day's feed tells us something. xAI is pushing a transcription model; Google is hiring to measure AI in the economy; Anthropic is teaming up with Accenture to evaluate its agents where they work; Alibaba is open-sourcing a medical model covering nearly 150 conditions (<a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">SCMP</a>). The front has shifted: after the race for parameters comes the race for integration, measurement and trust. The days without drumbeats are the ones when infrastructure solidifies — and that is often where the next wars are decided.",
+                "de": "An diesem Freitag, dem 19. September 2026, keine Frontier-Revolution: keine neue nummerierte Version, kein spektakulärer Rekord. Und doch erzählt der Tagesverlauf etwas. xAI schiebt ein Transkriptionsmodell an; Google rekrutiert, um KI in der Wirtschaft zu messen; Anthropic verbündet sich mit Accenture, um seine Agenten dort zu evaluieren, wo sie arbeiten; Alibaba öffnet ein medizinisches Modell, das rund 150 Krankheiten abdeckt (<a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">SCMP</a>). Die Front hat sich verschoben: Nach dem Wettlauf um Parameter folgt jener um Integration, Messung und Vertrauen. Die Tage ohne Paukenschlag sind jene, in denen sich die Infrastruktur verfestigt — und oft werden dort die nächsten Kriege entschieden.",
+                "it": "Questo venerdì 19 settembre 2026, nessuna rivoluzione frontiera: nessuna nuova versione numerata, nessun record fragoroso. Eppure, il filo della giornata racconta qualcosa. xAI spinge un modello di trascrizione; Google recluta per misurare l'IA nell'economia; Anthropic si allea con Accenture per valutare i suoi agenti là dove lavorano; Alibaba apre un modello medico che copre quasi 150 patologie (<a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">SCMP</a>). Il fronte si è spostato: dopo la corsa ai parametri, quella all'integrazione, alla misura e alla fiducia. Le giornate senza tamburi sono quelle in cui l'infrastruttura si consolida — ed è spesso lì che si decidono le prossime guerre.",
+                "lmo": "Sto venerdì 19 de setember 2026, nissuna rivoluzion de frontiera: nò di noeuv version numerada, nò di record fragoros. E tutamanch, el fil del dì el cunta quaicoss. xAI el sping on modei de trascrizion; Google el recluta per misurà l'IA in de l'economia; Anthropic el se gionta a Accenture per valutà i sò agent indova che i laura; Alibaba el derva on modei medegh che 'l quata quasi 150 patologia (<a href=\"https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions\">SCMP</a>). El front el s'è spostaa: dopo la corsa ai parametr, quella a l'integrazion, a la misura e a la fiducia. I dì senza tambor hinn quij indova l'infrastrutura la se fa solida — l'è despess lilinscì che se decid i prossim guerr."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "urls": [
+                "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
