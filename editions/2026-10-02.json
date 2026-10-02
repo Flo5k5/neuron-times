@@ -1,0 +1,563 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-02",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le Allen Institute for Artificial Intelligence a annoncé le 1er octobre 2026 la sortie d'Olmo-core 3, une infrastructure d'entraînement open source conçue pour faire tourner des architectures à mélanges d'experts (MoE) de grande échelle. Avec cette troisième génération, le laboratoire de Seattle étend sa mission historique — rendre les modèles de frontière reproductibles — au niveau de la couche d'entraînement elle-même, une zone généralement considérée comme le domaine réservé des infrastructures propriétaires des géants. L'annonce est détaillée dans un <a href=\"https://huggingface.co/blog/allenai/olmocore3\">billet publié sur le blog de Hugging Face</a>, qui héberge également les artefacts.",
+        "en": "The Allen Institute for Artificial Intelligence announced on 1 October 2026 the release of Olmo-core 3, an open-source training infrastructure designed to run large-scale mixture-of-experts (MoE) architectures. With this third generation, the Seattle-based lab extends its historic mission — making frontier models reproducible — down to the training layer itself, an area long considered the reserved domain of the tech giants' proprietary infrastructure. The announcement is detailed in <a href=\"https://huggingface.co/blog/allenai/olmocore3\">a post on the Hugging Face blog</a>, which also hosts the artifacts.",
+        "de": "Das Allen Institute for Artificial Intelligence hat am 1. Oktober 2026 die Veröffentlichung von Olmo-core 3 angekündigt, einer Open-Source-Trainingsinfrastruktur, die für den Betrieb gross angelegter Mixture-of-Experts-Architekturen (MoE) konzipiert ist. Mit dieser dritten Generation erweitert das Seattleer Labor seine historische Mission – Frontier-Modelle reproduzierbar zu machen – auf die Trainingsschicht selbst, ein Bereich, der gemeinhin als Reservat der proprietären Infrastrukturen der Tech-Riesen gilt. Die Ankündigung ist in einem <a href=\"https://huggingface.co/blog/allenai/olmocore3\">Beitrag im Hugging-Face-Blog</a> im Detail beschrieben; dort werden auch die Artefakte gehostet.",
+        "it": "Il Allen Institute for Artificial Intelligence ha annunciato il 1° ottobre 2026 il rilascio di Olmo-core 3, un'infrastruttura di addestramento open source progettata per far girare architetture a miscela di esperti (MoE) su grande scala. Con questa terza generazione, il laboratorio di Seattle estende la sua missione storica — rendere riproducibili i modelli di frontiera — al livello dello strato di addestramento stesso, una zona generalmente considerata dominio riservato delle infrastrutture proprietarie dei giganti. L'annuncio è dettagliato in un <a href=\"https://huggingface.co/blog/allenai/olmocore3\">post pubblicato sul blog di Hugging Face</a>, che ospita anche gli artefatti.",
+        "lmo": "El Allen Institute for Artificial Intelligence l'ha anunziaa el 1 de ottober 2026 la sortida de Olmo-core 3, 'na infrastruttura de addestrament open source fada su per fà girà architettur a mistur de espert (MoE) de granda scala. Con 'sta terza generazion, el laboratori de Seattle el estend la soa mission storega — rend i modej de frontera riproducibij — al nivel de la coustra de addestrament medesima, 'na zona generalment considerada el domini riservaa di infrastruttur proprietari di gigant. L'anunzi l'è detaliaa in d'on <a href=\"https://huggingface.co/blog/allenai/olmocore3\">billet publicaa sora el blog de Hugging Face</a>, che l'ospita anca i artefatt."
+      },
+      {
+        "fr": "L'enjeu dépasse la simple contribution de code : l'écosystème open source manque structurellement d'outils capables d'entraîner des MoE de plusieurs dizaines de milliards de paramètres sans répliquer les pipelines internes de Google ou de Meta. En ouvrant une infrastructure explicitement pensée pour la scalabilité MoE, AI2 offre aux universités et aux laboratoires indépendants une base commune sur laquelle bâtir, mesurer et comparer des expériences reproductibles.",
+        "en": "The stakes go beyond a simple code contribution: the open-source ecosystem structurally lacks tools capable of training MoE models with tens of billions of parameters without replicating the internal pipelines of Google or Meta. By opening up an infrastructure explicitly built for MoE scalability, AI2 gives universities and independent labs a common foundation on which to build, measure and compare reproducible experiments.",
+        "de": "Der Anlass geht über eine blosse Code-Beitrag hinaus: Dem Open-Source-Ökosystem fehlt strukturell an Werkzeugen, mit denen sich MoE-Modelle mit mehreren Dutzend Milliarden Parametern trainieren lassen, ohne die internen Pipelines von Google oder Meta nachzubauen. Mit der Öffnung einer ausdrücklich auf MoE-Skalierbarkeit ausgelegten Infrastruktur gibt AI2 Universitäten und unabhängigen Labors eine gemeinsame Basis, auf der sich reproduzierbare Experimente aufbauen, messen und vergleichen lassen.",
+        "it": "La posta in gioco va oltre il semplice contributo di codice: l'ecosistema open source soffre strutturalmente della mancanza di strumenti capaci di addestrare MoE di parecchie decine di miliardi di parametri senza replicare le pipeline interne di Google o di Meta. Aprendo un'infrastruttura esplicitamente pensata per la scalabilità MoE, AI2 offre a università e laboratori indipendenti una base comune su cui costruire, misurare e confrontare esperimenti riproducibili.",
+        "lmo": "L'enoeugh el va oltra la semplice contribuzion de codes: l'ecosistem open source el gh'ha minga, a nivel struttural, di strument bon de addestrà MoE de desene de miliard de parameter senza replicà i pipeline interni de Google o de Meta. In vertend ona infrastruttura pensada aposta per la scalabilitaa MoE, AI2 el ghe offriss ai universitaa e ai laboratori independent ona bas comun sora la quaj fà su, misurà e paragonà di esperienz riproducibij."
+      },
+      {
+        "fr": "La sortie s'inscrit dans une semaine dense pour l'open research : elle complète l'effort de transparence du secteur après les publications d'Apple en apprentissage par renforcement le même jour, et arrive alors que le routage multi-modèles émerge comme bataille frontière — la communauté a d'ailleurs vivement débattu le 1er octobre d'un routeur open source revendiquant la parité avec GPT-6 Astra. Olmo-core 3 donne à cette communauté les outils pour ne plus seulement consommer, mais produire.",
+        "en": "The release comes in a dense week for open research: it completes the industry's transparency push following Apple's reinforcement learning publications the same day, and lands as multi-model routing emerges as a frontier battleground — the community, indeed, vigorously debated an open-source router claiming parity with GPT-6 Astra on 1 October. Olmo-core 3 gives that community the tools to stop merely consuming and start producing.",
+        "de": "Die Veröffentlichung fällt in eine ereignisreiche Woche für die offene Forschung: Sie ergänzt die Transparenzbemühungen der Branche nach Apples Veröffentlichungen zum Reinforcement Learning am selben Tag und kommt zu einem Zeitpunkt, da das Multi-Modell-Routing als Frontier-Schlachtfeld entsteht – die Community diskutierte am 1. Oktober kontrovers einen Open-Source-Router, der Parität mit GPT-6 Astra beansprucht. Olmo-core 3 gibt dieser Community die Werkzeuge, um nicht mehr nur zu konsumieren, sondern zu produzieren.",
+        "it": "Il rilascio si inserisce in una settimana densa per la ricerca aperta: completa lo sforzo di trasparenza del settore dopo le pubblicazioni di Apple sull'apprendimento per rinforzo lo stesso giorno, e arriva mentre il routing multi-modello emerge come terreno di scontro sulla frontiera — la comunità ha d'altronde vivacemente discusso il 1° ottobre di un router open source che rivendica la parità con GPT-6 Astra. Olmo-core 3 dà a questa comunità gli strumenti per non limitarsi a consumare, ma anche a produrre.",
+        "lmo": "La sortida la riva in d'ona setemana piena per l'open research: la completa el sforz de trasparenza del setor dopo di publicazion de Apple in su l'apprendiment con rinforz el midemm dì, e la riva quand che el routing multi-modej el taca a vess la battaglia de frontera — la comunitaa l'ha de fatt discutt vigerosament el 1 de ottober de on router open source che 'l revendica la paritaa con GPT-6 Astra. Olmo-core 3 el ghe dà a 'sta comunitaa i strument per consumà no domà, ma anca producè."
+      }
+    ],
+    "urls": [
+      "https://huggingface.co/blog/allenai/olmocore3"
+    ],
+    "kicker": {
+      "fr": "Infrastructures ouvertes",
+      "en": "Open infrastructure",
+      "de": "Offene Infrastrukturen",
+      "it": "Infrastrutture aperte",
+      "lmo": "Infrastruttur vert"
+    },
+    "headline": {
+      "fr": "Olmo-core 3 : Allen AI publie une infrastructure d'entraînement ouverte et scalable pour les grands MoE",
+      "en": "Olmo-core 3: Allen AI releases an open, scalable training infrastructure for large MoE models",
+      "de": "Olmo-core 3: Allen AI veröffentlicht eine offene, skalierbare Trainingsinfrastruktur für grosse MoE-Modelle",
+      "it": "Olmo-core 3: Allen AI pubblica un'infrastruttura di addestramento aperta e scalabile per i grandi MoE",
+      "lmo": "Olmo-core 3: Allen AI el publica 'na infrastruttura de addestrament verta e scalabil per i grand MoE"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire non-profit franchit une étape : répliquer les couches d'entraînement propriétaires des grands labos avec une base open source pour les architectures à mélanges d'experts.",
+      "en": "The non-profit lab takes a step further: replicating the proprietary training stacks of the big labs with an open-source foundation for mixture-of-experts architectures.",
+      "de": "Das gemeinnützige Labor erreicht einen Meilenstein: die Replikation der proprietären Trainingsschichten der grossen Labors mit einer Open-Source-Basis für Mixture-of-Experts-Architekturen.",
+      "it": "Il laboratorio no-profit compie un passo decisivo: replicare gli strati di addestramento proprietari dei grandi laboratori con una base open source per le architetture a miscela di esperti.",
+      "lmo": "El laboratori no-profit el passa on gradin: replicà i coustr de addestrament proprietari di grand labo cont ona bas open source per i architettur a mistur de espert."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Claude Code s'ouvre aux « mods », une nouvelle couche de personnalisation",
+        "en": "Claude Code opens up to \"mods\", a new personalization layer",
+        "de": "Claude Code öffnet sich für «Mods» – eine neue Personalisierungsschicht",
+        "it": "Claude Code si apre ai «mods», un nuovo strato di personalizzazione",
+        "lmo": "Claude Code el se vert ai «mods», 'na noeuvva coustra de personalizzazion"
+      },
+      "body": {
+        "fr": "Anthropic a lancé le 1er octobre 2026 un système de « mods » pour personnaliser Claude Code, annoncent <a href=\"https://claude.com/blog/claude-code-mods\">les notes de publication</a>. Ce mécanisme vient s'ajouter à l'écosystème de plugins, hooks et skills de l'outil, alors que le terminal agentique reste le terrain le plus disputé de l'IA développeur face à Codex et Gemini CLI.",
+        "en": "Anthropic launched a system of \"mods\" for customizing Claude Code on 1 October 2026, <a href=\"https://claude.com/blog/claude-code-mods\">the release notes</a> announce. The mechanism joins the tool's ecosystem of plugins, hooks and skills, as the agentic terminal remains the most contested battleground in developer AI against Codex and Gemini CLI.",
+        "de": "Anthropic hat am 1. Oktober 2026 ein «Mods»-System zur Personalisierung von Claude Code lanciert, wie <a href=\"https://claude.com/blog/claude-code-mods\">die Release Notes</a> ankündigen. Der Mechanismus ergänzt das Ökosystem aus Plugins, Hooks und Skills des Tools, während das agentische Terminal das umkämpfteste Terrain der Entwickler-KI bleibt – im Wettstreit mit Codex und Gemini CLI.",
+        "it": "Anthropic ha lanciato il 1° ottobre 2026 un sistema di «mods» per personalizzare Claude Code, annunciano <a href=\"https://claude.com/blog/claude-code-mods\">le note di rilascio</a>. Questo meccanismo si aggiunge all'ecosistema di plugin, hook e skills dello strumento, mentre il terminale agentico resta il terreno più conteso dell'IA per gli sviluppatori di fronte a Codex e Gemini CLI.",
+        "lmo": "Anthropic l'ha lanziaa el 1 de ottober 2026 on sistema de «mods» per personalizzà Claude Code, 'me anunzien <a href=\"https://claude.com/blog/claude-code-mods\">i not de publicazion</a>. 'St meccanesmo el se sgionta a l'ecosistem de plugin, hook e skills de l'strument, quand che 'l terminal agentich el resta el terren pussee contenduu de l'IA developer contra Codex e Gemini CLI."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "urls": [
+        "https://claude.com/blog/claude-code-mods"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Le satellite prototype de Project Suncatcher est en orbite",
+        "en": "Project Suncatcher's prototype satellite is in orbit",
+        "de": "Der Prototyp-Satellit von Project Suncatcher ist im Orbit",
+        "it": "Il satellite prototipo di Project Suncatcher è in orbita",
+        "lmo": "El satellit prototip de Project Suncatcher l'è in orbita"
+      },
+      "body": {
+        "fr": "Le prototype satellite de Project Suncatcher, construit avec Planet, a été placé en orbite le 1er octobre 2026 à bord de la mission rideshare Transporter-18 de SpaceX, annonce <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/\">Google Research</a>. Le projet vise à tester des composants d'énergie solaire spatiale, un cas d'usage où l'IA de Google accompagne la conception orbitale.",
+        "en": "The prototype satellite of Project Suncatcher, built with Planet, was placed into orbit on 1 October 2026 aboard SpaceX's Transporter-18 rideshare mission, <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/\">Google Research</a> announces. The project aims to test space-based solar power components, a use case where Google's AI supports orbital design.",
+        "de": "Der Satelliten-Prototyp von Project Suncatcher, gebaut mit Planet, wurde am 1. Oktober 2026 an Bord der SpaceX-Rideshare-Mission Transporter-18 in die Umlaufbahn gebracht, wie <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/\">Google Research</a> meldet. Das Projekt soll Komponenten für Weltraum-Solarenergie testen – ein Anwendungsfall, bei dem Googles KI die orbittale Konstruktion begleitet.",
+        "it": "Il satellite prototipo di Project Suncatcher, costruito con Planet, è stato messo in orbita il 1° ottobre 2026 a bordo della missione rideshare Transporter-18 di SpaceX, annuncia <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/\">Google Research</a>. Il progetto mira a testare componenti di energia solare spaziale, un caso d'uso in cui l'IA di Google accompagna la progettazione orbitale.",
+        "lmo": "El prototip satellitar de Project Suncatcher, faa su con Planet, l'è staa mettuu in orbita el 1 de ottober 2026 a bord de la mission rideshare Transporter-18 de SpaceX, 'me anunzia <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/\">Google Research</a>. El proget el voeur provà di component de energia solara spaziala, on cas d'us indova l'IA de Google la accompagna la progetazion orbitala."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-01",
+        "en": "From the Wires — 2026-10-01",
+        "de": "From the Wires — 2026-10-01",
+        "it": "From the Wires — 2026-10-01",
+        "lmo": "From the Wires — 2026-10-01"
+      },
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "AutoSynthData : ServiceNow génère synthétiquement les données d'entraînement de ses agents",
+        "en": "AutoSynthData: ServiceNow synthetically generates its agents' training data",
+        "de": "AutoSynthData: ServiceNow generiert die Trainingsdaten seiner Agenten synthetisch",
+        "it": "AutoSynthData: ServiceNow genera sinteticamente i dati di addestramento dei propri agenti",
+        "lmo": "AutoSynthData: ServiceNow el genera sintetegament i dacc de addestrament di so agent"
+      },
+      "body": {
+        "fr": "ServiceNow AI a publié le 2 octobre 2026 AutoSynthData, une méthode de génération synthétique de données d'entraînement pour agents d'entreprise, détaillée dans un <a href=\"https://huggingface.co/blog/ServiceNow-AI/autosynthdata\">billet sur le blog Hugging Face</a>. L'approche répond au goulot d'étranglement bien connu des agents en production : la rareté de données réelles annotées sur les workflows propriétaires.",
+        "en": "ServiceNow AI published AutoSynthData on 2 October 2026, a method for synthetically generating training data for enterprise agents, detailed in <a href=\"https://huggingface.co/blog/ServiceNow-AI/autosynthdata\">a post on the Hugging Face blog</a>. The approach addresses the well-known bottleneck of agents in production: the scarcity of real, annotated data on proprietary workflows.",
+        "de": "ServiceNow AI hat am 2. Oktober 2026 AutoSynthData veröffentlicht, eine Methode zur synthetischen Generierung von Trainingsdaten für Unternehmens-Agenten, beschrieben in einem <a href=\"https://huggingface.co/blog/ServiceNow-AI/autosynthdata\">Beitrag im Hugging-Face-Blog</a>. Der Ansatz adressiert den bekannten Flaschenhals von Agenten im Produktivbetrieb: die Knappheit annotierter Echtzeitdaten zu proprietären Workflows.",
+        "it": "ServiceNow AI ha pubblicato il 2 ottobre 2026 AutoSynthData, un metodo di generazione sintetica di dati di addestramento per agenti aziendali, dettagliato in un <a href=\"https://huggingface.co/blog/ServiceNow-AI/autosynthdata\">post sul blog di Hugging Face</a>. L'approccio risponde al collo di bottiglia ben noto degli agenti in produzione: la rarità di dati reali annotati sui workflow proprietari.",
+        "lmo": "ServiceNow AI l'ha publicaa el 2 de ottober 2026 AutoSynthData, on metode de generazion sintetega de dacc de addestrament per agent d'impresa, detaliaa in d'on <a href=\"https://huggingface.co/blog/ServiceNow-AI/autosynthdata\">billet sora el blog Hugging Face</a>. L'approccia el respond al coll de bottaja ben conossuu di agent in produzion: la scarsitaa de dacc reaj annotaa sora i workflow proprietari."
+      },
+      "tag": {
+        "fr": "Données",
+        "en": "Data",
+        "de": "Daten",
+        "it": "Dati",
+        "lmo": "Dacc"
+      },
+      "urls": [
+        "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Frontseite — Modelle & Frontier",
+        "it": "Prima Pagina — Modelli & frontiera",
+        "lmo": "In Prima Pagina — Modej & frontera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Produit & entreprise",
+            "en": "Product & Business",
+            "de": "Produkt & Unternehmen",
+            "it": "Prodotto & impresa",
+            "lmo": "Prodott & impresa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude for Government passe en disponibilité générale",
+                "en": "Claude for Government goes generally available",
+                "de": "Claude for Government erreicht die allgemeine Verfügbarkeit",
+                "it": "Claude for Government passa in disponibilità generale",
+                "lmo": "Claude for Government el passa in disponibilità general"
+              },
+              "body": {
+                "fr": "Claude for Government, l'offre souveraine d'Anthropic destinée aux administrations, est passée en disponibilité générale le 1er octobre 2026, selon le <a href=\"https://r.jina.ai/https://claude.com/blog\">blog officiel de Claude</a>. Le produit, qui cible les agences publiques et leurs exigences d'hébergement contrôlé, prolonge la stratégie de conformité régionale d'Anthropic — un axe devenu central depuis la création de son entité européenne.",
+                "en": "Claude for Government, Anthropic's sovereign offering for public administrations, reached general availability on 1 October 2026, according to <a href=\"https://r.jina.ai/https://claude.com/blog\">Claude's official blog</a>. The product, aimed at public agencies and their controlled-hosting requirements, extends Anthropic's regional compliance strategy — a pillar that has become central since the creation of its European entity.",
+                "de": "Claude for Government, Anthropics souveränes Angebot für die öffentliche Verwaltung, ist am 1. Oktober 2026 in die allgemeine Verfügbarkeit übergegangen, wie <a href=\"https://r.jina.ai/https://claude.com/blog\">das offizielle Claude-Blog</a> meldet. Das Produkt richtet sich an Regierungsbehörden und deren Anforderungen an kontrolliertes Hosting und verlängert Anthropics Strategie regionaler Compliance – eine Achse, die seit der Gründung der europäischen Einheit zentral geworden ist.",
+                "it": "Claude for Government, l'offerta sovrana di Anthropic destinata alle amministrazioni pubbliche, è passata in disponibilità generale il 1° ottobre 2026, secondo il <a href=\"https://r.jina.ai/https://claude.com/blog\">blog ufficiale di Claude</a>. Il prodotto, che si rivolge alle agenzie pubbliche e alle loro esigenze di hosting controllato, prolunga la strategia di conformità regionale di Anthropic — un asse diventato centrale dalla creazione della sua entità europea.",
+                "lmo": "Claude for Government, l'offerta sovrana de Anthropic destinada ai amministrazion, l'è passada in disponibilità general el 1 de ottober 2026, segond el <a href=\"https://r.jina.ai/https://claude.com/blog\">blog ofizial de Claude</a>. El prodott, che 'l mira ai agent publegh e ai so esigenz de hosting controllaa, el slongia la strategia de conformitaa regional de Anthropic — on ass devenii central dopo la creazion de la soa entitaa europea."
+              },
+              "kicker": {
+                "fr": "Secteur public",
+                "en": "Public sector",
+                "de": "Öffentlicher Sektor",
+                "it": "Settore pubblico",
+                "lmo": "Setor publegh"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Albertsons réaménage le retail avec ChatGPT Enterprise",
+                "en": "Albertsons reimagines retail with ChatGPT Enterprise",
+                "de": "Albertsons gestaltet den Handel mit ChatGPT Enterprise neu",
+                "it": "Albertsons ridisegna il retail con ChatGPT Enterprise",
+                "lmo": "Albertsons el remodella el retail con ChatGPT Enterprise"
+              },
+              "body": {
+                "fr": "Albertsons Companies détaille dans une étude de cas publiée le 1er octobre 2026 comment elle s'appuie sur ChatGPT Enterprise et l'API OpenAI pour accélérer ses équipes internes et simplifier les courses de millions de clients, selon <a href=\"https://openai.com/index/albertsons-reimagining-retail\">le récit publié par OpenAI</a>. La chaîne de distribution rejoint la vague d'adoptants grande consommation qui instrumentent l'IA générative au-delà du marketing, jusqu'à la refonte des processus internes.",
+                "en": "In a case study published on 1 October 2026, Albertsons Companies details how it relies on ChatGPT Enterprise and the OpenAI API to accelerate its internal teams and simplify grocery shopping for millions of customers, according to <a href=\"https://openai.com/index/albertsons-reimagining-retail\">the story published by OpenAI</a>. The grocery chain joins the wave of consumer-facing adopters wielding generative AI beyond marketing, all the way to rethinking internal processes.",
+                "de": "Albertsons Companies schildert in einer am 1. Oktober 2026 veröffentlichten Fallstudie, wie das Unternehmen auf ChatGPT Enterprise und die OpenAI-API setzt, um interne Teams zu beschleunigen und das Einkaufen für Millionen von Kunden zu vereinfachen, wie <a href=\"https://openai.com/index/albertsons-reimagining-retail\">der Bericht von OpenAI</a> zeigt. Die Handelskette reiht sich in die Welle von Konsumgüter-Adoptern ein, die generative KI jenseits des Marketings einsetzen – bis hin zur Neugestaltung interner Prozesse.",
+                "it": "Albertsons Companies descrive in un caso di studio pubblicato il 1° ottobre 2026 come si appoggi a ChatGPT Enterprise e all'API di OpenAI per accelerare i team interni e semplificare la spesa di milioni di clienti, secondo <a href=\"https://openai.com/index/albertsons-reimagining-retail\">il racconto pubblicato da OpenAI</a>. La catena di grande distribuzione si aggiunge all'onda di adottanti nel consumo di massa che strumentano l'IA generativa oltre il marketing, fino alla revisione dei processi interni.",
+                "lmo": "Albertsons Companies la detaja in d'on cas studio publicaa el 1 de ottober 2026 come la se appoja in su ChatGPT Enterprise e l'API OpenAI per sveltì i so squadr interni e semplificà la spesa de milion de client, segond <a href=\"https://openai.com/index/albertsons-reimagining-retail\">el recit publicaa de OpenAI</a>. La cadena de distribuzion la se sgionta a l'onda di adotent del gran consum che doperen l'IA generativa oltra el marketing, fin a la refuda di process interni."
+              },
+              "kicker": {
+                "fr": "Grande distribution",
+                "en": "Big retail",
+                "de": "Einzelhandel",
+                "it": "Grande distribuzione",
+                "lmo": "Gran distribuzion"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais & moteurs",
+        "en": "The Engineering Notebook — Harnesses & Engines",
+        "de": "Das Technik-Dossier — Harnesses & Engines",
+        "it": "Il Quaderno Tecnico — Harness & motori",
+        "lmo": "El Quadern Tecnegh — Harness & motor"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Plateformes",
+            "en": "Platforms",
+            "de": "Plattformen",
+            "it": "Piattaforme",
+            "lmo": "Piattaform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Clef : Cloudflare ouvre ses modèles de décision et lance une plateforme de RL",
+                "en": "Clef: Cloudflare opens up its decision models and launches an RL platform",
+                "de": "Clef: Cloudflare öffnet seine Entscheidungsmodelle und lanciert eine RL-Plattform",
+                "it": "Clef: Cloudflare apre i suoi modelli di decisione e lancia una piattaforma di RL",
+                "lmo": "Clef: Cloudflare el vert i so modej de decision e 'l lanzia 'na piattaforma de RL"
+              },
+              "body": {
+                "fr": "Cloudflare a lancé le 1er octobre 2026 Clef et Clef-flash, des modèles de décision open source hébergés sur Workers AI pour la classification haute vitesse et les workflows agentiques, accompagnés d'une plateforme de fine-tuning par renforcement permettant d'entraîner ces modèles sur données propres, annonce le <a href=\"https://blog.cloudflare.com/clef-decision-models/\">billet officiel</a>. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49923692\">Hacker News</a> (464 points, 170 commentaires le 2 octobre) illustre l'intérêt d'une approche qui déplace l'IA décisionnaire hors des LLM généralistes vers des modèles petits, rapides et spécialisés.",
+                "en": "Cloudflare launched Clef and Clef-flash on 1 October 2026 — open-source decision models hosted on Workers AI for high-speed classification and agentic workflows — alongside a reinforcement-learning fine-tuning platform for training these models on proprietary data, <a href=\"https://blog.cloudflare.com/clef-decision-models/\">the official announcement</a> states. The discussion on <a href=\"https://news.ycombinator.com/item?id=49923692\">Hacker News</a> (464 points, 170 comments on 2 October) reflects the appeal of an approach that moves decision-making AI away from generalist LLMs toward small, fast, specialized models.",
+                "de": "Cloudflare hat am 1. Oktober 2026 Clef und Clef-flash gestartet, Open-Source-Entscheidungsmodelle, die auf Workers AI gehostet werden und für hochgeschwindigkeits-Klassifikation und agentische Workflows bestimmt sind, ergänzt durch eine Feinabstimmungs-Plattform mittels Reinforcement Learning, mit der sich diese Modelle auf eigenen Daten trainieren lassen, wie der <a href=\"https://blog.cloudflare.com/clef-decision-models/\">offizielle Beitrag</a> ankündigt. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49923692\">Hacker News</a> (464 Punkte, 170 Kommentare am 2. Oktober) illustriert das Interesse an einem Ansatz, der entscheidungsorientierte KI von generalistischen LLM hin zu kleinen, schnellen, spezialisierten Modellen verlagert.",
+                "it": "Cloudflare ha lanciato il 1° ottobre 2026 Clef e Clef-flash, modelli di decisione open source ospitati su Workers AI per la classificazione ad alta velocità e i workflow agentici, accompagnati da una piattaforma di fine-tuning per rinforzo che permette di addestrare questi modelli su dati propri, annuncia il <a href=\"https://blog.cloudflare.com/clef-decision-models/\">post ufficiale</a>. La discussione su <a href=\"https://news.ycombinator.com/item?id=49923692\">Hacker News</a> (464 punti, 170 commenti al 2 ottobre) illustra l'interesse di un approccio che sposta l'IA decisionale fuori dai LLM generalisti verso modelli piccoli, rapidi e specializzati.",
+                "lmo": "Cloudflare l'ha lanziaa el 1 de ottober 2026 Clef e Clef-flash, di modej de decision open source ospitaa sora Workers AI per la classificazion a volta velocitaa e i workflow agentich, compagnaa de 'na piattaforma de fine-tuning con rinforz che la permett de addestrà 'sti modej sora dacc propi, segond el <a href=\"https://blog.cloudflare.com/clef-decision-models/\">billet ofizial</a>. La discussion sora <a href=\"https://news.ycombinator.com/item?id=49923692\">Hacker News</a> (464 pont, 170 comment el 2 de ottober) la mostra l'interess de on approached che 'l sposta l'IA decisionaria foeura di LLM generalista vers modej piscinitt, svelt e specializzaa."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenzi"
+              }
+            },
+            {
+              "headline": {
+                "fr": "AI Search de Cloudflare passe en disponibilité générale",
+                "en": "Cloudflare's AI Search goes generally available",
+                "de": "Cloudflares AI Search erreicht die allgemeine Verfügbarkeit",
+                "it": "AI Search di Cloudflare passa in disponibilità generale",
+                "lmo": "AI Search de Cloudflare el passa in disponibilità general"
+              },
+              "body": {
+                "fr": "AI Search de Cloudflare est désormais disponible en généralité depuis le 1er octobre 2026 : il intègre les pixels des images pour la recherche visuelle, exécute de l'OCR sur les PDF scannés, accepte des fichiers jusqu'à 10 MiB et fonctionne avec n'importe quel modèle de chat, précise <a href=\"https://blog.cloudflare.com/ai-search-ga/\">l'annonce</a>. La brique RAG multimodale arrive au moment où la question de la survie des bases vectorielles dédiées alimente le débat, après l'essai RIP, vector database publié le 1er octobre.",
+                "en": "Cloudflare's AI Search has been generally available since 1 October 2026: it incorporates image pixels for visual search, runs OCR on scanned PDFs, accepts files up to 10 MiB and works with any chat model, <a href=\"https://blog.cloudflare.com/ai-search-ga/\">the announcement</a> specifies. The multimodal RAG building block arrives just as the question of whether dedicated vector databases can survive fuels the debate, following the essay RIP, vector database published on 1 October.",
+                "de": "Cloudflares AI Search ist seit dem 1. Oktober 2026 allgemein verfügbar: Es integriert Bildpixel für die visuelle Suche, führt OCR auf gescannten PDFs aus, akzeptiert Dateien bis 10 MiB und funktioniert mit jedem Chat-Modell, wie <a href=\"https://blog.cloudflare.com/ai-search-ga/\">die Ankündigung</a> präzisiert. Der multimodale RAG-Baustein kommt zu einem Zeitpunkt, da die Frage nach dem Überleben dedizierter Vektordatenbanken die Debatte befeuert – nach dem Testbericht RIP, vector database vom 1. Oktober.",
+                "it": "AI Search di Cloudflare è ormai disponibile in generale dal 1° ottobre 2026: integra i pixel delle immagini per la ricerca visiva, esegue l'OCR sui PDF scansionati, accetta file fino a 10 MiB e funziona con qualsiasi modello di chat, precisa <a href=\"https://blog.cloudflare.com/ai-search-ga/\">l'annuncio</a>. Il mattone RAG multimodale arriva nel momento in cui la sopravvivenza delle basi vettoriali dedicate alimenta il dibattito, dopo l'essay RIP, vector database pubblicato il 1° ottobre.",
+                "lmo": "AI Search de Cloudflare l'è adess disponibil in generalità dal 1 de ottober 2026: el integra i pixel di imagin per la ricerca visual, el fa l'OCR sora i PDF scansionaa, el acetta file fin a 10 MiB e 'l fonziona con qualsessia modej de chat, 'me precise el <a href=\"https://blog.cloudflare.com/ai-search-ga/\">anunzi</a>. El brikk RAG multimodal el riva in del moment indova la question de la sopravivenza di bas vetoriaj dedicaa la alimenta el dibattit, dopo l'essaa RIP, database vetorial publicaa el 1 de ottober."
+              },
+              "kicker": {
+                "fr": "RAG",
+                "en": "RAG",
+                "de": "RAG",
+                "it": "RAG",
+                "lmo": "RAG"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Outils développeurs",
+            "en": "Developer tools",
+            "de": "Entwicklerwerkzeuge",
+            "it": "Strumenti per sviluppatori",
+            "lmo": "Strument developer"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Weave Router 2.0 : le routage multi-modèles à parité Astra, pour moitié prix",
+                "en": "Weave Router 2.0: multi-model routing at Astra parity, for half the price",
+                "de": "Weave Router 2.0: Multi-Modell-Routing auf Astra-Niveau, zum halben Preis",
+                "it": "Weave Router 2.0: il routing multi-modello in parità con Astra, a metà prezzo",
+                "lmo": "Weave Router 2.0: el routing multi-modej a paritaa Astra, per la mitaa del prix"
+              },
+              "body": {
+                "fr": "Le routeur open source Weave Router 2.0, qui se branche sur Claude Code ou Codex pour commuter entre LLM selon la tâche, revendique le 1er octobre 2026 des pass rates équivalents à GPT-6 Astra sur Terminal Bench 4.0 et SWE Atlas, pour 52 % de son coût et 2,2x plus vite sur Terminal Bench (54 % et 2,5x sur SWE Atlas). Son architecture combine un modèle de Markov caché traçant l'état de session et un classifieur de compartiments de modèles, détaillées dans la <a href=\"https://news.ycombinator.com/item?id=49911500\">discussion Show HN</a>. Le code est ouvert sur <a href=\"https://github.com/weave-os/router\">GitHub</a>.",
+                "en": "Weave Router 2.0, an open-source router that plugs into Claude Code or Codex to switch between LLMs depending on the task, claimed on 1 October 2026 pass rates equivalent to GPT-6 Astra on Terminal Bench 4.0 and SWE Atlas, at 52% of the cost and 2.2x faster on Terminal Bench (54% and 2.5x on SWE Atlas). Its architecture combines a hidden Markov model tracking session state with a classifier of model tiers, detailed in the <a href=\"https://news.ycombinator.com/item?id=49911500\">Show HN discussion</a>. The code is open on <a href=\"https://github.com/weave-os/router\">GitHub</a>.",
+                "de": "Der Open-Source-Router Weave Router 2.0, der sich in Claude Code oder Codex einbinden lässt, um je nach Aufgabe zwischen LLMs umzuschalten, beansprucht am 1. Oktober 2026 Pass-Raten auf dem Niveau von GPT-6 Astra auf Terminal Bench 4.0 und SWE Atlas – bei 52 % der Kosten und 2,2x schneller auf Terminal Bench (54 % und 2,5x auf SWE Atlas). Seine Architektur kombiniert ein Hidden-Markov-Modell, das den Sitzungszustand nachverfolgt, mit einem Klassifikator für Modell-Compartments, wie in der <a href=\"https://news.ycombinator.com/item?id=49911500\">Show-HN-Diskussion</a> erläutert. Der Code ist auf <a href=\"https://github.com/weave-os/router\">GitHub</a> offen.",
+                "it": "Il router open source Weave Router 2.0, che si collega a Claude Code o Codex per commutare tra LLM in base al compito, rivendica il 1° ottobre 2026 pass rate equivalenti a GPT-6 Astra su Terminal Bench 4.0 e SWE Atlas, al 52% del suo costo e 2,2x più veloce su Terminal Bench (54% e 2,5x su SWE Atlas). La sua architettura combina un modello di Markov nascosto che traccia lo stato della sessione e un classificatore a compartimenti di modelli, dettagliate nella <a href=\"https://news.ycombinator.com/item?id=49911500\">discussione Show HN</a>. Il codice è aperto su <a href=\"https://github.com/weave-os/router\">GitHub</a>.",
+                "lmo": "El router open source Weave Router 2.0, che 'l se tacca a Claude Code o Codex per comutà tra LLM segond la tâsca, el revendica el 1 de ottober 2026 di pass rate equivalènt a GPT-6 Astra sora Terminal Bench 4.0 e SWE Atlas, per el 52% del so cost e 2,2x pussee svelt in su Terminal Bench (54% e 2,5x in su SWE Atlas). La soa architettura la combina on modell de Markov ascond che 'l traccia el stat de session e on classificator de scompartiment de modej, 'me detaja la <a href=\"https://news.ycombinator.com/item?id=49911500\">discussion Show HN</a>. El codes l'è vert sora <a href=\"https://github.com/weave-os/router\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Routage",
+                "en": "Routing",
+                "de": "Routing",
+                "it": "Routing",
+                "lmo": "Routing"
+              }
+            },
+            {
+              "headline": {
+                "fr": "DeepSeek publie son propre harness pour agents de code",
+                "en": "DeepSeek releases its own harness for coding agents",
+                "de": "DeepSeek veröffentlicht einen eigenen Harness für Code-Agenten",
+                "it": "DeepSeek pubblica il proprio harness per agenti di codice",
+                "lmo": "DeepSeek el publica el so harness per agent de codes"
+              },
+              "body": {
+                "fr": "DeepSeek a mis en ligne son « Harness », une interface d'exécution pour agents repérée sur la front page de <a href=\"https://news.ycombinator.com/item?id=49929489\">Hacker News le 2 octobre 2026</a> (42 points en quelques heures). La page <a href=\"https://www.deepseek.com/en/harness/\">deepseek.com/en/harness</a> marque l'entrée du laboratoire chinois dans la course aux environnements d'exécution agentique, jusque-là dominée par Claude Code et Codex.",
+                "en": "DeepSeek has put online its \"Harness\", an execution interface for agents spotted on the front page of <a href=\"https://news.ycombinator.com/item?id=49929489\">Hacker News on 2 October 2026</a> (42 points within hours). The page <a href=\"https://www.deepseek.com/en/harness/\">deepseek.com/en/harness</a> marks the Chinese lab's entry into the race for agentic execution environments, until now dominated by Claude Code and Codex.",
+                "de": "DeepSeek hat seinen «Harness» online gestellt, eine Ausführungsschnittstelle für Agenten, die auf der Frontpage von <a href=\"https://news.ycombinator.com/item?id=49929489\">Hacker News am 2. Oktober 2026</a> entdeckt wurde (42 Punkte innert weniger Stunden). Die Seite <a href=\"https://www.deepseek.com/en/harness/\">deepseek.com/en/harness</a> markiert den Einstieg des chinesischen Labors in den Wettlauf um agentische Ausführungsumgebungen, die bisher von Claude Code und Codex dominiert wurden.",
+                "it": "DeepSeek ha messo online il proprio «Harness», un'interfaccia di esecuzione per agenti segnalata in prima pagina su <a href=\"https://news.ycombinator.com/item?id=49929489\">Hacker News il 2 ottobre 2026</a> (42 punti in poche ore). La pagina <a href=\"https://www.deepseek.com/en/harness/\">deepseek.com/en/harness</a> segna l'ingresso del laboratorio cinese nella corsa agli ambienti di esecuzione agentica, finora dominata da Claude Code e Codex.",
+                "lmo": "DeepSeek l'ha mettuu in linia el so «Harness», 'na interfaccia de esecuzion per agent vistada in sul front de <a href=\"https://news.ycombinator.com/item?id=49929489\">Hacker News el 2 de ottober 2026</a> (42 pont in quaj ora). La pagina <a href=\"https://www.deepseek.com/en/harness/\">deepseek.com/en/harness</a> la segnala l'intrada del laboratori cines in la gara di ambient de esecuzion agentica, fin adess dominada de Claude Code e Codex."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & labos",
+        "en": "The Research Desk — Papers & Labs",
+        "de": "Die Forschung — Papers & Labore",
+        "it": "La Ricerca — Paper & laboratori",
+        "lmo": "La Ricerca — Paper & labo"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Labos",
+            "en": "Labs",
+            "de": "Labore",
+            "it": "Laboratori",
+            "lmo": "Labo"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Apple interroge la complexité des harness et l'auto-amélioration sans récompense",
+                "en": "Apple probes harness complexity and reward-free self-improvement",
+                "de": "Apple hinterfragt die Komplexität von Harnesses und die Selbstverbesserung ohne Belohnung",
+                "it": "Apple interroga la complessità degli harness e l'auto-miglioramento senza ricompensa",
+                "lmo": "Apple el domanda sora la complessitaa di harness e l'auto-migliorament senza ricompensa"
+              },
+              "body": {
+                "fr": "Apple a publié le 1er octobre 2026 deux travaux : le premier demande <a href=\"https://machinelearning.apple.com/research/harness-autonomous-ml-engineering\">combien de harness un agent ML fort a réellement besoin</a>, en comparant des agents MLE déployés sur des machineries croissantes (orchestrateurs multi-agents, sous-agents de retrieval) contre des agents de code plus primitifs avec accès direct à l'exécution ; le second, <a href=\"https://machinelearning.apple.com/research/rltl-dr-self-improvement\">RLTL;DR</a>, propose un paradigme d'auto-amélioration où la politique internalise les sorties du vérificateur après chaque échec, crucial quand la probabilité de réussite est nulle et qu'aucun modèle-enseignant n'est disponible.",
+                "en": "Apple published two papers on 1 October 2026. The first asks <a href=\"https://machinelearning.apple.com/research/harness-autonomous-ml-engineering\">how many harnesses a strong ML agent really needs</a>, comparing MLE agents deployed on increasingly elaborate machinery (multi-agent orchestrators, retrieval sub-agents) against more primitive coding agents with direct access to execution. The second, <a href=\"https://machinelearning.apple.com/research/rltl-dr-self-improvement\">RLTL;DR</a>, proposes a self-improvement paradigm in which the policy internalizes the verifier's outputs after each failure — crucial when the probability of success is zero and no teacher model is available.",
+                "de": "Apple hat am 1. Oktober 2026 zwei Arbeiten veröffentlicht: Die erste fragt, <a href=\"https://machinelearning.apple.com/research/harness-autonomous-ml-engineering\">wie viele Harnesses ein starker ML-Agent tatsächlich braucht</a>, indem MLE-Agenten mit wachsender Maschinerie (Multi-Agenten-Orchestrierung, Retrieval-Subagenten) mit primitiveren Code-Agenten mit direktem Ausführungszugriff verglichen werden; die zweite, <a href=\"https://machinelearning.apple.com/research/rltl-dr-self-improvement\">RLTL;DR</a>, schlägt ein Selbstverbesserungs-Paradigma vor, bei dem die Policy die Ausgaben des Verifizierers nach jedem Fehlschlag internalisiert – entscheidend, wenn die Erfolgswahrscheinlichkeit null beträgt und kein Lehrermodell verfügbar ist.",
+                "it": "Apple ha pubblicato il 1° ottobre 2026 due lavori: il primo si chiede <a href=\"https://machinelearning.apple.com/research/harness-autonomous-ml-engineering\">di quanti harness abbia realmente bisogno un agente ML forte</a>, confrontando agenti MLE dispiegati su macchinari crescenti (orchestratori multi-agente, sotto-agenti di retrieval) rispetto ad agenti di codice più primitivi con accesso diretto all'esecuzione; il secondo, <a href=\"https://machinelearning.apple.com/research/rltl-dr-self-improvement\">RLTL;DR</a>, propone un paradigma di auto-miglioramento in cui la politica internalizza gli output del verificatore dopo ogni fallimento, cruciale quando la probabilità di successo è nulla e nessun modello-insegnante è disponibile.",
+                "lmo": "Apple l'ha publicaa el 1 de ottober 2026 du lavô: el primm el domanda <a href=\"https://machinelearning.apple.com/research/harness-autonomous-ml-engineering\">quant harness on agent ML fort el gh'ha propi bisogn</a>, comparand agent MLE despontuu sora macchinari semper pussee grand (orchestrator multi-agent, sotto-agent de retrieval) contra agent de codes pussee primitiv con acess dirett a l'esecuzion; el segond, <a href=\"https://machinelearning.apple.com/research/rltl-dr-self-improvement\">RLTL;DR</a>, el propon on paradigma de auto-migliorament indova la politega la internalizza i sortid del verficador dopo ogne insuccess, crucial quand che la probabilitaa de riussida l'è zero e che nissun modell-maester l'è disponibil."
+              },
+              "kicker": {
+                "fr": "Apple ML",
+                "en": "Apple ML",
+                "de": "Apple ML",
+                "it": "Apple ML",
+                "lmo": "Apple ML"
+              }
+            },
+            {
+              "headline": {
+                "fr": "World Observer : des modèles-monde qui voient au-delà du champ de vision de l'agent",
+                "en": "World Observer: world models that see beyond the agent's field of view",
+                "de": "World Observer: World Models, die über das Sichtfeld des Agenten hinaussehen",
+                "it": "World Observer: world model che vedono oltre il campo visivo dell'agente",
+                "lmo": "World Observer: di modej-mond che veden oltra el camp de vision de l'agent"
+              },
+              "body": {
+                "fr": "Le paper World Observer (KAIST, 21 upvotes sur <a href=\"https://huggingface.co/api/daily_papers?limit=50\">HF Daily Papers</a> au 2 octobre 2026) découple l'observation de l'action dans les world models vidéo : des observateurs panoramiques suivent les régions hors du champ de l'acteur, si bien que les objets qui quittent la vue continuent d'évoluer et retrouvent leur état à la ré-entrée. Les détails sont sur <a href=\"https://arxiv.org/abs/2610.02162\">arXiv (2610.02162)</a>.",
+                "en": "The World Observer paper (KAIST, 21 upvotes on <a href=\"https://huggingface.co/api/daily_papers?limit=50\">HF Daily Papers</a> as of 2 October 2026) decouples observation from action in video world models: panoramic observers track regions outside the actor's field of view, so that objects leaving sight continue to evolve and recover their state upon re-entry. Details are on <a href=\"https://arxiv.org/abs/2610.02162\">arXiv (2610.02162)</a>.",
+                "de": "Das Paper World Observer (KAIST, 21 Upvotes auf <a href=\"https://huggingface.co/api/daily_papers?limit=50\">HF Daily Papers</a> per 2. Oktober 2026) entkoppelt Beobachtung und Handlung in video-basierten World Models: Panorama-Beobachter verfolgen Regionen ausserhalb des Sichtfelds des Akteurs, sodass Objekte, die das Blickfeld verlassen, sich weiterentwickeln und bei Wiedereintritt ihren Zustand zurückerhalten. Die Details stehen auf <a href=\"https://arxiv.org/abs/2610.02162\">arXiv (2610.02162)</a>.",
+                "it": "Il paper World Observer (KAIST, 21 upvote su <a href=\"https://huggingface.co/api/daily_papers?limit=50\">HF Daily Papers</a> al 2 ottobre 2026) disaccoppia l'osservazione dall'azione nei world model video: osservatori panoramici seguono le regioni fuori dal campo dell'attore, così che gli oggetti che escono dalla vista continuino a evolversi e ritrovino il proprio stato al rientro. I dettagli sono su <a href=\"https://arxiv.org/abs/2610.02162\">arXiv (2610.02162)</a>.",
+                "lmo": "El paper World Observer (KAIST, 21 upvote sora <a href=\"https://huggingface.co/api/daily_papers?limit=50\">HF Daily Papers</a> al 2 de ottober 2026) el desgionta l'osservazion de l'azion in di world model video: di osservator panoramegh seguen i region foeura del camp de l'ator, inscì che i oggett che van foeura de la vista i seguiten a evolv e i trœuven anmò el so stat quand che i tornen dent. I detaj hinn sora <a href=\"https://arxiv.org/abs/2610.02162\">arXiv (2610.02162)</a>."
+              },
+              "kicker": {
+                "fr": "World models",
+                "en": "World models",
+                "de": "World Models",
+                "it": "World model",
+                "lmo": "World models"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Argo-Bench : dans un entrepôt ERP de 7,5 milliards de lignes, aucun agent ne dépasse 59,5 points",
+                "en": "Argo-Bench: in a 7.5-billion-row ERP warehouse, no agent tops 59.5 points",
+                "de": "Argo-Bench: In einem ERP-Warehouse mit 7,5 Milliarden Zeilen übersteigt kein Agent 59,5 Punkte",
+                "it": "Argo-Bench: in un magazzino ERP da 7,5 miliardi di righe, nessun agente supera i 59,5 punti",
+                "lmo": "Argo-Bench: in d'on magazin ERP de 7,5 miliard de lign, nissun agent el passa minga 59,5 pont"
+              },
+              "body": {
+                "fr": "Argo-Bench (TextQL) propose 210 tâches de data science et d'analytique d'entreprise simulées à échelle réelle : une plateforme de livraison new-yorkaise avec 81 millions de commandes en 2024, exportée vers un entrepôt ERP de 235 tables et 7,5 milliards de lignes. Le meilleur des 14 modèles testés dépasse le score de 95 sur seulement 34,8 % des tâches et plafonne à 59,5 points en moyenne, selon <a href=\"https://arxiv.org/abs/2610.02122\">le paper (arXiv 2610.02122)</a>. Le code est disponible sur <a href=\"https://github.com/TextQLLabs/Argo-Bench\">GitHub</a>.",
+                "en": "Argo-Bench (TextQL) proposes 210 data-science and enterprise-analytics tasks simulated at real-world scale: a New York delivery platform with 81 million orders in 2024, exported to an ERP warehouse of 235 tables and 7.5 billion rows. The best of the 14 models tested exceeded a score of 95 on only 34.8% of tasks and plateaued at 59.5 points on average, according to <a href=\"https://arxiv.org/abs/2610.02122\">the paper (arXiv 2610.02122)</a>. The code is available on <a href=\"https://github.com/TextQLLabs/Argo-Bench\">GitHub</a>.",
+                "de": "Argo-Bench (TextQL) umfasst 210 Aufgaben in Data Science und simulierter Unternehmensanalyse im realen Massstab: eine New Yorker Lieferplattform mit 81 Millionen Bestellungen im Jahr 2024, exportiert in ein ERP-Warehouse mit 235 Tabellen und 7,5 Milliarden Zeilen. Das beste der 14 getesteten Modelle überschreitet den Score von 95 bei nur 34,8 % der Aufgaben und erreicht im Schnitt maximal 59,5 Punkte, wie <a href=\"https://arxiv.org/abs/2610.02122\">das Paper (arXiv 2610.02122)</a> zeigt. Der Code ist auf <a href=\"https://github.com/TextQLLabs/Argo-Bench\">GitHub</a> verfügbar.",
+                "it": "Argo-Bench (TextQL) propone 210 compiti di data science e di analitica aziendale simulati su scala reale: una piattaforma di consegne newyorkese con 81 milioni di ordini nel 2024, esportata verso un magazzino ERP di 235 tabelle e 7,5 miliardi di righe. Il migliore dei 14 modelli testati supera il punteggio di 95 solo sul 34,8% dei compiti e si ferma a 59,5 punti in media, secondo <a href=\"https://arxiv.org/abs/2610.02122\">il paper (arXiv 2610.02122)</a>. Il codice è disponibile su <a href=\"https://github.com/TextQLLabs/Argo-Bench\">GitHub</a>.",
+                "lmo": "Argo-Bench (TextQL) el propon 210 tâsch de data science e de analitega d'impresa simulaa a scala reala: 'na piattaforma de consegna noeuyorkesa cont 81 milion de ordin in del 2024, esportada vers on magazin ERP de 235 tavoj e 7,5 miliard de lign. El mej di 14 modej provaa el passa el score de 95 domà in su el 34,8% di tâsch e 'l se ferma a 59,5 pont de media, segond <a href=\"https://arxiv.org/abs/2610.02122\">el paper (arXiv 2610.02122)</a>. El codes l'è disponibil sora <a href=\"https://github.com/TextQLLabs/Argo-Bench\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              }
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Opinion",
+        "de": "Die Community & der Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux de la communauté",
+            "en": "Community signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "arXiv resserre ses limites de débit",
+                "en": "arXiv tightens its rate limits",
+                "de": "arXiv verschärft seine Ratengrenzen",
+                "it": "arXiv stringe i propri limiti di traffico",
+                "lmo": "arXiv el strencc i so limit de debit"
+              },
+              "body": {
+                "fr": "arXiv a annoncé le 1er octobre 2026 une mise à jour de sa politique de limitation de débit, décision qui touche directement les pipelines de veille et d'entraînement construits sur l'archive, et débattue sur <a href=\"https://news.ycombinator.com/item?id=49926512\">Hacker News</a> (92 points, 37 commentaires). Le <a href=\"https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\">billet officiel</a> précise le nouveau régime d'accès automatisé.",
+                "en": "arXiv announced on 1 October 2026 an update to its rate-limiting policy, a decision that directly affects the monitoring and training pipelines built on the archive, and debated on <a href=\"https://news.ycombinator.com/item?id=49926512\">Hacker News</a> (92 points, 37 comments). <a href=\"https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\">The official post</a> details the new regime for automated access.",
+                "de": "arXiv hat am 1. Oktober 2026 eine Aktualisierung seiner Rate-Limit-Politik angekündigt, eine Entscheidung, die Watch- und Trainings-Pipelines, die auf dem Archiv aufbauen, unmittelbar betrifft und auf <a href=\"https://news.ycombinator.com/item?id=49926512\">Hacker News</a> diskutiert wird (92 Punkte, 37 Kommentare). Der <a href=\"https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\">offizielle Beitrag</a> präzisiert das neue Regime für den automatisierten Zugriff.",
+                "it": "arXiv ha annunciato il 1° ottobre 2026 un aggiornamento della propria politica di limitazione del traffico, una decisione che tocca direttamente le pipeline di monitoraggio e di addestramento costruite sull'archivio, e discussa su <a href=\"https://news.ycombinator.com/item?id=49926512\">Hacker News</a> (92 punti, 37 commenti). Il <a href=\"https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\">post ufficiale</a> precisa il nuovo regime di accesso automatizzato.",
+                "lmo": "arXiv l'ha anunziaa el 1 de ottober 2026 on agiornament de la soa politega de limitazion de debit, decision che la toca direttament i pipeline de vigilanza e de addestrament faa su sora l'archivi, e discutida sora <a href=\"https://news.ycombinator.com/item?id=49926512\">Hacker News</a> (92 pont, 37 comment). El <a href=\"https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/\">billet ofizial</a> el precise el noeuv regim de acess automatega."
+              },
+              "kicker": {
+                "fr": "Infra recherche",
+                "en": "Research infra",
+                "de": "Forschungsinfrastruktur",
+                "it": "Infrastruttura di ricerca",
+                "lmo": "Infra ricerca"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Context Language Models : repenser la place du contexte, discuté à 129 points",
+                "en": "Context Language Models: rethinking the place of context, discussed at 129 points",
+                "de": "Context Language Models: Den Kontext neu denken, mit 129 Punkten diskutiert",
+                "it": "Context Language Models: ripensare il posto del contesto, discusso a 129 punti",
+                "lmo": "Context Language Models: ripensà el loeugh del contest, discuss a 129 pont"
+              },
+              "body": {
+                "fr": "Le paper Context Language Models (arXiv 2609.37725), sur la front page de <a href=\"https://news.ycombinator.com/item?id=49922437\">Hacker News le 1er octobre 2026</a> avec 129 points, propose de reconcevoir le rôle du contexte dans les modèles de langage ; la discussion (28 commentaires) souligne les liens avec le scaling des fenêtres longues.",
+                "en": "The Context Language Models paper (arXiv 2609.37725), on the front page of <a href=\"https://news.ycombinator.com/item?id=49922437\">Hacker News on 1 October 2026</a> with 129 points, proposes rethinking the role of context in language models; the discussion (28 comments) highlights links to long-context scaling.",
+                "de": "Das Paper Context Language Models (arXiv 2609.37725) auf der Frontpage von <a href=\"https://news.ycombinator.com/item?id=49922437\">Hacker News am 1. Oktober 2026</a> mit 129 Punkten schlägt vor, die Rolle des Kontexts in Sprachmodellen neu zu konzipieren; die Diskussion (28 Kommentare) betont die Verbindungen zum Skalieren langer Kontextfenster.",
+                "it": "Il paper Context Language Models (arXiv 2609.37725), in prima pagina su <a href=\"https://news.ycombinator.com/item?id=49922437\">Hacker News il 1° ottobre 2026</a> con 129 punti, propone di ripensare il ruolo del contesto nei modelli linguistici; la discussione (28 commenti) evidenzia i legami con lo scaling delle finestre lunghe.",
+                "lmo": "El paper Context Language Models (arXiv 2609.37725), in sul front de <a href=\"https://news.ycombinator.com/item?id=49922437\">Hacker News el 1 de ottober 2026</a> cont 129 pont, el propon de repensà el roeul del contest in di modej de lengoeu; la discussion (28 comment) la sottilià i ligamm con el scaling di fenestr longh."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architettura"
+              }
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Tribune",
+            "en": "Opinion",
+            "de": "Tribüne",
+            "it": "Tribuna",
+            "lmo": "Tribuna"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "L'exécution éternelle : quand OpenAI place la routine au cœur de la thèse de l'IA",
+                "en": "The eternal execution: when OpenAI places routine at the heart of its AI thesis",
+                "de": "Die ewige Ausführung: Wie OpenAI die Routine ins Zentrum der KI-These rückt",
+                "it": "L'esecuzione eterna: quando OpenAI mette la routine al centro della tesi dell'IA",
+                "lmo": "L'esecuzion eterna: quand che OpenAI el mett la routine in del coer de la tes de l'IA"
+              },
+              "body": {
+                "fr": "Dans un essai publié le 1er octobre 2026, OpenAI soutient que la valeur de l'IA avancée se logera moins dans les idées de rupture que dans « le complément éternel » : l'exécution du travail de routine qui porte les percées, depuis la recherche jusqu'à l'économie entière. L'argumentaire est développé sur <a href=\"https://openai.com/index/the-eternal-complement\">openai.com</a>. Éditorial : la thèse est séduisante mais aussi stratégique — à l'heure où les benchmarks d'exécution autonome (Argo-Bench : 59,5 points de moyenne pour le meilleur modèle) montrent que la routine reste étonnamment difficile, vendre l'exécution revient à promettre le fossé qu'il reste à combler. La frontière s'est déplacée du génie à la persévérance ; c'est précisément là que la mesure doit suivre.",
+                "en": "In an essay published on 1 October 2026, OpenAI argues that the value of advanced AI will lie less in disruptive ideas than in \"the eternal complement\": the execution of routine work that carries breakthroughs, from research to the entire economy. The argument is laid out on <a href=\"https://openai.com/index/the-eternal-complement\">openai.com</a>. Editorial: the thesis is appealing but also strategic — at a time when autonomous-execution benchmarks (Argo-Bench: 59.5 points on average for the best model) show that routine remains surprisingly hard, selling execution amounts to promising the very moat that remains to be built. The frontier has shifted from brilliance to perseverance; that is precisely where measurement must follow.",
+                "de": "In einem am 1. Oktober 2026 veröffentlichten Essay vertritt OpenAI die These, dass der Wert fortgeschrittener KI weniger in bahnbrechenden Ideen als im «ewigen Komplement» liegen werde: der Ausführung der Routinearbeit, die Durchbrüche trägt – von der Forschung bis zur gesamten Wirtschaft. Die Argumentation ist auf <a href=\"https://openai.com/index/the-eternal-complement\">openai.com</a> ausgeführt. Leitartikel: Die These ist bestechend, aber auch strategisch – zu einem Zeitpunkt, da Benchmarks für autonome Ausführung (Argo-Bench: 59,5 Punkte im Schnitt für das beste Modell) zeigen, dass Routine erstaunlich schwierig bleibt, bedeutet es, die Ausführung zu verkaufen, die noch zu schliessende Lücke zu versprechen. Die Frontier hat sich vom Genie zur Beharrlichkeit verlagert; genau dort muss die Messung folgen.",
+                "it": "In un saggio pubblicato il 1° ottobre 2026, OpenAI sostiene che il valore dell'IA avanzata risiederà meno nelle idee di rottura che nel «complemento eterno»: l'esecuzione del lavoro di routine che sostiene le scoperte, dalla ricerca fino all'intera economia. L'argomentazione è sviluppata su <a href=\"https://openai.com/index/the-eternal-complement\">openai.com</a>. Editoriale: la tesi è seducente ma anche strategica — nel momento in cui i benchmark di esecuzione autonoma (Argo-Bench: 59,5 punti di media per il miglior modello) mostrano che la routine resta sorprendentemente difficile, vendere l'esecuzione equivale a promettere il divario che resta ancora da colmare. La frontiera si è spostata dal genio alla perseveranza; è esattamente lì che la misura deve seguire.",
+                "lmo": "In d'on saggi publicaa el 1 de ottober 2026, OpenAI el sostegn che el valor de l'IA avanzada el se trovarà minga tant in di idej de rottura quant in «el complement eterno»: l'esecuzion del laurà de routine che 'l porta i descovert, de la ricerca fin a l'economia intrega. L'argumentari l'è desvilupaa sora <a href=\"https://openai.com/index/the-eternal-complement\">openai.com</a>. Edito: la tes l'è seducent ma anca strategica — a l'ora indova i benchmark de esecuzion autonoma (Argo-Bench: 59,5 pont de media per el mej modell) i mostren che la routine la resta stupendent diffizil, vend l'esecuzion el voeur dì promett el fossaa che 'l resta de riempì. La frontera l'è spostada del geni a la perseveranza; l'è propi lì che la misura la gh'ha de seguità."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              }
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
