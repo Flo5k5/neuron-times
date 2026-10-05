@@ -1,0 +1,727 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-05",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W40",
+    "date_range": {
+      "fr": "SEMAINE DU 28 SEPTEMBRE – 4 OCTOBRE 2026",
+      "en": "WEEK OF 28 SEPTEMBER – 4 OCTOBER 2026",
+      "de": "WOCHE VOM 28. SEPTEMBER – 4. OKTOBER 2026",
+      "it": "SETTIMANA DEL 28 SETTEMBRE – 04 OTTOBRE 2026",
+      "lmo": "SETEMANA DEL 28 SETTEMBRE – 04 OTTOBRE 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "En sortant GPT-6.1 Sol, OpenAI a livré l'annonce la plus structurante de la semaine : une intelligence qualifiée de « proche d'Astra » — son modèle frontière absolu — vendue pour un cinquième des prix API standard de GPT-6 Astra, en entrée comme en sortie, avec un mode multi-agents en bêta, selon <a href=\"https://openai.com/index/introducing-gpt-6-1-sol\">l'annonce officielle</a>. Ce n'est pas un simple rafraîchissement de gamme : c'est l'acte de naissance d'un second frontière, taillé pour le code, le computer-use et les charges professionnelles.",
+        "en": "With GPT-6.1 Sol, OpenAI delivered the week's most consequential announcement: intelligence described as \"close to Astra\" — its absolute frontier model — sold for a fifth of GPT-6 Astra's standard API prices, on both input and output, with a multi-agents mode in beta, according to <a href=\"https://openai.com/index/introducing-gpt-6-1-sol\">the official announcement</a>. This is not a mere lineup refresh: it is the birth certificate of a second frontier, engineered for code, computer use, and professional workloads.",
+        "de": "Mit GPT-6.1 Sol hat OpenAI die folgenreichste Ankündigung der Woche geliefert: eine als «nah an Astra» bezeichnete Intelligenz – sein absolutes Spitzmodell – zum Fünftel der üblichen GPT-6-Astra-API-Preise, sowohl bei der Eingabe wie bei der Ausgabe, mit einem Multi-Agenten-Modus in der Beta, gemäss <a href=\"https://openai.com/index/introducing-gpt-6-1-sol\">der offiziellen Ankündigung</a>. Das ist keine blosse Auffrischung der Palette, sondern die Geburtsstunde eines zweiten Grenzmodells, zugeschnitten auf Code, Computer-Use und professionelle Lasten.",
+        "it": "Con il lancio di GPT-6.1 Sol, OpenAI ha consegnato l'annuncio più strutturante della settimana: un'intelligenza qualificata come «prossima ad Astra» — il suo modello frontiera assoluto — venduta a un quinto dei prezzi API standard di GPT-6 Astra, sia in ingresso che in uscita, con una modalità multi-agente in beta, secondo <a href=\"https://openai.com/index/introducing-gpt-6-1-sol\">l'annuncio ufficiale</a>. Non si tratta di un semplice rinnovo di gamma: è l'atto di nascita di una seconda frontiera, concepita per il codice, il computer-use e i carichi professionali.",
+        "lmo": "Cant l'ha presentaa GPT-6.1 Sol, OpenAI l'ha daa l'anunzi el pussee strutturant de la setemana: on'intelligenza definida «vesina a Astra» — el sò model de frontiera assolut — venduda per on quint del prezzi API standard de GPT-6 Astra, sia in entrata che in sortida, con on mode multi-agent in beta, second <a href=\"https://openai.com/index/introducing-gpt-6-1-sol\">l'anunzi official</a>. L'è minga domà on sempliz restyling de gamma: l'è l'at de nassita de ona segonda frontiera, fada per el codes, el computer-use e i caregh professionaj."
+      },
+      {
+        "fr": "Le geste s'insère dans une architecture tarifaire que le labo a érigée en système cette même semaine. Un plan Pro 500 à 500 dollars par mois est apparu dans <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">les notes de version ChatGPT</a>, seul à débloquer Astra Ultrafast, la variante à espacement inter-tokens accéléré documentée dans le <a href=\"https://platform.openai.com/docs/changelog\">changelog de la plateforme</a>. La vélocité devient un bien de luxe, segmenté par paliers d'abonnement — une logique que résume aussi le <a href=\"https://openai.com/index/devday-2026-recap\">récapitulatif du DevDay 2026</a> et ses plus de vingt annonces.",
+        "en": "The move fits into a pricing architecture the lab has erected into a system this very week. A Pro 500 plan at 500 dollars a month appeared in <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">the ChatGPT release notes</a>, alone in unlocking Astra Ultrafast, the accelerated inter-token spacing variant documented in the <a href=\"https://platform.openai.com/docs/changelog\">platform changelog</a>. Velocity becomes a luxury good, segmented by subscription tiers — a logic also captured by the <a href=\"https://openai.com/index/devday-2026-recap\">DevDay 2026 recap</a> and its twenty-plus announcements.",
+        "de": "Der Schritt fügt sich in eine Preisarchitektur ein, die das Labor in derselben Woche zum System erhoben hat. Ein Pro-500-Abo für 500 Dollar pro Monat tauchte in den <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">ChatGPT-Versionshinweisen</a> auf – als einziges schaltet es Astra Ultrafast frei, die Variante mit beschleunigtem Token-Abstand, dokumentiert im <a href=\"https://platform.openai.com/docs/changelog\">Changelog der Plattform</a>. Geschwindigkeit wird zum Luxusgut, segmentiert nach Abo-Stufen – eine Logik, die auch das <a href=\"https://openai.com/index/devday-2026-recap\">DevDay-2026-Resümee</a> mit seinen über zwanzig Ankündigungen widerspiegelt.",
+        "it": "Il gesto si inserisce in un'architettura tariffaria che il laboratorio ha eretto a sistema nella stessa settimana. Un piano Pro 500 a 500 dollari al mese è comparso nelle <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">note di versione di ChatGPT</a>, unico a sbloccare Astra Ultrafast, la variante con spaziatura inter-token accelerata documentata nel <a href=\"https://platform.openai.com/docs/changelog\">changelog della piattaforma</a>. La velocità diventa un bene di lusso, segmentata per scaglioni di abbonamento — una logica riassunta anche dal <a href=\"https://openai.com/index/devday-2026-recap\">riepilogo del DevDay 2026</a> e dalle sue oltre venti novità.",
+        "lmo": "El gest el se insèria in d'on'architettura de prezzi che 'l laboratori l'ha tirada in pee comè on sistema in quèla medemma setemana chì. On pian Pro 500 a 500 dollar al mes l'è comparii in <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">i note de version de ChatGPT</a>, l'unic a sbloccà Astra Ultrafast, la variànt cont on spaziament intra-token aceleoraa documentada in del <a href=\"https://platform.openai.com/docs/changelog\">changelog de la piattaforma</a>. La velocità la deventa on ben de luss, segmentaa per scal de abbonament — ona lògega che la resum anca el <a href=\"https://openai.com/index/devday-2026-recap\">reseunt del DevDay 2026</a> cont i sò vint anunzi e pussee."
+      },
+      {
+        "fr": "Anthropic a joué la même partition, une octave en dessous : Claude Sonnet 5.5 arrive avec 30 % de vitesse en plus et un coût réduit jusqu'à 30 % face à Sonnet 5 pour la majorité des charges de travail, selon <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">la fiche du modèle</a>. La bataille ne se joue plus seulement au sommet des classements, mais sur la pente prix-performance du segment médian — là où se font les volumes d'entreprise.",
+        "en": "Anthropic played the same score, an octave lower: Claude Sonnet 5.5 arrives with 30% more speed and costs up to 30% less than Sonnet 5 for most workloads, according to <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">the model card</a>. The battle is no longer fought only at the top of the leaderboards, but on the price-performance slope of the mid-range segment — where enterprise volumes are made.",
+        "de": "Anthropic spielte dieselbe Partitur, eine Oktave tiefer: Claude Sonnet 5.5 kommt mit 30 Prozent mehr Geschwindigkeit und Kosten, die gegenüber Sonnet 5 für die meisten Workloads um bis zu 30 Prozent sinken, gemäss <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">der Modellseite</a>. Die Schlacht wird nicht mehr nur an der Spitze der Ranglisten ausgetragen, sondern an der Preis-Leistungs-Kurve des Mittelsegments – dort, wo die Unternehmensvolumen entstehen.",
+        "it": "Anthropic ha suonato la stessa partitura, un'ottava più in basso: Claude Sonnet 5.5 arriva con il 30% di velocità in più e un costo ridotto fino al 30% rispetto a Sonnet 5 per la maggior parte dei carichi di lavoro, secondo <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">la scheda del modello</a>. La battaglia non si gioca più solo in cima alle classifiche, ma sulla pendenza prezzo-prestazioni del segmento medio — dove si fanno i volumi aziendali.",
+        "lmo": "Anthropic l'ha sunaa la medemma partitura, ona utava sott: Claude Sonnet 5.5 el rivarà cont on 30% de velocità in pussee e on cost reduced fina al 30% rispett a Sonnet 5 per la maggioranza di caregh de laurà, second <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">la scheda del model</a>. La bataja ades la se gioa no domà in cima ai classifegh, ma in su la penda prezzi-prestazion del segment median — indove che hinn fatt i volum d'impresa."
+      },
+      {
+        "fr": "Pour les six prochains mois, la leçon est claire : la frontière se stratifie en couches tarifaires explicites, et le coût marginal d'« une intelligence presque maximale » s'effondre plus vite que prévu. Les acheteurs d'API vont restructurer leurs arbitrages autour de ce double axe performance/prix, pendant que les acteurs open weights — Aleph Alpha en tête avec Kolibri — contestent ce modèle économique par la souveraineté et la transparence. La guerre des marges de l'intelligence a commencé.",
+        "en": "For the next six months, the lesson is clear: the frontier is stratifying into explicit pricing tiers, and the marginal cost of \"almost-maximal intelligence\" is collapsing faster than expected. API buyers will restructure their trade-offs around this dual performance/price axis, while open-weights players — Aleph Alpha at the forefront with Kolibri — contest this business model on sovereignty and transparency grounds. The margin war over intelligence has begun.",
+        "de": "Für die nächsten sechs Monate ist die Lehre klar: Die Spitzenklasse schichtet sich in explizite Preiskategorien, und die Grenzkosten einer «fast maximalen Intelligenz» fallen schneller als erwartet. Die API-Käufer werden ihre Abwägungen um diese doppelte Achse Leistung/Preis neu strukturieren, während die Open-Weights-Akteure – allen voran Aleph Alpha mit Kolibri – dieses Geschäftsmodell mit Souveränität und Transparenz herausfordern. Der Margenkrieg der Intelligenz hat begonnen.",
+        "it": "Per i prossimi sei mesi la lezione è chiara: la frontiera si stratifica in livelli tariffari espliciti, e il costo marginale di «un'intelligenza quasi massimale» crolla più velocemente del previsto. Gli acquirenti di API ristruttureranno i propri arbitraggi attorno a questo doppio asse prestazioni/prezzo, mentre gli attori open weights — Aleph Alpha in testa con Kolibri — contestano questo modello economico con la sovranità e la trasparenza. La guerra dei margini dell'intelligenza è iniziata.",
+        "lmo": "Per i ses mes che vegnen, la lesson l'è ciara: la frontiera la se stratifega in scigher de prezzi esplicitee, e 'l cost marginal de «on'intelligenza quasi massima» el gionta giò pussee a la svelta de quell che se spettava. I cumparej de API gheavarann de strutturà i sò arbitragg intorna a sto dopp ass prestazion/prezzi chì, intant che i attor open weights — Aleph Alpha in testa cont Kolibri — metten in discussion quèll model economich chì per la sovranità e la trasparenza. La guerra di margjin de l'intelligenza l'è scominciada."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/introducing-gpt-6-1-sol",
+      "https://platform.openai.com/docs/changelog",
+      "https://www.anthropic.com/claude-sonnet-5-5",
+      "https://news.ycombinator.com/item?id=49896586"
+    ],
+    "kicker": {
+      "fr": "Économie de la frontière",
+      "en": "The economics of the frontier",
+      "de": "Ökonomie der Spitzenklasse",
+      "it": "Economia della frontiera",
+      "lmo": "Economia de la frontiera"
+    },
+    "headline": {
+      "fr": "GPT-6.1 Sol, le modèle qui verrouille la nouvelle géographie du prix de l'intelligence",
+      "en": "GPT-6.1 Sol: the model that locks in the new geography of the price of intelligence",
+      "de": "GPT-6.1 Sol: das Modell, das die neue Geografie des Intelligenzpreises zementiert",
+      "it": "GPT-6.1 Sol, il modello che chiude la nuova geografia del prezzo dell'intelligenza",
+      "lmo": "GPT-6.1 Sol, el model che el blocava la nova geografia del prezzi de l'intelligenza"
+    },
+    "subdeck": {
+      "fr": "L'intelligence de frontière à un cinquième du prix, un plan à 500 dollars par mois pour la vitesse, des discounts agressifs sur le segment médian : la semaine a cristallisé une stratification tarifaire qui redéfinit le marché de l'inférence.",
+      "en": "Frontier intelligence at a fifth of the price, a 500-dollar-a-month plan for speed, aggressive discounts in the mid-range segment: this week crystallized a tariff stratification that is redefining the inference market.",
+      "de": "Spitzenintelligenz zum Fünftel des Preises, ein 500-Dollar-Abo pro Monat für Geschwindigkeit, aggressive Rabatte im Mittelsegment: Die Woche hat eine Tarifstratifizierung kristallisiert, die den Inferenzmarkt neu definiert.",
+      "it": "L'intelligenza di frontiera a un quinto del prezzo, un piano da 500 dollari al mese per la velocità, sconti aggressivi sul segmento medio: la settimana ha cristallizzato una stratificazione tariffaria che ridefinisce il mercato dell'inferenza.",
+      "lmo": "L'intelligenza de frontiera a on quint del prezzi, on pian a 500 dollar al mes per la velocità, scont aggredess in sul segment median: la setemana l'ha cristallizaa ona stratificazion tariffaria che la redefiniss el mercaa de l'inferenza."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Gemini 4 Argon : Google DeepMind annonce sa « nouvelle ère » d'intelligence frontière",
+        "en": "Gemini 4 Argon: Google DeepMind announces its \"new era\" of frontier intelligence",
+        "de": "Gemini 4 Argon: Google DeepMind kündigt seine «neue Ära» der Grenzintelligenz an",
+        "it": "Gemini 4 Argon: Google DeepMind annuncia la sua «nuova era» di intelligenza frontiera",
+        "lmo": "Gemini 4 Argon: Google DeepMind la anunzia la so «noeuva èra» de intelligenza de frontiera"
+      },
+      "body": {
+        "fr": "Le labo a annoncé Gemini 4 Argon, son modèle de frontière pour « la prochaine ère », ciblant le real-world coding, le travail de connaissances en entreprise et la cyberdéfense, avec un déploiement imminent, selon <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">le blog DeepMind</a>.",
+        "en": "The lab announced Gemini 4 Argon, its frontier model for \"the next era\", targeting real-world coding, enterprise knowledge work, and cyber defense, with imminent deployment, according to <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">the DeepMind blog</a>.",
+        "de": "Das Labor hat Gemini 4 Argon angekündigt, sein Grenzmodell für «die nächste Ära», mit Zielrichtung Real-World-Coding, unternehmerische Wissensarbeit und Cyberabwehr, mit unmittelbar bevorstehendem Rollout, gemäss <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">dem DeepMind-Blog</a>.",
+        "it": "Il laboratorio ha annunciato Gemini 4 Argon, il suo modello di frontiera per «la prossima era», puntando sul real-world coding, sul lavoro di conoscenza in azienda e sulla cyberdifesa, con un rilascio imminente, secondo <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">il blog DeepMind</a>.",
+        "lmo": "El laboratori l'hà anunziaa Gemini 4 Argon, el sò model de frontiera per «la prossima èra», dedicàa al real-world coding, al laurà de cognossenza in impresa e a la cyberdefesa, cont on deploymnt iminenti, second <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">el blog de DeepMind</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Majeur-Äquivalent: Gross",
+        "it": "Maggiore",
+        "lmo": "Important"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine ISO 2026-W40",
+        "en": "This week — ISO week 2026-W40",
+        "de": "Diese Woche – ISO-Woche 2026-W40",
+        "it": "Questa settimana — settimana ISO 2026-W40",
+        "lmo": "Sta setemana — setemana ISO 2026-W40"
+      },
+      "urls": [
+        "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "https://news.ycombinator.com/item?id=49913571"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Kolibri : Aleph Alpha réclame la souveraineté européenne à poids ouverts, et la communauté écoute",
+        "en": "Kolibri: Aleph Alpha claims European sovereignty with open weights, and the community is listening",
+        "de": "Kolibri: Aleph Alpha fordert europäische Souveränität mit offenen Gewichten – und die Community hört zu",
+        "it": "Kolibri: Aleph Alpha rivendica la sovranità europea a pesi aperti, e la comunità ascolta",
+        "lmo": "Kolibri: Aleph Alpha la reclama la sovranitàa europega a pes avèrt, e la comunità la scolta"
+      },
+      "body": {
+        "fr": "Le laboratoire allemand publie Kolibri, un modèle open-weight accompagné d'un rapport technique complet. La discussion sur <a href=\"https://news.ycombinator.com/item?id=49942706\">Hacker News</a> a atteint 547 points et 308 commentaires — un accueil rare pour un acteur européen.",
+        "en": "The German lab has released Kolibri, an open-weight model accompanied by a full technical report. The discussion on <a href=\"https://news.ycombinator.com/item?id=49942706\">Hacker News</a> reached 547 points and 308 comments — a rare reception for a European player.",
+        "de": "Das deutsche Labor veröffentlicht Kolibri, ein Open-Weight-Modell samt vollständigem technischem Bericht. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=49942706\">Hacker News</a> erreichte 547 Punkte und 308 Kommentare – ein seltener Empfang für einen europäischen Akteur.",
+        "it": "Il laboratorio tedesco pubblica Kolibri, un modello open-weight accompagnato da un rapporto tecnico completo. La discussione su <a href=\"https://news.ycombinator.com/item?id=49942706\">Hacker News</a> ha raggiunto 547 punti e 308 commenti — un'accoglienza rara per un attore europeo.",
+        "lmo": "El laborator todesch el pòrta foeura Kolibri, on model open-weight cont insemma on rapport tecnegh complet. La discusion su <a href=\"https://news.ycombinator.com/item?id=49942706\">Hacker News</a> l'hà rivada a 547 pont e 308 coment — on'accoglienza rara per on attor europee."
+      },
+      "tag": {
+        "fr": "Open weights",
+        "en": "Open weights",
+        "de": "Open Weights",
+        "it": "Open weights",
+        "lmo": "Open weights"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine ISO 2026-W40",
+        "en": "This week — ISO week 2026-W40",
+        "de": "Diese Woche – ISO-Woche 2026-W40",
+        "it": "Questa settimana — settimana ISO 2026-W40",
+        "lmo": "Sta setemana — setemana ISO 2026-W40"
+      },
+      "urls": [
+        "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+        "https://aleph-alpha.com/downloads/tech-report.pdf"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "100 millions de dollars pour former 10 000 ingénieurs : le pari capital humain d'Anthropic",
+        "en": "100 million dollars to train 10,000 engineers: Anthropic's human-capital bet",
+        "de": "100 Millionen Dollar für 10 000 Ingenieure: Anthropics Wette aufs Humankapital",
+        "it": "100 milioni di dollari per formare 10 000 ingegneri: la scommessa sul capitale umano di Anthropic",
+        "lmo": "100 miliòn de dollar per formà 10.000 ingegnej: el pesciaa sul capital oman de Anthropic"
+      },
+      "body": {
+        "fr": "Le labo consacre 100 millions de dollars à la formation de 10 000 ingénieurs pour combler la pénurie de talents IA en entreprise, une stratégie de long terme pour verrouiller l'adoption de Claude, selon <a href=\"https://www.anthropic.com/news?subjects=announcements\">l'annonce officielle</a>.",
+        "en": "The lab is committing 100 million dollars to training 10,000 engineers to close the enterprise AI talent shortage, a long-term strategy to lock in Claude's adoption, according to <a href=\"https://www.anthropic.com/news?subjects=announcements\">the official announcement</a>.",
+        "de": "Das Labor widmet 100 Millionen Dollar der Ausbildung von 10 000 Ingenieuren, um den KI-Talentmangel in Unternehmen zu beheben – eine Langfriststrategie zur Zementierung der Claude-Adoption, gemäss der <a href=\"https://www.anthropic.com/news?subjects=announcements\">offiziellen Ankündigung</a>.",
+        "it": "Il laboratorio destina 100 milioni di dollari alla formazione di 10 000 ingegneri per colmare la carenza di talenti IA nelle imprese, una strategia di lungo periodo per consolidare l'adozione di Claude, secondo <a href=\"https://www.anthropic.com/news?subjects=announcements\">l'annuncio ufficiale</a>.",
+        "lmo": "El laboratori el destina 100 miliòn de dollar a la formazion de 10.000 ingegnej per tappà la carestia de talent IA in impresa, ona strategia de longh termen per blocà l'adozion de Claude, second <a href=\"https://www.anthropic.com/news?subjects=announcements\">l'anunzi official</a>."
+      },
+      "tag": {
+        "fr": "Anthropic",
+        "en": "Anthropic",
+        "de": "Anthropic",
+        "it": "Anthropic",
+        "lmo": "Anthropic"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine ISO 2026-W40",
+        "en": "This week — ISO week 2026-W40",
+        "de": "Diese Woche – ISO-Woche 2026-W40",
+        "it": "Questa settimana — settimana ISO 2026-W40",
+        "lmo": "Sta setemana — setemana ISO 2026-W40"
+      },
+      "urls": [
+        "https://www.anthropic.com/news?subjects=announcements"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Review",
+        "de": "Rückblick Grenzmodelle",
+        "it": "Retro Frontiera",
+        "lmo": "Retro Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles frontière",
+            "en": "Frontier models",
+            "de": "Grenzmodelle",
+            "it": "Modelli frontiera",
+            "lmo": "Modell de frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GPT-6.1 Sol : la quasi-frontière à un cinquième du prix",
+                "en": "Gemini 4 Argon: Google DeepMind announces its \"new era\" of frontier intelligence",
+                "de": "GPT-6.1 Sol: die Fast-Spitzenklasse zum Fünftel des Preises",
+                "it": "GPT-6.1 Sol: la quasi-frontiera a un quinto del prezzo",
+                "lmo": "GPT-6.1 Sol: la quasi-frontiera a on quint del prezzi"
+              },
+              "body": {
+                "fr": "GPT-6.1 Sol se positionne juste sous GPT-6 Astra et vise le code, le computer-use et les usages professionnels, avec un mode multi-agents en bêta. La promesse d'une intelligence proche d'Astra pour un cinquième du prix API standard a déclenché une discussion de fond chez <a href=\"https://news.ycombinator.com/item?id=49896586\">les développeurs sur Hacker News</a>.",
+                "en": "Google DeepMind has announced Gemini 4 Argon, its frontier model for \"the next era\", dedicated to real-world coding, enterprise knowledge work, and cyber defense, with deployment described as imminent on <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">the lab's blog</a>.",
+                "de": "GPT-6.1 Sol positioniert sich knapp unter GPT-6 Astra und zielt auf Code, Computer-Use und professionelle Anwendungen, mit einem Multi-Agenten-Modus in der Beta. Das Versprechen einer Astra-nahen Intelligenz zum Fünftel des üblichen API-Preises hat bei den <a href=\"https://news.ycombinator.com/item?id=49896586\">Entwicklern auf Hacker News</a> eine Grundsatzdebatte ausgelöst.",
+                "it": "GPT-6.1 Sol si posiziona appena sotto GPT-6 Astra e punta al codice, al computer-use e agli usi professionali, con una modalità multi-agente in beta. La promessa di un'intelligenza prossima ad Astra a un quinto del prezzo API standard ha innescato una discussione approfondita tra <a href=\"https://news.ycombinator.com/item?id=49896586\">gli sviluppatori su Hacker News</a>.",
+                "lmo": "GPT-6.1 Sol el se mett gius de GPT-6 Astra e 'l varda al codes, al computer-use e ai usagg professionaj, cont on mode multi-agent in beta. La promessa de on'intelligenza vesina a Astra per on quint del prezzi API standard l'ha faa scoppiaa ona discusion de fond in tra <a href=\"https://news.ycombinator.com/item?id=49896586\">i svilupadur su Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "Google DeepMind",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-gpt-6-1-sol",
+                "https://platform.openai.com/docs/changelog"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Dots : OpenAI dévoile des agents permanents qui travaillent en continu",
+                "en": "Ember-1: Fireworks AI breaks its role as a neutral host",
+                "de": "Dots: OpenAI enthüllt Dauer-Agenten, die ununterbrochen arbeiten",
+                "it": "Dots: OpenAI svela agenti permanenti che lavorano in continuo",
+                "lmo": "Dots: OpenAI la mustra i agent permanent che laoren in manera continua"
+              },
+              "body": {
+                "fr": "Décrits comme des « always-on agents », les Dots sont des assistants proactifs capables de suivre des projets complexes pendant que leurs utilisateurs vivent leur vie. L'annonce, discutée à plusieurs centaines de points sur <a href=\"https://news.ycombinator.com/item?id=49996604\">Hacker News</a>, déplace la promesse agentique du « on-demand » vers le « permanent ».",
+                "en": "The inference platform has unveiled Ember-1, its first in-house model, breaking with its historic role as a neutral host for open-weights models. The announcement triggered a massive debate — 395 points and 197 comments in under 24 hours — on <a href=\"https://news.ycombinator.com/item?id=49868830\">Hacker News</a>, as the move raises questions about the new entrant's potential conflicts of interest.",
+                "de": "Als «always-on agents» beschrieben, sind die Dots proaktive Assistenten, die komplexe Projekte weiterverfolgen können, während ihre Nutzer ihr Leben leben. Die Ankündigung, die auf <a href=\"https://news.ycombinator.com/item?id=49996604\">Hacker News</a> mehrere hundert Punkte erreichte, verschiebt die agentische Verheissung vom «On-Demand» ins «Permanente».",
+                "it": "Descritti come «always-on agents», i Dots sono assistenti proattivi capaci di seguire progetti complessi mentre i loro utenti vivono la propria vita. L'annuncio, discusso a diverse centinaia di punti su <a href=\"https://news.ycombinator.com/item?id=49996604\">Hacker News</a>, sposta la promessa agentica dal «on-demand» al «permanente».",
+                "lmo": "Descreiuv comè «always-on agents», i Dots hinn assisstant proattiv boni de seguì progett complicaa intant che i sò utent ghe fann i sò vit. L'anunzi, discutuu a parej centenar de pont su <a href=\"https://news.ycombinator.com/item?id=49996604\">Hacker News</a>, el sposta la promessa agentega del «on-demand» al «permanent»."
+              },
+              "kicker": {
+                "fr": "OpenAI",
+                "en": "Inference",
+                "de": "OpenAI",
+                "it": "OpenAI",
+                "lmo": "OpenAI"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-dots/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Sonnet 5.5 : plus rapide, moins cher, pour tenir le segment médian",
+                "en": "Mistral AI opens a Munich hub dedicated to Physics AI",
+                "de": "Claude Sonnet 5.5: schneller, günstiger – um das Mittelsegment zu halten",
+                "it": "Claude Sonnet 5.5: più veloce, meno caro, per difendere il segmento medio",
+                "lmo": "Claude Sonnet 5.5: pussee svelt, pussee bon mercà, per tegnì el segment median"
+              },
+              "body": {
+                "fr": "La version intermédiaire de la gamme Claude gagne 30 % en vitesse et coûte jusqu'à 30 % de moins que Sonnet 5 pour la majorité des charges de travail, selon <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">l'annonce du labo</a>. Une salve tarifaire directement alignée sur le repositionnement d'OpenAI.",
+                "en": "The French lab is opening a hub in Munich dedicated to Physics AI and industrial AI, in partnership with German industrial players, <a href=\"https://mistral.ai/news/hallo-deutschland/\">the company</a> announced. A bet on European physical engineering as a differentiator against the American giants.",
+                "de": "Die Zwischenversion der Claude-Palette gewinnt 30 Prozent an Geschwindigkeit und kostet für die meisten Workloads bis zu 30 Prozent weniger als Sonnet 5, gemäss <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">der Ankündigung des Labors</a>. Eine Preissalve, direkt auf die Neupositionierung OpenAIs abgestimmt.",
+                "it": "La versione intermedia della gamma Claude guagna il 30% in velocità e costa fino al 30% in meno di Sonnet 5 per la maggior parte dei carichi di lavoro, secondo <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">l'annuncio del laboratorio</a>. Una scarica tariffaria direttamente allineata al riposizionamento di OpenAI.",
+                "lmo": "La version intermedia de la gamma Claude la guadagna on 30% in velocità e la costa fina al 30% de manch de Sonnet 5 per la maggioranza di caregh de laurà, second <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">l'anunzi del laboratori</a>. On colp tariffari mettuu direttament in linia cont el reposizionament de OpenAI."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Mistral AI",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/claude-sonnet-5-5",
+                "https://www.anthropic.com/news?subjects=announcements"
+              ]
+            }
+          ]
+        },
+        {
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemini 4 Argon : Google DeepMind annonce sa « nouvelle ère » d'intelligence frontière",
+                "en": "GPT-6.1 Sol: near-frontier intelligence at a fifth of the price",
+                "de": "Gemini 4 Argon: Google DeepMind kündigt seine «neue Ära» der Grenzintelligenz an",
+                "it": "Gemini 4 Argon: Google DeepMind annuncia la sua «nuova era» di intelligenza frontiera",
+                "lmo": "Gemini 4 Argon: Google DeepMind la anunzia la so «noeuva èra» de intelligenza de frontiera"
+              },
+              "body": {
+                "fr": "Google DeepMind a annoncé Gemini 4 Argon, son modèle de frontière pour « la prochaine ère », dédié au real-world coding, au travail de connaissances en entreprise et à la cyberdéfense, avec un déploiement annoncé comme imminent sur <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">le blog du labo</a>.",
+                "en": "GPT-6.1 Sol positions itself just below GPT-6 Astra and targets code, computer use, and professional use cases, with a multi-agents mode in beta. The promise of near-Astra intelligence at a fifth of the standard API price sparked a substantive discussion among <a href=\"https://news.ycombinator.com/item?id=49896586\">developers on Hacker News</a>.",
+                "de": "Google DeepMind hat Gemini 4 Argon angekündigt, sein Grenzmodell für «die nächste Ära», gewidmet dem Real-World-Coding, dem unternehmerischen Wissensarbeit und der Cyberabwehr, mit einem laut <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">Blog des Labors</a> unmittelbar bevorstehenden Rollout.",
+                "it": "Google DeepMind ha annunciato Gemini 4 Argon, il suo modello di frontiera per «la prossima era», dedicato al real-world coding, al lavoro di conoscenza in azienda e alla cyberdifesa, con un rilascio annunciato come imminente sul <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">blog del laboratorio</a>.",
+                "lmo": "Google DeepMind l'ha anunziaa Gemini 4 Argon, el sò model de frontiera per «la prossima èra», dedicàa al real-world coding, al laurà de cognossenza in impresa e a la cyberdefesa, cont on deploymnt anunziaa comè iminenti in su <a href=\"https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/\">el blog del laboratori</a>."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "OpenAI",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+                "https://news.ycombinator.com/item?id=49913571"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ember-1 : Fireworks AI brise son rôle d'hébergeur neutre",
+                "en": "Dots: OpenAI unveils permanent agents that work continuously",
+                "de": "Ember-1: Fireworks AI bricht mit seiner Rolle als neutraler Host",
+                "it": "Ember-1: Fireworks AI rompe il suo ruolo di hosting neutrale",
+                "lmo": "Ember-1: Fireworks AI la s'ha romp el sò roeul de ospitador neutral"
+              },
+              "body": {
+                "fr": "La plateforme d'inférence a dévoilé Ember-1, son premier modèle maison, rompant avec son rôle historique d'hébergeur neutre des modèles open weights. L'annonce a déclenché un débat massif — 395 points et 197 commentaires en moins de 24 heures — sur <a href=\"https://news.ycombinator.com/item?id=49868830\">Hacker News</a>, tant la décision interroge les conflits d'intérêts potentiels du nouvel entrant.",
+                "en": "Described as \"always-on agents\", Dots are proactive assistants capable of tracking complex projects while their users get on with their lives. The announcement, discussed at several hundred points on <a href=\"https://news.ycombinator.com/item?id=49996604\">Hacker News</a>, shifts the agentic promise from \"on-demand\" to \"permanent\".",
+                "de": "Die Inferenzplattform hat Ember-1 vorgestellt, ihr erstes Eigenmodell, und damit mit ihrer historischen Rolle als neutraler Host von Open-Weights-Modellen gebrochen. Die Ankündigung löste auf <a href=\"https://news.ycombinator.com/item?id=49868830\">Hacker News</a> eine massive Debatte aus – 395 Punkte und 197 Kommentare in weniger als 24 Stunden –, so sehr wirft die Entscheidung beim neuen Akteur Fragen nach möglichen Interessenkonflikten auf.",
+                "it": "La piattaforma di inferenza ha svelato Ember-1, il suo primo modello proprietario, rompendo con il suo ruolo storico di hosting neutrale dei modelli open weights. L'annuncio ha scatenato un dibattito massiccio — 395 punti e 197 commenti in meno di 24 ore — su <a href=\"https://news.ycombinator.com/item?id=49868830\">Hacker News</a>, tanto la decisione solleva interrogativi sui potenziali conflitti d'interessi del nuovo entrante.",
+                "lmo": "La piattaforma de inferenza l'ha mustraa Ember-1, el sò primm model so, rompend cont el sò roeul storich de ospitador neutral di modell open weights. L'anunzi l'ha faa nass on dibatit massicc — 395 pont e 197 coment in men de 24 or — su <a href=\"https://news.ycombinator.com/item?id=49868830\">Hacker News</a>, tant el noeuv ingress el mett in quistion i possibel conflitt d'interess."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "OpenAI",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "urls": [
+                "https://fireworks.ai/blog/ember-1",
+                "https://news.ycombinator.com/item?id=49868830"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mistral AI ouvre un hub à Munich dédié à la Physics AI",
+                "en": "Claude Sonnet 5.5: faster, cheaper, to hold the mid-range segment",
+                "de": "Mistral AI eröffnet einen Hub in München für Physics AI",
+                "it": "Mistral AI apre un hub a Monaco dedicato alla Physics AI",
+                "lmo": "Mistral AI la derv on hub a Monaco dedicàa a la Physics AI"
+              },
+              "body": {
+                "fr": "Le labo français ouvre à Munich un hub dédié à la Physics AI et à l'IA industrielle, en partenariat avec des industriels allemands, annonce <a href=\"https://mistral.ai/news/hallo-deutschland/\">l'entreprise</a>. Un pari sur l'ingénierie physique européenne comme différentiateur face aux géants américains.",
+                "en": "The mid-tier version of the Claude lineup gains 30% in speed and costs up to 30% less than Sonnet 5 for most workloads, according to <a href=\"https://www.anthropic.com/claude-sonnet-5-5\">the lab's announcement</a>. A pricing salvo directly aligned with OpenAI's repositioning.",
+                "de": "Das französische Labor eröffnet in München einen Hub für Physics AI und industrielle KI, in Partnerschaft mit deutschen Industrieunternehmen, wie <a href=\"https://mistral.ai/news/hallo-deutschland/\">das Unternehmen</a> bekanntgibt. Ein Einsatz auf europäische Physik-Ingenieurkunst als Differenzierungsmerkmal gegenüber den amerikanischen Giganten.",
+                "it": "Il laboratorio francese apre a Monaco di Baviera un hub dedicato alla Physics AI e all'IA industriale, in partnership con industriali tedeschi, annuncia <a href=\"https://mistral.ai/news/hallo-deutschland/\">l'azienda</a>. Una scommessa sull'ingegneria fisica europea come differenziale rispetto ai giganti americani.",
+                "lmo": "El laboratori frances el derv a Monaco on hub dedicàa a la Physics AI e a l'IA industrial, in partenariàa cont i industrial todesch, l'anuncia <a href=\"https://mistral.ai/news/hallo-deutschland/\">la cumpagnia</a>. On pesciaa in su l'ingegneria fisica europea comè diferenziaa vers i gian americàn."
+              },
+              "kicker": {
+                "fr": "Mistral AI",
+                "en": "Anthropic",
+                "de": "Mistral AI",
+                "it": "Mistral AI",
+                "lmo": "Mistral AI"
+              },
+              "urls": [
+                "https://mistral.ai/news/hallo-deutschland/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praxis",
+        "it": "Strumenti & Pratiche",
+        "lmo": "Utensij & Pratich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils développeurs",
+            "en": "Developer tools",
+            "de": "Entwicklerwerkzeuge",
+            "it": "Strumenti sviluppatori",
+            "lmo": "Utensij per i svilupadur"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude Code s'ouvre aux « mods », une couche de personnalisation pour l'agent de code",
+                "en": "Claude Code opens up to \"mods\", a customization layer for the coding agent",
+                "de": "Claude Code öffnet sich für «Mods» – eine Personalisierungsschicht für den Code-Agenten",
+                "it": "Claude Code si apre ai «mods», un livello di personalizzazione per l'agente di codice",
+                "lmo": "Claude Code el se derv ai «mods», on strat de personalizzazion per l'agent de codes"
+              },
+              "body": {
+                "fr": "Anthropic a lancé un système de « mods » pour personnaliser Claude Code, une nouvelle couche d'extensibilité qui vient se greffer sur les hooks et l'agentivité du CLI, selon <a href=\"https://claude.com/blog/claude-code-mods\">les notes de publication</a>. Le move rapproche l'agent de code d'un écosystème applicatif classique.",
+                "en": "Anthropic has launched a \"mods\" system to customize Claude Code, a new extensibility layer that builds on the CLI's hooks and agentivity, according to <a href=\"https://claude.com/blog/claude-code-mods\">the release notes</a>. The move brings the coding agent closer to a classic application ecosystem.",
+                "de": "Anthropic hat ein «Mods»-System für Claude Code lanciert, eine neue Erweiterungsschicht, die auf den Hooks und der Agentivität der CLI aufsetzt, gemäss den <a href=\"https://claude.com/blog/claude-code-mods\">Release Notes</a>. Der Schritt rückt den Code-Agenten näher an ein klassisches Anwendungsökosystem heran.",
+                "it": "Anthropic ha lanciato un sistema di «mods» per personalizzare Claude Code, un nuovo livello di estensibilità che si innesta sugli hook e sull'agentività del CLI, secondo <a href=\"https://claude.com/blog/claude-code-mods\">le note di rilascio</a>. La mossa avvicina l'agente di codice a un ecosistema applicativo classico.",
+                "lmo": "Anthropic l'ha lanziaa on sistema de «mods» per personalizzà Claude Code, on noeuv strat de estensibilitàa che 'l vegn ongrejaa in sui hooks e in su l'agentivitàa del CLI, second <a href=\"https://claude.com/blog/claude-code-mods\">i note de publicazion</a>. El moviment el porta l'agent de codes vesin a on ecosistema aplicativ classich."
+              },
+              "kicker": {
+                "fr": "Agents & CLI",
+                "en": "Agents & CLI",
+                "de": "Agenten & CLI",
+                "it": "Agenti & CLI",
+                "lmo": "Agent & CLI"
+              },
+              "urls": [
+                "https://claude.com/blog/claude-code-mods"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cloudflare lance « Cf », une CLI agentique pour piloter son API en langage naturel",
+                "en": "Cloudflare launches \"Cf\", an agentic CLI to drive its API in natural language",
+                "de": "Cloudflare lanciert «Cf», eine agentische CLI zur Steuerung der API in natürlicher Sprache",
+                "it": "Cloudflare lancia «Cf», una CLI agentica per pilotare la sua API in linguaggio naturale",
+                "lmo": "Cloudflare la lança «Cf», on CLI agentegh per guidad la so API in lengov natural"
+              },
+              "body": {
+                "fr": "Cloudflare a lancé « Cf », une CLI agentique dédiée à son API, discutée par la communauté sur <a href=\"https://news.ycombinator.com/item?id=49879577\">Hacker News</a>. L'outil complète la sortie parallèle de Clef et Clef-flash, des modèles de décision open source hébergés sur Workers AI.",
+                "en": "Cloudflare has launched \"Cf\", an agentic CLI dedicated to its API, discussed by the community on <a href=\"https://news.ycombinator.com/item?id=49879577\">Hacker News</a>. The tool complements the parallel release of Clef and Clef-flash, open-source decision models hosted on Workers AI.",
+                "de": "Cloudflare hat «Cf» lanciert, eine agentische CLI für seine API, diskutiert von der Community auf <a href=\"https://news.ycombinator.com/item?id=49879577\">Hacker News</a>. Das Tool ergänzt die parallele Veröffentlichung von Clef und Clef-flash, zwei Open-Source-Entscheidungsmodellen, die auf Workers AI gehostet werden.",
+                "it": "Cloudflare ha lanciato «Cf», una CLI agentica dedicata alla sua API, discussa dalla comunità su <a href=\"https://news.ycombinator.com/item?id=49879577\">Hacker News</a>. Lo strumento completa il rilascio parallelo di Clef e Clef-flash, modelli di decisione open source ospitati su Workers AI.",
+                "lmo": "Cloudflare l'ha lanziaa «Cf», on CLI agentegh dedicàa a la so API, discutuu de la comunità su <a href=\"https://news.ycombinator.com/item?id=49879577\">Hacker News</a>. L'utensil el completa l'uscita parallela de Clef e Clef-flash, di modell de decision open source ospitaa in su Workers AI."
+              },
+              "kicker": {
+                "fr": "Infra as code",
+                "en": "Infra as code",
+                "de": "Infra as Code",
+                "it": "Infra as code",
+                "lmo": "Infra as code"
+              },
+              "urls": [
+                "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+                "https://news.ycombinator.com/item?id=49879577"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ds4 : le créateur de Redis publie un outil pour faire tourner des LLM en local",
+                "en": "ds4: the creator of Redis releases a tool for running LLMs locally",
+                "de": "ds4: der Schöpfer von Redis veröffentlicht ein Tool, um LLMs lokal laufen zu lassen",
+                "it": "ds4: il creatore di Redis pubblica uno strumento per far girare LLM in locale",
+                "lmo": "ds4: el creador de Redis el pòrta foeura on utensil per fà girà di LLM in local"
+              },
+              "body": {
+                "fr": "Salvatore Sanfilippo, créateur de Redis, a dévoilé « ds4 », un outil pour exécuter des LLM en local, présenté sur <a href=\"https://dwarfstar.sh/\">son site</a> et discuté sur <a href=\"https://news.ycombinator.com/item?id=49936575\">Hacker News</a>. Un signal de plus pour l'inférence locale portée par des figures respectées de l'infrastructure logicielle.",
+                "en": "Salvatore Sanfilippo, creator of Redis, has unveiled \"ds4\", a tool for running LLMs locally, presented on <a href=\"https://dwarfstar.sh/\">his site</a> and discussed on <a href=\"https://news.ycombinator.com/item?id=49936575\">Hacker News</a>. Yet another signal for local inference championed by respected figures of software infrastructure.",
+                "de": "Salvatore Sanfilippo, Schöpfer von Redis, hat «ds4» vorgestellt, ein Tool zum lokalen Ausführen von LLMs, präsentiert auf <a href=\"https://dwarfstar.sh/\">seiner Website</a> und diskutiert auf <a href=\"https://news.ycombinator.com/item?id=49936575\">Hacker News</a>. Ein weiteres Signal für lokale Inferenz, getragen von respektierten Figuren der Software-Infrastruktur.",
+                "it": "Salvatore Sanfilippo, creatore di Redis, ha svelato «ds4», uno strumento per eseguire LLM in locale, presentato sul <a href=\"https://dwarfstar.sh/\">suo sito</a> e discusso su <a href=\"https://news.ycombinator.com/item?id=49936575\">Hacker News</a>. Un segnale in più per l'inferenza locale portata avanti da figure rispettate dell'infrastruttura software.",
+                "lmo": "Salvatore Sanfilippo, creador de Redis, l'ha mustraa «ds4», on utensil per fà girà di LLM in del local, presentaa in su <a href=\"https://dwarfstar.sh/\">el sò sit</a> e discutuu su <a href=\"https://news.ycombinator.com/item?id=49936575\">Hacker News</a>. On segn in pussee per l'inferenza local portada de figure respettaa de l'infrastruttura software."
+              },
+              "kicker": {
+                "fr": "Inférence locale",
+                "en": "Local inference",
+                "de": "Lokale Inferenz",
+                "it": "Inferenza locale",
+                "lmo": "Inferenza local"
+              },
+              "urls": [
+                "https://dwarfstar.sh/",
+                "https://news.ycombinator.com/item?id=49936575"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Inférence & routage",
+            "en": "Inference & routing",
+            "de": "Inferenz & Routing",
+            "it": "Inferenza & routing",
+            "lmo": "Inferenza & routing"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Magnitude : un moteur d'inférence en Rust qui s'auto-accorde au matériel, jusqu'à 2× llama.cpp",
+                "en": "Magnitude: a Rust inference engine that self-tunes to the hardware, up to 2× llama.cpp",
+                "de": "Magnitude: eine Rust-Inferenz-Engine, die sich selbst auf die Hardware abstimmt – bis zu 2× llama.cpp",
+                "it": "Magnitude: un motore di inferenza in Rust che si auto-calibra sull'hardware, fino a 2× llama.cpp",
+                "lmo": "Magnitude: on motor de inferenza in Rust che 'l s'acorda da per lu al hardware, fina a 2× llama.cpp"
+              },
+              "body": {
+                "fr": "Magnitude, moteur d'inférence open source (Apache 2.0) écrit en Rust, se présente comme le premier moteur qui s'accorde automatiquement au matériel et revendique jusqu'à deux fois les performances de llama.cpp, selon <a href=\"https://news.ycombinator.com/item?id=49911995\">la discussion qui l'a accompagné sur Hacker News</a>.",
+                "en": "Magnitude, an open-source inference engine (Apache 2.0) written in Rust, presents itself as the first engine that automatically tunes itself to the hardware and claims up to twice the performance of llama.cpp, according to <a href=\"https://news.ycombinator.com/item?id=49911995\">the discussion that accompanied it on Hacker News</a>.",
+                "de": "Magnitude, eine in Rust geschriebene Open-Source-Inferenz-Engine (Apache 2.0), gibt sich als erste Engine, die sich automatisch auf die Hardware abstimmt, und beansprucht bis zu doppelt so hohe Leistung wie llama.cpp, gemäss der <a href=\"https://news.ycombinator.com/item?id=49911995\">Diskussion auf Hacker News</a>, die sie begleitete.",
+                "it": "Magnitude, motore di inferenza open source (Apache 2.0) scritto in Rust, si presenta come il primo motore che si sintonizza automaticamente sull'hardware e dichiara fino al doppio delle prestazioni di llama.cpp, secondo <a href=\"https://news.ycombinator.com/item?id=49911995\">la discussione che l'ha accompagnato su Hacker News</a>.",
+                "lmo": "Magnitude, motor de inferenza open source (Apache 2.0) scrivuu in Rust, el se presenta comè el primm motor che 'l se acorda automaticament al hardware e 'l revendega fina a du volt i prestazion de llama.cpp, second <a href=\"https://news.ycombinator.com/item?id=49911995\">la discusion che l'ha seguii su Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Engines",
+                "en": "Engines",
+                "de": "Engines",
+                "it": "Engines",
+                "lmo": "Engines"
+              },
+              "urls": [
+                "https://github.com/magnitudedev/magnitude",
+                "https://news.ycombinator.com/item?id=49911995"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Weave Router 2.0 et le harness agentique de DeepSeek : la couche de routage s'épaissit",
+                "en": "Weave Router 2.0 and DeepSeek's agentic harness: the routing layer thickens",
+                "de": "Weave Router 2.0 und DeepSeeks agentisches Harness: die Routingschicht verdichtet sich",
+                "it": "Weave Router 2.0 e l'harness agentico di DeepSeek: il livello di routing si ispessisce",
+                "lmo": "Weave Router 2.0 e l'harness agentegh de DeepSeek: el strat de routing el se assotiglia"
+              },
+              "body": {
+                "fr": "Le routeur open source Weave Router 2.0 se branche sur Claude Code ou Codex pour commuter entre LLM selon la tâche, avec une parité Astra revendiquée pour moitié prix, tandis que DeepSeek a mis en ligne son propre harness d'exécution pour agents de code, repéré sur la front page de <a href=\"https://news.ycombinator.com/\">Hacker News</a>.",
+                "en": "The open-source router Weave Router 2.0 plugs into Claude Code or Codex to switch between LLMs depending on the task, with claimed Astra parity at half the price, while DeepSeek has put online its own execution harness for coding agents, spotted on the front page of <a href=\"https://news.ycombinator.com/\">Hacker News</a>.",
+                "de": "Der Open-Source-Router Weave Router 2.0 dockt an Claude Code oder Codex an, um je nach Aufgabe zwischen LLMs umzuschalten, mit beanspruchter Astra-Parität zum halben Preis; DeepSeek hat unterdessen sein eigenes Ausführungs-Harness für Code-Agenten online gestellt, entdeckt auf der Front Page von <a href=\"https://news.ycombinator.com/\">Hacker News</a>.",
+                "it": "Il router open source Weave Router 2.0 si collega a Claude Code o Codex per commutare tra LLM in base al compito, con una parità Astra dichiarata a metà prezzo, mentre DeepSeek ha messo online il proprio harness di esecuzione per agenti di codice, individuato sulla front page di <a href=\"https://news.ycombinator.com/\">Hacker News</a>.",
+                "lmo": "El router open source Weave Router 2.0 el se tacca a Claude Code o Codex per comutà intra i LLM second la fadrìa, cont ona paritàa Astra revendicada per mezz prezzi, intant che DeepSeek l'ha mettuu online el sò harness de esecuzion per i agent de codes, segnàa in su la front page de <a href=\"https://news.ycombinator.com/\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Routage",
+                "en": "Routing",
+                "de": "Routing",
+                "it": "Routing",
+                "lmo": "Routing"
+              },
+              "urls": [
+                "https://news.ycombinator.com/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Riserca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers de la semaine",
+            "en": "Papers of the week",
+            "de": "Papers der Woche",
+            "it": "Paper della settimana",
+            "lmo": "Paper de la setemana"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Loop Scaling Laws : Meta unifie récurrence et MoE dans une même loi d'échelle",
+                "en": "Loop Scaling Laws: Meta unifies recurrence and MoE in a single scaling law",
+                "de": "Loop Scaling Laws: Meta vereint Rekurrenz und MoE in einem gemeinsamen Skalierungsgesetz",
+                "it": "Loop Scaling Laws: Meta unifica ricorrenza e MoE in un'unica legge di scala",
+                "lmo": "Loop Scaling Laws: Meta l'unifega recorrenza e MoE in d'ona medemma legg de scala"
+              },
+              "body": {
+                "fr": "Une équipe d'AI at Meta publie les premières lois d'échelle modélisant conjointement récurrence et mélange d'experts, unifiant deux axes d'efficacité jusque-là étudiés séparément (<a href=\"https://arxiv.org/abs/2609.40316\">arXiv</a>).",
+                "en": "An AI at Meta team has published the first scaling laws jointly modeling recurrence and mixture of experts, unifying two efficiency axes previously studied separately (<a href=\"https://arxiv.org/abs/2609.40316\">arXiv</a>).",
+                "de": "Ein Team von AI at Meta veröffentlicht die ersten Skalierungsgesetze, die Rekurrenz und Mixture-of-Experts gemeinsam modellieren, und vereint damit zwei bislang getrennt untersuchte Effizienzachsen (<a href=\"https://arxiv.org/abs/2609.40316\">arXiv</a>).",
+                "it": "Un team di AI at Meta pubblica le prime leggi di scala che modellano congiuntamente ricorrenza e mistura di esperti, unificando due assi di efficienza fino ad oggi studiati separatamente (<a href=\"https://arxiv.org/abs/2609.40316\">arXiv</a>).",
+                "lmo": "On team de AI at Meta la pòrta foeura i primm legg de scala che modellen insemma recorrenza e mistura di espert, unifegàa du ass de efficienza studiaa fina ades separatament (<a href=\"https://arxiv.org/abs/2609.40316\">arXiv</a>)."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architettura"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.40316"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SynthID Bio : le watermarking arrive dans les protéines de synthèse",
+                "en": "SynthID Bio: watermarking comes to synthetic proteins",
+                "de": "SynthID Bio: Watermarking erreicht synthetische Proteine",
+                "it": "SynthID Bio: il watermarking arriva nelle proteine di sintesi",
+                "lmo": "SynthID Bio: el watermarking el riva in di protejn de sintesi"
+              },
+              "body": {
+                "fr": "La preuve de concept étend le watermarking SynthID aux protéines générées par IA tout en préservant leur fonction biologique — un premier pas vers la traçabilité de la biologie de synthèse, détaillé par <a href=\"https://deepmind.google/blog/introducing-synthid-bio/\">Google DeepMind</a>.",
+                "en": "The proof of concept extends SynthID watermarking to AI-generated proteins while preserving their biological function — a first step toward traceable synthetic biology, detailed by <a href=\"https://deepmind.google/blog/introducing-synthid-bio/\">Google DeepMind</a>.",
+                "de": "Der Proof of Concept erweitert das SynthID-Watermarking auf KI-generierte Proteine, ohne deren biologische Funktion zu beeinträchtigen – ein erster Schritt zur Rückverfolgbarkeit synthetischer Biologie, dargelegt von <a href=\"https://deepmind.google/blog/introducing-synthid-bio/\">Google DeepMind</a>.",
+                "it": "La proof of concept estende il watermarking SynthID alle proteine generate dall'IA preservandone la funzione biologica — un primo passo verso la tracciabilità della biologia di sintesi, illustrato da <a href=\"https://deepmind.google/blog/introducing-synthid-bio/\">Google DeepMind</a>.",
+                "lmo": "La prova de concett la estend el watermarking SynthID ai protejn generaa de IA, salvandegh la fonzion biològega — on primm pass vers la tracciabilitàa de la biologia de la sintesi, detajaa de <a href=\"https://deepmind.google/blog/introducing-synthid-bio/\">Google DeepMind</a>."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-synthid-bio/",
+                "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-bio/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les transformers « arrêtent de penser » trop tôt — un minuscule LoRA corrige cela",
+                "en": "Transformers \"stop thinking\" too early — a tiny LoRA fixes that",
+                "de": "Transformer «hören zu früh auf zu denken» – ein winziger LoRA behebt es",
+                "it": "I transformer «smettono di pensare» troppo presto — un minuscolo LoRA lo corregge",
+                "lmo": "I transformer «fannen de cessà de pensà» tropp prest — on LoRA piscinin el correg chella roba chì"
+              },
+              "body": {
+                "fr": "Treize modèles de base ne suivent de manière fiable que 1,4 à 3,6 lignes d'instructions, montre le paper « Stop Thinking Too Early » ; un minuscule LoRA corrige cette défaillance (<a href=\"https://arxiv.org/abs/2609.36585\">arXiv</a>, <a href=\"https://lunamos.github.io/stop-thinking-too-early/\">site du projet</a>).",
+                "en": "Thirteen base models reliably follow only 1.4 to 3.6 lines of instructions, the paper \"Stop Thinking Too Early\" shows; a tiny LoRA fixes this failure (<a href=\"https://arxiv.org/abs/2609.36585\">arXiv</a>, <a href=\"https://lunamos.github.io/stop-thinking-too-early/\">project site</a>).",
+                "de": "Dreizehn Basismodelle folgen nur zuverlässig 1,4 bis 3,6 Anweisungszeilen, zeigt das Paper «Stop Thinking Too Early»; ein winziger LoRA behebt dieses Versagen (<a href=\"https://arxiv.org/abs/2609.36585\">arXiv</a>, <a href=\"https://lunamos.github.io/stop-thinking-too-early/\">Projektwebsite</a>).",
+                "it": "Tredici modelli di base seguono in modo affidabile solo da 1,4 a 3,6 righe di istruzioni, mostra il paper «Stop Thinking Too Early»; un minuscolo LoRA corregge questa carenza (<a href=\"https://arxiv.org/abs/2609.36585\">arXiv</a>, <a href=\"https://lunamos.github.io/stop-thinking-too-early/\">sito del progetto</a>).",
+                "lmo": "Tredes modell de base seguiten in manera affidabil domà 1,4-3,6 lign de istruzzion, el mustra el paper «Stop Thinking Too Early»; on LoRA piscinin el correg chela defetàa chì (<a href=\"https://arxiv.org/abs/2609.36585\">arXiv</a>, <a href=\"https://lunamos.github.io/stop-thinking-too-early/\">sit del proget</a>)."
+              },
+              "kicker": {
+                "fr": "Interprétabilité",
+                "en": "Interpretability",
+                "de": "Interpretierbarkeit",
+                "it": "Interpretabilità",
+                "lmo": "Interpretabilitàa"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.36585",
+                "https://lunamos.github.io/stop-thinking-too-early/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "On-policy contre off-policy : Cambridge bouscule le dogme de la distillation",
+                "en": "On-policy versus off-policy: Cambridge unsettles the distillation dogma",
+                "de": "On-Policy gegen Off-Policy: Cambridge erschüttert das Destillations-Dogma",
+                "it": "On-policy contro off-policy: Cambridge scuote il dogma della distillazione",
+                "lmo": "On-policy contra off-policy: Cambridge la mena sotta el dogma de la distillazion"
+              },
+              "body": {
+                "fr": "Une étude systématique de l'université de Cambridge bouscule le dogme de la distillation en comparant rigoureusement les régimes d'apprentissage, avec 129 votes sur les Daily Papers de Hugging Face (<a href=\"https://arxiv.org/abs/2609.35259\">arXiv</a>). Dans le registre agents, l'Agent Error Dataset rassemble quant à lui 50 228 paires erreur-diagnostic issues de 9 961 tâches pour entraîner des modèles qui se relèvent (<a href=\"https://arxiv.org/abs/2609.40111\">arXiv</a>).",
+                "en": "A systematic study from the University of Cambridge shakes the distillation dogma by rigorously comparing learning regimes, with 129 votes on Hugging Face's Daily Papers (<a href=\"https://arxiv.org/abs/2609.35259\">arXiv</a>). In the agents space, the Agent Error Dataset gathers 50,228 error-diagnosis pairs from 9,961 tasks to train models that recover from failure (<a href=\"https://arxiv.org/abs/2609.40111\">arXiv</a>).",
+                "de": "Eine systematische Studie der Universität Cambridge erschüttert das Dogma der Destillation durch einen rigorosen Vergleich der Lernregime, mit 129 Stimmen bei den Hugging Face Daily Papers (<a href=\"https://arxiv.org/abs/2609.35259\">arXiv</a>). Im Bereich Agenten bündelt unterdessen das Agent Error Dataset 50 228 Fehler-Diagnose-Paare aus 9 961 Aufgaben, um Modelle zu trainieren, die sich wieder aufrichten (<a href=\"https://arxiv.org/abs/2609.40111\">arXiv</a>).",
+                "it": "Uno studio sistematico dell'università di Cambridge scuote il dogma della distillazione confrontando rigorosamente i regimi di apprendimento, con 129 voti sui Daily Papers di Hugging Face (<a href=\"https://arxiv.org/abs/2609.35259\">arXiv</a>). Nel registro agenti, l'Agent Error Dataset raccoglie invece 50 228 coppie errore-diagnosi provenienti da 9 961 compiti per addestrare modelli che si rialzano (<a href=\"https://arxiv.org/abs/2609.40111\">arXiv</a>).",
+                "lmo": "On studi sistematic de l'universitàa de Cambridge el mett in discussion el dogma de la distillazion e el cumpara rigorosament i regime de imparà, cont 129 vott in sui Daily Papers de Hugging Face (<a href=\"https://arxiv.org/abs/2609.35259\">arXiv</a>). In del regist di agent, l'Agent Error Dataset el tacca insemina 50.228 coppi errur-diagnostic vegnuu foeura de 9.961 fadrìe per allenà di modell che se tolten in pee (<a href=\"https://arxiv.org/abs/2609.40111\">arXiv</a>)."
+              },
+              "kicker": {
+                "fr": "RL",
+                "en": "RL",
+                "de": "RL",
+                "it": "RL",
+                "lmo": "RL"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.35259",
+                "https://arxiv.org/abs/2609.40111"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wocheneditorial",
+        "it": "Editoriale settimanale",
+        "lmo": "Edicional setemanal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The week in perspective",
+            "de": "Die Woche im Überblick",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "body": {
+                "fr": "Relues ensemble, les annonces de cette semaine dessinent un paysage plus net que la somme des communiqués : l'intelligence de frontière n'est plus un sommet, c'est un escalier tarifaire. OpenAI vend une intelligence « proche d'Astra » pour un cinquième du prix de l'originale ; Anthropic coupe de 30 % le coût de son segment médian tout en accélérant son modèle ; la vitesse maximale, elle, se monnaie 500 dollars par mois. Ce qui hier relevait de la performance brute — être le meilleur modèle du monde — se décompose désormais en attributs dissociés et facturables : la qualité du raisonnement, la latence, la profondeur de contexte, l'autonomie.<br><br>La conséquence la plus importante ne concerne pas les acheteurs mais les concurrents. Quand le second meilleur modèle du monde coûte cinq fois moins que le premier, la zone de survie pour un nouvel entrant se réduit dramatiquement : il ne suffit plus d'égaler la frontière d'hier, il faut le faire à un prix inférieur à celui auquel la frontière d'hier est désormais vendue. Fireworks AI l'a compris à sa manière en sortant Ember-1, son premier modèle maison — un pari risqué pour une plateforme dont la valeur reposait précisément sur sa neutralité d'hébergeur. La discussion massive qu'il a provoquée sur Hacker News en dit long sur la tension : la verticalisation devient une obligation stratégique, au prix de la confiance.<br><br>C'est précisément sur cette faille que se joue l'autre bataille de la semaine, silencieuse mais décisive : celle de la souveraineté et de la transparence. Aleph Alpha a publié Kolibri, un modèle open-weight accompagné d'un rapport technique complet, et la communauté technique a répondu present — 547 points et 308 commentaires sur Hacker News, un score rare pour un modèle non américain. L'intérêt ne tient pas à une hypothétique supériorité du modèle, mais à ce qu'il incarne : la démonstration qu'une voie alternative aux monopoles de l'inférence est crédible, documentée, et audible. Le Allen Institute a poussé la même logique en amont avec Olmo-core 3, une infrastructure d'entraînement open source pour les grands MoE — c'est-à-dire une réplication de la couche la plus propriétaire de toutes, celle qui fabrique les modèles.<br><br>Mais la gouvernance de cette économie émergente reste en chantier, et les signaux d'alarme se sont multipliés en fin de semaine. Un responsable sécurité d'OpenAI a démissionné en expliquant dans The Atlantic que la culture du labo était « brisée » — le dernier d'une série de départs qui posent la même question : qui surveille les équipes qui surveillent les modèles ? Simon Willison, de son côté, a obtenu un écho massif avec un plaidoyer pour des plafonds budgétaires durs activés par défaut sur les agents — l'idée qu'un agent autonome ne devrait jamais pouvoir dépenser sans limite avant qu'un humain ait explicitement consenti à ce risque. Entre OpenAI qui démantèle une campagne coordonnée de distillation de ses modèles et un juge fédéral qui qualifie le système Flock de « surveillance de masse indiscriminée », le fil conducteur est le même : les garde-fous arrivent toujours après le déploiement.<br><br>La boucle se referme sur la formation. Anthropic a annoncé 100 millions de dollars pour former 10 000 ingénieurs — un investissement dans le capital humain qui, lu froidement, vise à verrouiller l'adoption de Claude dans les organisations en formant la génération qui la déploiera. L'initiative est louable en soi ; elle confirme surtout que la compétition s'est déplacée. À mesure que la qualité des modèles se banalise et que les prix s'effondrent, l'avantage concurrentiel migre vers trois actifs : les données propriétaires, les harnais d'agents — Microsoft publiait d'ailleurs un billet sur la fiabilité des agents, et un essai très partagé arguait que « les agents n'ont pas besoin de mémoire, ils ont besoin de documentation » — et les humains capables d'orchestrer tout cela.<br><br>La semaine à venir dira si Gemini 4 Argon, annoncé mais pas encore déployé, tient ses promesses de « nouvelle ère ». Mais l'essentiel est déjà écrit : le marché de l'intelligence a cessé d'être un concours de benchs pour devenir une économie de Couches — chaque couche vendue, chaque couche contournée par l'open source, chaque couche manquant de régulation. Les six prochains mois se joueront sur qui contrôle ces couches, et à quelles conditions de confiance.",
+                "en": "Read together, this week's announcements sketch a landscape sharper than the sum of the press releases: frontier intelligence is no longer a summit, it is a pricing staircase. OpenAI sells \"close-to-Astra\" intelligence for a fifth of the original's price; Anthropic cuts the cost of its mid-range segment by 30% while speeding up its model; maximum velocity, meanwhile, goes for 500 dollars a month. What was yesterday a matter of raw performance — being the best model in the world — now decomposes into separable, billable attributes: reasoning quality, latency, context depth, autonomy.<br><br>The most important consequence concerns not the buyers but the competitors. When the world's second-best model costs five times less than the first, the survival zone for a new entrant shrinks dramatically: it is no longer enough to match yesterday's frontier, you must do it at a price below the one at which yesterday's frontier is now sold. Fireworks AI understood this in its own way by releasing Ember-1, its first in-house model — a risky bet for a platform whose value rested precisely on its neutrality as a host. The massive discussion it triggered on Hacker News says much about the tension: verticalization is becoming a strategic imperative, at the cost of trust.<br><br>It is precisely on this fault line that the week's other battle is being played out, silent but decisive: that of sovereignty and transparency. Aleph Alpha released Kolibri, an open-weight model accompanied by a full technical report, and the technical community showed up — 547 points and 308 comments on Hacker News, a rare score for a non-American model. The interest lies not in any hypothetical superiority of the model, but in what it embodies: proof that an alternative path to the inference monopolies is credible, documented, and audible. The Allen Institute pushed the same logic upstream with Olmo-core 3, an open-source training infrastructure for large MoEs — that is, a replication of the most proprietary layer of all, the one that manufactures models.<br><br>But the governance of this emerging economy remains a work in progress, and warning signals multiplied at the end of the week. An OpenAI security lead resigned, telling The Atlantic that the lab's culture was \"broken\" — the latest in a series of departures that raise the same question: who watches the teams that watch the models? Simon Willison, for his part, won a massive echo with a plea for hard budget caps enabled by default on agents — the idea that an autonomous agent should never be able to spend without limit before a human has explicitly consented to that risk. Between OpenAI dismantling a coordinated campaign to distill its models and a federal judge calling the Flock system \"indiscriminate mass surveillance\", the common thread is the same: guardrails always arrive after deployment.<br><br>The loop closes on training. Anthropic announced 100 million dollars to train 10,000 engineers — an investment in human capital that, read coldly, aims to lock in Claude's adoption in organizations by training the generation that will deploy it. The initiative is laudable in itself; above all, it confirms that the competition has shifted. As model quality becomes a commodity and prices collapse, competitive advantage migrates toward three assets: proprietary data, agent harnesses — Microsoft incidentally published a post on agent reliability, and a widely shared essay argued that \"agents don't need memory, they need documentation\" — and the humans able to orchestrate it all.<br><br>The week ahead will tell whether Gemini 4 Argon, announced but not yet deployed, lives up to its \"new era\" promises. But the essentials are already written: the intelligence market has ceased to be a benchmark contest to become an economy of Layers — each layer sold, each layer bypassed by open source, each layer lacking regulation. The next six months will be about who controls these layers, and on what terms of trust.",
+                "de": "Zusammengelesen zeichnen die Ankündigungen dieser Woche eine Landschaft, die klarer ist als die Summe der Communiqués: Grenzintelligenz ist kein Gipfel mehr, sondern eine Preistreppe. OpenAI verkauft eine «Astra-nahe» Intelligenz zum Fünftel des Preises des Originals; Anthropic senkt die Kosten seines Mittelsegments um 30 Prozent und beschleunigt zugleich sein Modell; die maximale Geschwindigkeit wiederum kostet 500 Dollar pro Monat. Was gestern noch reine Leistungsfrage war – das beste Modell der Welt zu sein –, zerfällt heute in trennbare und fakturierbare Attribute: die Qualität des Schlussfolgerns, die Latenz, die Kontexttiefe, die Autonomie.<br><br>Die wichtigste Folge betrifft nicht die Käufer, sondern die Konkurrenten. Wenn das zweitbeste Modell der Welt fünfmal weniger kostet als das erste, schrumpft die Überlebenszone für Neulinge dramatisch: Es genügt nicht mehr, die Grenze von gestern zu erreichen – man muss es zu einem Preis tun, der unter demjenigen liegt, zu dem die Grenze von gestern inzwischen verkauft wird. Fireworks AI hat das auf seine Weise begriffen und Ember-1 herausgebracht, sein erstes Eigenmodell – ein riskantes Wagnis für eine Plattform, deren Wert gerade auf ihrer Neutralität als Host beruhte. Die massive Diskussion auf Hacker News sagt viel über die Spannung aus: Die Vertikalisierung wird zur strategischen Notwendigkeit – um den Preis des Vertrauens.<br><br>Genau an dieser Bruchstelle spielt sich die andere Schlacht der Woche ab, still, aber entscheidend: jene um Souveränität und Transparenz. Aleph Alpha hat Kolibri veröffentlicht, ein Open-Weight-Modell samt vollständigem technischem Bericht, und die technische Community war präsent – 547 Punkte und 308 Kommentare auf Hacker News, ein seltener Score für ein nicht-amerikanisches Modell. Das Interesse gilt nicht einer hypothetischen Überlegenheit des Modells, sondern dem, wofür es steht: dem Nachweis, dass ein alternativer Weg zu den Inferenzmonopolen glaubwürdig, dokumentiert und hörbar ist. Das Allen Institute hat dieselbe Logik weiter vorn getrieben mit Olmo-core 3, einer Open-Source-Trainingsinfrastruktur für grosse MoE – das heisst eine Replikation der proprietärsten aller Schichten: jener, die die Modelle herstellt.<br><br>Doch die Governance dieser entstehenden Ökonomie ist noch im Bau, und die Alarmsignale häuften sich am Wochenende. Ein Sicherheitsverantwortlicher von OpenAI ist zurückgetreten und erklärte im Atlantic, die Kultur des Labors sei «gebrochen» – der letzte einer Serie von Abgängen, die dieselbe Frage aufwerfen: Wer überwacht die Teams, die die Modelle überwachen? Simon Willison wiederum erhielt mit einem Plädoyer für standardmässig aktivierte harte Budgetobergrenzen für Agenten massive Resonanz – die Idee, dass ein autonomer Agent niemals unbegrenzt ausgeben dürfen sollte, bevor ein Mensch dieses Risiko ausdrücklich gebilligt hat. Zwischen OpenAI, das eine koordinierte Destillationskampagne gegen seine Modelle zerschlug, und einem Bundesrichter, der das System Flock als «indiskriminierte Massenüberwachung» einstufte, ist der rote Fett derselbe: Die Schutzvorrichtungen kommen stets nach dem Rollout.<br><br>Der Kreis schliesst sich bei der Ausbildung. Anthropic hat 100 Millionen Dollar für die Ausbildung von 10 000 Ingenieuren angekündigt – eine Investition ins Humankapital, die, kalt gelesen, darauf abzielt, die Claude-Adoption in Organisationen zu zementieren, indem die Generation ausgebildet wird, die es einsetzen wird. Die Initiative ist an sich löblich; sie bestätigt vor allem, dass sich der Wettbewerb verlagert hat. Mit der zunehmenden Kommodifizierung der Modellqualität und einstürzenden Preisen wandert der Wettbewerbsvorteil zu drei Aktiven: den proprietären Daten, den Agenten-Harnesses – Microsoft publizierte denn auch einen Beitrag zur Zuverlässigkeit von Agenten, und ein viel geteilter Essay argumentierte, «Agenten brauchen kein Gedächtnis, sie brauchen Dokumentation» – und den Menschen, die all das zu orchestrieren vermögen.<br><br>Die kommende Woche wird zeigen, ob Gemini 4 Argon, angekündigt, aber noch nicht ausgerollt, sein Versprechen einer «neuen Ära» hält. Doch das Wesentliche ist schon geschrieben: Der Intelligenzmarkt hat aufgehört, ein Benchmark-Wettbewerb zu sein, und ist zu einer Ökonomie der Schichten geworden – jede Schicht verkauft, jede Schicht von Open Source umgangen, jede Schicht ohne Regulierung. Die nächsten sechs Monate werden darüber entscheiden, wer diese Schichten kontrolliert – und zu welchen Vertrauensbedingungen.",
+                "it": "Rilette insieme, le novità di questa settimana disegnano un paesaggio più netto della somma dei comunicati: l'intelligenza di frontiera non è più una vetta, è una scala tariffaria. OpenAI vende un'intelligenza «prossima ad Astra» a un quinto del prezzo dell'originale; Anthropic taglia del 30% il costo del suo segmento medio accelerando al contempo il modello; la velocità massima, invece, si paga 500 dollari al mese. Ciò che ieri era questione di pura prestazione — essere il miglior modello del mondo — si scompone ormai in attributi separati e fatturabili: la qualità del ragionamento, la latenza, la profondità del contesto, l'autonomia.<br><br>La conseguenza più importante non riguarda gli acquirenti ma i concorrenti. Quando il secondo miglior modello del mondo costa cinque volte meno del primo, la zona di sopravvivenza per un nuovo entrante si riduce drasticamente: non basta più eguagliare la frontiera di ieri, occorre farlo a un prezzo inferiore a quello al quale la frontiera di ieri è ormai venduta. Fireworks AI l'ha capito a modo suo lanciando Ember-1, il suo primo modello proprietario — una scommessa rischiosa per una piattaforma il cui valore poggiava proprio sulla sua neutralità di hosting. La discussione massiccia che ha provocato su Hacker News la dice lunga sulla tensione: la verticalizzazione diventa un obbligo strategico, al prezzo della fiducia.<br><br>È proprio su questa crepa che si gioca l'altra battaglia della settimana, silenziosa ma decisiva: quella della sovranità e della trasparenza. Aleph Alpha ha pubblicato Kolibri, un modello open-weight accompagnato da un rapporto tecnico completo, e la comunità tecnica ha risposto presente — 547 punti e 308 commenti su Hacker News, un punteggio raro per un modello non americano. L'interesse non sta in un'ipotetica superiorità del modello, ma in ciò che incarna: la dimostrazione che una via alternativa ai monopoli dell'inferenza è credibile, documentata e udibile. Il Allen Institute ha spinto la stessa logica a monte con Olmo-core 3, un'infrastruttura di addestramento open source per i grandi MoE — cioè una replicazione del livello più proprietario di tutti, quello che fabbrica i modelli.<br><br>Ma la governance di questa economia emergente resta in costruzione, e i segnali d'allarme si sono moltiplicati a fine settimana. Un responsabile sicurezza di OpenAI si è dimesso spiegando su The Atlantic che la cultura del laboratorio era «rotta» — l'ultimo di una serie di partenze che pongono la stessa domanda: chi sorveglia i team che sorvegliano i modelli? Simon Willison, da parte sua, ha ottenuto un'enorme eco con un appello per massimali di spesa rigidi attivati per default sugli agenti — l'idea che un agente autonomo non debba mai poter spendere senza limiti prima che un essere umano abbia esplicitamente acconsentito a quel rischio. Tra OpenAI che smantella una campagna coordinata di distillazione dei suoi modelli e un giudice federale che definisce il sistema Flock una «sorveglianza di massa indiscriminata», il filo conduttore è lo stesso: le garanzie arrivano sempre dopo il rilascio.<br><br>Il cerchio si chiude sulla formazione. Anthropic ha annunciato 100 milioni di dollari per formare 10 000 ingegneri — un investimento nel capitale umano che, letto a freddo, mira a consolidare l'adozione di Claude nelle organizzazioni formando la generazione che la diffonderà. L'iniziativa è lodevole in sé; conferma soprattutto che la competizione si è spostata. Man mano che la qualità dei modelli si banalizza e i prezzi crollano, il vantaggio competitivo migra verso tre asset: i dati proprietari, gli harness di agenti — Microsoft pubblicava del resto un post sull'affidabilità degli agenti, e un saggio molto condiviso sosteneva che «gli agenti non hanno bisogno di memoria, hanno bisogno di documentazione» — e gli esseri umani capaci di orchestrare tutto ciò.<br><br>La settimana a venire dirà se Gemini 4 Argon, annunciato ma non ancora rilasciato, manterrà le sue promesse di «nuova era». Ma l'essenziale è già scritto: il mercato dell'intelligenza ha smesso di essere una gara di benchmark per diventare un'economia di Livelli — ogni livello venduto, ogni livello aggirato dall'open source, ogni livello privo di regolamentazione. I prossimi sei mesi si decideranno su chi controlla questi livelli, e a quali condizioni di fiducia.",
+                "lmo": "Legiuu insemina, i anunzi de sta setemana chì disen on paesagg pussee nett de la soma di comuniquee: l'intelligenza de frontiera l'è pù ona cima, l'è ona scala de prezzi. OpenAI la vend on'intelligenza «vesina a Astra» per on quint del prezzi de l'originai; Anthropic la tajna el 30% del cost del sò segment median intant che la aceleora el sò model; la velocità massima, lee, la se paga 500 dollar al mes. Chell che ier el partegniva a la prestazion bruta — vessegh el mej model del mond — ades el se spartiss in atributes spartii e pagabej: la qualitàa del resonnà, la latenza, la profonditàa del contest, l'autonomia.<br><br>La conseguenza la pussee importanta la rivarda minga i cumparej ma i concorrent. Quand el segond mej model del mond el costa cinch volt de men del primm, la zòna de sopravivenza per on noeuv ingress la se restrinss drastegament: nol basta pù eguaglià la frontiera de ieri, bisègna fàll a on prezzi pussee bass de quell a che la frontiera de ieri ades la vend. Fireworks AI l'hà capii a la so manera a portà foeura Ember-1, el sò primm model so — on pesciaa rischios per on piattaforma che 'l sò valor el partiva propi de la neutralitàa de ospitador. La discusion massiva che l'ha faa nass su Hacker News la dis tant de la tension: la verticalizazion la deventa on obliegh strategich, al prezzi de la fidùcia.<br><br>L'è propi in su chella crapa chì che la se gioa l'altra bataja de la setemana, silenziosa ma decisiva: chella de la sovranitàa e de la trasparenza. Aleph Alpha l'hà publicaa Kolibri, on model open-weight cont on rapport tecnegh complet, e la comunità tecnega l'hà responduu present — 547 pont e 308 coment su Hacker News, on scoor rar per on model minga american. L'interess el sta minga in ona supposta superioritàa del model, ma in quell che l'incarna: la dimostrazion che 'na via alternativa ai monopoli de l'inferenza l'è credibel, documentada, e sentibel. El Allen Institute l'hà menaa inanz la medemma lògega in antìcipo cont Olmo-core 3, on'infrastruttura de allenament open source per i MoE grand — ossia ona replicazion del strat el pussee pruprietari de tucc, quell che 'l fa i modell.<br><br>Ma el govern de sta economia nassenta chì la resta ona cantedera, e i segn de alarm hinn moltiplicaa a la fin de la setemana. On responsabel segurazza de OpenAI el s'è dimetuu, spiegand in del The Atlantic che la coltura del laboratori l'era «trafila» — l'ultim de ona serie de partenz che fann la medemma quistion: chi 'l varda i team che vardano i modell? Simon Willison, de la so banda, l'hà ricevuu on'ecò massigh cont on apell per di tetto budgetài de dur ativaai per predefinizion in sui agent — l'idèja che on agent autonom el gh'avariss de mai podè spend degh minga prima che on oman l'abbia espressament consentii a chell risch chì. Intra OpenAI che la desmonta ona campagna coordinaa de distillazion di sò modell e on giud federal che 'l qualifega el sistema Flock comè «sorvelianz de mass degh indiscriminaa», el fidel de la discors l'è l'istess: i guarda-fil hinn semper drii al deploy.<br><br>El cìrcol el se saraa in su la formazion. Anthropic l'hà anunziaa 100 miliòn de dollar per formà 10.000 ingegnej — on investiment in el capital oman che, legiuu a frii, el varda a blocà l'adozion de Claude in di organizazion formànd la generazion che la portarà in pee. L'iniziativa l'è lodabel de per lee; la cunfirma soratutt che la competizión la s'è spostada. Intant che la qualitàa di modell la se fa comuna e i prezzi gionten giò, l'avàgg competitiv el migra vers tri asset: i datt prupietari, i harness di agent — Microsoft la publicava anca lee on post in su l'affidabilitàa di agent, e on sajj molto condividuu el sostegniva che «i agent gh'hann minga de besogn de memorìa, gh'hann de besogn de documentazion» — e i omen boni de orchestrà tuttcoss.<br><br>La setemana che la vegn la dirà se Gemini 4 Argon, anunziaa ma minga ancmò deployaa, el mantegn i sò promess de «noeuva èra». Ma l'essenzial l'è già scrivuu: el mercaa de l'intelligenza l'hà lassee de vess on concors de bench per deventà ona economia de Scigher — ogni strat venduda, ogni strat contornada de l'open source, ogni strat sènza regolamentazion. I ses mes che vegnen se gioarann in su chi 'l controla sti scigher chì, e a che condizion de fidùcia."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edicional"
+              },
+              "wire": {
+                "fr": "La semaine en perspective — The Neuron Times",
+                "en": "The week in perspective — The Neuron Times",
+                "de": "Die Woche im Überblick – The Neuron Times",
+                "it": "La settimana in prospettiva — The Neuron Times",
+                "lmo": "La setemana in prospettiva — The Neuron Times"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-gpt-6-1-sol",
+                "https://aleph-alpha.com/en/blog/kolibri-has-landed-a-sovereign-open-weight-model/",
+                "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
+                "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
