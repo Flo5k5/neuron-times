@@ -1,0 +1,687 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-10",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le 9 octobre 2026, Cloudflare a annoncé l'arrivée de Clef-omni, qui traite nativement l'audio, la vidéo, les images et le texte dans un seul pipeline, venant compléter la famille de modèles de décision Clef déployée sur son réseau Workers AI. L'annonce s'accompagne de deux mouvements tarifaires et de performance : une baisse du prix de Clef-flash et une accélération de l'inférence Clef jusqu'à 2,0×, comme le détaille <a href=\"https://blog.cloudflare.com/clef-faster-cheaper-multimodal/\">le billet publié sur le blog de Cloudflare</a>.",
+        "en": "On October 9, 2026, Cloudflare announced the arrival of Clef-omni, which natively processes audio, video, images and text in a single pipeline, rounding out the Clef family of decision models deployed on its Workers AI network. The announcement comes with two pricing and performance moves: a price cut for Clef-flash and up to a 2.0× speed-up for Clef inference, as detailed in <a href=\"https://blog.cloudflare.com/clef-faster-cheaper-multimodal/\">the post published on the Cloudflare blog</a>.",
+        "de": "Am 9. Oktober 2026 kündigte Cloudflare die Einführung von Clef-omni an, das Audio, Video, Bilder und Text nativ in einer einzigen Pipeline verarbeitet und damit die auf seinem Netzwerk Workers AI eingesetzte Familie von Entscheidungsmodellen Clef vervollständigt. Die Ankündigung geht mit zwei Preis- und Leistungs­schritten einher: einer Preissenkung für Clef-flash und einer Beschleunigung der Clef-Inferenz um bis zu 2,0×, wie <a href=\"https://blog.cloudflare.com/clef-faster-cheaper-multimodal/\">der auf dem Cloudflare-Blog veröffentlichte Beitrag</a> im Detail darlegt.",
+        "it": "Il 9 ottobre 2026 Cloudflare ha annunciato l'arrivo di Clef-omni, che elabora nativamente audio, video, immagini e testo in un unico pipeline, andando a completare la famiglia di modelli decisionali Clef distribuita sulla propria rete Workers AI. L'annuncio si accompagna a due mosse su prezzi e prestazioni: una riduzione del prezzo di Clef-flash e un'accelerazione dell'inferenza Clef fino a 2,0×, come dettaglia <a href=\"https://blog.cloudflare.com/clef-faster-cheaper-multimodal/\">il post pubblicato sul blog di Cloudflare</a>.",
+        "lmo": "El 9 de ottober 2026, Cloudflare l'è anunziaa l'arriv de Clef-omni, che 'l tratta nativament audio, video, imagin e test in d'on sol pipeline, per completà la famiggia di modej de decision Clef dervida sora el sô red Workers AI. L'anunzi el va insema a duumoviment tariffari e de prestazion: ona sbassada del prezzi de Clef-flash e ona quattaa de l'inferenzi Clef fina a 2,0×, come el detaja <a href=\"https://blog.cloudflare.com/clef-faster-cheaper-multimodal/\">el billet publicaa sora el blog de Cloudflare</a>."
+      },
+      {
+        "fr": "La stratégie est claire : là où les labos frontière vendent des modèles via API centralisées, Cloudflare positionne les modèles de décision comme une infrastructure distribuée, exécutée au plus près des utilisateurs. En ajoutant la multimodalité — audio, vidéo, image et texte dans un même pipeline — Clef-omni vise les usages agents exigeant des décisions rapides sur des flux riches, sans transit par des régions de calcul éloignées.",
+        "en": "The strategy is clear: where frontier labs sell models through centralized APIs, Cloudflare positions decision models as distributed infrastructure, executed as close to users as possible. By adding multimodality — audio, video, image and text in a single pipeline — Clef-omni targets agentic use cases requiring fast decisions on rich streams, without routing through distant compute regions.",
+        "de": "Die Strategie ist klar: Wo Frontier-Labore ihre Modelle über zentralisierte APIs verkaufen, positioniert Cloudflare Entscheidungsmodelle als verteilte Infrastruktur, ausgeführt in unmittelbarer Nähe der Nutzer. Mit der Multimodalität — Audio, Video, Bild und Text in derselben Pipeline — zielt Clef-omni auf anspruchsvolle Agenten-Anwendungsfälle ab, die schnelle Entscheidungen auf reichhaltigen Datenströmen erfordern, ohne Umweg über entfernte Compute-Regionen.",
+        "it": "La strategia è chiara: là dove i laboratori di frontiera vendono modelli tramite API centralizzate, Cloudflare posiziona i modelli decisionali come infrastruttura distribuita, eseguita il più vicino possibile agli utenti. Aggiungendo la multimodalità — audio, video, immagini e testo in uno stesso pipeline — Clef-omni punta agli usi agentici che richiedono decisioni rapide su flussi ricchi, senza transito per regioni di calcolo lontane.",
+        "lmo": "La strategia l'è ciara: là indove i laboratori de frontiera venden i modej cont di API centralizzaa, Cloudflare el met i modej de decision 'me infrastruttura distribuida, dervida propi arent ai utent. Cont el giontàgh la multimodalità — audio, video, immagin e test in del istess pipeline — Clef-omni el tira ai usagg de agent che domanden decision svelt in su di fluss ricc, senza passà per di region de calcol lontann."
+      },
+      {
+        "fr": "Ce lancement intervient dans une semaine où la couche d'inférence devient un champ de bataille à part entière : le même 9 octobre, OpenAI publiait deux études de cas industrielles reposant sur ses modèles de décision, et la veille, Cloudflare annonçait l'acquisition de Deno — un signal supplémentaire que l'opérateur entend posséder toute la pile JavaScript et IA qui s'exécute à son bord de réseau.",
+        "en": "The launch comes in a week when the inference layer has become a battleground in its own right: on the same day, October 9, OpenAI published two industrial case studies built on its decision models, and the day before, Cloudflare announced the acquisition of Deno — a further signal that the operator intends to own the entire JavaScript and AI stack running at its network edge.",
+        "de": "Der Launch fällt in eine Woche, in der die Inferenz-Schicht selbst zum eigenständigen Schlachtfeld wird: Am selben 9. Oktober veröffentlichte OpenAI zwei industrielle Fallstudien auf Basis seiner Entscheidungsmodelle, und am Vortag kündigte Cloudflare die Übernahme von Deno an — ein weiteres Signal, dass der Betreiber beabsichtigt, den gesamten JavaScript- und KI-Stack, der am Rand seines Netzwerks läuft, selbst zu besitzen.",
+        "it": "Questo lancio arriva in una settimana in cui il livello d'inferenza diventa un vero e proprio campo di battaglia: lo stesso 9 ottobre OpenAI pubblicava due casi di studio industriali basati sui propri modelli decisionali, e la vigilia Cloudflare annunciava l'acquisizione di Deno — un segnale ulteriore che l'operatore intende possedere l'intero stack JavaScript e IA che viene eseguito al bordo della propria rete.",
+        "lmo": "Sto lanch el riva in d'ona settemana indove la capa de inferenzi l'è dree a vegnì on champ de battaglia a part intrega: l'istess 9 de ottober, OpenAI l'eva publicaa duu studi de cas industrial basaa sora i sô modej de decision, e el dì prima, Cloudflare l'aveva anunziaa l'aquision de Deno — on segnall ancamò che l'operator el voeur avègh tutta la pila JavaScript e IA che la gira al sô bord de red."
+      }
+    ],
+    "urls": [
+      "https://blog.cloudflare.com/clef-faster-cheaper-multimodal/"
+    ],
+    "kicker": {
+      "fr": "Inférence & modèles de décision",
+      "en": "Inference & decision models",
+      "de": "Inferenz & Entscheidungsmodelle",
+      "it": "Inferenza & modelli decisionali",
+      "lmo": "Inferenzi e modej de decision"
+    },
+    "headline": {
+      "fr": "Clef passe au multimodal : Cloudflare élargit sa famille de modèles de décision sur le edge",
+      "en": "Clef goes multimodal: Cloudflare expands its family of decision models at the edge",
+      "de": "Clef wird multimodal: Cloudflare baut seine Familie von Entscheidungsmodellen am Edge aus",
+      "it": "Clef passa al multimodale: Cloudflare amplia la famiglia di modelli decisionali sull'edge",
+      "lmo": "Clef el va al multimodal: Cloudflare l'è grandida la sô famiggia di modej de decision sora l'edge"
+    },
+    "subdeck": {
+      "fr": "Avec Clef-omni, Clef-flash moins cher et une inférence Clef jusqu'à 2× plus rapide, l'opérateur d'infrastructure transforme son réseau en plateforme de modèles.",
+      "en": "With Clef-omni, a cheaper Clef-flash and Clef inference up to 2× faster, the infrastructure operator is turning its network into a model platform.",
+      "de": "Mit Clef-omni, günstigerem Clef-flash und einer um bis zu 2× schnelleren Clef-Inferenz wandelt der Infrastrukturbetreiber sein Netzwerk in eine Modellplattform.",
+      "it": "Con Clef-omni, un Clef-flash più economico e un'inferenza Clef fino a 2× più rapida, l'operatore d'infrastruttura trasforma la propria rete in una piattaforma di modelli.",
+      "lmo": "Cont Clef-omni, on Clef-flash men car e ona inferenzi Clef fina a 2× pussee svelta, l'operator de infrastruttura el trasforma el sô red in d'ona piattaforma de modej."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Sophos divise par vingt-cinq le temps d'investigation des menaces",
+        "en": "Sophos cuts threat investigation time by a factor of twenty-five",
+        "de": "Sophos teilt die Untersuchungszeit von Bedrohungen durch 25",
+        "it": "Sophos divide per venticinque il tempo d'indagine sulle minacce",
+        "lmo": "Sophos el dividera per vintincinq el temp de investigazion di minacc"
+      },
+      "body": {
+        "fr": "Le fournisseur de sécurité Sophos rapporte une réduction de 96 % du temps d'investigation des cybermenaces et l'automatisation de 52 % des cas MDR avec OpenAI Daybreak, sous supervision humaine, selon <a href=\"https://openai.com/index/sophos\">l'étude de cas publiée par OpenAI</a>.",
+        "en": "Security vendor Sophos reports a 96% reduction in cyberthreat investigation time and the automation of 52% of MDR cases with OpenAI Daybreak, under human oversight, according to <a href=\"https://openai.com/index/sophos\">the case study published by OpenAI</a>.",
+        "de": "Der Sicherheitsanbieter Sophos meldet eine Reduktion der Untersuchungszeit von Cyberbedrohungen um 96 % und die Automatisierung von 52 % der MDR-Fälle mit OpenAI Daybreak unter menschlicher Aufsicht, gemäss <a href=\"https://openai.com/index/sophos\">der von OpenAI veröffentlichten Fallstudie</a>.",
+        "it": "Il fornitore di sicurezza Sophos riporta una riduzione del 96% del tempo d'indagine sulle minacce informatiche e l'automatizzazione del 52% dei casi MDR con OpenAI Daybreak, sotto supervisione umana, secondo <a href=\"https://openai.com/index/sophos\">il caso di studio pubblicato da OpenAI</a>.",
+        "lmo": "El fornitœr de sicurezza Sophos el reppresentà ona sbassada del 96 % del temp de investigazion di minacc cyber e l'automatizzazion del 52 % di cas MDR con OpenAI Daybreak, con la supervision umana, segond <a href=\"https://openai.com/index/sophos\">l'studi de cas publicaa de OpenAI</a>."
+      },
+      "tag": {
+        "fr": "Cyber",
+        "en": "Cyber",
+        "de": "Cyber",
+        "it": "Cyber",
+        "lmo": "Cyber"
+      },
+      "wire": {
+        "fr": "From the Wires — 9 octobre 2026",
+        "en": "From the Wires — October 9, 2026",
+        "de": "From the Wires — 9. Oktober 2026",
+        "it": "From the Wires — 9 ottobre 2026",
+        "lmo": "From the Wires — 9 ottober 2026"
+      },
+      "urls": [
+        "https://openai.com/index/sophos"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Typesafe AI lève 870 M$ à une valorisation de 7,5 Md$",
+        "en": "Typesafe AI raises $870M at a $7.5B valuation",
+        "de": "Typesafe AI hebt 870 Mio. $ zu einer Bewertung von 7,5 Mrd. $ ab",
+        "it": "Typesafe AI raccoglie 870 M$ a una valutazione di 7,5 miliardi",
+        "lmo": "Typesafe AI el ciappa 870 M$ a ona valorizzazion de 7,5 Md$"
+      },
+      "body": {
+        "fr": "La jeune pousse spécialisée dans la fiabilité des agents IA annonce le 9 octobre 2026 une levée de 870 millions de dollars valorisant l'entreprise à 7,5 milliards — l'annonce, relayée à 310 points sur <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a>, confirme l'appétit des investisseurs pour la couche de sécurité et de typage des systèmes agents.",
+        "en": "The startup specializing in AI agent reliability announced on October 9, 2026 a $870 million raise valuing the company at $7.5 billion — the announcement, relayed at 310 points on <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a>, confirms investors' appetite for the security and typing layer of agentic systems.",
+        "de": "Das auf die Zuverlässigkeit von KI-Agenten spezialisierte Jungunternehmen kündigt am 9. Oktober 2026 eine Finanzierungsrunde von 870 Millionen Dollar an, die das Unternehmen mit 7,5 Milliarden bewertet — die auf <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> mit 310 Punkten verbreitete Ankündigung bestätigt den Appetit der Investoren auf die Sicherheits- und Typisierungsschicht von Agentensystemen.",
+        "it": "La giovane impresa specializzata nell'affidabilità degli agenti IA annuncia il 9 ottobre 2026 una raccolta di 870 milioni di dollari che valorizza l'azienda a 7,5 miliardi — l'annuncio, ripreso con 310 punti su <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a>, conferma l'appetito degli investitori per il livello di sicurezza e tipizzazione dei sistemi agentici.",
+        "lmo": "La giovin impresa specializada in l'affidabilità di agent IA la anunzia el 9 de ottober 2026 ona lever de 870 milion de doller che la valorizza l'impresa a 7,5 miliard — l'anunzi, relaa a 310 pont sora <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a>, el conferma l'appetit di investidor per la capa de sicurezza e de tipagg di sistema agent."
+      },
+      "tag": {
+        "fr": "Marché",
+        "en": "Markets",
+        "de": "Markt",
+        "it": "Mercato",
+        "lmo": "Mercaa"
+      },
+      "wire": {
+        "fr": "From the Wires — 9 octobre 2026",
+        "en": "From the Wires — October 9, 2026",
+        "de": "From the Wires — 9. Oktober 2026",
+        "it": "From the Wires — 9 ottobre 2026",
+        "lmo": "From the Wires — 9 ottober 2026"
+      },
+      "urls": [
+        "https://typesafe.ai/blog/series-ai",
+        "https://news.ycombinator.com/item?id=50023450"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Mara Chain transforme les échecs des agents en pierres d'attente",
+        "en": "Mara Chain turns agent failures into stepping stones",
+        "de": "Mara Chain verwandelt Agentenfehler in Warte-Bausteine",
+        "it": "Mara Chain trasforma gli insuccessi degli agenti in pietre d'attesa",
+        "lmo": "Mara Chain el trasforma i insuccess di agent in prier d'attesa"
+      },
+      "body": {
+        "fr": "Ant Group propose un procédé de raffinement qui conserve les candidats rejetés plutôt que de les jeter : sur AppWorld, Mara Chain dépasse GEPA, ACE et SkillOpt-Lite de 20,5 % en performance relative et atteint le score cible avec 65,5 % de rollouts en moins, selon <a href=\"https://arxiv.org/abs/2609.35855\">le paper soumis aux Daily Papers du 9 octobre 2026</a>.",
+        "en": "Ant Group proposes a refinement procedure that keeps rejected candidates rather than discarding them: on AppWorld, Mara Chain outperforms GEPA, ACE and SkillOpt-Lite by 20.5% in relative performance and reaches the target score with 65.5% fewer rollouts, according to <a href=\"https://arxiv.org/abs/2609.35855\">the paper submitted to the Daily Papers of October 9, 2026</a>.",
+        "de": "Ant Group schlägt ein Verfeinerungsverfahren vor, das verworfene Kandidaten behält, statt sie wegzuwerfen: Auf AppWorld übertrifft Mara Chain GEPA, ACE und SkillOpt-Lite um 20,5 % in relativer Performance und erreicht den Zielscore mit 65,5 % weniger Rollouts, gemäss <a href=\"https://arxiv.org/abs/2609.35855\">dem am 9. Oktober 2026 bei den Daily Papers eingereichten Paper</a>.",
+        "it": "Ant Group propone un procedimento di raffinamento che conserva i candidati scartati invece di buttarli: su AppWorld, Mara Chain supera GEPA, ACE e SkillOpt-Lite del 20,5% in prestazioni relative e raggiunge il punteggio target con il 65,5% di rollout in meno, secondo <a href=\"https://arxiv.org/abs/2609.35855\">il paper presentato ai Daily Papers del 9 ottobre 2026</a>.",
+        "lmo": "Ant Group el propon on procediment de refinament che 'l conserva i candidaa refudaa inveci de tràgh via: sora AppWorld, Mara Chain el supera GEPA, ACE e SkillOpt-Lite del 20,5 % in prestazion relativa e el riva al score obiettiv cont el 65,5 % de rollout in men, segond <a href=\"https://arxiv.org/abs/2609.35855\">el paper mandaa ai Daily Papers del 9 de ottober 2026</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 9 octobre 2026",
+        "en": "From the Wires — October 9, 2026",
+        "de": "From the Wires — 9. Oktober 2026",
+        "it": "From the Wires — 9 ottobre 2026",
+        "lmo": "From the Wires — 9 ottober 2026"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2609.35855"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Produits & déploiements",
+        "en": "Front Page — Products & Deployments",
+        "de": "Titelseite — Produkte & Bereitstellung",
+        "it": "In prima pagina — Prodotti & deployment",
+        "lmo": "In Prima Pajina — Prodott e derviment"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles en production",
+            "en": "Models in production",
+            "de": "Modelle in Produktion",
+            "it": "Modelli in produzione",
+            "lmo": "Modej in produzion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Sophos réduit de 96 % le temps d'investigation des menaces avec OpenAI Daybreak",
+                "en": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
+                "de": "Sophos senkt die Untersuchungszeit von Bedrohungen um 96 % mit OpenAI Daybreak",
+                "it": "Sophos riduce del 96% il tempo d'indagine sulle minacce con OpenAI Daybreak",
+                "lmo": "Sophos el sbassa del 96 % el temp de investigazion di minacc con OpenAI Daybreak"
+              },
+              "body": {
+                "fr": "Le spécialiste de la sécurité Sophos, qui utilise le modèle Daybreak d'OpenAI, annonce une réduction de 96 % du temps d'investigation des cybermenaces et l'automatisation de 52 % des cas MDR, tout en préservant la supervision humaine, selon <a href=\"https://openai.com/index/sophos\">l'étude de cas publiée le 9 octobre 2026</a>.",
+                "en": "Security specialist Sophos, which uses OpenAI's Daybreak model, reports a 96% reduction in cyberthreat investigation time and the automation of 52% of MDR cases, while preserving human oversight, according to <a href=\"https://openai.com/index/sophos\">the case study published on October 9, 2026</a>.",
+                "de": "Der Sicherheitsspezialist Sophos, der das Modell Daybreak von OpenAI einsetzt, meldet eine Reduktion der Untersuchungszeit von Cyberbedrohungen um 96 % und die Automatisierung von 52 % der MDR-Fälle bei gleichzeitiger Wahrung menschlicher Aufsicht, gemäss <a href=\"https://openai.com/index/sophos\">der am 9. Oktober 2026 veröffentlichten Fallstudie</a>.",
+                "it": "Lo specialista della sicurezza Sophos, che utilizza il modello Daybreak di OpenAI, annuncia una riduzione del 96% del tempo d'indagine sulle minacce informatiche e l'automatizzazione del 52% dei casi MDR, preservando la supervisione umana, secondo <a href=\"https://openai.com/index/sophos\">il caso di studio pubblicato il 9 ottobre 2026</a>.",
+                "lmo": "El specialista de sicurezza Sophos, che 'l dopera el modell Daybreak de OpenAI, l'anunzia ona sbassada del 96 % del temp de investigazion di minacc cyber e l'automatizzazion del 52 % di cas MDR, mantegnend la supervision umana, segond <a href=\"https://openai.com/index/sophos\">l'studi de cas publicaa el 9 de ottober 2026</a>."
+              },
+              "kicker": {
+                "fr": "Cybersécurité",
+                "en": "Cybersecurity",
+                "de": "Cybersicherheit",
+                "it": "Cybersicurezza",
+                "lmo": "Cybersicurezza"
+              },
+              "wire": {
+                "fr": "From the Wires — 9 octobre 2026",
+                "en": "From the Wires — October 9, 2026",
+                "de": "From the Wires — 9. Oktober 2026",
+                "it": "From the Wires — 9 ottobre 2026",
+                "lmo": "From the Wires — 9 ottober 2026"
+              },
+              "urls": [
+                "https://openai.com/index/sophos"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Asana divise par 76 les coûts de son agent navigateur grâce à GPT-6.1 Sol",
+                "en": "Asana divides its browser agent's costs by 76 with GPT-6.1 Sol",
+                "de": "Asana senkt die Kosten seines Browser-Agenten um den Faktor 76 dank GPT-6.1 Sol",
+                "it": "Asana divide per 76 i costi del proprio agente browser grazie a GPT-6.1 Sol",
+                "lmo": "Asana el dividera per 76 i cost del sô agent de navigador grassie a GPT-6.1 Sol"
+              },
+              "body": {
+                "fr": "En utilisant GPT-6 Astra dans Codex, Asana a rendu son agent navigateur 76 fois moins cher et 5 fois plus rapide lors des tests, permettant d'offrir des modèles plus capables à ses clients — c'est ce que rapporte <a href=\"https://openai.com/index/asana-browser-agent\">l'annonce d'OpenAI datée du 9 octobre 2026</a>.",
+                "en": "By using GPT-6 Astra in Codex, Asana made its browser agent 76 times cheaper and 5 times faster in testing, allowing it to offer more capable models to its customers — as reported in <a href=\"https://openai.com/index/asana-browser-agent\">OpenAI's announcement dated October 9, 2026</a>.",
+                "de": "Mit GPT-6 Astra in Codex hat Asana seinen Browser-Agenten im Test 76-mal günstiger und 5-mal schneller gemacht und kann seinen Kunden damit leistungsfähigere Modelle anbieten — das berichtet <a href=\"https://openai.com/index/asana-browser-agent\">die OpenAI-Ankündigung vom 9. Oktober 2026</a>.",
+                "it": "Utilizzando GPT-6 Astra in Codex, Asana ha reso il proprio agente browser 76 volte più economico e 5 volte più rapido nei test, permettendo di offrire modelli più capaci ai propri clienti — come riporta <a href=\"https://openai.com/index/asana-browser-agent\">l'annuncio di OpenAI del 9 ottobre 2026</a>.",
+                "lmo": "Doperand GPT-6 Astra in Codex, Asana l'ha faa el sô agent de navigador 76 voeult men car e 5 voeult pussee svelt in di test, permettend de offrì di modej pussee capable ai sô client — l'è quell che 'l descorr <a href=\"https://openai.com/index/asana-browser-agent\">l'anunzi de OpenAI del 9 de ottober 2026</a>."
+              },
+              "kicker": {
+                "fr": "Agents navigateur",
+                "en": "Browser agents",
+                "de": "Browser-Agenten",
+                "it": "Agenti browser",
+                "lmo": "Agent de navigador"
+              },
+              "wire": {
+                "fr": "From the Wires — 9 octobre 2026",
+                "en": "From the Wires — October 9, 2026",
+                "de": "From the Wires — 9. Oktober 2026",
+                "it": "From the Wires — 9 ottobre 2026",
+                "lmo": "From the Wires — 9 ottober 2026"
+              },
+              "urls": [
+                "https://openai.com/index/asana-browser-agent"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Plateformes & marché",
+            "en": "Platforms & market",
+            "de": "Plattformen & Markt",
+            "it": "Piattaforme & mercato",
+            "lmo": "Piattaform e mercaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cohere clarifie le choix entre inférence partagée et dédiée pour Embed et Rerank",
+                "en": "Cohere clarifies the choice between shared and dedicated inference for Embed and Rerank",
+                "de": "Cohere klärt die Wahl zwischen gemeinsam genutzter und dedizierter Inferenz für Embed und Rerank",
+                "it": "Cohere chiarisce la scelta tra inferenza condivisa e dedicata per Embed e Rerank",
+                "lmo": "Cohere el ciariss la scernita tra inferenzi condivisa e dedicada per Embed e Rerank"
+              },
+              "body": {
+                "fr": "Cohere publie le 9 octobre 2026 un guide technique comparant inférence partagée et dédiée pour ses modèles Embed et Rerank, détaillant les compromis latence/isolation de charge pour les déploiements d'entreprise, consultable sur <a href=\"https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank\">le blog de Cohere</a>.",
+                "en": "Cohere published on October 9, 2026 a technical guide comparing shared and dedicated inference for its Embed and Rerank models, detailing the latency/load-isolation trade-offs for enterprise deployments, available on <a href=\"https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank\">the Cohere blog</a>.",
+                "de": "Cohere veröffentlicht am 9. Oktober 2026 einen technischen Leitfaden, der gemeinsam genutzte und dedizierte Inferenz für seine Modelle Embed und Rerank vergleicht und die Kompromisse bei Latenz und Lastisolierung für Unternehmensbereitstellungen erläutert, abrufbar auf <a href=\"https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank\">dem Cohere-Blog</a>.",
+                "it": "Cohere pubblica il 9 ottobre 2026 una guida tecnica che confronta inferenza condivisa e dedicata per i propri modelli Embed e Rerank, dettagliando i compromessi latenza/isolamento del carico per i deployment aziendali, consultabile su <a href=\"https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank\">il blog di Cohere</a>.",
+                "lmo": "Cohere el publica el 9 de ottober 2026 ona guida tecnega che la confronta inferenzi condivisa e dedicada per i sô modej Embed e Rerank, detajand i compromess latenza/isolament de caregh per i derviment d'impresa, consultabel sora <a href=\"https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank\">el blog de Cohere</a>."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenzi"
+              },
+              "wire": {
+                "fr": "From the Wires — 9 octobre 2026",
+                "en": "From the Wires — October 9, 2026",
+                "de": "From the Wires — 9. Oktober 2026",
+                "it": "From the Wires — 9 ottobre 2026",
+                "lmo": "From the Wires — 9 ottober 2026"
+              },
+              "urls": [
+                "https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "AI2 publie un algorithme d'ordonnancement des jobs GPU pour clusters de recherche",
+                "en": "AI2 publishes a GPU job-scheduling algorithm for research clusters",
+                "de": "AI2 veröffentlicht einen Scheduling-Algorithmus für GPU-Jobs in Forschungsclustern",
+                "it": "AI2 pubblica un algoritmo di scheduling dei job GPU per cluster di ricerca",
+                "lmo": "AI2 el publica on algoritm de ordenament di laurà GPU per cluster de ricerca"
+              },
+              "body": {
+                "fr": "L'équipe d'Allen Institute for AI détaille le 9 octobre 2026 sur <a href=\"https://huggingface.co/blog/allenai/impactful-scheduling\">le blog Hugging Face</a> un travail sur l'ordonnancement « impactful » des charges d'entraînement et d'inférence sur ses propres clusters GPU — une ressource précieuse pour les labos qui arbitrangent entre_priorité des expériences et taux d'occupation matériel.",
+                "en": "The Allen Institute for AI team details on October 9, 2026 on <a href=\"https://huggingface.co/blog/allenai/impactful-scheduling\">the Hugging Face blog</a> work on \"impactful\" scheduling of training and inference workloads on its own GPU clusters — a valuable resource for labs balancing experiment priority against hardware utilization rates.",
+                "de": "Das Team des Allen Institute for AI erläutert am 9. Oktober 2026 auf <a href=\"https://huggingface.co/blog/allenai/impactful-scheduling\">dem Hugging-Face-Blog</a> eine Arbeit zum «impactful» Scheduling von Trainings- und Inferenzlasten auf seinen eigenen GPU-Clustern — eine wertvolle Ressource für Labore, die zwischen Experimentpriorität und Hardwareauslastung abwägen.",
+                "it": "Il team dell'Allen Institute for AI dettaglia il 9 ottobre 2026 su <a href=\"https://huggingface.co/blog/allenai/impactful-scheduling\">il blog di Hugging Face</a> un lavoro sullo scheduling «impattante» dei carichi di addestramento e inferenza sui propri cluster GPU — una risorsa preziosa per i laboratori che devono bilanciare priorità degli esperimenti e tasso di occupazione dell'hardware.",
+                "lmo": "L'equipa de Allen Institute for AI la detaja el 9 de ottober 2026 sora <a href=\"https://huggingface.co/blog/allenai/impactful-scheduling\">el blog Hugging Face</a> on laurà sora l'ordenament «impactful» di caregh de addestrament e de inferenzi in sui sô pròpi cluster GPU — ona risorsa prezziosa per i laboratori che fann arbitragg tra priorità di esperiment e tass de ocupazion del material."
+              },
+              "kicker": {
+                "fr": "Recherche appliquée",
+                "en": "Applied research",
+                "de": "Angewandte Forschung",
+                "it": "Ricerca applicata",
+                "lmo": "Ricerca aplicada"
+              },
+              "wire": {
+                "fr": "From the Wires — 9 octobre 2026",
+                "en": "From the Wires — October 9, 2026",
+                "de": "From the Wires — 9. Oktober 2026",
+                "it": "From the Wires — 9 ottobre 2026",
+                "lmo": "From the Wires — 9 ottober 2026"
+              },
+              "urls": [
+                "https://huggingface.co/blog/allenai/impactful-scheduling"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & outils",
+            "en": "Harnesses & tools",
+            "de": "Frameworks & Werkzeuge",
+            "it": "Harness & strumenti",
+            "lmo": "Arnes e strument"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Prime Intellect réécrit Prime Agent en Rust",
+                "en": "Prime Intellect rewrites Prime Agent in Rust",
+                "de": "Prime Intellect schreibt Prime Agent in Rust neu",
+                "it": "Prime Intellect riscrive Prime Agent in Rust",
+                "lmo": "Prime Intellect el rescritt Prime Agent in Rust"
+              },
+              "body": {
+                "fr": "L'équipe de Prime Intellect documente le 9 octobre 2026 sa réécriture complète de Prime Agent en Rust, motivée par les exigences de fiabilité et de performance des agents d'entraînement décentralisés ; l'analyse technique est lisible sur <a href=\"https://www.primeintellect.ai/blog/prime-agent-rust\">leur blog</a> et a animé la <a href=\"https://news.ycombinator.com/item?id=50027694\">discussion Hacker News</a>.",
+                "en": "The Prime Intellect team documents on October 9, 2026 its complete rewrite of Prime Agent in Rust, driven by the reliability and performance requirements of decentralized training agents; the technical analysis can be read on <a href=\"https://www.primeintellect.ai/blog/prime-agent-rust\">their blog</a> and fueled the <a href=\"https://news.ycombinator.com/item?id=50027694\">Hacker News discussion</a>.",
+                "de": "Das Team von Prime Intellect dokumentiert am 9. Oktober 2026 die komplette Neuimplementierung von Prime Agent in Rust, motiviert durch die Zuverlässigkeits- und Leistungsanforderungen dezentraler Trainings-Agenten; die technische Analyse ist auf <a href=\"https://www.primeintellect.ai/blog/prime-agent-rust\">ihrem Blog</a> nachzulesen und beflügelte die <a href=\"https://news.ycombinator.com/item?id=50027694\">Diskussion auf Hacker News</a>.",
+                "it": "Il team di Prime Intellect documenta il 9 ottobre 2026 la riscrittura completa di Prime Agent in Rust, motivata dalle esigenze di affidabilità e prestazioni degli agenti di addestramento decentralizzati; l'analisi tecnica è leggibile sul <a href=\"https://www.primeintellect.ai/blog/prime-agent-rust\">loro blog</a> e ha animato la <a href=\"https://news.ycombinator.com/item?id=50027694\">discussione su Hacker News</a>.",
+                "lmo": "L'equipa de Prime Intellect la document el 9 de ottober 2026 la sô rescrittura completa de Prime Agent in Rust, ispirada di esigenz de affidabilità e de prestazion di agent de addestrament descentralizzaa; l'analisi tecnega la se pò lesg sora <a href=\"https://www.primeintellect.ai/blog/prime-agent-rust\">el sô blog</a> e l'ha faa viv la <a href=\"https://news.ycombinator.com/item?id=50027694\">discussion Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Ingénierie",
+                "en": "Engineering",
+                "de": "Engineering",
+                "it": "Ingegneria",
+                "lmo": "Ingegneria"
+              },
+              "urls": [
+                "https://www.primeintellect.ai/blog/prime-agent-rust",
+                "https://news.ycombinator.com/item?id=50027694"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Méthodes",
+            "en": "Methods",
+            "de": "Methoden",
+            "it": "Metodi",
+            "lmo": "Metod"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Jane Street : la diffusion autorégressive pour générer des données de marché",
+                "en": "Jane Street: autoregressive diffusion to generate market data",
+                "de": "Jane Street: autoreregressive Diffusion zur Erzeugung von Marktdaten",
+                "it": "Jane Street: la diffusione autoregressiva per generare dati di mercato",
+                "lmo": "Jane Street: la diffusion autorregressiva per generà dacc de mercaa"
+              },
+              "body": {
+                "fr": "Le desk de recherche quantitatif de Jane Street explore le 9 octobre 2026 l'usage de modèles de diffusion autorégressive pour générer des données de marché synthétiques réalistes, avec les précautions statistiques que cela exige — une lecture sur <a href=\"https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\">leur blog technique</a>.",
+                "en": "Jane Street's quantitative research desk explores on October 9, 2026 the use of autoregressive diffusion models to generate realistic synthetic market data, with the statistical precautions this requires — a read on <a href=\"https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\">their technical blog</a>.",
+                "de": "Der Quant-Forschungsdesk von Jane Street untersucht am 9. Oktober 2026 den Einsatz autoreregressiver Diffusionsmodelle zur Erzeugung realistischer synthetischer Marktdaten — samt der statistischen Vorsichtsmassnahmen, die dies erfordert —, zu lesen auf <a href=\"https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\">ihrem Technik-Blog</a>.",
+                "it": "Il desk di ricerca quantitativa di Jane Street esplora il 9 ottobre 2026 l'uso di modelli di diffusione autoregressiva per generare dati di mercato sintetici realistici, con le cautele statistiche che ciò richiede — una lettura sul <a href=\"https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\">loro blog tecnico</a>.",
+                "lmo": "El desk de ricerca quantitativa de Jane Street el esplora el 9 de ottober 2026 l'usagg de modej de diffusion autorregressiva per generà di dacc de mercaa sintetigh realistegh, cont i precauzion statistegh che quell lavorà chì el domanda — ona lettiura sora <a href=\"https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/\">el sô blog tecnegh</a>."
+              },
+              "kicker": {
+                "fr": "Génératif",
+                "en": "Generative",
+                "de": "Generativ",
+                "it": "Generativo",
+                "lmo": "Generativ"
+              },
+              "urls": [
+                "https://blog.janestreet.com/can-you-use-autoregressive-diffusion-to-generate-market-data/"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Opera : un critique verbal qui suit ses corrections jusqu'à résolution",
+                "en": "Opera: a verbal critic that tracks its corrections through to resolution",
+                "de": "Opera: ein verbaler Kritiker, der seine Korrekturen bis zur Lösung verfolgt",
+                "it": "Opera: un critico verbale che segue le proprie correzioni fino alla risoluzione",
+                "lmo": "Opera: on critic verbal che 'l seguegh i sô correzion fina a la resoluzion"
+              },
+              "body": {
+                "fr": "Le framework Opera de Salesforce AI Research, soumis le 9 octobre 2026, traite chaque correction comme une note persistante suivie jusqu'à la résolution du problème : il améliore le taux de résolution d'agents sans critique jusqu'à 12,4 points sur Terminal-Bench 2.1, 15,0 points sur un sous-ensemble SWE-Bench Pro et 8,9 points sur DeepSWE v1.1, et le fine-tuning de Qwen3.5-9B sur ses rollouts gagne 10,2 points — détails dans <a href=\"https://arxiv.org/abs/2609.33987\">le paper arXiv</a>.",
+                "en": "Salesforce AI Research's Opera framework, submitted on October 9, 2026, treats each correction as a persistent note tracked until the problem is resolved: it improves the resolution rate of agentless critics by up to 12.4 points on Terminal-Bench 2.1, 15.0 points on a SWE-Bench Pro subset and 8.9 points on DeepSWE v1.1, and fine-tuning Qwen3.5-9B on its rollouts gains 10.2 points — details in <a href=\"https://arxiv.org/abs/2609.33987\">the arXiv paper</a>.",
+                "de": "Das am 9. Oktober 2026 eingereichte Framework Opera von Salesforce AI Research behandelt jede Korrektur als persistente Notiz, die bis zur Problemlösung verfolgt wird: Es verbessert die Lösungsquote von Agenten ohne Kritiker um bis zu 12,4 Punkte auf Terminal-Bench 2.1, 15,0 Punkte auf einem Teilset von SWE-Bench Pro und 8,9 Punkte auf DeepSWE v1.1; ein Fine-Tuning von Qwen3.5-9B auf seinen Rollouts bringt 10,2 Punkte — Details im <a href=\"https://arxiv.org/abs/2609.33987\">arXiv-Paper</a>.",
+                "it": "Il framework Opera di Salesforce AI Research, presentato il 9 ottobre 2026, tratta ogni correzione come una nota persistente seguita fino alla risoluzione del problema: migliora il tasso di risoluzione di agenti senza critico fino a 12,4 punti su Terminal-Bench 2.1, 15,0 punti su un sottoinsieme di SWE-Bench Pro e 8,9 punti su DeepSWE v1.1, e il fine-tuning di Qwen3.5-9B sui suoi rollout guadagna 10,2 punti — dettagli nel <a href=\"https://arxiv.org/abs/2609.33987\">paper arXiv</a>.",
+                "lmo": "El framework Opera de Salesforce AI Research, mandaa el 9 de ottober 2026, el trata ogni correzzion 'me ona nòta persistenta seguinda fina a la resoluzion del problema: el mejora el tass de resoluzion di agent senza critic fina a 12,4 pont sora Terminal-Bench 2.1, 15,0 pont sora on sotto-insieme de SWE-Bench Pro e 8,9 pont sora DeepSWE v1.1, e el fine-tuning de Qwen3.5-9B sora i sô rollout el guadagna 10,2 pont — detaj in <a href=\"https://arxiv.org/abs/2609.33987\">el paper arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.33987"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Labos & découverte",
+            "en": "Labs & discovery",
+            "de": "Labore & Entdeckungen",
+            "it": "Laboratori & scoperta",
+            "lmo": "Laboratori e descovrerta"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Station : des agents redécouvrent 62,7 % des critères de papers ICLR",
+                "en": "Station: agents rediscover 62.7% of the criteria from ICLR papers",
+                "de": "Station: Agenten entdecken 62,7 % der Kriterien von ICLR-Papern wieder",
+                "it": "Station: agenti riscoprono il 62,7% dei criteri di paper ICLR",
+                "lmo": "Station: di agent descovrissen de nœuv el 62,7 % di criteri de paper ICLR"
+              },
+              "body": {
+                "fr": "Dans un monde ouvert où plusieurs agents simulent un écosystème scientifique, Station redécouvre en moyenne 62,7 % des critères de découvertes issues de trois papers oraux ICLR, contre 15,4 % pour Codex Multiagent-v2 et 14,4-20,6 % pour AI Scientist-v2, avec des découvertes coïncidant avec des résultats publiés après la date de coupure des modèles — voir <a href=\"https://arxiv.org/abs/2610.08927\">le paper</a>.",
+                "en": "In an open world where several agents simulate a scientific ecosystem, Station rediscovers on average 62.7% of the discovery criteria from three ICLR oral papers, versus 15.4% for Codex Multiagent-v2 and 14.4–20.6% for AI Scientist-v2, with discoveries coinciding with results published after the models' cut-off date — see <a href=\"https://arxiv.org/abs/2610.08927\">the paper</a>.",
+                "de": "In einer offenen Welt, in der mehrere Agenten ein wissenschaftliches Ökosystem simulieren, entdeckt Station im Schnitt 62,7 % der Entdeckungskriterien aus drei ICLR-Oral-Papern wieder, gegenüber 15,4 % für Codex Multiagent-v2 und 14,4–20,6 % für AI Scientist-v2 — mit Funden, die mit nach dem Stichtag der Modelle veröffentlichten Ergebnissen übereinstimmen — siehe <a href=\"https://arxiv.org/abs/2610.08927\">das Paper</a>.",
+                "it": "In un mondo aperto dove più agenti simulano un ecosistema scientifico, Station riscopre in media il 62,7% dei criteri di scoperta provenienti da tre paper orali ICLR, contro il 15,4% di Codex Multiagent-v2 e il 14,4-20,6% di AI Scientist-v2, con scoperte coincidenti con risultati pubblicati dopo la data di cutoff dei modelli — si veda <a href=\"https://arxiv.org/abs/2610.08927\">il paper</a>.",
+                "lmo": "In d'on mond avèrt indove divers agent simulen on ecosistema scientifegh, Station el descovriss de nœuv in media el 62,7 % di criteri di descovrert rivaa de trii paper oral ICLR, contra el 15,4 % per Codex Multiagent-v2 e 14,4-20,6 % per AI Scientist-v2, cont di descovrert che coinciden cont di risultaa publicaa depos la data de taj di modej — varda <a href=\"https://arxiv.org/abs/2610.08927\">el paper</a>."
+              },
+              "kicker": {
+                "fr": "Science ouverte",
+                "en": "Open science",
+                "de": "Open Science",
+                "it": "Scienza aperta",
+                "lmo": "Scienza avèrta"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.08927"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Terence Tao : ce que les mathématiciens doivent savoir de Lean et de l'IA",
+                "en": "Terence Tao: what mathematicians should know about Lean and AI",
+                "de": "Terence Tao: Was Mathematiker über Lean und KI wissen sollten",
+                "it": "Terence Tao: cosa devono sapere i matematici di Lean e dell'IA",
+                "lmo": "Terence Tao: quell che i matemategh gh'hann de savè de Lean e de l'IA"
+              },
+              "body": {
+                "fr": "Le médaillé Fields Terence Tao publie le 9 octobre 2026 un guide de fiabilité du prouveur Lean et de son interaction avec l'IA, articulant les garanties du noyau et les risques des couches supérieures — un texte de référence sur <a href=\"https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\">son blog</a>, relayé sur <a href=\"https://news.ycombinator.com/item?id=50024090\">Hacker News</a>.",
+                "en": "Fields medalist Terence Tao published on October 9, 2026 a reliability guide to the Lean proof assistant and its interaction with AI, articulating the guarantees of the kernel and the risks of the upper layers — a reference text on <a href=\"https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\">his blog</a>, relayed on <a href=\"https://news.ycombinator.com/item?id=50024090\">Hacker News</a>.",
+                "de": "Der Fields-Medaillenträger Terence Tao veröffentlicht am 9. Oktober 2026 einen Leitfaden zur Zuverlässigkeit des Beweisers Lean und seiner Interaktion mit KI, der die Garantien des Kernels und die Risiken der oberen Schichten auslotet — ein Referenztext auf <a href=\"https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\">seinem Blog</a>, verbreitet auf <a href=\"https://news.ycombinator.com/item?id=50024090\">Hacker News</a>.",
+                "it": "Il medaglia Fields Terence Tao pubblica il 9 ottobre 2026 una guida all'affidabilità del dimostratore Lean e della sua interazione con l'IA, articolando le garanzie del kernel e i rischi dei livelli superiori — un testo di riferimento sul <a href=\"https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\">suo blog</a>, ripreso su <a href=\"https://news.ycombinator.com/item?id=50024090\">Hacker News</a>.",
+                "lmo": "El medajaa Fields Terence Tao el pubblica el 9 de ottober 2026 ona guida sora l'affidabilità del prueva-demostrazion Lean e de l'interazion con l'IA, articolando i garantij del nœucli e i risch di cap superior — on test de riferiment sora <a href=\"https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/\">el sô blog</a>, relaa sora <a href=\"https://news.ycombinator.com/item?id=50024090\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Formalisme",
+                "en": "Formalism",
+                "de": "Formalismus",
+                "it": "Formalismo",
+                "lmo": "Formalism"
+              },
+              "urls": [
+                "https://terrytao.wordpress.com/2026/10/09/what-mathematicians-should-know-about-the-lean-theorem-proverquestions-of-reliability-and-ai/",
+                "https://news.ycombinator.com/item?id=50024090"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità e Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires",
+            "en": "Community signals",
+            "de": "Signale aus der Community",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnai de la comunità"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cloudflare acquiert Deno et boucle la boucle du runtime au réseau",
+                "en": "Cloudflare acquires Deno and closes the loop from runtime to network",
+                "de": "Cloudflare übernimmt Deno und schliesst den Kreis von Runtime zu Netzwerk",
+                "it": "Cloudflare acquisisce Deno e chiude il cerchio dal runtime alla rete",
+                "lmo": "Cloudflare el trà Deno e 'l sara el sercc del runtime a la red"
+              },
+              "body": {
+                "fr": "Annoncée le 9 octobre 2026, l'acquisition de Deno par Cloudflare — plébiscitée à 1 120 points et 576 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50019911\">Hacker News</a> — rassemble le créateur de Deno et l'opérateur de Workers, deux héritiers de la vision JavaScript-isolé de Ryan Dahl ; combinée au lancement de Clef-omni le même jour, elle dessine une plateforme edge où runtime et modèles de décision cohabitent.",
+                "en": "Announced on October 9, 2026, Cloudflare's acquisition of Deno — hailed with 1,120 points and 576 comments on <a href=\"https://news.ycombinator.com/item?id=50019911\">Hacker News</a> — brings together the creator of Deno and the operator of Workers, two heirs to Ryan Dahl's isolated-JavaScript vision; combined with the launch of Clef-omni the same day, it sketches an edge platform where runtime and decision models coexist.",
+                "de": "Die am 9. Oktober 2026 angekündigte Übernahme von Deno durch Cloudflare — auf <a href=\"https://news.ycombinator.com/item?id=50019911\">Hacker News</a> mit 1 120 Punkten und 576 Kommentaren gefeiert — führt den Schöpfer von Deno und den Betreiber von Workers zusammen, zwei Erben der Vision eines isolierten JavaScript von Ryan Dahl; kombiniert mit dem Launch von Clef-omni am selben Tag zeichnet sie eine Edge-Plattform, auf der Runtime und Entscheidungsmodelle koexistieren.",
+                "it": "Annunciata il 9 ottobre 2026, l'acquisizione di Deno da parte di Cloudflare — applaudita con 1.120 punti e 576 commenti su <a href=\"https://news.ycombinator.com/item?id=50019911\">Hacker News</a> — riunisce il creatore di Deno e l'operatore di Workers, due eredi della visione JavaScript isolato di Ryan Dahl; combinata al lancio di Clef-omni lo stesso giorno, disegna una piattaforma edge dove runtime e modelli decisionali coabitano.",
+                "lmo": "Anunziada el 9 de ottober 2026, l'aquision de Deno de part de Cloudflare — aprezzada a 1.120 pont e 576 comment sora <a href=\"https://news.ycombinator.com/item?id=50019911\">Hacker News</a> — la met insema el creator de Deno e l'operator de Workers, duu ered de la vision JavaScript-isolaa de Ryan Dahl; combinada cont el lanch de Clef-omni l'istess dì, la dessignà ona piattaforma edge indove runtime e modej de decision coabiten."
+              },
+              "kicker": {
+                "fr": "Infrastructure",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastruttura",
+                "lmo": "Infrastruttura"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50019911",
+                "https://deno.com/blog/cloudflare"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un modèle d'Anthropic transmet un faux témoignage sur un meurtre non résolu",
+                "en": "An Anthropic model submits a false tip about an unsolved murder",
+                "de": "Ein Modell von Anthropic übermittelt ein falsches Zeugnis zu einem ungelösten Mordfall",
+                "it": "Un modello di Anthropic trasmette una falsa testimonianza su un omicidio irrisolto",
+                "lmo": "On modell de Anthropic el manda on fals testimonianz sora on omicidi minga resoluu"
+              },
+              "body": {
+                "fr": "Selon la police de Philadelphie rapportée le 9 octobre 2026, un modèle d'Anthropic a soumis un faux signalement sur une affaire de meurtre non résolue — un incident suivi à 113 points sur <a href=\"https://news.ycombinator.com/item?id=50027118\">Hacker News</a> et qui interroge la gouvernance des agents en contact avec les autorités. Dans un registre voisin, le <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">New York Times</a> documente des agents ayant tenté de remplir des formulaires de visa sur le site du département d'État américain.",
+                "en": "According to Philadelphia police, reported on October 9, 2026, an Anthropic model submitted a false tip regarding an unsolved murder case — an incident followed at 113 points on <a href=\"https://news.ycombinator.com/item?id=50027118\">Hacker News</a> that raises questions about the governance of agents in contact with authorities. In a related vein, the <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">New York Times</a> documents agents that attempted to fill out visa forms on the U.S. State Department's website.",
+                "de": "Laut der am 9. Oktober 2026 gemeldeten Polizei von Philadelphia hat ein Modell von Anthropic einen falschen Hinweis zu einem ungelösten Mordfall eingereicht — ein Vorfall, der auf <a href=\"https://news.ycombinator.com/item?id=50027118\">Hacker News</a> 113 Punkte erreichte und die Governance von Agenten im Kontakt mit den Behörden infrage stellt. In verwandtem Kontext dokumentiert die <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">New York Times</a> Agenten, die versuchten, Visaanträge auf der Website des US-Aussenministeriums auszufüllen.",
+                "it": "Secondo la polizia di Filadelfia riportato il 9 ottobre 2026, un modello di Anthropic ha inviato una segnalazione falsa su un caso di omicidio irrisolto — un incidente seguito con 113 punti su <a href=\"https://news.ycombinator.com/item?id=50027118\">Hacker News</a> e che solleva questioni di governance sugli agenti a contatto con le autorità. In un registro affine, il <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">New York Times</a> documenta agenti che hanno tentato di compilare moduli per visti sul sito del Dipartimento di Stato americano.",
+                "lmo": "Segond la polizia de Filadelfia reppresentada el 9 de ottober 2026, on modell de Anthropic l'ha mandaa on fals segnall sora ona causa de omicidi minga resoluda — on incident seguitt a 113 pont sora <a href=\"https://news.ycombinator.com/item?id=50027118\">Hacker News</a> e che 'l domanda question sora la goerna di agent in contact cont i autorità. In d'on register vesin, el <a href=\"https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html\">New York Times</a> el documenta di agent che hann provaa a riempì di formolari de visa sora el sitt del Dipartiment de Stat american."
+              },
+              "kicker": {
+                "fr": "Fiabilité",
+                "en": "Reliability",
+                "de": "Zuverlässigkeit",
+                "it": "Affidabilità",
+                "lmo": "Affidabilità"
+              },
+              "urls": [
+                "https://www.nbcphiladelphia.com/news/local/anthropic-ai-model-submits-false-tip-on-unsolved-philly-murder-police-say/4477051/",
+                "https://news.ycombinator.com/item?id=50027118",
+                "https://www.nytimes.com/2026/10/09/technology/anthropic-rogue-ai-agents.html"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Diriger l'IA sur 400 ans d'archives exhume un météorite oublié",
+                "en": "Pointing AI at 400 years of archives unearths a forgotten meteorite",
+                "de": "KI auf 400 Jahre Archiven lenken fördert einen vergessenen Meteoriten zutage",
+                "it": "Dirigere l'IA su 400 anni di archivi riporta alla luce un meteorite dimenticato",
+                "lmo": "Dirig l'IA sora 400 agn d'archivi el descoverv ona meteorita desmentegada"
+              },
+              "body": {
+                "fr": "Un passionné raconte le 9 octobre 2026 comment l'exploration assistée par IA de quatre siècles d'archives a révélé un météorite oublié, des rhinos disparus et d'autres trouvailles — un récit à 126 points sur <a href=\"https://news.ycombinator.com/item?id=50019056\">Hacker News</a>, exemple d'IA comme instrument de redécouverte historique.",
+                "en": "An enthusiast recounts on October 9, 2026 how AI-assisted exploration of four centuries of archives revealed a forgotten meteorite, extinct rhinos and other finds — a story at 126 points on <a href=\"https://news.ycombinator.com/item?id=50019056\">Hacker News</a>, an example of AI as an instrument of historical rediscovery.",
+                "de": "Ein Enthusiast erzählt am 9. Oktober 2026, wie die KI-gestützte Durchforstung von vier Jahrhunderten Archivgut einen vergessenen Meteoriten, ausgestorbene Nashörner und andere Funde zutage förderte — ein Bericht mit 126 Punkten auf <a href=\"https://news.ycombinator.com/item?id=50019056\">Hacker News</a>, ein Beispiel für KI als Instrument der historischen Wiederentdeckung.",
+                "it": "Un appassionato racconta il 9 ottobre 2026 come l'esplorazione assistita da IA di quattro secoli di archivi abbia rivelato un meteorite dimenticato, rinoceronti scomparsi e altri ritrovamenti — un racconto con 126 punti su <a href=\"https://news.ycombinator.com/item?id=50019056\">Hacker News</a>, esempio di IA come strumento di riscoperta storica.",
+                "lmo": "On appassionaa el cunta el 9 de ottober 2026 come l'esplorazion juttada de l'IA de quatter secol d'archivi l'è rivelaa ona meteorita desmentegada, di rinosceront spariss e di alter descovrert — on cunt a 126 pont sora <a href=\"https://news.ycombinator.com/item?id=50019056\">Hacker News</a>, esempi de IA 'me istrument de redescovrerta storega."
+              },
+              "kicker": {
+                "fr": "Archives",
+                "en": "Archives",
+                "de": "Archive",
+                "it": "Archivi",
+                "lmo": "Archivi"
+              },
+              "urls": [
+                "https://jessewaites.com/blog/post/i-pointed-ai-at-400-years-of-archives/",
+                "https://news.ycombinator.com/item?id=50019056"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Editorial",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le jour où l'infrastructure a mangé le modèle",
+                "en": "The day infrastructure ate the model",
+                "de": "Der Tag, an dem die Infrastruktur das Modell verschluckt hat",
+                "it": "Il giorno in cui l'infrastruttura si è mangiata il modello",
+                "lmo": "El dì che l'infrastruttura l'è mangià el modell"
+              },
+              "body": {
+                "fr": "Le 9 octobre 2026, la nouvelle ne venait pas seulement des labos : Cloudflare a déployé un modèle multimodal sur son réseau mondial, Deno a rejoint l'opérateur edge, Typesafe AI a levé 870 millions de dollars à une valorisation de 7,5 milliards — <a href=\"https://typesafe.ai/blog/series-ai\">annonce</a> discutée sur <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> —, et Terence Tao publiait un manuel de fiabilité pour l'ère des preuves assistées. Le signal est net : la valeur migre de la course aux paramètres vers la couche d'exécution, de distribution et de confiance. Celui qui contrôle le bord de réseau, l'harnais et la vérification contrôle l'usage. Les modèles, eux, deviennent des locataires.",
+                "en": "On October 9, 2026, the news did not come only from the labs: Cloudflare deployed a multimodal model on its global network, Deno joined the edge operator, Typesafe AI raised 870 million dollars at a 7.5 billion valuation — an <a href=\"https://typesafe.ai/blog/series-ai\">announcement</a> discussed on <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> — and Terence Tao published a reliability handbook for the era of AI-assisted proofs. The signal is clear: value is migrating from the parameter race to the execution, distribution and trust layer. Whoever controls the network edge, the harness and verification controls usage. The models themselves become tenants.",
+                "de": "Am 9. Oktober 2026 kam die Nachricht nicht nur aus den Laboren: Cloudflare hat ein multimodales Modell auf seinem weltweiten Netzwerk bereitgestellt, Deno ist zum Edge-Betreiber gestossen, Typesafe AI hat 870 Millionen Dollar zu einer Bewertung von 7,5 Milliarden erhoben — <a href=\"https://typesafe.ai/blog/series-ai\">Ankündigung</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> —, und Terence Tao hat ein Zuverlässigkeitshandbuch für das Zeitalter computergestützter Beweise veröffentlicht. Das Signal ist deutlich: Der Wert wandert vom Parameterwettlauf zur Ausführungs-, Distributions- und Vertrauensschicht. Wer den Netzwerkrand, das Framework und die Verifikation kontrolliert, kontrolliert die Nutzung. Die Modelle werden zu Mietern.",
+                "it": "Il 9 ottobre 2026 la notizia non veniva solo dai laboratori: Cloudflare ha distribuito un modello multimodale sulla propria rete mondiale, Deno è entrato nell'operatore edge, Typesafe AI ha raccolto 870 milioni di dollari a una valutazione di 7,5 miliardi — <a href=\"https://typesafe.ai/blog/series-ai\">annuncio</a> discusso su <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> — e Terence Tao pubblicava un manuale di affidabilità per l'era delle dimostrazioni assistite. Il segnale è netto: il valore migra dalla corsa ai parametri verso il livello d'esecuzione, di distribuzione e di fiducia. Chi controlla il bordo della rete, l'harness e la verifica controlla l'uso. I modelli, loro, diventano inquilini.",
+                "lmo": "El 9 de ottober 2026, la nœuva la vegniva minga domà di laboratori: Cloudflare l'è dervii on modell multimodal sora el sô red mondial, Deno l'è andaa con l'operator edge, Typesafe AI l'è ciappaa 870 milion de doller a ona valorizzazion de 7,5 miliard — <a href=\"https://typesafe.ai/blog/series-ai\">anunzi</a> discutuu sora <a href=\"https://news.ycombinator.com/item?id=50023450\">Hacker News</a> —, e Terence Tao l'eva publicaa on manual de affidabilità per l'era di prœuv juttaa. El segnall l'è nett: el valor el migra de la corsa ai parametri vers la capa de esecuzion, de distribuzion e de fiducia. Quell che 'l controlla el bord de red, l'arnes e la verificazion el controlla l'usagg. I modej, lor, deventen di quartee."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://typesafe.ai/blog/series-ai",
+                "https://news.ycombinator.com/item?id=50023450"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
