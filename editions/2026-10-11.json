@@ -1,0 +1,470 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-11",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le PDG de Microsoft, Satya Nadella, a déclaré le 11 octobre 2026 qu'il fallait partir du principe que tous les modèles d'IA sont « compromis », une prise de position qui redessine la doctrine de sécurité d'une entreprise qui déploie massivement des agents dans ses produits. La déclaration, rapportée par <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>, s'inscrit dans un contexte d'industrialisation des agents autonomes et de multiplication des vecteurs d'attaque liés aux modèles eux-mêmes.",
+        "en": "Microsoft CEO Satya Nadella said on October 11, 2026 that we should assume all AI models are \"compromised,\" a stance that redraws the security doctrine of a company deploying agents at scale across its products. The statement, reported by <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>, comes amid the industrialization of autonomous agents and a proliferation of attack vectors tied to the models themselves.",
+        "de": "Microsoft-CEO Satya Nadella erklärte am 11. Oktober 2026, man müsse davon ausgehen, dass alle KI-Modelle «kompromittiert» sind – eine Aussage, die die Sicherheitsdoktrin eines Unternehmens neu zeichnet, das massenhaft Agenten in seine Produkte einsetzt. Die Erklärung, von <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a> berichtet, fällt in einen Kontext der Industrialisierung autonomer Agenten und der Zunahme von Angriffsvektoren, die von den Modellen selbst ausgehen.",
+        "it": "L'amministratore delegato di Microsoft, Satya Nadella, ha dichiarato l'11 ottobre 2026 che occorre partire dal presupposto che tutti i modelli di IA siano «compromessi», una presa di posizione che ridisegna la dottrina di sicurezza di un'azienda che distribuisce massicciamente agenti nei propri prodotti. La dichiarazione, riportata da <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>, si inserisce in un contesto di industrializzazione degli agenti autonomi e di moltiplicazione dei vettori d'attacco legati ai modelli stessi.",
+        "lmo": "El CEO de Microsoft, Satya Nadella, l'ha dii el 11 de ottober 2026 che gh'era de partì del principi che tucc i modej de IA hinn « compromess », ona presa de posizion che la redessigna la dottrina de sigurezza de 'na azienda che la derviss a granda scala di agent in di sò prodott. La declarazion, riportada de <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>, la se insees in d'on contest de industrializzazion di agent autonom e de multiplicazion di vetor d'ataca ligaa ai modej midemm."
+      },
+      {
+        "fr": "L'argument revient à traiter les modèles comme une supply chain non fiable : plutôt que de supposer leur intégrité, les architectes doivent bâtir des garde-fous — isolation d'exécution, moindre privilège, journalisation — qui restent efficaces même si le modèle est corrompu en amont. Cette posture rejoint des mouvements déjà visibles dans l'industrie, comme le confinement par politique des agents IA illustré par les Microsoft Execution Containers.",
+        "en": "The argument amounts to treating models as an untrusted supply chain: rather than assuming their integrity, architects must build guardrails — execution isolation, least privilege, logging — that remain effective even if the model is corrupted upstream. This posture echoes moves already visible across the industry, such as policy-driven confinement of AI agents as illustrated by Microsoft Execution Containers.",
+        "de": "Das Argument läuft darauf hinaus, Modelle als nicht vertrauenswürdige Supply Chain zu behandeln: Statt ihre Integrität vorauszusetzen, müssen Architekten Schutzmassnahmen errichten — Ausführungsisolation, geringste Privilegien, Protokollierung —, die auch dann wirksam bleiben, wenn das Modell stromaufwärts korrumpiert wurde. Diese Haltung deckt sich mit Bewegungen, die in der Branche bereits sichtbar sind, etwa der politikbasierten Isolierung von KI-Agenten, wie sie die Microsoft Execution Containers veranschaulichen.",
+        "it": "L'argomento equivale a trattare i modelli come una supply chain non affidabile: invece di supporne l'integrità, gli architetti devono costruire barriere di protezione — isolamento dell'esecuzione, minimo privilegio, registrazione — che restino efficaci anche se il modello è corrotto a monte. Questa postura si avvicina a movimenti già visibili nel settore, come il confinamento tramite policy degli agenti IA illustrato dai Microsoft Execution Containers.",
+        "lmo": "L'argoment el torna a trattà i modej 'me ona supply chain minga fidabel: inves de supponn la soa integritaa, i architett gh'hann de costruí di gardefoeuj — isolament de esecuzion, privilegg minim, registr di operazion — che resten eficass anca se 'l modee l'è corott a monte. 'Sta postura la se uniss a di moviment giamò visibil in de l'industria, 'me 'l confinament per politega di agent IA illustraa di Microsoft Execution Containers."
+      },
+      {
+        "fr": "La discussion a rapidement dépassé la sphère Microsoft : le fil <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> ouvert le 11 octobre 2026 relève l'écart potentiel entre ce discours de prudence et les déploiements effectifs, où les agents reçoivent des privilèges étendus sur les infrastructures de développement.",
+        "en": "The discussion quickly spread beyond Microsoft: the <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> thread opened on October 11, 2026 highlights the potential gap between this rhetoric of caution and actual deployments, where agents are granted broad privileges over development infrastructure.",
+        "de": "Die Diskussion überschritt rasch die Microsoft-Sphäre: Der am 11. Oktober 2026 eröffnete <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a>-Thread weist auf die mögliche Lücke zwischen dieser Vorsichtsrhetorik und den tatsächlichen Deployments hin, bei denen Agenten weitreichende Privilegien auf Entwicklungsinfrastrukturen erhalten.",
+        "it": "La discussione ha rapidamente superato la sfera Microsoft: il thread <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> aperto l'11 ottobre 2026 evidenzia il divario potenziale tra questo discorso di prudenza e i dispiegamenti effettivi, in cui gli agenti ricevono privilegi estesi sulle infrastrutture di sviluppo.",
+        "lmo": "La discusion l'ha subee passaa la sfera de Microsoft: el fil <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> dervii el 11 de ottober 2026 el rileva el deslivell potenzial tra 'sto discors de prudenza e i derviment efettiv, indova che i agent riceven di privilegg slargaa sora i infrastruttur de svilupp."
+      }
+    ],
+    "urls": [
+      "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "https://news.ycombinator.com/item?id=50039627"
+    ],
+    "kicker": {
+      "fr": "Sécurité",
+      "en": "Security",
+      "de": "Sicherheit",
+      "it": "Sicurezza",
+      "lmo": "Sigurezza"
+    },
+    "headline": {
+      "fr": "Satya Nadella invite à présumer tous les modèles d'IA « compromis »",
+      "en": "Satya Nadella urges treating all AI models as \"compromised\"",
+      "de": "Satya Nadella fordert, alle KI-Modelle als «kompromittiert» anzunehmen",
+      "it": "Satya Nadella invita a presumere che tutti i modelli di IA siano «compromessi»",
+      "lmo": "Satya Nadella l'invita a presumm che tucc i modej de IA sien « compromess »"
+    },
+    "subdeck": {
+      "fr": "Le PDG de Microsoft fait de la méfiance par défaut envers les modèles la nouvelle baseline de l'architecture agentique.",
+      "en": "The Microsoft CEO makes default distrust of models the new baseline for agent architecture.",
+      "de": "Der Microsoft-Chef macht das Misstrauen gegenüber Modellen per Voreinstellung zur neuen Baseline der agentischen Architektur.",
+      "it": "Il CEO di Microsoft fa della sfiducia di default verso i modelli la nuova baseline dell'architettura agentica.",
+      "lmo": "El CEO de Microsoft el fa de la sfiducia per defalt invers i modej la noeuva baseline de l'architetura agentica."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Talorys : un agent IA personnel auto-hébergé sur le palier gratuit de Cloudflare",
+        "en": "Talorys: a self-hosted personal AI agent on Cloudflare's free tier",
+        "de": "Talorys: ein selbst gehosteter persönlicher KI-Agent auf der Gratisstufe von Cloudflare",
+        "it": "Talorys: un agente IA personale self-hosted sul piano gratuito di Cloudflare",
+        "lmo": "Talorys: on agent IA personal auto-ostaa sora el nivel gratuit de Cloudflare"
+      },
+      "body": {
+        "fr": "Un agent IA personnel entièrement auto-hébergé, tournant sur le palier gratuit de Cloudflare, a recueilli 270 points et 124 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> depuis sa publication le 10 octobre 2026. Le dépôt <a href=\"https://github.com/rociiu/talorys\">GitHub</a> documente une architecture edge sans serveur dédié.",
+        "en": "A fully self-hosted personal AI agent running on Cloudflare's free tier has drawn 270 points and 124 comments on <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> since its release on October 10, 2026. The <a href=\"https://github.com/rociiu/talorys\">GitHub</a> repository documents an edge architecture with no dedicated server.",
+        "de": "Ein vollständig selbst gehosteter persönlicher KI-Agent, der auf der Gratisstufe von Cloudflare läuft, hat seit seiner Veröffentlichung am 10. Oktober 2026 270 Punkte und 124 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> gesammelt. Das Repository auf <a href=\"https://github.com/rociiu/talorys\">GitHub</a> dokumentiert eine Edge-Architektur ohne dedizierten Server.",
+        "it": "Un agente IA personale interamente self-hosted, in esecuzione sul piano gratuito di Cloudflare, ha raccolto 270 punti e 124 commenti su <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> dalla sua pubblicazione il 10 ottobre 2026. Il repository <a href=\"https://github.com/rociiu/talorys\">GitHub</a> documenta un'architettura edge senza server dedicato.",
+        "lmo": "On agent IA personal del tutt auto-ostaa, che 'l ghe sora el nivel gratuit de Cloudflare, l'ha raccolt 270 pont e 124 coment sora <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> de la soa publicazion el 10 de ottober 2026. El deposit <a href=\"https://github.com/rociiu/talorys\">GitHub</a> el documenta ona architetura edge senza server dedicaa."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Major",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-10",
+        "en": "From the Wires — 2026-10-10",
+        "de": "From the Wires — 2026-10-10",
+        "it": "From the Wires — 2026-10-10",
+        "lmo": "From the Wires — 10-10-2026"
+      }
+    },
+    {
+      "headline": {
+        "fr": "Veda, un « OS hobby agentique » pose la candidature de l'agent comme primitive système",
+        "en": "Veda, an \"agentic hobby OS\" puts forward the agent as a system primitive",
+        "de": "Veda: ein «agentisches Hobby-OS» nominiert den Agenten als Systemprimitive",
+        "it": "Veda, un «OS hobby agentico» propone la candidatura dell'agente come primitiva di sistema",
+        "lmo": "Veda, on « OS hobby agentich » el met la candidadura de l'agent 'me primitiva de sistema"
+      },
+      "body": {
+        "fr": "Le projet « Veda », décrit par son auteur comme le premier système d'exploitation hobby conçu autour d'agents, a été publié le 11 octobre 2026 sur <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> et discuté sur <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> (38 points). Une curiosité d'ingénierie qui interroge la place de l'agent au niveau du système.",
+        "en": "The \"Veda\" project, described by its author as the first hobby operating system designed around agents, was published on October 11, 2026 on <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> and discussed on <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> (38 points). An engineering curiosity that questions the agent's place at the system level.",
+        "de": "Das Projekt «Veda», von seinem Autor als erstes um Agenten herum entworfenes Hobby-Betriebssystem beschrieben, wurde am 11. Oktober 2026 auf <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> veröffentlicht und auf <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> diskutiert (38 Punkte). Eine ingenieurstechnische Kuriosität, die nach dem Ort des Agenten auf Systemebene fragt.",
+        "it": "Il progetto «Veda», descritto dal suo autore come il primo sistema operativo hobby concepito attorno agli agenti, è stato pubblicato l'11 ottobre 2026 su <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> e discusso su <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> (38 punti). Una curiosità ingegneristica che interroga il posto dell'agente a livello di sistema.",
+        "lmo": "El progett « Veda », descrivuu del sò autor 'me el primm sistema operativ hobby concepii intorna ai agent, l'è staa publicaa el 11 de ottober 2026 sora <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> e discutt sora <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> (38 pont). Ona curiositaa de ingegneria che la interroga el sit de l'agent al nivel del sistema."
+      },
+      "tag": {
+        "fr": "Signal",
+        "en": "Signal",
+        "de": "Signal",
+        "it": "Segnale",
+        "lmo": "Segnal"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-11",
+        "en": "From the Wires — 2026-10-11",
+        "de": "From the Wires — 2026-10-11",
+        "it": "From the Wires — 2026-10-11",
+        "lmo": "From the Wires — 11-10-2026"
+      }
+    },
+    {
+      "headline": {
+        "fr": "Construire son propre modèle de décision plutôt que l'acheter",
+        "en": "Building your own decision model rather than buying one",
+        "de": "Das eigene Entscheidungsmodell bauen statt kaufen",
+        "it": "Costruire il proprio modello decisionale invece di comprarlo",
+        "lmo": "Costruí el sò modell de decision inves de cattàll"
+      },
+      "body": {
+        "fr": "Un essai détaillant la construction d'un modèle de décision maison a atteint 176 points sur <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a> le 10 octobre 2026. Le texte, publié sur <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a>, propose d'aligner le raisonnement des modèles sur des critères de décision explicites plutôt que d'acheter des modèles spécialisés.",
+        "en": "An essay detailing the construction of a homemade decision model reached 176 points on <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a> on October 10, 2026. The text, published on <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a>, argues for aligning model reasoning with explicit decision criteria rather than buying specialized models.",
+        "de": "Ein Essay über den Bau eines eigenen Entscheidungsmodells erreichte am 10. Oktober 2026 176 Punkte auf <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a>. Der auf <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> veröffentlichte Text schlägt vor, das Reasoning der Modelle an expliziten Entscheidungskriterien auszurichten, statt spezialisierte Modelle zu kaufen.",
+        "it": "Un saggio che dettaglia la costruzione di un modello decisionale fatto in casa ha raggiunto 176 punti su <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a> il 10 ottobre 2026. Il testo, pubblicato su <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a>, propone di allineare il ragionamento dei modelli a criteri decisionali espliciti anziché comprare modelli specializzati.",
+        "lmo": "On saggi che 'l detaja la costruzion de on modell de decision de cà l'ha rivaa a 176 pont sora <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a> el 10 de ottober 2026. El test, publicaa sora <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a>, el propon de alineà el resonament di modej sora di criteri de decision esplisit invees de cattà foeura di modej specializzaa."
+      },
+      "tag": {
+        "fr": "Notable",
+        "en": "Notable",
+        "de": "Nennenswert",
+        "it": "Notevole",
+        "lmo": "Notabel"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-10",
+        "en": "From the Wires — 2026-10-10",
+        "de": "From the Wires — 2026-10-10",
+        "it": "From the Wires — 2026-10-10",
+        "lmo": "From the Wires — 10-10-2026"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite — Modelle & Frontier",
+        "it": "Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modej & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Sécurité & frontière",
+            "en": "Security & frontier",
+            "de": "Sicherheit & Frontier",
+            "it": "Sicurezza & frontiera",
+            "lmo": "Sigurezza & frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Présumer la compromission : la nouvelle règle d'or de l'agentique",
+                "en": "Assume compromise: the new golden rule of agentics",
+                "de": "Kompromittierung annehmen: die neue Goldene Regel der Agentik",
+                "it": "Presumere la compromissione: la nuova regola d'oro dell'agentica",
+                "lmo": "Presumm la compromission: la noeuva regola d'or de l'agentica"
+              },
+              "body": {
+                "fr": "La déclaration du 11 octobre 2026 de Satya Nadella — « assumons que tous les modèles d'IA sont compromis » — marque un glissement sémantique : la sécurité ne repose plus sur la confiance dans le modèle mais sur la résilience du système qui l'entoure, détaille <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>. Une approche défense-en-profondeur appliquée à l'agentique.",
+                "en": "Satya Nadella's October 11, 2026 statement — \"let's assume all AI models are compromised\" — marks a semantic shift: security no longer rests on trust in the model but on the resilience of the system surrounding it, as <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a> reports. A defense-in-depth approach applied to agentics.",
+                "de": "Satya Nadellas Erklärung vom 11. Oktober 2026 — «gehen wir davon aus, dass alle KI-Modelle kompromittiert sind» — markiert eine semantische Verschiebung: Sicherheit beruht nicht mehr auf Vertrauen ins Modell, sondern auf der Resilienz des umgebenden Systems, wie <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a> darlegt. Ein Defense-in-Depth-Ansatz, angewandt auf Agentik.",
+                "it": "La dichiarazione dell'11 ottobre 2026 di Satya Nadella — «presumiamo che tutti i modelli di IA siano compromessi» — segna uno slittamento semantico: la sicurezza non si fonda più sulla fiducia nel modello, ma sulla resilienza del sistema che lo circonda, dettaglia <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>. Un approccio di difesa in profondità applicato all'agentica.",
+                "lmo": "La declarazion del 11 de ottober 2026 de Satya Nadella — « presumm che tucc i modej de IA sien compromess » — la segna on slizzerament semantegh: la sigurezza la se resta pussee sora la fiducia in del modee ma sora la resilienza del sistema che 'l gh'è intorna, 'l detaja <a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>. On'approcc difesa-in-profonditaa aplicada a l'agentica."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analisi"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais, CLI & Engines",
+        "en": "The Technical Desk — Harnesses, CLIs & Engines",
+        "de": "Das Technik-Resort — Harness, CLI & Engines",
+        "it": "Il Quaderno Tecnico — Harness, CLI & Motori",
+        "lmo": "El Quadern Tecnegh — Harness, CLI & Engines"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & outils",
+            "en": "Harnesses & tooling",
+            "de": "Harness & Werkzeuge",
+            "it": "Harness & strumenti",
+            "lmo": "Harness & strument"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Talorys : un agent personnel auto-hébergé sur le palier gratuit de Cloudflare",
+                "en": "Talorys: a self-hosted personal agent on Cloudflare's free tier",
+                "de": "Talorys: ein selbst gehosteter persönlicher Agent auf der Gratisstufe von Cloudflare",
+                "it": "Talorys: un agente personale self-hosted sul piano gratuito di Cloudflare",
+                "lmo": "Talorys: on agent personal auto-ostaa sora el nivel gratuit de Cloudflare"
+              },
+              "body": {
+                "fr": "Publié sur <a href=\"https://github.com/rociiu/talorys\">GitHub</a> le 10 octobre 2026, Talorys est un agent IA personnel auto-hébergé conçu pour tourner entièrement sur le palier gratuit de Cloudflare — Workers, KV, D1. Le projet a recueilli 270 points et 124 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a>, la communauté s'interrogeant sur la soutenabilité du modèle économique edge pour des charges conversationnelles.",
+                "en": "Published on <a href=\"https://github.com/rociiu/talorys\">GitHub</a> on October 10, 2026, Talorys is a self-hosted personal AI agent designed to run entirely on Cloudflare's free tier — Workers, KV, D1. The project garnered 270 points and 124 comments on <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a>, with the community questioning the sustainability of the edge economic model for conversational workloads.",
+                "de": "Am 10. Oktober 2026 auf <a href=\"https://github.com/rociiu/talorys\">GitHub</a> veröffentlicht, ist Talorys ein selbst gehosteter persönlicher KI-Agent, der vollständig auf der Gratisstufe von Cloudflare laufen soll — Workers, KV, D1. Das Projekt erhielt 270 Punkte und 124 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a>; die Community fragt sich, ob das Edge-Geschäftsmodell für konversationelle Lasten tragfähig ist.",
+                "it": "Pubblicato su <a href=\"https://github.com/rociiu/talorys\">GitHub</a> il 10 ottobre 2026, Talorys è un agente IA personale self-hosted concepito per girare interamente sul piano gratuito di Cloudflare — Workers, KV, D1. Il progetto ha raccolto 270 punti e 124 commenti su <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a>, con la comunità che si interroga sulla sostenibilità del modello economico edge per carichi conversazionali.",
+                "lmo": "Publicaa sora <a href=\"https://github.com/rociiu/talorys\">GitHub</a> el 10 de ottober 2026, Talorys l'è on agent IA personal auto-ostaa concepii per girà del tutt sora el nivel gratuit de Cloudflare — Workers, KV, D1. El progett l'ha raccogliuu 270 pont e 124 coment sora <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a>, e la comunitaa la se domanda se 'l modell economegh edge el sia sostenibel per di carigh conversazionai."
+              },
+              "kicker": {
+                "fr": "Auto-hébergement",
+                "en": "Self-hosting",
+                "de": "Self-Hosting",
+                "it": "Self-hosting",
+                "lmo": "Auto-ostament"
+              },
+              "urls": [
+                "https://github.com/rociiu/talorys",
+                "https://news.ycombinator.com/item?id=50031614"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Build your own decision model » : construire son modèle de décision plutôt que l'acheter",
+                "en": "\"Build your own decision model\": building rather than buying your decision model",
+                "de": "«Build your own decision model»: das eigene Entscheidungsmodell bauen statt kaufen",
+                "it": "«Build your own decision model»: costruire il proprio modello decisionale invece di comprarlo",
+                "lmo": "« Build your own decision model » : costruí el sò modell de decision inves de cattàll"
+              },
+              "body": {
+                "fr": "L'essai publié le 10 octobre 2026 sur <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> détaille la construction d'un modèle de décision maison — l'alignement du raisonnement avec des critères explicites plutôt qu'un simple appel à un LLM. Avec 176 points sur <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a>, il alimente un débat récurrent : faut-il acheter des modèles de décision ou les écrire soi-même ?",
+                "en": "The essay published on October 10, 2026 on <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> details the construction of a homemade decision model — aligning reasoning with explicit criteria rather than a simple call to an LLM. With 176 points on <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a>, it fuels a recurring debate: should you buy decision models or write them yourself?",
+                "de": "Der am 10. Oktober 2026 auf <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> veröffentlichte Essay beschreibt den Bau eines eigenen Entscheidungsmodells — die Ausrichtung des Modellreasonings auf explizite Kriterien statt eines blossen LLM-Aufrufs. Mit 176 Punkten auf <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a> befeuert er eine wiederkehrende Debatte: Sollte man Entscheidungsmodelle kaufen oder selbst schreiben?",
+                "it": "Il saggio pubblicato il 10 ottobre 2026 su <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> dettaglia la costruzione di un modello decisionale fatto in casa — l'allineamento del ragionamento con criteri espliciti anziché un semplice appello a un LLM. Con 176 punti su <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a>, alimenta un dibattito ricorrente: conviene comprare modelli decisionali o scriverli da soli?",
+                "lmo": "El saggi publicaa el 10 de ottober 2026 sora <a href=\"https://nishtahir.com/build-your-own-decision-model/\">nishtahir.com</a> el detaja la costruzion de on modell de decision de cà — l'alignament del resonament con di criteri esplisit inves de 'na sempliga ciamada a on LLM. Cont 270 pont e 176 pont sora <a href=\"https://news.ycombinator.com/item?id=50037949\">Hacker News</a>, el nutriss on dibattit recorrent: gh'è de cattà foeura di modej de decision o de scrivej per ligura?"
+              },
+              "kicker": {
+                "fr": "Méthode",
+                "en": "Method",
+                "de": "Methodik",
+                "it": "Metodo",
+                "lmo": "Metoda"
+              },
+              "urls": [
+                "https://nishtahir.com/build-your-own-decision-model/",
+                "https://news.ycombinator.com/item?id=50037949"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Veda : un « OS hobby agentique » où l'agent remplace l'application",
+                "en": "Veda: an \"agentic hobby OS\" where the agent replaces the application",
+                "de": "Veda: ein «agentisches Hobby-OS», in dem der Agent die Anwendung ersetzt",
+                "it": "Veda: un «OS hobby agentico» in cui l'agente sostituisce l'applicazione",
+                "lmo": "Veda: on « OS hobby agentich » indova che l'agent el sostituiss l'aplicazion"
+              },
+              "body": {
+                "fr": "Publié le 11 octobre 2026 sur <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a>, Veda se présente comme un premier système d'exploitation « hobby » conçu autour d'agents : l'agent comme primitive système plutôt que comme application. Le projet, discuté sur <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a>, reste expérimental mais illustre la migration du concept d'agent vers les couches basses du logiciel.",
+                "en": "Published on October 11, 2026 on <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a>, Veda presents itself as a first \"hobby\" operating system designed around agents: the agent as a system primitive rather than an application. The project, discussed on <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a>, remains experimental but illustrates the migration of the agent concept toward the lower layers of software.",
+                "de": "Am 11. Oktober 2026 auf <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a> veröffentlicht, gibt sich Veda als erstes «Hobby»-Betriebssystem, das um Agenten herum entworfen wurde: der Agent als Systemprimitive statt als Anwendung. Das auf <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a> diskutierte Projekt bleibt experimentell, illustriert aber die Wanderung des Agentenkonzepts in die unteren Schichten der Software.",
+                "it": "Pubblicato l'11 ottobre 2026 su <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a>, Veda si presenta come un primo sistema operativo «hobby» concepito attorno agli agenti: l'agente come primitiva di sistema anziché come applicazione. Il progetto, discusso su <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a>, resta sperimentale ma illustra la migrazione del concetto di agente verso gli strati bassi del software.",
+                "lmo": "Publicaa el 11 de ottober 2026 sora <a href=\"https://github.com/vahmoh25/Veda\">GitHub</a>, Veda el se presenta 'me el primm sistema operativ « hobby » concepii intorna ai agent: l'agent 'me primitiva de sistema invees che 'me aplicazion. El progett, discutt sora <a href=\"https://news.ycombinator.com/item?id=50038473\">Hacker News</a>, el resta sperimental ma 'l illustra la migracion del concett de agent invers i strat bass del software."
+              },
+              "kicker": {
+                "fr": "Expérimental",
+                "en": "Experimental",
+                "de": "Experimentell",
+                "it": "Sperimentale",
+                "lmo": "Sperimental"
+              },
+              "urls": [
+                "https://github.com/vahmoh25/Veda",
+                "https://news.ycombinator.com/item?id=50038473"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & Labos",
+        "en": "Research — Papers & Labs",
+        "de": "Die Forschung — Papers & Labore",
+        "it": "La Ricerca — Paper & Laboratori",
+        "lmo": "La Ricerca — Papers & Labos"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Découverte & hardware",
+            "en": "Discovery & hardware",
+            "de": "Entdeckungen & Hardware",
+            "it": "Scoperta & hardware",
+            "lmo": "Scoperta & hardware"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "The Lightbulb Computer : repenser la machine sous le modèle",
+                "en": "The Lightbulb Computer: rethinking the machine beneath the model",
+                "de": "The Lightbulb Computer: die Maschine unter dem Modell neu denken",
+                "it": "The Lightbulb Computer: ripensare la macchina sotto il modello",
+                "lmo": "The Lightbulb Computer : ripensà la macchina sotta el modell"
+              },
+              "body": {
+                "fr": "« The Lightbulb Computer », publié le 10 octobre 2026 sur <a href=\"https://lightbulbcomputer.com/\">son site dédié</a> et arrivé en tête des discussions techniques de <a href=\"https://news.ycombinator.com/item?id=50029487\">Hacker News</a> (316 points, 46 commentaires), explore une architecture de calcul radicalement alternative. Le projet pose la question des primitives non-conventionnelles — calcul optique, analogique, matériel émergent — alors même que l'industrie concentre ses efforts sur des accélérateurs homogènes.",
+                "en": "\"The Lightbulb Computer,\" published on October 10, 2026 on <a href=\"https://lightbulbcomputer.com/\">its dedicated site</a> and topping <a href=\"https://news.ycombinator.com/item?id=50029487\">Hacker News</a> technical discussions (316 points, 46 comments), explores a radically alternative computing architecture. The project raises the question of unconventional primitives — optical, analog, emerging hardware — at a time when the industry is concentrating its efforts on homogeneous accelerators.",
+                "de": "«The Lightbulb Computer», am 10. Oktober 2026 auf <a href=\"https://lightbulbcomputer.com/\">seiner eigenen Website</a> veröffentlicht und mit 316 Punkten und 46 Kommentaren an der Spitze der technischen Diskussionen auf <a href=\"https://news.ycombinator.com/item?id=50029487\">Hacker News</a>, erkundet eine radikal alternative Rechenarchitektur. Das Projekt stellt die Frage nach unkonventionellen Primitiven — optisches, analoges Rechnen, emergente Hardware —, während die Industrie ihre Anstrengungen auf homogene Beschleuniger konzentriert.",
+                "it": "«The Lightbulb Computer», pubblicato il 10 ottobre 2026 sul <a href=\"https://lightbulbcomputer.com/\">proprio sito dedicato</a> e arrivato in testa alle discussioni tecniche di <a href=\"https://news.ycombinator.com/item?id=50029487\">Hacker News</a> (316 punti, 46 commenti), esplora un'architettura di calcolo radicalmente alternativa. Il progetto pone la questione delle primitive non convenzionali — calcolo ottico, analogico, hardware emergente — proprio mentre l'industria concentra i propri sforzi su acceleratori omogenei.",
+                "lmo": "« The Lightbulb Computer », publicaa el 10 de ottober 2026 sora <a href=\"https://lightbulbcomputer.com/\">el sò sit dedicaa</a> e rivaa in coo di discusion tecnegh de <a href=\"https://news.ycombinator.com/item?id=50029487\">Hacker News</a> (316 pont, 46 coment), el esplora ona architetura de calcol radicalment alternativa. El progett el met la domanda di primitiv minga convenzionai — calcol otegh, analogegh, material emergent — propi quand che l'industria la concentra i sò sforz sora di acelerador omogenei."
+              },
+              "kicker": {
+                "fr": "Hardware",
+                "en": "Hardware",
+                "de": "Hardware",
+                "it": "Hardware",
+                "lmo": "Hardware"
+              },
+              "urls": [
+                "https://lightbulbcomputer.com/",
+                "https://news.ycombinator.com/item?id=50029487"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires & édito",
+            "en": "Community signals & editorial",
+            "de": "Community-Signale & Leitartikel",
+            "it": "Segnali comunitari & editoriale",
+            "lmo": "Segnai de comunitaa & editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La communauté dissèque le « zero trust » appliqué aux modèles",
+                "en": "The community dissects \"zero trust\" applied to models",
+                "de": "Die Community seziert den auf Modelle angewandten «Zero Trust»",
+                "it": "La comunità disseziona lo «zero trust» applicato ai modelli",
+                "lmo": "La comunitaa la disseca el « zero trust » aplicaa ai modej"
+              },
+              "body": {
+                "fr": "Le fil <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> ouvert le 11 octobre 2026 sur la déclaration de Satya Nadella (28 points en quelques heures) croise trois lectures : validation des architectes zero-trust, scepticisme sur l'écart entre discours et déploiements Microsoft, et appel à des standards ouverts d'attestation des modèles.",
+                "en": "The <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> thread opened on October 11, 2026 on Satya Nadella's statement (28 points within hours) intersects three readings: validation from zero-trust architects, skepticism about the gap between rhetoric and Microsoft deployments, and a call for open standards for model attestation.",
+                "de": "Der am 11. Oktober 2026 eröffnete <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a>-Thread zu Satya Nadellas Erklärung (28 Punkte innert weniger Stunden) kreuzt drei Lesarten: Zustimmung der Zero-Trust-Architekten, Skepsis gegenüber der Lücke zwischen Rhetorik und Microsoft-Deployments sowie der Ruf nach offenen Standards für Modellattestierung.",
+                "it": "Il thread <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> aperto l'11 ottobre 2026 sulla dichiarazione di Satya Nadella (28 punti in poche ore) incrocia tre letture: la validazione degli architetti zero-trust, lo scetticismo sul divario tra discorsi e dispiegamenti Microsoft, e l'appello a standard aperti di attestazione dei modelli.",
+                "lmo": "El fil <a href=\"https://news.ycombinator.com/item?id=50039627\">Hacker News</a> dervii el 11 de ottober 2026 sora la declarazion de Satya Nadella (28 pont in quij or chì) el traversa trii letur: validazion di architett zero-trust, sceticism sora el deslivell tra discors e derviment Microsoft, e appel a di standard dervii de attestazion di modej."
+              },
+              "kicker": {
+                "fr": "Signaux",
+                "en": "Signals",
+                "de": "Signale",
+                "it": "Segnali",
+                "lmo": "Segnai"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50039627"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Talorys : le palier gratuit de Cloudflare comme terrain de jeu des agents",
+                "en": "Talorys: Cloudflare's free tier as a playground for agents",
+                "de": "Talorys: die Gratisstufe von Cloudflare als Tummelplatz für Agenten",
+                "it": "Talorys: il piano gratuito di Cloudflare come terreno di gioco degli agenti",
+                "lmo": "Talorys: el nivel gratuit de Cloudflare 'me terren de gioeugh di agent"
+              },
+              "body": {
+                "fr": "Les 124 commentaires de <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> sur Talorys convergent sur un point : le palier gratuit de Cloudflare rend l'agent personnel pérenne viable, sous réserve de maîtriser les limites de CPU et de sous-requêtes — une feuille de route pour les bricoleurs du dimanche, publiée le 10 octobre 2026 sur <a href=\"https://github.com/rociiu/talorys\">GitHub</a>.",
+                "en": "The 124 comments on <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> about Talorys converge on one point: Cloudflare's free tier makes a sustainable personal agent viable, provided one masters the CPU and subrequest limits — a roadmap for weekend tinkerers, published on October 10, 2026 on <a href=\"https://github.com/rociiu/talorys\">GitHub</a>.",
+                "de": "Die 124 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> zu Talorys konvergieren in einem Punkt: Die Gratisstufe von Cloudflare macht den dauerhaft betreibbaren persönlichen Agenten realisierbar — sofern man die Grenzen bei CPU und Subrequests beherrscht. Eine Fahrplanlektüre für Hobbybastler, veröffentlicht am 10. Oktober 2026 auf <a href=\"https://github.com/rociiu/talorys\">GitHub</a>.",
+                "it": "I 124 commenti su <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> riguardo a Talorys convergono su un punto: il piano gratuito di Cloudflare rende viable un agente personale durevole, a condizione di padroneggiare i limiti di CPU e di sotto-richieste — una roadmap per i smanettoni della domenica, pubblicata il 10 ottobre 2026 su <a href=\"https://github.com/rociiu/talorys\">GitHub</a>.",
+                "lmo": "I 124 coment de <a href=\"https://news.ycombinator.com/item?id=50031614\">Hacker News</a> sora Talorys i van d'accordi sora on pont: el nivel gratuit de Cloudflare el rend viable l'agent personal peren, condizion che se padronizza i limit de CPU e de sotta-ciamad — ona foeuja de via per i bricoleur de la domenega, publicada el 10 de ottober 2026 sora <a href=\"https://github.com/rociiu/talorys\">GitHub</a>."
+              },
+              "kicker": {
+                "fr": "Signaux",
+                "en": "Signals",
+                "de": "Signale",
+                "it": "Segnali",
+                "lmo": "Segnai"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50031614",
+                "https://github.com/rociiu/talorys"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — Faire de la méfiance une architecture",
+                "en": "Editorial — Making distrust an architecture",
+                "de": "Leitartikel — Das Misstrauen zur Architektur machen",
+                "it": "Editoriale — Fare della sfiducia un'architettura",
+                "lmo": "Editorial — Fà de la sfiducia ona architetura"
+              },
+              "body": {
+                "fr": "Samedi 11 octobre 2026, l'actualité frontière est restée discrète — et c'est précisément la déclaration de Satya Nadella qui a occupé l'espace : « assumons que tous les modèles sont compromis » (<a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>). Cette maxime ne doit pas rester une formule. Elle exige trois traductions concrètes : l'isolation systématique des agents (le pari des conteneurs à politique), l'attestation vérifiable des modèles distribués, et la traçabilité des « skills » et artefacts que les agents copient sans registre. Le reste de la journée — des agents qui décompilent un jeu pour 500 milliards de tokens, un OS agentique de garage, un agent hébergé gratuitement à l'edge — dessine le même paradoxe : plus les agents deviennent autonomes, plus la confiance devient une question d'architecture, jamais de modèle. C'est une bonne nouvelle pour les ingénieurs : la sécurité redevient leur métier.",
+                "en": "Saturday, October 11, 2026 — frontier news stayed quiet, and it is precisely Satya Nadella's statement that filled the space: \"let's assume all models are compromised\" (<a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>). This maxim must not remain a slogan. It demands three concrete translations: systematic isolation of agents (the bet of policy-governed containers), verifiable attestation of distributed models, and traceability of the \"skills\" and artifacts that agents copy without a registry. The rest of the day — agents decompiling a game for 500 billion tokens, a garage-built agentic OS, a free edge-hosted agent — sketches the same paradox: the more autonomous agents become, the more trust becomes a question of architecture, never of the model. That is good news for engineers: security is their job once again.",
+                "de": "Am Samstag, 11. Oktober 2026, blieb die Frontier-Nachricht diskret — und gerade deshalb besetzte Satya Nadellas Erklärung den Raum: «gehen wir davon aus, dass alle Modelle kompromittiert sind» (<a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>). Diese Maxime darf keine Formel bleiben. Sie verlangt drei konkrete Übersetzungen: die systematische Isolation von Agenten (das Wagnis der politikbasierten Container), die überprüfbare Attestierung verteilten Modelle sowie die Rückverfolgbarkeit der «Skills» und Artefakte, die Agenten ohne Register kopieren. Der Rest des Tages — Agenten, die für 500 Milliarden Tokens ein Spiel dekompilieren, ein Garagen-OS für Agenten, ein gratis an der Edge gehosteter Agent — zeichnet dasselbe Paradox: Je autonomer Agenten werden, desto mehr wird Vertrauen eine Frage der Architektur, nie des Modells. Für Ingenieure ist das eine gute Nachricht: Sicherheit wird wieder zu ihrem Handwerk.",
+                "it": "Sabato 11 ottobre 2026, l'attualità di frontiera è rimasta discreta — ed è proprio la dichiarazione di Satya Nadella a occupare lo spazio: «presumiamo che tutti i modelli siano compromessi» (<a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>). Questa massima non deve restare una formula. Esige tre traduzioni concrete: l'isolamento sistematico degli agenti (la scommessa dei container a policy), l'attestazione verificabile dei modelli distribuiti e la tracciabilità delle «skills» e degli artefatti che gli agenti copiano senza registro. Il resto della giornata — agenti che decompilano un videogioco per 500 miliardi di token, un OS agentico da garage, un agente ospitato gratuitamente all'edge — disegna il medesimo paradosso: più gli agenti diventano autonomi, più la fiducia diventa una questione di architettura, mai di modello. È una buona notizia per gli ingegneri: la sicurezza torna a essere il loro mestiere.",
+                "lmo": "Saboledì, 11 de ottober 2026, l'actualitaa frontiera l'è restada discreta — e l'è propi la declarazion de Satya Nadella che l'ha occupaa el spazzi: « presumm che tucc i modej sien compromess » (<a href=\"https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised\">The Verge</a>). 'Sta massima la gh'ha de minga restà ona formula. La esegg trii traduzion concrett: l'isolament sistematich di agent (la scomessa di contenitor a politega), l'attestazion verificabel di modej distribuì e la traciabilitaa di « skill » e artefatt che i agent i copien senza register. El rest del dì — di agent che decompilen on gioeugh per 500 miliard de token, on OS agentich de garage, on agent ostaa a gratis a l'edge — el dessegna el midemm paradoss: quand che i agent i diventen pussee autonom, la fiducia la deven on problema de architetura, mai de modee. L'è ona bona notizia per i ingegnee: la sigurezza la torna el sò mestee."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    }
+  ]
+}
