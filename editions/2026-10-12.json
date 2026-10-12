@@ -1,0 +1,669 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-12",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Dans une publication largement relayée le 11 octobre 2026, Andrej Karpathy estime que l'écart entre ce que les grands modèles de langage savent réellement faire et ce que le public — y compris les développeurs — croit qu'ils font ne cesse de se creuser. Sa thèse, discutée dans une <a href=\"https://news.ycombinator.com/item?id=50047422\">conversation Hacker News</a> forte de 510 commentaires et 337 points en quelques heures, pointe la vitesse de publication des modèles comme cause principale de cette dérive collective.",
+        "en": "In a widely shared post on 11 October 2026, Andrej Karpathy argues that the gap between what large language models can actually do and what the public — developers included — believes they can do keeps widening. His thesis, discussed in a <a href=\"https://news.ycombinator.com/item?id=50047422\">Hacker News conversation</a> that drew 510 comments and 337 points within hours, points to the pace of model releases as the main driver of this collective drift.",
+        "de": "In einer am 11. Oktober 2026 breit rezipierten Publikation argumentiert Andrej Karpathy, dass die Kluft zwischen dem, was grosse Sprachmodelle tatsächlich können, und dem, was die Öffentlichkeit – Entwickler eingeschlossen – glaubt, dass sie können, stetig weiter auffächert. Seine These, erörtert in einer <a href=\"https://news.ycombinator.com/item?id=50047422\">Hacker-News-Diskussion</a> mit 510 Kommentaren und 337 Punkten innert weniger Stunden, benennt die Publikationsgeschwindigkeit der Modelle als Hauptursache dieser kollektiven Drift.",
+        "it": "In una pubblicazione ampiamente ripresa l'11 ottobre 2026, Andrej Karpathy ritiene che il divario tra ciò che i grandi modelli linguistici sanno realmente fare e ciò che il pubblico — sviluppatori compresi — crede che facciano continui ad allargarsi. La sua tesi, discussa in una <a href=\"https://news.ycombinator.com/item?id=50047422\">conversazione su Hacker News</a> con 510 commenti e 337 punti in poche ore, individua nella velocità di pubblicazione dei modelli la causa principale di questa deriva collettiva.",
+        "lmo": "In ona pubblicazion spantiegada ampiament el 11 de ottober 2026, Andrej Karpathy el dis che l'eccezz intra quell che i grand modell de lengoeu i sa fà realmente e quell che la gent — anca i svilupador — la creen che i faghen, la se slargia semper de puu. La soa tesi, discutida in ona <a href=\"https://news.ycombinator.com/item?id=50047422\">conversazion Hacker News</a> con 510 commenti e 337 pont in poch or, la mena a la velocità de pubblicazion dii modell come causa principal de 'sto strapp collettiv."
+      },
+      {
+        "fr": "L'ancien directeur de l'IA chez Tesla et Tesla expose un problème d'infrastructure cognitive : aucun benchmark partagé ne permet aujourd'hui de suivre la frontière réelle des capacités, tandis que chaque laboratoire communique sur ses propres métriques. La discussion du 11 octobre montre une communauté technique divisée entre ceux qui constatent le même décrochage dans leurs usages quotidiens et ceux qui y voient un artefact de communication.",
+        "en": "The former director of AI at Tesla and OpenAI lays out a cognitive-infrastructure problem: no shared benchmark currently tracks the real capability frontier, while each lab communicates on its own metrics. The 11 October discussion shows a technical community split between those who report the same disconnect in their daily use and those who see it as a communications artefact.",
+        "de": "Der frühere KI-Direktor bei Tesla und OpenAI zeichnet ein Problem kognitiver Infrastruktur: Es existiert heute kein gemeinsamer Benchmark, der es erlauben würde, die tatsächliche Fähigkeitsgrenze nachzuzeichnen, während jedes Laboratorium über seine eigenen Metriken kommuniziert. Die Diskussion vom 11. Oktober offenbart eine technisch gespaltene Community: die einen stellen denselben Bruch in ihrer täglichen Praxis fest, die anderen sehen darin bloss ein Kommunikationsartefakt.",
+        "it": "L'ex direttore dell'IA presso Tesla e OpenAI espone un problema di infrastruttura cognitiva: oggi nessun benchmark condiviso permette di seguire la frontiera reale delle capacità, mentre ogni laboratorio comunica sulle proprie metriche. La discussione dell'11 ottobre mostra una comunità tecnica divisa tra chi riscontra lo stesso scollamento nei propri usi quotidiani e chi vi vede un artefatto di comunicazione.",
+        "lmo": "L'ex director de l'IA in de la Tesla e OpenAI el espon on problema d'infrastrutura cognitiva : al dì d'incö gh'è nissun benchmark condividuu che 'l permetta de seguì la frontiera reala dii capacità, intant che ogne laboratori el comunega sora i so pròppi metric. La discuss del 11 de ottober la mostra ona comunità tecnica dividuda intra chi che i videm el stess decollagg in dii usagg quotidian e chi che 'l vedem on artefatt de comunicazion."
+      },
+      {
+        "fr": "Le propos tombe au moment où les arènes auto-générées gagnent du terrain : le paper SWE-Duel, soumis le 12 octobre, propose précisément des benchmarks dont les tâches sont créées au moment de l'évaluation pour éviter toute fuite dans les données d'entraînement — indice que la question posée par Karpathy commence à trouver des réponses méthodologiques. Le message original est consultable sur <a href=\"https://twitter.com/karpathy/status/2109361546505966046\">le compte X de Karpathy</a>.",
+        "en": "The intervention comes as self-generating arenas gain ground: the SWE-Duel paper, submitted on 12 October, proposes exactly such benchmarks, with tasks created at evaluation time to prevent any leakage into training data — a sign that the question Karpathy raises is beginning to find methodological answers. The original post is available on <a href=\"https://twitter.com/karpathy/status/2109361546505966046\">Karpathy's X account</a>.",
+        "de": "Die Aussage fällt in einen Moment, in dem selbstgenerierende Arenen an Boden gewinnen: Das Paper SWE-Duel, eingereicht am 12. Oktober, schlägt genau Benchmarks vor, deren Aufgaben erst zum Zeitpunkt der Evaluation erstellt werden, um jede Leakage in die Trainingsdaten zu verhindern – ein Hinweis darauf, dass die von Karpathy aufgeworfene Frage erste methodologische Antworten findet. Die Originalmeldung ist auf <a href=\"https://twitter.com/karpathy/status/2109361546505966046\">Karpathys X-Konto</a> abrufbar.",
+        "it": "Le parole arrivano nel momento in cui le arene auto-generate guadagnano terreno: il paper SWE-Duel, sottoposto il 12 ottobre, propone proprio dei benchmark i cui compiti vengono creati al momento della valutazione per evitare qualsiasi dispersione nei dati di addestramento — un indizio che la questione posta da Karpathy comincia a trovare risposte metodologiche. Il messaggio originale è consultabile sul <a href=\"https://twitter.com/karpathy/status/2109361546505966046\">conto X di Karpathy</a>.",
+        "lmo": "El messagg el riva al moment indoa i arena auto-generaa i vann inans : el paper SWE-Duel, consegnàa el 12 de ottober, el propon propi dii benchmark che i so ròbb i hinn creaa al moment de la valutazion per evità ogni fuga in dii dat d'adestrament — on segn che la quesiton postada de Karpathy la scomincia a trovà dii rispost metodologegh. El messagg original el se legg in sora <a href=\"https://twitter.com/karpathy/status/2109361546505966046\">el cont X de Karpathy</a>."
+      }
+    ],
+    "urls": [
+      "https://twitter.com/karpathy/status/2109361546505966046",
+      "https://news.ycombinator.com/item?id=50047422"
+    ],
+    "kicker": {
+      "fr": "Frontière",
+      "en": "Frontier",
+      "de": "Grenze",
+      "it": "Frontiera",
+      "lmo": "Frontiera"
+    },
+    "headline": {
+      "fr": "Karpathy alerte : le fossé de compréhension des capacités des LLM se creuse",
+      "en": "Karpathy warns: the gap in understanding what LLMs can do is widening",
+      "de": "Karpathy warnt: Das Verständnisgefälle bei den Fähigkeiten von LLMs klafft immer weiter auf",
+      "it": "Karpathy avverte: il divario di comprensione delle capacità dei LLM si sta allargando",
+      "lmo": "Karpathy el da l'allarma : el fossad de comprension dii capacità dii LLM el se slargia semper de puu"
+    },
+    "subdeck": {
+      "fr": "La compréhension partagée de ce que savent faire les modèles diverge de plus en plus vite de leurs capacités réelles, alerte l'ancien de Tesla et OpenAI — et la discussion fait 510 commentaires sur Hacker News.",
+      "en": "The shared understanding of what models can do is diverging ever faster from their actual capabilities, warns the former Tesla and OpenAI researcher — and the discussion has drawn 510 comments on Hacker News.",
+      "de": "Das geteilte Verständnis dessen, was Modelle zu leisten vermögen, entfernt sich immer schneller von ihren tatsächlichen Fähigkeiten, warnt der frühere Tesla- und OpenAI-Mann – und die Diskussion zählt 510 Kommentare auf Hacker News.",
+      "it": "La comprensione condivisa di ciò che i modelli sanno fare diverge sempre più velocemente dalle loro capacità reali, avverte l'ex di Tesla e OpenAI — e la discussione conta 510 commenti su Hacker News.",
+      "lmo": "La comprension condividuda de quell che i modell i sa fà la divergiss semper puu in pressa daii so capacità reali, el dis l'ex de la Tesla e OpenAI — e la discuss la fa 510 commenti in sora Hacker News."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Sakana AI : l'auto-amélioration récursive par intelligence collective",
+        "en": "Sakana AI: recursive self-improvement through collective intelligence",
+        "de": "Sakana AI: rekursive Selbstverbesserung durch kollektive Intelligenz",
+        "it": "Sakana AI: l'auto-miglioramento ricorsivo tramite intelligenza collettiva",
+        "lmo": "Sakana AI : l'auto-migliorament recursiv per intelligenza collettiva"
+      },
+      "body": {
+        "fr": "Sakana AI publie le 11 octobre un travail sur l'auto-amélioration récursive par intelligence collective, où des populations d'agents s'améliorent mutuellement plutôt qu'individuellement. L'annonce a recueilli 85 points et 44 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a> en quelques heures ; la publication est consultable sur <a href=\"https://pub.sakana.ai/mass/\">pub.sakana.ai</a>.",
+        "en": "Sakana AI published work on 11 October on recursive self-improvement through collective intelligence, in which populations of agents improve each other rather than individually. The announcement drew 85 points and 44 comments on <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a> within hours; the publication is available at <a href=\"https://pub.sakana.ai/mass/\">pub.sakana.ai</a>.",
+        "de": "Sakana AI publiziert am 11. Oktober eine Arbeit zur rekursiven Selbstverbesserung durch kollektive Intelligenz, bei der sich Populationen von Agenten gegenseitig statt individuell verbessern. Die Ankündigung kam innert weniger Stunden auf 85 Punkte und 44 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>; die Publikation ist auf <a href=\"https://pub.sakana.ai/mass/\">pub.sakana.ai</a> abrufbar.",
+        "it": "Sakana AI pubblica l'11 ottobre un lavoro sull'auto-miglioramento ricorsivo tramite intelligenza collettiva, in cui popolazioni di agenti si migliorano a vicenda anziché individualmente. L'annuncio ha raccolto 85 punti e 44 commenti su <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a> in poche ore; la pubblicazione è consultabile su <a href=\"https://pub.sakana.ai/mass/\">pub.sakana.ai</a>.",
+        "lmo": "Sakana AI la publica el 11 de ottober on laurà in sora l'auto-migliorament recursiv per intelligenza collettiva, indoa deii popolazion de agent i se miglioren insemma invecch de per cunt loor. L'anunz l'ha ciapàa 85 pont e 44 commenti in sora <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a> in poch or ; la pubblicazion la se legg in sora <a href=\"https://pub.sakana.ai/mass/\">pub.sakana.ai</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Schwerpunkt",
+        "it": "Maggiore",
+        "lmo": "Majôr"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-12",
+        "en": "From the Wires — 2026-10-12",
+        "de": "From the Wires — 2026-10-12",
+        "it": "From the Wires — 12-10-2026",
+        "lmo": "From the Wires — 2026-10-12"
+      },
+      "urls": [
+        "https://pub.sakana.ai/mass/",
+        "https://news.ycombinator.com/item?id=50048522"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "VisionWeave économise 43 % de tokens visuels sans perdre la performance",
+        "en": "VisionWeave saves 43% of visual tokens without losing performance",
+        "de": "VisionWeave spart 43 % visuelle Tokens ein, ohne an Leistung zu verlieren",
+        "it": "VisionWeave risparmia il 43% di token visivi senza perdere prestazioni",
+        "lmo": "VisionWeave el risparmia el 43 % de token visiv sença perd la prestazion"
+      },
+      "body": {
+        "fr": "Une équipe Qwen publie VisionWeave, capable d'économiser 43,0 % de tokens visuels en moyenne tout en conservant 98,9 % de la performance sur huit benchmarks ; sur SGLang, le débit grimpe de ×2,3 avec un TTFT réduit de 54,4 %. Le paper, tête du classement HF Daily Papers du 12 octobre avec 21 upvotes, est disponible sur <a href=\"https://arxiv.org/abs/2610.07987\">arXiv</a>.",
+        "en": "A Qwen team publishes VisionWeave, which saves an average of 43.0% of visual tokens while retaining 98.9% of performance across eight benchmarks; on SGLang, throughput rises 2.3× with TTFT cut by 54.4%. The paper, top of the 12 October HF Daily Papers ranking with 21 upvotes, is available on <a href=\"https://arxiv.org/abs/2610.07987\">arXiv</a>.",
+        "de": "Ein Team von Qwen publiziert VisionWeave, das im Durchschnitt 43,0 % visuelle Tokens einspart und dabei 98,9 % der Leistung auf acht Benchmarks hält; auf SGLang steigt der Durchsatz auf ×2,3 bei um 54,4 % reduziertem TTFT. Das Paper, Spitzenreiter der HF Daily Papers vom 12. Oktober mit 21 Upvotes, ist auf <a href=\"https://arxiv.org/abs/2610.07987\">arXiv</a> verfügbar.",
+        "it": "Un team Qwen pubblica VisionWeave, capace di risparmiare il 43,0% di token visivi in media conservando il 98,9% delle prestazioni su otto benchmark; su SGLang, il throughput sale di ×2,3 con un TTFT ridotto del 54,4%. Il paper, in testa alla classifica HF Daily Papers del 12 ottobre con 21 upvote, è disponibile su <a href=\"https://arxiv.org/abs/2610.07987\">arXiv</a>.",
+        "lmo": "On squadra Qwen la publica VisionWeave, bon de risparmià el 43,0 % de token visiv in media intant che la conserva el 98,9 % de la prestazion in sora ott benchmark ; in sora SGLang, el debit el monta de ×2,3 cont on TTFT ridott del 54,4 %. El paper, primm in del clasific HF Daily Papers del 12 de ottober cont 21 upvotes, l'è disponibill in sora <a href=\"https://arxiv.org/abs/2610.07987\">arXiv</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-12",
+        "en": "From the Wires — 2026-10-12",
+        "de": "From the Wires — 2026-10-12",
+        "it": "From the Wires — 12-10-2026",
+        "lmo": "From the Wires — 2026-10-12"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2610.07987"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "SWE-Duel : une arène où les agents de code s'évaluent mutuellement",
+        "en": "SWE-Duel: an arena where code agents evaluate each other",
+        "de": "SWE-Duel: eine Arena, in der Code-Agenten sich gegenseitig evaluieren",
+        "it": "SWE-Duel: un'arena dove gli agenti di codice si valutano a vicenda",
+        "lmo": "SWE-Duel : on'arena indoa i agent de còdes i se valuten insemma"
+      },
+      "body": {
+        "fr": "Sur 1 500 tours entre 11 couples modèle-harnais sur 15 dépôts en cinq langues, GPT-5.5 avec Codex CLI répare 98,3 % des défauts qu'il révise, tandis que Claude Opus 4.8 excelle comme auteur de tâches avec 27,3 % de victoires en Rouge. Les tâches écrites par les versions les plus récentes battent un solveur de référence dans 42,9 % des cas, contre 4,0 % pour les anciennes. <a href=\"https://arxiv.org/abs/2610.12569\">Le paper SWE-Duel</a> est paru le 12 octobre.",
+        "en": "Across 1,500 rounds between 11 model-harness pairs over 15 repositories in five languages, GPT-5.5 with Codex CLI fixes 98.3% of the defects it reviews, while Claude Opus 4.8 excels as a task author with a 27.3% win rate in Red. Tasks written by the most recent versions beat a reference solver in 42.9% of cases, versus 4.0% for older ones. <a href=\"https://arxiv.org/abs/2610.12569\">The SWE-Duel paper</a> was released on 12 October.",
+        "de": "Bei 1 500 Runden zwischen 11 Modell-Harness-Paaren über 15 Repositories in fünf Sprachen repariert GPT-5.5 mit Codex CLI 98,3 % der von ihm geprüften Defekte, während Claude Opus 4.8 als Aufgabenautor mit 27,3 % Siegen als Rot glänzt. Von den neuesten Versionen verfasste Aufgaben schlagen einen Referenz-Solver in 42,9 % der Fälle, gegenüber 4,0 % bei den älteren. <a href=\"https://arxiv.org/abs/2610.12569\">Das SWE-Duel-Paper</a> erschien am 12. Oktober.",
+        "it": "Su 1 500 turni tra 11 coppie modello-harness su 15 repository in cinque lingue, GPT-5.5 con Codex CLI ripara il 98,3% dei difetti che esamina, mentre Claude Opus 4.8 eccelle come autore di compiti con il 27,3% di vittorie in Rouge. I compiti scritti dalle versioni più recenti battono un solver di riferimento nel 42,9% dei casi, contro il 4,0% delle versioni precedenti. <a href=\"https://arxiv.org/abs/2610.12569\">Il paper SWE-Duel</a> è uscito il 12 ottobre.",
+        "lmo": "In sora 1 500 torn cont 11 cobbi modell-harness in sora 15 deposit in cinch lengov, GPT-5.5 col Codex CLI el reparrararoca defect l'ha revelàa, intant che Claude Opus 4.8 l'eccella come autor de ròbb cont el 27,3 % de vittori in Rouge. Ii ròbb scritt dii versjon pù noeuv i batt on solver de riferiment in del 42,9 % deii cas, contra el 4,0 % per i vègg. <a href=\"https://arxiv.org/abs/2610.12569\">El paper SWE-Duel</a> l'è parid el 12 de ottober."
+      },
+      "tag": {
+        "fr": "Benchmarks",
+        "en": "Benchmarks",
+        "de": "Benchmarks",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-12",
+        "en": "From the Wires — 2026-10-12",
+        "de": "From the Wires — 2026-10-12",
+        "it": "From the Wires — 12-10-2026",
+        "lmo": "From the Wires — 2026-10-12"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2610.12569"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "BetterWispr : une dictée open source pour Mac qui cartonne sur Hacker News",
+        "en": "BetterWispr: an open-source dictation app for Mac that is booming on Hacker News",
+        "de": "BetterWispr: Open-Source-Diktat für den Mac, das auf Hacker News durchstartet",
+        "it": "BetterWispr: una dettatura open source per Mac che spopola su Hacker News",
+        "lmo": "BetterWispr : ona ditada open source per Mac che la va fort in sora Hacker News"
+      },
+      "body": {
+        "fr": "Un développeur publie BetterWispr, une dictée locale gratuite pour Mac arrivée en Show HN le 11 octobre : 179 points et 103 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50042333\">Hacker News</a> en une journée. La discussion porte surtout sur la latence et le traitement entièrement local. Le produit est présenté sur <a href=\"https://betterwispr.com/\">betterwispr.com</a>.",
+        "en": "A developer releases BetterWispr, a free local dictation app for Mac that landed on Show HN on 11 October: 179 points and 103 comments on <a href=\"https://news.ycombinator.com/item?id=50042333\">Hacker News</a> in a single day. The discussion focuses mainly on latency and fully local processing. The product is presented at <a href=\"https://betterwispr.com/\">betterwispr.com</a>.",
+        "de": "Ein Entwickler publiziert BetterWispr, eine kostenlose lokale Diktierlösung für den Mac, die am 11. Oktober auf Show HN erschien: 179 Punkte und 103 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50042333\">Hacker News</a> innert eines Tages. Die Diskussion dreht sich vor allem um Latenz und vollständig lokale Verarbeitung. Das Produkt wird auf <a href=\"https://betterwispr.com/\">betterwispr.com</a> vorgestellt.",
+        "it": "Uno sviluppatore pubblica BetterWispr, una dettatura locale gratuita per Mac arrivata in Show HN l'11 ottobre: 179 punti e 103 commenti su <a href=\"https://news.ycombinator.com/item?id=50042333\">Hacker News</a> in un giorno. La discussione verte soprattutto sulla latenza e sull'elaborazione interamente locale. Il prodotto è presentato su <a href=\"https://betterwispr.com/\">betterwispr.com</a>.",
+        "lmo": "On svilupador el publica BetterWispr, ona ditada local gratis per Mac rivada in Show HN el 11 de ottober : 179 pont e 103 commenti in sora <a href=\"https://news.ycombinator.com/item?id=50042333\">Hacker News</a> in on dì. La discuss la vaa soratutt in sora la latenza e el trattament tütte local. El prodott l'è presentaa in sora <a href=\"https://betterwispr.com/\">betterwispr.com</a>."
+      },
+      "tag": {
+        "fr": "Communauté",
+        "en": "Community",
+        "de": "Community",
+        "it": "Comunità",
+        "lmo": "Comunità"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-12",
+        "en": "From the Wires — 2026-10-12",
+        "de": "From the Wires — 2026-10-12",
+        "it": "From the Wires — 12-10-2026",
+        "lmo": "From the Wires — 2026-10-12"
+      },
+      "urls": [
+        "https://betterwispr.com/",
+        "https://news.ycombinator.com/item?id=50042333"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Titelseite — Modelle & Grenze",
+        "it": "Prima Pagina — Modelli & Frontiera",
+        "lmo": "In prima pagina — Modell & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & frontière",
+            "en": "Models & frontier",
+            "de": "Modelle & Grenze",
+            "it": "Modelli & frontiera",
+            "lmo": "Modell & frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "DiffusionART divise par douze le coût GPU du RL sur les modèles de diffusion",
+                "en": "DiffusionART cuts the GPU cost of RL on diffusion models twelvefold",
+                "de": "DiffusionART reduziert die GPU-Kosten für RL bei Diffusionsmodellen um den Faktor zwölf",
+                "it": "DiffusionART divide per dodici il costo GPU del RL sui modelli di diffusione",
+                "lmo": "DiffusionART el divid per dodes el cost GPU del RL in sora i modell de diffusion"
+              },
+              "body": {
+                "fr": "Les chercheurs de KlingAI Research publient DiffusionART, une méthode de renforcement (RL) des modèles de diffusion qui agrège les récompenses par prompt en une direction d'amélioration partagée, éliminant par construction la « force de cohérence » cachée qui déstabilise les méthodes NFT. Sur HunyuanVideo-13B, DiffusionART atteint les niveaux de récompense de DiffusionNFT et Flow-GRPO-Fast avec respectivement 12,02 et 11,72 fois moins d'heures GPU, tout en améliorant la récompense moyenne de 28,8 % et 53,0 %. Détails dans le <a href=\"https://arxiv.org/abs/2610.12572\">paper arXiv</a> du 12 octobre 2026.",
+                "en": "Researchers at KlingAI Research publish DiffusionART, a reinforcement-learning (RL) method for diffusion models that aggregates per-prompt rewards into a shared improvement direction, eliminating by construction the hidden \"consistency force\" that destabilises NFT-style methods. On HunyuanVideo-13B, DiffusionART reaches the reward levels of DiffusionNFT and Flow-GRPO-Fast with 12.02 and 11.72 times fewer GPU-hours respectively, while improving average reward by 28.8% and 53.0%. Details in the <a href=\"https://arxiv.org/abs/2610.12572\">arXiv paper</a> of 12 October 2026.",
+                "de": "Die Forschenden von KlingAI Research publizieren DiffusionART, eine Methode zum Reinforcement Learning (RL) von Diffusionsmodellen, welche die Belohnungen pro Prompt zu einer geteilten Verbesserungsrichtung aggregiert und damit die verborgene «Kohärenzkraft», welche die NFT-Methoden destabilisiert, konstruktionsbedingt eliminiert. Auf HunyuanVideo-13B erreicht DiffusionART die Reward-Niveaus von DiffusionNFT und Flow-GRPO-Fast mit jeweils 12,02- und 11,72-mal weniger GPU-Stunden, bei gleichzeitiger Verbesserung der mittleren Belohnung um 28,8 % und 53,0 %. Details im <a href=\"https://arxiv.org/abs/2610.12572\">arXiv-Paper</a> vom 12. Oktober 2026.",
+                "it": "I ricercatori di KlingAI Research pubblicano DiffusionART, un metodo di rinforzo (RL) dei modelli di diffusione che aggrega le ricompense per prompt in una direzione di miglioramento condivisa, eliminando per costruzione la «forza di coerenza» nascosta che destabilizza i metodi NFT. Su HunyuanVideo-13B, DiffusionART raggiunge i livelli di ricompensa di DiffusionNFT e Flow-GRPO-Fast con rispettivamente 12,02 e 11,72 volte meno ore GPU, migliorando al contempo la ricompensa media del 28,8% e del 53,0%. Dettagli nel <a href=\"https://arxiv.org/abs/2610.12572\">paper arXiv</a> del 12 ottobre 2026.",
+                "lmo": "Ii ricercador de KlingAI Research i pubblicen DiffusionART, on metod de renfort (RL) dii modell de diffusion che 'l aggrega ii recompens per prompt in ona direzzion de migliorament condividuda, elimenand per costruzion la « forza de coerenza » scunduda che la destabilissa ii metodi NFT. In sora HunyuanVideo-13B, DiffusionART el rivaa aii nivej de recompensa de DiffusionNFT e Flow-GRPO-Fast con rispettivament 12,02 e 11,32 volt men d'or GPU, intant che 'l migliora la recompensa media del 28,8 % e del 53,0 %. Detai in del <a href=\"https://arxiv.org/abs/2610.12572\">paper arXiv</a> del 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Génération vidéo",
+                "en": "Video generation",
+                "de": "Video-Generierung",
+                "it": "Generazione video",
+                "lmo": "Generazion video"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.12572"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "SepGen génère vidéo et pistes audio séparées en un seul passage",
+                "en": "SepGen generates video and separate audio tracks in a single pass",
+                "de": "SepGen generiert Video und getrennte Audiospuren in einem einzigen Durchlauf",
+                "it": "SepGen genera video e tracce audio separate in un unico passaggio",
+                "lmo": "SepGen el genera video eii tracc audio separaa in 'n domà passagg"
+              },
+              "body": {
+                "fr": "SepGen étend un générateur audio-vidéo pré-entraîné pour émettre, en une seule passe d'échantillonnage, la vidéo, la bande-son mixée et une forme d'onde séparée par source décrite en texte. En mode séparation, il décompose un enregistrement réel à partir d'une simple description libre. Le paper, soumis le 12 octobre et fort de 7 upvotes sur <a href=\"https://arxiv.org/abs/2610.11361\">HF Daily Papers</a>, surpasse les séparateurs conditionnés par le langage, surtout sur la parole.",
+                "en": "SepGen extends a pretrained audio-video generator to emit, in a single sampling pass, the video, the mixed soundtrack and a separate waveform for each source described in text. In separation mode, it decomposes a real recording from a simple free-form description. The paper, submitted on 12 October with 7 upvotes on <a href=\"https://arxiv.org/abs/2610.11361\">HF Daily Papers</a>, outperforms language-conditioned separators, especially on speech.",
+                "de": "SepGen erweitert einen vortrainierten Audio-Video-Generator, sodass dieser in einem einzigen Sampling-Durchlauf das Video, den gemischten Ton sowie eine per Textbeschreibung quellengetrennte Waveform ausgibt. Im Separationsmodus zerlegt er eine reale Aufnahme anhand einer blossen freien Beschreibung. Das Paper, eingereicht am 12. Oktober und mit 7 Upvotes auf <a href=\"https://arxiv.org/abs/2610.11361\">HF Daily Papers</a>, übertrifft sprachkonditionierte Separatoren, insbesondere bei Sprache.",
+                "it": "SepGen estende un generatore audio-video pre-addestrato per emettere, in un unico passaggio di campionamento, il video, la colonna sonora miscelata e una forma d'onda separata per ogni sorgente descritta nel testo. In modalità separazione, decompone una registrazione reale a partire da una semplice descrizione libera. Il paper, sottoposto il 12 ottobre e con 7 upvote su <a href=\"https://arxiv.org/abs/2610.11361\">HF Daily Papers</a>, supera i separatori condizionati dal linguaggio, soprattutto sul parlato.",
+                "lmo": "SepGen el estend on generator audio-video pre-adestràa per emett, in ona domà passagg de campionament, el video, la band sonora mescciada e 'na forma d'onda separada per sorgent descrivuda in del test. In modalità separazion, el scompon on registr real a partì de ona descrizzion libera voeuda. El paper, consegnàa el 12 de ottober e con 7 upvotes in sora <a href=\"https://arxiv.org/abs/2610.11361\">HF Daily Papers</a>, el supera ii separador condizzionàa del lengoeu, soratutt in sora la parlà."
+              },
+              "kicker": {
+                "fr": "Audio-vidéo",
+                "en": "Audio-video",
+                "de": "Audio-Video",
+                "it": "Audio-video",
+                "lmo": "Audio-video"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.11361"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "StereoBind lie le mouvement visuel au son stéréo pour l'immersif",
+                "en": "StereoBind ties visual motion to stereo sound for immersive media",
+                "de": "StereoBind bindet die visuelle Bewegung an den Stereoklang für immersive Anwendungen",
+                "it": "StereoBind lega il movimento visivo al suono stereo per l'immersione",
+                "lmo": "StereoBind el liga el moviment visiv al son stereo per l'immersiv"
+              },
+              "body": {
+                "fr": "StereoBind (21 upvotes, co-leader du jour sur HF Daily Papers) coordonne le mouvement des sources visuelles avec la génération audio stéréo via trois mécanismes : liaison audiovisuelle par pistes de mouvement, encodeur spatial de positions absolues et RoPE résiduel pour le mouvement relatif. Les auteurs, issus de vivo, publient aussi StereoWorld-29K, un corpus de 29 000 vidéos stéréo avec pistes de mouvement appariées, et StereoWorldBench pour mesurer la cohérence spatiale. Voir le <a href=\"https://arxiv.org/abs/2609.38748\">paper arXiv</a>, mis en avant le 12 octobre 2026.",
+                "en": "StereoBind (21 upvotes, co-leader of the day on HF Daily Papers) coordinates the movement of visual sources with stereo audio generation through three mechanisms: audiovisual binding via motion tracks, a spatial encoder of absolute positions, and residual RoPE for relative motion. The authors, from vivo, also release StereoWorld-29K, a corpus of 29,000 stereo videos with paired motion tracks, and StereoWorldBench to measure spatial coherence. See the <a href=\"https://arxiv.org/abs/2609.38748\">arXiv paper</a>, featured on 12 October 2026.",
+                "de": "StereoBind (21 Upvotes, Co-Spitzenreiter des Tages auf HF Daily Papers) koordiniert die Bewegung visueller Quellen mit der Stereoklang-Generierung über drei Mechanismen: audiovisuelles Binding über Bewegungstracks, einen räumlichen Encoder absoluter Positionen und residuelles RoPE für Relativbewegung. Die Autoren aus dem Hause vivo publizieren zudem StereoWorld-29K, ein Korpus von 29 000 Stereovideos mit gepaarten Bewegungstracks, sowie StereoWorldBench zur Messung der räumlichen Kohärenz. Siehe das <a href=\"https://arxiv.org/abs/2609.38748\">arXiv-Paper</a>, hervorgehoben am 12. Oktober 2026.",
+                "it": "StereoBind (21 upvote, co-leader del giorno su HF Daily Papers) coordina il movimento delle sorgenti visive con la generazione audio stereo tramite tre meccanismi: vincolo audiovisivo tramite tracce di movimento, encoder spaziale di posizioni assolute e RoPE residuale per il movimento relativo. Gli autori, provenienti da vivo, pubblicano anche StereoWorld-29K, un corpus di 29 000 video stereo con tracce di movimento abbinate, e StereoWorldBench per misurare la coerenza spaziale. Vedere il <a href=\"https://arxiv.org/abs/2609.38748\">paper arXiv</a>, messo in evidenza il 12 ottobre 2026.",
+                "lmo": "StereoBind (21 upvotes, co-leader del dì in sora HF Daily Papers) el coordina el moviment dii sorgent visiv coi generazion audio stereo via trè mecanismi : liaison audiovisual per tracc de moviment, codificador spazial de posizzion assoluu e RoPE residuáal per el moviment relativ. Ii autor, vegnuu de vivo, i pubblicen anca StereoWorld-29K, on corpus de 29 000 video stereo coi tracc de moviment appariada, e StereoWorldBench per mesüraa la coerenza spazial. Vedè el <a href=\"https://arxiv.org/abs/2609.38748\">paper arXiv</a>, metuu in evidenza el 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "AR/VR",
+                "en": "AR/VR",
+                "de": "AR/VR",
+                "it": "AR/VR",
+                "lmo": "AR/VR"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.38748"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Alibaba : guider les transformeurs de diffusion par leurs propres représentations",
+                "en": "Alibaba: guiding diffusion transformers with their own representations",
+                "de": "Alibaba: Diffusion-Transformer durch ihre eigenen Repräsentationen lenken",
+                "it": "Alibaba: guidare i trasformer di diffusione tramite le loro stesse rappresentazioni",
+                "lmo": "Alibaba : guidà ii transformeur de diffusion coi so pròppi rappresentazion"
+              },
+              "body": {
+                "fr": "DiffusionART n'est pas seul à repenser le post-training génératif : Representation Guidance (Alibaba, soumis le 12 octobre) montre qu'un goulot d'étranglement basse dimension, exploité explicitement pour guider le décodeur, suffit à battre des pixel diffusion transformers bien plus gros : RG-L/16 (459 M de paramètres) dépasse des modèles substantiellement plus grands, et RG-XL/16 atteint un FID de 1,55 sur ImageNet 256×256, 1,74 en 512×512 et 0,89 sur GenEval en text-to-image. <a href=\"https://arxiv.org/abs/2610.12978\">Le paper</a> distingue clairement qualité de représentation et utilité générative.",
+                "en": "DiffusionART is not alone in rethinking generative post-training: Representation Guidance (Alibaba, submitted 12 October) shows that a low-dimensional bottleneck, explicitly exploited to guide the decoder, is enough to beat far larger pixel diffusion transformers: RG-L/16 (459M parameters) outperforms substantially bigger models, and RG-XL/16 reaches an FID of 1.55 on ImageNet 256×256, 1.74 at 512×512 and 0.89 on GenEval in text-to-image. <a href=\"https://arxiv.org/abs/2610.12978\">The paper</a> clearly distinguishes representation quality from generative usefulness.",
+                "de": "DiffusionART ist nicht allein, generatives Post-Training neu zu denken: Representation Guidance (Alibaba, eingereicht am 12. Oktober) zeigt, dass ein niedrigdimensionaler Bottleneck, der explizit zur Steuerung des Decoders genutzt wird, genügt, um deutlich grössere Pixel-Diffusion-Transformer zu schlagen: RG-L/16 (459 M Parameter) übertrifft substanziell grössere Modelle, und RG-XL/16 erreicht einen FID von 1,55 auf ImageNet 256×256, 1,74 bei 512×512 und 0,89 auf GenEval im Text-to-Image. <a href=\"https://arxiv.org/abs/2610.12978\">Das Paper</a> trennt klar zwischen Repräsentationsqualität und generativem Nutzen.",
+                "it": "DiffusionART non è il solo a ripensare il post-training generativo: Representation Guidance (Alibaba, sottoposto il 12 ottobre) mostra che un collo di bottiglia a bassa dimensione, sfruttato esplicitamente per guidare il decoder, basta a battere trasformer di diffusione a pixel molto più grandi: RG-L/16 (459 M di parametri) supera modelli sostanzialmente più grandi, e RG-XL/16 raggiunge un FID di 1,55 su ImageNet 256×256, 1,74 a 512×512 e 0,89 su GenEval in text-to-image. <a href=\"https://arxiv.org/abs/2610.12978\">Il paper</a> distingue chiaramente qualità della rappresentazione e utilità generativa.",
+                "lmo": "DiffusionART el minga domà a reppensà el post-training generativ : Representation Guidance (Alibaba, consegnàa el 12 de ottober) 'l mostra che on strettògola bassa-dimension, dupràa in manera esplicita per guidà el decodificador, 'l basta per batt dii pixel diffusion transformers tanto puu grand : RG-L/16 (459 M de parametr) el supera modell puduu puu grand, e RG-XL/16 'l rivaa a on FID de 1,55 in sora ImageNet 256×256, 1,74 in 512×512 e 0,89 in sora GenEval in text-to-image. <a href=\"https://arxiv.org/abs/2610.12978\">El paper</a> el destinguaa clarament qualità de rappresentazion e utilità generativa."
+              },
+              "kicker": {
+                "fr": "Génération d'images",
+                "en": "Image generation",
+                "de": "Bild-Generierung",
+                "it": "Generazione di immagini",
+                "lmo": "Generazion de imagen"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.12978"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais & outils",
+        "en": "The Technical Desk — Harnesses & Tools",
+        "de": "Das Technik-Dossier — Harnesses & Werkzeuge",
+        "it": "Il Quaderno Tecnico — Harness & strumenti",
+        "lmo": "El Quadern Tecnich — Harness & attres"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & outils",
+            "en": "Harnesses & tools",
+            "de": "Harnesses & Werkzeuge",
+            "it": "Harness & strumenti",
+            "lmo": "Harness & attres"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Indexer localement pour épargner les tokens des agents",
+                "en": "Index locally to spare your agents' tokens",
+                "de": "Lokal indizieren, um Agenten-Tokens zu schonen",
+                "it": "Indicizzare in locale per risparmiare i token degli agenti",
+                "lmo": "Indesà localment per risparmià i token dii agent"
+              },
+              "body": {
+                "fr": "Un développeur détaille comment indexer localement son corpus de notes (« pensieve ») pour qu'un agent n'ait plus à paginer via des appels d'outils : la recherche passe par l'index plutôt que par des tool calls répétés, réduisant drastiquement la consommation de tokens. Le projet, discuté sur <a href=\"https://tedhaley.ca/pensieve/\">le blog de l'auteur</a> depuis le 12 octobre 2026, recueille 44 points sur <a href=\"https://news.ycombinator.com/item?id=50049508\">Hacker News</a>, où la discussion porte sur l'arbitrage entre coût d'indexation et économies d'appels.",
+                "en": "A developer details how to locally index a corpus of notes (\"pensieve\") so an agent no longer has to page through tool calls: retrieval goes through the index rather than repeated tool calls, drastically cutting token consumption. The project, discussed on <a href=\"https://tedhaley.ca/pensieve/\">the author's blog</a> since 12 October 2026, has drawn 44 points on <a href=\"https://news.ycombinator.com/item?id=50049508\">Hacker News</a>, where the debate focuses on the trade-off between indexing cost and call savings.",
+                "de": "Ein Entwickler erläutert, wie er sein Notiz-Korpus («pensieve») lokal indiziert, damit ein Agent nicht mehr über Tool-Calls paginieren muss: Die Suche läuft über den Index statt über wiederholte Tool-Aufrufe, was den Token-Verbrauch drastisch senkt. Das Projekt, seit dem 12. Oktober 2026 auf <a href=\"https://tedhaley.ca/pensieve/\">dem Blog des Autors</a> erörtert, kommt auf 44 Punkte auf <a href=\"https://news.ycombinator.com/item?id=50049508\">Hacker News</a>; die Diskussion dreht sich um den Trade-off zwischen Indizierungskosten und eingesparten Aufrufen.",
+                "it": "Uno sviluppatore dettaglia come indicizzare localmente il proprio corpus di note («pensieve») così che un agente non debba più sfogliare tramite chiamate di strumenti: la ricerca passa dall'indice anziché da tool call ripetuti, riducendo drasticamente il consumo di token. Il progetto, discusso sul <a href=\"https://tedhaley.ca/pensieve/\">blog dell'autore</a> dal 12 ottobre 2026, raccoglie 44 punti su <a href=\"https://news.ycombinator.com/item?id=50049508\">Hacker News</a>, dove la discussione verte sul compromesso tra costo di indicizzazione e risparmio di chiamate.",
+                "lmo": "On svilupador el detaiaa come indesà localment el so corpus de not (« pensieve ») per che on agent el gh'avega pù i paginà via ciamaa dii attres : la ricerca la passa per l'index piuttost che per dii tool call ripetuu, ridenand in manera drasticca el consum de token. El progett, discutid in sora <a href=\"https://tedhaley.ca/pensieve/\">el blog de l'autor</a> dal 12 de ottober 2026, 'l ciapa 44 pont in sora <a href=\"https://news.ycombinator.com/item?id=50049508\">Hacker News</a>, indoa la discuss la vaa in sora l'arbitragg intra cost d'indexazion e risparmii de ciamaa."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harness",
+                "de": "Harness",
+                "it": "Harness",
+                "lmo": "Harness"
+              },
+              "urls": [
+                "https://tedhaley.ca/pensieve/",
+                "https://news.ycombinator.com/item?id=50049508"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "ReHarness : apprendre en ligne en révisant l'état du harnais",
+                "en": "ReHarness: learning online by revising the harness state",
+                "de": "ReHarness: Online-Lernen durch Revision des Harness-Zustands",
+                "it": "ReHarness: apprendere online rivedendo lo stato dell'harness",
+                "lmo": "ReHarness : imparà in ligna revisend el stat del harness"
+              },
+              "body": {
+                "fr": "ReHarness (soumis le 12 octobre) complique la lecture-écriture du harnais d'agent par une révision rétroactive : après chaque instance, la trajectoire obtenue sert à corriger les réflexions précédemment stockées, propageant le feedback en arrière dans l'état textuel du harnais. Sur trois benchmarks d'apprentissage continu et trois modèles de fondation, la méthode bat les baselines raw-context, mémoire/réflexion et optimisation de prompts, corrigeant l'expérience obsolète sous changement de distribution. <a href=\"https://arxiv.org/abs/2610.12668\">Paper arXiv</a> du 12 octobre 2026.",
+                "en": "ReHarness (submitted 12 October) complicates the agent harness's read-write cycle with retrospective revision: after each instance, the resulting trajectory is used to correct previously stored reflections, propagating feedback backwards through the harness's textual state. Across three continual-learning benchmarks and three foundation models, the method beats raw-context, memory/reflection and prompt-optimisation baselines, correcting stale experience under distribution shift. <a href=\"https://arxiv.org/abs/2610.12668\">arXiv paper</a> of 12 October 2026.",
+                "de": "ReHarness (eingereicht am 12. Oktober) verkompliziert das Lesen und Schreiben des Agenten-Harnesses um eine retrospektive Revision: Nach jeder Instanz dient die gewonnene Trajektorie zur Korrektur der zuvor gespeicherten Reflexionen, wodurch das Feedback rückwärts in den textuellen Zustand des Harnesses propagiert wird. Auf drei Benchmarks für kontinuierliches Lernen und drei Foundation-Modellen schlägt die Methode die Baselines mit rohem Kontext, Gedächtnis/Reflexion und Prompt-Optimierung und korrigiert veraltete Erfahrung unter Verteilungswandel. <a href=\"https://arxiv.org/abs/2610.12668\">arXiv-Paper</a> vom 12. Oktober 2026.",
+                "it": "ReHarness (sottoposto il 12 ottobre) complica la lettura-scrittura dell'harness di agente tramite una revisione retrospettiva: dopo ogni istanza, la traiettoria ottenuta serve a correggere le riflessioni precedentemente memorizzate, propagando il feedback a ritroso nello stato testuale dell'harness. Su tre benchmark di apprendimento continuo e tre modelli di fondazione, il metodo batte le baseline raw-context, memoria/riflessione e ottimizzazione dei prompt, correggendo l'esperienza obsoleta in caso di cambio di distribuzione. <a href=\"https://arxiv.org/abs/2610.12668\">Paper arXiv</a> del 12 ottobre 2026.",
+                "lmo": "ReHarness (consegnàa el 12 de ottober) el complica la letoù-scrivuoù del harness de l'agent cont ona revision retroativa : dopo ogne istanza, la trajectoria ottenua la serviss per corregg iii riflession conservàa inanz, propagand el feedback indree in del stat testuál del harness. In sora trè benchmark d'apprendiment continov e trè modell de fondazion, el metod el batt iii baselines raw-context, memoria/riflession e ottimizzazion deii prompt, correggend l'esperienza vègg sott cambiament de distribuzion. <a href=\"https://arxiv.org/abs/2610.12668\">Paper arXiv</a> del 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Recherche appliquée",
+                "en": "Applied research",
+                "de": "Angewandte Forschung",
+                "it": "Ricerca applicata",
+                "lmo": "Ricerca applicada"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.12668"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Video-RSI : des agents qui réécrivent leur propre harnais vidéo",
+                "en": "Video-RSI: agents that rewrite their own video harness",
+                "de": "Video-RSI: Agenten, die ihren eigenen Video-Harness umschreiben",
+                "it": "Video-RSI: agenti che riscrivono il proprio harness video",
+                "lmo": "Video-RSI : agent che i re-scriven el so pròppi harness video"
+              },
+              "body": {
+                "fr": "Video-RSI applique l'auto-amélioration récursive aux agents de compréhension vidéo : le modèle réutilise son propre LLM pour réviser son harnais d'acquisition de preuves, revisite les vidéos d'entraînement pour tester des explications concurrentes de ses échecs, et une évolution sensible au coût décide quelles révisions conserver. Résultat : plus de précision avec moins d'images traitées sur les benchmarks d'évaluation. Code et méthode dans <a href=\"https://arxiv.org/abs/2609.37950\">le paper</a> mis en avant le 12 octobre 2026 sur HF Daily Papers.",
+                "en": "Video-RSI applies recursive self-improvement to video-understanding agents: the model reuses its own LLM to revise its evidence-gathering harness, revisits training videos to test competing explanations of its failures, and a cost-sensitive evolution mechanism decides which revisions to keep. The result: higher accuracy with fewer frames processed on evaluation benchmarks. Code and method in <a href=\"https://arxiv.org/abs/2609.37950\">the paper</a> featured on 12 October 2026 on HF Daily Papers.",
+                "de": "Video-RSI wendet rekursive Selbstverbesserung auf Agenten für Videoverständnis an: Das Modell verwendet sein eigenes LLM, um seinen Evidenz-Harness zu überarbeiten, revisitiert die Trainingsvideos, um konkurrierende Erklärungen für seine Fehler zu prüfen, und eine kostensensible Evolution entscheidet, welche Revisionen beibehalten werden. Resultat: mehr Genauigkeit mit weniger verarbeiteten Frames auf den Evaluations-Benchmarks. Code und Methode im <a href=\"https://arxiv.org/abs/2609.37950\">Paper</a>, hervorgehoben am 12. Oktober 2026 auf HF Daily Papers.",
+                "it": "Video-RSI applica l'auto-miglioramento ricorsivo agli agenti di comprensione video: il modello riutilizza il proprio LLM per revisionare il proprio harness di acquisizione di prove, rivede i video di addestramento per testare spiegazioni concorrenti dei propri fallimenti, e un'evoluzione sensibile al costo decide quali revisioni conservare. Risultato: più precisione con meno immagini elaborate sui benchmark di valutazione. Codice e metodo nel <a href=\"https://arxiv.org/abs/2609.37950\">paper</a> messo in evidenza il 12 ottobre 2026 su HF Daily Papers.",
+                "lmo": "Video-RSI el applica l'auto-migliorament recursiv aii agent de comprension video : el modell el re-dupera el so pròppi LLM per revisà el so harness de otegniment dii prove, el tornea a visità i video d'adestrament per provà dii spiegazion concurrent deii so falliment, e ona evoluzion sensìbil al cost la decidaroca revision conservà. Risultaa : puu de precision con men d'imagen trattà in sora i benchmark de valutazion. Còdes e metod in <a href=\"https://arxiv.org/abs/2609.37950\">el paper</a> metuu in evidenza el 12 de ottober 2026 in sora HF Daily Papers."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.37950"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & labos",
+        "en": "Research — Papers & Labs",
+        "de": "Die Forschung — Papers & Labore",
+        "it": "La Ricerca — Paper & laboratori",
+        "lmo": "La Ricerca — Paper & laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers & labos",
+            "en": "Papers & labs",
+            "de": "Papers & Labore",
+            "it": "Paper & laboratori",
+            "lmo": "Paper & laboratori"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "VisionWeave tisse des représentations visuelles élastiques dans les MLLM",
+                "en": "VisionWeave weaves elastic visual representations into MLLMs",
+                "de": "VisionWeave webt elastische visuelle Repräsentationen in MLLMs",
+                "it": "VisionWeave intreccia rappresentazioni visive elastiche nei MLLM",
+                "lmo": "VisionWeave el tess rappresentazion visiv elastegh in dii MLLM"
+              },
+              "body": {
+                "fr": "VisionWeave (équipe Qwen, 21 upvotes — la plus haute du jour) apprend aux MLLM à allouer eux-mêmes la granularité de leurs représentations visuelles via un pooler spatial gated et un routeur de granularité. Entraîné par auto-distillation de Qwen3.5-4B jusqu'à Qwen3.8-27B (plus de 30 000 heures A100), le modèle économise 43,0 % de tokens visuels en moyenne tout en conservant 98,9 % de la performance native sur huit benchmarks — contre 88 % pour les méthodes de pruning à 50 %. Servi sur SGLang : débit ×2,3, TTFT réduit de 54,4 % et TPOT de 60,6 %. <a href=\"https://arxiv.org/abs/2610.07987\">Paper arXiv</a> du 12 octobre 2026.",
+                "en": "VisionWeave (Qwen team, 21 upvotes — the day's highest) teaches MLLMs to allocate the granularity of their own visual representations via a gated spatial pooler and a granularity router. Trained by self-distillation from Qwen3.5-4B up to Qwen3.8-27B (over 30,000 A100 hours), the model saves 43.0% of visual tokens on average while retaining 98.9% of native performance across eight benchmarks — versus 88% for 50%-pruning methods. Served on SGLang: 2.3× throughput, TTFT reduced by 54.4% and TPOT by 60.6%. <a href=\"https://arxiv.org/abs/2610.07987\">arXiv paper</a> of 12 October 2026.",
+                "de": "VisionWeave (Team Qwen, 21 Upvotes – die Tageshöchstmarke) lehrt MLLMs, die Granularität ihrer visuellen Repräsentationen selbst zu allokieren – über einen Gated-Spatial-Pooler und einen Granularitäts-Router. Trainiert per Auto-Destillation von Qwen3.5-4B bis Qwen3.8-27B (über 30 000 A100-Stunden), spart das Modell im Mittel 43,0 % visuelle Tokens ein und behält dabei 98,9 % der nativen Leistung auf acht Benchmarks – gegenüber 88 % bei Pruning-Methoden mit 50 %. Auf SGLang ausgeliefert: Durchsatz ×2,3, TTFT um 54,4 % reduziert und TPOT um 60,6 %. <a href=\"https://arxiv.org/abs/2610.07987\">arXiv-Paper</a> vom 12. Oktober 2026.",
+                "it": "VisionWeave (team Qwen, 21 upvote — il più alto del giorno) insegna ai MLLM ad allocare da soli la granularità delle proprie rappresentazioni visive tramite un pooler spaziale gated e un router di granularità. Addestrato per auto-distillazione da Qwen3.5-4B fino a Qwen3.8-27B (oltre 30 000 ore A100), il modello risparmia il 43,0% di token visivi in media conservando il 98,9% delle prestazioni native su otto benchmark — contro l'88% dei metodi di pruning al 50%. Servito su SGLang: throughput ×2,3, TTFT ridotto del 54,4% e TPOT del 60,6%. <a href=\"https://arxiv.org/abs/2610.07987\">Paper arXiv</a> del 12 ottobre 2026.",
+                "lmo": "VisionWeave (squadra Qwen, 21 upvotes — el pù volt del dì) 'l insegna aii MLLM a dàss per cunt loor la granularità dii so rappresentazion visiv via on pooler spazial gated e 'n router de granularità. Adestràa per auto-distillazion de Qwen3.5-4B fin a Qwen3.8-27B (de puu de 30 000 or A100), el modell el risparmia el 43,0 % de token visiv in media intant che 'l conserva el 98,9 % de la prestazion nativa in sora ott benchmark — contra l'88 % per i metodi de pruning al 50 %. Servid in sora SGLang : debit ×2,3, TTFT ridott del 54,4 % e TPOT del 60,6 %. <a href=\"https://arxiv.org/abs/2610.07987\">Paper arXiv</a> del 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodál"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.07987"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "TIPS : superviser les étapes de raisonnement sans jamais les annoter",
+                "en": "TIPS: supervising reasoning steps without ever annotating them",
+                "de": "TIPS: Reasoning-Schritte beaufsichtigen, ohne sie je zu annotieren",
+                "it": "TIPS: supervisionare i passi di ragionamento senza mai annotarli",
+                "lmo": "TIPS : supervisonà ii stagg de raisonnament sença mai annotài"
+              },
+              "body": {
+                "fr": "TIPS entraîne des modèles de récompense de processus génératifs avec uniquement des labels de résultat : le modèle produit un raisonnement, des labels par étape et une réponse finale, et la récompense ne dépend que de la justesse du résultat. TIPS-Qwen3-4B-Thinking atteint 85,2 F1 sur ProcessBench avec seulement 3 200 trajectoires labelisées, devant tous les PRM entraînés évalués et des juges prompt-only comme GPT-5.4-Instruct et Claude-4.7-Opus (derrière o1-mini). <a href=\"https://arxiv.org/abs/2609.36641\">Paper</a> de Renmin University, mis en avant le 12 octobre.",
+                "en": "TIPS trains generative process reward models using only outcome labels: the model produces reasoning, per-step labels and a final answer, and the reward depends only on the correctness of the outcome. TIPS-Qwen3-4B-Thinking reaches 85.2 F1 on ProcessBench with just 3,200 labelled trajectories, ahead of all evaluated trained PRMs and prompt-only judges such as GPT-5.4-Instruct and Claude-4.7-Opus (behind o1-mini). <a href=\"https://arxiv.org/abs/2609.36641\">Paper</a> from Renmin University, featured on 12 October.",
+                "de": "TIPS trainiert generative Prozess-Reward-Modelle ausschliesslich mit Ergebnislabels: Das Modell erzeugt eine Reasoning-Kette, Schrittelabels und eine Endantwort, und die Belohnung hängt einzig von der Korrektheit des Ergebnisses ab. TIPS-Qwen3-4B-Thinking erreicht 85,2 F1 auf ProcessBench mit bloss 3 200 gelabelten Trajektorien – vor allen evaluierten trainierten PRMs und Prompt-only-Jurys wie GPT-5.4-Instruct und Claude-4.7-Opus (hinter o1-mini). <a href=\"https://arxiv.org/abs/2609.36641\">Paper</a> der Renmin University, hervorgehoben am 12. Oktober.",
+                "it": "TIPS addestra modelli di ricompensa di processo generativi con sole etichette di risultato: il modello produce un ragionamento, etichette per ogni passo e una risposta finale, e la ricompensa dipende unicamente dalla correttezza del risultato. TIPS-Qwen3-4B-Thinking raggiunge 85,2 F1 su ProcessBench con soltanto 3 200 traiettorie etichettate, davanti a tutti i PRM addestrati valutati e a giudici prompt-only come GPT-5.4-Instruct e Claude-4.7-Opus (dietro o1-mini). <a href=\"https://arxiv.org/abs/2609.36641\">Paper</a> della Renmin University, messo in evidenza il 12 ottobre.",
+                "lmo": "TIPS 'l adestra modell de recompensa deii process generativ cont domàii label dei risultaa : el modell 'l produs on raisonnament, dii label per stagg e 'na risposta final, e la recompensa la dipend domà de la giustizia del risultaa. TIPS-Qwen3-4B-Thinking el rivaa a 85,2 F1 in sora ProcessBench con domà 3 200 trajectori labelaa, inanz de tütt i PRM adestràa valutaa e dii giudiz prompt-only come GPT-5.4-Instruct e Claude-4.7-Opus (dedree a o1-mini). <a href=\"https://arxiv.org/abs/2609.36641\">Paper</a> de la Renmin University, metuu in evidenza el 12 de ottober."
+              },
+              "kicker": {
+                "fr": "RL & PRM",
+                "en": "RL & PRM",
+                "de": "RL & PRM",
+                "it": "RL & PRM",
+                "lmo": "RL & PRM"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2609.36641"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Agents sans état : StanfordExternalise la mémoire pour la recherche automatisée",
+                "en": "Stateless agents: Stanford externalises memory for automated research",
+                "de": "Staatenlose Agenten: Stanford externalisiert das Gedächtnis für automatisierte Forschung",
+                "it": "Agenti senza stato: Stanford esternalizza la memoria per la ricerca automatizzata",
+                "lmo": "Agent sença stat : Stanford el mena via la memoria per la ricerca automatizzada"
+              },
+              "body": {
+                "fr": "Les Stateless Language Agents (Stanford) déplacent l'état de recherche hors des conversations : aucun agent ne porte son historique d'un appel au suivant, le harnais reconstruit un contexte frais et spécifique au rôle pour chaque invocation, un Advisor distribuant les expériences à des Workers parallèles. À budgets allant jusqu'à un milliard de tokens sur trois tâches, SLA obtient le meilleur résultat final partout et rejoint la meilleure baseline kernel avec plus de 84 % de tokens en moins ; l'Advisor consomme moins de 0,6 % du budget. <a href=\"https://arxiv.org/abs/2610.07625\">Paper arXiv</a> du 12 octobre 2026.",
+                "en": "Stateless Language Agents (Stanford) move research state out of conversations: no agent carries its history from one call to the next; the harness rebuilds a fresh, role-specific context for each invocation, with an Advisor distributing experiences to parallel Workers. At budgets of up to a billion tokens across three tasks, SLA achieves the best final result everywhere and matches the best kernel baseline with over 84% fewer tokens; the Advisor consumes less than 0.6% of the budget. <a href=\"https://arxiv.org/abs/2610.07625\">arXiv paper</a> of 12 October 2026.",
+                "de": "Die Stateless Language Agents (Stanford) verlagern den Forschungszustand aus den Konversationen heraus: Kein Agent trägt seine Historik von einem Aufruf zum nächsten mit; der Harness rekonstruiert für jede Invocation einen frischen, rollenspezifischen Kontext, wobei ein Advisor die Erfahrungen an parallele Workers verteilt. Bei Budgets von bis zu einer Milliarde Tokens und über drei Aufgaben erzielt SLA überall das beste Endergebnis und erreicht die beste Kernel-Baseline mit über 84 % weniger Tokens; der Advisor verbraucht weniger als 0,6 % des Budgets. <a href=\"https://arxiv.org/abs/2610.07625\">arXiv-Paper</a> vom 12. Oktober 2026.",
+                "it": "I Stateless Language Agents (Stanford) spostano lo stato di ricerca fuori dalle conversazioni: nessun agente porta con sé la propria cronologia da una chiamata alla successiva, l'harness ricostruisce un contesto fresco e specifico per il ruolo a ogni invocazione, con un Advisor che distribuisce le esperienze a Worker paralleli. Con budget fino a un miliardo di token su tre compiti, SLA ottiene il miglior risultato finale ovunque e raggiunge la migliore baseline kernel con oltre l'84% di token in meno; l'Advisor consuma meno dello 0,6% del budget. <a href=\"https://arxiv.org/abs/2610.07625\">Paper arXiv</a> del 12 ottobre 2026.",
+                "lmo": "I Stateless Language Agents (Stanford) i menen via el stat de la ricerca fò daii conversazion : nissun agent el porta el so istorich d'ona ciamada a l'altra, el harness 'l re-costruis on contest noeuv e specific per roeul per ogne invocazion, on Advisor 'l spantiega i esperienz aii Worker parallèj. Aii budget fin a on miliard de token in sora trè ròbb, SLA 'l ciapa el meeu risultaa final pertutt e 'l se giuntaa a la meej baseline kernel cont pù de l'84 % de token in men ; l'Advisor el consuma men del 0,6 % del budget. <a href=\"https://arxiv.org/abs/2610.07625\">Paper arXiv</a> del 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Recherche automatisée",
+                "en": "Automated research",
+                "de": "Automatisierte Forschung",
+                "it": "Ricerca automatizzata",
+                "lmo": "Ricerca automatizzada"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.07625"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Reflex : un humanoïde qui rattrape des caisses lancées, vue à la première personne",
+                "en": "Reflex: a humanoid that catches thrown crates, first-person view",
+                "de": "Reflex: Ein Humanoider, der zugeworfene Kisten fängt – in der Egoperspektive",
+                "it": "Reflex: un umanoide che afferra al volo casse lanciate, in visione in prima persona",
+                "lmo": "Reflex : on umanoid che 'l ciappa cassett butà, vist a la prima persona"
+              },
+              "body": {
+                "fr": "Reflex (University of Washington) apprend à un humanoïde Unitree G1 à attraper des caisses lancées par un humain en trois étapes : politique corps entier par RL, inférence de la dynamique de l'objet depuis des observations retardées, puis encodeur RGB-D égocentré. En simulation, 85,7 % de réussite en vision égocentrée contre 87,9 % avec observations privilégiées ; sur le robot réel, 65 % et 40 % de réussite à 2,5 et 5 mètres, soit 76 % et 59 % du taux d'un attrapeur humain aux mêmes distances. <a href=\"https://arxiv.org/abs/2610.12772\">Paper</a> soumis le 12 octobre 2026.",
+                "en": "Reflex (University of Washington) teaches a Unitree G1 humanoid to catch boxes thrown by a human in three stages: whole-body RL policy, inference of object dynamics from delayed observations, then an egocentric RGB-D encoder. In simulation, 85.7% success with egocentric vision versus 87.9% with privileged observations; on the real robot, 65% and 40% success at 2.5 and 5 metres — 76% and 59% of a human catcher's rate at the same distances. <a href=\"https://arxiv.org/abs/2610.12772\">Paper</a> submitted 12 October 2026.",
+                "de": "Reflex (University of Washington) lehrt einem Unitree-G1-Humanoiden, zugeworfene Kisten zu fangen – in drei Etappen: Ganzkörper-Policy per RL, Inferenz der Objektdynamik aus verzögerten Beobachtungen, dann ein egozentrischer RGB-D-Encoder. In der Simulation 85,7 % Erfolgsquote mit egozentrischer Sicht gegenüber 87,9 % mit privilegierten Beobachtungen; auf dem realen Roboter 65 % und 40 % Erfolg auf 2,5 und 5 Metern – entsprechend 76 % und 59 % der Quote eines menschlichen Fängers auf denselben Distanzen. <a href=\"https://arxiv.org/abs/2610.12772\">Paper</a> eingereicht am 12. Oktober 2026.",
+                "it": "Reflex (University of Washington) insegna a un umanoide Unitree G1 ad afferrare casse lanciate da un umano in tre fasi: politica di tutto il corpo tramite RL, inferenza della dinamica dell'oggetto da osservazioni ritardate, poi encoder RGB-D egocentrico. In simulazione, 85,7% di successo in visione egocentrica contro l'87,9% con osservazioni privilegiate; sul robot reale, 65% e 40% di successo a 2,5 e 5 metri, ovvero il 76% e il 59% del tasso di un catcher umano alle stesse distanze. <a href=\"https://arxiv.org/abs/2610.12772\">Paper</a> sottoposto il 12 ottobre 2026.",
+                "lmo": "Reflex (University of Washington) l'insegna a on umanoid Unitree G1 a ciappà cassett butà da on om in trè stagg : politega per tutt el corpori per RL, inferenza de la dinamica de l'oggett da osservazion ritardaa, poeu codificador RGB-D egocentrà. In simulazion, 85,7 % de sucsess in vision egocentrà contra l'87,9 % coi osservazion privilegiaa ; in sora el robot real, 65 % e 40 % de sucsess a 2,5 e 5 meter, o ben el 76 % e 'l 59 % del tass de on om ciappador a i stess distanz. <a href=\"https://arxiv.org/abs/2610.12772\">Paper</a> consegnàa el 12 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Robotica"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.12772"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunità & Editoriál"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & tribune",
+            "en": "Signals & opinion",
+            "de": "Signale & Tribüne",
+            "it": "Segnali & tribuna",
+            "lmo": "Seegn & tribuna"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Terence Tao publie « Math 2.0 » : les mathématiques à l'ère de la preuve assistée",
+                "en": "Terence Tao publishes \"Math 2.0\": mathematics in the era of proof assistance",
+                "de": "Terence Tao publiziert «Math 2.0»: Mathematik im Zeitalter der assistierten Beweisführung",
+                "it": "Terence Tao pubblica «Math 2.0»: la matematica nell'era della prova assistita",
+                "lmo": "Terence Tao el publica « Math 2.0 » : la matematega in de l'era de la prova assistida"
+              },
+              "body": {
+                "fr": "Les slides « Math 2.0 » de la conférence Caltech de Terence Tao circulent massivement depuis le 11 octobre (351 points, 397 commentaires) : le médaillé Fields y articule la transformation de la pratique mathématique par les assistants de preuve et les LLM. Le même week-end, il publie « Illustration Beyond Proof » (11 octobre), sur la valeur des illustrations au-delà de la vérification formelle — les deux textes se lisent en miroir sur <a href=\"https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf\">sa page de slides</a> et <a href=\"https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\">son blog</a>.",
+                "en": "Terence Tao's \"Math 2.0\" slides from his Caltech lecture have been circulating widely since 11 October (351 points, 397 comments): the Fields medallist lays out how proof assistants and LLMs are transforming mathematical practice. The same weekend, he published \"Illustration Beyond Proof\" (11 October) on the value of illustrations beyond formal verification — the two texts read as mirror pieces on <a href=\"https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf\">his slides page</a> and <a href=\"https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\">his blog</a>.",
+                "de": "Terence Taos «Math 2.0»-Slides seiner Caltech-Vorlesung kursieren seit dem 11. Oktober massenhaft (351 Punkte, 397 Kommentare): Der Fields-Medaillenträger artikuliert darin die Transformation der mathematischen Praxis durch Beweisassistenten und LLMs. Dasselbe Wochenende publiziert er «Illustration Beyond Proof» (11. Oktober) über den Wert von Illustrationen jenseits der formalen Verifikation – die beiden Texte lesen sich spiegelbildlich auf <a href=\"https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf\">seiner Slide-Seite</a> und <a href=\"https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\">seinem Blog</a>.",
+                "it": "Le slide «Math 2.0» della conferenza Caltech di Terence Tao circolano massicciamente dall'11 ottobre (351 punti, 397 commenti): il medaglia Fields vi articola la trasformazione della pratica matematica da parte degli assistenti di prova e dei LLM. Lo stesso weekend pubblica «Illustration Beyond Proof» (11 ottobre), sul valore delle illustrazioni al di là della verifica formale — i due testi si leggono a specchio sulla <a href=\"https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf\">sua pagina di slide</a> e sul <a href=\"https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\">suo blog</a>.",
+                "lmo": "Ii slides « Math 2.0 » de la conferenza Caltech de Terence Tao i circola massivament dal 11 de ottober (351 pont, 397 commenti) : el medajaa Fields el ten insemma la trasformazion de la prática matematiga per opra dii assistent de prova e dii LLM. El stess fine setemana, el publica « Illustration Beyond Proof » (11 de ottober), in sora el valor deii illustrazion oltra de la verifega formál — ii duu test i se leggen in spegg in sora <a href=\"https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf\">la soa pagina de slides</a> e <a href=\"https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/\">el so blog</a>."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Comunità"
+              },
+              "urls": [
+                "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+                "https://terrytao.wordpress.com/2026/10/11/illustration-beyond-proof/",
+                "https://news.ycombinator.com/item?id=50043026"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Data centers et forêts finlandaises : le coût écologique de la course au calcul",
+                "en": "Data centres and Finnish forests: the ecological cost of the compute race",
+                "de": "Rechenzentren und finnische Wälder: die ökologischen Kosten des Rennens um Rechenleistung",
+                "it": "Data center e foreste finlandesi: il costo ecologico della corsa al calcolo",
+                "lmo": "Data center eii foreest finlandes : el cost ecologich de la corsa al calcol"
+              },
+              "body": {
+                "fr": "Une étude relayée le 11 octobre par le Guardian (273 points sur HN) révèle que la construction de data centers Google en Finlande s'est poursuivie dans une zone forestière soumise à évaluation d'impact environnemental, entraînant une suspension temporaire des travaux. Le dossier, qui touche directement l'infrastructure d'entraînement des modèles, alimente le débat sur le coût environnemental de la course aux capacités de calcul. Lecture sur <a href=\"https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\">le Guardian</a> et sur <a href=\"https://news.ycombinator.com/item?id=50048638\">Hacker News</a> (71 commentaires).",
+                "en": "A study reported on 11 October by the Guardian (273 points on HN) reveals that construction of Google data centres in Finland continued in a forest area subject to an environmental impact assessment, leading to a temporary halt of the works. The case, which directly affects the infrastructure used to train models, fuels the debate over the environmental cost of the compute race. Read it on <a href=\"https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\">the Guardian</a> and on <a href=\"https://news.ycombinator.com/item?id=50048638\">Hacker News</a> (71 comments).",
+                "de": "Eine am 11. Oktober vom Guardian aufgegriffene Studie (273 Punkte auf HN) zeigt, dass der Bau von Google-Rechenzentren in Finnland in einer Waldzone weiterging, die einer Umweltverträglichkeitsprüfung unterlag – was einen temporären Baustopp nach sich zog. Das Dossier, das die Trainingsinfrastruktur der Modelle unmittelbar betrifft, befeuert die Debatte über die ökologischen Kosten des Rennens um Rechenkapazitäten. Lektüre im <a href=\"https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\">Guardian</a> und auf <a href=\"https://news.ycombinator.com/item?id=50048638\">Hacker News</a> (71 Kommentare).",
+                "it": "Uno studio ripreso l'11 ottobre dal Guardian (273 punti su HN) rivela che la costruzione di data center Google in Finlandia è proseguita in una zona forestale soggetta a valutazione di impatto ambientale, provocando una sospensione temporanea dei lavori. Il dossier, che tocca direttamente l'infrastruttura di addestramento dei modelli, alimenta il dibattito sul costo ambientale della corsa alle capacità di calcolo. Lettura sul <a href=\"https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\">Guardian</a> e su <a href=\"https://news.ycombinator.com/item?id=50048638\">Hacker News</a> (71 commenti).",
+                "lmo": "On studio spantiegàa el 11 de ottober del Guardian (273 pont in sora HN) el revèla che la costruzzion deii data center Google in Finlandia l'è andada inans in ona zona forestál soggetta a valutazion d'impatte ambiental, portand a ona sospension temporanea dii laurà. El cas, che 'l toca diretament l'infrastrutura d'adestrament dii modell, el scaldia el dibatitt in sora el cost ambiental de la corsa aii capacità de calcol. Legg in sora <a href=\"https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment\">el Guardian</a> e in sora <a href=\"https://news.ycombinator.com/item?id=50048638\">Hacker News</a> (71 commenti)."
+              },
+              "kicker": {
+                "fr": "Environnement",
+                "en": "Environment",
+                "de": "Umwelt",
+                "it": "Ambiente",
+                "lmo": "Ambient"
+              },
+              "urls": [
+                "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+                "https://news.ycombinator.com/item?id=50048638"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — Mesurer la frontière : le vrai fossé n'est pas dans les modèles, il est dans nos instruments",
+                "en": "Editorial — Measuring the frontier: the real gap lies not in the models but in our instruments",
+                "de": "Leitartikel — Die Grenze messen: Die eigentliche Kluft liegt nicht in den Modellen, sondern in unseren Instrumenten",
+                "it": "Editoriale — Misurare la frontiera: il vero divario non è nei modelli, è nei nostri strumenti",
+                "lmo": "Editoriál — Mesüraa la frontiera : el ver fossad l'è minga in dii modell, l'è in dii nost instrument"
+              },
+              "body": {
+                "fr": "Édito — Andrej Karpathy a raison sur un point précis : il n'existe aucun instrument partagé pour mesurer la frontière réelle des modèles. Mais la réponse ne viendra pas d'un benchmark de plus, figé à sa sortie et saturé en dix-huit mois. Les signaux de la journée dessinent une autre voie : des arènes qui s'auto-génèrent (SWE-Duel), des agents qui réévisent leur propre harnais (ReHarness, Video-RSI), des états de recherche sortis des conversations (SLA). La compréhension partagée que Karpathy appelle de ses vœux se construira moins par consensus sur des scores que par des systèmes d'évaluation qui évoluent aussi vite que les modèles qu'ils jugent. C'est un problème d'institutions autant que de métriques — et ce journal, page après page, en est la preuve vivante. <a href=\"https://arxiv.org/abs/2610.12569\">SWE-Duel en donne la meilleure illustration du jour</a>.",
+                "en": "Editorial — Andrej Karpathy is right on one precise point: there is no shared instrument for measuring the real frontier of models. But the answer will not come from yet another benchmark, frozen at release and saturated within eighteen months. The day's signals sketch another path: self-generating arenas (SWE-Duel), agents that revise their own harness (ReHarness, Video-RSI), research states moved out of conversations (SLA). The shared understanding Karpathy calls for will be built less through consensus on scores than through evaluation systems that evolve as fast as the models they judge. This is as much a problem of institutions as of metrics — and this newspaper, page after page, is living proof of it. <a href=\"https://arxiv.org/abs/2610.12569\">SWE-Duel offers the best illustration of the day</a>.",
+                "de": "Leitartikel — Andrej Karpathy hat in einem präzisen Punkt recht: Es existiert kein geteiltes Instrument, um die tatsächliche Grenze der Modelle zu messen. Doch die Antwort wird nicht von einem weiteren Benchmark kommen, der bei seinem Erscheinen erstarrt und nach achtzehn Monaten gesättigt ist. Die Signale des Tages zeichnen einen anderen Weg: Arenen, die sich selbst generieren (SWE-Duel), Agenten, die ihren eigenen Harness überarbeiten (ReHarness, Video-RSI), Forschungszustände, die aus den Konversationen herausgelöst werden (SLA). Das geteilte Verständnis, das Karpathy sich wünscht, wird sich weniger durch Konsens über Scores aufbauen als durch Evaluationssysteme, die sich ebenso schnell entwickeln wie die Modelle, die sie beurteilen. Das ist eine Frage der Institutionen ebenso wie der Metriken – und diese Zeitung, Seite für Seite, ist der lebende Beweis dafür. <a href=\"https://arxiv.org/abs/2610.12569\">SWE-Duel liefert dazu die beste Illustration des Tages</a>.",
+                "it": "Editoriale — Andrej Karpathy ha ragione su un punto preciso: non esiste alcuno strumento condiviso per misurare la frontiera reale dei modelli. Ma la risposta non arriverà da un benchmark in più, congelato all'uscita e saturo in diciotto mesi. I segnali della giornata disegnano un'altra via: arene che si auto-generano (SWE-Duel), agenti che revisionano il proprio harness (ReHarness, Video-RSI), stati di ricerca usciti dalle conversazioni (SLA). La comprensione condivisa che Karpathy auspica si costruirà meno per consenso sui punteggi che tramite sistemi di valutazione che evolvono tanto velocemente quanto i modelli che giudicano. È un problema di istituzioni quanto di metriche — e questo giornale, pagina dopo pagina, ne è la prova vivente. <a href=\"https://arxiv.org/abs/2610.12569\">SWE-Duel ne offre la migliore illustrazione del giorno</a>.",
+                "lmo": "Editoriál — Andrej Karpathy 'l gh'ha reson in sora 'n pont precis : gh'è minga on attres condividuu per mesüraa la frontiera reala dii modell. Ma la risposta la vegnarà minga da on benchmark de puu, gelàa al moment de la sortida e saraa adoss in desdòtt mes. Ii segn del dì i dissegn ona altra via : arena che i s'auto-genenen (SWE-Duel), agent che i re-revisen el so pròppi harness (ReHarness, Video-RSI), stat de ricerca fò daii conversazion (SLA). La comprension condividuda che Karpathy 'l invoca la se construirà manch per consens in sora ii score che per dii sistema de valutazion che i evolven tanto in pressa come i modell che i giudichen. L'è on problema de istituzzion tant come de metric — e 'st giornal chì, pagina dopo pagina, l'è la prova viva. <a href=\"https://arxiv.org/abs/2610.12569\">SWE-Duel 'l n'à dà l'meej illustrazion del dì</a>."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editoriál"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.12569"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
