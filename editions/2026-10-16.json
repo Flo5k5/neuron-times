@@ -1,0 +1,616 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-16",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Meta a publié le 15 octobre 2026 Muse Spark Open, un modèle multimodal à mixture-of-experts de 816 milliards de paramètres totaux, dont environ 42 milliards actifs par requête (A42B), dont les poids sont librement téléchargeables sur Hugging Face. L'annonce, détaillée sur le blog de recherche de Meta, vise le codage agentique : Together AI l'héberge dès le premier jour avec une fenêtre de contexte de 1 million de tokens en infrastructure serverless et dédiée.",
+        "en": "On October 15, 2026, Meta released Muse Spark Open, a multimodal mixture-of-experts model with 816 billion total parameters, of which roughly 42 billion are active per query (A42B), with weights freely downloadable on Hugging Face. The announcement, detailed on Meta's research blog, targets agentic coding: Together AI hosts it from day one with a 1-million-token context window on both serverless and dedicated infrastructure.",
+        "de": "Meta hat am 15. Oktober 2026 Muse Spark Open veröffentlicht, ein multimodales Mixture-of-Experts-Modell mit 816 Milliarden Parametern insgesamt, davon rund 42 Milliarden aktiv pro Anfrage (A42B), dessen Gewichte auf Hugging Face frei herunterladbar sind. Die Ankündigung, die im Forschungsblog von Meta im Detail beschrieben wird, zielt auf agentisches Programmieren: Together AI hostet das Modell ab dem ersten Tag mit einem Kontextfenster von 1 Million Tokens auf serverloser und dedizierter Infrastruktur.",
+        "it": "Il 15 ottobre 2026 Meta ha pubblicato Muse Spark Open, un modello multimodale a mixture-of-experts da 816 miliardi di parametri totali, di cui circa 42 miliardi attivi per richiesta (A42B), i cui pesi sono liberamente scaricabili su Hugging Face. L'annuncio, dettagliato sul blog di ricerca di Meta, mira al coding agentico: Together AI lo ospita dal primo giorno con una finestra di contesto di 1 milione di token su infrastruttura serverless e dedicata.",
+        "lmo": "Meta l'ha publicaa el 15 de ottober 2026 Muse Spark Open, on model multimodal a mixture-of-experts de 816 miliard de parametri totai, di quaj circa 42 miliard ativ per domanda (A42B), coi pes che se poeu descarigà liberament sora Hugging Face. La nunzia, descrivuda giò in del blog de ricerca de Meta, la mira al codesg agentich: Together AI el le hospeda del primm dì con ona fenestra de contest de 1 milion de token in infrastruttura serverless e dedicada."
+      },
+      {
+        "fr": "La sortie a dominé les conversations techniques : le fil de discussion Hacker News ouvert le 15 octobre a réuni 701 points et 375 commentaires en moins de douze heures. Un dimensionnement à 816B-A42B place le modèle dans la catégorie des très grands MoE ouverts, avec une activation sélective d'experts censée réduire le coût d'inférence par token par rapport à un modèle dense équivalent.",
+        "en": "The release dominated technical conversations: a Hacker News thread opened on October 15 gathered 701 points and 375 comments in under twelve hours. At 816B-A42B, the model sits in the category of very large open MoEs, with selective expert activation designed to reduce inference cost per token compared with an equivalent dense model.",
+        "de": "Die Veröffentlichung beherrschte die technischen Gespräche: Der am 15. Oktober eröffnete Hacker-News-Thread sammelte in weniger als zwölf Stunden 701 Punkte und 375 Kommentare. Eine Dimensionierung von 816B-A42B ordnet das Modell in die Kategorie der sehr grossen offenen MoE ein, wobei die selektive Aktivierung von Experten die Inferenzkosten pro Token gegenüber einem gleichwertigen dichten Modell senken soll.",
+        "it": "Il rilascio ha dominato le conversazioni tecniche: il thread su Hacker News aperto il 15 ottobre ha raccolto 701 punti e 375 commenti in meno di dodici ore. Una dimensione da 816B-A42B colloca il modello nella categoria dei MoE aperti di grandissima scala, con un'attivazione selettiva degli esperti destinata a ridurre il costo d'inferenza per token rispetto a un modello denso equivalente.",
+        "lmo": "La sortida l'ha dominaa i conversazion tecnegh: el fil de discussion Hacker News dervii el 15 de ottober l'ha regolt 701 pont e 375 comment in manch de dodes or. On dimensionament a 816B-A42B el met el model in de la categoria di MoE dervii pussee grand, con l'ativazion selettiva de espert che la sariss dree a sbassà el cost d'inferenja per token rispett a on model dens equivalent."
+      },
+      {
+        "fr": "Le geste prolonge la stratégie d'ouverture de Meta, deux jours après sa salve « Muse Wonder » sur le terrain créatif. Il pose aussi une question d'infrastructure : faire tourner un modèle de cette taille exige du matériel haut de gamme, et 9to5mac relève une optimisation explicite pour Mac Studio, la piste matérielle qu'Apple a popularisée avec sa mémoire unifiée.",
+        "en": "The move extends Meta's openness strategy, two days after its \"Muse Wonder\" salvo on the creative front. It also raises an infrastructure question: running a model of this size requires high-end hardware, and 9to5mac notes an explicit optimization for Mac Studio, the hardware path Apple popularized with its unified memory.",
+        "de": "Der Schritt setzt Metas Öffnungsstrategie fort, zwei Tage nach der «Muse Wonder»-Salve im kreativen Bereich. Er wirft aber auch eine Infrastrukturfrage auf: Der Betrieb eines Modells dieser Grösse erfordert High-End-Hardware, und 9to5mac vermerkt eine explizite Optimierung für den Mac Studio, den Hardware-Pfad, den Apple mit seinem Unified Memory populär gemacht hat.",
+        "it": "La mossa prolunga la strategia di apertura di Meta, due giorni dopo la sua salva «Muse Wonder» sul fronte creativo. Pone anche una questione di infrastruttura: far girare un modello di queste dimensioni richiede hardware di fascia alta, e 9to5mac segnala un'ottimizzazione esplicita per Mac Studio, la pista hardware resa popolare da Apple con la sua memoria unificata.",
+        "lmo": "El gest el prolunga la strategia d'averura de Meta, duu dì dop de la soa salva « Muse Wonder » in sul terren creativ. El met anca ona quistion d'infrastruttura: fà girà on model de quella dimension chì el domanda hardware de livell alt, e 9to5mac el nota ona otimizazion esplecita per el Mac Studio, la pista hardware che Apple l'ha renduda popolar con la soa memoria unificada."
+      }
+    ],
+    "urls": [
+      "https://research.meta.ai/blog/muse-spark-open",
+      "https://huggingface.co/blog/meta-muse-spark-open",
+      "https://huggingface.co/meta-models/Muse-Spark-Open-816B-A42B",
+      "https://www.together.ai/blog/meta-muse-spark-open",
+      "https://news.ycombinator.com/item?id=50107379"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Frontier",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modei & Frontera"
+    },
+    "headline": {
+      "fr": "Muse Spark Open : Meta ouvre les poids d'un géant multimodal et sème le trouble sur la frontière",
+      "en": "Muse Spark Open: Meta opens the weights of a multimodal giant and unsettles the frontier",
+      "de": "Muse Spark Open: Meta veröffentlicht die Gewichte eines multimodalen Giganten und verwirrt die Frontier",
+      "it": "Muse Spark Open: Meta apre i pesi di un gigante multimodale e semina scompiglio sulla frontiera",
+      "lmo": "Muse Spark Open : Meta el derva i pes de on gigant multimodal e 'l semena el desorden sora la frontera"
+    },
+    "subdeck": {
+      "fr": "Le modèle open-weight de 816 milliards de paramètres (42 milliards actifs) s'invite sur Hugging Face, Together AI et Hacker News le même jour.",
+      "en": "The open-weight model of 816 billion parameters (42 billion active) lands on Hugging Face, Together AI and Hacker News on the same day.",
+      "de": "Das Open-Weight-Modell mit 816 Milliarden Parametern (42 Milliarden aktive) erscheint am selben Tag auf Hugging Face, Together AI und Hacker News.",
+      "it": "Il modello open-weight da 816 miliardi di parametri (42 miliardi attivi) arriva su Hugging Face, Together AI e Hacker News lo stesso giorno.",
+      "lmo": "El model open-weight de 816 miliard de parametri (42 miliard ativ) el se presenta el midemm dì sora Hugging Face, Together AI e Hacker News."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Mistral entre dans la prévision de séries temporelles avec Timestral",
+        "en": "Mistral enters time-series forecasting with Timestral",
+        "de": "Mistral betritt die Zeitreihen-Vorhersage mit Timestral",
+        "it": "Mistral entra nella previsione delle serie temporali con Timestral",
+        "lmo": "Mistral el va denter in la predizion di seri tempora con Timestral"
+      },
+      "body": {
+        "fr": "Mistral AI a annoncé le 15 octobre 2026 <a href=\"https://mistral.ai/news/timestral/\">Timestral</a>, une famille de modèles de prévision probabiliste en quatre tailles, de 5M à 209M de paramètres. Conçus pour être efficaces sur CPU et opérer en zero-shot, ils ciblent les séries temporelles, un terrain jusque-là dominé par les modèles statistiques classiques.",
+        "en": "On October 15, 2026, Mistral AI announced <a href=\"https://mistral.ai/news/timestral/\">Timestral</a>, a family of probabilistic forecasting models in four sizes, from 5M to 209M parameters. Designed to run efficiently on CPUs and operate zero-shot, they target time series, a domain long dominated by classical statistical models.",
+        "de": "Mistral AI hat am 15. Oktober 2026 <a href=\"https://mistral.ai/news/timestral/\">Timestral</a> angekündigt, eine Familie probabilistischer Vorhersagemodelle in vier Grössen von 5M bis 209M Parametern. Konzipiert für Effizienz auf der CPU und für Zero-Shot-Betrieb, zielen sie auf Zeitreihen — ein Terrain, das bislang von klassischen statistischen Modellen beherrscht wurde.",
+        "it": "Mistral AI ha annunciato il 15 ottobre 2026 <a href=\"https://mistral.ai/news/timestral/\">Timestral</a>, una famiglia di modelli di previsione probabilistica in quattro dimensioni, da 5M a 209M di parametri. Progettati per essere efficienti su CPU e operare in zero-shot, puntano alle serie temporali, un terreno finora dominato dai modelli statistici classici.",
+        "lmo": "Mistral AI l'ha anunziaa el 15 de ottober 2026 <a href=\"https://mistral.ai/news/timestral/\">Timestral</a>, ona familia de modei de predizion probabilistega in quatter dimension, de 5M a 209M de parametri. Fa su per vess efficient sora CPU e lavorà in zero-shot, i mira ai seri tempora, on terren fin adess dominaa di modei statistege classegh."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 15 octobre 2026",
+        "en": "From the Wires — October 15, 2026",
+        "de": "From the Wires — 15. Oktober 2026",
+        "it": "From the Wires — 15 ottobre 2026",
+        "lmo": "From the Wires — 15 de ottober 2026"
+      },
+      "urls": [
+        "https://mistral.ai/news/timestral/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "GPT-Live-1.1 et six nouvelles langues dans ChatGPT Voice",
+        "en": "GPT-Live-1.1 and six new languages in ChatGPT Voice",
+        "de": "GPT-Live-1.1 und sechs neue Sprachen in ChatGPT Voice",
+        "it": "GPT-Live-1.1 e sei nuove lingue in ChatGPT Voice",
+        "lmo": "GPT-Live-1.1 e ses lengoeu noeuv in ChatGPT Voice"
+      },
+      "body": {
+        "fr": "OpenAI déploie depuis le 15 octobre 2026 <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">GPT-Live-1.1 et sa variante Quip</a> dans ChatGPT Voice, avec des accents plus naturels par langue et de nouvelles voix pour le français, l'allemand, l'hindi, le japonais, le coréen et l'espagnol mexicain, plus « Bubbie » en anglais.",
+        "en": "As of October 15, 2026, OpenAI is rolling out <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">GPT-Live-1.1 and its Quip variant</a> in ChatGPT Voice, with more natural per-language accents and new voices for French, German, Hindi, Japanese, Korean and Mexican Spanish, plus \"Bubbie\" in English.",
+        "de": "OpenAI rolloutet seit dem 15. Oktober 2026 <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">GPT-Live-1.1 samt der Variante Quip</a> in ChatGPT Voice, mit natürlicheren Akzenten je Sprache und neuen Stimmen für Französisch, Deutsch, Hindi, Japanisch, Koreanisch und mexikanisches Spanisch — dazu «Bubbie» auf Englisch.",
+        "it": "Dal 15 ottobre 2026 OpenAI distribuisce <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">GPT-Live-1.1 e la sua variante Quip</a> in ChatGPT Voice, con accenti più naturali per lingua e nuove voci per il francese, il tedesco, l'hindi, il giapponese, il coreano e lo spagnolo messicano, più «Bubbie» in inglese.",
+        "lmo": "OpenAI el despistega dal 15 de ottober 2026 <a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">GPT-Live-1.1 e la soa varianta Quip</a> in ChatGPT Voice, con accent pussee natura per lengoeu e noeuv vos per el frances, el todesch, l'hindi, el giapones, el corean e 'l spagnoeu messegh, pussee « Bubbie » in ingles."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "wire": {
+        "fr": "From the Wires — 15 octobre 2026",
+        "en": "From the Wires — October 15, 2026",
+        "de": "From the Wires — 15. Oktober 2026",
+        "it": "From the Wires — 15 ottobre 2026",
+        "lmo": "From the Wires — 15 de ottober 2026"
+      },
+      "urls": [
+        "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OpenAI ouvre GPT-Rosalind aux laboratoires académiques",
+        "en": "OpenAI opens GPT-Rosalind to academic labs",
+        "de": "OpenAI öffnet GPT-Rosalind für akademische Labore",
+        "it": "OpenAI apre GPT-Rosalind ai laboratori accademici",
+        "lmo": "OpenAI el derva GPT-Rosalind ai laboratori academia"
+      },
+      "body": {
+        "fr": "OpenAI a lancé le 15 octobre 2026 le <a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Rosalind Academic Plan</a>, un accès sponsorisé à GPT-Rosalind et à des outils pour les laboratoires académiques éligibles en sciences de la vie, poursuivant sa stratégie d'ancrage dans la recherche institutionnelle.",
+        "en": "On October 15, 2026, OpenAI launched the <a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Rosalind Academic Plan</a>, sponsored access to GPT-Rosalind and tools for eligible academic labs in the life sciences, continuing its strategy of embedding itself in institutional research.",
+        "de": "OpenAI hat am 15. Oktober 2026 den <a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Rosalind Academic Plan</a> lanciert, einen gesponserten Zugang zu GPT-Rosalind und zu Werkzeugen für berechtigte akademische Labore in den Lebenswissenschaften — ein weiterer Schritt seiner Strategie der Verankerung in der institutionellen Forschung.",
+        "it": "Il 15 ottobre 2026 OpenAI ha lanciato il <a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Rosalind Academic Plan</a>, un accesso sponsorizzato a GPT-Rosalind e a strumenti per i laboratori accademici idonei nelle scienze della vita, proseguendo la sua strategia di radicamento nella ricerca istituzionale.",
+        "lmo": "OpenAI l'ha lanziaa el 15 de ottober 2026 el <a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Rosalind Academic Plan</a>, on access patrocinaa a GPT-Rosalind e a strument per i laboratori academia elegibel in scenz de la vita, cont el consciaa de ancoràss in la ricerca istituzionala."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 15 octobre 2026",
+        "en": "From the Wires — October 15, 2026",
+        "de": "From the Wires — 15. Oktober 2026",
+        "it": "From the Wires — 15 ottobre 2026",
+        "lmo": "From the Wires — 15 de ottober 2026"
+      },
+      "urls": [
+        "https://openai.com/index/introducing-the-rosalind-academic-plan"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cohere lance North Mini Code, son premier modèle pour développeurs",
+        "en": "Cohere launches North Mini Code, its first model for developers",
+        "de": "Cohere lanciert North Mini Code, sein erstes Modell für Entwickler",
+        "it": "Cohere lancia North Mini Code, il suo primo modello per sviluppatori",
+        "lmo": "Cohere el lancia North Mini Code, el sò primm model per i svilupador"
+      },
+      "body": {
+        "fr": "Cohere a dévoilé le 15 octobre 2026 <a href=\"https://cohere.com/blog/north-mini-code\">North Mini Code</a>, présenté comme son premier modèle dédié aux développeurs. Le lancement s'accompagne de deux guides entreprise sur la prolifération d'agents et la mesure du retour sur investissement IA.",
+        "en": "On October 15, 2026, Cohere unveiled <a href=\"https://cohere.com/blog/north-mini-code\">North Mini Code</a>, presented as its first developer-focused model. The launch comes with two enterprise guides on agent sprawl and measuring AI return on investment.",
+        "de": "Cohere hat am 15. Oktober 2026 <a href=\"https://cohere.com/blog/north-mini-code\">North Mini Code</a> vorgestellt, präsentiert als sein erstes Modell für Entwickler. Der Launch wird von zwei Unternehmens-Leitfäden begleitet — zur Agenten-Proliferation und zur Messung des KI-ROI.",
+        "it": "Il 15 ottobre 2026 Cohere ha svelato <a href=\"https://cohere.com/blog/north-mini-code\">North Mini Code</a>, presentato come il suo primo modello dedicato agli sviluppatori. Il lancio è accompagnato da due guide enterprise sulla proliferazione degli agenti e sulla misurazione del ritorno sugli investimenti IA.",
+        "lmo": "Cohere l'ha desvelaa el 15 de ottober 2026 <a href=\"https://cohere.com/blog/north-mini-code\">North Mini Code</a>, presentaa come el sò primm model dedicaa ai svilupador. El lancio el riva con duu guida impresa sora la proliferazion di agent e la misura del retorn sora l'investiment IA."
+      },
+      "tag": {
+        "fr": "Entreprise",
+        "en": "Enterprise",
+        "de": "Unternehmen",
+        "it": "Impresa",
+        "lmo": "Impresa"
+      },
+      "wire": {
+        "fr": "From the Wires — 15 octobre 2026",
+        "en": "From the Wires — October 15, 2026",
+        "de": "From the Wires — 15. Oktober 2026",
+        "it": "From the Wires — 15 ottobre 2026",
+        "lmo": "From the Wires — 15 de ottober 2026"
+      },
+      "urls": [
+        "https://cohere.com/blog/north-mini-code",
+        "https://cohere.com/blog/agent-sprawl",
+        "https://cohere.com/blog/ai-roi"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Frontseite — Modelle & Frontier",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modei & Frontera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Notes frontière",
+            "en": "Frontier Notes",
+            "de": "Frontier-Notizen",
+            "it": "Note dalla frontiera",
+            "lmo": "Notizzi de frontera"
+          },
+          "articles": [
+            {
+              "body": {
+                "fr": "DeepMind a publié le 15 octobre 2026 une étude d'application : <a href=\"https://deepmind.google/blog/accelerating-antimicrobial-discovery/\">Google Antigravity for Science</a> accélère la recherche de peptides antimicrobiens nouveaux, réponse potentielle à la crise de résistance aux antibiotiques. Le système, conçu pour les workflows scientifiques multi-agents, s'ajoute aux déclinaisons « for Science » lancées par le laboratoire.",
+                "en": "On October 15, 2026, DeepMind published an applied study: <a href=\"https://deepmind.google/blog/accelerating-antimicrobial-discovery/\">Google Antigravity for Science</a> accelerates the discovery of novel antimicrobial peptides, a potential answer to the antibiotic-resistance crisis. The system, designed for multi-agent scientific workflows, joins the \"for Science\" variants launched by the lab.",
+                "de": "DeepMind hat am 15. Oktober 2026 eine Anwendungsstudie veröffentlicht: <a href=\"https://deepmind.google/blog/accelerating-antimicrobial-discovery/\">Google Antigravity for Science</a> beschleunigt die Suche nach neuen antimikrobiellen Peptiden, eine mögliche Antwort auf die Antibiotikaresistenz-Krise. Das für multi-agentige wissenschaftliche Workflows konzipierte System ergänzt die «for Science»-Ausgaben, die das Labor bereits lanciert hat.",
+                "it": "Il 15 ottobre 2026 DeepMind ha pubblicato uno studio applicativo: <a href=\"https://deepmind.google/blog/accelerating-antimicrobial-discovery/\">Google Antigravity for Science</a> accelera la ricerca di nuovi peptidi antimicrobici, potenziale risposta alla crisi di resistenza agli antibiotici. Il sistema, progettato per i workflow scientifici multi-agente, si aggiunge alle declinazioni «for Science» lanciate dal laboratorio.",
+                "lmo": "DeepMind l'ha publicaa el 15 de ottober 2026 on studi d'aplicazion: <a href=\"https://deepmind.google/blog/accelerating-antimicrobial-discovery/\">Google Antigravity for Science</a> el sbassa i temp de ricerca de noeuv peptid antimicrobiai, resposta potenziala a la crisi de resistenza ai antibiotegh. El sistema, faa su per i workflow scentifegh multi-agent, el se sgiont ai variant « for Science » lanciad del laboratori."
+              },
+              "kicker": {
+                "fr": "Recherche appliquée",
+                "en": "Applied Research",
+                "de": "Angewandte Forschung",
+                "it": "Ricerca applicata",
+                "lmo": "Ricerca aplicada"
+              },
+              "urls": [
+                "https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+              ]
+            },
+            {
+              "body": {
+                "fr": "IBM publiait le 15 octobre 2026 <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1\">Granite Switch 4.1</a>, un modèle unifié qui dessert chat, prise de décision et synthèse vocale depuis un unique point d'accès API. La famille Granite poursuit sa spécialisation entreprise : une seule intégration pour trois cas d'usage, avec le catalogue complet disponible sur Hugging Face.",
+                "en": "On October 15, 2026, IBM published <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1\">Granite Switch 4.1</a>, a unified model serving chat, decision-making and speech synthesis from a single API endpoint. The Granite family continues its enterprise specialization: one integration for three use cases, with the full catalogue available on Hugging Face.",
+                "de": "IBM veröffentlichte am 15. Oktober 2026 <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1\">Granite Switch 4.1</a>, ein vereinheitlichtes Modell, das Chat, Entscheidungsfindung und Sprachsynthese über einen einzigen API-Endpunkt bedient. Die Granite-Familie setzt ihre Unternehmensspezialisierung fort: eine einzige Integration für drei Anwendungsfälle, mit dem vollständigen Katalog auf Hugging Face.",
+                "it": "Il 15 ottobre 2026 IBM pubblicava <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1\">Granite Switch 4.1</a>, un modello unificato che serve chat, presa di decisione e sintesi vocale da un unico punto d'accesso API. La famiglia Granite prosegue la sua specializzazione enterprise: una sola integrazione per tre casi d'uso, con il catalogo completo disponibile su Hugging Face.",
+                "lmo": "IBM el publicava el 15 de ottober 2026 <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1\">Granite Switch 4.1</a>, on model unifegaa che 'l serv chat, toeu de decision e sintesi vocala de on unegh pont d'access API. La familia Granite la va innanz con la soa specializazion impresa: ona sola integrazion per trii cas d'us, con el catalogh complet disponibel sora Hugging Face."
+              },
+              "kicker": {
+                "fr": "IBM Granite",
+                "en": "IBM Granite",
+                "de": "IBM Granite",
+                "it": "IBM Granite",
+                "lmo": "IBM Granite"
+              },
+              "urls": [
+                "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Dans un article publié dans Science et annoncé le 15 octobre 2026, Google Quantum AI démontre que la « Magic State Cultivation » fonctionne sur son matériel : <a href=\"https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\">la technique</a> casse un goulot d'étranglement majeur du calcul quantique tolérant aux fautes, la production fiable d'états magiques nécessaires aux portes logiques.",
+                "en": "In a paper published in Science and announced on October 15, 2026, Google Quantum AI demonstrates that \"Magic State Cultivation\" works on its hardware: <a href=\"https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\">the technique</a> breaks a major bottleneck in fault-tolerant quantum computing — the reliable production of the magic states required for logical gates.",
+                "de": "In einem in Science veröffentlichten und am 15. Oktober 2026 angekündigten Artikel zeigt Google Quantum AI, dass die «Magic State Cultivation» auf eigener Hardware funktioniert: <a href=\"https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\">die Technik</a> bricht einen grossen Engpass des fehlertoleranten Quantenrechnens, die zuverlässige Herstellung jener magischen Zustände, die logische Gatter benötigen.",
+                "it": "In un articolo pubblicato su Science e annunciato il 15 ottobre 2026, Google Quantum AI dimostra che la «Magic State Cultivation» funziona sul suo hardware: <a href=\"https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\">la tecnica</a> elimina un collo di bottiglia majeur del calcolo quantistico tollerante ai guasti, la produzione affidabile degli stati magici necessari alle porte logiche.",
+                "lmo": "In d'on articol publicaa in Science e nunziaa el 15 de ottober 2026, Google Quantum AI el demons tra che la « Magic State Cultivation » la fonziona sora el sò hardware: <a href=\"https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/\">la tecnega</a> la romp on ingollii magior del calcol quantistegh tolerant ai errore, la produzzion fidabel di stat magich necessari ai port logigh."
+              },
+              "kicker": {
+                "fr": "Informatique quantique",
+                "en": "Quantum Computing",
+                "de": "Quantencomputing",
+                "it": "Informatica quantistica",
+                "lmo": "Informatega quantistega"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/"
+              ]
+            },
+            {
+              "body": {
+                "fr": "TIME a classé <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\">SynthID</a> parmi les Best Inventions of 2026, annoncé le 15 octobre 2026 par Google. Le système de tatouage et de vérification invisible pour contenus générés par IA équipe déjà plusieurs produits du groupe et devient une pièce maîtresse du débat sur la traçabilité des médias synthétiques.",
+                "en": "TIME listed <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\">SynthID</a> among the Best Inventions of 2026, as announced by Google on October 15, 2026. The invisible watermarking and verification system for AI-generated content already powers several of the group's products and is becoming a centerpiece of the debate over synthetic media traceability.",
+                "de": "TIME hat <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\">SynthID</a> in die Best Inventions of 2026 aufgenommen, wie Google am 15. Oktober 2026 mitteilte. Das System zum unsichtbaren Wasserzeichnen und zur Verifikation KI-generierter Inhalte steckt bereits in mehreren Produkten des Konzerns und wird zu einem zentralen Stück der Debatte über die Nachvollziehbarkeit synthetischer Medien.",
+                "it": "TIME ha classificato <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\">SynthID</a> tra le Best Inventions of 2026, annunciato il 15 ottobre 2026 da Google. Il sistema di watermarking e verifica invisibile per contenuti generati dall'IA equipaggia già diversi prodotti del gruppo e diventa un pezzo centrale del dibattito sulla tracciabilità dei media sintetici.",
+                "lmo": "TIME l'ha metuu <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/\">SynthID</a> in tra i Best Inventions of 2026, nunziaa el 15 de ottober 2026 de Google. El sistema de tatuagg e verificazion invisibel per i contegnuu generaa de l'IA el quipaggia già divers prodott del grup e 'l deventa ona peza central del dibattit sora la tracciabilitaa di media sintetigh."
+              },
+              "kicker": {
+                "fr": "Traçabilité IA",
+                "en": "AI Traceability",
+                "de": "KI-Nachvollziehbarkeit",
+                "it": "Tracciabilità IA",
+                "lmo": "Tracciabilitaa IA"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synthid-time-best-inventions/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — Harnais, CLI & engines",
+        "en": "The Technical Briefing — Harnesses, CLIs & Engines",
+        "de": "Das Technische Dossier — Harnesses, CLI & Engines",
+        "it": "Il Quaderno Tecnico — Harness, CLI & engine",
+        "lmo": "El Quadern Tecnegh — Harness, CLI & engine"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & plateformes",
+            "en": "Tools & Platforms",
+            "de": "Werkzeuge & Plattformen",
+            "it": "Strumenti & piattaforme",
+            "lmo": "Strument & piattaform"
+          },
+          "articles": [
+            {
+              "body": {
+                "fr": "Anthropic annonce le 15 octobre 2026 la disponibilité générale de Code Review : <a href=\"https://claude.com/resources/articles/code-review-is-now-generally-available\">la fonctionnalité</a> intègre la revue de code par Claude Code dans le cycle de développement pour « attraper plus de bugs avant la production », au-delà de la bêta lancée cet été.",
+                "en": "On October 15, 2026, Anthropic announced the general availability of Code Review: <a href=\"https://claude.com/resources/articles/code-review-is-now-generally-available\">the feature</a> integrates Claude Code's code review into the development cycle to \"catch more bugs before production,\" going beyond the beta launched this summer.",
+                "de": "Anthropic kündigt am 15. Oktober 2026 die allgemeine Verfügbarkeit von Code Review an: <a href=\"https://claude.com/resources/articles/code-review-is-now-generally-available\">die Funktion</a> integriert die Code-Review durch Claude Code in den Entwicklungszyklus, um «mehr Bugs vor der Produktion abzufangen» — ein Ausbau der im Sommer gestarteten Beta.",
+                "it": "Anthropic annuncia il 15 ottobre 2026 la disponibilità generale di Code Review: <a href=\"https://claude.com/resources/articles/code-review-is-now-generally-available\">la funzionalità</a> integra la revisione del codice da parte di Claude Code nel ciclo di sviluppo per «cogliere più bug prima della produzione», oltre la beta lanciata quest'estate.",
+                "lmo": "Anthropic el nunzia el 15 de ottober 2026 la disponibilitaa generala de Code Review: <a href=\"https://claude.com/resources/articles/code-review-is-now-generally-available\">la fonzionalitaa</a> la integra la revision del codesg de Claude Code in del ciclo de svilupp per « ciappà pussee de bug prima de la produzzion », oltra la beta lanciada 'sta estaa chì."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://claude.com/resources/articles/code-review-is-now-generally-available"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Le changelog de la plateforme OpenAI, mis à jour le 15 octobre 2026, documente une intégration native de Decisions dans GPT-Live : <a href=\"https://platform.openai.com/api/docs/guides/decisions-voice\">l'API v1/live/sessions</a> permet désormais à l'application d'agir pendant que l'utilisateur parle, avec délégation directe des décisions au modèle gpt-live-1 couplé à gpt-6-luna.",
+                "en": "OpenAI's platform changelog, updated on October 15, 2026, documents native integration of Decisions into GPT-Live: <a href=\"https://platform.openai.com/api/docs/guides/decisions-voice\">the v1/live/sessions API</a> now lets the application act while the user is speaking, with decisions delegated directly to the gpt-live-1 model coupled with gpt-6-luna.",
+                "de": "Das am 15. Oktober 2026 aktualisierte Changelog der OpenAI-Plattform dokumentiert eine native Decisions-Integration in GPT-Live: <a href=\"https://platform.openai.com/api/docs/guides/decisions-voice\">die API v1/live/sessions</a> erlaubt der Anwendung nun, zu handeln, während der Nutzer spricht, mit direkter Delegation von Entscheidungen an das Modell gpt-live-1 in Kombination mit gpt-6-luna.",
+                "it": "Il changelog della piattaforma OpenAI, aggiornato il 15 ottobre 2026, documenta un'integrazione nativa di Decisions in GPT-Live: <a href=\"https://platform.openai.com/api/docs/guides/decisions-voice\">l'API v1/live/sessions</a> permette ormai all'applicazione di agire mentre l'utente parla, con delega diretta delle decisioni al modello gpt-live-1 accoppiato a gpt-6-luna.",
+                "lmo": "El changelog de la plataforma OpenAI, agiornaa el 15 de ottober 2026, el documenta ona integrazion nativa de Decisions in GPT-Live: <a href=\"https://platform.openai.com/api/docs/guides/decisions-voice\">l'API v1/live/sessions</a> la permet adess a l'aplicazion de agì intant che l'utent el parla, con delegazion direta di decision al model gpt-live-1 acoppi aa gpt-6-luna."
+              },
+              "kicker": {
+                "fr": "OpenAI API",
+                "en": "OpenAI API",
+                "de": "OpenAI API",
+                "it": "OpenAI API",
+                "lmo": "OpenAI API"
+              },
+              "urls": [
+                "https://platform.openai.com/api/docs/guides/decisions-voice"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Apple publie le 15 octobre 2026 un guide détaillé sur <a href=\"https://machinelearning.apple.com/research/mlx-distributed-inference\">l'inférence distribuée de grands modèles avec MLX et RDMA sur Mac Studio</a>. L'article s'appuie sur l'architecture mémoire unifiée des puces M5 et leurs GPU Neural Accelerators pour faire tourner et fine-tuner des modèles en local, en privé.",
+                "en": "On October 15, 2026, Apple published a detailed guide on <a href=\"https://machinelearning.apple.com/research/mlx-distributed-inference\">distributed inference of large models with MLX and RDMA on Mac Studio</a>. The article relies on the unified memory architecture of the M5 chips and their Neural Accelerator GPUs to run and fine-tune models locally, in private.",
+                "de": "Apple veröffentlicht am 15. Oktober 2026 einen ausführlichen Leitfaden zur <a href=\"https://machinelearning.apple.com/research/mlx-distributed-inference\">verteilten Inferenz grosser Modelle mit MLX und RDMA auf dem Mac Studio</a>. Der Artikel stützt sich auf die Unified-Memory-Architektur der M5-Chips und deren Neural Accelerators in der GPU, um Modelle lokal und privat zu betreiben und feinzutunen.",
+                "it": "Il 15 ottobre 2026 Apple pubblica una guida dettagliata su <a href=\"https://machinelearning.apple.com/research/mlx-distributed-inference\">l'inferenza distribuita di grandi modelli con MLX e RDMA su Mac Studio</a>. L'articolo si basa sull'architettura a memoria unificata dei chip M5 e sui loro GPU Neural Accelerators per far girare e mettere a punto modelli in locale, in privato.",
+                "lmo": "Apple el pubblica el 15 de ottober 2026 ona guida detagliada in su <a href=\"https://machinelearning.apple.com/research/mlx-distributed-inference\">l'inferenja distribuia di modei grand con MLX e RDMA sora Mac Studio</a>. L'articol el se basa sora l'architetura a memoria unificada di cip M5 e i sò GPU Neural Accelerators per fà girà e fine-tunà i modei in local, in privaa."
+              },
+              "kicker": {
+                "fr": "Apple ML",
+                "en": "Apple ML",
+                "de": "Apple ML",
+                "it": "Apple ML",
+                "lmo": "Apple ML"
+              },
+              "urls": [
+                "https://machinelearning.apple.com/research/mlx-distributed-inference"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Le dépôt <a href=\"https://github.com/awslabs/aidlc-workflows\">aidlc-workflows</a> d'AWS Labs, arrivé sur la une de Hacker News le 15 octobre 2026 (22 points), propose des règles de pilotage adaptatives pour agents de codage IA : le harnais adapte son workflow à la tâche plutôt que d'appliquer un prompt figé, avec une discussion active chez les praticiens.",
+                "en": "AWS Labs' <a href=\"https://github.com/awslabs/aidlc-workflows\">aidlc-workflows</a> repository, which reached the Hacker News front page on October 15, 2026 (22 points), offers adaptive steering rules for AI coding agents: the harness adapts its workflow to the task rather than applying a fixed prompt, with an active discussion among practitioners.",
+                "de": "Das Repository <a href=\"https://github.com/awslabs/aidlc-workflows\">aidlc-workflows</a> von AWS Labs, das am 15. Oktober 2026 auf die Hacker-News-Frontpage gelangte (22 Punkte), bietet adaptive Steuerungsregeln für KI-Coding-Agenten: Der Harness passt seinen Workflow der Aufgabe an, statt einen festen Prompt anzuwenden — mit reger Diskussion unter Praktikern.",
+                "it": "Il repository <a href=\"https://github.com/awslabs/aidlc-workflows\">aidlc-workflows</a> di AWS Labs, arrivato in prima pagina su Hacker News il 15 ottobre 2026 (22 punti), propone regole di pilotaggio adattive per agenti di coding IA: l'harness adatta il proprio workflow al compito invece di applicare un prompt fisso, con una discussione animata tra i praticanti.",
+                "lmo": "El repository <a href=\"https://github.com/awslabs/aidlc-workflows\">aidlc-workflows</a> de AWS Labs, rivaa in su la prima pagina de Hacker News el 15 de ottober 2026 (22 pont), el propon di regoll de pilotagg adativ per agent de codesg IA: el harness el adatta el sò workflow a lategia piutost che aplicà on prompt fissaa, con discusion ativa in tra i praticant."
+              },
+              "kicker": {
+                "fr": "AWS Labs",
+                "en": "AWS Labs",
+                "de": "AWS Labs",
+                "it": "AWS Labs",
+                "lmo": "AWS Labs"
+              },
+              "urls": [
+                "https://github.com/awslabs/aidlc-workflows",
+                "https://news.ycombinator.com/item?id=50100387"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — Papers & labos",
+        "en": "Research — Papers & Labs",
+        "de": "Die Forschung — Papers & Labore",
+        "it": "La Ricerca — Paper & laboratori",
+        "lmo": "La Ricerca — Papers & laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Papers del dì"
+          },
+          "articles": [
+            {
+              "body": {
+                "fr": "Le benchmark WorldCast, soumis le 16 octobre 2026 aux Daily Papers de Hugging Face (11 votes), évalue la prédiction multi-étapes d'états du monde : sur 320 cas et 12 modèles testés, <a href=\"https://arxiv.org/abs/2610.20731\">GPT-Image-2.5 atteint 72,8</a>, Nano Banana Pro plafonne à 42,8 et le meilleur modèle open-source à 20,1 — un fossé qui révèle le retard des poids ouverts sur la génération raisonnée.",
+                "en": "The WorldCast benchmark, submitted on October 16, 2026 to Hugging Face's Daily Papers (11 votes), evaluates multi-step world-state prediction: across 320 cases and 12 models tested, <a href=\"https://arxiv.org/abs/2610.20731\">GPT-Image-2.5 reaches 72.8</a>, Nano Banana Pro peaks at 42.8, and the best open-source model at 20.1 — a gap that reveals how far open weights lag in reasoning-driven generation.",
+                "de": "Der Benchmark WorldCast, am 16. Oktober 2026 bei den Hugging-Face-Daily-Papers eingereicht (11 Stimmen), bewertet die Mehrschritt-Vorhersage von Weltzuständen: Bei 320 Fällen und 12 getesteten Modellen erreicht <a href=\"https://arxiv.org/abs/2610.20731\">GPT-Image-2.5 einen Wert von 72,8</a>, Nano Banana Pro stagniert bei 42,8 und das beste Open-Source-Modell bei 20,1 — eine Kluft, die den Rückstand offener Gewichte bei der begründeten Generierung offenlegt.",
+                "it": "Il benchmark WorldCast, sottoposto il 16 ottobre 2026 ai Daily Papers di Hugging Face (11 voti), valuta la previsione multi-step di stati del mondo: su 320 casi e 12 modelli testati, <a href=\"https://arxiv.org/abs/2610.20731\">GPT-Image-2.5 raggiunge 72,8</a>, Nano Banana Pro si ferma a 42,8 e il miglior modello open-source a 20,1 — un divario che rivela il ritardo dei pesi aperti nella generazione ragionata.",
+                "lmo": "El benchmark WorldCast, mandaa el 16 de ottober 2026 ai Daily Papers de Hugging Face (11 vott), el valuta la predizion multi-pass de stat del mond: sora 320 cas e 12 modei pruvaa, <a href=\"https://arxiv.org/abs/2610.20731\">GPT-Image-2.5 el riva a 72,8</a>, Nano Banana Pro el se ferma a 42,8 e 'l miglior model open-source a 20,1 — on fossaa che 'l mostra el ritard di pes dervii in su la generazion razionada."
+              },
+              "kicker": {
+                "fr": "Benchmark",
+                "en": "Benchmark",
+                "de": "Benchmark",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.20731"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Mosaic (5 votes) formalise le 16 octobre 2026 le RL agentique multi-sessions : <a href=\"https://arxiv.org/abs/2610.22174\">l'entraînement hiérarchique sans critic</a> distingue la contribution de chaque session (compaction de contexte, forking de sous-agents) et dépasse la diffusion uniforme de l'avantage sur BrowseComp avec Qwen3.5-4B.",
+                "en": "On October 16, 2026, Mosaic (5 votes) formalizes multi-session agentic RL: <a href=\"https://arxiv.org/abs/2610.22174\">critic-free hierarchical training</a> distinguishes each session's contribution (context compaction, sub-agent forking) and beats uniform advantage diffusion on BrowseComp with Qwen3.5-4B.",
+                "de": "Mosaic (5 Stimmen) formalisiert am 16. Oktober 2026 das multi-sitzungsbasierte agentische RL: <a href=\"https://arxiv.org/abs/2610.22174\">das hierarchische Training ohne Critic</a> unterscheidet den Beitrag jeder einzelnen Sitzung (Kontextverdichtung, Forking von Sub-Agenten) und übertrifft die gleichmässige Vorteilsverteilung auf BrowseComp mit Qwen3.5-4B.",
+                "it": "Mosaic (5 voti) formalizza il 16 ottobre 2026 il RL agentico multi-sessione: <a href=\"https://arxiv.org/abs/2610.22174\">l'addestramento gerarchico senza critic</a> distingue il contributo di ogni sessione (compattazione del contesto, forking di sotto-agenti) e supera la diffusione uniforme del vantaggio su BrowseComp con Qwen3.5-4B.",
+                "lmo": "Mosaic (5 vott) el formalizza el 16 de ottober 2026 el RL agentich multi-session: <a href=\"https://arxiv.org/abs/2610.22174\">l'addestrament gerarcegh senza critic</a> el distingh el contribut de ogni session (compazion del contest, forking de sot-agent) e 'l supera la diffusion uniforma de l'avantagg sora BrowseComp con Qwen3.5-4B."
+              },
+              "kicker": {
+                "fr": "RL agentique",
+                "en": "Agentic RL",
+                "de": "Agentisches RL",
+                "it": "RL agentico",
+                "lmo": "RL agentich"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.22174"
+              ]
+            },
+            {
+              "body": {
+                "fr": "MRTPO (7 votes, 16 octobre 2026) assigne à chaque récompense les tokens auxquels elle se rapporte : <a href=\"https://arxiv.org/abs/2610.21439\">la distance Jensen-Shannon entre deux replays</a> (avec et sans l'information du vérificateur) mesure la pertinence de chaque token et relocalise l'avantage, accélérant la convergence en text-to-SQL et tool calling.",
+                "en": "MRTPO (7 votes, October 16, 2026) assigns to each reward the tokens it pertains to: <a href=\"https://arxiv.org/abs/2610.21439\">the Jensen-Shannon distance between two replays</a> (with and without the verifier's information) measures each token's relevance and re-locates the advantage, speeding up convergence in text-to-SQL and tool calling.",
+                "de": "MRTPO (7 Stimmen, 16. Oktober 2026) ordnet jeder Belohnung jene Tokens zu, auf die sie sich bezieht: <a href=\"https://arxiv.org/abs/2610.21439\">die Jensen-Shannon-Distanz zwischen zwei Replays</a> (mit und ohne Prüferinformation) misst die Relevanz jedes Tokens und verlagert den Vorteil neu, was die Konvergenz in Text-to-SQL und Tool Calling beschleunigt.",
+                "it": "MRTPO (7 voti, 16 ottobre 2026) assegna a ogni ricompensa i token a cui si riferisce: <a href=\"https://arxiv.org/abs/2610.21439\">la distanza Jensen-Shannon tra due replay</a> (con e senza l'informazione del verificatore) misura la pertinenza di ogni token e ricolloca il vantaggio, accelerando la convergenza in text-to-SQL e tool calling.",
+                "lmo": "MRTPO (7 vott, 16 de ottober 2026) el assigna a ogni ricompensa i token ai quai la se riferiss: <a href=\"https://arxiv.org/abs/2610.21439\">la distanza Jensen-Shannon in tra duu replay</a> (con e senza l'informazion del verificator) la misura la pertinenza de ogni token e la relovaliza l'avantagg, sbassand i temp de convergenja in text-to-SQL e tool calling."
+              },
+              "kicker": {
+                "fr": "Multi-récompenses",
+                "en": "Multi-Reward",
+                "de": "Multi-Belohnungen",
+                "it": "Multi-ricompense",
+                "lmo": "Multi-ricompens"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.21439"
+              ]
+            },
+            {
+              "body": {
+                "fr": "SpecAgent inverse le partage de travail agentique : un petit modèle rédige les étapes d'appel d'outils, le gros modèle ne fait que vérifier. <a href=\"https://arxiv.org/abs/2610.21463\">Sur τ²-Bench, le protocole</a> reste à un point du modèle fort en taux de succès tout en divisant environ par deux le trafic mémoire et le temps de latence.",
+                "en": "SpecAgent inverts the sharing of agentic work: a small model drafts the tool-call steps, the large model merely verifies. <a href=\"https://arxiv.org/abs/2610.21463\">On τ²-Bench, the protocol</a> stays within a point of the strong model on success rate while roughly halving memory traffic and latency time.",
+                "de": "SpecAgent kehrt die Arbeitsteilung beim Agentenbetrieb um: Ein kleines Modell verfasst die Tool-Aufruf-Schritte, das grosse Modell prüft nur noch. <a href=\"https://arxiv.org/abs/2610.21463\">Auf der τ²-Bench bleibt das Protokoll</a> bei der Erfolgsquote einen Punkt hinter dem starken Modell zurück, halbiert aber Speicherverkehr und Latenzzeit etwa.",
+                "it": "SpecAgent inverte la ripartizione del lavoro agentico: un piccolo modello redige i passaggi di chiamata agli strumenti, il grande modello si limita a verificare. <a href=\"https://arxiv.org/abs/2610.21463\">Su τ²-Bench, il protocollo</a> resta a un punto dal modello forte nel tasso di successo dimezzando all'incirca il traffico di memoria e il tempo di latenza.",
+                "lmo": "SpecAgent el invertiss el condivid del laurà agentich: on piccol model el scriv i pass de ciamada di strument, el grand model el fa domà verificazion. <a href=\"https://arxiv.org/abs/2610.21463\">Sora τ²-Bench, el protocoll</a> el resta a on pont del model fort in taux de sucess intant che 'l sbassa circa de la metà el trafegh de memoria e 'l temp de latenja."
+              },
+              "kicker": {
+                "fr": "Inférence agentique",
+                "en": "Agentic Inference",
+                "de": "Agentische Inferenz",
+                "it": "Inferenza agentica",
+                "lmo": "Inferenja agentega"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.21463"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Community & das Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires & édito",
+            "en": "Community Signals & Editorial",
+            "de": "Community-Signale & Editorial",
+            "it": "Segnali dalla comunità & editoriale",
+            "lmo": "Segnai de la comunitaa & edito"
+          },
+          "articles": [
+            {
+              "body": {
+                "fr": "La publication de Goodfire <a href=\"https://already-clean.goodfire.com/\">« Neural networks are clean »</a> a réuni 574 points et 217 commentaires sur Hacker News le 15 octobre 2026 : l'analyse d'interprétabilité montre des structures internes étonnamment régulières dans les réseaux entraînés, un argument pour ceux qui voient dans les LLM des systèmes plus ordonnés que bruités.",
+                "en": "Goodfire's <a href=\"https://already-clean.goodfire.com/\">\"Neural networks are clean\"</a> publication gathered 574 points and 217 comments on Hacker News on October 15, 2026: the interpretability analysis reveals surprisingly regular internal structures in trained networks, an argument for those who see LLMs as more ordered than noisy systems.",
+                "de": "Die Publikation von Goodfire <a href=\"https://already-clean.goodfire.com/\">«Neural networks are clean»</a> versammelte am 15. Oktober 2026 574 Punkte und 217 Kommentare auf Hacker News: Die Interpretability-Analyse zeigt erstaunlich regelmässige interne Strukturen in trainierten Netzen — ein Argument für jene, die in LLM eher geordnete denn verrauschte Systeme sehen.",
+                "it": "La pubblicazione di Goodfire <a href=\"https://already-clean.goodfire.com/\">«Neural networks are clean»</a> ha raccolto 574 punti e 217 commenti su Hacker News il 15 ottobre 2026: l'analisi di interpretabilità mostra strutture interne sorprendentemente regolari nelle reti addestrate, un argomento per chi vede nei LLM sistemi più ordinati che rumorosi.",
+                "lmo": "La publegazion de Goodfire <a href=\"https://already-clean.goodfire.com/\">« Neural networks are clean »</a> l'ha regolt 574 pont e 217 comment sora Hacker News el 15 de ottober 2026: l'analis d'interpretabilitaa la mostra di structur interni strasordenariament regulaa in di redes addestraa, on argoment per quei che veden in di LLM di sistema pussee ordenaa che rumoros."
+              },
+              "kicker": {
+                "fr": "Interprétabilité",
+                "en": "Interpretability",
+                "de": "Interpretierbarkeit",
+                "it": "Interpretabilità",
+                "lmo": "Interpretabilitaa"
+              },
+              "urls": [
+                "https://already-clean.goodfire.com/",
+                "https://news.ycombinator.com/item?id=50105647"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Des experts juridiques cités par Nieman Lab le 15 octobre 2026 estiment que <a href=\"https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/\">les nouvelles conditions commerciales de Meta</a>, effectives le 30 octobre, vaudront consentement des comptes professionnels au scraping de leurs sites — 118 points de discussion sur les implications pour les éditeurs d'actualité.",
+                "en": "Legal experts cited by Nieman Lab on October 15, 2026 say <a href=\"https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/\">Meta's new commercial terms</a>, effective October 30, will amount to consent by professional accounts to the scraping of their sites — 118 points of discussion on the implications for news publishers.",
+                "de": "Von Nieman Lab am 15. Oktober 2026 zitierte Rechtsexperten schätzen, dass <a href=\"https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/\">Metas neue kommerzielle Bedingungen</a>, in Kraft ab 30. Oktober, als Einwilligung der Unternehmenskonten in das Scraping ihrer Seiten gelten dürften — 118 Diskussionspunkte zu den Implikationen für Nachrichtenverleger.",
+                "it": "Esperti giuridici citati da Nieman Lab il 15 ottobre 2026 ritengono che <a href=\"https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/\">le nuove condizioni commerciali di Meta</a>, in vigore dal 30 ottobre, varranno come consenso dei conti professionali allo scraping dei loro siti — 118 punti di discussione sulle implicazioni per gli editori di notizie.",
+                "lmo": "Di espert legai citaa de Nieman Lab el 15 de ottober 2026 i stima che <a href=\"https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/\">i noeuv condizion comerci de Meta</a>, effettiv el 30 de ottober, varà consens di cunt profession al scraping di lur sitt — 118 pont de discusion sora i implicazion per i editor de notizzi."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolamentazion"
+              },
+              "urls": [
+                "https://www.niemanlab.org/2026/10/metas-new-commercial-terms-will-allow-the-scraping-of-news-sites-legal-experts-say/",
+                "https://news.ycombinator.com/item?id=50111852"
+              ]
+            },
+            {
+              "body": {
+                "fr": "Krea a lancé le 15 octobre 2026 <a href=\"https://www.krea.ai/krea-3\">Krea 3</a>, un modèle d'image « conçu pour l'édition à grande échelle », discuté sur Hacker News (279 points, 87 commentaires). Le positionnement vise les workflows de production où la cohérence éditoriale d'images compte plus que la génération brute en un coup.",
+                "en": "On October 15, 2026, Krea launched <a href=\"https://www.krea.ai/krea-3\">Krea 3</a>, an image model \"built for editing at scale,\" discussed on Hacker News (279 points, 87 comments). The positioning targets production workflows where editorial consistency of images matters more than one-shot raw generation.",
+                "de": "Krea hat am 15. Oktober 2026 <a href=\"https://www.krea.ai/krea-3\">Krea 3</a> lanciert, ein Bildmodell, «gebaut für Editing im grossen Stil», diskutiert auf Hacker News (279 Punkte, 87 Kommentare). Die Positionierung zielt auf Produktionsworkflows, in denen die redaktionelle Kohärenz von Bildern mehr zählt als die reine Ein-Klick-Generierung.",
+                "it": "Krea ha lanciato il 15 ottobre 2026 <a href=\"https://www.krea.ai/krea-3\">Krea 3</a>, un modello d'immagine «concepito per l'editing su larga scala», discusso su Hacker News (279 punti, 87 commenti). Il posizionamento punta ai workflow di produzione dove la coerenza editoriale delle immagini conta più della generazione grezza in un colpo solo.",
+                "lmo": "Krea l'ha lanziaa el 15 de ottober 2026 <a href=\"https://www.krea.ai/krea-3\">Krea 3</a>, on model d'immagin « faa su per l'edizion a granda scala », discutuu sora Hacker News (279 pont, 87 comment). El posizionament el mira ai workflow de produzzion indoa la coerenza editorial di imagin la conta pussee de la generazion bruta in d'on colp."
+              },
+              "kicker": {
+                "fr": "Génération d'images",
+                "en": "Image Generation",
+                "de": "Bildgenerierung",
+                "it": "Generazione di immagini",
+                "lmo": "Generazion d'imagin"
+              },
+              "urls": [
+                "https://www.krea.ai/krea-3",
+                "https://news.ycombinator.com/item?id=50105648"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — L'ouverture des poids devient une stratégie de distribution",
+                "en": "Editorial — Opening the weights becomes a distribution strategy",
+                "de": "Editorial — Offene Gewichte werden zur Distributionsstrategie",
+                "it": "Editoriale — L'apertura dei pesi diventa una strategia di distribuzione",
+                "lmo": "Edito — L'averura di pes la deventa ona strategia de distribuzion"
+              },
+              "body": {
+                "fr": "Le même jour où Meta publie un MoE de 816 milliards de paramètres en poids ouverts, OpenAI parraine l'accès de laboratoires académiques à GPT-Rosalind et Cohere lance son premier modèle « pour développeurs ». Trois modèles frontière ouverts, trois voies : la bataille ne se joue plus seulement sur les benchmarks, mais sur la propriété des poids — et Muse Spark Open, hébergé dès le premier jour avec un contexte d'un million de tokens sur une infrastructure tierce, montre que l'open-weight est devenu un argument de distribution, pas seulement de science. La question qui reste ouverte : qui peut réellement se permettre de faire tourner 816 milliards de paramètres, et pour quel usage.",
+                "en": "On the same day Meta releases an 816-billion-parameter MoE under open weights, OpenAI sponsors academic labs' access to GPT-Rosalind and Cohere launches its first model \"for developers.\" Three frontier models, three paths: the battle is no longer fought only on benchmarks, but on ownership of the weights — and Muse Spark Open, hosted from day one with a million-token context on third-party infrastructure, shows that open-weight has become a distribution argument, not just a scientific one. The question that remains open: who can actually afford to run 816 billion parameters, and for what use.",
+                "de": "Am selben Tag, an dem Meta ein MoE mit 816 Milliarden Parametern in offenen Gewichten veröffentlicht, sponsert OpenAI den Laborzugang zu GPT-Rosalind, und Cohere lanciert sein erstes Modell «für Entwickler». Drei Frontier-Wege, drei Ansätze: Die Schlacht wird nicht mehr nur auf Benchmarks geschlagen, sondern um das Eigentum an den Gewichten — und Muse Spark Open, ab dem ersten Tag mit einem Millionen-Token-Kontext auf Drittanbieter-Infrastruktur gehostet, zeigt, dass Open Weight zum Distributionsargument geworden ist, nicht nur zur Wissenschaft. Die offene Frage bleibt: Wer kann sich den Betrieb von 816 Milliarden Parametern tatsächlich leisten — und wofür.",
+                "it": "Lo stesso giorno in cui Meta pubblica un MoE da 816 miliardi di parametri a pesi aperti, OpenAI sponsorizza l'accesso dei laboratori accademici a GPT-Rosalind e Cohere lancia il suo primo modello «per sviluppatori». Tre modelli di frontiera, tre vie: la battaglia non si gioca più solo sui benchmark, ma sulla proprietà dei pesi — e Muse Spark Open, ospitato dal primo giorno con un contesto di un milione di token su un'infrastruttura di terze parti, mostra che l'open-weight è diventato un argomento di distribuzione, non solo di scienza. La domanda che resta aperta: chi può realmente permettersi di far girare 816 miliardi di parametri, e per quale uso.",
+                "lmo": "El midemm dì che Meta el publica on MoE de 816 miliard de parametri in pes dervii, OpenAI el patrocina l'access di laboratori academia a GPT-Rosalind e Cohere el lancia el sò primm model « per svilupador ». Trii modei frontera dervii, trii vai: la bataja la se giuga pu domà sora i benchmark, ma sora la proprietaa di pes — e Muse Spark Open, hospedaa del primm dì con on contest d'on milion de token sora ona infrastruttura de terz, el mostra che l'open-weight l'è deventaa on argoment de distribuzion, no domà de scenza. La quistion che la resta dervia: chi el se po permett per vera de fà girà 816 miliard de parametri, e per qual us."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "urls": [
+                "https://research.meta.ai/blog/muse-spark-open",
+                "https://openai.com/index/introducing-the-rosalind-academic-plan"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
