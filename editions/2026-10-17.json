@@ -1,0 +1,570 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-17",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Hugging Face a annoncé le 16 octobre 2026 l'arrivée de Beam, un modèle ouvert de 501 milliards de paramètres positionné comme un actif que les organisations peuvent posséder, personnaliser et faire évoluer librement, plutôt que de le consommer via une API. L'annonce, publiée sur le blog de la plateforme, s'accompagne d'une invitation explicite à « Welcome Beam », dans la lignée des grandes arrivées de modèles open-weight hébergés par Hugging Face (lire <a href=\"https://huggingface.co/blog/reflection-beam\">l'annonce officielle sur le blog Hugging Face</a>).",
+        "en": "Hugging Face announced on October 16, 2026 the arrival of Beam, an open 501-billion-parameter model positioned as an asset organizations can own, customize and scale freely, rather than consume through an API. The announcement, published on the platform's blog, comes with an explicit \"Welcome Beam\" invitation, in line with the major open-weight model arrivals hosted by Hugging Face (read <a href=\"https://huggingface.co/blog/reflection-beam\">the official announcement on the Hugging Face blog</a>).",
+        "de": "Hugging Face kündigte am 16. Oktober 2026 die Ankunft von Beam an, einem offenen Modell mit 501 Milliarden Parametern, das als ein Vermögenswert positioniert wird, den Organisationen besitzen, anpassen und frei skalieren können, statt es über eine API zu konsumieren. Die Ankündigung auf dem Blog der Plattform wird von einer ausdrücklichen Einladung «Welcome Beam» begleitet, in der Tradition der grossen Ankünfte offener Modelle, die auf Hugging Face gehostet werden (siehe <a href=\"https://huggingface.co/blog/reflection-beam\">die offizielle Ankündigung im Hugging-Face-Blog</a>).",
+        "it": "Il 16 ottobre 2026 Hugging Face ha annunciato l'arrivo di Beam, un modello aperto da 501 miliardi di parametri posizionato come un asset che le organizzazioni possono possedere, personalizzare e far evolvere liberamente, anziché consumarlo tramite un'API. L'annuncio, pubblicato sul blog della piattaforma, è accompagnato da un invito esplicito a «Welcome Beam», in linea con i grandi arrivi di modelli open-weight ospitati da Hugging Face (leggi <a href=\"https://huggingface.co/blog/reflection-beam\">l'annuncio ufficiale sul blog Hugging Face</a>).",
+        "lmo": "Hugging Face l'ha anunziaa el 16 de ottober 2026 l'arriv de Beam, on modell vert de 501 miliard de parameter miss comè on attiv che i organizazzion pòden ossessionà, personalizzà e sviluppà liberament, infinanz de consumàl per ona API. L'anunzia, publicada sora el blog de la piattaforma, la ven insèma con on invità esplicitta a « Welcome Beam », in de la ligna di grand arriv de modell open-weight ospitaa de Hugging Face (lègg <a href=\"https://huggingface.co/blog/reflection-beam\">l'anunzia uficial sora el blog Hugging Face</a>)."
+      },
+      {
+        "fr": "Cette sortie intervient à peine un jour après l'ouverture par Meta des poids de Muse Spark Open, un mélange d'experts multimodal de 816 milliards de paramètres dont 42 milliards actifs. Deux géants ouverts en deux jours signalent une accélération nette de la course aux poids ouverts, alors que la frontière propriétaire (Gemini 4 Argon chez Google DeepMind, GPT-6 chez OpenAI) venait de marquer la semaine. Beam franchit symboliquement le cap des 500 milliards de paramètres accessibles en téléchargement.",
+        "en": "The release comes barely a day after Meta opened the weights of Muse Spark Open, a multimodal mixture-of-experts model of 816 billion parameters, 42 billion of them active. Two open giants in two days signal a sharp acceleration in the open-weights race, just as the proprietary frontier (Gemini 4 Argon at Google DeepMind, GPT-6 at OpenAI) made headlines earlier in the week. Beam symbolically crosses the threshold of 500 billion downloadable parameters.",
+        "de": "Diese Veröffentlichung erfolgt kaum einen Tag, nachdem Meta die Gewichte von Muse Spark Open freigegeben hat, einem multimodalen Mixture-of-Experts-Modell mit 816 Milliarden Parametern, davon 42 Milliarden aktive. Zwei offene Giganten in zwei Tagen zeugen von einer deutlichen Beschleunigung im Wettrennen um offene Gewichte, nachdem die proprietäre Front (Gemini 4 Argon bei Google DeepMind, GPT-6 bei OpenAI) die Woche zuvor markiert hatte. Beam überschreitet symbolisch die Marke von 500 Milliarden als Download verfügbaren Parametern.",
+        "it": "Questa uscita arriva appena un giorno dopo l'apertura da parte di Meta dei pesi di Muse Spark Open, un mixture-of-experts multimodale da 816 miliardi di parametri, di cui 42 miliardi attivi. Due giganti aperti in due giorni segnalano un'accelerazione netta della corsa ai pesi aperti, mentre la frontiera proprietaria (Gemini 4 Argon presso Google DeepMind, GPT-6 presso OpenAI) aveva appena segnato la settimana. Beam supera simbolicamente la soglia dei 500 miliardi di parametri scaricabili.",
+        "lmo": "Questa sortida l'è vegnuda domà on dì dopo che Meta l'ha vert i pees de Muse Spark Open, on mixture de espert multimodal de 816 miliard de parameter, di quai 42 miliard attiv. Duu gigant vert in duu dì i segnalen ona acelerazion netta de la gara ai pees vert, intant che la frontiera proprietaria (Gemini 4 Argon de Google DeepMind, GPT-6 de OpenAI) la gh'aveva domà marcaa la setemana. Beam el passa simbolicament el sass di 500 miliard de parameter che se pòden scaricà."
+      },
+      {
+        "fr": "Pour les entreprises, l'argument est économique autant que souverain : posséder les poids permet de personnaliser en profondeur, d'héberger sur son propre matériel et d'échapper aux revictions tarifaires des API. Reste à voir quels benchmarks et quelle licence accompagnent concrètement Beam — l'édition de demain dira si ce pari à 501 milliards tient les promesses de la frontière.",
+        "en": "For enterprises, the argument is as much economic as sovereign: owning the weights allows deep customization, self-hosting on one's own hardware, and escape from the tariff about-turns of APIs. What remains to be seen is which benchmarks and which license actually accompany Beam — tomorrow's edition will tell whether this 501-billion bet lives up to the frontier's promises.",
+        "de": "Für Unternehmen ist das Argument ökonomisch wie auch souveränitätspolitisch: Die Gewichte zu besitzen erlaubt tiefgreifende Anpassung, Hosting auf eigener Hardware und die Umgehung von Preiserhöhungen der APIs. Zu sehen bleibt, welche Benchmarks und welche Lizenz Beam konkret begleiten — die morgige Ausgabe wird zeigen, ob diese Wette über 501 Milliarden die Versprechen der Front einlöst.",
+        "it": "Per le imprese, l'argomento è tanto economico quanto sovrano: possedere i pesi consente di personalizzare in profondità, ospitare sul proprio hardware e sfuggire agli aumenti tariffari delle API. Resta da vedere quali benchmark e quale licenza accompagnino concretamente Beam — l'edizione di domani dirà se questa scommessa da 501 miliardi mantiene le promesse della frontiera.",
+        "lmo": "Per i aziend, l'argoment l'è economegh tant quant de sovranità : ossessionà i pees el permètt de personalizzà in profondità, de ospità sora el propi hardware e de scampà ai revision di prezzi di API. A resten a vedè quali benchmark e quela licenza i vegnen insemina con Beam concretament — l'edizion de doman la dirà se questa scommessa de 501 miliard la ten i promess de la frontiera."
+      }
+    ],
+    "urls": [
+      "https://huggingface.co/blog/reflection-beam"
+    ],
+    "kicker": {
+      "fr": "Poids ouverts",
+      "en": "Open Weights",
+      "de": "Offene Gewichte",
+      "it": "Pesi aperti",
+      "lmo": "Pees vert"
+    },
+    "headline": {
+      "fr": "Beam, un modèle ouvert de 501 milliards de paramètres que l'on peut posséder",
+      "en": "Beam, an open 501-billion-parameter model you can actually own",
+      "de": "Beam, ein offenes Modell mit 501 Milliarden Parametern, das man besitzen kann",
+      "it": "Beam, un modello aperto da 501 miliardi di parametri che si può possedere",
+      "lmo": "Beam, on modell vert de 501 miliard de parameter che se pò ossessionà"
+    },
+    "subdeck": {
+      "fr": "La plateforme publie l'arrivée d'un géant open-weight à 501 milliards de paramètres, présenté comme un modèle que l'on peut posséder, personnaliser et faire monter en charge — deux jours après l'ouverture des poids de Muse Spark Open par Meta.",
+      "en": "The platform announces the arrival of an open-weight giant at 501 billion parameters, presented as a model one can own, customize and scale up — two days after Meta opened the weights of Muse Spark Open.",
+      "de": "Die Plattform meldet die Ankunft eines offenen Giganten mit 501 Milliarden Parametern, präsentiert als ein Modell, das man besitzen, anpassen und hochskalieren kann — zwei Tage nach der Freigabe der Gewichte von Muse Spark Open durch Meta.",
+      "it": "La piattaforma annuncia l'arrivo di un gigante open-weight da 501 miliardi di parametri, presentato come un modello che si può possedere, personalizzare e mettere sotto carico — due giorni dopo l'apertura dei pesi di Muse Spark Open da parte di Meta.",
+      "lmo": "La piattaforma la publichet l'arriv de on gigant open-weight de 501 miliard de parameter, presentaa comè on modell che se pò ossessionà, personalizzà e fà cres in scala — du dì dopo l'apertura di pees de Muse Spark Open de Meta."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "NVIDIA préentraîne sur 2,8 trillions de tokens de langues indiennes",
+        "en": "NVIDIA pretrains on 2.8 trillion tokens of Indian languages",
+        "de": "NVIDIA trainiert vorab auf 2,8 Billionen Tokens indischer Sprachen",
+        "it": "NVIDIA pre-addestra su 2,8 trilioni di token di lingue indiane",
+        "lmo": "NVIDIA la pretraina sora 2,8 trillion de token de lengh indian"
+      },
+      "body": {
+        "fr": "NVIDIA détaille le 16 octobre 2026 sur le blog Hugging Face un préentraînement à l'échelle sur les langues indiennes : 2,8 trillions de tokens, accompagnés d'un pipeline ouvert de génération de données. Le billet est publié à l'adresse <a href=\"https://huggingface.co/blog/nvidia/scaling-indic-pretraining\">huggingface.co/blog/nvidia/scaling-indic-pretraining</a>.",
+        "en": "NVIDIA details on October 16, 2026 on the Hugging Face blog a pretraining run at scale on Indian languages: 2.8 trillion tokens, accompanied by an open data generation pipeline. The post is published at <a href=\"https://huggingface.co/blog/nvidia/scaling-indic-pretraining\">huggingface.co/blog/nvidia/scaling-indic-pretraining</a>.",
+        "de": "NVIDIA beschreibt am 16. Oktober 2026 im Hugging-Face-Blog ein Vortraining im grossen Stil für indische Sprachen: 2,8 Billionen Tokens, begleitet von einer offenen Daten-Generierungspipeline. Der Beitrag ist unter <a href=\"https://huggingface.co/blog/nvidia/scaling-indic-pretraining\">huggingface.co/blog/nvidia/scaling-indic-pretraining</a> publiziert.",
+        "it": "NVIDIA illustra il 16 ottobre 2026 sul blog Hugging Face un pre-addestramento su larga scala sulle lingue indiane: 2,8 trilioni di token, accompagnati da una pipeline aperta di generazione di dati. Il post è pubblicato all'indirizzo <a href=\"https://huggingface.co/blog/nvidia/scaling-indic-pretraining\">huggingface.co/blog/nvidia/scaling-indic-pretraining</a>.",
+        "lmo": "NVIDIA la descriv el 16 de ottober 2026 sora el blog Hugging Face on pretrainament a scala sora i lengh indian : 2,8 trillion de token, insemina con on pipeline vert de generazion de datt. El billett l'è publicaa a l'indirizz <a href=\"https://huggingface.co/blog/nvidia/scaling-indic-pretraining\">huggingface.co/blog/nvidia/scaling-indic-pretraining</a>."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-17",
+        "en": "From the Wires — 2026-10-17",
+        "de": "From the Wires — 2026-10-17",
+        "it": "From the Wires — 2026-10-17",
+        "lmo": "From the Wires — 2026-10-17"
+      },
+      "urls": [
+        "https://huggingface.co/blog/nvidia/scaling-indic-pretraining"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Claude élucide les origines des courbes ECDSA",
+        "en": "Claude sheds light on the origins of ECDSA curves",
+        "de": "Claude erhellt die Ursprünge der ECDSA-Kurven",
+        "it": "Claude chiarisce le origini delle curve ECDSA",
+        "lmo": "Claude el ciariss i origin di curve ECDSA"
+      },
+      "body": {
+        "fr": "Une recherche d'Anthropic sur les origines des constantes des courbes ECDSA a réuni 771 points et 293 commentaires sur Hacker News depuis le 16 octobre 2026, avec un rapprochement indépendant du cryptographe Filippo Valsorda. Étude : <a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">anthropic.com/research/ecdsa-curve-origins</a> ; discussion : <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>.",
+        "en": "Anthropic research on the origins of the constants of ECDSA curves has drawn 771 points and 293 comments on Hacker News since October 16, 2026, with an independent verification by cryptographer Filippo Valsorda. Study: <a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">anthropic.com/research/ecdsa-curve-origins</a>; discussion: <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>.",
+        "de": "Eine Anthropic-Studie zu den Ursprüngen der ECDSA-Kurvenkonstanten hat seit dem 16. Oktober 2026 771 Punkte und 293 Kommentare auf Hacker News versammelt, mit einer unabhängigen Nachzeichnung durch den Kryptografen Filippo Valsorda. Studie: <a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">anthropic.com/research/ecdsa-curve-origins</a>; Diskussion: <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>.",
+        "it": "Una ricerca di Anthropic sulle origini delle costanti delle curve ECDSA ha raccolto 771 punti e 293 commenti su Hacker News dal 16 ottobre 2026, con una verifica indipendente del crittografo Filippo Valsorda. Studio: <a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">anthropic.com/research/ecdsa-curve-origins</a> ; discussione: <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>.",
+        "lmo": "Ona riserca de Anthropic sora i origin di costant di curve ECDSA l'ha cattaa 771 pont e 293 coment sora Hacker News del 16 de ottober 2026, con on aprocc indipendent del criptograf Filippo Valsorda. Studi : <a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">anthropic.com/research/ecdsa-curve-origins</a> ; discusion : <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Riserca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-17",
+        "en": "From the Wires — 2026-10-17",
+        "de": "From the Wires — 2026-10-17",
+        "it": "From the Wires — 2026-10-17",
+        "lmo": "From the Wires — 2026-10-17"
+      },
+      "urls": [
+        "https://www.anthropic.com/research/ecdsa-curve-origins",
+        "https://news.ycombinator.com/item?id=50122800"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "90 % des heures de travail hors des benchmarks d'IA",
+        "en": "90% of working hours fall outside AI benchmarks",
+        "de": "90 % der Arbeitsstunden ausserhalb der KI-Benchmarks",
+        "it": "Il 90% delle ore di lavoro fuori dai benchmark di IA",
+        "lmo": "El 90 % di ore de laurà foeura di benchmark d'IA"
+      },
+      "body": {
+        "fr": "Selon une étude de Mercor publiée le 16 octobre 2026, 90 % des heures de travail américaines portent sur des tâches que les benchmarks d'IA couvrent mal — un signal sévère pour l'évaluation des modèles. Carte complète sur <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">mercor.com/research/labor-index</a>.",
+        "en": "According to a Mercor study published on October 16, 2026, 90% of U.S. working hours involve tasks that AI benchmarks cover poorly — a severe signal for model evaluation. Full map on <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">mercor.com/research/labor-index</a>.",
+        "de": "Laut einer am 16. Oktober 2026 veröffentlichten Studie von Mercor entfallen 90 % der amerikanischen Arbeitsstunden auf Aufgaben, die KI-Benchmarks schlecht abdecken — ein ernüchterndes Signal für die Bewertung von Modellen. Vollständige Karte auf <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">mercor.com/research/labor-index</a>.",
+        "it": "Secondo uno studio di Mercor pubblicato il 16 ottobre 2026, il 90% delle ore di lavoro statunitensi riguarda task che i benchmark di IA coprono poco — un segnale severo per la valutazione dei modelli. Mappa completa su <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">mercor.com/research/labor-index</a>.",
+        "lmo": "Second on studi de Mercor publicaa el 16 de ottober 2026, el 90 % di ore de laurà american i stan sora di incarigh che i benchmark d'IA i cobrissen mal — on segn sever per la valutazion di modell. Carta completa sora <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">mercor.com/research/labor-index</a>."
+      },
+      "tag": {
+        "fr": "Industrie",
+        "en": "Industry",
+        "de": "Industrie",
+        "it": "Industria",
+        "lmo": "Industria"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-17",
+        "en": "From the Wires — 2026-10-17",
+        "de": "From the Wires — 2026-10-17",
+        "it": "From the Wires — 2026-10-17",
+        "lmo": "From the Wires — 2026-10-17"
+      },
+      "urls": [
+        "https://www.mercor.com/research/labor-index/benchmark-map/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Gemini 4 Argon passe StarCraft au banc d'essai",
+        "en": "Gemini 4 Argon takes StarCraft to the test bench",
+        "de": "Gemini 4 Argon auf dem Prüfstand — mit StarCraft",
+        "it": "Gemini 4 Argon mette StarCraft alla prova",
+        "lmo": "Gemini 4 Argon el passa StarCraft al banc de prova"
+      },
+      "body": {
+        "fr": "StarSkirmish Bench, où les LLM jouent à StarCraft Brood War en écrivant du code, a été actualisé avec les modèles phares d'OpenAI, Anthropic, Google et Muse — dont Gemini 4 Argon. Résultats et classement publiés le 16 octobre 2026 sur <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+        "en": "StarSkirmish Bench, where LLMs play StarCraft Brood War by writing code, has been updated with the flagship models of OpenAI, Anthropic, Google and Muse — including Gemini 4 Argon. Results and ranking published on October 16, 2026 on <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+        "de": "StarSkirmish Bench, bei dem LLMs StarCraft Brood War spielen, indem sie Code schreiben, wurde mit den Flaggschiff-Modellen von OpenAI, Anthropic, Google und Muse aktualisiert — darunter Gemini 4 Argon. Ergebnisse und Ranking am 16. Oktober 2026 veröffentlicht auf <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+        "it": "StarSkirmish Bench, dove i LLM giocano a StarCraft Brood War scrivendo codice, è stato aggiornato con i modelli di punta di OpenAI, Anthropic, Google e Muse — tra cui Gemini 4 Argon. Risultati e classifica pubblicati il 16 ottobre 2026 su <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+        "lmo": "StarSkirmish Bench, indove che i LLM i giughen a StarCraft Brood War scrivend codi, l'è staa atualizaa con i modell de cima de OpenAI, Anthropic, Google e Muse — intra i quaj Gemini 4 Argon. Resültad e classifica publicaa el 16 de ottober 2026 sora <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>."
+      },
+      "tag": {
+        "fr": "Benchmarks",
+        "en": "Benchmarks",
+        "de": "Benchmarks",
+        "it": "Benchmark",
+        "lmo": "Benchmark"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-17",
+        "en": "From the Wires — 2026-10-17",
+        "de": "From the Wires — 2026-10-17",
+        "it": "From the Wires — 2026-10-17",
+        "lmo": "From the Wires — 2026-10-17"
+      },
+      "urls": [
+        "https://starskirmish.com/bench/v0-2/"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Page 1 — À la Une",
+        "en": "Page 1 — Front Page",
+        "de": "Seite 1 — Schlagzeilen",
+        "it": "Pagina 1 — In Prima Piano",
+        "lmo": "Pagina 1 — In Copertina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Modèles & frontière",
+            "en": "Models & the Frontier",
+            "de": "Modelle & Front",
+            "it": "Modelli & frontiera",
+            "lmo": "Modell & frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Itaú déploie l'IA générative pour l'ensemble de sa clientèle",
+                "en": "Itaú rolls out generative AI to its entire customer base",
+                "de": "Itaú setzt generative KI für die gesamte Kundschaft ein",
+                "it": "Itaú distribuisce l'IA generativa all'intera clientela",
+                "lmo": "Itaù l'è dèpiega l'IA generativa per tutta la soa clientela"
+              },
+              "body": {
+                "fr": "La plus grande banne d'Amérique latine déploie une interface conversationnelle, ia.i, et une plateforme de gouvernance, IARA, pour appliquer sa stratégie « AI First » à ses clients comme à ses employés — dans l'un des secteurs les plus réglementés du Brésil. OpenAI détaille le cas d'école dans <a href=\"https://openai.com/index/itau-generative-ai\">son article du 16 octobre 2026</a>.",
+                "en": "Latin America's largest bank is rolling out a conversational interface, ia.i, and a governance platform, IARA, to apply its \"AI First\" strategy to customers and employees alike — in one of Brazil's most heavily regulated sectors. OpenAI details the textbook case in <a href=\"https://openai.com/index/itau-generative-ai\">its article of October 16, 2026</a>.",
+                "de": "Die grösste Bank Lateinamerikas führt eine dialogorientierte Oberfläche, ia.i, sowie eine Governance-Plattform, IARA, ein, um ihre «AI-First»-Strategie bei Kunden wie Mitarbeitenden umzusetzen — in einem der am stärksten regulierten Sektoren Brasiliens. OpenAI beschreibt die Fallstudie in <a href=\"https://openai.com/index/itau-generative-ai\">seinem Artikel vom 16. Oktober 2026</a>.",
+                "it": "La più grande banca dell'America Latina distribuisce un'interfaccia conversazionale, ia.i, e una piattaforma di governance, IARA, per applicare la propria strategia «AI First» tanto ai clienti quanto ai dipendenti — in uno dei settori più regolamentati del Brasile. OpenAI illustra il caso esemplare in <a href=\"https://openai.com/index/itau-generative-ai\">il suo articolo del 16 ottobre 2026</a>.",
+                "lmo": "La banca pussee granda de l'America latina la dèpiega ona interfacce conversazionala, ia.i, e ona piattaforma de governance, IARA, per aplicà la soa strategia « AI First » ai client tant quant ai dipendent — in vun di settor pussee regolamentaa del Brasil. OpenAI la descriv el cas de scööla in <a href=\"https://openai.com/index/itau-generative-ai\">el so articol del 16 de ottober 2026</a>."
+              },
+              "kicker": {
+                "fr": "Entreprise",
+                "en": "Enterprise",
+                "de": "Unternehmen",
+                "it": "Impresa",
+                "lmo": "Azienda"
+              },
+              "urls": [
+                "https://openai.com/index/itau-generative-ai"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Stack Overflow for Agents triple ses inscriptions grâce au plugin ChatGPT",
+                "en": "Stack Overflow for Agents triples signups thanks to ChatGPT plugin",
+                "de": "Stack Overflow for Agents verdreifacht die Anmeldungen dank des ChatGPT-Plugins",
+                "it": "Stack Overflow for Agents triplica le iscrizioni grazie al plugin ChatGPT",
+                "lmo": "Stack Overflow for Agents el triplia i iscrizion grazzia al plugin ChatGPT"
+              },
+              "body": {
+                "fr": "Deux ingénieurs ont livré Stack Overflow for Agents en quelques semaines avec Codex, et le plugin ChatGPT associé a entraîné une croissance allant jusqu'à 10× des créations d'agents sur la plateforme, signale <a href=\"https://openai.com/index/stack-overflow-chatgpt-plugin\">l'annonce d'OpenAI du 16 octobre 2026</a>. Les inscriptions ont triplé depuis le lancement.",
+                "en": "Two engineers shipped Stack Overflow for Agents in a matter of weeks using Codex, and the associated ChatGPT plugin drove growth of up to 10× in agent creation on the platform, according to <a href=\"https://openai.com/index/stack-overflow-chatgpt-plugin\">OpenAI's announcement of October 16, 2026</a>. Signups have tripled since launch.",
+                "de": "Zwei Ingenieure lieferten Stack Overflow for Agents mit Codex in wenigen Wochen aus; das zugehörige ChatGPT-Plugin löste ein Wachstum von bis zu 10× bei der Erstellung von Agenten auf der Plattform aus, wie <a href=\"https://openai.com/index/stack-overflow-chatgpt-plugin\">die Ankündigung von OpenAI vom 16. Oktober 2026</a> meldet. Die Anmeldungen haben sich seit dem Launch verdreifacht.",
+                "it": "Due ingegneri hanno realizzato Stack Overflow for Agents in poche settimane con Codex, e il plugin ChatGPT associato ha innescato una crescita fino a 10× delle creazioni di agenti sulla piattaforma, segnala <a href=\"https://openai.com/index/stack-overflow-chatgpt-plugin\">l'annuncio di OpenAI del 16 ottobre 2026</a>. Le iscrizioni sono triplicate dal lancio.",
+                "lmo": "Duu ingegner i hann faa sù Stack Overflow for Agents in poc settiman con Codex, e el plugin ChatGPT ligaa l'ha portaad ona crescita fin a 10× di creazion di agent sora la piattaforma, el segnala <a href=\"https://openai.com/index/stack-overflow-chatgpt-plugin\">l'anunzia de OpenAI del 16 de ottober 2026</a>. I iscrizion hinn triplaa de quand l'è staa lançaa."
+              },
+              "kicker": {
+                "fr": "Écosystème",
+                "en": "Ecosystem",
+                "de": "Ökosystem",
+                "it": "Ecosistema",
+                "lmo": "Ecosistem"
+              },
+              "urls": [
+                "https://openai.com/index/stack-overflow-chatgpt-plugin"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 2 — Le Cahier Technique",
+        "en": "Page 2 — The Technical Section",
+        "de": "Seite 2 — Das Technik-Dossier",
+        "it": "Pagina 2 — Il Quaderno Tecnico",
+        "lmo": "Pagina 2 — El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "articles": [
+            {
+              "headline": {
+                "fr": "Comment l'équipe Claude Code relit le code que ses agents produisent",
+                "en": "How the Claude Code team reviews the code its agents produce",
+                "de": "Wie das Claude-Code-Team den Code seiner Agenten begutachtet",
+                "it": "Come il team di Claude Code rivede il codice prodotto dai suoi agenti",
+                "lmo": "Comè la squadra Claude Code la relègg el codi che i so agent i produsen"
+              },
+              "body": {
+                "fr": "L'équipe Claude Code explique le 16 octobre 2026 comment elle relit du code au volume que les agents produisent : vérification par Claude de son propre travail, approbation humaine par niveaux de risque, et une liste de contrôle pour adopter le processus. Le billet, qui a recueilli 281 points et 258 commentaires sur Hacker News, est accessible <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">sur le blog de l'équipe</a>.",
+                "en": "The Claude Code team explains on October 16, 2026 how it reviews code at the volume agents produce: Claude checking its own work, tiered human approval by risk level, and a checklist for adopting the process. The post, which gathered 281 points and 258 comments on Hacker News, is available <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">on the team's blog</a>.",
+                "de": "Das Claude-Code-Team erklärt am 16. Oktober 2026, wie es Code im Umfang prüft, wie ihn Agenten produzieren: Verifikation des eigenen Werks durch Claude, menschliche Freigabe nach Risikostufen und eine Checkliste zur Einführung des Prozesses. Der Beitrag, der 281 Punkte und 258 Kommentare auf Hacker News erhielt, ist <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">auf dem Blog des Teams</a> zugänglich.",
+                "it": "Il team di Claude Code spiega il 16 ottobre 2026 come rivede il codice nei volumi prodotti dagli agenti: verifica da parte di Claude del proprio lavoro, approvazione umana per livelli di rischio e una checklist per adottare il processo. Il post, che ha raccolto 281 punti e 258 commenti su Hacker News, è accessibile <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">sul blog del team</a>.",
+                "lmo": "La squadra Claude Code la spiega el 16 de ottober 2026 comè la relègg el codi in volumm che i agent i produsen : verifica de Claude del propi laurà, aprovazion umana per nivell de risch, e ona lista de contròll per adotà el process. El billett, che l'ha cattaa 281 pont e 258 coment sora Hacker News, el se pò lègg <a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">sora el blog de la squadra</a>."
+              },
+              "kicker": {
+                "fr": "Ingénierie",
+                "en": "Engineering",
+                "de": "Engineering",
+                "it": "Ingegneria",
+                "lmo": "Ingegneria"
+              },
+              "urls": [
+                "https://claude.dev/blog/solving-code-review-at-anthropic/",
+                "https://news.ycombinator.com/item?id=50122951"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI ouvre le prompt-to-voice pour tous les clients de l'API",
+                "en": "OpenAI opens prompt-to-voice to all API customers",
+                "de": "OpenAI öffnet Prompt-to-Voice für alle API-Kunden",
+                "it": "OpenAI apre il prompt-to-voice a tutti i clienti dell'API",
+                "lmo": "OpenAI la vert el prompt-to-voice per tucc i client de l'API"
+              },
+              "body": {
+                "fr": "Depuis le 16 octobre 2026, tous les clients de l'API peuvent créer une voix personnalisée à partir d'une simple description textuelle, gratuitement à la création, puis la réutiliser dans les sessions GPT-Live. Neuf voix « naturelles » s'y ajoutent — Nuri, Juni et Flitz (allemand), Brise et Sillage (français) — selon <a href=\"https://platform.openai.com/docs/changelog\">le changelog de la plateforme OpenAI</a>.",
+                "en": "As of October 16, 2026, all API customers can create a custom voice from a simple text description, free at creation, then reuse it in GPT-Live sessions. Nine \"natural\" voices have been added — Nuri, Juni and Flitz (German), Brise and Sillage (French) — according to <a href=\"https://platform.openai.com/docs/changelog\">the OpenAI platform changelog</a>.",
+                "de": "Seit dem 16. Oktober 2026 können alle API-Kunden aus einer reinen Textbeschreibung eine personalisierte Stimme erstellen — kostenlos bei der Erstellung — und sie anschliessend in GPT-Live-Sitzungen wiederverwenden. Neun «natürliche» Stimmen kommen hinzu — Nuri, Juni und Flitz (Deutsch), Brise und Sillage (Französisch) — gemäss <a href=\"https://platform.openai.com/docs/changelog\">dem Changelog der OpenAI-Plattform</a>.",
+                "it": "Dal 16 ottobre 2026, tutti i clienti dell'API possono creare una voce personalizzata a partire da una semplice descrizione testuale, gratuitamente in fase di creazione, per poi riutilizzarla nelle sessioni GPT-Live. Si aggiungono nove voci «naturali» — Nuri, Juni e Flitz (tedesco), Brise e Sillage (francese) — secondo <a href=\"https://platform.openai.com/docs/changelog\">il changelog della piattaforma OpenAI</a>.",
+                "lmo": "Del 16 de ottober 2026, tucc i client de l'API i pòden creà ona voeus personalizzada a partì de ona semplic descrizion testual, a gratis a la creazion, e poeu drovàla ancamò in di session GPT-Live. Nov voeus « naturai » i se gionen — Nuri, Juni e Flitz (todesch), Brise e Sillage (frances) — second <a href=\"https://platform.openai.com/docs/changelog\">el changelog de la piattaforma OpenAI</a>."
+              },
+              "kicker": {
+                "fr": "API",
+                "en": "API",
+                "de": "API",
+                "it": "API",
+                "lmo": "API"
+              },
+              "urls": [
+                "https://platform.openai.com/docs/changelog"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 3 — La Recherche",
+        "en": "Page 3 — Research",
+        "de": "Seite 3 — Die Forschung",
+        "it": "Pagina 3 — La Ricerca",
+        "lmo": "Pagina 3 — La Riserca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Papers del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "LEASH : garder l'agent fort en laisse, à 19 % de coût en moins",
+                "en": "LEASH: keeping the strong agent on a leash, at 19% less cost",
+                "de": "LEASH: den starken Agenten an die Leine nehmen, bei 19 % tieferen Kosten",
+                "it": "LEASH: tenere l'agente forte al guinzaglio, con il 19% di costi in meno",
+                "lmo": "LEASH : tegnì in corsi l'agent fort, al 19 % de cost de manch"
+              },
+              "body": {
+                "fr": "LEASH, un cadre sans entraînement présenté sur Hugging Face Daily Papers, laisse un agent faible agir par défaut et ne passe la main à un agent fort que lorsque son incertitude latente le justifie, avec un observateur fantôme pour surveiller l'agent fort boîte noire. Sur OSWorld, avec Qwen3.5-35B-A3B, LEASH atteint 73,66 % de succès à 0,4117 $ par tâche, soit le niveau d'un Claude Opus 5 toujours actif (72,90 %) pour 19,2 % de coût en moins. Papier : <a href=\"https://arxiv.org/abs/2610.22280\">arXiv:2610.22280</a>.",
+                "en": "LEASH, a training-free framework presented on Hugging Face Daily Papers, lets a weak agent act by default and only hands over to a strong agent when its latent uncertainty justifies it, with a ghost observer to monitor the black-box strong agent. On OSWorld, with Qwen3.5-35B-A3B, LEASH reaches 73.66% success at $0.4117 per task — the level of an always-on Claude Opus 5 (72.90%) at 19.2% lower cost. Paper: <a href=\"https://arxiv.org/abs/2610.22280\">arXiv:2610.22280</a>.",
+                "de": "LEASH, ein trainingsfreier Rahmen, der auf Hugging Face Daily Papers vorgestellt wurde, lässt einen schwachen Agenten standardmässig handeln und übergibt nur dann an einen starken Agenten, wenn dessen latente Unsicherheit dies rechtfertigt, mit einem Schattenbeobachter zur Überwachung des Blackbox-Agenten. Auf OSWorld erreicht LEASH mit Qwen3.5-35B-A3B 73,66 % Erfolgsquote bei 0,4117 $ pro Aufgabe — das Niveau eines ständig aktiven Claude Opus 5 (72,90 %) bei 19,2 % tieferen Kosten. Paper: <a href=\"https://arxiv.org/abs/2610.22280\">arXiv:2610.22280</a>.",
+                "it": "LEASH, un framework senza addestramento presentato su Hugging Face Daily Papers, lascia agire per impostazione predefinita un agente debole e passa la mano a un agente forte solo quando la sua incertezza latente lo giustifica, con un osservatore fantasma per sorvegliare l'agente forte black-box. Su OSWorld, con Qwen3.5-35B-A3B, LEASH raggiunge il 73,66% di successo a 0,4117 $ per task, vale a dire il livello di un Claude Opus 5 sempre attivo (72,90%) con un 19,2% di costi in meno. Paper: <a href=\"https://arxiv.org/abs/2610.22280\">arXiv:2610.22280</a>.",
+                "lmo": "LEASH, on quadraa senza trainament presentaa sora Hugging Face Daily Papers, el lassa on agent debol laurà per default e el passa la man a on agent fort domà quand che la soa incertezza latent la la giusstifiga, con on osservador fantasma per tegnì d'oeugg l'agent fort scàtol negher. Sora OSWorld, con Qwen3.5-35B-A3B, LEASH el riva al 73,66 % de sucess a 0,4117 $ per incarigh, o ben el nivell de on Claude Opus 5 semper attiv (72,90 %) per el 19,2 % de cost de manch. Papè : <a href=\"https://arxiv.org/abs/2610.22280\">arXiv:2610.22280</a>."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.22280"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "LeanPRM : Lean fabrique les étiquettes de supervision des preuves",
+                "en": "LeanPRM: Lean manufactures the supervision labels for proofs",
+                "de": "LeanPRM: Lean liefert die Supervisionsetiketten für Beweise",
+                "it": "LeanPRM: Lean produce le etichette di supervisione delle dimostrazioni",
+                "lmo": "LeanPRM : Lean el fa sù i etichett de supervision di prov"
+              },
+              "body": {
+                "fr": "LeanPRM utilise l'assistant de preuves Lean pour générer automatiquement des étiquettes d'étape sur des preuves en langage naturel : 10 634 preuves et 152 000 étapes étiquetées sans annotation humaine. Un vérificateur Qwen3-4B entraîné dessus passe de 48,2 à 74,7 d'exactitude d'étiquetage sur LeanPRM-Bench, contre 60,3 pour le même modèle entraîné sur PRM800K. Papier : <a href=\"https://arxiv.org/abs/2610.17697\">arXiv:2610.17697</a>.",
+                "en": "LeanPRM uses the Lean proof assistant to automatically generate step-level labels on natural-language proofs: 10,634 proofs and 152,000 labeled steps with no human annotation. A Qwen3-4B verifier trained on them rises from 48.2 to 74.7 labeling accuracy on LeanPRM-Bench, versus 60.3 for the same model trained on PRM800K. Paper: <a href=\"https://arxiv.org/abs/2610.17697\">arXiv:2610.17697</a>.",
+                "de": "LeanPRM nutzt den Beweisassistenten Lean, um automatisch Schrittetiketten für Beweise in natürlicher Sprache zu generieren: 10 634 Beweise und 152 000 etikettierte Schritte ohne menschliche Annotation. Ein damit trainierter Qwen3-4B-Verifikator steigt bei der Etikettiergenauigkeit auf LeanPRM-Bench von 48,2 auf 74,7, gegenüber 60,3 für dasselbe auf PRM800K trainierte Modell. Paper: <a href=\"https://arxiv.org/abs/2610.17697\">arXiv:2610.17697</a>.",
+                "it": "LeanPRM utilizza l'assistente di dimostrazioni Lean per generare automaticamente etichette a livello di passo su dimostrazioni in linguaggio naturale: 10.634 dimostrazioni e 152.000 passi etichettati senza annotazione umana. Un verificatore Qwen3-4B addestrato su questi dati passa da 48,2 a 74,7 di accuratezza di etichettatura su LeanPRM-Bench, contro 60,3 per lo stesso modello addestrato su PRM800K. Paper: <a href=\"https://arxiv.org/abs/2610.17697\">arXiv:2610.17697</a>.",
+                "lmo": "LeanPRM el drova l'assistenta de prov Lean per generà in automatic etichett de passagg sora di prov in lengoeu natural : 10 634 prov e 152 000 passagg etichettaa senza nessuna annotazion umana. On verificador Qwen3-4B trainaa sora de lu el passa de 48,2 a 74,7 de esattezza de etichettazion sora LeanPRM-Bench, contra 60,3 per el midem modell trainaa sora PRM800K. Papè : <a href=\"https://arxiv.org/abs/2610.17697\">arXiv:2610.17697</a>."
+              },
+              "kicker": {
+                "fr": "Mathématiques",
+                "en": "Mathematics",
+                "de": "Mathematik",
+                "it": "Matematica",
+                "lmo": "Matematica"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.17697"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Apprendre à copier-coller : une tête dédiée améliore les LLM",
+                "en": "Learning to copy-paste: a dedicated head improves LLMs",
+                "de": "Kopieren und Einfügen lernen: ein dedizierter Kopf verbessert LLMs",
+                "it": "Imparare a copiare-incollare: una testa dedicata migliora i LLM",
+                "lmo": "Imprend a copià e incollà : ona testa dedicada la migliora i LLM"
+              },
+              "body": {
+                "fr": "Les Copy-Paste Language Models ajoutent une tête légère de copie à la tête de langage classique, améliorant l'efficacité d'entraînement et les performances long-contexte et retrieval sur des modèles préentraînés de 135 millions à 1,7 milliard de paramètres, avec un surcoût négligeable. Les auteurs, du Cornell LIL Lab, expliquent le gain par un contournement du goulot d'étranglement de gradient de la tête LM. Papier : <a href=\"https://arxiv.org/abs/2610.19247\">arXiv:2610.19247</a>.",
+                "en": "Copy-Paste Language Models add a lightweight copying head alongside the standard language head, improving training efficiency and long-context and retrieval performance on pretrained models from 135 million to 1.7 billion parameters, at negligible overhead. The authors, from the Cornell LIL Lab, attribute the gain to bypassing the LM head's gradient bottleneck. Paper: <a href=\"https://arxiv.org/abs/2610.19247\">arXiv:2610.19247</a>.",
+                "de": "Copy-Paste Language Models ergänzen den klassischen Sprachkopf um einen leichten Kopierkopf, was die Trainingseffizienz sowie die Langkontext- und Retrieval-Leistung bei vortrainierten Modellen von 135 Millionen bis 1,7 Milliarden Parametern verbessert — bei vernachlässigbarem Mehraufwand. Die Autoren vom Cornell LIL Lab erklären den Gewinn mit einer Umgehung des Gradientenengpasses des LM-Kopfs. Paper: <a href=\"https://arxiv.org/abs/2610.19247\">arXiv:2610.19247</a>.",
+                "it": "I Copy-Paste Language Models aggiungono una testa leggera di copia alla classica testa linguistica, migliorando l'efficienza di addestramento e le prestazioni long-context e retrieval su modelli pre-addestrati da 135 milioni a 1,7 miliardi di parametri, con un sovraccarico trascurabile. Gli autori, del Cornell LIL Lab, spiegano il guadagno con l'aggiramento del collo di bottiglia di gradiente della testa LM. Paper: <a href=\"https://arxiv.org/abs/2610.19247\">arXiv:2610.19247</a>.",
+                "lmo": "I Copy-Paste Language Models i gionen ona leggéra testa de copia a la testa de lengoeu clàssega, migiorand l'efficenza de trainament e i prestazzion longh-contest e retrieval sora di modell pretrainaa de 135 million a 1,7 miliard de parameter, con on cost aggiont negligibil. I autor, del Cornell LIL Lab, i spiega el guadagn con on girà in turn di col tèsta del gradient de la testa LM. Papè : <a href=\"https://arxiv.org/abs/2610.19247\">arXiv:2610.19247</a>."
+              },
+              "kicker": {
+                "fr": "Architecture",
+                "en": "Architecture",
+                "de": "Architektur",
+                "it": "Architettura",
+                "lmo": "Architettura"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.19247"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Page 4 — La Communauté & Édito",
+        "en": "Page 4 — Community & Editorial",
+        "de": "Seite 4 — Die Community & das Editorial",
+        "it": "Pagina 4 — La Comunità & Editoriale",
+        "lmo": "Pagina 4 — La Comunità & Editoria"
+      },
+      "sections": [
+        {
+          "articles": [
+            {
+              "headline": {
+                "fr": "90 % des heures de travail américaines hors des benchmarks d'IA",
+                "en": "90% of U.S. working hours fall outside AI benchmarks",
+                "de": "90 % der amerikanischen Arbeitsstunden ausserhalb der KI-Benchmarks",
+                "it": "Il 90% delle ore di lavoro statunitensi fuori dai benchmark di IA",
+                "lmo": "El 90 % di ore de laurà american foeura di benchmark d'IA"
+              },
+              "body": {
+                "fr": "Une étude de Mercor publiée le 16 octobre 2026 — 445 points et 389 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a> — estime que 90 % des heures de travail américaines se concentrent sur des tâches mal couvertes par les benchmarks d'IA actuels. Autrement dit, la course aux scores évaluerait une part infime du travail réel. L'étude et sa carte des tâches sont consultables sur <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">le site de Mercor</a>.",
+                "en": "A Mercor study published on October 16, 2026 — 445 points and 389 comments on <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a> — estimates that 90% of U.S. working hours are concentrated on tasks poorly covered by current AI benchmarks. In other words, the race for scores would be evaluating a tiny fraction of real work. The study and its task map are available on <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">Mercor's website</a>.",
+                "de": "Eine am 16. Oktober 2026 veröffentlichte Studie von Mercor — 445 Punkte und 389 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a> — schätzt, dass 90 % der amerikanischen Arbeitsstunden auf Aufgaben entfallen, die von heutigen KI-Benchmarks schlecht abgedeckt sind. Mit anderen Worten: Das Wettrennen um die Scores würde einen winzigen Teil der realen Arbeit messen. Die Studie samt Aufgabenkarte ist auf <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">der Website von Mercor</a> einsehbar.",
+                "it": "Uno studio di Mercor pubblicato il 16 ottobre 2026 — 445 punti e 389 commenti su <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a> — stima che il 90% delle ore di lavoro statunitensi si concentri su task poco coperti dai benchmark di IA attuali. In altre parole, la corsa ai punteggi valuterebbe una frazione minima del lavoro reale. Lo studio e la sua mappa dei task sono consultabili <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">sul sito di Mercor</a>.",
+                "lmo": "On studi de Mercor publicaa el 16 de ottober 2026 — 445 pont e 389 coment sora <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a> — el stima che el 90 % di ore de laurà american i se concentren sora di incarigh mai cobrìi di benchmark d'IA de ades. A dìll in alter paroll, la gara ai score la valutaria una part minuscula del laurà ver. El studi e la soa carta di incarigh i se pòden legg sora <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">el sit de Mercor</a>."
+              },
+              "kicker": {
+                "fr": "Économie",
+                "en": "Economics",
+                "de": "Wirtschaft",
+                "it": "Economia",
+                "lmo": "Economia"
+              },
+              "urls": [
+                "https://www.mercor.com/research/labor-index/benchmark-map/",
+                "https://news.ycombinator.com/item?id=50121179"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini 4 Argon joue à StarCraft — et le classement est publié",
+                "en": "Gemini 4 Argon plays StarCraft — and the leaderboard is out",
+                "de": "Gemini 4 Argon spielt StarCraft — und das Ranking ist veröffentlicht",
+                "it": "Gemini 4 Argon gioca a StarCraft — e la classifica è pubblicata",
+                "lmo": "Gemini 4 Argon el giuga a StarCraft — e la classifica l'è stada publicada"
+              },
+              "body": {
+                "fr": "StarSkirmish Bench, où des LLM jouent à StarCraft Brood War en écrivant du code, a été actualisé avec les modèles phares d'OpenAI, Anthropic, Google et Muse. La publication du 16 octobre 2026 a réuni 203 points et 90 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50118688\">Hacker News</a>. Classement complet sur <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+                "en": "StarSkirmish Bench, where LLMs play StarCraft Brood War by writing code, has been updated with flagship models from OpenAI, Anthropic, Google and Muse. The October 16, 2026 release gathered 203 points and 90 comments on <a href=\"https://news.ycombinator.com/item?id=50118688\">Hacker News</a>. Full leaderboard on <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+                "de": "StarSkirmish Bench, bei dem LLMs StarCraft Brood War spielen, indem sie Code schreiben, wurde mit den Flaggschiff-Modellen von OpenAI, Anthropic, Google und Muse aktualisiert. Die Veröffentlichung vom 16. Oktober 2026 versammelte 203 Punkte und 90 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50118688\">Hacker News</a>. Das komplette Ranking auf <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+                "it": "StarSkirmish Bench, dove i LLM giocano a StarCraft Brood War scrivendo codice, è stato aggiornato con i modelli di punta di OpenAI, Anthropic, Google e Muse. La pubblicazione del 16 ottobre 2026 ha raccolto 203 punti e 90 commenti su <a href=\"https://news.ycombinator.com/item?id=50118688\">Hacker News</a>. Classifica completa su <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>.",
+                "lmo": "StarSkirmish Bench, indove che di LLM i giocaven a StarCraft Brood War scrivend codi, l'è staa atualizaa con i modell de cima de OpenAI, Anthropic, Google e Muse. La publicazion del 16 de ottober 2026 l'ha cattaa 203 pont e 90 coment sora <a href=\"https://news.ycombinator.com/item?id=50118688\">Hacker News</a>. Classifica completa sora <a href=\"https://starskirmish.com/bench/v0-2/\">starskirmish.com</a>."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://starskirmish.com/bench/v0-2/",
+                "https://news.ycombinator.com/item?id=50118688"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "llama.cpp tourne nativement sur PlayStation 5 jailbreakée",
+                "en": "llama.cpp runs natively on a jailbroken PlayStation 5",
+                "de": "llama.cpp läuft nativ auf gejailbreakter PlayStation 5",
+                "it": "llama.cpp gira nativamente su PlayStation 5 con jailbreak",
+                "lmo": "llama.cpp el giraa nativament sora PlayStation 5 jailbreakada"
+              },
+              "body": {
+                "fr": "Un projetGitHub publié le 16 octobre 2026 fait tourner n'importe quel modèle GGUF nativement sur une PlayStation 5 jailbreakée via llama.cpp — 231 points et 62 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50122431\">Hacker News</a>. Dépôt : <a href=\"https://github.com/cobanov/PS5LM\">github.com/cobanov/PS5LM</a>.",
+                "en": "A GitHub project published on October 16, 2026 runs any GGUF model natively on a jailbroken PlayStation 5 via llama.cpp — 231 points and 62 comments on <a href=\"https://news.ycombinator.com/item?id=50122431\">Hacker News</a>. Repository: <a href=\"https://github.com/cobanov/PS5LM\">github.com/cobanov/PS5LM</a>.",
+                "de": "Ein am 16. Oktober 2026 veröffentlichtes GitHub-Projekt bringt jedes beliebige GGUF-Modell über llama.cpp nativ auf einer gejailbreakten PlayStation 5 zum Laufen — 231 Punkte und 62 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50122431\">Hacker News</a>. Repository: <a href=\"https://github.com/cobanov/PS5LM\">github.com/cobanov/PS5LM</a>.",
+                "it": "Un progetto GitHub pubblicato il 16 ottobre 2026 fa girare qualsiasi modello GGUF nativamente su una PlayStation 5 con jailbreak tramite llama.cpp — 231 punti e 62 commenti su <a href=\"https://news.ycombinator.com/item?id=50122431\">Hacker News</a>. Repository: <a href=\"https://github.com/cobanov/PS5LM\">github.com/cobanov/PS5LM</a>.",
+                "lmo": "On proget GitHub publicaa el 16 de ottober 2026 el fa girà on qualsivoeul modell GGUF nativament sora ona PlayStation 5 jailbreakada via llama.cpp — 231 pont e 62 coment sora <a href=\"https://news.ycombinator.com/item?id=50122431\">Hacker News</a>. Deposits : <a href=\"https://github.com/cobanov/PS5LM\">github.com/cobanov/PS5LM</a>."
+              },
+              "kicker": {
+                "fr": "Matériel",
+                "en": "Hardware",
+                "de": "Hardware",
+                "it": "Hardware",
+                "lmo": "Hardware"
+              },
+              "urls": [
+                "https://github.com/cobanov/PS5LM",
+                "https://news.ycombinator.com/item?id=50122431"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — L'ouverture des poids avance, la mesure reste à la traîne",
+                "en": "Editorial — Open weights march on, measurement lags behind",
+                "de": "Editorial — Die Öffnung der Gewichte schreitet voran, das Messen hinkt hinterher",
+                "it": "Editoriale — L'apertura dei pesi avanza, la misurazione resta indietro",
+                "lmo": "Editoria — L'apertura di pees la va adavanti, la misura la resten indree"
+              },
+              "body": {
+                "fr": "Deux nouvelles tombées à vingt-quatre heures d'intervalle racontent la même histoire sous deux angles. Côté production : Hugging Face héberge Beam et ses 501 milliards de paramètres téléchargeables — <a href=\"https://huggingface.co/blog/reflection-beam\">annonce du 16 octobre 2026</a>. Côté mesure : Mercor chiffre à 90 % la part des heures de travail mal couvertes par les benchmarks — <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">étude du même jour</a>. Le premier dit que les modèles ouverts rattrapent la frontière ; le second rappelle que la frontière elle-même ne sait pas ce qu'elle mesure. L'industrie produit toujours plus de capacité, mais toujours aussi peu de certitude sur ce qu'elle vaut hors des terrains de jeu académiques. La prochaine bataille ne se gagnera pas sur les paramètres : elle se gagnera sur les bancs d'essai qui ressemblent au travail des gens.",
+                "en": "Two pieces of news landed twenty-four hours apart and tell the same story from two angles. On the production side: Hugging Face hosts Beam and its 501 billion downloadable parameters — <a href=\"https://huggingface.co/blog/reflection-beam\">announcement of October 16, 2026</a>. On the measurement side: Mercor puts at 90% the share of working hours poorly covered by benchmarks — <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">study from the same day</a>. The first says open models are catching up with the frontier; the second reminds us that the frontier itself does not know what it is measuring. The industry keeps producing more capability, but just as little certainty about what it is worth outside academic playgrounds. The next battle will not be won on parameters: it will be won on testbeds that resemble people's actual work.",
+                "de": "Zwei Meldungen im Abstand von vierundzwanzig Stunden erzählen dieselbe Geschichte aus zwei Blickwinkeln. Auf der Produktionsseite: Hugging Face hostet Beam mit seinen 501 Milliarden herunterladbaren Parametern — <a href=\"https://huggingface.co/blog/reflection-beam\">Ankündigung vom 16. Oktober 2026</a>. Auf der Messseite: Mercor beziffert auf 90 % den Anteil der Arbeitsstunden, die von Benchmarks schlecht abgedeckt sind — <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">Studie desselben Tages</a>. Das Erste sagt, dass offene Modelle zur Front aufschliessen; das Zweite erinnert daran, dass die Front selbst nicht weiss, was sie misst. Die Industrie produziert weiterhin immer mehr Fähigkeit, aber weiterhin ebenso wenig Gewissheit darüber, was diese ausserhalb akademischer Spielwiesen wert ist. Die nächste Schlacht wird nicht über die Parameter entschieden, sondern über Prüfbänke, die der Arbeit der Menschen ähneln.",
+                "it": "Due notizie a ventiquattro ore di distanza raccontano la stessa storia da due angolazioni. Sul fronte della produzione: Hugging Face ospita Beam e i suoi 501 miliardi di parametri scaricabili — <a href=\"https://huggingface.co/blog/reflection-beam\">annuncio del 16 ottobre 2026</a>. Sul fronte della misurazione: Mercor quantifica al 90% la quota delle ore di lavoro poco coperte dai benchmark — <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">studio dello stesso giorno</a>. La prima dice che i modelli aperti stanno raggiungendo la frontiera; la seconda ricorda che la frontiera stessa non sa cosa misura. L'industria produce sempre più capacità, ma sempre altrettanto poca certezza sul loro valore al di fuori dei terreni di gioco accademici. La prossima battaglia non si vincerà sui parametri: si vincerà sui banchi di prova che assomigliano al lavoro delle persone.",
+                "lmo": "Duu notizzi rivaa a vintequatter ore de distanza i cunten la midem storia de duu pont de vista. De part de la produzion : Hugging Face l'ospita Beam e i so 501 miliard de parameter che se pòden scaricà — <a href=\"https://huggingface.co/blog/reflection-beam\">anunzia del 16 de ottober 2026</a>. De part de la misura : Mercor el quantifiga al 90 % la part di ore de laurà mai cobrìi di benchmark — <a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">studi del midem dì</a>. El prim el dis che i modell vert i riven a la frontiera ; el segond el regorda che la frontiera stèssa la sa minga cossa la misura. L'industria la produs semper pussee capacità, ma semper tantera poch certezza sora cossa la var foeura di teren de giugh academegh. La prossima batalia la se vincarà minga sora i parameter : la se vincarà sora i banc de prova che i somejen al laurà de la gent."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Editoria"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
