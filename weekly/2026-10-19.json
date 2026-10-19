@@ -1,0 +1,826 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-19",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W42",
+    "date_range": {
+      "fr": "SEMAINE DU 12–18 OCTOBRE 2026",
+      "en": "WEEK OF 12 – 18 OCTOBER 2026",
+      "de": "WOCHE VOM 12.–18. OKTOBER 2026",
+      "it": "SETTIMANA DEL 12–18 OTTOBRE 2026",
+      "lmo": "SETEMANA DEL 12–18 OTTOBRE 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "La semaine aura été celle d'un basculement silencieux mais massif. Meta a ouvert les poids de Muse Spark Open, un modèle multimodal à mixture-of-experts de 816 milliards de paramètres totaux dont environ 42 milliards d'actifs par requête, hébergé dès le premier jour par Together AI avec une fenêtre de contexte d'un million de tokens, comme le détaille le <a href=\"https://research.meta.ai/blog/muse-spark-open\">billet de recherche de Meta</a>. Une salve préparée par la publication du projet Muse Wonder, qui avait réuni 574 points et 313 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50059115\">Hacker News</a>.",
+        "en": "The week will be remembered for a quiet but massive shift. Meta released the weights of Muse Spark Open, a multimodal mixture-of-experts model with 816 billion total parameters, roughly 42 billion active per query, hosted from day one by Together AI with a one-million-token context window, as detailed in <a href=\"https://research.meta.ai/blog/muse-spark-open\">Meta's research post</a>. The volley was primed by the Muse Wonder project launch, which drew 574 points and 313 comments on <a href=\"https://news.ycombinator.com/item?id=50059115\">Hacker News</a>.",
+        "de": "Die Woche gehörte einer stillen, aber massiven Verschiebung. Meta hat die Gewichte von Muse Spark Open freigegeben, einem multimodalen Mixture-of-Experts-Modell mit 816 Milliarden Parametern insgesamt, davon rund 42 Milliarden aktiv pro Anfrage, das ab dem ersten Tag von Together AI mit einem Kontextfenster von einer Million Tokens gehostet wird, wie der <a href=\"https://research.meta.ai/blog/muse-spark-open\">Forschungsbeitrag von Meta</a> erläutert. Der Schuss war durch die Veröffentlichung des Projekts Muse Wonder vorbereitet worden, das auf <a href=\"https://news.ycombinator.com/item?id=50059115\">Hacker News</a> 574 Punkte und 313 Kommentare gesammelt hatte.",
+        "it": "La settimana sarà stata quella di una svolta silenziosa ma massiccia. Meta ha aperto i pesi di Muse Spark Open, un modello multimodale a mixture-of-experts da 816 miliardi di parametri totali, di cui circa 42 miliardi attivi per richiesta, ospitato dal primo giorno da Together AI con una finestra di contesto di un milione di token, come dettaglia il <a href=\"https://research.meta.ai/blog/muse-spark-open\">post di ricerca di Meta</a>. Una raffica preparata dalla pubblicazione del progetto Muse Wonder, che aveva raccolto 574 punti e 313 commenti su <a href=\"https://news.ycombinator.com/item?id=50059115\">Hacker News</a>.",
+        "lmo": "La setemana l'è stada quella d'on roverbament silenzius ma massizz. Meta l'ha duvert i pes del Muse Spark Open, on modell multimodal a mixture-of-experts de 816 miliard de parametri totaj, con circa 42 miliard ativ per richiesta, ospitaa dal primm dì de Together AI cont ona fenestra de contest d'on milion de token, 'me el detaja el <a href=\"https://research.meta.ai/blog/muse-spark-open\">billet de ricerca de Meta</a>. Ona salva preparada da la publicazion del progett Muse Wonder, che l'aveva regolt 574 pont e 313 comment su <a href=\"https://news.ycombinator.com/item?id=50059115\">Hacker News</a>."
+      },
+      {
+        "fr": "Deux jours plus tard, Hugging Face annonçait l'arrivée de Beam, un modèle ouvert de 501 milliards de paramètres positionné non pas comme un service mais comme un actif que les organisations peuvent posséder, personnaliser et faire évoluer librement (<a href=\"https://huggingface.co/blog/reflection-beam\">annonce de la plateforme</a>). Puis, pour clore la semaine, DeepSeek a publié V4.1-Flash-1017, une déclinaison rapide de sa famille V4.1, avec des poids ouverts sur <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> et un accès immédiat via <a href=\"https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017\">OpenRouter</a> — l'une des discussions les plus vives de l'année sur <a href=\"https://news.ycombinator.com/item?id=50129045\">Hacker News</a>.",
+        "en": "Two days later, Hugging Face announced the arrival of Beam, a 501-billion-parameter open model positioned not as a service but as an asset that organizations can own, customize and scale freely (<a href=\"https://huggingface.co/blog/reflection-beam\">platform announcement</a>). Then, to close the week, DeepSeek released V4.1-Flash-1017, a fast variant of its V4.1 family, with open weights on <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> and immediate access via <a href=\"https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017\">OpenRouter</a> — one of the liveliest discussions of the year on <a href=\"https://news.ycombinator.com/item?id=50129045\">Hacker News</a>.",
+        "de": "Zwei Tage später kündigte Hugging Face die Ankunft von Beam an, ein offenes Modell mit 501 Milliarden Parametern, positioniert nicht als Dienstleistung, sondern als Asset, das Organisationen besitzen, anpassen und frei weiterentwickeln können (<a href=\"https://huggingface.co/blog/reflection-beam\">Ankündigung der Plattform</a>). Und zum Abschluss der Woche publizierte DeepSeek V4.1-Flash-1017, eine schnelle Variante seiner V4.1-Familie, mit offenen Gewichten auf <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> und sofortigem Zugang über <a href=\"https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017\">OpenRouter</a> — eine der lebhaftesten Diskussionen des Jahres auf <a href=\"https://news.ycombinator.com/item?id=50129045\">Hacker News</a>.",
+        "it": "Due giorni dopo, Hugging Face annunciava l'arrivo di Beam, un modello aperto da 501 miliardi di parametri posizionato non come un servizio ma come un asset che le organizzazioni possono possedere, personalizzare e far evolvere liberamente (<a href=\"https://huggingface.co/blog/reflection-beam\">annuncio della piattaforma</a>). Poi, a chiusura della settimana, DeepSeek ha pubblicato V4.1-Flash-1017, una variante rapida della sua famiglia V4.1, con pesi aperti su <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> e accesso immediato via <a href=\"https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017\">OpenRouter</a> — una delle discussioni più accese dell'anno su <a href=\"https://news.ycombinator.com/item?id=50129045\">Hacker News</a>.",
+        "lmo": "Dò dì pussee tard, Hugging Face l'ha anunziaa l'ariv del Beam, on modell duvert de 501 miliard de parametri posizionaa no 'me servizzi ma 'me attiv che i organizzazion poden possedè, personalizzà e fà vegnì innanz liberament (<a href=\"https://huggingface.co/blog/reflection-beam\">anunzi de la piattaforma</a>). Po, per sarrà su la setemana, DeepSeek l'ha publicaa V4.1-Flash-1017, ona version svelta de la soa familia V4.1, con pes duvert su <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> e l'access subet via <a href=\"https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017\">OpenRouter</a> — vuna di discusion pussee viv de l'ann su <a href=\"https://news.ycombinator.com/item?id=50129045\">Hacker News</a>."
+      },
+      {
+        "fr": "Pris ensemble, ces trois mouvements racontent autre chose qu'une simple série d'annonces concurrentes : la rareté se déplace. Quand un MoE de 816 milliards de paramètres, un modèle « possédable » de 501 milliards et un modèle rapide open-weight tombent sur trois jours, ce n'est plus l'accès aux poids qui distingue les acteurs — c'est la distribution, l'hébergement, la personnalisation et le contrôle opérationnel. Les plateformes d'inférence (Together AI, OpenRouter et, désormais, Hugging Face en tant qu'émetteur d'accueil) deviennent les véritables canaux de la frontière.",
+        "en": "Taken together, these three moves tell a different story than a mere series of competing announcements: scarcity is shifting. When an 816-billion-parameter MoE, a \"ownable\" 501-billion-parameter model and a fast open-weight model all land within three days, it is no longer access to weights that distinguishes players — it is distribution, hosting, customization and operational control. Inference platforms (Together AI, OpenRouter and, now, Hugging Face as a hosting issuer) are becoming the true channels of the frontier.",
+        "de": "Zusammen genommen erzählen diese drei Schritte von etwas anderem als einer blossen Serie konkurrierender Ankündigungen: Die Knappheit verlagert sich. Wenn ein MoE mit 816 Milliarden Parametern, ein «besitzbares» Modell mit 501 Milliarden und ein schnelles Open-Weight-Modell innerhalb von drei Tagen erscheinen, ist es nicht mehr der Zugang zu den Gewichten, der die Akteure unterscheidet — sondern die Distribution, das Hosting, die Anpassung und die operative Kontrolle. Die Inferenzplattformen (Together AI, OpenRouter und inzwischen auch Hugging Face als Hosting-Anbieter) werden zu den eigentlichen Kanälen der Grenze.",
+        "it": "Presi insieme, questi tre passi raccontano altro che una semplice serie di annunci concorrenti: la scarsità si sposta. Quando un MoE da 816 miliardi di parametri, un modello «possedibile» da 501 miliardi e un modello open-weight rapido cadono in tre giorni, non è più l'accesso ai pesi a distinguere gli attori — è la distribuzione, l'hosting, la personalizzazione e il controllo operativo. Le piattaforme di inferenza (Together AI, OpenRouter e, ormai, Hugging Face in qualità di emittente ospitante) diventano i veri canali della frontiera.",
+        "lmo": "Prest insema, 'sti tri moviment disen on alter robb che ona sempliga serie de anunzi concorrent: la scarsità la se sposta. Quand che on MoE de 816 miliard de parametri, on modell «possedibil» de 501 miliard e on modell svelt open-weight borlen giò in tri dì, l'è pu l'access ai pes che 'l disting i attor — l'è la distribution, l'ospitament, la personalizzazion e 'l contròl operativ. I piattafòrm de inferenza (Together AI, OpenRouter e, adess, Hugging Face 'me emissor de ricevuda) deven i canai ver de la frontera."
+      },
+      {
+        "fr": "La réponse des labos fermés n'a pas tardé à s'esquisser : OpenAI a lancé le Rosalind Academic Plan, un accès sponsorisé à GPT-Rosalind pour les laboratoires académiques (<a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">annonce</a>), une forme de parrainage qui ressemble à une défense du modèle API face à la montée des poids possédables. Pour les six mois à venir, la ligne de faille ne sera plus ouverts contre fermés : elle opposera ceux qui vendent des modèles à ceux qui vendent la capacité d'en disposer.",
+        "en": "The closed labs' response quickly took shape: OpenAI launched the Rosalind Academic Plan, sponsored access to GPT-Rosalind for academic laboratories (<a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">announcement</a>), a form of patronage that looks like a defense of the API model against the rise of ownable weights. For the next six months, the fault line will no longer be open versus closed: it will pit those who sell models against those who sell the ability to own them.",
+        "de": "Die Antwort der geschlossenen Labore liess nicht lange auf sich warten: OpenAI lancierte den Rosalind Academic Plan, einen gesponserten Zugang zu GPT-Rosalind für akademische Laboratorien (<a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">Ankündigung</a>), eine Form von Sponsoring, die wie eine Verteidigung des API-Modells gegen den Aufstieg besitzbarer Gewichte wirkt. Für die kommenden sechs Monate wird die Bruchlinie nicht mehr offen gegen geschlossen verlaufen: Sie wird jene trennen, die Modelle verkaufen, von jenen, die die Fähigkeit verkaufen, darüber zu verfügen.",
+        "it": "La risposta dei lab chiusi non ha tardato a profilarsi: OpenAI ha lanciato il Rosalind Academic Plan, un accesso sponsorizzato a GPT-Rosalind per i laboratori accademici (<a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">annuncio</a>), una forma di patrocinio che assomiglia a una difesa del modello API di fronte alla crescita dei pesi possedibili. Per i prossimi sei mesi, la linea di frattura non sarà più aperti contro chiusi: opporrà chi vende modelli a chi vende la capacità di disporne.",
+        "lmo": "La risposta di laboratori saraa l'è rivada subet: OpenAI l'ha lanziaa el Rosalind Academic Plan, on access sponsorizzaa a GPT-Rosalind per i laboratori academigh (<a href=\"https://openai.com/index/introducing-the-rosalind-academic-plan\">anunzi</a>), ona forma de patrocini che la someja a ona difesa del modell API in facia a la salida di pes possedibil. Per i ses mes che vegnen, la linia de falda la sarà pu duvert contra saraa: la opporrà quei che venden modell a quei che venden la capacità de disponngh."
+      }
+    ],
+    "urls": [
+      "https://research.meta.ai/blog/muse-spark-open",
+      "https://huggingface.co/blog/reflection-beam",
+      "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "https://openrouter.ai/deepseek/deepseek-v4.1-flash-1017",
+      "https://openai.com/index/introducing-the-rosalind-academic-plan"
+    ],
+    "kicker": {
+      "fr": "Poids ouverts",
+      "en": "Open weights",
+      "de": "Offene Gewichte",
+      "it": "Pesi aperti",
+      "lmo": "Peso duvert"
+    },
+    "headline": {
+      "fr": "Trois géants ouverts en trois jours : la frontière change de mains",
+      "en": "Three open giants in three days: the frontier changes hands",
+      "de": "Drei offene Schwergewichte in drei Tagen: Die Grenze der KI wechselt die Besitzer",
+      "it": "Tre giganti aperti in tre giorni: la frontiera cambia di mano",
+      "lmo": "Tri gigant duvert in tri dì: la frontera la cambia de man"
+    },
+    "subdeck": {
+      "fr": "Muse Spark Open, Beam et DeepSeek V4.1-Flash en trois jours : l'ouverture des poids n'est plus une exception morale, c'est devenu le canal de distribution dominant de la frontière.",
+      "en": "Muse Spark Open, Beam and DeepSeek V4.1-Flash in three days: open weights are no longer a moral exception — they have become the dominant distribution channel for the frontier.",
+      "de": "Muse Spark Open, Beam und DeepSeek V4.1-Flash in drei Tagen: Offene Gewichte sind keine moralische Ausnahme mehr — sie sind zum dominierenden Distributionskanal der KI-Grenze geworden.",
+      "it": "Muse Spark Open, Beam e DeepSeek V4.1-Flash in tre giorni: l'apertura dei pesi non è più un'eccezione morale, è diventato il canale di distribuzione dominante della frontiera.",
+      "lmo": "Muse Spark Open, Beam e DeepSeek V4.1-Flash in tri dì: la duvertura di pes l'è pu minga ona eccezion morala, l'è devegnuda el canal de distribution dominant de la frontera."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Gemini 4 Argon : une sortie frontière synchronisée sur cinq canaux",
+        "en": "Gemini 4 Argon: a frontier launch synchronized across five channels",
+        "de": "Gemini 4 Argon: Ein Grenzmodell-Launch, synchronisiert über fünf Kanäle",
+        "it": "Gemini 4 Argon: un lancio di frontiera sincronizzato su cinque canali",
+        "lmo": "Gemini 4 Argon: ona sortida frontera sincronizada su cinch canai"
+      },
+      "body": {
+        "fr": "Google a déployé son nouveau modèle frontière sur cinq publications coordonnées : annonce principale, déclinaison robotique, rapport de développement responsable, disponibilité <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> et accès dans l'app Gemini pour les abonnés AI Pro et Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">annonce</a>). Une sortie qui verrouille d'emblée tous les canaux de distribution.",
+        "en": "Google rolled out its new frontier model across five coordinated releases: main announcement, robotics variant, responsible development report, <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> availability and access in the Gemini app for AI Pro and Ultra subscribers (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">announcement</a>). A launch that locks up every distribution channel from day one.",
+        "de": "Google hat sein neues Grenzmodell über fünf koordinierte Publikationen ausgerollt: Hauptankündigung, Robotik-Variante, Bericht zur verantwortungsvollen Entwicklung, Verfügbarkeit über die <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> und Zugang in der Gemini-App für AI-Pro- und Ultra-Abonnenten (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">Ankündigung</a>). Ein Launch, der sämtliche Distributionskanäle von Anfang an besetzt.",
+        "it": "Google ha schierato il suo nuovo modello di frontiera su cinque pubblicazioni coordinate: annuncio principale, variante robotica, rapporto di sviluppo responsabile, disponibilità <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> e accesso nell'app Gemini per gli abbonati AI Pro e Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">annuncio</a>). Un lancio che blocca d'emblée tutti i canali di distribuzione.",
+        "lmo": "Google l'ha desplegaa el sò noeuv modell frontera su cinch publicazion coordinaa: anunzi principal, version robotiga, rapport de desvilup responsabel, disponibilità <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> e access in de l'app Gemini per i abonaa AI Pro e Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">anunzi</a>). Ona sortida che la sara subet tucc i canai de distribution."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Importante",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 2026-W42",
+        "en": "This week — week 2026-W42",
+        "de": "Diese Woche — Woche 2026-W42",
+        "it": "Questa settimana — settimana 2026-W42",
+        "lmo": " 'Sta setemana chì — setemana 2026-W42"
+      },
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Mistral AI lance Timestral, une famille de modèles pour les séries temporelles",
+        "en": "Mistral AI launches Timestral, a family of models for time series",
+        "de": "Mistral AI lanciert Timestral, eine Modellfamilie für Zeitreihen",
+        "it": "Mistral AI lancia Timestral, una famiglia di modelli per le serie temporali",
+        "lmo": "Mistral AI el lanzia Timestral, ona familia de modell per i seri temporal"
+      },
+      "body": {
+        "fr": "Le labo entre dans la prévision probabiliste avec une famille de quatre tailles, de 5M à 209M de paramètres, annoncée sur <a href=\"https://mistral.ai/news/timestral/\">mistral.ai</a> — un signal que la bataille des modèles s'étend aux données séquentielles d'entreprise.",
+        "en": "The lab enters probabilistic forecasting with a family of four sizes, from 5M to 209M parameters, announced on <a href=\"https://mistral.ai/news/timestral/\">mistral.ai</a> — a signal that the model battle is extending to enterprise sequential data.",
+        "de": "Das Labor betritt die probabilistische Vorhersage mit einer Familie von vier Grössen von 5 Mio. bis 209 Mio. Parametern, angekündigt auf <a href=\"https://mistral.ai/news/timestral/\">mistral.ai</a> — ein Signal, dass der Kampf der Modelle auf die sequenziellen Unternehmensdaten übergreift.",
+        "it": "Il lab entra nella previsione probabilistica con una famiglia di quattro taglie, da 5M a 209M di parametri, annunciata su <a href=\"https://mistral.ai/news/timestral/\">mistral.ai</a> — un segnale che la battaglia dei modelli si estende ai dati sequenziali aziendali.",
+        "lmo": "El laboratori el va dent in de la prevision probabilistega cont ona familia de quatter dimension, da 5M a 209M de parametri, anunziaa su <a href=\"https://mistral.ai/news/timestral/\">mistral.ai</a> — on segnall che la battaja di modell la se slarga ai dat sequenziai d'impresa."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Bedeutend",
+        "it": "Importante",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 2026-W42",
+        "en": "This week — week 2026-W42",
+        "de": "Diese Woche — Woche 2026-W42",
+        "it": "Questa settimana — settimana 2026-W42",
+        "lmo": " 'Sta setemana chì — setemana 2026-W42"
+      },
+      "urls": [
+        "https://mistral.ai/news/timestral/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Uber traite ses agents IA comme des menaces internes",
+        "en": "Uber treats its AI agents as insider threats",
+        "de": "Uber behandelt seine KI-Agenten wie interne Bedrohungen",
+        "it": "Uber tratta i suoi agenti IA come minacce interne",
+        "lmo": "Uber el tratta i sò agent IA 'me menasc intern"
+      },
+      "body": {
+        "fr": "Le RSSI d'Uber, Philip Martin, détaille sur le blog de Claude son programme traitant les agents IA comme des menaces internes, avec les mêmes contrôles que pour les employés à accès privilégié (<a href=\"https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai\">billet</a>) — une approche qui fait école alors que les agents s'invitent dans les systèmes d'entreprise.",
+        "en": "Uber's CISO, Philip Martin, details on the Claude blog the company's program treating AI agents as insider threats, with the same controls as for privileged-access employees (<a href=\"https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai\">post</a>) — an approach gaining traction as agents make their way into enterprise systems.",
+        "de": "Ubers CISO Philip Martin erläutert im Claude-Blog sein Programm, das KI-Agenten wie interne Bedrohungen behandelt — mit denselben Kontrollen wie für Mitarbeitende mit privilegiertem Zugriff (<a href=\"https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai\">Beitrag</a>) — ein Ansatz mit Vorbildcharakter, während Agenten Einzug in Unternehmenssysteme halten.",
+        "it": "Il CISO di Uber, Philip Martin, dettaglia sul blog di Claude il suo programma che tratta gli agenti IA come minacce interne, con gli stessi controlli previsti per i dipendenti con accessi privilegiati (<a href=\"https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai\">post</a>) — un approccio che fa scuola mentre gli agenti si infiltrano nei sistemi aziendali.",
+        "lmo": "El CISO de Uber, Philip Martin, el detaja in su 'l blog de Claude el sò programma che 'l trata i agent IA 'me menasc intern, con l'istess contròj che per i dipendent cont access privilegiaa (<a href=\"https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai\">billet</a>) — on abordament che 'l fa scœula intanta che i agent se metten dent in di sistema d'impresa."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Surezza"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 2026-W42",
+        "en": "This week — week 2026-W42",
+        "de": "Diese Woche — Woche 2026-W42",
+        "it": "Questa settimana — settimana 2026-W42",
+        "lmo": " 'Sta setemana chì — setemana 2026-W42"
+      },
+      "urls": [
+        "https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Rewind",
+        "de": "Grenze im Rückblick",
+        "it": "Retrofrontiera",
+        "lmo": "Retro Frontera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Les labos frontière",
+            "en": "The frontier labs",
+            "de": "Die Grenzlabore",
+            "it": "I lab di frontiera",
+            "lmo": "I laboratori de frontera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemini 4 Argon : cinq publications simultanées pour une sortie frontière",
+                "en": "Gemini 4 Argon: five simultaneous releases for a frontier launch",
+                "de": "Gemini 4 Argon: Fünf simultane Publikationen für einen Grenzmodell-Launch",
+                "it": "Gemini 4 Argon: cinque pubblicazioni simultanee per un lancio di frontiera",
+                "lmo": "Gemini 4 Argon: cinch publicazion simultani per ona sortida de frontera"
+              },
+              "body": {
+                "fr": "Google a déployé son nouveau modèle frontière sur cinq canaux à la fois : annonce principale, déclinaison <a href=\"https://deepmind.google/blog/gemini-4-argon-for-robotics/\">robotique</a>, <a href=\"https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/\">rapport de développement responsable</a>, disponibilité <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> et app grand public pour les abonnés AI Pro et Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">annonce</a>). Le modèle a déjà été passé au banc d'essai sur <a href=\"https://starskirmish.com/bench/v0-2/\">StarSkirmish Bench</a>, où les LLM jouent à StarCraft en écrivant du code.",
+                "en": "Google rolled out its new frontier model across five channels at once: main announcement, <a href=\"https://deepmind.google/blog/gemini-4-argon-for-robotics/\">robotics</a> variant, <a href=\"https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/\">responsible development report</a>, <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> availability and a consumer app for AI Pro and Ultra subscribers (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">announcement</a>). The model has already been benchmarked on <a href=\"https://starskirmish.com/bench/v0-2/\">StarSkirmish Bench</a>, where LLMs play StarCraft by writing code.",
+                "de": "Google hat sein neues Grenzmodell gleichzeitig auf fünf Kanälen ausgerollt: Hauptankündigung, <a href=\"https://deepmind.google/blog/gemini-4-argon-for-robotics/\">Robotik</a>-Variante, <a href=\"https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/\">Bericht zur verantwortungsvollen Entwicklung</a>, Verfügbarkeit über die <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> und eine Consumer-App für AI-Pro- und Ultra-Abonnenten (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">Ankündigung</a>). Das Modell wurde bereits auf dem <a href=\"https://starskirmish.com/bench/v0-2/\">StarSkirmish Bench</a> getestet, wo LLMs StarCraft spielen, indem sie Code schreiben.",
+                "it": "Google ha schierato il suo nuovo modello di frontiera su cinque canali contemporaneamente: annuncio principale, variante <a href=\"https://deepmind.google/blog/gemini-4-argon-for-robotics/\">robotica</a>, <a href=\"https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/\">rapporto di sviluppo responsabile</a>, disponibilità <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> e app consumer per gli abbonati AI Pro e Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">annuncio</a>). Il modello è già stato messo alla prova su <a href=\"https://starskirmish.com/bench/v0-2/\">StarSkirmish Bench</a>, dove i LLM giocano a StarCraft scrivendo codice.",
+                "lmo": "Google l'ha desplegaa el sò noeuv modell frontera su cinch canai insemma: anunzi principal, version <a href=\"https://deepmind.google/blog/gemini-4-argon-for-robotics/\">robotiga</a>, <a href=\"https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/\">rapport de desvilup responsabel</a>, disponibilità <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/\">API</a> e app grand pubblic per i abonaa AI Pro e Ultra (<a href=\"https://deepmind.google/blog/introducing-gemini-4-argon/\">anunzi</a>). El modell l'è staa giamò mettuu al banc de prova su <a href=\"https://starskirmish.com/bench/v0-2/\">StarSkirmish Bench</a>, indova i LLM gioeugen a StarCraft scrivend codes."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-gemini-4-argon/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Meta : Muse Spark Open met 816 milliards de paramètres en accès libre",
+                "en": "Meta: Muse Spark Open puts 816 billion parameters in open access",
+                "de": "Meta: Muse Spark Open stellt 816 Milliarden Parameter frei zugänglich",
+                "it": "Meta: Muse Spark Open mette 816 miliardi di parametri a libera disposizione",
+                "lmo": "Meta: Muse Spark Open el met 816 miliard de parametri in access liber"
+              },
+              "body": {
+                "fr": "Après Muse Wonder, le laboratoire de recherche de Meta a ouvert les poids d'un MoE multimodal de 816 milliards de paramètres (42 milliards actifs), visant explicitement le codage agentique ; Together AI l'héberge avec un contexte d'un million de tokens (<a href=\"https://research.meta.ai/blog/muse-spark-open\">annonce</a>, <a href=\"https://www.together.ai/blog/meta-muse-spark-open\">hébergement</a>).",
+                "en": "After Muse Wonder, Meta's research lab has opened the weights of an 816-billion-parameter multimodal MoE (42 billion active), explicitly targeting agentic coding; Together AI hosts it with a one-million-token context (<a href=\"https://research.meta.ai/blog/muse-spark-open\">announcement</a>, <a href=\"https://www.together.ai/blog/meta-muse-spark-open\">hosting</a>).",
+                "de": "Nach Muse Wonder hat das Forschungslabor von Meta die Gewichte eines multimodalen MoE mit 816 Milliarden Parametern (42 Milliarden aktiv) freigegeben, ausdrücklich auf agentisches Codieren ausgerichtet; Together AI hostet es mit einem Kontext von einer Million Tokens (<a href=\"https://research.meta.ai/blog/muse-spark-open\">Ankündigung</a>, <a href=\"https://www.together.ai/blog/meta-muse-spark-open\">Hosting</a>).",
+                "it": "Dopo Muse Wonder, il laboratorio di ricerca di Meta ha aperto i pesi di un MoE multimodale da 816 miliardi di parametri (42 miliardi attivi), mirando esplicitamente al coding agentico; Together AI lo ospita con un contesto di un milione di token (<a href=\"https://research.meta.ai/blog/muse-spark-open\">annuncio</a>, <a href=\"https://www.together.ai/blog/meta-muse-spark-open\">hosting</a>).",
+                "lmo": "Dopo Muse Wonder, el laboratori de ricerca de Meta l'ha duvert i pes d'on MoE multimodal de 816 miliard de parametri (42 miliard ativ), mira ai codes agentigh; Together AI el lo ospita cont on contest d'on milion de token (<a href=\"https://research.meta.ai/blog/muse-spark-open\">anunzi</a>, <a href=\"https://www.together.ai/blog/meta-muse-spark-open\">ospitament</a>)."
+              },
+              "kicker": {
+                "fr": "Meta",
+                "en": "Meta",
+                "de": "Meta",
+                "it": "Meta",
+                "lmo": "Meta"
+              },
+              "urls": [
+                "https://research.meta.ai/blog/muse-spark-open",
+                "https://www.together.ai/blog/meta-muse-spark-open"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DeepSeek V4.1-Flash : la vitesse en poids ouverts",
+                "en": "DeepSeek V4.1-Flash: speed with open weights",
+                "de": "DeepSeek V4.1-Flash: Geschwindigkeit mit offenen Gewichten",
+                "it": "DeepSeek V4.1-Flash: la velocità a pesi aperti",
+                "lmo": "DeepSeek V4.1-Flash: la velocità in pes duvert"
+              },
+              "body": {
+                "fr": "V4.1-Flash-1017 arrive avec des poids ouverts sur <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> et un accès API immédiat, documenté sur la <a href=\"https://api-docs.deepseek.com/news/news261017/\">documentation officielle</a>. Le suffixe daté devient une convention de versionnement assumée — et une aubaine pour les harnais d'inférence locaux.",
+                "en": "V4.1-Flash-1017 arrives with open weights on <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> and immediate API access, documented in the <a href=\"https://api-docs.deepseek.com/news/news261017/\">official documentation</a>. The dated suffix has become an assumed versioning convention — and a boon for local inference harnesses.",
+                "de": "V4.1-Flash-1017 erscheint mit offenen Gewichten auf <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> und sofortigem API-Zugang, dokumentiert in der <a href=\"https://api-docs.deepseek.com/news/news261017/\">offiziellen Dokumentation</a>. Der datierte Suffix wird zu einer bewusst gewählten Versionierungskonvention — und ein Glücksfall für lokale Inferenz-Frameworks.",
+                "it": "V4.1-Flash-1017 arriva con pesi aperti su <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> e accesso API immediato, documentato nella <a href=\"https://api-docs.deepseek.com/news/news261017/\">documentazione ufficiale</a>. Il suffisso datato diventa una convenzione di versionamento assunta — e una manna per i framework di inferenza locali.",
+                "lmo": "V4.1-Flash-1017 el riva con pes duvert su <a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017\">Hugging Face</a> e on access API subet, documentaa in su la <a href=\"https://api-docs.deepseek.com/news/news261017/\">documentazion oficial</a>. El suffiss dataa el deven ona convenzion de versionament voluda — e on regall per i arnes de inferenza locai."
+              },
+              "kicker": {
+                "fr": "DeepSeek",
+                "en": "DeepSeek",
+                "de": "DeepSeek",
+                "it": "DeepSeek",
+                "lmo": "DeepSeek"
+              },
+              "urls": [
+                "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+                "https://api-docs.deepseek.com/news/news261017/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI : Grok Voice 3.0 et une X Subscription unifiée",
+                "en": "xAI: Grok Voice 3.0 and a unified X Subscription",
+                "de": "xAI: Grok Voice 3.0 und ein vereinheitlichtes X-Abo",
+                "it": "xAI: Grok Voice 3.0 e una X Subscription unificata",
+                "lmo": "xAI: Grok Voice 3.0 e ona X Subscription unificada"
+              },
+              "body": {
+                "fr": "Après The X Subscription, qui regroupe Team Bots et Grok Bot sous un même abonnement (<a href=\"https://x.ai/news/x-subscription\">annonce</a>), xAI a présenté « le modèle vocal le plus intelligent du monde » avec <a href=\"https://x.ai/news/grok-voice-3\">Grok Voice 3.0</a>, une montée en gamme continue sur la modalité audio.",
+                "en": "After The X Subscription, which bundles Team Bots and Grok Bot under a single plan (<a href=\"https://x.ai/news/x-subscription\">announcement</a>), xAI unveiled \"the world's smartest voice model\" with <a href=\"https://x.ai/news/grok-voice-3\">Grok Voice 3.0</a>, a continued push upmarket on the audio modality.",
+                "de": "Nach The X Subscription, die Team Bots und Grok Bot unter einem Abo bündelt (<a href=\"https://x.ai/news/x-subscription\">Ankündigung</a>), hat xAI «das intelligenteste Sprachmodell der Welt» mit <a href=\"https://x.ai/news/grok-voice-3\">Grok Voice 3.0</a> vorgestellt — ein kontinuierlicher Ausbau der Audio-Modalität.",
+                "it": "Dopo The X Subscription, che raggruppa Team Bots e Grok Bot sotto un unico abbonamento (<a href=\"https://x.ai/news/x-subscription\">annuncio</a>), xAI ha presentato «il modello vocale più intelligente del mondo» con <a href=\"https://x.ai/news/grok-voice-3\">Grok Voice 3.0</a>, un upgrading continuo sulla modalità audio.",
+                "lmo": "Dopo The X Subscription, che 'l regropa Team Bots e Grok Bot sotta l'istess abonament (<a href=\"https://x.ai/news/x-subscription\">anunzi</a>), xAI l'ha presentaa «el modell vocal pussee intelligent del mond» con <a href=\"https://x.ai/news/grok-voice-3\">Grok Voice 3.0</a>, ona salida continua de qualitaa in su la modalità audia."
+              },
+              "kicker": {
+                "fr": "xAI",
+                "en": "xAI",
+                "de": "xAI",
+                "it": "xAI",
+                "lmo": "xAI"
+              },
+              "urls": [
+                "https://x.ai/news/grok-voice-3",
+                "https://x.ai/news/x-subscription"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Mouvements stratégiques",
+            "en": "Strategic moves",
+            "de": "Strategische Bewegungen",
+            "it": "Mosse strategiche",
+            "lmo": "Moviment strategigh"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Anthropic s'installe à Singapour et scelle un mémorandum gouvernemental",
+                "en": "Anthropic sets up in Singapore and seals a government memorandum",
+                "de": "Anthropic lässt sich in Singapur nieder und schliesst ein Regierungs-Memorandum",
+                "it": "Anthropic si insedia a Singapore e firma un memorandum governativo",
+                "lmo": "Anthropic el se met giò a Singapor e 'l sara on memorandum governativ"
+              },
+              "body": {
+                "fr": "Le labo de San Francisco a annoncé l'ouverture d'un bureau à Singapour, assorti d'un mémorandum d'entente avec le gouvernement singapourien (<a href=\"https://www.anthropic.com/news?subjects=announcements\">annonces</a>), et publie l'ingénierie derrière sa refonte du contrôle de source interne — un billet qui a attiré environ 600 commentaires (<a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering</a>).",
+                "en": "The San Francisco lab announced the opening of a Singapore office, paired with a memorandum of understanding with the Singapore government (<a href=\"https://www.anthropic.com/news?subjects=announcements\">announcements</a>), and published the engineering behind its internal source-control overhaul — a post that drew roughly 600 comments (<a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering</a>).",
+                "de": "Das Labor aus San Francisco hat die Eröffnung eines Büros in Singapur angekündigt, flankiert von einem Memorandum of Understanding mit der Regierung Singapurs (<a href=\"https://www.anthropic.com/news?subjects=announcements\">Ankündigungen</a>), und publiziert die Ingenieursarbeit hinter dem Umbau seiner internen Quellcodeverwaltung — ein Beitrag mit rund 600 Kommentaren (<a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering</a>).",
+                "it": "Il lab di San Francisco ha annunciato l'apertura di una sede a Singapore, accompagnata da un memorandum d'intesa con il governo singaporiano (<a href=\"https://www.anthropic.com/news?subjects=announcements\">annunci</a>), e pubblica l'ingegneria dietro la riprogettazione del controllo di versione interno — un post che ha attratto circa 600 commenti (<a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering</a>).",
+                "lmo": "El laboratori de San Francisco l'ha anunziaa la duvertura d'on offizzi a Singapor, cont on memorandum d'intesa con el govern singaporian (<a href=\"https://www.anthropic.com/news?subjects=announcements\">anunzi</a>), e 'l publica l'ingegneria dedree al restiling del contròl de sorgent intern — on billet che 'l gh'ha tiraa adree circa 600 comment (<a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering</a>)."
+              },
+              "kicker": {
+                "fr": "Anthropic",
+                "en": "Anthropic",
+                "de": "Anthropic",
+                "it": "Anthropic",
+                "lmo": "Anthropic"
+              },
+              "urls": [
+                "https://www.anthropic.com/news?subjects=announcements",
+                "https://www.anthropic.com/engineering/redesigning-source-control"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Z.ai : GLM-Legal, un modèle juridique dédié",
+                "en": "Z.ai: GLM-Legal, a dedicated legal model",
+                "de": "Z.ai: GLM-Legal, ein dediziertes juristisches Modell",
+                "it": "Z.ai: GLM-Legal, un modello giuridico dedicato",
+                "lmo": "Z.ai: GLM-Legal, on modell giuridegh dedicaa"
+              },
+              "body": {
+                "fr": "Z.ai a publié <a href=\"https://z.ai/blog/glm-legal\">GLM-Legal</a>, une déclinaison juridique de sa famille de modèles, dont la discussion sur <a href=\"https://news.ycombinator.com/item?id=50058507\">Hacker News</a> illustre l'intérêt croissant pour les modèles verticaux spécialisés.",
+                "en": "Z.ai released <a href=\"https://z.ai/blog/glm-legal\">GLM-Legal</a>, a legal-focused variant of its model family, whose discussion on <a href=\"https://news.ycombinator.com/item?id=50058507\">Hacker News</a> illustrates growing interest in specialized vertical models.",
+                "de": "Z.ai hat <a href=\"https://z.ai/blog/glm-legal\">GLM-Legal</a> veröffentlicht, eine juristische Variante seiner Modellfamilie; die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50058507\">Hacker News</a> verdeutlicht das wachsende Interesse an spezialisierten Vertikalmodellen.",
+                "it": "Z.ai ha pubblicato <a href=\"https://z.ai/blog/glm-legal\">GLM-Legal</a>, una variante giuridica della sua famiglia di modelli, la cui discussione su <a href=\"https://news.ycombinator.com/item?id=50058507\">Hacker News</a> illustra il crescente interesse per i modelli verticali specializzati.",
+                "lmo": "Z.ai l'ha publicaa <a href=\"https://z.ai/blog/glm-legal\">GLM-Legal</a>, ona version giuridega de la soa familia de modell, de che la discussion su <a href=\"https://news.ycombinator.com/item?id=50058507\">Hacker News</a> la illustra l'interess cressent per i modell verticaj specializzaa."
+              },
+              "kicker": {
+                "fr": "Z.ai",
+                "en": "Z.ai",
+                "de": "Z.ai",
+                "it": "Z.ai",
+                "lmo": "Z.ai"
+              },
+              "urls": [
+                "https://z.ai/blog/glm-legal"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praktiken",
+        "it": "Strumenti & Pratiche",
+        "lmo": "Arnes & Pratigh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & CLI",
+            "en": "Harnesses & CLI",
+            "de": "Frameworks & CLI",
+            "it": "Framework & CLI",
+            "lmo": "Arnes & CLI"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OpenCode 2.0 : la réécriture open source qui cartonne",
+                "en": "OpenCode 2.0: the open-source rewrite that's taking off",
+                "de": "OpenCode 2.0: Der Open-Source-Rewrite, der eingeschlagen ist",
+                "it": "OpenCode 2.0: la riscrittura open source che spazza via",
+                "lmo": "OpenCode 2.0: la rescritura open source che la va fort"
+              },
+              "body": {
+                "fr": "La version 2.0 du harnais de codage agentique a fait 428 points sur <a href=\"https://news.ycombinator.com/item?id=50094994\">Hacker News</a>, portée par une réécriture complète détaillée dans les <a href=\"https://anoma.ly/notes/opencode-2-0/\">notes de version</a>.",
+                "en": "Version 2.0 of the agentic coding harness scored 428 points on <a href=\"https://news.ycombinator.com/item?id=50094994\">Hacker News</a>, driven by a complete rewrite detailed in the <a href=\"https://anoma.ly/notes/opencode-2-0/\">release notes</a>.",
+                "de": "Die Version 2.0 des agentischen Coding-Frameworks hat 428 Punkte auf <a href=\"https://news.ycombinator.com/item?id=50094994\">Hacker News</a> erreicht, getragen von einem kompletten Rewrite, der in den <a href=\"https://anoma.ly/notes/opencode-2-0/\">Release Notes</a> erläutert wird.",
+                "it": "La versione 2.0 del framework di coding agentico ha fatto 428 punti su <a href=\"https://news.ycombinator.com/item?id=50094994\">Hacker News</a>, spinta da una riscrittura completa dettagliata nelle <a href=\"https://anoma.ly/notes/opencode-2-0/\">note di rilascio</a>.",
+                "lmo": "La version 2.0 de l'arnes de codes agentigh l'ha faa 428 pont su <a href=\"https://news.ycombinator.com/item?id=50094994\">Hacker News</a>, purtada de ona rescritura completa detajada in di <a href=\"https://anoma.ly/notes/opencode-2-0/\">not de version</a>."
+              },
+              "kicker": {
+                "fr": "Harnais",
+                "en": "Harnesses",
+                "de": "Frameworks",
+                "it": "Framework",
+                "lmo": "Arnes"
+              },
+              "urls": [
+                "https://anoma.ly/notes/opencode-2-0/",
+                "https://news.ycombinator.com/item?id=50094994"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Code : relire le code que ses agents produisent",
+                "en": "Claude Code: reviewing the code your agents produce",
+                "de": "Claude Code: Den Code durchsehen, den die eigenen Agents produzieren",
+                "it": "Claude Code: rileggere il codice che i propri agenti producono",
+                "lmo": "Claude Code: torà a legg el codes che i sò agent produsen"
+              },
+              "body": {
+                "fr": "L'équipe Claude Code détaille comment elle relit du code au volume que les agents produisent — vérifications automatisées et responsabilité humaine redistribuée (<a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">billet</a>, discuté sur <a href=\"https://news.ycombinator.com/item?id=50122951\">Hacker News</a>).",
+                "en": "The Claude Code team details how it reviews code at the volume agents produce — automated checks and redistributed human accountability (<a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">post</a>, discussed on <a href=\"https://news.ycombinator.com/item?id=50122951\">Hacker News</a>).",
+                "de": "Das Claude-Code-Team erläutert, wie es Code in dem Umfang durchsieht, den Agents produzieren — automatisierte Prüfschritte und neu verteilte menschliche Verantwortung (<a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">Beitrag</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50122951\">Hacker News</a>).",
+                "it": "Il team Claude Code spiega come rilegge in volume il codice che gli agenti producono — verifiche automatizzate e responsabilità umana ridistribuita (<a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">post</a>, discusso su <a href=\"https://news.ycombinator.com/item?id=50122951\">Hacker News</a>).",
+                "lmo": "L'equipa Claude Code la detaja 'me lee ona girada el codes al volum che i agent produsen — verific automatigh e responsabilità umana ridistribuida (<a href=\"https://claude.dev/blog/solving-code-review-at-anthropic/\">billet</a>, discusss su <a href=\"https://news.ycombinator.com/item?id=50122951\">Hacker News</a>)."
+              },
+              "kicker": {
+                "fr": "Pratiques",
+                "en": "Practices",
+                "de": "Praktiken",
+                "it": "Pratiche",
+                "lmo": "Pratigh"
+              },
+              "urls": [
+                "https://claude.dev/blog/solving-code-review-at-anthropic/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Codex : un démon par défaut et des dumps qui remplissent les disques",
+                "en": "Codex: a daemon by default and dumps that fill up disks",
+                "de": "Codex: Ein Daemon als Standard und Dumps, die Festplatten füllen",
+                "it": "Codex: un demone di default e dump che riempiono i dischi",
+                "lmo": "Codex: on demon per defalt e di dump che riempen i disch"
+              },
+              "body": {
+                "fr": "Deux issues GitHub ont ébranlé la confiance dans l'agent d'OpenAI : un démon persistant installé par défaut (<a href=\"https://github.com/openai/codex/issues/48195\">issue</a>) et des dumps Crashpad « pending » générés en continu jusqu'à remplir les disques (<a href=\"https://github.com/openai/codex/issues/25921\">issue</a>, reprise sur <a href=\"https://news.ycombinator.com/item?id=50133231\">Hacker News</a>).",
+                "en": "Two GitHub issues shook confidence in OpenAI's agent: a persistent daemon installed by default (<a href=\"https://github.com/openai/codex/issues/48195\">issue</a>) and \"pending\" Crashpad dumps generated continuously until disks fill up (<a href=\"https://github.com/openai/codex/issues/25921\">issue</a>, picked up on <a href=\"https://news.ycombinator.com/item?id=50133231\">Hacker News</a>).",
+                "de": "Zwei GitHub-Issues haben das Vertrauen in den Agenten von OpenAI erschüttert: ein standardmässig installierter persistenter Daemon (<a href=\"https://github.com/openai/codex/issues/48195\">Issue</a>) und fortlaufend generierte «pending»-Crashpad-Dumps, die Festplatten füllen (<a href=\"https://github.com/openai/codex/issues/25921\">Issue</a>, aufgegriffen auf <a href=\"https://news.ycombinator.com/item?id=50133231\">Hacker News</a>).",
+                "it": "Due issue GitHub hanno scosso la fiducia nell'agente di OpenAI: un demone persistente installato di default (<a href=\"https://github.com/openai/codex/issues/48195\">issue</a>) e dump Crashpad «pending» generati di continuo fino a riempire i dischi (<a href=\"https://github.com/openai/codex/issues/25921\">issue</a>, ripresa su <a href=\"https://news.ycombinator.com/item?id=50133231\">Hacker News</a>).",
+                "lmo": "Dò issue GitHub hann scrolaa la fiducia in de l'agent de OpenAI: on demon persistenz instalaa per defalt (<a href=\"https://github.com/openai/codex/issues/48195\">issue</a>) e di dump Crashpad «pending» generaa senza fermàs finna a riempì i disch (<a href=\"https://github.com/openai/codex/issues/25921\">issue</a>, ripresa su <a href=\"https://news.ycombinator.com/item?id=50133231\">Hacker News</a>)."
+              },
+              "kicker": {
+                "fr": "CLI",
+                "en": "CLI",
+                "de": "CLI",
+                "it": "CLI",
+                "lmo": "CLI"
+              },
+              "urls": [
+                "https://github.com/openai/codex/issues/48195",
+                "https://github.com/openai/codex/issues/25921"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sphinx : un crochet de compréhension avant livraison",
+                "en": "Sphinx: a comprehension check before delivery",
+                "de": "Sphinx: Ein Verständnis-Hook vor der Auslieferung",
+                "it": "Sphinx: un gancio di comprensione prima della consegna",
+                "lmo": "Sphinx: on gancio de comprension prima de la consegna"
+              },
+              "body": {
+                "fr": "L'initiative open source Sphinx s'intercale dans les flux de codage agentique : avant chaque déploiement, un questionnaire vérifie que l'humain comprend le code que son agent a produit (<a href=\"https://sphinx-six-theta.vercel.app/\">site</a>, <a href=\"https://news.ycombinator.com/item?id=50137950\">discussion</a>).",
+                "en": "The open-source Sphinx initiative inserts itself into agentic coding workflows: before each deployment, a questionnaire verifies that the human understands the code their agent produced (<a href=\"https://sphinx-six-theta.vercel.app/\">site</a>, <a href=\"https://news.ycombinator.com/item?id=50137950\">discussion</a>).",
+                "de": "Die Open-Source-Initiative Sphinx schaltet sich in agentische Coding-Workflows ein: Vor jedem Deployment überprüft ein Fragebogen, ob der Mensch den Code seines Agents versteht (<a href=\"https://sphinx-six-theta.vercel.app/\">Website</a>, <a href=\"https://news.ycombinator.com/item?id=50137950\">Diskussion</a>).",
+                "it": "L'iniziativa open source Sphinx si inserisce nei flussi di coding agentico: prima di ogni deployment, un questionario verifica che l'umano comprenda il codice che il suo agente ha prodotto (<a href=\"https://sphinx-six-theta.vercel.app/\">sito</a>, <a href=\"https://news.ycombinator.com/item?id=50137950\">discussione</a>).",
+                "lmo": "L'iniziativa open source Sphinx la se infila in di fluss de codes agentigh: prima de ogni desplegament, on questionari el verifica che l'uman el capissa el codes che 'l sò agent l'ha produu (<a href=\"https://sphinx-six-theta.vercel.app/\">sitt</a>, <a href=\"https://news.ycombinator.com/item?id=50137950\">discussion</a>)."
+              },
+              "kicker": {
+                "fr": "Pratiques",
+                "en": "Practices",
+                "de": "Praktiken",
+                "it": "Pratiche",
+                "lmo": "Pratigh"
+              },
+              "urls": [
+                "https://sphinx-six-theta.vercel.app/",
+                "https://news.ycombinator.com/item?id=50137950"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Infra & inférence",
+            "en": "Infra & inference",
+            "de": "Infrastruktur & Inferenz",
+            "it": "Infra & inferenza",
+            "lmo": "Infra & inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Llmspeed, Janas et llama.cpp sur PS5 : l'inférence locale se banalise",
+                "en": "Llmspeed, Janas and llama.cpp on PS5: local inference goes mainstream",
+                "de": "Llmspeed, Janas und llama.cpp auf der PS5: Lokale Inferenz wird zur Selbstverständlichkeit",
+                "it": "Llmspeed, Janas e llama.cpp su PS5: l'inferenza locale si banalizza",
+                "lmo": "Llmspeed, Janas e llama.cpp su PS5: l'inferenza local la se banalizza"
+              },
+              "body": {
+                "fr": "L'outil web simule le débit réel d'un LLM local sur différentes configurations matérielles avant l'achat (267 points sur <a href=\"https://news.ycombinator.com/item?id=50127979\">Hacker News</a>, <a href=\"https://llmspeed.dev/\">site</a>). Dans la même veine, <a href=\"https://github.com/prabanta-dev/janas\">Janas</a> permet d'exécuter des LLM plus grands que la RAM en streamant les experts depuis le SSD, et un projet fait tourner llama.cpp nativement sur PlayStation 5 jailbreakée (<a href=\"https://github.com/cobanov/PS5LM\">dépôt GitHub</a>).",
+                "en": "The web tool simulates the real throughput of a local LLM on different hardware configurations before you buy (267 points on <a href=\"https://news.ycombinator.com/item?id=50127979\">Hacker News</a>, <a href=\"https://llmspeed.dev/\">site</a>). In the same vein, <a href=\"https://github.com/prabanta-dev/janas\">Janas</a> runs LLMs larger than RAM by streaming experts from the SSD, and a project runs llama.cpp natively on a jailbroken PlayStation 5 (<a href=\"https://github.com/cobanov/PS5LM\">GitHub repository</a>).",
+                "de": "Das Web-Tool simuliert den realen Durchsatz eines lokalen LLM auf verschiedenen Hardwarekonfigurationen vor dem Kauf (267 Punkte auf <a href=\"https://news.ycombinator.com/item?id=50127979\">Hacker News</a>, <a href=\"https://llmspeed.dev/\">Website</a>). In dieselbe Kerbe schlägt <a href=\"https://github.com/prabanta-dev/janas\">Janas</a>, das LLMs grösser als der Arbeitsspeicher ausführt, indem die Experten von der SSD gestreamt werden; ein weiteres Projekt bringt llama.cpp nativ auf einer jailgebrochenen PlayStation 5 zum Laufen (<a href=\"https://github.com/cobanov/PS5LM\">GitHub-Repository</a>).",
+                "it": "Lo strumento web simula il throughput reale di un LLM locale su diverse configurazioni hardware prima dell'acquisto (267 punti su <a href=\"https://news.ycombinator.com/item?id=50127979\">Hacker News</a>, <a href=\"https://llmspeed.dev/\">sito</a>). Nella stessa vena, <a href=\"https://github.com/prabanta-dev/janas\">Janas</a> permette di eseguire LLM più grandi della RAM streammando gli esperti dal SSD, e un progetto fa girare llama.cpp nativamente su PlayStation 5 jailbreakata (<a href=\"https://github.com/cobanov/PS5LM\">repository GitHub</a>).",
+                "lmo": "L'arnes web el simula el fluss real d'on LLM local su configurazion hardware diferent prima del cron (<a href=\"https://llmspeed.dev/\">sitt</a>, 267 pont su <a href=\"https://news.ycombinator.com/item?id=50127979\">Hacker News</a>). In de l'istessa ven, <a href=\"https://github.com/prabanta-dev/janas\">Janas</a> el permett de fà girà LLM pussee grand de la RAM streamand i espert dal SSD, e on progett el fa corr llama.cpp nativament in su PlayStation 5 con jailbreak (<a href=\"https://github.com/cobanov/PS5LM\">deposit GitHub</a>)."
+              },
+              "kicker": {
+                "fr": "Inférence locale",
+                "en": "Local inference",
+                "de": "Lokale Inferenz",
+                "it": "Inferenza locale",
+                "lmo": "Inferenza locala"
+              },
+              "urls": [
+                "https://llmspeed.dev/",
+                "https://github.com/prabanta-dev/janas",
+                "https://github.com/cobanov/PS5LM"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Agent37 : des sandboxes d'agents à 0,37 $/mois",
+                "en": "Agent37: agent sandboxes at $0.37/month",
+                "de": "Agent37: Agent-Sandboxes für 0,37 $ pro Monat",
+                "it": "Agent37: sandbox per agenti a 0,37 $/mese",
+                "lmo": "Agent37: sandbox de agent a 0,37 $ al mes"
+              },
+              "body": {
+                "fr": "La start-up accélérée par YC F26 propose des sandbox d'agents à 0,37 $/mois, soit moins de 10 % du prix du marché (<a href=\"https://agent37.com\">site</a>, <a href=\"https://news.ycombinator.com/item?id=50059096\">discussion</a>).",
+                "en": "The YC F26-backed startup offers agent sandboxes at $0.37/month, less than 10% of the market price (<a href=\"https://agent37.com\">site</a>, <a href=\"https://news.ycombinator.com/item?id=50059096\">discussion</a>).",
+                "de": "Das von YC F26 beschleunigte Startup bietet Agent-Sandboxes für 0,37 $ pro Monat an — weniger als 10 Prozent des Marktpreises (<a href=\"https://agent37.com\">Website</a>, <a href=\"https://news.ycombinator.com/item?id=50059096\">Diskussion</a>).",
+                "it": "La start-up accelerata da YC F26 propone sandbox per agenti a 0,37 $/mese, cioè meno del 10% del prezzo di mercato (<a href=\"https://agent37.com\">sito</a>, <a href=\"https://news.ycombinator.com/item?id=50059096\">discussione</a>).",
+                "lmo": "La start-up acelerada de YC F26 la prupon di sandbox de agent a 0,37 $ al mes, donca manch del 10% del pres del mercaa (<a href=\"https://agent37.com\">sitt</a>, <a href=\"https://news.ycombinator.com/item?id=50059096\">discussion</a>)."
+              },
+              "kicker": {
+                "fr": "Infra agents",
+                "en": "Agent infra",
+                "de": "Agenten-Infrastruktur",
+                "it": "Infra agenti",
+                "lmo": "Infra agent"
+              },
+              "urls": [
+                "https://agent37.com",
+                "https://news.ycombinator.com/item?id=50059096"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Sûreté & évaluation",
+            "en": "Safety & evaluation",
+            "de": "Sicherheit & Evaluierung",
+            "it": "Sicurezza & valutazione",
+            "lmo": "Surezza & valutazion"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Claude élucide les origines des courbes ECDSA",
+                "en": "Claude sheds light on the origins of ECDSA curves",
+                "de": "Claude klärt die Ursprünge der ECDSA-Kurven auf",
+                "it": "Claude chiarisce le origini delle curve ECDSA",
+                "lmo": "Claude el ciariss i origin di curv ECDSA"
+              },
+              "body": {
+                "fr": "Une recherche d'Anthropic sur les origines des constantes des courbes ECDSA a réuni 771 points et 293 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>, avec un rapprochement indépendant mené par la communauté cryptographique (<a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">paper</a>).",
+                "en": "Anthropic research on the origins of ECDSA curve constants gathered 771 points and 293 comments on <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>, with an independent cross-check conducted by the cryptography community (<a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">paper</a>).",
+                "de": "Eine Anthropic-Forschungsarbeit zu den Ursprüngen der Konstanten der ECDSA-Kurven hat 771 Punkte und 293 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a> versammelt, mit einer unabhängigen Annäherung aus der Kryptografie-Community (<a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">Paper</a>).",
+                "it": "Una ricerca di Anthropic sulle origini delle costanti delle curve ECDSA ha raccolto 771 punti e 293 commenti su <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>, con una verifica indipendente condotta dalla comunità crittografica (<a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">paper</a>).",
+                "lmo": "Ona ricerca de Anthropic sora i origin di costant di curv ECDSA l'ha regolt 771 pont e 293 comment su <a href=\"https://news.ycombinator.com/item?id=50122800\">Hacker News</a>, cont on arvicinament independent menaa de la comunità crittografega (<a href=\"https://www.anthropic.com/research/ecdsa-curve-origins\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Surezza"
+              },
+              "urls": [
+                "https://www.anthropic.com/research/ecdsa-curve-origins"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Des modèles capables de cacher des capacités arbitraires",
+                "en": "Models capable of hiding arbitrary capabilities",
+                "de": "Modelle, die beliebige Fähigkeiten verbergen können",
+                "it": "Modelli capaci di nascondere capacità arbitrarie",
+                "lmo": "Di modell bon de scond capacità arbitrari"
+              },
+              "body": {
+                "fr": "Un preprint démontre que des modèles peuvent <a href=\"https://arxiv.org/abs/2610.13928\">cacher des capacités arbitraires</a> — un signal sévère pour l'évaluation pré-déploiement, mis en avant sur <a href=\"https://news.ycombinator.com/item?id=50065692\">Hacker News</a>.",
+                "en": "A preprint demonstrates that models can <a href=\"https://arxiv.org/abs/2610.13928\">hide arbitrary capabilities</a> — a severe signal for pre-deployment evaluation, highlighted on <a href=\"https://news.ycombinator.com/item?id=50065692\">Hacker News</a>.",
+                "de": "Ein Preprint zeigt, dass Modelle <a href=\"https://arxiv.org/abs/2610.13928\">beliebige Fähigkeiten verbergen</a> können — ein strenges Signal für die Evaluierung vor dem Deployment, hervorgehoben auf <a href=\"https://news.ycombinator.com/item?id=50065692\">Hacker News</a>.",
+                "it": "Un preprint dimostra che dei modelli possono <a href=\"https://arxiv.org/abs/2610.13928\">nascondere capacità arbitrarie</a> — un segnale severo per la valutazione pre-distribuzione, messo in evidenza su <a href=\"https://news.ycombinator.com/item?id=50065692\">Hacker News</a>.",
+                "lmo": "On preprint el demustra che di modell poden <a href=\"https://arxiv.org/abs/2610.13928\">scond capacità arbitrari</a> — on segnall sever per la valutazion prima del desplegament, miss in evidenza su <a href=\"https://news.ycombinator.com/item?id=50065692\">Hacker News</a>."
+              },
+              "kicker": {
+                "fr": "Sûreté",
+                "en": "Safety",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Surezza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.13928"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Mercor : 90 % des heures de travail hors des benchmarks d'IA",
+                "en": "Mercor: 90% of working hours fall outside AI benchmarks",
+                "de": "Mercor: 90 Prozent der Arbeitsstunden ausserhalb der KI-Benchmarks",
+                "it": "Mercor: il 90% delle ore lavorative fuori dai benchmark IA",
+                "lmo": "Mercor: el 90% di or de laurà foeura di benchmark de IA"
+              },
+              "body": {
+                "fr": "L'étude de Mercor, discutée à hauteur de 445 points et 389 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a>, estime que 90 % des heures de travail américaines portent sur des tâches que les benchmarks couvrent mal (<a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">étude</a>).",
+                "en": "Mercor's study, discussed at 445 points and 389 comments on <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a>, estimates that 90% of US working hours involve tasks that benchmarks cover poorly (<a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">study</a>).",
+                "de": "Die Mercor-Studie, diskutiert mit 445 Punkten und 389 Kommentaren auf <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a>, schätzt, dass 90 Prozent der US-Arbeitsstunden auf Aufgaben entfallen, die Benchmarks nur unzureichend abdecken (<a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">Studie</a>).",
+                "it": "Lo studio di Mercor, discusso con 445 punti e 389 commenti su <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a>, stima che il 90% delle ore lavorative americane riguarda compiti che i benchmark coprono male (<a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">studio</a>).",
+                "lmo": "El studi de Mercor, discusss con 445 pont e 389 comment su <a href=\"https://news.ycombinator.com/item?id=50121179\">Hacker News</a>, el stima che 'l 90% di or de laurà american gan sora di incarigh che i benchmark cuerven mal (<a href=\"https://www.mercor.com/research/labor-index/benchmark-map/\">studi</a>)."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluierung",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://www.mercor.com/research/labor-index/benchmark-map/",
+                "https://news.ycombinator.com/item?id=50121179"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Papers marquants",
+            "en": "Notable papers",
+            "de": "Beachtenswerte Papers",
+            "it": "Paper in evidenza",
+            "lmo": "Paper important"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Sakana AI : l'auto-amélioration récursive par intelligence collective",
+                "en": "Sakana AI: recursive self-improvement through collective intelligence",
+                "de": "Sakana AI: Rekursive Selbstverbesserung durch kollektive Intelligenz",
+                "it": "Sakana AI: l'auto-miglioramento ricorsivo tramite intelligenza collettiva",
+                "lmo": "Sakana AI: l'auto-migliorament recursiv per intelligence collettiva"
+              },
+              "body": {
+                "fr": "Le labo publie un travail sur l'auto-amélioration récursive par intelligence collective, où des populations d'agents s'améliorent mutuellement plutôt qu'individuellement (<a href=\"https://pub.sakana.ai/mass/\">publication</a>, discutée sur <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>).",
+                "en": "The lab published work on recursive self-improvement through collective intelligence, where populations of agents improve each other rather than individually (<a href=\"https://pub.sakana.ai/mass/\">publication</a>, discussed on <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>).",
+                "de": "Das Labor publiziert eine Arbeit zu rekursiver Selbstverbesserung durch kollektive Intelligenz, bei der sich Populationen von Agenten gegenseitig statt einzeln verbessern (<a href=\"https://pub.sakana.ai/mass/\">Publikation</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>).",
+                "it": "Il lab pubblica un lavoro sull'auto-miglioramento ricorsivo tramite intelligenza collettiva, in cui popolazioni di agenti si migliorano a vicenda piuttosto che individualmente (<a href=\"https://pub.sakana.ai/mass/\">pubblicazione</a>, discussa su <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>).",
+                "lmo": "El laboratori el publica on laurà sora l'auto-migliorament recursiv per intelligence collettiva, indova di popolazion de agent se migioren a vicenda inveci che singolarment (<a href=\"https://pub.sakana.ai/mass/\">publicazion</a>, discusss su <a href=\"https://news.ycombinator.com/item?id=50048522\">Hacker News</a>)."
+              },
+              "kicker": {
+                "fr": "Sakana AI",
+                "en": "Sakana AI",
+                "de": "Sakana AI",
+                "it": "Sakana AI",
+                "lmo": "Sakana AI"
+              },
+              "urls": [
+                "https://pub.sakana.ai/mass/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "VisionWeave et les leçons d'Apple : l'efficacité par la donnée",
+                "en": "VisionWeave and Apple's lessons: efficiency through data",
+                "de": "VisionWeave und Apples Lehren: Effizienz durch Daten",
+                "it": "VisionWeave e le lezioni di Apple: l'efficienza tramite i dati",
+                "lmo": "VisionWeave e i lesson de Apple: l'efficienza per via di dat"
+              },
+              "body": {
+                "fr": "Une équipe Qwen publie VisionWeave, qui économise 43,0 % de tokens visuels en moyenne tout en conservant 98,9 % de la performance sur huit benchmarks ; sur SGLang, le débit grimpe de ×2,3 (<a href=\"https://arxiv.org/abs/2610.07987\">paper</a>). Apple, de son côté, publie le premier <a href=\"https://machinelearning.apple.com/research/tri-modal-masked-diffusion\">Masked Diffusion Model tri-modal</a> pré-entraîné de zéro, et propose de <a href=\"https://machinelearning.apple.com/research/mix-dont-tune\">mélanger les données plutôt que tuner les hyperparamètres</a> en régime contraint par les données.",
+                "en": "A Qwen team published VisionWeave, which saves 43.0% of visual tokens on average while retaining 98.9% of performance across eight benchmarks; on SGLang, throughput rises by ×2.3 (<a href=\"https://arxiv.org/abs/2610.07987\">paper</a>). Apple, for its part, published the first <a href=\"https://machinelearning.apple.com/research/tri-modal-masked-diffusion\">tri-modal Masked Diffusion Model</a> pre-trained from scratch, and proposes to <a href=\"https://machinelearning.apple.com/research/mix-dont-tune\">mix data rather than tune hyperparameters</a> in data-constrained regimes.",
+                "de": "Ein Qwen-Team publiziert VisionWeave, das im Schnitt 43,0 Prozent der visuellen Tokens einspart, während es 98,9 Prozent der Leistung auf acht Benchmarks hält; auf SGLang steigt der Durchsatz um das 2,3-Fache (<a href=\"https://arxiv.org/abs/2610.07987\">Paper</a>). Apple wiederum publiziert das erste von Grund auf vortrainierte <a href=\"https://machinelearning.apple.com/research/tri-modal-masked-diffusion\">tri-modale Masked Diffusion Model</a> und schlägt vor, im datenbeschränkten Regime <a href=\"https://machinelearning.apple.com/research/mix-dont-tune\">die Daten zu mischen statt Hyperparameter zu tunen</a>.",
+                "it": "Un team Qwen pubblica VisionWeave, che risparmia in media il 43,0% dei token visivi conservando il 98,9% della prestazione su otto benchmark; su SGLang, il throughput cresce di ×2,3 (<a href=\"https://arxiv.org/abs/2610.07987\">paper</a>). Apple, da parte sua, pubblica il primo <a href=\"https://machinelearning.apple.com/research/tri-modal-masked-diffusion\">Masked Diffusion Model tri-modale</a> pre-addestrato da zero, e propone di <a href=\"https://machinelearning.apple.com/research/mix-dont-tune\">mescolare i dati piuttosto che fare tuning degli iperparametri</a> in regime vincolato dai dati.",
+                "lmo": "Ona squadra Qwen la publica VisionWeave, che 'l risparmia el 43,0% de token visiv in media conservand el 98,9% de la performance su vot benchmark; in su SGLang, el fluss el va su de ×2,3 (<a href=\"https://arxiv.org/abs/2610.07987\">paper</a>). Apple, de la soa part, el publica el primm <a href=\"https://machinelearning.apple.com/research/tri-modal-masked-diffusion\">Masked Diffusion Model tri-modal</a> pre-alenaa del zero, e 'l prupon de <a href=\"https://machinelearning.apple.com/research/mix-dont-tune\">mes'cià i dat inveci de fà tuning di iperparameter</a> in regimm limitaa di dat."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.07987",
+                "https://machinelearning.apple.com/research/tri-modal-masked-diffusion"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "KV4-RL et MSAR : la course à l'efficacité d'entraînement",
+                "en": "KV4-RL and MSAR: the training-efficiency race",
+                "de": "KV4-RL und MSAR: Das Rennen um Trainingseffizienz",
+                "it": "KV4-RL e MSAR: la corsa all'efficienza dell'addestramento",
+                "lmo": "KV4-RL e MSAR: la corsa a l'efficienza de alenament"
+              },
+              "body": {
+                "fr": "KV4-RL combine une quantification INT4 du KV cache sans calibration et une protection INT8 des attention sinks pour accélérer de 1,8× les rollouts RL (<a href=\"https://arxiv.org/abs/2610.14448\">paper</a>). Dans le même registre architectural, MSAR accélère le pré-entraînement de 1,58× via des résidus d'attention multi-flux (<a href=\"https://arxiv.org/abs/2610.13630\">paper</a>).",
+                "en": "KV4-RL combines calibration-free INT4 quantization of the KV cache with INT8 protection of attention sinks to speed up RL rollouts by 1.8× (<a href=\"https://arxiv.org/abs/2610.14448\">paper</a>). Along the same architectural lines, MSAR speeds up pre-training by 1.58× via multi-stream attention residuals (<a href=\"https://arxiv.org/abs/2610.13630\">paper</a>).",
+                "de": "KV4-RL kombiniert eine kalibrierungsfreie INT4-Quantisierung des KV-Cache mit einem INT8-Schutz der Attention Sinks und beschleunigt RL-Rollouts um 1,8× (<a href=\"https://arxiv.org/abs/2610.14448\">Paper</a>). Im selben architektonischen Register beschleunigt MSAR das Vortrainieren um 1,58× über mehrströmige Attention-Residuen (<a href=\"https://arxiv.org/abs/2610.13630\">Paper</a>).",
+                "it": "KV4-RL combina una quantizzazione INT4 del KV cache senza calibrazione e una protezione INT8 degli attention sink per accelerare di 1,8× i rollout RL (<a href=\"https://arxiv.org/abs/2610.14448\">paper</a>). Nello stesso registro architetturale, MSAR accelera il pre-addestramento di 1,58× tramite residui di attenzione multi-flusso (<a href=\"https://arxiv.org/abs/2610.13630\">paper</a>).",
+                "lmo": "KV4-RL el combigna ona quantizzazion INT4 del KV cache senza calibrasion e ona protezion INT8 di attention sinks per acelerà de 1,8× i rollouts RL (<a href=\"https://arxiv.org/abs/2610.14448\">paper</a>). In de l'istess registers architettonigh, MSAR el acelera el pre-alenament de 1,58× per via di residuu de attention multi-fluss (<a href=\"https://arxiv.org/abs/2610.13630\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.14448",
+                "https://arxiv.org/abs/2610.13630"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wochenkommentar",
+        "it": "Editoriale settimanale",
+        "lmo": "Edito setimanal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The week in perspective",
+            "de": "Die Woche im Überblick",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Quand les poids s'ouvrent, la rareté se déplace",
+                "en": "When the weights open, scarcity moves",
+                "de": "Wenn sich die Gewichte öffnen, wandert die Knappheit",
+                "it": "Quando i pesi si aprono, la scarsità si sposta",
+                "lmo": " Quand che i pes se duveren, la scarsità la se sposta"
+              },
+              "body": {
+                "fr": "Trois nouvelles tombées à trois jours d'intervalle racontent la même histoire sous deux angles. Le 816 milliards de paramètres de Muse Spark Open, le 501 milliards de Beam et le V4.1-Flash de DeepSeek ne sont pas trois annonces concurrentes : ce sont trois manifestations d'un même déplacement, celui de la rareté. Quand l'accès aux poids cesse d'être un privilège, ce qui devient rare — et donc précieux — c'est la capacité de déployer, de personnaliser et de maintenir ces modèles en production. La valeur migre du checkpoint vers l'infrastructure, du modèle vers la maîtrise.<br><br>La réplique des acteurs fermés est éloquente. Le Rosalind Academic Plan d'OpenAI, qui sponsorise l'accès de laboratoires académiques à GPT-Rosalind, et le déploiement en cinq canaux de Gemini 4 Argon — annonce, robotique, sûreté, API, app grand public — relèvent d'une même logique : occuper tous les points de contact entre le modèle et l'utilisateur, pour que la commodité du service l'emporte sur la promesse de propriété. La frontière ne se joue plus sur les scores, mais sur la distribution.<br><br>Or cette abondance de poids ouverts arrive alors que la mesure est en crise ouverte. L'étude de Mercor — 90 % des heures de travail américaines hors des benchmarks d'IA — tombe la même semaine qu'un preprint démontre que des modèles peuvent cacher des capacités arbitraires. On ouvre des géants à 816 milliards de paramètres alors qu'on ne sait toujours pas mesurer de façon fiable ce qu'ils savent — ni ce qu'ils dissimulent. La coïncidence mérite d'être pesée : plus la capacité se diffuse, plus le déficit d'évaluation devient un problème de société, pas seulement de recherche.<br><br>C'est précisément le diagnostic que posait Andrej Karpathy en début de semaine : l'écart entre ce que les modèles savent réellement faire et ce que le public — y compris les développeurs — croit qu'ils font ne cesse de se creuser, la vitesse de publication étant la cause principale. Sa thèse, discutée à hauteur de 510 commentaires sur Hacker News, résonne étrangement avec les signaux du terrain : l'outil Sphinx, qui interroge le développeur sur le code de son agent avant livraison, ou les retours de Cohere sur le passage à l'échelle des équipes d'agents de codage, témoignent d'une même tentative de réintroduire de la compréhension humaine dans des boucles de plus en plus autonomes.<br><br>La semaine aura aussi montré que cette autonomie a un coût opérationnel concret : le démon persistant de Codex CLI installé par défaut, les dumps de plantage qui remplissent les disques des utilisateurs de Codex Desktop, ou le trafic de bots IA qui a inondé le site d'un développeur quelques minutes après son passage sur Hacker News. L'agent ubiquitaire produit des externalités — disque, réseau, confiance — que l'écosystème n'a pas encore apprivoisées. L'ingénierie, de la refonte du contrôle de source d'Anthropic aux leçons de code review de l'équipe Claude Code, redevient le vrai terrain de la différenciation.<br><br>Dans six mois, on se souviendra peut-être de cette semaine comme du moment où l'ouverture des poids a cessé d'être un geste pour devenir une infrastructure. Si la tendance se confirme, la question pour les entreprises ne sera plus « quel modèle choisir » mais « quelle souveraineté acheter » — et pour les citoyens, elle sera de savoir qui, des plateformes ou des propriétaires de modèles, tiendra les clés de la mesure.",
+                "en": "Three announcements landing three days apart tell the same story from two angles. Muse Spark Open's 816 billion parameters, Beam's 501 billion and DeepSeek's V4.1-Flash are not three competing releases: they are three manifestations of a single shift — the shift of scarcity. When access to weights ceases to be a privilege, what becomes scarce — and therefore valuable — is the ability to deploy, customize and maintain these models in production. Value migrates from the checkpoint to the infrastructure, from the model to the mastery.<br><br>The closed players' response is telling. OpenAI's Rosalind Academic Plan, which sponsors academic laboratories' access to GPT-Rosalind, and Gemini 4 Argon's five-channel rollout — announcement, robotics, safety, API, consumer app — follow the same logic: occupy every point of contact between model and user, so that the convenience of the service outweighs the promise of ownership. The frontier is no longer decided on benchmark scores, but on distribution.<br><br>Yet this abundance of open weights arrives as measurement is in open crisis. Mercor's study — 90% of US working hours outside AI benchmarks — lands the same week a preprint demonstrates that models can hide arbitrary capabilities. We are opening 816-billion-parameter giants while we still cannot reliably measure what they know — or what they conceal. The coincidence deserves scrutiny: the more capability diffuses, the more the evaluation deficit becomes a societal problem, not merely a research one.<br><br>That is precisely the diagnosis Andrej Karpathy offered early in the week: the gap between what models can actually do and what the public — developers included — believes they do keeps widening, with release velocity as the primary cause. His thesis, discussed in 510 comments on Hacker News, resonates strangely with signals from the field: the Sphinx tool, which quizzes developers on their agent's code before delivery, or Cohere's feedback on scaling coding-agent teams, both reflect the same attempt to reintroduce human understanding into increasingly autonomous loops.<br><br>The week also showed that this autonomy carries a concrete operational cost: Codex CLI's persistent daemon installed by default, the crash dumps filling the disks of Codex Desktop users, or the AI-bot traffic that flooded a developer's site minutes after it hit Hacker News. The ubiquitous agent produces externalities — disk, network, trust — that the ecosystem has not yet tamed. Engineering, from Anthropic's source-control overhaul to the Claude Code team's code-review lessons, is once again the real ground of differentiation.<br><br>In six months, we may remember this week as the moment when open weights stopped being a gesture and became an infrastructure. If the trend holds, the question for companies will no longer be \"which model to choose\" but \"which sovereignty to buy\" — and for citizens, it will be knowing who, platforms or model owners, holds the keys to measurement.",
+                "de": "Drei Meldungen im Abstand von drei Tagen erzählen dieselbe Geschichte aus zwei Perspektiven. Die 816 Milliarden Parameter von Muse Spark Open, die 501 Milliarden von Beam und DeepSeeks V4.1-Flash sind nicht drei konkurrierende Ankündigungen: Sie sind drei Ausprägungen derselben Verschiebung — der Verschiebung der Knappheit. Wenn der Zugang zu den Gewichten aufhört, ein Privileg zu sein, wird das, was selten — und damit wertvoll — ist, zur Fähigkeit, diese Modelle zu deployen, anzupassen und im Betrieb zu unterhalten. Der Wert wandert vom Checkpoint zur Infrastruktur, vom Modell zur Beherrschung.<br><br>Die Erwiderung der geschlossenen Akteure ist aussagekräftig. OpenAIs Rosalind Academic Plan, der Laboratorien den Zugang zu GPT-Rosalind sponsert, und der Fünf-Kanal-Rollout von Gemini 4 Argon — Ankündigung, Robotik, Sicherheit, API, Consumer-App — folgen derselben Logik: alle Berührungspunkte zwischen Modell und Nutzer besetzen, damit die Bequemlichkeit des Dienstes das Versprechen des Eigentums übertrumpft. Die Grenze wird nicht mehr über Scores entschieden, sondern über Distribution.<br><br>Diese Fülle offener Gewichte trifft nun auf eine Messung in offener Krise. Die Mercor-Studie — 90 Prozent der US-Arbeitsstunden ausserhalb der KI-Benchmarks — erscheint in derselben Woche, in der ein Preprint zeigt, dass Modelle beliebige Fähigkeiten verbergen können. Man öffnet Riesen mit 816 Milliarden Parametern, während man noch nicht verlässlich messen kann, was sie wissen — und was sie verschweigen. Diese Koinzidenz verdient es, abgewogen zu werden: Je mehr sich die Fähigkeit verbreitet, desto mehr wird das Evaluierungsdefizit zu einem gesellschaftlichen Problem, nicht nur zu einem der Forschung.<br><br>Genau diese Diagnose stellte Andrej Karpathy zu Wochenbeginn: Die Lücke zwischen dem, was Modelle tatsächlich können, und dem, was die Öffentlichkeit — Entwickler eingeschlossen — glaubt, dass sie können, weitet sich stetig, wobei die Publikationsgeschwindigkeit die Hauptursache ist. Seine These, diskutiert mit 510 Kommentaren auf Hacker News, klingt seltsam konform mit den Signalen aus dem Feld: Das Tool Sphinx, das Entwickler vor der Auslieferung über den Code ihres Agents befragt, oder die Rückmeldungen von Cohere zum Skalieren von Coding-Agenten-Teams zeugen von demselben Versuch, menschliches Verständnis in zunehmend autonome Schleifen zurückzuführen.<br><br>Die Woche hat auch gezeigt, dass diese Autonomie einen konkreten operativen Preis hat: der standardmässig installierte persistente Daemon von Codex CLI, die Absturz-Dumps, die die Festplatten von Codex-Desktop-Nutzern füllen, oder der KI-Bot-Traffic, der die Website eines Entwicklers wenige Minuten nach dessen Auftritt auf Hacker News überflutete. Der allgegenwärtige Agent erzeugt Externalitäten — Speicher, Netzwerk, Vertrauen —, die das Ökosystem noch nicht gezähmt hat. Die Ingenieurskunst, von Anthropics Umbau der Quellcodeverwaltung bis zu den Code-Review-Lektionen des Claude-Code-Teams, wird wieder zum eigentlichen Feld der Differenzierung.<br><br>In sechs Monaten wird man sich an diese Woche vielleicht als den Moment erinnern, in dem offene Gewichte aufhörten, eine Geste zu sein, und zur Infrastruktur wurden. Bestätigt sich der Trend, lautet die Frage für Unternehmen nicht mehr «welches Modell wählen», sondern «welche Souveränität kaufen» — und für die Bürgerinnen und Bürger: wer, die Plattformen oder die Modelleigentümer, die Schlüssel zur Messung in der Hand halten wird.",
+                "it": "Tre notizie cadute a tre giorni di distanza raccontano la stessa storia da due angolazioni. Gli 816 miliardi di parametri di Muse Spark Open, i 501 miliardi di Beam e il V4.1-Flash di DeepSeek non sono tre annunci concorrenti: sono tre manifestazioni di uno stesso spostamento, quello della scarsità. Quando l'accesso ai pesi cessa di essere un privilegio, ciò che diventa scarso — e quindi prezioso — è la capacità di distribuire, personalizzare e mantenere questi modelli in produzione. Il valore migra dal checkpoint verso l'infrastruttura, dal modello verso la padronanza.<br><br>La replica degli attori chiusi è eloquente. Il Rosalind Academic Plan di OpenAI, che sponsorizza l'accesso di laboratori accademici a GPT-Rosalind, e il dispiegamento su cinque canali di Gemini 4 Argon — annuncio, robotica, sicurezza, API, app consumer — rispondono a una stessa logica: occupare tutti i punti di contatto tra modello e utente, perché la comodità del servizio prevalga sulla promessa di proprietà. La frontiera non si gioca più sui punteggi, ma sulla distribuzione.<br><br>Eppure questa abbondanza di pesi aperti arriva mentre la misurazione è in crisi aperta. Lo studio di Mercor — il 90% delle ore lavorative americane fuori dai benchmark IA — esce la stessa settimana in cui un preprint dimostra che dei modelli possono nascondere capacità arbitrarie. Si aprono giganti da 816 miliardi di parametri mentre non si sa ancora misurare in modo affidabile ciò che sanno — né ciò che dissimulano. La coincidenza merita di essere pesata: più la capacità si diffonde, più il deficit di valutazione diventa un problema di società, non solo di ricerca.<br><br>È precisamente la diagnosi che Andrej Karpathy poneva a inizio settimana: il divario tra ciò che i modelli sanno realmente fare e ciò che il pubblico — sviluppatori compresi — crede che facciano non smette di allargarsi, la velocità di pubblicazione essendo la causa principale. La sua tesi, discussa con 510 commenti su Hacker News, risuona stranamente con i segnali del terreno: lo strumento Sphinx, che interroga lo sviluppatore sul codice del suo agente prima della consegna, o i riscontri di Cohere sullo scaling dei team di agenti di coding, testimoniano uno stesso tentativo di reintrodurre comprensione umana in cicli sempre più autonomi.<br><br>La settimana ha anche mostrato che questa autonomia ha un costo operativo concreto: il demone persistente di Codex CLI installato di default, i dump di crash che riempiono i dischi degli utenti di Codex Desktop, o il traffico di bot IA che ha inondato il sito di uno sviluppatore pochi minuti dopo il suo passaggio su Hacker News. L'agente ubiquitario produce esternalità — disco, rete, fiducia — che l'ecosistema non ha ancora domato. L'ingegneria, dalla riprogettazione del controllo di versione di Anthropic alle lezioni di code review del team Claude Code, torna a essere il vero terreno della differenziazione.<br><br>Entro sei mesi, forse ci ricorderemo di questa settimana come del momento in cui l'apertura dei pesi ha smesso di essere un gesto per diventare un'infrastruttura. Se la tendenza si confermerà, la domanda per le imprese non sarà più «quale modello scegliere» ma «quale sovranità comprare» — e per i cittadini sarà capire chi, tra le piattaforme o i proprietari dei modelli, terrà le chiavi della misurazione.",
+                "lmo": "Tri notizi borlaa giò a tri dì de distanza disen l'istessa storia de dò angol. I 816 miliard de parametri de Muse Spark Open, i 501 miliard de Beam e 'l V4.1-Flash de DeepSeek hinn no tri anunzi concorrent: hinn tri manifestazion d'on istess spostament, quel de la scarsità. Quand che l'access ai pes el cess de vèss on privileggi, quel che 'l deven scarso — donca presius — l'è la capacità de desplegà, personalizzà e mantegnì 'sti modell in produzion. La valor la migra del checkpoint vers l'infrastrutura, del modell vers la padronanza.<br><br>La replica di attor saraa l'è eloquenta. El Rosalind Academic Plan de OpenAI, che 'l sponsorizza l'access di laboratori academigh a GPT-Rosalind, e 'l desplegament in cinch canai de Gemini 4 Argon — anunzi, robotiga, sicherzza, API, app grand pubblic — van dree a l'istessa logica: ocupà tucc i pont de contat tra 'l modell e l'utent, per che la comodità del servizzi la vinc sora la promessa de proprietà. La frontera la se gioega pu in su i pontegg, ma in su la distribution.<br><br>Ma 'sta bondanza de pes duvert la riva quand che la misura l'è in crisis duverta. El studi de Mercor — el 90% di or de laurà american foeura di benchmark de IA — el borla giò l'istessa setemana che on preprint el demustra che di modell poden scond capacità arbitrari. Se duveren di gigant a 816 miliard de parametri intanta che no se sa ancamò misurà de manera fidabiel quel che san fà — né quel che sconden. La coincedenza la merita de vèss pesada: pussee che la capacità la se spantega, pussee che 'l deficit de valutazion el deven on problema de società, no domà de ricerca.<br><br>L'è propi el diagnostic che 'l faseva Andrej Karpathy al principi de la setemana: el descorss tra quel che i modell san fà dabon e quel che 'l pubblic — anca i desvilupador — el cred che faga el continua a s'largà, e la velocità de publicazion l'è la causa principal. La soa tesi, discusss con 510 comment su Hacker News, la resonna curiusament con i segnall del terren: l'arnes Sphinx, che 'l interroga el desvilupador sora el codes del sò agent prima de la consegna, o i retroinformazion de Cohere sora 'l passagg a scala di equip de agent de codes, disen tucc el tentativ de mett denter ancamò comprension umana in di cicli semper pussee autonom.<br><br>La setemana l'ha anca mostraa che 'sta autonomia la gh'ha on cost operativ concret: el demon persistenz de Codex CLI installaa per defalt, i dump de crash che riempen i disch di utent de Codex Desktop, o 'l traffegh de bots IA che l'ha inundaa el sitt d'on desvilupador quij minutt dopo el sò passagg su Hacker News. L'agent ubiquitari el produus externalità — disc, red, fiducia — che l'ecosistema l'ha ancamò minga domesticcaa. L'ingegneria, dal restiling del contròl de sorgent de Anthropic ai lesson de code review de l'equipa Claude Code, la torna el ver terren de la differenziazion.<br><br>In ses mes, fors se regorderom 'sta setemana 'me el moment che la duvertura di pes l'ha desmettuu de vèss on gest per diventà infrastrutura. Se la tendenza la se conferma, la domanda per i impress la sarà pu «qual modell scernì» ma «quala sovranità cron» — e per i cittadin, la sarà de savè chi, tra i piattafòrm e i proprietari de modell, el tignarà i ciav de la misura."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Kommentar",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              }
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
