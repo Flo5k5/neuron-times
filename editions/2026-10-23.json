@@ -1,0 +1,754 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-23",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "OpenAI a annoncé le 22 octobre 2026 la disponibilité générale de sa Decisions API, servie par le modèle gpt-6-luna, pour répondre à des besoins ciblés : des décisions rapides et peu coûteuses intégrables dans n'importe quelle application, via l'endpoint v1/decisions. La firme précise dans son <a href=\"https://openai.com/index/decisions-api\">annonce</a> que l'API accepte désormais jusqu'à 400 questions par requête, contre 200 lors de la bêta publique, soit un doublement de la capacité.",
+        "en": "On October 22, 2026, OpenAI announced the general availability of its Decisions API, served by the gpt-6-luna model, to meet targeted needs: fast, low-cost decisions embeddable in any application, via the v1/decisions endpoint. In its <a href=\"https://openai.com/index/decisions-api\">announcement</a>, the firm says the API now accepts up to 400 questions per request, up from 200 during the public beta — a doubling of capacity.",
+        "de": "OpenAI hat am 22. Oktober 2026 die allgemeine Verfügbarkeit seiner Decisions API angekündigt, die vom Modell gpt-6-luna betrieben wird und gezielte Bedürfnisse adressiert: schnelle und kostengünstige Entscheidungen, die sich in jede Anwendung integrieren lassen, über den Endpoint v1/decisions. Das Unternehmen präzisiert in seiner <a href=\"https://openai.com/index/decisions-api\">Ankündigung</a>, dass die API nun bis zu 400 Fragen pro Anfrage zulässt – gegenüber 200 in der öffentlichen Beta, was einer Verdopplung der Kapazität entspricht.",
+        "it": "OpenAI ha annunciato il 22 ottobre 2026 la disponibilità generale della sua Decisions API, servita dal modello gpt-6-luna, per rispondere a esigenze mirate: decisioni rapide ed economiche integrabili in qualsiasi applicazione, tramite l'endpoint v1/decisions. L'azienda precisa nel suo <a href=\"https://openai.com/index/decisions-api\">annuncio</a> che l'API accetta ormai fino a 400 domande per richiesta, contro le 200 della beta pubblica, ossia un raddoppio della capacità.",
+        "lmo": "OpenAI l'ha anunziaa el 22 de otover 2026 la disponibilità general de la soa Decisions API, servida del modell gpt-6-luna, per respond a di besogn precisaa: decision svelt e pocch costos integrabil in qualsesia aplicazion, via l'endpoint v1/decisions. La societya la precisa in de la soa <a href=\"https://openai.com/index/decisions-api\">anunzi</a> che l'API la acetta adess fina a 400 domande per richiesta, contra 200 in de la beta publica, donca el doppi de la capacità."
+      },
+      {
+        "fr": "Le <a href=\"https://platform.openai.com/docs/changelog\">changelog de la plateforme</a> détaille trois nouveautés depuis la bêta : le partage du cache d'entrée entre requêtes pour bénéficier de remises de prompt caching, l'ajout d'images dans les instructions de questions individuelles, et la transmission directe de données structurées via le champ input_json. La documentation des <a href=\"https://platform.openai.com/api/docs/guides/decisions\">changements</a> depuis la bêta est publiée en parallèle.",
+        "en": "The <a href=\"https://platform.openai.com/docs/changelog\">platform changelog</a> details three new features since the beta: sharing of the input cache across requests to qualify for prompt caching discounts, the addition of images in individual question instructions, and direct transmission of structured data via the input_json field. Documentation of the <a href=\"https://platform.openai.com/api/docs/guides/decisions\">changes</a> since the beta was published in parallel.",
+        "de": "Das <a href=\"https://platform.openai.com/docs/changelog\">Changelog der Plattform</a> führt drei Neuerungen seit der Beta auf: die gemeinsame Nutzung des Eingabe-Caches über Anfragen hinweg, um Prompt-Caching-Rabatte zu nutzen, die Einbindung von Bildern in den Instruktionen einzelner Fragen sowie die direkte Übermittlung strukturierter Daten über das Feld input_json. Die Dokumentation der <a href=\"https://platform.openai.com/api/docs/guides/decisions\">Änderungen</a> seit der Beta wurde parallel veröffentlicht.",
+        "it": "Il <a href=\"https://platform.openai.com/docs/changelog\">changelog della piattaforma</a> descrive nel dettaglio tre novità rispetto alla beta: la condivisione della cache di input tra richieste per beneficiare degli sconti del prompt caching, l'aggiunta di immagini nelle istruzioni delle singole domande, e la trasmissione diretta di dati strutturati tramite il campo input_json. La documentazione dei <a href=\"https://platform.openai.com/api/docs/guides/decisions\">cambiamenti</a> rispetto alla beta è stata pubblicata in parallelo.",
+        "lmo": "El <a href=\"https://platform.openai.com/docs/changelog\">changelog de la piattaforma</a> el detaja trii novità de la beta: la condivision del cache de entrada tra i richiest per avèggh di scont de prompt caching, l'aggiunta de imagin in di istruzion di domande individuai, e la trasmission direta de dacc struturaa via el camp input_json. La documentazion di <a href=\"https://platform.openai.com/api/docs/guides/decisions\">cambiament</a> de la beta l'è stada publicada in parallel."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/decisions-api",
+      "https://platform.openai.com/docs/changelog",
+      "https://platform.openai.com/api/docs/guides/decisions"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & the Frontier",
+      "de": "Modelle & Grenzen",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modej & Confin"
+    },
+    "headline": {
+      "fr": "La Decisions API d'OpenAI passe en disponibilité générale avec gpt-6-luna",
+      "en": "OpenAI's Decisions API Reaches General Availability with gpt-6-luna",
+      "de": "OpenAIs Decisions API wird allgemein verfügbar – mit gpt-6-luna",
+      "it": "La Decisions API di OpenAI passa alla disponibilità generale con gpt-6-luna",
+      "lmo": "La Decisions API de OpenAI la passa a disponibilità general con gpt-6-luna"
+    },
+    "subdeck": {
+      "fr": "L'endpoint v1/decisions double sa capacité à 400 questions par requête et ajoute images et données structurées en entrée.",
+      "en": "The v1/decisions endpoint doubles its capacity to 400 questions per request and adds images and structured data as input.",
+      "de": "Der Endpoint v1/decisions verdoppelt seine Kapazität auf 400 Fragen pro Anfrage und unterstützt nun Bilder und strukturierte Daten als Eingabe.",
+      "it": "L'endpoint v1/decisions raddoppia la capacità a 400 domande per richiesta e aggiunge immagini e dati strutturati in ingresso.",
+      "lmo": "L'endpoint v1/decisions el dobbla la soa capacità a 400 domande per richiesta e 'l gionta imagin e dacc struttaa in entrada."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic donne son standard Agent Skills à l'Agentic AI Foundation",
+        "en": "Anthropic Donates Its Agent Skills Standard to the Agentic AI Foundation",
+        "de": "Anthropic übergibt seinen Standard Agent Skills an die Agentic AI Foundation",
+        "it": "Anthropic dona il suo standard Agent Skills all'Agentic AI Foundation",
+        "lmo": "Anthropic el dà el so standard Agent Skills a l'Agentic AI Foundation"
+      },
+      "body": {
+        "fr": "Anthropic cède Agent Skills, son standard ouvert donnant aux agents des connaissances et workflows spécialisés, à l'Agentic AI Foundation, selon son <a href=\"https://www.anthropic.com/news?subjects=announcements\">annonce du 22 octobre 2026</a>. Plus de 70 plateformes — dont ChatGPT, Cursor, GitHub Copilot et VS Code — ont intégré le standard depuis sa publication en décembre 2025, un adoption record pour une spécification née dans un labo privé.",
+        "en": "Anthropic is transferring Agent Skills, its open standard giving agents specialized knowledge and workflows, to the Agentic AI Foundation, according to its <a href=\"https://www.anthropic.com/news?subjects=announcements\">October 22, 2026 announcement</a>. More than 70 platforms — including ChatGPT, Cursor, GitHub Copilot and VS Code — have integrated the standard since its publication in December 2025, record adoption for a specification born inside a private lab.",
+        "de": "Anthropic überträgt Agent Skills, seinen offenen Standard, der Agenten spezialisiertes Wissen und Workflows verleiht, an die Agentic AI Foundation – gemäss seiner <a href=\"https://www.anthropic.com/news?subjects=announcements\">Ankündigung vom 22. Oktober 2026</a>. Über 70 Plattformen – darunter ChatGPT, Cursor, GitHub Copilot und VS Code – haben den Standard seit seiner Veröffentlichung im Dezember 2025 integriert: eine Rekordadoption für eine Spezifikation, die in einem privaten Labor entstand.",
+        "it": "Anthropic cede Agent Skills, il suo standard aperto che fornisce agli agenti conoscenze e workflow specializzati, all'Agentic AI Foundation, secondo il suo <a href=\"https://www.anthropic.com/news?subjects=announcements\">annuncio del 22 ottobre 2026</a>. Più di 70 piattaforme — tra cui ChatGPT, Cursor, GitHub Copilot e VS Code — hanno integrato lo standard dalla sua pubblicazione nel dicembre 2025, un'adozione record per una specifica nata in un laboratorio privato.",
+        "lmo": "Anthropic el ced Agent Skills, el so standard vert che 'l dà ai agent cognossenza e workflow specializaa, a l'Agentic AI Foundation, segond la soa <a href=\"https://www.anthropic.com/news?subjects=announcements\">anunzi del 22 de otover 2026</a>. Pussee de 70 piattaform — intra i quaj ChatGPT, Cursor, GitHub Copilot e VS Code — hann integraa el standard de la soa publicazion in del december 2025, ona adozion record per ona specifega nassuda in d'on labo privaa."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Schwerpunkt",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://www.anthropic.com/news?subjects=announcements"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "OlmoEarth v1.3 : des embeddings géospatiaux à l'état de l'art",
+        "en": "OlmoEarth v1.3: State-of-the-Art Geospatial Embeddings",
+        "de": "OlmoEarth v1.3: Georäumliche Embeddings auf dem neuesten Stand der Technik",
+        "it": "OlmoEarth v1.3: embedding geospaziali allo stato dell'arte",
+        "lmo": "OlmoEarth v1.3 : embedding geospaziai de l'ultema generazion"
+      },
+      "body": {
+        "fr": "Allen AI publie OlmoEarth v1.3, une famille d'embeddings géographiques et multilingues à l'état de l'art, selon le <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">billet du 22 octobre 2026</a>. Le modèle cible la couverture « planète entière » : représentations vectorielles pour la recherche, la classification et le rapprochement de contenus géospatiaux et multilingues, une niche longtemps délaissée entre NLP et télédétection.",
+        "en": "Allen AI has released OlmoEarth v1.3, a family of state-of-the-art geographic and multilingual embeddings, according to the <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">October 22, 2026 blog post</a>. The model targets \"whole planet\" coverage: vector representations for search, classification and matching of geospatial and multilingual content, a long-neglected niche between NLP and remote sensing.",
+        "de": "Allen AI veröffentlicht OlmoEarth v1.3, eine Familie geografischer und mehrsprachiger Embeddings auf dem neuesten Stand der Technik, gemäss dem <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">Blogpost vom 22. Oktober 2026</a>. Das Modell zielt auf die Abdeckung des «gesamten Planeten» ab: Vektorrepräsentationen für die Suche, Klassifikation und Verknüpfung georäumlicher und mehrsprachiger Inhalte – eine Nische, die zwischen NLP und Fernerkundung lange brachlag.",
+        "it": "Allen AI pubblica OlmoEarth v1.3, una famiglia di embedding geografici e multilingue allo stato dell'arte, secondo il <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">post del 22 ottobre 2026</a>. Il modello mira alla copertura « intero pianeta »: rappresentazioni vettoriali per la ricerca, la classificazione e l'avvicinamento di contenuti geospaziali e multilingue, una nicchia a lungo trascurata tra NLP e telerilevamento.",
+        "lmo": "Allen AI el publica OlmoEarth v1.3, ona fameja de embedding geografegh e multilingh de l'ultema generazion, segond el <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">billet del 22 de otover 2026</a>. El modell el mira a la covertura « intrega pianeta »: rappresentazion vetorai per la ricerca, la classificazion e el sgiontà de contegnù geospaziai e multilingh, ona nicheja lassada adree perbell tra NLP e telerilevament."
+      },
+      "tag": {
+        "fr": "Labos",
+        "en": "Labs",
+        "de": "Labore",
+        "it": "Laboratori",
+        "lmo": "Labo"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-22",
+        "en": "From the Wires — 2026-10-22",
+        "de": "From the Wires — 2026-10-22",
+        "it": "From the Wires — 2026-10-22",
+        "lmo": "From the Wires — 2026-10-22"
+      },
+      "urls": [
+        "https://huggingface.co/blog/allenai/olmoearth-v1-3"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "DeepMind cartographie les types de forêts de la planète à 10 mètres près",
+        "en": "DeepMind Maps the Planet's Forest Types at 10-Meter Resolution",
+        "de": "DeepMind kartiert die Waldtypen des Planeten mit 10-Meter-Genauigkeit",
+        "it": "DeepMind mappa i tipi di foreste del pianeta con una precisione di 10 metri",
+        "lmo": "DeepMind el mapa i tip de forest del pianeta con precision de 10 meter"
+      },
+      "body": {
+        "fr": "DeepMind et ses partenaires publient une <a href=\"https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\">carte mondiale des types de forêts</a> qui catégorise chaque parcelle de 10 mètres de la surface terrestre, annonce du 22 octobre 2026. Au-delà du simple couvert arboré, la granularité par type forestier vise la surveillance de la biodiversité et des politiques de restauration, un exemple de foundation model appliqué à l'observation de la Terre.",
+        "en": "DeepMind and its partners have published a <a href=\"https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\">global map of forest types</a> that categorizes every 10-meter parcel of the Earth's surface, announced October 22, 2026. Beyond simple tree cover, granularity by forest type aims at biodiversity monitoring and restoration policy, an example of a foundation model applied to Earth observation.",
+        "de": "DeepMind und seine Partner veröffentlichen eine <a href=\"https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\">weltweite Karte der Waldtypen</a>, die jedes 10-Meter-Quadrat der Landfläche kategorisiert – Ankündigung vom 22. Oktober 2026. Über die blosse Baumbedeckung hinaus zielt die Granularität nach Waldtyp auf die Überwachung der Biodiversität und der Restaurationspolitiken ab, ein Beispiel eines Foundation Models angewandt auf die Erdbeobachtung.",
+        "it": "DeepMind e i suoi partner pubblicano una <a href=\"https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\">carta mondiale dei tipi di foreste</a> che categorizza ogni parcello di 10 metri della superficie terrestre, annuncio del 22 ottobre 2026. Oltre al semplice copertura arborea, la granularità per tipo forestale mira alla sorveglianza della biodiversità e delle politiche di restauro, un esempio di foundation model applicato all'osservazione della Terra.",
+        "lmo": "DeepMind e i so partner i publichen ona <a href=\"https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/\">carta mondial di tip de forest</a> che la categorizza ogni tocch de 10 meter de la superficie terestra, anunzi del 22 de otover 2026. Oltra el semplic covert vegetal, la granularità per tip forestal la mira a la sorveglianza de la biodiversità e di politegh de restavr, on esempi de foundation model aplicaa a l'osservazion de la Terra."
+      },
+      "tag": {
+        "fr": "Recherche appliquée",
+        "en": "Applied research",
+        "de": "Angewandte Forschung",
+        "it": "Ricerca applicata",
+        "lmo": "Ricerca aplicada"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-22",
+        "en": "From the Wires — 2026-10-22",
+        "de": "From the Wires — 2026-10-22",
+        "it": "From the Wires — 2026-10-22",
+        "lmo": "From the Wires — 2026-10-22"
+      },
+      "urls": [
+        "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Rerank 5 : Cohere mise sur la récupération documentaire précise",
+        "en": "Rerank 5: Cohere Bets on Precise Document Retrieval",
+        "de": "Rerank 5: Cohere setzt auf präzise dokumentarische Retrieval",
+        "it": "Rerank 5: Cohere punta sul reperimento documentale preciso",
+        "lmo": "Rerank 5 : Cohere el scommett sora el recuverament documental precis"
+      },
+      "body": {
+        "fr": "Cohere lance Rerank 5, une nouvelle génération de reranker documentaire conçue pour la récupération d'information en entreprise, annoncée le 22 octobre 2026 dans son <a href=\"https://cohere.com/blog/rerank-5\">billet de lancement</a>. Le modèle complète la vague produit du jour chez Cohere, aux côtés du Confidential Computing sur Model Vault, et confirme le retour d'attention sur la couche RAG après deux années dominées par les agents.",
+        "en": "Cohere has launched Rerank 5, a new generation of document reranker built for enterprise information retrieval, announced October 22, 2026 in its <a href=\"https://cohere.com/blog/rerank-5\">launch post</a>. The model rounds out the day's product wave at Cohere, alongside Confidential Computing on Model Vault, and confirms renewed attention on the RAG layer after two years dominated by agents.",
+        "de": "Cohere lanciert Rerank 5, eine neue Generation dokumentarischer Reranker für die Informationsretrieval im Unternehmen, angekündigt am 22. Oktober 2026 im <a href=\"https://cohere.com/blog/rerank-5\">Launch-Blogpost</a>. Das Modell ergänzt die Produktwelle des Tages bei Cohere, alongside des Confidential Computing auf Model Vault, und bestätigt die Rückkehr der Aufmerksamkeit auf die RAG-Schicht nach zwei Jahren, die von Agenten dominiert wurden.",
+        "it": "Cohere lancia Rerank 5, una nuova generazione di reranker documentale concepita per il reperimento di informazioni in azienda, annunciata il 22 ottobre 2026 nel suo <a href=\"https://cohere.com/blog/rerank-5\">post di lancio</a>. Il modello completa l'ondata di prodotti del giorno presso Cohere, accanto al Confidential Computing su Model Vault, e conferma il ritorno dell'attenzione sul livello RAG dopo due anni dominati dagli agenti.",
+        "lmo": "Cohere el lanza Rerank 5, ona noeva generazion de reranker documental pensada per el recuverament de informazion in impresa, anunziaa el 22 de otover 2026 in del so <a href=\"https://cohere.com/blog/rerank-5\">billet de lanz</a>. El modell el completa l'onda prodott del dì in Cohere, insema al Confidential Computing sora Model Vault, e 'l conferma el retorn d'attenzion sora el strat RAG dopo do agn dominaa di agent."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-22",
+        "en": "From the Wires — 2026-10-22",
+        "de": "From the Wires — 2026-10-22",
+        "it": "From the Wires — 2026-10-22",
+        "lmo": "From the Wires — 2026-10-22"
+      },
+      "urls": [
+        "https://cohere.com/blog/rerank-5"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & the Frontier",
+        "de": "Frontseite — Modelle & Grenzen",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modej & Confin"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Notes frontière",
+            "en": "Frontier notes",
+            "de": "Grenznachrichten",
+            "it": "Note dalla frontiera",
+            "lmo": "Notizzi de frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La plateforme Claude dans son intégralité, désormais servie sur Google Cloud",
+                "en": "The Entire Claude Platform Now Served on Google Cloud",
+                "de": "Die Claude-Plattform nun vollständig auf Google Cloud verfügbar",
+                "it": "La piattaforma Claude nella sua interezza, ormai servita su Google Cloud",
+                "lmo": "La piattaforma Claude in de la soa integralità, adess servida sora Google Cloud"
+              },
+              "body": {
+                "fr": "Anthropic a annoncé le 22 octobre 2026 la disponibilité de la plateforme Claude complète sur Google Cloud en mode « Anthropic managed » : authentification, facturation et gestion des engagements Google Cloud s'appliquent directement aux fonctionnalités de la plateforme Claude, selon l'<a href=\"https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed\">article publié sur le blog Claude</a>. Le rapprochement fait suite à l'arrivée des modèles OpenAI dans le Model Garden de Google Cloud actée le 22 octobre 2026, confirmant l'érosion des exclusivités cloud entre labos frontière.",
+                "en": "On October 22, 2026, Anthropic announced the availability of the full Claude platform on Google Cloud in \"Anthropic managed\" mode: authentication, billing and Google Cloud commitment management apply directly to Claude platform features, according to the <a href=\"https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed\">article published on the Claude blog</a>. The move follows OpenAI's models landing in Google Cloud's Model Garden, formalized on October 22, 2026, confirming the erosion of cloud exclusivity deals among frontier labs.",
+                "de": "Anthropic hat am 22. Oktober 2026 die Verfügbarkeit der kompletten Claude-Plattform auf Google Cloud im Modus «Anthropic managed» angekündigt: Authentifizierung, Abrechnung und das Management von Google-Cloud-Verpflichtungen gelten direkt für die Funktionen der Claude-Plattform, wie der <a href=\"https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed\">im Claude-Blog veröffentlichte Artikel</a> zeigt. Die Annäherung folgt auf die Aufnahme der OpenAI-Modelle in den Model Garden von Google Cloud vom 22. Oktober 2026 und bestätigt die Erosion der Cloud-Exklusivitäten zwischen den Frontier-Laboren.",
+                "it": "Anthropic ha annunciato il 22 ottobre 2026 la disponibilità della piattaforma Claude completa su Google Cloud in modalità « Anthropic managed»: autenticazione, fatturazione e gestione degli impegni Google Cloud si applicano direttamente alle funzionalità della piattaforma Claude, secondo l'<a href=\"https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed\">articolo pubblicato sul blog Claude</a>. Il riavvicinamento segue l'arrivo dei modelli OpenAI nel Model Garden di Google Cloud sancito il 22 ottobre 2026, a conferma dell'erosione delle esclusive cloud tra i lab della frontiera.",
+                "lmo": "Anthropic l'ha anunziaa el 22 de otover 2026 la disponibilità de la piattaforma Claude completa sora Google Cloud in manera « Anthropic managed »: autenticazion, fatturazion e gestion di impegn de Google Cloud se aplighen direttament ai funzionnalités de la piattaforma Claude, segond l'<a href=\"https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed\">articol publicaa sora el blog de Claude</a>. El scompart el vegn dopo l'ariv di modej OpenAI in del Model Garden de Google Cloud stabilii el 22 de otover 2026, che 'l conferma l'erosion di esclusive cloud tra i labo de la frontiera."
+              },
+              "kicker": {
+                "fr": "Distribution",
+                "en": "Distribution",
+                "de": "Distribution",
+                "it": "Distribuzione",
+                "lmo": "Distribuzion"
+              },
+              "urls": [
+                "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Uber généralise ChatGPT Work à plus de 30 000 salariés",
+                "en": "Uber Rolls Out ChatGPT Work to More Than 30,000 Employees",
+                "de": "Uber führt ChatGPT Work für über 30 000 Mitarbeitende flächendeckend ein",
+                "it": "Uber estende ChatGPT Work a più di 30 000 dipendenti",
+                "lmo": "Uber el generalizza ChatGPT Work a pussee de 30.000 dipendent"
+              },
+              "body": {
+                "fr": "Uber déploie ChatGPT Work auprès de plus de 30 000 salariés, avec l'appui d'OpenAI, pour la recherche, l'analyse de données, la création de présentations et l'exécution de flux de travail complexes, selon l'<a href=\"https://openai.com/index/uber-chatgpt-work-rollout\">annonce conjointe du 22 octobre 2026</a>. Le déploiement porte sur l'ensemble des employés du groupe, l'une des généralisations les plus larges d'un assistant IA d'entreprise révélées à ce jour.",
+                "en": "Uber is rolling out ChatGPT Work to more than 30,000 employees, with OpenAI's support, for research, data analysis, presentation creation and the execution of complex workflows, according to the <a href=\"https://openai.com/index/uber-chatgpt-work-rollout\">joint announcement of October 22, 2026</a>. The deployment covers the group's entire workforce, one of the broadest rollouts of an enterprise AI assistant disclosed to date.",
+                "de": "Uber rollt ChatGPT Work mit Unterstützung von OpenAI bei über 30 000 Mitarbeitenden aus – für Recherche, Datenanalyse, Präsentationserstellung und die Ausführung komplexer Arbeitsabläufe, wie die <a href=\"https://openai.com/index/uber-chatgpt-work-rollout\">gemeinsame Ankündigung vom 22. Oktober 2026</a> zeigt. Das Deployment betrifft alle Mitarbeitenden des Konzerns und gehört zu den breitesten Rollouts eines unternehmerischen KI-Assistenten, die bislang öffentlich wurden.",
+                "it": "Uber distribuisce ChatGPT Work a più di 30 000 dipendenti, con il sostegno di OpenAI, per la ricerca, l'analisi dei dati, la creazione di presentazioni e l'esecuzione di flussi di lavoro complessi, secondo l'<a href=\"https://openai.com/index/uber-chatgpt-work-rollout\">annuncio congiunto del 22 ottobre 2026</a>. Il rollout riguarda l'insieme dei dipendenti del gruppo, una delle generalizzazioni più ampie di un assistente IA aziendale rese note finora.",
+                "lmo": "Uber el mett in pè ChatGPT Work tra pussee de 30.000 dipendent, con el sustegn de OpenAI, per la ricerca, l'analisi di dacc, la creazion de presentazion e l'esecuzion de fluss de laurà compless, segond l'<a href=\"https://openai.com/index/uber-chatgpt-work-rollout\">anunzi congiunt del 22 de otover 2026</a>. El desplegament el pertoca tucc i impiegaa del grupp, vuna di generalizzazion pussee largh de on assistent IA d'impresa rivelaa fin adess."
+              },
+              "kicker": {
+                "fr": "Entreprise",
+                "en": "Enterprise",
+                "de": "Unternehmen",
+                "it": "Impresa",
+                "lmo": "Impresa"
+              },
+              "urls": [
+                "https://openai.com/index/uber-chatgpt-work-rollout"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI lance le « Super Intelligence Partner Network » avec SpaceX",
+                "en": "xAI Launches the \"Super Intelligence Partner Network\" with SpaceX",
+                "de": "xAI startet das «Super Intelligence Partner Network» mit SpaceX",
+                "it": "xAI lancia lo « Super Intelligence Partner Network » con SpaceX",
+                "lmo": "xAI el lanza el « Super Intelligence Partner Network » con SpaceX"
+              },
+              "body": {
+                "fr": "xAI a annoncé le 22 octobre 2026 le lancement du « SpaceX Super Intelligence Partner Network », un <a href=\"https://x.ai/news/partnernetworkannouncement\">programme de partenariat</a> qui formalise la collaboration entre xAI et SpaceX autour des capacités de super-intelligence. Peu de détails techniques ont été publiés, mais l'annonce structure la coopération entre les deux entités du même écosystème industriel.",
+                "en": "On October 22, 2026, xAI announced the launch of the \"SpaceX Super Intelligence Partner Network,\" a <a href=\"https://x.ai/news/partnernetworkannouncement\">partnership program</a> formalizing collaboration between xAI and SpaceX on super-intelligence capabilities. Few technical details have been published, but the announcement structures cooperation between the two entities within the same industrial ecosystem.",
+                "de": "xAI hat am 22. Oktober 2026 den Start des «SpaceX Super Intelligence Partner Network» angekündigt, eines <a href=\"https://x.ai/news/partnernetworkannouncement\">Partnerschaftsprogramms</a>, das die Zusammenarbeit zwischen xAI und SpaceX im Bereich der Superintelligenz-Fähigkeiten formalisiert. Technische Details wurden kaum veröffentlicht, doch die Ankündigung strukturiert die Kooperation zwischen den beiden Entitäten desselben industriellen Ökosystems.",
+                "it": "xAI ha annunciato il 22 ottobre 2026 il lancio dello « SpaceX Super Intelligence Partner Network », un <a href=\"https://x.ai/news/partnernetworkannouncement\">programma di partnership</a> che formalizza la collaborazione tra xAI e SpaceX attorno alle capacità di super-intelligenza. Pochi dettagli tecnici sono stati pubblicati, ma l'annuncio struttura la cooperazione tra le due entità dello stesso ecosistema industriale.",
+                "lmo": "xAI l'ha anunziaa el 22 de otover 2026 el lanz del « SpaceX Super Intelligence Partner Network », on <a href=\"https://x.ai/news/partnernetworkannouncement\">programma de partenarià</a> che 'l formalizza la colaborazion tra xAI e SpaceX intorna di capacità de super-intelligenza. Pocch detali tecnegh hinn staa publicaa, ma l'anunzi el strutura la cooperazion tra i do entità del midem ecosistema industrial."
+              },
+              "kicker": {
+                "fr": "Partenariats",
+                "en": "Partnerships",
+                "de": "Partnerschaften",
+                "it": "Partnership",
+                "lmo": "Partenarià"
+              },
+              "urls": [
+                "https://x.ai/news/partnernetworkannouncement"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Produits & entreprises",
+            "en": "Products & Companies",
+            "de": "Produkte & Unternehmen",
+            "it": "Prodotti & imprese",
+            "lmo": "Prodott & enterpress"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cohere ouvre le Confidential Computing sur son Model Vault en bêta",
+                "en": "Cohere Opens Confidential Computing on Its Model Vault in Beta",
+                "de": "Cohere öffnet das Confidential Computing auf seinem Model Vault in der Beta",
+                "it": "Cohere apre il Confidential Computing sul suo Model Vault in beta",
+                "lmo": "Cohere el derv el Confidential Computing sora el so Model Vault in beta"
+              },
+              "body": {
+                "fr": "Cohere met en bêta publique le Confidential Computing sur son Model Vault, en s'appuyant sur les GPU NVIDIA Confidential Computing hébergés sur Microsoft Azure pour apporter une protection matérielle des inférences, selon le <a href=\"https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault\">billet du 22 octobre 2026</a>. L'objectif visé est l'inférence vérifiable et confidentielle, un sujet devenu central pour les déploiements réglementés.",
+                "en": "Cohere is opening a public beta of Confidential Computing on its Model Vault, relying on NVIDIA Confidential Computing GPUs hosted on Microsoft Azure to provide hardware-level protection of inferences, according to the <a href=\"https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault\">October 22, 2026 blog post</a>. The stated goal is verifiable, confidential inference, a topic that has become central for regulated deployments.",
+                "de": "Cohere stellt das Confidential Computing auf seinem Model Vault in eine öffentliche Beta – gestützt auf NVIDIA-GPUs mit Confidential Computing, gehostet auf Microsoft Azure, um einen hardwareseitigen Schutz der Inferenzen zu bieten, wie der <a href=\"https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault\">Blogpost vom 22. Oktober 2026</a> zeigt. Ziel ist eine verifizierbare und vertrauliche Inferenz – ein Thema, das für regulierte Deployments zentral geworden ist.",
+                "it": "Cohere apre in beta pubblica il Confidential Computing sul suo Model Vault, appoggiandosi sulle GPU NVIDIA Confidential Computing ospitate su Microsoft Azure per garantire una protezione hardware delle inferenze, secondo il <a href=\"https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault\">billetto del 22 ottobre 2026</a>. L'obiettivo è l'inferenza verificabile e confidenziale, un tema divenuto centrale per i deployment regolamentati.",
+                "lmo": "Cohere el mett in beta publica el Confidential Computing sora el so Model Vault, cont el fondass sora i GPU NVIDIA Confidential Computing ospitaa sora Microsoft Azure per portà ona protezzion material di inferenz, segond el <a href=\"https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault\">billet del 22 de otover 2026</a>. L'obietiv l'è l'inferenza verificabil e confidenzial, on tema deventaa central per i desplegament regolaa."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Forward Deployed Engineering » : OpenAI expose sa doctrine d'embarquement client",
+                "en": "\"Forward Deployed Engineering\": OpenAI Lays Out Its Customer Embedding Doctrine",
+                "de": "«Forward Deployed Engineering»: OpenAI legt seine Doktrin der Kundenintegration offen",
+                "it": "« Forward Deployed Engineering »: OpenAI espone la sua dottrina di accompagnamento dei clienti",
+                "lmo": "« Forward Deployed Engineering » : OpenAI el mostra la soa dotrina d'imbarcament di client"
+              },
+              "body": {
+                "fr": "OpenAI publie un <a href=\"https://openai.com/index/forward-deployed-engineering-means\">billet le 22 octobre 2026</a> pour définir ce que recouvre le rôle de Forward Deployed Engineer chez OpenAI : ces ingénieurs embarqués chez les clients construisent les premières intégrations des modèles et remontent les contraintes terrain aux équipes produit. Le texte éclaire la doctrine de déploiement du labo, alors que le poste devient une fonction clé de l'industrie.",
+                "en": "On October 22, 2026, OpenAI published a <a href=\"https://openai.com/index/forward-deployed-engineering-means\">blog post</a> defining what the Forward Deployed Engineer role entails at OpenAI: these engineers embedded with customers build the first model integrations and relay field constraints to product teams. The piece sheds light on the lab's deployment doctrine, as the role becomes a key function across the industry.",
+                "de": "OpenAI veröffentlicht am 22. Oktober 2026 einen <a href=\"https://openai.com/index/forward-deployed-engineering-means\">Blogpost</a>, der definiert, was die Rolle des Forward Deployed Engineer bei OpenAI umfasst: Diese bei den Kunden eingebetteten Ingenieure bauen die ersten Modellintegrationen und führen die Einschränkungen aus dem Feld an die Produktteams zurück. Der Text beleuchtet die Deployment-Doktrin des Labors, während die Stelle zu einer Schlüsselfunktion der Branche wird.",
+                "it": "OpenAI pubblica un <a href=\"https://openai.com/index/forward-deployed-engineering-means\">billetto il 22 ottobre 2026</a> per definire cosa copre il ruolo di Forward Deployed Engineer in OpenAI: questi ingegneri distaccati presso i clienti costruiscono le prime integrazioni dei modelli e riportano i vincoli sul campo ai team di prodotto. Il testo illumina la dottrina di deployment del labo, mentre il ruolo diventa una funzione chiave dell'industria.",
+                "lmo": "OpenAI el publica on <a href=\"https://openai.com/index/forward-deployed-engineering-means\">billet el 22 de otover 2026</a> per definì cosse che 'l cobria el roeul de Forward Deployed Engineer in OpenAI: sti ingegner imbarcaa di client construissen i primm integrazion di modej e manden su i vincol de terren ai squadre de prodott. El test el fa lus sora la dotrina de desplegament del labo, intant che 'l post el deventa ona funzion ciav de l'industria."
+              },
+              "kicker": {
+                "fr": "Méthodes",
+                "en": "Methods",
+                "de": "Methoden",
+                "it": "Metodi",
+                "lmo": "Metod"
+              },
+              "urls": [
+                "https://openai.com/index/forward-deployed-engineering-means"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Das Technik-Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & plateformes",
+            "en": "Tools & Platforms",
+            "de": "Werkzeuge & Plattformen",
+            "it": "Strumenti & piattaforme",
+            "lmo": "Strument & piattaform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "OpenShell : NVIDIA publie un runtime sûr pour flottes d'agents autonomes",
+                "en": "OpenShell: NVIDIA Releases a Secure Runtime for Fleets of Autonomous Agents",
+                "de": "OpenShell: NVIDIA veröffentlicht eine sichere Runtime für Flotten autonomer Agenten",
+                "it": "OpenShell: NVIDIA pubblica un runtime sicuro per flotte di agenti autonomi",
+                "lmo": "OpenShell : NVIDIA el publica on runtime sigur per flott de agent autonom"
+              },
+              "body": {
+                "fr": "NVIDIA a publié OpenShell le 22 octobre 2026, un <a href=\"https://github.com/NVIDIA/OpenShell\">runtime sûr et privé pour flottes d'agents IA autonomes</a>. Le projet, arrivé en tête des dépôts de code sur Hacker News avec 342 points et 181 commentaires le 22 octobre, répond à une question devenue aiguë : comment donner à des agents un accès shell sans exposer l'hôte ni les données. La <a href=\"https://news.ycombinator.com/item?id=50198675\">discussion</a> porte notamment sur l'isolation des flux d'exécution par agent.",
+                "en": "On October 22, 2026, NVIDIA released OpenShell, a <a href=\"https://github.com/NVIDIA/OpenShell\">secure, private runtime for fleets of autonomous AI agents</a>. The project topped Hacker News's code repositories with 342 points and 181 comments on October 22, addressing a question that has become acute: how to give agents shell access without exposing the host or the data. The <a href=\"https://news.ycombinator.com/item?id=50198675\">discussion</a> focuses in particular on isolating execution flows per agent.",
+                "de": "NVIDIA hat OpenShell am 22. Oktober 2026 veröffentlicht, eine <a href=\"https://github.com/NVIDIA/OpenShell\">sichere und private Runtime für Flotten autonomer KI-Agenten</a>. Das Projekt, das am 22. Oktober mit 342 Punkten und 181 Kommentaren an der Spitze der Code-Repositories auf Hacker News stand, beantwortet eine akut gewordene Frage: Wie gibt man Agenten Shell-Zugang, ohne Host oder Daten preiszugeben. Die <a href=\"https://news.ycombinator.com/item?id=50198675\">Diskussion</a> dreht sich namentlich um die Isolation der Ausführungsflüsse pro Agent.",
+                "it": "NVIDIA ha pubblicato OpenShell il 22 ottobre 2026, un <a href=\"https://github.com/NVIDIA/OpenShell\">runtime sicuro e privato per flotte di agenti IA autonomi</a>. Il progetto, giunto in testa ai repository di codice su Hacker News con 342 punti e 181 commenti il 22 ottobre, risponde a una questione divenuta acuta: come dare agli agenti un accesso shell senza esporre l'host né i dati. La <a href=\"https://news.ycombinator.com/item?id=50198675\">discussione</a> verte in particolare sull'isolamento dei flussi di esecuzione per agente.",
+                "lmo": "NVIDIA l'ha publicaa OpenShell el 22 de otover 2026, on <a href=\"https://github.com/NVIDIA/OpenShell\">runtime sigur e privat per flott de agent IA autonom</a>. El progett, rivaa in testa ai repositori de codes sora Hacker News cont 342 pont e 181 comenter el 22 de otover, el respond a ona domanda deventada aguza: come dà ai agent on access shell senza espon l'host né i dacc. La <a href=\"https://news.ycombinator.com/item?id=50198675\">discussione</a> la pertoca soratutt l'isolament di fluss d'esecuzion per agent."
+              },
+              "kicker": {
+                "fr": "Infrastructures agents",
+                "en": "Agent infrastructure",
+                "de": "Agenten-Infrastruktur",
+                "it": "Infrastrutture agenti",
+                "lmo": "Infrastrutur agent"
+              },
+              "urls": [
+                "https://github.com/NVIDIA/OpenShell",
+                "https://news.ycombinator.com/item?id=50198675"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Sous-agents : quand les replier dans la boucle principale",
+                "en": "Subagents: When to Fold Them into the Main Loop",
+                "de": "Subagenten: Wann man sie in die Hauptschleife zurückfalten sollte",
+                "it": "Sotto-agenti: quando ripiegarli nel ciclo principale",
+                "lmo": "Sotto-agent : quand piegài in del ciccol principal"
+              },
+              "body": {
+                "fr": "Anthropic publie le 22 octobre 2026 un guide d'architecture expliquant <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quand replier ses sous-agents dans la boucle principale</a> de l'agent. La thèse : préférer la divulgation progressive du contexte et des outils à la multiplication de sous-agents, pour améliorer la qualité tout en réduisant coût et latence. Un mode d'emploi de migration est fourni pour les architectures existantes.",
+                "en": "On October 22, 2026, Anthropic published an architecture guide explaining <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">when to fold your subagents into the main loop</a> of an agent. The thesis: prefer progressive disclosure of context and tools over multiplying subagents, to improve quality while cutting cost and latency. A migration playbook is provided for existing architectures.",
+                "de": "Anthropic veröffentlicht am 22. Oktober 2026 einen Architektur-Guide, der erklärt, <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">wann man seine Subagenten in die Hauptschleife</a> des Agenten zurückfalten sollte. Die These: die progressive Freigabe von Kontext und Tools der Vermehrung von Subagenten vorziehen, um die Qualität zu verbessern und zugleich Kosten und Latenz zu senken. Für bestehende Architekturen wird eine Migrationsanleitung mitgeliefert.",
+                "it": "Anthropic pubblica il 22 ottobre 2026 una guida di architettura che spiega <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quando ripiegare i sotto-agenti nel ciclo principale</a> dell'agente. La tesi: privilegiare la divulgazione progressiva del contesto e degli strumenti rispetto alla moltiplicazione di sotto-agenti, per migliorare la qualità riducendo costi e latenza. È fornita una modalità di migrazione per le architetture esistenti.",
+                "lmo": "Anthropic el publica el 22 de otover 2026 ona guida d'architetura che la spega <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quand piegà i soa sotto-agent in del ciccol principal</a> de l'agent. La tesi: preferì la divulgazion progressiva del contest e di strument a la multiplicazion de sotto-agent, per migliorà la qualità cont el sbassà cost e latenza. On modell de migrazion l'è fornii per i architetur esistent."
+              },
+              "kicker": {
+                "fr": "Architecture agents",
+                "en": "Agent architecture",
+                "de": "Agenten-Architektur",
+                "it": "Architettura agenti",
+                "lmo": "Architetura agent"
+              },
+              "urls": [
+                "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Outilsverts & signaux dev",
+            "en": "Dev tools & signals",
+            "de": "Open-Source-Werkzeuge & Dev-Signale",
+            "it": "Strumenti aperti & segnali dev",
+            "lmo": "Open source & segnal dev"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Flint-interactive : un langage de visualisations interactives pour agents",
+                "en": "Flint-interactive: A Language for Interactive Visualizations Built for Agents",
+                "de": "Flint-interactive: eine Sprache für interaktive Visualisierungen von Agenten",
+                "it": "Flint-interactive: un linguaggio di visualizzazioni interattive per agenti",
+                "lmo": "Flint-interactive : on lengoeu de visualizzazion interativ per agent"
+              },
+              "body": {
+                "fr": "Microsoft Research présente le 22 octobre 2026 Flint-interactive, un <a href=\"https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/\">langage destiné aux agents IA</a> pour créer des visualisations de données interactives : cliquer sur un graphique, filtrer, surligner du contenu lié et explorer au-delà de la vue choisie par l'auteur. Le projet ambitionne de rendre les sorties visuelles des agents manipulables par l'utilisateur final.",
+                "en": "On October 22, 2026, Microsoft Research introduced Flint-interactive, a <a href=\"https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/\">language designed for AI agents</a> to create interactive data visualizations: clicking on a chart, filtering, highlighting related content and exploring beyond the view chosen by the author. The project aims to make agents' visual outputs manipulable by the end user.",
+                "de": "Microsoft Research stellt am 22. Oktober 2026 Flint-interactive vor, eine <a href=\"https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/\">Sprache für KI-Agenten</a>, um interaktive Datenvisualisierungen zu erstellen: auf ein Diagramm klicken, filtern, verknüpfte Inhalte markieren und über die vom Autor gewählte Sicht hinaus erkunden. Das Projekt hat zum Ziel, die visuellen Ausgaben von Agenten für die Endnutzer manipulierbar zu machen.",
+                "it": "Microsoft Research presenta il 22 ottobre 2026 Flint-interactive, un <a href=\"https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/\">linguaggio destinato agli agenti IA</a> per creare visualizzazioni di dati interattive: cliccare su un grafico, filtrare, evidenziare contenuti collegati ed esplorare al di là della vista scelta dall'autore. Il progetto ambisce a rendere le uscite visive degli agenti manipolabili dall'utente finale.",
+                "lmo": "Microsoft Research el presenta el 22 de otover 2026 Flint-interactive, on <a href=\"https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/\">lengoeu destinà ai agent IA</a> per creà visualizzazion de dacc interativ: clicà sora on grafegh, filtrà, illuminà de contegnù liaa e esplorà oltre la vista scernida de l'autor. El progett el gh'ha l'ambizion de rend manipolabil i sortid visiv di agent per l'utent final."
+              },
+              "kicker": {
+                "fr": "Microsoft Research",
+                "en": "Microsoft Research",
+                "de": "Microsoft Research",
+                "it": "Microsoft Research",
+                "lmo": "Microsoft Research"
+              },
+              "urls": [
+                "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "La durée de vie médiane des produits logiciels chute de 4 ans à 1,5 an",
+                "en": "Median Software Product Lifespan Falls from 4 Years to 1.5 Years",
+                "de": "Die mediane Lebensdauer von Softwareprodukten sinkt von 4 Jahren auf 1,5 Jahre",
+                "it": "La durata di vita mediana dei prodotti software crolla da 4 anni a 1,5 anni",
+                "lmo": "La durada de vita mediana di prodott software la sbassa de 4 agn a 1,5 ann"
+              },
+              "body": {
+                "fr": "Le \"product graveyard\" de SaaSHub, qui suit le statut et la durée de vie de centaines de milliers de produits logiciels, montre une chute brutale en 2026 : l'espérance de vie médiane d'un produit serait passée d'environ 4 ans à environ 1,5 an, un <a href=\"https://news.ycombinator.com/item?id=50204125\">constat partagé sur Hacker News le 23 octobre 2026</a>. L'auteur l'attribue aux produits « vibe codés », lancés puis abandonnés quand la distribution ne suit pas.",
+                "en": "SaaSHub's \"product graveyard,\" which tracks the status and lifespan of hundreds of thousands of software products, shows a sharp drop in 2026: a product's median life expectancy has reportedly fallen from roughly 4 years to roughly 1.5 years, a finding <a href=\"https://news.ycombinator.com/item?id=50204125\">shared on Hacker News on October 23, 2026</a>. The author attributes it to \"vibe-coded\" products, launched and then abandoned when distribution fails to follow.",
+                "de": "Der «product graveyard» von SaaSHub, der Status und Lebensdauer von Hunderttausenden Softwareprodukten verfolgt, zeigt für 2026 einen abrupten Einbruch: Die mediane Lebenserwartung eines Produkts sei von rund 4 Jahren auf etwa 1,5 Jahre gefallen – ein <a href=\"https://news.ycombinator.com/item?id=50204125\">Befund, der am 23. Oktober 2026 auf Hacker News diskutiert wurde</a>. Der Autor führt dies auf «vibe-gedotete» Produkte zurück, die gestartet und aufgegeben werden, sobald die Distribution nicht folgt.",
+                "it": "Il \"product graveyard\" di SaaSHub, che segue lo stato e la durata di vita di centinaia di migliaia di prodotti software, mostra un crollo brutale nel 2026: l'aspettativa di vita mediana di un prodotto sarebbe passata da circa 4 anni a circa 1,5 anni, un <a href=\"https://news.ycombinator.com/item?id=50204125\">constato condiviso su Hacker News il 23 ottobre 2026</a>. L'autore lo attribuisce ai prodotti « vibe codati », lanciati e poi abbandonati quando la distribuzione non segue.",
+                "lmo": "El \"product graveyard\" de SaaSHub, che 'l segu el stat e la durada de vita de centenaa de mijaa de prodott software, el mostra ona crudela sbassada in del 2026: l'aspettativa de vita mediana de on prodott la saria passada de circa 4 agn a circa 1,5 ann, on <a href=\"https://news.ycombinator.com/item?id=50204125\">rilevament condivis sora Hacker News el 23 de otover 2026</a>. L'autor el ghe met adoss ai prodott « vibe codaa », lanzà e poeu abandonaà quand la distribuzion la va no dré."
+              },
+              "kicker": {
+                "fr": "Signaux",
+                "en": "Signals",
+                "de": "Signale",
+                "it": "Segnali",
+                "lmo": "Segnal"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50204125"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "The Research Desk",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cola2 : la génération hiérarchique à latents continus rivalise avec des budgets 43 fois supérieurs",
+                "en": "Cola2: Hierarchical Continuous-Latent Generation Rivals Budgets 43 Times Larger",
+                "de": "Cola2: Hierarchische Generierung mit kontinuierlichen Latents konkurrenzfähig bei 43-fachem Budgetunterschied",
+                "it": "Cola2: la generazione gerarchica a latenti continui rivaleggia con budget 43 volte superiori",
+                "lmo": "Cola2 : la generazion gerarchega a latent continov la rivalizza cont budget 43 voeult maggior"
+              },
+              "body": {
+                "fr": "Des chercheurs de ByteDance Seed proposent Cola2, un cadre de modélisation hiérarchique qui sépare la compression sémantique continue de la génération discrète, avec segmentation dynamique en spans sémantiques et décodeur de diffusion masquée block-causal. Selon le <a href=\"https://arxiv.org/abs/2610.31305\">preprint du 22 octobre 2026</a>, un checkpoint non convergé entraîné sur 346,03 milliards de tokens sources atteint 60,10 de moyenne sur huit tâches et dépasse Llama-3-8B sur HellaSwag et StoryCloze alors que le budget de pré-entraînement annoncé de ce dernier est plus de 43 fois supérieur.",
+                "en": "Researchers at ByteDance Seed propose Cola2, a hierarchical modeling framework that separates continuous semantic compression from discrete generation, with dynamic segmentation into semantic spans and a block-causal masked diffusion decoder. According to the <a href=\"https://arxiv.org/abs/2610.31305\">October 22, 2026 preprint</a>, a non-converged checkpoint trained on 346.03 billion source tokens reaches a 60.10 average across eight tasks and surpasses Llama-3-8B on HellaSwag and StoryCloze, despite the latter's reported pre-training budget being more than 43 times larger.",
+                "de": "Forschende von ByteDance Seed schlagen Cola2 vor, ein Framework hierarchischer Modellierung, das die kontinuierliche semantische Kompression von der diskreten Generierung trennt – mit dynamischer Segmentierung in semantische Spans und einem block-kausalen Masked-Diffusion-Decoder. Gemäss dem <a href=\"https://arxiv.org/abs/2610.31305\">Preprint vom 22. Oktober 2026</a> erreicht ein nicht konvergierter Checkpoint, trainiert auf 346,03 Milliarden Quellen-Tokens, 60,10 im Mittel über acht Aufgaben und übertrifft Llama-3-8B auf HellaSwag und StoryCloze – obwohl das angekündigte Vortrainingsbudget von Llama über 43-mal höher liegt.",
+                "it": "Ricercatori di ByteDance Seed propongono Cola2, un quadro di modellazione gerarchica che separa la compressione semantica continua dalla generazione discreta, con segmentazione dinamica in span semantici e decodificatore di diffusione mascherata block-causale. Secondo il <a href=\"https://arxiv.org/abs/2610.31305\">preprint del 22 ottobre 2026</a>, un checkpoint non converguto addestrato su 346,03 miliardi di token sorgente raggiunge 60,10 di media su otto compiti e supera Llama-3-8B su HellaSwag e StoryCloze mentre il budget di pre-addestramento dichiarato di quest'ultimo è più di 43 volte superiore.",
+                "lmo": "Di ricercador de ByteDance Seed proponen Cola2, on quadro de modellazzion gerarchega che 'l separa la compression semantega continoa de la generazion discreta, cont segmentazion dinamiga in span semantegh e decodificador de diffusion mascherada block-causal. Segond el <a href=\"https://arxiv.org/abs/2610.31305\">preprint del 22 de otover 2026</a>, on checkpoint minga convergiuu addestràa sora 346,03 miliard de tokens sorgent el riva a 60,10 de media sora vœutt lavor e 'l passa Llama-3-8B sora HellaSwag e StoryCloze, entant che 'l budget de pre-addestrament anunziaa de chell ultem chì l'è pussee de 43 voeult maggior."
+              },
+              "kicker": {
+                "fr": "Papers du jour",
+                "en": "Papers of the day",
+                "de": "Papers des Tages",
+                "it": "Paper del giorno",
+                "lmo": "Paper del dì"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.31305"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Benchmarks & analyses",
+            "en": "Benchmarks & Analysis",
+            "de": "Benchmarks & Analysen",
+            "it": "Benchmark & analisi",
+            "lmo": "Benchmark & analisi"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "AgentVQA : les VLM plafonnent à 58,5 % en compréhension visuelle agentique",
+                "en": "AgentVQA: VLMs Peak at 58.5% in Agentic Visual Understanding",
+                "de": "AgentVQA: VLMs erreichen in agentischer visueller comprehension nur 58,5 Prozent",
+                "it": "AgentVQA: i VLM si fermano al 58,5 % nella comprensione visiva agentica",
+                "lmo": "AgentVQA : i VLM i se fermen a 58,5 % in comprension visual agentica"
+              },
+              "body": {
+                "fr": "AgentVQA évalue les vision-language models sur 1 000 exemples agents réels issus de 23 jeux de données, couvrant cinq domaines : agents web, robotique, vidéo égocentrée, jeux et planification spatiale. Sur les 22 modèles évalués, le meilleur n'atteint que 58,5 % d'exactitude, et l'analyse du <a href=\"https://arxiv.org/abs/2610.31494\">paper publié le 22 octobre 2026</a> attribue les erreurs principalement au suivi de l'état visuel (localisation d'éléments UI, interprétation du mouvement, relations 3D) plutôt qu'au raisonnement logique aval.",
+                "en": "AgentVQA evaluates vision-language models on 1,000 real agentic examples drawn from 23 datasets, spanning five domains: web agents, robotics, egocentric video, gaming and spatial planning. Of the 22 models evaluated, the best reaches only 58.5% accuracy, and the analysis in the <a href=\"https://arxiv.org/abs/2610.31494\">paper published on October 22, 2026</a> attributes the errors mainly to visual state tracking (locating UI elements, interpreting motion, 3D relations) rather than downstream logical reasoning.",
+                "de": "AgentVQA evaluiert Vision-Language-Modelle anhand von 1 000 realen Agentenbeispielen aus 23 Datensätzen in fünf Bereichen: Web-Agenten, Robotik, egozentrische Videoaufnahmen, Spiele und räumliche Planung. Von den 22 evaluierten Modellen erreicht das beste nur 58,5 Prozent Genauigkeit; die Analyse des am <a href=\"https://arxiv.org/abs/2610.31494\">22. Oktober 2026 veröffentlichten Papers</a> führt die Fehler vor allem auf das Nachverfolgen des visuellen Zustands zurück (Lokalisierung von UI-Elementen, Interpretation von Bewegung, 3D-Beziehungen) und nicht auf das nachgelagerte logische Schlussfolgern.",
+                "it": "AgentVQA valuta i vision-language model su 1 000 esempi reali di agenti provenienti da 23 dataset, che coprono cinque domini: agenti web, robotica, video egocentrico, giochi e pianificazione spaziale. Su 22 modelli valutati, il migliore raggiunge appena il 58,5 % di esattezza, e l'analisi del <a href=\"https://arxiv.org/abs/2610.31494\">paper pubblicato il 22 ottobre 2026</a> attribuisce gli errori soprattutto al monitoraggio dello stato visivo (localizzazione di elementi UI, interpretazione del movimento, relazioni 3D) più che al ragionamento logico a valle.",
+                "lmo": "AgentVQA el valuta i vision-language models sora 1.000 esempi agent reai vegnù de 23 bas de dacc, che cuveren cinch domini: agent web, robotega, video egocentrada, gioeugh e pianificazion spaziala. Tra i 22 modej valuttaa, el mej el riva domà al 58,5 % de esattezza, e l'analisi del <a href=\"https://arxiv.org/abs/2610.31494\">paper publicaa el 22 de otover 2026</a> la mett i error soratutt in del seguiment del stat visual (localizzazion di element UI, interpretazion del moviment, relazion 3D) putošt che in del resoneament logegh a val."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.31494"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Wait » dans les modèles de raisonnement : hérité des données, pas inventé par le RL",
+                "en": "\"Wait\" in Reasoning Models: Inherited from Data, Not Invented by RL",
+                "de": "«Wait» in Reasoning-Modellen: von den Daten geerbt, nicht vom RL erfunden",
+                "it": "« Wait » nei modelli di ragionamento: ereditato dai dati, non inventato dal RL",
+                "lmo": "« Wait » in di modej de resoneament : ereditaa di dacc, minga inventaa del RL"
+              },
+              "body": {
+                "fr": "Un paper du 22 octobre 2026 trace l'origine du marqueur « wait » dans les modèles de raisonnement : le zero-RL ne crée presque jamais le marqueur — sur des bases qui en sont dépourvues, le RL améliore nettement MATH-500 tandis que « wait » reste quasi absent. Selon les auteurs (<a href=\"https://arxiv.org/abs/2610.30882\">arXiv:2610.30882</a>, Huawei Noah's Ark Lab), le marqueur arrive par les données de mid-training ou de fine-tuning, et les recettes RL-Zero d'OLMo-3 et MiMo le multiplient là où un GRPO sans KL ne le fait pas. La fréquence du marqueur seule ne prouve donc rien d'un raisonnement induit par RL.",
+                "en": "A paper published October 22, 2026 traces the origin of the \"wait\" marker in reasoning models: zero-RL almost never creates the marker — on bases lacking it, RL markedly improves MATH-500 while \"wait\" remains nearly absent. According to the authors (<a href=\"https://arxiv.org/abs/2610.30882\">arXiv:2610.30882</a>, Huawei Noah's Ark Lab), the marker arrives via mid-training or fine-tuning data, and the RL-Zero recipes of OLMo-3 and MiMo multiply it where GRPO without KL does not. Marker frequency alone therefore proves nothing about RL-induced reasoning.",
+                "de": "Ein Paper vom 22. Oktober 2026 verfolgt den Ursprung des Markers «wait» in Reasoning-Modellen: Das Zero-RL erzeugt den Marker fast nie – auf Datenbasen ohne ihn verbessert das RL MATH-500 deutlich, während «wait» nahezu fehlt. Gemäss den Autoren (<a href=\"https://arxiv.org/abs/2610.30882\">arXiv:2610.30882</a>, Huawei Noah's Ark Lab) gelangt der Marker über Mid-Training- oder Fine-Tuning-Daten in die Modelle, und die RL-Zero-Rezepte von OLMo-3 und MiCo vervielfachen ihn dort, wo ein GRPO ohne KL dies nicht tut. Die blosse Marker-Frequenz belegt also kein durch RL induziertes Reasoning.",
+                "it": "Un paper del 22 ottobre 2026 traccia l'origine del marcatore « wait » nei modelli di ragionamento: lo zero-RL non crea quasi mai il marcatore — su basi che ne sono prive, il RL migliora nettamente MATH-500 mentre « wait » resta quasi assente. Secondo gli autori (<a href=\"https://arxiv.org/abs/2610.30882\">arXiv:2610.30882</a>, Huawei Noah's Ark Lab), il marcatore arriva tramite i dati di mid-training o di fine-tuning, e le ricette RL-Zero di OLMo-3 e MiLo lo moltiplicano dove un GRPO senza KL non lo fa. La sola frequenza del marcatore non prova dunque nulla di un ragionamento indotto dal RL.",
+                "lmo": "On paper del 22 de otover 2026 el traccia l'origen del marcor « wait » in di modej de resoneament: el zero-RL el crea quasi mai el marcor — sora di bas che ghe l'hann minga, el RL el migliora netament MATH-500 entant che « wait » el resta quasi absent. Segond i autor (<a href=\"https://arxiv.org/abs/2610.30882\">arXiv:2610.30882</a>, Huawei Noah's Ark Lab), el marcor el riva cont i dacc de mid-training o de fine-tuning, e i recett RL-Zero de OLMo-3 e MiMo i 'l moltiplichen lí dove on GRPO senza KL el fa no. La frequenza del marcor per le sœul la proua donca nagott de on resoneament indott del RL."
+              },
+              "kicker": {
+                "fr": "Analyse",
+                "en": "Analysis",
+                "de": "Analyse",
+                "it": "Analisi",
+                "lmo": "Analisi"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.30882"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editoriai"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires",
+            "en": "Community signals",
+            "de": "Community-Signale",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnal de la comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Anthropic : les LLM rendent la vérification formelle praticable à grande échelle",
+                "en": "Anthropic: LLMs Make Formal Verification Practical at Scale",
+                "de": "Anthropic: LLMs machen formale Verifikation im grossen Massstab praktikabel",
+                "it": "Anthropic: i LLM rendono la verifica formale praticabile su larga scala",
+                "lmo": "Anthropic : i LLM i renden la verificazion formala praticabil a granda scala"
+              },
+              "body": {
+                "fr": "Un post d'Anthropic Research diffusé le 22 octobre 2026 et largement discuté sur <a href=\"https://news.ycombinator.com/item?id=50202217\">Hacker News</a> (215 points, 119 commentaires) soutient que les LLM rendent la vérification formelle des logiciels praticable à bien plus grande échelle. Le <a href=\"https://www.anthropic.com/research/formal-verification\">document</a> explore comment des modèles capables de manipuler des assistants de preuve comme Lean ouvrent la voie à des garanties mathématiques sur du code écrit ou refactoré par des agents.",
+                "en": "An Anthropic Research post circulated on October 22, 2026 and widely discussed on <a href=\"https://news.ycombinator.com/item?id=50202217\">Hacker News</a> (215 points, 119 comments) argues that LLMs make formal verification of software practical at far greater scale. The <a href=\"https://www.anthropic.com/research/formal-verification\">document</a> explores how models capable of operating proof assistants like Lean open the way to mathematical guarantees on agent-written or agent-refactored code.",
+                "de": "Ein am 22. Oktober 2026 verbreiteter Post von Anthropic Research, der auf <a href=\"https://news.ycombinator.com/item?id=50202217\">Hacker News</a> breit diskutiert wurde (215 Punkte, 119 Kommentare), argumentiert, dass LLMs die formale Verifikation von Software im viel grösseren Massstab praktikabel machen. Das <a href=\"https://www.anthropic.com/research/formal-verification\">Dokument</a> erkundet, wie Modelle, die Beweisassistenten wie Lean handhaben können, den Weg zu mathematischen Garantien für von Agenten geschriebenen oder refaktorierten Code ebnen.",
+                "it": "Un post di Anthropic Research diffuso il 22 ottobre 2026 e ampiamente discusso su <a href=\"https://news.ycombinator.com/item?id=50202217\">Hacker News</a> (215 punti, 119 commenti) sostiene che i LLM rendono la verifica formale del software praticabile su scala molto più ampia. Il <a href=\"https://www.anthropic.com/research/formal-verification\">documento</a> esplora come modelli capaci di manipolare assistenti di prova come Lean aprano la strada a garanzie matematiche su codice scritto o rifattorizzato da agenti.",
+                "lmo": "On post de Anthropic Research diffondùu el 22 de otover 2026 e discutt a largh sora <a href=\"https://news.ycombinator.com/item?id=50202217\">Hacker News</a> (215 pont, 119 comenter) el sostegn che i LLM i renden la verificazion formala di software praticabil a scala ben pussee granda. El <a href=\"https://www.anthropic.com/research/formal-verification\">document</a> el esplora come modej bon de manipolà assistent de prova 'me Lean i derven la via a garantii matemategh sora di codes scrivuu o refattorizaa di agent."
+              },
+              "kicker": {
+                "fr": "Recherche",
+                "en": "Research",
+                "de": "Forschung",
+                "it": "Ricerca",
+                "lmo": "Ricerca"
+              },
+              "urls": [
+                "https://www.anthropic.com/research/formal-verification",
+                "https://news.ycombinator.com/item?id=50202217"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Tous les modèles ont le même avis sur les humains » : une convergence interroge",
+                "en": "\"All Models Agree on Humans\": A Convergence That Raises Questions",
+                "de": "«Alle Modelle vertreten dieselbe Meinung über Menschen»: eine beunruhigende Konvergenz",
+                "it": "« Tutti i modelli hanno la stessa opinione sugli esseri umani »: una convergenza che interroga",
+                "lmo": "« Tucc i modej i gh'han l'istess parer sora i uman » : ona convergenza la fa pensà"
+              },
+              "body": {
+                "fr": "Une analyse publiée le 22 octobre 2026 compare les réponses de nombreux modèles face à des questions sur les humains et relève une convergence frappante sur certaines prises de position, suscitant 348 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50197313\">Hacker News</a>. Le débat porte sur l'origine de cette homogénéité — biais d'entraînement communs, alignement similaire, ou artefact des corpus — plutôt que sur le contenu lui-même des réponses.",
+                "en": "An analysis published on October 22, 2026 compares the responses of numerous models to questions about humans and finds a striking convergence on certain positions, drawing 348 comments on <a href=\"https://news.ycombinator.com/item?id=50197313\">Hacker News</a>. The debate centers on the origin of this homogeneity — shared training bias, similar alignment, or an artifact of the corpora — rather than on the content of the answers themselves.",
+                "de": "Eine am 22. Oktober 2026 veröffentlichte Analyse vergleicht die Antworten zahlreicher Modelle auf Fragen über Menschen und stellt eine markante Konvergenz bei gewissen Positionen fest – was 348 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50197313\">Hacker News</a> auslöste. Die Debatte dreht sich um den Ursprung dieser Homogenität – gemeinsame Trainings-Biases, ähnliches Alignment oder ein Artefakt der Korpora – und weniger um den Inhalt der Antworten selbst.",
+                "it": "Un'analisi pubblicata il 22 ottobre 2026 confronta le risposte di numerosi modelli a domande sugli esseri umani e rileva una convergenza impressionante su certe prese di posizione, suscitando 348 commenti su <a href=\"https://news.ycombinator.com/item?id=50197313\">Hacker News</a>. Il dibattito verte sull'origine di questa omogeneità — bias di addestramento comuni, allineamento simile o artefatto dei corpora — più che sul contenuto stesso delle risposte.",
+                "lmo": "On'analisi publicada el 22 de otover 2026 la confronta i respond di tanti modej denanz a domand sora i uman e la nota ona convergenza colpenta sora cert posizion, cont 348 comenter sora <a href=\"https://news.ycombinator.com/item?id=50197313\">Hacker News</a>. El debatt el pertoca l'origen de chella omogeneità chì — bias de addestrament comun, allineament simel, o artefatt di corpus — putošt che 'l contegnù midem di respond."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Comunitaa"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50197313"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Le compute d'IA est le nouveau pétrole » : plaidoyer pour un vrai marché",
+                "en": "\"AI Compute Is the New Oil\": The Case for a Real Market",
+                "de": "«KI-Compute ist das neue Öl»: Plädoyer für einen echten Markt",
+                "it": "« Il compute d'IA è il nuovo petrolio »: un appello per un vero mercato",
+                "lmo": "« El compute de IA l'è el noeuv petroli » : appell per on mercaa ver"
+              },
+              "body": {
+                "fr": "The Economist argue le 22 octobre 2026 que le <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">compute d'IA est le nouveau pétrole</a> et qu'il exige l'équivalent des marchés à terme énergétiques : contrats standardisés, capacité à terme, instruments de couverture. La comparaison, discutée sur <a href=\"https://news.ycombinator.com/item?id=50202671\">Hacker News</a>, s'appuie sur la volatilité de la demande en GPU et la longueur des cycles d'investissement des datacenters.",
+                "en": "On October 22, 2026, The Economist argued that <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">AI compute is the new oil</a> and requires the equivalent of energy futures markets: standardized contracts, forward capacity, hedging instruments. The comparison, discussed on <a href=\"https://news.ycombinator.com/item?id=50202671\">Hacker News</a>, rests on the volatility of GPU demand and the length of datacenter investment cycles.",
+                "de": "The Economist argumentiert am 22. Oktober 2026, dass <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">KI-Compute das neue Öl</a> sei und ein Pendant zu den Energieterminmärkten verlange: standardisierte Verträge, Terminkapazität, Absicherungsinstrumente. Der Vergleich, der auf <a href=\"https://news.ycombinator.com/item?id=50202671\">Hacker News</a> diskutiert wurde, stützt sich auf die Volatilität der GPU-Nachfrage und die Länge der Investitionszyklen von Rechenzentren.",
+                "it": "The Economist sostiene il 22 ottobre 2026 che il <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">compute d'IA è il nuovo petrolio</a> e che esige l'equivalente dei mercati a termine energetici: contratti standardizzati, capacità a termine, strumenti di copertura. Il paragone, discusso su <a href=\"https://news.ycombinator.com/item?id=50202671\">Hacker News</a>, si fonda sulla volatilità della domanda di GPU e sulla lunghezza dei cicli d'investimento dei datacenter.",
+                "lmo": "The Economist el sostegn el 22 de otover 2026 che el <a href=\"https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market\">compute de IA l'è el noeuv petroli</a> e che 'l domanda l'equivalent di mercaa a termin energetegh: contratt standardizaa, capacità a termin, strument de cobertura. El confront, discutt sora <a href=\"https://news.ycombinator.com/item?id=50202671\">Hacker News</a>, el se fond sora la volatilità de la domanda de GPU e la longhezza di cicli d'investiment di datacenter."
+              },
+              "kicker": {
+                "fr": "Industrie",
+                "en": "Industry",
+                "de": "Industrie",
+                "it": "Industria",
+                "lmo": "Industria"
+              },
+              "urls": [
+                "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+                "https://news.ycombinator.com/item?id=50202671"
+              ]
+            }
+          ],
+          "layout": "3-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editoriai"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — Qui donne ses standards gagne la couche",
+                "en": "Editorial — Whoever Gives Away Standards Wins the Layer",
+                "de": "Leitartikel — Wer seine Standards verschenkt, gewinnt die Schicht",
+                "it": "Editoriale — Chi dona i propri standard vince lo strato",
+                "lmo": "Editoriai — Chi el dà i soa standard el guadagna el strat"
+              },
+              "body": {
+                "fr": "Deux signaux du 22 octobre 2026 dessinent la même trajectoire. Anthropic <a href=\"https://www.anthropic.com/news?subjects=announcements\">abandonne le contrôle</a> d'Agent Skills, son standard ouvert de connaissances et de workflows pour agents, au bénéfice de l'Agentic AI Foundation : plus de 70 plateformes — ChatGPT, Cursor, GitHub Copilot, VS Code — l'avaient déjà intégré depuis sa publication en décembre 2025. Dans le même temps, le « product graveyard » de SaaSHub mesure la contrepartie d'un écosystème frénétique : une durée de vie médiane des produits tombée d'environ 4 ans à 1,5 an. La leçon tient en une phrase : la valeur migre vers les standards partagés et s'évapore des produits fermés. Les couches qui dureront — formats d'agents, runtimes sûrs, protocoles vérifiables — sont celles que personne ne possède.",
+                "en": "Two signals from October 22, 2026 trace the same trajectory. Anthropic is <a href=\"https://www.anthropic.com/news?subjects=announcements\">handing over control</a> of Agent Skills, its open standard for agent knowledge and workflows, to the Agentic AI Foundation: more than 70 platforms — ChatGPT, Cursor, GitHub Copilot, VS Code — had already integrated it since its release in December 2025. Meanwhile, SaaSHub's \"product graveyard\" measures the flip side of a frantic ecosystem: median product lifespan down from roughly 4 years to 1.5 years. The lesson fits in one sentence: value migrates to shared standards and evaporates from closed products. The layers that will last — agent formats, secure runtimes, verifiable protocols — are the ones nobody owns.",
+                "de": "Zwei Signale vom 22. Oktober 2026 zeichnen dieselbe Trajektorie. Anthropic <a href=\"https://www.anthropic.com/news?subjects=announcements\">gibt die Kontrolle</a> über Agent Skills ab, seinen offenen Standard für Agenten-Wissen und Workflows, zugunsten der Agentic AI Foundation: Über 70 Plattformen – ChatGPT, Cursor, GitHub Copilot, VS Code – hatten ihn seit der Veröffentlichung im Dezember 2025 bereits integriert. Gleichzeitig misst der «product graveyard» von SaaSHub die Kehrseite eines hektischen Ökosystems: eine auf rund 1,5 Jahre gesunkene mediane Produktlebensdauer, zuvor etwa 4 Jahre. Die Lektion in einem Satz: Der Wert wandert zu den geteilten Standards und verdunstet in geschlossenen Produkten. Die Schichten, die bestehen werden – Agentenformate, sichere Runtimes, verifizierbare Protokolle – sind jene, die niemandem gehören.",
+                "it": "Due segnali del 22 ottobre 2026 disegnano la stessa traiettoria. Anthropic <a href=\"https://www.anthropic.com/news?subjects=announcements\">abbandona il controllo</a> di Agent Skills, il suo standard aperto di conoscenze e di workflow per agenti, a beneficio dell'Agentic AI Foundation: più di 70 piattaforme — ChatGPT, Cursor, GitHub Copilot, VS Code — lo avevano già integrato dalla sua pubblicazione nel dicembre 2025. Nello stesso tempo, il \"product graveyard\" di SaaSHub misura la contropartita di un ecosistema frenetico: una durata di vita mediana dei prodotti scesa da circa 4 anni a 1,5 anni. La lezione si riassume in una frase: il valore migra verso gli standard condivisi e svanisce dai prodotti chiusi. Gli strati che dureranno — formati di agenti, runtime sicuri, protocolli verificabili — sono quelli che nessuno possiede.",
+                "lmo": "Doo segnal del 22 de otover 2026 i disen l'istessa traiettoria. Anthropic <a href=\"https://www.anthropic.com/news?subjects=announcements\">el molla el contròll</a> de Agent Skills, el so standard vert de cognossenza e de workflow per agent, a benefiting de l'Agentic AI Foundation: pussee de 70 piattaform — ChatGPT, Cursor, GitHub Copilot, VS Code — i l'aveven giamò integraa de la soa publicazion in del december 2025. In del midem temp, el \"product graveyard\" de SaaSHub el misura la contrapartida de on ecosistema frenetegh: ona durada de vita mediana di prodott sbassada de circa 4 agn a 1,5 ann. La lession la sta in d'ona frase: el valor el migra vers i standard condivis e 'l se svapor di prodott saraa. I strat che durerann — formaa de agent, runtime sigur, protocoi verificabil — hinn chij che nissun el possed."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editoriai"
+              },
+              "urls": [
+                "https://www.anthropic.com/news?subjects=announcements",
+                "https://news.ycombinator.com/item?id=50204125"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
