@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Neuron Times — Dimanche 25 octobre 2026</title>
+<meta name="description" content="La pionnière des puces wafer-scale explique comment servir des modèles frontière sur son architecture, dans un billet d&#39;ingénierie daté du 25 octobre 2026." />
+<meta name="author" content="The Neuron Times" />
+<link rel="canonical" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="fr" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="en" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="de" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="it" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="lmo" href="https://neuron-times.com/editions/2026-10-25.html" />
+<link rel="alternate" hreflang="x-default" href="https://neuron-times.com/editions/2026-10-25.html" />
+<meta property="og:title" content="Cerebras détaille le déploiement de modèles de mille milliards de paramètres sur ses wafer-scale engines — The Neuron Times" />
+<meta property="og:description" content="La pionnière des puces wafer-scale explique comment servir des modèles frontière sur son architecture, dans un billet d&#39;ingénierie daté du 25 octobre 2026." />
+<meta property="og:url" content="https://neuron-times.com/editions/2026-10-25.html" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="The Neuron Times" />
+<meta property="og:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Cerebras détaille le déploiement de modèles de mille milliards de paramètres sur ses wafer-scale engines",
+  "description": "La pionnière des puces wafer-scale explique comment servir des modèles frontière sur son architecture, dans un billet d'ingénierie daté du 25 octobre 2026.",
+  "datePublished": "2026-10-25T07:00:00+02:00",
+  "dateModified": "2026-10-25T07:00:00+02:00",
+  "author": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "url": "https://neuron-times.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://neuron-times.com/apple-touch-icon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://neuron-times.com/editions/2026-10-25.html"
+  },
+  "image": "https://neuron-times.com/apple-touch-icon.png",
+  "inLanguage": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "isAccessibleForFree": true,
+  "articleSection": [
+    "Produits & société",
+    "Outils & sécurité",
+    "Signaux communautaires & édito"
+  ],
+  "keywords": "Économie, Sécurité logicielle, Open weights, Collaboration humain-agent, Neurotechnologie, Édito",
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Économie"
+    },
+    {
+      "@type": "Thing",
+      "name": "Sécurité logicielle"
+    },
+    {
+      "@type": "Thing",
+      "name": "Open weights"
+    },
+    {
+      "@type": "Thing",
+      "name": "Collaboration humain-agent"
+    },
+    {
+      "@type": "Thing",
+      "name": "Neurotechnologie"
+    },
+    {
+      "@type": "Thing",
+      "name": "Édito"
+    }
+  ]
+}</script>
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;
+  z-index: 2;
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+.lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
+.lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
+.lang-selector a:hover { opacity: 1; }
+.lang-selector a.active { opacity: 1; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.lang-selector .sep { opacity: 0.4; }
+html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+html[lang="lmo"] [data-i18n][lang]:not([lang="lmo"]) { display: none !important; }
+.i18n-fallback { display: inline; }
+html[lang="en"] .i18n-fallback:has(~ [data-i18n][lang="en"]) { display: none !important; }
+html[lang="de"] .i18n-fallback:has(~ [data-i18n][lang="de"]) { display: none !important; }
+html[lang="it"] .i18n-fallback:has(~ [data-i18n][lang="it"]) { display: none !important; }
+html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !important; }
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+  .masthead .meta { flex-wrap: wrap; gap: 8px; justify-content: center; }
+}
+</style>
+</head>
+<body>
+<main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
+  <header class="masthead">
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
+    <p class="tagline">All the AI that&#39;s fit to print</p>
+    <div class="meta">
+      <span>N° 298</span>
+      <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion del mattin</span> · Genève</span>
+      <span><span data-i18n lang="fr">DIMANCHE 25 OCTOBRE 2026</span><span data-i18n lang="en">SUNDAY, 25 OCTOBER 2026</span><span data-i18n lang="de">SONNTAG, 25. OKTOBER 2026</span><span data-i18n lang="it">DOMENICA 25 OTTOBRE 2026</span><span data-i18n lang="lmo">DOMENICA 25 OTTOBRE 2026</span></span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <p class="kicker"><span data-i18n lang="fr">À la Une · Infrastructures frontière</span><span data-i18n lang="en">Front Page · Frontier Infrastructure</span><span data-i18n lang="de">Schlagzeilen · Grenzinfrastrukturen</span><span data-i18n lang="it">Prima pagina · Infrastrutture di frontiera</span><span data-i18n lang="lmo">In prima pagina · Infrastruttur de frontiera</span></p>
+    <h2><span data-i18n lang="fr">Cerebras détaille le déploiement de modèles de mille milliards de paramètres sur ses wafer-scale engines</span><span data-i18n lang="en">Cerebras details how it serves trillion-parameter frontier models on its wafer-scale engines</span><span data-i18n lang="de">Cerebras erläutert das Deployment von Modellen mit einer Billion Parameter auf seinen Wafer-Scale-Engines</span><span data-i18n lang="it">Cerebras spiega il deployment di modelli da mille miliardi di parametri sui suoi wafer-scale engine</span><span data-i18n lang="lmo">Cerebras la descriss el deployament dei modei de milla miliard de parametr in sui sò wafer-scale engines</span></h2>
+    <p class="subdeck"><span data-i18n lang="fr">La pionnière des puces wafer-scale explique comment servir des modèles frontière sur son architecture, dans un billet d&#39;ingénierie daté du 25 octobre 2026.</span><span data-i18n lang="en">The wafer-scale chip pioneer explains how it serves frontier models on its architecture, in an engineering post dated 25 October 2026.</span><span data-i18n lang="de">Die Pionierin der Wafer-Scale-Chips erklärt in einem Engineering-Beitrag vom 25. Oktober 2026, wie sich Grenzmodelle auf ihrer Architektur betreiben lassen.</span><span data-i18n lang="it">La pioniera dei chip wafer-scale spiega come servire modelli di frontiera sulla sua architettura, in un articolo di ingegneria datato 25 ottobre 2026.</span><span data-i18n lang="lmo">La pioniera di pucegij wafer-scale la spiega comè se servissen i modei de frontiera in sò la sò architetura, in on biliett d&#39;ingegneria dataa 25 de ottober 2026.</span></p>
+    <p class="byline"><span data-i18n lang="fr">De la rédaction — 25 octobre 2026</span><span data-i18n lang="en">From the editorial desk — 25 October 2026</span><span data-i18n lang="de">Von der Redaktion — 25. Oktober 2026</span><span data-i18n lang="it">Dalla redazione — 25 ottobre 2026</span><span data-i18n lang="lmo">De la redazzion — 25 ottobre 2026</span></p>
+    <p><span data-i18n lang="fr">Cerebras a publié le 25 octobre 2026 une description technique de la façon dont son architecture wafer-scale accueille désormais des modèles frontière d&#39;un billion de paramètres. Le retour de l&#39;approche — détaillé dans <a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">un billet d&#39;ingénierie sur le blog de la société</a> — s&#39;est imposé sur Hacker News le même jour, avec 77 points et 24 commentaires en quelques heures.</span><span data-i18n lang="en">On 25 October 2026, Cerebras published a technical account of how its wafer-scale architecture now hosts trillion-parameter frontier models. The write-up — <a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">an engineering post on the company&#39;s blog</a> — topped Hacker News the same day, gathering 77 points and 24 comments within hours.</span><span data-i18n lang="de">Cerebras hat am 25. Oktober 2026 eine technische Beschreibung veröffentlicht, wie seine Wafer-Scale-Architektur inzwischen Grenzmodelle mit einer Billion Parameter aufnimmt. Der Erfahrungsbericht – detailliert in <a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">einem Engineering-Beitrag auf dem Firmenblog</a> – setzte sich am selben Tag auf Hacker News durch, mit 77 Punkten und 24 Kommentaren in wenigen Stunden.</span><span data-i18n lang="it">Cerebras ha pubblicato il 25 ottobre 2026 una descrizione tecnica di come la sua architettura wafer-scale ospita ormai modelli di frontiera da un bilione di parametri. Il resoconto dell&#39;approccio — dettagliato in <a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">un articolo di ingegneria sul blog della società</a> — si è imposto su Hacker News lo stesso giorno, con 77 punti e 24 commenti in poche ore.</span><span data-i18n lang="lmo">Cerebras l&#39;ha publicaa el 25 de ottober 2026 ona descrizion tecnega de come la sò architetura wafer-scale la ricev adess de modei de frontiera de on trillion de parametr. El rescont — detajaa in <a href="https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras">on biliett d&#39;ingegneria sora el blog de la società</a> — l&#39;ha ciappaa pocca in su Hacker News el stess dì, con 77 pont e 24 cumment in quai oder.</span></p>
+<p><span data-i18n lang="fr">L&#39;enjeu est double : faire tenir des modèles massifs sur une seule puce géante sans partitionnement classique, et servir ces modèles à des débits compétitifs face aux grappes de GPU. Cerebras argumente que son coefficient d&#39;utilisation mémoire et son absence de communication inter-GPU simplifient l&#39;exploitation à très grande échelle de paramètres.</span><span data-i18n lang="en">The stakes are twofold: fitting massive models onto a single giant chip without conventional partitioning, and serving those models at competitive throughput against GPU clusters. Cerebras argues that its high memory-utilisation coefficient and its lack of inter-GPU communication simplify running parameters at very large scale.</span><span data-i18n lang="de">Die Sache hat zwei Dimensionen: massive Modelle auf einem einzigen riesigen Chip ohne klassisches Partitionieren unterzubringen und diese Modelle mit konkurrenzfähigen Durchsatzraten gegenüber GPU-Clustern zu bedienen. Cerebras argumentiert, dass sein Speichernutzungskoeffizient und das Fehlen von Inter-GPU-Kommunikation den Betrieb sehr grosser Parametermengen vereinfachen.</span><span data-i18n lang="it">La posta in gioco è doppia: far stare modelli massicci su un unico chip gigante senza il classico partizionamento, e servire questi modelli a velocità competitive rispetto ai cluster di GPU. Cerebras sostiene che il suo coefficiente di utilizzo della memoria e l&#39;assenza di comunicazione inter-GPU semplifichino l&#39;exploitation di parametri su scala molto ampia.</span><span data-i18n lang="lmo">El punt l&#39;è dobbi: fà stà de modei massiv in sò ona pucegia giganta senza spartizion classega, e servì &#39;sti modei chì a velocità cumpetitiv contra i grupp de GPU. Cerebras la dis che el sò coefficient de doperament de la memoria e l&#39;assenza de cumunicazion intra-GPU i slisissen l&#39;utenza a scala assee granda di parametr.</span></p>
+<p><span data-i18n lang="fr">La discussion communautaire, suivie sur <a href="https://news.ycombinator.com/item?id=50227356">le fil Hacker News correspondant</a>, porte sur la crédibilité de ces affirmations à l&#39;aune des benchmarks publics et du coût par token. Alors que la course à l&#39;échelle s&#39;intensifie, ce retour d&#39;expérience d&#39;un acteur non-GPU éclaire la diversification des infrastructures d&#39;inférence frontière.</span><span data-i18n lang="en">The community discussion, tracked on <a href="https://news.ycombinator.com/item?id=50227356">the corresponding Hacker News thread</a>, turns on the credibility of these claims when measured against public benchmarks and cost per token. As the scaling race intensifies, this field report from a non-GPU player sheds light on the diversification of frontier inference infrastructure.</span><span data-i18n lang="de">Die Community-Diskussion, nachvollziehbar auf <a href="https://news.ycombinator.com/item?id=50227356">dem entsprechenden Hacker-News-Thread</a>, kreist um die Glaubwürdigkeit dieser Aussagen im Licht öffentlicher Benchmarks und der Kosten pro Token. Während das Wettrennen um die Grösse sich verschärft, wirft dieser Erfahrungsbericht eines Nicht-GPU-Akteurs Licht auf die Diversifizierung der Grenz-Inferenzinfrastrukturen.</span><span data-i18n lang="it">La discussione della comunità, seguita su <a href="https://news.ycombinator.com/item?id=50227356">il corrispondente thread di Hacker News</a>, verte sulla credibilità di queste affermazioni alla luce dei benchmark pubblici e del costo per token. Mentre la corsa alla scala si intensifica, questo resoconto di un attore non-GPU getta luce sulla diversificazione delle infrastrutture di inferenza di frontiera.</span><span data-i18n lang="lmo">La discussion de la comunità, sequentada in <a href="https://news.ycombinator.com/item?id=50227356">el fil Hacker News currispundent</a>, la va in sò la credibilità de sti afermazion chì a la lüs di benchmark pùblich e del cost per token. Intant che la cursa a la scala la se fà pussee densa, &#39;sto rescont d&#39;esperiensa de on ator minga-GPU el fà lüs la diversificazion di infrastruttur de inferenza de frontiera.</span></p>
+  </section>
+
+  
+
+  <section class="page" data-page="1"><h2 class="page-label"><span data-i18n lang="fr">Page 1 — </span><span data-i18n lang="en">Page 1 — </span><span data-i18n lang="de">Seite 1 — </span><span data-i18n lang="it">Pagina 1 — </span><span data-i18n lang="lmo">Pagina 1 — </span><span data-i18n lang="fr">À la Une</span><span data-i18n lang="en">Front Page</span><span data-i18n lang="de">Schwerpunkt</span><span data-i18n lang="it">In Prima Pagina</span><span data-i18n lang="lmo">In sò la prima pagina</span></h2><div class="section section-1-col"><h3 class="section-title">I. <span data-i18n lang="fr">Produits &amp; société</span><span data-i18n lang="en">Products &amp; Companies</span><span data-i18n lang="de">Produkte &amp; Unternehmen</span><span data-i18n lang="it">Prodotti &amp; società</span><span data-i18n lang="lmo">Prudett &amp; società</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Économie</p><p class="kicker" data-i18n lang="en">Economy</p><p class="kicker" data-i18n lang="de">Wirtschaft</p><p class="kicker" data-i18n lang="it">Economia</p><p class="kicker" data-i18n lang="lmo">Eculumia</p><h4><span data-i18n lang="fr">200 000 emplois perdus dans les médias et les arts américains : quelle part pour l&#39;IA ?</span><span data-i18n lang="en">200,000 jobs lost in US media and the arts: how big a share for AI?</span><span data-i18n lang="de">200&#39;000 verlorene Arbeitsplätze in US-Medien und Kunst: Wie viel davon entfällt auf KI?</span><span data-i18n lang="it">200.000 posti di lavoro persi nei media e nelle arti statunitensi: quanta parte per l&#39;IA?</span><span data-i18n lang="lmo">200.000 lavò perdù in di media e in di art merican: quanta part per l&#39;IA?</span></h4><div class="body" data-i18n lang="fr">Une analyse publiée par Apricitas le 24 octobre 2026 chiffre à environ 200 000 les emplois perdus aux États-Unis dans les médias, le cinéma et les arts, et interroge la part imputable à l&#39;IA générative. <a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">L&#39;enquête</a>, qui a dépassé les 280 commentaires sur Hacker News le 25 octobre, distingue les pertes structurelles de celles corrélées à l&#39;adoption des outils génératifs dans les industries de contenu.</div><div class="body" data-i18n lang="en">An analysis published by Apricitas on 24 October 2026 puts the number of US jobs lost in media, film and the arts at roughly 200,000, and asks how much of that can be attributed to generative AI. <a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">The study</a>, which drew more than 280 comments on Hacker News on 25 October, separates structural losses from those correlated with the adoption of generative tools across content industries.</div><div class="body" data-i18n lang="de">Eine am 24. Oktober 2026 von Apricitas veröffentlichte Analyse beziffert die Zahl der in den USA in Medien, Film und Kunst verlorenen Arbeitsplätze auf rund 200&#39;000 und hinterfragt den Anteil, der auf generative KI zurückzuführen ist. <a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">Die Untersuchung</a>, die am 25. Oktober die 280-Kommentare-Marke auf Hacker News überschritt, unterscheidet strukturelle Verluste von solchen, die mit der Übernahme generativer Werkzeuge in den Content-Industrien korrelieren.</div><div class="body" data-i18n lang="it">Un&#39;analisi pubblicata da Apricitas il 24 ottobre 2026 quantifica in circa 200.000 i posti di lavoro persi negli Stati Uniti nei media, nel cinema e nelle arti, e si interroga sulla quota imputabile all&#39;IA generativa. <a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">L&#39;indagine</a>, che ha superato i 280 commenti su Hacker News il 25 ottobre, distingue le perdite strutturali da quelle correlate all&#39;adozione degli strumenti generativi nelle industrie dei contenuti.</div><div class="body" data-i18n lang="lmo">On&#39;anàlsi publicada de Apricitas el 24 de ottober 2026 la fa cunt de circa 200.000 lavò perdù in di Stat Ünii in di media, el cinema e i art, e la se dumanda quanta part la se pò mett in pee de l&#39;IA generativa. <a href="https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class">L&#39;indagin</a>, che l&#39;ha passaa i 280 cumment in sù Hacker News el 25 de ottober, la separa i perdud strutturai de quei ligaa a l&#39;aduzion di utei generativ in di industri del cuntenüü.</div></article></div></section>
+<section class="page" data-page="2"><h2 class="page-label"><span data-i18n lang="fr">Page 2 — </span><span data-i18n lang="en">Page 2 — </span><span data-i18n lang="de">Seite 2 — </span><span data-i18n lang="it">Pagina 2 — </span><span data-i18n lang="lmo">Pagina 2 — </span><span data-i18n lang="fr">Le Cahier Technique</span><span data-i18n lang="en">The Technical Notebook</span><span data-i18n lang="de">Technikbeilage</span><span data-i18n lang="it">Il Quaderno Tecnico</span><span data-i18n lang="lmo">El Quadern Tegnich</span></h2><div class="section section-2-cols"><h3 class="section-title">II. <span data-i18n lang="fr">Outils &amp; sécurité</span><span data-i18n lang="en">Tools &amp; Security</span><span data-i18n lang="de">Werkzeuge &amp; Sicherheit</span><span data-i18n lang="it">Strumenti &amp; sicurezza</span><span data-i18n lang="lmo">Utei &amp; segürezz</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Sécurité logicielle</p><p class="kicker" data-i18n lang="en">Software Security</p><p class="kicker" data-i18n lang="de">Softwaresicherheit</p><p class="kicker" data-i18n lang="it">Sicurezza software</p><p class="kicker" data-i18n lang="lmo">Segürezz del software</p><h4><span data-i18n lang="fr">HTTP2Shell : l&#39;évolution de Node2Shell expose de nombreuses bibliothèques HTTP</span><span data-i18n lang="en">HTTP2Shell: the evolution of Node2Shell exposes a raft of HTTP libraries</span><span data-i18n lang="de">HTTP2Shell: Die Weiterentwicklung von Node2Shell setzt zahlreiche HTTP-Bibliotheken Angriffen aus</span><span data-i18n lang="it">HTTP2Shell: l&#39;evoluzione di Node2Shell espone numerose librerie HTTP</span><span data-i18n lang="lmo">HTTP2Shell: l&#39;evuluzion de Node2Shell la menazzia una mota de liberarij HTTP</span></h4><div class="body" data-i18n lang="fr">La chaîne d&#39;attaque Node2Shell a évolué en HTTP2Shell et expose désormais de nombreuses bibliothèques et applications HTTP, alerte Aikido le 24 octobre 2026. <a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">L&#39;analyse détaille la CVE-2026-111497</a>, dont le rayon d&#39;explosion touche plusieurs paquets Python vulnérables ; le sujet a réuni près de 300 points et 146 commentaires sur Hacker News.</div><div class="body" data-i18n lang="en">The Node2Shell attack chain has evolved into HTTP2Shell and now exposes a wide range of HTTP libraries and applications, Aikido warned on 24 October 2026. <a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">The analysis details CVE-2026-111497</a>, whose blast radius spans several vulnerable Python packages; the topic drew nearly 300 points and 146 comments on Hacker News.</div><div class="body" data-i18n lang="de">Die Angriffskette Node2Shell hat sich zu HTTP2Shell weiterentwickelt und setzt nun zahlreiche HTTP-Bibliotheken und -Anwendungen Angriffen aus, warnt Aikido am 24. Oktober 2026. <a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">Die Analyse beleuchtet die CVE-2026-111497</a>, deren Explosionsradius mehrere verwundbare Python-Pakete umfasst; das Thema brachte auf Hacker News fast 300 Punkte und 146 Kommentare zusammen.</div><div class="body" data-i18n lang="it">La catena di attacco Node2Shell è evoluta in HTTP2Shell e ora espone numerose librerie e applicazioni HTTP, avverte Aikido il 24 ottobre 2026. <a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">L&#39;analisi dettaglia la CVE-2026-111497</a>, il cui raggio d&#39;esplosione tocca diversi pacchetti Python vulnerabili; il tema ha raccolto quasi 300 punti e 146 commenti su Hacker News.</div><div class="body" data-i18n lang="lmo">La cadena d&#39;atach Node2Shell l&#39;ha evolüü in HTTP2Shell e la menazzia adess ona mota de liberarij e aplicazion HTTP, alarma Aikido el 24 de ottober 2026. <a href="https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497">L&#39;anàlsi la detaja la CVE-2026-111497</a>, che el sò raj de esplosion el tocca several pacchett Python vulnirabij; el tema l&#39;ha ciapaa quasi 300 pont e 146 cumment in sù Hacker News.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Open weights</p><p class="kicker" data-i18n lang="en">Open Weights</p><p class="kicker" data-i18n lang="de">Open Weights</p><p class="kicker" data-i18n lang="it">Open weights</p><p class="kicker" data-i18n lang="lmo">Open weights</p><h4><span data-i18n lang="fr">Cinq déclinaisons de Qwen3.8-27B égalent Fable 5 grâce au harnais GVS5H</span><span data-i18n lang="en">Five variants of Qwen3.8-27B match Fable 5 thanks to the GVS5H harness</span><span data-i18n lang="de">Fünf Varianten von Qwen3.8-27B gleichen Fable 5 dank des Harness GVS5H aus</span><span data-i18n lang="it">Cinque varianti di Qwen3.8-27B eguagliano Fable 5 grazie all&#39;harness GVS5H</span><span data-i18n lang="lmo">Cinq variant de Qwen3.8-27B i fan pari Fable 5 grazzia al harnais GVS5H</span></h4><div class="body" data-i18n lang="fr">Un dépôt publié sur GitHub le 25 octobre 2026 fait état de cinq variantes du modèle open-weights Qwen3.8-27B qui égaleraient Fable 5 à l&#39;aide d&#39;un harnais d&#39;évaluation nommé GVS5H. <a href="https://github.com/slee-persis/GVS5H">Le projet</a>, discuté sur <a href="https://news.ycombinator.com/item?id=50228167">Hacker News (100 points, 28 commentaires)</a>, intéresse la communauté locale : il suggère qu&#39;un modèle de 27 milliards de paramètres, bien exploité, peut tenir tête à un modèle frontière sur certaines tâches.</div><div class="body" data-i18n lang="en">A repository published on GitHub on 25 October 2026 reports five variants of the open-weights model Qwen3.8-27B that allegedly match Fable 5 using an evaluation harness named GVS5H. <a href="https://github.com/slee-persis/GVS5H">The project</a>, discussed on <a href="https://news.ycombinator.com/item?id=50228167">Hacker News (100 points, 28 comments)</a>, has caught the local community&#39;s interest: it suggests that a 27-billion-parameter model, used well, can go toe-to-toe with a frontier model on certain tasks.</div><div class="body" data-i18n lang="de">Ein am 25. Oktober 2026 auf GitHub veröffentlichtes Repository berichtet von fünf Varianten des Open-Weights-Modells Qwen3.8-27B, die mithilfe eines Evaluations-Harness namens GVS5H mit Fable 5 gleichziehen würden. <a href="https://github.com/slee-persis/GVS5H">Das Projekt</a>, diskutiert auf <a href="https://news.ycombinator.com/item?id=50228167">Hacker News (100 Punkte, 28 Kommentare)</a>, interessiert die lokale Gemeinschaft: Es legt nahe, dass ein Modell mit 27 Milliarden Parametern bei guter Nutzung auf bestimmten Aufgaben einem Grenzmodell standhalten kann.</div><div class="body" data-i18n lang="it">Un repository pubblicato su GitHub il 25 ottobre 2026 fa riferimento a cinque varianti del modello open-weights Qwen3.8-27B che parrebbero eguagliare Fable 5 grazie a un harness di valutazione denominato GVS5H. <a href="https://github.com/slee-persis/GVS5H">Il progetto</a>, discusso su <a href="https://news.ycombinator.com/item?id=50228167">Hacker News (100 punti, 28 commenti)</a>, interessa la comunità locale: suggerisce che un modello da 27 miliardi di parametri, bene sfruttato, possa reggere il confronto con un modello di frontiera su alcuni compiti.</div><div class="body" data-i18n lang="lmo">On repositoree publicaa in sù GitHub el 25 de ottober 2026 el dis che cinch variant de la modal open-weights Qwen3.8-27B i rivarìven al livell de Fable 5 cunt on harnais de valüazion ciamaa GVS5H. <a href="https://github.com/slee-persis/GVS5H">El prugett</a>, discutüü in sül <a href="https://news.ycombinator.com/item?id=50228167">Hacker News (100 pont, 28 cumment)</a>, el Interess la comunità lucal: &#39;l insubiss che on modal de 27 miliard de parametr, doperaa ben, el pò v guardà a on modal de frontiera in sì cert incaregh.</div></article></div></section>
+<section class="page" data-page="3"><h2 class="page-label"><span data-i18n lang="fr">Page 3 — </span><span data-i18n lang="en">Page 3 — </span><span data-i18n lang="de">Seite 3 — </span><span data-i18n lang="it">Pagina 3 — </span><span data-i18n lang="lmo">Pagina 3 — </span><span data-i18n lang="fr">La Communauté &amp; Édito</span><span data-i18n lang="en">Community &amp; Opinion</span><span data-i18n lang="de">Community &amp; Leitartikel</span><span data-i18n lang="it">La Comunità &amp; Editoriale</span><span data-i18n lang="lmo">La Cumunità &amp; Editurial</span></h2><div class="section section-2-cols"><h3 class="section-title">III. <span data-i18n lang="fr">Signaux communautaires &amp; édito</span><span data-i18n lang="en">Community Signals &amp; Opinion</span><span data-i18n lang="de">Community-Signale &amp; Leitartikel</span><span data-i18n lang="it">Segnali dalla comunità &amp; editoriale</span><span data-i18n lang="lmo">Signal de la cumunità &amp; editurial</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Collaboration humain-agent</p><p class="kicker" data-i18n lang="en">Human–Agent Collaboration</p><p class="kicker" data-i18n lang="de">Mensch-Agent-Kollaboration</p><p class="kicker" data-i18n lang="it">Collaborazione umano-agente</p><p class="kicker" data-i18n lang="lmo">Culaburazion üman-agent</p><h4><span data-i18n lang="fr">Qui prend les commandes ? Les bons agents savent quand laisser l&#39;humain conduire</span><span data-i18n lang="en">Who takes the wheel? Good agents know when to let the human drive</span><span data-i18n lang="de">Wer übernimmt das Steuer? Gute Agenten wissen, wann sie den Menschen fahren lassen sollen</span><span data-i18n lang="it">Chi prende il comando? I buoni agenti sanno quando lasciare guidare l&#39;umano</span><span data-i18n lang="lmo">Chi el tegn el timon? I bon agent i sann quand lassà menà l&#39;üman</span></h4><div class="body" data-i18n lang="fr">Un labyrinthe à contrôle partagé entre un avatar agent et un avatar humain permet de dissocier division du travail et échec de collaboration. <a href="https://arxiv.org/abs/2610.27148">L&#39;étude</a>, évaluant GPT-5.6 Sol, Command A+, Qwen 3.8 27B et Command R, montre que les modèles les plus solides sollicitent l&#39;humain dans environ 80 % des décisions initiales quand son itinéraire est plus court — et presque jamais sinon —, là où Command R, plus faible en solo, ne fait preuve d&#39;aucune sélectivité.</div><div class="body" data-i18n lang="en">A maze controlled jointly by an agent avatar and a human avatar makes it possible to disentangle division of labour from collaboration failure. <a href="https://arxiv.org/abs/2610.27148">The study</a>, evaluating GPT-5.6 Sol, Command A+, Qwen 3.8 27B and Command R, shows that the strongest models hand control to the human in roughly 80% of initial decisions when the human&#39;s route is shorter — and almost never otherwise — whereas Command R, weaker on its own, shows no such selectivity.</div><div class="body" data-i18n lang="de">Ein Labyrinth mit geteilter Steuerung zwischen einem Agenten-Avatar und einem menschlichen Avatar erlaubt es, Arbeitsteilung und Kollaborationsversagen zu trennen. <a href="https://arxiv.org/abs/2610.27148">Die Studie</a>, die GPT-5.6 Sol, Command A+, Qwen 3.8 27B und Command R evaluiert, zeigt, dass die stärksten Modelle den Menschen in rund 80 Prozent der anfänglichen Entscheidungen einbeziehen, wenn seine Route kürzer ist – und sonst fast nie –, während Command R, einzeln schwächer, keinerlei Selektivität an den Tag legt.</div><div class="body" data-i18n lang="it">Un labirinto a controllo condiviso tra un avatar agente e un avatar umano permette di dissociare divisione del lavoro e fallimento della collaborazione. <a href="https://arxiv.org/abs/2610.27148">Lo studio</a>, che valuta GPT-5.6 Sol, Command A+, Qwen 3.8 27B e Command R, mostra che i modelli più solidi coinvolgono l&#39;umano in circa l&#39;80% delle decisioni iniziali quando il suo itinerario è più breve — e quasi mai altrimenti —, mentre Command R, più debole in solo, non mostra alcuna selettività.</div><div class="body" data-i18n lang="lmo">On labeerint a cuntrol spartii tra on avatar agent e on avatar üman el permètt de separà la divisiun del lavò e &#39;l faliment de la culaburazion. <a href="https://arxiv.org/abs/2610.27148">El stüdi</a>, che &#39;l evalua GPT-5.6 Sol, Command A+, Qwen 3.8 27B e Command R, el mostra che i modei pussee fërmi i cerchen l&#39;üman in circa el 80% di decisiun iniziali quand che la sò ruta l&#39;è püssee cürta — e quasi mai se no —, menter Command R, püssee dëbol in suli, el fà minga vèd nissuna seletività.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Neurotechnologie</p><p class="kicker" data-i18n lang="en">Neurotechnology</p><p class="kicker" data-i18n lang="de">Neurotechnologie</p><p class="kicker" data-i18n lang="it">Neurotecnologia</p><p class="kicker" data-i18n lang="lmo">Neurotecnulugia</p><h4><span data-i18n lang="fr">Une puce neuronale de l&#39;EPFL décode les interactions entre régions du cerveau</span><span data-i18n lang="en">An EPFL neural chip decodes interactions between brain regions</span><span data-i18n lang="de">Ein neuronaler Chip der EPFL entschlüsselt die Wechselwirkungen zwischen Hirnregionen</span><span data-i18n lang="it">Un chip neuronale dell&#39;EPFL decodifica le interazioni tra le regioni del cervello</span><span data-i18n lang="lmo">Ona pucegia neural de l&#39;EPFL la decuda i interazziun tra i regiun del cervell</span></h4><div class="body" data-i18n lang="fr">Une puce neuronale développée à l&#39;EPFL et présentée le 24 octobre 2026 décode les interactions entre régions cérébrales, ouvrant la voie à des implants analysant l&#39;activité de plusieurs zones simultanément. <a href="https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/">L&#39;annonce de l&#39;école polytechnique</a>, qui a suscité une discussion suivie sur <a href="https://news.ycombinator.com/item?id=50222525">Hacker News</a>, s&#39;inscrit dans la convergence entre interfaces neuronales et accélérateurs dédiés à l&#39;apprentissage automatique.</div><div class="body" data-i18n lang="en">A neural chip developed at EPFL and unveiled on 24 October 2026 decodes interactions between brain regions, paving the way for implants that analyse activity across several areas simultaneously. <a href="https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/">The engineering school&#39;s announcement</a>, which prompted a lively discussion on <a href="https://news.ycombinator.com/item?id=50222525">Hacker News</a>, reflects the convergence of neural interfaces and dedicated machine-learning accelerators.</div><div class="body" data-i18n lang="de">Ein an der EPFL entwickelter und am 24. Oktober 2026 vorgestellter neuronal Chip entschlüsselt die Wechselwirkungen zwischen Hirnregionen und ebnet den Weg für Implantate, die die Aktivität mehrerer Zonen gleichzeitig analysieren. <a href="https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/">Die Mitteilung der Hochschule</a>, die eine ausführliche Diskussion auf <a href="https://news.ycombinator.com/item?id=50222525">Hacker News</a> auslöste, reiht sich in die Konvergenz neuronaler Schnittstellen und auf maschinelles Lernen spezialisierter Beschleuniger ein.</div><div class="body" data-i18n lang="it">Un chip neuronale sviluppato all&#39;EPFL e presentato il 24 ottobre 2026 decodifica le interazioni tra regioni cerebrali, aprendo la strada a impianti che analizzano simultaneamente l&#39;attività di più zone. <a href="https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/">L&#39;annuncio della scuola politecnica</a>, che ha suscitato un&#39;ampia discussione su <a href="https://news.ycombinator.com/item?id=50222525">Hacker News</a>, si inserisce nella convergenza tra interfacce neurali e acceleratori dedicati all&#39;apprendimento automatico.</div><div class="body" data-i18n lang="lmo">Ona pucegia neural svilüpaa a l&#39;EPFL e presentada el 24 de ottober 2026 la decuda i interazziun tra i regiun del cervell, dervend la via a di implanti che i analizen l&#39;atività de püssee zonn al stess temp. <a href="https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/">L&#39;annunzia del pulitecnich</a>, che l&#39;ha faa nass ona discussion sequentada in sül <a href="https://news.ycombinator.com/item?id=50222525">Hacker News</a>, l&#39;è dent in de la convergenza tra interfacc neural e acceleradur dedichee al machine learning.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Édito</p><p class="kicker" data-i18n lang="en">Editorial</p><p class="kicker" data-i18n lang="de">Leitartikel</p><p class="kicker" data-i18n lang="it">Editoriale</p><p class="kicker" data-i18n lang="lmo">Editurial</p><h4><span data-i18n lang="fr">Édito — La frontière se joue désormais sur trois terrains à la fois</span><span data-i18n lang="en">Editorial — The frontier is now contested on three fronts at once</span><span data-i18n lang="de">Leitartikel – Die Grenze entscheidet sich heute auf drei Schauplätzen zugleich</span><span data-i18n lang="it">Editoriale — La frontiera si gioca ormai su tre terreni contemporaneamente</span><span data-i18n lang="lmo">Editurial — La frontiera ades la se zöga in sü tra camp al stess temp</span></h4><div class="body" data-i18n lang="fr">La journée du 25 octobre illustre un glissement : les annonces ne viennent plus seulement des labos frontière. Cerebras documente l&#39;inférence du billion de paramètres sur ses puces géantes ; un harnais open source fait égaler Fable 5 par cinq variantes de Qwen3.8-27B ; et la recherche documente les angles morts — fuites « en mosaïque » dans 7,08 % des réponses du meilleur modèle testé, intégrité scientifique violée dans 99,7 % des trajectoires d&#39;agents de recherche. La frontière se mesure désormais autant dans les benchmarks que dans la capacité des écosystèmes à vérifier ce que les modèles font vraiment. C&#39;est précisément là qu&#39;un quotidien comme le nôtre entend tenir sa ligne : chiffrer, dater, sourcer.</div><div class="body" data-i18n lang="en">The day of 25 October illustrates a shift: announcements no longer come solely from frontier labs. Cerebras documents trillion-parameter inference on its giant chips; an open-source harness lets five variants of Qwen3.8-27B match Fable 5; and research documents the blind spots — &quot;mosaic&quot; leaks in 7.08% of responses from the best model tested, and scientific integrity violated in 99.7% of research-agent trajectories. The frontier is now measured as much in benchmarks as in ecosystems&#39; capacity to verify what models actually do. That is precisely where a daily paper like ours intends to hold the line: quantify, date, source.</div><div class="body" data-i18n lang="de">Der 25. Oktober illustriert eine Verschiebung: Die Ankündigungen kommen nicht mehr nur aus den Grenz-Labors. Cerebras dokumentiert die Inferenz einer Billion Parameter auf seinen riesigen Chips; ein Open-Source-Harness lässt fünf Varianten von Qwen3.8-27B mit Fable 5 gleichziehen; und die Forschung dokumentiert die blinden Flecken – «mosaikartige» Lecks in 7,08 Prozent der Antworten des besten getesteten Modells, verletzte wissenschaftliche Integrität in 99,7 Prozent der Recherchen-Agenten-Läufe. Die Grenze bemisst sich heute ebenso in Benchmarks wie in der Fähigkeit der Ökosysteme zu überprüfen, was die Modelle tatsächlich leisten. Genau dort will eine Zeitung wie die unsrige ihre Linie halten: beziffern, datieren, belegen.</div><div class="body" data-i18n lang="it">La giornata del 25 ottobre illustra uno spostamento: gli annunci non arrivano più solo dai laboratori di frontiera. Cerebras documenta l&#39;inferenza del bilione di parametri sui suoi chip giganti; un harness open source fa eguagliare Fable 5 a cinque varianti di Qwen3.8-27B; e la ricerca documenta i punti ciechi — fughe «a mosaico» nel 7,08% delle risposte del miglior modello testato, integrità scientifica violata nel 99,7% delle traiettorie degli agenti di ricerca. La frontiera si misura ormai tanto nei benchmark quanto nella capacità degli ecosistemi di verificare ciò che i modelli fanno davvero. È proprio lì che un quotidiano come il nostro intende tenere la sua rotta: quantificare, datare, citare le fonti.</div><div class="body" data-i18n lang="lmo">El dì del 25 de ottober &#39;l fà vèd on scurrament: i annunz i vegnen pü dumà di lab de frontiera. Cerebras la documenta l&#39;inferenza del trillion de parametr in sül sò pucegij gigant; on harnais open source el fa vèd che cinch variant de Qwen3.8-27B i fan pari Fable 5; e la reserca la documenta i anguul mort — füghe &quot;a musaich&quot; in del 7,08% di rispöst del mej modal testaa, intigrità scentifega viulada in del 99,7% di trajettorii di agent de reserca. La frontiera ades la se mõura tant in di benchmark quant in de la capacità di ecusistem de verificà cossa i modei fann de veri. L&#39;è esattament chì che on quotidiann cumè &#39;l noster el vör tegnì la sò linia: cuntee, dataa, dà i font.</div></article></div></section>
+
+  <footer class="colophon">All the AI that&#39;s fit to print</footer>
+</main>
+<script>(function() {
+  var SUPPORTED = ["fr","en","de","it","lmo"];
+  var STORAGE_KEY = 'nt-lang';
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || "fr").toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : "fr";
+  }
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].dataset.lang === lang) links[i].classList.add('active');
+      else links[i].classList.remove('active');
+    }
+  }
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+    if (!(target instanceof Element)) return;
+    var a = target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.getAttribute('data-lang');
+    if (!lang || SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+  applyLang(detectLang());
+})();</script>
+</body>
+</html>

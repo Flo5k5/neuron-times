@@ -1,0 +1,303 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-25",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Cerebras a publié le 25 octobre 2026 une description technique de la façon dont son architecture wafer-scale accueille désormais des modèles frontière d'un billion de paramètres. Le retour de l'approche — détaillé dans <a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">un billet d'ingénierie sur le blog de la société</a> — s'est imposé sur Hacker News le même jour, avec 77 points et 24 commentaires en quelques heures.",
+        "en": "On 25 October 2026, Cerebras published a technical account of how its wafer-scale architecture now hosts trillion-parameter frontier models. The write-up — <a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">an engineering post on the company's blog</a> — topped Hacker News the same day, gathering 77 points and 24 comments within hours.",
+        "de": "Cerebras hat am 25. Oktober 2026 eine technische Beschreibung veröffentlicht, wie seine Wafer-Scale-Architektur inzwischen Grenzmodelle mit einer Billion Parameter aufnimmt. Der Erfahrungsbericht – detailliert in <a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">einem Engineering-Beitrag auf dem Firmenblog</a> – setzte sich am selben Tag auf Hacker News durch, mit 77 Punkten und 24 Kommentaren in wenigen Stunden.",
+        "it": "Cerebras ha pubblicato il 25 ottobre 2026 una descrizione tecnica di come la sua architettura wafer-scale ospita ormai modelli di frontiera da un bilione di parametri. Il resoconto dell'approccio — dettagliato in <a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">un articolo di ingegneria sul blog della società</a> — si è imposto su Hacker News lo stesso giorno, con 77 punti e 24 commenti in poche ore.",
+        "lmo": "Cerebras l'ha publicaa el 25 de ottober 2026 ona descrizion tecnega de come la sò architetura wafer-scale la ricev adess de modei de frontiera de on trillion de parametr. El rescont — detajaa in <a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">on biliett d'ingegneria sora el blog de la società</a> — l'ha ciappaa pocca in su Hacker News el stess dì, con 77 pont e 24 cumment in quai oder."
+      },
+      {
+        "fr": "L'enjeu est double : faire tenir des modèles massifs sur une seule puce géante sans partitionnement classique, et servir ces modèles à des débits compétitifs face aux grappes de GPU. Cerebras argumente que son coefficient d'utilisation mémoire et son absence de communication inter-GPU simplifient l'exploitation à très grande échelle de paramètres.",
+        "en": "The stakes are twofold: fitting massive models onto a single giant chip without conventional partitioning, and serving those models at competitive throughput against GPU clusters. Cerebras argues that its high memory-utilisation coefficient and its lack of inter-GPU communication simplify running parameters at very large scale.",
+        "de": "Die Sache hat zwei Dimensionen: massive Modelle auf einem einzigen riesigen Chip ohne klassisches Partitionieren unterzubringen und diese Modelle mit konkurrenzfähigen Durchsatzraten gegenüber GPU-Clustern zu bedienen. Cerebras argumentiert, dass sein Speichernutzungskoeffizient und das Fehlen von Inter-GPU-Kommunikation den Betrieb sehr grosser Parametermengen vereinfachen.",
+        "it": "La posta in gioco è doppia: far stare modelli massicci su un unico chip gigante senza il classico partizionamento, e servire questi modelli a velocità competitive rispetto ai cluster di GPU. Cerebras sostiene che il suo coefficiente di utilizzo della memoria e l'assenza di comunicazione inter-GPU semplifichino l'exploitation di parametri su scala molto ampia.",
+        "lmo": "El punt l'è dobbi: fà stà de modei massiv in sò ona pucegia giganta senza spartizion classega, e servì 'sti modei chì a velocità cumpetitiv contra i grupp de GPU. Cerebras la dis che el sò coefficient de doperament de la memoria e l'assenza de cumunicazion intra-GPU i slisissen l'utenza a scala assee granda di parametr."
+      },
+      {
+        "fr": "La discussion communautaire, suivie sur <a href=\"https://news.ycombinator.com/item?id=50227356\">le fil Hacker News correspondant</a>, porte sur la crédibilité de ces affirmations à l'aune des benchmarks publics et du coût par token. Alors que la course à l'échelle s'intensifie, ce retour d'expérience d'un acteur non-GPU éclaire la diversification des infrastructures d'inférence frontière.",
+        "en": "The community discussion, tracked on <a href=\"https://news.ycombinator.com/item?id=50227356\">the corresponding Hacker News thread</a>, turns on the credibility of these claims when measured against public benchmarks and cost per token. As the scaling race intensifies, this field report from a non-GPU player sheds light on the diversification of frontier inference infrastructure.",
+        "de": "Die Community-Diskussion, nachvollziehbar auf <a href=\"https://news.ycombinator.com/item?id=50227356\">dem entsprechenden Hacker-News-Thread</a>, kreist um die Glaubwürdigkeit dieser Aussagen im Licht öffentlicher Benchmarks und der Kosten pro Token. Während das Wettrennen um die Grösse sich verschärft, wirft dieser Erfahrungsbericht eines Nicht-GPU-Akteurs Licht auf die Diversifizierung der Grenz-Inferenzinfrastrukturen.",
+        "it": "La discussione della comunità, seguita su <a href=\"https://news.ycombinator.com/item?id=50227356\">il corrispondente thread di Hacker News</a>, verte sulla credibilità di queste affermazioni alla luce dei benchmark pubblici e del costo per token. Mentre la corsa alla scala si intensifica, questo resoconto di un attore non-GPU getta luce sulla diversificazione delle infrastrutture di inferenza di frontiera.",
+        "lmo": "La discussion de la comunità, sequentada in <a href=\"https://news.ycombinator.com/item?id=50227356\">el fil Hacker News currispundent</a>, la va in sò la credibilità de sti afermazion chì a la lüs di benchmark pùblich e del cost per token. Intant che la cursa a la scala la se fà pussee densa, 'sto rescont d'esperiensa de on ator minga-GPU el fà lüs la diversificazion di infrastruttur de inferenza de frontiera."
+      }
+    ],
+    "urls": [
+      "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+      "https://news.ycombinator.com/item?id=50227356"
+    ],
+    "kicker": {
+      "fr": "Infrastructures frontière",
+      "en": "Frontier Infrastructure",
+      "de": "Grenzinfrastrukturen",
+      "it": "Infrastrutture di frontiera",
+      "lmo": "Infrastruttur de frontiera"
+    },
+    "headline": {
+      "fr": "Cerebras détaille le déploiement de modèles de mille milliards de paramètres sur ses wafer-scale engines",
+      "en": "Cerebras details how it serves trillion-parameter frontier models on its wafer-scale engines",
+      "de": "Cerebras erläutert das Deployment von Modellen mit einer Billion Parameter auf seinen Wafer-Scale-Engines",
+      "it": "Cerebras spiega il deployment di modelli da mille miliardi di parametri sui suoi wafer-scale engine",
+      "lmo": "Cerebras la descriss el deployament dei modei de milla miliard de parametr in sui sò wafer-scale engines"
+    },
+    "subdeck": {
+      "fr": "La pionnière des puces wafer-scale explique comment servir des modèles frontière sur son architecture, dans un billet d'ingénierie daté du 25 octobre 2026.",
+      "en": "The wafer-scale chip pioneer explains how it serves frontier models on its architecture, in an engineering post dated 25 October 2026.",
+      "de": "Die Pionierin der Wafer-Scale-Chips erklärt in einem Engineering-Beitrag vom 25. Oktober 2026, wie sich Grenzmodelle auf ihrer Architektur betreiben lassen.",
+      "it": "La pioniera dei chip wafer-scale spiega come servire modelli di frontiera sulla sua architettura, in un articolo di ingegneria datato 25 ottobre 2026.",
+      "lmo": "La pioniera di pucegij wafer-scale la spiega comè se servissen i modei de frontiera in sò la sò architetura, in on biliett d'ingegneria dataa 25 de ottober 2026."
+    }
+  },
+  "sidebar": [],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Schwerpunkt",
+        "it": "In Prima Pagina",
+        "lmo": "In sò la prima pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Produits & société",
+            "en": "Products & Companies",
+            "de": "Produkte & Unternehmen",
+            "it": "Prodotti & società",
+            "lmo": "Prudett & società"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "200 000 emplois perdus dans les médias et les arts américains : quelle part pour l'IA ?",
+                "en": "200,000 jobs lost in US media and the arts: how big a share for AI?",
+                "de": "200'000 verlorene Arbeitsplätze in US-Medien und Kunst: Wie viel davon entfällt auf KI?",
+                "it": "200.000 posti di lavoro persi nei media e nelle arti statunitensi: quanta parte per l'IA?",
+                "lmo": "200.000 lavò perdù in di media e in di art merican: quanta part per l'IA?"
+              },
+              "body": {
+                "fr": "Une analyse publiée par Apricitas le 24 octobre 2026 chiffre à environ 200 000 les emplois perdus aux États-Unis dans les médias, le cinéma et les arts, et interroge la part imputable à l'IA générative. <a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">L'enquête</a>, qui a dépassé les 280 commentaires sur Hacker News le 25 octobre, distingue les pertes structurelles de celles corrélées à l'adoption des outils génératifs dans les industries de contenu.",
+                "en": "An analysis published by Apricitas on 24 October 2026 puts the number of US jobs lost in media, film and the arts at roughly 200,000, and asks how much of that can be attributed to generative AI. <a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">The study</a>, which drew more than 280 comments on Hacker News on 25 October, separates structural losses from those correlated with the adoption of generative tools across content industries.",
+                "de": "Eine am 24. Oktober 2026 von Apricitas veröffentlichte Analyse beziffert die Zahl der in den USA in Medien, Film und Kunst verlorenen Arbeitsplätze auf rund 200'000 und hinterfragt den Anteil, der auf generative KI zurückzuführen ist. <a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">Die Untersuchung</a>, die am 25. Oktober die 280-Kommentare-Marke auf Hacker News überschritt, unterscheidet strukturelle Verluste von solchen, die mit der Übernahme generativer Werkzeuge in den Content-Industrien korrelieren.",
+                "it": "Un'analisi pubblicata da Apricitas il 24 ottobre 2026 quantifica in circa 200.000 i posti di lavoro persi negli Stati Uniti nei media, nel cinema e nelle arti, e si interroga sulla quota imputabile all'IA generativa. <a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">L'indagine</a>, che ha superato i 280 commenti su Hacker News il 25 ottobre, distingue le perdite strutturali da quelle correlate all'adozione degli strumenti generativi nelle industrie dei contenuti.",
+                "lmo": "On'anàlsi publicada de Apricitas el 24 de ottober 2026 la fa cunt de circa 200.000 lavò perdù in di Stat Ünii in di media, el cinema e i art, e la se dumanda quanta part la se pò mett in pee de l'IA generativa. <a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">L'indagin</a>, che l'ha passaa i 280 cumment in sù Hacker News el 25 de ottober, la separa i perdud strutturai de quei ligaa a l'aduzion di utei generativ in di industri del cuntenüü."
+              },
+              "kicker": {
+                "fr": "Économie",
+                "en": "Economy",
+                "de": "Wirtschaft",
+                "it": "Economia",
+                "lmo": "Eculumia"
+              },
+              "urls": [
+                "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+                "https://news.ycombinator.com/item?id=50226419"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Notebook",
+        "de": "Technikbeilage",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tegnich"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & sécurité",
+            "en": "Tools & Security",
+            "de": "Werkzeuge & Sicherheit",
+            "it": "Strumenti & sicurezza",
+            "lmo": "Utei & segürezz"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "HTTP2Shell : l'évolution de Node2Shell expose de nombreuses bibliothèques HTTP",
+                "en": "HTTP2Shell: the evolution of Node2Shell exposes a raft of HTTP libraries",
+                "de": "HTTP2Shell: Die Weiterentwicklung von Node2Shell setzt zahlreiche HTTP-Bibliotheken Angriffen aus",
+                "it": "HTTP2Shell: l'evoluzione di Node2Shell espone numerose librerie HTTP",
+                "lmo": "HTTP2Shell: l'evuluzion de Node2Shell la menazzia una mota de liberarij HTTP"
+              },
+              "body": {
+                "fr": "La chaîne d'attaque Node2Shell a évolué en HTTP2Shell et expose désormais de nombreuses bibliothèques et applications HTTP, alerte Aikido le 24 octobre 2026. <a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\">L'analyse détaille la CVE-2026-111497</a>, dont le rayon d'explosion touche plusieurs paquets Python vulnérables ; le sujet a réuni près de 300 points et 146 commentaires sur Hacker News.",
+                "en": "The Node2Shell attack chain has evolved into HTTP2Shell and now exposes a wide range of HTTP libraries and applications, Aikido warned on 24 October 2026. <a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\">The analysis details CVE-2026-111497</a>, whose blast radius spans several vulnerable Python packages; the topic drew nearly 300 points and 146 comments on Hacker News.",
+                "de": "Die Angriffskette Node2Shell hat sich zu HTTP2Shell weiterentwickelt und setzt nun zahlreiche HTTP-Bibliotheken und -Anwendungen Angriffen aus, warnt Aikido am 24. Oktober 2026. <a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\">Die Analyse beleuchtet die CVE-2026-111497</a>, deren Explosionsradius mehrere verwundbare Python-Pakete umfasst; das Thema brachte auf Hacker News fast 300 Punkte und 146 Kommentare zusammen.",
+                "it": "La catena di attacco Node2Shell è evoluta in HTTP2Shell e ora espone numerose librerie e applicazioni HTTP, avverte Aikido il 24 ottobre 2026. <a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\">L'analisi dettaglia la CVE-2026-111497</a>, il cui raggio d'esplosione tocca diversi pacchetti Python vulnerabili; il tema ha raccolto quasi 300 punti e 146 commenti su Hacker News.",
+                "lmo": "La cadena d'atach Node2Shell l'ha evolüü in HTTP2Shell e la menazzia adess ona mota de liberarij e aplicazion HTTP, alarma Aikido el 24 de ottober 2026. <a href=\"https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497\">L'anàlsi la detaja la CVE-2026-111497</a>, che el sò raj de esplosion el tocca several pacchett Python vulnirabij; el tema l'ha ciapaa quasi 300 pont e 146 cumment in sù Hacker News."
+              },
+              "kicker": {
+                "fr": "Sécurité logicielle",
+                "en": "Software Security",
+                "de": "Softwaresicherheit",
+                "it": "Sicurezza software",
+                "lmo": "Segürezz del software"
+              },
+              "urls": [
+                "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+                "https://news.ycombinator.com/item?id=50219177"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cinq déclinaisons de Qwen3.8-27B égalent Fable 5 grâce au harnais GVS5H",
+                "en": "Five variants of Qwen3.8-27B match Fable 5 thanks to the GVS5H harness",
+                "de": "Fünf Varianten von Qwen3.8-27B gleichen Fable 5 dank des Harness GVS5H aus",
+                "it": "Cinque varianti di Qwen3.8-27B eguagliano Fable 5 grazie all'harness GVS5H",
+                "lmo": "Cinq variant de Qwen3.8-27B i fan pari Fable 5 grazzia al harnais GVS5H"
+              },
+              "body": {
+                "fr": "Un dépôt publié sur GitHub le 25 octobre 2026 fait état de cinq variantes du modèle open-weights Qwen3.8-27B qui égaleraient Fable 5 à l'aide d'un harnais d'évaluation nommé GVS5H. <a href=\"https://github.com/slee-persis/GVS5H\">Le projet</a>, discuté sur <a href=\"https://news.ycombinator.com/item?id=50228167\">Hacker News (100 points, 28 commentaires)</a>, intéresse la communauté locale : il suggère qu'un modèle de 27 milliards de paramètres, bien exploité, peut tenir tête à un modèle frontière sur certaines tâches.",
+                "en": "A repository published on GitHub on 25 October 2026 reports five variants of the open-weights model Qwen3.8-27B that allegedly match Fable 5 using an evaluation harness named GVS5H. <a href=\"https://github.com/slee-persis/GVS5H\">The project</a>, discussed on <a href=\"https://news.ycombinator.com/item?id=50228167\">Hacker News (100 points, 28 comments)</a>, has caught the local community's interest: it suggests that a 27-billion-parameter model, used well, can go toe-to-toe with a frontier model on certain tasks.",
+                "de": "Ein am 25. Oktober 2026 auf GitHub veröffentlichtes Repository berichtet von fünf Varianten des Open-Weights-Modells Qwen3.8-27B, die mithilfe eines Evaluations-Harness namens GVS5H mit Fable 5 gleichziehen würden. <a href=\"https://github.com/slee-persis/GVS5H\">Das Projekt</a>, diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50228167\">Hacker News (100 Punkte, 28 Kommentare)</a>, interessiert die lokale Gemeinschaft: Es legt nahe, dass ein Modell mit 27 Milliarden Parametern bei guter Nutzung auf bestimmten Aufgaben einem Grenzmodell standhalten kann.",
+                "it": "Un repository pubblicato su GitHub il 25 ottobre 2026 fa riferimento a cinque varianti del modello open-weights Qwen3.8-27B che parrebbero eguagliare Fable 5 grazie a un harness di valutazione denominato GVS5H. <a href=\"https://github.com/slee-persis/GVS5H\">Il progetto</a>, discusso su <a href=\"https://news.ycombinator.com/item?id=50228167\">Hacker News (100 punti, 28 commenti)</a>, interessa la comunità locale: suggerisce che un modello da 27 miliardi di parametri, bene sfruttato, possa reggere il confronto con un modello di frontiera su alcuni compiti.",
+                "lmo": "On repositoree publicaa in sù GitHub el 25 de ottober 2026 el dis che cinch variant de la modal open-weights Qwen3.8-27B i rivarìven al livell de Fable 5 cunt on harnais de valüazion ciamaa GVS5H. <a href=\"https://github.com/slee-persis/GVS5H\">El prugett</a>, discutüü in sül <a href=\"https://news.ycombinator.com/item?id=50228167\">Hacker News (100 pont, 28 cumment)</a>, el Interess la comunità lucal: 'l insubiss che on modal de 27 miliard de parametr, doperaa ben, el pò v guardà a on modal de frontiera in sì cert incaregh."
+              },
+              "kicker": {
+                "fr": "Open weights",
+                "en": "Open Weights",
+                "de": "Open Weights",
+                "it": "Open weights",
+                "lmo": "Open weights"
+              },
+              "urls": [
+                "https://github.com/slee-persis/GVS5H",
+                "https://news.ycombinator.com/item?id=50228167"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Opinion",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Cumunità & Editurial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires & édito",
+            "en": "Community Signals & Opinion",
+            "de": "Community-Signale & Leitartikel",
+            "it": "Segnali dalla comunità & editoriale",
+            "lmo": "Signal de la cumunità & editurial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Qui prend les commandes ? Les bons agents savent quand laisser l'humain conduire",
+                "en": "Who takes the wheel? Good agents know when to let the human drive",
+                "de": "Wer übernimmt das Steuer? Gute Agenten wissen, wann sie den Menschen fahren lassen sollen",
+                "it": "Chi prende il comando? I buoni agenti sanno quando lasciare guidare l'umano",
+                "lmo": "Chi el tegn el timon? I bon agent i sann quand lassà menà l'üman"
+              },
+              "body": {
+                "fr": "Un labyrinthe à contrôle partagé entre un avatar agent et un avatar humain permet de dissocier division du travail et échec de collaboration. <a href=\"https://arxiv.org/abs/2610.27148\">L'étude</a>, évaluant GPT-5.6 Sol, Command A+, Qwen 3.8 27B et Command R, montre que les modèles les plus solides sollicitent l'humain dans environ 80 % des décisions initiales quand son itinéraire est plus court — et presque jamais sinon —, là où Command R, plus faible en solo, ne fait preuve d'aucune sélectivité.",
+                "en": "A maze controlled jointly by an agent avatar and a human avatar makes it possible to disentangle division of labour from collaboration failure. <a href=\"https://arxiv.org/abs/2610.27148\">The study</a>, evaluating GPT-5.6 Sol, Command A+, Qwen 3.8 27B and Command R, shows that the strongest models hand control to the human in roughly 80% of initial decisions when the human's route is shorter — and almost never otherwise — whereas Command R, weaker on its own, shows no such selectivity.",
+                "de": "Ein Labyrinth mit geteilter Steuerung zwischen einem Agenten-Avatar und einem menschlichen Avatar erlaubt es, Arbeitsteilung und Kollaborationsversagen zu trennen. <a href=\"https://arxiv.org/abs/2610.27148\">Die Studie</a>, die GPT-5.6 Sol, Command A+, Qwen 3.8 27B und Command R evaluiert, zeigt, dass die stärksten Modelle den Menschen in rund 80 Prozent der anfänglichen Entscheidungen einbeziehen, wenn seine Route kürzer ist – und sonst fast nie –, während Command R, einzeln schwächer, keinerlei Selektivität an den Tag legt.",
+                "it": "Un labirinto a controllo condiviso tra un avatar agente e un avatar umano permette di dissociare divisione del lavoro e fallimento della collaborazione. <a href=\"https://arxiv.org/abs/2610.27148\">Lo studio</a>, che valuta GPT-5.6 Sol, Command A+, Qwen 3.8 27B e Command R, mostra che i modelli più solidi coinvolgono l'umano in circa l'80% delle decisioni iniziali quando il suo itinerario è più breve — e quasi mai altrimenti —, mentre Command R, più debole in solo, non mostra alcuna selettività.",
+                "lmo": "On labeerint a cuntrol spartii tra on avatar agent e on avatar üman el permètt de separà la divisiun del lavò e 'l faliment de la culaburazion. <a href=\"https://arxiv.org/abs/2610.27148\">El stüdi</a>, che 'l evalua GPT-5.6 Sol, Command A+, Qwen 3.8 27B e Command R, el mostra che i modei pussee fërmi i cerchen l'üman in circa el 80% di decisiun iniziali quand che la sò ruta l'è püssee cürta — e quasi mai se no —, menter Command R, püssee dëbol in suli, el fà minga vèd nissuna seletività."
+              },
+              "kicker": {
+                "fr": "Collaboration humain-agent",
+                "en": "Human–Agent Collaboration",
+                "de": "Mensch-Agent-Kollaboration",
+                "it": "Collaborazione umano-agente",
+                "lmo": "Culaburazion üman-agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.27148"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Une puce neuronale de l'EPFL décode les interactions entre régions du cerveau",
+                "en": "An EPFL neural chip decodes interactions between brain regions",
+                "de": "Ein neuronaler Chip der EPFL entschlüsselt die Wechselwirkungen zwischen Hirnregionen",
+                "it": "Un chip neuronale dell'EPFL decodifica le interazioni tra le regioni del cervello",
+                "lmo": "Ona pucegia neural de l'EPFL la decuda i interazziun tra i regiun del cervell"
+              },
+              "body": {
+                "fr": "Une puce neuronale développée à l'EPFL et présentée le 24 octobre 2026 décode les interactions entre régions cérébrales, ouvrant la voie à des implants analysant l'activité de plusieurs zones simultanément. <a href=\"https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/\">L'annonce de l'école polytechnique</a>, qui a suscité une discussion suivie sur <a href=\"https://news.ycombinator.com/item?id=50222525\">Hacker News</a>, s'inscrit dans la convergence entre interfaces neuronales et accélérateurs dédiés à l'apprentissage automatique.",
+                "en": "A neural chip developed at EPFL and unveiled on 24 October 2026 decodes interactions between brain regions, paving the way for implants that analyse activity across several areas simultaneously. <a href=\"https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/\">The engineering school's announcement</a>, which prompted a lively discussion on <a href=\"https://news.ycombinator.com/item?id=50222525\">Hacker News</a>, reflects the convergence of neural interfaces and dedicated machine-learning accelerators.",
+                "de": "Ein an der EPFL entwickelter und am 24. Oktober 2026 vorgestellter neuronal Chip entschlüsselt die Wechselwirkungen zwischen Hirnregionen und ebnet den Weg für Implantate, die die Aktivität mehrerer Zonen gleichzeitig analysieren. <a href=\"https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/\">Die Mitteilung der Hochschule</a>, die eine ausführliche Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50222525\">Hacker News</a> auslöste, reiht sich in die Konvergenz neuronaler Schnittstellen und auf maschinelles Lernen spezialisierter Beschleuniger ein.",
+                "it": "Un chip neuronale sviluppato all'EPFL e presentato il 24 ottobre 2026 decodifica le interazioni tra regioni cerebrali, aprendo la strada a impianti che analizzano simultaneamente l'attività di più zone. <a href=\"https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/\">L'annuncio della scuola politecnica</a>, che ha suscitato un'ampia discussione su <a href=\"https://news.ycombinator.com/item?id=50222525\">Hacker News</a>, si inserisce nella convergenza tra interfacce neurali e acceleratori dedicati all'apprendimento automatico.",
+                "lmo": "Ona pucegia neural svilüpaa a l'EPFL e presentada el 24 de ottober 2026 la decuda i interazziun tra i regiun del cervell, dervend la via a di implanti che i analizen l'atività de püssee zonn al stess temp. <a href=\"https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/\">L'annunzia del pulitecnich</a>, che l'ha faa nass ona discussion sequentada in sül <a href=\"https://news.ycombinator.com/item?id=50222525\">Hacker News</a>, l'è dent in de la convergenza tra interfacc neural e acceleradur dedichee al machine learning."
+              },
+              "kicker": {
+                "fr": "Neurotechnologie",
+                "en": "Neurotechnology",
+                "de": "Neurotechnologie",
+                "it": "Neurotecnologia",
+                "lmo": "Neurotecnulugia"
+              },
+              "urls": [
+                "https://actu.epfl.ch/news/neural-chip-decodes-interactions-brain-r-2/",
+                "https://news.ycombinator.com/item?id=50222525"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — La frontière se joue désormais sur trois terrains à la fois",
+                "en": "Editorial — The frontier is now contested on three fronts at once",
+                "de": "Leitartikel – Die Grenze entscheidet sich heute auf drei Schauplätzen zugleich",
+                "it": "Editoriale — La frontiera si gioca ormai su tre terreni contemporaneamente",
+                "lmo": "Editurial — La frontiera ades la se zöga in sü tra camp al stess temp"
+              },
+              "body": {
+                "fr": "La journée du 25 octobre illustre un glissement : les annonces ne viennent plus seulement des labos frontière. Cerebras documente l'inférence du billion de paramètres sur ses puces géantes ; un harnais open source fait égaler Fable 5 par cinq variantes de Qwen3.8-27B ; et la recherche documente les angles morts — fuites « en mosaïque » dans 7,08 % des réponses du meilleur modèle testé, intégrité scientifique violée dans 99,7 % des trajectoires d'agents de recherche. La frontière se mesure désormais autant dans les benchmarks que dans la capacité des écosystèmes à vérifier ce que les modèles font vraiment. C'est précisément là qu'un quotidien comme le nôtre entend tenir sa ligne : chiffrer, dater, sourcer.",
+                "en": "The day of 25 October illustrates a shift: announcements no longer come solely from frontier labs. Cerebras documents trillion-parameter inference on its giant chips; an open-source harness lets five variants of Qwen3.8-27B match Fable 5; and research documents the blind spots — \"mosaic\" leaks in 7.08% of responses from the best model tested, and scientific integrity violated in 99.7% of research-agent trajectories. The frontier is now measured as much in benchmarks as in ecosystems' capacity to verify what models actually do. That is precisely where a daily paper like ours intends to hold the line: quantify, date, source.",
+                "de": "Der 25. Oktober illustriert eine Verschiebung: Die Ankündigungen kommen nicht mehr nur aus den Grenz-Labors. Cerebras dokumentiert die Inferenz einer Billion Parameter auf seinen riesigen Chips; ein Open-Source-Harness lässt fünf Varianten von Qwen3.8-27B mit Fable 5 gleichziehen; und die Forschung dokumentiert die blinden Flecken – «mosaikartige» Lecks in 7,08 Prozent der Antworten des besten getesteten Modells, verletzte wissenschaftliche Integrität in 99,7 Prozent der Recherchen-Agenten-Läufe. Die Grenze bemisst sich heute ebenso in Benchmarks wie in der Fähigkeit der Ökosysteme zu überprüfen, was die Modelle tatsächlich leisten. Genau dort will eine Zeitung wie die unsrige ihre Linie halten: beziffern, datieren, belegen.",
+                "it": "La giornata del 25 ottobre illustra uno spostamento: gli annunci non arrivano più solo dai laboratori di frontiera. Cerebras documenta l'inferenza del bilione di parametri sui suoi chip giganti; un harness open source fa eguagliare Fable 5 a cinque varianti di Qwen3.8-27B; e la ricerca documenta i punti ciechi — fughe «a mosaico» nel 7,08% delle risposte del miglior modello testato, integrità scientifica violata nel 99,7% delle traiettorie degli agenti di ricerca. La frontiera si misura ormai tanto nei benchmark quanto nella capacità degli ecosistemi di verificare ciò che i modelli fanno davvero. È proprio lì che un quotidiano come il nostro intende tenere la sua rotta: quantificare, datare, citare le fonti.",
+                "lmo": "El dì del 25 de ottober 'l fà vèd on scurrament: i annunz i vegnen pü dumà di lab de frontiera. Cerebras la documenta l'inferenza del trillion de parametr in sül sò pucegij gigant; on harnais open source el fa vèd che cinch variant de Qwen3.8-27B i fan pari Fable 5; e la reserca la documenta i anguul mort — füghe \"a musaich\" in del 7,08% di rispöst del mej modal testaa, intigrità scentifega viulada in del 99,7% di trajettorii di agent de reserca. La frontiera ades la se mõura tant in di benchmark quant in de la capacità di ecusistem de verificà cossa i modei fann de veri. L'è esattament chì che on quotidiann cumè 'l noster el vör tegnì la sò linia: cuntee, dataa, dà i font."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editurial"
+              },
+              "urls": [
+                "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    }
+  ]
+}
