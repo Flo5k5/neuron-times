@@ -1,0 +1,784 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-26",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W43",
+    "date_range": {
+      "fr": "SEMAINE DU 19–25 OCTOBRE 2026",
+      "en": "WEEK OF 19 – 25 OCTOBER 2026",
+      "de": "WOCHE VOM 19.–25. OKTOBER 2026",
+      "it": "SETTIMANA DEL 19–25 OTTOBRE 2026",
+      "lmo": "SETEMANA DEL 19–25 OTTOBRE 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "L'annonce a de quoi donner le vertige : les modèles frontière d'OpenAI et les workflows Codex sont désormais consommables depuis le Model Garden de Gemini, via le Google Cloud Marketplace. Pour la première fois, les offres des deux plus grands labos américains — en concurrence frontale sur les modèles, les agents et les applications — sont servies par la même console d'infrastructure cloud. Voir <a href=\"https://openai.com/index/openai-models-google-cloud\">l'annonce officielle</a>.",
+        "en": "The announcement is enough to make one dizzy: OpenAI's frontier models and Codex workflows are now consumable from the Gemini Model Garden, via the Google Cloud Marketplace. For the first time, the offerings of the two largest American labs — in head-on competition over models, agents and applications — are served through the same cloud infrastructure console. See <a href=\"https://openai.com/index/openai-models-google-cloud\">the official announcement</a>.",
+        "de": "Die Ankündigung kann einem schwindlig machen: Die Frontier-Modelle von OpenAI und die Codex-Workflows sind ab sofort über den Model Garden von Gemini über den Google Cloud Marketplace konsumierbar. Erstmals werden die Angebote der beiden grössten US-Labore — in direkter Konkurrenz bei Modellen, Agenten und Anwendungen — über dieselbe Cloud-Infrastruktur-Konsole bereitgestellt. Siehe die <a href=\"https://openai.com/index/openai-models-google-cloud\">offizielle Ankündigung</a>.",
+        "it": "L'annuncio dà le vertigini: i modelli di frontiera di OpenAI e i workflow Codex sono ormai utilizzabili dal Model Garden di Gemini, tramite il Google Cloud Marketplace. Per la prima volta, le offerte dei due più grandi laboratori americani — in concorrenza diretta su modelli, agenti e applicazioni — sono servite dalla stessa console di infrastruttura cloud. Si veda <a href=\"https://openai.com/index/openai-models-google-cloud\">l'annuncio ufficiale</a>.",
+        "lmo": "L'anunzi el fa vegnì el vertigin: i modei de frontiera de OpenAI e i workflow de Codex adess poden vess doperaa del Model Garden de Gemini, travers el Google Cloud Marketplace. Per la prima voeulta, i ofer di duu laboratori american pussee grand — in concorrenza diretta sui modei, sui agent e sui aplicazion — hinn servii de la midemma console de infrastruttura cloud. Vedè <a href=\"https://openai.com/index/openai-models-google-cloud\">l'anunzi ufizial</a>."
+      },
+      {
+        "fr": "Le retournement dépasse l'anecdote commerciale. La guerre des clouds IA se jouait jusqu'ici sur l'exclusivité : chaque hyperscaler verrouillait ses partenariats de distribution (Anthropic sur AWS puis Google, Google DeepMind en natif, xAI dans son coin). L'ouverture du Model Garden à un concurrent direct signale que la valeur migre des modèles vers la couche d'intégration — facturation, gouvernance, sécurité, orchestration.",
+        "en": "The reversal goes beyond a commercial anecdote. Until now, the AI cloud war was fought on exclusivity: each hyperscaler locked in its distribution partnerships (Anthropic on AWS then Google, Google DeepMind natively, xAI off on its own). Opening the Model Garden to a direct competitor signals that value is migrating from models to the integration layer — billing, governance, security, orchestration.",
+        "de": "Die Umkehrung geht über die kommerzielle Anekdote hinaus. Der Krieg der KI-Clouds wurde bislang über Exklusivität ausgetragen: Jeder Hyperscaler schottete seine Distributionspartnerschaften ab (Anthropic auf AWS, dann Google; Google DeepMind nativ; xAI für sich). Die Öffnung des Model Garden für einen direkten Konkurrenten signalisiert, dass der Wert von den Modellen zur Integrationsschicht wandert — Abrechnung, Governance, Sicherheit, Orchestrierung.",
+        "it": "La svolta va oltre l'aneddoto commerciale. Fino a oggi la guerra dei cloud IA si giocava sull'esclusiva: ogni hyperscaler bloccava i propri partenariati di distribuzione (Anthropic su AWS poi Google, Google DeepMind in nativo, xAI per conto suo). L'apertura del Model Garden a un concorrente diretto segnala che il valore migra dai modelli verso il livello di integrazione — fatturazione, governance, sicurezza, orchestrazione.",
+        "lmo": "El ribaltament el va pussee in là de l'aneddota comercial. La guerra di cloud IA fin adess la se giugava sora l'esclusività: ogni hyperscaler el sera i sò partenariad de distribuzion (Anthropic sora AWS poeu Google, Google DeepMind in nativ, xAI per i fatt sò). La vertura del Model Garden a on concurrent dirett la segnala che el valor el migra di modei vers el livell de integrazion — fatturazion, governanza, sicurezza, orchestrazion."
+      },
+      {
+        "fr": "Le mouvement s'est confirmé deux jours plus tard : Anthropic a annoncé la disponibilité de la plateforme Claude complète sur Google Cloud en mode « Anthropic-managed », tandis que la déclinaison française Mistral s'alliait à NVIDIA pour des workflows d'ingénierie industrielle. À trois niveaux d'échelle, la même logique de distribution multi-cloud s'impose, sous la pression des directions informatiques qui refusent d'engager des architectures sur un seul fournisseur de modèles.",
+        "en": "The movement was confirmed two days later: Anthropic announced the availability of the full Claude platform on Google Cloud in \"Anthropic-managed\" mode, while France's Mistral allied with NVIDIA on industrial engineering workflows. At three levels of scale, the same multi-cloud distribution logic is prevailing, under pressure from IT departments that refuse to commit architectures to a single model provider.",
+        "de": "Zwei Tage später bestätigte sich der Trend: Anthropic kündigte die Verfügbarkeit der gesamten Claude-Plattform auf Google Cloud im Modus «Anthropic-managed» an, während sich der französische Herausforderer Mistral mit NVIDIA für Workflows der Industrieingenieurwesen zusammenschloss. Auf drei Ebenen der Grössenordnung setzt sich dieselbe Multi-Cloud-Distributionslogik durch — unter dem Druck der IT-Abteilungen, die sich weigern, Architekturen auf einen einzigen Modellanbieter festzulegen.",
+        "it": "Il movimento si è confermato due giorni dopo: Anthropic ha annunciato la disponibilità della piattaforma Claude completa su Google Cloud in modalità «Anthropic-managed», mentre il laboratorio francese Mistral si alleava con NVIDIA per workflow di ingegneria industriale. Su tre livelli di scala, la stessa logica di distribuzione multi-cloud si impone, sotto la pressione dei direttori informatici che rifiutano di vincolare le architetture a un unico fornitore di modelli.",
+        "lmo": "El moviment l'è staa confermaa duu dì despoeu: Anthropic l'ha anunziaa la disponibilità de la piattaforma Claude completa sora Google Cloud in modalità «Anthropic-managed», intant che l'azienda francesa Mistral la se giontava con NVIDIA per di workflow de ingegneria industrial. A trii livell de scala, la midemma logica de distribuzion multi-cloud la s'impon, sotta la pression di direzion informateghe che refuden de impegnà di architetur sora on domà fornidor de modei."
+      },
+      {
+        "fr": "Pour les six mois à venir, le signal est clair : la différenciation par le modèle seul s'érode, et la bataille se déplace vers le contrôle du point d'entrée — la console d'entreprise. Les labos qui sauront vivre partout acceptent en retour de partager une partie de leur marge et de leur relation client avec les hyperscalers. C'est le prix d'un monde où, comme le résume la discussion sur <a href=\"https://news.ycombinator.com/item?id=50180079\">Hacker News</a>, l'infrastructure devient le vrai terrain de concurrence.",
+        "en": "For the next six months, the signal is clear: differentiation by model alone is eroding, and the battle is shifting to control of the entry point — the enterprise console. Labs that agree to live everywhere accept in return to share part of their margin and their customer relationship with the hyperscalers. That is the price of a world where, as the discussion on <a href=\"https://news.ycombinator.com/item?id=50180079\">Hacker News</a> puts it, infrastructure becomes the real competitive terrain.",
+        "de": "Für die kommenden sechs Monate ist das Signal klar: Die Differenzierung über das Modell allein erodiert, und die Schlacht verlagert sich auf die Kontrolle des Zugangspunkts — die Enterprise-Konsole. Die Labore, die überall präsent zu sein vermögen, akzeptieren im Gegenzug, einen Teil ihrer Marge und ihrer Kundenbeziehung mit den Hyperscalern zu teilen. Das ist der Preis einer Welt, in der, wie die Debatte auf <a href=\"https://news.ycombinator.com/item?id=50180079\">Hacker News</a> es zusammenfasst, die Infrastruktur zum eigentlichen Wettbewerbsterrain wird.",
+        "it": "Per i sei mesi a venire, il segnale è chiaro: la differenziazione basata sul solo modello si erode, e la battaglia si sposta sul controllo del punto d'ingresso — la console aziendale. I laboratori che sapranno essere ovunque accettano in cambio di condividere una parte del proprio margine e del rapporto con i clienti con gli hyperscaler. È il prezzo di un mondo in cui, come riassume la discussione su <a href=\"https://news.ycombinator.com/item?id=50180079\">Hacker News</a>, l'infrastruttura diventa il vero terreno di concorrenza.",
+        "lmo": "Per i ses mes che vegnen, el segnall l'è ciar: la differenziazion col modei domà la se eroda, e la battaglia la se sposta vers el controll del pont de entrada — la console d'impresa. I laboratori che saparan viv depertutt aceten in scambi de condivid on tocch del sò margen e de la sò relazion cont i client con i hyperscaler. L'è el pressi de on mond indova, come 'l riess la discussion sora <a href=\"https://news.ycombinator.com/item?id=50180079\">Hacker News</a>, l'infrastruttura la deventa el ver teren de concorrenza."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/openai-models-google-cloud",
+      "https://news.ycombinator.com/item?id=50180079",
+      "https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed"
+    ],
+    "kicker": {
+      "fr": "Distribution",
+      "en": "Distribution",
+      "de": "Distribution",
+      "it": "Distribuzione",
+      "lmo": "Distribuzion"
+    },
+    "headline": {
+      "fr": "OpenAI débarque sur Google Cloud : la fin des silos frontière",
+      "en": "OpenAI Lands on Google Cloud: The End of Frontier Silos",
+      "de": "OpenAI zieht bei Google Cloud ein: Das Ende der Frontier-Silos",
+      "it": "OpenAI sbarca su Google Cloud: la fine dei silos di frontiera",
+      "lmo": "OpenAI el riva sora Google Cloud: la fin di silo de la frontiera"
+    },
+    "subdeck": {
+      "fr": "Les modèles d'OpenAI dans le Model Garden de Google marquent un retournement de la guerre des clouds IA — et redessinent la géographie de la frontière pour les mois à venir.",
+      "en": "OpenAI models in Google's Model Garden mark a reversal in the AI cloud war — and redraw the geography of the frontier for the months ahead.",
+      "de": "Die Modelle von OpenAI im Model Garden von Google markieren eine Wende im Krieg der KI-Clouds — und zeichnen die Geografie der Frontier für die kommenden Monate neu.",
+      "it": "I modelli di OpenAI nel Model Garden di Google segnano un ribaltamento della guerra dei cloud IA — e ridisegnano la geografia della frontiera per i mesi a venire.",
+      "lmo": "I modei de OpenAI in del Model Garden de Google i segnen on ribaltament de la guerra di cloud IA — e i dessinen ancamò la geografia de la frontiera per i mes che vegnen."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Anthropic quitte git : 30 000 fusions quotidiennes ont forcé un contrôle de source maison",
+        "en": "Anthropic Leaves Git: 30,000 Daily Merges Forced an In-House Source Control",
+        "de": "Anthropic verabschiedet sich von git: 30'000 tägliche Merges erzwangen eine hausgemachte Versionskontrolle",
+        "it": "Anthropic lascia git: 30 000 fusioni quotidiane hanno imposto un controllo di versione interno",
+        "lmo": "Anthropic el lassa giò git: 30 000 fusion al dì i hann forzaa on controll de sort fad in cà"
+      },
+      "body": {
+        "fr": "Face à des fusions passées d'environ 2 500 à plus de 30 000 par jour sur son monorepo, l'équipe d'ingénierie d'Anthropic a construit Scion, un système de contrôle de source maison conçu pour des agents toujours connectés — et migré hors de git en cinq mois. Le récit complet est publié sur le <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog d'ingénierie du labo</a> : un signal brut du volume réel de code agentique en production.",
+        "en": "Faced with merges rising from roughly 2,500 to more than 30,000 per day on its monorepo, Anthropic's engineering team built Scion, an in-house source control system designed for always-on agents — and migrated off git in five months. The full account is published on the <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">lab's engineering blog</a>: a raw signal of the real volume of agentic code in production.",
+        "de": "Angesichts von Merges, die von rund 2'500 auf über 30'000 pro Tag auf seinem Monorepo anstiegen, hat das Engineering-Team von Anthropic Scion gebaut — ein hausgemachtes Versionskontrollsystem für permanent verbundene Agenten — und den Umzug weg von git in fünf Monaten vollzogen. Die vollständige Geschichte ist im <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering-Blog des Labors</a> veröffentlicht: ein rohes Signal für das reale Volumen agentischen Codes in Produktion.",
+        "it": "Davanti a fusioni passate da circa 2 500 a più di 30 000 al giorno sul proprio monorepo, il team di ingegneria di Anthropic ha costruito Scion, un sistema di controllo di versione interno concepito per agenti sempre connessi — ed è migrato fuori da git in cinque mesi. Il racconto completo è pubblicato sul <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog di ingegneria del laboratorio</a>: un segnale grezzo del volume reale di codice agentico in produzione.",
+        "lmo": "Denanz a di fusion passaa de circa 2 500 a pussee de 30 000 al dì sora el so monorepo, l'equip de ingegneria de Anthropic l'ha costruì Scion, on sistema de controll de sort fad in cà pensaa per di agent semper conligaa — e migraa foeura de git in cinch mes. El cunt complet l'è publicaa sora el <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog de ingegneria del laboratori</a>: on segnall gross del volum real de codes agentegh in produzion."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 43",
+        "en": "This week — week 43",
+        "de": "Diese Woche — Woche 43",
+        "it": "Questa settimana — settimana 43",
+        "lmo": "'Sta setemana — setemana 43"
+      },
+      "urls": [
+        "https://www.anthropic.com/engineering/redesigning-source-control"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "LiteLLM compromis sur PyPI : la supply chain des stacks LLM sous attaque",
+        "en": "LiteLLM Compromised on PyPI: LLM Stacks' Supply Chain Under Attack",
+        "de": "LiteLLM auf PyPI kompromittiert: Die Supply Chain der LLM-Stacks unter Beschuss",
+        "it": "LiteLLM compromesso su PyPI: la supply chain delle stack LLM sotto attacco",
+        "lmo": "LiteLLM compromess sora PyPI: la supply chain di stack LLM sotta attacch"
+      },
+      "body": {
+        "fr": "Le paquet LiteLLM 1.107.0 publié sur PyPI a été compromis et installait un voleur d'identifiants doublé d'une backdoor, selon l'analyse de <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">SafeDep</a> et une divulgation de <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Railway</a>. Une semaine après l'initiative « Patch the Planet » d'OpenAI, l'écosystème mesure la fragilité de sa propre supply chain agentique.",
+        "en": "The LiteLLM 1.107.0 package published on PyPI was compromised and installed a credential stealer paired with a backdoor, according to the analysis by <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">SafeDep</a> and a disclosure from <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Railway</a>. A week after OpenAI's \"Patch the Planet\" initiative, the ecosystem is measuring the fragility of its own agentic supply chain.",
+        "de": "Das auf PyPI veröffentlichte Paket LiteLLM 1.107.0 wurde kompromittiert und installierte einen Credential-Stealer samt Backdoor, wie die <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">Analyse von SafeDep</a> und eine <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Offenlegung von Railway</a> zeigen. Eine Woche nach OpenAIs Initiative «Patch the Planet» misst das Ökosystem die Fragilität seiner eigenen agentischen Lieferkette.",
+        "it": "Il pacchetto LiteLLM 1.107.0 pubblicato su PyPI è stato compromesso e installava un ladro di credenziali associato a una backdoor, secondo l'analisi di <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">SafeDep</a> e una divulgazione di <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Railway</a>. Una settimana dopo l'iniziativa «Patch the Planet» di OpenAI, l'ecosistema misura la fragilità della propria supply chain agentica.",
+        "lmo": "El pacchett LiteLLM 1.107.0 publicaa sora PyPI l'è staa compromess e 'l metteva dent on lader de credenziaa dobiaa de ona backdoor, segond l'analisi de <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">SafeDep</a> e ona divulgazion de <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Railway</a>. Ona setemana despoeu l'iniziativa «Patch the Planet» de OpenAI, l'ecosistema el misura la fragilità de la soa istessa cadena de aprovvigionament agentega."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Security",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sicurezza"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 43",
+        "en": "This week — week 43",
+        "de": "Diese Woche — Woche 43",
+        "it": "Questa settimana — settimana 43",
+        "lmo": "'Sta setemana — setemana 43"
+      },
+      "urls": [
+        "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+        "https://news.ycombinator.com/item?id=50181114",
+        "https://blog.railway.com/p/security-disclosure-wednesday-october-21st"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Decisions API en GA : OpenAI formalise le micro-raisonnement à grande échelle",
+        "en": "Decisions API in GA: OpenAI Formalizes Micro-Reasoning at Scale",
+        "de": "Decisions API in GA: OpenAI formalisiert das Micro-Reasoning im grossen Stil",
+        "it": "Decisions API in GA: OpenAI formalizza il micro-ragionamento su larga scala",
+        "lmo": "Decisions API in GA: OpenAI el formalizza el micro-resonament a granda scala"
+      },
+      "body": {
+        "fr": "La Decisions API d'OpenAI passe en disponibilité générale, servie par gpt-6-luna : l'endpoint v1/decisions double sa capacité à 400 questions par requête et accepte désormais images et données structurées en entrée, pour des décisions rapides et peu coûteuses intégrables dans toute application (<a href=\"https://openai.com/index/decisions-api\">annonce</a>). Une architecture produit qui assume le découplage entre « raisonner longtemps » et « décider vite ».",
+        "en": "OpenAI's Decisions API reaches general availability, served by gpt-6-luna: the v1/decisions endpoint doubles its capacity to 400 questions per request and now accepts images and structured data as input, for fast, low-cost decisions embeddable in any application (<a href=\"https://openai.com/index/decisions-api\">announcement</a>). A product architecture that embraces the decoupling of \"reason long\" from \"decide fast.\"",
+        "de": "Die Decisions API von OpenAI geht in die allgemeine Verfügbarkeit, betrieben von gpt-6-luna: Der Endpunkt v1/decisions verdoppelt seine Kapazität auf 400 Fragen pro Anfrage und akzeptiert nun Bilder und strukturierte Daten als Eingabe — für schnelle, günstige Entscheidungen, die in jede Anwendung integrierbar sind (<a href=\"https://openai.com/index/decisions-api\">Ankündigung</a>). Eine Produktarchitektur, die die Entkopplung von «lange reasonen» und «schnell entscheiden» konsequent umsetzt.",
+        "it": "La Decisions API di OpenAI passa in disponibilità generale, servita da gpt-6-luna: l'endpoint v1/decisions raddoppia la capacità a 400 domande per richiesta e accetta ormai immagini e dati strutturati in ingresso, per decisioni rapide ed economiche integrabili in qualsiasi applicazione (<a href=\"https://openai.com/index/decisions-api\">annuncio</a>). Un'architettura di prodotto che assume il disaccoppiamento tra «ragionare a lungo» e «decidere in fretta».",
+        "lmo": "La Decisions API de OpenAI la passa in disponibilità general, servida de gpt-6-luna: l'endpoint v1/decisions el dobbia la capacità a 400 domande per richiesta e l'acetta adess imagin e dacc struturaa in entrada, per decision svelt e minga car integrabel in d'ona qualsesia aplicazion (<a href=\"https://openai.com/index/decisions-api\">anunzi</a>). Ona architettura de prodott che la assum el desacopplament tra «resonà a longh» e «decid svelt»."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine 43",
+        "en": "This week — week 43",
+        "de": "Diese Woche — Woche 43",
+        "it": "Questa settimana — settimana 43",
+        "lmo": "'Sta setemana — setemana 43"
+      },
+      "urls": [
+        "https://openai.com/index/decisions-api",
+        "https://platform.openai.com/api/docs/guides/decisions"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Recap",
+        "de": "Frontier-Rückblick",
+        "it": "Retro Frontiera",
+        "lmo": "Retro Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Notes frontière",
+            "en": "Frontier notes",
+            "de": "Frontier-Notizen",
+            "it": "Note di frontiera",
+            "lmo": "Not frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Kimi K3.1 Pro : Moonshot AI frappe fort avec une variante Highspeed",
+                "en": "Kimi K3.1 Pro: Moonshot AI Strikes Hard with a Highspeed Variant",
+                "de": "Kimi K3.1 Pro: Moonshot AI legt mit einer Highspeed-Variante nach",
+                "it": "Kimi K3.1 Pro: Moonshot AI colpisce forte con una variante Highspeed",
+                "lmo": "Kimi K3.1 Pro: Moonshot AI elcolpa fort cont ona variant Highspeed"
+              },
+              "body": {
+                "fr": "Moonshot AI a annoncé deux déclinaisons de sa famille phare : Kimi K3.1 Pro et une variante Highspeed optimisée pour la latence, détaillées dans un <a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">billet officiel</a>. L'annonce a dominé les débats techniques avec 800 points et 484 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a> en moins de douze heures — un niveau d'attention rarement atteint par un acteur non américain.",
+                "en": "Moonshot AI announced two variants of its flagship family: Kimi K3.1 Pro and a Highspeed variant optimized for latency, detailed in an <a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">official post</a>. The announcement dominated technical debate with 800 points and 484 comments on <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a> in under twelve hours — a level of attention rarely reached by a non-American player.",
+                "de": "Moonshot AI hat zwei Varianten seiner Flaggschiff-Familie angekündigt: Kimi K3.1 Pro und eine auf Latenz optimierte Highspeed-Variante, wie ein <a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">offizieller Beitrag</a> ausführt. Die Ankündigung dominierte die technischen Debatten mit 800 Punkten und 484 Kommentaren auf <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a> in weniger als zwölf Stunden — ein Aufmerksamkeitsniveau, das ein nicht-amerikanischer Akteur selten erreicht.",
+                "it": "Moonshot AI ha annunciato due declinazioni della propria famiglia di punta: Kimi K3.1 Pro e una variante Highspeed ottimizzata per la latenza, descritte in un <a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">post ufficiale</a>. L'annuncio ha dominato i dibattiti tecnici con 800 punti e 484 commenti su <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a> in meno di dodici ore — un livello di attenzione raramente raggiunto da un attore non americano.",
+                "lmo": "Moonshot AI l'ha anunziaa duu derivazion de la soa familia de ponta: Kimi K3.1 Pro e ona variant Highspeed otimizzada per la latenza, descritt in d'on <a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">billet ufizial</a>. L'anunzi l'ha dominaa i dibattit tecnegh cont 800 pont e 484 comment sora <a href=\"https://news.ycombinator.com/item?id=50212065\">Hacker News</a> in manch de dodes or — on nivell de attenzi rarament rivaa de on attor minga american."
+              },
+              "kicker": {
+                "fr": "Modèles",
+                "en": "Models",
+                "de": "Modelle",
+                "it": "Modelli",
+                "lmo": "Modei"
+              },
+              "urls": [
+                "https://www.kimi.ai/blog/kimi-k3-1-pro",
+                "https://news.ycombinator.com/item?id=50212065"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DeepSeek banni des agences fédérales civiles américaines",
+                "en": "DeepSeek Banned from U.S. Civilian Federal Agencies",
+                "de": "DeepSeek von den zivilen US-Bundesbehörden verbannt",
+                "it": "DeepSeek bandito dalle agenzie federali civili americane",
+                "lmo": "DeepSeek bandii di agenzi federai civil american"
+              },
+              "body": {
+                "fr": "Une directive du département de la Sécurité intérieure américaine a banni DeepSeek des systèmes informatiques des agences fédérales civiles, comme l'a rapporté <a href=\"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/\">Reuters</a>. La décision inaugure une gouvernance d'exclusion par fournisseur qui contraint directement les choix technologiques des administrations.",
+                "en": "A directive from the U.S. Department of Homeland Security has banned DeepSeek from the IT systems of civilian federal agencies, as reported by <a href=\"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/\">Reuters</a>. The decision inaugurates per-vendor exclusion governance that directly constrains administrations' technology choices.",
+                "de": "Eine Weisung des US-Innenministeriums hat DeepSeek von den IT-Systemen der zivilen Bundesbehörden verbannt, wie <a href=\"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/\">Reuters</a> berichtete. Die Entscheidung läutet eine Governance des anbieterbezogenen Ausschlusses ein, die die Technologieentscheide der Verwaltungen direkt einschränkt.",
+                "it": "Una direttiva del dipartimento della Sicurezza interna americana ha bandito DeepSeek dai sistemi informatici delle agenzie federali civili, come riportato da <a href=\"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/\">Reuters</a>. La decisione inaugura una governance di esclusione per fornitore che vincola direttamente le scelte tecnologiche delle amministrazioni.",
+                "lmo": "Ona direttiva del dipartiment de la Sicurezza interna americana l'ha bandii DeepSeek di sistema informategh di agenzi federai civil, come 'l ha reporthaa <a href=\"https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/\">Reuters</a>. La decision la inaugura ona governanza de esclusion per fornidor che la costring diretament i scern tecnegh di amministrazion."
+              },
+              "kicker": {
+                "fr": "Régulation",
+                "en": "Regulation",
+                "de": "Regulierung",
+                "it": "Regolamentazione",
+                "lmo": "Regolazion"
+              },
+              "urls": [
+                "https://www.reuters.com/technology/us-banning-chinese-ai-deepseek-government-agency-it-systems-2026-10-19/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenAI acquiert Orchestra Bio et vise la R&D biopharma",
+                "en": "OpenAI Acquires Orchestra Bio and Targets Biopharma R&D",
+                "de": "OpenAI übernimmt Orchestra Bio und zielt auf Biopharma-F&E",
+                "it": "OpenAI acquisisce Orchestra Bio e punta alla R&S biofarmaceutica",
+                "lmo": "OpenAI el crompa Orchestra Bio e 'l mira a la R&D biofarma"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé l'acquisition d'Orchestra Bio, une entreprise de sciences du vivant, pour apporter des opérations biologiques automatisées à sa R&D — un prolongement inattendu de la course aux découvertes scientifiques par l'IA, détaillé sur la <a href=\"https://openai.com/index/openai-to-acquire-orchestra-bio\">page officielle</a>.",
+                "en": "OpenAI announced the acquisition of Orchestra Bio, a life-sciences company, to bring automated biological operations to its R&D — an unexpected extension of the race toward AI-driven scientific discovery, detailed on the <a href=\"https://openai.com/index/openai-to-acquire-orchestra-bio\">official page</a>.",
+                "de": "OpenAI hat die Übernahme von Orchestra Bio, einem Unternehmen der Lebenswissenschaften, angekündigt, um automatisierte biologische Operationen in seine F&E einzubringen — eine unerwartete Ausweitung des Wettlaufs um wissenschaftliche Entdeckungen durch KI, wie die <a href=\"https://openai.com/index/openai-to-acquire-orchestra-bio\">offizielle Seite</a> ausführt.",
+                "it": "OpenAI ha annunciato l'acquisizione di Orchestra Bio, un'azienda di scienze della vita, per portare operazioni biologiche automatizzate nella propria R&S — un prolungamento inatteso della corsa alle scoperte scientifiche tramite l'IA, descritto sulla <a href=\"https://openai.com/index/openai-to-acquire-orchestra-bio\">pagina ufficiale</a>.",
+                "lmo": "OpenAI l'ha anunziaa l'acquist de Orchestra Bio, on'impresa de scenz de la vita, per portà di operazion biologegh automatisaa a la soa R&D — ona prelungida inatenduda de la corsa ai descoverte scentifegh con l'IA, descritta sora la <a href=\"https://openai.com/index/openai-to-acquire-orchestra-bio\">pagina ufizial</a>."
+              },
+              "kicker": {
+                "fr": "M&A",
+                "en": "M&A",
+                "de": "M&A",
+                "it": "M&A",
+                "lmo": "M&A"
+              },
+              "urls": [
+                "https://openai.com/index/openai-to-acquire-orchestra-bio"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Voxtral 3 : Mistral entre dans l'arène des agents vocaux temps réel",
+                "en": "Voxtral 3: Mistral Enters the Real-Time Voice Agent Arena",
+                "de": "Voxtral 3: Mistral betritt die Arena der Echtzeit-Sprachagenten",
+                "it": "Voxtral 3: Mistral entra nell'arena degli agenti vocali in tempo reale",
+                "lmo": "Voxtral 3: Mistral el va dent in de l'arena di agent voeuc in temp real"
+              },
+              "body": {
+                "fr": "Mistral AI a sorti Voxtral 3, un SDK d'agents vocaux temps réel couvrant plus de 50 langues : transcription, synthèse vocale émotionnelle et appel d'outils natif. Hébergement dans l'Union européenne ou auto-déploiement — un positionnement de souveraineté assumé face aux géants américains (<a href=\"https://mistral.ai/news/voxtral-3/\">annonce</a>).",
+                "en": "Mistral AI released Voxtral 3, a real-time voice agent SDK covering more than 50 languages: transcription, emotional speech synthesis and native tool calling. EU-based hosting or self-deployment — an asserted sovereignty positioning against the American giants (<a href=\"https://mistral.ai/news/voxtral-3/\">announcement</a>).",
+                "de": "Mistral AI hat Voxtral 3 veröffentlicht, ein SDK für Echtzeit-Sprachagenten in über 50 Sprachen: Transkription, emotionale Sprachsynthese und natives Tool-Calling. Hosting in der Europäischen Union oder Self-Hosting — ein betont souveränes Positionierung gegenüber den US-Giganten (<a href=\"https://mistral.ai/news/voxtral-3/\">Ankündigung</a>).",
+                "it": "Mistral AI ha lanciato Voxtral 3, un SDK di agenti vocali in tempo reale che copre più di 50 lingue: trascrizione, sintesi vocale emotiva e chiamata nativa di strumenti. Hosting nell'Unione europea o self-hosting — un posizionamento di sovranità dichiarato di fronte ai giganti americani (<a href=\"https://mistral.ai/news/voxtral-3/\">annuncio</a>).",
+                "lmo": "Mistral AI l'ha sortii Voxtral 3, on SDK de agent voeuc in temp real che 'l quj pussee de 50 lengov: trascrizion, sintesi voeucal emozional e ciamada di strument nativa. Hosting in de l'Union europea o auto-distribuzion — on posizionament de sovranità assumuu denanz ai gigant american (<a href=\"https://mistral.ai/news/voxtral-3/\">anunzi</a>)."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://mistral.ai/news/voxtral-3/"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Produits & entreprises",
+            "en": "Products & companies",
+            "de": "Produkte & Unternehmen",
+            "it": "Prodotti & imprese",
+            "lmo": "Prodott & imprese"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "MiniMax M3.1 Flash bouscule le créneau des modèles rapides",
+                "en": "MiniMax M3.1 Flash Shakes Up the Fast-Model Niche",
+                "de": "MiniMax M3.1 Flash wirbelt die Nische der schnellen Modelle auf",
+                "it": "MiniMax M3.1 Flash sconvolge la nicchia dei modelli rapidi",
+                "lmo": "MiniMax M3.1 Flash el romp el spezz di modei svelt"
+              },
+              "body": {
+                "fr": "MiniMax a publié la version M3.1 Flash, une itération rapide de sa famille M3, qui a grimpé en tête de <a href=\"https://news.ycombinator.com/item?id=50154540\">Hacker News</a> avec 420 points et 180 commentaires en 24 heures. Un signal de plus que le créneau des modèles rapides et économiques est disputé bien au-delà des labos californiens (<a href=\"https://www.minimax.io/blog/minimax-m31f\">annonce</a>).",
+                "en": "MiniMax released the M3.1 Flash version, a fast iteration of its M3 family, which climbed to the top of <a href=\"https://news.ycombinator.com/item?id=50154540\">Hacker News</a> with 420 points and 180 comments in 24 hours. Further evidence that the fast, economical model niche is contested well beyond Californian labs (<a href=\"https://www.minimax.io/blog/minimax-m31f\">announcement</a>).",
+                "de": "MiniMax hat die Version M3.1 Flash veröffentlicht, eine schnelle Iteration seiner M3-Familie, die auf <a href=\"https://news.ycombinator.com/item?id=50154540\">Hacker News</a> mit 420 Punkten und 180 Kommentaren in 24 Stunden ganz oben aufstieg. Ein weiteres Signal dafür, dass die Nische der schnellen und günstigen Modelle weit über die kalifornischen Labore hinaus umkämpft ist (<a href=\"https://www.minimax.io/blog/minimax-m31f\">Ankündigung</a>).",
+                "it": "MiniMax ha pubblicato la versione M3.1 Flash, un'iterazione rapida della famiglia M3, che è balzata in testa su <a href=\"https://news.ycombinator.com/item?id=50154540\">Hacker News</a> con 420 punti e 180 commenti in 24 ore. Un segnale in più che la nicchia dei modelli rapidi ed economici è contesa ben oltre i laboratori californiani (<a href=\"https://www.minimax.io/blog/minimax-m31f\">annuncio</a>).",
+                "lmo": "MiniMax l'ha publicaa la version M3.1 Flash, ona iterazion svelta de la soa familia M3, che l'è salida in coo de <a href=\"https://news.ycombinator.com/item?id=50154540\">Hacker News</a> cont 420 pont e 180 comment in 24 or. On segnall de pu che 'l sparagn di modei svelt e economegh l'è contestaa ben oltre i laboratori californian (<a href=\"https://www.minimax.io/blog/minimax-m31f\">anunzi</a>)."
+              },
+              "kicker": {
+                "fr": "Modèles",
+                "en": "Models",
+                "de": "Modelle",
+                "it": "Modelli",
+                "lmo": "Modei"
+              },
+              "urls": [
+                "https://www.minimax.io/blog/minimax-m31f",
+                "https://news.ycombinator.com/item?id=50154540"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude Duet : Anthropic ouvre l'ère des agents proactifs — avec garde-fous",
+                "en": "Claude Duet: Anthropic Opens the Era of Proactive Agents — With Guardrails",
+                "de": "Claude Duet: Anthropic eröffnet das Zeitalter der proaktiven Agenten — mit Schutzvorrichtungen",
+                "it": "Claude Duet: Anthropic apre l'era degli agenti proattivi — con garanzie",
+                "lmo": "Claude Duet: Anthropic el derva l'era di agent proattiv — con di garant"
+              },
+              "body": {
+                "fr": "Anthropic a lancé Claude Duet, un agent proactif qui poursuit le travail de l'utilisateur, d'abord en aperçu recherche sur liste d'attente pour les abonnés Pro et Max américains (<a href=\"https://claude.com/resources/articles/claude-duet\">présentation</a>), avant de détailler ses garanties de sécurité dans un second temps. L'offre Enterprise a dans la foulée fusionné Cowork et le chat dans une interface unique.",
+                "en": "Anthropic launched Claude Duet, a proactive agent that carries on the user's work, first in a waitlisted research preview for U.S. Pro and Max subscribers (<a href=\"https://claude.com/resources/articles/claude-duet\">overview</a>), with safety guarantees to be detailed later. In parallel, the Enterprise offering merged Cowork and chat into a single interface.",
+                "de": "Anthropic hat Claude Duet gestartet, einen proaktiven Agenten, der die Arbeit des Nutzers weiterführt — zunächst als Forschungs-Vorschau auf Warteliste für US-Pro- und Max-Abonnenten (<a href=\"https://claude.com/resources/articles/claude-duet\">Vorstellung</a>), bevor die Sicherheitsgarantien in einem zweiten Schritt erläutert werden. Parallel hat das Enterprise-Angebot Cowork und Chat in einer einzigen Oberfläche zusammengeführt.",
+                "it": "Anthropic ha lanciato Claude Duet, un agente proattivo che prosegue il lavoro dell'utente, dapprima in anteprima di ricerca su lista d'attesa per gli abbonati Pro e Max americani (<a href=\"https://claude.com/resources/articles/claude-duet\">presentazione</a>), prima di dettagliare in un secondo tempo le proprie garanzie di sicurezza. L'offerta Enterprise ha a seguito fuso Cowork e la chat in un'interfaccia unica.",
+                "lmo": "Anthropic l'ha lancià Claude Duet, on agent proattiv che 'l seguita el laurà de l'utent, prima in anteprima de ricerca in lista d'attesa per i sutscrivent Pro e Max american (<a href=\"https://claude.com/resources/articles/claude-duet\">presentazion</a>), prima de descrì i so garanzij de sicurezza in d'on segond temp. L'ofera Enterprise l'ha in del midemm moment fonduu Cowork e la chat in d'ona interfaccia unega."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://claude.com/resources/articles/claude-duet"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "xAI lance son « Super Intelligence Partner Network » avec SpaceX",
+                "en": "xAI Launches Its \"Super Intelligence Partner Network\" with SpaceX",
+                "de": "xAI startet sein «Super Intelligence Partner Network» mit SpaceX",
+                "it": "xAI lancia il proprio «Super Intelligence Partner Network» con SpaceX",
+                "lmo": "xAI el lancia el so «Super Intelligence Partner Network» con SpaceX"
+              },
+              "body": {
+                "fr": "xAI a lancé le « SpaceX Super Intelligence Partner Network », un réseau de partenaires annoncé sur son <a href=\"https://x.ai/news/partnernetworkannouncement\">site officiel</a>, après avoir documenté l'usage de Grok Bot pour détecter et répondre aux incidents dans un <a href=\"https://x.ai/news/incident-sweep\">billet séparé</a>.",
+                "en": "xAI launched the \"SpaceX Super Intelligence Partner Network,\" a partner network announced on its <a href=\"https://x.ai/news/partnernetworkannouncement\">official site</a>, after documenting the use of Grok Bot to detect and respond to incidents in a <a href=\"https://x.ai/news/incident-sweep\">separate post</a>.",
+                "de": "xAI hat das «SpaceX Super Intelligence Partner Network» gestartet, ein Partnernetzwerk, das auf der <a href=\"https://x.ai/news/partnernetworkannouncement\">offiziellen Website</a> angekündigt wurde, nachdem es in einem <a href=\"https://x.ai/news/incident-sweep\">separaten Beitrag</a> den Einsatz von Grok Bot zur Erkennung und Beantwortung von Vorfällen dokumentiert hatte.",
+                "it": "xAI ha lanciato lo «SpaceX Super Intelligence Partner Network», una rete di partner annunciata sul proprio <a href=\"https://x.ai/news/partnernetworkannouncement\">sito ufficiale</a>, dopo aver documentato l'uso di Grok Bot per rilevare e rispondere agli incidenti in un <a href=\"https://x.ai/news/incident-sweep\">post separato</a>.",
+                "lmo": "xAI l'ha lancià el «SpaceX Super Intelligence Partner Network», on red de partenari anunziaa sora el so <a href=\"https://x.ai/news/partnernetworkannouncement\">sitt ufizial</a>, despoeu avè documentaa l'us de Grok Bot per descovrì e respond ai incident in d'on <a href=\"https://x.ai/news/incident-sweep\">billet separaa</a>."
+              },
+              "kicker": {
+                "fr": "Partenariats",
+                "en": "Partnerships",
+                "de": "Partnerschaften",
+                "it": "Partenariati",
+                "lmo": "Partenariad"
+              },
+              "urls": [
+                "https://x.ai/news/partnernetworkannouncement"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praktiken",
+        "it": "Strumenti & Pratiche",
+        "lmo": "Strument & Practegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Infrastructures & inférence",
+            "en": "Infrastructure & inference",
+            "de": "Infrastruktur & Inferenz",
+            "it": "Infrastrutture & inferenza",
+            "lmo": "Infrastruttur & inferenza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Scion : quand les agents débordent git, Anthropic réécrit son contrôle de source",
+                "en": "Scion: When Agents Overwhelm Git, Anthropic Rewrites Its Source Control",
+                "de": "Scion: Wenn Agenten git sprengen, schreibt Anthropic seine Versionskontrolle neu",
+                "it": "Scion: quando gli agenti travolgono git, Anthropic riscrive il proprio controllo di versione",
+                "lmo": "Scion: quand i agent i sborden giò de git, Anthropic el rescriv el so controll de sort"
+              },
+              "body": {
+                "fr": "Face à des fusions passées d'environ 2 500 à plus de 30 000 par jour sur son monorepo, l'équipe d'ingénierie d'Anthropic a construit Scion, un système de contrôle de version maison conçu pour des agents toujours connectés — et migré hors de git en cinq mois. Le récit complet est publié sur le <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog d'ingénierie du labo</a>.",
+                "en": "Faced with merges rising from roughly 2,500 to more than 30,000 per day on its monorepo, Anthropic's engineering team built Scion, an in-house version control system designed for always-on agents — and migrated off git in five months. The full account is published on the <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">lab's engineering blog</a>.",
+                "de": "Angesichts von Merges, die von rund 2'500 auf über 30'000 pro Tag auf seinem Monorepo anstiegen, hat das Engineering-Team von Anthropic Scion gebaut — ein hausgemachtes Versionskontrollsystem für permanent verbundene Agenten — und den Umzug weg von git in fünf Monaten vollzogen. Die vollständige Geschichte ist im <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">Engineering-Blog des Labors</a> veröffentlicht.",
+                "it": "Davanti a fusioni passate da circa 2 500 a più di 30 000 al giorno sul proprio monorepo, il team di ingegneria di Anthropic ha costruito Scion, un sistema di controllo di versione interno concepito per agenti sempre connessi — ed è migrato fuori da git in cinque mesi. Il racconto completo è pubblicato sul <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog di ingegneria del laboratorio</a>.",
+                "lmo": "Denanz a di fusion passaa de circa 2 500 a pussee de 30 000 al dì sora el so monorepo, l'equip de ingegneria de Anthropic l'ha costruì Scion, on sistema de controll de version fad in cà pensaa per di agent semper conligaa — e migraa foeura de git in cinch mes. El cunt complet l'è publicaa sora el <a href=\"https://www.anthropic.com/engineering/redesigning-source-control\">blog de ingegneria del laboratori</a>."
+              },
+              "kicker": {
+                "fr": "Infrastructure",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastruttura",
+                "lmo": "Infrastruttura"
+              },
+              "urls": [
+                "https://www.anthropic.com/engineering/redesigning-source-control"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "LiteLLM compromis sur PyPI : voleur d'identifiants et backdoor",
+                "en": "LiteLLM Compromised on PyPI: Credential Stealer and Backdoor",
+                "de": "LiteLLM auf PyPI kompromittiert: Credential-Stealer und Backdoor",
+                "it": "LiteLLM compromesso su PyPI: ladro di credenziali e backdoor",
+                "lmo": "LiteLLM compromess sora PyPI: lader de credenziaa e backdoor"
+              },
+              "body": {
+                "fr": "Une alerte grave pour toute stack LLM auto-hébergée : le paquet LiteLLM 1.107.0 publié sur PyPI a été compromis et installait un voleur d'identifiants doublé d'une backdoor, comme le détaille <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">l'analyse de SafeDep</a>, relayée par Railway dans une <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">divulgation</a>. Le paquet est un maillon critique chez des milliers d'équipes.",
+                "en": "A serious alert for any self-hosted LLM stack: the LiteLLM 1.107.0 package published on PyPI was compromised and installed a credential stealer paired with a backdoor, as detailed in <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">SafeDep's analysis</a>, relayed by Railway in a <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">disclosure</a>. The package is a critical link for thousands of teams.",
+                "de": "Eine ernste Warnung für jede selbst gehostete LLM-Stack: Das auf PyPI veröffentlichte Paket LiteLLM 1.107.0 wurde kompromittiert und installierte einen Identitätsdiebstahl-Trojaner samt Backdoor, wie die <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">Analyse von SafeDep</a> darlegt, die von Railway in einer <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">Offenlegung</a> verbreitet wurde. Das Paket ist ein kritisches Glied bei Tausenden von Teams.",
+                "it": "Un allarme grave per ogni stack LLM self-hosted: il pacchetto LiteLLM 1.107.0 pubblicato su PyPI è stato compromesso e installava un ladro di credenziali associato a una backdoor, come dettaglia <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">l'analisi di SafeDep</a>, rilanciata da Railway in una <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">divulgazione</a>. Il pacchetto è un anello critico per migliaia di team.",
+                "lmo": "On'allarma grava per tucc i stack LLM auto-ostidaa: el pacchett LiteLLM 1.107.0 publicaa sora PyPI l'è staa compromess e 'l metteva dent on lader de credenziaa dobiaa de ona backdoor, come 'l descriv <a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">l'analisi de SafeDep</a>, relangiada de Railway in d'ona <a href=\"https://blog.railway.com/p/security-disclosure-wednesday-october-21st\">divulgazion</a>. El pacchett l'è on anell critic in di equip de migiaia."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sicurezza"
+              },
+              "urls": [
+                "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+                "https://news.ycombinator.com/item?id=50181114"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "OpenShell : NVIDIA publie un runtime sûr pour flottes d'agents autonomes",
+                "en": "OpenShell: NVIDIA Ships a Safe Runtime for Autonomous Agent Fleets",
+                "de": "OpenShell: NVIDIA veröffentlicht eine sichere Runtime für Flotten autonomer Agenten",
+                "it": "OpenShell: NVIDIA pubblica un runtime sicuro per flotte di agenti autonomi",
+                "lmo": "OpenShell: NVIDIA el pubblica on runtime segur per flott de agent autonom"
+              },
+              "body": {
+                "fr": "NVIDIA a publié OpenShell, un runtime sûr et privé pour exécuter des flottes d'agents autonomes, disponible sur <a href=\"https://github.com/NVIDIA/OpenShell\">GitHub</a>. Anthropic a publié dans le même temps un guide d'architecture sur <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quand replier les sous-agents dans la boucle principale</a> : deux approches complémentaires du problème d'exécution sécurisée des agents.",
+                "en": "NVIDIA released OpenShell, a safe, private runtime for running fleets of autonomous agents, available on <a href=\"https://github.com/NVIDIA/OpenShell\">GitHub</a>. Anthropic published at the same time an architecture guide on <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">when to fold subagents into your main agent loop</a>: two complementary approaches to the problem of secure agent execution.",
+                "de": "NVIDIA hat OpenShell veröffentlicht, ein sicheres und private Runtime für den Betrieb von Flotten autonomer Agenten, verfügbar auf <a href=\"https://github.com/NVIDIA/OpenShell\">GitHub</a>. Parallel dazu hat Anthropic einen Architektur-Leitfaden dazu veröffentlicht, <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">wann man Sub-Agenten in die Hauptschleife integriert</a>: zwei komplementäre Ansätze für das Problem der sicheren Agenten-Ausführung.",
+                "it": "NVIDIA ha pubblicato OpenShell, un runtime sicuro e privato per eseguire flotte di agenti autonomi, disponibile su <a href=\"https://github.com/NVIDIA/OpenShell\">GitHub</a>. Anthropic ha pubblicato nello stesso tempo una guida di architettura su <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quando ripiegare i sotto-agenti nel ciclo principale</a>: due approcci complementari al problema dell'esecuzione sicura degli agenti.",
+                "lmo": "NVIDIA l'ha publicaa OpenShell, on runtime segur e privaa per fà andà di flott de agent autonom, disponibel sora <a href=\"https://github.com/NVIDIA/OpenShell\">GitHub</a>. Anthropic l'ha publicaa in del midemm temp ona guida de architettura sora <a href=\"https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop\">quand replegà i sot-agent in de la bolla principal</a>: duu abord complementar del problema de esecuzion segura di agent."
+              },
+              "kicker": {
+                "fr": "Runtime",
+                "en": "Runtime",
+                "de": "Runtime",
+                "it": "Runtime",
+                "lmo": "Runtime"
+              },
+              "urls": [
+                "https://github.com/NVIDIA/OpenShell",
+                "https://news.ycombinator.com/item?id=50198675"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Outillage dev",
+            "en": "Developer tooling",
+            "de": "Dev-Tooling",
+            "it": "Tooling dev",
+            "lmo": "Ostrument dev"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "DeepInfer : le framework d'inférence de DeepSeek fait 2 186 points",
+                "en": "DeepInfer: DeepSeek's Inference Framework Hits 2,186 Points",
+                "de": "DeepInfer: Das Inferenz-Framework von DeepSeek erzielt 2'186 Punkte",
+                "it": "DeepInfer: il framework di inferenza di DeepSeek raggiunge 2 186 punti",
+                "lmo": "DeepInfer: el framework de inferenza de DeepSeek el fa 2 186 pont"
+              },
+              "body": {
+                "fr": "Le framework d'inférence haute performance pour les modèles DeepSeek a cartonné sur <a href=\"https://news.ycombinator.com/item?id=50163277\">Hacker News</a> : 2 186 points et 848 commentaires en moins de 24 heures — probablement l'accueil communautaire le plus fort de la semaine pour un dépôt technique (<a href=\"https://github.com/deepseek-ai/DeepInfer\">GitHub</a>).",
+                "en": "The high-performance inference framework for DeepSeek models crushed it on <a href=\"https://news.ycombinator.com/item?id=50163277\">Hacker News</a>: 2,186 points and 848 comments in under 24 hours — likely the strongest community reception of the week for a technical repository (<a href=\"https://github.com/deepseek-ai/DeepInfer\">GitHub</a>).",
+                "de": "Das leistungsstarke Inferenz-Framework für DeepSeek-Modelle ist auf <a href=\"https://news.ycombinator.com/item?id=50163277\">Hacker News</a> durchgestartet: 2'186 Punkte und 848 Kommentare in weniger als 24 Stunden — wohl der stärkste Community-Empfang der Woche für ein technisches Repository (<a href=\"https://github.com/deepseek-ai/DeepInfer\">GitHub</a>).",
+                "it": "Il framework di inferenza ad alte prestazioni per i modelli DeepSeek ha fatto faville su <a href=\"https://news.ycombinator.com/item?id=50163277\">Hacker News</a>: 2 186 punti e 848 commenti in meno di 24 ore — probabilmente l'accoglienza comunitaria più forte della settimana per un repository tecnico (<a href=\"https://github.com/deepseek-ai/DeepInfer\">GitHub</a>).",
+                "lmo": "El framework de inferenza ad alta prestazion per i modei DeepSeek l'ha faa bot sora <a href=\"https://news.ycombinator.com/item?id=50163277\">Hacker News</a>: 2 186 pont e 848 comment in manch de 24 or — probabilment l'acoglienza comunal pussee forta de la setemana per on repository tecnegh (<a href=\"https://github.com/deepseek-ai/DeepInfer\">GitHub</a>)."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenza"
+              },
+              "urls": [
+                "https://github.com/deepseek-ai/DeepInfer",
+                "https://news.ycombinator.com/item?id=50163277"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Corgi : un multiplexeur d'agents et de terminaux comme pilote quotidien",
+                "en": "Corgi: An Agent and Terminal Multiplexer as a Daily Driver",
+                "de": "Corgi: Ein Multiplexer für Agenten und Terminals als täglicher Pilot",
+                "it": "Corgi: un multiplexer di agenti e terminali come pilota quotidiano",
+                "lmo": "Corgi: on multiplexer de agent e de terminaj come pilota de tucc i dì"
+              },
+              "body": {
+                "fr": "Un développeur a publié Corgi, un multiplexeur d'agents et de terminaux inspiré d'Herdr, pensé comme pilote quotidien pour orchestrer plusieurs agents en parallèle dans une même session — le symptôme d'un outillage qui commence à ressembler à celui des ingénieurs humains d'il y a dix ans.",
+                "en": "A developer released Corgi, an agent and terminal multiplexer inspired by Herdr, designed as a daily driver for orchestrating multiple agents in parallel within a single session — a symptom of tooling that is starting to resemble that of human engineers ten years ago.",
+                "de": "Ein Entwickler hat Corgi veröffentlicht, einen von Herdr inspirierten Multiplexer für Agenten und Terminals, konzipiert als täglicher Pilot zur parallelen Orchestrierung mehrerer Agenten in derselben Session — ein Symptom für eine Toolchain, die zunehmend der menschlicher Ingenieure von vor zehn Jahren gleicht.",
+                "it": "Uno sviluppatore ha pubblicato Corgi, un multiplexer di agenti e terminali ispirato a Herdr, pensato come pilota quotidiano per orchestrare più agenti in parallelo nella stessa sessione — il sintomo di un tooling che inizia ad assomigliare a quello degli ingegneri umani di dieci anni fa.",
+                "lmo": "On desviluppador l'ha publicaa Corgi, on multiplexer de agent e de terminaj ispiraa a Herdr, pensaa come pilota de tucc i dì per orchestrà pussee agent in parallel in de la midemma session — el sintom de on ostrument che 'l taca a somejà a quell di ingegnee uman de des agn faa."
+              },
+              "kicker": {
+                "fr": "Show HN",
+                "en": "Show HN",
+                "de": "Show HN",
+                "it": "Show HN",
+                "lmo": "Show HN"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50204125"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Observabilité : sans proxy LLM propre, impossible de savoir ce qui se passe",
+                "en": "Observability: Without Your Own LLM Proxy, You Can't Know What's Going On",
+                "de": "Observability: Ohne eigenen LLM-Proxy weiss niemand, was eigentlich passiert",
+                "it": "Osservabilità: senza un proprio proxy LLM, impossibile sapere cosa succede",
+                "lmo": "Osservabilità: sensa on proxy LLM sò, l'è minga possibel savè che 'l se passa"
+              },
+              "body": {
+                "fr": "Un billet largement discuté (85 points, 66 commentaires) plaide pour déployer son propre proxy LLM : sans cette couche intermédiaire, aucune équipe ne peut observer prompts, latences ni coûts réels de ses agents (<a href=\"https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\">billet original</a>). Un credo prolongé par la doctrine d'« agentic monitoring » défendue par <a href=\"https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/\">Benjamin Congdon</a> : instrumenter agents et traces comme des services.",
+                "en": "A widely discussed post (85 points, 66 comments) argues for deploying your own LLM proxy: without that intermediate layer, no team can observe the prompts, latencies or real costs of its agents (<a href=\"https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\">original post</a>). A creed extended by the \"agentic monitoring\" doctrine championed by <a href=\"https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/\">Benjamin Congdon</a>: instrument agents and traces like services.",
+                "de": "Ein viel diskutierter Beitrag (85 Punkte, 66 Kommentare) plädiert für den Einsatz eines eigenen LLM-Proxys: Ohne diese Zwischenschicht kann kein Team die Prompts, Latenzen und realen Kosten seiner Agenten beobachten (<a href=\"https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\">Original-Beitrag</a>). Ein Credo, das Benjamin Congdon mit seiner Doktrin des «agentic Monitoring» weiterführt: Agenten und Traces wie Dienste instrumentieren (<a href=\"https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/\">Beitrag</a>).",
+                "it": "Un post ampiamente discusso (85 punti, 66 commenti) sostiene di distribuire il proprio proxy LLM: senza questo livello intermedio, nessun team può osservare prompt, latenze né costi reali dei propri agenti (<a href=\"https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\">post originale</a>). Un credo prolungato dalla dottrina di «agentic monitoring» difesa da <a href=\"https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/\">Benjamin Congdon</a>: strumentare agenti e tracce come servizi.",
+                "lmo": "On billet assee discutt (85 pont, 66 comment) 'l sostegn de mett in pee el sò proxy LLM: senza quell tocch de mez, nissun equip el pò osservà prompt, latenz né cost reai di sò agent (<a href=\"https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/\">billet original</a>). On credo prelongaa de la dottrina de «agentic monitoring» difenduda de <a href=\"https://benjamincongdon.me/blog/2026/10/19/Agentic-Monitoring/\">Benjamin Congdon</a>: istrumentà agent e tracce come servizzi."
+              },
+              "kicker": {
+                "fr": "Pratiques",
+                "en": "Practices",
+                "de": "Praktiken",
+                "it": "Pratiche",
+                "lmo": "Practegh"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50145507",
+                "https://jrdsgl.com/if-you-dont-run-your-own-llm-proxy-how-the-fuck-do-you-even-know-whats-going-on/"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerva"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers de la semaine",
+            "en": "Papers of the week",
+            "de": "Papers der Woche",
+            "it": "Paper della settimana",
+            "lmo": "Paper de la setemana"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Des agents qui raisonnent en espace latent font sensation",
+                "en": "Agents That Reason in Latent Space Are Making Waves",
+                "de": "Agenten, die im latenten Raum reasoning, sorgen für Furore",
+                "it": "Agenti che ragionano in spazio latente fanno sensazione",
+                "lmo": "Di agent che resonen in spazzi latent i fann sensazion"
+              },
+              "body": {
+                "fr": "L'article « Hybrid Reasoning Agents », publié sur <a href=\"https://arxiv.org/abs/2610.18861\">arXiv</a>, décrit des agents qui pensent dans un espace latent et n'émettent du texte que pour agir — avec code et démos sur <a href=\"https://github.com/togethercomputer/HybridAgent\">GitHub</a>. L'idée d'un raisonnement découplé du langage naturel marque une rupture avec l'orthodoxie des chain-of-thought.",
+                "en": "The paper \"Hybrid Reasoning Agents,\" published on <a href=\"https://arxiv.org/abs/2610.18861\">arXiv</a>, describes agents that think in a latent space and only emit text in order to act — with code and demos on <a href=\"https://github.com/togethercomputer/HybridAgent\">GitHub</a>. The idea of reasoning decoupled from natural language marks a break with chain-of-thought orthodoxy.",
+                "de": "Der Artikel «Hybrid Reasoning Agents», veröffentlicht auf <a href=\"https://arxiv.org/abs/2610.18861\">arXiv</a>, beschreibt Agenten, die in einem latenten Raum denken und Text nur noch als Handlung emittieren — mit Code und Demos auf <a href=\"https://github.com/togethercomputer/HybridAgent\">GitHub</a>. Die Idee eines von natürlicher Sprache entkoppelten Reasonings markiert einen Bruch mit der Chain-of-Thought-Orthodoxie.",
+                "it": "L'articolo «Hybrid Reasoning Agents», pubblicato su <a href=\"https://arxiv.org/abs/2610.18861\">arXiv</a>, descrive agenti che pensano in uno spazio latente e emettono testo solo per agire — con codice e demo su <a href=\"https://github.com/togethercomputer/HybridAgent\">GitHub</a>. L'idea di un ragionamento disaccoppiato dal linguaggio naturale segna una rottura con l'ortodossia dei chain-of-thought.",
+                "lmo": "L'articol «Hybrid Reasoning Agents», publicaa sora <a href=\"https://arxiv.org/abs/2610.18861\">arXiv</a>, el descriv di agent che pensee in d'on spazzi latent e i emetten test domà per agì — con codes e demo sora <a href=\"https://github.com/togethercomputer/HybridAgent\">GitHub</a>. L'idea de on resonament descoeuplaa del lengoeu natural la segna ona rottura con l'ortodossia di chain-of-thought."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.18861",
+                "https://github.com/togethercomputer/HybridAgent"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "TraceForge : distiller avec son propre raisonnement plutôt que celui du professeur",
+                "en": "TraceForge: Distill with Your Own Reasoning Rather Than the Teacher's",
+                "de": "TraceForge: Mit dem eigenen Reasoning destillieren statt mit dem des Lehrers",
+                "it": "TraceForge: distillare con il proprio ragionamento anziché con quello dell'insegnante",
+                "lmo": "TraceForge: distillà cont el sò resonament despoeu che quell del maester"
+              },
+              "body": {
+                "fr": "TraceForge s'attaque au goulot d'étranglement de la distillation : certains labos frontière ne renvoient plus que des réponses finales, privant d'enseignants les acteurs sans modèles de tête. La méthode propose de distiller avec son propre raisonnement plutôt que celui du professeur, détaillée sur <a href=\"https://arxiv.org/abs/2610.29680\">arXiv</a>.",
+                "en": "TraceForge tackles the distillation bottleneck: some frontier labs now return only final answers, depriving players without head models of teachers. The method proposes distilling with your own reasoning rather than the teacher's, detailed on <a href=\"https://arxiv.org/abs/2610.29680\">arXiv</a>.",
+                "de": "TraceForge geht den Engpass der Destillation an: Manche Frontier-Labore liefern nur noch finale Antworten zurück und nehmen Akteuren ohne eigene Top-Modelle die Lehrer. Die Methode schlägt vor, mit dem eigenen Reasoning statt dem des Lehrers zu destillieren, dargelegt auf <a href=\"https://arxiv.org/abs/2610.29680\">arXiv</a>.",
+                "it": "TraceForge affronta il collo di bottiglia della distillazione: alcuni laboratori di frontiera non restituiscono più che risposte finali, privando di insegnanti gli attori senza modelli di punta. Il metodo propone di distillare con il proprio ragionamento anziché con quello dell'insegnante, descritto su <a href=\"https://arxiv.org/abs/2610.29680\">arXiv</a>.",
+                "lmo": "TraceForge el taca el coll de bottiglia de la distillazion: quaj laboratori de frontiera i manden pu domà i rispost final, privand de maester i attor senza modei de coo. El metood el propon de distillà cont el sò resonament despoeu de quell del maester, descritt sora <a href=\"https://arxiv.org/abs/2610.29680\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Méthodes",
+                "en": "Methods",
+                "de": "Methoden",
+                "it": "Metodi",
+                "lmo": "Metod"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.29680"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MIST : les world models vidéo échouent à exécuter, pas à mémoriser",
+                "en": "MIST: Video World Models Fail to Execute, Not to Memorize",
+                "de": "MIST: Video-Weltmodelle scheitern an der Ausführung, nicht am Merken",
+                "it": "MIST: i world model video falliscono a eseguire, non a memorizzare",
+                "lmo": "MIST: i world model video i fallissen a eseguì, minga a memorizzà"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'université de Hong Kong publient MIST, un protocole qui sépare la mémoire de l'exécution dans les world models vidéo : les modèles échouent surtout à exécuter le changement demandé, pas à mémoriser (<a href=\"https://arxiv.org/abs/2610.23542\">arXiv</a>, code sur <a href=\"https://github.com/HKU-MMLab/MIST\">GitHub</a>). Un diagnostic similaire apparaît chez les State World Models, où séparer l'exécution des règles du rendu vidéo pousse un modèle figé de 32 % à 92 % de conformité sur WorldSims (<a href=\"https://arxiv.org/abs/2610.26811\">arXiv</a>).",
+                "en": "Researchers at the University of Hong Kong publish MIST, a protocol that separates memory from execution in video world models: models mostly fail to execute the requested change, not to memorize it (<a href=\"https://arxiv.org/abs/2610.23542\">arXiv</a>, code on <a href=\"https://github.com/HKU-MMLab/MIST\">GitHub</a>). A similar diagnosis appears in State World Models, where separating rule execution from video rendering pushes a frozen model from 32% to 92% compliance on WorldSims (<a href=\"https://arxiv.org/abs/2610.26811\">arXiv</a>).",
+                "de": "Forschende der Universität Hongkong veröffentlichen MIST, ein Protokoll, das Speicher und Ausführung in Video-Weltmodellen trennt: Die Modelle scheitern vor allem daran, die geforderte Änderung auszuführen, nicht daran, sich zu merken (<a href=\"https://arxiv.org/abs/2610.23542\">arXiv</a>, Code auf <a href=\"https://github.com/HKU-MMLab/MIST\">GitHub</a>). Eine ähnliche Diagnose liefern die State World Models: Das Trennen der Regel-Ausführung vom Video-Rendering hebt ein eingefrorenes Modell von 32 % auf 92 % Konformität auf WorldSims (<a href=\"https://arxiv.org/abs/2610.26811\">arXiv</a>).",
+                "it": "Ricercatori dell'università di Hong Kong pubblicano MIST, un protocollo che separa la memoria dall'esecuzione nei world model video: i modelli falliscono soprattutto a eseguire il cambiamento richiesto, non a memorizzare (<a href=\"https://arxiv.org/abs/2610.23542\">arXiv</a>, codice su <a href=\"https://github.com/HKU-MMLab/MIST\">GitHub</a>). Una diagnosi simile appare negli State World Models, dove separare l'esecuzione delle regole dal rendering video porta un modello congelato dal 32 % al 92 % di conformità su WorldSims (<a href=\"https://arxiv.org/abs/2610.26811\">arXiv</a>).",
+                "lmo": "Dei ricercador de l'università de Hong Kong i publiquen MIST, on protocoll che 'l separa la memoria de l'esecuzion in di world model video: i modei i fallissen soratutt a eseguì el camb domandaa, minga a memorizzà (<a href=\"https://arxiv.org/abs/2610.23542\">arXiv</a>, codes sora <a href=\"https://github.com/HKU-MMLab/MIST\">GitHub</a>). On diagnoss simil el se ved in di State World Models, indova separà l'esecuzion di regolt del rendering video el spingh on modei congellaa del 32% al 92% de conformità sora WorldSims (<a href=\"https://arxiv.org/abs/2610.26811\">arXiv</a>)."
+              },
+              "kicker": {
+                "fr": "World models",
+                "en": "World models",
+                "de": "World Models",
+                "it": "World models",
+                "lmo": "World models"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.23542",
+                "https://arxiv.org/abs/2610.26811"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "AgentVQA : les VLM plafonnent à 58,5 % en compréhension visuelle agentique",
+                "en": "AgentVQA: VLMs Plateau at 58.5% in Agentic Visual Understanding",
+                "de": "AgentVQA: VLM erreichen maximal 58,5 % bei agentischem visuellem Verständnis",
+                "it": "AgentVQA: i VLM si fermano al 58,5 % nella comprensione visiva agentica",
+                "lmo": "AgentVQA: i VLM i se ferma a 58,5% in comprension visual agentega"
+              },
+              "body": {
+                "fr": "AgentVQA évalue les vision-language models sur 1 000 exemples agents réels issus de 23 jeux de données : le meilleur plafonne à 58,5 % de compréhension visuelle agentique, un constat sévère pour des systèmes pourtant vendus comme assistants polyvalents (<a href=\"https://arxiv.org/abs/2610.31494\">arXiv</a>).",
+                "en": "AgentVQA evaluates vision-language models on 1,000 real agent examples drawn from 23 datasets: the best plateaus at 58.5% agentic visual understanding, a harsh finding for systems nonetheless sold as all-purpose assistants (<a href=\"https://arxiv.org/abs/2610.31494\">arXiv</a>).",
+                "de": "AgentVQA bewertet Vision-Language-Modelle anhand von 1'000 Beispielen realer Agenten aus 23 Datensätzen: Das beste Modell erreicht magere 58,5 % agentische visuelle Verstehensleistung — ein ernüchternder Befund für Systeme, die als Allzweck-Assistenten verkauft werden (<a href=\"https://arxiv.org/abs/2610.31494\">arXiv</a>).",
+                "it": "AgentVQA valuta i vision-language models su 1 000 esempi reali di agenti provenienti da 23 dataset: il migliore si ferma al 58,5 % di comprensione visiva agentica, un bilancio severo per sistemi pure venduti come assistenti polivalenti (<a href=\"https://arxiv.org/abs/2610.31494\">arXiv</a>).",
+                "lmo": "AgentVQA el valuta i vision-language model sora 1 000 esempi agent reai vegnuu foeura de 23 bassin de dacc: el miglior el se ferma a 58,5% de comprension visual agentega, on constat sever per di sistema venduu comunque come assistent universai (<a href=\"https://arxiv.org/abs/2610.31494\">arXiv</a>)."
+              },
+              "kicker": {
+                "fr": "Benchmarks",
+                "en": "Benchmarks",
+                "de": "Benchmarks",
+                "it": "Benchmark",
+                "lmo": "Benchmark"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.31494"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wochen-Editorial",
+        "it": "Editoriale settimanale",
+        "lmo": "Edito settimanal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The week in perspective",
+            "de": "Die Woche im Überblick",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La semaine où l'infrastructure a pris le pouvoir",
+                "en": "The Week Infrastructure Took Over",
+                "de": "Die Woche, in der die Infrastruktur die Macht übernahm",
+                "it": "La settimana in cui l'infrastruttura ha preso il potere",
+                "lmo": "La setemana che l'infrastruttura l'ha pres el poder"
+              },
+              "body": {
+                "fr": "Il y a eu, cette semaine, deux histoires de sécurité qui racontent le même monde. La première : OpenAI dévoile « Patch the Planet », une coordination mondiale de réponse aux vulnérabilités critiques découvertes par des agents — les mêmes agents qui, en cherchant dans le code du monde entier, trouvent plus de failles que les humains n'en fermaient (<a href=\"https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\">annonce</a>). La seconde : le paquet LiteLLM 1.107.0, maillon critique de milliers de stacks LLM, est compromis sur PyPI avec un voleur d'identifiants et une backdoor (<a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">analyse</a>).<br><br>Entre les deux, la ligne de faille de l'écosystème : les agents IA découvrent les vulnérabilités plus vite que les humains ne les corrigent, et la chaîne d'approvisionnement de ces mêmes agents — paquets Python, registres, proxys — devient la cible privilégiée de ceux qui veulent compromettre les systèmes les mieux gardés. Le pipeline est le point faible. Il l'a toujours été ; il l'est davantage quand le pipeline orchestre des agents dotés de clés d'API et d'accès shell.<br><br>L'autre enseignement de la semaine tient en un mot : infrastructure. Anthropic n'a pas annoncé un modèle, mais Scion, un contrôle de source maison né du passage de 2 500 à 30 000 fusions quotidiennes sur son monorepo — et une migration hors de git en cinq mois (<a href=\"https://https://www.anthropic.com/engineering/redesigning-source-control\">détails</a>). Cerebras a détaillé le déploiement de modèles de mille milliards de paramètres sur ses wafer-scale engines (<a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">billet d'ingénierie</a>). OpenAI a publié la seconde partie de son retour d'expérience sur le stockage d'un service passé le milliard d'utilisateurs. Quand le distinguo « labo de recherche » contre « entreprise d'infrastructure » s'est dissous, c'est que la course aux modèles s'est transformée en course aux systèmes.<br><br>Et puis il y a la carte, qui se redessine. Les modèles d'OpenAI arrivent dans le Model Garden de Google ; la plateforme Claude complète est servie sur Google Cloud ; DeepSeek est bannie des agences fédérales civiles américaines. Distribution et exclusion : les deux faces d'une géopolitique de l'IA qui ne se joue plus seulement à Washington ou à Pékin, mais dans les consoles d'achat des directions informatiques. Le labo qui refuse d'être partout accepte d'être nulle part.<br><br>Reste le signal le plus fragile, et peut-être le plus lourd : une analyse chiffre à environ 200 000 les emplois perdus dans les médias et les arts américains, pendant que les forums débattent de code livré sans être compris (<a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">analyse</a>). L'infrastructure de l'IA se consolide à une vitesse remarquable ; sa légitimité sociale, elle, ne suit pas le même rythme. Les six prochains mois se joueront sur les deux tableaux — et le second est le seul qu'on ne peut pas déployer sur un cloud.",
+                "en": "This week saw two security stories that describe the same world. The first: OpenAI unveils \"Patch the Planet,\" a global coordination of responses to critical vulnerabilities discovered by agents — the same agents that, by searching the world's code, find more flaws than humans were closing (<a href=\"https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\">announcement</a>). The second: the LiteLLM 1.107.0 package, a critical link in thousands of LLM stacks, is compromised on PyPI with a credential stealer and a backdoor (<a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">analysis</a>).<br><br>Between the two lies the ecosystem's fault line: AI agents discover vulnerabilities faster than humans fix them, and the supply chain of those very agents — Python packages, registries, proxies — becomes the favored target of anyone seeking to compromise the best-guarded systems. The pipeline is the weak point. It always has been; it is more so when the pipeline orchestrates agents endowed with API keys and shell access.<br><br>The week's other lesson comes down to one word: infrastructure. Anthropic did not announce a model, but Scion, an in-house source control system born of the leap from 2,500 to 30,000 daily merges on its monorepo — and a migration off git in five months (<a href=\"https://https://www.anthropic.com/engineering/redesigning-source-control\">details</a>). Cerebras detailed the deployment of trillion-parameter models on its wafer-scale engines (<a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">engineering post</a>). OpenAI published the second part of its post-mortem on storage for a service past a billion users. When the distinction between \"research lab\" and \"infrastructure company\" has dissolved, it means the race for models has turned into a race for systems.<br><br>And then there is the map, which is being redrawn. OpenAI models arrive in Google's Model Garden; the full Claude platform is served on Google Cloud; DeepSeek is banned from U.S. civilian federal agencies. Distribution and exclusion: the two faces of an AI geopolitics that is no longer played out only in Washington or Beijing, but in the procurement consoles of IT departments. The lab that refuses to be everywhere agrees to be nowhere.<br><br>What remains is the most fragile signal, and perhaps the weightiest: an analysis puts at roughly 200,000 the jobs lost in U.S. media and the arts, while forums debate code shipped without being understood (<a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">analysis</a>). AI's infrastructure is consolidating at a remarkable pace; its social legitimacy is not keeping the same rhythm. The next six months will play out on both fronts — and the second is the only one you cannot deploy on a cloud.",
+                "de": "Diese Woche gab es zwei Sicherheitsgeschichten, die von derselben Welt erzählen. Erstens: OpenAI enthüllt «Patch the Planet», eine weltweite Koordinierung der Reaktion auf kritische Schwachstellen, die von Agenten entdeckt werden — denselben Agenten, die im Code der ganzen Welt mehr Lücken finden, als Menschen je schlossen (<a href=\"https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\">Ankündigung</a>). Zweitens: Das Paket LiteLLM 1.107.0, kritisches Glied Tausender LLM-Stacks, wird auf PyPI kompromittiert — mit Credential-Stealer und Backdoor (<a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">Analyse</a>).<br><br>Dazwischen liegt die Bruchlinie des Ökosystems: KI-Agenten entdecken Schwachstellen schneller, als Menschen sie beheben, und die Lieferkette genau dieser Agenten — Python-Pakete, Registrys, Proxys — wird zum bevorzugten Ziel all jener, die die am besten bewachten Systeme kompromittieren wollen. Die Pipeline ist der schwache Punkt. Das war sie schon immer; sie ist es umso mehr, wenn die Pipeline Agenten mit API-Schlüsseln und Shell-Zugriff orchestriert.<br><br>Die andere Lehre der Woche passt in ein Wort: Infrastruktur. Anthropic hat kein Modell angekündigt, sondern Scion, ein hausgemachtes Versionskontrollsystem, geboren aus dem Anstieg von 2'500 auf 30'000 tägliche Merges im Monorepo — samt Auszug aus git in fünf Monaten (<a href=\"https://https://www.anthropic.com/engineering/redesigning-source-control\">Details</a>). Cerebras hat den Einsatz von Billionen-Parameter-Modellen auf seinen Wafer-Scale-Engines erläutert (<a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">Engineering-Beitrag</a>). OpenAI hat den zweiten Teil seines Erfahrungsberichts zur Datenspeicherung eines Dienstes mit über einer Milliarde Nutzern veröffentlicht. Wenn die Unterscheidung «Forschungslabor» gegen «Infrastrukturunternehmen» sich auflöst, hat sich der Wettlauf um Modelle in einen Wettlauf um Systeme verwandelt.<br><br>Und dann ist da die Landkarte, die sich neu zeichnet. OpenAIs Modelle kommen in den Model Garden von Google; die gesamte Claude-Plattform wird auf Google Cloud ausgeliefert; DeepSeek wird von den zivilen US-Bundesbehörden verbannt. Distribution und Ausschluss: die zwei Gesichter einer Geopolitik der KI, die nicht mehr nur in Washington oder Peking gespielt wird, sondern in den Einkaufskonsolen der IT-Abteilungen. Das Labor, das es ablehnt, überall zu sein, akzeptiert, nirgends zu sein.<br><br>Übrig bleibt das fragilste und vielleicht gewichtigste Signal: Eine Analyse beziffert die in US-Medien und -Künsten verlorenen Jobs auf rund 200'000, während Foren über nicht verstandenen, aber ausgelieferten Code debattieren (<a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">Analyse</a>). Die Infrastruktur der KI konsolidiert sich in bemerkenswertem Tempo; ihre soziale Legitimität hält nicht Schritt. Die nächsten sechs Monate werden auf beiden Feldern gespielt — und das zweite ist das einzige, das sich nicht auf einer Cloud deployen lässt.",
+                "it": "Questa settimana ci sono state due storie di sicurezza che raccontano lo stesso mondo. La prima: OpenAI svela «Patch the Planet», un coordinamento mondiale di risposta alle vulnerabilità critiche scoperte da agenti — gli stessi agenti che, cercando nel codice di tutto il mondo, trovano più falle di quante gli umani ne chiudessero (<a href=\"https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\">annuncio</a>). La seconda: il pacchetto LiteLLM 1.107.0, anello critico di migliaia di stack LLM, è compromesso su PyPI con un ladro di credenziali e una backdoor (<a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">analisi</a>).<br><br>Tra le due, la linea di faglia dell'ecosistema: gli agenti IA scoprono le vulnerabilità più velocemente di quanto gli umani le correggano, e la catena di fornitura di questi stessi agenti — pacchetti Python, registry, proxy — diventa il bersaglio privilegiato di chi vuole compromettere i sistemi meglio protetti. La pipeline è il punto debole. Lo è sempre stata; lo è ancora di più quando la pipeline orchestra agenti dotati di chiavi API e di accesso shell.<br><br>L'altro insegnamento della settimana si riassume in una parola: infrastruttura. Anthropic non ha annunciato un modello, ma Scion, un controllo di versione interno nato dal passaggio da 2 500 a 30 000 fusioni quotidiane sul proprio monorepo — e una migrazione fuori da git in cinque mesi (<a href=\"https://https://www.anthropic.com/engineering/redesigning-source-control\">dettagli</a>). Cerebras ha descritto il deployment di modelli di mille miliardi di parametri sui propri wafer-scale engines (<a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">post di ingegneria</a>). OpenAI ha pubblicato la seconda parte del proprio ritorno d'esperienza sullo storage di un servizio oltre il miliardo di utenti. Quando la distinzione tra «laboratorio di ricerca» e «azienda di infrastruttura» si è dissolta, significa che la corsa ai modelli si è trasformata in corsa ai sistemi.<br><br>E poi c'è la carta, che si ridisegna. I modelli di OpenAI arrivano nel Model Garden di Google; la piattaforma Claude completa è servita su Google Cloud; DeepSeek è bandita dalle agenzie federali civili americane. Distribuzione ed esclusione: le due facce di una geopolitica dell'IA che non si gioca più solo a Washington o a Pechino, ma nelle console d'acquisto dei direttori informatici. Il laboratorio che rifiuta di essere ovunque accetta di non essere da nessuna parte.<br><br>Resta il segnale più fragile, e forse il più pesante: un'analisi stima a circa 200 000 i posti di lavoro persi nei media e nelle arti americane, mentre i forum dibattono di codice consegnato senza essere compreso (<a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">analisi</a>). L'infrastruttura dell'IA si consolida a una velocità notevole; la sua legittimità sociale non segue lo stesso ritmo. I prossimi sei mesi si giocheranno su due tavoli — e il secondo è l'unico che non si può distribuire su un cloud.",
+                "lmo": "Gh'è staa, 'sta setemana, duu stori de sicurezza che i cunten el midemm mond. La prima: OpenAI el dessvela «Patch the Planet», ona coordinazion mondiala de resposta ai vulnerabilitaa critegh descovert di agent — i midemm agent che, cercand in del codes de tutt el mond, i troven pussee de fall che i uman i seraen (<a href=\"https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities\">anunzi</a>). La segonda: el pacchett LiteLLM 1.107.0, anell critic de migiaia de stack LLM, l'è compromess sora PyPI cont on lader de credenziaa e ona backdoor (<a href=\"https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/\">analisi</a>).<br><br>Tra i duu, la linea de falla de l'ecosistema: i agent IA descovren i vulnerabilitaa pussee svelt che i uman i corregen minga, e la cadena de aprovvigionament de quii midemm agent — pacchett Python, registry, proxy — la deventa la bersali preferida de quii che voeren compromett i sistema mej vardaa. El pipeline l'è el pont debol. L'è semper staa inscì; l'è ancamò pussee quand el pipeline el orchesta di agent dotaa de ciav de API e d'access shell.<br><br>L'olter insegnament de la setemana el sta in d'ona parolla: infrastruttura. Anthropic l'ha minga anunziaa on modei, ma Scion, on controll de sort fad in caa nassuu del passagg de 2 500 a 30 000 fusion al dì sora el so monorepo — e ona migrazion foeura de git in cinch mes (<a href=\"https://https://www.anthropic.com/engineering/redesigning-source-control\">detali</a>). Cerebras l'ha descrivuu el despiegh de modei de mila miliard de parameter sora i so wafer-scale engine (<a href=\"https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras\">billet de ingegneria</a>). OpenAI l'ha publicaa la segonda part del sò ritorn d'esperienza sora el magazinagg de on servizzi passaa el miliard de utent. Quand el distintiv «laboratori de riciva» contra «impresa de infrastruttura» l'è deslenguaa, l'è che la corsa ai modei la s'è trasformada in corsa ai sistema.<br><br>E poeu gh'è la carta, che la se dessegna ancamò. I modei de OpenAI i riven in del Model Garden de Google; la piattaforma Claude completa l'è servida sora Google Cloud; DeepSeek l'è bandii di agenzi federai civil american. Distribuzion ed esclusion: i duu facc de ona geopolitega de l'IA che la se giuga pu domà a Washington o a Pechin, ma in di console de crompa di direzion informateghe. El laboratori che 'l refuda de vess depertutt el aceta de vess nissoeul.<br><br>El resta el segnall pussee fragil, e fors anca el pussee pesant: ona analisi la mett a circa 200 000 i laurà perdii in di media e in di art american, intant che i forum i debatten de codes consegnaa senza vess capii (<a href=\"https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class\">analisi</a>). L'infrastruttura de l'IA la se consolida a ona velocità remaracabel; la soa legittimità sociala, lee, la va minga al midemm ritm. I ses mes chì adree se giugarann sora i duu tavoeuj — e 'l segond l'è l'unegh che no se pò minga mett sora on cloud."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "wire": {
+                "fr": "Semaine 2026-W43",
+                "en": "Week 2026-W43",
+                "de": "Woche 2026-W43",
+                "it": "Settimana 2026-W43",
+                "lmo": "Setemana 2026-W43"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
