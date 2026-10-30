@@ -1,0 +1,746 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-10-30",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Mistral AI a annoncé le 29 octobre 2026 la mise en libre accès des poids de Mistral Large 4, surnommé « Le Chonk ». Le modèle, doté de 1 000 milliards de paramètres et multimodal, est présenté par le laboratoire parisien comme le meilleur modèle à poids ouverts pour le code, entraîné en Europe. <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">L'annonce officielle</a> précise que la sortie vise aussi bien les développeurs que les équipes sécurité (« built for coders, trusted by defenders »).",
+        "en": "Mistral AI announced on 29 October 2026 the free release of the weights of Mistral Large 4, nicknamed “Le Chonk”. The model, equipped with 1 trillion parameters and multimodal, is presented by the Paris-based lab as the best open-weights model for code, trained in Europe. <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">The official announcement</a> specifies that the release targets developers and security teams alike (“built for coders, trusted by defenders”).",
+        "de": "Mistral AI hat am 29. Oktober 2026 die Gewichte von Mistral Large 4, genannt «Le Chonk», frei verfügbar gemacht. Das Modell mit einer Billion Parametern und Multimodalität wird vom Pariser Labor als bestes Open-Weight-Modell für Code präsentiert, trainiert in Europa. <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">Die offizielle Ankündigung</a> präzisiert, dass die Veröffentlichung sowohl Entwickler als auch Sicherheitsteams anspricht («built for coders, trusted by defenders»).",
+        "it": "Mistral AI ha annunciato il 29 ottobre 2026 la messa in libero accesso dei pesi di Mistral Large 4, soprannominato « Le Chonk ». Il modello, dotato di 1 000 miliardi di parametri e multimodale, è presentato dal laboratorio parigino come il miglior modello a pesi aperti per il codice, addestrato in Europa. <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">L'annuncio ufficiale</a> precisa che il rilascio si rivolge tanto agli sviluppatori quanto ai team di sicurezza (« built for coders, trusted by defenders »).",
+        "lmo": "Mistral AI l'ha anunziaa el 29 de ottober 2026 la messa a disposition in liber access di pes de Mistral Large 4, soranominaa « Le Chonk ». El model, dotaa de 1.000 miliard de parameter e multimodal, l'è presentaa del laboratori pariginn comè el mej model a pes dervii per el codes, addestraa in Europa. <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">L'anunzi offizial</a> el precise che la sortida la riguarda inscì i desvilupador comè i equipo de sicurezza (« built for coders, trusted by defenders »)."
+      },
+      {
+        "fr": "La communauté a réagi massivement : la discussion Hacker News ouverte le 29 octobre 2026 a dépassé 1 300 points et 350 commentaires en moins de 24 heures, plaçant la sortie au sommet des actualités techniques de la journée. <a href=\"https://news.ycombinator.com/item?id=50289418\">Le fil de discussion</a> débat notamment de la taille du modèle — 1 000 milliards de paramètres le rend difficile à faire tourner en local pour la plupart des particuliers.",
+        "en": "The community reacted massively: the Hacker News thread opened on 29 October 2026 exceeded 1,300 points and 350 comments in less than 24 hours, placing the release at the top of the day's technical news. <a href=\"https://news.ycombinator.com/item?id=50289418\">The discussion thread</a> debates, among other things, the model's size — 1 trillion parameters makes it hard to run locally for most individuals.",
+        "de": "Die Community hat massiv reagiert: Die am 29. Oktober 2026 eröffnete Diskussion auf Hacker News überschritt binnen 24 Stunden 1'300 Punkte und 350 Kommentare und stellte die Veröffentlichung an die Spitze der technischen Nachrichten des Tages. <a href=\"https://news.ycombinator.com/item?id=50289418\">Der Diskussionsstrang</a> debattiert unter anderem über die Grösse des Modells – eine Billion Parameter machen den lokalen Betrieb für die meisten Privatpersonen schwierig.",
+        "it": "La comunità ha reagito massicciamente: la discussione Hacker News aperta il 29 ottobre 2026 ha superato 1 300 punti e 350 commenti in meno di 24 ore, portando il rilascio in cima alle notizie tecniche della giornata. <a href=\"https://news.ycombinator.com/item?id=50289418\">Il thread di discussione</a> dibatte in particolare delle dimensioni del modello — 1 000 miliardi di parametri lo rendono difficile da eseguire in locale per la maggior parte dei privati.",
+        "lmo": "La comunitaa l'ha reazii in manera massiccia: la discussion Hacker News dervida el 29 de ottober 2026 l'ha superaa 1.300 pont e 350 comenter in manch de 24 or, mettend la sortida in scima ai notizzi tecnich del dì. <a href=\"https://news.ycombinator.com/item?id=50289418\">El fil de discussion</a> el dibatt in particolar la dimension del model — 1.000 miliard de parameter i rennen dificil de fà andà in local per la pupart di privaa."
+      },
+      {
+        "fr": "Le modèle est également hébergé et documenté sur Hugging Face, où <a href=\"https://huggingface.co/blog/mistral-large4\">l'annonce d'accueil</a> publiée le 29 octobre 2026 confirme la disponibilité des poids. Avec cette sortie, Mistral remet un pion sur l'échiquier de l'open-weight au moment où la course à la frontière se joue entre acteurs américains — quelques jours après l'introduction en Bourse annoncée par Anthropic et les lancements frontière de Google DeepMind.",
+        "en": "The model is also hosted and documented on Hugging Face, where <a href=\"https://huggingface.co/blog/mistral-large4\">the hosting announcement</a> published on 29 October 2026 confirms the availability of the weights. With this release, Mistral puts a piece back on the open-weight board at a time when the frontier race is playing out among American players — days after Anthropic's announced IPO and Google DeepMind's frontier launches.",
+        "de": "Das Modell ist auch auf Hugging Face gehostet und dokumentiert, wo die am 29. Oktober 2026 veröffentlichte <a href=\"https://huggingface.co/blog/mistral-large4\">Ankündigung</a> die Verfügbarkeit der Gewichte bestätigt. Mit dieser Veröffentlichung setzt Mistral erneut einen Stein im Brett der Open-Weight-Bewegung, während das Rennen an der Frontier zwischen amerikanischen Akteuren ausgetragen wird – wenige Tage nach der von Anthropic angekündigten Börseneinführung und den Frontier-Lancierungen von Google DeepMind.",
+        "it": "Il modello è inoltre ospitato e documentato su Hugging Face, dove <a href=\"https://huggingface.co/blog/mistral-large4\">l'annuncio di benvenuto</a> pubblicato il 29 ottobre 2026 conferma la disponibilità dei pesi. Con questo rilascio, Mistral rimette una pedina sulla scacchiera dell'open-weight nel momento in cui la corsa alla frontiera si gioca tra attori americani — pochi giorni dopo l'ingresso in Borsa annunciato da Anthropic e i lanci di frontiera di Google DeepMind.",
+        "lmo": "El model l'è anca ospitaa e documentaa sora Hugging Face, indova <a href=\"https://huggingface.co/blog/mistral-large4\">l'anunzi de bona vegnuda</a> publicaa el 29 de ottober 2026 el conferma la disponibilità di pes. Con 'sta sortida chì, Mistral el mett on pawn sora la scachiera de l'open-weight in del moment che la corsa a la frontiera la se giuga tra attor american — quij dì là dopo l'amettida in Borsa anunziada de Anthropic e i lanc frontiera de Google DeepMind."
+      }
+    ],
+    "urls": [
+      "https://mistral.ai/news/mistral-large-4-oss/",
+      "https://news.ycombinator.com/item?id=50289418",
+      "https://huggingface.co/blog/mistral-large4"
+    ],
+    "kicker": {
+      "fr": "Poids ouverts",
+      "en": "Open Weights",
+      "de": "Offene Gewichte",
+      "it": "Pesi aperti",
+      "lmo": "Pes dervii"
+    },
+    "headline": {
+      "fr": "Mistral ouvre les poids de « Le Chonk » : un trillion de paramètres pour l'open source européen",
+      "en": "Mistral Opens the Weights of “Le Chonk”: A Trillion Parameters for European Open Source",
+      "de": "Mistral öffnet die Gewichte von «Le Chonk»: eine Billion Parameter für das europäische Open-Source-Ökosystem",
+      "it": "Mistral apre i pesi di « Le Chonk »: un trilione di parametri per l'open source europeo",
+      "lmo": "Mistral el derva i pes de « Le Chonk »: on billion de parameter per l'open source europee"
+    },
+    "subdeck": {
+      "fr": "Le laboratoire français publie un modèle multimodal de 1 000 milliards de paramètres, présenté comme le meilleur modèle à poids ouverts pour le code.",
+      "en": "The French lab releases a 1-trillion-parameter multimodal model, presented as the best open-weights model for code.",
+      "de": "Das französische Labor publiziert ein multimodales Modell mit 1'000 Milliarden Parametern, das als bestes Open-Weight-Modell für Code präsentiert wird.",
+      "it": "Il laboratorio francese pubblica un modello multimodale da 1 000 miliardi di parametri, presentato come il miglior modello a pesi aperti per il codice.",
+      "lmo": "El laboratori frances el publica on model multimodal de 1.000 miliard de parameter, presentaa comè el mej model a pes dervii per el codes."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "OpenAI révise son Model Spec autour de cinq valeurs fondamentales",
+        "en": "OpenAI Revises Its Model Spec Around Five Core Values",
+        "de": "OpenAI überarbeitet sein Model Spec um fünf Grundwerte",
+        "it": "OpenAI rivede il suo Model Spec attorno a cinque valori fondamentali",
+        "lmo": "OpenAI el revisa el sò Model Spec inturni a cinch valor fondamentaj"
+      },
+      "body": {
+        "fr": "OpenAI a publié le 29 octobre 2026 une mise à jour de son Model Spec, le document qui encode le comportement attendu de ses modèles : <a href=\"https://openai.com/index/updated-model-spec\">la révision</a> articule cinq valeurs fondamentales destinées à guider un jugement sain, l'agence humaine et la fidélité à l'intention des utilisateurs à mesure que les capacités augmentent.",
+        "en": "OpenAI published on 29 October 2026 an update to its Model Spec, the document encoding the expected behavior of its models: <a href=\"https://openai.com/index/updated-model-spec\">the revision</a> articulates five core values meant to guide sound judgment, human agency and faithfulness to user intent as capabilities increase.",
+        "de": "OpenAI hat am 29. Oktober 2026 eine Aktualisierung seines Model Spec veröffentlicht, des Dokuments, das das erwartete Verhalten seiner Modelle kodiert: <a href=\"https://openai.com/index/updated-model-spec\">die Revision</a> gliedert fünf Grundwerte, die gesundes Urteilsvermögen, menschliche Agency und die Treue zur Absicht der Nutzer mit wachsenden Fähigkeiten leiten sollen.",
+        "it": "OpenAI ha pubblicato il 29 ottobre 2026 un aggiornamento del suo Model Spec, il documento che codifica il comportamento atteso dei suoi modelli: <a href=\"https://openai.com/index/updated-model-spec\">la revisione</a> articola cinque valori fondamentali destinati a guidare un giudizio sano, l'agency umana e la fedeltà all'intenzione degli utenti man mano che le capacità aumentano.",
+        "lmo": "OpenAI l'ha publicaa el 29 de ottober 2026 on aggiornament del sò Model Spec, el document che 'l codifega el comportament espetaa di sò modèj: <a href=\"https://openai.com/index/updated-model-spec\">la revision</a> la articola cinch valor fondamentaj destinà a guità on giudesizz san, l'agenzi umana e la fedeltaa a l'intenzion di utent a misura che i capacità i cressen."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-29",
+        "en": "From the Wires — 2026-10-29",
+        "de": "From the Wires — 2026-10-29",
+        "it": "From the Wires — 2026-10-29",
+        "lmo": "From the Wires — 2026-10-29"
+      },
+      "urls": [
+        "https://openai.com/index/updated-model-spec"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Comment OpenAI détecte le désalignement de ses modèles frontière",
+        "en": "How OpenAI Detects Misalignment in Its Frontier Models",
+        "de": "Wie OpenAI die Fehlausrichtung seiner Frontier-Modelle erkennt",
+        "it": "Come OpenAI rileva il disallineamento dei suoi modelli di frontiera",
+        "lmo": "Come che OpenAI el rileva el desalineament di sò modèj frontiera"
+      },
+      "body": {
+        "fr": "OpenAI détaille le 29 octobre 2026 sa méthode de surveillance en couches pour détecter le désalignement de ses modèles frontière et les comportements d'agents non autorisés, afin que les intervenants puissent agir avant l'escalade d'un incident. <a href=\"https://openai.com/index/how-we-detect-frontier-model-misalignment\">L'article</a> documente la chaîne détection-réponse mise en place en interne.",
+        "en": "OpenAI details on 29 October 2026 its layered monitoring method for detecting misalignment in its frontier models and unauthorized agent behaviors, so that responders can act before an incident escalates. <a href=\"https://openai.com/index/how-we-detect-frontier-model-misalignment\">The article</a> documents the internal detection-response pipeline.",
+        "de": "OpenAI legt am 29. Oktober 2026 sein mehrschichtiges Überwachungsverfahren dar, um Fehlausrichtung seiner Frontier-Modelle und unautorisiertes Agentenverhalten zu erkennen, damit Verantwortliche eingreifen können, bevor sich ein Vorfall eskaliert. <a href=\"https://openai.com/index/how-we-detect-frontier-model-misalignment\">Der Artikel</a> dokumentiert die intern etablierte Erkennungs-Antwort-Kette.",
+        "it": "OpenAI dettaglia il 29 ottobre 2026 il suo metodo di sorveglianza a strati per rilevare il disallineamento dei suoi modelli di frontiera e i comportamenti non autorizzati degli agenti, affinché gli intervenuti possano agire prima dell'escalation di un incidente. <a href=\"https://openai.com/index/how-we-detect-frontier-model-misalignment\">L'articolo</a> documenta la catena rilevamento-risposta messa in atto internamente.",
+        "lmo": "OpenAI el detaja el 29 de ottober 2026 la sò metod de sorveglianza a层 per rilevà el desalineament di sò modèj frontiera e i comportament d'agent minga autorizzaa, inscì che i intervenent i poen agì prima che on incident el escala. <a href=\"https://openai.com/index/how-we-detect-frontier-model-misalignment\">L'articol</a> el documenta la cadena rilevament-resposta mettuda in pee a l'interna."
+      },
+      "tag": {
+        "fr": "Sécurité",
+        "en": "Safety",
+        "de": "Sicherheit",
+        "it": "Sicurezza",
+        "lmo": "Sigurezza"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-29",
+        "en": "From the Wires — 2026-10-29",
+        "de": "From the Wires — 2026-10-29",
+        "it": "From the Wires — 2026-10-29",
+        "lmo": "From the Wires — 2026-10-29"
+      },
+      "urls": [
+        "https://openai.com/index/how-we-detect-frontier-model-misalignment"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "ProtoStar : Hugging Face veut rendre la science publique « AI-ready »",
+        "en": "ProtoStar: Hugging Face Wants to Make Public Science “AI-Ready”",
+        "de": "ProtoStar: Hugging Face will öffentliche Wissenschaft «KI-bereit» machen",
+        "it": "ProtoStar: Hugging Face vuole rendere la scienza pubblica « AI-ready »",
+        "lmo": "ProtoStar: Hugging Face el voeur rend la scenzia publega « AI-ready »"
+      },
+      "body": {
+        "fr": "Hugging Face lance le 29 octobre 2026 Project ProtoStar, un programme visant à rendre la science financée sur fonds publics « prête pour l'IA ». <a href=\"https://huggingface.co/blog/announcing-project-protostar\">L'annonce</a> décrit l'effort de mise à disposition et de structuration de données scientifiques publiques pour l'entraînement et l'analyse par des modèles.",
+        "en": "Hugging Face launches Project ProtoStar on 29 October 2026, a program aimed at making publicly funded science “AI-ready”. <a href=\"https://huggingface.co/blog/announcing-project-protostar\">The announcement</a> describes the effort to make public scientific data available and structured for training and analysis by models.",
+        "de": "Hugging Face startet am 29. Oktober 2026 das Project ProtoStar, ein Programm mit dem Ziel, öffentlich finanzierte Wissenschaft «KI-bereit» zu machen. <a href=\"https://huggingface.co/blog/announcing-project-protostar\">Die Ankündigung</a> beschreibt das Vorhaben, öffentliche wissenschaftliche Daten für Training und Analyse durch Modelle bereitzustellen und zu strukturieren.",
+        "it": "Hugging Face lancia il 29 ottobre 2026 Project ProtoStar, un programma mirato a rendere la scienza finanziata con fondi pubblici « pronta per l'IA ». <a href=\"https://huggingface.co/blog/announcing-project-protostar\">L'annuncio</a> descrive lo sforzo di messa a disposizione e strutturazione di dati scientifici pubblici per l'addestramento e l'analisi da parte di modelli.",
+        "lmo": "Hugging Face el lancia el 29 de ottober 2026 Project ProtoStar, on programa che 'l voeur rend la scenzia finanziada cont fond publegh « pronta per l'IA ». <a href=\"https://huggingface.co/blog/announcing-project-protostar\">L'anunzi</a> el descriv el lavorà de disponibilizazion e de strutturazion de dacc scentifegh publegh per l'addestrament e l'analisi de part di modèj."
+      },
+      "tag": {
+        "fr": "Science ouverte",
+        "en": "Open Science",
+        "de": "Offene Wissenschaft",
+        "it": "Scienza aperta",
+        "lmo": "Scenza dervida"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-29",
+        "en": "From the Wires — 2026-10-29",
+        "de": "From the Wires — 2026-10-29",
+        "it": "From the Wires — 2026-10-29",
+        "lmo": "From the Wires — 2026-10-29"
+      },
+      "urls": [
+        "https://huggingface.co/blog/announcing-project-protostar"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Granite Switch 4.1.1 : IBM veut mettre à jour ses modèles comme du logiciel",
+        "en": "Granite Switch 4.1.1: IBM Wants to Update Its Models Like Software",
+        "de": "Granite Switch 4.1.1: IBM will Modelle aktualisieren wie Software",
+        "it": "Granite Switch 4.1.1: IBM vuole aggiornare i suoi modelli come software",
+        "lmo": "Granite Switch 4.1.1: IBM el voeur aggiornà i sò modèj comè del software"
+      },
+      "body": {
+        "fr": "IBM publie le 29 octobre 2026 Granite Switch 4.1.1, présenté comme la brique d'une mise à jour des modèles « comme on met à jour un logiciel ». <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">Le billet</a> détaille l'approche incrémentale de la famille Granite pour les déploiements en entreprise.",
+        "en": "IBM releases on 29 October 2026 Granite Switch 4.1.1, presented as a building block for updating models “the way you update software”. <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">The post</a> details the Granite family's incremental approach for enterprise deployments.",
+        "de": "IBM veröffentlicht am 29. Oktober 2026 Granite Switch 4.1.1, präsentiert als Baustein für Modell-Updates «wie man Software aktualisiert». <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">Der Beitrag</a> erläutert den inkrementellen Ansatz der Granite-Familie für Unternehmenseinsätze.",
+        "it": "IBM pubblica il 29 ottobre 2026 Granite Switch 4.1.1, presentato come il mattone di un aggiornamento dei modelli « come si aggiorna un software ». <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">Il post</a> dettaglia l'approccio incrementale della famiglia Granite per i dispiegamenti aziendali.",
+        "lmo": "IBM el pubblica el 29 de ottober 2026 Granite Switch 4.1.1, presentaa comè el matton d'on aggiornament di modèj « comè se se 'l aggiorna on software ». <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">El bilsett</a> el detaja l'apropcc incremental de la fameja Granite per i dispiegament in azienda."
+      },
+      "tag": {
+        "fr": "Entreprise",
+        "en": "Enterprise",
+        "de": "Unternehmen",
+        "it": "Impresa",
+        "lmo": "Impresa"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-10-29",
+        "en": "From the Wires — 2026-10-29",
+        "de": "From the Wires — 2026-10-29",
+        "it": "From the Wires — 2026-10-29",
+        "lmo": "From the Wires — 2026-10-29"
+      },
+      "urls": [
+        "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une",
+        "en": "Front Page",
+        "de": "Titelseite",
+        "it": "In Prima Pagina",
+        "lmo": "In Prima Pagina"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière & Industrie",
+            "en": "Frontier & Industry",
+            "de": "Frontier & Industrie",
+            "it": "Frontiera & Industria",
+            "lmo": "Frontiera & Industria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Cohere publie son manifeste : « Qui construit la frontière de l'IA ? »",
+                "en": "Cohere Publishes Its Manifesto: “Who Gets to Build the Frontier for AI?”",
+                "de": "Cohere veröffentlicht sein Manifest: «Wer baut die Frontier der KI?»",
+                "it": "Cohere pubblica il suo manifesto: « Chi costruisce la frontiera dell'IA? »",
+                "lmo": "Cohere el publica el sò manifest: « Chi el costruess la frontiera de l'IA? »"
+              },
+              "body": {
+                "fr": "Dans un manifeste publié le 29 octobre 2026, Cohere argumente que le monde démocratique a besoin de davantage de constructeurs de modèles frontière. <a href=\"https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai\">Le texte</a>, long de 11 minutes de lecture, expose la stratégie de l'entreprise canadienne pour rester dans la course face aux acteurs américains et chinois.",
+                "en": "In a manifesto published on 29 October 2026, Cohere argues that the democratic world needs more frontier model builders. <a href=\"https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai\">The text</a>, an 11-minute read, lays out the Canadian company's strategy to stay in the race against American and Chinese players.",
+                "de": "In einem am 29. Oktober 2026 veröffentlichten Manifest argumentiert Cohere, dass die demokratische Welt mehr Erbauer von Frontier-Modellen braucht. <a href=\"https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai\">Der Text</a>, elf Minuten Lesezeit, legt die Strategie des kanadischen Unternehmens dar, im Rennen gegen amerikanische und chinesische Akteure zu bestehen.",
+                "it": "In un manifesto pubblicato il 29 ottobre 2026, Cohere sostiene che il mondo democratico ha bisogno di più costruttori di modelli di frontiera. <a href=\"https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai\">Il testo</a>, lungo 11 minuti di lettura, espone la strategia dell'azienda canadese per restare in gara di fronte agli attori americani e cinesi.",
+                "lmo": "In d'on manifest publicaa el 29 de ottober 2026, Cohere el sostegn che el mond democrategh el gh'ha bisogn de pussee de costrutor de modèj frontiera. <a href=\"https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai\">El test</a>, longh 11 minutt de letura, el espon la strategia de l'azienda canadesa per restà in gara contra i attor american e cinises."
+              },
+              "kicker": {
+                "fr": "Souveraineté",
+                "en": "Sovereignty",
+                "de": "Souveränität",
+                "it": "Sovranità",
+                "lmo": "Sovranità"
+              },
+              "urls": [
+                "https://cohere.com/blog/who-gets-to-build-the-frontier-for-ai"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Ropes & Gray automatise la diligence juridique avec OpenAI",
+                "en": "Ropes & Gray Automates Legal Diligence with OpenAI",
+                "de": "Ropes & Gray automatisiert juristische Due Diligence mit OpenAI",
+                "it": "Ropes & Gray automatizza la due diligence giuridica con OpenAI",
+                "lmo": "Ropes & Gray l'automatizza la diligence giuridega con OpenAI"
+              },
+              "body": {
+                "fr": "OpenAI publie le 29 octobre 2026 un récit détaillé de la collaboration avec Ropes & Gray pour la diligence transactionnelle : les avocats passent en revue des documents groupés, des synthèses et des rapports générés par l'IA avant de conseiller leurs clients. <a href=\"https://openai.com/index/ropes-gray-ai-diligence\">L'étude de cas</a> illustre le déploiement de l'IA dans un flux de travail juridique structuré.",
+                "en": "OpenAI published on 29 October 2026 a detailed account of its collaboration with Ropes & Gray for transactional diligence: lawyers review batched documents, AI-generated summaries and reports before advising their clients. <a href=\"https://openai.com/index/ropes-gray-ai-diligence\">The case study</a> illustrates the deployment of AI within a structured legal workflow.",
+                "de": "OpenAI veröffentlicht am 29. Oktober 2026 eine ausführliche Schilderung der Zusammenarbeit mit Ropes & Gray für die Transaktions-Due-Diligence: Die Anwälte prüfen gruppierte Dokumente, Zusammenfassungen und von der KI erstellte Berichte, bevor sie ihre Mandanten beraten. <a href=\"https://openai.com/index/ropes-gray-ai-diligence\">Die Fallstudie</a> illustriert den Einsatz von KI in einem strukturierten juristischen Arbeitsablauf.",
+                "it": "OpenAI pubblica il 29 ottobre 2026 un resoconto dettagliato della collaborazione con Ropes & Gray per la due diligence transazionale: gli avvocati esaminano documenti raggruppati, sintesi e rapporti generati dall'IA prima di consigliare i clienti. <a href=\"https://openai.com/index/ropes-gray-ai-diligence\">Il caso di studio</a> illustra il dispiegamento dell'IA in un flusso di lavoro giuridico strutturato.",
+                "lmo": "OpenAI el publica el 29 de ottober 2026 on raccont detaliaa de la collaborazion con Ropes & Gray per la diligence transazional: i avocatt i passen in revista document a grupp, sintesi e rapport generaai de l'IA prima de consilià i sò client. <a href=\"https://openai.com/index/ropes-gray-ai-diligence\">El studi de cas</a> el il L'è el càzz"
+              },
+              "kicker": {
+                "fr": "Cas d'usage",
+                "en": "Use Case",
+                "de": "Anwendungsfall",
+                "it": "Casi d'uso",
+                "lmo": "Cas d'us"
+              },
+              "urls": [
+                "https://openai.com/index/ropes-gray-ai-diligence"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Microsoft Research Focus #97 : agents de code et IA au travail",
+                "en": "Microsoft Research Focus #97: Code Agents and AI at Work",
+                "de": "Microsoft Research Focus #97: Code-Agenten und KI bei der Arbeit",
+                "it": "Microsoft Research Focus #97: agenti di codice e IA sul lavoro",
+                "lmo": "Microsoft Research Focus #97: agent de codes e IA al laurà"
+              },
+              "body": {
+                "fr": "Microsoft Research a publié le 29 octobre 2026 l'édition 97 de son podcast Focus : au programme, les défis des agents de code, les usages de l'IA au travail et l'amélioration de la prévision météo à longue échéance. <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/\">L'épisode</a> dresse un tour d'horizon de la recherche interne du laboratoire.",
+                "en": "Microsoft Research published on 29 October 2026 edition 97 of its Focus podcast: on the program, the challenges of code agents, uses of AI at work, and improving long-range weather forecasting. <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/\">The episode</a> surveys the lab's internal research.",
+                "de": "Microsoft Research hat am 29. Oktober 2026 die 97. Ausgabe seines Podcasts Focus veröffentlicht: zur Diskussion stehen die Herausforderungen von Code-Agenten, der Einsatz von KI bei der Arbeit und die Verbesserung langfristiger Wettervorhersagen. <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/\">Die Folge</a> gibt einen Überblick über die interne Forschung des Labors.",
+                "it": "Microsoft Research ha pubblicato il 29 ottobre 2026 la puntata 97 del suo podcast Focus: in programma le sfide degli agenti di codice, gli usi dell'IA sul lavoro e il miglioramento delle previsioni meteorologiche a lungo termine. <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/\">L'episodio</a> traccia un panorama della ricerca interna del laboratorio.",
+                "lmo": "Microsoft Research l'ha publicaa el 29 de ottober 2026 l'edizion 97 del sò podcast Focus: in program, i sfid di agent de codes, i us de l'IA al laurà e el mejora de la previson meteo a longh termen. <a href=\"https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/\">L'episodi</a> el fa on gir d'orizzont de la ricerca interna del laboratori."
+              },
+              "kicker": {
+                "fr": "Labo",
+                "en": "Lab Notes",
+                "de": "Labor",
+                "it": "Lab",
+                "lmo": "Labo"
+              },
+              "urls": [
+                "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Der Technische Teil",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadernegh Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & Écosystème",
+            "en": "Tools & Ecosystem",
+            "de": "Werkzeuge & Ökosystem",
+            "it": "Strumenti & Ecosistema",
+            "lmo": "Strument & Ecosistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "CoSTA : des dialogues parlés 1,7 fois plus rapides sans toucher au tokenizer",
+                "en": "CoSTA: Spoken Dialogue 1.7× Faster Without Touching the Tokenizer",
+                "de": "CoSTA: gesprochene Dialoge 1,7-mal schneller, ohne den Tokenizer anzutasten",
+                "it": "CoSTA: dialoghi parlati 1,7 volte più rapidi senza toccare il tokenizer",
+                "lmo": "CoSTA: dialog parlaa 1,7 voeulte pussee svelt senza tocheggià el tokenizer"
+              },
+              "body": {
+                "fr": "Une équipe de l'Institut d'automatique de l'Académie chinoise des sciences propose CoSTA, un cadre post-hoc qui découple les espaces de tokens de génération et de synthèse dans les modèles de dialogue parlé, en conservant le tokenizer d'origine. Sur des benchmarks bilingues, <a href=\"https://arxiv.org/abs/2610.21143\">le papier</a> (soumis le 30 octobre 2026) rapporte une génération accélérée d'un facteur 1,7 avec une latence réduite et une qualité préservée.",
+                "en": "A team from the Institute of Automation at the Chinese Academy of Sciences proposes CoSTA, a post-hoc framework that decouples the generation and synthesis token spaces in spoken dialogue models while keeping the original tokenizer. On bilingual benchmarks, <a href=\"https://arxiv.org/abs/2610.21143\">the paper</a> (submitted 30 October 2026) reports a 1.7× speedup in generation with reduced latency and preserved quality.",
+                "de": "Ein Team am Institut für Automatisierung der Chinesischen Akademie der Wissenschaften schlägt CoSTA vor, ein post-hoc-Framework, das die Token-Räume von Generierung und Synthese in Modellen für gesprochenen Dialog entkoppelt, wobei der ursprüngliche Tokenizer erhalten bleibt. Auf zweisprachigen Benchmarks meldet <a href=\"https://arxiv.org/abs/2610.21143\">das Papier</a> (eingereicht am 30. Oktober 2026) eine um den Faktor 1,7 beschleunigte Generierung bei reduzierter Latenz und bewahrter Qualität.",
+                "it": "Un team dell'Istituto di automatica dell'Accademia cinese delle scienze propone CoSTA, un framework post-hoc che disaccoppia gli spazi di token di generazione e di sintesi nei modelli di dialogo parlato, conservando il tokenizer originale. Su benchmark bilingui, <a href=\"https://arxiv.org/abs/2610.21143\">il paper</a> (sottomesso il 30 ottobre 2026) riporta una generazione accelerata di un fattore 1,7 con latenza ridotta e qualità preservata.",
+                "lmo": "On'equipo de l'Istitut de automatega de l'Academia cinisa di scenz la propon CoSTA, on quadregh post-hoc che 'l decoppia i spazzi de token de generazion e de sintesi in di modèj de dialog parlaa, conservando el tokenizer d'origin. Sora di benchmark bilingov, <a href=\"https://arxiv.org/abs/2610.21143\">el paper</a> (consegnaa el 30 de ottober 2026) el rapporta ona generazion slongada de on fattor 1,7 con latenza sbassada e qualitaa conservada."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenzi"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.21143"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Lasm : des applications web formellement vérifiées en Lean, du navigateur à l'edge",
+                "en": "Lasm: Formally Verified Web Apps in Lean, From Browser to Edge",
+                "de": "Lasm: formal verifizierte Webanwendungen in Lean, vom Browser bis zum Edge",
+                "it": "Lasm: applicazioni web formalmente verificate in Lean, dal browser all'edge",
+                "lmo": "Lasm: applicazion web formalment verificaa in Lean, del browser a l'edge"
+              },
+              "body": {
+                "fr": "Publié sur Hacker News le 30 octobre 2026, Lasm porte le langage de preuve formelle Lean vers le navigateur, Node, le serverless et l'edge : l'objectif est d'écrire des applications web complètes — serveur Express ou Hono sur Cloudflare Workers compris — dont les spécifications sont formellement vérifiées. <a href=\"https://github.com/Millillion/lasm\">Le dépôt GitHub</a> précise que le projet a été majoritairement construit par Claude Opus 5.5 sous la direction de son auteur.",
+                "en": "Posted on Hacker News on 30 October 2026, Lasm brings the Lean formal proof language to the browser, Node, serverless and the edge: the goal is to write complete web applications — including Express or Hono servers on Cloudflare Workers — whose specifications are formally verified. <a href=\"https://github.com/Millillion/lasm\">The GitHub repository</a> notes that the project was mostly built by Claude Opus 5.5 under the direction of its author.",
+                "de": "Am 30. Oktober 2026 auf Hacker News vorgestellt, bringt Lasm die formale Beweissprache Lean in den Browser, nach Node, Serverless und Edge: Ziel sind vollständige Webanwendungen – inklusive Express- oder Hono-Server auf Cloudflare Workers –, deren Spezifikationen formal verifiziert sind. <a href=\"https://github.com/Millillion/lasm\">Das GitHub-Repository</a> präzisiert, dass das Projekt mehrheitlich von Claude Opus 5.5 unter der Regie seines Autors erstellt wurde.",
+                "it": "Pubblicato su Hacker News il 30 ottobre 2026, Lasm porta il linguaggio di prova formale Lean verso il browser, Node, il serverless e l'edge: l'obiettivo è scrivere applicazioni web complete — server Express o Hono su Cloudflare Workers compresi — le cui specifiche siano formalmente verificate. <a href=\"https://github.com/Millillion/lasm\">Il repository GitHub</a> precisa che il progetto è stato costruito in gran parte da Claude Opus 5.5 sotto la direzione del suo autore.",
+                "lmo": "Publicaa sora Hacker News el 30 de ottober 2026, Lasm el porta el lengoeu de prova formal Lean vers el browser, Node, el serverless e l'edge: l'obietiv l'è de scriv applicazion web complet — server Express o Hono sora Cloudflare Workers includuu — di specifegazion formalment verificaa. <a href=\"https://github.com/Millillion/lasm\">El depost GitHub</a> el precise che el progett l'è staa faa per la pupart de Claude Opus 5.5 sotto la direzion del sò autor."
+              },
+              "kicker": {
+                "fr": "Show HN",
+                "en": "Show HN",
+                "de": "Show HN",
+                "it": "Show HN",
+                "lmo": "Show HN"
+              },
+              "urls": [
+                "https://github.com/Millillion/lasm",
+                "https://news.ycombinator.com/item?id=50299004"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Un modèle du monde qui tient sur un Raspberry Pi Pico 2 W",
+                "en": "A World Model That Fits on a Raspberry Pi Pico 2 W",
+                "de": "Ein Weltmodell, das auf einen Raspberry Pi Pico 2 W passt",
+                "it": "Un world model che gira su un Raspberry Pi Pico 2 W",
+                "lmo": "On model del mond che 'l sta sora on Raspberry Pi Pico 2 W"
+              },
+              "body": {
+                "fr": "Un développeur indépendant présente tinyworldformer, un mini modèle du monde qui fait tourner des jeux sur un Raspberry Pi Pico 2 W. La démonstration, arrivée le 29 octobre 2026 en première page de Hacker News avec 172 points, montre qu'une simulation générative tient sur un microcontrôleur à quelques euros. <a href=\"https://github.com/SheepSeb/tinyworldformer\">Le code est disponible sur GitHub</a> ; <a href=\"https://news.ycombinator.com/item?id=50295450\">la discussion</a> s'attarde sur les limites du modèle.",
+                "en": "An independent developer presents tinyworldformer, a mini world model that runs games on a Raspberry Pi Pico 2 W. The demo, which hit the Hacker News front page on 29 October 2026 with 172 points, shows that a generative simulation can fit on a few-euro microcontroller. <a href=\"https://github.com/SheepSeb/tinyworldformer\">The code is available on GitHub</a>; <a href=\"https://news.ycombinator.com/item?id=50295450\">the discussion</a> lingers on the model's limits.",
+                "de": "Ein unabhängiger Entwickler stellt tinyworldformer vor, ein Mini-Weltmodell, das Spiele auf einem Raspberry Pi Pico 2 W laufen lässt. Die am 29. Oktober 2026 mit 172 Punkten auf die Titelseite von Hacker News gelangte Demonstration zeigt, dass eine generative Simulation auf einem Mikrocontroller für wenige Franken Platz findet. <a href=\"https://github.com/SheepSeb/tinyworldformer\">Der Code ist auf GitHub verfügbar</a>; <a href=\"https://news.ycombinator.com/item?id=50295450\">die Diskussion</a> geht den Grenzen des Modells nach.",
+                "it": "Uno sviluppatore indipendente presenta tinyworldformer, un mini world model che esegue giochi su un Raspberry Pi Pico 2 W. La dimostrazione, arrivata il 29 ottobre 2026 in prima pagina su Hacker News con 172 punti, mostra che una simulazione generativa gira su un microcontrollore dal costo di pochi franchi. <a href=\"https://github.com/SheepSeb/tinyworldformer\">Il codice è disponibile su GitHub</a>; <a href=\"https://news.ycombinator.com/item?id=50295450\">la discussione</a> si sofferma sui limiti del modello.",
+                "lmo": "On desvilupador independent el presenta tinyworldformer, on mini model del mond che 'l fa andà di gioeugh sora on Raspberry Pi Pico 2 W. La demonstrazion, rivada el 29 de ottober 2026 in prima pagina de Hacker News con 172 pont, la mostra che ona simulazion generativa la sta sora on microcontroller de quij pocch euro. <a href=\"https://github.com/SheepSeb/tinyworldformer\">El codes l'è disponibel sora GitHub</a>; <a href=\"https://news.ycombinator.com/item?id=50295450\">la discussion</a> la se ferma sora i limit del model."
+              },
+              "kicker": {
+                "fr": "Edge",
+                "en": "Edge",
+                "de": "Edge",
+                "it": "Edge",
+                "lmo": "Edge"
+              },
+              "urls": [
+                "https://github.com/SheepSeb/tinyworldformer",
+                "https://news.ycombinator.com/item?id=50295450"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Simantic : la simulation de firmware pensée pour les agents IA",
+                "en": "Simantic: Firmware Simulation Designed for AI Agents",
+                "de": "Simantic: Firmware-Simulation konzipiert für KI-Agenten",
+                "it": "Simantic: la simulazione di firmware pensata per gli agenti IA",
+                "lmo": "Simantic: la simulazion de firmware pensada per i agent IA"
+              },
+              "body": {
+                "fr": "Simantic, accéléré par Y Combinator, propose des cartes de développement virtuelles programmables via un unique appel API, un relecteur de code firmware pour agents IA et un pipeline CI/CD qui valide le firmware contre un microcontrôleur simulé. <a href=\"https://news.ycombinator.com/item?id=50291116\">Le lancement du 29 octobre 2026</a> indique que le moteur de simulation, écrit en Rust, supporte les STM32F0/F4/H7, ESP32-S3/C3 et RP2040.",
+                "en": "Simantic, accelerated by Y Combinator, offers programmable virtual development boards via a single API call, a firmware code reviewer for AI agents, and a CI/CD pipeline that validates firmware against a simulated microcontroller. <a href=\"https://news.ycombinator.com/item?id=50291116\">The 29 October 2026 launch</a> indicates that the Rust-based simulation engine supports the STM32F0/F4/H7, ESP32-S3/C3 and RP2040.",
+                "de": "Simantic, von Y Combinator beschleunigt, bietet virtuelle, über einen einzigen API-Aufruf programmierbare Entwicklungskarten, einen Firmware-Code-Reviewer für KI-Agenten sowie eine CI/CD-Pipeline, die Firmware gegen einen simulierten Mikrocontroller validiert. <a href=\"https://news.ycombinator.com/item?id=50291116\">Der Launch vom 29. Oktober 2026</a> gibt an, dass die in Rust geschriebene Simulations-Engine STM32F0/F4/H7, ESP32-S3/C3 und RP2040 unterstützt.",
+                "it": "Simantic, accelerata da Y Combinator, propone schede di sviluppo virtuali programmabili tramite una singola chiamata API, un revisore di codice firmware per agenti IA e una pipeline CI/CD che valida il firmware su un microcontrollore simulato. <a href=\"https://news.ycombinator.com/item?id=50291116\">Il lancio del 29 ottobre 2026</a> indica che il motore di simulazione, scritto in Rust, supporta STM32F0/F4/H7, ESP32-S3/C3 e RP2040.",
+                "lmo": "Simantic, aceleraa de Y Combinator, el propon schede de desvilup virtuaj programmabil cont on sòl ciamada API, on revisionador de codes firmware per agent IA e on pipeline CI/CD che 'l valida el firmware contra on microcontroller simulaa. <a href=\"https://news.ycombinator.com/item?id=50291116\">El lanc del 29 de ottober 2026</a> el indica che el motor de simulazion, scritt in Rust, el supporta i STM32F0/F4/H7, ESP32-S3/C3 e RP2040."
+              },
+              "kicker": {
+                "fr": "Launch HN",
+                "en": "Launch HN",
+                "de": "Launch HN",
+                "it": "Launch HN",
+                "lmo": "Launch HN"
+              },
+              "urls": [
+                "https://news.ycombinator.com/item?id=50291116"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Votre benchmark est une mesure de la difficulté — et il est peut-être biaisé",
+                "en": "Your Benchmark Is a Measure of Difficulty — and It May Be Biased",
+                "de": "Ihr Benchmark ist ein Mass für Schwierigkeit – und möglicherweise verzerrt",
+                "it": "Il vostro benchmark è una misura della difficoltà — ed è forse distorto",
+                "lmo": "El tò benchmark l'è ona misura de la dificoltà — e 'l podaria vess sbiaaa"
+              },
+              "body": {
+                "fr": "Des chercheurs de l'Université de l'Illinois formalisent l'idée qu'un benchmark induit une mesure empirique sur la difficulté, et identifient deux modes de défaillance : le désaccord de mesure et les lacunes de couverture. En analysant 25 benchmarks populaires couvrant 7 domaines, <a href=\"https://arxiv.org/abs/2610.29927\">l'étude</a> — la plus votée de la journée sur Hugging Face Papers avec 50 soutiens — montre que beaucoup surpondèrent certaines zones de difficulté ; l'algorithme BenchFill réécrit les items pour combler les trous.",
+                "en": "Researchers from the University of Illinois formalize the idea that a benchmark induces an empirical measure of difficulty, and identify two failure modes: measurement disagreement and coverage gaps. Analyzing 25 popular benchmarks across 7 domains, <a href=\"https://arxiv.org/abs/2610.29927\">the study</a> — the most upvoted of the day on Hugging Face Papers with 50 upvotes — shows that many over-weight certain difficulty regions; the BenchFill algorithm rewrites items to fill the gaps.",
+                "de": "Forschende der University of Illinois formalisieren die Idee, dass ein Benchmark ein empirisches Mass für Schwierigkeit induziert, und identifizieren zwei Fehlermodi: Messdiskrepanz und Deckungslücken. In der Analyse von 25 populären Benchmarks aus 7 Bereichen zeigt <a href=\"https://arxiv.org/abs/2610.29927\">die Studie</a> – mit 50 Stimmen das am meisten bewählte Papier des Tages auf Hugging Face Papers –, dass viele bestimmte Schwierigkeitszonen übergewichten; der Algorithmus BenchFill formuliert Items um, um die Lücken zu schliessen.",
+                "it": "Dei ricercatori dell'Università dell'Illinois formalizzano l'idea che un benchmark induce una misura empirica della difficoltà e identificano due modalità di fallimento: il disaccordo di misura e le lacune di copertura. Analizzando 25 benchmark popolari che coprono 7 domini, <a href=\"https://arxiv.org/abs/2610.29927\">lo studio</a> — il più votato della giornata su Hugging Face Papers con 50 consensi — mostra che molti sovrappesano certe zone di difficoltà; l'algoritmo BenchFill riscrive gli item per colmare le lacune.",
+                "lmo": "Di ricercador de l'Universitaa de l'Illinois i formalizzen l'idea che on benchmark el genera ona misura empirical sora la dificoltà, e i identifichen duu mod de guast: el desacord de misura e i lacc de covertura. Analizzand 25 benchmark popolar che i cuveren 7 domini, <a href=\"https://arxiv.org/abs/2610.29927\">el studi</a> — quell con pussee vot de la giornada sora Hugging Face Papers con 50 sostegn — el mostra che tanti i sòta-ponderen cert zon de dificoltà; l'algoritm BenchFill el rescriv i item per stattà-sù i bus."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.29927"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Moins de 2 % des têtes d'attention portent la récupération multimodale",
+                "en": "Fewer Than 2% of Attention Heads Carry Multimodal Retrieval",
+                "de": "Weniger als 2 % der Aufmerksamkeitsköpfe tragen das multimodale Retrieval",
+                "it": "Meno del 2% delle teste di attenzione regge il recupero multimodale",
+                "lmo": "Manch del 2% di coo de attenziòn i porten el recupar multimodal"
+              },
+              "body": {
+                "fr": "Une équipe de Tencent montre que les « têtes de récupération » — ces têtes d'attention qui transfèrent l'information du contexte vers la sortie — restent rares et largement partagées entre modalités, y compris l'audio-visuel. Elles représentent moins de 2 % des têtes sur 18 checkpoints étudiés, et les ablater détruit presque toute la récupération audio-visuelle. Entraîner leur attention avec un objectif de classement relève le Recall@1 de Qwen3-VL-8B de 6,03 points sur MMDocIR, selon <a href=\"https://arxiv.org/abs/2610.32411\">le papier</a> publié le 30 octobre 2026 dans les Daily Papers de Hugging Face (13 soutiens).",
+                "en": "A Tencent team shows that “retrieval heads” — those attention heads that transfer information from context to output — remain rare and largely shared across modalities, including audio-visual. They account for less than 2% of heads across 18 studied checkpoints, and ablating them destroys nearly all audio-visual retrieval. Training their attention with a ranking objective lifts Qwen3-VL-8B's Recall@1 by 6.03 points on MMDocIR, according to <a href=\"https://arxiv.org/abs/2610.32411\">the paper</a> published on 30 October 2026 in Hugging Face's Daily Papers (13 upvotes).",
+                "de": "Ein Team bei Tencent zeigt, dass «Retrieval Heads» – jene Aufmerksamkeitsköpfe, die Information vom Kontext in die Ausgabe übertragen – selten und weitgehend modalitätsübergreifend geteilt sind, auch audiovisuell. Sie machen weniger als 2 % der Köpfe auf 18 untersuchten Checkpoints aus; ihre Ablation zerstört nahezu das gesamte audiovisuelle Retrieval. Das Training ihrer Aufmerksamkeit mit einem Ranking-Ziel hebt den Recall@1 von Qwen3-VL-8B um 6,03 Punkte auf MMDocIR, gemäss <a href=\"https://arxiv.org/abs/2610.32411\">dem Papier</a> vom 30. Oktober 2026 in den Daily Papers von Hugging Face (13 Stimmen).",
+                "it": "Un team di Tencent mostra che le « retrieval head» — quelle teste di attenzione che trasferiscono l'informazione dal contesto all'output — restano rare e ampiamente condivise tra le modalità, incluso l'audiovisivo. Rappresentano meno del 2% delle teste su 18 checkpoint studiati, e ablarele distrugge quasi tutto il recupero audiovisivo. Addestrarne l'attenzione con un obiettivo di ranking aumenta il Recall@1 di Qwen3-VL-8B di 6,03 punti su MMDocIR, secondo <a href=\"https://arxiv.org/abs/2610.32411\">il paper</a> pubblicato il 30 ottobre 2026 nelle Daily Papers di Hugging Face (13 consensi).",
+                "lmo": "On'equipo de Tencent la mostra che i « coo de recupar » — quej coo de attenziòn che i transferissen l'informazion del contest vers la sortida — i resten rar e largament condivis tra modalità, audio-visiv inclus. I rapresenten manch del 2% di coo sora 18 checkpoint studiia, e ablaghij el distruggh quasi tutta la recuperazion audio-visiva. Addestrà la lur attenziòn cont on obietiv de classament el tira-sù el Recall@1 de Qwen3-VL-8B de 6,03 pont sora MMDocIR, segond <a href=\"https://arxiv.org/abs/2610.32411\">el paper</a> publicaa el 30 de ottober 2026 in di Daily Papers de Hugging Face (13 sostegn)."
+              },
+              "kicker": {
+                "fr": "Interprétabilité",
+                "en": "Interpretability",
+                "de": "Interpretierbarkeit",
+                "it": "Interpretabilità",
+                "lmo": "Interpretabilitaa"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.32411"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "WeVisCut : une politique 9B qui monte la salle de montage en agent",
+                "en": "WeVisCut: A 9B Policy That Turns the Editing Room Into an Agent",
+                "de": "WeVisCut: eine 9B-Policy, die den Schneidetisch zum Agenten macht",
+                "it": "WeVisCut: una policy 9B che trasforma la sala di montaggio in agente",
+                "lmo": "WeVisCut: ona politega 9B che la mett la sala de montagg a agent"
+              },
+              "body": {
+                "fr": "WeVisCut transforme un script narratif en vidéo longue : son harnais d'agent maintient un état de production partagé, et une politique unique de 9 milliards de paramètres coordonne les outils et répare les échecs. Entraînée sur plus de 130 000 exemples extraits par inversion d'édition de 3 750 vidéos finies, elle égale Claude Opus 5 sur un benchmark de 100 tâches tout en consommant près de 33 fois moins de tokens par minute utile, selon <a href=\"https://arxiv.org/abs/2610.38352\">l'article</a> (14 soutiens).",
+                "en": "WeVisCut turns a narrative script into long-form video: its agent harness maintains a shared production state, and a single 9-billion-parameter policy coordinates tools and repairs failures. Trained on over 130,000 examples extracted by editing inversion from 3,750 finished videos, it matches Claude Opus 5 on a 100-task benchmark while consuming roughly 33 times fewer tokens per useful minute, according to <a href=\"https://arxiv.org/abs/2610.38352\">the paper</a> (14 upvotes).",
+                "de": "WeVisCut verwandelt ein narratives Skript in ein langes Video: Sein Agenten-Harness hält einen gemeinsamen Produktionszustand aufrecht, und eine einzige Policy mit 9 Milliarden Parametern koordiniert die Werkzeuge und behebt Fehler. Trainiert auf über 130'000 durch Editier-Inversion aus 3'750 fertigen Videos gewonnenen Beispielen, erreicht sie auf einem Benchmark mit 100 Aufgaben Claude Opus 5 – bei rund 33-mal weniger Tokens pro genutzter Minute, gemäss <a href=\"https://arxiv.org/abs/2610.38352\">dem Artikel</a> (14 Stimmen).",
+                "it": "WeVisCut trasforma una sceneggiatura narrativa in video lungo: il suo harness di agente mantiene uno stato di produzione condiviso e una policy unica da 9 miliardi di parametri coordina gli strumenti e ripara i fallimenti. Addestrata su oltre 130 000 esempi estratti per inversione di montaggio da 3 750 video finiti, eguaglia Claude Opus 5 su un benchmark di 100 task consumando però quasi 33 volte meno token per minuto utile, secondo <a href=\"https://arxiv.org/abs/2610.38352\">l'articolo</a> (14 consensi).",
+                "lmo": "WeVisCut el trasforma on script narrativ in video longh: el sò bastiment d'agent el mantegn on stat de produzion condivis, e ona politega unega de 9 miliard de parameter la coordina i strument e la ripara i insuccess. Addestrada sora pussee de 130.000 esempi traa foeu per inversion de edits de 3.750 video finii, la riva al livell de Claude Opus 5 sora on benchmark de 100 lavorà cont el consumà quasi 33 voeulte manch de token per minutt util, segond <a href=\"https://arxiv.org/abs/2610.38352\">l'articol</a> (14 sostegn)."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.38352"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Co-Design Bench : les agents de code ne finissent qu'un quart des tâches réelles",
+                "en": "Co-Design Bench: Code Agents Finish Only a Quarter of Real-World Tasks",
+                "de": "Co-Design Bench: Code-Agenten bringen nur ein Viertel der realen Aufgaben zu Ende",
+                "it": "Co-Design Bench: gli agenti di codice portano a termine solo un quarto dei task reali",
+                "lmo": "Co-Design Bench: i agent de codes i finissen domà on quart di lavorà reaj"
+              },
+              "body": {
+                "fr": "L'équipe Qwen publie Co-Design Bench, un benchmark sans référence construit à partir de 26 314 sessions réelles de code : 273 tâches assorties de 2 331 critères d'acceptation cachés rédigés par des experts. Sur les dix points d'API testés sous un même harnais, le meilleur passe en moyenne 69,9 % des critères mais ne satisfait entièrement que 26,4 % des tâches — chiffres détaillés dans <a href=\"https://arxiv.org/abs/2610.35138\">le papier</a> du 30 octobre 2026.",
+                "en": "The Qwen team publishes Co-Design Bench, a reference-free benchmark built from 26,314 real coding sessions: 273 tasks paired with 2,331 hidden acceptance criteria written by experts. Across the ten API models tested under a single harness, the best passes an average of 69.9% of criteria but fully satisfies only 26.4% of tasks — figures detailed in <a href=\"https://arxiv.org/abs/2610.35138\">the paper</a> of 30 October 2026.",
+                "de": "Das Qwen-Team veröffentlicht Co-Design Bench, einen referenzfreien Benchmark aus 26'314 echten Code-Sitzungen: 273 Aufgaben mit 2'331 von Experten verfassten, verborgenen Akzeptanzkriterien. Von den zehn unter gleichem Harness getesteten API-Modellen erfüllt das beste durchschnittlich 69,9 % der Kriterien, schliesst aber nur 26,4 % der Aufgaben vollständig ab – Zahlen im Detail in <a href=\"https://arxiv.org/abs/2610.35138\">dem Papier</a> vom 30. Oktober 2026.",
+                "it": "Il team Qwen pubblica Co-Design Bench, un benchmark senza riferimento costruito a partire da 26 314 sessioni reali di codice: 273 task corredate di 2 331 criteri di accettazione nascosti redatti da esperti. Sui dieci punti d'API testati sotto uno stesso harness, il migliore supera in media il 69,9% dei criteri ma soddisfa pienamente solo il 26,4% dei task — cifre dettagliate in <a href=\"https://arxiv.org/abs/2610.35138\">il paper</a> del 30 ottobre 2026.",
+                "lmo": "L'equipo Qwen la publica Co-Design Bench, on benchmark senza riferiment costruii a partì de 26.314 session reaj de codes: 273 lavorà cont 2.331 criteri de acettazion scond scrivuu de espert. Sora i des pont de API pròaa cont l'istess bastiment, el mej el passa in media el 69,9% di criteri ma el sodisfa del tut domà el 26,4% di lavorà — cifra detaliaa in <a href=\"https://arxiv.org/abs/2610.35138\">el paper</a> del 30 de ottober 2026."
+              },
+              "kicker": {
+                "fr": "Agents de code",
+                "en": "Code Agents",
+                "de": "Code-Agenten",
+                "it": "Agenti di codice",
+                "lmo": "Agent de codes"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.35138"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Analyses",
+            "en": "Analyses",
+            "de": "Analysen",
+            "it": "Analisi",
+            "lmo": "Analisi"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Sur bras SO-101, l'agent LLM bat les politiques vision-langage-action",
+                "en": "On the SO-101 Arm, an LLM Agent Beats Vision-Language-Action Policies",
+                "de": "Auf dem SO-101-Arm schlägt der LLM-Agent die Vision-Language-Action-Policies",
+                "it": "Sul braccio SO-101, l'agente LLM batte le policy vision-langage-action",
+                "lmo": "Sora el brasc SO-101, l'agent LLM el batt i politegh vision-lengoeu-azion"
+              },
+              "body": {
+                "fr": "SO-101 Bench évalue la manipulation spatiale conditionnée au langage sur le bras low-cost SO-101, via un jumeau numérique Isaac Lab : 138 objets, 916 épisodes et 3 629 démonstrations simulées. Le jumeau reproduit exactement le classement du robot réel (rho de Spearman = 1,00), et un agent LLM qui écrit du code et délègue la préhension à une politique apprise atteint 83,2 %, loin devant les meilleures VLA (~61 %). <a href=\"https://arxiv.org/abs/2610.36420\">L'étude</a> du 30 octobre 2026 montre que l'avance vient du harnais et du choix du modèle de langage.",
+                "en": "SO-101 Bench evaluates language-conditioned spatial manipulation on the low-cost SO-101 arm, via an Isaac Lab digital twin: 138 objects, 916 episodes and 3,629 simulated demonstrations. The twin exactly reproduces the real robot's ranking (Spearman's rho = 1.00), and an LLM agent that writes code and delegates grasping to a learned policy reaches 83.2%, far ahead of the best VLAs (~61%). <a href=\"https://arxiv.org/abs/2610.36420\">The study</a> of 30 October 2026 shows the edge comes from the harness and the choice of language model.",
+                "de": "SO-101 Bench evaluiert sprachkonditionierte räumliche Manipulation auf dem günstigen SO-101-Arm mittels eines digitalen Zwillings in Isaac Lab: 138 Objekte, 916 Episoden und 3'629 simulierte Demonstrationen. Der Zwilling reproduziert die Rangfolge des realen Roboters exakt (Spearman-Rho = 1,00), und ein LLM-Agent, der Code schreibt und das Greifen an eine gelernte Policy delegiert, erreicht 83,2 % – weit vor den besten VLAs (~61 %). <a href=\"https://arxiv.org/abs/2610.36420\">Die Studie</a> vom 30. Oktober 2026 zeigt, dass der Vorsprung aus Harness und Wahl des Sprachmodells stammt.",
+                "it": "SO-101 Bench valuta la manipolazione spaziale condizionata dal linguaggio sul braccio low-cost SO-101, tramite un gemello digitale Isaac Lab: 138 oggetti, 916 episodi e 3 629 dimostrazioni simulate. Il gemello riproduce esattamente la classifica del robot reale (rho di Spearman = 1,00), e un agente LLM che scrive codice e delega la presa a una policy appresa raggiunge l'83,2%, ben avanti rispetto alle migliori VLA (~61%). <a href=\"https://arxiv.org/abs/2610.36420\">Lo studio</a> del 30 ottobre 2026 mostra che il vantaggio deriva dall'harness e dalla scelta del modello linguistico.",
+                "lmo": "SO-101 Bench el valuta la manipolazion spazial condizionada al lengoeu sora el brasc a bass cost SO-101, cont on sgemei digital Isaac Lab: 138 oggett, 916 episodi e 3.629 demonstrazion simulaa. El sgemei el reproduce con esattezza el classegh del robot real (rho de Spearman = 1,00), e on agent LLM che 'l scriv codes e 'l delega la presa a ona politega imparada el riva al 83,2%, ben denanz ai mej VLA (~61%). <a href=\"https://arxiv.org/abs/2610.36420\">El studi</a> del 30 de ottober 2026 el mostra che 'l vantagg el ven del bastiment e de la scerna del model de lengoeu."
+              },
+              "kicker": {
+                "fr": "Robotique",
+                "en": "Robotics",
+                "de": "Robotik",
+                "it": "Robotica",
+                "lmo": "Roboteca"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2610.36420"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editorial"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires",
+            "en": "Community Signals",
+            "de": "Community-Signale",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnaj de comunitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« LLM Voice » : Martin Fowler interroge la voix des modèles",
+                "en": "“LLM Voice”: Martin Fowler Questions the Voice of Models",
+                "de": "«LLM Voice»: Martin Fowler hinterfragt die Stimme der Modelle",
+                "it": "« LLM Voice »: Martin Fowler interroga la voce dei modelli",
+                "lmo": "« LLM Voice »: Martin Fowler el domanda la vos di modèj"
+              },
+              "body": {
+                "fr": "Martin Fowler publie « LLM Voice », une note de son bliki sur la question de la voix éditoriale des modèles génératifs — faut-il laisser un LLM écrire « au nom » d'une organisation ? <a href=\"https://martinfowler.com/bliki/LLM-Voice.html\">La note</a>, arrivée le 29 octobre 2026 en première page de Hacker News avec 407 points et 212 commentaires, relance le débat sur l'authenticité de l'écriture assistée par IA dans l'ingénierie logicielle.",
+                "en": "Martin Fowler publishes “LLM Voice”, a note from his bliki on the question of the editorial voice of generative models — should an LLM be allowed to write “on behalf of” an organization? <a href=\"https://martinfowler.com/bliki/LLM-Voice.html\">The note</a>, which reached the Hacker News front page on 29 October 2026 with 407 points and 212 comments, reignites the debate over the authenticity of AI-assisted writing in software engineering.",
+                "de": "Martin Fowler veröffentlicht «LLM Voice», eine Notiz aus seinem Bliki zur Frage der redaktionellen Stimme generativer Modelle – soll man ein LLM «im Namen» einer Organisation schreiben lassen? <a href=\"https://martinfowler.com/bliki/LLM-Voice.html\">Die Notiz</a>, am 29. Oktober 2026 mit 407 Punkten und 212 Kommentaren auf die Titelseite von Hacker News gelangt, belebt die Debatte über die Authentizität KI-gestützten Schreibens in der Softwaretechnik neu.",
+                "it": "Martin Fowler pubblica « LLM Voice », una nota del suo bliki sulla questione della voce editoriale dei modelli generativi — bisogna lasciare che un LLM scriva « a nome » di un'organizzazione? <a href=\"https://martinfowler.com/bliki/LLM-Voice.html\">La nota</a>, arrivata il 29 ottobre 2026 in prima pagina su Hacker News con 407 punti e 212 commenti, riaccende il dibattito sull'autenticità della scrittura assistita da IA nell'ingegneria del software.",
+                "lmo": "Martin Fowler el publica « LLM Voice », ona nota del sò bliki sora la question de la vos editorial di modèj generativ — se voeur lassà scriv on LLM « in nom » d'ona organizzazion? <a href=\"https://martinfowler.com/bliki/LLM-Voice.html\">La nota</a>, rivada el 29 de ottober 2026 in prima pagina de Hacker News con 407 pont e 212 comenter, la riva el debate sora l'autentichità de la scritura assistida de IA in del software engineering."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Debat"
+              },
+              "urls": [
+                "https://martinfowler.com/bliki/LLM-Voice.html",
+                "https://news.ycombinator.com/item?id=50290177"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Des essaims d'agents IA lâchés dans Minecraft et Mindustry",
+                "en": "AI Agent Swarms Let Loose in Minecraft and Mindustry",
+                "de": "KI-Agentenschwärme losgelassen in Minecraft und Mindustry",
+                "it": "Sciami di agenti IA liberati in Minecraft e Mindustry",
+                "lmo": "Sciàm d'agent IA mola in Minecraft e Mindustry"
+              },
+              "body": {
+                "fr": "Y Combinator Labs rapporte avoir fait tourner des essaims d'agents IA dans Minecraft et Mindustry, avec 239 points et 81 commentaires sur Hacker News le 29 octobre 2026. <a href=\"https://labs.ycombinator.com/projects/games/index.html\">La page projet</a> documente les comportements de coordination observés lorsque plusieurs agents doivent coopérer ou rivaliser dans des environnements de jeu persistants.",
+                "en": "Y Combinator Labs reports having run swarms of AI agents in Minecraft and Mindustry, with 239 points and 81 comments on Hacker News on 29 October 2026. <a href=\"https://labs.ycombinator.com/projects/games/index.html\">The project page</a> documents the coordination behaviors observed when multiple agents must cooperate or compete in persistent game environments.",
+                "de": "Y Combinator Labs berichtet, Schwärme von KI-Agenten in Minecraft und Mindustry betrieben zu haben – mit 239 Punkten und 81 Kommentaren auf Hacker News am 29. Oktober 2026. <a href=\"https://labs.ycombinator.com/projects/games/index.html\">Die Projektseite</a> dokumentiert die beobachteten Koordinationsverhalten, wenn mehrere Agenten in persistenten Spielumgebungen kooperieren oder konkurrieren müssen.",
+                "it": "Y Combinator Labs riferisce di aver eseguito sciami di agenti IA in Minecraft e Mindustry, con 239 punti e 81 commenti su Hacker News il 29 ottobre 2026. <a href=\"https://labs.ycombinator.com/projects/games/index.html\">La pagina del progetto</a> documenta i comportamenti di coordinamento osservati quando più agenti devono cooperare o gareggiare in ambienti di gioco persistenti.",
+                "lmo": "Y Combinator Labs el rapporta d'avè faa andà sciàm d'agent IA in Minecraft e Mindustry, cont 239 pont e 81 comenter sora Hacker News el 29 de ottober 2026. <a href=\"https://labs.ycombinator.com/projects/games/index.html\">La pagina progett</a> la documenta i comportament de coordinament osservaa quand che pussee agent i gh'han de cooperà o rivalizzà in di ambient de gioeugh persistent."
+              },
+              "kicker": {
+                "fr": "Expérience",
+                "en": "Experiment",
+                "de": "Erfahrung",
+                "it": "Esperienza",
+                "lmo": "Esperienza"
+              },
+              "urls": [
+                "https://labs.ycombinator.com/projects/games/index.html",
+                "https://news.ycombinator.com/item?id=50296486"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "DOOMFORMER : un transformeur dont les mathématiques tournent dans DOOM",
+                "en": "DOOMFORMER: A Transformer Whose Math Runs Inside DOOM",
+                "de": "DOOMFORMER: ein Transformer, dessen Mathematik in DOOM läuft",
+                "it": "DOOMFORMER: un transformer la cui matematica gira dentro DOOM",
+                "lmo": "DOOMFORMER: on transformer con la matematega che la gira in DOOM"
+              },
+              "body": {
+                "fr": "Un développeur présente DOOMFORMER, un transformeur dont toutes les opérations mathématiques sont réalisées par les mécaniques du jeu DOOM, Turing-complet — un « NumPy 65 000 fois plus lent », selon son auteur, capable de classer des chiffres MNIST inscrits sur la carte ou de piloter le marine du jeu. <a href=\"https://github.com/mottopanikeiku/doomformer\">Le projet</a>, posté le 29 octobre 2026 sur Hacker News, est présenté comme un défi d'ingénierie ludique plutôt qu'une prouesse d'efficacité.",
+                "en": "A developer presents DOOMFORMER, a transformer whose every mathematical operation is performed by the mechanics of the game DOOM — Turing-complete, a “65,000× slower NumPy” according to its author, capable of classifying MNIST digits inscribed on the map or steering the game's marine. <a href=\"https://github.com/mottopanikeiku/doomformer\">The project</a>, posted on 29 October 2026 on Hacker News, is presented as a playful engineering challenge rather than an efficiency feat.",
+                "de": "Ein Entwickler stellt DOOMFORMER vor, einen Transformer, dessen sämtliche mathematische Operationen von den Spielmechaniken von DOOM ausgeführt werden – Turing-vollständig, ein «um den Faktor 65'000 langsameres NumPy», so der Autor, das MNIST-Ziffern auf der Karte klassifizieren oder den Marine des Spiels steuern kann. <a href=\"https://github.com/mottopanikeiku/doomformer\">Das Projekt</a>, am 29. Oktober 2026 auf Hacker News gepostet, versteht sich als spielerische Ingenieursherausforderung denn als Effizienzleistung.",
+                "it": "Uno sviluppatore presenta DOOMFORMER, un transformer le cui operazioni matematiche sono tutte realizzate dalle meccaniche del gioco DOOM, Turing-completo — un « NumPy 65 000 volte più lento », secondo il suo autore, capace di classificare cifre MNIST scritte sulla mappa o di pilotare il marine del gioco. <a href=\"https://github.com/mottopanikeiku/doomformer\">Il progetto</a>, pubblicato il 29 ottobre 2026 su Hacker News, è presentato come una sfida d'ingegneria ludica più che come una impresa di efficienza.",
+                "lmo": "On desvilupador el presenta DOOMFORMER, on transformer che 'l fa tucc i sò operazion matemategh cont i mecanich del gioeugh DOOM, Turing-complet — on « NumPy 65.000 voeulte pussee lent », segond el sò autor, bon de classifegà di cifra MNIST scrivuu sora la mapa o de pilota el marine del gioeugh. <a href=\"https://github.com/mottopanikeiku/doomformer\">El progett</a>, postaa el 29 de ottober 2026 sora Hacker News, l'è presentaa comè ona sfida de ingegneria ludiga pussee che ona proeza de eficienza."
+              },
+              "kicker": {
+                "fr": "Frigorie",
+                "en": "Curiosity",
+                "de": "Kurioses",
+                "it": "Frigoria",
+                "lmo": "Frigoria"
+              },
+              "urls": [
+                "https://github.com/mottopanikeiku/doomformer",
+                "https://news.ycombinator.com/item?id=50297697"
+              ]
+            }
+          ],
+          "layout": "2-cols"
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Editorial"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le trillion de paramètres de trop ?",
+                "en": "One Trillion Parameters Too Many?",
+                "de": "Eine Billion Parameter zu viel?",
+                "it": "Il trilione di parametri di troppo?",
+                "lmo": "El billion de parameter de tropp?"
+              },
+              "body": {
+                "fr": "En ouvrant le 29 octobre 2026 les poids de Mistral Large 4 — 1 000 milliards de paramètres — Mistral choisit un pari inverse de celui d'Anthropic, qui s'apprête à s'introduire en Bourse, et de Cohere, qui plaide le même jour pour davantage de constructeurs frontière dans le monde démocratique. L'open-weight redevient un geste géopolitique autant que technique : <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">l'annonce</a> insiste sur le fait que le modèle est « entraîné en Europe », et <a href=\"https://news.ycombinator.com/item?id=50289418\">la réception communautaire</a> montre que la taille, justement, divise. Un trillion de paramètres n'est l'open source que de nom pour qui ne dispose pas d'un cluster. La véritable question, désormais, n'est plus qui publie des poids, mais qui peut réellement les faire tourner.",
+                "en": "By opening the weights of Mistral Large 4 — 1 trillion parameters — on 29 October 2026, Mistral is making the opposite bet to Anthropic, which is preparing to go public, and to Cohere, which argued the same day for more frontier builders in the democratic world. Open-weight is once again a geopolitical gesture as much as a technical one: <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">the announcement</a> insists the model is “trained in Europe”, and <a href=\"https://news.ycombinator.com/item?id=50289418\">the community reception</a> shows that size, precisely, divides. A trillion parameters is open source in name only for anyone without a cluster. The real question now is no longer who publishes weights, but who can actually run them.",
+                "de": "Mit der Öffnung der Gewichte von Mistral Large 4 am 29. Oktober 2026 – 1'000 Milliarden Parameter – setzt Mistral auf ein Gegengeschäft zu Anthropic, das sich auf die Börseneinführung vorbereitet, und zu Cohere, das am selben Tag für mehr Frontier-Erbauer in der demokratischen Welt plädiert. Open-Weight wird wieder zu einer ebenso geopolitischen wie technischen Geste: <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">die Ankündigung</a> betont, das Modell sei «in Europa trainiert», und <a href=\"https://news.ycombinator.com/item?id=50289418\">die Reaktion der Community</a> zeigt, dass gerade die Grösse spaltet. Eine Billion Parameter ist Open Source nur dem Namen nach für jeden, der über keinen Cluster verfügt. Die eigentliche Frage lautet inzwischen nicht mehr, wer Gewichte publiziert, sondern wer sie tatsächlich betreiben kann.",
+                "it": "Aprendo il 29 ottobre 2026 i pesi di Mistral Large 4 — 1 000 miliardi di parametri — Mistral sceglie una scommessa opposta a quella di Anthropic, che si appresta a entrare in Borsa, e di Cohere, che plidea lo stesso giorno per più costruttori di frontiera nel mondo democratico. L'open-weight ridiventa un gesto geopolitico oltre che tecnico: <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">l'annuncio</a> sottolinea che il modello è « addestrato in Europa », e <a href=\"https://news.ycombinator.com/item?id=50289418\">la ricezione della comunità</a> mostra che proprio la dimensione divide. Un trilione di parametri è open source solo di nome per chi non dispone di un cluster. La vera questione, ormai, non è più chi pubblica pesi, ma chi può realmente eseguirli.",
+                "lmo": "Dervend el 29 de ottober 2026 i pes de Mistral Large 4 — 1.000 miliard de parameter — Mistral el scerniss ona scommessa contraria a quella de Anthropic, che 'l se prepara a andà in Borsa, e de Cohere, che 'l sustegn l'istess dì l'è necessari pussee costrutor frontiera in del mond democrategh. L'open-weight el deven torna on gest geopolitegh inscì comè tecnegh: <a href=\"https://mistral.ai/news/mistral-large-4-oss/\">l'anunzi</a> el insista sora el fatt che 'l model l'è « addestraa in Europa », e <a href=\"https://news.ycombinator.com/item?id=50289418\">la recezion de la comunitaa</a> la mostra che la dimension, propi lee, la divid. On billion de parameter l'è open-weight domà de nom per chi che 'l gh'ha no on cluster. La vera domanda, ades, l'è pu chi che 'l publica di pes, ma chi che 'l po davvero fàj andà."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Editorial"
+              },
+              "urls": [
+                "https://mistral.ai/news/mistral-large-4-oss/",
+                "https://news.ycombinator.com/item?id=50289418"
+              ]
+            }
+          ],
+          "layout": "1-col"
+        }
+      ]
+    }
+  ]
+}
