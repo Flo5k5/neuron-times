@@ -1,0 +1,521 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-11-01",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Dans un billet publié le 31 octobre 2026, l'équipe de recherche <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter détaille</a> la chaîne d'étapes — « do the math », écrivent-ils — qui l'a conduite à un point faible dans le parcours d'authentification de ChatGPT, jusqu'à la prise de contrôle effective de comptes utilisateurs. Le récit technique a immédiatement circulé sur <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a>, où il a recueilli 315 points et 157 commentaires en moins de 24 heures, signe d'une discussion de fond sur la robustesse des boucles OAuth des produits IA grand public.",
+        "en": "In a post published on October 31, 2026, the research team at <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter details</a> the chain of steps — \"do the math,\" they write — that led it to a weak point in ChatGPT's authentication flow, through to the effective takeover of user accounts. The technical write-up immediately circulated on <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a>, where it gathered 315 points and 157 comments in less than 24 hours — a sign of substantive debate over the robustness of OAuth loops in consumer AI products.",
+        "de": "In einem am 31. Oktober 2026 veröffentlichten Beitrag <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">schildert das Forschungsteam Parameter</a> die Kette von Schritten — «do the math», schreiben sie —, die zu einer Schwachstelle im Authentifizierungsablauf von ChatGPT führte, bis hin zur tatsächlichen Übernahme von Benutzerkonten. Der technische Bericht verbreitete sich umgehend auf <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a>, wo er innert 24 Stunden 315 Punkte und 157 Kommentare sammelte — ein Zeichen für eine Grundsatzdebatte über die Robustheit der OAuth-Schleifen von KI-Produkten für den Massenmarkt.",
+        "it": "In un articolo pubblicato il 31 ottobre 2026, il team di ricerca <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter descrive</a> la catena di passaggi — « do the math », scrivono — che l'ha condotto a un punto debole nel percorso di autenticazione di ChatGPT, fino alla presa di controllo effettiva di account utente. Il racconto tecnico ha immediatamente circolato su <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a>, dove ha raccolto 315 punti e 157 commenti in meno di 24 ore, segno di una discussione di fondo sulla robustezza dei flussi OAuth dei prodotti IA destinati al grande pubblico.",
+        "lmo": "In d'on articol publicaa el 31 de otober 2026, la squadra de ricerca <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter la descriv</a> la cadena de passagg — « do the math », scriven lor — che l'ha menada a on punt deboel in del percors d'autentegazzion de ChatGPT, fina a la presa de control efettiva di cont utent. El cunt tecnich l'è staa subci spantegaa in sora <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a>, indue l'ha cattaa 315 pont e 157 coment in manch de 24 ore, segn d'ona discüssion de fond in sora la robusteza di cicol OAuth di prodott IA per la gent comuna."
+      },
+      {
+        "fr": "OpenAI n'avait pas publié, au 1er novembre 2026, de communication dédiée sur cette faille précise. Le même 31 octobre, l'entreprise consolidait en revanche un autre pan de sa gouvernance : la fusion progressive des limites d'usage entre ChatGPT et Codex, documentée dans son <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">centre d'aide</a>.",
+        "en": "As of November 1, 2026, OpenAI had not published dedicated communications on this specific flaw. That same October 31, however, the company consolidated another plank of its governance: the gradual merger of usage limits between ChatGPT and Codex, documented in its <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">help center</a>.",
+        "de": "OpenAI hatte bis zum 1. November 2026 keine eigene Kommunikation zu genau dieser Lücke veröffentlicht. Am selben 31. Oktober konsolidierte das Unternehmen hingegen einen anderen Aspekt seiner Governance: die schrittweise Zusammenführung der Nutzungslimits von ChatGPT und Codex, dokumentiert im eigenen <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">Hilfecenter</a>.",
+        "it": "Al 1° novembre 2026 OpenAI non aveva ancora pubblicato una comunicazione dedicata a questa vulnerabilità specifica. Lo stesso 31 ottobre, l'azienda consolidava invece un altro versante della propria governance: la fusione progressiva dei limiti d'uso tra ChatGPT e Codex, documentata nel suo <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">centro di assistenza</a>.",
+        "lmo": "OpenAI l'aveva minga publicaa, al 1 de november 2026, ona comunicazzion dedica in sora sta faila chì. El midem 31 de otober, la cumpagnia l'ha però consolidaa on olter tocch del so govern: la fusion graduale di limit d'usagg intra ChatGPT e Codex, documentada in del so <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">centr d'aiutt</a>."
+      }
+    ],
+    "urls": [
+      "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "https://news.ycombinator.com/item?id=50314699"
+    ],
+    "kicker": {
+      "fr": "Sécurité",
+      "en": "Security",
+      "de": "Sicherheit",
+      "it": "Sicurezza",
+      "lmo": "Sigurezza"
+    },
+    "headline": {
+      "fr": "Comptes ChatGPT détournés par les mathématiques : la faille corrigée chez OpenAI racontée par ceux qui l'ont trouvée",
+      "en": "ChatGPT Accounts Hijacked by Doing the Math: Inside the OpenAI Flaw, as Told by Those Who Found It",
+      "de": "ChatGPT-Konten mit Mathematik gekapert: Die bei OpenAI geschlossene Lücke, erzählt von jenen, die sie fanden",
+      "it": "Account ChatGPT dirottati con la matematica: la vulnerabilità corretta presso OpenAI raccontata da chi l'ha trovata",
+      "lmo": "Cont ChatGPT dirottaa con i matemategh : la faila coreggiuda de OpenAI cuntada de chi l'hann trovada"
+    },
+    "subdeck": {
+      "fr": "Le cabinet Parameter décrit, dans un récit publié le 31 octobre 2026, comment une lacune du flux d'authentification a permis de prendre le contrôle de comptes ChatGPT avant correction.",
+      "en": "The firm Parameter describes, in a write-up published on October 31, 2026, how a gap in the authentication flow allowed ChatGPT accounts to be taken over before the fix.",
+      "de": "Das Büro Parameter beschreibt in einem am 31. Oktober 2026 veröffentlichten Bericht, wie eine Lücke im Authentifizierungsablauf es ermöglichte, ChatGPT-Konten zu übernehmen, bevor sie geschlossen wurde.",
+      "it": "Lo studio Parameter descrive, in un racconto pubblicato il 31 ottobre 2026, come una lacuna nel flusso di autenticazione abbia permesso di prendere il controllo di account ChatGPT prima della correzione.",
+      "lmo": "El studi Parameter el descriv, in d'on cunt publicaa el 31 de otober 2026, cume 'na laca del fluss d'autentegazzion l'ha permetuu de tegnì el control di cont ChatGPT prima de la corezzion."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Karpathy construit un YouTube entier à partir des recommandations de Hacker News",
+        "en": "Karpathy Builds an Entire YouTube Out of Hacker News Recommendations",
+        "de": "Karpathy baut ein ganzes YouTube aus den Empfehlungen von Hacker News",
+        "it": "Karpathy costruisce un intero YouTube a partire dai consigli di Hacker News",
+        "lmo": "Karpathy el custruiss on YouTube inteer a partì di recomendazzion de Hacker News"
+      },
+      "body": {
+        "fr": "Andrej Karpathy publie <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, une interface façon YouTube alimentée par 6 454 vidéos recommandées dans 39 834 commentaires Hacker News depuis 2007. Le projet a récolté 996 points et 306 commentaires en moins d'une journée sur <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — la discussion la plus chaude du 31 octobre 2026.",
+        "en": "Andrej Karpathy releases <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, a YouTube-style interface powered by 6,454 videos recommended in 39,834 Hacker News comments since 2007. The project gathered 996 points and 306 comments in under a day on <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — the hottest discussion of October 31, 2026.",
+        "de": "Andrej Karpathy veröffentlicht <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, eine YouTube-artige Oberfläche, gespeist aus 6 454 Videos, die seit 2007 in 39 834 Hacker-News-Kommentaren empfohlen wurden. Das Projekt sammelte innert eines Tages 996 Punkte und 306 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — die heisseste Diskussion des 31. Oktober 2026.",
+        "it": "Andrej Karpathy pubblica <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, un'interfaccia in stile YouTube alimentata da 6 454 video consigliati in 39 834 commenti Hacker News dal 2007. Il progetto ha raccolto 996 punti e 306 commenti in meno di un giorno su <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — la discussione più calda del 31 ottobre 2026.",
+        "lmo": "Andrej Karpathy el publica <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, ona interfaccia manéra YouTube almentada de 6 454 videu recomendaa in 39 834 coment de Hacker News dal 2007. El prut l'ha ciapaa 996 pont e 306 coment in manch d'on dì in sora <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — la discüssion püsssee calda del 31 de otober 2026."
+      },
+      "tag": {
+        "fr": "Communauté",
+        "en": "Community",
+        "de": "Community",
+        "it": "Comunità",
+        "lmo": "Cumpagnia"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 octobre 2026",
+        "en": "From the Wires — October 31, 2026",
+        "de": "From the Wires — 31. Oktober 2026",
+        "it": "From the Wires — 31 ottobre 2026",
+        "lmo": "From the Wires — 31 de otober 2026"
+      },
+      "urls": [
+        "https://karpathy.bearblog.dev/hacker-tube/",
+        "https://news.ycombinator.com/item?id=50319510"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Anthropic bloquerait des comptes liés à l'entraînement de grands modèles",
+        "en": "Anthropic Reportedly Blocks Accounts Tied to Training Large Models",
+        "de": "Anthropic blockiert Berichten zufolge Konten mit Bezug zum Training grosser Modelle",
+        "it": "Anthropic bloccherebbe account legati all'addestramento di grandi modelli",
+        "lmo": "Anthropic la blocarìa di cont ligaa a l'adestrament de modej grand"
+      },
+      "body": {
+        "fr": "Un signalement relayé le 31 octobre 2026 sur <a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Twitter</a> soutient qu'Anthropic suspend des utilisateurs dont l'activité touche à l'entraînement de modèles plus grands. La discussion <a href=\"https://news.ycombinator.com/item?id=50319358\">Hacker News</a> (288 points, 161 commentaires) interroge la frontière entre conditions d'utilisation et gel du savoir-faire concurrentiel.",
+        "en": "A report relayed on October 31, 2026 on <a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Twitter</a> claims Anthropic suspends users whose activity touches on training larger models. The <a href=\"https://news.ycombinator.com/item?id=50319358\">Hacker News</a> discussion (288 points, 161 comments) probes the boundary between terms of service and freezing competitive know-how.",
+        "de": "Ein am 31. Oktober 2026 auf <a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Twitter</a> verbreiteter Hinweis behauptet, Anthropic suspendiere Nutzer, deren Tätigkeit das Training grösserer Modelle berührt. Die <a href=\"https://news.ycombinator.com/item?id=50319358\">Hacker-News</a>-Diskussion (288 Punkte, 161 Kommentare) fragt, wo die Grenze zwischen Nutzungsbedingungen und dem Einfrieren von Konkurrenzwissen verläuft.",
+        "it": "Una segnalazione ripresa il 31 ottobre 2026 su <a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Twitter</a> sostiene che Anthropic sospende utenti la cui attività tocca l'addestramento di modelli più grandi. La discussione su <a href=\"https://news.ycombinator.com/item?id=50319358\">Hacker News</a> (288 punti, 161 commenti) interroga il confine tra condizioni d'uso e congelamento del know-how concorrente.",
+        "lmo": "On segnament spantegaa el 31 de otober 2026 in sora <a href=\"https://twitter.com/jiahaoshao1/status/2116475922190922088\">Twitter</a> el dis che Anthropic la sospens di utent che la soa ativezza la tuca l'adestrament de modej püsssee grand. La discüssion <a href=\"https://news.ycombinator.com/item?id=50319358\">Hacker News</a> (288 pont, 161 coment) la dumanda se gh'è 'na frontera intra i condizzion d'usagg e el blocch del savè fà cuncurrent."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Grand"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 octobre 2026",
+        "en": "From the Wires — October 31, 2026",
+        "de": "From the Wires — 31. Oktober 2026",
+        "it": "From the Wires — 31 ottobre 2026",
+        "lmo": "From the Wires — 31 de otober 2026"
+      },
+      "urls": [
+        "https://twitter.com/jiahaoshao1/status/2116475922190922088",
+        "https://news.ycombinator.com/item?id=50319358"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Memdoor : une équipe de cinq Qwen3.8-27B bat Fable 5 sur LiveCodeBench Hard",
+        "en": "Memdoor: A Five-Model Team of Qwen3.8-27B Beats Fable 5 on LiveCodeBench Hard",
+        "de": "Memdoor: Ein Team von fünf Qwen3.8-27B schlägt Fable 5 auf LiveCodeBench Hard",
+        "it": "Memdoor: un team di cinque Qwen3.8-27B batte Fable 5 su LiveCodeBench Hard",
+        "lmo": "Memdoor : ona squadra de cinch Qwen3.8-27B la bat Fable 5 in sora LiveCodeBench Hard"
+      },
+      "body": {
+        "fr": "Une équipe de 5 Qwen3.8-27B coordonnée par <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Memdoor</a> dépasse Fable 5 sur LiveCodeBench Hard. Le fil <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 points, 88 commentaires) y lit la preuve que l'orchestration d'agents peut compenser une taille de modèle modeste.",
+        "en": "A team of 5 Qwen3.8-27B coordinated by <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Memdoor</a> beats Fable 5 on LiveCodeBench Hard. The <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> thread (162 points, 88 comments) reads it as proof that agent orchestration can compensate for a modest model size.",
+        "de": "Ein Team von 5 Qwen3.8-27B, koordiniert von <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Memdoor</a>, übertrifft Fable 5 auf LiveCodeBench Hard. Der <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker-News</a>-Thread (162 Punkte, 88 Kommentare) liest daraus den Beweis, dass Orchestrierung von Agenten eine bescheidene Modellgrösse ausgleichen kann.",
+        "it": "Un team di 5 Qwen3.8-27B coordinato da <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Memdoor</a> supera Fable 5 su LiveCodeBench Hard. Il thread su <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 punti, 88 commenti) vi legge la prova che l'orchestrazione di agenti può compensare una dimensione contenuta del modello.",
+        "lmo": "Ona squadra de 5 Qwen3.8-27B cordinada de <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">Memdoor</a> la supera Fable 5 in sora LiveCodeBench Hard. El fil <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 pont, 88 coment) el gh'ha lesüü chì la prüva che l'urganizazzion di agent la pò cumpensà ona dimension de mudel pudè."
+      },
+      "tag": {
+        "fr": "Technique",
+        "en": "Technical",
+        "de": "Technik",
+        "it": "Tecnica",
+        "lmo": "Tecnegh"
+      },
+      "wire": {
+        "fr": "From the Wires — 31 octobre 2026",
+        "en": "From the Wires — October 31, 2026",
+        "de": "From the Wires — 31. Oktober 2026",
+        "it": "From the Wires — 31 ottobre 2026",
+        "lmo": "From the Wires — 31 de otober 2026"
+      },
+      "urls": [
+        "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+        "https://news.ycombinator.com/item?id=50320995"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Un tribunal brésilien sanctionne une injection de prompt dans un dossier judiciaire",
+        "en": "A Brazilian Court Sanctions a Prompt Injection in a Court Filing",
+        "de": "Ein brasilianisches Gericht sanktioniert eine Prompt-Injection in einem Gerichtsdossier",
+        "it": "Un tribunale brasiliano sanziona una prompt injection in un fascicolo giudiziario",
+        "lmo": "On tribünal brasilian el sanziona ona injizzion de prompt in d'on cas giüdezzia"
+      },
+      "body": {
+        "fr": "Des avocats brésiliens ont été sanctionnés pour avoir dissimulé des instructions dans un dépôt de procédure — la première sanction judiciaire documentée pour injection de prompt, relatée le 1er novembre 2026 par <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a> et discutée sur <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 points, 23 commentaires).",
+        "en": "Brazilian lawyers were sanctioned for hiding instructions inside a court filing — the first documented judicial sanction for prompt injection, reported on November 1, 2026 by <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a> and discussed on <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 points, 23 comments).",
+        "de": "Brasilianische Anwälte wurden sanktioniert, weil sie Anweisungen in einem Verfahrensdossier versteckt hatten — die erste dokumentierte gerichtliche Sanktion für Prompt-Injection, berichtet am 1. November 2026 <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a> und diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 Punkte, 23 Kommentare).",
+        "it": "Avvocati brasiliani sono stati sanzionati per aver nascosto istruzioni in un deposito processuale — la prima sanzione giudiziaria documentata per prompt injection, riferita il 1° novembre 2026 da <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a> e discussa su <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 punti, 23 commenti).",
+        "lmo": "Di avucatt brasilian hinn staa sanzionaa perchè aveven scunduu di istrüzzion in d'on deposit de prusedura — la prima sanzion giüdezzia documentaa per injizzion de prompt, cuntaa el 1 de november 2026 de <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a> e discutüda in sora <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 pont, 23 coment)."
+      },
+      "tag": {
+        "fr": "Juridique",
+        "en": "Legal",
+        "de": "Recht",
+        "it": "Giuridico",
+        "lmo": "Giüdezzia"
+      },
+      "wire": {
+        "fr": "From the Wires — 1er novembre 2026",
+        "en": "From the Wires — November 1, 2026",
+        "de": "From the Wires — 1. November 2026",
+        "it": "From the Wires — 1° novembre 2026",
+        "lmo": "From the Wires — 1 de november 2026"
+      },
+      "urls": [
+        "https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/",
+        "https://news.ycombinator.com/item?id=50322173"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & the Frontier",
+        "de": "Titelseite — Modelle & Frontiere",
+        "it": "Prima Pagina — Modelli & Frontiera",
+        "lmo": "A la Una — Modej & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière & Industrie",
+            "en": "Frontier & Industry",
+            "de": "Frontiere & Industrie",
+            "it": "Frontiera & Industria",
+            "lmo": "Frontiera & Indüstria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "ChatGPT et Codex : OpenAI fusionne progressivement les limites d'usage",
+                "en": "ChatGPT and Codex: OpenAI Is Gradually Merging Usage Limits",
+                "de": "ChatGPT und Codex: OpenAI führt die Nutzungslimits schrittweise zusammen",
+                "it": "ChatGPT e Codex: OpenAI fonde progressivamente i limiti d'uso",
+                "lmo": "ChatGPT e Codex : OpenAI la met insema graduaiment i limit d'usagg"
+              },
+              "body": {
+                "fr": "Un document du centre d'aide OpenAI repéré le 31 octobre 2026 <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">détaille</a> la fusion des quotas entre ChatGPT et Codex, l'agent de code de l'entreprise. La discussion sur <a href=\"https://news.ycombinator.com/item?id=50320588\">Hacker News</a> (57 points, 21 commentaires) s'interroge sur les effets pour les abonnés lourds en usage de code : un budget unique partagé entre conversation et agent, plutôt que deux plafonds séparés. Le mouvement prolonge la convergence produit engagée par OpenAI entre son assistant généraliste et ses outils de développement.",
+                "en": "An OpenAI help-center document spotted on October 31, 2026 <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">details</a> the merger of quotas between ChatGPT and Codex, the company's coding agent. The discussion on <a href=\"https://news.ycombinator.com/item?id=50320588\">Hacker News</a> (57 points, 21 comments) wonders about the effects for subscribers heavy on coding usage: a single budget shared between conversation and agent, rather than two separate caps. The move extends OpenAI's ongoing product convergence between its general-purpose assistant and its developer tools.",
+                "de": "Ein am 31. Oktober 2026 entdecktes Dokument im OpenAI-Hilfecenter <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">erläutert</a> die Zusammenführung der Kontingente zwischen ChatGPT und Codex, dem Code-Agenten des Unternehmens. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50320588\">Hacker News</a> (57 Punkte, 21 Kommentare) fragt nach den Auswirkungen auf abonnementstarke Code-Nutzer: ein einziges Budget, geteilt zwischen Konversation und Agent, statt zwei getrennten Deckelungen. Der Schritt setzt die produktpolitische Konvergenz fort, die OpenAI zwischen seinem Allzweck-Assistenten und seinen Entwicklungswerkzeugen eingeschlagen hat.",
+                "it": "Un documento del centro di assistenza OpenAI individuato il 31 ottobre 2026 <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">dettaglia</a> la fusione delle quote tra ChatGPT e Codex, l'agente di codice dell'azienda. La discussione su <a href=\"https://news.ycombinator.com/item?id=50320588\">Hacker News</a> (57 punti, 21 commenti) si interroga sugli effetti per gli abbonati che fanno un uso intensivo del codice: un budget unico condiviso tra conversazione e agente, invece di due tetti separati. La mossa prolunga la convergenza di prodotto avviata da OpenAI tra il proprio assistente generalista e i propri strumenti di sviluppo.",
+                "lmo": "On document del centr d'aiutt de OpenAI viduu el 31 de otober 2026 <a href=\"https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits\">el detaja</a> la fusion di quòta intra ChatGPT e Codex, l'agent de codes de la cumpagnia. La discüssion in sora <a href=\"https://news.ycombinator.com/item?id=50320588\">Hacker News</a> (57 pont, 21 coment) la se dumanda cume saran i efett per i abonaa che droven tant el codes: on budget unic spartii intra cunversazzion e agent, pussee che düi plafon separaa. El muviment el slunghessa la cunvergenza de prodott incaminada de OpenAI intra el so assurrent generalista e i sò utej de svilupp."
+              },
+              "kicker": {
+                "fr": "Plateformes",
+                "en": "Platforms",
+                "de": "Plattformen",
+                "it": "Piattaforme",
+                "lmo": "Piattaform"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Notes frontière",
+            "en": "Frontier Notes",
+            "de": "Notizen von der Frontiere",
+            "it": "Note di frontiera",
+            "lmo": "Not de frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Tatouer un texte IA sans le dégrader : l'analyse qui relance le débat",
+                "en": "Watermarking AI Text Without Degrading It: The Analysis That Reignites the Debate",
+                "de": "KI-Text wässern, ohne ihn zu verschlechtern: Die Analyse, die die Debatte neu entfacht",
+                "it": "Tatuare un testo IA senza degradarlo: l'analisi che rilancia il dibattito",
+                "lmo": "Tattuà on test IA senza deterioràll : l'analisi che la riparta el dibatit"
+              },
+              "body": {
+                "fr": "Le billet <a href=\"https://blog.keyvan.net/p/ai-text-watermarking-and-quality\">« AI text watermarking and quality loss »</a>, discuté sur la page d'accueil de Hacker News le 31 octobre 2026, examine l'arbitrage entre détectabilité et qualité de génération : plus un tatouage statistique est robuste, plus il contraint la distribution des tokens du modèle. La discussion (7 commentaires, 43 points) fait écho aux débats réglementaires sur la provenance des contenus générés, où les exigences techniques de marquage se heurtent encore à des pertes mesurables de performance.",
+                "en": "The post <a href=\"https://blog.keyvan.net/p/ai-text-watermarking-and-quality\">\"AI text watermarking and quality loss\"</a>, discussed on the Hacker News front page on October 31, 2026, examines the trade-off between detectability and generation quality: the more robust a statistical watermark, the more it constrains the model's token distribution. The discussion (7 comments, 43 points) echoes regulatory debates over the provenance of generated content, where technical marking requirements still run up against measurable performance losses.",
+                "de": "Der Beitrag <a href=\"https://blog.keyvan.net/p/ai-text-watermarking-and-quality\">«AI text watermarking and quality loss»</a>, am 31. Oktober 2026 auf der Hacker-News-Titelseite diskutiert, untersucht den Zielkonflikt zwischen Nachweisbarkeit und Generierungsqualität: Je robuster ein statistisches Wasserzeichen, desto stärker schränkt es die Token-Verteilung des Modells ein. Die Diskussion (7 Kommentare, 43 Punkte) spiegelt die regulatorischen Debatten über die Herkunft generierter Inhalte, in denen sich technische Kennzeichnungsanforderungen weiterhin an messbaren Leistungseinbüssen reiben.",
+                "it": "L'articolo <a href=\"https://blog.keyvan.net/p/ai-text-watermarking-and-quality\">« AI text watermarking and quality loss »</a>, discusso in prima pagina su Hacker News il 31 ottobre 2026, esamina l'arbitraggio tra rilevabilità e qualità della generazione: più un watermark statistico è robusto, più vincola la distribuzione dei token del modello. La discussione (7 commenti, 43 punti) fa eco ai dibattiti normativi sulla provenienza dei contenuti generati, dove le esigenze tecniche di marcatura si scontrano ancora con perdite misurabili di prestazioni.",
+                "lmo": "L'articol <a href=\"https://blog.keyvan.net/p/ai-text-watermarking-and-quality\">« AI text watermarking and quality loss »</a>, discutuu in sora la pagina principal de Hacker News el 31 de otober 2026, el descriv l'acordi intra rilevabilità e qualità de generazzion: pussee on tatuagg statistegh l'è robust, pussee el vincola la distribuzzion di token del mudel. La discüssion (7 coment, 43 pont) l'è l'eco di dibatit regulamentar in sora la provenienza di cuntenuu generaa, indue i esigenz tecniche de marcagg ancora se sconteren con Perd measurable de perfurmanza."
+              },
+              "kicker": {
+                "fr": "Watermarking",
+                "en": "Watermarking",
+                "de": "Watermarking",
+                "it": "Watermarking",
+                "lmo": "Watermarking"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Desk",
+        "de": "Das Technische Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quaderni Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Harnais & Outils",
+            "en": "Harnesses & Tooling",
+            "de": "Harness & Werkzeuge",
+            "it": "Harness & Strumenti",
+            "lmo": "Imbragheri & Utej"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Memdoor : cinq Qwen3.8-27B en équipe battent un modèle frontière sur LiveCodeBench Hard",
+                "en": "Memdoor: A Five-Model Team of Qwen3.8-27B Beats a Frontier Model on LiveCodeBench Hard",
+                "de": "Memdoor: Fünf Qwen3.8-27B im Team schlagen ein Frontier-Modell auf LiveCodeBench Hard",
+                "it": "Memdoor: cinque Qwen3.8-27B in squadra battono un modello frontiera su LiveCodeBench Hard",
+                "lmo": "Memdoor : cinch Qwen3.8-27B in squadra baten on mudel de frontiera in sora LiveCodeBench Hard"
+              },
+              "body": {
+                "fr": "Un projet publié le 31 octobre 2026 sur <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">GitHub</a> montre une équipe de 5 modèles Qwen3.8-27B coordonnés par Memdoor qui surpasse Fable 5 sur la variante Hard de LiveCodeBench. La discussion <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 points, 88 commentaires) s'est concentrée sur le ratio coût/performance : de petits poids open-weights orchestrés en essaim rivalisent avec une offre frontière propriétaire, indice de plus que la coordination d'agents devient un levier aussi décisif que la taille du modèle.",
+                "en": "A project published on October 31, 2026 on <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">GitHub</a> shows a team of 5 Qwen3.8-27B models coordinated by Memdoor outperforming Fable 5 on the Hard variant of LiveCodeBench. The <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> discussion (162 points, 88 comments) focused on the cost/performance ratio: small open-weight models orchestrated as a swarm rival a proprietary frontier offering — further evidence that agent coordination is becoming as decisive a lever as model size.",
+                "de": "Ein am 31. Oktober 2026 auf <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">GitHub</a> veröffentlichtes Projekt zeigt ein Team von 5 Modellen Qwen3.8-27B, koordiniert von Memdoor, das Fable 5 auf der Hard-Variante von LiveCodeBench übertrifft. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 Punkte, 88 Kommentare) konzentrierte sich auf das Kosten-Leistungs-Verhältnis: kleine Open-Weights-Gewichte, als Schwarm orchestriert, rivalisieren mit einem proprietären Frontier-Angebot — ein weiterer Hinweis darauf, dass die Koordination von Agenten zu einem ebenso entscheidenden Hebel wird wie die Modellgrösse.",
+                "it": "Un progetto pubblicato il 31 ottobre 2026 su <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">GitHub</a> mostra un team di 5 modelli Qwen3.8-27B coordinati da Memdoor che supera Fable 5 sulla variante Hard di LiveCodeBench. La discussione su <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 punti, 88 commenti) si è concentrata sul rapporto costo/prestazioni: piccoli pesi open-weights orchestrati in sciam superano un'offerta frontiera proprietaria, ulteriore indizio che il coordinamento degli agenti diventa una leva decisiva quanto la dimensione del modello.",
+                "lmo": "On prut Publicaa el 31 de otober 2026 in sora <a href=\"https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve\">GitHub</a> el fà vedè ona squadra de 5 modej Qwen3.8-27B cordinada de Memdoor che la supera Fable 5 in sora la varianta Hard de LiveCodeBench. La discüssion <a href=\"https://news.ycombinator.com/item?id=50320995\">Hacker News</a> (162 pont, 88 coment) la s'è concentrada in sora el rapòrt cost/perfurmanza: di pesègg open-weights piscinin urganizaa in sciami garen cun ona oferta de frontiera pruprietaria, indizi che la cordinazzion di agent la deventa on leva inscì decisiv cume la dimension del mudel."
+              },
+              "kicker": {
+                "fr": "Agents",
+                "en": "Agents",
+                "de": "Agenten",
+                "it": "Agenti",
+                "lmo": "Agent"
+              }
+            },
+            {
+              "headline": {
+                "fr": "« It's the memory latency, stupid » : la bande passante ne suffit plus",
+                "en": "\"It's the Memory Latency, Stupid\": Bandwidth Is No Longer Enough",
+                "de": "«It's the memory latency, stupid»: Bandbreite allein genügt nicht mehr",
+                "it": "« It's the memory latency, stupid »: la larghezza di banda non basta più",
+                "lmo": "« It's the memory latency, stupid » : la larghezza de banda la basta pussee"
+              },
+              "body": {
+                "fr": "L'essai <a href=\"https://pivotlake.io/blog/its-the-memory-latancy-stupid/\">publié le 31 octobre 2026</a> argue que la latence mémoire, et non le débit, devient le goulot dominant des serveurs d'inférence LLM — les longues files de décodage token par token étant particulièrement sensibles au temps d'accès aux poids et au cache KV. La discussion sur <a href=\"https://news.ycombinator.com/item?id=50318720\">Hacker News</a> (170 points, 46 commentaires) relie l'analyse aux choix matériels récents : hiérarchies HBM, poids résidants en mémoire, et l'engouement pour les architectures à experts épars.",
+                "en": "The essay <a href=\"https://pivotlake.io/blog/its-the-memory-latancy-stupid/\">published on October 31, 2026</a> argues that memory latency, not bandwidth, is becoming the dominant bottleneck in LLM inference servers — with long token-by-token decoding queues particularly sensitive to access times for weights and the KV cache. The discussion on <a href=\"https://news.ycombinator.com/item?id=50318720\">Hacker News</a> (170 points, 46 comments) connects the analysis to recent hardware choices: HBM hierarchies, weights resident in memory, and the enthusiasm for sparse-expert architectures.",
+                "de": "Der am 31. Oktober 2026 <a href=\"https://pivotlake.io/blog/its-the-memory-latancy-stupid/\">veröffentlichte Essay</a> argumentiert, dass die Speicherlatenz — nicht der Durchsatz — zum dominierenden Engpass von LLM-Inferenzservern wird: Die langen Warteschlangen der Token-für-Token-Dekodierung reagieren besonders empfindlich auf Zugriffszeiten auf Gewichte und KV-Cache. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50318720\">Hacker News</a> (170 Punkte, 46 Kommentare) verknüpft die Analyse mit jüngsten Hardware-Entscheidungen: HBM-Hierarchien, residente Gewichte im Speicher und der Enthusiasmus für Architekturen mit spärlichen Experten.",
+                "it": "Il saggio <a href=\"https://pivotlake.io/blog/its-the-memory-latancy-stupid/\">pubblicato il 31 ottobre 2026</a> sostiene che la latenza di memoria, e non la larghezza di banda, diventa il collo di bottiglia dominante dei server di inferenza LLM — le lunghe code di decodifica token per token essendo particolarmente sensibili ai tempi di accesso ai pesi e alla cache KV. La discussione su <a href=\"https://news.ycombinator.com/item?id=50318720\">Hacker News</a> (170 punti, 46 commenti) collega l'analisi alle scelte hardware recenti: gerarchie HBM, pesi residenti in memoria e l'entusiasmo per le architetture a esperti radi.",
+                "lmo": "El sagg <a href=\"https://pivotlake.io/blog/its-the-memory-latancy-stupid/\">publicaa el 31 de otober 2026</a> el dis che la latenza de la memoria, e minga la larghezza de banda, la deventa el cul de botta principal di servì d'inferenza LLM — i lung file de decodifegazzion token per token hinn suratutt sensitiv al temp d'access ai pes e a la cache KV. La discüssion in sora <a href=\"https://news.ycombinator.com/item?id=50318720\">Hacker News</a> (170 pont, 46 coment) la collega l'analisi ai scerniment de hardware recent: ierarqui HBM, pes ressgent in memoria, e l'entusiasmaa per i architetture a espert sfraccaa."
+              },
+              "kicker": {
+                "fr": "Infrastructure",
+                "en": "Infrastructure",
+                "de": "Infrastruktur",
+                "it": "Infrastruttura",
+                "lmo": "Infrastruttura"
+              }
+            },
+            {
+              "headline": {
+                "fr": "BBRouter : le SAP-1 de Ben Eater simulé sur breadboards 3D, branché en MCP",
+                "en": "BBRouter: Ben Eater's SAP-1 Simulated on 3D Breadboards, Wired Up via MCP",
+                "de": "BBRouter: Ben Eaters SAP-1 auf 3D-Breadboards simuliert und via MCP angebunden",
+                "it": "BBRouter: il SAP-1 di Ben Eater simulato su breadboard 3D, collegato in MCP",
+                "lmo": "BBRouter : el SAP-1 de Ben Eater simulaa in sora breadboard 3D, taccaa via MCP"
+              },
+              "body": {
+                "fr": "Un Show HN publié le 1er novembre 2026 présente <a href=\"https://bbrouter.com/bbrouter/ben-eater-sap-1\">BBRouter</a>, un éditeur de breadboard virtuel avec oscilloscope, routage automatique et instructions pas-à-pas, connectable à un agent IA via MCP pour faire construire ou dépanner le circuit par un modèle. L'auteur vise la communauté des constructeurs d'ordinateurs 8 bits pédagogiques ; l'offre « Maker » est à 7 dollars par mois, le premier mois offert aux lecteurs de Hacker News.",
+                "en": "A Show HN published on November 1, 2026 presents <a href=\"https://bbrouter.com/bbrouter/ben-eater-sap-1\">BBRouter</a>, a virtual breadboard editor with an oscilloscope, automatic routing and step-by-step instructions, connectable to an AI agent via MCP so a model can build or debug the circuit. The author is targeting the community of builders of educational 8-bit computers; the \"Maker\" plan costs 7 dollars per month, with the first month free for Hacker News readers.",
+                "de": "Ein am 1. November 2026 veröffentlichter Show HN stellt <a href=\"https://bbrouter.com/bbrouter/ben-eater-sap-1\">BBRouter</a> vor, einen virtuellen Breadboard-Editor mit Oszilloskop, automatischem Routing und Schritt-für-Schritt-Anleitungen, der über MCP an einen KI-Agenten angebunden werden kann, damit ein Modell die Schaltung aufbaut oder Fehler behebt. Der Autor zielt auf die Community der pädagogischen 8-Bit-Rechner-Bastler; das «Maker»-Angebot kostet 7 Dollar pro Monat, der erste Monat ist Hacker-News-Lesern gratis.",
+                "it": "Una Show HN pubblicata il 1° novembre 2026 presenta <a href=\"https://bbrouter.com/bbrouter/ben-eater-sap-1\">BBRouter</a>, un editor di breadboard virtuale con oscilloscopio, instradamento automatico e istruzioni passo per passo, collegabile a un agente IA via MCP per far costruire o riparare il circuito a un modello. L'autore punta alla comunità dei costruttori di computer a 8 bit didattici; l'offerta « Maker » costa 7 dollari al mese, con il primo mese in omaggio per i lettori di Hacker News.",
+                "lmo": "On Show HN publicaa el 1 de november 2026 el presenta <a href=\"https://bbrouter.com/bbrouter/ben-eater-sap-1\">BBRouter</a>, on editor de breadboard virtuali cont oscilloscopi, routing aütumatich e istrüzzion pass per pass, che'l se pò collegà a on agent IA via MCP per fà custruì o sistemà el circuit a on mudel. L'aütor el varda la cumpagnia di custruttor de urdinaa a 8 bit pedagogich; l'uferta « Maker » l'è a 7 dolar al mes, el prim mes regalaa ai leetur de Hacker News."
+              },
+              "kicker": {
+                "fr": "Matériel & agents",
+                "en": "Hardware & Agents",
+                "de": "Hardware & Agenten",
+                "it": "Hardware & agenti",
+                "lmo": "Hardware & agent"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Analyses du jour",
+            "en": "Analyses of the Day",
+            "de": "Analysen des Tages",
+            "it": "Analisi del giorno",
+            "lmo": "Analisi del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Reprendre des comptes ChatGPT : anatomie d'une faille d'authentification",
+                "en": "Taking Over ChatGPT Accounts: Anatomy of an Authentication Flaw",
+                "de": "ChatGPT-Konten zurückerobern: Anatomie einer Authentifizierungslücke",
+                "it": "Recuperare account ChatGPT: anatomia di una vulnerabilità di autenticazione",
+                "lmo": "Piggià i cont ChatGPT : anatomia d'ona faila d'autentegazzion"
+              },
+              "body": {
+                "fr": "Le récit technique de <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter</a>, publié le 31 octobre 2026, vaut par sa pédagogie : chaque étape de la découverte y est documentée, de la lecture du flux d'authentification à l'exploitation effective. Les 157 commentaires de la discussion <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a> complètent l'analyse en comparant ce vecteur aux failles classiques de redirection OAuth observées ailleurs dans l'industrie.",
+                "en": "The technical write-up from <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter</a>, published on October 31, 2026, stands out for its clarity: every step of the discovery is documented, from reading the authentication flow to actual exploitation. The 157 comments in the <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a> discussion round out the analysis by comparing this vector to the classic OAuth redirect flaws observed elsewhere in the industry.",
+                "de": "Der technische Bericht von <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter</a>, veröffentlicht am 31. Oktober 2026, besticht durch seine Pädagogik: Jeder Schritt der Entdeckung ist dokumentiert, von der Lektüre des Authentifizierungsablaufs bis zur tatsächlichen Ausnutzung. Die 157 Kommentare der <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker-News</a>-Diskussion ergänzen die Analyse, indem sie diesen Vektor mit den klassischen OAuth-Umleitungsfehler vergleichen, die andernorts in der Branche beobachtet wurden.",
+                "it": "Il racconto tecnico di <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter</a>, pubblicato il 31 ottobre 2026, vale per la sua pedagogia: ogni fase della scoperta è documentata, dalla lettura del flusso di autenticazione allo sfruttamento effettivo. I 157 commenti della discussione su <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a> completano l'analisi confrontando questo vettore con le classiche vulnerabilità di reindirizzamento OAuth osservate altrove nel settore.",
+                "lmo": "El cunt tecnich de <a href=\"https://www.parameter.ai/labs/we-found-a-gap-at-openai\">Parameter</a>, publicaa el 31 de otober 2026, el vur per la soa pedagogia: ogni passagg de la scuvèrta l'è documentaa, de la letüra del fluss d'autentegazzion fina a l'exploitazzion efettiva. I 157 coment de la discüssion <a href=\"https://news.ycombinator.com/item?id=50314699\">Hacker News</a> i cumpenen l'analisi cumparand quest vettur chì cun i fail classee de reindirezz OAuth osservaa in olter part de l'indüstria."
+              },
+              "kicker": {
+                "fr": "Sécurité des LLM",
+                "en": "LLM Security",
+                "de": "LLM-Sicherheit",
+                "it": "Sicurezza degli LLM",
+                "lmo": "Sigurezza di LLM"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Injection de prompt devant un tribunal brésilien : une première sanction judiciaire",
+                "en": "Prompt Injection Before a Brazilian Court: A First Judicial Sanction",
+                "de": "Prompt-Injection vor einem brasilianischen Gericht: eine erste gerichtliche Sanktion",
+                "it": "Prompt injection davanti a un tribunale brasiliano: una prima sanzione giudiziaria",
+                "lmo": "Injizzion de prompt denanza a on tribünal brasilian : ona prima sanzion giüdezzia"
+              },
+              "body": {
+                "fr": "Un tribunal brésilien a sanctionné des avocats ayant glissé une instruction cachée dans une requête judiciaire, destinée à influencer un système d'analyse du dossier — première sanction judiciaire documentée pour injection de prompt en contexte procédural, relatée le 1er novembre 2026 par <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a>. La discussion <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 points, 23 commentaires) y voit un précédent : les tribunaux traitent désormais les instructions cachées adressées aux machines comme des manœuvres fautives, au même titre que celles adressées aux humains.",
+                "en": "A Brazilian court has sanctioned lawyers who slipped a hidden instruction into a court filing, intended to influence a case-analysis system — the first documented judicial sanction for prompt injection in a procedural context, reported on November 1, 2026 by <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a>. The <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> discussion (58 points, 23 comments) sees it as a precedent: courts now treat hidden instructions addressed to machines as culpable maneuvers, on the same footing as those addressed to humans.",
+                "de": "Ein brasilianisches Gericht hat Anwälte sanktioniert, die eine versteckte Anweisung in ein gerichtliches Gesuch geschmuggelt hatten, um ein System zur Aktenanalyse zu beeinflussen — die erste dokumentierte gerichtliche Sanktion für Prompt-Injection im Verfahrenskontext, berichtet am 1. November 2026 <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a>. Die <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker-News</a>-Diskussion (58 Punkte, 23 Kommentare) sieht darin einen Präzedenzfall: Gerichte behandeln versteckte Anweisungen an Maschinen künftig als tadelnswerte Manipulation — gleich wie jene an Menschen.",
+                "it": "Un tribunale brasiliano ha sanzionato avvocati che avevano inserito un'istruzione nascosta in una richiesta giudiziaria, destinata a influenzare un sistema di analisi del fascicolo — prima sanzione giudiziaria documentata per prompt injection in ambito processuale, riferita il 1° novembre 2026 da <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a>. La discussione su <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 punti, 23 commenti) vi vede un precedente: i tribunali trattano ormai le istruzioni nascoste rivolte alle macchine come manovre colpose, al pari di quelle rivolte agli esseri umani.",
+                "lmo": "On tribünal brasilian l'ha sanzionaa di avucatt che gh'aveven metaa drent una istrüzzion scunduda in d'ona domanda giüdezzia, fada per inflüenzà on sistema d'analisi del cas — prima sanzion giüdezziaa documentaa per injizzion de prompt in cuntest prucedural, cuntaa el 1 de november 2026 de <a href=\"https://jetstream.security/insights/brazilian-court-sanctions-prompt-injection-filing/\">Jetstream Security</a>. La discüssion <a href=\"https://news.ycombinator.com/item?id=50322173\">Hacker News</a> (58 pont, 23 coment) la ved chì un precedent: i tribünal ades i tratten i istrüzzion scundude drissaa ai machin cumm manc dumanda in giüstizia, al midem titul de quij drissaa ai omen."
+              },
+              "kicker": {
+                "fr": "Sécurité applicative",
+                "en": "Application Security",
+                "de": "Anwendungssicherheit",
+                "it": "Sicurezza applicativa",
+                "lmo": "Sigurezza aplicativa"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Cumpagnia & Edito"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux communautaires",
+            "en": "Community Signals",
+            "de": "Community-Signale",
+            "it": "Segnali dalla comunità",
+            "lmo": "Segnaj de la cumpagnia"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "HackerTube : Karpathy construit un YouTube à partir de 6 454 vidéos recommandées par HN depuis 2007",
+                "en": "HackerTube: Karpathy Builds a YouTube Out of 6,454 Videos Recommended on HN Since 2007",
+                "de": "HackerTube: Karpathy baut ein YouTube aus 6 454 von HN empfohlenen Videos seit 2007",
+                "it": "HackerTube: Karpathy costruisce uno YouTube a partire da 6 454 video consigliati da HN dal 2007",
+                "lmo": "HackerTube : Karpathy el custruiss on YouTube cun 6 454 videu recomendaa de HN dal 2007"
+              },
+              "body": {
+                "fr": "Andrej Karpathy a publié le 31 octobre 2026 <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, une interface façon YouTube agrégant 6 454 vidéos extraites de 39 834 commentaires Hacker News depuis 2007. Le projet a réuni 996 points et 306 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> en moins de douze heures, soit la discussion la plus active de la journée — moins pour la technique que pour la radiographie culturelle de dix-neuf ans de recommandations techniques qu'il offre.",
+                "en": "Andrej Karpathy published <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a> on October 31, 2026, a YouTube-style interface aggregating 6,454 videos extracted from 39,834 Hacker News comments since 2007. The project drew 996 points and 306 comments on <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> in less than twelve hours — the most active discussion of the day — prized less for the engineering than for the cultural X-ray it offers of nineteen years of technical recommendations.",
+                "de": "Andrej Karpathy hat am 31. Oktober 2026 <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a> veröffentlicht, eine YouTube-artige Oberfläche, die 6 454 Videos aus 39 834 Hacker-News-Kommentaren seit 2007 aggregiert. Das Projekt versammelte innert zwölf Stunden 996 Punkte und 306 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> — die aktivste Diskussion des Tages, weniger wegen der Technik als wegen der kulturellen Röntgenaufnahme von neunzehn Jahren technischer Empfehlungen, die es bietet.",
+                "it": "Andrej Karpathy ha pubblicato il 31 ottobre 2026 <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, un'interfaccia in stile YouTube che aggrega 6 454 video estratti da 39 834 commenti Hacker News dal 2007. Il progetto ha raccolto 996 punti e 306 commenti su <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> in meno di dodici ore, la discussione più attiva della giornata — meno per la tecnica che per la radiografia culturale di diciannove anni di raccomandazioni tecniche che offre.",
+                "lmo": "Andrej Karpathy l'ha publicaa el 31 de otober 2026 <a href=\"https://karpathy.bearblog.dev/hacker-tube/\">HackerTube</a>, una interfaccia manéra YouTube che la met insema 6 454 videu tiraa foeura de 39 834 coment de Hacker News dal 2007. El prut l'ha ciapaa 996 pont e 306 coment in sora <a href=\"https://news.ycombinator.com/item?id=50319510\">Hacker News</a> in manch de dodes ore, o ben la discüssion püsssee ativa del dì — manch per la tecniche che per la radiugrafia cultürala de desnov agn de recomendazzion tecniche che la oferiss."
+              },
+              "kicker": {
+                "fr": "Communauté",
+                "en": "Community",
+                "de": "Community",
+                "it": "Comunità",
+                "lmo": "Cumpagnia"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Édito",
+            "en": "Editorial",
+            "de": "Leitartikel",
+            "it": "Editoriale",
+            "lmo": "Edito"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — Quand le mensonge à la machine devient un mensonge à la justice",
+                "en": "Editorial — When Lying to the Machine Becomes Lying to Justice",
+                "de": "Leitartikel — Wenn die Lüge an die Maschine zur Lüge vor dem Gericht wird",
+                "it": "Editoriale — Quando la menzogna alla macchina diventa una menzogna alla giustizia",
+                "lmo": "Edito — Quand la bujia a la machina la deventa bujia a la giüstizzia"
+              },
+              "body": {
+                "fr": "Deux histoires du 31 octobre racontent, chacune à sa manière, la même bascule. La première : des comptes ChatGPT pris d'assaut via une faille d'authentification, révélée par des chercheurs indépendants. La seconde : un tribunal brésilien sanctionnant une injection de prompt glissée dans une requête. Dans les deux cas, le mensonge adressé à une machine est désormais traité comme un mensonge adressé à une institution. C'est une bonne nouvelle : ni la sécurité applicative ni la procédure judiciaire n'ont besoin d'un régime d'exception pour l'IA — seulement d'une application rigoureuse des principes existants. La leçon de la semaine pour les labos est moins réconfortante : leurs produits sont devenus, en quelques mois, des infrastructures critiques, avec la surface d'attaque qui va avec.",
+                "en": "Two stories from October 31 tell, each in its own way, of the same shift. The first: ChatGPT accounts breached through an authentication flaw, uncovered by independent researchers. The second: a Brazilian court sanctioning a prompt injection slipped into a court filing. In both cases, a lie told to a machine is now treated as a lie told to an institution. That is good news: neither application security nor judicial procedure needs an exceptional regime for AI — only rigorous enforcement of existing principles. The week's lesson for the labs is less comforting: in a matter of months, their products have become critical infrastructure, attack surface included.",
+                "de": "Zwei Geschichten vom 31. Oktober erzählen, jede auf ihre Weise, von derselben Wende. Die erste: ChatGPT-Konten, über eine Authentifizierungslücke überrannt, aufgedeckt von unabhängigen Forschern. Die zweite: ein brasilianisches Gericht, das eine in ein Gesuch geschmuggelte Prompt-Injection sanktioniert. In beiden Fällen wird die Lüge an eine Maschine heute wie eine Lüge an eine Institution behandelt. Das ist eine gute Nachricht: Weder die Anwendungssicherheit noch das Gerichtsverfahren brauchen ein Ausnahmerecht für KI — nur eine rigorose Anwendung der bestehenden Grundsätze. Die Lektion der Woche für die Labore ist weniger tröstlich: Ihre Produkte sind innert Monaten zu kritischer Infrastruktur geworden — samt der dazugehörigen Angriffsfläche.",
+                "it": "Due storie del 31 ottobre raccontano, ciascuna a modo suo, lo stesso ribaltamento. La prima: account ChatGPT presi d'assalto tramite una vulnerabilità di autenticazione, rivelata da ricercatori indipendenti. La seconda: un tribunale brasiliano che sanziona una prompt injection nascosta in una richiesta giudiziaria. In entrambi i casi, la menzogna rivolta a una macchina viene ormai trattata come una menzogna rivolta a un'istituzione. È una buona notizia: né la sicurezza applicativa né la procedura giudiziaria hanno bisogno di un regime d'eccezione per l'IA — solo di un'applicazione rigorosa dei principi esistenti. La lezione della settimana per i laboratori è meno rassicurante: i loro prodotti sono diventati, in pochi mesi, infrastrutture critiche, con la superficie d'attacco che ne consegue.",
+                "lmo": "Düi storie del 31 de otober i cunten, ogniduna a la soa manera, el midem cambiament. La prima: di cont ChatGPT ciapaa d'assalt cun ona faila d'autentegazzion, revelada di ricercador indipendent. La segonda: on tribünal brasilian che'l sanziona ona injizzion de prompt metaa drent in d'ona dumanda giüdezzia. In tücc düi i cas, la bujia drissada a ona machina ades l'è tratada cumm bujia drissada a ona istitüzzion. L'è ona buona nüvela: né la sigurezza aplicativa né la prucedura giüdezzia ghe serviss on regim d'eccezzion per l'IA — dumà n'aplicazzion rigorosa di principi ch'esisten giamò. La lüsson de la setemana per i lab la l'è manch cunfurtevel: i sò prodott hinn deventaa, in poch mes, di infrastruttüre critich, cun la süperfiss d'atach che la va inscì."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
