@@ -1,0 +1,358 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Neuron Times — Samedi 7 novembre 2026</title>
+<meta name="description" content="Le labo confie à un partenaire externe la chasse aux vulnérabilités de ses systèmes, troisième annonce sécurité en trois jours." />
+<meta name="author" content="The Neuron Times" />
+<link rel="canonical" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="fr" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="en" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="de" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="it" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="lmo" href="https://neuron-times.com/editions/2026-11-07.html" />
+<link rel="alternate" hreflang="x-default" href="https://neuron-times.com/editions/2026-11-07.html" />
+<meta property="og:title" content="OpenAI s&#39;allie à Hacktron pour traquer ses propres failles — The Neuron Times" />
+<meta property="og:description" content="Le labo confie à un partenaire externe la chasse aux vulnérabilités de ses systèmes, troisième annonce sécurité en trois jours." />
+<meta property="og:url" content="https://neuron-times.com/editions/2026-11-07.html" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="The Neuron Times" />
+<meta property="og:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "OpenAI s'allie à Hacktron pour traquer ses propres failles",
+  "description": "Le labo confie à un partenaire externe la chasse aux vulnérabilités de ses systèmes, troisième annonce sécurité en trois jours.",
+  "datePublished": "2026-11-07T07:00:00+02:00",
+  "dateModified": "2026-11-07T07:00:00+02:00",
+  "author": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "url": "https://neuron-times.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://neuron-times.com/apple-touch-icon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://neuron-times.com/editions/2026-11-07.html"
+  },
+  "image": "https://neuron-times.com/apple-touch-icon.png",
+  "inLanguage": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "isAccessibleForFree": true,
+  "articleSection": [
+    "Frontière & Industrie",
+    "Évaluation & Benchmarks",
+    "Papers du jour",
+    "Signaux communautaires"
+  ],
+  "keywords": "Sécurité, Méta-science, Marchés, Reconnaissance vocale, Robotique, Transfert de modèles, Architecture, Benchmarks, Découverte scientifique, Ingénierie LLM",
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Sécurité"
+    },
+    {
+      "@type": "Thing",
+      "name": "Méta-science"
+    },
+    {
+      "@type": "Thing",
+      "name": "Marchés"
+    },
+    {
+      "@type": "Thing",
+      "name": "Reconnaissance vocale"
+    },
+    {
+      "@type": "Thing",
+      "name": "Robotique"
+    },
+    {
+      "@type": "Thing",
+      "name": "Transfert de modèles"
+    },
+    {
+      "@type": "Thing",
+      "name": "Architecture"
+    },
+    {
+      "@type": "Thing",
+      "name": "Benchmarks"
+    },
+    {
+      "@type": "Thing",
+      "name": "Découverte scientifique"
+    },
+    {
+      "@type": "Thing",
+      "name": "Ingénierie LLM"
+    }
+  ]
+}</script>
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;
+  z-index: 2;
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+.lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
+.lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
+.lang-selector a:hover { opacity: 1; }
+.lang-selector a.active { opacity: 1; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.lang-selector .sep { opacity: 0.4; }
+html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+html[lang="lmo"] [data-i18n][lang]:not([lang="lmo"]) { display: none !important; }
+.i18n-fallback { display: inline; }
+html[lang="en"] .i18n-fallback:has(~ [data-i18n][lang="en"]) { display: none !important; }
+html[lang="de"] .i18n-fallback:has(~ [data-i18n][lang="de"]) { display: none !important; }
+html[lang="it"] .i18n-fallback:has(~ [data-i18n][lang="it"]) { display: none !important; }
+html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !important; }
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+  .masthead .meta { flex-wrap: wrap; gap: 8px; justify-content: center; }
+}
+</style>
+</head>
+<body>
+<main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
+  <header class="masthead">
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
+    <p class="tagline">All the AI that&#39;s fit to print</p>
+    <div class="meta">
+      <span>N° 311</span>
+      <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion del mattin</span> · Genève</span>
+      <span><span data-i18n lang="fr">SAMEDI 7 NOVEMBRE 2026</span><span data-i18n lang="en">SATURDAY, 7 NOVEMBER 2026</span><span data-i18n lang="de">SAMSTAG, 7. NOVEMBER 2026</span><span data-i18n lang="it">SABATO 7 NOVEMBRE 2026</span><span data-i18n lang="lmo">SABATO 7 NOVEMBRE 2026</span></span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <p class="kicker"><span data-i18n lang="fr">À la Une · Sécurité</span><span data-i18n lang="en">Front Page · Security</span><span data-i18n lang="de">Schlagzeilen · Sicherheit</span><span data-i18n lang="it">Prima pagina · Sicurezza</span><span data-i18n lang="lmo">In prima pagina · Sicurezza</span></p>
+    <h2><span data-i18n lang="fr">OpenAI s&#39;allie à Hacktron pour traquer ses propres failles</span><span data-i18n lang="en">OpenAI partners with Hacktron to hunt down its own vulnerabilities</span><span data-i18n lang="de">OpenAI verbündet sich mit Hacktron, um die eigenen Lücken aufzuspüren</span><span data-i18n lang="it">OpenAI si allea con Hacktron per dare la caccia alle proprie vulnerabilità</span><span data-i18n lang="lmo">OpenAI el se allia a Hacktron per traccià i sò fall</span></h2>
+    <p class="subdeck"><span data-i18n lang="fr">Le labo confie à un partenaire externe la chasse aux vulnérabilités de ses systèmes, troisième annonce sécurité en trois jours.</span><span data-i18n lang="en">The lab entrusts an external partner with the hunt for vulnerabilities in its systems — its third security announcement in three days.</span><span data-i18n lang="de">Das Labor überträgt einem externen Partner die Jagd nach Schwachstellen in seinen Systemen – die dritte Sicherheitsankündigung in drei Tagen.</span><span data-i18n lang="it">Il laboratorio affida a un partner esterno la caccia alle vulnerabilità dei propri sistemi, terzo annuncio sulla sicurezza in tre giorni.</span><span data-i18n lang="lmo">El laboratori el da a on partner estern la caccia ai vulnerabilità di sò sistema: terza anunzia de sicurezza in trii dì.</span></p>
+    <p class="byline"><span data-i18n lang="fr">De la rédaction — 7 novembre 2026</span><span data-i18n lang="en">From the editorial desk — 7 November 2026</span><span data-i18n lang="de">Von der Redaktion — 7. November 2026</span><span data-i18n lang="it">Dalla redazione — 7 novembre 2026</span><span data-i18n lang="lmo">De la redazzion — 7 novembre 2026</span></p>
+    <p><span data-i18n lang="fr">OpenAI a annoncé le 6 novembre 2026 un partenariat avec Hacktron pour rechercher des vulnérabilités dans ses propres systèmes, tester les connexions avec des services tiers et renforcer ses défenses à l&#39;aide de l&#39;IA de frontière, selon l&#39;<a href="https://openai.com/index/partnering-with-hacktron">annonce officielle</a>.</span><span data-i18n lang="en">On 6 November 2026, OpenAI announced a partnership with Hacktron to search for vulnerabilities in its own systems, test connections to third-party services and strengthen its defenses using frontier AI, according to the <a href="https://openai.com/index/partnering-with-hacktron">official announcement</a>.</span><span data-i18n lang="de">OpenAI kündigte am 6. November 2026 eine Partnerschaft mit Hacktron an, um Schwachstellen in den eigenen Systemen zu suchen, Verbindungen zu Drittdiensten zu testen und die Verteidigung mithilfe von Grenz-KI zu stärken, gemäss der <a href="https://openai.com/index/partnering-with-hacktron">offiziellen Ankündigung</a>.</span><span data-i18n lang="it">OpenAI ha annunciato il 6 novembre 2026 una partnership con Hacktron per ricercare vulnerabilità nei propri sistemi, testare le connessioni con servizi di terze parti e rafforzare le difese con l&#39;aiuto dell&#39;IA di frontiera, secondo l&#39;<a href="https://openai.com/index/partnering-with-hacktron">annuncio ufficiale</a>.</span><span data-i18n lang="lmo">OpenAI l&#39;ha anunziaa el 6 de november 2026 on matrimoni/convenzion con Hacktron per cercà di vulnerabilità in di sò sistema propi, verificà i conligament con di servizzi de terz e rinforzà i difes cont l&#39;IA de frontiera, segond l&#39;<a href="https://openai.com/index/partnering-with-hacktron">anunzi offizial</a>.</span></p>
+<p><span data-i18n lang="fr">L&#39;approche illustre un déplacement méthodologique : les labos frontière soumettent leurs infrastructures aux mêmes techniques de red teaming que celles qu&#39;ils déploient chez leurs clients, la question du périmètre autorisé devenant le pivot de l&#39;alignement des agents de cybersécurité.</span><span data-i18n lang="en">The approach illustrates a methodological shift: frontier labs are subjecting their infrastructure to the same red-teaming techniques they deploy for clients, with the question of the authorized perimeter becoming the pivot point for aligning cybersecurity agents.</span><span data-i18n lang="de">Das Vorgehen illustriert einen methodologischen Wandel: Grenzlabore unterziehen ihre Infrastrukturen denselben Red-Teaming-Techniken, die sie bei ihren Kunden einsetzen, wobei die Frage des autorisierten Umfangs zum Dreh- und Angelpunkt der Ausrichtung von Cybersicherheits-Agenten wird.</span><span data-i18n lang="it">L&#39;approccio illustra uno spostamento metodologico: i laboratori di frontiera sottopongono le proprie infrastrutture alle stesse tecniche di red teaming che distribuiscono ai clienti, con la questione del perimetro autorizzato che diventa il perno dell&#39;allineamento degli agenti di cybersecurity.</span><span data-i18n lang="lmo">L&#39;approcc el mostra on spostament metodologegh: i laboratori de frontiera se sotmetten ai midemm tecnegh de red teaming che lor doperen per i sò client, e la question del perimetri autorizaa la deventa el pivott de l&#39;alignament di agent de cibersicurezza.</span></p>
+  </section>
+
+  <section class="sidebar"><article class="sidebar-item"><span class="tag" data-i18n lang="fr">OpenAI · Science</span><span class="tag" data-i18n lang="en">OpenAI · Science</span><span class="tag" data-i18n lang="de">OpenAI · Wissenschaft</span><span class="tag" data-i18n lang="it">OpenAI · Scienza</span><span class="tag" data-i18n lang="lmo">OpenAI · Scienza</span><h3><span data-i18n lang="fr">BioBasicsBench : cent tâches pour mesurer les agents en laboratoire humide</span><span data-i18n lang="en">BioBasicsBench: one hundred tasks to measure agents in the wet lab</span><span data-i18n lang="de">BioBasicsBench: hundert Aufgaben zur Messung von Agenten im Nasslabor</span><span data-i18n lang="it">BioBasicsBench: cento task per misurare gli agenti in laboratorio umido</span><span data-i18n lang="lmo">BioBasicsBench: cent attivitaa per misurà i agent in laboratori vœucc</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 6 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 6. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 6 novembre 2026</p><p data-i18n lang="fr">OpenAI a publié le 6 novembre 2026 <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">BioBasicsBench</a>, un benchmark de 100 tâches mesurant la capacité des agents à interpréter des données expérimentales brutes et à gérer la science de laboratoire humide au quotidien.</p><p data-i18n lang="en">On 6 November 2026, OpenAI released <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">BioBasicsBench</a>, a benchmark of 100 tasks measuring agents&#39; ability to interpret raw experimental data and handle day-to-day wet-lab science.</p><p data-i18n lang="de">OpenAI veröffentlichte am 6. November 2026 <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">BioBasicsBench</a>, einen Benchmark mit 100 Aufgaben, der die Fähigkeit von Agenten misst, rohe experimentelle Daten zu interpretieren und die Wissenschaft im Nasslabor im Alltag zu bewältigen.</p><p data-i18n lang="it">OpenAI ha pubblicato il 6 novembre 2026 <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">BioBasicsBench</a>, un benchmark di 100 task che misura la capacità degli agenti di interpretare dati sperimentali grezzi e gestire quotidianamente la scienza di laboratorio umido.</p><p data-i18n lang="lmo">OpenAI l&#39;ha publicaa el 6 de november 2026 <a href="https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science">BioBasicsBench</a>, on benchmark de 100 attività che &#39;l misura la capacità di agent de interpretà dacc sperimentai gross e de gestì la scienza de laboratori vœucc al dì d&#39;incoeu.</p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Google · Infrastructure</span><span class="tag" data-i18n lang="en">Google · Infrastructure</span><span class="tag" data-i18n lang="de">Google · Infrastruktur</span><span class="tag" data-i18n lang="it">Google · Infrastruttura</span><span class="tag" data-i18n lang="lmo">Google · Infrastructure</span><h3><span data-i18n lang="fr">Google acquiert le site de data center de Crusoe dans le sud-est du Wyoming</span><span data-i18n lang="en">Google acquires Crusoe&#39;s data center site in southeast Wyoming</span><span data-i18n lang="de">Google übernimmt Crusoes Datacenter-Standort im Südosten Wyomings</span><span data-i18n lang="it">Google acquisisce il sito di data center di Crusoe nel sud-est del Wyoming</span><span data-i18n lang="lmo">Google el compra el sit de data center de Crusoe in del sud-est del Wyoming</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 6 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 6. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 6 novembre 2026</p><p data-i18n lang="fr">Google a racheté le campus de data centers de Crusoe dans le sud-est du Wyoming, annoncée le 6 novembre 2026 dans le <a href="https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update">communiqué de Crusoe</a>, discussion relayée sur <a href="https://news.ycombinator.com/item?id=50397711">Hacker News</a> avec 60 points.</p><p data-i18n lang="en">Google has bought Crusoe&#39;s data center campus in southeast Wyoming, announced on 6 November 2026 in the <a href="https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update">Crusoe release</a>, with the discussion relayed on <a href="https://news.ycombinator.com/item?id=50397711">Hacker News</a> with 60 points.</p><p data-i18n lang="de">Google hat den Datacenter-Campus von Crusoe im Südosten Wyomings übernommen, wie am 6. November 2026 im <a href="https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update">Communiqué von Crusoe</a> angekündigt; die Diskussion wurde auf <a href="https://news.ycombinator.com/item?id=50397711">Hacker News</a> mit 60 Punkten aufgenommen.</p><p data-i18n lang="it">Google ha rilevato il campus di data center di Crusoe nel sud-est del Wyoming, annunciato il 6 novembre 2026 nel <a href="https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update">comunicato di Crusoe</a>, discussione ripresa su <a href="https://news.ycombinator.com/item?id=50397711">Hacker News</a> con 60 punti.</p><p data-i18n lang="lmo">Google l&#39;ha compraa el campus de data center de Crusoe in del sud-est del Wyoming, anunziaa el 6 de november 2026 in del <a href="https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update">comunegaa de Crusoe</a>, discussion ripresa su <a href="https://news.ycombinator.com/item?id=50397711">Hacker News</a> con 60 pont.</p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Google · Recherche</span><span class="tag" data-i18n lang="en">Google · Research</span><span class="tag" data-i18n lang="de">Google · Forschung</span><span class="tag" data-i18n lang="it">Google · Ricerca</span><span class="tag" data-i18n lang="lmo">Google · Ricerca</span><h3><span data-i18n lang="fr">Muir : l&#39;attention linéaire repousse la mémoire longue à 10 millions de tokens</span><span data-i18n lang="en">Muir: linear attention pushes long-range memory to 10 million tokens</span><span data-i18n lang="de">Muir: Die lineare Aufmerksamkeit erweitert das Langzeitgedächtnis auf 10 Millionen Tokens</span><span data-i18n lang="it">Muir: l&#39;attenzione lineare spinge la memoria lunga a 10 milioni di token</span><span data-i18n lang="lmo">Muir: l&#39;atenzion linear la sping la memoria longa a 10 milion de token</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 6 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 6. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 6 novembre 2026</p><p data-i18n lang="fr">Le papier <a href="https://arxiv.org/abs/2611.08376">Muir</a> de Google, soumis le 6 novembre 2026, abaisse la perplexité de 2,5 à 3,6 % face au Transformer et extrapole de 4K tokens d&#39;entraînement à des flux de 10M tokens sans dérive, tout en s&#39;entraînant 2,7 fois plus vite à 32K.</p><p data-i18n lang="en">Google&#39;s <a href="https://arxiv.org/abs/2611.08376">Muir</a> paper, submitted on 6 November 2026, lowers perplexity by 2.5 to 3.6% versus the Transformer and extrapolates from 4K training tokens to 10M-token streams without drift, while training 2.7 times faster at 32K.</p><p data-i18n lang="de">Das Papier <a href="https://arxiv.org/abs/2611.08376">Muir</a> von Google, eingereicht am 6. November 2026, senkt die Perplexität um 2,5 bis 3,6 % gegenüber dem Transformer und extrapoliert von 4K Trainings-Tokens auf Ströme von 10M Tokens ohne Drift, bei zugleich 2,7-fach schnellerem Training bei 32K.</p><p data-i18n lang="it">Il paper <a href="https://arxiv.org/abs/2611.08376">Muir</a> di Google, sottoposto il 6 novembre 2026, abbassa la perplessità del 2,5-3,6 % rispetto al Transformer ed estrapola da 4K token di addestramento a flussi di 10M token senza deriva, addestrandosi 2,7 volte più velocemente a 32K.</p><p data-i18n lang="lmo">El papèr <a href="https://arxiv.org/abs/2611.08376">Muir</a> de Google, consegnaa el 6 de november 2026, el sbassa la perplessità del 2,5 al 3,6% in front al Transformer e &#39;l estrapola de 4K token de addestrament a fluss de 10M token senza deriva, cont un addestrament 2,7 voeult pussee svelt a 32K.</p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">King&#39;s College London</span><span class="tag" data-i18n lang="en">King&#39;s College London</span><span class="tag" data-i18n lang="de">King&#39;s College London</span><span class="tag" data-i18n lang="it">King&#39;s College London</span><span class="tag" data-i18n lang="lmo">King&#39;s College London</span><h3><span data-i18n lang="fr">PACT : le transfert latent entre modèles souvent surestimé</span><span data-i18n lang="en">PACT: latent transfer between models is often overstated</span><span data-i18n lang="de">PACT: Der latente Transfer zwischen Modellen ist oft überschätzt</span><span data-i18n lang="it">PACT: il trasferimento latente tra modelli spesso sovrastimato</span><span data-i18n lang="lmo">PACT: el transfer latent intra modej despess sorastimaa</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 6 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 6. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 6 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 6 novembre 2026</p><p data-i18n lang="fr">Le papier <a href="https://arxiv.org/abs/2611.06976">PLatour</a> (12 upvotes sur HF Daily Papers le 6 novembre 2026) montre que les gains de la communication latente grand-vers-petit modèle peuvent être reproduits sans information utile de l&#39;émetteur, et propose PACT-Check pour mesurer le gain réellement issu de la communication.</p><p data-i18n lang="en">The <a href="https://arxiv.org/abs/2611.06976">PLatour</a> paper (12 upvotes on HF Daily Papers on 6 November 2026) shows that the gains of large-to-small model latent communication can be reproduced without any useful information from the sender, and proposes PACT-Check to measure the gain genuinely derived from communication.</p><p data-i18n lang="de">Das Papier <a href="https://arxiv.org/abs/2611.06976">PLatour</a> (12 Upvotes auf HF Daily Papers am 6. November 2026) zeigt, dass die Gewinne der latenten Kommunikation von grossen zu kleinen Modellen ohne nützliche Information des Senders reproduziert werden können, und schlägt PACT-Check vor, um den tatsächlich aus der Kommunikation stammenden Gewinn zu messen.</p><p data-i18n lang="it">Il paper <a href="https://arxiv.org/abs/2611.06976">PLatour</a> (12 upvote su HF Daily Papers il 6 novembre 2026) mostra che i guadagni della comunicazione latente da modello grande a piccolo possono essere riprodotti senza informazioni utili da parte del trasmittente, e propone PACT-Check per misurare il guadagno effettivamente derivante dalla comunicazione.</p><p data-i18n lang="lmo">El papèr <a href="https://arxiv.org/abs/2611.06976">PLatour</a> (12 upvote su HF Daily Papers el 6 de november 2026) el mostra che i guadagn de la comunicazion latenta gròss-vers-piscinin modej poden vess riproduu senza informazion utila de l&#39;emettor, e &#39;l propon PACT-Check per misurà el guadagn che &#39;l ven propi de la comunicazion.</p></article></section>
+
+  <section class="page" data-page="1"><h2 class="page-label"><span data-i18n lang="fr">Page 1 — </span><span data-i18n lang="en">Page 1 — </span><span data-i18n lang="de">Seite 1 — </span><span data-i18n lang="it">Pagina 1 — </span><span data-i18n lang="lmo">Pagina 1 — </span><span data-i18n lang="fr">Page 1 — À la Une</span><span data-i18n lang="en">Page 1 — Front Page</span><span data-i18n lang="de">Seite 1 — Hauptmeldung</span><span data-i18n lang="it">Pagina 1 — Prima pagina</span><span data-i18n lang="lmo">Pagina 1 — In Prima Página</span></h2><div class="section section-3-cols"><h3 class="section-title">I. <span data-i18n lang="fr">Frontière &amp; Industrie</span><span data-i18n lang="en">Frontier &amp; Industry</span><span data-i18n lang="de">Grenze &amp; Industrie</span><span data-i18n lang="it">Frontiera &amp; Industria</span><span data-i18n lang="lmo">Frontiera &amp; Industria</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Sécurité</p><p class="kicker" data-i18n lang="en">Security</p><p class="kicker" data-i18n lang="de">Sicherheit</p><p class="kicker" data-i18n lang="it">Sicurezza</p><p class="kicker" data-i18n lang="lmo">Sicurezza</p><h4><span data-i18n lang="fr">Firecracker : l&#39;évasion de la VM qui isole les agents</span><span data-i18n lang="en">Firecracker: the VM escape that isolates agents</span><span data-i18n lang="de">Firecracker: der VM-Ausbruch, der die Agenten isoliert</span><span data-i18n lang="it">Firecracker: l&#39;evasione dalla VM che isola gli agenti</span><span data-i18n lang="lmo">Firecracker: l&#39;evasion de la VM che la isola i agent</span></h4><div class="body" data-i18n lang="fr">Une chaîne d&#39;exploitation permettant de s&#39;échapper d&#39;une machine virtuelle Firecracker — la technologie de micro-VM qui isole de nombreux workloads IA et serverless — a été détaillée le 6 novembre 2026 dans le billet <a href="https://pwn.ai/blog/firecracker-escape">PwnEscape Part 2</a>, qui a recueilli 205 points et 104 commentaires sur <a href="https://news.ycombinator.com/item?id=50397219">Hacker News</a>. La démonstration rappelle que l&#39;isolation des sandboxes d&#39;agents repose sur des composants dont la surface d&#39;attaque reste activement explorée.</div><div class="body" data-i18n lang="en">An exploitation chain allowing escape from a Firecracker virtual machine — the microVM technology isolating many AI and serverless workloads — was detailed on 6 November 2026 in the post <a href="https://pwn.ai/blog/firecracker-escape">PwnEscape Part 2</a>, which gathered 205 points and 104 comments on <a href="https://news.ycombinator.com/item?id=50397219">Hacker News</a>. The demonstration is a reminder that the isolation of agent sandboxes rests on components whose attack surface remains actively explored.</div><div class="body" data-i18n lang="de">Eine Exploit-Kette, die das Ausbrechen aus einer Firecracker-VM ermöglicht — der Micro-VM-Technologie, die zahlreiche KI- und Serverless-Workloads isoliert —, wurde am 6. November 2026 im Beitrag <a href="https://pwn.ai/blog/firecracker-escape">PwnEscape Part 2</a> detailliert, der 205 Punkte und 104 Kommentare auf <a href="https://news.ycombinator.com/item?id=50397219">Hacker News</a> erhielt. Die Demonstration erinnert daran, dass die Isolation von Agenten-Sandboxes auf Komponenten beruht, deren Angriffsfläche weiterhin aktiv erforscht wird.</div><div class="body" data-i18n lang="it">Una catena di sfruttamento che permette di evadere da una macchina virtuale Firecracker — la tecnologia di micro-VM che isola numerosi workload IA e serverless — è stata descritta in dettaglio il 6 novembre 2026 nell&#39;articolo <a href="https://pwn.ai/blog/firecracker-escape">PwnEscape Part 2</a>, che ha raccolto 205 punti e 104 commenti su <a href="https://news.ycombinator.com/item?id=50397219">Hacker News</a>. La dimostrazione ricorda che l&#39;isolamento delle sandbox degli agenti si basa su componenti la cui superficie d&#39;attacco resta attivamente esplorata.</div><div class="body" data-i18n lang="lmo">Ona cadena de sfruttament che la permet de scappà de ona macchina virtual Firecracker — la tecnologia de micro-VM che la isola tant workload de IA e serverless — l&#39;è stada descrivuda el 6 de november 2026 in del articol <a href="https://pwn.ai/blog/firecracker-escape">PwnEscape Part 2</a>, che l&#39;ha ricavà 205 pont e 104 comment su <a href="https://news.ycombinator.com/item?id=50397219">Hacker News</a>. La demostrazion la regordda che l&#39;isolament di sandbox di agent el se basa su component che gh&#39;hann ancamò ona superfish d&#39;attacch esplorada attivament.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Méta-science</p><p class="kicker" data-i18n lang="en">Meta-science</p><p class="kicker" data-i18n lang="de">Metawissenschaft</p><p class="kicker" data-i18n lang="it">Metascienza</p><p class="kicker" data-i18n lang="lmo">Meta-scienza</p><h4><span data-i18n lang="fr">« L&#39;IA accélère massivement la recherche en IA » : la boucle se resserre</span><span data-i18n lang="en">&quot;AI is dramatically accelerating AI research&quot;: the loop tightens</span><span data-i18n lang="de">«KI beschleunigt die KI-Forschung massiv»: Die Schlinge zieht sich zu</span><span data-i18n lang="it">«L&#39;IA accelera massicciamente la ricerca sull&#39;IA»: il ciclo si stringe</span><span data-i18n lang="lmo">«L&#39;IA la acelera massivament la ricerca in IA»: el circuit el se streng</span></h4><div class="body" data-i18n lang="fr">L&#39;essai publié le 6 novembre 2026 sur <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Planned Obsolescence</a>, qui a atteint 253 points et 204 commentaires sur <a href="https://news.ycombinator.com/item?id=50397994">Hacker News</a>, argue que l&#39;usage d&#39;agents dans le processus de recherche lui-même comprime fortement les cycles de découverte — un sujet de débat récurrent sur les risques d&#39;accélération auto-référentielle.</div><div class="body" data-i18n lang="en">The essay published on 6 November 2026 on <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Planned Obsolescence</a>, which reached 253 points and 204 comments on <a href="https://news.ycombinator.com/item?id=50397994">Hacker News</a>, argues that the use of agents in the research process itself sharply compresses discovery cycles — a recurring debate about the risks of self-referential acceleration.</div><div class="body" data-i18n lang="de">Der am 6. November 2026 auf <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Planned Obsolescence</a> veröffentlichte Essay, der 253 Punkte und 204 Kommentare auf <a href="https://news.ycombinator.com/item?id=50397994">Hacker News</a> erreichte, argumentiert, dass der Einsatz von Agenten im Forschungsprozess selbst die Entdeckungszyklen stark verkürzt — ein wiederkehrend diskutiertes Thema im Hinblick auf die Risiken selbstbezüglicher Beschleunigung.</div><div class="body" data-i18n lang="it">Il saggio pubblicato il 6 novembre 2026 su <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Planned Obsolescence</a>, che ha raggiunto 253 punti e 204 commenti su <a href="https://news.ycombinator.com/item?id=50397994">Hacker News</a>, sostiene che l&#39;uso di agenti nel processo di ricerca stesso comprime fortemente i cicli di scoperta — un tema di dibattito ricorrente sui rischi di un&#39;accelerazione autoriferita.</div><div class="body" data-i18n lang="lmo">El saggi publicaa el 6 de november 2026 su <a href="https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai">Planned Obsolescence</a>, che l&#39;ha rivaa a 253 pont e 204 comment su <a href="https://news.ycombinator.com/item?id=50397994">Hacker News</a>, el sostegn che l&#39;us di agent in del midemm process de ricerca el comprim fiss i cicli de descoverta — on argoment de dibattit ricorrent sui ris&#39;c de acelerazion auto-referenzial.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Marchés</p><p class="kicker" data-i18n lang="en">Markets</p><p class="kicker" data-i18n lang="de">Märkte</p><p class="kicker" data-i18n lang="it">Mercati</p><p class="kicker" data-i18n lang="lmo">Mercà</p><h4><span data-i18n lang="fr">La correction boursière de l&#39;IA relue à travers les krachs historiques</span><span data-i18n lang="en">The AI stock correction reread through historical crashes</span><span data-i18n lang="de">Der KI-Kursrücksetzer im Licht historischer Börsencrashes</span><span data-i18n lang="it">La correzione borsistica dell&#39;IA rilettura attraverso i crash storici</span><span data-i18n lang="lmo">La corezion borsistica de l&#39;IA rilegiuda cont i krach storgegh</span></h4><div class="body" data-i18n lang="fr">Une analyse comparative du <a href="https://www.kadoa.com/companies/insights/ai-selloff-perspective">sell-off IA</a>, arrivée sur la front page de <a href="https://news.ycombinator.com/item?id=50401029">Hacker News</a> le 7 novembre 2026 avec 39 points, met en parallèle la chute actuelle des valeurs IA avec les épisodes de bulle les plus connus. La discussion (27 commentaires) porte sur les similarités structurelles et les différences de fundamentals.</div><div class="body" data-i18n lang="en">A comparative analysis of the <a href="https://www.kadoa.com/companies/insights/ai-selloff-perspective">AI sell-off</a>, which reached the front page of <a href="https://news.ycombinator.com/item?id=50401029">Hacker News</a> on 7 November 2026 with 39 points, draws a parallel between the current slide in AI stocks and the best-known bubble episodes. The discussion (27 comments) focuses on structural similarities and differences in fundamentals.</div><div class="body" data-i18n lang="de">Eine comparative Analyse des <a href="https://www.kadoa.com/companies/insights/ai-selloff-perspective">KI-Sell-offs</a>, die am 7. November 2026 mit 39 Punkten auf die Frontpage von <a href="https://news.ycombinator.com/item?id=50401029">Hacker News</a> gelangte, stellt den aktuellen Kursverfall von KI-Werten den bekanntesten Blasenepisoden gegenüber. Die Diskussion (27 Kommentare) dreht sich um strukturelle Ähnlichkeiten und Unterschiede bei den Fundamentaldaten.</div><div class="body" data-i18n lang="it">Un&#39;analisi comparativa del <a href="https://www.kadoa.com/companies/insights/ai-selloff-perspective">sell-off IA</a>, arrivata in prima pagina su <a href="https://news.ycombinator.com/item?id=50401029">Hacker News</a> il 7 novembre 2026 con 39 punti, mette in parallelo l&#39;attuale caduta dei valori IA con gli episodi di bolla più noti. La discussione (27 commenti) verte sulle somiglianze strutturali e sulle differenze di fondamentali.</div><div class="body" data-i18n lang="lmo">Ona analisi comparativa del <a href="https://www.kadoa.com/companies/insights/ai-selloff-perspective">sell-off IA</a>, rivada in prima página de <a href="https://news.ycombinator.com/item?id=50401029">Hacker News</a> el 7 de november 2026 con 39 pont, la mett in parallel la caduda atual di valor de IA cont i episodi de bujaa pussee cognossuu. La discussion (27 comment) la tratta i similarità struturai e i diferenz di fondament.</div></article></div></section>
+<section class="page" data-page="2"><h2 class="page-label"><span data-i18n lang="fr">Page 2 — </span><span data-i18n lang="en">Page 2 — </span><span data-i18n lang="de">Seite 2 — </span><span data-i18n lang="it">Pagina 2 — </span><span data-i18n lang="lmo">Pagina 2 — </span><span data-i18n lang="fr">Page 2 — Le Cahier Technique</span><span data-i18n lang="en">Page 2 — The Technical Notebook</span><span data-i18n lang="de">Seite 2 — Das Technik-Dossier</span><span data-i18n lang="it">Pagina 2 — Il Quaderno Tecnico</span><span data-i18n lang="lmo">Pagina 2 — El Quadern Tecnegh</span></h2><div class="section section-2-cols"><h3 class="section-title">II. <span data-i18n lang="fr">Évaluation &amp; Benchmarks</span><span data-i18n lang="en">Evaluation &amp; Benchmarks</span><span data-i18n lang="de">Evaluation &amp; Benchmarks</span><span data-i18n lang="it">Valutazione &amp; Benchmark</span><span data-i18n lang="lmo">Valutazion &amp; Benchmark</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Reconnaissance vocale</p><p class="kicker" data-i18n lang="en">Speech recognition</p><p class="kicker" data-i18n lang="de">Spracherkennung</p><p class="kicker" data-i18n lang="it">Riconoscimento vocale</p><p class="kicker" data-i18n lang="lmo">Reconossiment vocal</p><h4><span data-i18n lang="fr">L&#39;Open ASR Leaderboard s&#39;ouvre à l&#39;anglais égyptien et nigérian</span><span data-i18n lang="en">The Open ASR Leaderboard opens up to Egyptian and Nigerian English</span><span data-i18n lang="de">Das Open ASR Leaderboard öffnet sich für ägyptisches und nigerianisches Englisch</span><span data-i18n lang="it">L&#39;Open ASR Leaderboard si apre all&#39;inglese egiziano e nigeriano</span><span data-i18n lang="lmo">L&#39;Open ASR Leaderboard el se derva a l&#39;ingles egizian e nigerian</span></h4><div class="body" data-i18n lang="fr">Hugging Face a annoncé le 6 novembre 2026 l&#39;ajout de l&#39;anglais égyptien et nigérian à l&#39;<a href="https://huggingface.co/blog/open-asr-leaderboard-liva">Open ASR Leaderboard</a>, élargissant l&#39;évaluation de la reconnaissance vocale à des variantes régionales longtemps sous-couvertes. Le classement, maintenu par la communauté, permet de comparer les modèles de transcription sur des corpus réels et non plus sur le seul anglais standard.</div><div class="body" data-i18n lang="en">On 6 November 2026, Hugging Face announced the addition of Egyptian and Nigerian English to the <a href="https://huggingface.co/blog/open-asr-leaderboard-liva">Open ASR Leaderboard</a>, extending speech recognition evaluation to regional variants long under-covered. The community-maintained ranking allows transcription models to be compared on real-world corpora, beyond standard English alone.</div><div class="body" data-i18n lang="de">Hugging Face kündigte am 6. November 2026 die Ergänzung des ägyptischen und nigerianischen Englisch im <a href="https://huggingface.co/blog/open-asr-leaderboard-liva">Open ASR Leaderboard</a> an und erweitert damit die Bewertung der Spracherkennung auf regionale Varianten, die lange unterabgedeckt waren. Das von der Community gepflegte Ranking erlaubt den Vergleich von Transkriptionsmodellen auf realen Korpora statt allein auf Standardenglisch.</div><div class="body" data-i18n lang="it">Hugging Face ha annunciato il 6 novembre 2026 l&#39;aggiunta dell&#39;inglese egiziano e nigeriano all&#39;<a href="https://huggingface.co/blog/open-asr-leaderboard-liva">Open ASR Leaderboard</a>, ampliando la valutazione del riconoscimento vocale a varianti regionali a lungo sottocoperte. La classifica, mantenuta dalla comunità, permette di confrontare i modelli di trascrizione su corpora reali e non più sul solo inglese standard.</div><div class="body" data-i18n lang="lmo">Hugging Face l&#39;ha anunziaa el 6 de november 2026 l&#39;agionta de l&#39;ingles egizian e nigerian a l&#39;<a href="https://huggingface.co/blog/open-asr-leaderboard-liva">Open ASR Leaderboard</a>, con l&#39;allargà la valutazion del reconossiment vocal a variant regionai che per tant temp hinn staa poco cuvert. La classifega, mantegnuda de la comunità, la permet de confrontà i modej de trascrizion su corpus reai e no domà sora l&#39;ingles standard.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Robotique</p><p class="kicker" data-i18n lang="en">Robotics</p><p class="kicker" data-i18n lang="de">Robotik</p><p class="kicker" data-i18n lang="it">Robotica</p><p class="kicker" data-i18n lang="lmo">Roboteca</p><h4><span data-i18n lang="fr">ToyBlocks : un monde contrôlé pour l&#39;apprentissage robotique</span><span data-i18n lang="en">ToyBlocks: a controlled world for robot learning</span><span data-i18n lang="de">ToyBlocks: eine kontrollierte Welt für das robotische Lernen</span><span data-i18n lang="it">ToyBlocks: un mondo controllato per l&#39;apprendimento robotico</span><span data-i18n lang="lmo">ToyBlocks: on mond controllaa per l&#39;apprendiment robotegh</span></h4><div class="body" data-i18n lang="fr">AllenAI a publié le 6 novembre 2026 <a href="https://huggingface.co/blog/allenai/toyblocks">ToyBlocks</a>, un environnement de blocs standardisé pour entraîner et évaluer des politiques robotiques dans des conditions contrôlées et reproductibles. L&#39;initiative répond au besoin de protocoles d&#39;évaluation déterministes pour comparer des approches d&#39;apprentissage par renforcement sur manipulation physique.</div><div class="body" data-i18n lang="en">On 6 November 2026, AllenAI released <a href="https://huggingface.co/blog/allenai/toyblocks">ToyBlocks</a>, a standardized block environment for training and evaluating robotic policies under controlled, reproducible conditions. The initiative addresses the need for deterministic evaluation protocols to compare reinforcement learning approaches on physical manipulation.</div><div class="body" data-i18n lang="de">AllenAI veröffentlichte am 6. November 2026 <a href="https://huggingface.co/blog/allenai/toyblocks">ToyBlocks</a>, eine standardisierte Blockumgebung zum Training und zur Bewertung robotischer Strategien unter kontrollierten und reproduzierbaren Bedingungen. Die Initiative beantwortet den Bedarf an deterministischen Evaluationsprotokollen, um Ansätze des Verstärkungslernens bei physischer Manipulation zu vergleichen.</div><div class="body" data-i18n lang="it">AllenAI ha pubblicato il 6 novembre 2026 <a href="https://huggingface.co/blog/allenai/toyblocks">ToyBlocks</a>, un ambiente di blocchi standardizzato per addestrare e valutare politiche robotiche in condizioni controllate e riproducibili. L&#39;iniziativa risponde al bisogno di protocolli di valutazione deterministici per confrontare approcci di apprendimento per rinforzo sulla manipolazione fisica.</div><div class="body" data-i18n lang="lmo">AllenAI l&#39;ha publicaa el 6 de november 2026 <a href="https://huggingface.co/blog/allenai/toyblocks">ToyBlocks</a>, on ambient de bloch standardizaa per addestrà e valutà di politegh robotegh in di condizion controllaa e reprodusej. L&#39;iniziativa la respond al besogn de protocoj de valutazion deterministegh per confrontà di approcc de apprendiment con rinforz sora la manipolazion fisega.</div></article></div></section>
+<section class="page" data-page="3"><h2 class="page-label"><span data-i18n lang="fr">Page 3 — </span><span data-i18n lang="en">Page 3 — </span><span data-i18n lang="de">Seite 3 — </span><span data-i18n lang="it">Pagina 3 — </span><span data-i18n lang="lmo">Pagina 3 — </span><span data-i18n lang="fr">Page 3 — La Recherche</span><span data-i18n lang="en">Page 3 — Research</span><span data-i18n lang="de">Seite 3 — Die Forschung</span><span data-i18n lang="it">Pagina 3 — La Ricerca</span><span data-i18n lang="lmo">Pagina 3 — La Ricerca</span></h2><div class="section section-3-cols"><h3 class="section-title">III. <span data-i18n lang="fr">Papers du jour</span><span data-i18n lang="en">Papers of the Day</span><span data-i18n lang="de">Papiere des Tages</span><span data-i18n lang="it">Paper del giorno</span><span data-i18n lang="lmo">Papèr del dì</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Transfert de modèles</p><p class="kicker" data-i18n lang="en">Model transfer</p><p class="kicker" data-i18n lang="de">Modelltransfer</p><p class="kicker" data-i18n lang="it">Trasferimento di modelli</p><p class="kicker" data-i18n lang="lmo">Transfer di modej</p><h4><span data-i18n lang="fr">PACT : les gains du dialogue entre grands et petits modèles souvent illusoires</span><span data-i18n lang="en">PACT: the gains of large-to-small model dialogue are often illusory</span><span data-i18n lang="de">PACT: Die Gewinne des Dialogs zwischen grossen und kleinen Modellen sind oft trügerisch</span><span data-i18n lang="it">PACT: i guadagni del dialogo tra grandi e piccoli modelli spesso illusori</span><span data-i18n lang="lmo">PACT: i guadagn del dialogh intra gròss e piscinin modej despess illusori</span></h4><div class="body" data-i18n lang="fr">Le papier de King&#39;s College London publié le 6 novembre 2026 sur les <a href="https://arxiv.org/abs/2611.06976">transferts préfill-vers-autorégressif</a> (12 upvotes sur les Daily Papers) montre que les améliorations apportées par la communication latente entre un gros modèle émetteur et un petit récepteur peuvent être reproduites par des signaux non informatifs ou l&#39;entraînement du seul récepteur. Les auteurs proposent PACT-Check, un protocole pour quantifier la part réelle du gain issue de la communication.</div><div class="body" data-i18n lang="en">The King&#39;s College London paper published on 6 November 2026 on <a href="https://arxiv.org/abs/2611.06976">prefill-to-autoregressive transfers</a> (12 upvotes on the Daily Papers) shows that improvements from latent communication between a large sender model and a small receiver can be reproduced by non-informative signals or by training the receiver alone. The authors propose PACT-Check, a protocol to quantify the share of the gain genuinely attributable to communication.</div><div class="body" data-i18n lang="de">Das Papier des King&#39;s College London, veröffentlicht am 6. November 2026 zu <a href="https://arxiv.org/abs/2611.06976">Prefill-zu-autoregressiven Transfers</a> (12 Upvotes auf den Daily Papers), zeigt, dass die Verbesserungen durch latente Kommunikation zwischen einem grossen Sender- und einem kleinen Empfängermodell durch nicht-informative Signale oder das Training allein des Empfängers reproduziert werden können. Die Autoren schlagen PACT-Check vor, ein Protokoll zur Quantifizierung des tatsächlichen Anteils des Gewinns, der aus der Kommunikation stammt.</div><div class="body" data-i18n lang="it">Il documento di King&#39;s College London pubblicato il 6 novembre 2026 sui <a href="https://arxiv.org/abs/2611.06976">trasferimenti prefill-verso-autoregressivo</a> (12 upvote sulle Daily Papers) mostra che i miglioramenti apportati dalla comunicazione latente tra un grande modello trasmittente e un piccolo ricevente possono essere riprodotti con segnali non informativi o l&#39;addestramento del solo ricevente. Gli autori propongono PACT-Check, un protocollo per quantificare la quota reale del guadagno derivante dalla comunicazione.</div><div class="body" data-i18n lang="lmo">El papèr del King&#39;s College London publicaa el 6 de november 2026 sora i <a href="https://arxiv.org/abs/2611.06976">transfer prefrell-vers-autoregressiv</a> (12 upvote sora i Daily Papers) el mostra che i migliorament portaa de la comunicazion latenta intra on gròss modei emettor e on piscinin ricevor poden vess riproduu cont di segnaj minga informativ o cont l&#39;addestrament del domà ricevor. I autor proponen PACT-Check, on protocoll per quantificà la part reala del guadagn che la vegn de la comunicazion.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Architecture</p><p class="kicker" data-i18n lang="en">Architecture</p><p class="kicker" data-i18n lang="de">Architektur</p><p class="kicker" data-i18n lang="it">Architettura</p><p class="kicker" data-i18n lang="lmo">Architetura</p><h4><span data-i18n lang="fr">Muir : l&#39;attention linéaire extrapole de 4K à 10 millions de tokens</span><span data-i18n lang="en">Muir: linear attention extrapolates from 4K to 10 million tokens</span><span data-i18n lang="de">Muir: Die lineare Aufmerksamkeit extrapoliert von 4K auf 10 Millionen Tokens</span><span data-i18n lang="it">Muir: l&#39;attenzione lineare estrapola da 4K a 10 milioni di token</span><span data-i18n lang="lmo">Muir: l&#39;atenzion linear la estrapola de 4K a 10 milion de token</span></h4><div class="body" data-i18n lang="fr">Des chercheurs de Google présentent le 6 novembre 2026 <a href="https://arxiv.org/abs/2611.08376">Muir</a>, une attention linéaire à gating alloué par sensibilité : elle abaisse la perplexité de 1,8 à 2,0 % face à Gated DeltaNet-2 et de 2,5 à 3,6 % face au Transformer entre 166M et 1,34B paramètres. À 1,34B, le modèle extrapole 2 560 fois sa longueur d&#39;entraînement de 4K jusqu&#39;à 10M tokens sans dérive, avec un entraînement 2,7 fois plus rapide que le Transformer à 32K.</div><div class="body" data-i18n lang="en">On 6 November 2026, Google researchers presented <a href="https://arxiv.org/abs/2611.08376">Muir</a>, a linear attention with sensitivity-allocated gating: it lowers perplexity by 1.8 to 2.0% versus Gated DeltaNet-2 and by 2.5 to 3.6% versus the Transformer between 166M and 1.34B parameters. At 1.34B, the model extrapolates 2,560 times its 4K training length up to 10M tokens without drift, with training 2.7 times faster than the Transformer at 32K.</div><div class="body" data-i18n lang="de">Forschende von Google stellen am 6. November 2026 <a href="https://arxiv.org/abs/2611.08376">Muir</a> vor, eine lineare Aufmerksamkeit mit sensibilitätsallokiertem Gating: Sie senkt die Perplexität um 1,8 bis 2,0 % gegenüber Gated DeltaNet-2 und um 2,5 bis 3,6 % gegenüber dem Transformer zwischen 166M und 1,34B Parametern. Bei 1,34B extrapoliert das Modell das 2 560-Fache seiner Trainingslänge von 4K bis zu 10M Tokens ohne Drift, mit einem 2,7-fach schnelleren Training als der Transformer bei 32K.</div><div class="body" data-i18n lang="it">Ricercatori di Google presentano il 6 novembre 2026 <a href="https://arxiv.org/abs/2611.08376">Muir</a>, un&#39;attenzione lineare a gating allocato per sensibilità: abbassa la perplessità dell&#39;1,8–2,0 % rispetto a Gated DeltaNet-2 e del 2,5–3,6 % rispetto al Transformer tra 166M e 1,34B parametri. A 1,34B, il modello estrapola 2 560 volte la sua lunghezza di addestramento di 4K fino a 10M token senza deriva, con un addestramento 2,7 volte più rapido del Transformer a 32K.</div><div class="body" data-i18n lang="lmo">Di ricercador de Google presenten el 6 de november 2026 <a href="https://arxiv.org/abs/2611.08376">Muir</a>, ona atenzion linear a gating assegnaa per sensibilità: la sbassa la perplessità de l&#39;1,8 al 2,0% in front a Gated DeltaNet-2 e del 2,5 al 3,6% in front al Transformer intra 166M e 1,34B parametr. A 1,34B, el modei el estrapola 2 560 voeult la soa longhezza de addestrament de 4K fin a 10M token senza deriva, cont on addestrament 2,7 voeult pussee svelt del Transformer a 32K.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Benchmarks</p><p class="kicker" data-i18n lang="en">Benchmarks</p><p class="kicker" data-i18n lang="de">Benchmarks</p><p class="kicker" data-i18n lang="it">Benchmark</p><p class="kicker" data-i18n lang="lmo">Benchmark</p><h4><span data-i18n lang="fr">TB-MathModel : 18 problèmes de modélisation passés au terminal</span><span data-i18n lang="en">TB-MathModel: 18 modeling problems run in the terminal</span><span data-i18n lang="de">TB-MathModel: 18 Modellierungsprobleme im Terminal durchlaufen</span><span data-i18n lang="it">TB-MathModel: 18 problemi di modellazione passati al terminale</span><span data-i18n lang="lmo">TB-MathModel: 18 problema de modellazion passaa al terminal</span></h4><div class="body" data-i18n lang="fr">Le <a href="https://arxiv.org/abs/2611.08237">premier benchmark agentique et vérifiable de modélisation mathématique</a>, publié le 6 novembre 2026 avec 7 upvotes, couvre 18 problèmes réels CUMCM/MCM (2023-2025) exécutés en terminal conteneurisé, avec 624 obligations Lean 4 de vérification de faisabilité. Le meilleur système multicapteur atteint 64,58 % en O-Eval multi-références, contre 59,81 % pour un modèle open à 1/100e du coût.</div><div class="body" data-i18n lang="en">The <a href="https://arxiv.org/abs/2611.08237">first agentic and verifiable benchmark for mathematical modeling</a>, published on 6 November 2026 with 7 upvotes, covers 18 real CUMCM/MCM problems (2023–2025) executed in a containerized terminal, with 624 Lean 4 feasibility-proof obligations. The best multi-sensor system reaches 64.58% on multi-reference O-Eval, versus 59.81% for an open model at 1/100th of the cost.</div><div class="body" data-i18n lang="de">Der <a href="https://arxiv.org/abs/2611.08237">erste agentische und verifizierbare Benchmark für mathematische Modellierung</a>, veröffentlicht am 6. November 2026 mit 7 Upvotes, deckt 18 reale CUMCM/MCM-Probleme (2023–2025) ab, die in einer containerisierten Umgebung ausgeführt werden, mit 624 Lean-4-Verpflichtungen zur Machbarkeitsprüfung. Das beste Multisensor-System erreicht 64,58 % in der O-Eval mit mehreren Referenzen, gegenüber 59,81 % für ein offenes Modell bei einem Hundertstel der Kosten.</div><div class="body" data-i18n lang="it">Il <a href="https://arxiv.org/abs/2611.08237">primo benchmark agente e verificabile di modellazione matematica</a>, pubblicato il 6 novembre 2026 con 7 upvote, copre 18 problemi reali CUMCM/MCM (2023-2025) eseguiti in terminale containerizzato, con 624 obblighi Lean 4 di verifica di fattibilità. Il miglior sistema multisensore raggiunge il 64,58 % in O-Eval multiriferimento, contro il 59,81 % di un modello open a 1/100 del costo.</div><div class="body" data-i18n lang="lmo">El <a href="https://arxiv.org/abs/2611.08237">primm benchmark agentigh e verificabel de modellazion matematiga</a>, publicaa el 6 de november 2026 con 7 upvote, el quattta 18 problema reai CUMCM/MCM (2023-2025) eseguii in terminal contegnidà, con 624 obligazion Lean 4 de verificazion de fattibilità. El sistema multisenzor mej el riva al 64,58% in O-Eval multi-referenz, contra el 59,81% per on modei open a 1/100 del cost.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Découverte scientifique</p><p class="kicker" data-i18n lang="en">Scientific discovery</p><p class="kicker" data-i18n lang="de">Wissenschaftliche Entdeckung</p><p class="kicker" data-i18n lang="it">Scoperta scientifica</p><p class="kicker" data-i18n lang="lmo">Descoverta scentifega</p><h4><span data-i18n lang="fr">SwarmEvolve : des essaims d&#39;agents latents battent AlphaEvolve avec Qwen3 8B</span><span data-i18n lang="en">SwarmEvolve: latent agent swarms beat AlphaEvolve with Qwen3 8B</span><span data-i18n lang="de">SwarmEvolve: Latente Agentenschwärme schlagen AlphaEvolve mit Qwen3 8B</span><span data-i18n lang="it">SwarmEvolve: sciami di agenti latenti battono AlphaEvolve con Qwen3 8B</span><span data-i18n lang="lmo">SwarmEvolve: di sciami d&#39;agent latent batten AlphaEvolve cont Qwen3 8B</span></h4><div class="body" data-i18n lang="fr">Le cadre de Brown University <a href="https://arxiv.org/abs/2611.08483">SwarmEvolve</a>, publié le 6 novembre 2026, fait raisonner des centaines d&#39;agents par tour dans l&#39;espace latent en partageant leurs KV caches. Sur 21 problèmes de découverte mathématique, il atteint en 3 à 8 minutes médianes les meilleurs scores que d&#39;autres cadres SOTA n&#39;obtiennent qu&#39;en 60 minutes, et améliore avec Qwen3 8B plusieurs solutions initialement trouvées par AlphaEvolve avec des LLM de frontière.</div><div class="body" data-i18n lang="en">The Brown University framework <a href="https://arxiv.org/abs/2611.08483">SwarmEvolve</a>, published on 6 November 2026, has hundreds of agents reason per turn in latent space by sharing their KV caches. On 21 mathematical discovery problems, it reaches in a median of 3 to 8 minutes the best scores other SOTA frameworks only achieve after 60 minutes, and with Qwen3 8B improves several solutions initially found by AlphaEvolve using frontier LLMs.</div><div class="body" data-i18n lang="de">Das Framework der Brown University, <a href="https://arxiv.org/abs/2611.08483">SwarmEvolve</a>, veröffentlicht am 6. November 2026, lässt pro Runde Hunderte von Agenten im latenten Raum unter gemeinsamer Nutzung ihrer KV-Caches schlussfolgern. Bei 21 Problemen mathematischer Entdeckung erreicht es in 3 bis 8 Minuten im Median die Bestwerte, die andere SOTA-Frameworks erst in 60 Minuten erzielen, und verbessert mit Qwen3 8B mehrere Lösungen, die ursprünglich von AlphaEvolve mit Grenz-LLMs gefunden wurden.</div><div class="body" data-i18n lang="it">Il framework della Brown University <a href="https://arxiv.org/abs/2611.08483">SwarmEvolve</a>, pubblicato il 6 novembre 2026, fa ragionare centinaia di agenti per turno nello spazio latente condividendo le loro KV cache. Su 21 problemi di scoperta matematica, raggiunge in 3-8 minuti mediani i punteggi migliori che altri framework SOTA ottengono solo in 60 minuti, e migliora con Qwen3 8B diverse soluzioni inizialmente trovate da AlphaEvolve con LLM di frontiera.</div><div class="body" data-i18n lang="lmo">El quadro de la Brown University <a href="https://arxiv.org/abs/2611.08483">SwarmEvolve</a>, publicaa el 6 de november 2026, el fa ragionà centinai de agent per turn in del spazzi latent cont el condivid i sò KV cache. Sora 21 problema de descoverta matematiga, el riva in 3 a 8 menut median ai pont pussee volt che alter quadri SOTA ottegnen domà in 60 menut, e con Qwen3 8B el migliora divers soluzion trovaa inizialment de AlphaEvolve cont di LLM de frontiera.</div></article></div></section>
+<section class="page" data-page="4"><h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="lmo">Pagina 4 — </span><span data-i18n lang="fr">Page 4 — La Communauté &amp; Édito</span><span data-i18n lang="en">Page 4 — Community &amp; Editorial</span><span data-i18n lang="de">Seite 4 — Community &amp; Leitartikel</span><span data-i18n lang="it">Pagina 4 — La Comunità &amp; Editoriale</span><span data-i18n lang="lmo">Pagina 4 — La Comunità &amp; Editoriai</span></h2><div class="section section-2-cols"><h3 class="section-title">IV. <span data-i18n lang="fr">Signaux communautaires</span><span data-i18n lang="en">Community Signals</span><span data-i18n lang="de">Community-Signale</span><span data-i18n lang="it">Segnali dalla comunità</span><span data-i18n lang="lmo">Segnai comunitari</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Ingénierie LLM</p><p class="kicker" data-i18n lang="en">LLM engineering</p><p class="kicker" data-i18n lang="de">LLM-Engineering</p><p class="kicker" data-i18n lang="it">Ingegneria LLM</p><p class="kicker" data-i18n lang="lmo">Ingegneria LLM</p><h4><span data-i18n lang="fr">Un petit juge qui interroge Opus atteint sa précision à coût divisé par quatre</span><span data-i18n lang="en">A small judge that queries Opus matches its accuracy at one-quarter the cost</span><span data-i18n lang="de">Ein kleiner Jura mit Opus-Rückgrat erreicht die Genauigkeit bei einem Viertel der Kosten</span><span data-i18n lang="it">Un piccolo giudice che interroga Opus raggiunge la sua precisione a costo ridotto di quattro volte</span><span data-i18n lang="lmo">On piscinin giudes che &#39;l interroga Opus el riva a la soa precision cont el cost dividuu per quatter</span></h4><div class="body" data-i18n lang="fr">Hightouch détaille dans un billet monté à 407 points sur <a href="https://news.ycombinator.com/item?id=50397429">Hacker News</a> le 6 novembre 2026 comment un modèle léger capable de solliciter Claude Opus en seconde instance atteint la précision du grand modèle pour la résolution d&#39;identités, à un coût 4 fois inférieur. La discussion (91 commentaires) interroge les limites du routage hiérarchique entre juges.</div><div class="body" data-i18n lang="en">In a post that climbed to 407 points on <a href="https://news.ycombinator.com/item?id=50397429">Hacker News</a> on 6 November 2026, Hightouch details how a lightweight model able to call on Claude Opus as a second opinion matches the large model&#39;s accuracy for identity resolution at a quarter of the cost. The discussion (91 comments) probes the limits of hierarchical routing between judges.</div><div class="body" data-i18n lang="de">Hightouch erläutert in einem Beitrag, der am 6. November 2026 auf 407 Punkte auf <a href="https://news.ycombinator.com/item?id=50397429">Hacker News</a> stieg, wie ein schlankes Modell, das Claude Opus im zweiten Schritt befragen kann, die Genauigkeit des grossen Modells bei der Identitätsauflösung erreicht — bei einem viermal tieferen Kosten. Die Diskussion (91 Kommentare) hinterfragt die Grenzen hierarchischen Routings zwischen Jurymodellen.</div><div class="body" data-i18n lang="it">Hightouch descrive in un articolo salito a 407 punti su <a href="https://news.ycombinator.com/item?id=50397429">Hacker News</a> il 6 novembre 2026 come un modello leggero capace di richiedere Claude Opus in seconda istanza raggiunge la precisione del grande modello per la risoluzione di identità, a un costo 4 volte inferiore. La discussione (91 commenti) interroga i limiti dell&#39;instradamento gerarchico tra giudici.</div><div class="body" data-i18n lang="lmo">Hightouch el descriv in d&#39;on articol rivaa a 407 pont su <a href="https://news.ycombinator.com/item?id=50397429">Hacker News</a> el 6 de november 2026 come on modei liter bon de ciamà Claude Opus &#39;me segonda instanza el riva a la precision del gròss modei per la resoluzion di identità, cont on cost 4 voeult pussee bass. La discussion (91 comment) la interroga i límit del routing gerarchegh intra giudes.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Robotique</p><p class="kicker" data-i18n lang="en">Robotics</p><p class="kicker" data-i18n lang="de">Robotik</p><p class="kicker" data-i18n lang="it">Robotica</p><p class="kicker" data-i18n lang="lmo">Roboteca</p><h4><span data-i18n lang="fr">Visite de l&#39;usine Unitree : « plus confiant pour l&#39;Occident »</span><span data-i18n lang="en">A visit to the Unitree factory: &quot;feeling more confident about the West&quot;</span><span data-i18n lang="de">Besuch im Unitree-Werk: «Für den Westen zuversichtlicher»</span><span data-i18n lang="it">Visita allo stabilimento Unitree: «più fiducia per l&#39;Occidente»</span><span data-i18n lang="lmo">Visita de la fabrega Unitree: «pussee sicur per l&#39;Occident»</span></h4><div class="body" data-i18n lang="fr">Un récit de visite de l&#39;usine Unitree, publié le 7 novembre 2026, a suscité 87 points et 55 commentaires sur <a href="https://news.ycombinator.com/item?id=50400597">Hacker News</a>. L&#39;auteur, ayant observé les lignes de production de robots humanoïdes, en tire une lecture contre-intuitive sur la compétitivité industrielle occidentale en robotique.</div><div class="body" data-i18n lang="en">An account of a visit to the Unitree factory, published on 7 November 2026, drew 87 points and 55 comments on <a href="https://news.ycombinator.com/item?id=50400597">Hacker News</a>. Having observed the humanoid robot production lines, the author draws a counter-intuitive reading on the West&#39;s industrial competitiveness in robotics.</div><div class="body" data-i18n lang="de">Ein Besuchbericht aus dem Unitree-Werk, veröffentlicht am 7. November 2026, löste 87 Punkte und 55 Kommentare auf <a href="https://news.ycombinator.com/item?id=50400597">Hacker News</a> aus. Der Autor, der die Produktionslinien humanoider Roboter beobachtete, zieht daraus eine kontraintuitive Lesart zur westlichen industriellen Wettbewerbsfähigkeit in der Robotik.</div><div class="body" data-i18n lang="it">Un resoconto della visita allo stabilimento Unitree, pubblicato il 7 novembre 2026, ha suscitato 87 punti e 55 commenti su <a href="https://news.ycombinator.com/item?id=50400597">Hacker News</a>. L&#39;autore, dopo aver osservato le linee di produzione di robot umanoidi, ne trae una lettura controintuitiva sulla competitività industriale occidentale nella robotica.</div><div class="body" data-i18n lang="lmo">On relatagg de visita de la fabrega Unitree, publicaa el 7 de november 2026, l&#39;ha provocaa 87 pont e 55 comment su <a href="https://news.ycombinator.com/item?id=50400597">Hacker News</a>. L&#39;autor, che l&#39;ha osservaa i lign de produzion di robot umanoid, el ne tra ona letura contra-intuitiva sora la competitività industriala occidentala in roboteca.</div></article></div></section>
+
+  <footer class="colophon">All the AI that&#39;s fit to print</footer>
+</main>
+<script>(function() {
+  var SUPPORTED = ["fr","en","de","it","lmo"];
+  var STORAGE_KEY = 'nt-lang';
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || "fr").toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : "fr";
+  }
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].dataset.lang === lang) links[i].classList.add('active');
+      else links[i].classList.remove('active');
+    }
+  }
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+    if (!(target instanceof Element)) return;
+    var a = target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.getAttribute('data-lang');
+    if (!lang || SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+  applyLang(detectLang());
+})();</script>
+</body>
+</html>
