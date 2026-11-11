@@ -1,0 +1,702 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-11-11",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "Le 10 novembre 2026, Google DeepMind a publié AlphaProof Code, un système d'agents qui rédige des preuves formelles en Lean pour vérifier la correction de logiciels. Démonstration phare : les agents ont écrit trois millions de lignes de preuves pour vérifier le cœur du chiffrement de Signal, une base de code dont dépendent des centaines de millions d'utilisateurs, annoncée sur le <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">blog de DeepMind</a>.",
+        "en": "On 10 November 2026, Google DeepMind released AlphaProof Code, a system of agents that writes formal proofs in Lean to verify software correctness. Its flagship demonstration: the agents wrote three million lines of proofs to verify the core of Signal's encryption, a codebase relied upon by hundreds of millions of users, as announced on the <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">DeepMind blog</a>.",
+        "de": "Am 10. November 2026 hat Google DeepMind AlphaProof Code vorgestellt, ein Agentensystem, das formale Beweise in Lean verfasst, um die Korrektheit von Software zu verifizieren. Das Aushängeschild: Die Agenten schrieben drei Millionen Zeilen an Beweisen, um den Kern der Signal-Verschlüsselung zu verifizieren – eine Codebasis, von der Hunderte Millionen Nutzer abhängen –, wie im <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">DeepMind-Blog</a> angekündigt.",
+        "it": "Il 10 novembre 2026 Google DeepMind ha pubblicato AlphaProof Code, un sistema di agenti che redige dimostrazioni formali in Lean per verificare la correttezza del software. Dimostrazione di punta: gli agenti hanno scritto tre milioni di righe di dimostrazioni per verificare il cuore della crittografia di Signal, una base di codice da cui dipendono centinaia di milioni di utenti, come annunciato sul <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">blog di DeepMind</a>.",
+        "lmo": "El 10 de november 2026, Google DeepMind l'ha publicaa AlphaProof Code, on sistema de agent che scriv prov formai in Lean per verificà la correzion di software. Demonstrazion principal: i agent hann scrivuu tri milion de rigg de prov per verificà el coeur de la cifradura de Signal, ona bas de codesora de la qual dipenden centenaa de milion de utent, anunziada sora el <a href=\"https://deepmind.google/blog/introducing-alphaproof-code/\">blog de DeepMind</a>."
+      },
+      {
+        "fr": "L'annonce a dépassé la seule sphère académique : la discussion lancée le 10 novembre 2026 sur Hacker News a réuni 606 points et 179 commentaires en moins de 24 heures, une réception rare pour un sujet de vérification formelle, domaine historiquement confidentiel (<a href=\"https://news.ycombinator.com/item?id=50439193\">fil de discussion</a>).",
+        "en": "The announcement reached beyond academic circles: a discussion launched on 10 November 2026 on Hacker News gathered 606 points and 179 comments in under 24 hours, a rare reception for a formal verification topic, a historically niche field (<a href=\"https://news.ycombinator.com/item?id=50439193\">discussion thread</a>).",
+        "de": "Die Ankündigung ging über akademische Kreise hinaus: Die am 10. November 2026 auf Hacker News gestartete Diskussion sammelte innert 24 Stunden 606 Punkte und 179 Kommentare – eine seltene Resonanz für ein Thema der formalen Verifikation, einem historisch verschlossenen Gebiet (<a href=\"https://news.ycombinator.com/item?id=50439193\">Diskussionsstrang</a>).",
+        "it": "L'annuncio ha superato la sola sfera accademica: la discussione avviata il 10 novembre 2026 su Hacker News ha raccolto 606 punti e 179 commenti in meno di 24 ore, un'accoglienza rara per un tema di verifica formale, dominio storicamente riservato (<a href=\"https://news.ycombinator.com/item?id=50439193\">thread di discussione</a>).",
+        "lmo": "L'anunzi l'è andaa oltra de la sfera academega domà: la discussion verta el 10 de november 2026 sora Hacker News l'ha regolt 606 pont e 179 comenter in manch de 24 or, ona recezion rara per on argoment de verifegazione formala, domini storicament confidenzial (<a href=\"https://news.ycombinator.com/item?id=50439193\">fil de discussion</a>)."
+      },
+      {
+        "fr": "La démarche marque un changement d'échelle pour les méthodes formelles : plutôt que de réparer des bugs après coup, AlphaProof Code vise à prouver mathématiquement des propriétés critiques du code avant déploiement. Le choix de Signal, messagerie à chiffrement de bout en bout, suggère que DeepMind cible en priorité les composants de sécurité où la moindre erreur est intolérable.",
+        "en": "The approach marks a step change for formal methods: rather than fixing bugs after the fact, AlphaProof Code aims to mathematically prove critical properties of code before deployment. The choice of Signal, an end-to-end encrypted messaging service, suggests DeepMind is prioritising security components where the slightest error is intolerable.",
+        "de": "Das Vorgehen markiert einen Sprung im Maßstab der formalen Methoden: Statt Bugs nachträglich zu beheben, zielt AlphaProof Code darauf ab, kritische Code-Eigenschaften vor dem Deployment mathematisch zu beweisen. Die Wahl von Signal, einem Ende-zu-Ende-verschlüsselten Messenger, legt nahe, dass DeepMind vorrangig Sicherheitskomponenten ins Visier nimmt, wo der kleinste Fehler inakzeptabel ist.",
+        "it": "L'approccio segna un cambio di scala per i metodi formali: invece di riparare i bug a posteriori, AlphaProof Code mira a dimostrare matematicamente proprietà critiche del codice prima del deployment. La scelta di Signal, un sistema di messaggistica con crittografia end-to-end, suggerisce che DeepMind punta in via prioritaria ai componenti di sicurezza in cui il minimo errore è intollerabile.",
+        "lmo": "L'approcc el marca on cambiament de scala per i metod formai: pustost che reparà i bug dopo, AlphaProof Code el voeur provà matematicament i propritaa crìtegh del codes prima del despiegh. La scerna de Signal, messaggia con cifradura de crima a crima, la sugeriss che DeepMind el punta in primis sora i component de sigurezza indoa che l'è minga tolerabel el minim error."
+      }
+    ],
+    "urls": [
+      "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "https://news.ycombinator.com/item?id=50439193"
+    ],
+    "kicker": {
+      "fr": "Vérification formelle",
+      "en": "Formal Verification",
+      "de": "Formale Verifikation",
+      "it": "Verifica formale",
+      "lmo": "Verifegazione formala"
+    },
+    "headline": {
+      "fr": "AlphaProof Code : les agents de DeepMind ont écrit trois millions de lignes de preuves pour vérifier le chiffrement de Signal",
+      "en": "AlphaProof Code: DeepMind agents wrote three million lines of proofs to verify Signal's encryption",
+      "de": "AlphaProof Code: Die Agenten von DeepMind schrieben drei Millionen Zeilen an Beweisen, um die Verschlüsselung von Signal zu verifizieren",
+      "it": "AlphaProof Code: gli agenti di DeepMind hanno scritto tre milioni di righe di dimostrazioni per verificare la crittografia di Signal",
+      "lmo": "AlphaProof Code : i agent de DeepMind hann scrivuu tri milion de rigg de prov per verificà la cifradura de Signal"
+    },
+    "subdeck": {
+      "fr": "Google DeepMind annonce un système capable de vérifier des logiciels complexes en profondeur, avec le protocole de messagerie Signal comme démonstration.",
+      "en": "Google DeepMind announces a system capable of deeply verifying complex software, with the Signal messaging protocol as its demonstration.",
+      "de": "Google DeepMind kündigt ein System an, das komplexe Software in die Tiefe verifizieren kann – demonstriert am Messaging-Protokoll Signal.",
+      "it": "Google DeepMind annuncia un sistema in grado di verificare in profondità software complessi, con il protocollo di messaggistica Signal come dimostrazione.",
+      "lmo": "Google DeepMind el presenta on sistema bon de verificà i software compless in profondità, con el protocoll de messaggia Signal 'me demonstrazion."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Gemini Intelligence débarque sur de nouveaux appareils Android",
+        "en": "Gemini Intelligence lands on new Android devices",
+        "de": "Gemini Intelligence erreicht neue Android-Geräte",
+        "it": "Gemini Intelligence arriva su nuovi dispositivi Android",
+        "lmo": "Gemini Intelligence el riva in su noeuv apparell Android"
+      },
+      "body": {
+        "fr": "Gemini Intelligence s'étend à davantage d'appareils avec des capacités élargies, annonce Google le 10 novembre 2026 sur le <a href=\"https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\">blog Android</a>. Le déploiement du mois élargit les fonctions d'assistance IA du système aux nouveaux terminaux.",
+        "en": "Gemini Intelligence is expanding to more devices with broadened capabilities, Google announced on 10 November 2026 on the <a href=\"https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\">Android blog</a>. This month's rollout extends the system's AI assistance features to new devices.",
+        "de": "Gemini Intelligence dehnt sich auf weitere Geräte mit erweiterten Fähigkeiten aus, wie Google am 10. November 2026 im <a href=\"https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\">Android-Blog</a> ankündigt. Das Rollout des Monats erweitert die KI-Assistenzfunktionen des Systems auf neue Endgeräte.",
+        "it": "Gemini Intelligence si estende a più dispositivi con capacità ampliate, annuncia Google il 10 novembre 2026 sul <a href=\"https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\">blog Android</a>. Il rollout del mese amplia le funzioni di assistenza IA del sistema ai nuovi terminali.",
+        "lmo": "Gemini Intelligence el se slarga a pussee aparell con capacità_slargaa, el nunzia Google el 10 de november 2026 sora el <a href=\"https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/\">blog Android</a>. El despiegh del mes el slarga i funzion de assistenza IA del sistema ai noeuv terminai."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "urls": [
+        "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Google publie Multimodal Knowledge Agent, un benchmark de raisonnement multimodal",
+        "en": "Google releases Multimodal Knowledge Agent, a multimodal reasoning benchmark",
+        "de": "Google veröffentlicht Multimodal Knowledge Agent, einen Benchmark für multimodales Denken",
+        "it": "Google pubblica Multimodal Knowledge Agent, un benchmark di ragionamento multimodale",
+        "lmo": "Google el publega Multimodal Knowledge Agent, on benchmark de resunament multimodal"
+      },
+      "body": {
+        "fr": "Google lance le 10 novembre 2026 le benchmark Multimodal Knowledge Agent pour évaluer le raisonnement des agents sur des tâches multimodales visuellement complexes, détaille le <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/\">billet modèles & recherche</a>. L'initiative vise à mesurer un domaine jusqu'ici mal couvert par les évaluations texte.",
+        "en": "Google launched the Multimodal Knowledge Agent benchmark on 10 November 2026 to evaluate agent reasoning on visually complex multimodal tasks, as detailed in the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/\">models & research post</a>. The initiative aims to measure a domain poorly covered so far by text-based evaluations.",
+        "de": "Google lanciert am 10. November 2026 den Benchmark Multimodal Knowledge Agent, um das Denken von Agenten bei visuell komplexen multimodalen Aufgaben zu bewerten, wie der <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/\">Beitrag Modelle & Forschung</a> erläutert. Die Initiative soll ein bislang von Text-Evaluationen schlecht abgedecktes Gebiet messen.",
+        "it": "Google lancia il 10 novembre 2026 il benchmark Multimodal Knowledge Agent per valutare il ragionamento degli agenti su compiti multimodali visivamente complessi, come dettaglia il <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/\">post modelli & ricerca</a>. L'iniziativa mira a misurare un dominio finora poco coperto dalle valutazioni testuali.",
+        "lmo": "Google el lancia el 10 de november 2026 el benchmark Multimodal Knowledge Agent per valutà el resunament di agent sora di lavor multimodai visualment compless, el detaja el <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/\">billet modell & ricerca</a>. L'iniziativa la voeur misurà on domini fin adess mal quattaa di valutazion de test."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "L'agent de négociation de Curative traite 2 000 contrats de santé par semaine",
+        "en": "Curative's negotiation agent handles 2,000 healthcare contracts a week",
+        "de": "Curatives Verhandlungsagent bearbeitet 2 000 Gesundheitsverträge pro Woche",
+        "it": "L'agente di negoziazione di Curative tratta 2 000 contratti sanitari a settimana",
+        "lmo": "L'agent de negozià de Curative el tratta 2 000 contrat de salut a la setemana"
+      },
+      "body": {
+        "fr": "Curative fait négocier plus de 2 000 contrats de prestataires par semaine par un agent de deal-making construit sur Claude et Claude Code, rapporte l'étude de cas publiée le 10 novembre 2026 sur le <a href=\"https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude\">blog Claude</a>. L'agent construit un réseau national de prestataires de santé.",
+        "en": "Curative has a deal-making agent built on Claude and Claude Code negotiate more than 2,000 provider contracts per week, according to the case study published on 10 November 2026 on the <a href=\"https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude\">Claude blog</a>. The agent is building a national network of healthcare providers.",
+        "de": "Curative lässt mehr als 2 000 Leistungserbringer-Verträge pro Woche von einem auf Claude und Claude Code aufgebauten Deal-Making-Agenten verhandeln, wie die Fallstudie vom 10. November 2026 im <a href=\"https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude\">Claude-Blog</a> berichtet. Der Agent baut ein nationales Netzwerk von Gesundheitsleistungserbringern auf.",
+        "it": "Curative fa negoziare più di 2 000 contratti con i fornitori a settimana da parte di un agente di deal-making costruito su Claude e Claude Code, come riporta il caso studio pubblicato il 10 novembre 2026 sul <a href=\"https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude\">blog Claude</a>. L'agente costruisce una rete nazionale di fornitori sanitari.",
+        "lmo": "Curative el fa negozià pussee de 2 000 contrat de provider a la setemana cont on agent de deal-making costruii sora Claude e Claude Code, 'me 'l reporta el cas studi publicaa el 10 de november 2026 sora el <a href=\"https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude\">blog Claude</a>. L'agent el construiss ona red nazional de provider de salut."
+      },
+      "tag": {
+        "fr": "Terrain",
+        "en": "On the Ground",
+        "de": "Praxis",
+        "it": "Terreno",
+        "lmo": "Terren"
+      },
+      "urls": [
+        "https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Frontseite — Modelle & Grenze",
+        "it": "Prima pagina — Modelli & Frontiera",
+        "lmo": "In prima pagina — Modell & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Frontière",
+            "en": "Frontier",
+            "de": "Grenze",
+            "it": "Frontiera",
+            "lmo": "Frontiera"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Gemini 4 Carbon désormais disponible pour tous",
+                "en": "Gemini 4 Carbon now available to everyone",
+                "de": "Gemini 4 Carbon nun für alle verfügbar",
+                "it": "Gemini 4 Carbon ormai disponibile per tutti",
+                "lmo": "Gemini 4 Carbon adess disponibel per tucc"
+              },
+              "body": {
+                "fr": "En parallèle d'AlphaProof Code, Google DeepMind a mis Gemini 4 Carbon à disposition des développeurs, entreprises, scientifiques et grand public le 10 novembre 2026, via le <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">blog modèles & recherche</a> et le <a href=\"https://deepmind.google/blog/gemini-4-carbon-is-now-available/\">flux DeepMind</a>. Ce déploiement élargit la famille Gemini 4 d'une variante supplémentaire accessible sur l'ensemble des segments.",
+                "en": "Alongside AlphaProof Code, Google DeepMind made Gemini 4 Carbon available to developers, enterprises, scientists and the general public on 10 November 2026, via the <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">models & research blog</a> and the <a href=\"https://deepmind.google/blog/gemini-4-carbon-is-now-available/\">DeepMind feed</a>. The rollout adds a further variant to the Gemini 4 family, accessible across all segments.",
+                "de": "Parallel zu AlphaProof Code hat Google DeepMind Gemini 4 Carbon am 10. November 2026 für Entwickler, Unternehmen, Wissenschaftler und die breite Öffentlichkeit verfügbar gemacht, wie der <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">Blog Modelle & Forschung</a> und der <a href=\"https://deepmind.google/blog/gemini-4-carbon-is-now-available/\">DeepMind-Feed</a> zeigen. Dieses Rollout erweitert die Gemini-4-Familie um eine über alle Segmente zugängliche Variante.",
+                "it": "In parallelo ad AlphaProof Code, Google DeepMind ha messo Gemini 4 Carbon a disposizione di sviluppatori, imprese, scienziati e grande pubblico il 10 novembre 2026, tramite il <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">blog modelli & ricerca</a> e il <a href=\"https://deepmind.google/blog/gemini-4-carbon-is-now-available/\">feed DeepMind</a>. Questo deployment amplia la famiglia Gemini 4 con una variante supplementare accessibile a tutti i segmenti.",
+                "lmo": "In parallell de AlphaProof Code, Google DeepMind l'ha mettuu Gemini 4 Carbon a disposizion di svilupador, aziend, scienzaa e pubblegh general el 10 de november 2026, via el <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/\">blog modell & ricerca</a> e el <a href=\"https://deepmind.google/blog/gemini-4-carbon-is-now-available/\">fluss DeepMind</a>. Sto despiegh chì el slarga la familia Gemini 4 con ona variant in pussee accessibel in tucc i segment."
+              },
+              "kicker": {
+                "fr": "Modèles",
+                "en": "Models",
+                "de": "Modelle",
+                "it": "Modelli",
+                "lmo": "Modell"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+                "https://deepmind.google/blog/gemini-4-carbon-is-now-available/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google Cloud lance Gemini for healthcare pour unifier les données cliniques",
+                "en": "Google Cloud launches Gemini for healthcare to unify clinical data",
+                "de": "Google Cloud lanciert Gemini for healthcare zur Vereinheitlichung klinischer Daten",
+                "it": "Google Cloud lancia Gemini for healthcare per unificare i dati clinici",
+                "lmo": "Google Cloud el lancia Gemini for healthcare per unifegà i dacc clinich"
+              },
+              "body": {
+                "fr": "Google Cloud lance Gemini for healthcare, une offre destinée à unifier les données cliniques et automatiser les flux administratifs des soignants, annoncé le 10 novembre 2026 sur le <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\">blog Google Cloud</a>. L'objectif affiché est de réduire l'épuisement administratif, l'une des premières causes d'attrition dans les hôpitaux.",
+                "en": "Google Cloud is launching Gemini for healthcare, an offering designed to unify clinical data and automate administrative workflows for clinicians, announced on 10 November 2026 on the <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\">Google Cloud blog</a>. The stated goal is to reduce administrative burnout, one of the leading causes of attrition in hospitals.",
+                "de": "Google Cloud lanciert Gemini for healthcare, ein Angebot zur Vereinheitlichung klinischer Daten und zur Automatisierung administrativer Abläufe für Pflegepersonal, wie am 10. November 2026 im <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\">Google-Cloud-Blog</a> angekündigt. Das erklärte Ziel ist die Verringerung administrativer Erschöpfung – eine der Hauptursachen für Fluktuation in Spitälern.",
+                "it": "Google Cloud lancia Gemini for healthcare, un'offerta destinata a unificare i dati clinici e ad automatizzare i flussi amministrativi del personale sanitario, come annunciato il 10 novembre 2026 sul <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\">blog Google Cloud</a>. L'obiettivo dichiarato è ridurre l'esaurimento amministrativo, una delle prime cause di attrizione negli ospedali.",
+                "lmo": "Google Cloud el lancia Gemini for healthcare, ona offerta fada su per unifegà i dacc clinich e automatizzà i fluss aministrativ di caregiovann, anunziaa el 10 de november 2026 sora el <a href=\"https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/\">blog Google Cloud</a>. L'obiettiv declaraa l'è de sbassà el stracch aministrativ, vuna di primm caus de abbandon in di uspial."
+              },
+              "kicker": {
+                "fr": "Santé",
+                "en": "Healthcare",
+                "de": "Gesundheit",
+                "it": "Salute",
+                "lmo": "Salut"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Google et Adobe rapprochent leurs outils créatifs et bureautiques",
+                "en": "Google and Adobe bring their creative and office tools closer together",
+                "de": "Google und Adobe rücken ihre Kreativ- und Office-Werkzeuge zusammen",
+                "it": "Google e Adobe avvicinano i loro strumenti creativi e di produttività",
+                "lmo": "Google e Adobe vesinen i sò strumenti creativ e de offizi"
+              },
+              "body": {
+                "fr": "Google et Adobe annoncent le 10 novembre 2026 une intégration rapprochée de leurs outils créatifs et de productivité : édition de PDF dans Drive et IA Adobe dans Gemini, détaille le <a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">billet d'annonce</a>. Le rapprochement vise à réduire les allers-retours entre écosystèmes pour les utilisateurs grand public.",
+                "en": "Google and Adobe announced on 10 November 2026 a closer integration of their creative and productivity tools: PDF editing in Drive and Adobe AI in Gemini, according to the <a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">announcement post</a>. The partnership aims to cut back-and-forth between ecosystems for consumers.",
+                "de": "Google und Adobe kündigen am 10. November 2026 eine enge Integration ihrer Kreativ- und Produktivitätswerkzeuge an: PDF-Bearbeitung in Drive und Adobe-KI in Gemini, wie der <a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">Ankündigungsbeitrag</a> erläutert. Die Annäherung soll für Endnutzer die Wechsel zwischen Ökosystemen reduzieren.",
+                "it": "Google e Adobe annunciano il 10 novembre 2026 un'integrazione ravvicinata dei loro strumenti creativi e di produttività: modifica dei PDF in Drive e IA Adobe in Gemini, come dettaglia il <a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">post di annuncio</a>. Il ravvicinamento mira a ridurre gli andirivieni tra ecosistemi per gli utenti consumer.",
+                "lmo": "Google e Adobe anunzien el 10 de november 2026 ona integrazion streccia di sò strumenti creativ e de produtivitaa: modifega di PDF in Drive e IA Adobe in Gemini, el detaja el <a href=\"https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/\">billet d'anunzi</a>. El vesinament el voeur sbassà i andaa e vegnuu tra i ecosistem per i utent del pubblegh general."
+              },
+              "kicker": {
+                "fr": "Partenariats",
+                "en": "Partnerships",
+                "de": "Partnerschaften",
+                "it": "Partnership",
+                "lmo": "Partenariad"
+              },
+              "urls": [
+                "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Industrie",
+            "en": "Industry",
+            "de": "Industrie",
+            "it": "Industria",
+            "lmo": "Industria"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Businesses in ChatGPT » : OpenAI ouvre un canal entreprises dans l'assistant",
+                "en": "\"Businesses in ChatGPT\": OpenAI opens a business channel inside the assistant",
+                "de": "«Businesses in ChatGPT»: OpenAI eröffnet einen Firmenkanal im Assistenten",
+                "it": "«Businesses in ChatGPT»: OpenAI apre un canale imprese nell'assistente",
+                "lmo": "« Businesses in ChatGPT » : OpenAI el vert on canal aziend in de l'assistenter"
+              },
+              "body": {
+                "fr": "OpenAI introduit « Businesses in ChatGPT » le 10 novembre 2026 : les entreprises peuvent y gérer leurs informations, obtenir des insights sur leur visibilité dans l'assistant et transformer l'intérêt des utilisateurs en actions, selon l'<a href=\"https://openai.com/index/introducing-businesses-chatgpt\">annonce</a>. Les notes de version du même jour confirment l'arrivée d'un Business Hub et le retrait des voix Advanced et Standard de ChatGPT Voice (<a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">release notes</a>).",
+                "en": "OpenAI introduces \"Businesses in ChatGPT\" on 10 November 2026: businesses can manage their information, gain insights into their visibility in the assistant and turn user interest into actions, according to the <a href=\"https://openai.com/index/introducing-businesses-chatgpt\">announcement</a>. The same day's release notes confirm the arrival of a Business Hub and the removal of the Advanced and Standard voices from ChatGPT Voice (<a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">release notes</a>).",
+                "de": "OpenAI führt am 10. November 2026 «Businesses in ChatGPT» ein: Unternehmen können dort ihre Informationen verwalten, Einblicke in ihre Sichtbarkeit im Assistenten erhalten und Nutzerinteresse in Aktionen umwandeln, gemäss der <a href=\"https://openai.com/index/introducing-businesses-chatgpt\">Ankündigung</a>. Die Release Notes desselben Tages bestätigen die Einführung eines Business Hub sowie den Rückzug der Stimmen Advanced und Standard aus ChatGPT Voice (<a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">Release Notes</a>).",
+                "it": "OpenAI introduce «Businesses in ChatGPT» il 10 novembre 2026: le imprese possono gestirvi le proprie informazioni, ottenere insight sulla propria visibilità nell'assistente e trasformare l'interesse degli utenti in azioni, secondo l'<a href=\"https://openai.com/index/introducing-businesses-chatgpt\">annuncio</a>. Le note di rilascio dello stesso giorno confermano l'arrivo di un Business Hub e il ritiro delle voci Advanced e Standard di ChatGPT Voice (<a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">release notes</a>).",
+                "lmo": "OpenAI el presenta « Businesses in ChatGPT » el 10 de november 2026: i aziend poden lì gestì i sò informazion, ottegnì insight sora la sò visibilitaa in de l'assistenter e trasformà l'interess di utent in azion, segond l'<a href=\"https://openai.com/index/introducing-businesses-chatgpt\">anunzi</a>. I nòt de version del istess dì confermen la rivada de on Business Hub e la toltura via di voeus Advanced e Standard de ChatGPT Voice (<a href=\"https://help.openai.com/en/articles/6825453-chatgpt-release-notes\">release notes</a>)."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-businesses-chatgpt",
+                "https://help.openai.com/en/articles/6825453-chatgpt-release-notes"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Plus de 20 000 vétérans ont activé leur année gratuite de ChatGPT Plus",
+                "en": "More than 20,000 veterans have claimed their free year of ChatGPT Plus",
+                "de": "Über 20 000 Veteranen haben ihr Gratisjahr ChatGPT Plus aktiviert",
+                "it": "Più di 20 000 veterani hanno attivato il loro anno gratuito di ChatGPT Plus",
+                "lmo": "Pussee de 20 000 veteran hann ativaa el sò ann gratis de ChatGPT Plus"
+              },
+              "body": {
+                "fr": "Plus de 20 000 vétérans et militaires en transition ont réclamé une année gratuite de ChatGPT Plus, indique OpenAI le 11 novembre 2026, jour férié américain dédié aux anciens combattants. Le programme, décrit sur <a href=\"https://openai.com/index/chatgpt-plus-for-veterans\">openai.com</a>, documente comment ils utilisent l'assistant pour préparer leur reconversion vers des carrières civiles.",
+                "en": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus, OpenAI said on 11 November 2026, the US public holiday honouring veterans. The programme, described on <a href=\"https://openai.com/index/chatgpt-plus-for-veterans\">openai.com</a>, documents how they use the assistant to prepare for their transition to civilian careers.",
+                "de": "Mehr als 20 000 Veteranen und im Übergang befindliche Militärangehörige haben ein kostenloses Jahr ChatGPT Plus beansprucht, wie OpenAI am 11. November 2026 mitteilt, einem US-Feiertag zu Ehren ehemaliger Soldaten. Das Programm, beschrieben auf <a href=\"https://openai.com/index/chatgpt-plus-for-veterans\">openai.com</a>, dokumentiert, wie sie den Assistenten für die Vorbereitung ihrer Umorientierung in zivile Karrieren nutzen.",
+                "it": "Più di 20 000 veterani e militari in transizione hanno richiesto un anno gratuito di ChatGPT Plus, indica OpenAI l'11 novembre 2026, giorno festivo statunitense dedicato ai veterani. Il programma, descritto su <a href=\"https://openai.com/index/chatgpt-plus-for-veterans\">openai.com</a>, documenta come utilizzano l'assistente per preparare la loro riconversione verso carriere civili.",
+                "lmo": "Pussee de 20 000 veteran e militaar in transizion hann domandaa on ann gratis de ChatGPT Plus, el dis OpenAI l'11 de november 2026, dì de festa american dedicaa ai antigh combattencc. El program, descrivuu sora <a href=\"https://openai.com/index/chatgpt-plus-for-veterans\">openai.com</a>, el documenta comè doperen l'assistenter per preparà la reconversion vers carier civil."
+              },
+              "kicker": {
+                "fr": "Société",
+                "en": "Company",
+                "de": "Unternehmen",
+                "it": "Società",
+                "lmo": "Società"
+              },
+              "urls": [
+                "https://openai.com/index/chatgpt-plus-for-veterans"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cogent et OpenAI bâtissent des usines de cyberdéfense à base d'agents",
+                "en": "Cogent and OpenAI build agent-based cyberdefence factories",
+                "de": "Cogent und OpenAI errichten agentenbasierte Cyber-Abwehrfabriken",
+                "it": "Cogent e OpenAI costruiscono fabbriche di cyberdifesa basate su agenti",
+                "lmo": "Cogent e OpenAI disen su di fabrich de cyberdifesa a bas de agent"
+              },
+              "body": {
+                "fr": "Cogent et OpenAI construisent des « usines de cyberdéfense » pour entreprises, annoncé le 10 novembre 2026 : des agents combinant les modèles OpenAI au contexte d'entreprise pour corriger automatiquement les vulnérabilités, selon l'<a href=\"https://openai.com/index/cogent-security\">annonce</a>. Le même jour, une étude OpenAI-Upwork observe une demande en mutation pour le travail freelance : nouvelles combinaisons de compétences et budgets plus élevés pour les projets liés à l'IA (<a href=\"https://openai.com/index/ai-effect-on-freelance-work\">étude</a>).",
+                "en": "Cogent and OpenAI are building agent-based \"cyberdefence factories\" for enterprises, announced on 10 November 2026: agents combining OpenAI models with company context to automatically remediate vulnerabilities, according to the <a href=\"https://openai.com/index/cogent-security\">announcement</a>. The same day, an OpenAI-Upwork study finds shifting demand in freelance work: new skill combinations and higher budgets for AI-related projects (<a href=\"https://openai.com/index/ai-effect-on-freelance-work\">study</a>).",
+                "de": "Cogent und OpenAI bauen unternehmensseitige «Cyber-Abwehrfabriken»: Agenten, die OpenAI-Modelle mit Firmenkontext kombinieren, um Schwachstellen automatisch zu beheben, wie die <a href=\"https://openai.com/index/cogent-security\">Ankündigung</a> vom 10. November 2026 zeigt. Am selben Tag beobachtet eine OpenAI-Upwork-Studie eine im Wandel begriffene Nachfrage im Freelance-Bereich: neue Kompetenzkombinationen und höhere Budgets für KI-bezogene Projekte (<a href=\"https://openai.com/index/ai-effect-on-freelance-work\">Studie</a>).",
+                "it": "Cogent e OpenAI costruiscono «fabbriche di cyberdifesa» per le imprese, come annunciato il 10 novembre 2026: agenti che combinano i modelli OpenAI al contesto aziendale per correggere automaticamente le vulnerabilità, secondo l'<a href=\"https://openai.com/index/cogent-security\">annuncio</a>. Lo stesso giorno, uno studio OpenAI-Upwork osserva una domanda in mutazione per il lavoro freelance: nuove combinazioni di competenze e budget più elevati per i progetti legati all'IA (<a href=\"https://openai.com/index/ai-effect-on-freelance-work\">studio</a>).",
+                "lmo": "Cogent e OpenAI construisen « fabrich de cyberdifesa » per i aziend, anunziaa el 10 de november 2026: agent che combinen i modell OpenAI al contest aziendal per correg automaticament i vulnerabilitaa, segond l'<a href=\"https://openai.com/index/cogent-security\">anunzi</a>. L'istess dì, on studi OpenAI-Upwork el osserva ona domanda in cambiament per el laurà freelance: noeuv combinazion de competenz e budget pussee volt per i progett ligaa a l'IA (<a href=\"https://openai.com/index/ai-effect-on-freelance-work\">studi</a>)."
+              },
+              "kicker": {
+                "fr": "Sécurité & économie",
+                "en": "Security & Economy",
+                "de": "Sicherheit & Wirtschaft",
+                "it": "Sicurezza & economia",
+                "lmo": "Sigurezza & economia"
+              },
+              "urls": [
+                "https://openai.com/index/cogent-security",
+                "https://openai.com/index/ai-effect-on-freelance-work"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique",
+        "en": "The Technical Supplement",
+        "de": "Das Technische Dossier",
+        "it": "Il Quaderno Tecnico",
+        "lmo": "El Quadern Tecnegh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Outils & plateformes",
+            "en": "Tools & Platforms",
+            "de": "Werkzeuge & Plattformen",
+            "it": "Strumenti & piattaforme",
+            "lmo": "Strumenti & piataform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Chrome livre Modern Web Guidance 1.0 : les agents codeurs passent de 55 % à 92 % de réussite",
+                "en": "Chrome ships Modern Web Guidance 1.0: coding agents rise from 55% to 92% success",
+                "de": "Chrome liefert Modern Web Guidance 1.0: Code-Agenten springen von 55 % auf 92 % Erfolgsquote",
+                "it": "Chrome pubblica Modern Web Guidance 1.0: gli agenti programmatori passano dal 55% al 92% di successo",
+                "lmo": "Chrome el consegna Modern Web Guidance 1.0 : i agent codesador passen del 55 % al 92 % de riessida"
+              },
+              "body": {
+                "fr": "L'équipe Chrome publie la version 1.0 de Modern Web Guidance, 200+ guides (~1,7 Mo) de bonnes pratiques web curatées, livrés comme skill d'agent et CLI de recherche agentic en ~7 Mo de JavaScript pur avec des recherches en ~10 ms sur CPU. Un scanner « legacy-scan » entraîné sur 30 000 dépôts GitHub détecte les motifs périmés avec 92 % de précision moyenne. Sur 200 tâches et ~1 700 assertions Playwright/AST, les agents testés (Codex, Claude, Agy) passent de 55 % sans guidage à 92 % avec, détaille le <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">dépôt GitHub</a> (Show HN du 10 novembre 2026, 322 points).",
+                "en": "The Chrome team has released version 1.0 of Modern Web Guidance, 200+ curated web best-practice guides (~1.7 MB), delivered as an agent skill and agentic search CLI in ~7 MB of pure JavaScript with ~10 ms searches on CPU. A \"legacy-scan\" scanner trained on 30,000 GitHub repositories detects outdated patterns with 92% average precision. Across 200 tasks and ~1,700 Playwright/AST assertions, the tested agents (Codex, Claude, Agy) go from 55% without guidance to 92% with it, according to the <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">GitHub repository</a> (Show HN of 10 November 2026, 322 points).",
+                "de": "Das Chrome-Team veröffentlicht Version 1.0 von Modern Web Guidance: über 200 kuratierte Leitfäden (~1,7 MB) zu Web-Best-Practices, geliefert als Agenten-Skill und CLI für agentisches Suchen in ~7 MB purem JavaScript mit Suchanfragen in ~10 ms auf der CPU. Ein auf 30 000 GitHub-Repositories trainierter «Legacy-Scan»-Scanner erkennt veraltete Muster mit 92 % durchschnittlicher Genauigkeit. Bei 200 Aufgaben und ~1 700 Playwright/AST-Assertions steigen die getesteten Agenten (Codex, Claude, Agy) von 55 % ohne Anleitung auf 92 % mit Anleitung, wie das <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">GitHub-Repository</a> zeigt (Show HN vom 10. November 2026, 322 Punkte).",
+                "it": "Il team di Chrome pubblica la versione 1.0 di Modern Web Guidance, oltre 200 guide (~1,7 MB) di buone pratiche web curate, fornite come skill per agenti e CLI di ricerca agentica in ~7 MB di JavaScript puro con ricerche in ~10 ms su CPU. Uno scanner «legacy-scan» addestrato su 30 000 repository GitHub rileva i pattern obsoleti con una precisione media del 92%. Su 200 compiti e ~1 700 asserzioni Playwright/AST, gli agenti testati (Codex, Claude, Agy) passano dal 55% senza guida al 92% con, come dettaglia il <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">repository GitHub</a> (Show HN del 10 novembre 2026, 322 punti).",
+                "lmo": "L'equipa Chrome la publega la version 1.0 de Modern Web Guidance, 200+ guides (~1,7 Mo) de bon prategh web curaa, fornii 'me skill d'agent e CLI de ricerca agentiga in ~7 Mo de JavaScript pur con ricerc in ~10 ms sora CPU. On scanner « legacy-scan » adraa in su 30 000 repository GitHub el riconoss i motiv passaa de moda con el 92 % de precision media. Sora 200 lavor e ~1 700 assertzion Playwright/AST, i agent provaa (Codex, Claude, Agy) passen del 55 % senza guida al 92 % con, el detaja el <a href=\"https://github.com/GoogleChrome/modern-web-guidance\">repository GitHub</a> (Show HN del 10 de november 2026, 322 pont)."
+              },
+              "kicker": {
+                "fr": "Outils",
+                "en": "Tools",
+                "de": "Werkzeuge",
+                "it": "Strumenti",
+                "lmo": "Strumenti"
+              },
+              "urls": [
+                "https://github.com/GoogleChrome/modern-web-guidance"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Les « Decision Models » font leur entrée sur Hugging Face",
+                "en": "\"Decision Models\" make their debut on Hugging Face",
+                "de": "«Decision Models» halten Einzug auf Hugging Face",
+                "it": "I «Decision Models» fanno il loro ingresso su Hugging Face",
+                "lmo": "I « Decision Models » riven in su Hugging Face"
+              },
+              "body": {
+                "fr": "Hugging Face introduit une catégorie « Decision Models » sur le Hub le 10 novembre 2026 : des modèles System-1 qui produisent des décisions probabilistes structurées en une seule passe, sans générer de trajectoire de raisonnement autoregressive, présente le <a href=\"https://huggingface.co/blog/decision\">billet</a>. L'initiative accompagne l'émergence d'évaluations dédiées comme le benchmark MMDM couvert en page Recherche.",
+                "en": "Hugging Face introduces a \"Decision Models\" category on the Hub on 10 November 2026: System-1 models that produce structured probabilistic decisions in a single pass, without generating an autoregressive reasoning trajectory, as presented in the <a href=\"https://huggingface.co/blog/decision\">post</a>. The initiative accompanies the emergence of dedicated evaluations such as the MMDM benchmark covered on the Research page.",
+                "de": "Hugging Face führt am 10. November 2026 die Kategorie «Decision Models» auf dem Hub ein: System-1-Modelle, die strukturierte probabilistische Entscheidungen in einem einzigen Durchlauf erzeugen, ohne eine autoregressive Denkbahn zu generieren, wie der <a href=\"https://huggingface.co/blog/decision\">Beitrag</a> erläutert. Die Initiative begleitet das Aufkommen dedizierter Evaluationen wie des auf der Forschungsseite behandelten Benchmarks MMDM.",
+                "it": "Hugging Face introduce una categoria «Decision Models» sull'Hub il 10 novembre 2026: modelli System-1 che producono decisioni probabilistiche strutturate in un solo passaggio, senza generare una traiettoria di ragionamento autoregressiva, come presenta il <a href=\"https://huggingface.co/blog/decision\">post</a>. L'iniziativa accompagna l'emergere di valutazioni dedicate come il benchmark MMDM trattato a pagina Ricerca.",
+                "lmo": "Hugging Face el introdus ona categoria « Decision Models » sora el Hub el 10 de november 2026: modell System-1 che produven decision probabilistegh structuraa in ona sola pasada, senza generà ona trajettoria de resunament autoregressiva, 'me el presenta el <a href=\"https://huggingface.co/blog/decision\">billet</a>. L'iniziativa la compagna l'emergenza de valutazion dedicaa 'me el benchmark MMDM quattaa in pagina Ricerca."
+              },
+              "kicker": {
+                "fr": "Plateformes",
+                "en": "Platforms",
+                "de": "Plattformen",
+                "it": "Piattaforme",
+                "lmo": "Piataform"
+              },
+              "urls": [
+                "https://huggingface.co/blog/decision"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "BotPsy : un assistant agentique de moins d'un milliard de paramètres, sur appareil",
+                "en": "BotPsy: an agentic assistant under one billion parameters, on-device",
+                "de": "BotPsy: ein agentischer Assistent mit weniger als einer Milliarde Parametern auf dem Gerät",
+                "it": "BotPsy: un assistente agentico con meno di un miliardo di parametri, sul dispositivo",
+                "lmo": "BotPsy : on assistenter agentegh de manch de on miliard de parameter, in su l'aparell"
+              },
+              "body": {
+                "fr": "Qvac publie BotPsy le 11 novembre 2026, un assistant personnel agentique embarqué reposant sur un modèle de langage de moins d'un milliard de paramètres, conçu pour tourner sur l'appareil, décrit sur le <a href=\"https://huggingface.co/blog/qvac/botpsy\">blog Hugging Face</a>. Même jour, Hugging Face permet de payer le Hub via un compte Google Cloud, rapprochant les deux écosystèmes de consommation GPU (<a href=\"https://huggingface.co/blog/hub-gcp-marketplace\">annonce</a>).",
+                "en": "Qvac has released BotPsy on 11 November 2026, an embedded agentic personal assistant built on a language model of under one billion parameters, designed to run on-device, as described on the <a href=\"https://huggingface.co/blog/qvac/botpsy\">Hugging Face blog</a>. The same day, Hugging Face enabled payment for the Hub via a Google Cloud account, bringing the two GPU-consumption ecosystems closer together (<a href=\"https://huggingface.co/blog/hub-gcp-marketplace\">announcement</a>).",
+                "de": "Qvac veröffentlicht am 11. November 2026 BotPsy, einen eingebetteten agentischen persönlichen Assistenten auf Basis eines Sprachmodells mit weniger als einer Milliarde Parametern, konzipiert für den Betrieb auf dem Gerät, wie der <a href=\"https://huggingface.co/blog/qvac/botpsy\">Hugging-Face-Blog</a> beschreibt. Am selben Tag ermöglicht Hugging Face die Bezahlung des Hub über ein Google-Cloud-Konto und rückt damit die beiden GPU-Konsumökosysteme näher zusammen (<a href=\"https://huggingface.co/blog/hub-gcp-marketplace\">Ankündigung</a>).",
+                "it": "Qvac pubblica BotPsy l'11 novembre 2026, un assistente personale agentico embedded basato su un modello linguistico con meno di un miliardo di parametri, concepito per girare direttamente sul dispositivo, come descritto sul <a href=\"https://huggingface.co/blog/qvac/botpsy\">blog Hugging Face</a>. Lo stesso giorno, Hugging Face permette di pagare l'Hub tramite un conto Google Cloud, avvicinando i due ecosistemi di consumo GPU (<a href=\"https://huggingface.co/blog/hub-gcp-marketplace\">annuncio</a>).",
+                "lmo": "Qvac el publega BotPsy l'11 de november 2026, on assistenter personal agentegh incorporaa che 'l se basa sora on modell de lengoeu de manch de on miliard de parameter, faa su per girà in su l'aparell, descrivuu sora el <a href=\"https://huggingface.co/blog/qvac/botpsy\">blog Hugging Face</a>. Istess dì, Hugging Face el permet de pagà el Hub cont on cunt Google Cloud, vesinand i du ecosistema de consum GPU (<a href=\"https://huggingface.co/blog/hub-gcp-marketplace\">anunzi</a>)."
+              },
+              "kicker": {
+                "fr": "Edge",
+                "en": "Edge",
+                "de": "Edge",
+                "it": "Edge",
+                "lmo": "Edge"
+              },
+              "urls": [
+                "https://huggingface.co/blog/qvac/botpsy",
+                "https://huggingface.co/blog/hub-gcp-marketplace"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche",
+        "en": "The Research",
+        "de": "Die Forschung",
+        "it": "La Ricerca",
+        "lmo": "La Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the Day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« Lazarus » : Microsoft Research reprogramme des neurones dormants pour piéger les agents IA",
+                "en": "\"Lazarus\": Microsoft Research reprograms dormant neurons to trap AI agents",
+                "de": "«Lazarus»: Microsoft Research programmiert ruhende Neuronen um, um KI-Agenten zu Fall zu bringen",
+                "it": "«Lazarus»: Microsoft Research riprogramma neuroni dormienti per intrappolare gli agenti IA",
+                "lmo": "« Lazarus » : Microsoft Research el reprogramma di neuron dorment per ciapà in tròpola i agent IA"
+              },
+              "body": {
+                "fr": "Microsoft Research révèle « Lazarus », une technique de porte dérobée qui reprogramme des neurones dormants pour qu'un agent IA par ailleurs normal exécute des commandes malveillantes à l'apparition d'un déclencheur caché, publiée le 10 novembre 2026. La menace est jugée particulièrement grave pour les agents disposant d'un accès terminal ou outils : le modèle déclenché peut télécharger et exécuter silencieusement le code de l'attaquant, détaille le <a href=\"https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/\">billet du laboratoire</a>.",
+                "en": "Microsoft Research unveils \"Lazarus\", a backdoor technique that reprograms dormant neurons so that an otherwise normal AI agent executes malicious commands when a hidden trigger appears, published on 10 November 2026. The threat is deemed especially grave for agents with terminal or tool access: the triggered model can silently download and execute the attacker's code, according to the <a href=\"https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/\">lab's post</a>.",
+                "de": "Microsoft Research enthüllt «Lazarus», eine Backdoor-Technik, die ruhende Neuronen umprogrammiert, sodass ein ansonsten normaler KI-Agent beim Auftreten eines versteckten Auslösers bösartige Befehle ausführt; veröffentlicht am 10. November 2026. Die Bedrohung gilt als besonders gravierend für Agenten mit Terminal- oder Werkzeugzugriff: Das getriggerte Modell kann den Code des Angreifers lautlos herunterladen und ausführen, wie der <a href=\"https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/\">Beitrag des Labors</a> erläutert.",
+                "it": "Microsoft Research rivela «Lazarus», una tecnica di backdoor che riprogramma neuroni dormienti affinché un agente IA per il resto normale esegua comandi malevoli alla comparsa di un trigger nascosto, pubblicata il 10 novembre 2026. La minaccia è giudicata particolarmente grave per gli agenti con accesso a terminali o strumenti: il modello innescato può scaricare ed eseguire silenziosamente il codice dell'attaccante, come dettaglia il <a href=\"https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/\">post del laboratorio</a>.",
+                "lmo": "Microsoft Research el revela « Lazarus », ona tecnega de porta dedree che reprogramma di neuron dorment perchè on agent IA per el rest normal el esegua di comant malizios quand che 'l compariss on attivator scondid, publicada el 10 de november 2026. La minaccia l'è giudicada particolarment grava per i agent cont acess al terminal o strument: el modell ativaa el po scarià e eseguì in silenzi el codes de l'atacant, el detaja el <a href=\"https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/\">billet del laboratori</a>."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MMDM : un benchmark de 5 448 questions met à l'épreuve 28 modèles de décision",
+                "en": "MMDM: a 5,448-question benchmark puts 28 decision models to the test",
+                "de": "MMDM: Ein Benchmark mit 5 448 Fragen stellt 28 Entscheidungsmodelle auf die Probe",
+                "it": "MMDM: un benchmark di 5 448 domande mette alla prova 28 modelli di decisione",
+                "lmo": "MMDM : on benchmark de 5 448 question el met a proeuva 28 modell de decision"
+              },
+              "body": {
+                "fr": "MMDM (Massive Multitask Decision Making) propose 5 448 questions sur 16 catégories pour évaluer 28 modèles de décision, avec des espaces d'options allant de 2 à 1 024 et des entrées jusqu'à 64 817 tokens. Verif : Perplexity Decider-V1.2 atteint 78,75 % en sélection simple sur connaissances générales mais chute à 53,95 % en logique d'options et 47,95 % en planification sous contraintes ; le meilleur score multi-sélection plafonne à 36,81 %. L'article est disponible sur <a href=\"https://arxiv.org/abs/2611.14309\">arXiv</a>.",
+                "en": "MMDM (Massive Multitask Decision Making) offers 5,448 questions across 16 categories to evaluate 28 decision models, with option spaces ranging from 2 to 1,024 and inputs of up to 64,817 tokens. Fact-check: Perplexity Decider-V1.2 reaches 78.75% on single-selection general knowledge but drops to 53.95% on option logic and 47.95% on constrained planning; the best multi-selection score tops out at 36.81%. The paper is available on <a href=\"https://arxiv.org/abs/2611.14309\">arXiv</a>.",
+                "de": "MMDM (Massive Multitask Decision Making) umfasst 5 448 Fragen in 16 Kategorien zur Bewertung von 28 Entscheidungsmodellen, mit Optionsräumen von 2 bis 1 024 und Eingaben von bis zu 64 817 Tokens. Überprüfung: Perplexity Decider-V1.2 erreicht bei einfacher Auswahl über Allgemeinwissen 78,75 %, fällt aber bei Optionslogik auf 53,95 % und bei Planung unter Nebenbedingungen auf 47,95 % zurück; die beste Multi-Selection-Punktzahl liegt bei maximal 36,81 %. Der Artikel ist auf <a href=\"https://arxiv.org/abs/2611.14309\">arXiv</a> verfügbar.",
+                "it": "MMDM (Massive Multitask Decision Making) propone 5 448 domande su 16 categorie per valutare 28 modelli di decisione, con spazi di opzioni da 2 a 1 024 e input fino a 64 817 token. Verifica: Perplexity Decider-V1.2 raggiunge il 78,75% in selezione singola su conoscenze generali, ma scende al 53,95% in logica delle opzioni e al 47,95% in pianificazione sotto vincoli; il miglior punteggio in multiselezione si ferma al 36,81%. L'articolo è disponibile su <a href=\"https://arxiv.org/abs/2611.14309\">arXiv</a>.",
+                "lmo": "MMDM (Massive Multitask Decision Making) el propon 5 448 question sora 16 categorij per valutà 28 modell de decision, con spazzi de opzion che vanno del 2 al 1 024 e entrada fin a 64 817 token. Verifega: Perplexity Decider-V1.2 el riva al 78,75 % in selezion singola sora conoscenz generai ma el borla al 53,95 % in logega di opzion e 47,95 % in pianifegazion sota restrizion; el milior pontegg in multi-selezion el se ferma al 36,81 %. L'articol l'è disponibel sora <a href=\"https://arxiv.org/abs/2611.14309\">arXiv</a>."
+              },
+              "kicker": {
+                "fr": "Évaluation",
+                "en": "Evaluation",
+                "de": "Evaluation",
+                "it": "Valutazione",
+                "lmo": "Valutazion"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.14309"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Récompenses denses en GRPO : à calcul égal, elles perdent, selon 1 668 exécutions",
+                "en": "Dense rewards in GRPO: at equal compute, they lose, per 1,668 runs",
+                "de": "Dichte Belohnungen in GRPO: Bei gleichem Rechenaufwand verlieren sie – gemäss 1 668 Läufen",
+                "it": "Ricompense dense in GRPO: a parità di calcolo, perdono, secondo 1 668 esecuzioni",
+                "lmo": "Ricompens dens in GRPO : a calcol istess, lor perden, segond 1 668 esecuzion"
+              },
+              "body": {
+                "fr": "Une étude de Case Western ReserveUniversity publiée le 11 novembre 2026 renverse une croyance établie : à budget de calcul égal, les récompenses denses (Monte-Carlo par étape) perdent contre le GRPO standard. Sur 1 668 exécutions et six modèles, la récompense Monte-Carlo finit 14,3 points plus bas à tokens égaux sur Qwen2.5-1.5B, tandis que sélectionner les prompts à succès prédit proche de 1/2 apporte +1,7 point sur Qwen3-0.6B. Les continuations seules consomment 91 % des tokens générés, selon le <a href=\"https://arxiv.org/abs/2611.13560\">papier</a>.",
+                "en": "A study from Case Western ReserveUniversity published on 11 November 2026 overturns an established belief: at equal compute budget, dense rewards (per-step Monte-Carlo) lose against standard GRPO. Across 1,668 runs and six models, the Monte-Carlo reward finishes 14.3 points lower at equal tokens on Qwen2.5-1.5B, while selecting prompts with predicted success close to 1/2 brings +1.7 points on Qwen3-0.6B. Continuations alone consume 91% of generated tokens, according to the <a href=\"https://arxiv.org/abs/2611.13560\">paper</a>.",
+                "de": "Eine Studie der Case Western Reserve University vom 11. November 2026 widerlegt eine etablierte Überzeugung: Bei gleichem Rechenaufwand verlieren dichte Belohnungen (Schrittweise Monte-Carlo) gegen das standardmässige GRPO. Über 1 668 Läufe und sechs Modelle endet die Monte-Carlo-Belohnung bei gleicher Token-Zahl auf Qwen2.5-1.5B um 14,3 Punkte tiefer, während die Auswahl von Prompts mit vorhergesagter Erfolgsquote nahe 1/2 auf Qwen3-0.6B +1,7 Punkte bringt. Die Continuations allein verbrauchen 91 % der generierten Tokens, gemäss dem <a href=\"https://arxiv.org/abs/2611.13560\">Paper</a>.",
+                "it": "Uno studio della Case Western Reserve University pubblicato l'11 novembre 2026 ribalta una credenza consolidata: a parità di budget di calcolo, le ricompense dense (Monte-Carlo per passo) perdono contro il GRPO standard. Su 1 668 esecuzioni e sei modelli, la ricompensa Monte-Carlo termina 14,3 punti più in basso a parità di token su Qwen2.5-1.5B, mentre selezionare i prompt con successo previsto vicino a 1/2 apporta +1,7 punti su Qwen3-0.6B. Le sole continuazioni consumano il 91% dei token generati, secondo il <a href=\"https://arxiv.org/abs/2611.13560\">paper</a>.",
+                "lmo": "On studi de Case Western Reserve University publicaa l'11 de november 2026 el ribalta ona convinzion stabilida: a budget de calcol istess, i ricompens dens (Monte-Carlo per pass) perden contra el GRPO standard. Sora 1 668 esecuzion e ses modell, la ricompensa Monte-Carla la finiss 14,3 pont pussee bass a token istess sora Qwen2.5-1.5B, menter selezionà i prompt a success preveduu vesin a 1/2 el porta +1,7 pont sora Qwen3-0.6B. I continuazion domà lor consumen el 91 % di token generaa, segond el <a href=\"https://arxiv.org/abs/2611.13560\">paper</a>."
+              },
+              "kicker": {
+                "fr": "RLVR",
+                "en": "RLVR",
+                "de": "RLVR",
+                "it": "RLVR",
+                "lmo": "RLVR"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.13560"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Tree-Ising : réparer les LLM par recuit quantique sur leurs bits BF16",
+                "en": "Tree-Ising: repairing LLMs by quantum annealing on their BF16 bits",
+                "de": "Tree-Ising: LLMs mittels Quanten-Annealing an ihren BF16-Bits reparieren",
+                "it": "Tree-Ising: riparare gli LLM con ricottura quantica sui loro bit BF16",
+                "lmo": "Tree-Ising : reparà i LLM con ricott quantegh sora i sò bit BF16"
+              },
+              "body": {
+                "fr": "Tree-Ising reformule la réparation de modèles comme un problème d'optimisation Ising/QUBO sur les poids BF16 : sur Qwen3.5-0.8B, la méthode atteint 54,6 % sur MATH-500 contre 51,7 % pour l'édition rédigée par un agent GPT-6 Astra, en modifiant 13 à 17 % de poids en moins et pour environ 0,90 $ de GPU. Sur Qwen3.5-2B, elle fait passer GSM8K de 21,6 % à 69,4 %, avec une preuve de concept exécutée sur un processeur quantique IBM Heron (<a href=\"https://arxiv.org/abs/2611.14210\">papier</a>).",
+                "en": "Tree-Ising reformulates model repair as an Ising/QUBO optimisation problem over BF16 weights: on Qwen3.5-0.8B, the method reaches 54.6% on MATH-500 versus 51.7% for the edit written by a GPT-6 Astra agent, while modifying 13 to 17% fewer weights for roughly $0.90 of GPU. On Qwen3.5-2B, it lifts GSM8K from 21.6% to 69.4%, with a proof of concept run on an IBM Heron quantum processor (<a href=\"https://arxiv.org/abs/2611.14210\">paper</a>).",
+                "de": "Tree-Ising formuliert die Modellreparatur als Ising/QUBO-Optimierungsproblem über die BF16-Gewichte: Auf Qwen3.5-0.8B erreicht die Methode 54,6 % auf MATH-500 gegenüber 51,7 % für die von einem GPT-6-Astra-Agenten verfasste Bearbeitung – bei 13 bis 17 % weniger veränderten Gewichten und für rund 0,90 $ an GPU-Kosten. Auf Qwen3.5-2B hebt sie GSM8K von 21,6 % auf 69,4 %, mit einem Proof of Concept auf einem IBM-Heron-Quantenprozessor (<a href=\"https://arxiv.org/abs/2611.14210\">Paper</a>).",
+                "it": "Tree-Ising riformula la riparazione dei modelli come problema di ottimizzazione Ising/QUBO sui pesi BF16: su Qwen3.5-0.8B, il metodo raggiunge il 54,6% su MATH-500 contro il 51,7% della redazione scritta da un agente GPT-6 Astra, modificando dal 13 al 17% di pesi in meno e per circa 0,90 dollari di GPU. Su Qwen3.5-2B, porta GSM8K dal 21,6% al 69,4%, con una proof-of-concept eseguita su un processore quantico IBM Heron (<a href=\"https://arxiv.org/abs/2611.14210\">paper</a>).",
+                "lmo": "Tree-Ising el reforma la riparazion di modell 'me on problema de otimizzazion Ising/QUBO sora i pes BF16: sora Qwen3.5-0.8B, el metod el riva al 54,6 % sora MATH-505 contra el 51,7 % per l'edizion scrivuda de on agent GPT-6 Astra, mudand del 13 al 17 % de pes in manch e per circa 0,90 $ de GPU. Sora Qwen3.5-2B, el fa passà GSM8K dal 21,6 % al 69,4 %, cont ona proeuva de congett eseguida sora on processor quantegh IBM Heron (<a href=\"https://arxiv.org/abs/2611.14210\">paper</a>)."
+              },
+              "kicker": {
+                "fr": "Poids",
+                "en": "Weights",
+                "de": "Gewichte",
+                "it": "Pesi",
+                "lmo": "Pes"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.14210"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Community & Leitartikel",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Ediro"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & tribune",
+            "en": "Signals & Opinion",
+            "de": "Signale & Tribüne",
+            "it": "Segnali & tribuna",
+            "lmo": "Segnal & tribuna"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "« L'IA génère du code fragile » : 453 commentaires sur Hacker News",
+                "en": "\"AI generates fragile code\": 453 comments on Hacker News",
+                "de": "«KI erzeugt fragilen Code»: 453 Kommentare auf Hacker News",
+                "it": "«L'IA genera codice fragile»: 453 commenti su Hacker News",
+                "lmo": "« L'IA la genera codes fragil » : 453 comenter sora Hacker News"
+              },
+              "body": {
+                "fr": "Un billet d'Evan Merz affirmant que « l'usage de l'IA génère une base de code fragile » a dominé les discussions du 10 novembre 2026 sur Hacker News : 459 points et 453 commentaires. Le texte argumente que le code généré par assistants accumule des dépendances implicites qui se dégradent à la maintenance, lisible sur <a href=\"https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/\">le blog de l'auteur</a> et débattu sur <a href=\"https://news.ycombinator.com/item?id=50438318\">HN</a>.",
+                "en": "A post by Evan Merz arguing that \"AI usage generates a fragile codebase\" dominated Hacker News discussions on 10 November 2026: 459 points and 453 comments. The piece argues that assistant-generated code accumulates implicit dependencies that degrade under maintenance, readable on <a href=\"https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/\">the author's blog</a> and debated on <a href=\"https://news.ycombinator.com/item?id=50438318\">HN</a>.",
+                "de": "Ein Beitrag von Evan Merz mit der These, «die KI-Nutzung erzeugt eine fragile Codebasis», beherrschte die Diskussionen vom 10. November 2026 auf Hacker News: 459 Punkte und 453 Kommentare. Der Text argumentiert, dass von Assistenten generierter Code implizite Abhängigkeiten ansammelt, die bei der Wartung zerfallen – lesbar auf <a href=\"https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/\">dem Blog des Autors</a> und debattiert auf <a href=\"https://news.ycombinator.com/item?id=50438318\">HN</a>.",
+                "it": "Un post di Evan Merz che afferma che «l'uso dell'IA genera una base di codice fragile» ha dominato le discussioni del 10 novembre 2026 su Hacker News: 459 punti e 453 commenti. Il testo sostiene che il codice generato dagli assistenti accumula dipendenze implicite che si degradano in manutenzione, leggibile sul <a href=\"https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/\">blog dell'autore</a> e discusso su <a href=\"https://news.ycombinator.com/item?id=50438318\">HN</a>.",
+                "lmo": "On billet de l'Evan Merz che 'l sostegn che « l'us de l'IA el genera ona bas de codes fragil » l'ha dominaa i discussion del 10 de november 2026 sora Hacker News: 459 pont e 453 comenter. El test el argomenta che el codes generaa di assistenter el acumula dipendenz implicit che se degraden a la manutenzion, legibel sora <a href=\"https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/\">el blog de l'autor</a> e discutuu sora <a href=\"https://news.ycombinator.com/item?id=50438318\">HN</a>."
+              },
+              "kicker": {
+                "fr": "Débat",
+                "en": "Debate",
+                "de": "Debatte",
+                "it": "Dibattito",
+                "lmo": "Debat"
+              },
+              "urls": [
+                "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+                "https://news.ycombinator.com/item?id=50438318"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Suivi des vulnérabilités découvertes par Anthropic : la communauté passe au crible",
+                "en": "Tracking vulnerabilities discovered by Anthropic: the community scrutinises",
+                "de": "Tracking der von Anthropic entdeckten Schwachstellen: Die Community seziert",
+                "it": "Monitoraggio delle vulnerabilità scoperte da Anthropic: la comunità passa al setaccio",
+                "lmo": "Seguita di vulnerabilitaa descovert de Anthropic : la comunitaa la passa al sitrin"
+              },
+              "body": {
+                "fr": "VulnCheck publie une mise à jour du suivi des vulnérabilités découvertes par Anthropic, discutée sur Hacker News le 10 novembre 2026 avec 366 points et 168 commentaires. Le suivi illustre comment les agents de sécurité du laboratoire alimentent un flux continu de correctifs dans l'écosystème open source, sur le <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">blog VulnCheck</a> et le <a href=\"https://news.ycombinator.com/item?id=50447074\">fil HN</a>.",
+                "en": "VulnCheck has published an update to its tracking of vulnerabilities discovered by Anthropic, discussed on Hacker News on 10 November 2026 with 366 points and 168 comments. The tracker illustrates how the lab's security agents feed a continuous stream of fixes into the open source ecosystem, on the <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">VulnCheck blog</a> and the <a href=\"https://news.ycombinator.com/item?id=50447074\">HN thread</a>.",
+                "de": "VulnCheck veröffentlicht eine Aktualisierung des Trackings von Anthropic entdeckten Schwachstellen, diskutiert am 10. November 2026 auf Hacker News mit 366 Punkten und 168 Kommentaren. Das Tracking zeigt, wie die Sicherheitsagenten des Labors einen kontinuierlichen Strom von Patches im Open-Source-Ökosystem speisen – im <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">VulnCheck-Blog</a> und im <a href=\"https://news.ycombinator.com/item?id=50447074\">HN-Strang</a>.",
+                "it": "VulnCheck pubblica un aggiornamento del monitoraggio delle vulnerabilità scoperte da Anthropic, discusso su Hacker News il 10 novembre 2026 con 366 punti e 168 commenti. Il monitoraggio illustra come gli agenti di sicurezza del laboratorio alimentino un flusso continuo di patch nell'ecosistema open source, sul <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">blog VulnCheck</a> e il <a href=\"https://news.ycombinator.com/item?id=50447074\">thread HN</a>.",
+                "lmo": "VulnCheck el publega on aggiornament del-resgiuu di vulnerabilitaa descovert de Anthropic, discuttuu sora Hacker News el 10 de november 2026 con 366 pont e 168 comenter. El resgiuu el illustra comè i agent de sigurezza del laboratori alimenten on fluss continu de corretiv in de l'ecosistema open source, sora el <a href=\"https://www.vulncheck.com/blog/anthropic-glasswing-november-update\">blog VulnCheck</a> e 'l <a href=\"https://news.ycombinator.com/item?id=50447074\">fil HN</a>."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+                "https://news.ycombinator.com/item?id=50447074"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "« Quel objectif résout le raisonnement ? » : la question théorique qui agite HN",
+                "en": "\"What objective does reasoning solve?\": the theoretical question stirring HN",
+                "de": "«Welches Ziel löst das Denken?»: Die theoretische Frage, die HN bewegt",
+                "it": "«Quale obiettivo risolve il ragionamento?»: la questione teorica che anima HN",
+                "lmo": "« Che obiettiv el resolv el resunament ? » : la domanda teorega che la mena HN"
+              },
+              "body": {
+                "fr": "Alex Wang propose une lecture théorique du raisonnement des modèles comme problème de recherche de chemin, billet repris le 10 novembre 2026 sur Hacker News (136 points). L'auteur interroge l'objectif exact que l'entraînement optimise quand un modèle « raisonne », à lire sur <a href=\"https://alexwang.ai/posts/reasoning-as-pathfinding/\">son site</a> et dans le <a href=\"https://news.ycombinator.com/item?id=50445013\">fil de discussion</a>.",
+                "en": "Alex Wang offers a theoretical reading of model reasoning as a pathfinding problem, in a post picked up on 10 November 2026 on Hacker News (136 points). The author questions the exact objective training optimises when a model \"reasons\", to read on <a href=\"https://alexwang.ai/posts/reasoning-as-pathfinding/\">his site</a> and in the <a href=\"https://news.ycombinator.com/item?id=50445013\">discussion thread</a>.",
+                "de": "Alex Wang legt eine theoretische Lesart des Modell-Denkens als Pfadsuchproblem vor; der Beitrag wurde am 10. November 2026 auf Hacker News aufgegriffen (136 Punkte). Der Autor hinterfragt das exakte Ziel, das das Training optimiert, wenn ein Modell «denkt» – zu lesen auf <a href=\"https://alexwang.ai/posts/reasoning-as-pathfinding/\">seiner Website</a> und im <a href=\"https://news.ycombinator.com/item?id=50445013\">Diskussionsstrang</a>.",
+                "it": "Alex Wang propone una lettura teorica del ragionamento dei modelli come problema di ricerca di percorso, post ripreso il 10 novembre 2026 su Hacker News (136 punti). L'autore si interroga sull'obiettivo esatto che l'addestramento ottimizza quando un modello «ragiona», da leggere su <a href=\"https://alexwang.ai/posts/reasoning-as-pathfinding/\">il suo sito</a> e nel <a href=\"https://news.ycombinator.com/item?id=50445013\">thread di discussione</a>.",
+                "lmo": "Alex Wang el propon ona lectura teorega del resunament di modell 'me problema de ricerca de strada, billet ripres el 10 de november 2026 sora Hacker News (136 pont). L'autor el interroga l'obiettiv esatt che l'adrament el otimizza quand che on modell « el resuna », de legg sora <a href=\"https://alexwang.ai/posts/reasoning-as-pathfinding/\">el sò sit</a> e in del <a href=\"https://news.ycombinator.com/item?id=50445013\">fil de discussion</a>."
+              },
+              "kicker": {
+                "fr": "Réflexion",
+                "en": "Reflection",
+                "de": "Reflexion",
+                "it": "Riflessione",
+                "lmo": "Riflession"
+              },
+              "urls": [
+                "https://alexwang.ai/posts/reasoning-as-pathfinding/",
+                "https://news.ycombinator.com/item?id=50445013"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Édito — Prouver plutôt que promettre",
+                "en": "Editorial — Prove, don't promise",
+                "de": "Leitartikel — Beweisen statt versprechen",
+                "it": "Editoriale — Dimostrare piuttosto che promettere",
+                "lmo": "Ediro — Provà pustost che promett"
+              },
+              "body": {
+                "fr": "Entre les preuves formelles d'AlphaProof Code, les porte dérobées neuronales de Microsoft et le débat sur le code fragile, la journée du 10 novembre 2026 dessine une ligne éditoriale nette : la communauté technique ne se demande plus si l'IA écrit du code, mais si elle peut prouver qu'il est correct. Trois millions de lignes de preuves Lean d'un côté ; 453 commentaires de praticiens doutant de la solidité du code généré de l'autre. La confiance, dans ce métier, n'a jamais été un sentiment : c'est un théorème ou ce n'est rien. La question suivante — qui audite les preuves écrites par des agents ? — méritera une chronique à part entière.",
+                "en": "Between AlphaProof Code's formal proofs, Microsoft's neural backdoors and the fragile-code debate, 10 November 2026 draws a sharp editorial line: the technical community is no longer asking whether AI writes code, but whether it can prove that code correct. Three million lines of Lean proofs on one side; 453 comments from practitioners doubting the solidity of generated code on the other. In this trade, trust has never been a feeling: it is a theorem or it is nothing. The next question — who audits proofs written by agents? — will deserve a column of its own.",
+                "de": "Zwischen den formalen Beweisen von AlphaProof Code, den neuronalen Backdoors von Microsoft und der Debatte um fragilen Code zeichnet der 10. November 2026 eine klare redaktionelle Linie: Die technische Gemeinschaft fragt sich nicht mehr, ob KI Code schreibt, sondern ob sie beweisen kann, dass er korrekt ist. Drei Millionen Zeilen Lean-Beweise auf der einen Seite; 453 Kommentare von Praktikern, die an der Solidität generierten Codes zweifeln, auf der anderen. Vertrauen ist in diesem Metier nie ein Gefühl gewesen: Es ist ein Theorem oder es ist nichts. Die nächste Frage – wer auditiert die von Agenten geschriebenen Beweise? – verdient eine eigene Kolumne.",
+                "it": "Tra le dimostrazioni formali di AlphaProof Code, le backdoor neuronali di Microsoft e il dibattito sul codice fragile, la giornata del 10 novembre 2026 disegna una linea editoriale netta: la comunità tecnica non si chiede più se l'IA scriva codice, ma se possa dimostrare che è corretto. Tre milioni di righe di dimostrazioni Lean da un lato; 453 commenti di pratici che dubitano della solidità del codice generato dall'altro. La fiducia, in questo mestiere, non è mai stata un sentimento: è un teorema o non è niente. La domanda successiva — chi verifica le dimostrazioni scritte dagli agenti? — meriterà una cronaca a parte.",
+                "lmo": "Tra i prov formai de AlphaProof Code, i port dedree neuronai de Microsoft e 'l debat sora el codes fragil, el dì del 10 de november 2026 el disegna ona linia editoariala ciara: la comunitaa tecnega la se domanda pù se l'IA la scriv codes, ma se lee la po provà che l'è corrett. Tri milion de rigg de prov Lean de ona banda; 453 comenter de prategh che dubiten de la solidità del codes generaa de l'oltra. La fiducia, in sto mester chì, l'è stada mai on sentiment: l'è on teorema o l'è nient. La domanda che la ven — chi el verifica i prov scrivuu di agent ? — la var on cronaca a part intrega."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Leitartikel",
+                "it": "Editoriale",
+                "lmo": "Ediro"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-alphaproof-code/",
+                "https://news.ycombinator.com/item?id=50438318"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
