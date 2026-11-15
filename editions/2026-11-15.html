@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>The Neuron Times — Dimanche 15 novembre 2026</title>
+<meta name="description" content="Le générateur d&#39;applications par IA expose des données d&#39;identité dans des milliers d&#39;applications mal configurées, relançant le débat sur la sécurité du « vibe coding »." />
+<meta name="author" content="The Neuron Times" />
+<link rel="canonical" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="fr" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="en" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="de" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="it" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="lmo" href="https://neuron-times.com/editions/2026-11-15.html" />
+<link rel="alternate" hreflang="x-default" href="https://neuron-times.com/editions/2026-11-15.html" />
+<meta property="og:title" content="Fuite Lovable : passeports et 200 000 messages privés exposés dans des applications no-code IA — The Neuron Times" />
+<meta property="og:description" content="Le générateur d&#39;applications par IA expose des données d&#39;identité dans des milliers d&#39;applications mal configurées, relançant le débat sur la sécurité du « vibe coding »." />
+<meta property="og:url" content="https://neuron-times.com/editions/2026-11-15.html" />
+<meta property="og:type" content="article" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="The Neuron Times" />
+<meta property="og:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:image" content="https://neuron-times.com/apple-touch-icon.png" />
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": "Fuite Lovable : passeports et 200 000 messages privés exposés dans des applications no-code IA",
+  "description": "Le générateur d'applications par IA expose des données d'identité dans des milliers d'applications mal configurées, relançant le débat sur la sécurité du « vibe coding ».",
+  "datePublished": "2026-11-15T07:00:00+02:00",
+  "dateModified": "2026-11-15T07:00:00+02:00",
+  "author": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "url": "https://neuron-times.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "The Neuron Times",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://neuron-times.com/apple-touch-icon.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://neuron-times.com/editions/2026-11-15.html"
+  },
+  "image": "https://neuron-times.com/apple-touch-icon.png",
+  "inLanguage": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "isAccessibleForFree": true,
+  "articleSection": [
+    "Frontière",
+    "Harnais & bibliothèques",
+    "Sécurité & fondamentaux",
+    "Signaux & tribune"
+  ],
+  "keywords": "Agents, Implémentation, Outils, Sécurité, Signaux, Édito",
+  "mentions": [
+    {
+      "@type": "Thing",
+      "name": "Agents"
+    },
+    {
+      "@type": "Thing",
+      "name": "Implémentation"
+    },
+    {
+      "@type": "Thing",
+      "name": "Outils"
+    },
+    {
+      "@type": "Thing",
+      "name": "Sécurité"
+    },
+    {
+      "@type": "Thing",
+      "name": "Signaux"
+    },
+    {
+      "@type": "Thing",
+      "name": "Édito"
+    }
+  ]
+}</script>
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400;0,700;0,900;1,400&family=Cinzel:wght@400;600;800&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper-bg: #f5efe1;
+  --ink: #1a1410;
+  --rule: #6b4d2a;
+  --serif: 'Playfair Display', 'EB Garamond', Georgia, serif;
+  --sans: 'Crimson Pro', Georgia, serif;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #2a2018;
+  font-family: var(--serif);
+  color: var(--ink);
+  font-size: 17px;
+  line-height: 1.55;
+}
+.paper {
+  max-width: 980px;
+  margin: 24px auto;
+  padding: 48px 56px;
+  background: var(--paper-bg);
+  background-image:
+    radial-gradient(ellipse at top left, rgba(107,77,42,0.06), transparent 60%),
+    radial-gradient(ellipse at bottom right, rgba(107,77,42,0.05), transparent 60%);
+  box-shadow: 0 12px 40px rgba(0,0,0,0.5);
+  position: relative;
+}
+.lang-selector-topright {
+  position: absolute;
+  top: 16px;
+  right: 56px;
+  z-index: 2;
+}
+.masthead {
+  text-align: center;
+  border-top: 3px double var(--rule);
+  border-bottom: 3px double var(--rule);
+  padding: 18px 0;
+  margin-bottom: 28px;
+}
+.masthead h1 {
+  font-size: 52px;
+  margin: 0;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+  font-variant: small-caps;
+}
+.masthead h1 a,
+.masthead h1 a:link,
+.masthead h1 a:visited,
+.masthead h1 a:hover,
+.masthead h1 a:active {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.masthead .tagline { font-style: italic; color: #4a3a28; margin: 4px 0 12px; }
+.masthead .meta {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-top: 1px solid var(--rule);
+  padding-top: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+.lead {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--rule);
+}
+.lead .kicker {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--rule);
+  margin-bottom: 8px;
+}
+.lead h2 {
+  font-size: 38px;
+  margin: 0 0 8px;
+  line-height: 1.15;
+  font-weight: 900;
+}
+.lead .subdeck {
+  font-size: 20px;
+  font-style: italic;
+  color: #3a2e20;
+  margin: 0 0 8px;
+}
+.lead .byline {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #6b4d2a;
+  margin-bottom: 18px;
+}
+.lead p:first-of-type::first-letter {
+  font-size: 64px;
+  float: left;
+  line-height: 0.85;
+  padding: 6px 8px 0 0;
+  font-weight: 900;
+  color: #8b1f1f;
+}
+.sidebar {
+  border-top: 2px solid var(--rule);
+  padding-top: 18px;
+  margin-bottom: 32px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+.sidebar-item {
+  border-left: 2px solid var(--rule);
+  padding-left: 14px;
+}
+.sidebar-item .tag {
+  display: inline-block;
+  background: #8b1f1f;
+  color: var(--paper-bg);
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  margin-bottom: 6px;
+}
+.sidebar-item h3 { font-size: 19px; margin: 4px 0; line-height: 1.2; }
+.sidebar-item .wire { font-size: 11px; color: #6b4d2a; text-transform: uppercase; letter-spacing: 0.8px; margin: 0 0 6px; }
+.page { margin-top: 36px; padding-top: 24px; border-top: 3px double var(--rule); }
+.page-label { font-size: 14px; text-transform: uppercase; letter-spacing: 2px; color: var(--rule); }
+.section-title { font-size: 22px; border-bottom: 1px solid var(--rule); padding-bottom: 4px; margin-top: 24px; }
+.page > .section + .section { margin-top: 40px; padding-top: 28px; border-top: 3px double var(--rule); }
+.page > .section + .section .section-title { margin-top: 0; }
+.section-3-cols { columns: 3; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-2-cols { columns: 2; column-gap: 22px; column-rule: 1px solid var(--rule); }
+.section-1-col { columns: 1; }
+.article { break-inside: avoid; margin-bottom: 18px; }
+.article .kicker { font-size: 10px; text-transform: uppercase; letter-spacing: 1.5px; color: var(--rule); margin: 0; }
+.article h4 { font-size: 17px; margin: 4px 0 6px; line-height: 1.25; }
+.article .wire { font-size: 11px; color: #6b4d2a; margin: 0 0 6px; font-style: italic; }
+.article .body { font-size: 15px; text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.lead a, .sidebar-item a, .article a { color: #8b1f1f; text-decoration: underline; text-underline-offset: 2px; }
+.lead p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+.sidebar-item .body, .sidebar-item p { text-align: justify; hyphens: auto; -webkit-hyphens: auto; }
+footer.colophon { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); font-size: 11px; text-align: center; color: #6b4d2a; }
+.lang-selector { font-family: 'Courier New', monospace; letter-spacing: 1.5px; font-size: 11px; color: var(--rule); }
+.lang-selector a { color: var(--rule); text-decoration: none; padding: 0 3px; opacity: 0.55; transition: opacity 0.15s; }
+.lang-selector a:hover { opacity: 1; }
+.lang-selector a.active { opacity: 1; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.lang-selector .sep { opacity: 0.4; }
+html[lang="fr"] [data-i18n][lang]:not([lang="fr"]) { display: none !important; }
+html[lang="en"] [data-i18n][lang]:not([lang="en"]) { display: none !important; }
+html[lang="de"] [data-i18n][lang]:not([lang="de"]) { display: none !important; }
+html[lang="it"] [data-i18n][lang]:not([lang="it"]) { display: none !important; }
+html[lang="lmo"] [data-i18n][lang]:not([lang="lmo"]) { display: none !important; }
+.i18n-fallback { display: inline; }
+html[lang="en"] .i18n-fallback:has(~ [data-i18n][lang="en"]) { display: none !important; }
+html[lang="de"] .i18n-fallback:has(~ [data-i18n][lang="de"]) { display: none !important; }
+html[lang="it"] .i18n-fallback:has(~ [data-i18n][lang="it"]) { display: none !important; }
+html[lang="lmo"] .i18n-fallback:has(~ [data-i18n][lang="lmo"]) { display: none !important; }
+@media (max-width: 720px) {
+  .paper { padding: 28px 22px; margin: 0; }
+  .lang-selector-topright { top: 10px; right: 22px; }
+  .masthead h1 { font-size: 36px; }
+  .section-3-cols, .section-2-cols { columns: 1; }
+  .sidebar { grid-template-columns: 1fr; }
+  .masthead .meta { flex-wrap: wrap; gap: 8px; justify-content: center; }
+}
+</style>
+</head>
+<body>
+<main class="paper">
+  <div class="lang-selector-topright"><nav class="lang-selector"><a href="#" data-lang="fr">FR</a><span class="sep"> · </span><a href="#" data-lang="en">EN</a><span class="sep"> · </span><a href="#" data-lang="de">DE</a><span class="sep"> · </span><a href="#" data-lang="it">IT</a><span class="sep"> · </span><a href="#" data-lang="lmo">LMO</a></nav></div>
+  <header class="masthead">
+    <h1><a href="/" aria-label="Retour à l'accueil">The Neuron Times</a></h1>
+    <p class="tagline">All the AI that&#39;s fit to print</p>
+    <div class="meta">
+      <span>N° 319</span>
+      <span><span data-i18n lang="fr">Édition du matin</span><span data-i18n lang="en">Morning Edition</span><span data-i18n lang="de">Morgenausgabe</span><span data-i18n lang="it">Edizione del mattino</span><span data-i18n lang="lmo">Edizion del mattin</span> · Genève</span>
+      <span><span data-i18n lang="fr">DIMANCHE 15 NOVEMBRE 2026</span><span data-i18n lang="en">SUNDAY, 15 NOVEMBER 2026</span><span data-i18n lang="de">SONNTAG, 15. NOVEMBER 2026</span><span data-i18n lang="it">DOMENICA 15 NOVEMBRE 2026</span><span data-i18n lang="lmo">DOMENICA 15 NOVEMBRE 2026</span></span>
+    </div>
+  </header>
+
+  <section class="lead">
+    <p class="kicker"><span data-i18n lang="fr">À la Une · Sécurité</span><span data-i18n lang="en">Front Page · Security</span><span data-i18n lang="de">Schlagzeilen · Sicherheit</span><span data-i18n lang="it">Prima pagina · Sicurezza</span><span data-i18n lang="lmo">In prima pagina · Segurezza</span></p>
+    <h2><span data-i18n lang="fr">Fuite Lovable : passeports et 200 000 messages privés exposés dans des applications no-code IA</span><span data-i18n lang="en">Lovable leak: passports and 200,000 private messages exposed in AI no-code apps</span><span data-i18n lang="de">Lovable-Leck: Pässe und 200 000 private Nachrichten in KI-No-Code-Apps offengelegt</span><span data-i18n lang="it">Fuga Lovable: passaporti e 200 000 messaggi privati esposti in app no-code basate sull&#39;IA</span><span data-i18n lang="lmo">Fuga Lovable: passaport e 200.000 messagg privaa espost in di aplicassion no-code IA</span></h2>
+    <p class="subdeck"><span data-i18n lang="fr">Le générateur d&#39;applications par IA expose des données d&#39;identité dans des milliers d&#39;applications mal configurées, relançant le débat sur la sécurité du « vibe coding ».</span><span data-i18n lang="en">The AI app generator exposes identity data in thousands of misconfigured apps, reigniting the debate over the security of &quot;vibe coding&quot;.</span><span data-i18n lang="de">Der KI-App-Generator legt Identitätsdaten in Tausenden falsch konfigurierten Apps offen und befeuert die Debatte um die Sicherheit des «Vibe Coding» erneut.</span><span data-i18n lang="it">Il generatore di applicazioni basato sull&#39;IA espone dati d&#39;identità in migliaia di app mal configurate, riaccendendo il dibattito sulla sicurezza del «vibe coding».</span><span data-i18n lang="lmo">El generador de aplicassion per IA al espon dat d&#39;identità in migliaia de aplicassion mal configuraa, relanzand el dibattit sora la segurezza del « vibe coding ».</span></p>
+    <p class="byline"><span data-i18n lang="fr">De la rédaction — 15 novembre 2026</span><span data-i18n lang="en">From the editorial desk — 15 November 2026</span><span data-i18n lang="de">Von der Redaktion — 15. November 2026</span><span data-i18n lang="it">Dalla redazione — 15 novembre 2026</span><span data-i18n lang="lmo">De la redazzion — 15 novembre 2026</span></p>
+    <p><span data-i18n lang="fr">Une enquête publiée le 14 novembre 2026 par le laboratoire de recherche indépendant Crissy Field révèle que des applications construites avec la plateforme no-code Lovable exposent publiquement des données personnelles hautement sensibles : des numéros de passeport, des pièces d&#39;identité et plus de 200 000 messages privés d&#39;utilisateurs. Les failles résident moins dans la plateforme elle-même que dans la façon dont les applications générées par IA sont câblées par défaut, sans cloisonnement des accès aux bases de données sous-jacentes.</span><span data-i18n lang="en">An investigation published on Saturday, 14 November 2026 by independent research lab Crissy Field reveals that applications built with the Lovable no-code platform publicly expose highly sensitive personal data: passport numbers, identity documents and more than 200,000 users&#39; private messages. The flaws lie less with the platform itself than with how AI-generated apps are wired by default, with no access controls isolating the underlying databases.</span><span data-i18n lang="de">Eine am 14. November 2026 vom unabhängigen Forschungslabor Crissy Field veröffentlichte Untersuchung zeigt, dass mit der No-Code-Plattform Lovable erstellte Apps öffentlich hochsensible persönliche Daten offengelegen: Passnummern, Identitätsdokumente und mehr als 200 000 private Nutzermitteilungen. Die Schwachstellen liegen weniger in der Plattform selbst als in der Art und Weise, wie die KI-generierten Apps standardmässig verdrahtet sind — ohne Zugriffsabschottung der zugrunde liegenden Datenbanken.</span><span data-i18n lang="it">Un&#39;inchiesta pubblicata il 14 novembre 2026 dal laboratorio di ricerca indipendente Crissy Field rivela che applicazioni realizzate con la piattaforma no-code Lovable espongono pubblicamente dati personali altamente sensibili: numeri di passaporto, documenti d&#39;identità e oltre 200 000 messaggi privati di utenti. Le vulnerabilità risiedono meno nella piattaforma stessa che nel modo in cui le app generate dall&#39;IA sono cablate per impostazione predefinita, senza alcuna separazione degli accessi ai database sottostanti.</span><span data-i18n lang="lmo">Ona indagin publicada el 14 de november 2026 del laboratori de ricerca indipendent Crissy Field la fa vedè che di aplicassion faa su con la piataforma no-code Lovable a esponen al pubblic dat personnai fess sensibel: numer de passaport, document d&#39;identità e pussee de 200.000 messagg privaa de utent. I vulnerabilità hinn manca in la piataforma medesima che in la manera in che i aplicassion generaa de l&#39;IA hinn collegaa de default, senza ningun separazzion di access ai database de sotta.</span></p>
+<p><span data-i18n lang="fr">La discussion ouverte sur Hacker News, qui a recueilli 739 points et 295 commentaires en quelques heures, montre l&#39;ampleur du débat dans la communauté technique : le no-code dopé aux LLM permet désormais à des créateurs sans formation en sécurité de mettre en production des applications connectées à des données réelles, en quelques minutes et sans revue d&#39;architecture. Le lien vers l&#39;enquête originale est disponible ici : <a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a>.</span><span data-i18n lang="en">The Hacker News discussion, which gathered 739 points and 295 comments within hours, shows the scale of the debate in the technical community: LLM-powered no-code now lets creators with no security training put applications connected to real data into production, in minutes and without any architectural review. A link to the original investigation is available here: <a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a>.</span><span data-i18n lang="de">Die offene Diskussion auf Hacker News, die innerhalb weniger Stunden 739 Punkte und 295 Kommentare versammelte, zeigt das Ausmass der Debatte in der technischen Gemeinschaft: Das mit LLM aufgeladene No-Code erlaubt es nun Erstellern ohne Security-Ausbildung, binnen Minuten und ohne Architektur-Review Anwendungen mit realen Daten in Produktion zu bringen. Der Link zur Originaluntersuchung ist hier verfügbar: <a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a>.</span><span data-i18n lang="it">La discussione aperta su Hacker News, che ha raccolto 739 punti e 295 commenti in poche ore, mostra la portata del dibattito nella comunità tecnica: il no-code potenziato dai LLM consente ormai a creatori senza formazione in sicurezza di mettere in produzione applicazioni connesse a dati reali, in pochi minuti e senza alcuna revisione dell&#39;architettura. Il link all&#39;inchiesta originale è disponibile qui: <a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a>.</span><span data-i18n lang="lmo">La discussion verta su Hacker News, che la gh&#39;ha ciappaa 739 pont e 295 comment in pocch ore, la mostra l&#39;ampiessa del dibattit in la comunità tecnegh: el no-code imbonii coi LLM al permett ades a di creador senza formazzion in segurezza de mett in pruduzzion di aplicassion coness a dat reai, in poch minut e senza revist d&#39;architetura. El link a l&#39;indagin originala l&#39;è disponibel chì: <a href="https://www.crissyfield.de/research/lovable-en/">Lovable apps expose passport details and more than 200K private messages</a>.</span></p>
+<p><span data-i18n lang="fr">Le cas Lovable arrive au moment précis où OpenAI, Anthropic et Google poussent tous trois des agents capables d&#39;agir et de transiger au nom de leurs utilisateurs. La bagarre concurrentielle se joue sur les capacités ; l&#39;enquête du 14 novembre rappelle que le maillon fragile reste l&#39;ingénierie — et que chaque raccourci de « vibe coding » est désormais une surface d&#39;attaque. L&#39;incident est suivi sur <a href="https://news.ycombinator.com/item?id=50499017">le fil Hacker News consacré à la fuite</a>.</span><span data-i18n lang="en">The Lovable case lands at the precise moment when OpenAI, Anthropic and Google are all pushing agents capable of acting and transacting on their users&#39; behalf. The competitive brawl plays out over capabilities; the investigation of 14 November is a reminder that the weak link remains engineering — and that every &quot;vibe coding&quot; shortcut is now an attack surface. The incident is being tracked on <a href="https://news.ycombinator.com/item?id=50499017">the Hacker News thread devoted to the leak</a>.</span><span data-i18n lang="de">Der Fall Lovable kommt genau in dem Moment, in dem OpenAI, Anthropic und Google alle drei Agents pushen, die im Namen ihrer Nutzer handeln und Transaktionen tätigen können. Der Konkurrenzkampf wird auf den Fähigkeiten ausgetragen; die Untersuchung vom 14. November erinnert daran, dass das schwache Glied nach wie vor die Technik ist — und dass jede Abkürzung beim «Vibe Coding» heute eine Angriffsfläche darstellt. Der Vorfall wird auf <a href="https://news.ycombinator.com/item?id=50499017">dem Hacker-News-Thread zum Leck</a> verfolgt.</span><span data-i18n lang="it">Il caso Lovable arriva nel momento esatto in cui OpenAI, Anthropic e Google spingono tutti e tre agenti capaci di agire e di concludere transazioni per conto dei loro utenti. La battaglia concorrenziale si gioca sulle capacità; l&#39;inchiesta del 14 novembre ricorda che l&#39;anello debole resta l&#39;ingegneria — e che ogni scorciatoia del «vibe coding» è ormai una superficie d&#39;attacco. L&#39;incidente è seguito su <a href="https://news.ycombinator.com/item?id=50499017">il thread di Hacker News dedicato alla fuga</a>.</span><span data-i18n lang="lmo">El cas Lovable l&#39;rivà al moment precis indua OpenAI, Anthropic e Google hinn dree a spingegiouu tucc trii di agent capabel de operà e de trass in affari a nomm di sò utent. La bagarrad competitiva la se giuga sora i capacità; l&#39;indagin del 14 de november la regordà che l&#39;anell fragil el resta l&#39;ingegneria — e che ogni cort el del « vibe coding » ades l&#39;è ona superfiss de attacch. L&#39;incident l&#39;è seguii sora <a href="https://news.ycombinator.com/item?id=50499017">el fil de Hacker News dedegaa a la fuga</a>.</span></p>
+  </section>
+
+  <section class="sidebar"><article class="sidebar-item"><span class="tag" data-i18n lang="fr">Sécurité</span><span class="tag" data-i18n lang="en">Security</span><span class="tag" data-i18n lang="de">Sicherheit</span><span class="tag" data-i18n lang="it">Sicurezza</span><span class="tag" data-i18n lang="lmo">Segurezza</span><h3><span data-i18n lang="fr">Project Zero imposera la divulgation des failles 90 jours après signalement</span><span data-i18n lang="en">Project Zero will enforce disclosure of flaws 90 days after reporting</span><span data-i18n lang="de">Project Zero wird die Offenlegung von Schwachstellen 90 Tage nach der Meldung erzwingen</span><span data-i18n lang="it">Project Zero imporrà la divulgazione delle vulnerabilità 90 giorni dopo la segnalazione</span><span data-i18n lang="lmo">Project Zero el imporrà la divulgazzion di vulnerabilità 90 dì dopo el segnalamat</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 14 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 14 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 14. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 14 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 14 novembre 2026</p><p data-i18n lang="fr">Google Project Zero a annoncé le 14 novembre 2026 un durcissement de sa politique : les vulnérabilités seront désormais divulguées publiquement 90 jours après leur signalement, sans exception. La mesure, qui a recueilli <a href="https://news.ycombinator.com/item?id=50496051">218 points et 72 commentaires sur Hacker News</a>, intervient dans un contexte de prolifération du code généré par IA. Lire <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;annonce officielle du 14 novembre 2026</a>.</p><p data-i18n lang="en">Google Project Zero announced on 14 November 2026 a hardening of its policy: vulnerabilities will now be publicly disclosed 90 days after being reported, without exception. The measure, which drew <a href="https://news.ycombinator.com/item?id=50496051">218 points and 72 comments on Hacker News</a>, comes amid a proliferation of AI-generated code. Read <a href="https://projectzero.google/2026/11/disclosure-policy.html">the official announcement of 14 November 2026</a>.</p><p data-i18n lang="de">Google Project Zero hat am 14. November 2026 eine Verschärfung seiner Politik angekündigt: Schwachstellen werden künftig 90 Tage nach ihrer Meldung öffentlich offengelegt — ohne Ausnahme. Die Massnahme, die <a href="https://news.ycombinator.com/item?id=50496051">218 Punkte und 72 Kommentare auf Hacker News</a> versammelt hat, erfolgt vor dem Hintergrund einer Zunahme von KI-generiertem Code. Siehe <a href="https://projectzero.google/2026/11/disclosure-policy.html">die offizielle Ankündigung vom 14. November 2026</a>.</p><p data-i18n lang="it">Google Project Zero ha annunciato il 14 novembre 2026 un indurimento della sua politica: le vulnerabilità saranno d&#39;ora in poi divulgate pubblicamente 90 giorni dopo la segnalazione, senza eccezioni. La misura, che ha raccolto <a href="https://news.ycombinator.com/item?id=50496051">218 punti e 72 commenti su Hacker News</a>, arriva in un contesto di proliferazione del codice generato dall&#39;IA. Leggere <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;annuncio ufficiale del 14 novembre 2026</a>.</p><p data-i18n lang="lmo">Google Project Zero l&#39;ha anunziaa el 14 de november 2026 on induriment de la sò politega: i vulnerabilità sarann d&#39;ades divulgae pubblicament 90 dì dopo del sò segnalamat, senza eccezzion. La misura, che l&#39;ha ciappaa <a href="https://news.ycombinator.com/item?id=50496051">218 pont e 72 comment sora Hacker News</a>, la riva in on contest de proliferazzion del codighe generaa de IA. Les <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;anunz ufizial del 14 de november 2026</a>.</p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Outils</span><span class="tag" data-i18n lang="en">Tools</span><span class="tag" data-i18n lang="de">Werkzeuge</span><span class="tag" data-i18n lang="it">Strumenti</span><span class="tag" data-i18n lang="lmo">Strument</span><h3><span data-i18n lang="fr">DeepSeek V3 réécrit en ~200 lignes de Jax</span><span data-i18n lang="en">DeepSeek V3 rewritten in ~200 lines of Jax</span><span data-i18n lang="de">DeepSeek V3 in ~200 Zeilen Jax neu geschrieben</span><span data-i18n lang="it">DeepSeek V3 riscritto in ~200 righe di Jax</span><span data-i18n lang="lmo">DeepSeek V3 re- scrivuu in ~200 righe de Jax</span></h3><p class="wire">From the Wires — </p><p data-i18n lang="fr">Publié le 14 novembre 2026 sur Show HN, un dépôt réimplémente DeepSeek V3 en environ 200 lignes de Jax pur — un exercice de pédagogie architecture salué par <a href="https://news.ycombinator.com/item?id=50497589">213 points sur Hacker News</a>. Le code est accessible sur <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">GitHub</a> dès le 14 novembre 2026.</p><p data-i18n lang="en">Published on 14 November 2026 on Show HN, a repository reimplements DeepSeek V3 in roughly 200 lines of pure Jax — an architecture-teaching exercise praised by <a href="https://news.ycombinator.com/item?id=50497589">213 points on Hacker News</a>. The code is available on <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">GitHub</a> as of 14 November 2026.</p><p data-i18n lang="de">Am 14. November 2026 auf Show HN veröffentlicht, reimplementiert ein Repository DeepSeek V3 in rund 200 Zeilen purem Jax — eine architektonische Pädagogie-Übung, ausgezeichnet mit <a href="https://news.ycombinator.com/item?id=50497589">213 Punkten auf Hacker News</a>. Der Code ist seit dem 14. November 2026 auf <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">GitHub</a> zugänglich.</p><p data-i18n lang="it">Pubblicato il 14 novembre 2026 su Show HN, un repository reimplementa DeepSeek V3 in circa 200 righe di Jax puro — un esercizio di pedagogia architetturale applaudito da <a href="https://news.ycombinator.com/item?id=50497589">213 punti su Hacker News</a>. Il codice è accessibile su <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">GitHub</a> già dal 14 novembre 2026.</p><p data-i18n lang="lmo">Publicaa el 14 de november 2026 sora Show HN, on deposit el reimplimenta DeepSeek V3 in circa 200 righe de Jax pur — on esercizzi de pedagogia d&#39;architetura loddà de <a href="https://news.ycombinator.com/item?id=50497589">213 pont sora Hacker News</a>. El codighe l&#39;è acessibel sora <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">GitHub</a> del 14 de november 2026.</p></article>
+<article class="sidebar-item"><span class="tag" data-i18n lang="fr">Google</span><span class="tag" data-i18n lang="en">Google</span><span class="tag" data-i18n lang="de">Google</span><span class="tag" data-i18n lang="it">Google</span><span class="tag" data-i18n lang="lmo">Google</span><h3><span data-i18n lang="fr">Google pousse Antigravity et son /teamwork vers les équipes scientifiques</span><span data-i18n lang="en">Google pushes Antigravity and its /teamwork toward scientific teams</span><span data-i18n lang="de">Google pusht Antigravity und sein /teamwork Richtung wissenschaftliche Teams</span><span data-i18n lang="it">Google spinge Antigravity e il suo /teamwork verso i team scientifici</span><span data-i18n lang="lmo">Google el spingegia Antigravity e el sò /teamwork vers i squadri scientifegh</span></h3><p class="wire" data-i18n lang="fr">From the Wires — 14 novembre 2026</p><p class="wire" data-i18n lang="en">From the Wires — 14 November 2026</p><p class="wire" data-i18n lang="de">From the Wires — 14. November 2026</p><p class="wire" data-i18n lang="it">Dagli studi — From the Wires — 14 novembre 2026</p><p class="wire" data-i18n lang="lmo">From the Wires — 14 novembre 2026</p><p data-i18n lang="fr">Google Research a publié le 14 novembre 2026 un billet détaillant les usages de la fonction /teamwork d&#39;Antigravity pour la science et l&#39;ingénierie, où des équipes d&#39;agents collaborent sur un projet partagé. L&#39;annonce a été relayée par <a href="https://news.ycombinator.com/item?id=50496811">188 points et 40 commentaires sur Hacker News</a>. La source : <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">le billet de Google Research du 14 novembre 2026</a>.</p><p data-i18n lang="en">Google Research published on 14 November 2026 a post detailing uses of Antigravity&#39;s /teamwork feature for science and engineering, where teams of agents collaborate on a shared project. The announcement was relayed by <a href="https://news.ycombinator.com/item?id=50496811">188 points and 40 comments on Hacker News</a>. The source: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">the Google Research post of 14 November 2026</a>.</p><p data-i18n lang="de">Google Research hat am 14. November 2026 einen Beitrag veröffentlicht, der die Einsatzmöglichkeiten der Antigravity-Funktion /teamwork für Wissenschaft und Ingenieurwesen erläutert, wo Teams von Agents an einem gemeinsamen Projekt zusammenarbeiten. Die Ankündigung wurde mit <a href="https://news.ycombinator.com/item?id=50496811">188 Punkten und 40 Kommentaren auf Hacker News</a> aufgegriffen. Die Quelle: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">der Google-Research-Beitrag vom 14. November 2026</a>.</p><p data-i18n lang="it">Google Research ha pubblicato il 14 novembre 2026 un post che dettaglia gli usi della funzione /teamwork di Antigravity per la scienza e l&#39;ingegneria, dove squadre di agenti collaborano su un progetto condiviso. L&#39;annuncio è stato ripreso da <a href="https://news.ycombinator.com/item?id=50496811">188 punti e 40 commenti su Hacker News</a>. La fonte: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">il post di Google Research del 14 novembre 2026</a>.</p><p data-i18n lang="lmo">Google Research l&#39;ha publicaa el 14 de november 2026 on post che &#39;l detaglia i usagg de la fonzion /teamwork de Antigravity per la scienza e l&#39;ingegneria, indua di squadri de agent collaboren in on proget condivis. L&#39;anunz l&#39;è staa trasmess de <a href="https://news.ycombinator.com/item?id=50496811">188 pont e 40 comment sora Hacker News</a>. La font: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">el post de Google Research del 14 de november 2026</a>.</p></article></section>
+
+  <section class="page" data-page="1"><h2 class="page-label"><span data-i18n lang="fr">Page 1 — </span><span data-i18n lang="en">Page 1 — </span><span data-i18n lang="de">Seite 1 — </span><span data-i18n lang="it">Pagina 1 — </span><span data-i18n lang="lmo">Pagina 1 — </span><span data-i18n lang="fr">À la Une — Modèles &amp; Frontière</span><span data-i18n lang="en">Front Page — Models &amp; Frontier</span><span data-i18n lang="de">Frontseite — Modelle &amp; Frontier</span><span data-i18n lang="it">Prima pagina — Modelli &amp; Frontiera</span><span data-i18n lang="lmo">Sora la Prima — Modei &amp; Frontiera</span></h2><div class="section section-1-col"><h3 class="section-title">I. <span data-i18n lang="fr">Frontière</span><span data-i18n lang="en">Frontier</span><span data-i18n lang="de">Frontier</span><span data-i18n lang="it">Frontiera</span><span data-i18n lang="lmo">Frontiera</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Agents</p><p class="kicker" data-i18n lang="en">Agents</p><p class="kicker" data-i18n lang="de">Agents</p><p class="kicker" data-i18n lang="it">Agenti</p><p class="kicker" data-i18n lang="lmo">Agent</p><h4><span data-i18n lang="fr">Antigravity /teamwork : Google pousse ses agents dans la science et l&#39;ingénierie</span><span data-i18n lang="en">Antigravity /teamwork: Google pushes its agents into science and engineering</span><span data-i18n lang="de">Antigravity /teamwork: Google pusht seine Agents in Wissenschaft und Ingenieurwesen</span><span data-i18n lang="it">Antigravity /teamwork: Google porta i suoi agenti nella scienza e nell&#39;ingegneria</span><span data-i18n lang="lmo">Antigravity /teamwork: Google el spingegia i sò agent in la scienza e l&#39;ingegneria</span></h4><div class="body" data-i18n lang="fr">Google Research détaille le 14 novembre 2026 comment la fonction /teamwork de son IDE agentique Antigravity est mobilisée pour des projets scientifiques et d&#39;ingénierie, où plusieurs agents collaborent sur un même espace de travail partagé. L&#39;annonce, discutée sur <a href="https://news.ycombinator.com/item?id=50496811">Hacker News (188 points, 40 commentaires)</a>, illustre la stratégie de Google : déplacer la valeur des modèles bruts vers l&#39;orchestration multi-agents, quelques jours après le lancement de Gemini 4 Hydrogen. Détail : <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">le billet publié par Google Research</a> précise le 14 novembre 2026 des cas d&#39;usage en sciences et ingénierie, tranchant avec la communication habituelle centrée sur le seul développement logiciel.</div><div class="body" data-i18n lang="en">Google Research detailed on 14 November 2026 how the /teamwork feature of its agentic IDE Antigravity is being harnessed for scientific and engineering projects, where multiple agents collaborate on a single shared workspace. The announcement, discussed on <a href="https://news.ycombinator.com/item?id=50496811">Hacker News (188 points, 40 comments)</a>, illustrates Google&#39;s strategy: shifting value from raw models to multi-agent orchestration, days after the launch of Gemini 4 Hydrogen. Detail: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">the post published by Google Research</a> specifies, as of 14 November 2026, use cases in science and engineering, a break from the usual communication focused solely on software development.</div><div class="body" data-i18n lang="de">Google Research erläutert am 14. November 2026, wie die Funktion /teamwork der agentischen IDE Antigravity für wissenschaftliche und ingenieurtechnische Projekte eingesetzt wird, bei denen mehrere Agents in einem gemeinsamen geteilten Arbeitsbereich zusammenarbeiten. Die Ankündigung, diskutiert auf <a href="https://news.ycombinator.com/item?id=50496811">Hacker News (188 Punkte, 40 Kommentare)</a>, illustriert Googles Strategie: die Verlagerung des Werts von rohen Modellen hin zur Multi-Agent-Orchestrierung, wenige Tage nach dem Launch von Gemini 4 Hydrogen. Detail: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">der von Google Research veröffentlichte Beitrag</a> präzisiert am 14. November 2026 Anwendungsfälle in Wissenschaft und Ingenieurwesen — ein Kontrast zur üblichen Kommunikation, die einzig auf Softwareentwicklung zentriert ist.</div><div class="body" data-i18n lang="it">Google Research dettaglia il 14 novembre 2026 come la funzione /teamwork del suo IDE agentico Antigravity venga impiegata per progetti scientifici e di ingegneria, in cui più agenti collaborano su uno stesso spazio di lavoro condiviso. L&#39;annuncio, discusso su <a href="https://news.ycombinator.com/item?id=50496811">Hacker News (188 punti, 40 commenti)</a>, illustra la strategia di Google: spostare il valore dai modelli grezzi verso l&#39;orchestrazione multi-agente, pochi giorni dopo il lancio di Gemini 4 Hydrogen. Dettaglio: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">il post pubblicato da Google Research</a> precisa il 14 novembre 2026 casi d&#39;uso in scienze e ingegneria, in contrasto con la comunicazione abituale centrata sul solo sviluppo software.</div><div class="body" data-i18n lang="lmo">Google Research el detalla el 14 de november 2026 cume la fonzion /teamwork del sò IDE agentegh Antigravity la vess doperaa per di proget scientifegh e d&#39;ingegneria, indua divagent collaboren in on medemm spazzi de laurà condivis. L&#39;anunz, discutuu sora <a href="https://news.ycombinator.com/item?id=50496811">Hacker News (188 pont, 40 comment)</a>, el illustra la strategia de Google: movè el valor di modei crusch vers l&#39;orchestrazion multi-agent, quai dì dopo del lanzament de Gemini 4 Hydrogen. Detaj: <a href="https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/">el post publicaa de Google Research</a> el precisa el 14 de november 2026 di cas d&#39;us in scienz e ingegneria, tajand con la comunicazzion abitual centreda domà sora el svilupp de software.</div></article></div></section>
+<section class="page" data-page="2"><h2 class="page-label"><span data-i18n lang="fr">Page 2 — </span><span data-i18n lang="en">Page 2 — </span><span data-i18n lang="de">Seite 2 — </span><span data-i18n lang="it">Pagina 2 — </span><span data-i18n lang="lmo">Pagina 2 — </span><span data-i18n lang="fr">Le Cahier Technique — Harnais &amp; moteurs</span><span data-i18n lang="en">The Technical Notebook — Harnesses &amp; Engines</span><span data-i18n lang="de">Das Technische Ressort — Harnesses &amp; Engines</span><span data-i18n lang="it">Il Quaderno Tecnico — Framework &amp; motori</span><span data-i18n lang="lmo">El Quadern Tecnegh — Imbracatur &amp; motor</span></h2><div class="section section-2-cols"><h3 class="section-title">II. <span data-i18n lang="fr">Harnais &amp; bibliothèques</span><span data-i18n lang="en">Harnesses &amp; libraries</span><span data-i18n lang="de">Harnesses &amp; Bibliotheken</span><span data-i18n lang="it">Framework &amp; librerie</span><span data-i18n lang="lmo">Imbracatur &amp; bibliotech</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Implémentation</p><p class="kicker" data-i18n lang="en">Implementation</p><p class="kicker" data-i18n lang="de">Implementierung</p><p class="kicker" data-i18n lang="it">Implementazione</p><p class="kicker" data-i18n lang="lmo">Implimentazzion</p><h4><span data-i18n lang="fr">DeepSeek V3 en ~200 lignes de Jax : l&#39;architecture frontier réduite à l&#39;essentiel</span><span data-i18n lang="en">DeepSeek V3 in ~200 lines of Jax: frontier architecture reduced to its essence</span><span data-i18n lang="de">DeepSeek V3 in ~200 Zeilen Jax: Die Frontier-Architektur aufs Wesentliche reduziert</span><span data-i18n lang="it">DeepSeek V3 in ~200 righe di Jax: l&#39;architettura frontier ridotta all&#39;essenziale</span><span data-i18n lang="lmo">DeepSeek V3 in ~200 righe de Jax: l&#39;architetura frontier ridotta a l&#39;essenzial</span></h4><div class="body" data-i18n lang="fr">Un projet Show HN publié le 14 novembre 2026 propose une réimplémentation de DeepSeek V3 en environ 200 lignes de Jax pur, sans dépendances aux frameworks d&#39;entraînement lourds. Le dépôt, salué par <a href="https://news.ycombinator.com/item?id=50497589">213 points sur Hacker News</a>, rejoint la tradition des « nano » implémentations (nanoGPT) : prouver que l&#39;architecture d&#39;un modèle frontier à plusieurs centaines de milliards de paramètres tient en quelques centaines de lignes une fois débarrassée de l&#39;ingénierie de production. Le code est consultable sur <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">le dépôt GitHub deepseek-v3-jax</a>, publié le 14 novembre 2026.</div><div class="body" data-i18n lang="en">A Show HN project published on 14 November 2026 offers a reimplementation of DeepSeek V3 in roughly 200 lines of pure Jax, with no dependencies on heavyweight training frameworks. The repository, praised by <a href="https://news.ycombinator.com/item?id=50497589">213 points on Hacker News</a>, joins the tradition of &quot;nano&quot; implementations (nanoGPT): proving that the architecture of a frontier model with several hundred billion parameters fits in a few hundred lines once stripped of production engineering. The code can be consulted at <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">the deepseek-v3-jax GitHub repository</a>, published on 14 November 2026.</div><div class="body" data-i18n lang="de">Ein am 14. November 2026 auf Show HN veröffentlichtes Projekt bietet eine Reimplementierung von DeepSeek V3 in rund 200 Zeilen purem Jax, ohne Abhängigkeiten von schweren Trainings-Frameworks. Das Repository, ausgezeichnet mit <a href="https://news.ycombinator.com/item?id=50497589">213 Punkten auf Hacker News</a>, reiht sich in die Tradition der «Nano»-Implementierungen (nanoGPT) ein: Es beweist, dass die Architektur eines Frontier-Modells mit mehreren Hundert Milliarden Parametern in ein paar Hundert Zeilen Platz findet, sobald man die Produktions-Ingenieurleistung weglässt. Der Code ist einsehbar auf <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">dem GitHub-Repository deepseek-v3-jax</a>, veröffentlicht am 14. November 2026.</div><div class="body" data-i18n lang="it">Un progetto Show HN pubblicato il 14 novembre 2026 propone una reimplementazione di DeepSeek V3 in circa 200 righe di Jax puro, senza dipendenze da framework di addestramento pesanti. Il repository, applaudito da <a href="https://news.ycombinator.com/item?id=50497589">213 punti su Hacker News</a>, si inserisce nella tradizione delle implementazioni «nano» (nanoGPT): dimostrare che l&#39;architettura di un modello frontier con diverse centinaia di miliardi di parametri sta in poche centinaia di righe una volta liberata dall&#39;ingegneria di produzione. Il codice è consultabile su <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">il repository GitHub deepseek-v3-jax</a>, pubblicato il 14 novembre 2026.</div><div class="body" data-i18n lang="lmo">On proget Show HN publicaa el 14 de november 2026 al propon ona reimplimentazzion de DeepSeek V3 in circa 200 righe de Jax pur, senza dipendenze ai framework d&#39;allenament pesant. El deposit, loddà de <a href="https://news.ycombinator.com/item?id=50497589">213 pont sora Hacker News</a>, al va insemina a la tradizzion di implimentazzion « nano » (nanoGPT): provà che l&#39;architetura d&#39;on modei frontier con div centen de miliard de parametri la stà in quai centen de righe on&#39;olta che l&#39;è slargada fò de l&#39;ingegneria de pruduzzion. El codighe l&#39;è consultabel sora <a href="https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax">el deposit GitHub deepseek-v3-jax</a>, publicaa el 14 de november 2026.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Outils</p><p class="kicker" data-i18n lang="en">Tools</p><p class="kicker" data-i18n lang="de">Werkzeuge</p><p class="kicker" data-i18n lang="it">Strumenti</p><p class="kicker" data-i18n lang="lmo">Strument</p><h4><span data-i18n lang="fr">Turbo-Browser-MCP : formulaires par lots et gardes de soumission pour agents</span><span data-i18n lang="en">Turbo-Browser-MCP: batch form filling and submit guards for agents</span><span data-i18n lang="de">Turbo-Browser-MCP: Stapel-Formulare und Submit-Guards für Agents</span><span data-i18n lang="it">Turbo-Browser-MCP: moduli in batch e submit guard per gli agenti</span><span data-i18n lang="lmo">Turbo-Browser-MCP: form per lots e guard de spedizzion per agent</span></h4><div class="body" data-i18n lang="fr">Publié le 15 novembre 2026 sur Show HN, Turbo-Browser-MCP ajoute à un serveur MCP (Model Context Protocol) trois primitives orientées fiabilité : le remplissage de formulaires par lots, la détection de deltas DOM pour éviter de renvoyer toute la page, et des « submit guards » qui empêchent une double soumission. Le projet répond à un irritant bien connu des opérateurs d&#39;agents : les interactions navigateur restent le maillon le plus fragile des chaînes agentiques. Le code est disponible sur <a href="https://github.com/Tthanh2k6/turbo-browser-mcp">le dépôt GitHub Tthanh2k6/turbo-browser-mcp</a>, annoncé le 15 novembre 2026 sur <a href="https://news.ycombinator.com/item?id=50503930">Hacker News</a>.</div><div class="body" data-i18n lang="en">Published on 15 November 2026 on Show HN, Turbo-Browser-MCP adds three reliability-oriented primitives to an MCP (Model Context Protocol) server: batch form filling, DOM delta detection to avoid resending the entire page, and &quot;submit guards&quot; that prevent double submission. The project addresses a well-known irritant for agent operators: browser interactions remain the most fragile link in agentic chains. The code is available at <a href="https://github.com/Tthanh2k6/turbo-browser-mcp">the Tthanh2k6/turbo-browser-mcp GitHub repository</a>, announced on 15 November 2026 on <a href="https://news.ycombinator.com/item?id=50503930">Hacker News</a>.</div><div class="body" data-i18n lang="de">Am 15. November 2026 auf Show HN veröffentlicht, fügt Turbo-Browser-MCP einem MCP-Server (Model Context Protocol) drei auf Zuverlässigkeit ausgerichtete Primitiven hinzu: das stapelweise Ausfüllen von Formularen, die Erkennung von DOM-Deltas, um nicht die ganze Seite erneut zu senden, sowie «Submit Guards», die eine Doppelübermittlung verhindern. Das Projekt antwortet auf einen bekannten Störfaktor von Agenten-Betreibern: Browser-Interaktionen bleiben das fragileste Glied in Agent-Ketten. Der Code ist verfügbar auf <a href="https://github.com/Tthanh2k6/turbo-browser-mcp">dem GitHub-Repository Tthanh2k6/turbo-browser-mcp</a>, angekündigt am 15. November 2026 auf <a href="https://news.ycombinator.com/item?id=50503930">Hacker News</a>.</div><div class="body" data-i18n lang="it">Pubblicato il 15 novembre 2026 su Show HN, Turbo-Browser-MCP aggiunge a un server MCP (Model Context Protocol) tre primitive orientate all&#39;affidabilità: la compilazione di moduli in batch, il rilevamento dei delta del DOM per evitare di inviare nuovamente l&#39;intera pagina e delle «submit guard» che impediscono un doppio invio. Il progetto risponde a un fastidio ben noto agli operatori di agenti: le interazioni con il browser restano l&#39;anello più fragile delle catene agentiche. Il codice è disponibile su <a href="https://github.com/Tthanh2k6/turbo-browser-mcp">il repository GitHub Tthanh2k6/turbo-browser-mcp</a>, annunciato il 15 novembre 2026 su <a href="https://news.ycombinator.com/item?id=50503930">Hacker News</a>.</div><div class="body" data-i18n lang="lmo">Publicaa el 15 de november 2026 sora Show HN, Turbo-Browser-MCP al gionta a on server MCP (Model Context Protocol) trii primitiv orsientaa a l&#39;affidabilità: el impiniment de form in lots, la deteccion di delta DOM per evità de rimandà tutta la pagina, e di « submit guards » che impedissen ona duppia spedizzion. El proget al responn a on irritant ben cognossuu di operador de agent: i interazzion browser resten l&#39;anell pussee fragil di caden agentegh. El codighe l&#39;è disponibel sora <a href="https://github.com/Tthanh2k6/turbo-browser-mcp">el deposit GitHub Tthanh2k6/turbo-browser-mcp</a>, anunziaa el 15 de november 2026 sora <a href="https://news.ycombinator.com/item?id=50503930">Hacker News</a>.</div></article></div></section>
+<section class="page" data-page="3"><h2 class="page-label"><span data-i18n lang="fr">Page 3 — </span><span data-i18n lang="en">Page 3 — </span><span data-i18n lang="de">Seite 3 — </span><span data-i18n lang="it">Pagina 3 — </span><span data-i18n lang="lmo">Pagina 3 — </span><span data-i18n lang="fr">La Recherche — Labos &amp; fondamentaux</span><span data-i18n lang="en">Research — Labs &amp; Fundamentals</span><span data-i18n lang="de">Die Forschung — Labore &amp; Grundlagen</span><span data-i18n lang="it">La Ricerca — Laboratori &amp; fondamentali</span><span data-i18n lang="lmo">La Ricerca — Laboratori &amp; fondamentai</span></h2><div class="section section-1-col"><h3 class="section-title">III. <span data-i18n lang="fr">Sécurité &amp; fondamentaux</span><span data-i18n lang="en">Security &amp; fundamentals</span><span data-i18n lang="de">Sicherheit &amp; Grundlagen</span><span data-i18n lang="it">Sicurezza &amp; fondamentali</span><span data-i18n lang="lmo">Segurezza &amp; fondamentai</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Sécurité</p><p class="kicker" data-i18n lang="en">Security</p><p class="kicker" data-i18n lang="de">Sicherheit</p><p class="kicker" data-i18n lang="it">Sicurezza</p><p class="kicker" data-i18n lang="lmo">Segurezza</p><h4><span data-i18n lang="fr">Project Zero fixe sa règle : divulgation publique à 90 jours, sans exception</span><span data-i18n lang="en">Project Zero sets its rule: public disclosure at 90 days, no exceptions</span><span data-i18n lang="de">Project Zero legt seine Regel fest: öffentliche Disclosure nach 90 Tagen, ohne Ausnahme</span><span data-i18n lang="it">Project Zero fissa la sua regola: divulgazione pubblica a 90 giorni, senza eccezioni</span><span data-i18n lang="lmo">Project Zero el fissa la sò regola: divulgazzion publica a 90 dì, senza eccezzion</span></h4><div class="body" data-i18n lang="fr">Google Project Zero a annoncé le 14 novembre 2026 son nouveau cadre de divulgation : les vulnérabilités seront désormais rendues publiques 90 jours après leur signalement, vendeur coopératif ou non. La politique, détaillée dans <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;annonce officielle du 14 novembre 2026</a>, a été discutée par <a href="https://news.ycombinator.com/item?id=50496051">218 points et 72 commentaires sur Hacker News</a>. Le délai de 90 jours, plafond historique du projet, devient ici la règle unique — un durcissement notable alors que la surface d&#39;attaque logicielle, amplifiée par le code généré par IA, ne cesse de croître.</div><div class="body" data-i18n lang="en">Google Project Zero announced on 14 November 2026 its new disclosure framework: vulnerabilities will now be made public 90 days after being reported, whether or not the vendor cooperates. The policy, detailed in <a href="https://projectzero.google/2026/11/disclosure-policy.html">the official announcement of 14 November 2026</a>, was discussed by <a href="https://news.ycombinator.com/item?id=50496051">218 points and 72 comments on Hacker News</a>. The 90-day window, historically the project&#39;s ceiling, here becomes the single rule — a notable hardening at a time when the software attack surface, amplified by AI-generated code, keeps growing.</div><div class="body" data-i18n lang="de">Google Project Zero hat am 14. November 2026 seinen neuen Disclosure-Rahmen angekündigt: Schwachstellen werden künftig 90 Tage nach der Meldung öffentlich gemacht — ob der Hersteller kooperiert oder nicht. Die Politik, detailliert in <a href="https://projectzero.google/2026/11/disclosure-policy.html">der offiziellen Ankündigung vom 14. November 2026</a>, wurde mit <a href="https://news.ycombinator.com/item?id=50496051">218 Punkten und 72 Kommentaren auf Hacker News</a> diskutiert. Die 90-Tage-Frist, historisch die Obergrenze des Projekts, wird hier zur einzigen Regel — eine merkliche Verschärfung, während die Software-Angriffsfläche, verstärkt durch KI-generierten Code, stetig wächst.</div><div class="body" data-i18n lang="it">Google Project Zero ha annunciato il 14 novembre 2026 il suo nuovo quadro di divulgazione: le vulnerabilità saranno d&#39;ora in poi rese pubbliche 90 giorni dopo la segnalazione, che il fornitore collabori o meno. La politica, dettagliata in <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;annuncio ufficiale del 14 novembre 2026</a>, è stata discussa da <a href="https://news.ycombinator.com/item?id=50496051">218 punti e 72 commenti su Hacker News</a>. Il termine di 90 giorni, tetto storico del progetto, diventa qui la regola unica — un indurimento notevole mentre la superficie d&#39;attacco software, amplificata dal codice generato dall&#39;IA, continua a crescere.</div><div class="body" data-i18n lang="lmo">Google Project Zero l&#39;ha anunziaa el 14 de november 2026 el sò noev cadreg de divulgazzion: i vulnerabilità sarann d&#39;ades renduu pubblic 90 dì dopo del sò segnalamat, vendedor cooperativ o minga. La politega, detagliada in <a href="https://projectzero.google/2026/11/disclosure-policy.html">l&#39;anunz ufizial del 14 de november 2026</a>, l&#39;è stada discutuda de <a href="https://news.ycombinator.com/item?id=50496051">218 pont e 72 comment sora Hacker News</a>. El termin de 90 dì, tet storic del proget, el deventa chì la regola unega — on induriment notabel intant che la superfiss de attacch software, amplificada del codighe generaa de IA, la cress semper pussee.</div></article></div></section>
+<section class="page" data-page="4"><h2 class="page-label"><span data-i18n lang="fr">Page 4 — </span><span data-i18n lang="en">Page 4 — </span><span data-i18n lang="de">Seite 4 — </span><span data-i18n lang="it">Pagina 4 — </span><span data-i18n lang="lmo">Pagina 4 — </span><span data-i18n lang="fr">La Communauté &amp; Édito</span><span data-i18n lang="en">Community &amp; Editorial</span><span data-i18n lang="de">Die Gemeinschaft &amp; Kommentar</span><span data-i18n lang="it">La Comunità &amp; Editoriale</span><span data-i18n lang="lmo">La Comunità &amp; Editoriale</span></h2><div class="section section-2-cols"><h3 class="section-title">IV. <span data-i18n lang="fr">Signaux &amp; tribune</span><span data-i18n lang="en">Signals &amp; opinion</span><span data-i18n lang="de">Signale &amp; Kommentar</span><span data-i18n lang="it">Segnali &amp; tribuna</span><span data-i18n lang="lmo">Segnai &amp; tribuna</span></h3><article class="article"><p class="kicker" data-i18n lang="fr">Signaux</p><p class="kicker" data-i18n lang="en">Signals</p><p class="kicker" data-i18n lang="de">Signale</p><p class="kicker" data-i18n lang="it">Segnali</p><p class="kicker" data-i18n lang="lmo">Segnai</p><h4><span data-i18n lang="fr">La fuite Lovable embrase la communauté technique</span><span data-i18n lang="en">The Lovable leak sets the technical community ablaze</span><span data-i18n lang="de">Das Lovable-Leck entzündet die technische Gemeinschaft</span><span data-i18n lang="it">La fuga Lovable infiamma la comunità tecnica</span><span data-i18n lang="lmo">La fuga Lovable la incens la comunità tecnega</span></h4><div class="body" data-i18n lang="fr">La fuite Lovable du 14 novembre 2026 a suscité l&#39;une des discussions les plus nourries de la semaine sur Hacker News — 739 points et 295 commentaires —, abonnés au fil <a href="https://news.ycombinator.com/item?id=50499017">news.ycombinator.com/item?id=50499017</a>. Le débat dépasse largement Lovable : développeurs et praticiens y débattent de la responsabilité partagée entre plateformes de génération d&#39;applications et utilisateurs finaux, à l&#39;heure où des agents acheteurs comme ChatGPT Wallet commencent à manipuler des identités et des moyens de paiement.</div><div class="body" data-i18n lang="en">The Lovable leak of 14 November 2026 sparked one of the week&#39;s richest discussions on Hacker News — 739 points and 295 comments — with readers following the thread at <a href="https://news.ycombinator.com/item?id=50499017">news.ycombinator.com/item?id=50499017</a>. The debate goes far beyond Lovable: developers and practitioners are arguing over the shared responsibility between app-generation platforms and end users, at a time when purchasing agents such as ChatGPT Wallet are beginning to handle identities and payment instruments.</div><div class="body" data-i18n lang="de">Das Lovable-Leck vom 14. November 2026 hat eine der reichhaltigsten Diskussionen der Woche auf Hacker News ausgelöst — 739 Punkte und 295 Kommentare —, im Thread <a href="https://news.ycombinator.com/item?id=50499017">news.ycombinator.com/item?id=50499017</a>. Die Debatte geht weit über Lovable hinaus: Entwickler und Praktiker verhandeln dort die geteilte Verantwortung zwischen App-Generierungsplattformen und Endnutzern, in einer Zeit, in der Käufer-Agents wie ChatGPT Wallet beginnen, Identitäten und Zahlungsmittel zu handhaben.</div><div class="body" data-i18n lang="it">La fuga Lovable del 14 novembre 2026 ha suscitato una delle discussioni più nutrite della settimana su Hacker News — 739 punti e 295 commenti —, seguita sul thread <a href="https://news.ycombinator.com/item?id=50499017">news.ycombinator.com/item?id=50499017</a>. Il dibattito va ben oltre Lovable: sviluppatori e professionisti vi discutono la responsabilità condivisa tra le piattaforme di generazione di applicazioni e gli utenti finali, in un momento in cui agenti acquirenti come ChatGPT Wallet iniziano a maneggiare identità e strumenti di pagamento.</div><div class="body" data-i18n lang="lmo">La fuga Lovable del 14 de november 2026 l&#39;ha faa nasè ona di discussiun pussee nutride de la setemana sora Hacker News — 739 pont e 295 comment —, aj abunaa al fil <a href="https://news.ycombinator.com/item?id=50499017">news.ycombinator.com/item?id=50499017</a>. El dibattit el và ben oltra Lovable: svilupador e pratich discuten de la responsabilità condivisa tra piataforme de generazzion de aplicassion e utent finaaj, a l&#39;ora in che di agent crompor cunt ChatGPT Wallet inginzen a manià identità e mezz de pagament.</div></article>
+<article class="article"><p class="kicker" data-i18n lang="fr">Édito</p><p class="kicker" data-i18n lang="en">Editorial</p><p class="kicker" data-i18n lang="de">Kommentar</p><p class="kicker" data-i18n lang="it">Editoriale</p><p class="kicker" data-i18n lang="lmo">Editoriale</p><h4><span data-i18n lang="fr">Édito — Le maillon faible n&#39;est pas le modèle</span><span data-i18n lang="en">Editorial — The weakest link is not the model</span><span data-i18n lang="de">Kommentar — Das schwache Glied ist nicht das Modell</span><span data-i18n lang="it">Editoriale — L&#39;anello debole non è il modello</span><span data-i18n lang="lmo">Editoriale — L&#39;anell debol l&#39;è minga el modei</span></h4><div class="body" data-i18n lang="fr">Le paradoxe de cette semaine tient en une phrase : les labos consacrent des fortunes à rendre leurs agents sûrs, pendant que la vague no-code expose 200 000 messages privés en quelques clics. L&#39;enquête publiée le 14 novembre 2026 par <a href="https://www.crissyfield.de/research/lovable-en/">Crissy Field sur les applications Lovable</a> ne met pas en cause un modèle, mais une chaîne : un générateur, des bases de données mal cloisonnées, et des créateurs sans culture de sécurité mis en production en quelques minutes. Le problème n&#39;est pas que l&#39;IA écrive du code ; c&#39;est qu&#39;elle rende l&#39;infrastructure accessible à ceux qui n&#39;ont jamais eu à la comprendre. La réponse ne viendra pas des modèles, mais des plateformes : défauts sûrs, revues obligatoires, cloisonnement natif. Tant que ces garde-fous manquent, chaque gain de productivité se paiera en données exposées — et la facture, cette semaine, s&#39;élève à des passeports.</div><div class="body" data-i18n lang="en">This week&#39;s paradox can be summed up in one sentence: labs are spending fortunes making their agents safe, while the no-code wave exposes 200,000 private messages in a few clicks. The investigation published on 14 November 2026 by <a href="https://www.crissyfield.de/research/lovable-en/">Crissy Field into Lovable applications</a> does not implicate a model, but a chain: a generator, poorly isolated databases, and creators with no security culture pushed into production in minutes. The problem is not that AI writes code; it is that it makes infrastructure accessible to those who never had to understand it. The answer will not come from models, but from platforms: secure defaults, mandatory reviews, native isolation. As long as these guardrails are missing, every productivity gain will be paid for in exposed data — and this week, the bill came to passports.</div><div class="body" data-i18n lang="de">Das Paradoxon dieser Woche lässt sich in einem Satz zusammenfassen: Die Labore geben Vermögen aus, um ihre Agents sicher zu machen, während die No-Code-Welle mit ein paar Klicks 200 000 private Nachrichten offengelegt. Die am 14. November 2026 von <a href="https://www.crissyfield.de/research/lovable-en/">Crissy Field zu den Lovable-Apps veröffentlichte Untersuchung</a> beanstandet kein Modell, sondern eine Kette: einen Generator, schlecht abgeschottete Datenbanken und Ersteller ohne Sicherheitskultur, die binnen Minuten in Produktion gehen. Das Problem ist nicht, dass KI Code schreibt; es ist, dass sie Infrastruktur jenen zugänglich macht, die sie nie verstehen mussten. Die Antwort kommt nicht von den Modellen, sondern von den Plattformen: sichere Defaults, obligatorische Reviews, native Abschottung. Solange diese Schutzmechanismen fehlen, wird jeder Produktivitätsgewinn mit offengelegten Daten bezahlt — und die Rechnung beläuft sich diese Woche auf Pässe.</div><div class="body" data-i18n lang="it">Il paradosso di questa settimana si riassume in una frase: i laboratori spendono fortune per rendere sicuri i loro agenti, mentre l&#39;onda no-code espone 200 000 messaggi privati in pochi clic. L&#39;inchiesta pubblicata il 14 novembre 2026 da <a href="https://www.crissyfield.de/research/lovable-en/">Crissy Field sulle applicazioni Lovable</a> non mette in discussione un modello, ma una catena: un generatore, database mal separati e creatori senza cultura della sicurezza messi in produzione in pochi minuti. Il problema non è che l&#39;IA scriva codice; è che renda l&#39;infrastruttura accessibile a chi non ha mai dovuto capirla. La risposta non verrà dai modelli, ma dalle piattaforme: impostazioni predefinite sicure, revisioni obbligatorie, separazione nativa degli accessi. Finché mancheranno queste protezioni, ogni guadagno di produttività si pagherà in dati esposti — e il conto, questa settimana, ammonta a passaporti.</div><div class="body" data-i18n lang="lmo">El paradox de sta setemana el stà in ona frase: i laboratori consedden di fortun per fà vegnì i sò agent segur, intant che l&#39;onda no-code la espon 200.000 messagg privaa in quai clic. L&#39;indagin publicada el 14 de november 2026 de <a href="https://www.crissyfield.de/research/lovable-en/">Crissy Field sora i aplicassion Lovable</a> la scond minga on modei, ma ona cadena: on generador, di database mal separaa, e di creador senza coltura de segurezza mettuu in pruduzzion in poch minut. El problema l&#39;è minga che l&#39;IA la scriva codighe; l&#39;è che la renda l&#39;infrastrutura acessibel a coi che hann mai avuu besogn de capela. La respuesta la vegnà minga di modei, ma di piataforme: default segur, revist obligatorij, separazzion nativa. El temp che &#39;sti salvaguardia mancenen, ogni guadagn de pruduttività el pagherai in dat espost — e el cunt, sta setemana, el montà in passaport.</div></article></div></section>
+
+  <footer class="colophon">All the AI that&#39;s fit to print</footer>
+</main>
+<script>(function() {
+  var SUPPORTED = ["fr","en","de","it","lmo"];
+  var STORAGE_KEY = 'nt-lang';
+  function detectLang() {
+    var pref = null;
+    try { pref = localStorage.getItem(STORAGE_KEY); } catch (e) {}
+    if (pref && SUPPORTED.indexOf(pref) !== -1) return pref;
+    var nav = (navigator.language || navigator.userLanguage || "fr").toLowerCase().split('-')[0];
+    return SUPPORTED.indexOf(nav) !== -1 ? nav : "fr";
+  }
+  function applyLang(lang) {
+    document.documentElement.lang = lang;
+    var links = document.querySelectorAll('.lang-selector a');
+    for (var i = 0; i < links.length; i++) {
+      if (links[i].dataset.lang === lang) links[i].classList.add('active');
+      else links[i].classList.remove('active');
+    }
+  }
+  document.addEventListener('click', function(e) {
+    var target = e.target;
+    if (!(target instanceof Element)) return;
+    var a = target.closest('.lang-selector a');
+    if (!a) return;
+    e.preventDefault();
+    var lang = a.getAttribute('data-lang');
+    if (!lang || SUPPORTED.indexOf(lang) === -1) return;
+    try { localStorage.setItem(STORAGE_KEY, lang); } catch (e) {}
+    applyLang(lang);
+  });
+  applyLang(detectLang());
+})();</script>
+</body>
+</html>
