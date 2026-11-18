@@ -1,0 +1,704 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-11-18",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "OpenAI a annoncé le 17 novembre 2026 la sortie simultanée de GPT-6.2 Astra et de GPT-6.2 Sol, deux modèles jumeaux qui structurent désormais explicitement son offre en deux profils : Astra pour « les tâches exigeantes de raisonnement et de code », Sol pour « le code du quotidien et les workflows d'agents ». Les deux modèles sont disponibles sur ChatGPT Work, Codex et l'API, avec des gains annoncés sur les sorties professionnelles, le pilotage d'ordinateur et l'efficacité à coût réduit.",
+        "en": "On 17 November 2026, OpenAI announced the simultaneous release of GPT-6.2 Astra and GPT-6.2 Sol, two twin models that now explicitly structure its offering into two profiles: Astra for \"demanding reasoning and coding tasks\", Sol for \"everyday coding and agent workflows\". Both models are available on ChatGPT Work, Codex and the API, with claimed gains on professional outputs, computer control and cost-reduced efficiency.",
+        "de": "OpenAI hat am 17. November 2026 die zeitgleiche Veröffentlichung von GPT-6.2 Astra und GPT-6.2 Sol angekündigt, zwei Zwillingsmodelle, die ihr Angebot nun explizit in zwei Profile strukturieren: Astra für «anspruchsvolle Reasoning- und Code-Aufgaben», Sol für «Alltagscode und Agenten-Workflows». Beide Modelle sind auf ChatGPT Work, Codex und der API verfügbar, mit angekündigten Fortschritten bei professionellen Outputs, der Computersteuerung und der Effizienz bei reduzierten Kosten.",
+        "it": "OpenAI ha annunciato il 17 novembre 2026 il lancio simultaneo di GPT-6.2 Astra e GPT-6.2 Sol, due modelli gemelli che strutturano ormai esplicitamente la sua offerta in due profili: Astra per «i compiti impegnativi di ragionamento e di codice», Sol per «il codice quotidiano e i workflow degli agenti». I due modelli sono disponibili su ChatGPT Work, Codex e l'API, con guadagni annunciati sulle uscite professionali, il pilotaggio del computer e l'efficienza a costo ridotto.",
+        "lmo": "OpenAI l'ha anunziaa el 17 de november 2026 la sortida simultanea de GPT-6.2 Astra e de GPT-6.2 Sol, du modej gemell che ades i struttura a la svelta la soa oferta in du profij: Astra per «i lavoré exigent de resonament e de codes», Sol per «el codes de tuti i dì e i workflow di agent». I du modej hinn disponibil sora ChatGPT Work, Codex e l'API, con di vantagg nunziaa sora i sortid professionai, el governà del computer e l'efficenza a cost ridott."
+      },
+      {
+        "fr": "Côté développeurs, le changelog de la plateforme précise que GPT-6.2 Astra et GPT-6.2 Sol sont exposés sur les endpoints v1/responses et v1/chat/completions, le tool calling exigeant toutefois la Responses API. La version 6.2 modifie aussi la façon dont l'API conserve le raisonnement lors de l'édition du préfixe d'une conversation et la gestion du champ top-level « instructions », deux changements de rupture documentés dans un guide de migration.",
+        "en": "On the developer side, the platform changelog specifies that GPT-6.2 Astra and GPT-6.2 Sol are exposed on the v1/responses and v1/chat/completions endpoints, although tool calling requires the Responses API. Version 6.2 also changes how the API preserves reasoning when editing a conversation prefix, and the handling of the top-level \"instructions\" field — two breaking changes documented in a migration guide.",
+        "de": "Auf Entwicklerseite präzisiert das Changelog der Plattform, dass GPT-6.2 Astra und GPT-6.2 Sol über die Endpunkte v1/responses und v1/chat/completions bereitgestellt werden, wobei Tool Calling die Responses API erfordert. Version 6.2 verändert zudem, wie die API das Reasoning bei der Bearbeitung des Präfixes einer Konversation speichert, sowie die Behandlung des Top-level-Feldes «instructions» – zwei einschneidende Änderungen, die in einem Migrationsleitfaden dokumentiert sind.",
+        "it": "Sul fronte sviluppatori, il changelog della piattaforma precisa che GPT-6.2 Astra e GPT-6.2 Sol sono esposti sugli endpoint v1/responses e v1/chat/completions, mentre il tool calling richiede la Responses API. La versione 6.2 modifica anche il modo in cui l'API conserva il ragionamento durante la modifica del prefisso di una conversazione e la gestione del campo top-level «instructions», due cambiamenti di rottura documentati in una guida alla migrazione.",
+        "lmo": "De la part di sviluppador, el changelog de la piattaforma el precisa che GPT-6.2 Astra e GPT-6.2 Sol hinn esponuu sora i endpoint v1/responses e v1/chat/completions, el tool calling el dumanda però la Responses API. La version 6.2 la cambia anca el moeud con che l'API la conserva el resonament quand che se edite el prefiss de 'na conversazion e la gestion del camp top-level «instructions», du cambiament de rotura documentaa in d'ona guida de migrazion."
+      },
+      {
+        "fr": "L'annonce a enflammé Hacker News, où le fil « GPT-6.2 Astra and Sol » a réuni 1 190 points et 745 commentaires en moins de douze heures, un volume de discussion comparable aux grandes journées de lancement de la génération GPT-5. Simultanément, OpenAI ouvre en bêta publique des fenêtres d'exécution différée de 2 ou 8 heures sur la Responses API, avec des tarifs de tokens inférieurs de 30 % et 40 % au tarif standard — un signal clair que les charges agentiques de longue durée deviennent une classe de workload à part entière.",
+        "en": "The announcement set Hacker News ablaze, where the \"GPT-6.2 Astra and Sol\" thread gathered 1,190 points and 745 comments in under twelve hours, a volume of discussion comparable to the biggest GPT-5-generation launch days. Simultaneously, OpenAI opened a public beta of deferred execution windows of 2 or 8 hours on the Responses API, with token rates 30% and 40% below the standard rate — a clear signal that long-running agent workloads are becoming a workload class in their own right.",
+        "de": "Die Ankündigung hat Hacker News befeuert, wo der Thread «GPT-6.2 Astra and Sol» in weniger als zwölf Stunden 1'190 Punkte und 745 Kommentare versammelte – ein Diskussionsvolumen vergleichbar mit den grossen Launch-Tagen der GPT-5-Generation. Gleichzeitig öffnet OpenAI in einer öffentlichen Beta verzögerte Ausführungsfenster von 2 oder 8 Stunden auf der Responses API, mit Token-Preisen, die 30 % bzw. 40 % unter dem Standardtarif liegen – ein klares Signal, dass langlaufende Agenten-Lasten zu einer eigenständigen Workload-Klasse werden.",
+        "it": "L'annuncio ha infiammato Hacker News, dove il filo «GPT-6.2 Astra and Sol» ha raccolto 1.190 punti e 745 commenti in meno di dodici ore, un volume di discussione paragonabile alle grandi giornate di lancio della generazione GPT-5. Contemporaneamente, OpenAI apre in beta pubblica finestre di esecuzione differita di 2 o 8 ore sulla Responses API, con tariffe dei token inferiori del 30% e del 40% rispetto alla tariffa standard — un segnale chiaro che i carichi agentici di lunga durata stanno diventando una classe di workload a pieno titolo.",
+        "lmo": "L'anunzi l'ha infogaa Hacker News, indova che el fil «GPT-6.2 Astra and Sol» l'ha regolt 1 190 pont e 745 comment in manch de dodes or, on volum de discussion compabel ai grand dì de lansament de la generazion GPT-5. In del midemm temp, OpenAI el derva in bêta publica di fnestre de esecuzion diferida de 2 o 8 or sora la Responses API, con di tarif di token inferior del 30% e 40% rispett al tarif standard — on segnai ciar che i careg agentich de longa durada deven 'na classa de workload a part intrega."
+      }
+    ],
+    "urls": [
+      "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "https://r.jina.ai/https://platform.openai.com/docs/changelog",
+      "https://news.ycombinator.com/item?id=50535230"
+    ],
+    "kicker": {
+      "fr": "Modèles & Frontière",
+      "en": "Models & Frontier",
+      "de": "Modelle & Front",
+      "it": "Modelli & Frontiera",
+      "lmo": "Modej & Frontiera"
+    },
+    "headline": {
+      "fr": "OpenAI lance GPT-6.2 Astra et Sol : la frontière se dédouble entre raisonnement lourd et agents véloces",
+      "en": "OpenAI launches GPT-6.2 Astra and Sol: the frontier splits between heavy reasoning and fast agents",
+      "de": "OpenAI lanciert GPT-6.2 Astra und Sol: Die Front verzweigt sich in schweres Reasoning und flinke Agenten",
+      "it": "OpenAI lancia GPT-6.2 Astra e Sol: la frontiera si sdoppia tra ragionamento pesante e agenti veloci",
+      "lmo": "OpenAI el lansa GPT-6.2 Astra e Sol: la frontiera la se desdobia tra resonament pesant e agent velos"
+    },
+    "subdeck": {
+      "fr": "La double sortie du 17 novembre 2026 propose Astra pour le raisonnement exigeant et Sol pour les agents au quotidien, avec des tarifs différés jusqu'à 40 % moins chers sur la Responses API.",
+      "en": "The double release of 17 November 2026 offers Astra for demanding reasoning and Sol for everyday agents, with deferred rates up to 40% cheaper on the Responses API.",
+      "de": "Der Doppellaunch vom 17. November 2026 bietet Astra für anspruchsvolles Reasoning und Sol für Agenten im Alltag, mit verzögerten Tarifen, die auf der Responses API bis zu 40 % günstiger sind.",
+      "it": "Il doppio lancio del 17 novembre 2026 propone Astra per il ragionamento impegnativo e Sol per gli agenti quotidiani, con tariffe differite fino al 40% più economiche sulla Responses API.",
+      "lmo": "La sortida dobbia del 17 de november 2026 la prupon Astra per el resonament exigent e Sol per i agent de tuti i dì, con di tarif diferida fin a 40% pusee convenient sora la Responses API."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Microsoft riposte à GPT-6.2 avec MAI Code 2 et Code 2 Flash",
+        "en": "Microsoft answers GPT-6.2 with MAI Code 2 and Code 2 Flash",
+        "de": "Microsoft kontert auf GPT-6.2 mit MAI Code 2 und Code 2 Flash",
+        "it": "Microsoft risponde a GPT-6.2 con MAI Code 2 e Code 2 Flash",
+        "lmo": "Microsoft el respond a GPT-6.2 con MAI Code 2 e Code 2 Flash"
+      },
+      "body": {
+        "fr": "Microsoft AI sort le 17 novembre 2026 MAI Code 2 et sa déclinaison Code 2 Flash, mis en avant sur <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 points, 144 commentaires) et détaillés dans <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">l'annonce officielle</a>. Le duo arrive le même jour que GPT-6.2, signe d'une concurrence frontale sur le code agentique.",
+        "en": "Microsoft AI released MAI Code 2 and its Code 2 Flash variant on 17 November 2026, highlighted on <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 points, 144 comments) and detailed in <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">the official announcement</a>. The pair arrives on the same day as GPT-6.2, a sign of head-on competition in agentic coding.",
+        "de": "Microsoft AI bringt am 17. November 2026 MAI Code 2 und dessen Variante Code 2 Flash heraus, vorgestellt auf <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 Punkte, 144 Kommentare) und detailliert in <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">der offiziellen Ankündigung</a>. Das Duo erscheint am selben Tag wie GPT-6.2 – Zeichen eines frontal geführten Wettbewerbs um agentischen Code.",
+        "it": "Microsoft AI esce il 17 novembre 2026 con MAI Code 2 e la sua declinazione Code 2 Flash, in evidenza su <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 punti, 144 commenti) e dettagliati in <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">l'annuncio ufficiale</a>. Il duo arriva lo stesso giorno di GPT-6.2, segno di una concorrenza frontale sul codice agentico.",
+        "lmo": "Microsoft AI el sortiss el 17 de november 2026 MAI Code 2 e la soa declinazion Code 2 Flash, mettuu in evidenza sora <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 pont, 144 comment) e detajaa in <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">l'anunzi offizial</a>. El dü el riva el midemm dì de GPT-6.2, segn d'ona concorenza frontal sora el codes agentich."
+      },
+      "tag": {
+        "fr": "Majeur",
+        "en": "Major",
+        "de": "Gross",
+        "it": "Maggiore",
+        "lmo": "Maggior"
+      },
+      "urls": [
+        "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+        "https://news.ycombinator.com/item?id=50535885"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Xing 4 : la preuve par 285 milliards de paramètres sur puces nationales",
+        "en": "Xing 4: proof by 285 billion parameters on domestic chips",
+        "de": "Xing 4: der Beweis mit 285 Milliarden Parametern auf heimischen Chips",
+        "it": "Xing 4: la prova con 285 miliardi di parametri su chip nazionali",
+        "lmo": "Xing 4: la prœuva con 285 miliard de parameter sora scing naziionai"
+      },
+      "body": {
+        "fr": "Le rapport publié le 17 novembre 2026 par XingChen-AGI (China Telecom) décrit le préentraînement d'un modèle de 285 milliards de paramètres sur 8 192 cartes Ascend 910C avec MindSpore HyperParallel, et la plateforme agentique TeleGym pour le post-entraînement. <a href=\"https://arxiv.org/abs/2611.22115\">Le paper</a> totalise 76 upvotes sur HF Daily Papers, le meilleur score du jour.",
+        "en": "The report published on 17 November 2026 by XingChen-AGI (China Telecom) describes the pretraining of a 285-billion-parameter model on 8,192 Ascend 910C cards with MindSpore HyperParallel, and the TeleGym agentic platform for post-training. <a href=\"https://arxiv.org/abs/2611.22115\">The paper</a> has racked up 76 upvotes on HF Daily Papers, the day's best score.",
+        "de": "Der am 17. November 2026 von XingChen-AGI (China Telecom) veröffentlichte Bericht beschreibt das Vortraining eines Modells mit 285 Milliarden Parametern auf 8'192 Ascend-910C-Karten mit MindSpore HyperParallel sowie die Agenten-Plattform TeleGym für das Post-Training. <a href=\"https://arxiv.org/abs/2611.22115\">Der Paper</a> erreicht 76 Upvotes auf HF Daily Papers, der Tagesbestwert.",
+        "it": "Il rapporto pubblicato il 17 novembre 2026 da XingChen-AGI (China Telecom) descrive il pre-addestramento di un modello di 285 miliardi di parametri su 8.192 schede Ascend 910C con MindSpore HyperParallel, e la piattaforma agentica TeleGym per il post-addestramento. <a href=\"https://arxiv.org/abs/2611.22115\">Il paper</a> totalizza 76 upvote su HF Daily Papers, il miglior punteggio della giornata.",
+        "lmo": "El rapport publicaa el 17 de november 2026 de XingChen-AGI (China Telecom) el descriv el pre-Allenament de on modell de 285 miliard de parameter sora 8 192 cart Ascend 910C con MindSpore HyperParallel, e la piattaforma agentica TeleGym per el post-Allenament. <a href=\"https://arxiv.org/abs/2611.22115\">El paper</a> el totalizza 76 upvotes sora HF Daily Papers, el migliôr scoeul del dì."
+      },
+      "tag": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-11-18",
+        "en": "From the Wires — 2026-11-18",
+        "de": "From the Wires — 2026-11-18",
+        "it": "From the Wires — 2026-11-18",
+        "lmo": "From the Wires — 2026-11-18"
+      },
+      "urls": [
+        "https://arxiv.org/abs/2611.22115"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Claude Platform s'équipe d'une facturation liée multi-comptes",
+        "en": "Claude Platform gains multi-account linked billing",
+        "de": "Die Claude-Plattform erhält eine verknüpfte Multi-Konto-Abrechnung",
+        "it": "La piattaforma Claude si dota di una fatturazione collegata multi-account",
+        "lmo": "La piattaforma Claude la se dota de 'na fatturazion liada multicunt"
+      },
+      "body": {
+        "fr": "Anthropic publie le 17 novembre 2026 « Linked billing on the Claude Platform », un mécanisme de facturation liée entre organisations et projets. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'article</a> vise les équipes qui industrialisent Claude Code et les agents managés avec plusieurs périmètres de coûts.",
+        "en": "On 17 November 2026, Anthropic published \"Linked billing on the Claude Platform\", a mechanism for linked billing across organisations and projects. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">The article</a> targets teams industrialising Claude Code and managed agents across multiple cost scopes.",
+        "de": "Anthropic veröffentlicht am 17. November 2026 «Linked billing on the Claude Platform», einen Mechanismus zur verknüpften Abrechnung zwischen Organisationen und Projekten. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">Der Artikel</a> richtet sich an Teams, die Claude Code und gemanagte Agenten mit mehreren Kostenbereichen industrialisieren.",
+        "it": "Anthropic pubblica il 17 novembre 2026 «Linked billing on the Claude Platform», un meccanismo di fatturazione collegata tra organizzazioni e progetti. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'articolo</a> punta sui team che industrializzano Claude Code e gli agenti gestiti con più perimetri di costi.",
+        "lmo": "Anthropic el publica el 17 de november 2026 «Linked billing on the Claude Platform», on mecanism de fatturazion liada tra organizazion e progett. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'articol</a> el mira ai squader che industrializen Claude Code e i agent gestii con pussee perimetru de cost."
+      },
+      "tag": {
+        "fr": "Produit",
+        "en": "Product",
+        "de": "Produkt",
+        "it": "Prodotto",
+        "lmo": "Prodott"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-11-18",
+        "en": "From the Wires — 2026-11-18",
+        "de": "From the Wires — 2026-11-18",
+        "it": "From the Wires — 2026-11-18",
+        "lmo": "From the Wires — 2026-11-18"
+      },
+      "urls": [
+        "https://claude.com/resources/articles/linked-billing-on-claude-platform"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "Cerebras lance l'inférence désagrégée pour servir les agents",
+        "en": "Cerebras launches disaggregated inference to serve agents",
+        "de": "Cerebras lanciert disaggregierte Inferenz für Agenten",
+        "it": "Cerebras lancia l'inferenza disgregata per servire gli agenti",
+        "lmo": "Cerebras el lansa l'inferenca desagregada per servì i agent"
+      },
+      "body": {
+        "fr": "Dans son billet du 18 novembre 2026, Cerebras détaille son « disaggregated inference », qui sépare préremplissage et décodage pour maximiser le débit. <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">L'annonce</a> a été <a href=\"https://news.ycombinator.com/item?id=50540472\">discutée sur Hacker News</a>, la communauté s'interrogeant sur l'avantage face aux clusters GPU conventionnels.",
+        "en": "In its 18 November 2026 post, Cerebras details its \"disaggregated inference\", which separates prefill and decoding to maximise throughput. <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">The announcement</a> was <a href=\"https://news.ycombinator.com/item?id=50540472\">discussed on Hacker News</a>, with the community questioning the advantage over conventional GPU clusters.",
+        "de": "In seinem Beitrag vom 18. November 2026 erläutert Cerebras die «disaggregated inference», die Prefill und Decoding trennt, um den Durchsatz zu maximieren. <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">Die Ankündigung</a> wurde auf <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News diskutiert</a>, wobei die Community nach dem Vorteil gegenüber konventionellen GPU-Clustern fragt.",
+        "it": "Nel suo post del 18 novembre 2026, Cerebras dettaglia la sua «disaggregated inference», che separa pre-riempimento e decodifica per massimizzare il throughput. <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">L'annuncio</a> è stato <a href=\"https://news.ycombinator.com/item?id=50540472\">discusso su Hacker News</a>, con la comunità che si interroga sul vantaggio rispetto ai cluster GPU convenzionali.",
+        "lmo": "In del sò bilèt del 18 de november 2026, Cerebras el detaja el sò «disaggregated inference», che 'l separa pre-empiiment e decodifega per massimizà el fluss. <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">L'anunzi</a> l'è staa <a href=\"https://news.ycombinator.com/item?id=50540472\">discutt sora Hacker News</a>, con la comunitaa che la se domanda su'l vantagg rispett ai cluster GPU convenzionai."
+      },
+      "tag": {
+        "fr": "Infra",
+        "en": "Infrastructure",
+        "de": "Infrastruktur",
+        "it": "Infra",
+        "lmo": "Infra"
+      },
+      "wire": {
+        "fr": "From the Wires — 2026-11-18",
+        "en": "From the Wires — 2026-11-18",
+        "de": "From the Wires — 2026-11-18",
+        "it": "From the Wires — 2026-11-18",
+        "lmo": "From the Wires — 2026-11-18"
+      },
+      "urls": [
+        "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference",
+        "https://news.ycombinator.com/item?id=50540472"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "À la Une — Modèles & Frontière",
+        "en": "Front Page — Models & Frontier",
+        "de": "Frontseite — Modelle & Front",
+        "it": "In Prima Pagina — Modelli & Frontiera",
+        "lmo": "In Prima Pagina — Modej & Frontiera"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Lancements et produits",
+            "en": "Launches and products",
+            "de": "Launches und Produkte",
+            "it": "Lanci e prodotti",
+            "lmo": "Lansament e prodott"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Astra for Law revendique la première place sur 24 domaines du droit",
+                "en": "Astra for Law claims first place across 24 domains of law",
+                "de": "Astra for Law beansprucht den ersten Platz in 24 Rechtsgebieten",
+                "it": "Astra for Law rivendica il primo posto su 24 ambiti del diritto",
+                "lmo": "Astra for Law el revendica el prim post sora 24 domini del diritt"
+              },
+              "body": {
+                "fr": "Déclinaison verticale de la sortie du jour : « Astra for Law » arrive le 17 novembre 2026 en tête d'une évaluation de lancement couvrant 24 domaines du droit. Tous les clients ChatGPT Enterprise peuvent désormais demander l'accès, confirmant la stratégie d'OpenAI de décliner sa famille GPT-6.2 en éditions sectorielles. <a href=\"https://openai.com/index/astra-law-6-2\">L'annonce officielle</a> précise le périmètre de la disponibilité.",
+                "en": "A vertical spin-off of the day's release: \"Astra for Law\" arrived on 17 November 2026 at the top of a launch evaluation covering 24 areas of law. All ChatGPT Enterprise customers can now request access, confirming OpenAI's strategy of extending its GPT-6.2 family into sector-specific editions. <a href=\"https://openai.com/index/astra-law-6-2\">The official announcement</a> details the scope of availability.",
+                "de": "Vertikale Ausbaustufe des Tages: «Astra for Law» führt am 17. November 2026 eine Launch-Evaluation an, die 24 Rechtsgebiete abdeckt. Alle Kunden von ChatGPT Enterprise können nun Zugang beantragen – ein Beleg für die Strategie von OpenAI, die GPT-6.2-Familie in Brancheneditionen auszubauen. <a href=\"https://openai.com/index/astra-law-6-2\">Die offizielle Ankündigung</a> präzisiert den Umfang der Verfügbarkeit.",
+                "it": "Declinazione verticale del lancio del giorno: «Astra for Law» arriva il 17 novembre 2026 in testa a una valutazione di lancio che copre 24 ambiti del diritto. Tutti i clienti ChatGPT Enterprise possono ormai richiedere l'accesso, a conferma della strategia di OpenAI di declinare la sua famiglia GPT-6.2 in edizioni settoriali. <a href=\"https://openai.com/index/astra-law-6-2\">L'annuncio ufficiale</a> precisa il perimetro della disponibilità.",
+                "lmo": "Declinazion verticala de la sortida del dì: «Astra for Law» el riva el 17 de november 2026 in coa de 'na valutazion de lansament che la quatta 24 domini del diritt. Tucc i client ChatGPT Enterprise poden ades domandà l'access, a confermà la strategia de OpenAI de declinà la soa familia GPT-6.2 in edizion setoriai. <a href=\"https://openai.com/index/astra-law-6-2\">L'anunzi offizial</a> el precisa el perimetru de la disponibilità."
+              },
+              "kicker": {
+                "fr": "Juridique",
+                "en": "Legal",
+                "de": "Juristisch",
+                "it": "Giuridico",
+                "lmo": "Giuridegh"
+              }
+            },
+            {
+              "headline": {
+                "fr": "ChatGPT for Sales : un plugin commercial et plus de 30 partenaires",
+                "en": "ChatGPT for Sales: a commercial plugin and more than 30 partners",
+                "de": "ChatGPT for Sales: ein Vertriebs-Plugin und über 30 Partner",
+                "it": "ChatGPT for Sales: un plugin commerciale e più di 30 partner",
+                "lmo": "ChatGPT for Sales: on plugin comercial e pussee de 30 partner"
+              },
+              "body": {
+                "fr": "OpenAI élargit le 17 novembre 2026 son écosystème de plugins avec un « Sales » dédié aux équipes commerciales — recherche de prospects, préparation de pitchs, mise à jour du CRM — accompagné de plus de 30 plugins partenaires nouveaux ou étendus. <a href=\"https://openai.com/index/introducing-chatgpt-for-sales\">La note de lancement</a> montre une accélération du modèle « ChatGPT pour chaque métier ».",
+                "en": "On 17 November 2026, OpenAI expanded its plugin ecosystem with a \"Sales\" offering dedicated to sales teams — prospect research, pitch preparation, CRM updates — accompanied by more than 30 new or extended partner plugins. <a href=\"https://openai.com/index/introducing-chatgpt-for-sales\">The launch note</a> shows an acceleration of the \"ChatGPT for every profession\" playbook.",
+                "de": "OpenAI erweitert am 17. November 2026 sein Plugin-Ökosystem um ein «Sales»-Angebot für Vertriebsteams – Prospektrecherche, Pitch-Vorbereitung, CRM-Pflege – begleitet von mehr als 30 neuen oder erweiterten Partner-Plugins. <a href=\"https://openai.com/index/introducing-chatgpt-for-sales\">Der Launch-Bericht</a> zeigt eine Beschleunigung des Modells «ChatGPT für jeden Beruf».",
+                "it": "OpenAI amplia il 17 novembre 2026 il suo ecosistema di plugin con uno «Sales» dedicato ai team commerciali — ricerca di prospect, preparazione di pitch, aggiornamento del CRM — accompagnato da più di 30 plugin partner nuovi o estesi. <a href=\"https://openai.com/index/introducing-chatgpt-for-sales\">La nota di lancio</a> mostra un'accelerazione del modello «ChatGPT per ogni mestiere».",
+                "lmo": "OpenAI el slarga el 17 de november 2026 el sò ecosistema de plugin con on «Sales» dedicaa ai squadre comerciai — ricerca de prospect, preparazion di pitch, agiornament del CRM — inscema a pussee de 30 plugin partner noeuv o slargaa. <a href=\"https://openai.com/index/introducing-chatgpt-for-sales\">La nota de lansament</a> la mostra ona acelerazion del modell «ChatGPT per ogni mester»."
+              },
+              "kicker": {
+                "fr": "Produit",
+                "en": "Product",
+                "de": "Produkt",
+                "it": "Prodotto",
+                "lmo": "Prodott"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Cyberdéfense : OpenAI s'allie à l'OTAN pour traquer les vulnérabilités",
+                "en": "Cyber defence: OpenAI partners with NATO to hunt vulnerabilities",
+                "de": "Cyberabwehr: OpenAI verbündet sich mit der NATO zur Schwachstellenjagd",
+                "it": "Cyberdifesa: OpenAI si allea con la NATO per stanare le vulnerabilità",
+                "lmo": "Cyberdefesa: OpenAI el se leda a la NATO per dà la cassa ai vulnerabilitaa"
+              },
+              "body": {
+                "fr": "Dans une publication datée du 17 novembre 2026, OpenAI détaille sa coopération avec l'OTAN et des agences cyber alliées : aider « les défenseurs de confiance » à repérer des vulnérabilités, tester des correctifs et protéger les systèmes essentiels. <a href=\"https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\">L'article</a> arrive dans un contexte tendu, après la panne signalée le même jour d'un réseau de communications classifié américain.",
+                "en": "In a publication dated 17 November 2026, OpenAI details its cooperation with NATO and allied cyber agencies: helping \"trusted defenders\" spot vulnerabilities, test patches and protect essential systems. <a href=\"https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\">The article</a> comes amid heightened tensions, after a US classified communications network outage reported the same day.",
+                "de": "In einer Publikation vom 17. November 2026 beschreibt OpenAI seine Zusammenarbeit mit der NATO und verbündeten Cyberbehörden: «vertrauenswürdige Verteidiger» bei der Suche nach Schwachstellen, beim Testen von Patches und beim Schutz kritischer Systeme unterstützen. <a href=\"https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\">Der Artikel</a> erscheint in angespanntem Kontext, nach dem am selben Tag gemeldeten Ausfall eines als geheim eingestuften US-Kommunikationsnetzes.",
+                "it": "In una pubblicazione datata 17 novembre 2026, OpenAI dettaglia la sua cooperazione con la NATO e agenzie cyber alleate: aiutare «i difensori di fiducia» a individuare vulnerabilità, testare patch e proteggere i sistemi essenziali. <a href=\"https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\">L'articolo</a> arriva in un contesto teso, dopo il guasto segnalato lo stesso giorno di una rete di comunicazioni classificata americana.",
+                "lmo": "In d'ona publicazion del 17 de november 2026, OpenAI el detaja la soa cooperazion con la NATO e di agenzi cyber leaa: juttaa «i difensor de fiduzia» a trovà di vulnerabilitaa, provà di correttiv e protegg i sistema essenziai. <a href=\"https://openai.com/index/strengthening-nato-allied-cyber-defences-ai\">L'articol</a> el riva in d'on context tes, dopo la panna segnalada el midemm dì de 'na red de comunicazion classifegada americana."
+              },
+              "kicker": {
+                "fr": "Souveraineté",
+                "en": "Sovereignty",
+                "de": "Google",
+                "it": "Sovranità",
+                "lmo": "Sovranità"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Tasks in Gemini passe gratuit dans six pays, agents au sein de Workspace",
+                "en": "Tasks in Gemini goes free in six countries, agents within Workspace",
+                "de": "Tasks in Gemini passe gratuit dans six pays, agents au sein de Workspace",
+                "it": "Tasks in Gemini diventa gratuito in sei paesi, agenti all'interno di Workspace",
+                "lmo": "Tasks in Gemini el deventa gratuit in ses paes, agent dent del Workspace"
+              },
+              "body": {
+                "fr": "Le 17 novembre 2026, Google rend « Tasks in Gemini » gratuit dans six pays, avec de nouvelles fonctions aux États-Unis et une intégration approfondie de Google Workspace pour exécuter des actions au nom de l'utilisateur. <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\">L'annonce</a> marque une étape de plus dans la gratuité des agents personnels.",
+                "en": "On 17 November 2026, Google made \"Tasks in Gemini\" free in six countries, with new features in the United States and deeper Google Workspace integration to execute actions on the user's behalf. <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\">The announcement</a> marks another step towards free personal agents.",
+                "de": "Le 17 novembre 2026, Google rend « Tasks in Gemini » gratuit dans six pays, avec de nouvelles fonctions aux États-Unis et une intégration approfondie de Google Workspace pour exécuter des actions au nom de l'utilisateur. <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\">L'annonce</a> marque une étape de plus dans la gratuité des agents personnels.",
+                "it": "Il 17 novembre 2026, Google rende «Tasks in Gemini» gratuito in sei paesi, con nuove funzioni negli Stati Uniti e un'integrazione approfondita di Google Workspace per eseguire azioni a nome dell'utente. <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\">L'annuncio</a> segna un ulteriore passo verso la gratuità degli agenti personali.",
+                "lmo": "El 17 de november 2026, Google el rend «Tasks in Gemini» gratuit in ses paes, con di noeuv funzion in di Staa Ünii e ona integrazion profundida de Google Workspace per eseguì di azion in nom de l'utent. <a href=\"https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/\">L'anunzi</a> el segna on pass pussee in la gratuitaa di agent personai."
+              },
+              "kicker": {
+                "fr": "Google",
+                "en": "Google",
+                "de": "Google",
+                "it": "Google",
+                "lmo": "Google"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sciences appliquées",
+            "en": "Applied sciences",
+            "de": "Angewandte Wissenschaften",
+            "it": "Scienze applicate",
+            "lmo": "Scienz aplicaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "AlphaGenome Atlas mis au service de la recherche sur les maladies",
+                "en": "AlphaGenome Atlas put to work on disease research",
+                "de": "AlphaGenome Atlas im Dienst der Krankheitsforschung",
+                "it": "AlphaGenome Atlas messo al servizio della ricerca sulle malattie",
+                "lmo": "AlphaGenome Atlas mettuu al servizzi de la ricerca sora i malattii"
+              },
+              "body": {
+                "fr": "Dans une publication du 17 novembre 2026, une chercheuse de Google DeepMind expose le potentiel d'AlphaGenome et d'AlphaGenome Atlas pour cartographier le génome et mieux comprendre les maladies. <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/\">L'article</a> fait suite à l'engagement annoncé en octobre 2026 de DeepMind dans la génomique computationnelle.",
+                "en": "In a 17 November 2026 publication, a researcher at Google DeepMind lays out the potential of AlphaGenome and AlphaGenome Atlas to map the genome and better understand diseases. <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/\">The article</a> follows DeepMind's October 2026 commitment to computational genomics.",
+                "de": "In einer Publikation vom 17. November 2026 erläutert eine Forscherin von Google DeepMind das Potenzial von AlphaGenome und AlphaGenome Atlas, das Genom zu kartieren und Krankheiten besser zu verstehen. <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/\">Der Artikel</a> folgt auf das im Oktober 2026 angekündigte Engagement von DeepMind in der rechnergestützten Genomik.",
+                "it": "In una pubblicazione del 17 novembre 2026, una ricercatrice di Google DeepMind espone il potenziale di AlphaGenome e AlphaGenome Atlas per mappare il genoma e comprendere meglio le malattie. <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/\">L'articolo</a> fa seguito all'impegno annunciato nell'ottobre 2026 di DeepMind nella genomica computazionale.",
+                "lmo": "In d'ona publicazion del 17 de november 2026, ona ricercadora de Google DeepMind la espon el potenzial de AlphaGenome e de AlphaGenome Atlas per fà la carta del genom e capì mej i malattii. <a href=\"https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-disease-research/\">L'articol</a> el vegn dopo l'impegn anunziaa in ottober 2026 de DeepMind in de la genomica computazionala."
+              },
+              "kicker": {
+                "fr": "DeepMind",
+                "en": "DeepMind",
+                "de": "DeepMind",
+                "it": "DeepMind",
+                "lmo": "DeepMind"
+              }
+            },
+            {
+              "headline": {
+                "fr": "Cohere rend les bibliothèques vidéo cherchables avec Video Intelligence",
+                "en": "Cohere makes video libraries searchable with Video Intelligence",
+                "de": "Cohere macht Videobibliotheken mit Video Intelligence durchsuchbar",
+                "it": "Cohere rende le biblioteche video ricercabili con Video Intelligence",
+                "lmo": "Cohere el rend i bibliotech video interogabil con Video Intelligence"
+              },
+              "body": {
+                "fr": "Cohere dévoile le 17 novembre 2026 « Video Intelligence » en avant-première : l'entreprise promet de rendre chaque instant d'une vidéothèque interrogeable en langage naturel. <a href=\"https://cohere.com/blog/video-intelligence-preview\">La publication</a> cible les dépôts vidéo d'entreprise, un territoire encore peu disputé du RAG multimodal.",
+                "en": "On 17 November 2026, Cohere unveiled \"Video Intelligence\" in preview: the company promises to make every moment of a video library queryable in natural language. <a href=\"https://cohere.com/blog/video-intelligence-preview\">The publication</a> targets enterprise video repositories, a still largely uncontested territory of multimodal RAG.",
+                "de": "Cohere stellt am 17. November 2026 «Video Intelligence» in einer Vorabversion vor: Das Unternehmen verspricht, jeden Moment einer Videobibliothek in natürlicher Sprache abfragbar zu machen. <a href=\"https://cohere.com/blog/video-intelligence-preview\">Die Publikation</a> zielt auf unternehmensinterne Videobestände – ein bislang wenig umkämpftes Terrain des multimodalen RAG.",
+                "it": "Cohere svela il 17 novembre 2026 «Video Intelligence» in anteprima: l'impresa promette di rendere ogni istante di una videoteca interrogabile in linguaggio naturale. <a href=\"https://cohere.com/blog/video-intelligence-preview\">La pubblicazione</a> punta sui depositi video aziendali, un territorio ancora poco conteso del RAG multimodale.",
+                "lmo": "Cohere el desvela el 17 de november 2026 «Video Intelligence» in anteprima: l'impresa la prumett de rend cada istant de 'na videotega interrogabel in lengoeu natural. <a href=\"https://cohere.com/blog/video-intelligence-preview\">La publicazion</a> la mira ai deposit video de impresa, on territori ancamò poc disputaa del RAG multimodal."
+              },
+              "kicker": {
+                "fr": "Enterprise",
+                "en": "Enterprise",
+                "de": "Enterprise",
+                "it": "Enterprise",
+                "lmo": "Enterprise"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Le Cahier Technique — harnais, CLI, engines",
+        "en": "The Technical Supplement — harnesses, CLIs, engines",
+        "de": "Das Technik-Heft — Harnesses, CLI, Engines",
+        "it": "Il Quaderno Tecnico — harness, CLI, engine",
+        "lmo": "El Quadern Tecnegh — harnais, CLI, engine"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "API & plateformes",
+            "en": "APIs & platforms",
+            "de": "API & Plattformen",
+            "it": "API & piattaforme",
+            "lmo": "API & piattaform"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Inference différée : OpenAI brade les tokens jusqu'à -40 % pour les agents patients",
+                "en": "Deferred inference: OpenAI slashes token prices by up to 40% for patient agents",
+                "de": "Verzögerte Inferenz: OpenAI verbilligt Token bis zu -40 % für geduldige Agenten",
+                "it": "Inferenza differita: OpenAI sconta i token fino a -40% per gli agenti pazienti",
+                "lmo": "Inferenca diferida: OpenAI el sbassa i token fin a -40% per i agent pazient"
+              },
+              "body": {
+                "fr": "Le changelog du 17 novembre 2026 introduit des fenêtres d'exécution différée de 2 heures ou 8 heures en bêta publique sur la Responses API, applicables aux modèles GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra et GPT-6 Luna. Les taux de tokens baissent de 30 % par rapport au Standard pour la fenêtre de 2 heures et de 40 % pour celle de 8 heures. <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Les notes de version</a> en font le premier mécanisme tarifaire explicite pour les charges agentiques asynchrones.",
+                "en": "The 17 November 2026 changelog introduces deferred execution windows of 2 or 8 hours in public beta on the Responses API, applicable to GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra and GPT-6 Luna. Token rates drop by 30% versus Standard for the 2-hour window and 40% for the 8-hour window. <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">The release notes</a> make it the first explicit pricing mechanism for asynchronous agent workloads.",
+                "de": "Das Changelog vom 17. November 2026 führt verzögerte Ausführungsfenster von 2 oder 8 Stunden als öffentliche Beta auf der Responses API ein, anwendbar auf die Modelle GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra und GPT-6 Luna. Die Token-Tarife sinken gegenüber dem Standard um 30 % für das 2-Stunden-Fenster und um 40 % für das 8-Stunden-Fenster. <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Die Versionshinweise</a> machen daraus den ersten expliziten Tarifmechanismus für asynchrone Agenten-Lasten.",
+                "it": "Il changelog del 17 novembre 2026 introduce finestre di esecuzione differita di 2 ore o 8 ore in beta pubblica sulla Responses API, applicabili ai modelli GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra e GPT-6 Luna. Le tariffe dei token scendono del 30% rispetto allo Standard per la finestra di 2 ore e del 40% per quella di 8 ore. <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">Le note di versione</a> ne fanno il primo meccanismo tariffario esplicito per i carichi agentici asincroni.",
+                "lmo": "El changelog del 17 de november 2026 el introdu di fnestre de esecuzion diferida de 2 or o 8 or in bêta publica sora la Responses API, aplicabil ai modej GPT-6.2 Astra, GPT-6.2 Sol, GPT-6.1 Terra e GPT-6 Luna. I tass di token i va giò del 30% rispett al Standard per la fnestra de 2 or e del 40% per quella de 8 or. <a href=\"https://r.jina.ai/https://platform.openai.com/docs/changelog\">I not de version</a> i en fa el prim mecanism tarifari esplicit per i careg agentich asincron."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Facturation liée : la plateforme Claude unifie les comptes multi-projets",
+                "en": "Linked billing: the Claude platform unifies multi-project accounts",
+                "de": "Verknüpfte Abrechnung: die Claude-Plattform vereinheitlicht Multi-Projekt-Konten",
+                "it": "Fatturazione collegata: la piattaforma Claude unifica gli account multi-progetto",
+                "lmo": "Fatturazion liada: la piattaforma Claude la unifica i cunt multiprogett"
+              },
+              "body": {
+                "fr": "Anthropic publie le 17 novembre 2026 « Linked billing on the Claude Platform », un mécanisme de facturation liée entre organisations et projets sur la plateforme Claude. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'article</a> vise les équipes qui industrialisent Claude Code et les agents managés avec plusieurs périmètres de coûts.",
+                "en": "On 17 November 2026, Anthropic published \"Linked billing on the Claude Platform\", a mechanism for linked billing across organisations and projects on the Claude platform. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">The article</a> targets teams industrialising Claude Code and managed agents across multiple cost scopes.",
+                "de": "Anthropic veröffentlicht am 17. November 2026 «Linked billing on the Claude Platform», einen Mechanismus zur verknüpften Abrechnung zwischen Organisationen und Projekten auf der Claude-Plattform. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">Der Artikel</a> richtet sich an Teams, die Claude Code und gemanagte Agenten mit mehreren Kostenbereichen industrialisieren.",
+                "it": "Anthropic pubblica il 17 novembre 2026 «Linked billing on the Claude Platform», un meccanismo di fatturazione collegata tra organizzazioni e progetti sulla piattaforma Claude. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'articolo</a> punta sui team che industrializzano Claude Code e gli agenti gestiti con più perimetri di costi.",
+                "lmo": "Anthropic el publica el 17 de november 2026 «Linked billing on the Claude Platform», on mecanism de fatturazion liada tra organizazion e progett sora la piattaforma Claude. <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">L'articol</a> el mira ai squadr che industrializen Claude Code e i agent gestii con pussee perimetru de cost."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Cerebras lance l'inférence désagrégée pour servir les charges agentiques",
+                "en": "Cerebras launches disaggregated inference to serve agent workloads",
+                "de": "Cerebras lanciert disaggregierte Inferenz für Agenten-Lasten",
+                "it": "Cerebras lancia l'inferenza disgregata per servire i carichi agentici",
+                "lmo": "Cerebras el lansa l'inferenca desagregada per servì i careg agentich"
+              },
+              "body": {
+                "fr": "Dans un billet du 18 novembre 2026, Cerebras détaille son « disaggregated inference » : séparer préremplissage et décodage pour maximiser le débit sur ses wafer-scale processors. La discussion sur <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News (59 points)</a> confronte l'approche à celle des clusters GPU classiques, et <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">l'annonce</a> complète la vague d'infrastructures pensées pour les agents.",
+                "en": "In an 18 November 2026 post, Cerebras details its \"disaggregated inference\": separating prefill and decoding to maximise throughput on its wafer-scale processors. The discussion on <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News (59 points)</a> pits the approach against conventional GPU clusters, and <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">the announcement</a> rounds out the wave of agent-oriented infrastructure.",
+                "de": "In einem Beitrag vom 18. November 2026 erläutert Cerebras die «disaggregated inference»: Prefill und Decoding trennen, um den Durchsatz auf den Wafer-Scale-Prozessoren zu maximieren. Die Diskussion auf <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News (59 Punkte)</a> stellt den Ansatz klassischen GPU-Clustern gegenüber, und <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">die Ankündigung</a> vervollständigt die Welle agentenorientierter Infrastrukturen.",
+                "it": "In un post del 18 novembre 2026, Cerebras dettaglia il suo «disaggregated inference»: separare pre-riempimento e decodifica per massimizzare il throughput sui suoi wafer-scale processors. La discussione su <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News (59 punti)</a> confronta l'approccio con quello dei cluster GPU classici, e <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">l'annuncio</a> completa l'onda di infrastrutture pensate per gli agenti.",
+                "lmo": "In d'on bilèt del 18 de november 2026, Cerebras el detaja el sò «disaggregated inference»: separà pre-empiiment e decodifega per massimizà el fluss sora i sò wafer-scale processors. La discussion sora <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News (59 pont)</a> la confronta l'approcc con quell di cluster GPU classigh, e <a href=\"https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference\">l'anunzi</a> el completa la vora de infrastruttur pensaa per i agent."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Outils & écosystème",
+            "en": "Tools & ecosystem",
+            "de": "Werkzeuge & Ökosystem",
+            "it": "Strumenti & ecosistema",
+            "lmo": "Strument & ecosistema"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Quel harnais pour quel modèle ? Une éval indépendante met la question sur la table",
+                "en": "Which harness for which model? An independent eval puts the question on the table",
+                "de": "Welcher Harness zu welchem Modell? Eine unabhängige Eval stellt die Frage auf den Tisch",
+                "it": "Quale harness per quale modello? Una valutazione indipendente mette la questione sul tavolo",
+                "lmo": "Qual harnais per qual modell? On'eval independenta la met la domanda sora la tavola"
+              },
+              "body": {
+                "fr": "Runta publie « FrontierHarness Eval v1.1 », une étude qui croise modèles frontière et harnais d'exécution pour répondre à la question qui hante les équipes : quel agent pour quel modèle ? Le fil <a href=\"https://news.ycombinator.com/item?id=50532191\">Hacker News (356 points, 124 commentaires)</a> et <a href=\"https://runta.com/blog/introducing-frontierharness-eval-v1-1/\">l'étude</a> confirment que le choix du harnais pèse autant que celui du modèle dans les scores agentiques.",
+                "en": "Runta published \"FrontierHarness Eval v1.1\", a study that cross-references frontier models and execution harnesses to answer the question haunting teams: which agent for which model? The <a href=\"https://news.ycombinator.com/item?id=50532191\">Hacker News thread (356 points, 124 comments)</a> and <a href=\"https://runta.com/blog/introducing-frontierharness-eval-v1-1/\">the study</a> confirm that the choice of harness weighs as much as the choice of model in agentic scores.",
+                "de": "Runta veröffentlicht «FrontierHarness Eval v1.1», eine Studie, die Frontier-Modelle mit Ausführungs-Harnesses kreuzt, um die Frage zu beantworten, die Teams umtreibt: welcher Agent zu welchem Modell? Der Thread <a href=\"https://news.ycombinator.com/item?id=50532191\">Hacker News (356 Punkte, 124 Kommentare)</a> und <a href=\"https://runta.com/blog/introducing-frontierharness-eval-v1-1/\">die Studie</a> bestätigen: Die Wahl des Harnesses wiegt in Agenten-Scores ebenso schwer wie die des Modells.",
+                "it": "Runta pubblica «FrontierHarness Eval v1.1», uno studio che incrocia modelli di frontiera e harness di esecuzione per rispondere alla domanda che ossessiona i team: quale agente per quale modello? Il filo <a href=\"https://news.ycombinator.com/item?id=50532191\">Hacker News (356 punti, 124 commenti)</a> e <a href=\"https://runta.com/blog/introducing-frontierharness-eval-v1-1/\">lo studio</a> confermano che la scelta dell'harness pesa quanto quella del modello nei punteggi agentici.",
+                "lmo": "Runta el publica «FrontierHarness Eval v1.1», on studi che 'l intraa modej frontiera e harnais de esecuzion per respond a la domanda che la struscia i squader: qual agent per qual modell? El fil <a href=\"https://news.ycombinator.com/item?id=50532191\">Hacker News (356 pont, 124 comment)</a> e <a href=\"https://runta.com/blog/introducing-frontierharness-eval-v1-1/\">el studi</a> i confermen che la scerna del harnais la pesa tant quant quella del modell in di scoeui agentigh."
+              }
+            },
+            {
+              "headline": {
+                "fr": "ONNX Runtime disparaît de GitHub, l'écosystème d'inférence s'interroge",
+                "en": "ONNX Runtime vanishes from GitHub, inference ecosystem left wondering",
+                "de": "ONNX Runtime verschwindet von GitHub, das Inferenz-Ökosystem rätselt",
+                "it": "ONNX Runtime scompare da GitHub, l'ecosistema d'inferenza si interroga",
+                "lmo": "ONNX Runtime el descompariss de GitHub, l'ecosistema de inferenca el se domanda"
+              },
+              "body": {
+                "fr": "Le dépôt GitHub de ONNX Runtime, pilier de l'inférence Microsoft, est devenu inaccessible le 17 novembre 2026, suscitant 231 points et 57 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50539610\">Hacker News</a> et une inquiétude immédiate chez les industriels qui embarquent le runtime. Le <a href=\"https://github.com/microsoft/onnxruntime\">dépôt</a> ne donne à ce jour aucune explication publiable.",
+                "en": "The GitHub repository of ONNX Runtime, a cornerstone of Microsoft inference, became inaccessible on 17 November 2026, drawing 231 points and 57 comments on <a href=\"https://news.ycombinator.com/item?id=50539610\">Hacker News</a> and immediate concern among industrial players shipping the runtime. The <a href=\"https://github.com/microsoft/onnxruntime\">repository</a> offers no publishable explanation to date.",
+                "de": "Das GitHub-Repository von ONNX Runtime, ein Pfeiler der Microsoft-Inferenz, wurde am 17. November 2026 unzugänglich – was 231 Punkte und 57 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50539610\">Hacker News</a> sowie sofortige Besorgnis bei Industrieanwendern auslöste, die die Runtime einsetzen. Das <a href=\"https://github.com/microsoft/onnxruntime\">Repository</a> gibt bislang keine publizierbare Erklärung ab.",
+                "it": "Il repository GitHub di ONNX Runtime, pilastro dell'inferenza Microsoft, è diventato inaccessibile il 17 novembre 2026, suscitando 231 punti e 57 commenti su <a href=\"https://news.ycombinator.com/item?id=50539610\">Hacker News</a> e un'immediata preoccupazione tra gli industriali che integrano il runtime. Il <a href=\"https://github.com/microsoft/onnxruntime\">repository</a> non fornisce a oggi alcuna spiegazione pubblicabile.",
+                "lmo": "El deposit GitHub de ONNX Runtime, pilon de l'inferenca Microsoft, l'è deventa inaccessibel el 17 de november 2026, con 231 pont e 57 comment sora <a href=\"https://news.ycombinator.com/item?id=50539610\">Hacker News</a> e 'na preoccupazion subeta in tra i industriai che i metten dent el runtime. El <a href=\"https://github.com/microsoft/onnxruntime\">deposit</a> el dà a st'ora chì nissuna spiegazion publicabel."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Recherche — papers & labos",
+        "en": "Research — papers & labs",
+        "de": "Die Forschung — Papers & Labore",
+        "it": "La Ricerca — paper & laboratori",
+        "lmo": "La Ricerca — paper & laboratori"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers du jour",
+            "en": "Papers of the day",
+            "de": "Papers des Tages",
+            "it": "Paper del giorno",
+            "lmo": "Paper del dì"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Xing 4 : 285 milliards de paramètres entraînés sur 8 192 NPU Ascend",
+                "en": "Xing 4: 285 billion parameters trained on 8,192 Ascend NPUs",
+                "de": "Xing 4: 285 Milliarden Parameter trainiert auf 8'192 Ascend-NPUs",
+                "it": "Xing 4: 285 miliardi di parametri addestrati su 8.192 NPU Ascend",
+                "lmo": "Xing 4: 285 miliard de parameter Allenaa sora 8 192 NPU Ascend"
+              },
+              "body": {
+                "fr": "Le rapport de XingChen-AGI (China Telecom), soumis le 17 novembre 2026, décrit Xing 4 : un modèle de 285 milliards de paramètres préentraîné sur 8 192 cartes Ascend 910C via MindSpore HyperParallel, avec la plateforme agentique TeleGym pour le post-entraînement. <a href=\"https://arxiv.org/abs/2611.22115\">Le paper</a> (76 upvotes sur HF Daily Papers) documente en détail l'ingénierie de sharding hybride topologie-aware et le décodage spéculatif — une vitrine rare de l'entraînement frontière hors écosystème NVIDIA.",
+                "en": "The report from XingChen-AGI (China Telecom), submitted on 17 November 2026, describes Xing 4: a 285-billion-parameter model pretrained on 8,192 Ascend 910C cards via MindSpore HyperParallel, with the TeleGym agentic platform for post-training. <a href=\"https://arxiv.org/abs/2611.22115\">The paper</a> (76 upvotes on HF Daily Papers) documents in detail the topology-aware hybrid sharding engineering and speculative decoding — a rare showcase of frontier training outside the NVIDIA ecosystem.",
+                "de": "Der Bericht von XingChen-AGI (China Telecom), eingereicht am 17. November 2026, beschreibt Xing 4: ein Modell mit 285 Milliarden Parametern, vortrainiert auf 8'192 Ascend-910C-Karten mittels MindSpore HyperParallel, mit der Agenten-Plattform TeleGym für das Post-Training. <a href=\"https://arxiv.org/abs/2611.22115\">Der Paper</a> (76 Upvotes auf HF Daily Papers) dokumentiert detailliert die topologiebewusste hybride Sharding-Ingenieurskunst und das spekulatives Decoding – ein seltenes Schaufenster Frontier-Trainings ausserhalb des NVIDIA-Ökosystems.",
+                "it": "Il rapporto di XingChen-AGI (China Telecom), sottoposto il 17 novembre 2026, descrive Xing 4: un modello di 285 miliardi di parametri pre-addestrato su 8.192 schede Ascend 910C tramite MindSpore HyperParallel, con la piattaforma agentica TeleGym per il post-addestramento. <a href=\"https://arxiv.org/abs/2611.22115\">Il paper</a> (76 upvote su HF Daily Papers) documenta in dettaglio l'ingegneria di sharding ibrido topologia-aware e la decodifica speculativa — una vetrina rara dell'addestramento di frontiera fuori dall'ecosistema NVIDIA.",
+                "lmo": "El rapport de XingChen-AGI (China Telecom), consegnaa el 17 de november 2026, el descriv Xing 4: on modell de 285 miliard de parameter pre-Allenaa sora 8 192 cart Ascend 910C via MindSpore HyperParallel, con la piattaforma agentica TeleGym per el post-Allenament. <a href=\"https://arxiv.org/abs/2611.22115\">El paper</a> (76 upvotes sora HF Daily Papers) el documenta in detaj l'ingegneria de sharding ibrid topologia-aware e la decodifega speculativa — 'na vetrina rara de l'Allenament frontiera foeura de l'ecosistema NVIDIA."
+              }
+            },
+            {
+              "headline": {
+                "fr": "AscendGYM : mesurer l'optimisation de kernels au coût du token près",
+                "en": "AscendGYM: measuring kernel optimisation down to the token cost",
+                "de": "AscendGYM: Kernel-Optimierung messen, auf die Token-Kosten genau",
+                "it": "AscendGYM: misurare l'ottimizzazione dei kernel al costo del token",
+                "lmo": "AscendGYM: misurà l'otimizazion di kernel al cost del token press"
+              },
+              "body": {
+                "fr": "SLAI-AITP publie le 17 novembre 2026 AscendGYM, un benchmark de 48 noyaux sur trois niveaux de difficulté, dont les cas de test sont collectés depuis des charges réelles d'entraînement et d'inférence. La métrique Speedup-Token Score (STS) rapporte le gain de performance au coût en tokens des agents optimisateurs. <a href=\"https://arxiv.org/abs/2611.17621\">Le paper</a> compte 53 upvotes sur HF Daily Papers, deuxième du jour.",
+                "en": "On 17 November 2026, SLAI-AITP published AscendGYM, a benchmark of 48 kernels across three difficulty levels, whose test cases are collected from real training and inference workloads. The Speedup-Token Score (STS) metric relates performance gains to the token cost of optimiser agents. <a href=\"https://arxiv.org/abs/2611.17621\">The paper</a> has 53 upvotes on HF Daily Papers, second of the day.",
+                "de": "SLAI-AITP veröffentlicht am 17. November 2026 AscendGYM, ein Benchmark mit 48 Kernels auf drei Schwierigkeitsstufen, dessen Testfälle aus realen Trainings- und Inferenz-Lasten stammen. Die Metrik Speedup-Token Score (STS) setzt den Leistungsgewinn ins Verhältnis zu den Token-Kosten der Optimierungs-Agenten. <a href=\"https://arxiv.org/abs/2611.17621\">Der Paper</a> zählt 53 Upvotes auf HF Daily Papers, zweitbester Wert des Tages.",
+                "it": "SLAI-AITP pubblica il 17 novembre 2026 AscendGYM, un benchmark di 48 kernel su tre livelli di difficoltà, i cui casi di test sono raccolti da carichi reali di addestramento e inferenza. La metrica Speedup-Token Score (STS) rapporta il guadagno di prestazioni al costo in token degli agenti ottimizzatori. <a href=\"https://arxiv.org/abs/2611.17621\">Il paper</a> conta 53 upvote su HF Daily Papers, secondo del giorno.",
+                "lmo": "SLAI-AITP el pubblica el 17 de november 2026 AscendGYM, on benchmark de 48 nœucc sora trii nivej de dificoltà, con di cas de test regolt a partì de careg reai de Allenament e de inferenca. La metrica Speedup-Token Score (STS) la raporta el vantagg de performance al cost in token di agent otimizzador. <a href=\"https://arxiv.org/abs/2611.17621\">El paper</a> el cuntà 53 upvotes sora HF Daily Papers, segond del dì."
+              }
+            },
+            {
+              "headline": {
+                "fr": "FastFrames (Apple) : la génération vidéo à 28 images/seconde sur une seule B200",
+                "en": "FastFrames (Apple): video generation at 28 frames per second on a single B200",
+                "de": "FastFrames (Apple): Videogenerierung mit 28 Bildern pro Sekunde auf einer einzigen B200",
+                "it": "FastFrames (Apple): la generazione video a 28 immagini/secondo su una sola B200",
+                "lmo": "FastFrames (Apple): la generazion video a 28 imagin al segond sora ona sola B200"
+              },
+              "body": {
+                "fr": "Les chercheurs d'Apple publient le 17 novembre 2026 FastFrames : en profilant la pipeline d'inférence des modèles de diffusion vidéo autoregressifs, ils montrent que le décodage VAE et les mises à jour du KV cache représentent plus de la moitié de la latence de bout en bout. La variante 1,3B tourne à 36 ms par frame (28 réponses/seconde) sur une seule B200, contre un état de l'art près de 8 fois plus lent ; la version 14B atteint 45 ms par frame sur 8 B200. <a href=\"https://arxiv.org/abs/2611.23226\">Le paper</a> ouvre la voie à la génération vidéo interactive en temps réel.",
+                "en": "Apple researchers published FastFrames on 17 November 2026: by profiling the inference pipeline of autoregressive video diffusion models, they show that VAE decoding and KV cache updates account for more than half of end-to-end latency. The 1.3B variant runs at 36 ms per frame (28 responses per second) on a single B200, against a state of the art nearly 8 times slower; the 14B version reaches 45 ms per frame on 8 B200s. <a href=\"https://arxiv.org/abs/2611.23226\">The paper</a> opens the way to real-time interactive video generation.",
+                "de": "Apples Forschende veröffentlichen am 17. November 2026 FastFrames: Durch das Profiling der Inferenz-Pipeline autoregressiver Video-Diffusionsmodelle zeigen sie, dass VAE-Decoding und KV-Cache-Updates mehr als die Hälfte der End-to-End-Latenz ausmachen. Die 1,3B-Variante läuft mit 36 ms pro Frame (28 Antworten pro Sekunde) auf einer einzigen B200, gegenüber einem fast achtmal langsameren State of the Art; die 14B-Version erreicht 45 ms pro Frame auf 8 B200. <a href=\"https://arxiv.org/abs/2611.23226\">Der Paper</a> ebnet den Weg zur interaktiven Echtzeit-Videogenerierung.",
+                "it": "I ricercatori di Apple pubblicano il 17 novembre 2026 FastFrames: profilando la pipeline d'inferenza dei modelli di diffusione video autoregressivi, mostrano che la decodifica VAE e gli aggiornamenti del KV cache rappresentano più della metà della latenza end-to-end. La variante 1,3B gira a 36 ms per frame (28 risposte/secondo) su una singola B200, contro uno stato dell'arte quasi 8 volte più lento; la versione 14B raggiunge 45 ms per frame su 8 B200. <a href=\"https://arxiv.org/abs/2611.23226\">Il paper</a> apre la strada alla generazione video interattiva in tempo reale.",
+                "lmo": "I ricercador de Apple i pubblica el 17 de november 2026 FastFrames: a fà el profiling de la pipeline de inferenca di modej de diffusion video autoregressiv, i mostren che la decodifega VAE e i agiornament del KV cache i rapresenten pussee de la mitaa de la latenza de coa a coa. La varianta 1,3B la gira a 36 ms per frame (28 respond al segond) sora ona sola B200, contra on statt de l'art press ot voeulte pusee lent; la version 14B la riva a 45 ms per frame sora 8 B200. <a href=\"https://arxiv.org/abs/2611.23226\">El paper</a> el derva la strada a la generazion video interativa in temp real."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Robots & vision",
+            "en": "Robots & vision",
+            "de": "Roboter & Vision",
+            "it": "Robot & visione",
+            "lmo": "Robot & vision"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "TCP4D : suivi et génération d'actions robotiques depuis une scène 4D unique",
+                "en": "TCP4D: tracking and generating robotic actions from a single 4D scene",
+                "de": "TCP4D: Tracking und Generierung robotischer Aktionen aus einer einzigen 4D-Szene",
+                "it": "TCP4D: tracking e generazione di azioni robotiche da una singola scena 4D",
+                "lmo": "TCP4D: seguiment e generazion de azion robotich de 'na scena 4D unega"
+              },
+              "body": {
+                "fr": "TCP4D unifie dans un seul modèle le suivi du point central de l'outil (TCP) et la génération de trajectoires futures à partir d'une représentation 4D partagée : erreurs absolues de 7,60 mm (DROID) et 16,07 mm (RoboLab), 69,19 % de succès moyen sur RoboTwin, et adaptation à un nouveau robot avec seulement 10 démonstrations. <a href=\"https://arxiv.org/abs/2611.23143\">Le paper</a> (15 upvotes) détaille aussi un pipeline d'augmentation cross-embodiment (+41,5 % de succès sur le robot cible).",
+                "en": "TCP4D unifies in a single model the tracking of the tool centre point (TCP) and the generation of future trajectories from a shared 4D representation: absolute errors of 7.60 mm (DROID) and 16.07 mm (RoboLab), a 69.19% average success rate on RoboTwin, and adaptation to a new robot with only 10 demonstrations. <a href=\"https://arxiv.org/abs/2611.23143\">The paper</a> (15 upvotes) also details a cross-embodiment augmentation pipeline (+41.5% success on the target robot).",
+                "de": "TCP4D vereint in einem einzigen Modell das Tracking des Werkzeugmittelpunkts (TCP) und die Generierung künftiger Trajektorien aus einer gemeinsamen 4D-Repräsentation: absolute Fehler von 7,60 mm (DROID) und 16,07 mm (RoboLab), 69,19 % durchschnittlicher Erfolg auf RoboTwin und Anpassung an einen neuen Roboter mit nur 10 Demonstrationen. <a href=\"https://arxiv.org/abs/2611.23143\">Der Paper</a> (15 Upvotes) beschreibt zudem eine Cross-Embodiment-Augmentierungspipeline (+41,5 % Erfolg am Zielroboter).",
+                "it": "TCP4D unifica in un solo modello il tracking del punto centrale dell'attrezzo (TCP) e la generazione di traiettorie future a partire da una rappresentazione 4D condivisa: errori assoluti di 7,60 mm (DROID) e 16,07 mm (RoboLab), 69,19% di successo medio su RoboTwin, e adattamento a un nuovo robot con sole 10 dimostrazioni. <a href=\"https://arxiv.org/abs/2611.23143\">Il paper</a> (15 upvote) dettaglia anche una pipeline di aumentazione cross-embodiment (+41,5% di successo sul robot di destinazione).",
+                "lmo": "TCP4D el unifica in d'on modell domà lu el seguiment del pont central de l'utensil (TCP) e la generazion di traiettorij futur a partì de 'na rapresentazion 4D condividuda: error assolut de 7,60 mm (DROID) e 16,07 mm (RoboLab), 69,19% de success in media sora RoboTwin, e adatament a on robot noeuv con domà 10 demonstrazion. <a href=\"https://arxiv.org/abs/2611.23143\">El paper</a> (15 upvotes) el detaja anca on pipeline de aumentazion cross-embodiment (+41,5% de success sora el robot bersagg)."
+              }
+            },
+            {
+              "headline": {
+                "fr": "π^4 : la perception 4D en 0,5 milliard de paramètres",
+                "en": "π^4: 4D perception in 0.5 billion parameters",
+                "de": "π^4: 4D-Wahrnehmung in 0,5 Milliarden Parametern",
+                "it": "π^4: la percezione 4D in 0,5 miliardi di parametri",
+                "lmo": "π^4: la percezion 4D in 0,5 miliard de parameter"
+              },
+              "body": {
+                "fr": "Le Shanghai AI Laboratory présente π^4, un modèle de fondation d'environ 0,5 milliard de paramètres — moins de la moitié des baselines — qui récupère géométrie dense, poses caméra, échelle métrique et tracks 2D/3D depuis des images non calibrées, en une seule passe avant. <a href=\"https://arxiv.org/abs/2611.23144\">Le paper</a> obtient le meilleur rang moyen en évaluation géométrique malgré des contextes d'entraînement limités à 64 vues.",
+                "en": "The Shanghai AI Laboratory presents π^4, a foundation model of roughly 0.5 billion parameters — less than half of the baselines — that recovers dense geometry, camera poses, metric scale and 2D/3D tracks from uncalibrated images in a single forward pass. <a href=\"https://arxiv.org/abs/2611.23144\">The paper</a> achieves the best mean rank in geometric evaluation despite training contexts limited to 64 views.",
+                "de": "Das Shanghai AI Laboratory stellt π^4 vor, ein Foundation-Modell mit rund 0,5 Milliarden Parametern – weniger als die Hälfte der Baselines –, das dichte Geometrie, Kameraposen, metrischen Masstab und 2D/3D-Tracks aus unkalibrierten Bildern in einem einzigen Forward-Pass gewinnt. <a href=\"https://arxiv.org/abs/2611.23144\">Der Paper</a> erzielt den besten Durchschnittsrang in der geometrischen Evaluation trotz auf 64 Ansichten begrenzten Trainingskontexten.",
+                "it": "Lo Shanghai AI Laboratory presenta π^4, un modello di fondazione di circa 0,5 miliardi di parametri — meno della metà delle baseline — che recupera geometria densa, pose della fotocamera, scala metrica e tracce 2D/3D da immagini non calibrate, in un'unica passata in avanti. <a href=\"https://arxiv.org/abs/2611.23144\">Il paper</a> ottiene il miglior rango medio in valutazione geometrica nonostante contesti di addestramento limitati a 64 viste.",
+                "lmo": "El Shanghai AI Laboratory el presenta π^4, on modell de fondazion de circa 0,5 miliard de parameter — manch de la mitaa di baseline — che 'l recupera geometria densa, pos camara, scala metrica e track 2D/3D de imagin minga calibrad, in domà ona passada inanz. <a href=\"https://arxiv.org/abs/2611.23144\">El paper</a> el obten el migliôr rang medi in valutazion geometrica nonostant di context de Allenament limitaa a 64 vedud."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "La Communauté & Édito",
+        "en": "Community & Editorial",
+        "de": "Die Community & Editorial",
+        "it": "La Comunità & Editoriale",
+        "lmo": "La Comunitaa & Editto"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Signaux & débats",
+            "en": "Signals & debates",
+            "de": "Signale & Debatten",
+            "it": "Segnali & dibattiti",
+            "lmo": "Segnai & dibattit"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le goulot d'étranglement des agents de code se déplace vers la revue",
+                "en": "The bottleneck of coding agents is shifting to review",
+                "de": "Der Engpass der Coding-Agenten wandert in den Code-Review",
+                "it": "Il collo di bottiglia degli agenti di codice si sposta verso la revisione",
+                "lmo": "El coll de boccia di agent de codes el se moeuv vers la revision"
+              },
+              "body": {
+                "fr": "Des chercheurs de Harvard documentent un déplacement structurel : les agents de code IA n'ont pas supprimé le goulot d'étranglement des équipes, elles l'ont déplacé vers la revue de code. <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">L'étude</a>, discutée à 129 points et 177 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50538303\">Hacker News</a>, alimente le débat sur la requalification des revues face au volume de production des agents.",
+                "en": "Researchers at Harvard document a structural shift: AI coding agents did not remove teams' bottleneck, they moved it to code review. <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">The study</a>, discussed at 129 points and 177 comments on <a href=\"https://news.ycombinator.com/item?id=50538303\">Hacker News</a>, fuels the debate on retooling reviews in the face of agents' production volume.",
+                "de": "Forschende der Harvard University dokumentieren eine strukturelle Verschiebung: KI-Coding-Agenten haben den Engpass der Teams nicht beseitigt, sondern in Richtung Code-Review verlagert. <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">Die Studie</a>, auf <a href=\"https://news.ycombinator.com/item?id=50538303\">Hacker News</a> mit 129 Punkten und 177 Kommentaren diskutiert, befeuert die Debatte über die Neudefinition von Reviews angesichts der Produktionsflut der Agenten.",
+                "it": "Dei ricercatori di Harvard documentano uno spostamento strutturale: gli agenti di codice IA non hanno eliminato il collo di bottiglia dei team, lo hanno spostato verso la revisione del codice. <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">Lo studio</a>, discusso a 129 punti e 177 commenti su <a href=\"https://news.ycombinator.com/item?id=50538303\">Hacker News</a>, alimenta il dibattito sulla riqualificazione delle revisioni di fronte al volume di produzione degli agenti.",
+                "lmo": "Di ricercador de Harvard i documenten on spostament struttural: i agent de codes IA i ha minga traa via el coll de boccia di squader, i l'ha spostaa vers la revision del codes. <a href=\"https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/\">El studi</a>, discutt a 129 pont e 177 comment sora <a href=\"https://news.ycombinator.com/item?id=50538303\">Hacker News</a>, el alimenta el dibattit sora la requalifegazion di revision denanz al volum de produzion di agent."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Les réponses IA de Google réduiraient le trafic de recherche de 40 %",
+                "en": "Google AI answers would cut search traffic by 40%",
+                "de": "Googles KI-Antworten würden den Suchverkehr um 40 % reduzieren",
+                "it": "Le risposte IA di Google ridurrebbero del 40% il traffico di ricerca",
+                "lmo": "I respond IA de Google i sbassarien el trafegh de ricerca del 40%"
+              },
+              "body": {
+                "fr": "Une analyse publiée le 18 novembre 2026 estime que les réponses IA de Google réduisent le trafic de recherche de 40 % pour les sites éditeurs, relançant le débat sur la captation de valeur du web par les réponses génératives. <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">L'étude</a> a dépassé les 256 points et 180 commentaires sur <a href=\"https://news.ycombinator.com/item?id=50540178\">Hacker News</a> en quelques heures.",
+                "en": "An analysis published on 18 November 2026 estimates that Google's AI answers cut search traffic by 40% for publisher sites, reigniting the debate over the capture of web value by generative answers. <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">The study</a> passed 256 points and 180 comments on <a href=\"https://news.ycombinator.com/item?id=50540178\">Hacker News</a> within hours.",
+                "de": "Eine am 18. November 2026 veröffentlichte Analyse schätzt, dass die KI-Antworten von Google den Suchverkehr für Verlegerseiten um 40 % reduzieren – was die Debatte über die Wertabschöpfung des Webs durch generative Antworten neu anheizt. <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">Die Studie</a> übertraf binnen Stunden 256 Punkte und 180 Kommentare auf <a href=\"https://news.ycombinator.com/item?id=50540178\">Hacker News</a>.",
+                "it": "Un'analisi pubblicata il 18 novembre 2026 stima che le risposte IA di Google riducano del 40% il traffico di ricerca per i siti editoriali, rilanciando il dibattito sulla cattura di valore del web da parte delle risposte generative. <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">Lo studio</a> ha superato i 256 punti e 180 commenti su <a href=\"https://news.ycombinator.com/item?id=50540178\">Hacker News</a> in poche ore.",
+                "lmo": "On'analisi publicada el 18 de november 2026 la stima che i respond IA de Google i sbassen el trafegh de ricerca del 40% per i sitt editoriai, a fà tornà el dibattit sora la cattura de valor del web di respond generativ. <a href=\"https://revscope.co/blog/search-seo-geo-2026/\">El studi</a> l'ha passaa i 256 pont e 180 comment sora <a href=\"https://news.ycombinator.com/item?id=50540178\">Hacker News</a> in quaj or."
+              }
+            },
+            {
+              "headline": {
+                "fr": "Tencent Hy4 Flash pointe son nez sur Hacker News",
+                "en": "Tencent Hy4 Flash surfaces on Hacker News",
+                "de": "Tencent Hy4 Flash zeigt sich auf Hacker News",
+                "it": "Tencent Hy4 Flash fa capolino su Hacker News",
+                "lmo": "Tencent Hy4 Flash el tira foeura la coa sora Hacker News"
+              },
+              "body": {
+                "fr": "Tencent publie le 17 novembre 2026 « Hy4 Flash », présenté sur sa page recherche avec des cibles d'efficience pour les charges rapides. <a href=\"https://hy.tencent.ai/research/hy4-flash\">La fiche</a>, repérée sur <a href=\"https://news.ycombinator.com/item?id=50538184\">Hacker News (94 points)</a>, reste laconique mais confirme l'offensive continue des acteurs chinois sur les modèles compacts.",
+                "en": "On 17 November 2026, Tencent published \"Hy4 Flash\", presented on its research page with efficiency targets for fast workloads. <a href=\"https://hy.tencent.ai/research/hy4-flash\">The fact sheet</a>, spotted on <a href=\"https://news.ycombinator.com/item?id=50538184\">Hacker News (94 points)</a>, remains terse but confirms the continued push by Chinese players into compact models.",
+                "de": "Tencent veröffentlicht am 17. November 2026 «Hy4 Flash», auf der Forschungsseite mit Effizienzzielen für schnelle Lasten präsentiert. <a href=\"https://hy.tencent.ai/research/hy4-flash\">Das Datenblatt</a>, auf <a href=\"https://news.ycombinator.com/item?id=50538184\">Hacker News (94 Punkte)</a> entdeckt, bleibt knapp – bestätigt aber die anhaltende Offensive chinesischer Akteure bei kompakten Modellen.",
+                "it": "Tencent pubblica il 17 novembre 2026 «Hy4 Flash», presentato sulla sua pagina di ricerca con obiettivi di efficienza per i carichi rapidi. <a href=\"https://hy.tencent.ai/research/hy4-flash\">La scheda</a>, notata su <a href=\"https://news.ycombinator.com/item?id=50538184\">Hacker News (94 punti)</a>, resta laconica ma conferma l'offensiva continua degli attori cinesi sui modelli compatti.",
+                "lmo": "Tencent el pubblica el 17 de november 2026 «Hy4 Flash», presentaa sora la soa pagina ricerca con di obiettiv de eficienza per i careg rapid. <a href=\"https://hy.tencent.ai/research/hy4-flash\">La scheda</a>, veduda sora <a href=\"https://news.ycombinator.com/item?id=50538184\">Hacker News (94 pont)</a>, la resta lagh ma la conferma l'ofensiva continova di attor cinees sora i modej compatt."
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Tribune",
+            "en": "Opinion",
+            "de": "Tribüne",
+            "it": "Tribuna",
+            "lmo": "Tribuna"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Édito — Le jour où la frontière s'est mise à compter les heures",
+                "en": "Editorial — The day the frontier started counting the hours",
+                "de": "Editorial — Der Tag, an dem die Front begann, Stunden zu zählen",
+                "it": "Editoriale — Il giorno in cui la frontiera ha iniziato a contare le ore",
+                "lmo": "Editto — El dì che la frontiera l'ha scominciaa a cuntà i or"
+              },
+              "body": {
+                "fr": "En l'espace de vingt-quatre heures, OpenAI a aligné GPT-6.2 Astra et Sol, une édition juridique, un plugin commercial, une bêta d'inférence différée à -40 %, et Microsoft a riposté sur Hacker News avec MAI Code 2 et Code 2 Flash (<a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">annonce</a>, <a href=\"https://news.ycombinator.com/item?id=50535885\">322 points</a>). La leçon de cette journée du 17 novembre 2026 n'est pas la puissance brute — les gains s'expriment désormais en pourcentages de coût, en fenêtres d'attente et en déclinaisons sectorielles. La frontière s'est déplacée du benchmark vers la facture : quand un modèle patient coûte 40 % moins cher, c'est l'économie des agents, non leur intelligence, qui devient le terrain de compétition. Les éditeurs qui vivent du trafic de recherche, réduits de 40 % selon les mesures du jour, en payent déjà le premier dividende involontaire.",
+                "en": "In the space of twenty-four hours, OpenAI lined up GPT-6.2 Astra and Sol, a legal edition, a sales plugin, a deferred inference beta at 40% off, and Microsoft retaliated on Hacker News with MAI Code 2 and Code 2 Flash (<a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">announcement</a>, <a href=\"https://news.ycombinator.com/item?id=50535885\">322 points</a>). The lesson of this 17 November 2026 is not raw power — gains are now expressed in percentages of cost, waiting windows and sector-specific editions. The frontier has shifted from the benchmark to the invoice: when a patient model costs 40% less, it is the economics of agents, not their intelligence, that becomes the competitive battleground. Publishers who live off search traffic, cut by 40% according to the day's measurements, are already paying the first involuntary dividend.",
+                "de": "Im Verlauf von vierundzwanzig Stunden hat OpenAI GPT-6.2 Astra und Sol ausgerichtet, eine juristische Edition, ein Vertriebs-Plugin, eine verzögerte Inferenz-Beta mit -40 % – und Microsoft hat auf Hacker News mit MAI Code 2 und Code 2 Flash kontert (<a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">Ankündigung</a>, <a href=\"https://news.ycombinator.com/item?id=50535885\">322 Punkte</a>). Die Lehre dieses 17. November 2026 lautet nicht rohe Rechenleistung – die Fortschritte drücken sich inzwischen in KostProzenten, Wartefenstern und Brancheneditionen aus. Die Front hat sich vom Benchmark zur Rechnung verschoben: Wenn ein geduldiges Modell 40 % billiger kostet, wird die Ökonomie der Agenten – nicht ihre Intelligenz – zum Wettbewerbsterrain. Die Verleger, die vom Suchverkehr leben und laut den heutigen Messungen 40 % verloren haben, zahlen bereits die erste ungewollte Dividende.",
+                "it": "Nello spazio di ventiquattro ore, OpenAI ha allineato GPT-6.2 Astra e Sol, un'edizione giuridica, un plugin commerciale, una beta d'inferenza differita a -40%, e Microsoft ha risposto su Hacker News con MAI Code 2 e Code 2 Flash (<a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">annuncio</a>, <a href=\"https://news.ycombinator.com/item?id=50535885\">322 punti</a>). La lezione di questa giornata del 17 novembre 2026 non è la potenza grezza — i guadagni si esprimono ormai in percentuali di costo, finestre d'attesa e declinazioni settoriali. La frontiera si è spostata dal benchmark alla fattura: quando un modello paziente costa il 40% in meno, è l'economia degli agenti, non la loro intelligenza, a diventare il terreno di competizione. Gli editori che vivono del traffico di ricerca, ridotti del 40% secondo le misure del giorno, ne pagano già il primo dividendo involontario.",
+                "lmo": "In del spazzi de vintiquatter or, OpenAI l'ha mettuu in fila GPT-6.2 Astra e Sol, 'na edizion giuridega, on plugin comercial, ona bêta de inferenca diferida a -40%, e Microsoft l'ha responduu sora Hacker News con MAI Code 2 e Code 2 Flash (<a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">anunzi</a>, <a href=\"https://news.ycombinator.com/item?id=50535885\">322 pont</a>). La lession de stù dì del 17 de november 2026 l'è minga la potenza bruta — i vantagg se esprimes ades in percentual de cost, in fnestre de attesa e in declinazion setoriai. La frontiera la s'è spostada dal benchmark vers la fattura: quand che on modell pazient el costa 40% manch, l'è l'economia di agent, no la soa intelligenza, che la deventa el terren de competizion. I editor che viven del trafegh de ricerca, ridott del 40% segond i misur del dì, i ghe paga ancamò el prim dividend involontari."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
