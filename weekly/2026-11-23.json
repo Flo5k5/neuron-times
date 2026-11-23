@@ -1,0 +1,722 @@
+{
+  "schema": "multilingual-v1",
+  "languages": [
+    "fr",
+    "en",
+    "de",
+    "it",
+    "lmo"
+  ],
+  "default_lang": "fr",
+  "edition": {
+    "date_iso": "2026-11-23",
+    "title": {
+      "fr": "The Neuron Times",
+      "en": "The Neuron Times",
+      "de": "The Neuron Times",
+      "it": "The Neuron Times",
+      "lmo": "The Neuron Times"
+    },
+    "mode": "weekly",
+    "num": "2026-W47",
+    "date_range": {
+      "fr": "SEMAINE DU 16–22 NOVEMBRE 2026",
+      "en": "WEEK OF 16 – 22 NOVEMBER 2026",
+      "de": "WOCHE VOM 16.–22. NOVEMBER 2026",
+      "it": "SETTIMANA DEL 16–22 NOVEMBRE 2026",
+      "lmo": "SETEMANA DEL 16–22 NOVEMBRE 2026"
+    }
+  },
+  "lead": {
+    "paragraphs": [
+      {
+        "fr": "La nouvelle, tombée à la fin de la semaine, a dominé toutes les conversations techniques : une preuve de l'hypothèse de Riemann — le problème ouvert numéro un des mathématiques depuis 1859 — a été formalisée et vérifiée par l'assistant de preuve Lean, comme annoncé sur le blog de la communauté Lean. Le fil Hacker News a dépassé 931 points et 791 commentaires en moins de 24 heures, un niveau d'attention rare pour un sujet de logique formelle. Les fichiers de vérification ont été rendus publics, permettant à quiconque de refaire la vérification machine de bout en bout.",
+        "en": "The news, which broke at the end of the week, dominated every technical conversation: a proof of the Riemann hypothesis — mathematics' number one open problem since 1859 — has been formalized and verified by the Lean proof assistant, as announced on the Lean community blog. The Hacker News thread passed 931 points and 791 comments in under 24 hours, a rare level of attention for a topic in formal logic. The verification files were made public, allowing anyone to re-run the machine verification end to end.",
+        "de": "Die Nachricht, die am Ende der Woche eintraf, hat alle technischen Gespräche dominiert: Ein Beweis der Riemannschen Hypothese – das seit 1859 wichtigste offene Problem der Mathematik – wurde im Beweisassistenten Lean formalisiert und verifiziert, wie der Blog der Lean-Community ankündigte. Der Hacker-News-Thread überschritt innerhalb von 24 Stunden 931 Punkte und 791 Kommentare – ein seltenes Mass an Aufmerksamkeit für ein Thema der formalen Logik. Die Verifikationsdateien wurden öffentlich zugänglich gemacht, sodass jedermann die maschinelle Verifikation von Ende zu Ende nachvollziehen kann.",
+        "it": "La notizia, arrivata a fine settimana, ha dominato tutte le conversazioni tecniche: una prova dell'ipotesi di Riemann — il problema aperto numero uno della matematica dal 1859 — è stata formalizzata e verificata dall'assistente di prova Lean, come annunciato sul blog della comunità Lean. Il thread su Hacker News ha superato i 931 punti e i 791 commenti in meno di 24 ore, un livello di attenzione raro per un tema di logica formale. I file di verifica sono stati resi pubblici, permettendo a chiunque di rifare la verifica macchina dall'inizio alla fine.",
+        "lmo": "La notizia, rivada a la fin de la setemana, l'ha dominaa tucc i conversazion tecnich: ona prova de l'ipotesi de Riemann — el problema avert numer vun di matemateghe del 1859 — l'è stada formalizada e verificada de l'assistent de prova Lean, 'me anunziaa sora el blog de la comunitaa Lean. El fil de Hacker News l'ha superaa 931 pont e 791 comment in manch de 24 or, on nivell de attenzion rar per on subjett de logega formala. I file de verificazion hinn staa renduu publegh, permettand a tucc de rifà la verificazion macchina del principi a la fin."
+      },
+      {
+        "fr": "Cette annonce ne sort pas de nulle part : elle cristallise une trajectoire visible tout au long de la semaine. Quelques jours plus tôt, OpenAI publiait un travail où GPT-6 Astra a contribué à transformer une intuition théorique de physique des hautes énergies — une définition candidate du Modèle Standard sur réseau — en preuve détaillée, via son nouveau blog scientifique. Dans le même temps, Anthropic rapportait que Claude a contribué à résoudre deux problèmes ouverts en physique des trous noirs. Deux labos concurrents, deux disciplines, un même motif : le modèle frontier comme collaborateur technique sur des chaînes de raisonnement mathématique de haut niveau.",
+        "en": "The announcement did not come out of nowhere: it crystallizes a trajectory visible throughout the week. A few days earlier, OpenAI published work in which GPT-6 Astra helped turn a theoretical intuition from high-energy physics — a candidate definition of the Standard Model on a lattice — into a detailed proof, via its new science blog. At the same time, Anthropic reported that Claude contributed to solving two open problems in black hole physics. Two rival labs, two disciplines, one pattern: the frontier model as a technical collaborator on high-level chains of mathematical reasoning.",
+        "de": "Diese Ankündigung kommt nicht aus dem Nichts: Sie verdichtet eine über die ganze Woche sichtbare Trajektorie. Wenige Tage zuvor hatte OpenAI eine Arbeit veröffentlicht, in der GPT-6 Astra half, eine theoretische Intuition aus der Hochenergiephysik – eine Kandidaten-Definition des Standardmodells auf dem Gitter – in einen detaillierten Beweis zu überführen, und zwar über sein neues Wissenschaftsblog. Zeitgleich berichtete Anthropic, dass Claude zur Lösung von zwei offenen Problemen der Physik Schwarzer Löcher beigetragen hat. Zwei konkurrierende Labore, zwei Disziplinen, ein gemeinsames Muster: das Frontier-Modell als technischer Mitarbeiter auf hochgradig mathematischen Beweisketten.",
+        "it": "Questo annuncio non arriva dal nulla: cristallizza una traiettoria visibile lungo tutta la settimana. Pochi giorni prima, OpenAI pubblicava un lavoro in cui GPT-6 Astra ha contribuito a trasformare un'intuizione teorica di fisica delle alte energie — una definizione candidata del Modello Standard su reticolo — in una prova dettagliata, tramite il suo nuovo blog scientifico. Nello stesso tempo, Anthropic riferiva che Claude ha contribuito a risolvere due problemi aperti in fisica dei buchi neri. Due laboratori concorrenti, due discipline, uno stesso schema: il modello frontier come collaboratore tecnico su catene di ragionamento matematico di alto livello.",
+        "lmo": "Questa anunzia la ven no del nagott: la cristallizza ona traiettoria visibela tutt alongh de la setemana. Quaj dì prima, OpenAI l'aveva publicaa on laurà indè GPT-6 Astra l'ha contribuii a trasformà ona intuizion teorega de fisega di alt energij — ona definizion candidada del Modell Standard sora ret — in prova detagliada, via el sò noeuv blog scientifegh. In del midemm temp, Anthropic el rapportava che Claude l'ha contribuii a resoeulv duu problema avert in fisega di bus negher. Duu laboratori concorent, duu disciplin, on midemm motif: el modell frontier 'me colaborador tecnegh sora caden de resonament matemategy de volt nivell."
+      },
+      {
+        "fr": "Ce qui change avec la preuve de Riemann est le statut épistémologique de la vérification. Lorsqu'une preuve est formalisée en Lean, sa validité ne repose plus sur la lecture d'arbitres humains — faillibles, lents, et dont on a appris cette semaine même qu'ils tirent leurs critiques des annexes des papiers bien différemment des relecteurs IA — mais sur un contrôle mécanique reproductible. Scott Aaronson a immédiatement commenté l'actualité, dans un contexte où deux prépublications revendiquaient des preuves concurrentes : la distinction entre « preuve revendiquée » et « preuve vérifiée » n'a peut-être jamais été aussi nette.",
+        "en": "What changes with the Riemann proof is the epistemic status of verification. When a proof is formalized in Lean, its validity no longer rests on the reading of human referees — fallible, slow, and, as we learned this very week, drawing their critiques from paper appendages quite differently from AI reviewers — but on a reproducible mechanical check. Scott Aaronson commented on the news immediately, in a context where two preprints were claiming competing proofs: the distinction between \"claimed proof\" and \"verified proof\" has perhaps never been sharper.",
+        "de": "Was sich mit dem Riemann-Beweis ändert, ist der epistemische Status der Verifikation. Wenn ein Beweis in Lean formalisiert ist, beruht seine Gültigkeit nicht mehr auf der Lektüre menschlicher Schiedsrichter – fehlbar, langsam, und von denen man noch in derselben Woche erfuhr, dass sie ihre Kritik ganz anders aus den Anhängen der Papers ziehen als KI-Gutachter –, sondern auf einer reproduzierbaren, mechanischen Prüfung. Scott Aaronson kommentierte das Geschehen umgehend, in einem Umfeld, in dem zwei Vorab-Publikationen konkurrierende Beweise beanspruchten: Der Unterschied zwischen «beanspruchtem Beweis» und «verifiziertem Beweis» dürfte selten so deutlich gewesen sein wie jetzt.",
+        "it": "Ciò che cambia con la prova di Riemann è lo statuto epistemologico della verifica. Quando una prova è formalizzata in Lean, la sua validità non poggia più sulla lettura di arbitri umani — fallibili, lenti, e di cui si è appreso proprio questa settimana che traggono le loro critiche dalle appendici dei paper in modo molto diverso dai revisori IA — ma su un controllo meccanico riproducibile. Scott Aaronson ha immediatamente commentato l'attualità, in un contesto in cui due prepubblicazioni rivendicavano prove concorrenti: la distinzione tra «prova rivendicata» e «prova verificata» non è forse mai stata così netta.",
+        "lmo": "Cossa che 'l cambia con la prova de Riemann l'è el statut epistemology de la verificazion. Quand che ona prova l'è formalizada in Lean, la sò validitaa la se basa pu in su la letura de arbitri uman — fallibij, lent, e di quai s'è descovert questa setemana istessa che tiren i sò critich di annex di paper in manera propi differenta di reletor IA — ma sora on contròll mecanegh riproducibel. Scott Aaronson l'ha subet commentaa l'actualitaa, in d'on contest indè duu prepublicazion revendicaven prov concorent: la distinzion intra « prova revendicada » e « prova verificada » l'ha fors mai staa inscì nett."
+      },
+      {
+        "fr": "Pour les six mois à venir, la conséquence est structurante : la vérification formelle devient l'accélérateur discret de l'IA de raisonnement. Si les modèles peuvent produire du texte mathématique vérifiable par machine, la boucle « génération — vérification — correction » se referme sans supervision humaine sur les tâches les plus exigeantes. C'est cette infrastructure de confiance, plus que les benchmarks hebdomadaires des labos frontière, qui décidera du rythme réel de l'IA scientifique.",
+        "en": "For the next six months, the consequence is structural: formal verification becomes the quiet accelerator of reasoning AI. If models can produce machine-checkable mathematical text, the \"generate — verify — correct\" loop closes without human supervision on the most demanding tasks. It is this trust infrastructure, more than the frontier labs' weekly benchmarks, that will determine the real pace of scientific AI.",
+        "de": "Für die kommenden sechs Monate ist die Konsequenz strukturbildend: Die formale Verifikation wird zum stillen Beschleuniger der KI des Denkens. Wenn Modelle maschinell verifizierbaren mathematischen Text produzieren können, schliesst sich die Schleife «Generierung – Verifikation – Korrektur» ohne menschliche Aufsicht bei den anspruchsvollsten Aufgaben. Es ist diese Vertrauensinfrastruktur, mehr noch als die wöchentlichen Benchmarks der Frontier-Labore, die über das tatsächliche Tempo der wissenschaftlichen KI entscheiden wird.",
+        "it": "Per i sei mesi a venire, la conseguenza è strutturante: la verifica formale diventa l'acceleratore discreto dell'IA di ragionamento. Se i modelli possono produrre testo matematico verificabile a macchina, il ciclo «generazione — verifica — correzione» si chiude senza supervisione umana sui compiti più esigenti. È questa infrastruttura di fiducia, più dei benchmark settimanali dei laboratori frontier, a decidere il ritmo reale dell'IA scientifica.",
+        "lmo": "Per i ses mes che vegnen, la conseguenza l'è struttranta: la verificazion formala la deven l'acelerador discret de l'IA de resonament. Se i modij pòden produ el test matemategy verificabel a la macchina, la preja « generazion — verificazion — correzion » la se sara senza supervision umana sora i task pussee esigent. L'è propi questa infrastrutura de fiducia, pussee che i benchmark setimanai di laboratori frontier, che la decidarà del ritm real de l'IA scientifega."
+      }
+    ],
+    "urls": [
+      "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "https://news.ycombinator.com/item?id=50589618",
+      "https://math.mit.edu/~drew/grh/"
+    ],
+    "kicker": {
+      "fr": "Vérification formelle",
+      "en": "Formal verification",
+      "de": "Formale Verifikation",
+      "it": "Verifica formale",
+      "lmo": "Verificazion formala"
+    },
+    "headline": {
+      "fr": "Riemann vérifiée en Lean : la semaine où l'IA a redéfini ce qu'est une preuve",
+      "en": "Riemann verified in Lean: the week AI redefined what counts as a proof",
+      "de": "Riemann in Lean verifiziert: Die Woche, in der die KI neu definierte, was ein Beweis ist",
+      "it": "Riemann verificata in Lean: la settimana in cui l'IA ha ridefinito cos'è una prova",
+      "lmo": "Riemann verificada in Lean: la setemana indè l'IA l'ha riddefiniiid cossa che l'è ona prova"
+    },
+    "subdeck": {
+      "fr": "Une preuve formalisée dans Lean, annoncée dans les dernières heures de la semaine, place la vérification mécanique au centre du problème le plus célèbre des mathématiques — et boucle une séquence où les labos frontière ont multiplié les annonces scientifiques.",
+      "en": "A proof formalized in Lean, announced in the final hours of the week, puts mechanical verification at the heart of mathematics' most famous problem — and caps a sequence in which frontier labs multiplied scientific announcements.",
+      "de": "Ein in Lean formalisierter Beweis, der in den letzten Stunden der Woche angekündigt wurde, rückt die mechanische Verifikation ins Zentrum des berühmtesten Problems der Mathematik – und beschliesst eine Sequenz, in der die Frontier-Labore wissenschaftliche Ankündigungen häuften.",
+      "it": "Una prova formalizzata in Lean, annunciata nelle ultime ore della settimana, colloca la verifica meccanica al centro del problema più celebre della matematica — e chiude una sequenza in cui i laboratori frontier hanno moltiplicato gli annunci scientifici.",
+      "lmo": "Ona prova formalizada in Lean, anunziada in di ultem or de la setemana, la mett la verificazion mecanega al center del problema pussee celeber di matemateghe — e la sera ona sequenza indè i laboratori frontier hann moltiplicaa i anunzi scientifegh."
+    }
+  },
+  "sidebar": [
+    {
+      "headline": {
+        "fr": "Trois labos, trois lancements frontière en 72 heures",
+        "en": "Three labs, three frontier launches in 72 hours",
+        "de": "Drei Labore, drei Frontier-Lancierungen in 72 Stunden",
+        "it": "Tre laboratori, tre lanci frontier in 72 ore",
+        "lmo": "Trii laboratori, trii lançament frontiera in 72 or"
+      },
+      "body": {
+        "fr": "En l'espace de trois jours, les trois grands labos américains ont tiré leurs nouveaux étages : <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">GPT-6.2 Astra et Sol</a> côté OpenAI, <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">MAI Code 2</a> chez Microsoft AI, puis <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">Gemini 4 Neon</a> chez Google DeepMind — une cadence de lancement frontière jamais atteinte, au moment même où le Nasdaq montrait les premiers signes de fatigue sur les valeurs d'IA.",
+        "en": "In the space of three days, the three big American labs fired their new boosters: <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">GPT-6.2 Astra and Sol</a> from OpenAI, <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">MAI Code 2</a> from Microsoft AI, then <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">Gemini 4 Neon</a> from Google DeepMind — a frontier launch cadence never before reached, at the very moment the Nasdaq showed the first signs of fatigue on AI stocks.",
+        "de": "Innerhalb von drei Tagen haben die drei grossen amerikanischen Labore ihre neuen Stufen gezogen: <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">GPT-6.2 Astra und Sol</a> bei OpenAI, <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">MAI Code 2</a> bei Microsoft AI, danach <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">Gemini 4 Neon</a> bei Google DeepMind – ein nie erreichtes Lancierungstempo an der Frontier, just in dem Moment, in dem der Nasdaq erste Ermüdungszeichen bei KI-Werten zeigte.",
+        "it": "Nell'arco di tre giorni, i tre grandi laboratori americani hanno lanciato i loro nuovi stadi: <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">GPT-6.2 Astra e Sol</a> da OpenAI, <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">MAI Code 2</a> da Microsoft AI, poi <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">Gemini 4 Neon</a> da Google DeepMind — un ritmo di lanci frontier mai raggiunto, proprio mentre il Nasdaq mostrava i primi segni di affaticamento sui titoli IA.",
+        "lmo": "In de l'ispazzi de trii dì, i trii grand laboratori american hann traa i sò noeuv pian: <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">GPT-6.2 Astra e Sol</a> de la part de OpenAI, <a href=\"https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/\">MAI Code 2</a> in cà Microsoft AI, po <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">Gemini 4 Neon</a> in cà Google DeepMind — ona cadenza de lançament frontiera mai rivada, propi in del moment indè el Nasdaq el mostrava i primm segn de stanchitaa sora i valor de IA."
+      },
+      "tag": {
+        "fr": "Frontière",
+        "en": "Frontier",
+        "de": "Frontier",
+        "it": "Frontiera",
+        "lmo": "Frontiera"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine ISO 2026-W47",
+        "en": "This week — ISO week 2026-W47",
+        "de": "Diese Woche – ISO-Woche 2026-W47",
+        "it": "Questa settimana — settimana ISO 2026-W47",
+        "lmo": "Questa setemana — setemana ISO 2026-W47"
+      },
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/"
+      ]
+    },
+    {
+      "headline": {
+        "fr": "GPT-6 Astra et Claude s'attaquent chacun à de la physique théorique ouverte",
+        "en": "GPT-6 Astra and Claude each take on open theoretical physics",
+        "de": "GPT-6 Astra und Claude stürzen sich je auf offene theoretische Physik",
+        "it": "GPT-6 Astra e Claude si misurano ciascuno su fisica teorica aperta",
+        "lmo": "GPT-6 Astra e Claude tacchen ognun la fisega teorega averta"
+      },
+      "body": {
+        "fr": "OpenAI publie une contribution de GPT-6 Astra à une définition candidate non perturbative du <a href=\"https://openai.com/index/step-toward-defining-the-standard-model\">Modèle Standard sur réseau</a>, via son nouveau blog scientifique, quelques jours avant qu'Anthropic rapporte que <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Claude a contribué à résoudre deux problèmes ouverts en physique des trous noirs</a>. La compétition se déplace visiblement vers la science comme terrain de démonstration des capacités de raisonnement.",
+        "en": "OpenAI publishes a contribution from GPT-6 Astra to a non-perturbative candidate definition of the <a href=\"https://openai.com/index/step-toward-defining-the-standard-model\">lattice Standard Model</a>, via its new science blog, days before Anthropic reported that <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Claude contributed to solving two open problems in black hole physics</a>. The competition is visibly shifting toward science as the proving ground for reasoning capabilities.",
+        "de": "OpenAI veröffentlicht einen Beitrag von GPT-6 Astra zu einer nicht-perturbativen Kandidaten-Definition des <a href=\"https://openai.com/index/step-toward-defining-the-standard-model\">Standardmodells auf dem Gitter</a>, über sein neues Wissenschaftsblog – wenige Tage bevor Anthropic berichtet, dass <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Claude zur Lösung von zwei offenen Problemen der Physik Schwarzer Löcher beigetragen hat</a>. Der Wettbewerb verlagert sich sichtbar hin zur Wissenschaft als Schauplatz für die Demonstration von Denkfähigkeiten.",
+        "it": "OpenAI pubblica un contributo di GPT-6 Astra a una definizione candidata non perturbativa del <a href=\"https://openai.com/index/step-toward-defining-the-standard-model\">Modello Standard su reticolo</a>, tramite il suo nuovo blog scientifico, pochi giorni prima che Anthropic riferisca che <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Claude ha contribuito a risolvere due problemi aperti in fisica dei buchi neri</a>. La competizione si sposta visibilmente verso la scienza come terreno di dimostrazione delle capacità di ragionamento.",
+        "lmo": "OpenAI el publica ona contribuzion de GPT-6 Astra a ona definizion candidada no perturbativa del <a href=\"https://openai.com/index/step-toward-defining-the-standard-model\">Modell Standard sora ret</a>, via el sò noeuv blog scientifegh, quaj dì prima che Anthropic el rapporta che <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">Claude l'ha contribuii a resoeulv duu problema avert in fisega di bus negher</a>. La competizion la se sposta visibelment vers la scienza 'me terree de demonstrazion di capacitaa de resonament."
+      },
+      "tag": {
+        "fr": "Science",
+        "en": "Science",
+        "de": "Wissenschaft",
+        "it": "Scienza",
+        "lmo": "Scienza"
+      },
+      "wire": {
+        "fr": "Cette semaine — semaine ISO 2026-W47",
+        "en": "This week — ISO week 2026-W47",
+        "de": "Diese Woche – ISO-Woche 2026-W47",
+        "it": "Questa settimana — settimana ISO 2026-W47",
+        "lmo": "Questa setemana — setemana ISO 2026-W47"
+      },
+      "urls": [
+        "https://openai.com/index/step-toward-defining-the-standard-model"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "label": {
+        "fr": "Rétro Frontière",
+        "en": "Frontier Rewind",
+        "de": "Frontier-Rückblick",
+        "it": "Retrospettiva Frontier",
+        "lmo": "Retro Frontier"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Lancements frontière",
+            "en": "Frontier launches",
+            "de": "Frontier-Lancierungen",
+            "it": "Lanci frontier",
+            "lmo": "Lançament frontier"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "GPT-6.2 Astra et Sol : OpenAI dédouble sa frontière entre raisonnement lourd et agents véloces",
+                "en": "GPT-6.2 Astra and Sol: OpenAI splits its frontier between heavy reasoning and fast agents",
+                "de": "GPT-6.2 Astra und Sol: OpenAI verdoppelt seine Frontier zwischen anspruchsvollem Denken und schnellen Agenten",
+                "it": "GPT-6.2 Astra e Sol: OpenAI sdoppia la propria frontiera tra ragionamento pesante e agenti veloci",
+                "lmo": "GPT-6.2 Astra e Sol: OpenAI el desdoeubla la soa frontiera intra resonament pesant e agent veloj"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé la sortie simultanée de GPT-6.2 Astra et de GPT-6.2 Sol, deux modèles jumeaux qui structurent explicitement l'offre en deux profils : Astra pour les tâches exigeantes de raisonnement et de code, Sol pour le code du quotidien et les workflows d'agents. Les deux modèles sont disponibles sur ChatGPT Work, Codex et l'API, avec des <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">tarifs différenciés</a> allant jusqu'à 40 % moins chers via des fenêtres d'exécution différée de 2 ou 8 heures sur la Responses API. La <a href=\"https://news.ycombinator.com/item?id=50535230\">discussion Hacker News</a> a immédiatement comparé les deux profils.",
+                "en": "OpenAI announced the simultaneous release of GPT-6.2 Astra and GPT-6.2 Sol, two twin models that explicitly structure the offering into two profiles: Astra for demanding reasoning and code tasks, Sol for everyday code and agent workflows. Both models are available on ChatGPT Work, Codex and the API, with <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">differentiated pricing</a> up to 40% cheaper via deferred execution windows of 2 or 8 hours on the Responses API. The <a href=\"https://news.ycombinator.com/item?id=50535230\">Hacker News discussion</a> immediately compared the two profiles.",
+                "de": "OpenAI hat die gleichzeitige Veröffentlichung von GPT-6.2 Astra und GPT-6.2 Sol angekündigt – zwei Zwillingsmodelle, die das Angebot explizit in zwei Profile gliedern: Astra für anspruchsvolle Denk- und Code-Aufgaben, Sol für Alltagscode und Agenten-Workflows. Beide Modelle sind auf ChatGPT Work, Codex und über die API verfügbar, mit <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">differenzierten Preisen</a> von bis zu 40 % günstiger über verzögerte Ausführungsfenster von 2 oder 8 Stunden auf der Responses API. Die <a href=\"https://news.ycombinator.com/item?id=50535230\">Diskussion auf Hacker News</a> verglich die beiden Profile umgehend.",
+                "it": "OpenAI ha annunciato l'uscita simultanea di GPT-6.2 Astra e di GPT-6.2 Sol, due modelli gemelli che strutturano esplicitamente l'offerta in due profili: Astra per i compiti esigenti di ragionamento e di codice, Sol per il codice quotidiano e i workflow di agenti. I due modelli sono disponibili su ChatGPT Work, Codex e l'API, con <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">tariffe differenziate</a> fino al 40% più economiche grazie a finestre di esecuzione differita di 2 o 8 ore sulla Responses API. La <a href=\"https://news.ycombinator.com/item?id=50535230\">discussione su Hacker News</a> ha immediatamente confrontato i due profili.",
+                "lmo": "OpenAI l'ha anunziaa la sortida simultanea de GPT-6.2 Astra e de GPT-6.2 Sol, duu modej zigovell che struturen esplicittament l'oferta in duu profil: Astra per i task esigent de resonament e de codes, Sol per el codes del tutt i dì e i workflow de agent. I duu modej hinn disponibij sora ChatGPT Work, Codex e l'API, con di <a href=\"https://openai.com/index/introducing-gpt-6-2-astra-sol\">tariff differenziaa</a> fin a el 40 % men car via di fnestr de esecuzion differida de 2 o 8 or sora la Responses API. La <a href=\"https://news.ycombinator.com/item?id=50535230\">discussion Hacker News</a> l'ha subet confrontaa i duu profil."
+              },
+              "kicker": {
+                "fr": "Double lancement",
+                "en": "Double launch",
+                "de": "Doppellancierung",
+                "it": "Doppio lancio",
+                "lmo": "Doppi lançament"
+              },
+              "urls": [
+                "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gemini 4 Neon arrive une semaine après GPT-6.2 et MAI Code 2",
+                "en": "Gemini 4 Neon arrives one week after GPT-6.2 and MAI Code 2",
+                "de": "Gemini 4 Neon trifft eine Woche nach GPT-6.2 und MAI Code 2 ein",
+                "it": "Gemini 4 Neon arriva una settimana dopo GPT-6.2 e MAI Code 2",
+                "lmo": "Gemini 4 Neon el riva ona setemana dopo GPT-6.2 e MAI Code 2"
+              },
+              "body": {
+                "fr": "Google DeepMind a placé un nouveau modèle frontière sur la table avec Gemini 4 Neon, détaillé sur son <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">blog officiel</a>, au milieu d'une séquence de lancements d'une rare densité entre les trois grands labos américains. Dans la foulée, le labo a rendu disponible son modèle monde Genie 4, d'abord chez les abonnés AI Ultra puis accessible via le <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\">Gemini API</a>, avec des mondes interactifs 720p programmables.",
+                "en": "Google DeepMind put a new frontier model on the table with Gemini 4 Neon, detailed on its <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">official blog</a>, amid a launch sequence of unusual density among the three big American labs. In its wake, the lab made its Genie 4 world model available, first to AI Ultra subscribers and then via the <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\">Gemini API</a>, with programmable 720p interactive worlds.",
+                "de": "Google DeepMind hat mit Gemini 4 Neon ein neues Frontier-Modell auf den Tisch gelegt, detailliert auf seinem <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">offiziellen Blog</a>, inmitten einer lancierungsreichen Sequenz von seltener Dichte zwischen den drei grossen amerikanischen Laboren. In der Folge machte das Labor sein Weltmodell Genie 4 verfügbar, zunächst für AI-Ultra-Abonnenten, dann zugänglich über die <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\">Gemini API</a>, mit programmierbaren interaktiven 720p-Welten.",
+                "it": "Google DeepMind ha messo sul tavolo un nuovo modello frontier con Gemini 4 Neon, dettagliato sul suo <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">blog ufficiale</a>, nel mezzo di una sequenza di lanci di rara densità tra i tre grandi laboratori americani. A seguire, il laboratorio ha reso disponibile il suo modello mondo Genie 4, prima per gli abbonati AI Ultra poi accessibile tramite la <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\">Gemini API</a>, con mondi interattivi 720p programmabili.",
+                "lmo": "Google DeepMind l'ha mettuu on noeuv modell frontier sora la tavola con Gemini 4 Neon, detagli sora el sò <a href=\"https://deepmind.google/blog/introducing-gemini-4-neon/\">blog oficial</a>, in mez a ona sequenza de lançament de rara densitaa intra i trii grand laboratori american. In de la continuazion, el laboratori l'ha renduu disponibel el sò modell mond Genie 4, prima intra i abonaa AI Ultra poeu aecessibel via el <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/\">Gemini API</a>, con di mond interattiv 720p programmabij."
+              },
+              "kicker": {
+                "fr": "Google DeepMind",
+                "en": "Google DeepMind",
+                "de": "Google DeepMind",
+                "it": "Google DeepMind",
+                "lmo": "Google DeepMind"
+              },
+              "urls": [
+                "https://deepmind.google/blog/introducing-gemini-4-neon/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "MAI Code 2 et sept modèles alignés à Ignite 2026",
+                "en": "MAI Code 2 and seven aligned models at Ignite 2026",
+                "de": "MAI Code 2 und sieben ausgerichtete Modelle an der Ignite 2026",
+                "it": "MAI Code 2 e sette modelli allineati a Ignite 2026",
+                "lmo": "MAI Code 2 e set modej alineaa a Ignite 2026"
+              },
+              "body": {
+                "fr": "Microsoft AI a riposté au double lancement d'OpenAI avec MAI Code 2 et sa déclinaison Code 2 Flash, mis en avant sur <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 points, 144 commentaires), puis a aligné sept nouveaux modèles à prix-performance scalable présentés à l'occasion d'<a href=\"https://microsoft.ai/news/microsoft-ignite-2026/\">Ignite 2026</a>. La bataille frontière se joue désormais autant sur la grille tarifaire que sur les benchmarks.",
+                "en": "Microsoft AI answered OpenAI's double launch with MAI Code 2 and its Code 2 Flash variant, featured on <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 points, 144 comments), then lined up seven new scalably-priced models presented at <a href=\"https://microsoft.ai/news/microsoft-ignite-2026/\">Ignite 2026</a>. The frontier battle is now being fought as much on the pricing grid as on benchmarks.",
+                "de": "Microsoft AI hat auf die Doppellancierung von OpenAI mit MAI Code 2 und der Variante Code 2 Flash geantwortet, prominent diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 Punkte, 144 Kommentare), und anschliessend sieben neue Modelle mit skalierbarem Preis-Leistungs-Verhältnis präsentiert anlässlich von <a href=\"https://microsoft.ai/news/microsoft-ignite-2026/\">Ignite 2026</a>. Die Frontier-Schlacht wird heute ebenso sehr auf der Preistabelle wie auf den Benchmarks ausgetragen.",
+                "it": "Microsoft AI ha risposto al doppio lancio di OpenAI con MAI Code 2 e la sua variante Code 2 Flash, messi in evidenza su <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 punti, 144 commenti), poi ha allineato sette nuovi modelli a prezzo-prestazione scalabili presentati in occasione di <a href=\"https://microsoft.ai/news/microsoft-ignite-2026/\">Ignite 2026</a>. La battaglia frontier si gioca ormai tanto sulla griglia tariffaria quanto sui benchmark.",
+                "lmo": "Microsoft AI l'ha responduu al doppi lançament de OpenAI con MAI Code 2 e la soa declinazion Code 2 Flash, mettuu in evidenza sora <a href=\"https://news.ycombinator.com/item?id=50535885\">Hacker News</a> (322 pont, 144 comment), poeu l'ha alineaa set noeuv modej a prezzi-prestazion scalabij presentaa a l'occasion de <a href=\"https://microsoft.ai/news/microsoft-ignite-2026/\">Ignite 2026</a>. La battaja frontiera adess la se giuga tant sora la griglia tarifaria che sora i benchmark."
+              },
+              "kicker": {
+                "fr": "Microsoft AI",
+                "en": "Microsoft AI",
+                "de": "Microsoft AI",
+                "it": "Microsoft AI",
+                "lmo": "Microsoft AI"
+              },
+              "urls": [
+                "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Qwen4-Max enflamme la communauté, Tencent ouvre WeMM-Video",
+                "en": "Qwen4-Max sets the community ablaze, Tencent open-sources WeMM-Video",
+                "de": "Qwen4-Max entflammt die Community, Tencent öffnet WeMM-Video",
+                "it": "Qwen4-Max infiamma la comunità, Tencent apre WeMM-Video",
+                "lmo": "Qwen4-Max el fa s'ciopà la comunitaa, Tencent el derv WeMM-Video"
+              },
+              "body": {
+                "fr": "Le blog officiel a annoncé la sortie de <a href=\"https://qwen.ai/blog?id=qwen4-max\">Qwen4-Max</a>, dont la <a href=\"https://news.ycombinator.com/item?id=50513215\">discussion Hacker News</a> a dépassé 300 points et 100 commentaires, largement centrée sur la fiabilité des benchmarks. De son côté, Tencent a publié WeMM-Video, une famille bilingue chinois-anglais de modèles omni-modaux (2B, 4B, 9B et 35B-A3B) entraînée sur environ 1,2 billion de tokens, décrite dans un <a href=\"https://arxiv.org/abs/2611.26409\">papier</a>.",
+                "en": "The official blog announced the release of <a href=\"https://qwen.ai/blog?id=qwen4-max\">Qwen4-Max</a>, whose <a href=\"https://news.ycombinator.com/item?id=50513215\">Hacker News discussion</a> passed 300 points and 100 comments, largely focused on benchmark reliability. Meanwhile, Tencent released WeMM-Video, a bilingual Chinese-English family of omni-modal models (2B, 4B, 9B and 35B-A3B) trained on roughly 1.2 trillion tokens, described in a <a href=\"https://arxiv.org/abs/2611.26409\">paper</a>.",
+                "de": "Der offizielle Blog kündigte die Veröffentlichung von <a href=\"https://qwen.ai/blog?id=qwen4-max\">Qwen4-Max</a> an, dessen <a href=\"https://news.ycombinator.com/item?id=50513215\">Hacker-News-Diskussion</a> über 300 Punkte und 100 Kommentare überschritt – im Wesentlichen zur Zuverlässigkeit von Benchmarks. seinerseits hat Tencent WeMM-Video veröffentlicht, eine zweisprachige chinesisch-englische Familie omnimodaler Modelle (2B, 4B, 9B und 35B-A3B), trainiert auf rund 1,2 Billionen Tokens und in einem <a href=\"https://arxiv.org/abs/2611.26409\">Paper</a> beschrieben.",
+                "it": "Il blog ufficiale ha annunciato l'uscita di <a href=\"https://qwen.ai/blog?id=qwen4-max\">Qwen4-Max</a>, la cui <a href=\"https://news.ycombinator.com/item?id=50513215\">discussione su Hacker News</a> ha superato i 300 punti e i 100 commenti, in gran parte centrata sull'affidabilità dei benchmark. Da parte sua, Tencent ha pubblicato WeMM-Video, una famiglia bilingue cinese-inglese di modelli omni-modali (2B, 4B, 9B e 35B-A3B) addestrata su circa 1,2 migliaia di miliardi di token, descritta in un <a href=\"https://arxiv.org/abs/2611.26409\">paper</a>.",
+                "lmo": "El blog oficial l'ha anunziaa la sortida de <a href=\"https://qwen.ai/blog?id=qwen4-max\">Qwen4-Max</a>, de che la <a href=\"https://news.ycombinator.com/item?id=50513215\">discussion Hacker News</a> l'ha superaa 300 pont e 100 comment, larga centrasda sora la fidabilitaa di benchmark. De la soa part, Tencent l'ha publicaa WeMM-Video, ona fameja bilingua cinces-ingles de modej omni-modai (2B, 4B, 9B e 35B-A3B) adestrada sira 1,2 billion de token, descrutta in d'on <a href=\"https://arxiv.org/abs/2611.26409\">paper</a>."
+              },
+              "kicker": {
+                "fr": "Open weights",
+                "en": "Open weights",
+                "de": "Offene Gewichte",
+                "it": "Pesi aperti",
+                "lmo": "Pees avert"
+              },
+              "urls": [
+                "https://qwen.ai/blog?id=qwen4-max"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Science & souveraineté",
+            "en": "Science & sovereignty",
+            "de": "Wissenschaft & Souveränität",
+            "it": "Scienza & sovranità",
+            "lmo": "Scienza & sovranitaa"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Le frontier compact : Inkling 2 Mini tient dans 5,4 Go de RAM",
+                "en": "The compact frontier: Inkling 2 Mini fits in 5.4 GB of RAM",
+                "de": "Das kompakte Frontier-Modell: Inkling 2 Mini läuft in 5,4 GB RAM",
+                "it": "Il frontier compatto: Inkling 2 Mini entra in 5,4 GB di RAM",
+                "lmo": "El frontier compatt: Inkling 2 Mini el sta in 5,4 Go de RAM"
+              },
+              "body": {
+                "fr": "Thinking Machines a publié Inkling 2 Mini, un modèle conçu pour des performances de pointe sur les configurations matérielles contraintes : le projet lookatmyquant a démontré son exécution dans <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">5,4 Go de mémoire</a>. RadixArk a publié dans le même temps DaisyRose-27B, qui <a href=\"https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-training\">pousse l'efficacité du post-entraînement</a>, tandis que le <a href=\"https://huggingface.co/blog/moe-expert-streaming\">streaming d'experts</a> démontré sur le blog Hugging Face fait tenir 180 milliards de paramètres MoE dans 32 Go de RAM.",
+                "en": "Thinking Machines released Inkling 2 Mini, a model designed for cutting-edge performance on constrained hardware: the lookatmyquant project demonstrated it running in <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">5.4 GB of memory</a>. RadixArk meanwhile released DaisyRose-27B, which <a href=\"https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-training\">pushes post-training efficiency</a>, while <a href=\"https://huggingface.co/blog/moe-expert-streaming\">expert streaming</a> demonstrated on the Hugging Face blog keeps a 180-billion-parameter MoE within 32 GB of RAM.",
+                "de": "Thinking Machines hat Inkling 2 Mini veröffentlicht, ein Modell für Spitzeneffizienz auf eingeschränkter Hardware: Das Projekt lookatmyquant zeigte seine Ausführung in <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">5,4 GB Speicher</a>. RadixArk veröffentlichte zeitgleich DaisyRose-27B, das <a href=\"https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-training\">die Effizienz des Post-Trainings vorantreibt</a>, während das auf dem Hugging-Face-Blog demonstrierte <a href=\"https://huggingface.co/blog/moe-expert-streaming\">Expert-Streaming</a> 180 Milliarden MoE-Parameter in 32 GB RAM hält.",
+                "it": "Thinking Machines ha pubblicato Inkling 2 Mini, un modello concepito per prestazioni di punta su configurazioni hardware vincolate: il progetto lookatmyquant ne ha dimostrato l'esecuzione in <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">5,4 GB di memoria</a>. RadixArk ha pubblicato nello stesso tempo DaisyRose-27B, che <a href=\"https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-training\">spinge l'efficienza del post-addestramento</a>, mentre lo <a href=\"https://huggingface.co/blog/moe-expert-streaming\">streaming di esperti</a> dimostrato sul blog Hugging Face fa stare 180 miliardi di parametri MoE in 32 GB di RAM.",
+                "lmo": "Thinking Machines l'ha publicaa Inkling 2 Mini, on modell pensaa per prestazion de ponta sora i configurazion hardware constringiuu: el proget lookatmyquant l'ha demostraa la soa esecuzion in <a href=\"https://github.com/ShinMegamiBoson/lookatmyquant\">5,4 Go de memoria</a>. RadixArk l'ha publicaa in del midemm temp DaisyRose-27B, che 'l <a href=\"https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-training\">sping l'eficienza del post-adestrament</a>, menter el <a href=\"https://huggingface.co/blog/moe-expert-streaming\">streaming de espert</a> demostraa sora el blog Hugging Face el fa tegnì 180 billion de parameter MoE in 32 Go de RAM."
+              },
+              "kicker": {
+                "fr": "Efficacité",
+                "en": "Efficiency",
+                "de": "Effizienz",
+                "it": "Efficienza",
+                "lmo": "Eficienza"
+              },
+              "urls": [
+                "https://github.com/ShinMegamiBoson/lookatmyquant"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Claude résout deux problèmes ouverts en physique des trous noirs",
+                "en": "Claude solves two open problems in black hole physics",
+                "de": "Claude löst zwei offene Probleme der Physik Schwarzer Löcher",
+                "it": "Claude risolve due problemi aperti in fisica dei buchi neri",
+                "lmo": "Claude el resoeulv duu problema avert in fisega di bus negher"
+              },
+              "body": {
+                "fr": "Anthropic rapporte que Claude a contribué à résoudre <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">deux problèmes ouverts en physique des trous noirs</a>, une contribution détaillée dans un rapport de recherche — la riposte scientifique la plus visible à la publication d'OpenAI sur le Modèle Standard sur réseau. Google DeepMind, de son côté, a exposé le potentiel d'AlphaGenome et d'AlphaGenome Atlas au service de la recherche sur les maladies.",
+                "en": "Anthropic reports that Claude contributed to solving <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">two open problems in black hole physics</a>, a contribution detailed in a research report — the most visible scientific riposte to OpenAI's publication on the lattice Standard Model. Google DeepMind, for its part, showcased the potential of AlphaGenome and AlphaGenome Atlas in service of disease research.",
+                "de": "Anthropic berichtet, dass Claude zur Lösung von <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">zwei offenen Problemen der Physik Schwarzer Löcher</a> beigetragen hat – ein Beitrag, der in einem Research-Bericht dokumentiert ist und die sichtbarste wissenschaftliche Antwort auf OpenAIs Publikation zum Standardmodell auf dem Gitter darstellt. Google DeepMind seinerseits hat das Potenzial von AlphaGenome und AlphaGenome Atlas für die Erforschung von Krankheiten dargelegt.",
+                "it": "Anthropic riferisce che Claude ha contribuito a risolvere <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">due problemi aperti in fisica dei buchi neri</a>, un contributo dettagliato in un rapporto di ricerca — la replica scientifica più visibile alla pubblicazione di OpenAI sul Modello Standard su reticolo. Google DeepMind, da parte sua, ha esposto il potenziale di AlphaGenome e di AlphaGenome Atlas al servizio della ricerca sulle malattie.",
+                "lmo": "Anthropic el rapporta che Claude l'ha contribuii a resoeulv <a href=\"https://www.anthropic.com/research/claude-black-hole-physics\">duu problema avert in fisega di bus negher</a>, ona contribuzion detagliada in d'on rapport de ricarca — la risposta scientifega pussee visibela a la publicazion de OpenAI sora el Modell Standard in su ret. Google DeepMind, de la soa part, l'ha espos el potenzial de AlphaGenome e de AlphaGenome Atlas al servizzi de la ricerca sora i malattij."
+              },
+              "kicker": {
+                "fr": "Science",
+                "en": "Science",
+                "de": "Wissenschaft",
+                "it": "Scienza",
+                "lmo": "Scienza"
+              },
+              "urls": [
+                "https://www.anthropic.com/research/claude-black-hole-physics"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "200 000 chercheurs académiques obtiendront un accès gratuit aux modèles d'OpenAI",
+                "en": "200,000 academic researchers to receive free access to OpenAI models",
+                "de": "200 000 akademische Forschende erhalten kostenlosen Zugang zu OpenAIs Modellen",
+                "it": "200.000 ricercatori accademici otterranno accesso gratuito ai modelli di OpenAI",
+                "lmo": "200 000 ricercador academegh ciaparann on aecess gratis ai modej de OpenAI"
+              },
+              "body": {
+                "fr": "OpenAI a annoncé l'élargissement de son programme <a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers\">ChatGPT for Academic Researchers</a>, qui offrira un accès gratuit à ses modèles de pointe à 200 000 chercheurs dans le monde entier — l'un des plus vastes programmes d'accès scientifique jamais lancés par le laboratoire, accompagné d'évaluations indépendantes embarquées. La stratégie de distribution académique devient un terrain concurrentiel à part entière.",
+                "en": "OpenAI announced the expansion of its <a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers\">ChatGPT for Academic Researchers</a> program, which will provide free access to its frontier models for 200,000 researchers worldwide — one of the largest scientific access programs ever launched by the lab, accompanied by built-in independent evaluations. Academic distribution strategy is becoming a competitive arena in its own right.",
+                "de": "OpenAI hat die Ausweitung seines Programms <a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers\">ChatGPT for Academic Researchers</a> angekündigt, das 200 000 Forschenden weltweit kostenlosen Zugang zu seinen Spitzentmodellen bieten wird – eines der umfangreichsten wissenschaftlichen Zugangsprogramme, die das Labor je aufgelegt hat, begleitet von eingebetteten unabhängigen Evaluationen. Die akademische Distributionsstrategie wird zu einem eigenständigen Wettbewerbsterrain.",
+                "it": "OpenAI ha annunciato l'ampliamento del suo programma <a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers\">ChatGPT for Academic Researchers</a>, che offrirà accesso gratuito ai suoi modelli di punta a 200.000 ricercatori in tutto il mondo — uno dei più vasti programmi di accesso scientifico mai lanciati dal laboratorio, accompagnato da valutazioni indipendenti integrate. La strategia di distribuzione accademica diventa un terreno competitivo a tutti gli effetti.",
+                "lmo": "OpenAI l'ha anunziaa l'allargament del sò program <a href=\"https://openai.com/index/expanding-chatgpt-for-academic-researchers\">ChatGPT for Academic Researchers</a>, che 'l offrirà on aecess gratis ai sò modej de ponta a 200 000 ricercador in tutt el mond — vun di program d'aecess scientifegh pussee grand mai lançaa del laboratori, con di valutazion independenza intraa. La strategia de distribuzion academega la deven on terree concorent a part intrera."
+              },
+              "kicker": {
+                "fr": "Accès",
+                "en": "Access",
+                "de": "Zugang",
+                "it": "Accesso",
+                "lmo": "Aecess"
+              },
+              "urls": [
+                "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Outils & Pratiques",
+        "en": "Tools & Practices",
+        "de": "Werkzeuge & Praxis",
+        "it": "Strumenti & Pratiche",
+        "lmo": "Strument & Prategh"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Plateformes & inférence",
+            "en": "Platforms & inference",
+            "de": "Plattformen & Inferenz",
+            "it": "Piattaforme & inferenza",
+            "lmo": "Piataform & inferenzz"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Tool Retrieval dans le Gemini API : des centaines d'outils, moins de tokens",
+                "en": "Tool Retrieval in the Gemini API: hundreds of tools, fewer tokens",
+                "de": "Tool Retrieval in der Gemini API: Hunderte Tools, weniger Tokens",
+                "it": "Tool Retrieval nella Gemini API: centinaia di strumenti, meno token",
+                "lmo": "Tool Retrieval in del Gemini API: centenas de strument, men de token"
+              },
+              "body": {
+                "fr": "Google a mis en préversion la fonctionnalité <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\">Tool Retrieval</a> dans le Gemini API : les agents peuvent désormais mobiliser des centaines d'outils en consommant moins de tokens, en récupérant dynamiquement les définitions pertinentes à chaque requête plutôt qu'en saturant le contexte. Anthropic, de son côté, a publié la <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">facturation liée</a> sur la plateforme Claude, unifiant organisations et projets multi-comptes.",
+                "en": "Google has put <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\">Tool Retrieval</a> into preview in the Gemini API: agents can now draw on hundreds of tools while consuming fewer tokens, dynamically retrieving relevant definitions per query instead of saturating the context. Anthropic, for its part, shipped <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">linked billing</a> on the Claude platform, unifying organizations and multi-account projects.",
+                "de": "Google hat die Funktion <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\">Tool Retrieval</a> in der Gemini API als Preview bereitgestellt: Agenten können nun Hunderte von Tools mobilisieren und dabei weniger Tokens verbrauchen, indem sie bei jeder Anfrage dynamisch die relevanten Definitionen abrufen, statt den Kontext zu überladen. Anthropic seinerseits hat die <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">verbundene Abrechnung</a> auf der Claude-Plattform eingeführt, die Organisationen und Multi-Account-Projekte vereinheitlicht.",
+                "it": "Google ha messo in anteprima la funzionalità <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\">Tool Retrieval</a> nella Gemini API: gli agenti possono ormai mobilitare centinaia di strumenti consumando meno token, recuperando dinamicamente le definizioni pertinenti a ogni richiesta invece di saturare il contesto. Anthropic, da parte sua, ha pubblicato la <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">fatturazione collegata</a> sulla piattaforma Claude, unificando organizzazioni e progetti multi-account.",
+                "lmo": "Google l'ha mettuu in preversion la funzionalitaa <a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/\">Tool Retrieval</a> in del Gemini API: i agent pòden ades mobilizà centenas de strument consumand men de token, recoperand dinamicament i definizion pertinent a ogni richiesta piutost che saturà el contest. Anthropic, de la soa part, l'ha publicaa la <a href=\"https://claude.com/resources/articles/linked-billing-on-claude-platform\">fatturazion ligada</a> sora la piataforma Claude, unifegand organizazion e proget multi-cont."
+              },
+              "kicker": {
+                "fr": "API & agents",
+                "en": "API & agents",
+                "de": "API & Agenten",
+                "it": "API & agenti",
+                "lmo": "API & agent"
+              },
+              "urls": [
+                "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Cerebras lance l'inférence désagrégée pour servir les agents",
+                "en": "Cerebras launches disaggregated inference to serve agents",
+                "de": "Cerebras lanciert dis-aggregierte Inferenz für Agenten-Workloads",
+                "it": "Cerebras lancia l'inferenza disaggregata per servire gli agenti",
+                "lmo": "Cerebras el lanç l'inferenzz desagregada per servì i agent"
+              },
+              "body": {
+                "fr": "Dans un billet intitulé « disaggregated inference », Cerebras détaille son architecture qui sépare préremplissage et décodage pour maximiser le débit des charges agentiques, discutée sur <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News</a>. Du côté de la recherche, deux publications convergent : LoopFill propose un <a href=\"https://arxiv.org/abs/2611.19649\">décodage spéculatif</a> multi-tokens pour Transformers bouclés, et des chercheurs de Nanyang revendiquent jusqu'à 12,5x d'accélération avec <a href=\"https://arxiv.org/abs/2611.24576\">Late Entry</a>.",
+                "en": "In a post titled \"disaggregated inference\", Cerebras details its architecture separating prefill and decoding to maximize throughput for agentic workloads, discussed on <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News</a>. On the research side, two publications converge: LoopFill proposes <a href=\"https://arxiv.org/abs/2611.19649\">multi-token speculative decoding</a> for looped Transformers, and researchers at Nanyang claim up to 12.5x speedup with <a href=\"https://arxiv.org/abs/2611.24576\">Late Entry</a>.",
+                "de": "In einem Beitrag mit dem Titel «disaggregated inference» beschreibt Cerebras seine Architektur, die Prefill und Decoding trennt, um den Durchsatz agentischer Workloads zu maximieren – diskutiert auf <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News</a>. Auf der Forschungsseite konvergieren zwei Publikationen: LoopFill schlägt ein Multi-Token-<a href=\"https://arxiv.org/abs/2611.19649\">spekulatives Decoding</a> für geschlossene Transformers vor, und Forschende der Nanyang-Universität beanspruchen mit <a href=\"https://arxiv.org/abs/2611.24576\">Late Entry</a> Beschleunigungen von bis zu 12,5-fach.",
+                "it": "In un post intitolato «disaggregated inference», Cerebras dettaglia la sua architettura che separa prefill e decoding per massimizzare il throughput dei carichi agentici, discussa su <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News</a>. Sul versante della ricerca, due pubblicazioni convergono: LoopFill propone un <a href=\"https://arxiv.org/abs/2611.19649\">decoding speculativo</a> multi-token per i Transformer a loop, e ricercatori di Nanyang rivendicano fino a 12,5x di accelerazione con <a href=\"https://arxiv.org/abs/2611.24576\">Late Entry</a>.",
+                "lmo": "In d'on post ciamaa « disaggregated inference », Cerebras el detaja la soa architettura che la separa pre-impienment e decodifega per massimizà el fluss di cargh agentich, discutuda sora <a href=\"https://news.ycombinator.com/item?id=50540472\">Hacker News</a>. De la part de la ricerca, duu publicazion convegen: LoopFill el propon on <a href=\"https://arxiv.org/abs/2611.19649\">decodifega speculativa</a> multi-token per Transformers con preja, e di ricercador de Nanyang revendichen fin a 12,5x d'acelerazion con <a href=\"https://arxiv.org/abs/2611.24576\">Late Entry</a>."
+              },
+              "kicker": {
+                "fr": "Inférence",
+                "en": "Inference",
+                "de": "Inferenz",
+                "it": "Inferenza",
+                "lmo": "Inferenzz"
+              },
+              "urls": [
+                "https://www.cerebras.ai/blog/cerebras-launches-disaggregated-inference"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "TokenEconomizer : les agents de code apprennent à dépenser moins de tokens",
+                "en": "TokenEconomizer: coding agents learn to spend fewer tokens",
+                "de": "TokenEconomizer: Code-Agenten lernen, weniger Tokens auszugeben",
+                "it": "TokenEconomizer: gli agenti di codice imparano a spendere meno token",
+                "lmo": "TokenEconomizer: i agent de codes imparan a spend men de token"
+              },
+              "body": {
+                "fr": "Microsoft Research a publié <a href=\"https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/\">TokenEconomizer</a>, un plugin open source qui capitalise sur les sessions passées des agents de code pour réduire la consommation de tokens sans sacrifier le taux de résolution. Dans un registre différent, OpenAI a dévoilé sa « Performance Factory », des workflows alimentés par <a href=\"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\">Codex</a> qui détectent et corrigent les problèmes de performance de ChatGPT en continu.",
+                "en": "Microsoft Research released <a href=\"https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/\">TokenEconomizer</a>, an open-source plugin that leverages coding agents' past sessions to cut token consumption without sacrificing resolve rates. In a different register, OpenAI unveiled its \"Performance Factory\", workflows powered by <a href=\"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\">Codex</a> that continuously detect and fix ChatGPT performance issues.",
+                "de": "Microsoft Research hat <a href=\"https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/\">TokenEconomizer</a> veröffentlicht, ein Open-Source-Plugin, das aus vergangenen Sitzungen von Code-Agenten lernt, um den Token-Verbrauch zu senken, ohne die Lösungsquote zu opfern. In anderer Tonlage hat OpenAI seine «Performance Factory» vorgestellt: von <a href=\"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\">Codex</a> getriebene Workflows, die Performance-Probleme von ChatGPT laufend erkennen und beheben.",
+                "it": "Microsoft Research ha pubblicato <a href=\"https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/\">TokenEconomizer</a>, un plugin open source che valorizza le sessioni passate degli agenti di codice per ridurre il consumo di token senza sacrificare il tasso di risoluzione. In un registro diverso, OpenAI ha svelato la sua «Performance Factory», workflow alimentati da <a href=\"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\">Codex</a> che rilevano e correggono continuamente i problemi di performance di ChatGPT.",
+                "lmo": "Microsoft Research l'ha publicaa <a href=\"https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/\">TokenEconomizer</a>, on plugin open source che 'l capitalizza sora i session passaa di agent de codes per ridù el consum de token senza sacrifegà el tas de resoluzion. In d'on register divers, OpenAI l'ha desvejaa la soa « Performance Factory », di workflow alimenta de <a href=\"https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast\">Codex</a> che detetten e correge i problema de prestazion de ChatGPT in continov."
+              },
+              "kicker": {
+                "fr": "Efficacité",
+                "en": "Efficiency",
+                "de": "Effizienz",
+                "it": "Efficienza",
+                "lmo": "Eficienza"
+              },
+              "urls": [
+                "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/"
+              ]
+            }
+          ]
+        },
+        {
+          "title": {
+            "fr": "Écosystème & sécurité",
+            "en": "Ecosystem & security",
+            "de": "Ökosystem & Sicherheit",
+            "it": "Ecosistema & sicurezza",
+            "lmo": "Ecosistema & sigurezza"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Onlook, OpenCode Browse, OpenComputer : l'écosystème des harness s'étoffe",
+                "en": "Onlook, OpenCode Browse, OpenComputer: the harness ecosystem thickens",
+                "de": "Onlook, OpenCode Browse, OpenComputer: das Ökosystem der Harnesses wächst",
+                "it": "Onlook, OpenCode Browse, OpenComputer: l'ecosistema degli harness si arricchisce",
+                "lmo": "Onlook, OpenCode Browse, OpenComputer: l'ecosistema di harness el se rinforza"
+              },
+              "body": {
+                "fr": "Trois lancements témoignent de la vitalité de l'écosystème : <a href=\"https://opencode.ai/product/browse\">OpenCode Browse</a> introduit la navigation web agentique dans le terminal ; Onlook, un canvas agentique open source (Apache-2.0) issu de YC W25, permet de <a href=\"https://github.com/onlook-dev/onlook/\">designer directement dans le code</a> ; et OpenComputer fait tourner harness et bac à sable sur une même VM durable dans le cloud du client, en rival assumé de Devin. Hugging Face a également introduit les harness adapters, une couche qui adapte un modèle à son environnement d'exécution pour réduire les coûts, dans la continuité de son rapprochement avec OpenRouter pour les modèles à poids ouverts annoncé en début de semaine.",
+                "en": "Three launches testify to the ecosystem's vitality: <a href=\"https://opencode.ai/product/browse\">OpenCode Browse</a> brings agentic web navigation into the terminal; Onlook, an open-source agentic canvas (Apache-2.0) out of YC W25, lets you <a href=\"https://github.com/onlook-dev/onlook/\">design directly in the code</a>; and OpenComputer runs harness and sandbox on a single durable VM in the customer's cloud, as a declared Devin rival. Hugging Face also introduced harness adapters, a layer adapting a model to its execution environment to cut costs, following its rapprochement with OpenRouter for open-weight models announced earlier in the week.",
+                "de": "Drei Lancierungen zeugen von der Vitalität des Ökosystems: <a href=\"https://opencode.ai/product/browse\">OpenCode Browse</a> bringt agentische Web-Navigation ins Terminal; Onlook, ein Open-Source-Agent-Canvas (Apache-2.0) aus YC W25, erlaubt es, <a href=\"https://github.com/onlook-dev/onlook/\">direkt im Code zu designen</a>; und OpenComputer betreibt Harness und Sandbox auf einer einzigen dauerhaften VM in der Cloud des Kunden – als erklärter Rivale von Devin. Hugging Face hat zudem die Harness-Adapter eingeführt, eine Schicht, die ein Modell an seine Ausführungsumgebung anpasst, um Kosten zu senken – in Fortsetzung der zu Wochenbeginn angekündigten Annäherung an OpenRouter für offene Modelle.",
+                "it": "Tre lanci testimoniano la vitalità dell'ecosistema: <a href=\"https://opencode.ai/product/browse\">OpenCode Browse</a> introduce la navigazione web agentica nel terminale; Onlook, un canvas agentico open source (Apache-2.0) uscito da YC W25, permette di <a href=\"https://github.com/onlook-dev/onlook/\">progettare direttamente nel codice</a>; e OpenComputer fa girare harness e sandbox sulla stessa VM durevole nel cloud del cliente, in qualità di rivale dichiarato di Devin. Hugging Face ha inoltre introdotto gli harness adapters, uno strato che adatta un modello al suo ambiente di esecuzione per ridurre i costi, in continuità con il suo riavvicinamento a OpenRouter per i modelli a pesi aperti annunciato a inizio settimana.",
+                "lmo": "Trii lançament dan testimonianza de la vitalitaa de l'ecosistema: <a href=\"https://opencode.ai/product/browse\">OpenCode Browse</a> el introdu la navigazion web agentega in del terminal; Onlook, on canvas agentegh open source (Apache-2.0) vegnuu foeu de YC W25, el permett de <a href=\"https://github.com/onlook-dev/onlook/\">designà diretament in del codes</a>; e OpenComputer el fa girà harness e sandbox sora l'istessa VM durabila in del cloud del client, 'me rivaal declaraa de Devin. Hugging Face l'ha anca introduu i harness adapters, on strat che 'l adatta on modell al sò ambient de esecuzion per ridù i cost, in de la continuazion del sò vesinament a OpenRouter per i modej a pes avert anunziaa al principi de la setemana."
+              },
+              "kicker": {
+                "fr": "Agents & design",
+                "en": "Agents & design",
+                "de": "Agenten & Design",
+                "it": "Agenti & design",
+                "lmo": "Agent & design"
+              },
+              "urls": [
+                "https://opencode.ai/product/browse",
+                "https://github.com/onlook-dev/onlook/"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Fuites de données : OpenRouter et Together AI publient deux incidents",
+                "en": "Data leaks: OpenRouter and Together AI disclose two incidents",
+                "de": "Datenlecks: OpenRouter und Together AI veröffentlichen zwei Vorfälle",
+                "it": "Fughe di dati: OpenRouter e Together AI pubblicano due incidenti",
+                "lmo": "Lossid de dacc: OpenRouter e Together AI publichen duu incident"
+              },
+              "body": {
+                "fr": "Deux incidents ont assombri la semaine côté confiance : OpenRouter a publié un signalement détaillé sur des <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">incidents de traitement de données</a> chez certains fournisseurs d'inférence, et Together AI a révélé une <a href=\"https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026\">fuite de prompts</a> remontant aux requêtes de juin et juillet 2026. Une analyse relayée sur <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Hacker News</a> documentait par ailleurs la collecte de télémétrie par Windows 11 sur les agents de code, tandis que le projet lend proposait d'exécuter des agents sans leur confier d'identifiants.",
+                "en": "Two incidents darkened the week on the trust front: OpenRouter published a detailed disclosure on <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">data processing incidents</a> at certain inference providers, and Together AI revealed a <a href=\"https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026\">prompt leak</a> dating back to requests from June and July 2026. An analysis relayed on <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Hacker News</a> also documented Windows 11 telemetry collection on coding agents, while the lend project proposed running agents without handing them credentials.",
+                "de": "Zwei Vorfälle haben die Woche im Bereich Vertrauen verdunkelt: OpenRouter hat einen detaillierten Bericht über <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">Datenverarbeitungsvorfälle</a> bei bestimmten Inferenz-Anbietern veröffentlicht, und Together AI hat eine <a href=\"https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026\">Prompt-Leakage</a> offengelegt, die auf Anfragen von Juni und Juli 2026 zurückging. Eine auf <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Hacker News</a> verbreitete Analyse dokumentierte zudem die Telemetrie-Sammlung von Windows 11 über Code-Agenten, während das Projekt lend vorschlug, Agenten ohne Zugangsberechtigungen auszuführen.",
+                "it": "Due incidenti hanno oscurato la settimana sul fronte della fiducia: OpenRouter ha pubblicato una segnalazione dettagliata su <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">incidenti di trattamento dei dati</a> presso certi fornitori di inferenza, e Together AI ha rivelato una <a href=\"https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026\">fuga di prompt</a> risalente alle richieste di giugno e luglio 2026. Un'analisi ripresa su <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Hacker News</a> documentava peraltro la raccolta di telemetria da parte di Windows 11 sugli agenti di codice, mentre il progetto lend proponeva di eseguire agenti senza affidare loro credenziali.",
+                "lmo": "Duu incident hann faa scuri la setemana de la part de la fiducia: OpenRouter l'ha publicaa on segnalament detagli sora di <a href=\"https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/\">incident de trattament di dacc</a> in di quaj fornitore d'inferenzz, e Together AI l'ha revelaa ona <a href=\"https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026\">lossida de prompt</a> che la torna ai richiest de giugn e luj 2026. N'analisi relassa sora <a href=\"https://xusheng.dev/posts/windows-coding-agent-telemetry/\">Hacker News</a> documentava per altr la recolta de telemetria de Windows 11 sora i agent de codes, menter el proget lend el proponiva de eseguì di agent senza dàgh di credenziai."
+              },
+              "kicker": {
+                "fr": "Sécurité",
+                "en": "Security",
+                "de": "Sicherheit",
+                "it": "Sicurezza",
+                "lmo": "Sigurezza"
+              },
+              "urls": [
+                "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+                "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Recherche",
+        "en": "Research",
+        "de": "Forschung",
+        "it": "Ricerca",
+        "lmo": "Ricerca"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "Papers de la semaine",
+            "en": "Papers of the week",
+            "de": "Papers der Woche",
+            "it": "Paper della settimana",
+            "lmo": "Paper de la setemana"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "Des modèles de langage capables de réécrire leurs propres poids",
+                "en": "Language models able to rewrite their own weights",
+                "de": "Sprachmodelle, die ihre eigenen Gewichte umschreiben können",
+                "it": "Modelli di linguaggio capaci di riscrivere i propri pesi",
+                "lmo": "Di modej de lengoeu capaj de rescruv i sò pes proprietari"
+              },
+              "body": {
+                "fr": "Un paper mis en avant sur arXiv montre qu'un modèle de 27 milliards de paramètres peut diagnostiquer ses propres erreurs et corriger ses poids — repoussant la frontière de l'auto-amélioration au niveau des paramètres eux-mêmes. Ce travail s'inscrit dans une série hebdomadaire remarquable sur le post-entraînement : AutoMaster (RUC-AIBOX) propose un post-entraînement autonome où un agent LLM conçoit des « skills » en langage naturel pour rendre <a href=\"https://arxiv.org/abs/2611.26510\">le même modèle meilleur professeur de lui-même</a>, et des travaux publiés en fin de semaine montrent que le post-entraînement RL des transformers de diffusion se réduit à un simple steering d'activations.",
+                "en": "A paper featured on arXiv shows that a 27-billion-parameter model can diagnose its own errors and correct its weights — pushing the frontier of self-improvement down to the parameters themselves. The work sits within a remarkable weekly streak on post-training: AutoMaster (RUC-AIBOX) proposes autonomous post-training where an LLM agent designs natural-language \"skills\" to make <a href=\"https://arxiv.org/abs/2611.26510\">the same model a better teacher of itself</a>, and papers published late in the week show that RL post-training of diffusion transformers reduces to simple activation steering.",
+                "de": "Ein auf arXiv hervorgehobenes Paper zeigt, dass ein Modell mit 27 Milliarden Parametern seine eigenen Fehler diagnostizieren und seine Gewichte korrigieren kann – es verschiebt die Grenze der Selbstverbesserung auf die Ebene der Parameter selbst. Die Arbeit reiht sich in eine bemerkenswerte wöchentliche Serie zum Post-Training ein: AutoMaster (RUC-AIBOX) schlägt ein autonomes Post-Training vor, bei dem ein LLM-Agent «Skills» in natürlicher Sprache entwirft, um <a href=\"https://arxiv.org/abs/2611.26510\">denselben Modell zu einem besseren Lehrer für sich selbst</a> zu machen; und Arbeiten vom Wochenende zeigen, dass das RL-Post-Training von Diffusions-Transformern auf ein simples Steering von Aktivierungen hinausläuft.",
+                "it": "Un paper messo in evidenza su arXiv mostra che un modello da 27 miliardi di parametri può diagnosticare i propri errori e correggere i propri pesi — spingendo la frontiera dell'auto-miglioramento al livello dei parametri stessi. Questo lavoro si inserisce in una serie settimanale notevole sul post-addestramento: AutoMaster (RUC-AIBOX) propone un post-addestramento autonomo in cui un agente LLM concepisce «skill» in linguaggio naturale per rendere <a href=\"https://arxiv.org/abs/2611.26510\">lo stesso modello miglior insegnante di sé stesso</a>, e lavori pubblicati a fine settimana mostrano che il post-addestramento RL dei transformer di diffusione si riduce a un semplice steering di attivazioni.",
+                "lmo": "On paper mettuu in evidenza sora arXiv el mostra che on modell de 27 billion de parameter el pò diagnostegà i sò error propri e correg i sò pes — spingendo la frontiera de l'auto-migliorament al nivell di parameter medemm. Questa la la se inscriv in d'ona seria setemanal remarcabel sora el post-adestrament: AutoMaster (RUC-AIBOX) el propon on post-adestrament autonom indè on agent LLM el disegna di « skills » in lengoeu natural per fà <a href=\"https://arxiv.org/abs/2611.26510\">el midemm modell on mejor professor de lu medemm</a>, e di laurà publicaa a la fin de la setemana mostren che 'l post-adestrament RL di transformer de difusion el se ridus a on semplis steering d'attivitaa."
+              },
+              "kicker": {
+                "fr": "Auto-amélioration",
+                "en": "Self-improvement",
+                "de": "Selbstverbesserung",
+                "it": "Auto-miglioramento",
+                "lmo": "Auto-migliorament"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.26510"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "PaperCritic et le biais des reviewers IA vers les annexes",
+                "en": "PaperCritic and the bias of AI reviewers toward appendices",
+                "de": "PaperCritic und der Bias der KI-Gutachter zugunsten der Anhänge",
+                "it": "PaperCritic e il bias dei reviewer IA verso le appendici",
+                "lmo": "PaperCritic e 'l bias di reviewer IA vers i annex"
+              },
+              "body": {
+                "fr": "Des chercheurs de Carnegie Mellon publient <a href=\"https://arxiv.org/abs/2611.17834\">PaperCritic</a>, un modèle évaluateur entraîné par apprentissage par renforcement pour juger la solidité scientifique des articles. Le contraste avec l'analyse parue sur <a href=\"https://arxiv.org/abs/2611.17811\">2 000 papers</a> d'ACL, EMNLP, COLM et ICLR est frappant : les derniers modèles GPT et Claude tirent environ 50 % de leurs critiques de l'annexe des papiers, contre 8,4 % pour les relecteurs humains — un biais structurel documenté pour la première fois à cette échelle.",
+                "en": "Researchers at Carnegie Mellon publish <a href=\"https://arxiv.org/abs/2611.17834\">PaperCritic</a>, a judge model trained by reinforcement learning to assess the scientific soundness of papers. The contrast with the analysis across <a href=\"https://arxiv.org/abs/2611.17811\">2,000 papers</a> from ACL, EMNLP, COLM and ICLR is striking: the latest GPT and Claude models draw roughly 50% of their critiques from paper appendices, versus 8.4% for human reviewers — a structural bias documented for the first time at this scale.",
+                "de": "Forschende der Carnegie Mellon University veröffentlichen <a href=\"https://arxiv.org/abs/2611.17834\">PaperCritic</a>, ein durch Bestärkungslernen trainiertes Bewertungsmodell für die wissenschaftliche Solidität von Artikeln. Der Kontrast zur Analyse über <a href=\"https://arxiv.org/abs/2611.17811\">2 000 Papers</a> von ACL, EMNLP, COLM und ICLR ist markant: Die neuesten GPT- und Claude-Modelle ziehen rund 50 % ihrer Kritik aus den Anhängen der Papers, gegenüber 8,4 % bei menschlichen Gutachtern – ein struktureller Bias, erstmals in diesem Massstab dokumentiert.",
+                "it": "Ricercatori di Carnegie Mellon pubblicano <a href=\"https://arxiv.org/abs/2611.17834\">PaperCritic</a>, un modello valutatore addestrato per apprendimento per rinforzo per giudicare la solidità scientifica degli articoli. Il contrasto con l'analisi apparsa su <a href=\"https://arxiv.org/abs/2611.17811\">2.000 paper</a> di ACL, EMNLP, COLM e ICLR è striking: gli ultimi modelli GPT e Claude traggono circa il 50% delle loro critiche dall'appendice dei paper, contro l'8,4% dei revisori umani — un bias strutturale documentato per la prima volta a questa scala.",
+                "lmo": "Di ricercador de Carnegie Mellon publichen <a href=\"https://arxiv.org/abs/2611.17834\">PaperCritic</a>, on modell evaluator adestr con l'imparen per rinforz per giudegà la soliditaa scientifega di articuj. El contrast con l'analisi comparsa sora <a href=\"https://arxiv.org/abs/2611.17811\">2 000 paper</a> de ACL, EMNLP, COLM e ICLR l'è strordenari: i ultem modej GPT e Claude tiren circa el 50 % di sò critich de l'annessa di paper, contra l'8,4 % per i reletor uman — on bias struttral documentaa per la prima volta a questa scala."
+              },
+              "kicker": {
+                "fr": "Méta-science",
+                "en": "Meta-science",
+                "de": "Meta-Wissenschaft",
+                "it": "Meta-scienza",
+                "lmo": "Meta-scinza"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.17834"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Depth Pro 2 chez Apple, FastFrames et les avatars temps réel de Kyutai",
+                "en": "Depth Pro 2 at Apple, FastFrames and Kyutai's real-time avatars",
+                "de": "Depth Pro 2 bei Apple, FastFrames und die Echtzeit-Avatare von Kyutai",
+                "it": "Depth Pro 2 da Apple, FastFrames e gli avatar in tempo reale di Kyutai",
+                "lmo": "Depth Pro 2 de Apple, FastFrames e i avatar in temp real de Kyutai"
+              },
+              "body": {
+                "fr": "Apple publie <a href=\"https://arxiv.org/abs/2611.26603\">Depth Pro 2</a>, une famille de modèles de profondeur métrique monoculaire traitant images et vidéo à résolution native, et des <a href=\"https://huggingface.co/blog/rumble-2-flash\">chercheurs publient Rumble-2-Flash</a>, un modèle vocal ouvert de 0,5 milliard de paramètres couvrant plus de 40 langues. Dans la génération vidéo, JVT démontre qu'un DiT à larges patches suffit pour la diffusion vidéo en espace pixel, sans autoencodeur.",
+                "en": "Apple publishes <a href=\"https://arxiv.org/abs/2611.26603\">Depth Pro 2</a>, a family of monocular metric depth models handling images and video at native resolution, and <a href=\"https://huggingface.co/blog/rumble-2-flash\">researchers release Rumble-2-Flash</a>, an open 0.5-billion-parameter voice model covering more than 40 languages. In video generation, JVT demonstrates that a wide-patch DiT suffices for pixel-space video diffusion, without an autoencoder.",
+                "de": "Apple veröffentlicht <a href=\"https://arxiv.org/abs/2611.26603\">Depth Pro 2</a>, eine Familie von monokularen metrischen Tiefenmodellen, die Bilder und Video in nativer Auflösung verarbeiten; <a href=\"https://huggingface.co/blog/rumble-2-flash\">Forschende veröffentlichen Rumble-2-Flash</a>, ein offenes Sprachmodell mit 0,5 Milliarden Parametern, das mehr als 40 Sprachen abdeckt. In der Videogenerierung zeigt JVT, dass ein DiT mit grossen Patches für die Videodiffusion im Pixelraum ohne Autoencoder genügt.",
+                "it": "Apple pubblica <a href=\"https://arxiv.org/abs/2611.26603\">Depth Pro 2</a>, una famiglia di modelli di profondità metrica monoculare che trattano immagini e video a risoluzione nativa, e dei <a href=\"https://huggingface.co/blog/rumble-2-flash\">ricercatori pubblicano Rumble-2-Flash</a>, un modello vocale aperto da 0,5 miliardi di parametri che copre più di 40 lingue. Nella generazione video, JVT dimostra che un DiT a patch larghe basta per la diffusione video in spazio pixel, senza autoencoder.",
+                "lmo": "Apple el publica <a href=\"https://arxiv.org/abs/2611.26603\">Depth Pro 2</a>, ona fameja de modej de profonditaa metrica monoculare che 'l tratta imagin e video a resoluzion nativa, e di <a href=\"https://huggingface.co/blog/rumble-2-flash\">ricercador publichen Rumble-2-Flash</a>, on modell vocal avert de 0,5 billion de parameter che 'l quatta pussee de 40 lengoeu. In de la generazion video, JVT el demostra che on DiT a patch largh el basta per la difusion video in spazzi pixel, senza autoencoder."
+              },
+              "kicker": {
+                "fr": "Multimodal",
+                "en": "Multimodal",
+                "de": "Multimodal",
+                "it": "Multimodale",
+                "lmo": "Multimodal"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.26603",
+                "https://arxiv.org/abs/2611.18549"
+              ]
+            },
+            {
+              "headline": {
+                "fr": "Gamer et AURA : agents VLA et avatars temps réel",
+                "en": "Gamer and AURA: VLA agents and real-time avatars",
+                "de": "Gamer und AURA: VLA-Agenten und Echtzeit-Avatare",
+                "it": "Gamer e AURA: agenti VLA e avatar in tempo reale",
+                "lmo": "Gamer e AURA: agent VLA e avatar in temp real"
+              },
+              "body": {
+                "fr": "Kyutai publie AURA en deux tailles : la version 1,3 milliard de paramètres génère de la vidéo 576p en temps réel sur un seul GPU (20,7 fps) — des avatars audio pilotés en streaming. Dans la robotique, un collectif chinois présente Gamer, un modèle fondation vision-langage-action jouant aux jeux 3D open-world en temps réel, et Grid Robotics propose un cadre d'évaluation et une <a href=\"https://arxiv.org/abs/2611.18359\">feuille de route</a> pour la robotique agentique où un modèle fondation remplace les politiques dédiées par tâche.",
+                "en": "Kyutai releases AURA in two sizes: the 1.3-billion-parameter version generates 576p video in real time on a single GPU (20.7 fps) — audio-driven avatars streamed live. In robotics, a Chinese collective presents Gamer, a vision-language-action foundation model playing open-world 3D games in real time, and Grid Robotics offers an evaluation framework and a <a href=\"https://arxiv.org/abs/2611.18359\">roadmap</a> for agentic robotics where a foundation model replaces per-task dedicated policies.",
+                "de": "Kyutai veröffentlicht AURA in zwei Grössen: Die Version mit 1,3 Milliarden Parametern erzeugt in Echtzeit 576p-Video auf einer einzigen GPU (20,7 fps) – audio-gesteuerte Avatare im Streaming. In der Robotik stellt ein chinesisches Kollektiv Gamer vor, ein Vision-Sprache-Aktions-Fundamentmodell, das Open-World-3D-Spiele in Echtzeit spielt, und Grid Robotics schlägt einen Evaluationsrahmen und eine <a href=\"https://arxiv.org/abs/2611.18359\">Roadmap</a> für die agentische Robotik vor, in der ein Fundamentmodell die aufgaben-spezifischen Policies ersetzt.",
+                "it": "Kyutai pubblica AURA in due taglie: la versione da 1,3 miliardi di parametri genera video 576p in tempo reale su una sola GPU (20,7 fps) — avatar audio pilotati in streaming. Nella robotica, un collettivo cinese presenta Gamer, un modello fondazione visione-linguaggio-azione che gioca a giochi 3D open-world in tempo reale, e Grid Robotics propone una cornice di valutazione e una <a href=\"https://arxiv.org/abs/2611.18359\">roadmap</a> per la robotica agentica in cui un modello fondazione sostituisce le politiche dedicate per compito.",
+                "lmo": "Kyutai el publica AURA in duu grandezz: la version 1,3 billion de parameter la genera video 576p in temp real sora on GPU soeul (20,7 fps) — di avatar audio pilota in streaming. In de la robottega, on colleettiv cinces el presenta Gamer, on modell fondament vision-lengoeu-azion che 'l giuga ai gieugh 3D open-world in temp real, e Grid Robotics el propon on quadher de valutazion e ona <a href=\"https://arxiv.org/abs/2611.18359\">foeuj de strada</a> per la robottega agentega indè on modell fondament el sostituiss i politegh dedica per task."
+              },
+              "kicker": {
+                "fr": "Agents & robots",
+                "en": "Agents & robotics",
+                "de": "Agenten & Roboter",
+                "it": "Agenti & robot",
+                "lmo": "Agent & robot"
+              },
+              "urls": [
+                "https://arxiv.org/abs/2611.18397",
+                "https://arxiv.org/abs/2611.18359"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": {
+        "fr": "Édito hebdo",
+        "en": "Weekly Editorial",
+        "de": "Wocheneditorial",
+        "it": "Editoriale settimanale",
+        "lmo": "Edito setemanal"
+      },
+      "sections": [
+        {
+          "title": {
+            "fr": "La semaine en perspective",
+            "en": "The week in perspective",
+            "de": "Die Woche in Perspektive",
+            "it": "La settimana in prospettiva",
+            "lmo": "La setemana in prospettiva"
+          },
+          "articles": [
+            {
+              "headline": {
+                "fr": "La vérification contre le battage : une semaine charnière pour la confiance dans l'IA",
+                "en": "Verification versus hype: a pivotal week for trust in AI",
+                "de": "Verifikation gegen Trommelwirbel: eine Schlüsselwoche für das Vertrauen in die KI",
+                "it": "La verifica contro il clamore: una settimana di svolta per la fiducia nell'IA",
+                "lmo": "La verificazion contra el battagg: ona setemana-cardinen per la fiducia in de l'IA"
+              },
+              "body": {
+                "fr": "Cinq jours auront suffi pour que la semaine la plus dense de l'année en lancements frontière — GPT-6.2 Astra et Sol, Gemini 4 Neon, MAI Code 2, sept modèles à Ignite — soit reléguée au second plan par une annonce sans conférence de presse ni keynote : une preuve de l'hypothèse de Riemann, formalisée et vérifiée dans Lean, avec des fichiers de vérification publics. Cette inversion hiérarchique dit quelque chose d'important sur l'état du domaine : après des années de benchmarks disputés et de fils Hacker News polémiquant sur la fiabilité des évaluations, le critère de vérité le plus exigeant disponible — la vérification mécanique — a repris le dessus sur le battage.<br><br>La semaine était pourtant partie dans l'autre sens. Le lundi, OpenAI publiait sa contribution à une définition du Modèle Standard sur réseau, avec GPT-6 Astra en collaborateur technique ; le même jour, le programme pour 200 000 chercheurs académiques était élargi. Le jeudi, Anthropic rapportait que Claude avait contribué à résoudre deux problèmes ouverts en physique des trous noirs. Ces annonces partagent un format commun : un modèle frontier, un problème scientifique prestigieux, une revendication de contribution. Jusqu'où la contribution est réelle, et jusqu'où elle relève de la vitrine institutionnelle, c'est précisément ce que la vérification formelle permet désormais de trancher — et c'est pourquoi Riemann change les règles du jeu.<br><br>Car le fait majeur de la semaine n'est pas qu'une IA « ait résolu » Riemann : c'est que la validité de la preuve ne dépend plus de la crédibilité de qui l'annonce. La boucle « génération — vérification — correction » qui se referme ici existe aussi, de façon embryonnaire, dans l'écosystème des agents de code que la semaine a tant fait évoluer : TokenEconomizer apprend des sessions passées, Tool Retrieval compresse le contexte, l'inférence désagrégée de Cerebras optimise le débit des charges agentiques. Partout, la même architecture émergente — un générateur fertile mais peu fiable, adossé à un vérificateur rigoureux mais étroit —, qui était jusque-là l'apanage du code et devient désormais celui des mathématiques.<br><br>L'entrée en Bourse d'Anthropic, bouclée à 93,5 milliards de dollars avec exercice intégral de l'option des souscripteurs, raconte la même histoire sous un autre angle. Le marché a payé au prix fort une promesse de capacités scientifiques — puis, dès le lendemain, une vague de vente sur les valeurs d'IA a fait perdre au Nasdaq l'intégralité de ses gains annuels. Les investisseurs, comme les mathématiciens, cherchent un mécanisme de vérification de la promesse IA ; la volatilité du deuxième jour de cotation suggère qu'ils ne l'ont pas encore trouvé.<br><br>Les revers de la semaine rappellent enfin que cette infrastructure de confiance reste à construire bien en deçà des sommets théoriques : OpenRouter et Together AI ont chacun divulgué des incidents de traitement de données et une fuite de prompts remontant à l'été ; l'analyse des reviewers IA a montré qu'ils tirent la moitié de leurs critiques des annexes des papiers ; et le projet Pandex tente, presque seul, de rendre le droit européen des agents lisible par machine. La vérification n'est pas seulement un accélérateur de l'IA de raisonnement : elle est aussi, de plus en plus visiblement, sa condition de légitimité.<br><br>La leçon de la semaine, pour les six mois à venir : les labos qui sauront attacher leurs revendications à des artefacts vérifiables — fichiers Lean, jeux d'évaluation publics, preuves reproductibles — imposeront leur rythme. Les autres devront se contenter de la page d'accueil de Hacker News pendant vingt-quatre heures.",
+                "en": "Five days were enough for the year's densest week of frontier launches — GPT-6.2 Astra and Sol, Gemini 4 Neon, MAI Code 2, seven models at Ignite — to be relegated to the background by an announcement without press conference or keynote: a proof of the Riemann hypothesis, formalized and verified in Lean, with public verification files. This reversal in hierarchy says something important about the state of the field: after years of disputed benchmarks and Hacker News threads arguing over evaluation reliability, the most demanding criterion of truth available — mechanical verification — has regained the upper hand over hype.<br><br>The week had nonetheless started in the other direction. On Monday, OpenAI published its contribution to a definition of the lattice Standard Model, with GPT-6 Astra as technical collaborator; the same day, the program for 200,000 academic researchers was expanded. On Thursday, Anthropic reported that Claude had contributed to solving two open problems in black hole physics. These announcements share a common format: a frontier model, a prestigious scientific problem, a claim of contribution. How far the contribution is real, and how far it amounts to institutional showcase, is precisely what formal verification can now settle — and that is why Riemann changes the rules of the game.<br><br>For the major event of the week is not that an AI \"solved\" Riemann: it is that the validity of the proof no longer depends on the credibility of whoever announces it. The \"generate — verify — correct\" loop that is closing here also exists, in embryonic form, in the coding-agent ecosystem that the week did so much to reshape: TokenEconomizer learns from past sessions, Tool Retrieval compresses context, Cerebras's disaggregated inference optimizes throughput for agentic workloads. Everywhere, the same emerging architecture — a fertile but unreliable generator, backed by a rigorous but narrow verifier — which until now was the preserve of code and is now that of mathematics.<br><br>Anthropic's IPO, closed at $93.5 billion with the subscribers' option fully exercised, tells the same story from another angle. The market paid a premium for a promise of scientific capability — then, the very next day, a wave of selling in AI stocks wiped out the Nasdaq's entire annual gain. Investors, like mathematicians, are looking for a mechanism to verify the AI promise; the volatility of the second trading day suggests they have not found it yet.<br><br>The week's setbacks finally remind us that this trust infrastructure remains to be built well below the theoretical summits: OpenRouter and Together AI each disclosed data processing incidents and a prompt leak dating back to the summer; the analysis of AI reviewers showed they draw half their critiques from paper appendices; and the Pandex project is trying, almost single-handedly, to make European agent law machine-readable. Verification is not just an accelerator of reasoning AI: it is also, increasingly visibly, its condition of legitimacy.<br><br>The lesson of the week, for the next six months: the labs that manage to attach their claims to verifiable artifacts — Lean files, public evaluation suites, reproducible proofs — will set the pace. The others will have to settle for the Hacker News front page for twenty-four hours.",
+                "de": "Fünf Tage genügten, damit die lancierungsdichteste Woche des Jahres an der Frontier – GPT-6.2 Astra und Sol, Gemini 4 Neon, MAI Code 2, sieben Modelle an der Ignite – durch eine Ankündigung ohne Pressekonferenz und Keynote in den Hintergrund gedrängt wurde: ein Beweis der Riemannschen Hypothese, formalisiert und verifiziert in Lean, mit öffentlichen Verifikationsdateien. Diese hierarchische Umkehrung sagt etwas Wichtiges über den Zustand des Feldes aus: Nach Jahren umstrittener Benchmarks und Hacker-News-Threads, die über die Zuverlässigkeit von Evaluationen stritten, hat das strengste verfügbare Wahrheitskriterium – die mechanische Verifikation – wieder die Oberhand über das Marketing gewonnen.<br><br>Die Woche hatte freilich anders begonnen. Am Montag veröffentlichte OpenAI seinen Beitrag zu einer Definition des Standardmodells auf dem Gitter, mit GPT-6 Astra als technischem Mitarbeiter; am selben Tag wurde das Programm für 200 000 akademische Forschende erweitert. Am Donnerstag berichtete Anthropic, Claude habe zur Lösung von zwei offenen Problemen der Physik Schwarzer Löcher beigetragen. Diese Ankündigungen teilen ein gemeinsames Format: ein Frontier-Modell, ein prestigereiches wissenschaftliches Problem, ein Beanspruchen von Beitrag. Wie weit der Beitrag real ist und wie weit er institutionelle Schaufensterpolitik bleibt – genau das kann die formale Verifikation nun entscheiden, und deshalb ändert Riemann die Spielregeln.<br><br>Denn die eigentliche Tatsache der Woche ist nicht, dass eine KI Riemann «gelöst» hat: Es ist, dass die Gültigkeit des Beweises nicht mehr von der Glaubwürdigkeit dessen abhängt, der ihn ankündigt. Die Schleife «Generierung – Verifikation – Korrektur», die sich hier schliesst, existiert auch, in embryonaler Form, im Ökosystem der Code-Agenten, das die Woche so stark geprägt hat: TokenEconomizer lernt aus vergangenen Sitzungen, Tool Retrieval komprimiert den Kontext, Cerebras’ dis-aggregierte Inferenz optimiert den Durchsatz agentischer Workloads. Überall dieselbe emergente Architektur – ein fruchtbarer, aber wenig zuverlässiger Generator, flankiert von einem strengen, aber engen Verifikator –, die bisher dem Code vorbehalten war und nun die Mathematik erfasst.<br><br>Der Börsengang von Anthropic, bei 93,5 Milliarden Dollar abgeschlossen bei voller Ausübung der Zeichneroption, erzählt dieselbe Geschichte aus einem anderen Blickwinkel. Der Markt hat ein Versprechen wissenschaftlicher Fähigkeiten teuer bezahlt – und schon am Folgetag liess eine Verkaufswelle bei KI-Werten den Nasdaq die Gesamtheit seiner Jahresgewinne verlieren. Die Investoren suchen, wie die Mathematiker, einen Mechanismus zur Verifikation des KI-Versprechens; die Volatilität des zweiten Handelstags legt nahe, dass sie ihn noch nicht gefunden haben.<br><br>Die Rückschläge der Woche erinnern schliesslich daran, dass diese Vertrauensinfrastruktur weit unterhalb der theoretischen Gipfel erst noch zu bauen ist: OpenRouter und Together AI haben je einen Datenverarbeitungsvorfall und eine bis in den Sommer zurückreichende Prompt-Leakage offengelegt; die Analyse der KI-Gutachter zeigte, dass sie die Hälfte ihrer Kritik aus den Anhängen der Papers ziehen; und das Projekt Pandex versucht, nahezu allein, das europäische Agentenrecht maschinenlesbar zu machen. Verifikation ist nicht nur ein Beschleuniger der KI des Denkens: Sie ist, zunehmend sichtbar, auch ihre Legitimationsbedingung.<br><br>Die Lehre der Woche für die kommenden sechs Monate: Die Labore, die ihre Beanspruchungen an überprüfbare Artefakte binden können – Lean-Dateien, öffentliche Evaluations-Suiten, reproduzierbare Beweise –, werden das Tempo bestimmen. Die andern müssen sich mit der Startseite von Hacker News für vierundzwanzig Stunden begnügen.",
+                "it": "Basteranno cinque giorni perché la settimana più densa dell'anno in lanci frontier — GPT-6.2 Astra e Sol, Gemini 4 Neon, MAI Code 2, sette modelli a Ignite — venga relegata in secondo piano da un annuncio senza conferenza stampa né keynote: una prova dell'ipotesi di Riemann, formalizzata e verificata in Lean, con file di verifica pubblici. Questa inversione gerarchica dice qualcosa di importante sullo stato del settore: dopo anni di benchmark contestati e di thread Hacker News polemici sull'affidabilità delle valutazioni, il criterio di verità più esigente disponibile — la verifica meccanica — ha ripreso il sopravvento sul clamore.<br><br>La settimana era però partita nell'altra direzione. Il lunedì, OpenAI pubblicava il suo contributo a una definizione del Modello Standard su reticolo, con GPT-6 Astra come collaboratore tecnico; lo stesso giorno, il programma per 200.000 ricercatori accademici veniva ampliato. Il giovedì, Anthropic riferiva che Claude aveva contribuito a risolvere due problemi aperti in fisica dei buchi neri. Questi annunci condividono un formato comune: un modello frontier, un problema scientifico prestigioso, una rivendicazione di contributo. Fino a che punto il contributo è reale, e fino a che punto rientra nella vetrina istituzionale, è esattamente ciò che la verifica formale permette ormai di decidere — ed è per questo che Riemann cambia le regole del gioco.<br><br>Poiché il fatto maggiore della settimana non è che un'IA «abbia risolto» Riemann: è che la validità della prova non dipende più dalla credibilità di chi la annuncia. Il ciclo «generazione — verifica — correzione» che qui si chiude esiste anche, in forma embrionale, nell'ecosistema degli agenti di codice che la settimana ha tanto fatto evolvere: TokenEconomizer impara dalle sessioni passate, Tool Retrieval comprime il contesto, l'inferenza disaggregata di Cerebras ottimizza il throughput dei carichi agentici. Ovunque, la stessa architettura emergente — un generatore fertile ma poco affidabile, affiancato da un verificatore rigoroso ma ristretto —, finora appannaggio del codice e ormai anche della matematica.<br><br>L'ingresso in Borsa di Anthropic, chiuso a 93,5 miliardi di dollari con esercizio integrale dell'opzione dei sottoscrittori, racconta la stessa storia sotto un'altra angolazione. Il mercato ha pagato a caro prezzo una promessa di capacità scientifiche — poi, fin dal giorno dopo, un'ondata di vendite sui titoli IA ha fatto perdere al Nasdaq l'intero dei guadagni annuali. Gli investitori, come i matematici, cercano un meccanismo di verifica della promessa IA; la volatilità del secondo giorno di quotazione suggerisce che non lo hanno ancora trovato.<br><br>Le battute d'arresto della settimana ricordano infine che questa infrastruttura di fiducia resta da costruire ben al di sotto delle vette teoriche: OpenRouter e Together AI hanno ciascuno divulgato incidenti di trattamento dei dati e una fuga di prompt risalente all'estate; l'analisi dei reviewer IA ha mostrato che traggono metà delle loro critiche dalle appendici dei paper; e il progetto Pandex tenta, quasi da solo, di rendere il diritto europeo degli agenti leggibile a macchina. La verifica non è solo un acceleratore dell'IA di ragionamento: è anche, sempre più visibilmente, la sua condizione di legittimità.<br><br>La lezione della settimana, per i sei mesi a venire: i laboratori che sapranno legare le proprie rivendicazioni ad artefatti verificabili — file Lean, set di valutazione pubblici, prove riproducibili — imporranno il proprio ritmo. Gli altri dovranno accontentarsi della home page di Hacker News per ventiquattro ore.",
+                "lmo": "Cinch dì hinn staa asee perché la setemana pussee densa de l'ann in lançament frontiera — GPT-6.2 Astra e Sol, Gemini 4 Neon, MAI Code 2, set modej a Ignite — la sia relegada al second pian de n'anunzia senza conferenza stampa né keynote: ona prova de l'ipotesi de Riemann, formalizada e verificada in Lean, con di file de verificazion publegh. Questa inversion gerarchega la dis quaicossa d'important sora el stat del domini: dopo di ann de benchmark contestaa e de file Hacker News polemega sora la fidabilitaa di valutazion, el criteri de veritaa pussee esigent disponibel — la verificazion mecanega — l'ha ripresa el sora sora el battagg.<br><br>La setemana l'era nanmò partida in de l'oltra direzion. El lundes, OpenAI el publicava la soa contribuzion a ona definizion del Modell Standard sora ret, con GPT-6 Astra 'me colaborador tecnegh; el midemm dì, el program per 200 000 ricercador academegh l'era staa allargaa. El giovedì, Anthropic el rapportava che Claude l'aveva contribuii a resoeulv duu problema avert in fisega di bus negher. Sti anunzi chì condividen on format comun: on modell frontier, on problema scientifegh prestigiós, ona revendicazion de contribuzion. Fin indè la contribuzion l'è real, e fin indè la partegnen a la vitrina istituzional, l'è propi quell che la verificazion formala la permet ades de decide — e l'è per quest che Riemann el cambia i regoeu del gieugh.<br><br>Perchè el fatt maggior de la setemana l'è no che n'IA « l'abbia resolt » Riemann: l'è che la validitaa de la prova la depend pu de la credibilitaa de chi che la anunzia. La preja « generazion — verificazion — correzion » che chì la se sara la esist anca, in manera embrional, in de l'ecosistema di agent de codes che la setemana l'ha tant faa evolv: TokenEconomizer el impara di session passaa, Tool Retrieval el comprimm el contest, l'inferenzz desagregada de Cerebras l'optimizza el fluss di cargh agentich. Depertutt, la midemma architettura emergenta — on generator fertoel ma pocch fidabel, tacaa a on verificator rigoros ma strecc —, che fin adess l'era el privilegg del codes e la deven ades quell di matemateghe.<br><br>L'intrada in Borsa de Anthropic, serrada a 93,5 billion de dollar con esercizzi integral de l'opzion di sotscriber, la cunta la midemma storia de n'oltri angol. El mercaa l'ha pagaa a car prezzi ona promessa de capacitaa scientifeghe — po, del dì dopo, ona recia de vendita sora i valor de IA l'ha faa perd al Nasdaq l'integralitaa di sò guadagn annuai. I investidor, 'me i matemategy, cerchen on mecanismo de verificazion de la promessa IA; la volatilitaa del second dì de cotazion la sgeriss che i l'hann nanmò trovaa.<br><br>I revers de la setemana regorden a la fin che questa infrastrutura de fiducia la resta de fà su ben adree di somm teoregh: OpenRouter e Together AI hann divulgaa ognun incident de trattament di dacc e ona lossida de prompt che la torna a l'estaa; l'analisi di reviewer IA l'ha mostraa che tiren la metaa di sò critich di annex di paper; e 'l proget Pandex el prova, quas soeul, a fà vegnì el diritt europee di agent leggibel a la macchina. La verificazion l'è no domà on acelerador de l'IA de resonament: l'è anca, semper pussee visibelment, la soa condizion de legittimitaa.<br><br>La lession de la setemana, per i ses mes che vegnen: i laboratori che saparan tacà i sò revendicazion a artifatt verificabij — file Lean, gioeugh de valutazion publegh, prov riproducibij — imporrann el sò ritm. I olter dovran contentàss de la pagina inizial de Hacker News per vint-quatter or."
+              },
+              "kicker": {
+                "fr": "Édito",
+                "en": "Editorial",
+                "de": "Editorial",
+                "it": "Editoriale",
+                "lmo": "Edito"
+              },
+              "wire": {
+                "fr": "Semaine ISO 2026-W47",
+                "en": "ISO week 2026-W47",
+                "de": "ISO-Woche 2026-W47",
+                "it": "Settimana ISO 2026-W47",
+                "lmo": "Setemana ISO 2026-W47"
+              },
+              "urls": [
+                "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+                "https://openai.com/index/step-toward-defining-the-standard-model"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
